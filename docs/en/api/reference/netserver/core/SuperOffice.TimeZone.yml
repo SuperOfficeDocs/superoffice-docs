@@ -20,7 +20,6 @@ references:
   commentId: T:SuperOffice.TimeZone.ITimeConverterDataFetcher
   parent: SuperOffice.TimeZone
   isExternal: true
-  href: SuperOffice.TimeZone.ITimeConverterDataFetcher.html
   name: ITimeConverterDataFetcher
   nameWithType: ITimeConverterDataFetcher
   fullName: SuperOffice.TimeZone.ITimeConverterDataFetcher
@@ -28,34 +27,12 @@ references:
   commentId: T:SuperOffice.TimeZone.SoTimeConverterDataFetcher
   parent: SuperOffice.TimeZone
   isExternal: true
-  href: SuperOffice.TimeZone.SoTimeConverterDataFetcher.html
   name: SoTimeConverterDataFetcher
   nameWithType: SoTimeConverterDataFetcher
   fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher
 - uid: SuperOffice.TimeZone
   commentId: N:SuperOffice.TimeZone
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.TimeZone
   nameWithType: SuperOffice.TimeZone
   fullName: SuperOffice.TimeZone
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.TimeZone
-    name: TimeZone
-    isExternal: true
-    href: SuperOffice.TimeZone.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.TimeZone
-    name: TimeZone
-    isExternal: true
-    href: SuperOffice.TimeZone.html

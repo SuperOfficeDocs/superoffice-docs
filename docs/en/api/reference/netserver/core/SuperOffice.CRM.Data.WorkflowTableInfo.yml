@@ -60,21 +60,14 @@ items:
   nameWithType: WorkflowTableInfo
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "Table 'workflow': SuperOffice specific info about a workflow"
-  remarks: >-
-    An instance of this class represents one instance of this table in an SQL statement. In most
-
-    cases each table appears only once in a SELECT, but in cases where you need to self-join, or
-
-    there are multiple occurrences for other reasons (typically additional restrictions in the joins),
-
-    then you will need multiple instances. <br />
-
-    Instances of this class are created by calling TablesInfo.GetWorkflowInfo().
-  example: []
+  summary: "\nTable &apos;workflow&apos;: SuperOffice specific info about a workflow\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetWorkflowInfo()\"></see>.\n"
   syntax:
     content: >-
       [DatabaseTable("workflow")]
@@ -83,7 +76,9 @@ items:
     content.vb: >-
       <DatabaseTable("workflow")>
 
-      Public Class WorkflowTableInfo Inherits TableInfo Implements ICloneable
+      Public Class WorkflowTableInfo
+          Inherits TableInfo
+          Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.Data.SQL.TableInfo
@@ -104,12 +99,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.WorkflowTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.WorkflowTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -119,6 +108,12 @@ items:
     arguments:
     - type: System.String
       value: workflow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.DictionaryTableName
   commentId: F:SuperOffice.CRM.Data.WorkflowTableInfo.DictionaryTableName
   id: DictionaryTableName
@@ -130,16 +125,24 @@ items:
   nameWithType: WorkflowTableInfo.DictionaryTableName
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.DictionaryTableName
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Conceptual name of table Workflow in the database dictionary: workflow'
-  example: []
+  summary: "\nConceptual name of table Workflow in the database dictionary: workflow\n"
   syntax:
     content: public const string DictionaryTableName = "workflow"
     return:
       type: System.String
     content.vb: Public Const DictionaryTableName As String = "workflow"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociates(System.Int32[])
   commentId: M:SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociates(System.Int32[])
   id: IdxVisibleForAssociates(System.Int32[])
@@ -147,18 +150,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxVisibleForAssociates(int[])
-  nameWithType: WorkflowTableInfo.IdxVisibleForAssociates(int[])
-  fullName: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociates(int[])
+  name: IdxVisibleForAssociates(Int32[])
+  nameWithType: WorkflowTableInfo.IdxVisibleForAssociates(Int32[])
+  fullName: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociates(System.Int32[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index VisibleForAssociates, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">VisibleForAssociates</td><td class="description">Array of references to the visible for associates</td></tr></tbody></table>
-  example: []
+  summary: "\nShortcut method for looking up using the database index VisibleForAssociates, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>VisibleForAssociates</td><td>Array of references to the visible for associates</td></tr></tbody></table>\n"
   syntax:
     content: public Restriction IdxVisibleForAssociates(int[] visibleForAssociates)
     parameters:
@@ -168,9 +170,13 @@ items:
       type: SuperOffice.Data.SQL.Restriction
     content.vb: Public Function IdxVisibleForAssociates(visibleForAssociates As Integer()) As Restriction
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociates*
-  nameWithType.vb: WorkflowTableInfo.IdxVisibleForAssociates(Integer())
-  fullName.vb: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociates(Integer())
-  name.vb: IdxVisibleForAssociates(Integer())
+  nameWithType.vb: WorkflowTableInfo.IdxVisibleForAssociates(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociates(System.Int32())
+  name.vb: IdxVisibleForAssociates(Int32())
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroups(System.Int32[],System.Int32[])
   commentId: M:SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroups(System.Int32[],System.Int32[])
   id: IdxVisibleForAssociatesVisibleForGroups(System.Int32[],System.Int32[])
@@ -178,18 +184,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxVisibleForAssociatesVisibleForGroups(int[], int[])
-  nameWithType: WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroups(int[], int[])
-  fullName: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroups(int[], int[])
+  name: IdxVisibleForAssociatesVisibleForGroups(Int32[], Int32[])
+  nameWithType: WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroups(Int32[], Int32[])
+  fullName: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroups(System.Int32[], System.Int32[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index VisibleForAssociatesVisibleForGroups, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">VisibleForAssociates</td><td class="description">Array of references to the visible for associates</td></tr><tr><td class="term">VisibleForGroups</td><td class="description">Array of references to the visible for groups</td></tr></tbody></table>
-  example: []
+  summary: "\nShortcut method for looking up using the database index VisibleForAssociatesVisibleForGroups, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>VisibleForAssociates</td><td>Array of references to the visible for associates</td></tr><tr><td>VisibleForGroups</td><td>Array of references to the visible for groups</td></tr></tbody></table>\n"
   syntax:
     content: public Restriction IdxVisibleForAssociatesVisibleForGroups(int[] visibleForAssociates, int[] visibleForGroups)
     parameters:
@@ -201,9 +206,13 @@ items:
       type: SuperOffice.Data.SQL.Restriction
     content.vb: Public Function IdxVisibleForAssociatesVisibleForGroups(visibleForAssociates As Integer(), visibleForGroups As Integer()) As Restriction
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroups*
-  nameWithType.vb: WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroups(Integer(), Integer())
-  fullName.vb: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroups(Integer(), Integer())
-  name.vb: IdxVisibleForAssociatesVisibleForGroups(Integer(), Integer())
+  nameWithType.vb: WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroups(Int32(), Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroups(System.Int32(), System.Int32())
+  name.vb: IdxVisibleForAssociatesVisibleForGroups(Int32(), Int32())
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows(System.Int32[],System.Int32[],System.Int32[])
   commentId: M:SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows(System.Int32[],System.Int32[],System.Int32[])
   id: IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows(System.Int32[],System.Int32[],System.Int32[])
@@ -211,18 +220,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows(int[], int[], int[])
-  nameWithType: WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows(int[], int[], int[])
-  fullName: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows(int[], int[], int[])
+  name: IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows(Int32[], Int32[], Int32[])
+  nameWithType: WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows(Int32[], Int32[], Int32[])
+  fullName: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows(System.Int32[], System.Int32[], System.Int32[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index VisibleForAssociatesVisibleForGroupsRemoveFromFlows, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">VisibleForAssociates</td><td class="description">Array of references to the visible for associates</td></tr><tr><td class="term">VisibleForGroups</td><td class="description">Array of references to the visible for groups</td></tr><tr><td class="term">RemoveFromFlows</td><td class="description">Workflows to remove the participants from when they are enrolled in this workflow</td></tr></tbody></table>
-  example: []
+  summary: "\nShortcut method for looking up using the database index VisibleForAssociatesVisibleForGroupsRemoveFromFlows, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>VisibleForAssociates</td><td>Array of references to the visible for associates</td></tr><tr><td>VisibleForGroups</td><td>Array of references to the visible for groups</td></tr><tr><td>RemoveFromFlows</td><td>Workflows to remove the participants from when they are enrolled in this workflow</td></tr></tbody></table>\n"
   syntax:
     content: public Restriction IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows(int[] visibleForAssociates, int[] visibleForGroups, int[] removeFromFlows)
     parameters:
@@ -236,9 +244,13 @@ items:
       type: SuperOffice.Data.SQL.Restriction
     content.vb: Public Function IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows(visibleForAssociates As Integer(), visibleForGroups As Integer(), removeFromFlows As Integer()) As Restriction
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows*
-  nameWithType.vb: WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows(Integer(), Integer(), Integer())
-  fullName.vb: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows(Integer(), Integer(), Integer())
-  name.vb: IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows(Integer(), Integer(), Integer())
+  nameWithType.vb: WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows(Int32(), Int32(), Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows(System.Int32(), System.Int32(), System.Int32())
+  name.vb: IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows(Int32(), Int32(), Int32())
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -250,14 +262,13 @@ items:
   nameWithType: WorkflowTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.DictionaryTableNumber
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Table number for table Workflow in the database dictionary; potentially changes between databases, but
-
-    always the same over the lifetime of any single database
-  example: []
+  summary: "\nTable number for table Workflow in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
   syntax:
     content: public int DictionaryTableNumber { get; }
     parameters: []
@@ -265,6 +276,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.RuntimeDefinition
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.RuntimeDefinition
   id: RuntimeDefinition
@@ -276,32 +293,28 @@ items:
   nameWithType: WorkflowTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.RuntimeDefinition
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Definition of the table as described in the deployed runtime dictionary
-  example: []
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.Definition
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.Definition
   id: Definition
@@ -313,11 +326,13 @@ items:
   nameWithType: WorkflowTableInfo.Definition
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.Definition
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Definition of the table as described in the deployed runtime dictionary
-  example: []
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
     content: public override SoTable Definition { get; }
     parameters: []
@@ -326,6 +341,14 @@ items:
     content.vb: Public Overrides ReadOnly Property Definition As SoTable
   overridden: SuperOffice.Data.SQL.TableInfo.Definition
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.WorkflowId
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.WorkflowId
   id: WorkflowId
@@ -337,14 +360,13 @@ items:
   nameWithType: WorkflowTableInfo.WorkflowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.WorkflowId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'workflow_id' in table 'workflow': Dictionary type PK, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Primary key
-  example: []
+  summary: "\nField &apos;workflow_id&apos; in table &apos;workflow&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
   syntax:
     content: public Int32FieldInfo WorkflowId { get; }
     parameters: []
@@ -352,6 +374,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property WorkflowId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.WorkflowId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.Name
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.Name
   id: Name
@@ -363,14 +391,13 @@ items:
   nameWithType: WorkflowTableInfo.Name
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.Name
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'name' in table 'workflow': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Name of the workflow
-  example: []
+  summary: "\nField &apos;name&apos; in table &apos;workflow&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nName of the workflow\n"
   syntax:
     content: public StringFieldInfo Name { get; }
     parameters: []
@@ -378,6 +405,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Name As StringFieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.Description
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.Description
   id: Description
@@ -389,14 +422,13 @@ items:
   nameWithType: WorkflowTableInfo.Description
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.Description
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'description' in table 'workflow': Dictionary type String[4001], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Description of the workflow
-  example: []
+  summary: "\nField &apos;description&apos; in table &apos;workflow&apos;: Dictionary type String[4001], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDescription of the workflow\n"
   syntax:
     content: public StringFieldInfo Description { get; }
     parameters: []
@@ -404,6 +436,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Description As StringFieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.Description*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.Status
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.Status
   id: Status
@@ -415,14 +453,13 @@ items:
   nameWithType: WorkflowTableInfo.Status
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.Status
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'status' in table 'workflow': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.WorkflowDefinitionStatus" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Status of the workflow definition
-  example: []
+  summary: "\nField &apos;status&apos; in table &apos;workflow&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.WorkflowDefinitionStatus\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nStatus of the workflow definition\n"
   syntax:
     content: public WorkflowDefinitionStatusFieldInfo Status { get; }
     parameters: []
@@ -430,6 +467,12 @@ items:
       type: SuperOffice.Data.SQL.WorkflowDefinitionStatusFieldInfo
     content.vb: Public ReadOnly Property Status As WorkflowDefinitionStatusFieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.Status*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.AssociateId
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.AssociateId
   id: AssociateId
@@ -441,14 +484,13 @@ items:
   nameWithType: WorkflowTableInfo.AssociateId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.AssociateId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'associate_id' in table 'workflow': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Associate who owns this workflow
-  example: []
+  summary: "\nField &apos;associate_id&apos; in table &apos;workflow&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nAssociate who owns this workflow\n"
   syntax:
     content: public Int32FieldInfo AssociateId { get; }
     parameters: []
@@ -456,6 +498,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property AssociateId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.GroupId
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.GroupId
   id: GroupId
@@ -467,14 +515,13 @@ items:
   nameWithType: WorkflowTableInfo.GroupId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.GroupId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'group_id' in table 'workflow': Dictionary type FK, target: UserGroup, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Group id of *original* owning associate, so that changes to owner's primary group do not influence group membership of this workflow.
-  example: []
+  summary: "\nField &apos;group_id&apos; in table &apos;workflow&apos;: Dictionary type FK, target: UserGroup, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nGroup id of *original* owning associate, so that changes to owner&apos;s primary group do not influence group membership of this workflow.\n"
   syntax:
     content: public Int32FieldInfo GroupId { get; }
     parameters: []
@@ -482,6 +529,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property GroupId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.GroupId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.StartOnlyOnce
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.StartOnlyOnce
   id: StartOnlyOnce
@@ -493,14 +546,13 @@ items:
   nameWithType: WorkflowTableInfo.StartOnlyOnce
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.StartOnlyOnce
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'start_only_once' in table 'workflow': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    A contact can start this flow only once
-  example: []
+  summary: "\nField &apos;start_only_once&apos; in table &apos;workflow&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nA contact can start this flow only once\n"
   syntax:
     content: public UInt16FieldInfo StartOnlyOnce { get; }
     parameters: []
@@ -508,6 +560,12 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property StartOnlyOnce As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.StartOnlyOnce*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.JumpToFinish
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.JumpToFinish
   id: JumpToFinish
@@ -519,14 +577,13 @@ items:
   nameWithType: WorkflowTableInfo.JumpToFinish
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.JumpToFinish
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'jump_to_finish' in table 'workflow': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    When a goal is reached, contact jumps directly to finished
-  example: []
+  summary: "\nField &apos;jump_to_finish&apos; in table &apos;workflow&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhen a goal is reached, contact jumps directly to finished\n"
   syntax:
     content: public UInt16FieldInfo JumpToFinish { get; }
     parameters: []
@@ -534,6 +591,12 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property JumpToFinish As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.JumpToFinish*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForAll
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForAll
   id: VisibleForAll
@@ -545,14 +608,13 @@ items:
   nameWithType: WorkflowTableInfo.VisibleForAll
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForAll
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'visible_for_all' in table 'workflow': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    True if visible for all
-  example: []
+  summary: "\nField &apos;visible_for_all&apos; in table &apos;workflow&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTrue if visible for all\n"
   syntax:
     content: public UInt16FieldInfo VisibleForAll { get; }
     parameters: []
@@ -560,6 +622,12 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property VisibleForAll As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForAll*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForAssociates
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForAssociates
   id: VisibleForAssociates
@@ -571,14 +639,13 @@ items:
   nameWithType: WorkflowTableInfo.VisibleForAssociates
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForAssociates
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'visible_for_associates' in table 'workflow': Dictionary type FKArray, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Array of references to the visible for associates
-  example: []
+  summary: "\nField &apos;visible_for_associates&apos; in table &apos;workflow&apos;: Dictionary type FKArray, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nArray of references to the visible for associates\n"
   syntax:
     content: public Int32ArrayFieldInfo VisibleForAssociates { get; }
     parameters: []
@@ -586,6 +653,12 @@ items:
       type: SuperOffice.Data.SQL.Int32ArrayFieldInfo
     content.vb: Public ReadOnly Property VisibleForAssociates As Int32ArrayFieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForAssociates*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForGroups
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForGroups
   id: VisibleForGroups
@@ -597,14 +670,13 @@ items:
   nameWithType: WorkflowTableInfo.VisibleForGroups
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForGroups
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'visible_for_groups' in table 'workflow': Dictionary type FKArray, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Array of references to the visible for groups
-  example: []
+  summary: "\nField &apos;visible_for_groups&apos; in table &apos;workflow&apos;: Dictionary type FKArray, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nArray of references to the visible for groups\n"
   syntax:
     content: public Int32ArrayFieldInfo VisibleForGroups { get; }
     parameters: []
@@ -612,6 +684,12 @@ items:
       type: SuperOffice.Data.SQL.Int32ArrayFieldInfo
     content.vb: Public ReadOnly Property VisibleForGroups As Int32ArrayFieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForGroups*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.Registered
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.Registered
   id: Registered
@@ -623,14 +701,13 @@ items:
   nameWithType: WorkflowTableInfo.Registered
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.Registered
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'registered' in table 'workflow': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Registered when
-  example: []
+  summary: "\nField &apos;registered&apos; in table &apos;workflow&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered when\n"
   syntax:
     content: public DateTimeFieldInfo Registered { get; }
     parameters: []
@@ -638,6 +715,12 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.Registered*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -649,14 +732,13 @@ items:
   nameWithType: WorkflowTableInfo.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.RegisteredAssociateId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'registered_associate_id' in table 'workflow': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Registered by whom
-  example: []
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;workflow&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
   syntax:
     content: public Int32FieldInfo RegisteredAssociateId { get; }
     parameters: []
@@ -664,6 +746,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.Updated
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.Updated
   id: Updated
@@ -675,14 +763,13 @@ items:
   nameWithType: WorkflowTableInfo.Updated
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.Updated
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'updated' in table 'workflow': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Last updated when
-  example: []
+  summary: "\nField &apos;updated&apos; in table &apos;workflow&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated when\n"
   syntax:
     content: public DateTimeFieldInfo Updated { get; }
     parameters: []
@@ -690,6 +777,12 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.Updated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedAssociateId
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -701,14 +794,13 @@ items:
   nameWithType: WorkflowTableInfo.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedAssociateId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'updated_associate_id' in table 'workflow': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Last updated by whom
-  example: []
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;workflow&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
   syntax:
     content: public Int32FieldInfo UpdatedAssociateId { get; }
     parameters: []
@@ -716,6 +808,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedCount
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedCount
   id: UpdatedCount
@@ -727,14 +825,13 @@ items:
   nameWithType: WorkflowTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedCount
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'updatedCount' in table 'workflow': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Number of updates made to this record
-  example: []
+  summary: "\nField &apos;updatedCount&apos; in table &apos;workflow&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of updates made to this record\n"
   syntax:
     content: public UInt16FieldInfo UpdatedCount { get; }
     parameters: []
@@ -742,6 +839,12 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.UseWorkflowStart
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.UseWorkflowStart
   id: UseWorkflowStart
@@ -753,14 +856,13 @@ items:
   nameWithType: WorkflowTableInfo.UseWorkflowStart
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.UseWorkflowStart
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'use_workflow_start' in table 'workflow': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Start the flow running with enrolled participants at the given time
-  example: []
+  summary: "\nField &apos;use_workflow_start&apos; in table &apos;workflow&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nStart the flow running with enrolled participants at the given time\n"
   syntax:
     content: public UInt16FieldInfo UseWorkflowStart { get; }
     parameters: []
@@ -768,6 +870,12 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property UseWorkflowStart As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.UseWorkflowStart*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.WorkflowStart
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.WorkflowStart
   id: WorkflowStart
@@ -779,14 +887,13 @@ items:
   nameWithType: WorkflowTableInfo.WorkflowStart
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.WorkflowStart
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'workflow_start' in table 'workflow': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
-
-    When to start running the workflow. Until start, any enrolled members are not running through the flow, just waiting. Datetime is interpreted in stored timezone or as UTC
-  example: []
+  summary: "\nField &apos;workflow_start&apos; in table &apos;workflow&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWhen to start running the workflow. Until start, any enrolled members are not running through the flow, just waiting. Datetime is interpreted in stored timezone or as UTC\n"
   syntax:
     content: public DateTimeFieldInfo WorkflowStart { get; }
     parameters: []
@@ -794,6 +901,12 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property WorkflowStart As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.WorkflowStart*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.UseEnrollmentEnd
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.UseEnrollmentEnd
   id: UseEnrollmentEnd
@@ -805,14 +918,13 @@ items:
   nameWithType: WorkflowTableInfo.UseEnrollmentEnd
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.UseEnrollmentEnd
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'use_enrollment_end' in table 'workflow': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    End enrollment into the workflow at the given time
-  example: []
+  summary: "\nField &apos;use_enrollment_end&apos; in table &apos;workflow&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nEnd enrollment into the workflow at the given time\n"
   syntax:
     content: public UInt16FieldInfo UseEnrollmentEnd { get; }
     parameters: []
@@ -820,6 +932,12 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property UseEnrollmentEnd As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.UseEnrollmentEnd*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.EnrollmentEnd
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.EnrollmentEnd
   id: EnrollmentEnd
@@ -831,14 +949,13 @@ items:
   nameWithType: WorkflowTableInfo.EnrollmentEnd
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.EnrollmentEnd
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'enrollment_end' in table 'workflow': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Do not enroll more participant after given time, interpreted in stored timezone or as UTC
-  example: []
+  summary: "\nField &apos;enrollment_end&apos; in table &apos;workflow&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDo not enroll more participant after given time, interpreted in stored timezone or as UTC\n"
   syntax:
     content: public DateTimeFieldInfo EnrollmentEnd { get; }
     parameters: []
@@ -846,6 +963,12 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property EnrollmentEnd As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.EnrollmentEnd*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.TzLocationId
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.TzLocationId
   id: TzLocationId
@@ -857,14 +980,13 @@ items:
   nameWithType: WorkflowTableInfo.TzLocationId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.TzLocationId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'tzLocationId' in table 'workflow': Dictionary type FK, target: TZLocation, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Timezone used for this workflows datetimes. If not set, behavior is best guess - databasetime, system time...
-  example: []
+  summary: "\nField &apos;tzLocationId&apos; in table &apos;workflow&apos;: Dictionary type FK, target: TZLocation, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTimezone used for this workflows datetimes. If not set, behavior is best guess - databasetime, system time...\n"
   syntax:
     content: public Int32FieldInfo TzLocationId { get; }
     parameters: []
@@ -872,6 +994,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property TzLocationId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.TzLocationId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.RemoveFromFlows
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.RemoveFromFlows
   id: RemoveFromFlows
@@ -883,14 +1011,13 @@ items:
   nameWithType: WorkflowTableInfo.RemoveFromFlows
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.RemoveFromFlows
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'remove_from_flows' in table 'workflow': Dictionary type FKArray, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Workflows to remove the participants from when they are enrolled in this workflow
-  example: []
+  summary: "\nField &apos;remove_from_flows&apos; in table &apos;workflow&apos;: Dictionary type FKArray, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWorkflows to remove the participants from when they are enrolled in this workflow\n"
   syntax:
     content: public Int32ArrayFieldInfo RemoveFromFlows { get; }
     parameters: []
@@ -898,6 +1025,12 @@ items:
       type: SuperOffice.Data.SQL.Int32ArrayFieldInfo
     content.vb: Public ReadOnly Property RemoveFromFlows As Int32ArrayFieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.RemoveFromFlows*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.BlockLists
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.BlockLists
   id: BlockLists
@@ -909,14 +1042,13 @@ items:
   nameWithType: WorkflowTableInfo.BlockLists
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.BlockLists
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'block_lists' in table 'workflow': Dictionary type FKArray, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Persons in the given selections are not allowed to enter this workflow
-  example: []
+  summary: "\nField &apos;block_lists&apos; in table &apos;workflow&apos;: Dictionary type FKArray, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPersons in the given selections are not allowed to enter this workflow\n"
   syntax:
     content: public Int32ArrayFieldInfo BlockLists { get; }
     parameters: []
@@ -924,6 +1056,12 @@ items:
       type: SuperOffice.Data.SQL.Int32ArrayFieldInfo
     content.vb: Public ReadOnly Property BlockLists As Int32ArrayFieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.BlockLists*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.ExitFlowId
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.ExitFlowId
   id: ExitFlowId
@@ -935,14 +1073,13 @@ items:
   nameWithType: WorkflowTableInfo.ExitFlowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.ExitFlowId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'exit_flow_id' in table 'workflow': Dictionary type FK, target: Workflow, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    On exit with no success criteria met, we attempt to add the participant to the given flow
-  example: []
+  summary: "\nField &apos;exit_flow_id&apos; in table &apos;workflow&apos;: Dictionary type FK, target: Workflow, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOn exit with no success criteria met, we attempt to add the participant to the given flow\n"
   syntax:
     content: public Int32FieldInfo ExitFlowId { get; }
     parameters: []
@@ -950,6 +1087,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property ExitFlowId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.ExitFlowId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.ExitSuccessFlowId
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.ExitSuccessFlowId
   id: ExitSuccessFlowId
@@ -961,14 +1104,13 @@ items:
   nameWithType: WorkflowTableInfo.ExitSuccessFlowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.ExitSuccessFlowId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'exit_success_flow_id' in table 'workflow': Dictionary type FK, target: Workflow, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    On exit with success criteria met, we attempt to add the participant to the given flow
-  example: []
+  summary: "\nField &apos;exit_success_flow_id&apos; in table &apos;workflow&apos;: Dictionary type FK, target: Workflow, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOn exit with success criteria met, we attempt to add the participant to the given flow\n"
   syntax:
     content: public Int32FieldInfo ExitSuccessFlowId { get; }
     parameters: []
@@ -976,6 +1118,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property ExitSuccessFlowId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.ExitSuccessFlowId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.AssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.AssociateId_InnerJoin_Associate
   id: AssociateId_InnerJoin_Associate
@@ -987,11 +1135,13 @@ items:
   nameWithType: WorkflowTableInfo.AssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.AssociateId_InnerJoin_Associate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key AssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key AssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<AssociateTableInfo> AssociateId_InnerJoin_Associate { get; }
     parameters: []
@@ -999,6 +1149,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property AssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.AssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.GroupId_InnerJoin_UserGroup
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.GroupId_InnerJoin_UserGroup
   id: GroupId_InnerJoin_UserGroup
@@ -1010,11 +1166,13 @@ items:
   nameWithType: WorkflowTableInfo.GroupId_InnerJoin_UserGroup
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.GroupId_InnerJoin_UserGroup
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key GroupId in this table, to its target table <xref href="SuperOffice.CRM.Data.UserGroupTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key GroupId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.UserGroupTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<UserGroupTableInfo> GroupId_InnerJoin_UserGroup { get; }
     parameters: []
@@ -1022,6 +1180,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.UserGroupTableInfo}
     content.vb: Public ReadOnly Property GroupId_InnerJoin_UserGroup As TargetedInnerJoin(Of UserGroupTableInfo)
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.GroupId_InnerJoin_UserGroup*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.RegisteredAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.RegisteredAssociateId_InnerJoin_Associate
   id: RegisteredAssociateId_InnerJoin_Associate
@@ -1033,11 +1197,13 @@ items:
   nameWithType: WorkflowTableInfo.RegisteredAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.RegisteredAssociateId_InnerJoin_Associate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
     parameters: []
@@ -1045,6 +1211,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedAssociateId_InnerJoin_Associate
   id: UpdatedAssociateId_InnerJoin_Associate
@@ -1056,11 +1228,13 @@ items:
   nameWithType: WorkflowTableInfo.UpdatedAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedAssociateId_InnerJoin_Associate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
     parameters: []
@@ -1068,6 +1242,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.TzLocationId_InnerJoin_TZLocation
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.TzLocationId_InnerJoin_TZLocation
   id: TzLocationId_InnerJoin_TZLocation
@@ -1079,11 +1259,13 @@ items:
   nameWithType: WorkflowTableInfo.TzLocationId_InnerJoin_TZLocation
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.TzLocationId_InnerJoin_TZLocation
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key TzLocationId in this table, to its target table <xref href="SuperOffice.CRM.Data.TZLocationTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key TzLocationId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.TZLocationTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<TZLocationTableInfo> TzLocationId_InnerJoin_TZLocation { get; }
     parameters: []
@@ -1091,6 +1273,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TZLocationTableInfo}
     content.vb: Public ReadOnly Property TzLocationId_InnerJoin_TZLocation As TargetedInnerJoin(Of TZLocationTableInfo)
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.TzLocationId_InnerJoin_TZLocation*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.ExitFlowId_InnerJoin_Workflow
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.ExitFlowId_InnerJoin_Workflow
   id: ExitFlowId_InnerJoin_Workflow
@@ -1102,11 +1290,13 @@ items:
   nameWithType: WorkflowTableInfo.ExitFlowId_InnerJoin_Workflow
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.ExitFlowId_InnerJoin_Workflow
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key ExitFlowId in this table, to its target table <xref href="SuperOffice.CRM.Data.WorkflowTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key ExitFlowId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.WorkflowTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<WorkflowTableInfo> ExitFlowId_InnerJoin_Workflow { get; }
     parameters: []
@@ -1114,6 +1304,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
     content.vb: Public ReadOnly Property ExitFlowId_InnerJoin_Workflow As TargetedInnerJoin(Of WorkflowTableInfo)
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.ExitFlowId_InnerJoin_Workflow*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.ExitSuccessFlowId_InnerJoin_Workflow
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.ExitSuccessFlowId_InnerJoin_Workflow
   id: ExitSuccessFlowId_InnerJoin_Workflow
@@ -1125,11 +1321,13 @@ items:
   nameWithType: WorkflowTableInfo.ExitSuccessFlowId_InnerJoin_Workflow
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.ExitSuccessFlowId_InnerJoin_Workflow
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key ExitSuccessFlowId in this table, to its target table <xref href="SuperOffice.CRM.Data.WorkflowTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key ExitSuccessFlowId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.WorkflowTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<WorkflowTableInfo> ExitSuccessFlowId_InnerJoin_Workflow { get; }
     parameters: []
@@ -1137,6 +1335,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
     content.vb: Public ReadOnly Property ExitSuccessFlowId_InnerJoin_Workflow As TargetedInnerJoin(Of WorkflowTableInfo)
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.ExitSuccessFlowId_InnerJoin_Workflow*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Person_ModifiedByWorkflowId
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Person_ModifiedByWorkflowId
   id: LeftOuterJoin_Person_ModifiedByWorkflowId
@@ -1148,11 +1352,13 @@ items:
   nameWithType: WorkflowTableInfo.LeftOuterJoin_Person_ModifiedByWorkflowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Person_ModifiedByWorkflowId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key WorkflowId on this table, to Person.<xref href="SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key WorkflowId on this table, to Person.<xref href=\"SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<PersonTableInfo> LeftOuterJoin_Person_ModifiedByWorkflowId { get; }
     parameters: []
@@ -1160,6 +1366,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.PersonTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Person_ModifiedByWorkflowId As TargetedLeftOuterJoin(Of PersonTableInfo)
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Person_ModifiedByWorkflowId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Appointment_CreatedByWorkflowId
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Appointment_CreatedByWorkflowId
   id: LeftOuterJoin_Appointment_CreatedByWorkflowId
@@ -1171,11 +1383,13 @@ items:
   nameWithType: WorkflowTableInfo.LeftOuterJoin_Appointment_CreatedByWorkflowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Appointment_CreatedByWorkflowId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key WorkflowId on this table, to Appointment.<xref href="SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key WorkflowId on this table, to Appointment.<xref href=\"SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<AppointmentTableInfo> LeftOuterJoin_Appointment_CreatedByWorkflowId { get; }
     parameters: []
@@ -1183,6 +1397,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AppointmentTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Appointment_CreatedByWorkflowId As TargetedLeftOuterJoin(Of AppointmentTableInfo)
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Appointment_CreatedByWorkflowId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Sale_CreatedByWorkflowId
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Sale_CreatedByWorkflowId
   id: LeftOuterJoin_Sale_CreatedByWorkflowId
@@ -1194,11 +1414,13 @@ items:
   nameWithType: WorkflowTableInfo.LeftOuterJoin_Sale_CreatedByWorkflowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Sale_CreatedByWorkflowId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key WorkflowId on this table, to Sale.<xref href="SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key WorkflowId on this table, to Sale.<xref href=\"SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<SaleTableInfo> LeftOuterJoin_Sale_CreatedByWorkflowId { get; }
     parameters: []
@@ -1206,6 +1428,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SaleTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Sale_CreatedByWorkflowId As TargetedLeftOuterJoin(Of SaleTableInfo)
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Sale_CreatedByWorkflowId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Ticket_CreatedByWorkflowId
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Ticket_CreatedByWorkflowId
   id: LeftOuterJoin_Ticket_CreatedByWorkflowId
@@ -1217,11 +1445,13 @@ items:
   nameWithType: WorkflowTableInfo.LeftOuterJoin_Ticket_CreatedByWorkflowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Ticket_CreatedByWorkflowId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key WorkflowId on this table, to Ticket.<xref href="SuperOffice.CRM.Data.TicketTableInfo.CreatedByWorkflowId" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key WorkflowId on this table, to Ticket.<xref href=\"SuperOffice.CRM.Data.TicketTableInfo.CreatedByWorkflowId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<TicketTableInfo> LeftOuterJoin_Ticket_CreatedByWorkflowId { get; }
     parameters: []
@@ -1229,6 +1459,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Ticket_CreatedByWorkflowId As TargetedLeftOuterJoin(Of TicketTableInfo)
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Ticket_CreatedByWorkflowId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_EmailFlow_WorkflowId
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_EmailFlow_WorkflowId
   id: LeftOuterJoin_EmailFlow_WorkflowId
@@ -1240,11 +1476,13 @@ items:
   nameWithType: WorkflowTableInfo.LeftOuterJoin_EmailFlow_WorkflowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_EmailFlow_WorkflowId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key WorkflowId on this table, to EmailFlow.<xref href="SuperOffice.CRM.Data.EmailFlowTableInfo.WorkflowId" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key WorkflowId on this table, to EmailFlow.<xref href=\"SuperOffice.CRM.Data.EmailFlowTableInfo.WorkflowId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<EmailFlowTableInfo> LeftOuterJoin_EmailFlow_WorkflowId { get; }
     parameters: []
@@ -1252,6 +1490,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.EmailFlowTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_EmailFlow_WorkflowId As TargetedLeftOuterJoin(Of EmailFlowTableInfo)
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_EmailFlow_WorkflowId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowInstance_WorkflowId
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowInstance_WorkflowId
   id: LeftOuterJoin_WorkflowInstance_WorkflowId
@@ -1263,11 +1507,13 @@ items:
   nameWithType: WorkflowTableInfo.LeftOuterJoin_WorkflowInstance_WorkflowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowInstance_WorkflowId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key WorkflowId on this table, to WorkflowInstance.<xref href="SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key WorkflowId on this table, to WorkflowInstance.<xref href=\"SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<WorkflowInstanceTableInfo> LeftOuterJoin_WorkflowInstance_WorkflowId { get; }
     parameters: []
@@ -1275,6 +1521,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WorkflowInstanceTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_WorkflowInstance_WorkflowId As TargetedLeftOuterJoin(Of WorkflowInstanceTableInfo)
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowInstance_WorkflowId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowGoal_WorkflowId
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowGoal_WorkflowId
   id: LeftOuterJoin_WorkflowGoal_WorkflowId
@@ -1286,11 +1538,13 @@ items:
   nameWithType: WorkflowTableInfo.LeftOuterJoin_WorkflowGoal_WorkflowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowGoal_WorkflowId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key WorkflowId on this table, to WorkflowGoal.<xref href="SuperOffice.CRM.Data.WorkflowGoalTableInfo.WorkflowId" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key WorkflowId on this table, to WorkflowGoal.<xref href=\"SuperOffice.CRM.Data.WorkflowGoalTableInfo.WorkflowId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<WorkflowGoalTableInfo> LeftOuterJoin_WorkflowGoal_WorkflowId { get; }
     parameters: []
@@ -1298,6 +1552,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WorkflowGoalTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_WorkflowGoal_WorkflowId As TargetedLeftOuterJoin(Of WorkflowGoalTableInfo)
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowGoal_WorkflowId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowTrigger_WorkflowId
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowTrigger_WorkflowId
   id: LeftOuterJoin_WorkflowTrigger_WorkflowId
@@ -1309,11 +1569,13 @@ items:
   nameWithType: WorkflowTableInfo.LeftOuterJoin_WorkflowTrigger_WorkflowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowTrigger_WorkflowId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key WorkflowId on this table, to WorkflowTrigger.<xref href="SuperOffice.CRM.Data.WorkflowTriggerTableInfo.WorkflowId" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key WorkflowId on this table, to WorkflowTrigger.<xref href=\"SuperOffice.CRM.Data.WorkflowTriggerTableInfo.WorkflowId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<WorkflowTriggerTableInfo> LeftOuterJoin_WorkflowTrigger_WorkflowId { get; }
     parameters: []
@@ -1321,6 +1583,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WorkflowTriggerTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_WorkflowTrigger_WorkflowId As TargetedLeftOuterJoin(Of WorkflowTriggerTableInfo)
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowTrigger_WorkflowId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowRootStepLink_WorkflowId
   commentId: P:SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowRootStepLink_WorkflowId
   id: LeftOuterJoin_WorkflowRootStepLink_WorkflowId
@@ -1332,11 +1600,13 @@ items:
   nameWithType: WorkflowTableInfo.LeftOuterJoin_WorkflowRootStepLink_WorkflowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowRootStepLink_WorkflowId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key WorkflowId on this table, to WorkflowRootStepLink.<xref href="SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.WorkflowId" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key WorkflowId on this table, to WorkflowRootStepLink.<xref href=\"SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.WorkflowId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<WorkflowRootStepLinkTableInfo> LeftOuterJoin_WorkflowRootStepLink_WorkflowId { get; }
     parameters: []
@@ -1344,68 +1614,35 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_WorkflowRootStepLink_WorkflowId As TargetedLeftOuterJoin(Of WorkflowRootStepLinkTableInfo)
   overload: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowRootStepLink_WorkflowId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SQL.TableInfo
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
@@ -1413,185 +1650,241 @@ references:
   commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   name: ToString()
   nameWithType: TableInfo.ToString()
   fullName: SuperOffice.Data.SQL.TableInfo.ToString()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
-  name: RegisterFields(params FieldInfo[])
-  nameWithType: TableInfo.RegisterFields(params FieldInfo[])
-  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(params SuperOffice.Data.SQL.FieldInfo[])
-  nameWithType.vb: TableInfo.RegisterFields(ParamArray FieldInfo())
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(ParamArray SuperOffice.Data.SQL.FieldInfo())
-  name.vb: RegisterFields(ParamArray FieldInfo())
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-  - name: params
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-  - name: ParamArray
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   name: FieldInfoFromSoField(SoField)
   nameWithType: TableInfo.FieldInfoFromSoField(SoField)
   fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.Clone
   commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   name: Clone()
   nameWithType: TableInfo.Clone()
   fullName: SuperOffice.Data.SQL.TableInfo.Clone()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   name: IsSameTable(TableInfo)
   nameWithType: TableInfo.IsSameTable(TableInfo)
   fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
-  name: FindField(string)
-  nameWithType: TableInfo.FindField(string)
-  fullName: SuperOffice.Data.SQL.TableInfo.FindField(string)
-  nameWithType.vb: TableInfo.FindField(String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.FindField(String)
-  name.vb: FindField(String)
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.ProtAll
   commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
   name: ProtAll
   nameWithType: TableInfo.ProtAll
   fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
@@ -1599,7 +1892,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_HashCheckFields
   name: HashCheckFields
   nameWithType: TableInfo.HashCheckFields
   fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
@@ -1607,7 +1899,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_TableName
   name: TableName
   nameWithType: TableInfo.TableName
   fullName: SuperOffice.Data.SQL.TableInfo.TableName
@@ -1615,7 +1906,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_DbName
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
@@ -1623,7 +1913,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
   name: IsDictionaryTable
   nameWithType: TableInfo.IsDictionaryTable
   fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
@@ -1631,7 +1920,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_All
   name: All
   nameWithType: TableInfo.All
   fullName: SuperOffice.Data.SQL.TableInfo.All
@@ -1639,389 +1927,136 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: this[string]
-  nameWithType: TableInfo.this[string]
-  fullName: SuperOffice.Data.SQL.TableInfo.this[string]
-  nameWithType.vb: TableInfo.this[](String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.this[](String)
-  name.vb: this[](String)
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
   spec.csharp:
-  - name: this
-  - name: '['
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ']'
-  spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-    name: this[]
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Item_System_String_
-  - name: (
+  - name: '['
+    nameWithType: '['
+    fullName: '['
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_PrimaryKeyField
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<WorkflowTableInfo, To>(WorkflowTableInfo)
-  nameWithType: EnumUtil.MapEnums<WorkflowTableInfo, To>(WorkflowTableInfo)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.WorkflowTableInfo, To>(SuperOffice.CRM.Data.WorkflowTableInfo)
-  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowTableInfo, To)(WorkflowTableInfo)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.WorkflowTableInfo, To)(SuperOffice.CRM.Data.WorkflowTableInfo)
-  name.vb: MapEnums(Of WorkflowTableInfo, To)(WorkflowTableInfo)
+  name: MapEnums<WorkflowTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.WorkflowTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.WorkflowTableInfo, To)()
+  name.vb: MapEnums(Of WorkflowTableInfo, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.WorkflowTableInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.WorkflowTableInfo, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.WorkflowTableInfo
-    name: WorkflowTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.WorkflowTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Data.WorkflowTableInfo
-    name: WorkflowTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.WorkflowTableInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.WorkflowTableInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.WorkflowTableInfo, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.WorkflowTableInfo
-    name: WorkflowTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.WorkflowTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.WorkflowTableInfo
-    name: WorkflowTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.WorkflowTableInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<WorkflowTableInfo, To>(WorkflowTableInfo)
-  nameWithType: Converters.MapEnums<WorkflowTableInfo, To>(WorkflowTableInfo)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.WorkflowTableInfo, To>(SuperOffice.CRM.Data.WorkflowTableInfo)
-  nameWithType.vb: Converters.MapEnums(Of WorkflowTableInfo, To)(WorkflowTableInfo)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.WorkflowTableInfo, To)(SuperOffice.CRM.Data.WorkflowTableInfo)
-  name.vb: MapEnums(Of WorkflowTableInfo, To)(WorkflowTableInfo)
+  name: MapEnums<WorkflowTableInfo, To>()
+  nameWithType: Converters.MapEnums<WorkflowTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.WorkflowTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.WorkflowTableInfo, To)()
+  name.vb: MapEnums(Of WorkflowTableInfo, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.WorkflowTableInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowTableInfo, To>
+    nameWithType: Converters.MapEnums<WorkflowTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.WorkflowTableInfo, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.WorkflowTableInfo
-    name: WorkflowTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.WorkflowTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Data.WorkflowTableInfo
-    name: WorkflowTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.WorkflowTableInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.WorkflowTableInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowTableInfo, To)
+    nameWithType: Converters.MapEnums(Of WorkflowTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.WorkflowTableInfo, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.WorkflowTableInfo
-    name: WorkflowTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.WorkflowTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.WorkflowTableInfo
-    name: WorkflowTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.WorkflowTableInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -2030,45 +2065,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -2077,146 +2110,108 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociates*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociates
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_IdxVisibleForAssociates_System_Int32___
   name: IdxVisibleForAssociates
   nameWithType: WorkflowTableInfo.IdxVisibleForAssociates
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociates
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.Data.SQL.Restriction
   commentId: T:SuperOffice.Data.SQL.Restriction
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Restriction.html
   name: Restriction
   nameWithType: Restriction
   fullName: SuperOffice.Data.SQL.Restriction
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroups*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroups
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_IdxVisibleForAssociatesVisibleForGroups_System_Int32___System_Int32___
   name: IdxVisibleForAssociatesVisibleForGroups
   nameWithType: WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroups
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroups
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows_System_Int32___System_Int32___System_Int32___
   name: IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows
   nameWithType: WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.IdxVisibleForAssociatesVisibleForGroupsRemoveFromFlows
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.DictionaryTableNumber*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.DictionaryTableNumber
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_DictionaryTableNumber
   name: DictionaryTableNumber
   nameWithType: WorkflowTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.DictionaryTableNumber
@@ -2224,17 +2219,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.RuntimeDefinition*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.RuntimeDefinition
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_RuntimeDefinition
   name: RuntimeDefinition
   nameWithType: WorkflowTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.RuntimeDefinition
@@ -2242,66 +2232,31 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
 - uid: SuperOffice.Data.SQL.TableInfo.Definition
   commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Definition
   name: Definition
   nameWithType: TableInfo.Definition
   fullName: SuperOffice.Data.SQL.TableInfo.Definition
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.Definition*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.Definition
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_Definition
   name: Definition
   nameWithType: WorkflowTableInfo.Definition
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.Definition
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.WorkflowId*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.WorkflowId
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_WorkflowId
   name: WorkflowId
   nameWithType: WorkflowTableInfo.WorkflowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.WorkflowId
@@ -2309,14 +2264,12 @@ references:
   commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Int32FieldInfo.html
   name: Int32FieldInfo
   nameWithType: Int32FieldInfo
   fullName: SuperOffice.Data.SQL.Int32FieldInfo
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.Name*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.Name
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_Name
   name: Name
   nameWithType: WorkflowTableInfo.Name
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.Name
@@ -2324,29 +2277,18 @@ references:
   commentId: T:SuperOffice.Data.SQL.StringFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.StringFieldInfo.html
   name: StringFieldInfo
   nameWithType: StringFieldInfo
   fullName: SuperOffice.Data.SQL.StringFieldInfo
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.Description*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.Description
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_Description
   name: Description
   nameWithType: WorkflowTableInfo.Description
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.Description
-- uid: SuperOffice.Data.WorkflowDefinitionStatus
-  commentId: T:SuperOffice.Data.WorkflowDefinitionStatus
-  parent: SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.Data.WorkflowDefinitionStatus.html
-  name: WorkflowDefinitionStatus
-  nameWithType: WorkflowDefinitionStatus
-  fullName: SuperOffice.Data.WorkflowDefinitionStatus
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.Status*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.Status
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_Status
   name: Status
   nameWithType: WorkflowTableInfo.Status
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.Status
@@ -2354,66 +2296,24 @@ references:
   commentId: T:SuperOffice.Data.SQL.WorkflowDefinitionStatusFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.WorkflowDefinitionStatusFieldInfo.html
   name: WorkflowDefinitionStatusFieldInfo
   nameWithType: WorkflowDefinitionStatusFieldInfo
   fullName: SuperOffice.Data.SQL.WorkflowDefinitionStatusFieldInfo
-- uid: SuperOffice.Data
-  commentId: N:SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Data
-  nameWithType: SuperOffice.Data
-  fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.AssociateId*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.AssociateId
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_AssociateId
   name: AssociateId
   nameWithType: WorkflowTableInfo.AssociateId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.AssociateId
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.GroupId*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.GroupId
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_GroupId
   name: GroupId
   nameWithType: WorkflowTableInfo.GroupId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.GroupId
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.StartOnlyOnce*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.StartOnlyOnce
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_StartOnlyOnce
   name: StartOnlyOnce
   nameWithType: WorkflowTableInfo.StartOnlyOnce
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.StartOnlyOnce
@@ -2421,28 +2321,24 @@ references:
   commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.UInt16FieldInfo.html
   name: UInt16FieldInfo
   nameWithType: UInt16FieldInfo
   fullName: SuperOffice.Data.SQL.UInt16FieldInfo
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.JumpToFinish*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.JumpToFinish
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_JumpToFinish
   name: JumpToFinish
   nameWithType: WorkflowTableInfo.JumpToFinish
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.JumpToFinish
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForAll*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForAll
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_VisibleForAll
   name: VisibleForAll
   nameWithType: WorkflowTableInfo.VisibleForAll
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForAll
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForAssociates*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForAssociates
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_VisibleForAssociates
   name: VisibleForAssociates
   nameWithType: WorkflowTableInfo.VisibleForAssociates
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForAssociates
@@ -2450,32 +2346,18 @@ references:
   commentId: T:SuperOffice.Data.SQL.Int32ArrayFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Int32ArrayFieldInfo.html
   name: Int32ArrayFieldInfo
   nameWithType: Int32ArrayFieldInfo
   fullName: SuperOffice.Data.SQL.Int32ArrayFieldInfo
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForGroups*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForGroups
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_VisibleForGroups
   name: VisibleForGroups
   nameWithType: WorkflowTableInfo.VisibleForGroups
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.VisibleForGroups
-- uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.Registered*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.Registered
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_Registered
   name: Registered
   nameWithType: WorkflowTableInfo.Registered
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.Registered
@@ -2483,113 +2365,90 @@ references:
   commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.DateTimeFieldInfo.html
   name: DateTimeFieldInfo
   nameWithType: DateTimeFieldInfo
   fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.RegisteredAssociateId*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.RegisteredAssociateId
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_RegisteredAssociateId
   name: RegisteredAssociateId
   nameWithType: WorkflowTableInfo.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.RegisteredAssociateId
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.Updated*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.Updated
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_Updated
   name: Updated
   nameWithType: WorkflowTableInfo.Updated
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.Updated
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedAssociateId*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedAssociateId
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_UpdatedAssociateId
   name: UpdatedAssociateId
   nameWithType: WorkflowTableInfo.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedAssociateId
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedCount*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedCount
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_UpdatedCount
   name: UpdatedCount
   nameWithType: WorkflowTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedCount
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.UseWorkflowStart*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.UseWorkflowStart
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_UseWorkflowStart
   name: UseWorkflowStart
   nameWithType: WorkflowTableInfo.UseWorkflowStart
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.UseWorkflowStart
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.WorkflowStart*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.WorkflowStart
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_WorkflowStart
   name: WorkflowStart
   nameWithType: WorkflowTableInfo.WorkflowStart
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.WorkflowStart
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.UseEnrollmentEnd*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.UseEnrollmentEnd
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_UseEnrollmentEnd
   name: UseEnrollmentEnd
   nameWithType: WorkflowTableInfo.UseEnrollmentEnd
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.UseEnrollmentEnd
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.EnrollmentEnd*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.EnrollmentEnd
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_EnrollmentEnd
   name: EnrollmentEnd
   nameWithType: WorkflowTableInfo.EnrollmentEnd
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.EnrollmentEnd
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.TzLocationId*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.TzLocationId
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_TzLocationId
   name: TzLocationId
   nameWithType: WorkflowTableInfo.TzLocationId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.TzLocationId
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.RemoveFromFlows*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.RemoveFromFlows
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_RemoveFromFlows
   name: RemoveFromFlows
   nameWithType: WorkflowTableInfo.RemoveFromFlows
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.RemoveFromFlows
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.BlockLists*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.BlockLists
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_BlockLists
   name: BlockLists
   nameWithType: WorkflowTableInfo.BlockLists
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.BlockLists
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.ExitFlowId*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.ExitFlowId
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_ExitFlowId
   name: ExitFlowId
   nameWithType: WorkflowTableInfo.ExitFlowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.ExitFlowId
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.ExitSuccessFlowId*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.ExitSuccessFlowId
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_ExitSuccessFlowId
   name: ExitSuccessFlowId
   nameWithType: WorkflowTableInfo.ExitSuccessFlowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.ExitSuccessFlowId
-- uid: SuperOffice.CRM.Data.AssociateTableInfo
-  commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.AssociateTableInfo.html
-  name: AssociateTableInfo
-  nameWithType: AssociateTableInfo
-  fullName: SuperOffice.CRM.Data.AssociateTableInfo
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.AssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.AssociateId_InnerJoin_Associate
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_AssociateId_InnerJoin_Associate
   name: AssociateId_InnerJoin_Associate
   nameWithType: WorkflowTableInfo.AssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.AssociateId_InnerJoin_Associate
@@ -2597,7 +2456,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<AssociateTableInfo>
   nameWithType: TargetedInnerJoin<AssociateTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
@@ -2607,31 +2465,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.AssociateTableInfo
     name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.AssociateTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.AssociateTableInfo
     name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.AssociateTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
   isExternal: true
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<TargetTableInfo>
   nameWithType: TargetedInnerJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
@@ -2641,33 +2508,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: )
-- uid: SuperOffice.CRM.Data.UserGroupTableInfo
-  commentId: T:SuperOffice.CRM.Data.UserGroupTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.UserGroupTableInfo.html
-  name: UserGroupTableInfo
-  nameWithType: UserGroupTableInfo
-  fullName: SuperOffice.CRM.Data.UserGroupTableInfo
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.GroupId_InnerJoin_UserGroup*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.GroupId_InnerJoin_UserGroup
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_GroupId_InnerJoin_UserGroup
   name: GroupId_InnerJoin_UserGroup
   nameWithType: WorkflowTableInfo.GroupId_InnerJoin_UserGroup
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.GroupId_InnerJoin_UserGroup
@@ -2675,7 +2545,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.UserGroupTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<UserGroupTableInfo>
   nameWithType: TargetedInnerJoin<UserGroupTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.UserGroupTableInfo>
@@ -2685,53 +2554,52 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.UserGroupTableInfo
     name: UserGroupTableInfo
+    nameWithType: UserGroupTableInfo
+    fullName: SuperOffice.CRM.Data.UserGroupTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.UserGroupTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.UserGroupTableInfo
     name: UserGroupTableInfo
+    nameWithType: UserGroupTableInfo
+    fullName: SuperOffice.CRM.Data.UserGroupTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.UserGroupTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.RegisteredAssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.RegisteredAssociateId_InnerJoin_Associate
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_RegisteredAssociateId_InnerJoin_Associate
   name: RegisteredAssociateId_InnerJoin_Associate
   nameWithType: WorkflowTableInfo.RegisteredAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.RegisteredAssociateId_InnerJoin_Associate
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedAssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedAssociateId_InnerJoin_Associate
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_UpdatedAssociateId_InnerJoin_Associate
   name: UpdatedAssociateId_InnerJoin_Associate
   nameWithType: WorkflowTableInfo.UpdatedAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.UpdatedAssociateId_InnerJoin_Associate
-- uid: SuperOffice.CRM.Data.TZLocationTableInfo
-  commentId: T:SuperOffice.CRM.Data.TZLocationTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.TZLocationTableInfo.html
-  name: TZLocationTableInfo
-  nameWithType: TZLocationTableInfo
-  fullName: SuperOffice.CRM.Data.TZLocationTableInfo
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.TzLocationId_InnerJoin_TZLocation*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.TzLocationId_InnerJoin_TZLocation
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_TzLocationId_InnerJoin_TZLocation
   name: TzLocationId_InnerJoin_TZLocation
   nameWithType: WorkflowTableInfo.TzLocationId_InnerJoin_TZLocation
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.TzLocationId_InnerJoin_TZLocation
@@ -2739,7 +2607,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TZLocationTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<TZLocationTableInfo>
   nameWithType: TargetedInnerJoin<TZLocationTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.TZLocationTableInfo>
@@ -2749,39 +2616,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.TZLocationTableInfo
     name: TZLocationTableInfo
+    nameWithType: TZLocationTableInfo
+    fullName: SuperOffice.CRM.Data.TZLocationTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.TZLocationTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.TZLocationTableInfo
     name: TZLocationTableInfo
+    nameWithType: TZLocationTableInfo
+    fullName: SuperOffice.CRM.Data.TZLocationTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.TZLocationTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Data.WorkflowTableInfo
-  commentId: T:SuperOffice.CRM.Data.WorkflowTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html
-  name: WorkflowTableInfo
-  nameWithType: WorkflowTableInfo
-  fullName: SuperOffice.CRM.Data.WorkflowTableInfo
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.ExitFlowId_InnerJoin_Workflow*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.ExitFlowId_InnerJoin_Workflow
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_ExitFlowId_InnerJoin_Workflow
   name: ExitFlowId_InnerJoin_Workflow
   nameWithType: WorkflowTableInfo.ExitFlowId_InnerJoin_Workflow
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.ExitFlowId_InnerJoin_Workflow
@@ -2789,7 +2657,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<WorkflowTableInfo>
   nameWithType: TargetedInnerJoin<WorkflowTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.WorkflowTableInfo>
@@ -2799,45 +2666,46 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.WorkflowTableInfo
     name: WorkflowTableInfo
+    nameWithType: WorkflowTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.WorkflowTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.WorkflowTableInfo
     name: WorkflowTableInfo
+    nameWithType: WorkflowTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.WorkflowTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.ExitSuccessFlowId_InnerJoin_Workflow*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.ExitSuccessFlowId_InnerJoin_Workflow
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_ExitSuccessFlowId_InnerJoin_Workflow
   name: ExitSuccessFlowId_InnerJoin_Workflow
   nameWithType: WorkflowTableInfo.ExitSuccessFlowId_InnerJoin_Workflow
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.ExitSuccessFlowId_InnerJoin_Workflow
-- uid: SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId
-  commentId: P:SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId
-  isExternal: true
-  href: SuperOffice.CRM.Data.PersonTableInfo.html#SuperOffice_CRM_Data_PersonTableInfo_ModifiedByWorkflowId
-  name: ModifiedByWorkflowId
-  nameWithType: PersonTableInfo.ModifiedByWorkflowId
-  fullName: SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Person_ModifiedByWorkflowId*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Person_ModifiedByWorkflowId
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_LeftOuterJoin_Person_ModifiedByWorkflowId
   name: LeftOuterJoin_Person_ModifiedByWorkflowId
   nameWithType: WorkflowTableInfo.LeftOuterJoin_Person_ModifiedByWorkflowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Person_ModifiedByWorkflowId
@@ -2845,7 +2713,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.PersonTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<PersonTableInfo>
   nameWithType: TargetedLeftOuterJoin<PersonTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.PersonTableInfo>
@@ -2855,31 +2722,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.PersonTableInfo
     name: PersonTableInfo
+    nameWithType: PersonTableInfo
+    fullName: SuperOffice.CRM.Data.PersonTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.PersonTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.PersonTableInfo
     name: PersonTableInfo
+    nameWithType: PersonTableInfo
+    fullName: SuperOffice.CRM.Data.PersonTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.PersonTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   isExternal: true
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TargetTableInfo>
   nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
@@ -2889,32 +2765,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: )
-- uid: SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId
-  commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId
-  isExternal: true
-  href: SuperOffice.CRM.Data.AppointmentTableInfo.html#SuperOffice_CRM_Data_AppointmentTableInfo_CreatedByWorkflowId
-  name: CreatedByWorkflowId
-  nameWithType: AppointmentTableInfo.CreatedByWorkflowId
-  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.CreatedByWorkflowId
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Appointment_CreatedByWorkflowId*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Appointment_CreatedByWorkflowId
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_LeftOuterJoin_Appointment_CreatedByWorkflowId
   name: LeftOuterJoin_Appointment_CreatedByWorkflowId
   nameWithType: WorkflowTableInfo.LeftOuterJoin_Appointment_CreatedByWorkflowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Appointment_CreatedByWorkflowId
@@ -2922,7 +2802,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.AppointmentTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<AppointmentTableInfo>
   nameWithType: TargetedLeftOuterJoin<AppointmentTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.AppointmentTableInfo>
@@ -2932,38 +2811,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.AppointmentTableInfo
     name: AppointmentTableInfo
+    nameWithType: AppointmentTableInfo
+    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.AppointmentTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.AppointmentTableInfo
     name: AppointmentTableInfo
+    nameWithType: AppointmentTableInfo
+    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.AppointmentTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId
-  commentId: P:SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId
-  isExternal: true
-  href: SuperOffice.CRM.Data.SaleTableInfo.html#SuperOffice_CRM_Data_SaleTableInfo_CreatedByWorkflowId
-  name: CreatedByWorkflowId
-  nameWithType: SaleTableInfo.CreatedByWorkflowId
-  fullName: SuperOffice.CRM.Data.SaleTableInfo.CreatedByWorkflowId
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Sale_CreatedByWorkflowId*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Sale_CreatedByWorkflowId
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_LeftOuterJoin_Sale_CreatedByWorkflowId
   name: LeftOuterJoin_Sale_CreatedByWorkflowId
   nameWithType: WorkflowTableInfo.LeftOuterJoin_Sale_CreatedByWorkflowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Sale_CreatedByWorkflowId
@@ -2971,7 +2852,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.SaleTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<SaleTableInfo>
   nameWithType: TargetedLeftOuterJoin<SaleTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.SaleTableInfo>
@@ -2981,38 +2861,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.SaleTableInfo
     name: SaleTableInfo
+    nameWithType: SaleTableInfo
+    fullName: SuperOffice.CRM.Data.SaleTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.SaleTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.SaleTableInfo
     name: SaleTableInfo
+    nameWithType: SaleTableInfo
+    fullName: SuperOffice.CRM.Data.SaleTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.SaleTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Data.TicketTableInfo.CreatedByWorkflowId
-  commentId: P:SuperOffice.CRM.Data.TicketTableInfo.CreatedByWorkflowId
-  isExternal: true
-  href: SuperOffice.CRM.Data.TicketTableInfo.html#SuperOffice_CRM_Data_TicketTableInfo_CreatedByWorkflowId
-  name: CreatedByWorkflowId
-  nameWithType: TicketTableInfo.CreatedByWorkflowId
-  fullName: SuperOffice.CRM.Data.TicketTableInfo.CreatedByWorkflowId
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Ticket_CreatedByWorkflowId*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Ticket_CreatedByWorkflowId
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_LeftOuterJoin_Ticket_CreatedByWorkflowId
   name: LeftOuterJoin_Ticket_CreatedByWorkflowId
   nameWithType: WorkflowTableInfo.LeftOuterJoin_Ticket_CreatedByWorkflowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_Ticket_CreatedByWorkflowId
@@ -3020,7 +2902,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TicketTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TicketTableInfo>
   nameWithType: TargetedLeftOuterJoin<TicketTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TicketTableInfo>
@@ -3030,38 +2911,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.TicketTableInfo
     name: TicketTableInfo
+    nameWithType: TicketTableInfo
+    fullName: SuperOffice.CRM.Data.TicketTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.TicketTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.TicketTableInfo
     name: TicketTableInfo
+    nameWithType: TicketTableInfo
+    fullName: SuperOffice.CRM.Data.TicketTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.TicketTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Data.EmailFlowTableInfo.WorkflowId
-  commentId: P:SuperOffice.CRM.Data.EmailFlowTableInfo.WorkflowId
-  isExternal: true
-  href: SuperOffice.CRM.Data.EmailFlowTableInfo.html#SuperOffice_CRM_Data_EmailFlowTableInfo_WorkflowId
-  name: WorkflowId
-  nameWithType: EmailFlowTableInfo.WorkflowId
-  fullName: SuperOffice.CRM.Data.EmailFlowTableInfo.WorkflowId
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_EmailFlow_WorkflowId*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_EmailFlow_WorkflowId
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_LeftOuterJoin_EmailFlow_WorkflowId
   name: LeftOuterJoin_EmailFlow_WorkflowId
   nameWithType: WorkflowTableInfo.LeftOuterJoin_EmailFlow_WorkflowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_EmailFlow_WorkflowId
@@ -3069,7 +2952,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.EmailFlowTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<EmailFlowTableInfo>
   nameWithType: TargetedLeftOuterJoin<EmailFlowTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.EmailFlowTableInfo>
@@ -3079,38 +2961,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.EmailFlowTableInfo
     name: EmailFlowTableInfo
+    nameWithType: EmailFlowTableInfo
+    fullName: SuperOffice.CRM.Data.EmailFlowTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.EmailFlowTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.EmailFlowTableInfo
     name: EmailFlowTableInfo
+    nameWithType: EmailFlowTableInfo
+    fullName: SuperOffice.CRM.Data.EmailFlowTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.EmailFlowTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId
-  commentId: P:SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId
-  isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.html#SuperOffice_CRM_Data_WorkflowInstanceTableInfo_WorkflowId
-  name: WorkflowId
-  nameWithType: WorkflowInstanceTableInfo.WorkflowId
-  fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.WorkflowId
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowInstance_WorkflowId*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowInstance_WorkflowId
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_LeftOuterJoin_WorkflowInstance_WorkflowId
   name: LeftOuterJoin_WorkflowInstance_WorkflowId
   nameWithType: WorkflowTableInfo.LeftOuterJoin_WorkflowInstance_WorkflowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowInstance_WorkflowId
@@ -3118,7 +3002,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WorkflowInstanceTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<WorkflowInstanceTableInfo>
   nameWithType: TargetedLeftOuterJoin<WorkflowInstanceTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.WorkflowInstanceTableInfo>
@@ -3128,38 +3011,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
     name: WorkflowInstanceTableInfo
+    nameWithType: WorkflowInstanceTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
     name: WorkflowInstanceTableInfo
+    nameWithType: WorkflowInstanceTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowInstanceTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Data.WorkflowGoalTableInfo.WorkflowId
-  commentId: P:SuperOffice.CRM.Data.WorkflowGoalTableInfo.WorkflowId
-  isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowGoalTableInfo.html#SuperOffice_CRM_Data_WorkflowGoalTableInfo_WorkflowId
-  name: WorkflowId
-  nameWithType: WorkflowGoalTableInfo.WorkflowId
-  fullName: SuperOffice.CRM.Data.WorkflowGoalTableInfo.WorkflowId
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowGoal_WorkflowId*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowGoal_WorkflowId
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_LeftOuterJoin_WorkflowGoal_WorkflowId
   name: LeftOuterJoin_WorkflowGoal_WorkflowId
   nameWithType: WorkflowTableInfo.LeftOuterJoin_WorkflowGoal_WorkflowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowGoal_WorkflowId
@@ -3167,7 +3052,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WorkflowGoalTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<WorkflowGoalTableInfo>
   nameWithType: TargetedLeftOuterJoin<WorkflowGoalTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.WorkflowGoalTableInfo>
@@ -3177,38 +3061,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.WorkflowGoalTableInfo
     name: WorkflowGoalTableInfo
+    nameWithType: WorkflowGoalTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowGoalTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.WorkflowGoalTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.WorkflowGoalTableInfo
     name: WorkflowGoalTableInfo
+    nameWithType: WorkflowGoalTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowGoalTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.WorkflowGoalTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Data.WorkflowTriggerTableInfo.WorkflowId
-  commentId: P:SuperOffice.CRM.Data.WorkflowTriggerTableInfo.WorkflowId
-  isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTriggerTableInfo.html#SuperOffice_CRM_Data_WorkflowTriggerTableInfo_WorkflowId
-  name: WorkflowId
-  nameWithType: WorkflowTriggerTableInfo.WorkflowId
-  fullName: SuperOffice.CRM.Data.WorkflowTriggerTableInfo.WorkflowId
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowTrigger_WorkflowId*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowTrigger_WorkflowId
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_LeftOuterJoin_WorkflowTrigger_WorkflowId
   name: LeftOuterJoin_WorkflowTrigger_WorkflowId
   nameWithType: WorkflowTableInfo.LeftOuterJoin_WorkflowTrigger_WorkflowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowTrigger_WorkflowId
@@ -3216,7 +3102,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WorkflowTriggerTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<WorkflowTriggerTableInfo>
   nameWithType: TargetedLeftOuterJoin<WorkflowTriggerTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.WorkflowTriggerTableInfo>
@@ -3226,38 +3111,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.WorkflowTriggerTableInfo
     name: WorkflowTriggerTableInfo
+    nameWithType: WorkflowTriggerTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowTriggerTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.WorkflowTriggerTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.WorkflowTriggerTableInfo
     name: WorkflowTriggerTableInfo
+    nameWithType: WorkflowTriggerTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowTriggerTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.WorkflowTriggerTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.WorkflowId
-  commentId: P:SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.WorkflowId
-  isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.html#SuperOffice_CRM_Data_WorkflowRootStepLinkTableInfo_WorkflowId
-  name: WorkflowId
-  nameWithType: WorkflowRootStepLinkTableInfo.WorkflowId
-  fullName: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.WorkflowId
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowRootStepLink_WorkflowId*
   commentId: Overload:SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowRootStepLink_WorkflowId
   isExternal: true
-  href: SuperOffice.CRM.Data.WorkflowTableInfo.html#SuperOffice_CRM_Data_WorkflowTableInfo_LeftOuterJoin_WorkflowRootStepLink_WorkflowId
   name: LeftOuterJoin_WorkflowRootStepLink_WorkflowId
   nameWithType: WorkflowTableInfo.LeftOuterJoin_WorkflowRootStepLink_WorkflowId
   fullName: SuperOffice.CRM.Data.WorkflowTableInfo.LeftOuterJoin_WorkflowRootStepLink_WorkflowId
@@ -3265,7 +3152,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<WorkflowRootStepLinkTableInfo>
   nameWithType: TargetedLeftOuterJoin<WorkflowRootStepLinkTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo>
@@ -3275,24 +3161,34 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo
     name: WorkflowRootStepLinkTableInfo
+    nameWithType: WorkflowRootStepLinkTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo
     name: WorkflowRootStepLinkTableInfo
+    nameWithType: WorkflowRootStepLinkTableInfo
+    fullName: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.WorkflowRootStepLinkTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )

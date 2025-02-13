@@ -45,28 +45,15 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent
   type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Interface for the UserDefinedFieldInfo Agent
-
-    Returns information about user-defined fields, like field type, field size, field label text, default value. Does not return the actual values in the user-defined fields. The values are returned on the entity objects.
+  summary: "\nInterface for the UserDefinedFieldInfo Agent\nReturns information about user-defined fields, like field type, field size, field label text, default value. Does not return the actual values in the user-defined fields. The values are returned on the entity objects.\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (UserDefinedFieldInfoAgent agent = new UserDefinedFieldInfoAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (UserDefinedFieldInfoAgent agent = new UserDefinedFieldInfoAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: >-
       [Agent("UserDefinedFieldInfo Agent", "Interface for the UserDefinedFieldInfo Agent. Returns information about user-defined fields, like field type, field size, field label text, default value. Does not return the actual values in the user-defined fields. The values are returned on the entity objects.")]
@@ -75,7 +62,8 @@ items:
     content.vb: >-
       <Agent("UserDefinedFieldInfo Agent", "Interface for the UserDefinedFieldInfo Agent. Returns information about user-defined fields, like field type, field size, field label text, default value. Does not return the actual values in the user-defined fields. The values are returned on the entity objects.")>
 
-      Public Interface IUserDefinedFieldInfoAgent Inherits IAgent
+      Public Interface IUserDefinedFieldInfoAgent
+          Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -84,6 +72,12 @@ items:
       value: UserDefinedFieldInfo Agent
     - type: System.String
       value: Interface for the UserDefinedFieldInfo Agent. Returns information about user-defined fields, like field type, field size, field label text, default value. Does not return the actual values in the user-defined fields. The values are returned on the entity objects.
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo
   id: CreateDefaultUserDefinedFieldInfo
@@ -95,20 +89,19 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo()
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new UserDefinedFieldInfo.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new UserDefinedFieldInfo.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: UserDefinedFieldInfo CreateDefaultUserDefinedFieldInfo()
     return:
       type: SuperOffice.CRM.Services.UserDefinedFieldInfo
       description: New UserDefinedFieldInfo with default values
-    content.vb: Function CreateDefaultUserDefinedFieldInfo() As UserDefinedFieldInfo
+    content.vb: Function CreateDefaultUserDefinedFieldInfo As UserDefinedFieldInfo
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo*
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo(SuperOffice.CRM.Services.UserDefinedFieldInfo)
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo(SuperOffice.CRM.Services.UserDefinedFieldInfo)
@@ -121,11 +114,13 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo(UserDefinedFieldInfo)
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo(SuperOffice.CRM.Services.UserDefinedFieldInfo)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing UserDefinedFieldInfo or creates a new UserDefinedFieldInfo if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing UserDefinedFieldInfo or creates a new UserDefinedFieldInfo if the id parameter is empty\n"
   syntax:
     content: UserDefinedFieldInfo SaveUserDefinedFieldInfo(UserDefinedFieldInfo userDefinedFieldInfo)
     parameters:
@@ -144,15 +139,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteUserDefinedFieldInfo(int)
-  nameWithType: IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo(int)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo(int)
+  name: DeleteUserDefinedFieldInfo(Int32)
+  nameWithType: IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo(Int32)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the UserDefinedFieldInfo
-  example: []
+  summary: "\nDeletes the UserDefinedFieldInfo\n"
   syntax:
     content: void DeleteUserDefinedFieldInfo(int userDefinedFieldInfoId)
     parameters:
@@ -161,9 +158,6 @@ items:
       description: The identity of the UserDefinedFieldInfo
     content.vb: Sub DeleteUserDefinedFieldInfo(userDefinedFieldInfoId As Integer)
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo(Integer)
-  name.vb: DeleteUserDefinedFieldInfo(Integer)
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(System.String,System.Boolean)
   id: GetCustomFieldInfoList(System.String,System.Boolean)
@@ -171,21 +165,23 @@ items:
   langs:
   - csharp
   - vb
-  name: GetCustomFieldInfoList(string, bool)
-  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(string, bool)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(string, bool)
+  name: GetCustomFieldInfoList(String, Boolean)
+  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(String, Boolean)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(System.String, System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Return information about all the custom fields (user-defined + extra) on a particular table
-  example: []
+  summary: "\nReturn information about all the custom fields (user-defined + extra) on a particular table\n"
   syntax:
     content: FieldInfoBase[] GetCustomFieldInfoList(string tableName, bool includeStandard)
     parameters:
     - id: tableName
       type: System.String
-      description: The name of table that owns the custom fields. e.g. 'contact', 'person', 'project' etc.
+      description: The name of table that owns the custom fields. e.g. &apos;contact&apos;, &apos;person&apos;, &apos;project&apos; etc.
     - id: includeStandard
       type: System.Boolean
       description: Include standard fields in result. Default false.
@@ -194,9 +190,6 @@ items:
       description: Array of user-defined and extra field info in rank order. Describes default values, mandatory, visiblity, labels and choices.
     content.vb: Function GetCustomFieldInfoList(tableName As String, includeStandard As Boolean) As FieldInfoBase()
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(String, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList(String, Boolean)
-  name.vb: GetCustomFieldInfoList(String, Boolean)
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo(System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo(System.String,System.String)
   id: GetCustomFieldInfo(System.String,System.String)
@@ -204,32 +197,31 @@ items:
   langs:
   - csharp
   - vb
-  name: GetCustomFieldInfo(string, string)
-  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfo(string, string)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo(string, string)
+  name: GetCustomFieldInfo(String, String)
+  nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfo(String, String)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo(System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Return information about a particular custom field (user-defined + extra) on a particular table
-  example: []
+  summary: "\nReturn information about a particular custom field (user-defined + extra) on a particular table\n"
   syntax:
     content: FieldInfoBase GetCustomFieldInfo(string tableName, string fieldName)
     parameters:
     - id: tableName
       type: System.String
-      description: The name of table that owns the custom fields. e.g. 'contact', 'person', 'project' etc.
+      description: The name of table that owns the custom fields. e.g. &apos;contact&apos;, &apos;person&apos;, &apos;project&apos; etc.
     - id: fieldName
       type: System.String
-      description: "The name of the field: prog:id or field name. e.g. 'SuperOffice:21' or 'x_foobar'"
+      description: 'The name of the field: prog:id or field name. e.g. &apos;SuperOffice:21&apos; or &apos;x_foobar&apos;'
     return:
       type: SuperOffice.CRM.Services.FieldInfoBase
       description: user-defined or extra field info. Describes default values, mandatory, visiblity, labels and choices.
     content.vb: Function GetCustomFieldInfo(tableName As String, fieldName As String) As FieldInfoBase
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.GetCustomFieldInfo(String, String)
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo(String, String)
-  name.vb: GetCustomFieldInfo(String, String)
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(System.Int32)
   id: GetUserDefinedFieldInfo(System.Int32)
@@ -237,15 +229,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedFieldInfo(int)
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(int)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(int)
+  name: GetUserDefinedFieldInfo(Int32)
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(Int32)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a UserDefinedFieldInfo object.
-  example: []
+  summary: "\nGets a UserDefinedFieldInfo object.                        \n"
   syntax:
     content: UserDefinedFieldInfo GetUserDefinedFieldInfo(int userDefinedFieldInfoId)
     parameters:
@@ -257,9 +251,6 @@ items:
       description: UserDefinedFieldInfo
     content.vb: Function GetUserDefinedFieldInfo(userDefinedFieldInfoId As Integer) As UserDefinedFieldInfo
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo(Integer)
-  name.vb: GetUserDefinedFieldInfo(Integer)
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldList(SuperOffice.Data.UDefType)
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldList(SuperOffice.Data.UDefType)
   id: GetUserDefinedFieldList(SuperOffice.Data.UDefType)
@@ -271,20 +262,22 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldList(UDefType)
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldList(SuperOffice.Data.UDefType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Return information about all the user defined fields on a particular owner type (project, contact, person, etc). Note this may be different than the currently published fields.
-  example: []
+  summary: "\nReturn information about all the user defined fields on a particular owner type (project, contact, person, etc). Note this may be different than the currently published fields.\n"
   syntax:
     content: UserDefinedFieldInfo[] GetUserDefinedFieldList(UDefType ownerType)
     parameters:
     - id: ownerType
       type: SuperOffice.Data.UDefType
-      description: The user-defined field owner-entity id.
+      description: 'The user-defined field owner-entity id.  '
     return:
       type: SuperOffice.CRM.Services.UserDefinedFieldInfo[]
-      description: Returns an array of user-defined field info carriers.
+      description: 'Returns an array of user-defined field info carriers. '
     content.vb: Function GetUserDefinedFieldList(ownerType As UDefType) As UserDefinedFieldInfo()
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldList*
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList(SuperOffice.Data.UDefType)
@@ -298,20 +291,22 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList(UDefType)
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList(SuperOffice.Data.UDefType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Return information about all the user defined fields on a particular owner type (project, contact, person, etc).
-  example: []
+  summary: "\nReturn information about all the user defined fields on a particular owner type (project, contact, person, etc).\n"
   syntax:
     content: UserDefinedFieldInfo[] GetPublishedUserDefinedFieldList(UDefType ownerType)
     parameters:
     - id: ownerType
       type: SuperOffice.Data.UDefType
-      description: The user-defined field owner-entity id.
+      description: 'The user-defined field owner-entity id.  '
     return:
       type: SuperOffice.CRM.Services.UserDefinedFieldInfo[]
-      description: Returns an array of user-defined field info carriers.
+      description: 'Returns an array of user-defined field info carriers. '
     content.vb: Function GetPublishedUserDefinedFieldList(ownerType As UDefType) As UserDefinedFieldInfo()
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList*
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel(System.String,SuperOffice.Data.UDefType)
@@ -321,32 +316,31 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedFieldFromFieldLabel(string, UDefType)
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel(string, UDefType)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel(string, SuperOffice.Data.UDefType)
+  name: GetUserDefinedFieldFromFieldLabel(String, UDefType)
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel(String, UDefType)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel(System.String, SuperOffice.Data.UDefType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Return information about the given user defined field identified by the owner and the field label. Note that field labels are fuzzy. Leading and trailing spaces and punctuation are ignored. Note this may be different than the currently published fields.
-  example: []
+  summary: "\nReturn information about the given user defined field identified by the owner and the field label. Note that field labels are fuzzy. Leading and trailing spaces and punctuation are ignored. Note this may be different than the currently published fields.\n"
   syntax:
     content: UserDefinedFieldInfo GetUserDefinedFieldFromFieldLabel(string fieldLabel, UDefType ownerType)
     parameters:
     - id: fieldLabel
       type: System.String
-      description: The field label - the text label shown in the user interface. Trailing spaces and punctuation (":" and ".") are ignored when searching.
+      description: The field label - the text label shown in the user interface. Trailing spaces and punctuation (&quot;:&quot; and &quot;.&quot;) are ignored when searching.
     - id: ownerType
       type: SuperOffice.Data.UDefType
-      description: The user-defined field owner-entity id.
+      description: 'The user-defined field owner-entity id. '
     return:
       type: SuperOffice.CRM.Services.UserDefinedFieldInfo
       description: Returns the user-defined field info carrier, or null if no matching field is found.
     content.vb: Function GetUserDefinedFieldFromFieldLabel(fieldLabel As String, ownerType As UDefType) As UserDefinedFieldInfo
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel(String, UDefType)
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel(String, SuperOffice.Data.UDefType)
-  name.vb: GetUserDefinedFieldFromFieldLabel(String, UDefType)
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel(System.String,SuperOffice.Data.UDefType)
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel(System.String,SuperOffice.Data.UDefType)
   id: GetPublishedUserDefinedFieldFromFieldLabel(System.String,SuperOffice.Data.UDefType)
@@ -354,32 +348,31 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPublishedUserDefinedFieldFromFieldLabel(string, UDefType)
-  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel(string, UDefType)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel(string, SuperOffice.Data.UDefType)
+  name: GetPublishedUserDefinedFieldFromFieldLabel(String, UDefType)
+  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel(String, UDefType)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel(System.String, SuperOffice.Data.UDefType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Return information about the given user defined field identified by the owner and the field label. Note that field labels are fuzzy. Leading and trailing spaces and punctuation are ignored.
-  example: []
+  summary: "\nReturn information about the given user defined field identified by the owner and the field label. Note that field labels are fuzzy. Leading and trailing spaces and punctuation are ignored.\n"
   syntax:
     content: UserDefinedFieldInfo GetPublishedUserDefinedFieldFromFieldLabel(string fieldLabel, UDefType ownerType)
     parameters:
     - id: fieldLabel
       type: System.String
-      description: The field label - the text label shown in the user interface. Trailing spaces and punctuation (":" and ".") are ignored when searching.
+      description: The field label - the text label shown in the user interface. Trailing spaces and punctuation (&quot;:&quot; and &quot;.&quot;) are ignored when searching.
     - id: ownerType
       type: SuperOffice.Data.UDefType
-      description: The user-defined field owner-entity id.
+      description: 'The user-defined field owner-entity id. '
     return:
       type: SuperOffice.CRM.Services.UserDefinedFieldInfo
       description: Returns the user-defined field info carrier, or null if no matching field is found.
     content.vb: Function GetPublishedUserDefinedFieldFromFieldLabel(fieldLabel As String, ownerType As UDefType) As UserDefinedFieldInfo
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel(String, UDefType)
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel(String, SuperOffice.Data.UDefType)
-  name.vb: GetPublishedUserDefinedFieldFromFieldLabel(String, UDefType)
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId(System.String,SuperOffice.Data.UDefType)
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId(System.String,SuperOffice.Data.UDefType)
   id: GetUserDefinedFieldFromProgId(System.String,SuperOffice.Data.UDefType)
@@ -387,32 +380,31 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedFieldFromProgId(string, UDefType)
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId(string, UDefType)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId(string, SuperOffice.Data.UDefType)
+  name: GetUserDefinedFieldFromProgId(String, UDefType)
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId(String, UDefType)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId(System.String, SuperOffice.Data.UDefType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Return information about the given user defined field identified by the owner and the prog-id. The prog-id is used as the key in the entity carriers. Note this may be different than the currently published fields.
-  example: []
+  summary: "\nReturn information about the given user defined field identified by the owner and the prog-id. The prog-id is used as the key in the entity carriers. Note this may be different than the currently published fields.\n"
   syntax:
     content: UserDefinedFieldInfo GetUserDefinedFieldFromProgId(string progId, UDefType ownerType)
     parameters:
     - id: progId
       type: System.String
-      description: The prog.id is a hidden name that uniquely identifies the field.
+      description: 'The prog.id is a hidden name that uniquely identifies the field. '
     - id: ownerType
       type: SuperOffice.Data.UDefType
-      description: The user-defined field owner-entity id.
+      description: 'The user-defined field owner-entity id. '
     return:
       type: SuperOffice.CRM.Services.UserDefinedFieldInfo
       description: Returns the user-defined field info carrier, or null if no matching field is found.
     content.vb: Function GetUserDefinedFieldFromProgId(progId As String, ownerType As UDefType) As UserDefinedFieldInfo
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId(String, UDefType)
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId(String, SuperOffice.Data.UDefType)
-  name.vb: GetUserDefinedFieldFromProgId(String, UDefType)
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId(System.String,SuperOffice.Data.UDefType)
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId(System.String,SuperOffice.Data.UDefType)
   id: GetPublishedUserDefinedFieldFromProgId(System.String,SuperOffice.Data.UDefType)
@@ -420,32 +412,31 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPublishedUserDefinedFieldFromProgId(string, UDefType)
-  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId(string, UDefType)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId(string, SuperOffice.Data.UDefType)
+  name: GetPublishedUserDefinedFieldFromProgId(String, UDefType)
+  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId(String, UDefType)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId(System.String, SuperOffice.Data.UDefType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Return information about the given user defined field identified by the owner and the prog-id. The prog-id is used as the key in the entity carriers.
-  example: []
+  summary: "\nReturn information about the given user defined field identified by the owner and the prog-id. The prog-id is used as the key in the entity carriers.\n"
   syntax:
     content: UserDefinedFieldInfo GetPublishedUserDefinedFieldFromProgId(string progId, UDefType ownerType)
     parameters:
     - id: progId
       type: System.String
-      description: The prog.id is a hidden name that uniquely identifies the field.
+      description: 'The prog.id is a hidden name that uniquely identifies the field. '
     - id: ownerType
       type: SuperOffice.Data.UDefType
-      description: The user-defined field owner-entity id.
+      description: 'The user-defined field owner-entity id. '
     return:
       type: SuperOffice.CRM.Services.UserDefinedFieldInfo
       description: Returns the user-defined field info carrier, or null if no matching field is found.
     content.vb: Function GetPublishedUserDefinedFieldFromProgId(progId As String, ownerType As UDefType) As UserDefinedFieldInfo
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId(String, UDefType)
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId(String, SuperOffice.Data.UDefType)
-  name.vb: GetPublishedUserDefinedFieldFromProgId(String, UDefType)
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(System.Int32[])
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(System.Int32[])
   id: GetUserDefinedFieldFromIds(System.Int32[])
@@ -453,15 +444,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedFieldFromIds(int[])
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(int[])
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(int[])
+  name: GetUserDefinedFieldFromIds(Int32[])
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(Int32[])
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(System.Int32[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Return an given array of user defined field identified by the ids.
-  example: []
+  summary: "\nReturn an given array of user defined field identified by the ids.\n"
   syntax:
     content: UserDefinedFieldInfo[] GetUserDefinedFieldFromIds(int[] ids)
     parameters:
@@ -473,9 +466,9 @@ items:
       description: Returns an array of user-defined field info carriers
     content.vb: Function GetUserDefinedFieldFromIds(ids As Integer()) As UserDefinedFieldInfo()
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(Integer())
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(Integer())
-  name.vb: GetUserDefinedFieldFromIds(Integer())
+  nameWithType.vb: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds(System.Int32())
+  name.vb: GetUserDefinedFieldFromIds(Int32())
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(System.String[],SuperOffice.Data.UDefType)
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(System.String[],SuperOffice.Data.UDefType)
   id: GetUserDefinedFieldFromProgIds(System.String[],SuperOffice.Data.UDefType)
@@ -483,31 +476,33 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedFieldFromProgIds(string[], UDefType)
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(string[], UDefType)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(string[], SuperOffice.Data.UDefType)
+  name: GetUserDefinedFieldFromProgIds(String[], UDefType)
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(String[], UDefType)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(System.String[], SuperOffice.Data.UDefType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Return an given array user defined field identified by the owner and the prog-ids. The prog-id is used as the key in the entity carriers. Note this may be different than the currently published field layout.
-  example: []
+  summary: "\nReturn an given array user defined field identified by the owner and the prog-ids. The prog-id is used as the key in the entity carriers. Note this may be different than the currently published field layout.\n"
   syntax:
     content: UserDefinedFieldInfo[] GetUserDefinedFieldFromProgIds(string[] progIds, UDefType ownerType)
     parameters:
     - id: progIds
       type: System.String[]
-      description: The prog.id is a hidden name that uniquely identifies the field.
+      description: 'The prog.id is a hidden name that uniquely identifies the field. '
     - id: ownerType
       type: SuperOffice.Data.UDefType
-      description: The user-defined field owner-entity id.
+      description: 'The user-defined field owner-entity id. '
     return:
       type: SuperOffice.CRM.Services.UserDefinedFieldInfo[]
       description: Returns an array of user-defined field info carriers
     content.vb: Function GetUserDefinedFieldFromProgIds(progIds As String(), ownerType As UDefType) As UserDefinedFieldInfo()
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds*
   nameWithType.vb: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(String(), UDefType)
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(String(), SuperOffice.Data.UDefType)
+  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(System.String(), SuperOffice.Data.UDefType)
   name.vb: GetUserDefinedFieldFromProgIds(String(), UDefType)
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType)
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo(SuperOffice.Data.UDefType,SuperOffice.Data.UDefFieldType)
@@ -520,17 +515,19 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo(UDefType, UDefFieldType)
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo(SuperOffice.Data.UDefType, SuperOffice.Data.UDefFieldType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Create a UserDefinedFieldInfo based on a owner-entity id
-  example: []
+  summary: "\nCreate a UserDefinedFieldInfo based on a owner-entity id\n"
   syntax:
     content: UserDefinedFieldInfo CreateUserDefinedFieldInfo(UDefType ownerType, UDefFieldType fieldType)
     parameters:
     - id: ownerType
       type: SuperOffice.Data.UDefType
-      description: The user-defined field owner-entity id.
+      description: 'The user-defined field owner-entity id.  '
     - id: fieldType
       type: SuperOffice.Data.UDefFieldType
       description: The field type of the new field
@@ -546,15 +543,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ChangeFieldType(UserDefinedFieldInfo, UDefFieldType, bool)
-  nameWithType: IUserDefinedFieldInfoAgent.ChangeFieldType(UserDefinedFieldInfo, UDefFieldType, bool)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldType(SuperOffice.CRM.Services.UserDefinedFieldInfo, SuperOffice.Data.UDefFieldType, bool)
+  name: ChangeFieldType(UserDefinedFieldInfo, UDefFieldType, Boolean)
+  nameWithType: IUserDefinedFieldInfoAgent.ChangeFieldType(UserDefinedFieldInfo, UDefFieldType, Boolean)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldType(SuperOffice.CRM.Services.UserDefinedFieldInfo, SuperOffice.Data.UDefFieldType, System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Create a UserDefinedFieldInfo based on a owner-entity id
-  example: []
+  summary: "\nCreate a UserDefinedFieldInfo based on a owner-entity id\n"
   syntax:
     content: UserDefinedFieldInfo ChangeFieldType(UserDefinedFieldInfo info, UDefFieldType fieldType, bool isIndexed)
     parameters:
@@ -572,9 +571,6 @@ items:
       description: Returns the user-defined field info carrier
     content.vb: Function ChangeFieldType(info As UserDefinedFieldInfo, fieldType As UDefFieldType, isIndexed As Boolean) As UserDefinedFieldInfo
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldType*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.ChangeFieldType(UserDefinedFieldInfo, UDefFieldType, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldType(SuperOffice.CRM.Services.UserDefinedFieldInfo, SuperOffice.Data.UDefFieldType, Boolean)
-  name.vb: ChangeFieldType(UserDefinedFieldInfo, UDefFieldType, Boolean)
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields(SuperOffice.Data.UDefType,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields(SuperOffice.Data.UDefType,System.Int32)
   id: GetUserDefinedPageOneFields(SuperOffice.Data.UDefType,System.Int32)
@@ -582,15 +578,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedPageOneFields(UDefType, int)
-  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields(UDefType, int)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields(SuperOffice.Data.UDefType, int)
+  name: GetUserDefinedPageOneFields(UDefType, Int32)
+  nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields(UDefType, Int32)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields(SuperOffice.Data.UDefType, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get a list of page one fields for given Udef type and current user group
-  example: []
+  summary: "\nGet a list of page one fields for given Udef type and current user group\n"
   syntax:
     content: UserDefinedFieldInfo[] GetUserDefinedPageOneFields(UDefType ownerType, int userGroupId)
     parameters:
@@ -602,12 +600,9 @@ items:
       description: Id of UserGroup
     return:
       type: SuperOffice.CRM.Services.UserDefinedFieldInfo[]
-      description: Returns an array of page one user-defined field info carriers.
+      description: 'Returns an array of page one user-defined field info carriers. '
     content.vb: Function GetUserDefinedPageOneFields(ownerType As UDefType, userGroupId As Integer) As UserDefinedFieldInfo()
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields(UDefType, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields(SuperOffice.Data.UDefType, Integer)
-  name.vb: GetUserDefinedPageOneFields(UDefType, Integer)
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields(SuperOffice.Data.UDefType,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields(SuperOffice.Data.UDefType,System.Int32)
   id: GetPublishedUserDefinedPageOneFields(SuperOffice.Data.UDefType,System.Int32)
@@ -615,15 +610,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPublishedUserDefinedPageOneFields(UDefType, int)
-  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields(UDefType, int)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields(SuperOffice.Data.UDefType, int)
+  name: GetPublishedUserDefinedPageOneFields(UDefType, Int32)
+  nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields(UDefType, Int32)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields(SuperOffice.Data.UDefType, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get a list of page one fields for given Udef type and current user group
-  example: []
+  summary: "\nGet a list of page one fields for given Udef type and current user group\n"
   syntax:
     content: UserDefinedFieldInfo[] GetPublishedUserDefinedPageOneFields(UDefType ownerType, int userGroupId)
     parameters:
@@ -635,12 +632,9 @@ items:
       description: Id of UserGroup
     return:
       type: SuperOffice.CRM.Services.UserDefinedFieldInfo[]
-      description: Returns an array of page one user-defined field info carriers.
+      description: 'Returns an array of page one user-defined field info carriers. '
     content.vb: Function GetPublishedUserDefinedPageOneFields(ownerType As UDefType, userGroupId As Integer) As UserDefinedFieldInfo()
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields(UDefType, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields(SuperOffice.Data.UDefType, Integer)
-  name.vb: GetPublishedUserDefinedPageOneFields(UDefType, Integer)
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Publish(SuperOffice.Data.UDefType)
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Publish(SuperOffice.Data.UDefType)
   id: Publish(SuperOffice.Data.UDefType)
@@ -652,11 +646,13 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.Publish(UDefType)
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Publish(SuperOffice.Data.UDefType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Publish changed Udef fields for the given owner type
-  example: []
+  summary: "\nPublish changed Udef fields for the given owner type\n"
   syntax:
     content: int Publish(UDefType ownerType)
     parameters:
@@ -679,11 +675,13 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.Revert(UDefType)
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Revert(SuperOffice.Data.UDefType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Revert changed Udef fields for the given owner type - all unpublished changes will be lost
-  example: []
+  summary: "\nRevert changed Udef fields for the given owner type - all unpublished changes will be lost\n"
   syntax:
     content: void Revert(UDefType ownerType)
     parameters:
@@ -703,11 +701,13 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos(UserDefinedFieldInfo[])
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos(SuperOffice.CRM.Services.UserDefinedFieldInfo[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Save an array of user defined fields. This will update the unpublished layout.
-  example: []
+  summary: "\nSave an array of user defined fields. This will update the unpublished layout.\n"
   syntax:
     content: void SaveUserDefinedFieldInfos(UserDefinedFieldInfo[] infos)
     parameters:
@@ -730,11 +730,13 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.DetectUnpublishedChanges(UDefType)
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectUnpublishedChanges(SuperOffice.Data.UDefType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Detect changes to the admin version (unpublished)
-  example: []
+  summary: "\nDetect changes to the admin version (unpublished)\n"
   syntax:
     content: bool DetectUnpublishedChanges(UDefType ownerType)
     parameters:
@@ -757,11 +759,13 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.DetectColumnIdChanges(UDefType)
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectColumnIdChanges(SuperOffice.Data.UDefType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Detect columnid changes to the admin version (for determining publish warning)
-  example: []
+  summary: "\nDetect columnid changes to the admin version (for determining publish warning)\n"
   syntax:
     content: bool DetectColumnIdChanges(UDefType ownerType)
     parameters:
@@ -780,15 +784,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetUserDefinedPageOneField(UDefType, int, int, int)
-  nameWithType: IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField(UDefType, int, int, int)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField(SuperOffice.Data.UDefType, int, int, int)
+  name: SetUserDefinedPageOneField(UDefType, Int32, Int32, Int32)
+  nameWithType: IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField(UDefType, Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField(SuperOffice.Data.UDefType, System.Int32, System.Int32, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Sets a user defined fields as page one field.
-  example: []
+  summary: "\nSets a user defined fields as page one field.\n"
   syntax:
     content: void SetUserDefinedPageOneField(UDefType ownerType, int udefFieldId, int userGroupId, int fieldLineNo)
     parameters:
@@ -806,9 +812,6 @@ items:
       description: Page one line number
     content.vb: Sub SetUserDefinedPageOneField(ownerType As UDefType, udefFieldId As Integer, userGroupId As Integer, fieldLineNo As Integer)
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField(UDefType, Integer, Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField(SuperOffice.Data.UDefType, Integer, Integer, Integer)
-  name.vb: SetUserDefinedPageOneField(UDefType, Integer, Integer, Integer)
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActive(SuperOffice.Data.UDefType)
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActive(SuperOffice.Data.UDefType)
   id: IsPublishEventActive(SuperOffice.Data.UDefType)
@@ -820,20 +823,20 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.IsPublishEventActive(UDefType)
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActive(SuperOffice.Data.UDefType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Check if the publish event is active for the given type
-  example: []
+  summary: "\nCheck if the publish event is active for the given type\n"
   syntax:
     content: bool IsPublishEventActive(UDefType type)
     parameters:
     - id: type
       type: SuperOffice.Data.UDefType
-      description: ''
     return:
       type: System.Boolean
-      description: ''
     content.vb: Function IsPublishEventActive(type As UDefType) As Boolean
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActive*
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActive
@@ -847,17 +850,18 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.IsAnyPublishEventActive()
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActive()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Check if any publish events are active
-  example: []
+  summary: "\nCheck if any publish events are active\n"
   syntax:
     content: bool IsAnyPublishEventActive()
     return:
       type: System.Boolean
-      description: ''
-    content.vb: Function IsAnyPublishEventActive() As Boolean
+    content.vb: Function IsAnyPublishEventActive As Boolean
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActive*
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFields(SuperOffice.Data.UDefType,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFields(SuperOffice.Data.UDefType,System.Int32)
@@ -866,15 +870,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetChangedPageOneFields(UDefType, int)
-  nameWithType: IUserDefinedFieldInfoAgent.GetChangedPageOneFields(UDefType, int)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFields(SuperOffice.Data.UDefType, int)
+  name: GetChangedPageOneFields(UDefType, Int32)
+  nameWithType: IUserDefinedFieldInfoAgent.GetChangedPageOneFields(UDefType, Int32)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFields(SuperOffice.Data.UDefType, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets which page one fields have changed from the current version
-  example: []
+  summary: "\nGets which page one fields have changed from the current version\n"
   syntax:
     content: bool[] GetChangedPageOneFields(UDefType ownerType, int userGroupId)
     parameters:
@@ -886,12 +892,8 @@ items:
       description: Id of UserGroup
     return:
       type: System.Boolean[]
-      description: ''
     content.vb: Function GetChangedPageOneFields(ownerType As UDefType, userGroupId As Integer) As Boolean()
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFields*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.GetChangedPageOneFields(UDefType, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFields(SuperOffice.Data.UDefType, Integer)
-  name.vb: GetChangedPageOneFields(UDefType, Integer)
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping(SuperOffice.Data.UDefType,System.Boolean)
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping(SuperOffice.Data.UDefType,System.Boolean)
   id: SetPageOneFieldGrouping(SuperOffice.Data.UDefType,System.Boolean)
@@ -899,15 +901,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetPageOneFieldGrouping(UDefType, bool)
-  nameWithType: IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping(UDefType, bool)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping(SuperOffice.Data.UDefType, bool)
+  name: SetPageOneFieldGrouping(UDefType, Boolean)
+  nameWithType: IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping(UDefType, Boolean)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping(SuperOffice.Data.UDefType, System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Sets the Page One Field grouping for a specific entity
-  example: []
+  summary: "\nSets the Page One Field grouping for a specific entity\n"
   syntax:
     content: void SetPageOneFieldGrouping(UDefType ownerType, bool active)
     parameters:
@@ -919,9 +923,6 @@ items:
       description: If true, use grouping
     content.vb: Sub SetPageOneFieldGrouping(ownerType As UDefType, active As Boolean)
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping(UDefType, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping(SuperOffice.Data.UDefType, Boolean)
-  name.vb: SetPageOneFieldGrouping(UDefType, Boolean)
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId(SuperOffice.CRM.Services.UserDefinedFieldInfo,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId(SuperOffice.CRM.Services.UserDefinedFieldInfo,System.Int32)
   id: SetListTableIdAndUDListDefinitionIdFromSelectedListId(SuperOffice.CRM.Services.UserDefinedFieldInfo,System.Int32)
@@ -929,32 +930,28 @@ items:
   langs:
   - csharp
   - vb
-  name: SetListTableIdAndUDListDefinitionIdFromSelectedListId(UserDefinedFieldInfo, int)
-  nameWithType: IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId(UserDefinedFieldInfo, int)
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId(SuperOffice.CRM.Services.UserDefinedFieldInfo, int)
+  name: SetListTableIdAndUDListDefinitionIdFromSelectedListId(UserDefinedFieldInfo, Int32)
+  nameWithType: IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId(UserDefinedFieldInfo, Int32)
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId(SuperOffice.CRM.Services.UserDefinedFieldInfo, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Make stuff similar to what happens in the win client
-  example: []
+  summary: "\nMake stuff similar to what happens in the win client\n"
   syntax:
     content: UserDefinedFieldInfo SetListTableIdAndUDListDefinitionIdFromSelectedListId(UserDefinedFieldInfo info, int selectedListId)
     parameters:
     - id: info
       type: SuperOffice.CRM.Services.UserDefinedFieldInfo
-      description: ''
     - id: selectedListId
       type: System.Int32
-      description: ''
     return:
       type: SuperOffice.CRM.Services.UserDefinedFieldInfo
-      description: ''
     content.vb: Function SetListTableIdAndUDListDefinitionIdFromSelectedListId(info As UserDefinedFieldInfo, selectedListId As Integer) As UserDefinedFieldInfo
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId(UserDefinedFieldInfo, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId(SuperOffice.CRM.Services.UserDefinedFieldInfo, Integer)
-  name.vb: SetListTableIdAndUDListDefinitionIdFromSelectedListId(UserDefinedFieldInfo, Integer)
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId(SuperOffice.CRM.Services.UserDefinedFieldInfo)
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId(SuperOffice.CRM.Services.UserDefinedFieldInfo)
   id: FigureOutListIdFromListTableIdAndUDListDefinitionId(SuperOffice.CRM.Services.UserDefinedFieldInfo)
@@ -966,20 +963,20 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId(UserDefinedFieldInfo)
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId(SuperOffice.CRM.Services.UserDefinedFieldInfo)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Kind of the reverse of SetListTableIdAndUDListDefinitionIdFromSelectedListId
-  example: []
+  summary: "\nKind of the reverse of SetListTableIdAndUDListDefinitionIdFromSelectedListId\n"
   syntax:
     content: int FigureOutListIdFromListTableIdAndUDListDefinitionId(UserDefinedFieldInfo info)
     parameters:
     - id: info
       type: SuperOffice.CRM.Services.UserDefinedFieldInfo
-      description: ''
     return:
       type: System.Int32
-      description: ''
     content.vb: Function FigureOutListIdFromListTableIdAndUDListDefinitionId(info As UserDefinedFieldInfo) As Integer
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId*
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFields(SuperOffice.Data.UDefType,System.Int32[])
@@ -989,15 +986,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetRankOnFields(UDefType, int[])
-  nameWithType: IUserDefinedFieldInfoAgent.SetRankOnFields(UDefType, int[])
-  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFields(SuperOffice.Data.UDefType, int[])
+  name: SetRankOnFields(UDefType, Int32[])
+  nameWithType: IUserDefinedFieldInfoAgent.SetRankOnFields(UDefType, Int32[])
+  fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFields(SuperOffice.Data.UDefType, System.Int32[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Change rank of user defined fields
-  example: []
+  summary: "\nChange rank of user defined fields\n"
   syntax:
     content: void SetRankOnFields(UDefType ownerType, int[] rankedFieldsIds)
     parameters:
@@ -1009,9 +1008,9 @@ items:
       description: All IDs of this owner-entity in desired rank order
     content.vb: Sub SetRankOnFields(ownerType As UDefType, rankedFieldsIds As Integer())
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFields*
-  nameWithType.vb: IUserDefinedFieldInfoAgent.SetRankOnFields(UDefType, Integer())
-  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFields(SuperOffice.Data.UDefType, Integer())
-  name.vb: SetRankOnFields(UDefType, Integer())
+  nameWithType.vb: IUserDefinedFieldInfoAgent.SetRankOnFields(UDefType, Int32())
+  fullName.vb: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFields(SuperOffice.Data.UDefType, System.Int32())
+  name.vb: SetRankOnFields(UDefType, Int32())
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent(SuperOffice.Data.UDefType)
   commentId: M:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent(SuperOffice.Data.UDefType)
   id: SetPublishStartSystemEvent(SuperOffice.Data.UDefType)
@@ -1023,11 +1022,13 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent(UDefType)
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent(SuperOffice.Data.UDefType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Set the start flag for udef publishing. Must be called before PUBLISH, or PUBLISH will fail. Start flag is removed when publish process completes.
-  example: []
+  summary: "\nSet the start flag for udef publishing. Must be called before PUBLISH, or PUBLISH will fail. Start flag is removed when publish process completes.\n"
   syntax:
     content: void SetPublishStartSystemEvent(UDefType ownerType)
     parameters:
@@ -1047,57 +1048,27 @@ items:
   nameWithType: IUserDefinedFieldInfoAgent.ClearCaches()
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Clear all relevant caches. This is normally done automatically but can be useful in certain circumstances.
-  example: []
+  summary: "\nClear all relevant caches. This is normally done automatically but can be useful in certain circumstances.\n"
   syntax:
     content: void ClearCaches()
-    content.vb: Sub ClearCaches()
+    content.vb: Sub ClearCaches
   overload: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches*
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_CreateDefaultUserDefinedFieldInfo
   name: CreateDefaultUserDefinedFieldInfo
   nameWithType: IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo
@@ -1105,21 +1076,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.UserDefinedFieldInfo
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.UserDefinedFieldInfo.html
   name: UserDefinedFieldInfo
   nameWithType: UserDefinedFieldInfo
   fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_SaveUserDefinedFieldInfo_SuperOffice_CRM_Services_UserDefinedFieldInfo_
   name: SaveUserDefinedFieldInfo
   nameWithType: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_DeleteUserDefinedFieldInfo_System_Int32_
   name: DeleteUserDefinedFieldInfo
   nameWithType: IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DeleteUserDefinedFieldInfo
@@ -1127,24 +1095,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_GetCustomFieldInfoList_System_String_System_Boolean_
   name: GetCustomFieldInfoList
   nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfoList
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfoList
@@ -1152,27 +1114,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.FieldInfoBase[]
   isExternal: true
-  href: SuperOffice.CRM.Services.FieldInfoBase.html
   name: FieldInfoBase[]
   nameWithType: FieldInfoBase[]
   fullName: SuperOffice.CRM.Services.FieldInfoBase[]
@@ -1182,21 +1135,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.FieldInfoBase
     name: FieldInfoBase
+    nameWithType: FieldInfoBase
+    fullName: SuperOffice.CRM.Services.FieldInfoBase
     isExternal: true
-    href: SuperOffice.CRM.Services.FieldInfoBase.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.FieldInfoBase
     name: FieldInfoBase
+    nameWithType: FieldInfoBase
+    fullName: SuperOffice.CRM.Services.FieldInfoBase
     isExternal: true
-    href: SuperOffice.CRM.Services.FieldInfoBase.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_GetCustomFieldInfo_System_String_System_String_
   name: GetCustomFieldInfo
   nameWithType: IUserDefinedFieldInfoAgent.GetCustomFieldInfo
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetCustomFieldInfo
@@ -1204,21 +1160,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.FieldInfoBase
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.FieldInfoBase.html
   name: FieldInfoBase
   nameWithType: FieldInfoBase
   fullName: SuperOffice.CRM.Services.FieldInfoBase
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_GetUserDefinedFieldInfo_System_Int32_
   name: GetUserDefinedFieldInfo
   nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldInfo
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldList*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldList
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_GetUserDefinedFieldList_SuperOffice_Data_UDefType_
   name: GetUserDefinedFieldList
   nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldList
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldList
@@ -1229,7 +1182,6 @@ references:
   fullName: SuperOffice.Data.UDefType
 - uid: SuperOffice.CRM.Services.UserDefinedFieldInfo[]
   isExternal: true
-  href: SuperOffice.CRM.Services.UserDefinedFieldInfo.html
   name: UserDefinedFieldInfo[]
   nameWithType: UserDefinedFieldInfo[]
   fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo[]
@@ -1239,116 +1191,118 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.UserDefinedFieldInfo
     name: UserDefinedFieldInfo
+    nameWithType: UserDefinedFieldInfo
+    fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo
     isExternal: true
-    href: SuperOffice.CRM.Services.UserDefinedFieldInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.UserDefinedFieldInfo
     name: UserDefinedFieldInfo
+    nameWithType: UserDefinedFieldInfo
+    fullName: SuperOffice.CRM.Services.UserDefinedFieldInfo
     isExternal: true
-    href: SuperOffice.CRM.Services.UserDefinedFieldInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldList_SuperOffice_Data_UDefType_
   name: GetPublishedUserDefinedFieldList
   nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldList
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_GetUserDefinedFieldFromFieldLabel_System_String_SuperOffice_Data_UDefType_
   name: GetUserDefinedFieldFromFieldLabel
   nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromFieldLabel_System_String_SuperOffice_Data_UDefType_
   name: GetPublishedUserDefinedFieldFromFieldLabel
   nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromFieldLabel
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgId_System_String_SuperOffice_Data_UDefType_
   name: GetUserDefinedFieldFromProgId
   nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgId
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromProgId_System_String_SuperOffice_Data_UDefType_
   name: GetPublishedUserDefinedFieldFromProgId
   nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedFieldFromProgId
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_GetUserDefinedFieldFromIds_System_Int32___
   name: GetUserDefinedFieldFromIds
   nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromIds
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgIds_System_String___SuperOffice_Data_UDefType_
   name: GetUserDefinedFieldFromProgIds
   nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_CreateUserDefinedFieldInfo_SuperOffice_Data_UDefType_SuperOffice_Data_UDefFieldType_
   name: CreateUserDefinedFieldInfo
   nameWithType: IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo
@@ -1360,149 +1314,134 @@ references:
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldType*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldType
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_ChangeFieldType_SuperOffice_CRM_Services_UserDefinedFieldInfo_SuperOffice_Data_UDefFieldType_System_Boolean_
   name: ChangeFieldType
   nameWithType: IUserDefinedFieldInfoAgent.ChangeFieldType
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ChangeFieldType
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_GetUserDefinedPageOneFields_SuperOffice_Data_UDefType_System_Int32_
   name: GetUserDefinedPageOneFields
   nameWithType: IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetUserDefinedPageOneFields
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_GetPublishedUserDefinedPageOneFields_SuperOffice_Data_UDefType_System_Int32_
   name: GetPublishedUserDefinedPageOneFields
   nameWithType: IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Publish*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Publish
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_Publish_SuperOffice_Data_UDefType_
   name: Publish
   nameWithType: IUserDefinedFieldInfoAgent.Publish
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Publish
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Revert*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Revert
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_Revert_SuperOffice_Data_UDefType_
   name: Revert
   nameWithType: IUserDefinedFieldInfoAgent.Revert
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.Revert
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_SaveUserDefinedFieldInfos_SuperOffice_CRM_Services_UserDefinedFieldInfo___
   name: SaveUserDefinedFieldInfos
   nameWithType: IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectUnpublishedChanges*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectUnpublishedChanges
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_DetectUnpublishedChanges_SuperOffice_Data_UDefType_
   name: DetectUnpublishedChanges
   nameWithType: IUserDefinedFieldInfoAgent.DetectUnpublishedChanges
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectUnpublishedChanges
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectColumnIdChanges*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectColumnIdChanges
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_DetectColumnIdChanges_SuperOffice_Data_UDefType_
   name: DetectColumnIdChanges
   nameWithType: IUserDefinedFieldInfoAgent.DetectColumnIdChanges
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.DetectColumnIdChanges
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_SetUserDefinedPageOneField_SuperOffice_Data_UDefType_System_Int32_System_Int32_System_Int32_
   name: SetUserDefinedPageOneField
   nameWithType: IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetUserDefinedPageOneField
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActive*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActive
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_IsPublishEventActive_SuperOffice_Data_UDefType_
   name: IsPublishEventActive
   nameWithType: IUserDefinedFieldInfoAgent.IsPublishEventActive
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsPublishEventActive
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActive*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActive
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_IsAnyPublishEventActive
   name: IsAnyPublishEventActive
   nameWithType: IUserDefinedFieldInfoAgent.IsAnyPublishEventActive
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.IsAnyPublishEventActive
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFields*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFields
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_GetChangedPageOneFields_SuperOffice_Data_UDefType_System_Int32_
   name: GetChangedPageOneFields
   nameWithType: IUserDefinedFieldInfoAgent.GetChangedPageOneFields
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.GetChangedPageOneFields
 - uid: System.Boolean[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool[]
-  nameWithType: bool[]
-  fullName: bool[]
+  name: Boolean[]
+  nameWithType: Boolean[]
+  fullName: System.Boolean[]
   nameWithType.vb: Boolean()
-  fullName.vb: Boolean()
+  fullName.vb: System.Boolean()
   name.vb: Boolean()
   spec.csharp:
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_SetPageOneFieldGrouping_SuperOffice_Data_UDefType_System_Boolean_
   name: SetPageOneFieldGrouping
   nameWithType: IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPageOneFieldGrouping
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_SetListTableIdAndUDListDefinitionIdFromSelectedListId_SuperOffice_CRM_Services_UserDefinedFieldInfo_System_Int32_
   name: SetListTableIdAndUDListDefinitionIdFromSelectedListId
   nameWithType: IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_FigureOutListIdFromListTableIdAndUDListDefinitionId_SuperOffice_CRM_Services_UserDefinedFieldInfo_
   name: FigureOutListIdFromListTableIdAndUDListDefinitionId
   nameWithType: IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFields*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFields
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_SetRankOnFields_SuperOffice_Data_UDefType_System_Int32___
   name: SetRankOnFields
   nameWithType: IUserDefinedFieldInfoAgent.SetRankOnFields
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetRankOnFields
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_SetPublishStartSystemEvent_SuperOffice_Data_UDefType_
   name: SetPublishStartSystemEvent
   nameWithType: IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.SetPublishStartSystemEvent
 - uid: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches*
   commentId: Overload:SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.html#SuperOffice_CRM_Services_IUserDefinedFieldInfoAgent_ClearCaches
   name: ClearCaches
   nameWithType: IUserDefinedFieldInfoAgent.ClearCaches
   fullName: SuperOffice.CRM.Services.IUserDefinedFieldInfoAgent.ClearCaches

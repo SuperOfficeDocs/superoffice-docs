@@ -21,7 +21,6 @@ references:
 - uid: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
   commentId: T:SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
   isExternal: true
-  href: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables.html
   name: WorkflowInstanceVariables
   nameWithType: WorkflowInstanceVariables
   fullName: SuperOffice.CRM.WorkFlow.WorkflowInstanceVariables
@@ -29,7 +28,6 @@ references:
   commentId: T:SuperOffice.CRM.WorkFlow.WorkflowEvent
   parent: SuperOffice.CRM.WorkFlow
   isExternal: true
-  href: SuperOffice.CRM.WorkFlow.WorkflowEvent.html
   name: WorkflowEvent
   nameWithType: WorkflowEvent
   fullName: SuperOffice.CRM.WorkFlow.WorkflowEvent
@@ -37,51 +35,18 @@ references:
   commentId: T:SuperOffice.CRM.WorkFlow.WorkflowEventResult
   parent: SuperOffice.CRM.WorkFlow
   isExternal: true
-  href: SuperOffice.CRM.WorkFlow.WorkflowEventResult.html
   name: WorkflowEventResult
   nameWithType: WorkflowEventResult
   fullName: SuperOffice.CRM.WorkFlow.WorkflowEventResult
 - uid: SuperOffice.CRM.WorkFlow.WorkflowEngine
   commentId: T:SuperOffice.CRM.WorkFlow.WorkflowEngine
   isExternal: true
-  href: SuperOffice.CRM.WorkFlow.WorkflowEngine.html
   name: WorkflowEngine
   nameWithType: WorkflowEngine
   fullName: SuperOffice.CRM.WorkFlow.WorkflowEngine
 - uid: SuperOffice.CRM.WorkFlow
   commentId: N:SuperOffice.CRM.WorkFlow
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.WorkFlow
   nameWithType: SuperOffice.CRM.WorkFlow
   fullName: SuperOffice.CRM.WorkFlow
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.WorkFlow
-    name: WorkFlow
-    isExternal: true
-    href: SuperOffice.CRM.WorkFlow.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.WorkFlow
-    name: WorkFlow
-    isExternal: true
-    href: SuperOffice.CRM.WorkFlow.html

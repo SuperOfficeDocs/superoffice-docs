@@ -22,24 +22,27 @@ items:
   nameWithType: DBC.EmailFlowContentLinkFields
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Fields for EmailFlowContentLink, Links content to an email workflow
-  example: []
+  summary: "\nFields for EmailFlowContentLink, Links content to an email workflow\n"
   syntax:
-    content: public static class DBC.EmailFlowContentLinkFields
-    content.vb: Public Module DBC.EmailFlowContentLinkFields
+    content: 'public static class EmailFlowContentLinkFields : Object'
+    content.vb: >-
+      Public Module EmailFlowContentLinkFields
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.EmailFlowContentLinkId
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.EmailFlowContentLinkId
   id: EmailFlowContentLinkId
@@ -51,16 +54,24 @@ items:
   nameWithType: DBC.EmailFlowContentLinkFields.EmailFlowContentLinkId
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.EmailFlowContentLinkId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'EmailFlowContentLink.EmailFlowContentLinkId: Primary key'
-  example: []
+  summary: "\nEmailFlowContentLink.EmailFlowContentLinkId: Primary key\n"
   syntax:
     content: public const string EmailFlowContentLinkId = "email_flow_content_link_id"
     return:
       type: System.String
     content.vb: Public Const EmailFlowContentLinkId As String = "email_flow_content_link_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.SMessageId
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.SMessageId
   id: SMessageId
@@ -72,16 +83,24 @@ items:
   nameWithType: DBC.EmailFlowContentLinkFields.SMessageId
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.SMessageId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'EmailFlowContentLink.SMessageId: A shipment message available in the flow'
-  example: []
+  summary: "\nEmailFlowContentLink.SMessageId: A shipment message available in the flow\n"
   syntax:
     content: public const string SMessageId = "s_message_id"
     return:
       type: System.String
     content.vb: Public Const SMessageId As String = "s_message_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.EmailFlowId
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.EmailFlowId
   id: EmailFlowId
@@ -93,16 +112,24 @@ items:
   nameWithType: DBC.EmailFlowContentLinkFields.EmailFlowId
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.EmailFlowId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'EmailFlowContentLink.EmailFlowId: The email flow the content is connected to'
-  example: []
+  summary: "\nEmailFlowContentLink.EmailFlowId: The email flow the content is connected to\n"
   syntax:
     content: public const string EmailFlowId = "email_flow_id"
     return:
       type: System.String
     content.vb: Public Const EmailFlowId As String = "email_flow_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.Registered
   id: Registered
@@ -114,16 +141,24 @@ items:
   nameWithType: DBC.EmailFlowContentLinkFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'EmailFlowContentLink.Registered: Registered when'
-  example: []
+  summary: "\nEmailFlowContentLink.Registered: Registered when\n"
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -135,16 +170,24 @@ items:
   nameWithType: DBC.EmailFlowContentLinkFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'EmailFlowContentLink.RegisteredAssociateId: Registered by whom'
-  example: []
+  summary: "\nEmailFlowContentLink.RegisteredAssociateId: Registered by whom\n"
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.Updated
   id: Updated
@@ -156,16 +199,24 @@ items:
   nameWithType: DBC.EmailFlowContentLinkFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'EmailFlowContentLink.Updated: Last updated when'
-  example: []
+  summary: "\nEmailFlowContentLink.Updated: Last updated when\n"
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -177,16 +228,24 @@ items:
   nameWithType: DBC.EmailFlowContentLinkFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'EmailFlowContentLink.UpdatedAssociateId: Last updated by whom'
-  example: []
+  summary: "\nEmailFlowContentLink.UpdatedAssociateId: Last updated by whom\n"
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.UpdatedCount
   id: UpdatedCount
@@ -198,16 +257,24 @@ items:
   nameWithType: DBC.EmailFlowContentLinkFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'EmailFlowContentLink.UpdatedCount: Number of updates made to this record'
-  example: []
+  summary: "\nEmailFlowContentLink.UpdatedCount: Number of updates made to this record\n"
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.FormId
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.FormId
   id: FormId
@@ -219,16 +286,24 @@ items:
   nameWithType: DBC.EmailFlowContentLinkFields.FormId
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.FormId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'EmailFlowContentLink.FormId: Web form used in the flow'
-  example: []
+  summary: "\nEmailFlowContentLink.FormId: Web form used in the flow\n"
   syntax:
     content: public const string FormId = "form_id"
     return:
       type: System.String
     content.vb: Public Const FormId As String = "form_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.SLinkId
   commentId: F:SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.SLinkId
   id: SLinkId
@@ -240,288 +315,41 @@ items:
   nameWithType: DBC.EmailFlowContentLinkFields.SLinkId
   fullName: SuperOffice.CRM.Data.DBC.EmailFlowContentLinkFields.SLinkId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'EmailFlowContentLink.SLinkId: Shipment link used in the flow'
-  example: []
+  summary: "\nEmailFlowContentLink.SLinkId: Shipment link used in the flow\n"
   syntax:
     content: public const string SLinkId = "s_link_id"
     return:
       type: System.String
     content.vb: Public Const SLinkId As String = "s_link_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -529,10 +357,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

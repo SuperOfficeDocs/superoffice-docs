@@ -22,31 +22,30 @@ items:
   nameWithType: BatchTaskAttribute
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute
   type: Class
+  source:
+    path: SoBatchProcessing
+    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
-  summary: BatchTaskAttribute defines attributes for a batch task plugin.
-  example: []
+  summary: "\nBatchTaskAttribute defines attributes for a batch task plugin.\n"
   syntax:
-    content: >-
-      [AttributeUsage(AttributeTargets.Class)]
-
-      public class BatchTaskAttribute : PluginAttribute
+    content: 'public class BatchTaskAttribute : PluginAttribute'
     content.vb: >-
-      <AttributeUsage(AttributeTargets.Class)>
-
-      Public Class BatchTaskAttribute Inherits PluginAttribute
+      Public Class BatchTaskAttribute
+          Inherits PluginAttribute
   inheritance:
   - System.Object
+  - SuperOffice.Factory.PluginAttribute
   extensionMethods:
   - SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.EnumUtil.MapEnums``2
   - SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  attributes:
-  - type: System.AttributeUsageAttribute
-    ctor: System.AttributeUsageAttribute.#ctor(System.AttributeTargets)
-    arguments:
-    - type: System.AttributeTargets
-      value: 4
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.#ctor(System.String)
   commentId: M:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.#ctor(System.String)
   id: '#ctor(System.String)'
@@ -54,26 +53,28 @@ items:
   langs:
   - csharp
   - vb
-  name: BatchTaskAttribute(string)
-  nameWithType: BatchTaskAttribute.BatchTaskAttribute(string)
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.BatchTaskAttribute(string)
+  name: BatchTaskAttribute(String)
+  nameWithType: BatchTaskAttribute.BatchTaskAttribute(String)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.BatchTaskAttribute(System.String)
   type: Constructor
+  source:
+    path: SoBatchProcessing
+    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
-  summary: Default constructor using all default values.
-  example: []
+  summary: "\nDefault constructor using all default values.\n"
   syntax:
     content: public BatchTaskAttribute(string name)
     parameters:
     - id: name
       type: System.String
-      description: ''
     content.vb: Public Sub New(name As String)
   overload: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.#ctor*
-  nameWithType.vb: BatchTaskAttribute.New(String)
-  fullName.vb: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.New(String)
-  name.vb: New(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.#ctor(System.String,SuperOffice.Data.BatchTaskCancellationBehaviour)
   commentId: M:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.#ctor(System.String,SuperOffice.Data.BatchTaskCancellationBehaviour)
   id: '#ctor(System.String,SuperOffice.Data.BatchTaskCancellationBehaviour)'
@@ -81,29 +82,30 @@ items:
   langs:
   - csharp
   - vb
-  name: BatchTaskAttribute(string, BatchTaskCancellationBehaviour)
-  nameWithType: BatchTaskAttribute.BatchTaskAttribute(string, BatchTaskCancellationBehaviour)
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.BatchTaskAttribute(string, SuperOffice.Data.BatchTaskCancellationBehaviour)
+  name: BatchTaskAttribute(String, BatchTaskCancellationBehaviour)
+  nameWithType: BatchTaskAttribute.BatchTaskAttribute(String, BatchTaskCancellationBehaviour)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.BatchTaskAttribute(System.String, SuperOffice.Data.BatchTaskCancellationBehaviour)
   type: Constructor
+  source:
+    path: SoBatchProcessing
+    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
-  summary: Constructor to specify cancellation behaviour
-  example: []
+  summary: "\nConstructor to specify cancellation behaviour\n"
   syntax:
     content: public BatchTaskAttribute(string name, BatchTaskCancellationBehaviour cancellationBehaviour)
     parameters:
     - id: name
       type: System.String
-      description: ''
     - id: cancellationBehaviour
       type: SuperOffice.Data.BatchTaskCancellationBehaviour
-      description: ''
     content.vb: Public Sub New(name As String, cancellationBehaviour As BatchTaskCancellationBehaviour)
   overload: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.#ctor*
-  nameWithType.vb: BatchTaskAttribute.New(String, BatchTaskCancellationBehaviour)
-  fullName.vb: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.New(String, SuperOffice.Data.BatchTaskCancellationBehaviour)
-  name.vb: New(String, BatchTaskCancellationBehaviour)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.Description
   commentId: P:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.Description
   id: Description
@@ -115,11 +117,13 @@ items:
   nameWithType: BatchTaskAttribute.Description
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.Description
   type: Property
+  source:
+    path: SoBatchProcessing
+    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
-  summary: Gets or sets Description
-  example: []
+  summary: "\nGets or sets Description\n"
   syntax:
     content: public string Description { get; set; }
     parameters: []
@@ -127,6 +131,12 @@ items:
       type: System.String
     content.vb: Public Property Description As String
   overload: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.Timeout
   commentId: P:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.Timeout
   id: Timeout
@@ -138,11 +148,13 @@ items:
   nameWithType: BatchTaskAttribute.Timeout
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.Timeout
   type: Property
+  source:
+    path: SoBatchProcessing
+    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
-  summary: Gets or sets Timeout
-  example: []
+  summary: "\nGets or sets Timeout\n"
   syntax:
     content: public int Timeout { get; set; }
     parameters: []
@@ -150,6 +162,12 @@ items:
       type: System.Int32
     content.vb: Public Property Timeout As Integer
   overload: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.Timeout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass
   commentId: P:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass
   id: IsMultiPass
@@ -161,11 +179,13 @@ items:
   nameWithType: BatchTaskAttribute.IsMultiPass
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass
   type: Property
+  source:
+    path: SoBatchProcessing
+    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
-  summary: Should the task be executed in a loop?  Default value is false.
-  example: []
+  summary: "\nShould the task be executed in a loop?  Default value is false.\n"
   syntax:
     content: public bool IsMultiPass { get; set; }
     parameters: []
@@ -173,6 +193,12 @@ items:
       type: System.Boolean
     content.vb: Public Property IsMultiPass As Boolean
   overload: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.StartInterval
   commentId: P:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.StartInterval
   id: StartInterval
@@ -184,14 +210,13 @@ items:
   nameWithType: BatchTaskAttribute.StartInterval
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.StartInterval
   type: Property
+  source:
+    path: SoBatchProcessing
+    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
-  summary: >-
-    Interval in milliseconds between each time the task is executed 
-
-    when it is executed multiple times (e.g. <xref href="SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass" data-throw-if-not-resolved="false"></xref> = true).
-  example: []
+  summary: "\nInterval in milliseconds between each time the task is executed \nwhen it is executed multiple times (e.g. <xref href=\"SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass\" data-throw-if-not-resolved=\"false\"></xref> = true).   \n"
   syntax:
     content: public int StartInterval { get; set; }
     parameters: []
@@ -199,6 +224,12 @@ items:
       type: System.Int32
     content.vb: Public Property StartInterval As Integer
   overload: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.StartInterval*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.MinimumSleepTime
   commentId: P:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.MinimumSleepTime
   id: MinimumSleepTime
@@ -210,14 +241,13 @@ items:
   nameWithType: BatchTaskAttribute.MinimumSleepTime
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.MinimumSleepTime
   type: Property
+  source:
+    path: SoBatchProcessing
+    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
-  summary: >-
-    Minimum time in milliseconds to sleep between execution of the task 
-
-    when it is executed multiple times (e.g. <xref href="SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass" data-throw-if-not-resolved="false"></xref> = true).
-  example: []
+  summary: "\nMinimum time in milliseconds to sleep between execution of the task \nwhen it is executed multiple times (e.g. <xref href=\"SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass\" data-throw-if-not-resolved=\"false\"></xref> = true).\n"
   syntax:
     content: public int MinimumSleepTime { get; set; }
     parameters: []
@@ -225,6 +255,12 @@ items:
       type: System.Int32
     content.vb: Public Property MinimumSleepTime As Integer
   overload: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.MinimumSleepTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.ManualCleanup
   commentId: P:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.ManualCleanup
   id: ManualCleanup
@@ -236,11 +272,13 @@ items:
   nameWithType: BatchTaskAttribute.ManualCleanup
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.ManualCleanup
   type: Property
+  source:
+    path: SoBatchProcessing
+    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
-  summary: Should cleanup of batchtask-related data in db be deferred?
-  example: []
+  summary: "\nShould cleanup of batchtask-related data in db be deferred?\n"
   syntax:
     content: public bool ManualCleanup { get; set; }
     parameters: []
@@ -248,6 +286,12 @@ items:
       type: System.Boolean
     content.vb: Public Property ManualCleanup As Boolean
   overload: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.ManualCleanup*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.CancellationBehaviour
   commentId: P:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.CancellationBehaviour
   id: CancellationBehaviour
@@ -259,11 +303,13 @@ items:
   nameWithType: BatchTaskAttribute.CancellationBehaviour
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.CancellationBehaviour
   type: Property
+  source:
+    path: SoBatchProcessing
+    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
-  summary: Cancellation behaviour - indicates if the batch task is cancellable
-  example: []
+  summary: "\nCancellation behaviour - indicates if the batch task is cancellable\n"
   syntax:
     content: public BatchTaskCancellationBehaviour CancellationBehaviour { get; set; }
     parameters: []
@@ -271,6 +317,12 @@ items:
       type: SuperOffice.Data.BatchTaskCancellationBehaviour
     content.vb: Public Property CancellationBehaviour As BatchTaskCancellationBehaviour
   overload: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.CancellationBehaviour*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.DefaultCancellationBehaviour
   commentId: P:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.DefaultCancellationBehaviour
   id: DefaultCancellationBehaviour
@@ -282,11 +334,13 @@ items:
   nameWithType: BatchTaskAttribute.DefaultCancellationBehaviour
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.DefaultCancellationBehaviour
   type: Property
+  source:
+    path: SoBatchProcessing
+    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
-  summary: Default cancellation behaviour
-  example: []
+  summary: "\nDefault cancellation behaviour\n"
   syntax:
     content: public static BatchTaskCancellationBehaviour DefaultCancellationBehaviour { get; }
     parameters: []
@@ -294,172 +348,118 @@ items:
       type: SuperOffice.Data.BatchTaskCancellationBehaviour
     content.vb: Public Shared ReadOnly Property DefaultCancellationBehaviour As BatchTaskCancellationBehaviour
   overload: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.DefaultCancellationBehaviour*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.BatchProcessing
   commentId: N:SuperOffice.CRM.BatchProcessing
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.BatchProcessing
   nameWithType: SuperOffice.CRM.BatchProcessing
   fullName: SuperOffice.CRM.BatchProcessing
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BatchProcessing
-    name: BatchProcessing
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BatchProcessing
-    name: BatchProcessing
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Factory.PluginAttribute
+  commentId: T:SuperOffice.Factory.PluginAttribute
+  parent: SuperOffice.Factory
+  isExternal: true
+  name: PluginAttribute
+  nameWithType: PluginAttribute
+  fullName: SuperOffice.Factory.PluginAttribute
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<BatchTaskAttribute, To>(BatchTaskAttribute)
-  nameWithType: EnumUtil.MapEnums<BatchTaskAttribute, To>(BatchTaskAttribute)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.BatchProcessing.BatchTaskAttribute, To>(SuperOffice.CRM.BatchProcessing.BatchTaskAttribute)
-  nameWithType.vb: EnumUtil.MapEnums(Of BatchTaskAttribute, To)(BatchTaskAttribute)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.BatchProcessing.BatchTaskAttribute, To)(SuperOffice.CRM.BatchProcessing.BatchTaskAttribute)
-  name.vb: MapEnums(Of BatchTaskAttribute, To)(BatchTaskAttribute)
+  name: MapEnums<BatchTaskAttribute, To>()
+  nameWithType: EnumUtil.MapEnums<BatchTaskAttribute, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.BatchProcessing.BatchTaskAttribute, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of BatchTaskAttribute, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.BatchProcessing.BatchTaskAttribute, To)()
+  name.vb: MapEnums(Of BatchTaskAttribute, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.BatchProcessing.BatchTaskAttribute)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<BatchTaskAttribute, To>
+    nameWithType: EnumUtil.MapEnums<BatchTaskAttribute, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.BatchProcessing.BatchTaskAttribute, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute
-    name: BatchTaskAttribute
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute
-    name: BatchTaskAttribute
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.BatchProcessing.BatchTaskAttribute)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of BatchTaskAttribute, To)
+    nameWithType: EnumUtil.MapEnums(Of BatchTaskAttribute, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.BatchProcessing.BatchTaskAttribute, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute
-    name: BatchTaskAttribute
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute
-    name: BatchTaskAttribute
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<BatchTaskAttribute, To>(BatchTaskAttribute)
-  nameWithType: Converters.MapEnums<BatchTaskAttribute, To>(BatchTaskAttribute)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BatchProcessing.BatchTaskAttribute, To>(SuperOffice.CRM.BatchProcessing.BatchTaskAttribute)
-  nameWithType.vb: Converters.MapEnums(Of BatchTaskAttribute, To)(BatchTaskAttribute)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BatchProcessing.BatchTaskAttribute, To)(SuperOffice.CRM.BatchProcessing.BatchTaskAttribute)
-  name.vb: MapEnums(Of BatchTaskAttribute, To)(BatchTaskAttribute)
+  name: MapEnums<BatchTaskAttribute, To>()
+  nameWithType: Converters.MapEnums<BatchTaskAttribute, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BatchProcessing.BatchTaskAttribute, To>()
+  nameWithType.vb: Converters.MapEnums(Of BatchTaskAttribute, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BatchProcessing.BatchTaskAttribute, To)()
+  name.vb: MapEnums(Of BatchTaskAttribute, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.BatchProcessing.BatchTaskAttribute)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<BatchTaskAttribute, To>
+    nameWithType: Converters.MapEnums<BatchTaskAttribute, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BatchProcessing.BatchTaskAttribute, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute
-    name: BatchTaskAttribute
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute
-    name: BatchTaskAttribute
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.BatchProcessing.BatchTaskAttribute)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of BatchTaskAttribute, To)
+    nameWithType: Converters.MapEnums(Of BatchTaskAttribute, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BatchProcessing.BatchTaskAttribute, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute
-    name: BatchTaskAttribute
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute
-    name: BatchTaskAttribute
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
+- uid: SuperOffice.Factory
+  commentId: N:SuperOffice.Factory
+  isExternal: true
+  name: SuperOffice.Factory
+  nameWithType: SuperOffice.Factory
+  fullName: SuperOffice.Factory
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -468,45 +468,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -515,146 +513,82 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.#ctor*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.#ctor
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.html#SuperOffice_CRM_BatchProcessing_BatchTaskAttribute__ctor_System_String_
   name: BatchTaskAttribute
   nameWithType: BatchTaskAttribute.BatchTaskAttribute
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.BatchTaskAttribute
-  nameWithType.vb: BatchTaskAttribute.New
-  fullName.vb: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.New
-  name.vb: New
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Data.BatchTaskCancellationBehaviour
   commentId: T:SuperOffice.Data.BatchTaskCancellationBehaviour
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.BatchTaskCancellationBehaviour.html
   name: BatchTaskCancellationBehaviour
   nameWithType: BatchTaskCancellationBehaviour
   fullName: SuperOffice.Data.BatchTaskCancellationBehaviour
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.Description*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.Description
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.html#SuperOffice_CRM_BatchProcessing_BatchTaskAttribute_Description
   name: Description
   nameWithType: BatchTaskAttribute.Description
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.Description
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.Timeout*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.Timeout
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.html#SuperOffice_CRM_BatchProcessing_BatchTaskAttribute_Timeout
   name: Timeout
   nameWithType: BatchTaskAttribute.Timeout
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.Timeout
@@ -662,17 +596,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.html#SuperOffice_CRM_BatchProcessing_BatchTaskAttribute_IsMultiPass
   name: IsMultiPass
   nameWithType: BatchTaskAttribute.IsMultiPass
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass
@@ -680,52 +609,36 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
-- uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass
-  commentId: P:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass
-  isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.html#SuperOffice_CRM_BatchProcessing_BatchTaskAttribute_IsMultiPass
-  name: IsMultiPass
-  nameWithType: BatchTaskAttribute.IsMultiPass
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.IsMultiPass
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.StartInterval*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.StartInterval
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.html#SuperOffice_CRM_BatchProcessing_BatchTaskAttribute_StartInterval
   name: StartInterval
   nameWithType: BatchTaskAttribute.StartInterval
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.StartInterval
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.MinimumSleepTime*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.MinimumSleepTime
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.html#SuperOffice_CRM_BatchProcessing_BatchTaskAttribute_MinimumSleepTime
   name: MinimumSleepTime
   nameWithType: BatchTaskAttribute.MinimumSleepTime
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.MinimumSleepTime
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.ManualCleanup*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.ManualCleanup
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.html#SuperOffice_CRM_BatchProcessing_BatchTaskAttribute_ManualCleanup
   name: ManualCleanup
   nameWithType: BatchTaskAttribute.ManualCleanup
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.ManualCleanup
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.CancellationBehaviour*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.CancellationBehaviour
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.html#SuperOffice_CRM_BatchProcessing_BatchTaskAttribute_CancellationBehaviour
   name: CancellationBehaviour
   nameWithType: BatchTaskAttribute.CancellationBehaviour
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.CancellationBehaviour
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.DefaultCancellationBehaviour*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.DefaultCancellationBehaviour
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.html#SuperOffice_CRM_BatchProcessing_BatchTaskAttribute_DefaultCancellationBehaviour
   name: DefaultCancellationBehaviour
   nameWithType: BatchTaskAttribute.DefaultCancellationBehaviour
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.DefaultCancellationBehaviour

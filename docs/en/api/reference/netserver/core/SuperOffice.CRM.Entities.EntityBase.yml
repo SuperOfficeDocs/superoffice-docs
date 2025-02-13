@@ -6,6 +6,8 @@ items:
   parent: SuperOffice.CRM.Entities
   children:
   - SuperOffice.CRM.Entities.EntityBase.#ctor
+  - SuperOffice.CRM.Entities.EntityBase._onGetRelatedObjects
+  - SuperOffice.CRM.Entities.EntityBase.add_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
   - SuperOffice.CRM.Entities.EntityBase.Delete
   - SuperOffice.CRM.Entities.EntityBase.ForceEntityUpdate
   - SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
@@ -25,10 +27,12 @@ items:
   - SuperOffice.CRM.Entities.EntityBase.OnRowLoaded
   - SuperOffice.CRM.Entities.EntityBase.OnSave(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Entities.EntityBase.OnSaved(System.Boolean)
+  - SuperOffice.CRM.Entities.EntityBase.remove_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
   - SuperOffice.CRM.Entities.EntityBase.SetMarkedForDeleteOnRelatedObjects(System.Boolean)
+  - SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  - SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoaded
   - SuperOffice.CRM.Entities.EntityBase.UpdateSentryRelatedTableInfoInstance``1(SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Entities.EntityBase.Validate
-  - SuperOffice.CRM.Entities.EntityBase._onGetRelatedObjects
   langs:
   - csharp
   - vb
@@ -36,14 +40,19 @@ items:
   nameWithType: EntityBase
   fullName: SuperOffice.CRM.Entities.EntityBase
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Summary description for EntityBase.
-  example: []
+  summary: "\nSummary description for EntityBase.\n"
   syntax:
     content: 'public abstract class EntityBase : NestedPersist, INestedPersist, ISoItem, ITableRowLoadHandler'
-    content.vb: Public MustInherit Class EntityBase Inherits NestedPersist Implements INestedPersist, ISoItem, ITableRowLoadHandler
+    content.vb: >-
+      Public MustInherit Class EntityBase
+          Inherits NestedPersist
+          Implements INestedPersist, ISoItem, ITableRowLoadHandler
   inheritance:
   - System.Object
   - SuperOffice.Data.NestedPersist
@@ -65,21 +74,32 @@ items:
   - SuperOffice.Data.NestedPersist._isSaving
   - SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.Data.NestedPersist.Save
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  - SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.Data.NestedPersist.IsSaving
   - SuperOffice.Data.NestedPersist.IsDeleted
   - SuperOffice.Data.NestedPersist.IsMarkedForDelete
   - SuperOffice.Data.NestedPersist.OnElementSaved
   - SuperOffice.Data.NestedPersist.OnElementIdUpdate
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Entities.EntityBase.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.EntityBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
 - uid: SuperOffice.CRM.Entities.EntityBase._onGetRelatedObjects
   commentId: F:SuperOffice.CRM.Entities.EntityBase._onGetRelatedObjects
   id: _onGetRelatedObjects
@@ -91,6 +111,9 @@ items:
   nameWithType: EntityBase._onGetRelatedObjects
   fullName: SuperOffice.CRM.Entities.EntityBase._onGetRelatedObjects
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
@@ -99,6 +122,10 @@ items:
     return:
       type: SuperOffice.CRM.Entities.GetRelatedObjects
     content.vb: Protected _onGetRelatedObjects As GetRelatedObjects
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Entities.EntityBase.#ctor
   commentId: M:SuperOffice.CRM.Entities.EntityBase.#ctor
   id: '#ctor'
@@ -110,18 +137,21 @@ items:
   nameWithType: EntityBase.EntityBase()
   fullName: SuperOffice.CRM.Entities.EntityBase.EntityBase()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Default constructor.
-  example: []
+  summary: "\nDefault constructor.\n"
   syntax:
     content: protected EntityBase()
-    content.vb: Protected Sub New()
+    content.vb: Protected Sub New
   overload: SuperOffice.CRM.Entities.EntityBase.#ctor*
-  nameWithType.vb: EntityBase.New()
-  fullName.vb: SuperOffice.CRM.Entities.EntityBase.New()
-  name.vb: New()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Entities.EntityBase.Delete
   commentId: M:SuperOffice.CRM.Entities.EntityBase.Delete
   id: Delete
@@ -133,17 +163,24 @@ items:
   nameWithType: EntityBase.Delete()
   fullName: SuperOffice.CRM.Entities.EntityBase.Delete()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Delete the object.
-  example: []
   syntax:
     content: public abstract void Delete()
-    content.vb: Public MustOverride Sub Delete()
+    content.vb: Public MustOverride Sub Delete
   overload: SuperOffice.CRM.Entities.EntityBase.Delete*
   implements:
   - SuperOffice.Data.ISoItem.Delete
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
 - uid: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
   commentId: M:SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
   id: GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
@@ -151,28 +188,35 @@ items:
   langs:
   - csharp
   - vb
-  name: GetRelatedNestedPersist(List<INestedPersist>, bool)
-  nameWithType: EntityBase.GetRelatedNestedPersist(List<INestedPersist>, bool)
-  fullName: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, bool)
+  name: GetRelatedNestedPersist(List<INestedPersist>, Boolean)
+  nameWithType: EntityBase.GetRelatedNestedPersist(List<INestedPersist>, Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, System.Boolean)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Generated code should override this method to return its list of related nestedpersist objects
-  example: []
+  summary: "\nGenerated code should override this method to return its list of related nestedpersist objects\n"
   syntax:
     content: protected abstract void GetRelatedNestedPersist(List<INestedPersist> relatedObjects, bool lacyFetchIfNeeded)
     parameters:
     - id: relatedObjects
       type: System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
-      description: ''
     - id: lacyFetchIfNeeded
       type: System.Boolean
       description: Lacy fetch objects that is not allready loaded if needed
     content.vb: Protected MustOverride Sub GetRelatedNestedPersist(relatedObjects As List(Of INestedPersist), lacyFetchIfNeeded As Boolean)
   overload: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist*
   nameWithType.vb: EntityBase.GetRelatedNestedPersist(List(Of INestedPersist), Boolean)
-  fullName.vb: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), Boolean)
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  fullName.vb: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), System.Boolean)
   name.vb: GetRelatedNestedPersist(List(Of INestedPersist), Boolean)
 - uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
   commentId: M:SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
@@ -181,10 +225,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAdditionalRelatedNestedPersistViaBaseClass(List<INestedPersist>, bool)
-  nameWithType: EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(List<INestedPersist>, bool)
-  fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, bool)
+  name: GetAdditionalRelatedNestedPersistViaBaseClass(List<INestedPersist>, Boolean)
+  nameWithType: EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(List<INestedPersist>, Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, System.Boolean)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
@@ -198,7 +245,11 @@ items:
     content.vb: Protected Sub GetAdditionalRelatedNestedPersistViaBaseClass(relatedObjects As List(Of INestedPersist), lacyFetchIfNeeded As Boolean)
   overload: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass*
   nameWithType.vb: EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(List(Of INestedPersist), Boolean)
-  fullName.vb: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), Boolean)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), System.Boolean)
   name.vb: GetAdditionalRelatedNestedPersistViaBaseClass(List(Of INestedPersist), Boolean)
 - uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
   commentId: M:SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
@@ -207,28 +258,91 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAdditionalRelatedNestedPersist(List<INestedPersist>, bool)
-  nameWithType: EntityBase.GetAdditionalRelatedNestedPersist(List<INestedPersist>, bool)
-  fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, bool)
+  name: GetAdditionalRelatedNestedPersist(List<INestedPersist>, Boolean)
+  nameWithType: EntityBase.GetAdditionalRelatedNestedPersist(List<INestedPersist>, Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, System.Boolean)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Hand-implemented partial class code should override this method to add to the list of related nestedpersist objects
-  example: []
+  summary: "\nHand-implemented partial class code should override this method to add to the list of related nestedpersist objects\n"
   syntax:
     content: protected virtual void GetAdditionalRelatedNestedPersist(List<INestedPersist> relatedObjects, bool lacyFetchIfNeeded)
     parameters:
     - id: relatedObjects
       type: System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
-      description: ''
     - id: lacyFetchIfNeeded
       type: System.Boolean
     content.vb: Protected Overridable Sub GetAdditionalRelatedNestedPersist(relatedObjects As List(Of INestedPersist), lacyFetchIfNeeded As Boolean)
   overload: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist*
   nameWithType.vb: EntityBase.GetAdditionalRelatedNestedPersist(List(Of INestedPersist), Boolean)
-  fullName.vb: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), Boolean)
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), System.Boolean)
   name.vb: GetAdditionalRelatedNestedPersist(List(Of INestedPersist), Boolean)
+- uid: SuperOffice.CRM.Entities.EntityBase.add_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.add_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
+  id: add_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
+  parent: SuperOffice.CRM.Entities.EntityBase
+  langs:
+  - csharp
+  - vb
+  name: add_OnGetRelatedObjects(GetRelatedObjects)
+  nameWithType: EntityBase.add_OnGetRelatedObjects(GetRelatedObjects)
+  fullName: SuperOffice.CRM.Entities.EntityBase.add_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public void add_OnGetRelatedObjects(GetRelatedObjects value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Entities.GetRelatedObjects
+    content.vb: Public Sub add_OnGetRelatedObjects(value As GetRelatedObjects)
+  overload: SuperOffice.CRM.Entities.EntityBase.add_OnGetRelatedObjects*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.EntityBase.remove_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.remove_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
+  id: remove_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
+  parent: SuperOffice.CRM.Entities.EntityBase
+  langs:
+  - csharp
+  - vb
+  name: remove_OnGetRelatedObjects(GetRelatedObjects)
+  nameWithType: EntityBase.remove_OnGetRelatedObjects(GetRelatedObjects)
+  fullName: SuperOffice.CRM.Entities.EntityBase.remove_OnGetRelatedObjects(SuperOffice.CRM.Entities.GetRelatedObjects)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public void remove_OnGetRelatedObjects(GetRelatedObjects value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Entities.GetRelatedObjects
+    content.vb: Public Sub remove_OnGetRelatedObjects(value As GetRelatedObjects)
+  overload: SuperOffice.CRM.Entities.EntityBase.remove_OnGetRelatedObjects*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.EntityBase.ForceEntityUpdate
   commentId: M:SuperOffice.CRM.Entities.EntityBase.ForceEntityUpdate
   id: ForceEntityUpdate
@@ -240,18 +354,23 @@ items:
   nameWithType: EntityBase.ForceEntityUpdate()
   fullName: SuperOffice.CRM.Entities.EntityBase.ForceEntityUpdate()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: >-
-    This method is called when only related objects are changed in order for the 
-
-    entity to force the Updated and UpdatedAssociate to be modified on the entity.
-  example: []
+  summary: "\nThis method is called when only related objects are changed in order for the \nentity to force the Updated and UpdatedAssociate to be modified on the entity.\n"
   syntax:
     content: protected abstract void ForceEntityUpdate()
-    content.vb: Protected MustOverride Sub ForceEntityUpdate()
+    content.vb: Protected MustOverride Sub ForceEntityUpdate
   overload: SuperOffice.CRM.Entities.EntityBase.ForceEntityUpdate*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
 - uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate
   commentId: M:SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate
   id: OnPreIdUpdate
@@ -263,16 +382,24 @@ items:
   nameWithType: EntityBase.OnPreIdUpdate()
   fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: protected override void OnPreIdUpdate()
-    content.vb: Protected Overrides Sub OnPreIdUpdate()
+    content.vb: Protected Overrides Sub OnPreIdUpdate
   overridden: SuperOffice.Data.NestedPersist.OnPreIdUpdate
   overload: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
   commentId: M:SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
   id: OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
@@ -284,20 +411,27 @@ items:
   nameWithType: EntityBase.OnPrimaryKeyRequest(PKContainer)
   fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: protected override void OnPrimaryKeyRequest(PKContainer pkContainer)
     parameters:
     - id: pkContainer
       type: SuperOffice.Data.PKContainer
-      description: ''
     content.vb: Protected Overrides Sub OnPrimaryKeyRequest(pkContainer As PKContainer)
   overridden: SuperOffice.Data.NestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
   overload: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
   commentId: M:SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
   id: OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
@@ -309,20 +443,27 @@ items:
   nameWithType: EntityBase.OnPrimaryKeyUpdate(PKContainer)
   fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: protected override void OnPrimaryKeyUpdate(PKContainer pkContainer)
     parameters:
     - id: pkContainer
       type: SuperOffice.Data.PKContainer
-      description: ''
     content.vb: Protected Overrides Sub OnPrimaryKeyUpdate(pkContainer As PKContainer)
   overridden: SuperOffice.Data.NestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
   overload: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.Entities.EntityBase.OnIdUpdate
   commentId: M:SuperOffice.CRM.Entities.EntityBase.OnIdUpdate
   id: OnIdUpdate
@@ -334,16 +475,24 @@ items:
   nameWithType: EntityBase.OnIdUpdate()
   fullName: SuperOffice.CRM.Entities.EntityBase.OnIdUpdate()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: protected override void OnIdUpdate()
-    content.vb: Protected Overrides Sub OnIdUpdate()
+    content.vb: Protected Overrides Sub OnIdUpdate
   overridden: SuperOffice.Data.NestedPersist.OnIdUpdate
   overload: SuperOffice.CRM.Entities.EntityBase.OnIdUpdate*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.Entities.EntityBase.OnSave(SuperOffice.Data.SQL.BatchSave)
   commentId: M:SuperOffice.CRM.Entities.EntityBase.OnSave(SuperOffice.Data.SQL.BatchSave)
   id: OnSave(SuperOffice.Data.SQL.BatchSave)
@@ -355,20 +504,27 @@ items:
   nameWithType: EntityBase.OnSave(BatchSave)
   fullName: SuperOffice.CRM.Entities.EntityBase.OnSave(SuperOffice.Data.SQL.BatchSave)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: protected override void OnSave(BatchSave batchSave)
     parameters:
     - id: batchSave
       type: SuperOffice.Data.SQL.BatchSave
-      description: ''
     content.vb: Protected Overrides Sub OnSave(batchSave As BatchSave)
   overridden: SuperOffice.Data.NestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
   overload: SuperOffice.CRM.Entities.EntityBase.OnSave*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.Entities.EntityBase.OnSaved(System.Boolean)
   commentId: M:SuperOffice.CRM.Entities.EntityBase.OnSaved(System.Boolean)
   id: OnSaved(System.Boolean)
@@ -376,15 +532,17 @@ items:
   langs:
   - csharp
   - vb
-  name: OnSaved(bool)
-  nameWithType: EntityBase.OnSaved(bool)
-  fullName: SuperOffice.CRM.Entities.EntityBase.OnSaved(bool)
+  name: OnSaved(Boolean)
+  nameWithType: EntityBase.OnSaved(Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnSaved(System.Boolean)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: protected override void OnSaved(bool bSucceeded)
     parameters:
@@ -393,9 +551,12 @@ items:
     content.vb: Protected Overrides Sub OnSaved(bSucceeded As Boolean)
   overridden: SuperOffice.Data.NestedPersist.OnSaved(System.Boolean)
   overload: SuperOffice.CRM.Entities.EntityBase.OnSaved*
-  nameWithType.vb: EntityBase.OnSaved(Boolean)
-  fullName.vb: SuperOffice.CRM.Entities.EntityBase.OnSaved(Boolean)
-  name.vb: OnSaved(Boolean)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.Entities.EntityBase.SetMarkedForDeleteOnRelatedObjects(System.Boolean)
   commentId: M:SuperOffice.CRM.Entities.EntityBase.SetMarkedForDeleteOnRelatedObjects(System.Boolean)
   id: SetMarkedForDeleteOnRelatedObjects(System.Boolean)
@@ -403,18 +564,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetMarkedForDeleteOnRelatedObjects(bool)
-  nameWithType: EntityBase.SetMarkedForDeleteOnRelatedObjects(bool)
-  fullName: SuperOffice.CRM.Entities.EntityBase.SetMarkedForDeleteOnRelatedObjects(bool)
+  name: SetMarkedForDeleteOnRelatedObjects(Boolean)
+  nameWithType: EntityBase.SetMarkedForDeleteOnRelatedObjects(Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityBase.SetMarkedForDeleteOnRelatedObjects(System.Boolean)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: >-
-    Call this method to set the marked for delete on related objects.  
-
-    Implement this method in implementation of enteties to set marked for delete on related objects
-  example: []
+  summary: "\nCall this method to set the marked for delete on related objects.  \nImplement this method in implementation of enteties to set marked for delete on related objects\n"
   syntax:
     content: protected virtual void SetMarkedForDeleteOnRelatedObjects(bool isMarkedForDelete)
     parameters:
@@ -423,9 +583,43 @@ items:
       description: True if the objects are to be removed from the database the next time it is saved.
     content.vb: Protected Overridable Sub SetMarkedForDeleteOnRelatedObjects(isMarkedForDelete As Boolean)
   overload: SuperOffice.CRM.Entities.EntityBase.SetMarkedForDeleteOnRelatedObjects*
-  nameWithType.vb: EntityBase.SetMarkedForDeleteOnRelatedObjects(Boolean)
-  fullName.vb: SuperOffice.CRM.Entities.EntityBase.SetMarkedForDeleteOnRelatedObjects(Boolean)
-  name.vb: SetMarkedForDeleteOnRelatedObjects(Boolean)
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  id: SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  isEii: true
+  parent: SuperOffice.CRM.Entities.EntityBase
+  langs:
+  - csharp
+  - vb
+  name: ITableRowLoadHandler.OnRowLoad(SoDataReader, TableRowBase)
+  nameWithType: EntityBase.ITableRowLoadHandler.OnRowLoad(SoDataReader, TableRowBase)
+  fullName: SuperOffice.CRM.Entities.EntityBase.SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad(SuperOffice.Data.SoDataReader, SuperOffice.CRM.Rows.TableRowBase)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: void ITableRowLoadHandler.OnRowLoad(SoDataReader reader, TableRowBase row)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    - id: row
+      type: SuperOffice.CRM.Rows.TableRowBase
+    content.vb: Sub SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad(reader As SoDataReader, row As TableRowBase) Implements ITableRowLoadHandler.OnRowLoad
+  overload: SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoad*
+  implements:
+  - SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  nameWithType.vb: EntityBase.SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad(SoDataReader, TableRowBase)
+  name.vb: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad(SoDataReader, TableRowBase)
 - uid: SuperOffice.CRM.Entities.EntityBase.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
   commentId: M:SuperOffice.CRM.Entities.EntityBase.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
   id: OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
@@ -437,6 +631,9 @@ items:
   nameWithType: EntityBase.OnRowLoad(SoDataReader, TableRowBase)
   fullName: SuperOffice.CRM.Entities.EntityBase.OnRowLoad(SuperOffice.Data.SoDataReader, SuperOffice.CRM.Rows.TableRowBase)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
@@ -449,6 +646,38 @@ items:
       type: SuperOffice.CRM.Rows.TableRowBase
     content.vb: Protected MustOverride Sub OnRowLoad(reader As SoDataReader, row As TableRowBase)
   overload: SuperOffice.CRM.Entities.EntityBase.OnRowLoad*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoaded
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoaded
+  id: SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoaded
+  isEii: true
+  parent: SuperOffice.CRM.Entities.EntityBase
+  langs:
+  - csharp
+  - vb
+  name: ITableRowLoadHandler.OnRowLoaded()
+  nameWithType: EntityBase.ITableRowLoadHandler.OnRowLoaded()
+  fullName: SuperOffice.CRM.Entities.EntityBase.SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: void ITableRowLoadHandler.OnRowLoaded()
+    content.vb: Sub SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded Implements ITableRowLoadHandler.OnRowLoaded
+  overload: SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoaded*
+  implements:
+  - SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+  nameWithType.vb: EntityBase.SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded()
+  name.vb: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded()
 - uid: SuperOffice.CRM.Entities.EntityBase.OnRowLoaded
   commentId: M:SuperOffice.CRM.Entities.EntityBase.OnRowLoaded
   id: OnRowLoaded
@@ -460,13 +689,22 @@ items:
   nameWithType: EntityBase.OnRowLoaded()
   fullName: SuperOffice.CRM.Entities.EntityBase.OnRowLoaded()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: protected abstract void OnRowLoaded()
-    content.vb: Protected MustOverride Sub OnRowLoaded()
+    content.vb: Protected MustOverride Sub OnRowLoaded
   overload: SuperOffice.CRM.Entities.EntityBase.OnRowLoaded*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
 - uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation
   commentId: M:SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation
   id: OnPreIdUpdateImplementation
@@ -478,13 +716,22 @@ items:
   nameWithType: EntityBase.OnPreIdUpdateImplementation()
   fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: protected virtual void OnPreIdUpdateImplementation()
-    content.vb: Protected Overridable Sub OnPreIdUpdateImplementation()
+    content.vb: Protected Overridable Sub OnPreIdUpdateImplementation
   overload: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
 - uid: SuperOffice.CRM.Entities.EntityBase.OnIdUpdateImplementation
   commentId: M:SuperOffice.CRM.Entities.EntityBase.OnIdUpdateImplementation
   id: OnIdUpdateImplementation
@@ -496,13 +743,22 @@ items:
   nameWithType: EntityBase.OnIdUpdateImplementation()
   fullName: SuperOffice.CRM.Entities.EntityBase.OnIdUpdateImplementation()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
   syntax:
     content: protected virtual void OnIdUpdateImplementation()
-    content.vb: Protected Overridable Sub OnIdUpdateImplementation()
+    content.vb: Protected Overridable Sub OnIdUpdateImplementation
   overload: SuperOffice.CRM.Entities.EntityBase.OnIdUpdateImplementation*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
 - uid: SuperOffice.CRM.Entities.EntityBase.UpdateSentryRelatedTableInfoInstance``1(SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.CRM.Entities.EntityBase.UpdateSentryRelatedTableInfoInstance``1(SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.TableInfo)
   id: UpdateSentryRelatedTableInfoInstance``1(SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.TableInfo)
@@ -514,49 +770,32 @@ items:
   nameWithType: EntityBase.UpdateSentryRelatedTableInfoInstance<MainTableInfoType>(SentryCollection, TableInfo)
   fullName: SuperOffice.CRM.Entities.EntityBase.UpdateSentryRelatedTableInfoInstance<MainTableInfoType>(SuperOffice.CRM.Security.SentryCollection, SuperOffice.Data.SQL.TableInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: >-
-    Update a TableInfo object in all sentries in the entity, with a new instance of the same
-
-    kind of table
-  remarks: >-
-    This method should be called only when NEW, DEPENDENT ROW objects are being created
-
-    by a multi-row-type entity. It updates a TableInfo instance in the Sentry's SentryQueryInfo
-
-    class (the one that defines what tables the sentry should calculate rights for),
-
-    with another instance of the same type. 
-
-    This has to be done so that the TableInfo in the newly created and attached Row object
-
-    matches the TableInfo in the Sentry, otherwise the Sentry will not provide any field
-
-    rights. <br />
-
-    Calling this method in a context where a query or query results are being analyzed should be avoided,
-
-    as it only looks at the types involved and might mix up the tableinfo's from multiple
-
-    aliases of the same table in a single query.
-  example: []
+  summary: "\nUpdate a TableInfo object in all sentries in the entity, with a new instance of the same\nkind of table\n"
+  remarks: "\nThis method should be called only when NEW, DEPENDENT ROW objects are being created\nby a multi-row-type entity. It updates a TableInfo instance in the Sentry&apos;s SentryQueryInfo\nclass (the one that defines what tables the sentry should calculate rights for),\nwith another instance of the same type. \nThis has to be done so that the TableInfo in the newly created and attached Row object\nmatches the TableInfo in the Sentry, otherwise the Sentry will not provide any field\nrights. <br />\nCalling this method in a context where a query or query results are being analyzed should be avoided,\nas it only looks at the types involved and might mix up the tableinfo&apos;s from multiple\naliases of the same table in a single query.\n"
   syntax:
-    content: 'protected void UpdateSentryRelatedTableInfoInstance<MainTableInfoType>(SentryCollection sentries, TableInfo newInstance) where MainTableInfoType : TableInfo'
+    content: >-
+      protected void UpdateSentryRelatedTableInfoInstance<MainTableInfoType>(SentryCollection sentries, TableInfo newInstance)
+          where MainTableInfoType : TableInfo
     parameters:
     - id: sentries
       type: SuperOffice.CRM.Security.SentryCollection
-      description: ''
     - id: newInstance
       type: SuperOffice.Data.SQL.TableInfo
-      description: ''
     typeParameters:
     - id: MainTableInfoType
-      description: ''
     content.vb: Protected Sub UpdateSentryRelatedTableInfoInstance(Of MainTableInfoType As TableInfo)(sentries As SentryCollection, newInstance As TableInfo)
   overload: SuperOffice.CRM.Entities.EntityBase.UpdateSentryRelatedTableInfoInstance*
   nameWithType.vb: EntityBase.UpdateSentryRelatedTableInfoInstance(Of MainTableInfoType)(SentryCollection, TableInfo)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
   fullName.vb: SuperOffice.CRM.Entities.EntityBase.UpdateSentryRelatedTableInfoInstance(Of MainTableInfoType)(SuperOffice.CRM.Security.SentryCollection, SuperOffice.Data.SQL.TableInfo)
   name.vb: UpdateSentryRelatedTableInfoInstance(Of MainTableInfoType)(SentryCollection, TableInfo)
 - uid: SuperOffice.CRM.Entities.EntityBase.Validate
@@ -570,18 +809,26 @@ items:
   nameWithType: EntityBase.Validate()
   fullName: SuperOffice.CRM.Entities.EntityBase.Validate()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Check the entity and related objects for consistency and required fields, and return fields and error messages.
-  example: []
+  summary: "\nCheck the entity and related objects for consistency and required fields, and return fields and error messages.\n"
   syntax:
     content: public abstract Dictionary<string, string> Validate()
     return:
       type: System.Collections.Generic.Dictionary{System.String,System.String}
       description: Field names and error messages
-    content.vb: Public MustOverride Function Validate() As Dictionary(Of String, String)
+    content.vb: Public MustOverride Function Validate As Dictionary(Of String, String)
   overload: SuperOffice.CRM.Entities.EntityBase.Validate*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
 - uid: SuperOffice.CRM.Entities.EntityBase.IsNew
   commentId: P:SuperOffice.CRM.Entities.EntityBase.IsNew
   id: IsNew
@@ -593,11 +840,13 @@ items:
   nameWithType: EntityBase.IsNew
   fullName: SuperOffice.CRM.Entities.EntityBase.IsNew
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Is the row new, e.g. not been inserted to the database?
-  example: []
+  summary: "\nIs the row new, e.g. not been inserted to the database?\n"
   syntax:
     content: public abstract bool IsNew { get; }
     parameters: []
@@ -607,6 +856,14 @@ items:
   overload: SuperOffice.CRM.Entities.EntityBase.IsNew*
   implements:
   - SuperOffice.Data.ISoItem.IsNew
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.EntityBase.IsDirty
   commentId: P:SuperOffice.CRM.Entities.EntityBase.IsDirty
   id: IsDirty
@@ -618,11 +875,13 @@ items:
   nameWithType: EntityBase.IsDirty
   fullName: SuperOffice.CRM.Entities.EntityBase.IsDirty
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Check if any of the related objects are dirty.
-  example: []
+  summary: "\nCheck if any of the related objects are dirty.\n"
   syntax:
     content: public override bool IsDirty { get; }
     parameters: []
@@ -633,6 +892,14 @@ items:
   overload: SuperOffice.CRM.Entities.EntityBase.IsDirty*
   implements:
   - SuperOffice.Data.ISoItem.IsDirty
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.EntityBase.MainRow
   commentId: P:SuperOffice.CRM.Entities.EntityBase.MainRow
   id: MainRow
@@ -644,11 +911,13 @@ items:
   nameWithType: EntityBase.MainRow
   fullName: SuperOffice.CRM.Entities.EntityBase.MainRow
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Get the main row for the entity.
-  example: []
+  summary: "\nGet the main row for the entity.\n"
   syntax:
     content: protected abstract TableRowBase MainRow { get; }
     parameters: []
@@ -656,6 +925,14 @@ items:
       type: SuperOffice.CRM.Rows.TableRowBase
     content.vb: Protected MustOverride ReadOnly Property MainRow As TableRowBase
   overload: SuperOffice.CRM.Entities.EntityBase.MainRow*
+  modifiers.csharp:
+  - protected
+  - abstract
+  - get
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.EntityBase.OnGetRelatedObjects
   commentId: E:SuperOffice.CRM.Entities.EntityBase.OnGetRelatedObjects
   id: OnGetRelatedObjects
@@ -667,70 +944,40 @@ items:
   nameWithType: EntityBase.OnGetRelatedObjects
   fullName: SuperOffice.CRM.Entities.EntityBase.OnGetRelatedObjects
   type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Event raised when related objects are being collected for saving.
-  example: []
+  summary: "\nEvent raised when related objects are being collected for saving.\n"
   syntax:
     content: public event GetRelatedObjects OnGetRelatedObjects
     return:
       type: SuperOffice.CRM.Entities.GetRelatedObjects
     content.vb: Public Event OnGetRelatedObjects As GetRelatedObjects
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.NestedPersist
   commentId: T:SuperOffice.Data.NestedPersist
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html
   name: NestedPersist
   nameWithType: NestedPersist
   fullName: SuperOffice.Data.NestedPersist
@@ -738,7 +985,6 @@ references:
   commentId: T:SuperOffice.Data.INestedPersist
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.INestedPersist.html
   name: INestedPersist
   nameWithType: INestedPersist
   fullName: SuperOffice.Data.INestedPersist
@@ -746,7 +992,6 @@ references:
   commentId: T:SuperOffice.Data.ISoItem
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ISoItem.html
   name: ISoItem
   nameWithType: ISoItem
   fullName: SuperOffice.Data.ISoItem
@@ -754,7 +999,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.ITableRowLoadHandler
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.ITableRowLoadHandler.html
   name: ITableRowLoadHandler
   nameWithType: ITableRowLoadHandler
   fullName: SuperOffice.CRM.Rows.ITableRowLoadHandler
@@ -762,7 +1006,6 @@ references:
   commentId: F:SuperOffice.Data.NestedPersist._saveOwner
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist__saveOwner
   name: _saveOwner
   nameWithType: NestedPersist._saveOwner
   fullName: SuperOffice.Data.NestedPersist._saveOwner
@@ -770,7 +1013,6 @@ references:
   commentId: F:SuperOffice.Data.NestedPersist._isSaving
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist__isSaving
   name: _isSaving
   nameWithType: NestedPersist._isSaving
   fullName: SuperOffice.Data.NestedPersist._isSaving
@@ -778,59 +1020,480 @@ references:
   commentId: M:SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_SetSaveOwner_SuperOffice_Data_INestedPersist_
   name: SetSaveOwner(INestedPersist)
   nameWithType: NestedPersist.SetSaveOwner(INestedPersist)
   fullName: SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
     name: SetSaveOwner
+    nameWithType: NestedPersist.SetSaveOwner
+    fullName: SuperOffice.Data.NestedPersist.SetSaveOwner
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_SetSaveOwner_SuperOffice_Data_INestedPersist_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.INestedPersist
     name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
     isExternal: true
-    href: SuperOffice.Data.INestedPersist.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
     name: SetSaveOwner
+    nameWithType: NestedPersist.SetSaveOwner
+    fullName: SuperOffice.Data.NestedPersist.SetSaveOwner
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_SetSaveOwner_SuperOffice_Data_INestedPersist_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.INestedPersist
     name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
     isExternal: true
-    href: SuperOffice.Data.INestedPersist.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersist.Save
   commentId: M:SuperOffice.Data.NestedPersist.Save
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_Save
   name: Save()
   nameWithType: NestedPersist.Save()
   fullName: SuperOffice.Data.NestedPersist.Save()
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersist.Save
     name: Save
+    nameWithType: NestedPersist.Save
+    fullName: SuperOffice.Data.NestedPersist.Save
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_Save
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersist.Save
     name: Save
+    nameWithType: NestedPersist.Save
+    fullName: SuperOffice.Data.NestedPersist.Save
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_Save
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnPreIdUpdate()
+  nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+    name: INestedPersist.OnPreIdUpdate
+    nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+    name: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyRequest
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyUpdate
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnIdUpdate()
+  nameWithType: NestedPersist.INestedPersist.OnIdUpdate()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
+  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdate()
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+    name: INestedPersist.OnIdUpdate
+    nameWithType: NestedPersist.INestedPersist.OnIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+    name: SuperOffice.Data.INestedPersist.OnIdUpdate
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnSave(BatchSave)
+  nameWithType: NestedPersist.INestedPersist.OnSave(BatchSave)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSave(BatchSave)
+  name.vb: SuperOffice.Data.INestedPersist.OnSave(BatchSave)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+    name: INestedPersist.OnSave
+    nameWithType: NestedPersist.INestedPersist.OnSave
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+    name: SuperOffice.Data.INestedPersist.OnSave
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnSaved(Boolean)
+  nameWithType: NestedPersist.INestedPersist.OnSaved(Boolean)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(Boolean)
+  name.vb: SuperOffice.Data.INestedPersist.OnSaved(Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+    name: INestedPersist.OnSaved
+    nameWithType: NestedPersist.INestedPersist.OnSaved
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+    name: SuperOffice.Data.INestedPersist.OnSaved
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: add_OnElementSaved(OnSaved)
+  nameWithType: NestedPersist.add_OnElementSaved(OnSaved)
+  fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: NestedPersist.add_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: NestedPersist.add_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: remove_OnElementSaved(OnSaved)
+  nameWithType: NestedPersist.remove_OnElementSaved(OnSaved)
+  fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: NestedPersist.remove_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: NestedPersist.remove_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: add_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: NestedPersist.add_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: NestedPersist.add_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: NestedPersist.add_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: remove_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: NestedPersist.remove_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: NestedPersist.remove_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: NestedPersist.remove_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersist.IsSaving
   commentId: P:SuperOffice.Data.NestedPersist.IsSaving
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_IsSaving
   name: IsSaving
   nameWithType: NestedPersist.IsSaving
   fullName: SuperOffice.Data.NestedPersist.IsSaving
@@ -838,7 +1501,6 @@ references:
   commentId: P:SuperOffice.Data.NestedPersist.IsDeleted
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_IsDeleted
   name: IsDeleted
   nameWithType: NestedPersist.IsDeleted
   fullName: SuperOffice.Data.NestedPersist.IsDeleted
@@ -846,7 +1508,6 @@ references:
   commentId: P:SuperOffice.Data.NestedPersist.IsMarkedForDelete
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_IsMarkedForDelete
   name: IsMarkedForDelete
   nameWithType: NestedPersist.IsMarkedForDelete
   fullName: SuperOffice.Data.NestedPersist.IsMarkedForDelete
@@ -854,7 +1515,6 @@ references:
   commentId: E:SuperOffice.Data.NestedPersist.OnElementSaved
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnElementSaved
   name: OnElementSaved
   nameWithType: NestedPersist.OnElementSaved
   fullName: SuperOffice.Data.NestedPersist.OnElementSaved
@@ -862,410 +1522,98 @@ references:
   commentId: E:SuperOffice.Data.NestedPersist.OnElementIdUpdate
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnElementIdUpdate
   name: OnElementIdUpdate
   nameWithType: NestedPersist.OnElementIdUpdate
   fullName: SuperOffice.Data.NestedPersist.OnElementIdUpdate
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Entities.EntityBase.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<EntityBase, To>(EntityBase)
-  nameWithType: EnumUtil.MapEnums<EntityBase, To>(EntityBase)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.EntityBase, To>(SuperOffice.CRM.Entities.EntityBase)
-  nameWithType.vb: EnumUtil.MapEnums(Of EntityBase, To)(EntityBase)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.EntityBase, To)(SuperOffice.CRM.Entities.EntityBase)
-  name.vb: MapEnums(Of EntityBase, To)(EntityBase)
+  name: MapEnums<EntityBase, To>()
+  nameWithType: EnumUtil.MapEnums<EntityBase, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.EntityBase, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EntityBase, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.EntityBase, To)()
+  name.vb: MapEnums(Of EntityBase, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.EntityBase)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EntityBase, To>
+    nameWithType: EnumUtil.MapEnums<EntityBase, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.EntityBase, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Entities.EntityBase
-    name: EntityBase
-    isExternal: true
-    href: SuperOffice.CRM.Entities.EntityBase.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Entities.EntityBase
-    name: EntityBase
-    isExternal: true
-    href: SuperOffice.CRM.Entities.EntityBase.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.EntityBase)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EntityBase, To)
+    nameWithType: EnumUtil.MapEnums(Of EntityBase, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.EntityBase, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Entities.EntityBase
-    name: EntityBase
-    isExternal: true
-    href: SuperOffice.CRM.Entities.EntityBase.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Entities.EntityBase
-    name: EntityBase
-    isExternal: true
-    href: SuperOffice.CRM.Entities.EntityBase.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.EntityBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<EntityBase, To>(EntityBase)
-  nameWithType: Converters.MapEnums<EntityBase, To>(EntityBase)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.EntityBase, To>(SuperOffice.CRM.Entities.EntityBase)
-  nameWithType.vb: Converters.MapEnums(Of EntityBase, To)(EntityBase)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.EntityBase, To)(SuperOffice.CRM.Entities.EntityBase)
-  name.vb: MapEnums(Of EntityBase, To)(EntityBase)
+  name: MapEnums<EntityBase, To>()
+  nameWithType: Converters.MapEnums<EntityBase, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.EntityBase, To>()
+  nameWithType.vb: Converters.MapEnums(Of EntityBase, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.EntityBase, To)()
+  name.vb: MapEnums(Of EntityBase, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.EntityBase)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EntityBase, To>
+    nameWithType: Converters.MapEnums<EntityBase, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.EntityBase, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Entities.EntityBase
-    name: EntityBase
-    isExternal: true
-    href: SuperOffice.CRM.Entities.EntityBase.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Entities.EntityBase
-    name: EntityBase
-    isExternal: true
-    href: SuperOffice.CRM.Entities.EntityBase.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.EntityBase)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EntityBase, To)
+    nameWithType: Converters.MapEnums(Of EntityBase, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.EntityBase, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Entities.EntityBase
-    name: EntityBase
-    isExternal: true
-    href: SuperOffice.CRM.Entities.EntityBase.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Entities.EntityBase
-    name: EntityBase
-    isExternal: true
-    href: SuperOffice.CRM.Entities.EntityBase.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1274,45 +1622,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1321,101 +1667,63 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Entities.GetRelatedObjects
   commentId: T:SuperOffice.CRM.Entities.GetRelatedObjects
   parent: SuperOffice.CRM.Entities
   isExternal: true
-  href: SuperOffice.CRM.Entities.GetRelatedObjects.html
   name: GetRelatedObjects
   nameWithType: GetRelatedObjects
   fullName: SuperOffice.CRM.Entities.GetRelatedObjects
 - uid: SuperOffice.CRM.Entities.EntityBase.#ctor*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase__ctor
   name: EntityBase
   nameWithType: EntityBase.EntityBase
   fullName: SuperOffice.CRM.Entities.EntityBase.EntityBase
-  nameWithType.vb: EntityBase.New
-  fullName.vb: SuperOffice.CRM.Entities.EntityBase.New
-  name.vb: New
 - uid: SuperOffice.CRM.Entities.EntityBase.Delete*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.Delete
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_Delete
   name: Delete
   nameWithType: EntityBase.Delete
   fullName: SuperOffice.CRM.Entities.EntityBase.Delete
@@ -1423,36 +1731,42 @@ references:
   commentId: M:SuperOffice.Data.ISoItem.Delete
   parent: SuperOffice.Data.ISoItem
   isExternal: true
-  href: SuperOffice.Data.ISoItem.html#SuperOffice_Data_ISoItem_Delete
   name: Delete()
   nameWithType: ISoItem.Delete()
   fullName: SuperOffice.Data.ISoItem.Delete()
   spec.csharp:
   - uid: SuperOffice.Data.ISoItem.Delete
     name: Delete
+    nameWithType: ISoItem.Delete
+    fullName: SuperOffice.Data.ISoItem.Delete
     isExternal: true
-    href: SuperOffice.Data.ISoItem.html#SuperOffice_Data_ISoItem_Delete
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.ISoItem.Delete
     name: Delete
+    nameWithType: ISoItem.Delete
+    fullName: SuperOffice.Data.ISoItem.Delete
     isExternal: true
-    href: SuperOffice.Data.ISoItem.html#SuperOffice_Data_ISoItem_Delete
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_GetRelatedNestedPersist_System_Collections_Generic_List_SuperOffice_Data_INestedPersist__System_Boolean_
   name: GetRelatedNestedPersist
   nameWithType: EntityBase.GetRelatedNestedPersist
   fullName: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist
 - uid: System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
-  commentId: T:System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.Data.INestedPersist}'
   definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<INestedPersist>
   nameWithType: List<INestedPersist>
   fullName: System.Collections.Generic.List<SuperOffice.Data.INestedPersist>
@@ -1462,121 +1776,109 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.Data.INestedPersist
     name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
     isExternal: true
-    href: SuperOffice.Data.INestedPersist.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.Data.INestedPersist
     name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
     isExternal: true
-    href: SuperOffice.Data.INestedPersist.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_GetAdditionalRelatedNestedPersistViaBaseClass_System_Collections_Generic_List_SuperOffice_Data_INestedPersist__System_Boolean_
   name: GetAdditionalRelatedNestedPersistViaBaseClass
   nameWithType: EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass
   fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass
 - uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_GetAdditionalRelatedNestedPersist_System_Collections_Generic_List_SuperOffice_Data_INestedPersist__System_Boolean_
   name: GetAdditionalRelatedNestedPersist
   nameWithType: EntityBase.GetAdditionalRelatedNestedPersist
   fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist
+- uid: SuperOffice.CRM.Entities.EntityBase.add_OnGetRelatedObjects*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityBase.add_OnGetRelatedObjects
+  isExternal: true
+  name: add_OnGetRelatedObjects
+  nameWithType: EntityBase.add_OnGetRelatedObjects
+  fullName: SuperOffice.CRM.Entities.EntityBase.add_OnGetRelatedObjects
+- uid: SuperOffice.CRM.Entities.EntityBase.remove_OnGetRelatedObjects*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityBase.remove_OnGetRelatedObjects
+  isExternal: true
+  name: remove_OnGetRelatedObjects
+  nameWithType: EntityBase.remove_OnGetRelatedObjects
+  fullName: SuperOffice.CRM.Entities.EntityBase.remove_OnGetRelatedObjects
 - uid: SuperOffice.CRM.Entities.EntityBase.ForceEntityUpdate*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.ForceEntityUpdate
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_ForceEntityUpdate
   name: ForceEntityUpdate
   nameWithType: EntityBase.ForceEntityUpdate
   fullName: SuperOffice.CRM.Entities.EntityBase.ForceEntityUpdate
@@ -1584,28 +1886,36 @@ references:
   commentId: M:SuperOffice.Data.NestedPersist.OnPreIdUpdate
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnPreIdUpdate
   name: OnPreIdUpdate()
   nameWithType: NestedPersist.OnPreIdUpdate()
   fullName: SuperOffice.Data.NestedPersist.OnPreIdUpdate()
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersist.OnPreIdUpdate
     name: OnPreIdUpdate
+    nameWithType: NestedPersist.OnPreIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.OnPreIdUpdate
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnPreIdUpdate
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersist.OnPreIdUpdate
     name: OnPreIdUpdate
+    nameWithType: NestedPersist.OnPreIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.OnPreIdUpdate
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnPreIdUpdate
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_OnPreIdUpdate
   name: OnPreIdUpdate
   nameWithType: EntityBase.OnPreIdUpdate
   fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate
@@ -1613,36 +1923,46 @@ references:
   commentId: M:SuperOffice.Data.NestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnPrimaryKeyRequest_SuperOffice_Data_PKContainer_
   name: OnPrimaryKeyRequest(PKContainer)
   nameWithType: NestedPersist.OnPrimaryKeyRequest(PKContainer)
   fullName: SuperOffice.Data.NestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
     name: OnPrimaryKeyRequest
+    nameWithType: NestedPersist.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.NestedPersist.OnPrimaryKeyRequest
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnPrimaryKeyRequest_SuperOffice_Data_PKContainer_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.PKContainer
     name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
     isExternal: true
-    href: SuperOffice.Data.PKContainer.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
     name: OnPrimaryKeyRequest
+    nameWithType: NestedPersist.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.NestedPersist.OnPrimaryKeyRequest
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnPrimaryKeyRequest_SuperOffice_Data_PKContainer_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.PKContainer
     name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
     isExternal: true
-    href: SuperOffice.Data.PKContainer.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_OnPrimaryKeyRequest_SuperOffice_Data_PKContainer_
   name: OnPrimaryKeyRequest
   nameWithType: EntityBase.OnPrimaryKeyRequest
   fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest
@@ -1650,7 +1970,6 @@ references:
   commentId: T:SuperOffice.Data.PKContainer
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.PKContainer.html
   name: PKContainer
   nameWithType: PKContainer
   fullName: SuperOffice.Data.PKContainer
@@ -1658,36 +1977,46 @@ references:
   commentId: M:SuperOffice.Data.NestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnPrimaryKeyUpdate_SuperOffice_Data_PKContainer_
   name: OnPrimaryKeyUpdate(PKContainer)
   nameWithType: NestedPersist.OnPrimaryKeyUpdate(PKContainer)
   fullName: SuperOffice.Data.NestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
     name: OnPrimaryKeyUpdate
+    nameWithType: NestedPersist.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.NestedPersist.OnPrimaryKeyUpdate
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnPrimaryKeyUpdate_SuperOffice_Data_PKContainer_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.PKContainer
     name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
     isExternal: true
-    href: SuperOffice.Data.PKContainer.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
     name: OnPrimaryKeyUpdate
+    nameWithType: NestedPersist.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.NestedPersist.OnPrimaryKeyUpdate
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnPrimaryKeyUpdate_SuperOffice_Data_PKContainer_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.PKContainer
     name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
     isExternal: true
-    href: SuperOffice.Data.PKContainer.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_OnPrimaryKeyUpdate_SuperOffice_Data_PKContainer_
   name: OnPrimaryKeyUpdate
   nameWithType: EntityBase.OnPrimaryKeyUpdate
   fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate
@@ -1695,28 +2024,36 @@ references:
   commentId: M:SuperOffice.Data.NestedPersist.OnIdUpdate
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnIdUpdate
   name: OnIdUpdate()
   nameWithType: NestedPersist.OnIdUpdate()
   fullName: SuperOffice.Data.NestedPersist.OnIdUpdate()
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersist.OnIdUpdate
     name: OnIdUpdate
+    nameWithType: NestedPersist.OnIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.OnIdUpdate
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnIdUpdate
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersist.OnIdUpdate
     name: OnIdUpdate
+    nameWithType: NestedPersist.OnIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.OnIdUpdate
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnIdUpdate
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.EntityBase.OnIdUpdate*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.OnIdUpdate
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_OnIdUpdate
   name: OnIdUpdate
   nameWithType: EntityBase.OnIdUpdate
   fullName: SuperOffice.CRM.Entities.EntityBase.OnIdUpdate
@@ -1724,36 +2061,46 @@ references:
   commentId: M:SuperOffice.Data.NestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnSave_SuperOffice_Data_SQL_BatchSave_
   name: OnSave(BatchSave)
   nameWithType: NestedPersist.OnSave(BatchSave)
   fullName: SuperOffice.Data.NestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
     name: OnSave
+    nameWithType: NestedPersist.OnSave
+    fullName: SuperOffice.Data.NestedPersist.OnSave
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnSave_SuperOffice_Data_SQL_BatchSave_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.BatchSave
     name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
     isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
     name: OnSave
+    nameWithType: NestedPersist.OnSave
+    fullName: SuperOffice.Data.NestedPersist.OnSave
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnSave_SuperOffice_Data_SQL_BatchSave_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.BatchSave
     name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
     isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.EntityBase.OnSave*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.OnSave
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_OnSave_SuperOffice_Data_SQL_BatchSave_
   name: OnSave
   nameWithType: EntityBase.OnSave
   fullName: SuperOffice.CRM.Entities.EntityBase.OnSave
@@ -1761,106 +2108,137 @@ references:
   commentId: T:SuperOffice.Data.SQL.BatchSave
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.BatchSave.html
   name: BatchSave
   nameWithType: BatchSave
   fullName: SuperOffice.Data.SQL.BatchSave
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: SuperOffice.Data.NestedPersist.OnSaved(System.Boolean)
   commentId: M:SuperOffice.Data.NestedPersist.OnSaved(System.Boolean)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnSaved_System_Boolean_
-  name: OnSaved(bool)
-  nameWithType: NestedPersist.OnSaved(bool)
-  fullName: SuperOffice.Data.NestedPersist.OnSaved(bool)
-  nameWithType.vb: NestedPersist.OnSaved(Boolean)
-  fullName.vb: SuperOffice.Data.NestedPersist.OnSaved(Boolean)
-  name.vb: OnSaved(Boolean)
+  name: OnSaved(Boolean)
+  nameWithType: NestedPersist.OnSaved(Boolean)
+  fullName: SuperOffice.Data.NestedPersist.OnSaved(System.Boolean)
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersist.OnSaved(System.Boolean)
     name: OnSaved
+    nameWithType: NestedPersist.OnSaved
+    fullName: SuperOffice.Data.NestedPersist.OnSaved
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnSaved_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersist.OnSaved(System.Boolean)
     name: OnSaved
+    nameWithType: NestedPersist.OnSaved
+    fullName: SuperOffice.Data.NestedPersist.OnSaved
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnSaved_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.EntityBase.OnSaved*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.OnSaved
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_OnSaved_System_Boolean_
   name: OnSaved
   nameWithType: EntityBase.OnSaved
   fullName: SuperOffice.CRM.Entities.EntityBase.OnSaved
 - uid: SuperOffice.CRM.Entities.EntityBase.SetMarkedForDeleteOnRelatedObjects*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.SetMarkedForDeleteOnRelatedObjects
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_SetMarkedForDeleteOnRelatedObjects_System_Boolean_
   name: SetMarkedForDeleteOnRelatedObjects
   nameWithType: EntityBase.SetMarkedForDeleteOnRelatedObjects
   fullName: SuperOffice.CRM.Entities.EntityBase.SetMarkedForDeleteOnRelatedObjects
-- uid: SuperOffice.CRM.Entities.EntityBase.OnRowLoad*
-  commentId: Overload:SuperOffice.CRM.Entities.EntityBase.OnRowLoad
+- uid: SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoad*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoad
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_OnRowLoad_SuperOffice_Data_SoDataReader_SuperOffice_CRM_Rows_TableRowBase_
-  name: OnRowLoad
-  nameWithType: EntityBase.OnRowLoad
-  fullName: SuperOffice.CRM.Entities.EntityBase.OnRowLoad
+  name: ITableRowLoadHandler.OnRowLoad
+  nameWithType: EntityBase.ITableRowLoadHandler.OnRowLoad
+  fullName: SuperOffice.CRM.Entities.EntityBase.SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad
+  nameWithType.vb: EntityBase.SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad
+  name.vb: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad
+- uid: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  commentId: M:SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  parent: SuperOffice.CRM.Rows.ITableRowLoadHandler
+  isExternal: true
+  name: OnRowLoad(SoDataReader, TableRowBase)
+  nameWithType: ITableRowLoadHandler.OnRowLoad(SoDataReader, TableRowBase)
+  fullName: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad(SuperOffice.Data.SoDataReader, SuperOffice.CRM.Rows.TableRowBase)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+    name: OnRowLoad
+    nameWithType: ITableRowLoadHandler.OnRowLoad
+    fullName: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.TableRowBase
+    name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+    name: OnRowLoad
+    nameWithType: ITableRowLoadHandler.OnRowLoad
+    fullName: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.TableRowBase
+    name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SoDataReader
   commentId: T:SuperOffice.Data.SoDataReader
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoDataReader.html
   name: SoDataReader
   nameWithType: SoDataReader
   fullName: SuperOffice.Data.SoDataReader
@@ -1868,35 +2246,75 @@ references:
   commentId: T:SuperOffice.CRM.Rows.TableRowBase
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowBase.html
   name: TableRowBase
   nameWithType: TableRowBase
   fullName: SuperOffice.CRM.Rows.TableRowBase
+- uid: SuperOffice.CRM.Entities.EntityBase.OnRowLoad*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityBase.OnRowLoad
+  isExternal: true
+  name: OnRowLoad
+  nameWithType: EntityBase.OnRowLoad
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnRowLoad
+- uid: SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoaded*
+  commentId: Overload:SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoaded
+  isExternal: true
+  name: ITableRowLoadHandler.OnRowLoaded
+  nameWithType: EntityBase.ITableRowLoadHandler.OnRowLoaded
+  fullName: SuperOffice.CRM.Entities.EntityBase.SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+  nameWithType.vb: EntityBase.SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+  name.vb: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+- uid: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+  commentId: M:SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+  parent: SuperOffice.CRM.Rows.ITableRowLoadHandler
+  isExternal: true
+  name: OnRowLoaded()
+  nameWithType: ITableRowLoadHandler.OnRowLoaded()
+  fullName: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+    name: OnRowLoaded
+    nameWithType: ITableRowLoadHandler.OnRowLoaded
+    fullName: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+    name: OnRowLoaded
+    nameWithType: ITableRowLoadHandler.OnRowLoaded
+    fullName: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.EntityBase.OnRowLoaded*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.OnRowLoaded
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_OnRowLoaded
   name: OnRowLoaded
   nameWithType: EntityBase.OnRowLoaded
   fullName: SuperOffice.CRM.Entities.EntityBase.OnRowLoaded
 - uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_OnPreIdUpdateImplementation
   name: OnPreIdUpdateImplementation
   nameWithType: EntityBase.OnPreIdUpdateImplementation
   fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation
 - uid: SuperOffice.CRM.Entities.EntityBase.OnIdUpdateImplementation*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.OnIdUpdateImplementation
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_OnIdUpdateImplementation
   name: OnIdUpdateImplementation
   nameWithType: EntityBase.OnIdUpdateImplementation
   fullName: SuperOffice.CRM.Entities.EntityBase.OnIdUpdateImplementation
 - uid: SuperOffice.CRM.Entities.EntityBase.UpdateSentryRelatedTableInfoInstance*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.UpdateSentryRelatedTableInfoInstance
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_UpdateSentryRelatedTableInfoInstance__1_SuperOffice_CRM_Security_SentryCollection_SuperOffice_Data_SQL_TableInfo_
   name: UpdateSentryRelatedTableInfoInstance
   nameWithType: EntityBase.UpdateSentryRelatedTableInfoInstance
   fullName: SuperOffice.CRM.Entities.EntityBase.UpdateSentryRelatedTableInfoInstance
@@ -1904,7 +2322,6 @@ references:
   commentId: T:SuperOffice.CRM.Security.SentryCollection
   parent: SuperOffice.CRM.Security
   isExternal: true
-  href: SuperOffice.CRM.Security.SentryCollection.html
   name: SentryCollection
   nameWithType: SentryCollection
   fullName: SuperOffice.CRM.Security.SentryCollection
@@ -1912,139 +2329,133 @@ references:
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Security
   nameWithType: SuperOffice.CRM.Security
   fullName: SuperOffice.CRM.Security
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.CRM.Security.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.CRM.Security.html
 - uid: SuperOffice.CRM.Entities.EntityBase.Validate*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.Validate
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_Validate
   name: Validate
   nameWithType: EntityBase.Validate
   fullName: SuperOffice.CRM.Entities.EntityBase.Validate
 - uid: System.Collections.Generic.Dictionary{System.String,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
   definition: System.Collections.Generic.Dictionary`2
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<string, string>
-  nameWithType: Dictionary<string, string>
-  fullName: System.Collections.Generic.Dictionary<string, string>
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
   nameWithType.vb: Dictionary(Of String, String)
-  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
   name.vb: Dictionary(Of String, String)
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.EntityBase.IsNew*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.IsNew
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_IsNew
   name: IsNew
   nameWithType: EntityBase.IsNew
   fullName: SuperOffice.CRM.Entities.EntityBase.IsNew
@@ -2052,7 +2463,6 @@ references:
   commentId: P:SuperOffice.Data.ISoItem.IsNew
   parent: SuperOffice.Data.ISoItem
   isExternal: true
-  href: SuperOffice.Data.ISoItem.html#SuperOffice_Data_ISoItem_IsNew
   name: IsNew
   nameWithType: ISoItem.IsNew
   fullName: SuperOffice.Data.ISoItem.IsNew
@@ -2060,14 +2470,12 @@ references:
   commentId: P:SuperOffice.Data.NestedPersist.IsDirty
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_IsDirty
   name: IsDirty
   nameWithType: NestedPersist.IsDirty
   fullName: SuperOffice.Data.NestedPersist.IsDirty
 - uid: SuperOffice.CRM.Entities.EntityBase.IsDirty*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.IsDirty
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_IsDirty
   name: IsDirty
   nameWithType: EntityBase.IsDirty
   fullName: SuperOffice.CRM.Entities.EntityBase.IsDirty
@@ -2075,14 +2483,12 @@ references:
   commentId: P:SuperOffice.Data.ISoItem.IsDirty
   parent: SuperOffice.Data.ISoItem
   isExternal: true
-  href: SuperOffice.Data.ISoItem.html#SuperOffice_Data_ISoItem_IsDirty
   name: IsDirty
   nameWithType: ISoItem.IsDirty
   fullName: SuperOffice.Data.ISoItem.IsDirty
 - uid: SuperOffice.CRM.Entities.EntityBase.MainRow*
   commentId: Overload:SuperOffice.CRM.Entities.EntityBase.MainRow
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_MainRow
   name: MainRow
   nameWithType: EntityBase.MainRow
   fullName: SuperOffice.CRM.Entities.EntityBase.MainRow

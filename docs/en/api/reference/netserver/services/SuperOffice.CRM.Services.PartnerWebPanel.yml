@@ -25,33 +25,26 @@ items:
   nameWithType: PartnerWebPanel
   fullName: SuperOffice.CRM.Services.PartnerWebPanel
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Carrier object for PartnerWebPanel.
-
-    Services for the PartnerWebPanel Carrier is available from the <xref href="SuperOffice.CRM.Services.IPartnerAgent?text=Partner+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nCarrier object for PartnerWebPanel.\nServices for the PartnerWebPanel Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IPartnerAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class PartnerWebPanel : Carrier
+    content: 'public class PartnerWebPanel : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class PartnerWebPanel Inherits Carrier
+      Public Class PartnerWebPanel
+          Inherits Carrier
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.#ctor
   commentId: M:SuperOffice.CRM.Services.PartnerWebPanel.#ctor
   id: '#ctor'
@@ -63,18 +56,21 @@ items:
   nameWithType: PartnerWebPanel.PartnerWebPanel()
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.PartnerWebPanel()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public PartnerWebPanel()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.PartnerWebPanel.#ctor*
-  nameWithType.vb: PartnerWebPanel.New()
-  fullName.vb: SuperOffice.CRM.Services.PartnerWebPanel.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.ToString
   commentId: M:SuperOffice.CRM.Services.PartnerWebPanel.ToString
   id: ToString
@@ -86,18 +82,26 @@ items:
   nameWithType: PartnerWebPanel.ToString()
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.PartnerWebPanel.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.PartnerWebPanel.ToString(System.String)
   id: ToString(System.String)
@@ -105,18 +109,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: PartnerWebPanel.ToString(string)
-  fullName: SuperOffice.CRM.Services.PartnerWebPanel.ToString(string)
+  name: ToString(String)
+  nameWithType: PartnerWebPanel.ToString(String)
+  fullName: SuperOffice.CRM.Services.PartnerWebPanel.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -128,9 +131,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.PartnerWebPanel.ToString*
-  nameWithType.vb: PartnerWebPanel.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.PartnerWebPanel.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.Identifier
   commentId: P:SuperOffice.CRM.Services.PartnerWebPanel.Identifier
   id: Identifier
@@ -142,28 +146,26 @@ items:
   nameWithType: PartnerWebPanel.Identifier
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.Identifier
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The string constant used by the Partner Application to identify this web panel
-  example: []
+  summary: "\nThe string constant used by the Partner Application to identify this web panel\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string Identifier { get; set; }
+    content: public string Identifier { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property Identifier As String
+    content.vb: Public Property Identifier As String
   overload: SuperOffice.CRM.Services.PartnerWebPanel.Identifier*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.DisplayName
   commentId: P:SuperOffice.CRM.Services.PartnerWebPanel.DisplayName
   id: DisplayName
@@ -175,28 +177,26 @@ items:
   nameWithType: PartnerWebPanel.DisplayName
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.DisplayName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The name of the panel as displayed in the GUI; may be multi-language syntax
-  example: []
+  summary: "\nThe name of the panel as displayed in the GUI; may be multi-language syntax\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string DisplayName { get; set; }
+    content: public string DisplayName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property DisplayName As String
+    content.vb: Public Property DisplayName As String
   overload: SuperOffice.CRM.Services.PartnerWebPanel.DisplayName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.DisplayDescription
   commentId: P:SuperOffice.CRM.Services.PartnerWebPanel.DisplayDescription
   id: DisplayDescription
@@ -208,28 +208,26 @@ items:
   nameWithType: PartnerWebPanel.DisplayDescription
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.DisplayDescription
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The tooltip of the panel as displayed in the GUI; may be multi-language syntax
-  example: []
+  summary: "\nThe tooltip of the panel as displayed in the GUI; may be multi-language syntax\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string DisplayDescription { get; set; }
+    content: public string DisplayDescription { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property DisplayDescription As String
+    content.vb: Public Property DisplayDescription As String
   overload: SuperOffice.CRM.Services.PartnerWebPanel.DisplayDescription*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.Url
   commentId: P:SuperOffice.CRM.Services.PartnerWebPanel.Url
   id: Url
@@ -241,28 +239,26 @@ items:
   nameWithType: PartnerWebPanel.Url
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.Url
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The url (target) of the panel; may contain merge tags
-  example: []
+  summary: "\nThe url (target) of the panel; may contain merge tags\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string Url { get; set; }
+    content: public string Url { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property Url As String
+    content.vb: Public Property Url As String
   overload: SuperOffice.CRM.Services.PartnerWebPanel.Url*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.VisibleIn
   commentId: P:SuperOffice.CRM.Services.PartnerWebPanel.VisibleIn
   id: VisibleIn
@@ -274,28 +270,26 @@ items:
   nameWithType: PartnerWebPanel.VisibleIn
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.VisibleIn
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Where should the URL appear
-  example: []
+  summary: "\nWhere should the URL appear\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public Navigation VisibleIn { get; set; }
+    content: public Navigation VisibleIn { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.Navigation
-    content.vb: >-
-      <DataMember>
-
-      Public Property VisibleIn As Navigation
+    content.vb: Public Property VisibleIn As Navigation
   overload: SuperOffice.CRM.Services.PartnerWebPanel.VisibleIn*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.UrlEncoding
   commentId: P:SuperOffice.CRM.Services.PartnerWebPanel.UrlEncoding
   id: UrlEncoding
@@ -307,28 +301,26 @@ items:
   nameWithType: PartnerWebPanel.UrlEncoding
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.UrlEncoding
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The encoding of the URL
-  example: []
+  summary: "\nThe encoding of the URL\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public UrlEncoding UrlEncoding { get; set; }
+    content: public UrlEncoding UrlEncoding { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.UrlEncoding
-    content.vb: >-
-      <DataMember>
-
-      Public Property UrlEncoding As UrlEncoding
+    content.vb: Public Property UrlEncoding As UrlEncoding
   overload: SuperOffice.CRM.Services.PartnerWebPanel.UrlEncoding*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.OnSalesMarketingWeb
   commentId: P:SuperOffice.CRM.Services.PartnerWebPanel.OnSalesMarketingWeb
   id: OnSalesMarketingWeb
@@ -340,28 +332,26 @@ items:
   nameWithType: PartnerWebPanel.OnSalesMarketingWeb
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.OnSalesMarketingWeb
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Is the webpanel visible when user is on the SM Web client
-  example: []
+  summary: "\nIs the webpanel visible when user is on the SM Web client\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public bool OnSalesMarketingWeb { get; set; }
+    content: public bool OnSalesMarketingWeb { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Property OnSalesMarketingWeb As Boolean
+    content.vb: Public Property OnSalesMarketingWeb As Boolean
   overload: SuperOffice.CRM.Services.PartnerWebPanel.OnSalesMarketingWeb*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.OnSalesMarketingPocket
   commentId: P:SuperOffice.CRM.Services.PartnerWebPanel.OnSalesMarketingPocket
   id: OnSalesMarketingPocket
@@ -373,28 +363,26 @@ items:
   nameWithType: PartnerWebPanel.OnSalesMarketingPocket
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.OnSalesMarketingPocket
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Is the webpanel visible when user is on the SM Pocket client
-  example: []
+  summary: "\nIs the webpanel visible when user is on the SM Pocket client\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public bool OnSalesMarketingPocket { get; set; }
+    content: public bool OnSalesMarketingPocket { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Property OnSalesMarketingPocket As Boolean
+    content.vb: Public Property OnSalesMarketingPocket As Boolean
   overload: SuperOffice.CRM.Services.PartnerWebPanel.OnSalesMarketingPocket*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.IsSuspended
   commentId: P:SuperOffice.CRM.Services.PartnerWebPanel.IsSuspended
   id: IsSuspended
@@ -406,28 +394,26 @@ items:
   nameWithType: PartnerWebPanel.IsSuspended
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.IsSuspended
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Is this Web Panel currently in the Suspended state
-  example: []
+  summary: "\nIs this Web Panel currently in the Suspended state\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public bool IsSuspended { get; set; }
+    content: public bool IsSuspended { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Property IsSuspended As Boolean
+    content.vb: Public Property IsSuspended As Boolean
   overload: SuperOffice.CRM.Services.PartnerWebPanel.IsSuspended*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.WindowName
   commentId: P:SuperOffice.CRM.Services.PartnerWebPanel.WindowName
   id: WindowName
@@ -439,106 +425,42 @@ items:
   nameWithType: PartnerWebPanel.WindowName
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.WindowName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The 'window name' of the panel, which can be used as part of the soprotocol string to navigate to the web panel
-  example: []
+  summary: "\nThe &apos;window name&apos; of the panel, which can be used as part of the soprotocol string to navigate to the web panel\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string WindowName { get; set; }
+    content: public string WindowName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property WindowName As String
+    content.vb: Public Property WindowName As String
   overload: SuperOffice.CRM.Services.PartnerWebPanel.WindowName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.Services.IPartnerAgent
-  commentId: T:SuperOffice.CRM.Services.IPartnerAgent
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.IPartnerAgent.html
-  name: IPartnerAgent
-  nameWithType: IPartnerAgent
-  fullName: SuperOffice.CRM.Services.IPartnerAgent
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.PartnerWebPanel.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.PartnerWebPanel.html#SuperOffice_CRM_Services_PartnerWebPanel__ctor
   name: PartnerWebPanel
   nameWithType: PartnerWebPanel.PartnerWebPanel
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.PartnerWebPanel
-  nameWithType.vb: PartnerWebPanel.New
-  fullName.vb: SuperOffice.CRM.Services.PartnerWebPanel.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.ToString*
   commentId: Overload:SuperOffice.CRM.Services.PartnerWebPanel.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.PartnerWebPanel.html#SuperOffice_CRM_Services_PartnerWebPanel_ToString
   name: ToString
   nameWithType: PartnerWebPanel.ToString
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.ToString
@@ -546,45 +468,42 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.Identifier*
   commentId: Overload:SuperOffice.CRM.Services.PartnerWebPanel.Identifier
   isExternal: true
-  href: SuperOffice.CRM.Services.PartnerWebPanel.html#SuperOffice_CRM_Services_PartnerWebPanel_Identifier
   name: Identifier
   nameWithType: PartnerWebPanel.Identifier
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.Identifier
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.DisplayName*
   commentId: Overload:SuperOffice.CRM.Services.PartnerWebPanel.DisplayName
   isExternal: true
-  href: SuperOffice.CRM.Services.PartnerWebPanel.html#SuperOffice_CRM_Services_PartnerWebPanel_DisplayName
   name: DisplayName
   nameWithType: PartnerWebPanel.DisplayName
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.DisplayName
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.DisplayDescription*
   commentId: Overload:SuperOffice.CRM.Services.PartnerWebPanel.DisplayDescription
   isExternal: true
-  href: SuperOffice.CRM.Services.PartnerWebPanel.html#SuperOffice_CRM_Services_PartnerWebPanel_DisplayDescription
   name: DisplayDescription
   nameWithType: PartnerWebPanel.DisplayDescription
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.DisplayDescription
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.Url*
   commentId: Overload:SuperOffice.CRM.Services.PartnerWebPanel.Url
   isExternal: true
-  href: SuperOffice.CRM.Services.PartnerWebPanel.html#SuperOffice_CRM_Services_PartnerWebPanel_Url
   name: Url
   nameWithType: PartnerWebPanel.Url
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.Url
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.VisibleIn*
   commentId: Overload:SuperOffice.CRM.Services.PartnerWebPanel.VisibleIn
   isExternal: true
-  href: SuperOffice.CRM.Services.PartnerWebPanel.html#SuperOffice_CRM_Services_PartnerWebPanel_VisibleIn
   name: VisibleIn
   nameWithType: PartnerWebPanel.VisibleIn
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.VisibleIn
@@ -596,7 +515,6 @@ references:
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.UrlEncoding*
   commentId: Overload:SuperOffice.CRM.Services.PartnerWebPanel.UrlEncoding
   isExternal: true
-  href: SuperOffice.CRM.Services.PartnerWebPanel.html#SuperOffice_CRM_Services_PartnerWebPanel_UrlEncoding
   name: UrlEncoding
   nameWithType: PartnerWebPanel.UrlEncoding
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.UrlEncoding
@@ -608,7 +526,6 @@ references:
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.OnSalesMarketingWeb*
   commentId: Overload:SuperOffice.CRM.Services.PartnerWebPanel.OnSalesMarketingWeb
   isExternal: true
-  href: SuperOffice.CRM.Services.PartnerWebPanel.html#SuperOffice_CRM_Services_PartnerWebPanel_OnSalesMarketingWeb
   name: OnSalesMarketingWeb
   nameWithType: PartnerWebPanel.OnSalesMarketingWeb
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.OnSalesMarketingWeb
@@ -616,31 +533,24 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.OnSalesMarketingPocket*
   commentId: Overload:SuperOffice.CRM.Services.PartnerWebPanel.OnSalesMarketingPocket
   isExternal: true
-  href: SuperOffice.CRM.Services.PartnerWebPanel.html#SuperOffice_CRM_Services_PartnerWebPanel_OnSalesMarketingPocket
   name: OnSalesMarketingPocket
   nameWithType: PartnerWebPanel.OnSalesMarketingPocket
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.OnSalesMarketingPocket
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.IsSuspended*
   commentId: Overload:SuperOffice.CRM.Services.PartnerWebPanel.IsSuspended
   isExternal: true
-  href: SuperOffice.CRM.Services.PartnerWebPanel.html#SuperOffice_CRM_Services_PartnerWebPanel_IsSuspended
   name: IsSuspended
   nameWithType: PartnerWebPanel.IsSuspended
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.IsSuspended
 - uid: SuperOffice.CRM.Services.PartnerWebPanel.WindowName*
   commentId: Overload:SuperOffice.CRM.Services.PartnerWebPanel.WindowName
   isExternal: true
-  href: SuperOffice.CRM.Services.PartnerWebPanel.html#SuperOffice_CRM_Services_PartnerWebPanel_WindowName
   name: WindowName
   nameWithType: PartnerWebPanel.WindowName
   fullName: SuperOffice.CRM.Services.PartnerWebPanel.WindowName

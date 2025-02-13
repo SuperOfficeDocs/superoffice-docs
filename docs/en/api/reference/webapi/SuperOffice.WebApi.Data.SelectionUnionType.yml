@@ -10,6 +10,7 @@ items:
   - SuperOffice.WebApi.Data.SelectionUnionType.SubtractRightFromLeft
   - SuperOffice.WebApi.Data.SelectionUnionType.Union
   - SuperOffice.WebApi.Data.SelectionUnionType.Unknown
+  - SuperOffice.WebApi.Data.SelectionUnionType.value__
   - SuperOffice.WebApi.Data.SelectionUnionType.XOR
   langs:
   - csharp
@@ -17,18 +18,57 @@ items:
   name: SelectionUnionType
   nameWithType: SelectionUnionType
   fullName: SuperOffice.WebApi.Data.SelectionUnionType
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    How the selections in a combined selections should be put together
-
-    This Enum is used by:  selection.combinationType
-  example: []
+  summary: "\nHow the selections in a combined selections should be put together\nThis Enum is used by:  selection.combinationType\n"
   syntax:
-    content: 'public enum SelectionUnionType : short'
-    content.vb: Public Enum SelectionUnionType As Short
+    content: 'public sealed class SelectionUnionType : Enum'
+    content.vb: >-
+      Public NotInheritable Class SelectionUnionType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.SelectionUnionType.value__
+  commentId: F:SuperOffice.WebApi.Data.SelectionUnionType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.SelectionUnionType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: SelectionUnionType.value__
+  fullName: SuperOffice.WebApi.Data.SelectionUnionType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.SelectionUnionType.Unknown
   commentId: F:SuperOffice.WebApi.Data.SelectionUnionType.Unknown
   id: Unknown
@@ -40,26 +80,24 @@ items:
   nameWithType: SelectionUnionType.Unknown
   fullName: SuperOffice.WebApi.Data.SelectionUnionType.Unknown
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: Combination type is unknown/indefined'
-  example: []
+  summary: "\n0: Combination type is unknown/indefined\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Unknown = 0
+    content: public const SelectionUnionType Unknown
     return:
       type: SuperOffice.WebApi.Data.SelectionUnionType
-    content.vb: >-
-      <EnumMember>
-
-      Unknown = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Unknown As SelectionUnionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.SelectionUnionType.SubtractRightFromLeft
   commentId: F:SuperOffice.WebApi.Data.SelectionUnionType.SubtractRightFromLeft
   id: SubtractRightFromLeft
@@ -71,26 +109,24 @@ items:
   nameWithType: SelectionUnionType.SubtractRightFromLeft
   fullName: SuperOffice.WebApi.Data.SelectionUnionType.SubtractRightFromLeft
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: All of left, except where it overlaps with right'
-  example: []
+  summary: "\n1: All of left, except where it overlaps with right\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SubtractRightFromLeft = 1
+    content: public const SelectionUnionType SubtractRightFromLeft
     return:
       type: SuperOffice.WebApi.Data.SelectionUnionType
-    content.vb: >-
-      <EnumMember>
-
-      SubtractRightFromLeft = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SubtractRightFromLeft As SelectionUnionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.SelectionUnionType.SubtractLeftFromRight
   commentId: F:SuperOffice.WebApi.Data.SelectionUnionType.SubtractLeftFromRight
   id: SubtractLeftFromRight
@@ -102,26 +138,24 @@ items:
   nameWithType: SelectionUnionType.SubtractLeftFromRight
   fullName: SuperOffice.WebApi.Data.SelectionUnionType.SubtractLeftFromRight
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: All of right, except where it overlaps with left'
-  example: []
+  summary: "\n2: All of right, except where it overlaps with left\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SubtractLeftFromRight = 2
+    content: public const SelectionUnionType SubtractLeftFromRight
     return:
       type: SuperOffice.WebApi.Data.SelectionUnionType
-    content.vb: >-
-      <EnumMember>
-
-      SubtractLeftFromRight = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SubtractLeftFromRight As SelectionUnionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.SelectionUnionType.Intersect
   commentId: F:SuperOffice.WebApi.Data.SelectionUnionType.Intersect
   id: Intersect
@@ -133,26 +167,24 @@ items:
   nameWithType: SelectionUnionType.Intersect
   fullName: SuperOffice.WebApi.Data.SelectionUnionType.Intersect
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: Those present in left AND right only'
-  example: []
+  summary: "\n3: Those present in left AND right only\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Intersect = 3
+    content: public const SelectionUnionType Intersect
     return:
       type: SuperOffice.WebApi.Data.SelectionUnionType
-    content.vb: >-
-      <EnumMember>
-
-      Intersect = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Intersect As SelectionUnionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.SelectionUnionType.XOR
   commentId: F:SuperOffice.WebApi.Data.SelectionUnionType.XOR
   id: XOR
@@ -164,26 +196,24 @@ items:
   nameWithType: SelectionUnionType.XOR
   fullName: SuperOffice.WebApi.Data.SelectionUnionType.XOR
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: Those present in left or right, but not both'
-  example: []
+  summary: "\n4: Those present in left or right, but not both\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      XOR = 4
+    content: public const SelectionUnionType XOR
     return:
       type: SuperOffice.WebApi.Data.SelectionUnionType
-    content.vb: >-
-      <EnumMember>
-
-      XOR = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const XOR As SelectionUnionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.SelectionUnionType.Union
   commentId: F:SuperOffice.WebApi.Data.SelectionUnionType.Union
   id: Union
@@ -195,69 +225,55 @@ items:
   nameWithType: SelectionUnionType.Union
   fullName: SuperOffice.WebApi.Data.SelectionUnionType.Union
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '5: All, but no duplicates for those present in left and right'
-  example: []
+  summary: "\n5: All, but no duplicates for those present in left and right\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Union = 5
+    content: public const SelectionUnionType Union
     return:
       type: SuperOffice.WebApi.Data.SelectionUnionType
-    content.vb: >-
-      <EnumMember>
-
-      Union = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Union As SelectionUnionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.SelectionUnionType
   commentId: T:SuperOffice.WebApi.Data.SelectionUnionType
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionUnionType.html
   name: SelectionUnionType
   nameWithType: SelectionUnionType
   fullName: SuperOffice.WebApi.Data.SelectionUnionType

@@ -18,7 +18,6 @@ references:
 - uid: SuperOffice.FeatureToggles.FeatureToggle
   commentId: T:SuperOffice.FeatureToggles.FeatureToggle
   isExternal: true
-  href: SuperOffice.FeatureToggles.FeatureToggle.html
   name: FeatureToggle
   nameWithType: FeatureToggle
   fullName: SuperOffice.FeatureToggles.FeatureToggle

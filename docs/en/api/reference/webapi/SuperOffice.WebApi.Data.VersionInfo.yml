@@ -22,30 +22,29 @@ items:
   nameWithType: VersionInfo
   fullName: SuperOffice.WebApi.Data.VersionInfo
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for VersionInfo.
-
-    An instance of this class represents information about one version of one document
-  example: []
+  summary: "\nCarrier object for VersionInfo.\nAn instance of this class represents information about one version of one document    \n"
   syntax:
-    content: public class VersionInfo
-    content.vb: Public Class VersionInfo
+    content: 'public class VersionInfo : Object'
+    content.vb: >-
+      Public Class VersionInfo
+          Inherits Object
   seealso:
   - linkId: SuperOffice.WebApi.Agents.DocumentAgent
     commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.VersionInfo.#ctor
   commentId: M:SuperOffice.WebApi.Data.VersionInfo.#ctor
   id: '#ctor'
@@ -57,18 +56,21 @@ items:
   nameWithType: VersionInfo.VersionInfo()
   fullName: SuperOffice.WebApi.Data.VersionInfo.VersionInfo()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public VersionInfo()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.VersionInfo.#ctor*
-  nameWithType.vb: VersionInfo.New()
-  fullName.vb: SuperOffice.WebApi.Data.VersionInfo.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.VersionInfo.ExternalReference
   commentId: P:SuperOffice.WebApi.Data.VersionInfo.ExternalReference
   id: ExternalReference
@@ -80,11 +82,13 @@ items:
   nameWithType: VersionInfo.ExternalReference
   fullName: SuperOffice.WebApi.Data.VersionInfo.ExternalReference
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The document plugin's key that uniquely identifies a document; stored in the externalReference field of the document table
-  example: []
+  summary: "\nThe document plugin&apos;s key that uniquely identifies a document; stored in the externalReference field of the document table\n"
   syntax:
     content: public virtual string ExternalReference { get; set; }
     parameters: []
@@ -92,6 +96,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ExternalReference As String
   overload: SuperOffice.WebApi.Data.VersionInfo.ExternalReference*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.VersionInfo.DocumentId
   commentId: P:SuperOffice.WebApi.Data.VersionInfo.DocumentId
   id: DocumentId
@@ -103,11 +115,13 @@ items:
   nameWithType: VersionInfo.DocumentId
   fullName: SuperOffice.WebApi.Data.VersionInfo.DocumentId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The document Id that uniquely identifies the document within the SuperOffice database
-  example: []
+  summary: "\nThe document Id that uniquely identifies the document within the SuperOffice database\n"
   syntax:
     content: public virtual int DocumentId { get; set; }
     parameters: []
@@ -115,6 +129,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property DocumentId As Integer
   overload: SuperOffice.WebApi.Data.VersionInfo.DocumentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.VersionInfo.VersionId
   commentId: P:SuperOffice.WebApi.Data.VersionInfo.VersionId
   id: VersionId
@@ -126,11 +148,13 @@ items:
   nameWithType: VersionInfo.VersionId
   fullName: SuperOffice.WebApi.Data.VersionInfo.VersionId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The document plugin's version id that uniquely identifies one version of a document. If versioning is not supported, this will be blank. When versioning is supported, blank values imply the latest checked-in version.
-  example: []
+  summary: "\nThe document plugin&apos;s version id that uniquely identifies one version of a document. If versioning is not supported, this will be blank. When versioning is supported, blank values imply the latest checked-in version.\n"
   syntax:
     content: public virtual string VersionId { get; set; }
     parameters: []
@@ -138,6 +162,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property VersionId As String
   overload: SuperOffice.WebApi.Data.VersionInfo.VersionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.VersionInfo.CheckedInDate
   commentId: P:SuperOffice.WebApi.Data.VersionInfo.CheckedInDate
   id: CheckedInDate
@@ -149,18 +181,28 @@ items:
   nameWithType: VersionInfo.CheckedInDate
   fullName: SuperOffice.WebApi.Data.VersionInfo.CheckedInDate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The date that this version was checked in and became official
-  example: []
+  summary: "\nThe date that this version was checked in and became official\n"
   syntax:
     content: public virtual DateTime CheckedInDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property CheckedInDate As Date
+    content.vb: Public Overridable Property CheckedInDate As DateTime
   overload: SuperOffice.WebApi.Data.VersionInfo.CheckedInDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.VersionInfo.CheckedInByName
   commentId: P:SuperOffice.WebApi.Data.VersionInfo.CheckedInByName
   id: CheckedInByName
@@ -172,11 +214,13 @@ items:
   nameWithType: VersionInfo.CheckedInByName
   fullName: SuperOffice.WebApi.Data.VersionInfo.CheckedInByName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Name (nicely formatted) of the user/person who performed the checkin
-  example: []
+  summary: "\nName (nicely formatted) of the user/person who performed the checkin\n"
   syntax:
     content: public virtual string CheckedInByName { get; set; }
     parameters: []
@@ -184,6 +228,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property CheckedInByName As String
   overload: SuperOffice.WebApi.Data.VersionInfo.CheckedInByName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.VersionInfo.CheckedInByAssociateId
   commentId: P:SuperOffice.WebApi.Data.VersionInfo.CheckedInByAssociateId
   id: CheckedInByAssociateId
@@ -195,11 +247,13 @@ items:
   nameWithType: VersionInfo.CheckedInByAssociateId
   fullName: SuperOffice.WebApi.Data.VersionInfo.CheckedInByAssociateId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Associate id of the user who performed the checkin
-  example: []
+  summary: "\nAssociate id of the user who performed the checkin\n"
   syntax:
     content: public virtual int CheckedInByAssociateId { get; set; }
     parameters: []
@@ -207,6 +261,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property CheckedInByAssociateId As Integer
   overload: SuperOffice.WebApi.Data.VersionInfo.CheckedInByAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.VersionInfo.Description
   commentId: P:SuperOffice.WebApi.Data.VersionInfo.Description
   id: Description
@@ -218,11 +280,13 @@ items:
   nameWithType: VersionInfo.Description
   fullName: SuperOffice.WebApi.Data.VersionInfo.Description
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Arbitrary description string
-  example: []
+  summary: "\nArbitrary description string\n"
   syntax:
     content: public virtual string Description { get; set; }
     parameters: []
@@ -230,6 +294,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Description As String
   overload: SuperOffice.WebApi.Data.VersionInfo.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.VersionInfo.DisplayText
   commentId: P:SuperOffice.WebApi.Data.VersionInfo.DisplayText
   id: DisplayText
@@ -241,11 +313,13 @@ items:
   nameWithType: VersionInfo.DisplayText
   fullName: SuperOffice.WebApi.Data.VersionInfo.DisplayText
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: A short description, suitable for display in a popup menu or dropdown list of versions.
-  example: []
+  summary: "\nA short description, suitable for display in a popup menu or dropdown list of versions.\n"
   syntax:
     content: public virtual string DisplayText { get; set; }
     parameters: []
@@ -253,6 +327,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property DisplayText As String
   overload: SuperOffice.WebApi.Data.VersionInfo.DisplayText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.VersionInfo.ExtraFields
   commentId: P:SuperOffice.WebApi.Data.VersionInfo.ExtraFields
   id: ExtraFields
@@ -264,11 +346,13 @@ items:
   nameWithType: VersionInfo.ExtraFields
   fullName: SuperOffice.WebApi.Data.VersionInfo.ExtraFields
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Private metadata, owned by the document plugin. This set of metadata is related directly to the version that  this VersioNinfo structure describes; metadata related to the document as a whole is retrieved using the SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData method.  The string should be formatted like a query string, i.e., name1=value1&amp;amp;name2=value2... - this format, instead of a string/string dictionary avoids serialization problems, even though it is somewhat less efficient
-  example: []
+  summary: "\nPrivate metadata, owned by the document plugin. This set of metadata is related directly to the version that  this VersioNinfo structure describes; metadata related to the document as a whole is retrieved using the SuperOffice.CRM.Documents.IDocumentPlugin2.LoadMetaData method.  The string should be formatted like a query string, i.e., name1=value1&amp;amp;name2=value2... - this format, instead of a string/string dictionary avoids serialization problems, even though it is somewhat less efficient\n"
   syntax:
     content: public virtual string[] ExtraFields { get; set; }
     parameters: []
@@ -276,302 +360,49 @@ items:
       type: System.String[]
     content.vb: Public Overridable Property ExtraFields As String()
   overload: SuperOffice.WebApi.Data.VersionInfo.ExtraFields*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.DocumentAgent
-  commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.DocumentAgent.html
-  name: DocumentAgent
-  nameWithType: DocumentAgent
-  fullName: SuperOffice.WebApi.Agents.DocumentAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.DocumentAgent
+  commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: DocumentAgent
+  nameWithType: DocumentAgent
+  fullName: SuperOffice.WebApi.Agents.DocumentAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.VersionInfo.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.VersionInfo.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.VersionInfo.html#SuperOffice_WebApi_Data_VersionInfo__ctor
   name: VersionInfo
   nameWithType: VersionInfo.VersionInfo
   fullName: SuperOffice.WebApi.Data.VersionInfo.VersionInfo
-  nameWithType.vb: VersionInfo.New
-  fullName.vb: SuperOffice.WebApi.Data.VersionInfo.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.VersionInfo.ExternalReference*
   commentId: Overload:SuperOffice.WebApi.Data.VersionInfo.ExternalReference
   isExternal: true
-  href: SuperOffice.WebApi.Data.VersionInfo.html#SuperOffice_WebApi_Data_VersionInfo_ExternalReference
   name: ExternalReference
   nameWithType: VersionInfo.ExternalReference
   fullName: SuperOffice.WebApi.Data.VersionInfo.ExternalReference
@@ -579,17 +410,12 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.VersionInfo.DocumentId*
   commentId: Overload:SuperOffice.WebApi.Data.VersionInfo.DocumentId
   isExternal: true
-  href: SuperOffice.WebApi.Data.VersionInfo.html#SuperOffice_WebApi_Data_VersionInfo_DocumentId
   name: DocumentId
   nameWithType: VersionInfo.DocumentId
   fullName: SuperOffice.WebApi.Data.VersionInfo.DocumentId
@@ -597,93 +423,79 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.VersionInfo.VersionId*
   commentId: Overload:SuperOffice.WebApi.Data.VersionInfo.VersionId
   isExternal: true
-  href: SuperOffice.WebApi.Data.VersionInfo.html#SuperOffice_WebApi_Data_VersionInfo_VersionId
   name: VersionId
   nameWithType: VersionInfo.VersionId
   fullName: SuperOffice.WebApi.Data.VersionInfo.VersionId
 - uid: SuperOffice.WebApi.Data.VersionInfo.CheckedInDate*
   commentId: Overload:SuperOffice.WebApi.Data.VersionInfo.CheckedInDate
   isExternal: true
-  href: SuperOffice.WebApi.Data.VersionInfo.html#SuperOffice_WebApi_Data_VersionInfo_CheckedInDate
   name: CheckedInDate
   nameWithType: VersionInfo.CheckedInDate
   fullName: SuperOffice.WebApi.Data.VersionInfo.CheckedInDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.WebApi.Data.VersionInfo.CheckedInByName*
   commentId: Overload:SuperOffice.WebApi.Data.VersionInfo.CheckedInByName
   isExternal: true
-  href: SuperOffice.WebApi.Data.VersionInfo.html#SuperOffice_WebApi_Data_VersionInfo_CheckedInByName
   name: CheckedInByName
   nameWithType: VersionInfo.CheckedInByName
   fullName: SuperOffice.WebApi.Data.VersionInfo.CheckedInByName
 - uid: SuperOffice.WebApi.Data.VersionInfo.CheckedInByAssociateId*
   commentId: Overload:SuperOffice.WebApi.Data.VersionInfo.CheckedInByAssociateId
   isExternal: true
-  href: SuperOffice.WebApi.Data.VersionInfo.html#SuperOffice_WebApi_Data_VersionInfo_CheckedInByAssociateId
   name: CheckedInByAssociateId
   nameWithType: VersionInfo.CheckedInByAssociateId
   fullName: SuperOffice.WebApi.Data.VersionInfo.CheckedInByAssociateId
 - uid: SuperOffice.WebApi.Data.VersionInfo.Description*
   commentId: Overload:SuperOffice.WebApi.Data.VersionInfo.Description
   isExternal: true
-  href: SuperOffice.WebApi.Data.VersionInfo.html#SuperOffice_WebApi_Data_VersionInfo_Description
   name: Description
   nameWithType: VersionInfo.Description
   fullName: SuperOffice.WebApi.Data.VersionInfo.Description
 - uid: SuperOffice.WebApi.Data.VersionInfo.DisplayText*
   commentId: Overload:SuperOffice.WebApi.Data.VersionInfo.DisplayText
   isExternal: true
-  href: SuperOffice.WebApi.Data.VersionInfo.html#SuperOffice_WebApi_Data_VersionInfo_DisplayText
   name: DisplayText
   nameWithType: VersionInfo.DisplayText
   fullName: SuperOffice.WebApi.Data.VersionInfo.DisplayText
 - uid: SuperOffice.WebApi.Data.VersionInfo.ExtraFields*
   commentId: Overload:SuperOffice.WebApi.Data.VersionInfo.ExtraFields
   isExternal: true
-  href: SuperOffice.WebApi.Data.VersionInfo.html#SuperOffice_WebApi_Data_VersionInfo_ExtraFields
   name: ExtraFields
   nameWithType: VersionInfo.ExtraFields
   fullName: SuperOffice.WebApi.Data.VersionInfo.ExtraFields
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

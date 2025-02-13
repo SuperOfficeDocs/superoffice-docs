@@ -19,6 +19,9 @@ items:
   nameWithType: TooltipPluginHelper
   fullName: SuperOffice.CRM.Tooltips.TooltipPluginHelper
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Tooltips
@@ -26,32 +29,31 @@ items:
     content: >-
       [SoInject("Database")]
 
-      public class TooltipPluginHelper
+      public class TooltipPluginHelper : Object
     content.vb: >-
       <SoInject("Database")>
 
       Public Class TooltipPluginHelper
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Tooltips.TooltipPluginHelper.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Tooltips.TooltipPluginHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Tooltips.TooltipPluginHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Tooltips.TooltipPluginHelper)
   - SuperOffice.CRM.Tooltips.TooltipPluginHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Tooltips.TooltipPluginHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
   - type: SuperOffice.Factory.SoInjectAttribute
     ctor: SuperOffice.Factory.SoInjectAttribute.#ctor(System.String)
     arguments:
     - type: System.String
       value: Database
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetGenericActivityTooltip(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SoDataReader@,SuperOffice.Data.SoConnection@,System.String@)
   commentId: M:SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetGenericActivityTooltip(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SoDataReader@,SuperOffice.Data.SoConnection@,System.String@)
   id: GetGenericActivityTooltip(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SoDataReader@,SuperOffice.Data.SoConnection@,System.String@)
@@ -59,10 +61,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetGenericActivityTooltip(Select, FieldInfo, FieldInfo, FieldInfo, FieldInfo, out SoDataReader, out SoConnection, out string)
-  nameWithType: TooltipPluginHelper.GetGenericActivityTooltip(Select, FieldInfo, FieldInfo, FieldInfo, FieldInfo, out SoDataReader, out SoConnection, out string)
-  fullName: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetGenericActivityTooltip(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, out SuperOffice.Data.SoDataReader, out SuperOffice.Data.SoConnection, out string)
+  name: GetGenericActivityTooltip(Select, FieldInfo, FieldInfo, FieldInfo, FieldInfo, out SoDataReader, out SoConnection, out String)
+  nameWithType: TooltipPluginHelper.GetGenericActivityTooltip(Select, FieldInfo, FieldInfo, FieldInfo, FieldInfo, out SoDataReader, out SoConnection, out String)
+  fullName: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetGenericActivityTooltip(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, out SuperOffice.Data.SoDataReader, out SuperOffice.Data.SoConnection, out System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Tooltips
@@ -87,11 +92,15 @@ items:
       type: System.String
     return:
       type: System.Boolean
-    content.vb: Public Function GetGenericActivityTooltip(query As [Select], contactId As FieldInfo, personId As FieldInfo, projectId As FieldInfo, associateId As FieldInfo, reader As SoDataReader, connection As SoConnection, tooltip As String) As Boolean
+    content.vb: Public Function GetGenericActivityTooltip(query As  Select, contactId As FieldInfo, personId As FieldInfo, projectId As FieldInfo, associateId As FieldInfo, ByRef reader As SoDataReader, ByRef connection As SoConnection, ByRef tooltip As String) As Boolean
   overload: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetGenericActivityTooltip*
-  nameWithType.vb: TooltipPluginHelper.GetGenericActivityTooltip(Select, FieldInfo, FieldInfo, FieldInfo, FieldInfo, SoDataReader, SoConnection, String)
-  fullName.vb: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetGenericActivityTooltip(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SoDataReader, SuperOffice.Data.SoConnection, String)
-  name.vb: GetGenericActivityTooltip(Select, FieldInfo, FieldInfo, FieldInfo, FieldInfo, SoDataReader, SoConnection, String)
+  nameWithType.vb: TooltipPluginHelper.GetGenericActivityTooltip(Select, FieldInfo, FieldInfo, FieldInfo, FieldInfo, ByRef SoDataReader, ByRef SoConnection, ByRef String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetGenericActivityTooltip(SuperOffice.Data.SQL.Select, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, ByRef SuperOffice.Data.SoDataReader, ByRef SuperOffice.Data.SoConnection, ByRef System.String)
+  name.vb: GetGenericActivityTooltip(Select, FieldInfo, FieldInfo, FieldInfo, FieldInfo, ByRef SoDataReader, ByRef SoConnection, ByRef String)
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetLastUpdatedTip(System.Int32,System.DateTime,System.Int32,System.DateTime)
   commentId: M:SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetLastUpdatedTip(System.Int32,System.DateTime,System.Int32,System.DateTime)
   id: GetLastUpdatedTip(System.Int32,System.DateTime,System.Int32,System.DateTime)
@@ -99,10 +108,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetLastUpdatedTip(int, DateTime, int, DateTime)
-  nameWithType: TooltipPluginHelper.GetLastUpdatedTip(int, DateTime, int, DateTime)
-  fullName: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetLastUpdatedTip(int, System.DateTime, int, System.DateTime)
+  name: GetLastUpdatedTip(Int32, DateTime, Int32, DateTime)
+  nameWithType: TooltipPluginHelper.GetLastUpdatedTip(Int32, DateTime, Int32, DateTime)
+  fullName: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetLastUpdatedTip(System.Int32, System.DateTime, System.Int32, System.DateTime)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Tooltips
@@ -119,11 +131,12 @@ items:
       type: System.DateTime
     return:
       type: System.String
-    content.vb: Public Function GetLastUpdatedTip(registeredAssociateId As Integer, registeredDate As Date, updatedAssociateId As Integer, updatedDate As Date) As String
+    content.vb: Public Function GetLastUpdatedTip(registeredAssociateId As Integer, registeredDate As DateTime, updatedAssociateId As Integer, updatedDate As DateTime) As String
   overload: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetLastUpdatedTip*
-  nameWithType.vb: TooltipPluginHelper.GetLastUpdatedTip(Integer, Date, Integer, Date)
-  fullName.vb: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetLastUpdatedTip(Integer, Date, Integer, Date)
-  name.vb: GetLastUpdatedTip(Integer, Date, Integer, Date)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetLastUpdatedTip(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetLastUpdatedTip(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
   id: GetLastUpdatedTip(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.FieldInfo)
@@ -135,6 +148,9 @@ items:
   nameWithType: TooltipPluginHelper.GetLastUpdatedTip(SoDataReader, FieldInfo, FieldInfo, FieldInfo, FieldInfo)
   fullName: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetLastUpdatedTip(SuperOffice.Data.SoDataReader, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.FieldInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Tooltips
@@ -155,6 +171,10 @@ items:
       type: System.String
     content.vb: Public Function GetLastUpdatedTip(reader As SoDataReader, registeredAssociateInfo As FieldInfo, registeredDateInfo As FieldInfo, updatedAssociateInfo As FieldInfo, updatedDateInfo As FieldInfo) As String
   overload: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetLastUpdatedTip*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetLastUpdatedTip(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetLastUpdatedTip(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   id: GetLastUpdatedTip(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
@@ -166,6 +186,9 @@ items:
   nameWithType: TooltipPluginHelper.GetLastUpdatedTip(SoDataReader, TableInfo)
   fullName: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetLastUpdatedTip(SuperOffice.Data.SoDataReader, SuperOffice.Data.SQL.TableInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Tooltips
@@ -180,6 +203,10 @@ items:
       type: System.String
     content.vb: Public Function GetLastUpdatedTip(reader As SoDataReader, table As TableInfo) As String
   overload: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetLastUpdatedTip*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper.FormatGenericActivityTooltip(SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ProjectRow,SuperOffice.CRM.Rows.AddressRow,SuperOffice.CRM.Rows.PhoneRow)
   commentId: M:SuperOffice.CRM.Tooltips.TooltipPluginHelper.FormatGenericActivityTooltip(SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ProjectRow,SuperOffice.CRM.Rows.AddressRow,SuperOffice.CRM.Rows.PhoneRow)
   id: FormatGenericActivityTooltip(SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ProjectRow,SuperOffice.CRM.Rows.AddressRow,SuperOffice.CRM.Rows.PhoneRow)
@@ -191,6 +218,9 @@ items:
   nameWithType: TooltipPluginHelper.FormatGenericActivityTooltip(ContactRow, PersonRow, ProjectRow, AddressRow, PhoneRow)
   fullName: SuperOffice.CRM.Tooltips.TooltipPluginHelper.FormatGenericActivityTooltip(SuperOffice.CRM.Rows.ContactRow, SuperOffice.CRM.Rows.PersonRow, SuperOffice.CRM.Rows.ProjectRow, SuperOffice.CRM.Rows.AddressRow, SuperOffice.CRM.Rows.PhoneRow)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Tooltips
@@ -211,6 +241,10 @@ items:
       type: System.String
     content.vb: Public Function FormatGenericActivityTooltip(contactRow As ContactRow, personRow As PersonRow, projectRow As ProjectRow, contactAddress As AddressRow, personPhone As PhoneRow) As String
   overload: SuperOffice.CRM.Tooltips.TooltipPluginHelper.FormatGenericActivityTooltip*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetResponsibleAssociate(System.Int32)
   commentId: M:SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetResponsibleAssociate(System.Int32)
   id: GetResponsibleAssociate(System.Int32)
@@ -218,10 +252,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetResponsibleAssociate(int)
-  nameWithType: TooltipPluginHelper.GetResponsibleAssociate(int)
-  fullName: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetResponsibleAssociate(int)
+  name: GetResponsibleAssociate(Int32)
+  nameWithType: TooltipPluginHelper.GetResponsibleAssociate(Int32)
+  fullName: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetResponsibleAssociate(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Tooltips
@@ -234,9 +271,10 @@ items:
       type: System.String
     content.vb: Public Function GetResponsibleAssociate(associateId As Integer) As String
   overload: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetResponsibleAssociate*
-  nameWithType.vb: TooltipPluginHelper.GetResponsibleAssociate(Integer)
-  fullName.vb: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetResponsibleAssociate(Integer)
-  name.vb: GetResponsibleAssociate(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper.#ctor
   commentId: M:SuperOffice.CRM.Tooltips.TooltipPluginHelper.#ctor
   id: '#ctor'
@@ -248,507 +286,189 @@ items:
   nameWithType: TooltipPluginHelper.TooltipPluginHelper()
   fullName: SuperOffice.CRM.Tooltips.TooltipPluginHelper.TooltipPluginHelper()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Tooltips
   syntax:
     content: public TooltipPluginHelper()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Tooltips.TooltipPluginHelper.#ctor*
-  nameWithType.vb: TooltipPluginHelper.New()
-  fullName.vb: SuperOffice.CRM.Tooltips.TooltipPluginHelper.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Tooltips
   commentId: N:SuperOffice.CRM.Tooltips
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Tooltips
   nameWithType: SuperOffice.CRM.Tooltips
   fullName: SuperOffice.CRM.Tooltips
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Tooltips
-    name: Tooltips
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Tooltips
-    name: Tooltips
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<TooltipPluginHelper, To>(TooltipPluginHelper)
-  nameWithType: EnumUtil.MapEnums<TooltipPluginHelper, To>(TooltipPluginHelper)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Tooltips.TooltipPluginHelper, To>(SuperOffice.CRM.Tooltips.TooltipPluginHelper)
-  nameWithType.vb: EnumUtil.MapEnums(Of TooltipPluginHelper, To)(TooltipPluginHelper)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Tooltips.TooltipPluginHelper, To)(SuperOffice.CRM.Tooltips.TooltipPluginHelper)
-  name.vb: MapEnums(Of TooltipPluginHelper, To)(TooltipPluginHelper)
+  name: MapEnums<TooltipPluginHelper, To>()
+  nameWithType: EnumUtil.MapEnums<TooltipPluginHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Tooltips.TooltipPluginHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TooltipPluginHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Tooltips.TooltipPluginHelper, To)()
+  name.vb: MapEnums(Of TooltipPluginHelper, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Tooltips.TooltipPluginHelper)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TooltipPluginHelper, To>
+    nameWithType: EnumUtil.MapEnums<TooltipPluginHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Tooltips.TooltipPluginHelper, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper
-    name: TooltipPluginHelper
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper
-    name: TooltipPluginHelper
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Tooltips.TooltipPluginHelper)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TooltipPluginHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of TooltipPluginHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Tooltips.TooltipPluginHelper, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper
-    name: TooltipPluginHelper
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper
-    name: TooltipPluginHelper
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html
-  - name: )
-- uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<TooltipPluginHelper, To>(TooltipPluginHelper)
-  nameWithType: Converters.MapEnums<TooltipPluginHelper, To>(TooltipPluginHelper)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Tooltips.TooltipPluginHelper, To>(SuperOffice.CRM.Tooltips.TooltipPluginHelper)
-  nameWithType.vb: Converters.MapEnums(Of TooltipPluginHelper, To)(TooltipPluginHelper)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Tooltips.TooltipPluginHelper, To)(SuperOffice.CRM.Tooltips.TooltipPluginHelper)
-  name.vb: MapEnums(Of TooltipPluginHelper, To)(TooltipPluginHelper)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Tooltips.TooltipPluginHelper)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper
-    name: TooltipPluginHelper
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper
-    name: TooltipPluginHelper
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Tooltips.TooltipPluginHelper)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper
-    name: TooltipPluginHelper
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper
-    name: TooltipPluginHelper
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Tooltips.TooltipPluginHelper)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<TooltipPluginHelper>(TooltipPluginHelper, TooltipPluginHelper)
-  nameWithType: ObjectExtensions.AssignByReflection<TooltipPluginHelper>(TooltipPluginHelper, TooltipPluginHelper)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Tooltips.TooltipPluginHelper>(SuperOffice.CRM.Tooltips.TooltipPluginHelper, SuperOffice.CRM.Tooltips.TooltipPluginHelper)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TooltipPluginHelper)(TooltipPluginHelper, TooltipPluginHelper)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Tooltips.TooltipPluginHelper)(SuperOffice.CRM.Tooltips.TooltipPluginHelper, SuperOffice.CRM.Tooltips.TooltipPluginHelper)
-  name.vb: AssignByReflection(Of TooltipPluginHelper)(TooltipPluginHelper, TooltipPluginHelper)
+  name: AssignByReflection<TooltipPluginHelper>(TooltipPluginHelper)
+  nameWithType: ObjectExtensions.AssignByReflection<TooltipPluginHelper>(TooltipPluginHelper)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Tooltips.TooltipPluginHelper>(SuperOffice.CRM.Tooltips.TooltipPluginHelper)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TooltipPluginHelper)(TooltipPluginHelper)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Tooltips.TooltipPluginHelper)(SuperOffice.CRM.Tooltips.TooltipPluginHelper)
+  name.vb: AssignByReflection(Of TooltipPluginHelper)(TooltipPluginHelper)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Tooltips.TooltipPluginHelper,SuperOffice.CRM.Tooltips.TooltipPluginHelper)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TooltipPluginHelper>
+    nameWithType: ObjectExtensions.AssignByReflection<TooltipPluginHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Tooltips.TooltipPluginHelper>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper
-    name: TooltipPluginHelper
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper
     name: TooltipPluginHelper
+    nameWithType: TooltipPluginHelper
+    fullName: SuperOffice.CRM.Tooltips.TooltipPluginHelper
     isExternal: true
-    href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper
-    name: TooltipPluginHelper
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Tooltips.TooltipPluginHelper,SuperOffice.CRM.Tooltips.TooltipPluginHelper)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TooltipPluginHelper)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TooltipPluginHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Tooltips.TooltipPluginHelper)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper
     name: TooltipPluginHelper
+    nameWithType: TooltipPluginHelper
+    fullName: SuperOffice.CRM.Tooltips.TooltipPluginHelper
     isExternal: true
-    href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper
-    name: TooltipPluginHelper
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper
-    name: TooltipPluginHelper
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<TooltipPluginHelper>(TooltipPluginHelper)
-  nameWithType: ObjectExtensions.GraphCopy<TooltipPluginHelper>(TooltipPluginHelper)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Tooltips.TooltipPluginHelper>(SuperOffice.CRM.Tooltips.TooltipPluginHelper)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of TooltipPluginHelper)(TooltipPluginHelper)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Tooltips.TooltipPluginHelper)(SuperOffice.CRM.Tooltips.TooltipPluginHelper)
-  name.vb: GraphCopy(Of TooltipPluginHelper)(TooltipPluginHelper)
+  name: GraphCopy<TooltipPluginHelper>()
+  nameWithType: ObjectExtensions.GraphCopy<TooltipPluginHelper>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Tooltips.TooltipPluginHelper>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TooltipPluginHelper)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Tooltips.TooltipPluginHelper)()
+  name.vb: GraphCopy(Of TooltipPluginHelper)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Tooltips.TooltipPluginHelper)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TooltipPluginHelper>
+    nameWithType: ObjectExtensions.GraphCopy<TooltipPluginHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Tooltips.TooltipPluginHelper>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper
-    name: TooltipPluginHelper
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper
-    name: TooltipPluginHelper
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Tooltips.TooltipPluginHelper)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TooltipPluginHelper)
+    nameWithType: ObjectExtensions.GraphCopy(Of TooltipPluginHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Tooltips.TooltipPluginHelper)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper
-    name: TooltipPluginHelper
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TooltipPluginHelper, To>()
+  nameWithType: Converters.MapEnums<TooltipPluginHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Tooltips.TooltipPluginHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of TooltipPluginHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Tooltips.TooltipPluginHelper, To)()
+  name.vb: MapEnums(Of TooltipPluginHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TooltipPluginHelper, To>
+    nameWithType: Converters.MapEnums<TooltipPluginHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Tooltips.TooltipPluginHelper, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper
-    name: TooltipPluginHelper
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TooltipPluginHelper, To)
+    nameWithType: Converters.MapEnums(Of TooltipPluginHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Tooltips.TooltipPluginHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -757,93 +477,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -852,46 +522,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -900,96 +580,95 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetGenericActivityTooltip*
   commentId: Overload:SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetGenericActivityTooltip
   isExternal: true
-  href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html#SuperOffice_CRM_Tooltips_TooltipPluginHelper_GetGenericActivityTooltip_SuperOffice_Data_SQL_Select_SuperOffice_Data_SQL_FieldInfo_SuperOffice_Data_SQL_FieldInfo_SuperOffice_Data_SQL_FieldInfo_SuperOffice_Data_SQL_FieldInfo_SuperOffice_Data_SoDataReader__SuperOffice_Data_SoConnection__System_String__
   name: GetGenericActivityTooltip
   nameWithType: TooltipPluginHelper.GetGenericActivityTooltip
   fullName: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetGenericActivityTooltip
@@ -997,7 +676,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.Select
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Select.html
   name: Select
   nameWithType: Select
   fullName: SuperOffice.Data.SQL.Select
@@ -1005,7 +683,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.FieldInfo.html
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
@@ -1013,7 +690,6 @@ references:
   commentId: T:SuperOffice.Data.SoDataReader
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoDataReader.html
   name: SoDataReader
   nameWithType: SoDataReader
   fullName: SuperOffice.Data.SoDataReader
@@ -1021,7 +697,6 @@ references:
   commentId: T:SuperOffice.Data.SoConnection
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoConnection.html
   name: SoConnection
   nameWithType: SoConnection
   fullName: SuperOffice.Data.SoConnection
@@ -1029,92 +704,31 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetLastUpdatedTip*
   commentId: Overload:SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetLastUpdatedTip
   isExternal: true
-  href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html#SuperOffice_CRM_Tooltips_TooltipPluginHelper_GetLastUpdatedTip_System_Int32_System_DateTime_System_Int32_System_DateTime_
   name: GetLastUpdatedTip
   nameWithType: TooltipPluginHelper.GetLastUpdatedTip
   fullName: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetLastUpdatedTip
@@ -1122,36 +736,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.Data.SQL.TableInfo
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper.FormatGenericActivityTooltip*
   commentId: Overload:SuperOffice.CRM.Tooltips.TooltipPluginHelper.FormatGenericActivityTooltip
   isExternal: true
-  href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html#SuperOffice_CRM_Tooltips_TooltipPluginHelper_FormatGenericActivityTooltip_SuperOffice_CRM_Rows_ContactRow_SuperOffice_CRM_Rows_PersonRow_SuperOffice_CRM_Rows_ProjectRow_SuperOffice_CRM_Rows_AddressRow_SuperOffice_CRM_Rows_PhoneRow_
   name: FormatGenericActivityTooltip
   nameWithType: TooltipPluginHelper.FormatGenericActivityTooltip
   fullName: SuperOffice.CRM.Tooltips.TooltipPluginHelper.FormatGenericActivityTooltip
@@ -1159,7 +761,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.ContactRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.ContactRow.html
   name: ContactRow
   nameWithType: ContactRow
   fullName: SuperOffice.CRM.Rows.ContactRow
@@ -1167,7 +768,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.PersonRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.PersonRow.html
   name: PersonRow
   nameWithType: PersonRow
   fullName: SuperOffice.CRM.Rows.PersonRow
@@ -1175,7 +775,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.ProjectRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.ProjectRow.html
   name: ProjectRow
   nameWithType: ProjectRow
   fullName: SuperOffice.CRM.Rows.ProjectRow
@@ -1183,7 +782,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.AddressRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.AddressRow.html
   name: AddressRow
   nameWithType: AddressRow
   fullName: SuperOffice.CRM.Rows.AddressRow
@@ -1191,61 +789,24 @@ references:
   commentId: T:SuperOffice.CRM.Rows.PhoneRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.PhoneRow.html
   name: PhoneRow
   nameWithType: PhoneRow
   fullName: SuperOffice.CRM.Rows.PhoneRow
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetResponsibleAssociate*
   commentId: Overload:SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetResponsibleAssociate
   isExternal: true
-  href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html#SuperOffice_CRM_Tooltips_TooltipPluginHelper_GetResponsibleAssociate_System_Int32_
   name: GetResponsibleAssociate
   nameWithType: TooltipPluginHelper.GetResponsibleAssociate
   fullName: SuperOffice.CRM.Tooltips.TooltipPluginHelper.GetResponsibleAssociate
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginHelper.#ctor*
   commentId: Overload:SuperOffice.CRM.Tooltips.TooltipPluginHelper.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Tooltips.TooltipPluginHelper.html#SuperOffice_CRM_Tooltips_TooltipPluginHelper__ctor
   name: TooltipPluginHelper
   nameWithType: TooltipPluginHelper.TooltipPluginHelper
   fullName: SuperOffice.CRM.Tooltips.TooltipPluginHelper.TooltipPluginHelper
-  nameWithType.vb: TooltipPluginHelper.New
-  fullName.vb: SuperOffice.CRM.Tooltips.TooltipPluginHelper.New
-  name.vb: New

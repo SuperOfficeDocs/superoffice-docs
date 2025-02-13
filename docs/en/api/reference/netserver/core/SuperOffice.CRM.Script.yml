@@ -21,21 +21,18 @@ references:
 - uid: SuperOffice.CRM.Script.CRMScriptValidationException
   commentId: T:SuperOffice.CRM.Script.CRMScriptValidationException
   isExternal: true
-  href: SuperOffice.CRM.Script.CRMScriptValidationException.html
   name: CRMScriptValidationException
   nameWithType: CRMScriptValidationException
   fullName: SuperOffice.CRM.Script.CRMScriptValidationException
 - uid: SuperOffice.CRM.Script.CRMScriptHelper
   commentId: T:SuperOffice.CRM.Script.CRMScriptHelper
   isExternal: true
-  href: SuperOffice.CRM.Script.CRMScriptHelper.html
   name: CRMScriptHelper
   nameWithType: CRMScriptHelper
   fullName: SuperOffice.CRM.Script.CRMScriptHelper
 - uid: SuperOffice.CRM.Script.CRMScriptServiceBase
   commentId: T:SuperOffice.CRM.Script.CRMScriptServiceBase
   isExternal: true
-  href: SuperOffice.CRM.Script.CRMScriptServiceBase.html
   name: CRMScriptServiceBase
   nameWithType: CRMScriptServiceBase
   fullName: SuperOffice.CRM.Script.CRMScriptServiceBase
@@ -43,44 +40,12 @@ references:
   commentId: T:SuperOffice.CRM.Script.ICRMScriptService
   parent: SuperOffice.CRM.Script
   isExternal: true
-  href: SuperOffice.CRM.Script.ICRMScriptService.html
   name: ICRMScriptService
   nameWithType: ICRMScriptService
   fullName: SuperOffice.CRM.Script.ICRMScriptService
 - uid: SuperOffice.CRM.Script
   commentId: N:SuperOffice.CRM.Script
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Script
   nameWithType: SuperOffice.CRM.Script
   fullName: SuperOffice.CRM.Script
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Script
-    name: Script
-    isExternal: true
-    href: SuperOffice.CRM.Script.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Script
-    name: Script
-    isExternal: true
-    href: SuperOffice.CRM.Script.html

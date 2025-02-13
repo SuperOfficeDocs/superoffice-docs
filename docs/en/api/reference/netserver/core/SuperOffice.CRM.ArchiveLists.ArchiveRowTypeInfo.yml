@@ -36,30 +36,34 @@ items:
   nameWithType: ArchiveRowTypeInfo
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: This class carries information about one archive entity
-  example: []
+  summary: "\nThis class carries information about one archive entity\n"
   syntax:
-    content: 'public class ArchiveRowTypeInfo : ICloneable'
-    content.vb: Public Class ArchiveRowTypeInfo Implements ICloneable
+    content: 'public class ArchiveRowTypeInfo : Object, ICloneable'
+    content.vb: >-
+      Public Class ArchiveRowTypeInfo
+          Inherits Object
+          Implements ICloneable
   inheritance:
   - System.Object
   implements:
   - System.ICloneable
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
   - SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.SetOptional
   commentId: F:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.SetOptional
   id: SetOptional
@@ -71,16 +75,24 @@ items:
   nameWithType: ArchiveRowTypeInfo.SetOptional
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.SetOptional
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Constant, for use in constructor instead of the anonymous true/false.
-  example: []
+  summary: "\nConstant, for use in constructor instead of the anonymous true/false.\n"
   syntax:
     content: public const bool SetOptional = true
     return:
       type: System.Boolean
     content.vb: Public Const SetOptional As Boolean = True
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.SetMandatory
   commentId: F:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.SetMandatory
   id: SetMandatory
@@ -92,16 +104,24 @@ items:
   nameWithType: ArchiveRowTypeInfo.SetMandatory
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.SetMandatory
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Constant, for use in constructor instead of the anonymous true/false.
-  example: []
+  summary: "\nConstant, for use in constructor instead of the anonymous true/false.\n"
   syntax:
     content: public const bool SetMandatory = false
     return:
       type: System.Boolean
     content.vb: Public Const SetMandatory As Boolean = False
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ShowAsDefault
   commentId: F:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ShowAsDefault
   id: ShowAsDefault
@@ -113,16 +133,24 @@ items:
   nameWithType: ArchiveRowTypeInfo.ShowAsDefault
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ShowAsDefault
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Constant, for use in constructor instead of the anonymous true/false.
-  example: []
+  summary: "\nConstant, for use in constructor instead of the anonymous true/false.\n"
   syntax:
     content: public const bool ShowAsDefault = true
     return:
       type: System.Boolean
     content.vb: Public Const ShowAsDefault As Boolean = True
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.HideAsDefault
   commentId: F:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.HideAsDefault
   id: HideAsDefault
@@ -134,16 +162,24 @@ items:
   nameWithType: ArchiveRowTypeInfo.HideAsDefault
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.HideAsDefault
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Constant, for use in constructor instead of the anonymous true/false.
-  example: []
+  summary: "\nConstant, for use in constructor instead of the anonymous true/false.\n"
   syntax:
     content: public const bool HideAsDefault = false
     return:
       type: System.Boolean
     content.vb: Public Const HideAsDefault As Boolean = False
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Mandatory
   commentId: F:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Mandatory
   id: Mandatory
@@ -155,16 +191,24 @@ items:
   nameWithType: ArchiveRowTypeInfo.Mandatory
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Mandatory
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Constant value intended for the isOptional parameter of the constructor
-  example: []
+  summary: "\nConstant value intended for the isOptional parameter of the constructor\n"
   syntax:
     content: public const bool Mandatory = false
     return:
       type: System.Boolean
     content.vb: Public Const Mandatory As Boolean = False
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Optional
   commentId: F:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Optional
   id: Optional
@@ -176,16 +220,24 @@ items:
   nameWithType: ArchiveRowTypeInfo.Optional
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Optional
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Constant value intended for the isOptional parameter of the constructor
-  example: []
+  summary: "\nConstant value intended for the isOptional parameter of the constructor\n"
   syntax:
     content: public const bool Optional = true
     return:
       type: System.Boolean
     content.vb: Public Const Optional As Boolean = True
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.#ctor
   id: '#ctor'
@@ -197,18 +249,21 @@ items:
   nameWithType: ArchiveRowTypeInfo.ArchiveRowTypeInfo()
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ArchiveRowTypeInfo()
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Construct the object, setting nothing.
-  example: []
+  summary: "\nConstruct the object, setting nothing.\n"
   syntax:
     content: public ArchiveRowTypeInfo()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.#ctor*
-  nameWithType.vb: ArchiveRowTypeInfo.New()
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.#ctor(System.String,System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.#ctor(System.String,System.String,System.Boolean)
   id: '#ctor(System.String,System.String,System.Boolean)'
@@ -216,15 +271,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ArchiveRowTypeInfo(string, string, bool)
-  nameWithType: ArchiveRowTypeInfo.ArchiveRowTypeInfo(string, string, bool)
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ArchiveRowTypeInfo(string, string, bool)
+  name: ArchiveRowTypeInfo(String, String, Boolean)
+  nameWithType: ArchiveRowTypeInfo.ArchiveRowTypeInfo(String, String, Boolean)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ArchiveRowTypeInfo(System.String, System.String, System.Boolean)
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Construct the object, setting name, display name and isOptional status
-  example: []
+  summary: "\nConstruct the object, setting name, display name and isOptional status\n"
   syntax:
     content: public ArchiveRowTypeInfo(string name, string displayName, bool isOptional)
     parameters:
@@ -239,9 +296,10 @@ items:
       description: Is this entity optional? If yes, we expect a GUI to be shown somehow, enabling the user to select it or avoid it
     content.vb: Public Sub New(name As String, displayName As String, isOptional As Boolean)
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.#ctor*
-  nameWithType.vb: ArchiveRowTypeInfo.New(String, String, Boolean)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.New(String, String, Boolean)
-  name.vb: New(String, String, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.#ctor(System.String,System.String,System.String,System.Boolean,System.Boolean)
   commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.#ctor(System.String,System.String,System.String,System.Boolean,System.Boolean)
   id: '#ctor(System.String,System.String,System.String,System.Boolean,System.Boolean)'
@@ -249,15 +307,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ArchiveRowTypeInfo(string, string, string, bool, bool)
-  nameWithType: ArchiveRowTypeInfo.ArchiveRowTypeInfo(string, string, string, bool, bool)
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ArchiveRowTypeInfo(string, string, string, bool, bool)
+  name: ArchiveRowTypeInfo(String, String, String, Boolean, Boolean)
+  nameWithType: ArchiveRowTypeInfo.ArchiveRowTypeInfo(String, String, String, Boolean, Boolean)
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ArchiveRowTypeInfo(System.String, System.String, System.String, System.Boolean, System.Boolean)
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Construct the object, setting name, display name, isOptional status
-  example: []
+  summary: "\nConstruct the object, setting name, display name, isOptional status\n"
   syntax:
     content: public ArchiveRowTypeInfo(string name, string displayName, string displayTooltip, bool isOptional, bool isDefaultShow)
     parameters:
@@ -278,9 +338,10 @@ items:
       description: Should this entity be chosen by default? If yes, we expect a GUI checkbox to be checked
     content.vb: Public Sub New(name As String, displayName As String, displayTooltip As String, isOptional As Boolean, isDefaultShow As Boolean)
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.#ctor*
-  nameWithType.vb: ArchiveRowTypeInfo.New(String, String, String, Boolean, Boolean)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.New(String, String, String, Boolean, Boolean)
-  name.vb: New(String, String, String, Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToString
   commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToString
   id: ToString
@@ -292,19 +353,25 @@ items:
   nameWithType: ArchiveRowTypeInfo.ToString()
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToString()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Return a string representation, intended for debug display purposes
-  example: []
+  summary: "\nReturn a string representation, intended for debug display purposes\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
-      description: ''
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Clone
   commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Clone
   id: Clone
@@ -316,18 +383,22 @@ items:
   nameWithType: ArchiveRowTypeInfo.Clone()
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Clone()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  example: []
   syntax:
     content: public object Clone()
     return:
       type: System.Object
-    content.vb: Public Function Clone() As Object
+    content.vb: Public Function Clone As Object
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Clone*
-  implements:
-  - System.ICloneable.Clone
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
   commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
   id: ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
@@ -335,15 +406,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToNameArray(params ArchiveRowTypeInfo[])
-  nameWithType: ArchiveRowTypeInfo.ToNameArray(params ArchiveRowTypeInfo[])
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(params SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
+  name: ToNameArray(ArchiveRowTypeInfo[])
+  nameWithType: ArchiveRowTypeInfo.ToNameArray(ArchiveRowTypeInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Utility method to convert an array of ArchiveEntityInfo into a string array containing the names only
-  example: []
+  summary: "\nUtility method to convert an array of ArchiveEntityInfo into a string array containing the names only\n"
   syntax:
     content: public static string[] ToNameArray(params ArchiveRowTypeInfo[] entityInfos)
     parameters:
@@ -355,9 +428,15 @@ items:
       description: Array of names, in original order
     content.vb: Public Shared Function ToNameArray(ParamArray entityInfos As ArchiveRowTypeInfo()) As String()
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray*
-  nameWithType.vb: ArchiveRowTypeInfo.ToNameArray(ParamArray ArchiveRowTypeInfo())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(ParamArray SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo())
-  name.vb: ToNameArray(ParamArray ArchiveRowTypeInfo())
+  nameWithType.vb: ArchiveRowTypeInfo.ToNameArray(ArchiveRowTypeInfo())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo())
+  name.vb: ToNameArray(ArchiveRowTypeInfo())
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo},SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
   commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo},SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
   id: ToNameArray(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo},SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
@@ -365,20 +444,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToNameArray(Predicate<ArchiveRowTypeInfo>, params ArchiveRowTypeInfo[])
-  nameWithType: ArchiveRowTypeInfo.ToNameArray(Predicate<ArchiveRowTypeInfo>, params ArchiveRowTypeInfo[])
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>, params SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
+  name: ToNameArray(Predicate<ArchiveRowTypeInfo>, ArchiveRowTypeInfo[])
+  nameWithType: ArchiveRowTypeInfo.ToNameArray(Predicate<ArchiveRowTypeInfo>, ArchiveRowTypeInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>, SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Utility method to conditionally convert an array of ArchiveEntityInfo into a string array containing
-
-    the names only. The given predicate is applied to each ArchiveEntityInfo to determine if its name should
-
-    be included in the result.
-  example: []
+  summary: "\nUtility method to conditionally convert an array of ArchiveEntityInfo into a string array containing\nthe names only. The given predicate is applied to each ArchiveEntityInfo to determine if its name should\nbe included in the result.\n"
   syntax:
     content: public static string[] ToNameArray(Predicate<ArchiveRowTypeInfo> condition, params ArchiveRowTypeInfo[] entityInfos)
     parameters:
@@ -386,7 +462,8 @@ items:
       type: System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
       description: >-
         Predicate that takes an ArchiveEntityInfo and returns a bool. A value of true indicates
-                    that that particular ArchiveEntityInfo should be included in the result.
+
+        that that particular ArchiveEntityInfo should be included in the result.
     - id: entityInfos
       type: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[]
       description: Column infos to test and extract the name from
@@ -395,9 +472,15 @@ items:
       description: Array of names of column infos that were chosen, in original order
     content.vb: Public Shared Function ToNameArray(condition As Predicate(Of ArchiveRowTypeInfo), ParamArray entityInfos As ArchiveRowTypeInfo()) As String()
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray*
-  nameWithType.vb: ArchiveRowTypeInfo.ToNameArray(Predicate(Of ArchiveRowTypeInfo), ParamArray ArchiveRowTypeInfo())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(System.Predicate(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo), ParamArray SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo())
-  name.vb: ToNameArray(Predicate(Of ArchiveRowTypeInfo), ParamArray ArchiveRowTypeInfo())
+  nameWithType.vb: ArchiveRowTypeInfo.ToNameArray(Predicate(Of ArchiveRowTypeInfo), ArchiveRowTypeInfo())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(System.Predicate(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo), SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo())
+  name.vb: ToNameArray(Predicate(Of ArchiveRowTypeInfo), ArchiveRowTypeInfo())
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo})
   commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo})
   id: ToNameArray(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo})
@@ -409,11 +492,13 @@ items:
   nameWithType: ArchiveRowTypeInfo.ToNameArray(List<ArchiveRowTypeInfo>)
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Utility method to convert a list of ArchiveEntityInfo into a string array containing the names only
-  example: []
+  summary: "\nUtility method to convert a list of ArchiveEntityInfo into a string array containing the names only\n"
   syntax:
     content: public static string[] ToNameArray(List<ArchiveRowTypeInfo> entityInfos)
     parameters:
@@ -426,6 +511,12 @@ items:
     content.vb: Public Shared Function ToNameArray(entityInfos As List(Of ArchiveRowTypeInfo)) As String()
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray*
   nameWithType.vb: ArchiveRowTypeInfo.ToNameArray(List(Of ArchiveRowTypeInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
   fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo))
   name.vb: ToNameArray(List(Of ArchiveRowTypeInfo))
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo},System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo})
@@ -439,16 +530,13 @@ items:
   nameWithType: ArchiveRowTypeInfo.ToNameArray(Predicate<ArchiveRowTypeInfo>, List<ArchiveRowTypeInfo>)
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>, System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Utility method to conditionally convert a list of ArchiveEntityInfo into a string array containing
-
-    the names only. The given predicate is applied to each ArchiveEntityInfo to determine if its name should
-
-    be included in the result.
-  example: []
+  summary: "\nUtility method to conditionally convert a list of ArchiveEntityInfo into a string array containing\nthe names only. The given predicate is applied to each ArchiveEntityInfo to determine if its name should\nbe included in the result.\n"
   syntax:
     content: public static string[] ToNameArray(Predicate<ArchiveRowTypeInfo> condition, List<ArchiveRowTypeInfo> entityInfos)
     parameters:
@@ -456,7 +544,8 @@ items:
       type: System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
       description: >-
         Predicate that takes an ArchiveEntityInfo and returns a bool. A value of true indicates
-                    that that particular ArchiveEntityInfo should be included in the result.
+
+        that that particular ArchiveEntityInfo should be included in the result.
     - id: entityInfos
       type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
       description: Column infos to test and extract the name from
@@ -466,6 +555,12 @@ items:
     content.vb: Public Shared Function ToNameArray(condition As Predicate(Of ArchiveRowTypeInfo), entityInfos As List(Of ArchiveRowTypeInfo)) As String()
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray*
   nameWithType.vb: ArchiveRowTypeInfo.ToNameArray(Predicate(Of ArchiveRowTypeInfo), List(Of ArchiveRowTypeInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
   fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray(System.Predicate(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo), System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo))
   name.vb: ToNameArray(Predicate(Of ArchiveRowTypeInfo), List(Of ArchiveRowTypeInfo))
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
@@ -475,15 +570,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToNameDictionary(params ArchiveRowTypeInfo[])
-  nameWithType: ArchiveRowTypeInfo.ToNameDictionary(params ArchiveRowTypeInfo[])
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(params SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
+  name: ToNameDictionary(ArchiveRowTypeInfo[])
+  nameWithType: ArchiveRowTypeInfo.ToNameDictionary(ArchiveRowTypeInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Utility method to convert an array of ArchiveEntityInfo into a string array containing the names only
-  example: []
+  summary: "\nUtility method to convert an array of ArchiveEntityInfo into a string array containing the names only\n"
   syntax:
     content: public static Dictionary<string, ArchiveRowTypeInfo> ToNameDictionary(params ArchiveRowTypeInfo[] entityInfos)
     parameters:
@@ -495,9 +592,15 @@ items:
       description: Array of names, in original order
     content.vb: Public Shared Function ToNameDictionary(ParamArray entityInfos As ArchiveRowTypeInfo()) As Dictionary(Of String, ArchiveRowTypeInfo)
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary*
-  nameWithType.vb: ArchiveRowTypeInfo.ToNameDictionary(ParamArray ArchiveRowTypeInfo())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(ParamArray SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo())
-  name.vb: ToNameDictionary(ParamArray ArchiveRowTypeInfo())
+  nameWithType.vb: ArchiveRowTypeInfo.ToNameDictionary(ArchiveRowTypeInfo())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo())
+  name.vb: ToNameDictionary(ArchiveRowTypeInfo())
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo},SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
   commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo},SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
   id: ToNameDictionary(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo},SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
@@ -505,20 +608,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToNameDictionary(Predicate<ArchiveRowTypeInfo>, params ArchiveRowTypeInfo[])
-  nameWithType: ArchiveRowTypeInfo.ToNameDictionary(Predicate<ArchiveRowTypeInfo>, params ArchiveRowTypeInfo[])
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>, params SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
+  name: ToNameDictionary(Predicate<ArchiveRowTypeInfo>, ArchiveRowTypeInfo[])
+  nameWithType: ArchiveRowTypeInfo.ToNameDictionary(Predicate<ArchiveRowTypeInfo>, ArchiveRowTypeInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>, SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[])
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Utility method to conditionally convert an array of ArchiveEntityInfo into a string array containing
-
-    the names only. The given predicate is applied to each ArchiveEntityInfo to determine if its name should
-
-    be included in the result.
-  example: []
+  summary: "\nUtility method to conditionally convert an array of ArchiveEntityInfo into a string array containing\nthe names only. The given predicate is applied to each ArchiveEntityInfo to determine if its name should\nbe included in the result.\n"
   syntax:
     content: public static Dictionary<string, ArchiveRowTypeInfo> ToNameDictionary(Predicate<ArchiveRowTypeInfo> condition, params ArchiveRowTypeInfo[] entityInfos)
     parameters:
@@ -526,7 +626,8 @@ items:
       type: System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
       description: >-
         Predicate that takes an ArchiveEntityInfo and returns a bool. A value of true indicates
-                    that that particular ArchiveEntityInfo should be included in the result.
+
+        that that particular ArchiveEntityInfo should be included in the result.
     - id: entityInfos
       type: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[]
       description: Column infos to test and extract the name from
@@ -535,9 +636,15 @@ items:
       description: Array of names of column infos that were chosen, in original order
     content.vb: Public Shared Function ToNameDictionary(condition As Predicate(Of ArchiveRowTypeInfo), ParamArray entityInfos As ArchiveRowTypeInfo()) As Dictionary(Of String, ArchiveRowTypeInfo)
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary*
-  nameWithType.vb: ArchiveRowTypeInfo.ToNameDictionary(Predicate(Of ArchiveRowTypeInfo), ParamArray ArchiveRowTypeInfo())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(System.Predicate(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo), ParamArray SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo())
-  name.vb: ToNameDictionary(Predicate(Of ArchiveRowTypeInfo), ParamArray ArchiveRowTypeInfo())
+  nameWithType.vb: ArchiveRowTypeInfo.ToNameDictionary(Predicate(Of ArchiveRowTypeInfo), ArchiveRowTypeInfo())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(System.Predicate(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo), SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo())
+  name.vb: ToNameDictionary(Predicate(Of ArchiveRowTypeInfo), ArchiveRowTypeInfo())
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo})
   commentId: M:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo})
   id: ToNameDictionary(System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo})
@@ -549,11 +656,13 @@ items:
   nameWithType: ArchiveRowTypeInfo.ToNameDictionary(List<ArchiveRowTypeInfo>)
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Utility method to convert a list of ArchiveEntityInfo into a string array containing the names only
-  example: []
+  summary: "\nUtility method to convert a list of ArchiveEntityInfo into a string array containing the names only\n"
   syntax:
     content: public static Dictionary<string, ArchiveRowTypeInfo> ToNameDictionary(List<ArchiveRowTypeInfo> entityInfos)
     parameters:
@@ -566,6 +675,12 @@ items:
     content.vb: Public Shared Function ToNameDictionary(entityInfos As List(Of ArchiveRowTypeInfo)) As Dictionary(Of String, ArchiveRowTypeInfo)
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary*
   nameWithType.vb: ArchiveRowTypeInfo.ToNameDictionary(List(Of ArchiveRowTypeInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
   fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo))
   name.vb: ToNameDictionary(List(Of ArchiveRowTypeInfo))
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo},System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo})
@@ -579,16 +694,13 @@ items:
   nameWithType: ArchiveRowTypeInfo.ToNameDictionary(Predicate<ArchiveRowTypeInfo>, List<ArchiveRowTypeInfo>)
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>, System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Utility method to conditionally convert a list of ArchiveEntityInfo into a string array containing
-
-    the names only. The given predicate is applied to each ArchiveEntityInfo to determine if its name should
-
-    be included in the result.
-  example: []
+  summary: "\nUtility method to conditionally convert a list of ArchiveEntityInfo into a string array containing\nthe names only. The given predicate is applied to each ArchiveEntityInfo to determine if its name should\nbe included in the result.\n"
   syntax:
     content: public static Dictionary<string, ArchiveRowTypeInfo> ToNameDictionary(Predicate<ArchiveRowTypeInfo> condition, List<ArchiveRowTypeInfo> entityInfos)
     parameters:
@@ -596,7 +708,8 @@ items:
       type: System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
       description: >-
         Predicate that takes an ArchiveEntityInfo and returns a bool. A value of true indicates
-                    that that particular ArchiveEntityInfo should be included in the result.
+
+        that that particular ArchiveEntityInfo should be included in the result.
     - id: entityInfos
       type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
       description: Column infos to test and extract the name from
@@ -606,6 +719,12 @@ items:
     content.vb: Public Shared Function ToNameDictionary(condition As Predicate(Of ArchiveRowTypeInfo), entityInfos As List(Of ArchiveRowTypeInfo)) As Dictionary(Of String, ArchiveRowTypeInfo)
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary*
   nameWithType.vb: ArchiveRowTypeInfo.ToNameDictionary(Predicate(Of ArchiveRowTypeInfo), List(Of ArchiveRowTypeInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
   fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary(System.Predicate(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo), System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo))
   name.vb: ToNameDictionary(Predicate(Of ArchiveRowTypeInfo), List(Of ArchiveRowTypeInfo))
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DisplayName
@@ -619,11 +738,13 @@ items:
   nameWithType: ArchiveRowTypeInfo.DisplayName
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DisplayName
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: The user-friendly name of the entity, to be reflected in checkboxes in the archive
-  example: []
+  summary: "\nThe user-friendly name of the entity, to be reflected in checkboxes in the archive\n"
   syntax:
     content: public string DisplayName { get; set; }
     parameters: []
@@ -631,6 +752,12 @@ items:
       type: System.String
     content.vb: Public Property DisplayName As String
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DisplayName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DisplayTooltip
   commentId: P:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DisplayTooltip
   id: DisplayTooltip
@@ -642,11 +769,13 @@ items:
   nameWithType: ArchiveRowTypeInfo.DisplayTooltip
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DisplayTooltip
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: User-friendly tooltip for the entity, to be reflected in the checkboxes in the archive
-  example: []
+  summary: "\nUser-friendly tooltip for the entity, to be reflected in the checkboxes in the archive\n"
   syntax:
     content: public string DisplayTooltip { get; set; }
     parameters: []
@@ -654,6 +783,12 @@ items:
       type: System.String
     content.vb: Public Property DisplayTooltip As String
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DisplayTooltip*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Name
   commentId: P:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Name
   id: Name
@@ -665,11 +800,13 @@ items:
   nameWithType: ArchiveRowTypeInfo.Name
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Name
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Unique entity identifier
-  example: []
+  summary: "\nUnique entity identifier\n"
   syntax:
     content: public string Name { get; set; }
     parameters: []
@@ -677,6 +814,12 @@ items:
       type: System.String
     content.vb: Public Property Name As String
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.IsOptional
   commentId: P:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.IsOptional
   id: IsOptional
@@ -688,14 +831,13 @@ items:
   nameWithType: ArchiveRowTypeInfo.IsOptional
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.IsOptional
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Can this entity be selected in the GUI (typically through a checkbox with the entity display name in the bottom of the archive).
-
-    If not, the entity should ALWAYS be requested (this is the default behaviour).
-  example: []
+  summary: "\nCan this entity be selected in the GUI (typically through a checkbox with the entity display name in the bottom of the archive).\nIf not, the entity should ALWAYS be requested (this is the default behaviour).\n"
   syntax:
     content: public bool IsOptional { get; set; }
     parameters: []
@@ -703,6 +845,12 @@ items:
       type: System.Boolean
     content.vb: Public Property IsOptional As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.IsOptional*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DefaultShow
   commentId: P:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DefaultShow
   id: DefaultShow
@@ -714,14 +862,13 @@ items:
   nameWithType: ArchiveRowTypeInfo.DefaultShow
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DefaultShow
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Should this entity be shown as default, if it is optional (i.e., should it be selected for showing
-
-    when an archive is first-ever presented to the user)
-  example: []
+  summary: "\nShould this entity be shown as default, if it is optional (i.e., should it be selected for showing\nwhen an archive is first-ever presented to the user)\n"
   syntax:
     content: public bool DefaultShow { get; set; }
     parameters: []
@@ -729,481 +876,186 @@ items:
       type: System.Boolean
     content.vb: Public Property DefaultShow As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DefaultShow*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ArchiveRowTypeInfo, To>(ArchiveRowTypeInfo)
-  nameWithType: EnumUtil.MapEnums<ArchiveRowTypeInfo, To>(ArchiveRowTypeInfo)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo, To>(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
-  nameWithType.vb: EnumUtil.MapEnums(Of ArchiveRowTypeInfo, To)(ArchiveRowTypeInfo)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo, To)(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
-  name.vb: MapEnums(Of ArchiveRowTypeInfo, To)(ArchiveRowTypeInfo)
+  name: MapEnums<ArchiveRowTypeInfo, To>()
+  nameWithType: EnumUtil.MapEnums<ArchiveRowTypeInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ArchiveRowTypeInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo, To)()
+  name.vb: MapEnums(Of ArchiveRowTypeInfo, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ArchiveRowTypeInfo, To>
+    nameWithType: EnumUtil.MapEnums<ArchiveRowTypeInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
-    name: ArchiveRowTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
-    name: ArchiveRowTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ArchiveRowTypeInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of ArchiveRowTypeInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
-    name: ArchiveRowTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
-    name: ArchiveRowTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
-  - name: )
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ArchiveRowTypeInfo, To>(ArchiveRowTypeInfo)
-  nameWithType: Converters.MapEnums<ArchiveRowTypeInfo, To>(ArchiveRowTypeInfo)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo, To>(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
-  nameWithType.vb: Converters.MapEnums(Of ArchiveRowTypeInfo, To)(ArchiveRowTypeInfo)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo, To)(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
-  name.vb: MapEnums(Of ArchiveRowTypeInfo, To)(ArchiveRowTypeInfo)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
-    name: ArchiveRowTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
-    name: ArchiveRowTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
-    name: ArchiveRowTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
-    name: ArchiveRowTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ArchiveRowTypeInfo>(ArchiveRowTypeInfo, ArchiveRowTypeInfo)
-  nameWithType: ObjectExtensions.AssignByReflection<ArchiveRowTypeInfo>(ArchiveRowTypeInfo, ArchiveRowTypeInfo)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo, SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ArchiveRowTypeInfo)(ArchiveRowTypeInfo, ArchiveRowTypeInfo)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo, SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
-  name.vb: AssignByReflection(Of ArchiveRowTypeInfo)(ArchiveRowTypeInfo, ArchiveRowTypeInfo)
+  name: AssignByReflection<ArchiveRowTypeInfo>(ArchiveRowTypeInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<ArchiveRowTypeInfo>(ArchiveRowTypeInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ArchiveRowTypeInfo)(ArchiveRowTypeInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+  name.vb: AssignByReflection(Of ArchiveRowTypeInfo)(ArchiveRowTypeInfo)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo,SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ArchiveRowTypeInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<ArchiveRowTypeInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
-    name: ArchiveRowTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
-    name: ArchiveRowTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo,SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ArchiveRowTypeInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ArchiveRowTypeInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
-    name: ArchiveRowTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
-    name: ArchiveRowTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ArchiveRowTypeInfo>(ArchiveRowTypeInfo)
-  nameWithType: ObjectExtensions.GraphCopy<ArchiveRowTypeInfo>(ArchiveRowTypeInfo)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ArchiveRowTypeInfo)(ArchiveRowTypeInfo)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
-  name.vb: GraphCopy(Of ArchiveRowTypeInfo)(ArchiveRowTypeInfo)
+  name: GraphCopy<ArchiveRowTypeInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<ArchiveRowTypeInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ArchiveRowTypeInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)()
+  name.vb: GraphCopy(Of ArchiveRowTypeInfo)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ArchiveRowTypeInfo>
+    nameWithType: ObjectExtensions.GraphCopy<ArchiveRowTypeInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
-    name: ArchiveRowTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
-    name: ArchiveRowTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ArchiveRowTypeInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of ArchiveRowTypeInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
-    name: ArchiveRowTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ArchiveRowTypeInfo, To>()
+  nameWithType: Converters.MapEnums<ArchiveRowTypeInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of ArchiveRowTypeInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo, To)()
+  name.vb: MapEnums(Of ArchiveRowTypeInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ArchiveRowTypeInfo, To>
+    nameWithType: Converters.MapEnums<ArchiveRowTypeInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
-    name: ArchiveRowTypeInfo
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ArchiveRowTypeInfo, To)
+    nameWithType: Converters.MapEnums(Of ArchiveRowTypeInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1212,93 +1064,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1307,46 +1109,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1355,194 +1167,132 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.#ctor*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.#ctor
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveRowTypeInfo__ctor
   name: ArchiveRowTypeInfo
   nameWithType: ArchiveRowTypeInfo.ArchiveRowTypeInfo
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ArchiveRowTypeInfo
-  nameWithType.vb: ArchiveRowTypeInfo.New
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.New
-  name.vb: New
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToString*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToString
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveRowTypeInfo_ToString
   name: ToString
   nameWithType: ArchiveRowTypeInfo.ToString
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToString
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Clone*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Clone
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveRowTypeInfo_Clone
   name: Clone
   nameWithType: ArchiveRowTypeInfo.Clone
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Clone
-- uid: System.ICloneable.Clone
-  commentId: M:System.ICloneable.Clone
-  parent: System.ICloneable
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icloneable.clone
-  name: Clone()
-  nameWithType: ICloneable.Clone()
-  fullName: System.ICloneable.Clone()
-  spec.csharp:
-  - uid: System.ICloneable.Clone
-    name: Clone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icloneable.clone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.ICloneable.Clone
-    name: Clone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icloneable.clone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveRowTypeInfo_ToNameArray_SuperOffice_CRM_ArchiveLists_ArchiveRowTypeInfo___
   name: ToNameArray
   nameWithType: ArchiveRowTypeInfo.ToNameArray
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameArray
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[]
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
   name: ArchiveRowTypeInfo[]
   nameWithType: ArchiveRowTypeInfo[]
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo[]
@@ -1552,45 +1302,50 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
-  commentId: T:System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
-  parent: System
+  commentId: '!:System.Predicate{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}'
   definition: System.Predicate`1
-  href: https://learn.microsoft.com/dotnet/api/system.predicate-1
   name: Predicate<ArchiveRowTypeInfo>
   nameWithType: Predicate<ArchiveRowTypeInfo>
   fullName: System.Predicate<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>
@@ -1600,60 +1355,78 @@ references:
   spec.csharp:
   - uid: System.Predicate`1
     name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Predicate`1
     name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Predicate`1
-  commentId: T:System.Predicate`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.predicate-1
-  name: Predicate<T>
-  nameWithType: Predicate<T>
-  fullName: System.Predicate<T>
-  nameWithType.vb: Predicate(Of T)
-  fullName.vb: System.Predicate(Of T)
-  name.vb: Predicate(Of T)
+  name: Predicate<>
+  nameWithType: Predicate<>
+  fullName: System.Predicate<>
+  nameWithType.vb: Predicate(Of )
+  fullName.vb: System.Predicate(Of )
+  name.vb: Predicate(Of )
   spec.csharp:
   - uid: System.Predicate`1
     name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Predicate`1
     name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.predicate-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}'
   definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<ArchiveRowTypeInfo>
   nameWithType: List<ArchiveRowTypeInfo>
   fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>
@@ -1663,212 +1436,217 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveRowTypeInfo_ToNameDictionary_SuperOffice_CRM_ArchiveLists_ArchiveRowTypeInfo___
   name: ToNameDictionary
   nameWithType: ArchiveRowTypeInfo.ToNameDictionary
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.ToNameDictionary
 - uid: System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}'
   definition: System.Collections.Generic.Dictionary`2
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<string, ArchiveRowTypeInfo>
-  nameWithType: Dictionary<string, ArchiveRowTypeInfo>
-  fullName: System.Collections.Generic.Dictionary<string, SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>
+  name: Dictionary<String, ArchiveRowTypeInfo>
+  nameWithType: Dictionary<String, ArchiveRowTypeInfo>
+  fullName: System.Collections.Generic.Dictionary<System.String, SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>
   nameWithType.vb: Dictionary(Of String, ArchiveRowTypeInfo)
-  fullName.vb: System.Collections.Generic.Dictionary(Of String, SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
   name.vb: Dictionary(Of String, ArchiveRowTypeInfo)
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DisplayName*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DisplayName
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveRowTypeInfo_DisplayName
   name: DisplayName
   nameWithType: ArchiveRowTypeInfo.DisplayName
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DisplayName
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DisplayTooltip*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DisplayTooltip
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveRowTypeInfo_DisplayTooltip
   name: DisplayTooltip
   nameWithType: ArchiveRowTypeInfo.DisplayTooltip
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DisplayTooltip
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Name*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Name
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveRowTypeInfo_Name
   name: Name
   nameWithType: ArchiveRowTypeInfo.Name
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.Name
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.IsOptional*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.IsOptional
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveRowTypeInfo_IsOptional
   name: IsOptional
   nameWithType: ArchiveRowTypeInfo.IsOptional
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.IsOptional
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DefaultShow*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DefaultShow
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.html#SuperOffice_CRM_ArchiveLists_ArchiveRowTypeInfo_DefaultShow
   name: DefaultShow
   nameWithType: ArchiveRowTypeInfo.DefaultShow
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo.DefaultShow

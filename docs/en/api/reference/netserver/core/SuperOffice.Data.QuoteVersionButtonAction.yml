@@ -17,41 +17,67 @@ items:
   - SuperOffice.Data.QuoteVersionButtonAction.ValidateVersion
   - SuperOffice.Data.QuoteVersionButtonAction.ValidateVersionAndPlaceOrderIfPossible
   - SuperOffice.Data.QuoteVersionButtonAction.ValidateVersionAndSendIfPossible
+  - SuperOffice.Data.QuoteVersionButtonAction.value__
   langs:
   - csharp
   - vb
   name: QuoteVersionButtonAction
   nameWithType: QuoteVersionButtonAction
   fullName: SuperOffice.Data.QuoteVersionButtonAction
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: Possible actions for QuoteVersionButton states.
-  example: []
+  summary: "\nPossible actions for QuoteVersionButton states.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum QuoteVersionButtonAction
+    content: 'public sealed class QuoteVersionButtonAction : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class QuoteVersionButtonAction
+          Inherits
 
-      Public Enum QuoteVersionButtonAction
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.QuoteVersionButtonAction.EnumUtil.MapEnums``2
   - SuperOffice.Data.QuoteVersionButtonAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.QuoteVersionButtonAction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.QuoteVersionButtonAction)
-  - SuperOffice.Data.QuoteVersionButtonAction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.QuoteVersionButtonAction.value__
+  commentId: F:SuperOffice.Data.QuoteVersionButtonAction.value__
+  id: value__
+  parent: SuperOffice.Data.QuoteVersionButtonAction
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: QuoteVersionButtonAction.value__
+  fullName: SuperOffice.Data.QuoteVersionButtonAction.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.QuoteVersionButtonAction.None
   commentId: F:SuperOffice.Data.QuoteVersionButtonAction.None
   id: None
@@ -63,26 +89,24 @@ items:
   nameWithType: QuoteVersionButtonAction.None
   fullName: SuperOffice.Data.QuoteVersionButtonAction.None
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: No action'
-  example: []
+  summary: "\n0: No action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const QuoteVersionButtonAction None
     return:
       type: SuperOffice.Data.QuoteVersionButtonAction
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As QuoteVersionButtonAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.QuoteVersionButtonAction.ValidateVersion
   commentId: F:SuperOffice.Data.QuoteVersionButtonAction.ValidateVersion
   id: ValidateVersion
@@ -94,26 +118,24 @@ items:
   nameWithType: QuoteVersionButtonAction.ValidateVersion
   fullName: SuperOffice.Data.QuoteVersionButtonAction.ValidateVersion
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Validate the quote version.'
-  example: []
+  summary: "\n1: Validate the quote version.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ValidateVersion = 1
+    content: public const QuoteVersionButtonAction ValidateVersion
     return:
       type: SuperOffice.Data.QuoteVersionButtonAction
-    content.vb: >-
-      <EnumMember>
-
-      ValidateVersion = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ValidateVersion As QuoteVersionButtonAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.QuoteVersionButtonAction.Edit
   commentId: F:SuperOffice.Data.QuoteVersionButtonAction.Edit
   id: Edit
@@ -125,26 +147,24 @@ items:
   nameWithType: QuoteVersionButtonAction.Edit
   fullName: SuperOffice.Data.QuoteVersionButtonAction.Edit
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: Edit the quote version.'
-  example: []
+  summary: "\n2: Edit the quote version.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Edit = 2
+    content: public const QuoteVersionButtonAction Edit
     return:
       type: SuperOffice.Data.QuoteVersionButtonAction
-    content.vb: >-
-      <EnumMember>
-
-      Edit = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Edit As QuoteVersionButtonAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.QuoteVersionButtonAction.Send
   commentId: F:SuperOffice.Data.QuoteVersionButtonAction.Send
   id: Send
@@ -156,26 +176,24 @@ items:
   nameWithType: QuoteVersionButtonAction.Send
   fullName: SuperOffice.Data.QuoteVersionButtonAction.Send
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '3: Send the quote version.'
-  example: []
+  summary: "\n3: Send the quote version.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Send = 3
+    content: public const QuoteVersionButtonAction Send
     return:
       type: SuperOffice.Data.QuoteVersionButtonAction
-    content.vb: >-
-      <EnumMember>
-
-      Send = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Send As QuoteVersionButtonAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.QuoteVersionButtonAction.Approve
   commentId: F:SuperOffice.Data.QuoteVersionButtonAction.Approve
   id: Approve
@@ -187,26 +205,24 @@ items:
   nameWithType: QuoteVersionButtonAction.Approve
   fullName: SuperOffice.Data.QuoteVersionButtonAction.Approve
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '4: Approve the quote version.'
-  example: []
+  summary: "\n4: Approve the quote version.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Approve = 4
+    content: public const QuoteVersionButtonAction Approve
     return:
       type: SuperOffice.Data.QuoteVersionButtonAction
-    content.vb: >-
-      <EnumMember>
-
-      Approve = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Approve As QuoteVersionButtonAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.QuoteVersionButtonAction.Reject
   commentId: F:SuperOffice.Data.QuoteVersionButtonAction.Reject
   id: Reject
@@ -218,26 +234,24 @@ items:
   nameWithType: QuoteVersionButtonAction.Reject
   fullName: SuperOffice.Data.QuoteVersionButtonAction.Reject
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '5: Reject the quote version.'
-  example: []
+  summary: "\n5: Reject the quote version.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Reject = 5
+    content: public const QuoteVersionButtonAction Reject
     return:
       type: SuperOffice.Data.QuoteVersionButtonAction
-    content.vb: >-
-      <EnumMember>
-
-      Reject = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Reject As QuoteVersionButtonAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.QuoteVersionButtonAction.ValidateVersionAndSendIfPossible
   commentId: F:SuperOffice.Data.QuoteVersionButtonAction.ValidateVersionAndSendIfPossible
   id: ValidateVersionAndSendIfPossible
@@ -249,26 +263,24 @@ items:
   nameWithType: QuoteVersionButtonAction.ValidateVersionAndSendIfPossible
   fullName: SuperOffice.Data.QuoteVersionButtonAction.ValidateVersionAndSendIfPossible
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '7: Validate the quote version and send if possible.'
-  example: []
+  summary: "\n7: Validate the quote version and send if possible.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ValidateVersionAndSendIfPossible = 7
+    content: public const QuoteVersionButtonAction ValidateVersionAndSendIfPossible
     return:
       type: SuperOffice.Data.QuoteVersionButtonAction
-    content.vb: >-
-      <EnumMember>
-
-      ValidateVersionAndSendIfPossible = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ValidateVersionAndSendIfPossible As QuoteVersionButtonAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.QuoteVersionButtonAction.ValidateVersionAndPlaceOrderIfPossible
   commentId: F:SuperOffice.Data.QuoteVersionButtonAction.ValidateVersionAndPlaceOrderIfPossible
   id: ValidateVersionAndPlaceOrderIfPossible
@@ -280,26 +292,24 @@ items:
   nameWithType: QuoteVersionButtonAction.ValidateVersionAndPlaceOrderIfPossible
   fullName: SuperOffice.Data.QuoteVersionButtonAction.ValidateVersionAndPlaceOrderIfPossible
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '8: Validate the quote version and place the order if possible.'
-  example: []
+  summary: "\n8: Validate the quote version and place the order if possible.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ValidateVersionAndPlaceOrderIfPossible = 8
+    content: public const QuoteVersionButtonAction ValidateVersionAndPlaceOrderIfPossible
     return:
       type: SuperOffice.Data.QuoteVersionButtonAction
-    content.vb: >-
-      <EnumMember>
-
-      ValidateVersionAndPlaceOrderIfPossible = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ValidateVersionAndPlaceOrderIfPossible As QuoteVersionButtonAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.QuoteVersionButtonAction.CloneVersion
   commentId: F:SuperOffice.Data.QuoteVersionButtonAction.CloneVersion
   id: CloneVersion
@@ -311,26 +321,24 @@ items:
   nameWithType: QuoteVersionButtonAction.CloneVersion
   fullName: SuperOffice.Data.QuoteVersionButtonAction.CloneVersion
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '9: Make a copy of the quote version.'
-  example: []
+  summary: "\n9: Make a copy of the quote version.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      CloneVersion = 9
+    content: public const QuoteVersionButtonAction CloneVersion
     return:
       type: SuperOffice.Data.QuoteVersionButtonAction
-    content.vb: >-
-      <EnumMember>
-
-      CloneVersion = 9
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const CloneVersion As QuoteVersionButtonAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.QuoteVersionButtonAction.SendConfirmation
   commentId: F:SuperOffice.Data.QuoteVersionButtonAction.SendConfirmation
   id: SendConfirmation
@@ -342,26 +350,24 @@ items:
   nameWithType: QuoteVersionButtonAction.SendConfirmation
   fullName: SuperOffice.Data.QuoteVersionButtonAction.SendConfirmation
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10: Send confirmation.'
-  example: []
+  summary: "\n10: Send confirmation.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SendConfirmation = 10
+    content: public const QuoteVersionButtonAction SendConfirmation
     return:
       type: SuperOffice.Data.QuoteVersionButtonAction
-    content.vb: >-
-      <EnumMember>
-
-      SendConfirmation = 10
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SendConfirmation As QuoteVersionButtonAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.QuoteVersionButtonAction.GetOrderState
   commentId: F:SuperOffice.Data.QuoteVersionButtonAction.GetOrderState
   id: GetOrderState
@@ -373,26 +379,24 @@ items:
   nameWithType: QuoteVersionButtonAction.GetOrderState
   fullName: SuperOffice.Data.QuoteVersionButtonAction.GetOrderState
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '11: Fetch updated values from the ERP system and show the results in the dialog.'
-  example: []
+  summary: "\n11: Fetch updated values from the ERP system and show the results in the dialog.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      GetOrderState = 11
+    content: public const QuoteVersionButtonAction GetOrderState
     return:
       type: SuperOffice.Data.QuoteVersionButtonAction
-    content.vb: >-
-      <EnumMember>
-
-      GetOrderState = 11
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const GetOrderState As QuoteVersionButtonAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.QuoteVersionButtonAction.UpdatePrices
   commentId: F:SuperOffice.Data.QuoteVersionButtonAction.UpdatePrices
   id: UpdatePrices
@@ -404,300 +408,115 @@ items:
   nameWithType: QuoteVersionButtonAction.UpdatePrices
   fullName: SuperOffice.Data.QuoteVersionButtonAction.UpdatePrices
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '12: Ask the quote connector to update the prices for the entire version.'
-  example: []
+  summary: "\n12: Ask the quote connector to update the prices for the entire version.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UpdatePrices = 12
+    content: public const QuoteVersionButtonAction UpdatePrices
     return:
       type: SuperOffice.Data.QuoteVersionButtonAction
-    content.vb: >-
-      <EnumMember>
-
-      UpdatePrices = 12
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UpdatePrices As QuoteVersionButtonAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.QuoteVersionButtonAction.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<QuoteVersionButtonAction, To>(QuoteVersionButtonAction)
-  nameWithType: EnumUtil.MapEnums<QuoteVersionButtonAction, To>(QuoteVersionButtonAction)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.QuoteVersionButtonAction, To>(SuperOffice.Data.QuoteVersionButtonAction)
-  nameWithType.vb: EnumUtil.MapEnums(Of QuoteVersionButtonAction, To)(QuoteVersionButtonAction)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.QuoteVersionButtonAction, To)(SuperOffice.Data.QuoteVersionButtonAction)
-  name.vb: MapEnums(Of QuoteVersionButtonAction, To)(QuoteVersionButtonAction)
+  name: MapEnums<QuoteVersionButtonAction, To>()
+  nameWithType: EnumUtil.MapEnums<QuoteVersionButtonAction, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.QuoteVersionButtonAction, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of QuoteVersionButtonAction, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.QuoteVersionButtonAction, To)()
+  name.vb: MapEnums(Of QuoteVersionButtonAction, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.QuoteVersionButtonAction)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<QuoteVersionButtonAction, To>
+    nameWithType: EnumUtil.MapEnums<QuoteVersionButtonAction, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.QuoteVersionButtonAction, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.QuoteVersionButtonAction
-    name: QuoteVersionButtonAction
-    isExternal: true
-    href: SuperOffice.Data.QuoteVersionButtonAction.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.QuoteVersionButtonAction
-    name: QuoteVersionButtonAction
-    isExternal: true
-    href: SuperOffice.Data.QuoteVersionButtonAction.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.QuoteVersionButtonAction)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of QuoteVersionButtonAction, To)
+    nameWithType: EnumUtil.MapEnums(Of QuoteVersionButtonAction, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.QuoteVersionButtonAction, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.QuoteVersionButtonAction
-    name: QuoteVersionButtonAction
-    isExternal: true
-    href: SuperOffice.Data.QuoteVersionButtonAction.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.QuoteVersionButtonAction
-    name: QuoteVersionButtonAction
-    isExternal: true
-    href: SuperOffice.Data.QuoteVersionButtonAction.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.QuoteVersionButtonAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<QuoteVersionButtonAction, To>(QuoteVersionButtonAction)
-  nameWithType: Converters.MapEnums<QuoteVersionButtonAction, To>(QuoteVersionButtonAction)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.QuoteVersionButtonAction, To>(SuperOffice.Data.QuoteVersionButtonAction)
-  nameWithType.vb: Converters.MapEnums(Of QuoteVersionButtonAction, To)(QuoteVersionButtonAction)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.QuoteVersionButtonAction, To)(SuperOffice.Data.QuoteVersionButtonAction)
-  name.vb: MapEnums(Of QuoteVersionButtonAction, To)(QuoteVersionButtonAction)
+  name: MapEnums<QuoteVersionButtonAction, To>()
+  nameWithType: Converters.MapEnums<QuoteVersionButtonAction, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.QuoteVersionButtonAction, To>()
+  nameWithType.vb: Converters.MapEnums(Of QuoteVersionButtonAction, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.QuoteVersionButtonAction, To)()
+  name.vb: MapEnums(Of QuoteVersionButtonAction, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.QuoteVersionButtonAction)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<QuoteVersionButtonAction, To>
+    nameWithType: Converters.MapEnums<QuoteVersionButtonAction, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.QuoteVersionButtonAction, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.QuoteVersionButtonAction
-    name: QuoteVersionButtonAction
-    isExternal: true
-    href: SuperOffice.Data.QuoteVersionButtonAction.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.QuoteVersionButtonAction
-    name: QuoteVersionButtonAction
-    isExternal: true
-    href: SuperOffice.Data.QuoteVersionButtonAction.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.QuoteVersionButtonAction)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of QuoteVersionButtonAction, To)
+    nameWithType: Converters.MapEnums(Of QuoteVersionButtonAction, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.QuoteVersionButtonAction, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.QuoteVersionButtonAction
-    name: QuoteVersionButtonAction
-    isExternal: true
-    href: SuperOffice.Data.QuoteVersionButtonAction.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.QuoteVersionButtonAction
-    name: QuoteVersionButtonAction
-    isExternal: true
-    href: SuperOffice.Data.QuoteVersionButtonAction.html
-  - name: )
-- uid: SuperOffice.Data.QuoteVersionButtonAction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.QuoteVersionButtonAction)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<QuoteVersionButtonAction>(QuoteVersionButtonAction, QuoteVersionButtonAction)
-  nameWithType: ObjectExtensions.AssignByReflection<QuoteVersionButtonAction>(QuoteVersionButtonAction, QuoteVersionButtonAction)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.QuoteVersionButtonAction>(SuperOffice.Data.QuoteVersionButtonAction, SuperOffice.Data.QuoteVersionButtonAction)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of QuoteVersionButtonAction)(QuoteVersionButtonAction, QuoteVersionButtonAction)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.QuoteVersionButtonAction)(SuperOffice.Data.QuoteVersionButtonAction, SuperOffice.Data.QuoteVersionButtonAction)
-  name.vb: AssignByReflection(Of QuoteVersionButtonAction)(QuoteVersionButtonAction, QuoteVersionButtonAction)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.QuoteVersionButtonAction,SuperOffice.Data.QuoteVersionButtonAction)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.QuoteVersionButtonAction
-    name: QuoteVersionButtonAction
-    isExternal: true
-    href: SuperOffice.Data.QuoteVersionButtonAction.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.QuoteVersionButtonAction
-    name: QuoteVersionButtonAction
-    isExternal: true
-    href: SuperOffice.Data.QuoteVersionButtonAction.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.QuoteVersionButtonAction
-    name: QuoteVersionButtonAction
-    isExternal: true
-    href: SuperOffice.Data.QuoteVersionButtonAction.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.QuoteVersionButtonAction,SuperOffice.Data.QuoteVersionButtonAction)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.QuoteVersionButtonAction
-    name: QuoteVersionButtonAction
-    isExternal: true
-    href: SuperOffice.Data.QuoteVersionButtonAction.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.QuoteVersionButtonAction
-    name: QuoteVersionButtonAction
-    isExternal: true
-    href: SuperOffice.Data.QuoteVersionButtonAction.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.QuoteVersionButtonAction
-    name: QuoteVersionButtonAction
-    isExternal: true
-    href: SuperOffice.Data.QuoteVersionButtonAction.html
-  - name: )
-- uid: SuperOffice.Data.QuoteVersionButtonAction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<QuoteVersionButtonAction>(QuoteVersionButtonAction)
-  nameWithType: ObjectExtensions.GraphCopy<QuoteVersionButtonAction>(QuoteVersionButtonAction)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.QuoteVersionButtonAction>(SuperOffice.Data.QuoteVersionButtonAction)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of QuoteVersionButtonAction)(QuoteVersionButtonAction)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.QuoteVersionButtonAction)(SuperOffice.Data.QuoteVersionButtonAction)
-  name.vb: GraphCopy(Of QuoteVersionButtonAction)(QuoteVersionButtonAction)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.QuoteVersionButtonAction)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.QuoteVersionButtonAction
-    name: QuoteVersionButtonAction
-    isExternal: true
-    href: SuperOffice.Data.QuoteVersionButtonAction.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.QuoteVersionButtonAction
-    name: QuoteVersionButtonAction
-    isExternal: true
-    href: SuperOffice.Data.QuoteVersionButtonAction.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.QuoteVersionButtonAction)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.QuoteVersionButtonAction
-    name: QuoteVersionButtonAction
-    isExternal: true
-    href: SuperOffice.Data.QuoteVersionButtonAction.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.QuoteVersionButtonAction
-    name: QuoteVersionButtonAction
-    isExternal: true
-    href: SuperOffice.Data.QuoteVersionButtonAction.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -706,45 +525,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -753,222 +570,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.QuoteVersionButtonAction
   commentId: T:SuperOffice.Data.QuoteVersionButtonAction
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.QuoteVersionButtonAction.html
   name: QuoteVersionButtonAction
   nameWithType: QuoteVersionButtonAction
   fullName: SuperOffice.Data.QuoteVersionButtonAction

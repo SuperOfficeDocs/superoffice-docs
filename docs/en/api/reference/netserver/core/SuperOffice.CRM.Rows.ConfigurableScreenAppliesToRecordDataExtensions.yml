@@ -17,27 +17,27 @@ items:
   nameWithType: ConfigurableScreenAppliesToRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    Extension methods to make it easy to fetch <xref href="SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData" data-throw-if-not-resolved="false"></xref> objects from the database,
-
-    using the TargetedSelect infrastructure
-  example: []
+  summary: "\nExtension methods to make it easy to fetch <xref href=\"SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData\" data-throw-if-not-resolved=\"false\"></xref> objects from the database,\nusing the <see cref=\"!:TargetedSelect\"></see> infrastructure\n"
   syntax:
-    content: public static class ConfigurableScreenAppliesToRecordDataExtensions
-    content.vb: Public Module ConfigurableScreenAppliesToRecordDataExtensions
+    content: 'public static class ConfigurableScreenAppliesToRecordDataExtensions : Object'
+    content.vb: >-
+      Public Module ConfigurableScreenAppliesToRecordDataExtensions
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo})
   commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo})
   id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo})
@@ -50,15 +50,17 @@ items:
   nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.FromSelect(TargetedSelect<ConfigurableScreenAppliesToTableInfo>)
   fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo>)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: From a TargetedSelect&lt;ConfigurableScreenAppliesToTableInfo&gt;, execute it and return an IEnumerable&lt;ConfigurableScreenAppliesToRecordData&gt; with the results
+  summary: "\nFrom a TargetedSelect&lt;ConfigurableScreenAppliesToTableInfo>, execute it and return an IEnumerable&lt;ConfigurableScreenAppliesToRecordData> with the results\n"
   example:
   - >-
-    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
-
-    var result = s.FromSelect();</code></pre>
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                var result = s.FromSelect();</code></pre>
   syntax:
     content: public static IEnumerable<ConfigurableScreenAppliesToRecordData> FromSelect(this TargetedSelect<ConfigurableScreenAppliesToTableInfo> select)
     parameters:
@@ -66,9 +68,18 @@ items:
       type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo}
     return:
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData}
-    content.vb: Public Shared Function FromSelect([select] As TargetedSelect(Of ConfigurableScreenAppliesToTableInfo)) As IEnumerable(Of ConfigurableScreenAppliesToRecordData)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromSelect(select As TargetedSelect(Of ConfigurableScreenAppliesToTableInfo)) As IEnumerable(Of ConfigurableScreenAppliesToRecordData)
   overload: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect*
   nameWithType.vb: ConfigurableScreenAppliesToRecordDataExtensions.FromSelect(TargetedSelect(Of ConfigurableScreenAppliesToTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
   fullName.vb: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo))
   name.vb: FromSelect(TargetedSelect(Of ConfigurableScreenAppliesToTableInfo))
 - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo})
@@ -83,19 +94,19 @@ items:
   nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.FromRecord(TargetedDataRecord<ConfigurableScreenAppliesToTableInfo>)
   fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo>)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: From a TargetedDataRecord&lt;ConfigurableScreenAppliesToTableInfo&gt;, create and populate a <xref href="SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData" data-throw-if-not-resolved="false"></xref> POCO object
+  summary: "\nFrom a TargetedDataRecord&lt;ConfigurableScreenAppliesToTableInfo>, create and populate a <xref href=\"SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData\" data-throw-if-not-resolved=\"false\"></xref> POCO object\n"
   example:
   - >-
-    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
-
-    /* add joins, return fields etc. as you wish */
-
-    s.ReturnFields.Add(s.Table.All);
-
-    var result = s.Records().Select(r =&gt; new { ConfigurableScreenAppliesToItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
+    <pre><code>            var s = S.NewSelect&lt;DataRightTableInfo>( /* add meaningful restrictions here, or later */ );
+                /* add joins, return fields etc. as you wish */
+                s.ReturnFields.Add(s.Table.All);
+                var result = s.Records().Select(r => new { ConfigurableScreenAppliesToItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
   syntax:
     content: public static ConfigurableScreenAppliesToRecordData FromRecord(this TargetedDataRecord<ConfigurableScreenAppliesToTableInfo> record)
     parameters:
@@ -103,9 +114,18 @@ items:
       type: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo}
     return:
       type: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
-    content.vb: Public Shared Function FromRecord(record As TargetedDataRecord(Of ConfigurableScreenAppliesToTableInfo)) As ConfigurableScreenAppliesToRecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromRecord(record As TargetedDataRecord(Of ConfigurableScreenAppliesToTableInfo)) As ConfigurableScreenAppliesToRecordData
   overload: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromRecord*
   nameWithType.vb: ConfigurableScreenAppliesToRecordDataExtensions.FromRecord(TargetedDataRecord(Of ConfigurableScreenAppliesToTableInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
   fullName.vb: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo))
   name.vb: FromRecord(TargetedDataRecord(Of ConfigurableScreenAppliesToTableInfo))
 - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
@@ -120,6 +140,9 @@ items:
   nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(ConfigurableScreenAppliesToRecordData)
   fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
@@ -130,8 +153,17 @@ items:
       type: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
     return:
       type: SuperOffice.Data.SQL.Insert
-    content.vb: Public Shared Function ToInsert(record As ConfigurableScreenAppliesToRecordData) As Insert
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInsert(record As ConfigurableScreenAppliesToRecordData) As Insert
   overload: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData})
   commentId: M:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData})
   id: ToInserts(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData})
@@ -144,6 +176,9 @@ items:
   nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInserts(IEnumerable<ConfigurableScreenAppliesToRecordData>)
   fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData>)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
@@ -154,9 +189,18 @@ items:
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData}
     return:
       type: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-    content.vb: Public Shared Function ToInserts(records As IEnumerable(Of ConfigurableScreenAppliesToRecordData)) As IEnumerable(Of Insert)
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInserts(records As IEnumerable(Of ConfigurableScreenAppliesToRecordData)) As IEnumerable(Of Insert)
   overload: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInserts*
   nameWithType.vb: ConfigurableScreenAppliesToRecordDataExtensions.ToInserts(IEnumerable(Of ConfigurableScreenAppliesToRecordData))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
   fullName.vb: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInserts(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData))
   name.vb: ToInserts(IEnumerable(Of ConfigurableScreenAppliesToRecordData))
 - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRow)
@@ -171,6 +215,9 @@ items:
   nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToRecordData(ConfigurableScreenAppliesToRow)
   fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRow)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
@@ -181,295 +228,40 @@ items:
       type: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRow
     return:
       type: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
-    content.vb: Public Shared Function ToRecordData(row As ConfigurableScreenAppliesToRow) As ConfigurableScreenAppliesToRecordData
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToRecordData(row As ConfigurableScreenAppliesToRow) As ConfigurableScreenAppliesToRecordData
   overload: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToRecordData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
-- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
-  commentId: T:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.html
-  name: ConfigurableScreenAppliesToRecordData
-  nameWithType: ConfigurableScreenAppliesToRecordData
-  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect*
   commentId: Overload:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect
   isExternal: true
-  href: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.html#SuperOffice_CRM_Rows_ConfigurableScreenAppliesToRecordDataExtensions_FromSelect_SuperOffice_Data_SQL_TargetedSelect_SuperOffice_CRM_Data_ConfigurableScreenAppliesToTableInfo__
   name: FromSelect
   nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.FromSelect
   fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromSelect
@@ -477,7 +269,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedSelect`1
-  href: SuperOffice.Data.SQL.TargetedSelect-1.html
   name: TargetedSelect<ConfigurableScreenAppliesToTableInfo>
   nameWithType: TargetedSelect<ConfigurableScreenAppliesToTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo>
@@ -487,32 +278,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedSelect-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo
     name: ConfigurableScreenAppliesToTableInfo
+    nameWithType: ConfigurableScreenAppliesToTableInfo
+    fullName: SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedSelect-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo
     name: ConfigurableScreenAppliesToTableInfo
+    nameWithType: ConfigurableScreenAppliesToTableInfo
+    fullName: SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<ConfigurableScreenAppliesToRecordData>
   nameWithType: IEnumerable<ConfigurableScreenAppliesToRecordData>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData>
@@ -522,32 +321,41 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
     name: ConfigurableScreenAppliesToRecordData
+    nameWithType: ConfigurableScreenAppliesToRecordData
+    fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
     name: ConfigurableScreenAppliesToRecordData
+    nameWithType: ConfigurableScreenAppliesToRecordData
+    fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedSelect`1
   commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.TargetedSelect-1.html
   name: TargetedSelect<MainTableInfo>
   nameWithType: TargetedSelect<MainTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
@@ -557,127 +365,80 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedSelect-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedSelect`1
     name: TargetedSelect
+    nameWithType: TargetedSelect
+    fullName: SuperOffice.Data.SQL.TargetedSelect
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedSelect-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromRecord*
   commentId: Overload:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromRecord
   isExternal: true
-  href: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.html#SuperOffice_CRM_Rows_ConfigurableScreenAppliesToRecordDataExtensions_FromRecord_SuperOffice_Data_SQL_TargetedDataRecord_SuperOffice_CRM_Data_ConfigurableScreenAppliesToTableInfo__
   name: FromRecord
   nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.FromRecord
   fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.FromRecord
@@ -685,7 +446,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedDataRecord`1
-  href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   name: TargetedDataRecord<ConfigurableScreenAppliesToTableInfo>
   nameWithType: TargetedDataRecord<ConfigurableScreenAppliesToTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo>
@@ -695,31 +455,47 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo
     name: ConfigurableScreenAppliesToTableInfo
+    nameWithType: ConfigurableScreenAppliesToTableInfo
+    fullName: SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo
     name: ConfigurableScreenAppliesToTableInfo
+    nameWithType: ConfigurableScreenAppliesToTableInfo
+    fullName: SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.ConfigurableScreenAppliesToTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+  commentId: T:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ConfigurableScreenAppliesToRecordData
+  nameWithType: ConfigurableScreenAppliesToRecordData
+  fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordData
 - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
   commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
   isExternal: true
-  href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   name: TargetedDataRecord<MainTableInfo>
   nameWithType: TargetedDataRecord<MainTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
@@ -729,25 +505,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
     name: TargetedDataRecord
+    nameWithType: TargetedDataRecord
+    fullName: SuperOffice.Data.SQL.TargetedDataRecord
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: MainTableInfo
+    nameWithType: MainTableInfo
+    fullName: MainTableInfo
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert*
   commentId: Overload:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
   isExternal: true
-  href: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.html#SuperOffice_CRM_Rows_ConfigurableScreenAppliesToRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_ConfigurableScreenAppliesToRecordData_
   name: ToInsert
   nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
   fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInsert
@@ -755,22 +542,18 @@ references:
   commentId: T:SuperOffice.Data.SQL.Insert
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Insert.html
   name: Insert
   nameWithType: Insert
   fullName: SuperOffice.Data.SQL.Insert
 - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInserts*
   commentId: Overload:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInserts
   isExternal: true
-  href: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.html#SuperOffice_CRM_Rows_ConfigurableScreenAppliesToRecordDataExtensions_ToInserts_System_Collections_Generic_IEnumerable_SuperOffice_CRM_Rows_ConfigurableScreenAppliesToRecordData__
   name: ToInserts
   nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToInserts
   fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToInserts
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Insert}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<Insert>
   nameWithType: IEnumerable<Insert>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Insert>
@@ -780,31 +563,40 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.Data.SQL.Insert
     name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
-    href: SuperOffice.Data.SQL.Insert.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.Data.SQL.Insert
     name: Insert
+    nameWithType: Insert
+    fullName: SuperOffice.Data.SQL.Insert
     isExternal: true
-    href: SuperOffice.Data.SQL.Insert.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToRecordData*
   commentId: Overload:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToRecordData
   isExternal: true
-  href: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.html#SuperOffice_CRM_Rows_ConfigurableScreenAppliesToRecordDataExtensions_ToRecordData_SuperOffice_CRM_Rows_ConfigurableScreenAppliesToRow_
   name: ToRecordData
   nameWithType: ConfigurableScreenAppliesToRecordDataExtensions.ToRecordData
   fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRecordDataExtensions.ToRecordData
@@ -812,7 +604,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRow.html
   name: ConfigurableScreenAppliesToRow
   nameWithType: ConfigurableScreenAppliesToRow
   fullName: SuperOffice.CRM.Rows.ConfigurableScreenAppliesToRow

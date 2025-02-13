@@ -11,9 +11,9 @@ items:
   - SuperOffice.CRM.Services.CurrencyEntity.Name
   - SuperOffice.CRM.Services.CurrencyEntity.Rank
   - SuperOffice.CRM.Services.CurrencyEntity.Rate
+  - SuperOffice.CRM.Services.CurrencyEntity.Tooltip
   - SuperOffice.CRM.Services.CurrencyEntity.ToString
   - SuperOffice.CRM.Services.CurrencyEntity.ToString(System.String)
-  - SuperOffice.CRM.Services.CurrencyEntity.Tooltip
   - SuperOffice.CRM.Services.CurrencyEntity.Units
   langs:
   - csharp
@@ -22,37 +22,20 @@ items:
   nameWithType: CurrencyEntity
   fullName: SuperOffice.CRM.Services.CurrencyEntity
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Carrier object for CurrencyEntity.
-
-    Services for the CurrencyEntity Carrier is available from the <xref href="SuperOffice.CRM.Services.IListAgent?text=List+Agent" data-throw-if-not-resolved="false"></xref>.
+  summary: "\nCarrier object for CurrencyEntity.\nServices for the CurrencyEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IListAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example:
-  - >-
-    Get CurrencyEntity 123 using the agent:
-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       var agent = new ListAgent();
-       var currencyEntity = agent.GetCurrencyEntity( 123 );
-    }</code></pre>
+  - "\nGet CurrencyEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ListAgent();\n    var currencyEntity = agent.GetCurrencyEntity( 123 );\n }</code></pre>\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class CurrencyEntity : Carrier
+    content: 'public class CurrencyEntity : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class CurrencyEntity Inherits Carrier
+      Public Class CurrencyEntity
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent
     commentId: T:SuperOffice.CRM.Services.ListAgent
@@ -60,14 +43,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IListAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.CurrencyEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.CurrencyEntity.#ctor
   id: '#ctor'
@@ -79,18 +60,21 @@ items:
   nameWithType: CurrencyEntity.CurrencyEntity()
   fullName: SuperOffice.CRM.Services.CurrencyEntity.CurrencyEntity()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public CurrencyEntity()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.CurrencyEntity.#ctor*
-  nameWithType.vb: CurrencyEntity.New()
-  fullName.vb: SuperOffice.CRM.Services.CurrencyEntity.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.CurrencyEntity.ToString
   commentId: M:SuperOffice.CRM.Services.CurrencyEntity.ToString
   id: ToString
@@ -102,18 +86,26 @@ items:
   nameWithType: CurrencyEntity.ToString()
   fullName: SuperOffice.CRM.Services.CurrencyEntity.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.CurrencyEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.CurrencyEntity.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.CurrencyEntity.ToString(System.String)
   id: ToString(System.String)
@@ -121,18 +113,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: CurrencyEntity.ToString(string)
-  fullName: SuperOffice.CRM.Services.CurrencyEntity.ToString(string)
+  name: ToString(String)
+  nameWithType: CurrencyEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.CurrencyEntity.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -144,9 +135,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.CurrencyEntity.ToString*
-  nameWithType.vb: CurrencyEntity.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.CurrencyEntity.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.CurrencyEntity.CurrencyId
   commentId: P:SuperOffice.CRM.Services.CurrencyEntity.CurrencyId
   id: CurrencyId
@@ -158,28 +150,28 @@ items:
   nameWithType: CurrencyEntity.CurrencyId
   fullName: SuperOffice.CRM.Services.CurrencyEntity.CurrencyId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int CurrencyId { get; set; }
+    content: public virtual int CurrencyId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CurrencyId As Integer
+    content.vb: Public Overridable Property CurrencyId As Integer
   overload: SuperOffice.CRM.Services.CurrencyEntity.CurrencyId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.CurrencyEntity.Name
   commentId: P:SuperOffice.CRM.Services.CurrencyEntity.Name
   id: Name
@@ -191,28 +183,28 @@ items:
   nameWithType: CurrencyEntity.Name
   fullName: SuperOffice.CRM.Services.CurrencyEntity.Name
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The list item
-  example: []
+  summary: "\nThe list item \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Name { get; set; }
+    content: public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Name As String
+    content.vb: Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.CurrencyEntity.Name*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.CurrencyEntity.Tooltip
   commentId: P:SuperOffice.CRM.Services.CurrencyEntity.Tooltip
   id: Tooltip
@@ -224,28 +216,28 @@ items:
   nameWithType: CurrencyEntity.Tooltip
   fullName: SuperOffice.CRM.Services.CurrencyEntity.Tooltip
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Tooltip or other description
-  example: []
+  summary: "\nTooltip or other description \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Tooltip { get; set; }
+    content: public virtual string Tooltip { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Tooltip As String
+    content.vb: Public Overridable Property Tooltip As String
   overload: SuperOffice.CRM.Services.CurrencyEntity.Tooltip*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.CurrencyEntity.Rank
   commentId: P:SuperOffice.CRM.Services.CurrencyEntity.Rank
   id: Rank
@@ -257,28 +249,28 @@ items:
   nameWithType: CurrencyEntity.Rank
   fullName: SuperOffice.CRM.Services.CurrencyEntity.Rank
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Rank order
-  example: []
+  summary: "\nRank order \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual short Rank { get; set; }
+    content: public virtual short Rank { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Rank As Short
+    content.vb: Public Overridable Property Rank As Short
   overload: SuperOffice.CRM.Services.CurrencyEntity.Rank*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.CurrencyEntity.Rate
   commentId: P:SuperOffice.CRM.Services.CurrencyEntity.Rate
   id: Rate
@@ -290,28 +282,28 @@ items:
   nameWithType: CurrencyEntity.Rate
   fullName: SuperOffice.CRM.Services.CurrencyEntity.Rate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Exchange rate
-  example: []
+  summary: "\nExchange rate \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual double Rate { get; set; }
+    content: public virtual double Rate { get; set; }
     parameters: []
     return:
       type: System.Double
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Rate As Double
+    content.vb: Public Overridable Property Rate As Double
   overload: SuperOffice.CRM.Services.CurrencyEntity.Rate*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.CurrencyEntity.Units
   commentId: P:SuperOffice.CRM.Services.CurrencyEntity.Units
   id: Units
@@ -323,28 +315,28 @@ items:
   nameWithType: CurrencyEntity.Units
   fullName: SuperOffice.CRM.Services.CurrencyEntity.Units
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Exchange unit scale (0.01, 0.1, 1, 10, 100 etc)
-  example: []
+  summary: "\nExchange unit scale (0.01, 0.1, 1, 10, 100 etc) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual double Units { get; set; }
+    content: public virtual double Units { get; set; }
     parameters: []
     return:
       type: System.Double
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Units As Double
+    content.vb: Public Overridable Property Units As Double
   overload: SuperOffice.CRM.Services.CurrencyEntity.Units*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.CurrencyEntity.Deleted
   commentId: P:SuperOffice.CRM.Services.CurrencyEntity.Deleted
   id: Deleted
@@ -356,33 +348,38 @@ items:
   nameWithType: CurrencyEntity.Deleted
   fullName: SuperOffice.CRM.Services.CurrencyEntity.Deleted
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists
-  example: []
+  summary: "\n0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool Deleted { get; set; }
+    content: public virtual bool Deleted { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Deleted As Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
   overload: SuperOffice.CRM.Services.CurrencyEntity.Deleted*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.ListAgent
   commentId: T:SuperOffice.CRM.Services.ListAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.ListAgent.html
   name: ListAgent
   nameWithType: ListAgent
   fullName: SuperOffice.CRM.Services.ListAgent
@@ -390,79 +387,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IListAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IListAgent.html
   name: IListAgent
   nameWithType: IListAgent
   fullName: SuperOffice.CRM.Services.IListAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.CurrencyEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.CurrencyEntity.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.CurrencyEntity.html#SuperOffice_CRM_Services_CurrencyEntity__ctor
   name: CurrencyEntity
   nameWithType: CurrencyEntity.CurrencyEntity
   fullName: SuperOffice.CRM.Services.CurrencyEntity.CurrencyEntity
-  nameWithType.vb: CurrencyEntity.New
-  fullName.vb: SuperOffice.CRM.Services.CurrencyEntity.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.CurrencyEntity.ToString*
   commentId: Overload:SuperOffice.CRM.Services.CurrencyEntity.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.CurrencyEntity.html#SuperOffice_CRM_Services_CurrencyEntity_ToString
   name: ToString
   nameWithType: CurrencyEntity.ToString
   fullName: SuperOffice.CRM.Services.CurrencyEntity.ToString
@@ -470,17 +406,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.CurrencyEntity.CurrencyId*
   commentId: Overload:SuperOffice.CRM.Services.CurrencyEntity.CurrencyId
   isExternal: true
-  href: SuperOffice.CRM.Services.CurrencyEntity.html#SuperOffice_CRM_Services_CurrencyEntity_CurrencyId
   name: CurrencyId
   nameWithType: CurrencyEntity.CurrencyId
   fullName: SuperOffice.CRM.Services.CurrencyEntity.CurrencyId
@@ -488,31 +425,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.CurrencyEntity.Name*
   commentId: Overload:SuperOffice.CRM.Services.CurrencyEntity.Name
   isExternal: true
-  href: SuperOffice.CRM.Services.CurrencyEntity.html#SuperOffice_CRM_Services_CurrencyEntity_Name
   name: Name
   nameWithType: CurrencyEntity.Name
   fullName: SuperOffice.CRM.Services.CurrencyEntity.Name
 - uid: SuperOffice.CRM.Services.CurrencyEntity.Tooltip*
   commentId: Overload:SuperOffice.CRM.Services.CurrencyEntity.Tooltip
   isExternal: true
-  href: SuperOffice.CRM.Services.CurrencyEntity.html#SuperOffice_CRM_Services_CurrencyEntity_Tooltip
   name: Tooltip
   nameWithType: CurrencyEntity.Tooltip
   fullName: SuperOffice.CRM.Services.CurrencyEntity.Tooltip
 - uid: SuperOffice.CRM.Services.CurrencyEntity.Rank*
   commentId: Overload:SuperOffice.CRM.Services.CurrencyEntity.Rank
   isExternal: true
-  href: SuperOffice.CRM.Services.CurrencyEntity.html#SuperOffice_CRM_Services_CurrencyEntity_Rank
   name: Rank
   nameWithType: CurrencyEntity.Rank
   fullName: SuperOffice.CRM.Services.CurrencyEntity.Rank
@@ -520,17 +450,12 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Services.CurrencyEntity.Rate*
   commentId: Overload:SuperOffice.CRM.Services.CurrencyEntity.Rate
   isExternal: true
-  href: SuperOffice.CRM.Services.CurrencyEntity.html#SuperOffice_CRM_Services_CurrencyEntity_Rate
   name: Rate
   nameWithType: CurrencyEntity.Rate
   fullName: SuperOffice.CRM.Services.CurrencyEntity.Rate
@@ -538,24 +463,18 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.double
-  name: double
-  nameWithType: double
-  fullName: double
-  nameWithType.vb: Double
-  fullName.vb: Double
-  name.vb: Double
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
 - uid: SuperOffice.CRM.Services.CurrencyEntity.Units*
   commentId: Overload:SuperOffice.CRM.Services.CurrencyEntity.Units
   isExternal: true
-  href: SuperOffice.CRM.Services.CurrencyEntity.html#SuperOffice_CRM_Services_CurrencyEntity_Units
   name: Units
   nameWithType: CurrencyEntity.Units
   fullName: SuperOffice.CRM.Services.CurrencyEntity.Units
 - uid: SuperOffice.CRM.Services.CurrencyEntity.Deleted*
   commentId: Overload:SuperOffice.CRM.Services.CurrencyEntity.Deleted
   isExternal: true
-  href: SuperOffice.CRM.Services.CurrencyEntity.html#SuperOffice_CRM_Services_CurrencyEntity_Deleted
   name: Deleted
   nameWithType: CurrencyEntity.Deleted
   fullName: SuperOffice.CRM.Services.CurrencyEntity.Deleted
@@ -563,10 +482,6 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

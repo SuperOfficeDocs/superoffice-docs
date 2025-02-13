@@ -30,45 +30,32 @@ items:
   nameWithType: SoBackgroundWorker
   fullName: SuperOffice.Threading.SoBackgroundWorker
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
   syntax:
-    content: 'public class SoBackgroundWorker : Component, IComponent, IDisposable'
-    content.vb: Public Class SoBackgroundWorker Inherits Component Implements IComponent, IDisposable
+    content: 'public class SoBackgroundWorker : Component'
+    content.vb: >-
+      Public Class SoBackgroundWorker
+          Inherits Component
   inheritance:
   - System.Object
-  - System.MarshalByRefObject
-  - System.ComponentModel.Component
   derivedClasses:
   - SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
-  implements:
-  - System.ComponentModel.IComponent
-  - System.IDisposable
-  inheritedMembers:
-  - System.ComponentModel.Component.Dispose
-  - System.ComponentModel.Component.GetService(System.Type)
-  - System.ComponentModel.Component.ToString
-  - System.ComponentModel.Component.CanRaiseEvents
-  - System.ComponentModel.Component.Events
-  - System.ComponentModel.Component.Site
-  - System.ComponentModel.Component.Container
-  - System.ComponentModel.Component.DesignMode
-  - System.ComponentModel.Component.Disposed
-  - System.MarshalByRefObject.GetLifetimeService
-  - System.MarshalByRefObject.InitializeLifetimeService
-  - System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Threading.SoBackgroundWorker.EnumUtil.MapEnums``2
-  - SuperOffice.Threading.SoBackgroundWorker.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Threading.SoBackgroundWorker.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.SoBackgroundWorker)
   - SuperOffice.Threading.SoBackgroundWorker.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Threading.SoBackgroundWorker.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.Threading.SoBackgroundWorker.#ctor
   commentId: M:SuperOffice.Threading.SoBackgroundWorker.#ctor
   id: '#ctor'
@@ -80,18 +67,21 @@ items:
   nameWithType: SoBackgroundWorker.SoBackgroundWorker()
   fullName: SuperOffice.Threading.SoBackgroundWorker.SoBackgroundWorker()
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Initializes a new instance of the SuperOffice.Threading.SoBackgroundWorker class.
-  example: []
+  summary: "\nInitializes a new instance of the SuperOffice.Threading.SoBackgroundWorker class.\n"
   syntax:
     content: public SoBackgroundWorker()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.Threading.SoBackgroundWorker.#ctor*
-  nameWithType.vb: SoBackgroundWorker.New()
-  fullName.vb: SuperOffice.Threading.SoBackgroundWorker.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Threading.SoBackgroundWorker.CancelAsync
   commentId: M:SuperOffice.Threading.SoBackgroundWorker.CancelAsync
   id: CancelAsync
@@ -103,19 +93,25 @@ items:
   nameWithType: SoBackgroundWorker.CancelAsync()
   fullName: SuperOffice.Threading.SoBackgroundWorker.CancelAsync()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Requests cancellation of a pending background operation.
-  example: []
+  summary: "\nRequests cancellation of a pending background operation.\n"
   syntax:
     content: public void CancelAsync()
-    content.vb: Public Sub CancelAsync()
+    content.vb: Public Sub CancelAsync
   overload: SuperOffice.Threading.SoBackgroundWorker.CancelAsync*
   exceptions:
   - type: System.InvalidOperationException
     commentId: T:System.InvalidOperationException
-    description: SoBackgroundWorker.WorkerSupportsCancellation is false.
+    description: "\nSoBackgroundWorker.WorkerSupportsCancellation is false.\n"
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Threading.SoBackgroundWorker.ReportProgress(System.Int32)
   commentId: M:SuperOffice.Threading.SoBackgroundWorker.ReportProgress(System.Int32)
   id: ReportProgress(System.Int32)
@@ -123,15 +119,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ReportProgress(int)
-  nameWithType: SoBackgroundWorker.ReportProgress(int)
-  fullName: SuperOffice.Threading.SoBackgroundWorker.ReportProgress(int)
+  name: ReportProgress(Int32)
+  nameWithType: SoBackgroundWorker.ReportProgress(Int32)
+  fullName: SuperOffice.Threading.SoBackgroundWorker.ReportProgress(System.Int32)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Raises the System.ComponentModel.BackgroundWorker.ProgressChanged event.
-  example: []
+  summary: "\nRaises the System.ComponentModel.BackgroundWorker.ProgressChanged event.\n"
   syntax:
     content: public void ReportProgress(int percentProgress)
     parameters:
@@ -143,10 +141,11 @@ items:
   exceptions:
   - type: System.InvalidOperationException
     commentId: T:System.InvalidOperationException
-    description: The System.ComponentModel.BackgroundWorker.WorkerReportsProgress property is set to false.
-  nameWithType.vb: SoBackgroundWorker.ReportProgress(Integer)
-  fullName.vb: SuperOffice.Threading.SoBackgroundWorker.ReportProgress(Integer)
-  name.vb: ReportProgress(Integer)
+    description: "\nThe System.ComponentModel.BackgroundWorker.WorkerReportsProgress property is set to false.\n"
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Threading.SoBackgroundWorker.ReportProgress(System.Int32,System.Object)
   commentId: M:SuperOffice.Threading.SoBackgroundWorker.ReportProgress(System.Int32,System.Object)
   id: ReportProgress(System.Int32,System.Object)
@@ -154,15 +153,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ReportProgress(int, object)
-  nameWithType: SoBackgroundWorker.ReportProgress(int, object)
-  fullName: SuperOffice.Threading.SoBackgroundWorker.ReportProgress(int, object)
+  name: ReportProgress(Int32, Object)
+  nameWithType: SoBackgroundWorker.ReportProgress(Int32, Object)
+  fullName: SuperOffice.Threading.SoBackgroundWorker.ReportProgress(System.Int32, System.Object)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Raises the System.ComponentModel.BackgroundWorker.ProgressChanged event.
-  example: []
+  summary: "\nRaises the System.ComponentModel.BackgroundWorker.ProgressChanged event.\n"
   syntax:
     content: public void ReportProgress(int percentProgress, object userState)
     parameters:
@@ -178,9 +179,10 @@ items:
   - type: System.InvalidOperationException
     commentId: T:System.InvalidOperationException
     description: The SoBackgroundWorker.WorkerReportsProgress property is set to false.
-  nameWithType.vb: SoBackgroundWorker.ReportProgress(Integer, Object)
-  fullName.vb: SuperOffice.Threading.SoBackgroundWorker.ReportProgress(Integer, Object)
-  name.vb: ReportProgress(Integer, Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Threading.SoBackgroundWorker.RunWorker(System.Boolean)
   commentId: M:SuperOffice.Threading.SoBackgroundWorker.RunWorker(System.Boolean)
   id: RunWorker(System.Boolean)
@@ -188,15 +190,17 @@ items:
   langs:
   - csharp
   - vb
-  name: RunWorker(bool)
-  nameWithType: SoBackgroundWorker.RunWorker(bool)
-  fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorker(bool)
+  name: RunWorker(Boolean)
+  nameWithType: SoBackgroundWorker.RunWorker(Boolean)
+  fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorker(System.Boolean)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Starts execution of a background operation.
-  example: []
+  summary: "\nStarts execution of a background operation.\n"
   syntax:
     content: public void RunWorker(bool async)
     parameters:
@@ -207,10 +211,11 @@ items:
   exceptions:
   - type: System.InvalidOperationException
     commentId: T:System.InvalidOperationException
-    description: SoBackgroundWorker.IsBusy is true.
-  nameWithType.vb: SoBackgroundWorker.RunWorker(Boolean)
-  fullName.vb: SuperOffice.Threading.SoBackgroundWorker.RunWorker(Boolean)
-  name.vb: RunWorker(Boolean)
+    description: "\nSoBackgroundWorker.IsBusy is true.\n"
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync
   commentId: M:SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync
   id: RunWorkerAsync
@@ -222,19 +227,25 @@ items:
   nameWithType: SoBackgroundWorker.RunWorkerAsync()
   fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Starts execution of a background operation.
-  example: []
+  summary: "\nStarts execution of a background operation.\n"
   syntax:
     content: public void RunWorkerAsync()
-    content.vb: Public Sub RunWorkerAsync()
+    content.vb: Public Sub RunWorkerAsync
   overload: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync*
   exceptions:
   - type: System.InvalidOperationException
     commentId: T:System.InvalidOperationException
-    description: SoBackgroundWorker.IsBusy is true.
+    description: "\nSoBackgroundWorker.IsBusy is true.\n"
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync(System.Object)
   commentId: M:SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync(System.Object)
   id: RunWorkerAsync(System.Object)
@@ -242,15 +253,17 @@ items:
   langs:
   - csharp
   - vb
-  name: RunWorkerAsync(object)
-  nameWithType: SoBackgroundWorker.RunWorkerAsync(object)
-  fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync(object)
+  name: RunWorkerAsync(Object)
+  nameWithType: SoBackgroundWorker.RunWorkerAsync(Object)
+  fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync(System.Object)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Starts execution of a background operation.
-  example: []
+  summary: "\nStarts execution of a background operation.\n"
   syntax:
     content: public void RunWorkerAsync(object argument)
     parameters:
@@ -263,9 +276,10 @@ items:
   - type: System.InvalidOperationException
     commentId: T:System.InvalidOperationException
     description: SoBackgroundWorker.IsBusy is true.
-  nameWithType.vb: SoBackgroundWorker.RunWorkerAsync(Object)
-  fullName.vb: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync(Object)
-  name.vb: RunWorkerAsync(Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Threading.SoBackgroundWorker.OnDoWork(System.ComponentModel.DoWorkEventArgs)
   commentId: M:SuperOffice.Threading.SoBackgroundWorker.OnDoWork(System.ComponentModel.DoWorkEventArgs)
   id: OnDoWork(System.ComponentModel.DoWorkEventArgs)
@@ -277,11 +291,13 @@ items:
   nameWithType: SoBackgroundWorker.OnDoWork(DoWorkEventArgs)
   fullName: SuperOffice.Threading.SoBackgroundWorker.OnDoWork(System.ComponentModel.DoWorkEventArgs)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
   summary: Raises the SoBackgroundWorker.DoWork event.
-  example: []
   syntax:
     content: protected virtual void OnDoWork(DoWorkEventArgs e)
     parameters:
@@ -290,6 +306,12 @@ items:
       description: An System.EventArgs that contains the event data.
     content.vb: Protected Overridable Sub OnDoWork(e As DoWorkEventArgs)
   overload: SuperOffice.Threading.SoBackgroundWorker.OnDoWork*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
 - uid: SuperOffice.Threading.SoBackgroundWorker.OnProgressChanged(System.ComponentModel.ProgressChangedEventArgs)
   commentId: M:SuperOffice.Threading.SoBackgroundWorker.OnProgressChanged(System.ComponentModel.ProgressChangedEventArgs)
   id: OnProgressChanged(System.ComponentModel.ProgressChangedEventArgs)
@@ -301,11 +323,13 @@ items:
   nameWithType: SoBackgroundWorker.OnProgressChanged(ProgressChangedEventArgs)
   fullName: SuperOffice.Threading.SoBackgroundWorker.OnProgressChanged(System.ComponentModel.ProgressChangedEventArgs)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Raises the SoBackgroundWorker.ProgressChanged event.
-  example: []
+  summary: "\nRaises the SoBackgroundWorker.ProgressChanged event.\n"
   syntax:
     content: protected virtual void OnProgressChanged(ProgressChangedEventArgs e)
     parameters:
@@ -314,6 +338,12 @@ items:
       description: An System.EventArgs that contains the event data.
     content.vb: Protected Overridable Sub OnProgressChanged(e As ProgressChangedEventArgs)
   overload: SuperOffice.Threading.SoBackgroundWorker.OnProgressChanged*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
 - uid: SuperOffice.Threading.SoBackgroundWorker.OnRunWorkerCompleted(System.ComponentModel.RunWorkerCompletedEventArgs)
   commentId: M:SuperOffice.Threading.SoBackgroundWorker.OnRunWorkerCompleted(System.ComponentModel.RunWorkerCompletedEventArgs)
   id: OnRunWorkerCompleted(System.ComponentModel.RunWorkerCompletedEventArgs)
@@ -325,11 +355,13 @@ items:
   nameWithType: SoBackgroundWorker.OnRunWorkerCompleted(RunWorkerCompletedEventArgs)
   fullName: SuperOffice.Threading.SoBackgroundWorker.OnRunWorkerCompleted(System.ComponentModel.RunWorkerCompletedEventArgs)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Raises the SoBackgroundWorker.RunWorkerCompleted event.
-  example: []
+  summary: "\nRaises the SoBackgroundWorker.RunWorkerCompleted event.\n"
   syntax:
     content: protected virtual void OnRunWorkerCompleted(RunWorkerCompletedEventArgs e)
     parameters:
@@ -338,6 +370,12 @@ items:
       description: An System.EventArgs that contains the event data.
     content.vb: Protected Overridable Sub OnRunWorkerCompleted(e As RunWorkerCompletedEventArgs)
   overload: SuperOffice.Threading.SoBackgroundWorker.OnRunWorkerCompleted*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
 - uid: SuperOffice.Threading.SoBackgroundWorker.Dispose(System.Boolean)
   commentId: M:SuperOffice.Threading.SoBackgroundWorker.Dispose(System.Boolean)
   id: Dispose(System.Boolean)
@@ -345,27 +383,30 @@ items:
   langs:
   - csharp
   - vb
-  name: Dispose(bool)
-  nameWithType: SoBackgroundWorker.Dispose(bool)
-  fullName: SuperOffice.Threading.SoBackgroundWorker.Dispose(bool)
+  name: Dispose(Boolean)
+  nameWithType: SoBackgroundWorker.Dispose(Boolean)
+  fullName: SuperOffice.Threading.SoBackgroundWorker.Dispose(System.Boolean)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Disposes resources...
-  example: []
+  summary: "\nDisposes resources...\n"
   syntax:
     content: protected override void Dispose(bool disposing)
     parameters:
     - id: disposing
       type: System.Boolean
-      description: ''
     content.vb: Protected Overrides Sub Dispose(disposing As Boolean)
-  overridden: System.ComponentModel.Component.Dispose(System.Boolean)
   overload: SuperOffice.Threading.SoBackgroundWorker.Dispose*
-  nameWithType.vb: SoBackgroundWorker.Dispose(Boolean)
-  fullName.vb: SuperOffice.Threading.SoBackgroundWorker.Dispose(Boolean)
-  name.vb: Dispose(Boolean)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.Threading.SoBackgroundWorker.CancellationPending
   commentId: P:SuperOffice.Threading.SoBackgroundWorker.CancellationPending
   id: CancellationPending
@@ -377,14 +418,13 @@ items:
   nameWithType: SoBackgroundWorker.CancellationPending
   fullName: SuperOffice.Threading.SoBackgroundWorker.CancellationPending
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: >-
-    Gets a value indicating whether the application has requested cancellation of
-
-    a background operation.
-  example: []
+  summary: "\nGets a value indicating whether the application has requested cancellation of\na background operation.\n"
   syntax:
     content: public bool CancellationPending { get; }
     parameters: []
@@ -393,6 +433,12 @@ items:
       description: true if the application has requested cancellation of a background operation; otherwise, false. The default is false.
     content.vb: Public ReadOnly Property CancellationPending As Boolean
   overload: SuperOffice.Threading.SoBackgroundWorker.CancellationPending*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Threading.SoBackgroundWorker.IsBusy
   commentId: P:SuperOffice.Threading.SoBackgroundWorker.IsBusy
   id: IsBusy
@@ -404,11 +450,13 @@ items:
   nameWithType: SoBackgroundWorker.IsBusy
   fullName: SuperOffice.Threading.SoBackgroundWorker.IsBusy
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Gets a value indicating whether the SuperOffice.Threading.SoBackgroundWorker is running an asynchronous operation.
-  example: []
+  summary: "\nGets a value indicating whether the SuperOffice.Threading.SoBackgroundWorker is running an asynchronous operation.\n"
   syntax:
     content: public bool IsBusy { get; }
     parameters: []
@@ -417,6 +465,12 @@ items:
       description: true, if the SuperOffice.Threading.SoBackgroundWorker is running an asynchronous operation; otherwise, false.
     content.vb: Public ReadOnly Property IsBusy As Boolean
   overload: SuperOffice.Threading.SoBackgroundWorker.IsBusy*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Threading.SoBackgroundWorker.WorkerReportsProgress
   commentId: P:SuperOffice.Threading.SoBackgroundWorker.WorkerReportsProgress
   id: WorkerReportsProgress
@@ -428,11 +482,13 @@ items:
   nameWithType: SoBackgroundWorker.WorkerReportsProgress
   fullName: SuperOffice.Threading.SoBackgroundWorker.WorkerReportsProgress
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Gets or sets a value indicating whether the SuperOffice.Threading.SoBackgroundWorker can report progress updates.
-  example: []
+  summary: "\nGets or sets a value indicating whether the SuperOffice.Threading.SoBackgroundWorker can report progress updates.\n"
   syntax:
     content: public bool WorkerReportsProgress { get; set; }
     parameters: []
@@ -441,6 +497,12 @@ items:
       description: true if the SuperOffice.Threading.SoBackgroundWorker supports progress updates; otherwise false. The default is false.
     content.vb: Public Property WorkerReportsProgress As Boolean
   overload: SuperOffice.Threading.SoBackgroundWorker.WorkerReportsProgress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Threading.SoBackgroundWorker.WorkerSupportsCancellation
   commentId: P:SuperOffice.Threading.SoBackgroundWorker.WorkerSupportsCancellation
   id: WorkerSupportsCancellation
@@ -452,11 +514,13 @@ items:
   nameWithType: SoBackgroundWorker.WorkerSupportsCancellation
   fullName: SuperOffice.Threading.SoBackgroundWorker.WorkerSupportsCancellation
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Gets or sets a value indicating whether the SuperOffice.Threading.SoBackgroundWorker supports asynchronous cancellation.
-  example: []
+  summary: "\nGets or sets a value indicating whether the SuperOffice.Threading.SoBackgroundWorker supports asynchronous cancellation.\n"
   syntax:
     content: public bool WorkerSupportsCancellation { get; set; }
     parameters: []
@@ -465,6 +529,12 @@ items:
       description: true if the SuperOffice.Threading.SoBackgroundWorker supports cancellation; otherwise false. The default is false.
     content.vb: Public Property WorkerSupportsCancellation As Boolean
   overload: SuperOffice.Threading.SoBackgroundWorker.WorkerSupportsCancellation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Threading.SoBackgroundWorker.DoWork
   commentId: E:SuperOffice.Threading.SoBackgroundWorker.DoWork
   id: DoWork
@@ -476,16 +546,22 @@ items:
   nameWithType: SoBackgroundWorker.DoWork
   fullName: SuperOffice.Threading.SoBackgroundWorker.DoWork
   type: Event
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Occurs when System.ComponentModel.BackgroundWorker.RunWorkerAsync is called.
-  example: []
+  summary: "\nOccurs when System.ComponentModel.BackgroundWorker.RunWorkerAsync is called.\n"
   syntax:
     content: public event DoWorkEventHandler DoWork
     return:
       type: System.ComponentModel.DoWorkEventHandler
     content.vb: Public Event DoWork As DoWorkEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Threading.SoBackgroundWorker.ProgressChanged
   commentId: E:SuperOffice.Threading.SoBackgroundWorker.ProgressChanged
   id: ProgressChanged
@@ -497,16 +573,22 @@ items:
   nameWithType: SoBackgroundWorker.ProgressChanged
   fullName: SuperOffice.Threading.SoBackgroundWorker.ProgressChanged
   type: Event
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Occurs when System.ComponentModel.BackgroundWorker.ReportProgress(System.Int32) is called.
-  example: []
+  summary: "\nOccurs when System.ComponentModel.BackgroundWorker.ReportProgress(System.Int32) is called.\n"
   syntax:
     content: public event ProgressChangedEventHandler ProgressChanged
     return:
       type: System.ComponentModel.ProgressChangedEventHandler
     content.vb: Public Event ProgressChanged As ProgressChangedEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Threading.SoBackgroundWorker.RunWorkerCompleted
   commentId: E:SuperOffice.Threading.SoBackgroundWorker.RunWorkerCompleted
   id: RunWorkerCompleted
@@ -518,731 +600,191 @@ items:
   nameWithType: SoBackgroundWorker.RunWorkerCompleted
   fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorkerCompleted
   type: Event
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Occurs when the background operation has completed, has been canceled, or has raised an exception.
-  example: []
+  summary: "\nOccurs when the background operation has completed, has been canceled, or has raised an exception.\n"
   syntax:
     content: public event RunWorkerCompletedEventHandler RunWorkerCompleted
     return:
       type: System.ComponentModel.RunWorkerCompletedEventHandler
     content.vb: Public Event RunWorkerCompleted As RunWorkerCompletedEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.Threading
   commentId: N:SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Threading
   nameWithType: SuperOffice.Threading
   fullName: SuperOffice.Threading
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Threading
-    name: Threading
-    isExternal: true
-    href: SuperOffice.Threading.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Threading
-    name: Threading
-    isExternal: true
-    href: SuperOffice.Threading.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.MarshalByRefObject
-  commentId: T:System.MarshalByRefObject
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject
-  name: MarshalByRefObject
-  nameWithType: MarshalByRefObject
-  fullName: System.MarshalByRefObject
-- uid: System.ComponentModel.Component
-  commentId: T:System.ComponentModel.Component
-  parent: System.ComponentModel
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component
-  name: Component
-  nameWithType: Component
-  fullName: System.ComponentModel.Component
-- uid: System.ComponentModel.IComponent
-  commentId: T:System.ComponentModel.IComponent
-  parent: System.ComponentModel
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.icomponent
-  name: IComponent
-  nameWithType: IComponent
-  fullName: System.ComponentModel.IComponent
-- uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
-- uid: System.ComponentModel.Component.Dispose
-  commentId: M:System.ComponentModel.Component.Dispose
-  parent: System.ComponentModel.Component
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.dispose#system-componentmodel-component-dispose
-  name: Dispose()
-  nameWithType: Component.Dispose()
-  fullName: System.ComponentModel.Component.Dispose()
-  spec.csharp:
-  - uid: System.ComponentModel.Component.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.dispose#system-componentmodel-component-dispose
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.ComponentModel.Component.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.dispose#system-componentmodel-component-dispose
-  - name: (
-  - name: )
-- uid: System.ComponentModel.Component.GetService(System.Type)
-  commentId: M:System.ComponentModel.Component.GetService(System.Type)
-  parent: System.ComponentModel.Component
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.getservice
-  name: GetService(Type)
-  nameWithType: Component.GetService(Type)
-  fullName: System.ComponentModel.Component.GetService(System.Type)
-  spec.csharp:
-  - uid: System.ComponentModel.Component.GetService(System.Type)
-    name: GetService
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.getservice
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-  spec.vb:
-  - uid: System.ComponentModel.Component.GetService(System.Type)
-    name: GetService
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.getservice
-  - name: (
-  - uid: System.Type
-    name: Type
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: )
-- uid: System.ComponentModel.Component.ToString
-  commentId: M:System.ComponentModel.Component.ToString
-  parent: System.ComponentModel.Component
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.tostring
-  name: ToString()
-  nameWithType: Component.ToString()
-  fullName: System.ComponentModel.Component.ToString()
-  spec.csharp:
-  - uid: System.ComponentModel.Component.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.ComponentModel.Component.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.tostring
-  - name: (
-  - name: )
-- uid: System.ComponentModel.Component.CanRaiseEvents
-  commentId: P:System.ComponentModel.Component.CanRaiseEvents
-  parent: System.ComponentModel.Component
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.canraiseevents
-  name: CanRaiseEvents
-  nameWithType: Component.CanRaiseEvents
-  fullName: System.ComponentModel.Component.CanRaiseEvents
-- uid: System.ComponentModel.Component.Events
-  commentId: P:System.ComponentModel.Component.Events
-  parent: System.ComponentModel.Component
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.events
-  name: Events
-  nameWithType: Component.Events
-  fullName: System.ComponentModel.Component.Events
-- uid: System.ComponentModel.Component.Site
-  commentId: P:System.ComponentModel.Component.Site
-  parent: System.ComponentModel.Component
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.site
-  name: Site
-  nameWithType: Component.Site
-  fullName: System.ComponentModel.Component.Site
-- uid: System.ComponentModel.Component.Container
-  commentId: P:System.ComponentModel.Component.Container
-  parent: System.ComponentModel.Component
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.container
-  name: Container
-  nameWithType: Component.Container
-  fullName: System.ComponentModel.Component.Container
-- uid: System.ComponentModel.Component.DesignMode
-  commentId: P:System.ComponentModel.Component.DesignMode
-  parent: System.ComponentModel.Component
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.designmode
-  name: DesignMode
-  nameWithType: Component.DesignMode
-  fullName: System.ComponentModel.Component.DesignMode
-- uid: System.ComponentModel.Component.Disposed
-  commentId: E:System.ComponentModel.Component.Disposed
-  parent: System.ComponentModel.Component
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.disposed
-  name: Disposed
-  nameWithType: Component.Disposed
-  fullName: System.ComponentModel.Component.Disposed
-- uid: System.MarshalByRefObject.GetLifetimeService
-  commentId: M:System.MarshalByRefObject.GetLifetimeService
-  parent: System.MarshalByRefObject
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice
-  name: GetLifetimeService()
-  nameWithType: MarshalByRefObject.GetLifetimeService()
-  fullName: System.MarshalByRefObject.GetLifetimeService()
-  spec.csharp:
-  - uid: System.MarshalByRefObject.GetLifetimeService
-    name: GetLifetimeService
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.MarshalByRefObject.GetLifetimeService
-    name: GetLifetimeService
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice
-  - name: (
-  - name: )
-- uid: System.MarshalByRefObject.InitializeLifetimeService
-  commentId: M:System.MarshalByRefObject.InitializeLifetimeService
-  parent: System.MarshalByRefObject
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice
-  name: InitializeLifetimeService()
-  nameWithType: MarshalByRefObject.InitializeLifetimeService()
-  fullName: System.MarshalByRefObject.InitializeLifetimeService()
-  spec.csharp:
-  - uid: System.MarshalByRefObject.InitializeLifetimeService
-    name: InitializeLifetimeService
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.MarshalByRefObject.InitializeLifetimeService
-    name: InitializeLifetimeService
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice
-  - name: (
-  - name: )
-- uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-  commentId: M:System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-  parent: System.MarshalByRefObject
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone
-  name: MemberwiseClone(bool)
-  nameWithType: MarshalByRefObject.MemberwiseClone(bool)
-  fullName: System.MarshalByRefObject.MemberwiseClone(bool)
-  nameWithType.vb: MarshalByRefObject.MemberwiseClone(Boolean)
-  fullName.vb: System.MarshalByRefObject.MemberwiseClone(Boolean)
-  name.vb: MemberwiseClone(Boolean)
-  spec.csharp:
-  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone
-  - name: (
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone
-  - name: (
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Threading.SoBackgroundWorker.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<SoBackgroundWorker, To>(SoBackgroundWorker)
-  nameWithType: EnumUtil.MapEnums<SoBackgroundWorker, To>(SoBackgroundWorker)
-  fullName: EnumUtil.MapEnums<SuperOffice.Threading.SoBackgroundWorker, To>(SuperOffice.Threading.SoBackgroundWorker)
-  nameWithType.vb: EnumUtil.MapEnums(Of SoBackgroundWorker, To)(SoBackgroundWorker)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.SoBackgroundWorker, To)(SuperOffice.Threading.SoBackgroundWorker)
-  name.vb: MapEnums(Of SoBackgroundWorker, To)(SoBackgroundWorker)
+  name: MapEnums<SoBackgroundWorker, To>()
+  nameWithType: EnumUtil.MapEnums<SoBackgroundWorker, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.SoBackgroundWorker, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoBackgroundWorker, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.SoBackgroundWorker, To)()
+  name.vb: MapEnums(Of SoBackgroundWorker, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Threading.SoBackgroundWorker)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoBackgroundWorker, To>
+    nameWithType: EnumUtil.MapEnums<SoBackgroundWorker, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Threading.SoBackgroundWorker, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Threading.SoBackgroundWorker
-    name: SoBackgroundWorker
-    isExternal: true
-    href: SuperOffice.Threading.SoBackgroundWorker.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Threading.SoBackgroundWorker
-    name: SoBackgroundWorker
-    isExternal: true
-    href: SuperOffice.Threading.SoBackgroundWorker.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Threading.SoBackgroundWorker)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoBackgroundWorker, To)
+    nameWithType: EnumUtil.MapEnums(Of SoBackgroundWorker, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Threading.SoBackgroundWorker, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Threading.SoBackgroundWorker
-    name: SoBackgroundWorker
-    isExternal: true
-    href: SuperOffice.Threading.SoBackgroundWorker.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Threading.SoBackgroundWorker
-    name: SoBackgroundWorker
-    isExternal: true
-    href: SuperOffice.Threading.SoBackgroundWorker.html
-  - name: )
-- uid: SuperOffice.Threading.SoBackgroundWorker.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<SoBackgroundWorker, To>(SoBackgroundWorker)
-  nameWithType: Converters.MapEnums<SoBackgroundWorker, To>(SoBackgroundWorker)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.SoBackgroundWorker, To>(SuperOffice.Threading.SoBackgroundWorker)
-  nameWithType.vb: Converters.MapEnums(Of SoBackgroundWorker, To)(SoBackgroundWorker)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.SoBackgroundWorker, To)(SuperOffice.Threading.SoBackgroundWorker)
-  name.vb: MapEnums(Of SoBackgroundWorker, To)(SoBackgroundWorker)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Threading.SoBackgroundWorker)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Threading.SoBackgroundWorker
-    name: SoBackgroundWorker
-    isExternal: true
-    href: SuperOffice.Threading.SoBackgroundWorker.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Threading.SoBackgroundWorker
-    name: SoBackgroundWorker
-    isExternal: true
-    href: SuperOffice.Threading.SoBackgroundWorker.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Threading.SoBackgroundWorker)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Threading.SoBackgroundWorker
-    name: SoBackgroundWorker
-    isExternal: true
-    href: SuperOffice.Threading.SoBackgroundWorker.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Threading.SoBackgroundWorker
-    name: SoBackgroundWorker
-    isExternal: true
-    href: SuperOffice.Threading.SoBackgroundWorker.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.SoBackgroundWorker.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.SoBackgroundWorker)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<SoBackgroundWorker>(SoBackgroundWorker, SoBackgroundWorker)
-  nameWithType: ObjectExtensions.AssignByReflection<SoBackgroundWorker>(SoBackgroundWorker, SoBackgroundWorker)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Threading.SoBackgroundWorker>(SuperOffice.Threading.SoBackgroundWorker, SuperOffice.Threading.SoBackgroundWorker)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoBackgroundWorker)(SoBackgroundWorker, SoBackgroundWorker)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Threading.SoBackgroundWorker)(SuperOffice.Threading.SoBackgroundWorker, SuperOffice.Threading.SoBackgroundWorker)
-  name.vb: AssignByReflection(Of SoBackgroundWorker)(SoBackgroundWorker, SoBackgroundWorker)
+  name: AssignByReflection<SoBackgroundWorker>(SoBackgroundWorker)
+  nameWithType: ObjectExtensions.AssignByReflection<SoBackgroundWorker>(SoBackgroundWorker)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Threading.SoBackgroundWorker>(SuperOffice.Threading.SoBackgroundWorker)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoBackgroundWorker)(SoBackgroundWorker)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Threading.SoBackgroundWorker)(SuperOffice.Threading.SoBackgroundWorker)
+  name.vb: AssignByReflection(Of SoBackgroundWorker)(SoBackgroundWorker)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.SoBackgroundWorker,SuperOffice.Threading.SoBackgroundWorker)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SoBackgroundWorker>
+    nameWithType: ObjectExtensions.AssignByReflection<SoBackgroundWorker>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Threading.SoBackgroundWorker>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Threading.SoBackgroundWorker
-    name: SoBackgroundWorker
-    isExternal: true
-    href: SuperOffice.Threading.SoBackgroundWorker.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Threading.SoBackgroundWorker
     name: SoBackgroundWorker
+    nameWithType: SoBackgroundWorker
+    fullName: SuperOffice.Threading.SoBackgroundWorker
     isExternal: true
-    href: SuperOffice.Threading.SoBackgroundWorker.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Threading.SoBackgroundWorker
-    name: SoBackgroundWorker
-    isExternal: true
-    href: SuperOffice.Threading.SoBackgroundWorker.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.SoBackgroundWorker,SuperOffice.Threading.SoBackgroundWorker)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SoBackgroundWorker)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SoBackgroundWorker)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Threading.SoBackgroundWorker)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Threading.SoBackgroundWorker
     name: SoBackgroundWorker
+    nameWithType: SoBackgroundWorker
+    fullName: SuperOffice.Threading.SoBackgroundWorker
     isExternal: true
-    href: SuperOffice.Threading.SoBackgroundWorker.html
   - name: )
-  - name: (
-  - uid: SuperOffice.Threading.SoBackgroundWorker
-    name: SoBackgroundWorker
-    isExternal: true
-    href: SuperOffice.Threading.SoBackgroundWorker.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Threading.SoBackgroundWorker
-    name: SoBackgroundWorker
-    isExternal: true
-    href: SuperOffice.Threading.SoBackgroundWorker.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.SoBackgroundWorker.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<SoBackgroundWorker>(SoBackgroundWorker)
-  nameWithType: ObjectExtensions.GraphCopy<SoBackgroundWorker>(SoBackgroundWorker)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Threading.SoBackgroundWorker>(SuperOffice.Threading.SoBackgroundWorker)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoBackgroundWorker)(SoBackgroundWorker)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Threading.SoBackgroundWorker)(SuperOffice.Threading.SoBackgroundWorker)
-  name.vb: GraphCopy(Of SoBackgroundWorker)(SoBackgroundWorker)
+  name: GraphCopy<SoBackgroundWorker>()
+  nameWithType: ObjectExtensions.GraphCopy<SoBackgroundWorker>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Threading.SoBackgroundWorker>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoBackgroundWorker)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Threading.SoBackgroundWorker)()
+  name.vb: GraphCopy(Of SoBackgroundWorker)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Threading.SoBackgroundWorker)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SoBackgroundWorker>
+    nameWithType: ObjectExtensions.GraphCopy<SoBackgroundWorker>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Threading.SoBackgroundWorker>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Threading.SoBackgroundWorker
-    name: SoBackgroundWorker
-    isExternal: true
-    href: SuperOffice.Threading.SoBackgroundWorker.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Threading.SoBackgroundWorker
-    name: SoBackgroundWorker
-    isExternal: true
-    href: SuperOffice.Threading.SoBackgroundWorker.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Threading.SoBackgroundWorker)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SoBackgroundWorker)
+    nameWithType: ObjectExtensions.GraphCopy(Of SoBackgroundWorker)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Threading.SoBackgroundWorker)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Threading.SoBackgroundWorker
-    name: SoBackgroundWorker
-    isExternal: true
-    href: SuperOffice.Threading.SoBackgroundWorker.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.SoBackgroundWorker.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoBackgroundWorker, To>()
+  nameWithType: Converters.MapEnums<SoBackgroundWorker, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.SoBackgroundWorker, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoBackgroundWorker, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.SoBackgroundWorker, To)()
+  name.vb: MapEnums(Of SoBackgroundWorker, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoBackgroundWorker, To>
+    nameWithType: Converters.MapEnums<SoBackgroundWorker, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.SoBackgroundWorker, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.Threading.SoBackgroundWorker
-    name: SoBackgroundWorker
-    isExternal: true
-    href: SuperOffice.Threading.SoBackgroundWorker.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoBackgroundWorker, To)
+    nameWithType: Converters.MapEnums(Of SoBackgroundWorker, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.SoBackgroundWorker, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: System.ComponentModel
-  commentId: N:System.ComponentModel
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.ComponentModel
-  nameWithType: System.ComponentModel
-  fullName: System.ComponentModel
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.ComponentModel
-    name: ComponentModel
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.ComponentModel
-    name: ComponentModel
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1251,93 +793,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1346,46 +838,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1394,120 +896,110 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.Threading.SoBackgroundWorker.#ctor*
   commentId: Overload:SuperOffice.Threading.SoBackgroundWorker.#ctor
   isExternal: true
-  href: SuperOffice.Threading.SoBackgroundWorker.html#SuperOffice_Threading_SoBackgroundWorker__ctor
   name: SoBackgroundWorker
   nameWithType: SoBackgroundWorker.SoBackgroundWorker
   fullName: SuperOffice.Threading.SoBackgroundWorker.SoBackgroundWorker
-  nameWithType.vb: SoBackgroundWorker.New
-  fullName.vb: SuperOffice.Threading.SoBackgroundWorker.New
-  name.vb: New
-- uid: System.InvalidOperationException
-  commentId: T:System.InvalidOperationException
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.invalidoperationexception
-  name: InvalidOperationException
-  nameWithType: InvalidOperationException
-  fullName: System.InvalidOperationException
 - uid: SuperOffice.Threading.SoBackgroundWorker.CancelAsync*
   commentId: Overload:SuperOffice.Threading.SoBackgroundWorker.CancelAsync
   isExternal: true
-  href: SuperOffice.Threading.SoBackgroundWorker.html#SuperOffice_Threading_SoBackgroundWorker_CancelAsync
   name: CancelAsync
   nameWithType: SoBackgroundWorker.CancelAsync
   fullName: SuperOffice.Threading.SoBackgroundWorker.CancelAsync
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
+  isExternal: true
 - uid: SuperOffice.Threading.SoBackgroundWorker.ReportProgress*
   commentId: Overload:SuperOffice.Threading.SoBackgroundWorker.ReportProgress
   isExternal: true
-  href: SuperOffice.Threading.SoBackgroundWorker.html#SuperOffice_Threading_SoBackgroundWorker_ReportProgress_System_Int32_
   name: ReportProgress
   nameWithType: SoBackgroundWorker.ReportProgress
   fullName: SuperOffice.Threading.SoBackgroundWorker.ReportProgress
@@ -1515,17 +1007,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Threading.SoBackgroundWorker.RunWorker*
   commentId: Overload:SuperOffice.Threading.SoBackgroundWorker.RunWorker
   isExternal: true
-  href: SuperOffice.Threading.SoBackgroundWorker.html#SuperOffice_Threading_SoBackgroundWorker_RunWorker_System_Boolean_
   name: RunWorker
   nameWithType: SoBackgroundWorker.RunWorker
   fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorker
@@ -1533,154 +1020,96 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync*
   commentId: Overload:SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync
   isExternal: true
-  href: SuperOffice.Threading.SoBackgroundWorker.html#SuperOffice_Threading_SoBackgroundWorker_RunWorkerAsync
   name: RunWorkerAsync
   nameWithType: SoBackgroundWorker.RunWorkerAsync
   fullName: SuperOffice.Threading.SoBackgroundWorker.RunWorkerAsync
 - uid: SuperOffice.Threading.SoBackgroundWorker.OnDoWork*
   commentId: Overload:SuperOffice.Threading.SoBackgroundWorker.OnDoWork
   isExternal: true
-  href: SuperOffice.Threading.SoBackgroundWorker.html#SuperOffice_Threading_SoBackgroundWorker_OnDoWork_System_ComponentModel_DoWorkEventArgs_
   name: OnDoWork
   nameWithType: SoBackgroundWorker.OnDoWork
   fullName: SuperOffice.Threading.SoBackgroundWorker.OnDoWork
 - uid: System.ComponentModel.DoWorkEventArgs
-  commentId: T:System.ComponentModel.DoWorkEventArgs
-  parent: System.ComponentModel
+  commentId: '!:System.ComponentModel.DoWorkEventArgs'
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.doworkeventargs
   name: DoWorkEventArgs
   nameWithType: DoWorkEventArgs
   fullName: System.ComponentModel.DoWorkEventArgs
 - uid: SuperOffice.Threading.SoBackgroundWorker.OnProgressChanged*
   commentId: Overload:SuperOffice.Threading.SoBackgroundWorker.OnProgressChanged
   isExternal: true
-  href: SuperOffice.Threading.SoBackgroundWorker.html#SuperOffice_Threading_SoBackgroundWorker_OnProgressChanged_System_ComponentModel_ProgressChangedEventArgs_
   name: OnProgressChanged
   nameWithType: SoBackgroundWorker.OnProgressChanged
   fullName: SuperOffice.Threading.SoBackgroundWorker.OnProgressChanged
 - uid: System.ComponentModel.ProgressChangedEventArgs
-  commentId: T:System.ComponentModel.ProgressChangedEventArgs
-  parent: System.ComponentModel
+  commentId: '!:System.ComponentModel.ProgressChangedEventArgs'
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.progresschangedeventargs
   name: ProgressChangedEventArgs
   nameWithType: ProgressChangedEventArgs
   fullName: System.ComponentModel.ProgressChangedEventArgs
 - uid: SuperOffice.Threading.SoBackgroundWorker.OnRunWorkerCompleted*
   commentId: Overload:SuperOffice.Threading.SoBackgroundWorker.OnRunWorkerCompleted
   isExternal: true
-  href: SuperOffice.Threading.SoBackgroundWorker.html#SuperOffice_Threading_SoBackgroundWorker_OnRunWorkerCompleted_System_ComponentModel_RunWorkerCompletedEventArgs_
   name: OnRunWorkerCompleted
   nameWithType: SoBackgroundWorker.OnRunWorkerCompleted
   fullName: SuperOffice.Threading.SoBackgroundWorker.OnRunWorkerCompleted
 - uid: System.ComponentModel.RunWorkerCompletedEventArgs
-  commentId: T:System.ComponentModel.RunWorkerCompletedEventArgs
-  parent: System.ComponentModel
+  commentId: '!:System.ComponentModel.RunWorkerCompletedEventArgs'
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.runworkercompletedeventargs
   name: RunWorkerCompletedEventArgs
   nameWithType: RunWorkerCompletedEventArgs
   fullName: System.ComponentModel.RunWorkerCompletedEventArgs
-- uid: System.ComponentModel.Component.Dispose(System.Boolean)
-  commentId: M:System.ComponentModel.Component.Dispose(System.Boolean)
-  parent: System.ComponentModel.Component
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.dispose#system-componentmodel-component-dispose(system-boolean)
-  name: Dispose(bool)
-  nameWithType: Component.Dispose(bool)
-  fullName: System.ComponentModel.Component.Dispose(bool)
-  nameWithType.vb: Component.Dispose(Boolean)
-  fullName.vb: System.ComponentModel.Component.Dispose(Boolean)
-  name.vb: Dispose(Boolean)
-  spec.csharp:
-  - uid: System.ComponentModel.Component.Dispose(System.Boolean)
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.dispose#system-componentmodel-component-dispose(system-boolean)
-  - name: (
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.ComponentModel.Component.Dispose(System.Boolean)
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.componentmodel.component.dispose#system-componentmodel-component-dispose(system-boolean)
-  - name: (
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
 - uid: SuperOffice.Threading.SoBackgroundWorker.Dispose*
   commentId: Overload:SuperOffice.Threading.SoBackgroundWorker.Dispose
   isExternal: true
-  href: SuperOffice.Threading.SoBackgroundWorker.html#SuperOffice_Threading_SoBackgroundWorker_Dispose_System_Boolean_
   name: Dispose
   nameWithType: SoBackgroundWorker.Dispose
   fullName: SuperOffice.Threading.SoBackgroundWorker.Dispose
 - uid: SuperOffice.Threading.SoBackgroundWorker.CancellationPending*
   commentId: Overload:SuperOffice.Threading.SoBackgroundWorker.CancellationPending
   isExternal: true
-  href: SuperOffice.Threading.SoBackgroundWorker.html#SuperOffice_Threading_SoBackgroundWorker_CancellationPending
   name: CancellationPending
   nameWithType: SoBackgroundWorker.CancellationPending
   fullName: SuperOffice.Threading.SoBackgroundWorker.CancellationPending
 - uid: SuperOffice.Threading.SoBackgroundWorker.IsBusy*
   commentId: Overload:SuperOffice.Threading.SoBackgroundWorker.IsBusy
   isExternal: true
-  href: SuperOffice.Threading.SoBackgroundWorker.html#SuperOffice_Threading_SoBackgroundWorker_IsBusy
   name: IsBusy
   nameWithType: SoBackgroundWorker.IsBusy
   fullName: SuperOffice.Threading.SoBackgroundWorker.IsBusy
 - uid: SuperOffice.Threading.SoBackgroundWorker.WorkerReportsProgress*
   commentId: Overload:SuperOffice.Threading.SoBackgroundWorker.WorkerReportsProgress
   isExternal: true
-  href: SuperOffice.Threading.SoBackgroundWorker.html#SuperOffice_Threading_SoBackgroundWorker_WorkerReportsProgress
   name: WorkerReportsProgress
   nameWithType: SoBackgroundWorker.WorkerReportsProgress
   fullName: SuperOffice.Threading.SoBackgroundWorker.WorkerReportsProgress
 - uid: SuperOffice.Threading.SoBackgroundWorker.WorkerSupportsCancellation*
   commentId: Overload:SuperOffice.Threading.SoBackgroundWorker.WorkerSupportsCancellation
   isExternal: true
-  href: SuperOffice.Threading.SoBackgroundWorker.html#SuperOffice_Threading_SoBackgroundWorker_WorkerSupportsCancellation
   name: WorkerSupportsCancellation
   nameWithType: SoBackgroundWorker.WorkerSupportsCancellation
   fullName: SuperOffice.Threading.SoBackgroundWorker.WorkerSupportsCancellation
 - uid: System.ComponentModel.DoWorkEventHandler
-  commentId: T:System.ComponentModel.DoWorkEventHandler
-  parent: System.ComponentModel
+  commentId: '!:System.ComponentModel.DoWorkEventHandler'
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.doworkeventhandler
   name: DoWorkEventHandler
   nameWithType: DoWorkEventHandler
   fullName: System.ComponentModel.DoWorkEventHandler
 - uid: System.ComponentModel.ProgressChangedEventHandler
-  commentId: T:System.ComponentModel.ProgressChangedEventHandler
-  parent: System.ComponentModel
+  commentId: '!:System.ComponentModel.ProgressChangedEventHandler'
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.progresschangedeventhandler
   name: ProgressChangedEventHandler
   nameWithType: ProgressChangedEventHandler
   fullName: System.ComponentModel.ProgressChangedEventHandler
 - uid: System.ComponentModel.RunWorkerCompletedEventHandler
-  commentId: T:System.ComponentModel.RunWorkerCompletedEventHandler
-  parent: System.ComponentModel
+  commentId: '!:System.ComponentModel.RunWorkerCompletedEventHandler'
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.runworkercompletedeventhandler
   name: RunWorkerCompletedEventHandler
   nameWithType: RunWorkerCompletedEventHandler
   fullName: System.ComponentModel.RunWorkerCompletedEventHandler

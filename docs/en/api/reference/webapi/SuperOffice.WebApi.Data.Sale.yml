@@ -40,22 +40,20 @@ items:
   nameWithType: Sale
   fullName: SuperOffice.WebApi.Data.Sale
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Carrier object for Sale.
+  summary: "\nCarrier object for Sale.\n\n"
   example:
-  - >-
-    Get Sale 123 using the WebApi client:
-
-    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
-
-    var agent = new SaleAgent(configuration);
-
-    var sale = agent.GetSale( 123 );</code></pre>
+  - "\nGet Sale 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new SaleAgent(configuration);\nvar sale = agent.GetSale( 123 );</code></pre>\n"
   syntax:
     content: 'public class Sale : Carrier'
-    content.vb: Public Class Sale Inherits Carrier
+    content.vb: >-
+      Public Class Sale
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.SaleAgent
     commentId: T:SuperOffice.WebApi.Agents.SaleAgent
@@ -65,13 +63,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.Sale.#ctor
   commentId: M:SuperOffice.WebApi.Data.Sale.#ctor
   id: '#ctor'
@@ -83,18 +80,21 @@ items:
   nameWithType: Sale.Sale()
   fullName: SuperOffice.WebApi.Data.Sale.Sale()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public Sale()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.Sale.#ctor*
-  nameWithType.vb: Sale.New()
-  fullName.vb: SuperOffice.WebApi.Data.Sale.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Sale.ContactName
   commentId: P:SuperOffice.WebApi.Data.Sale.ContactName
   id: ContactName
@@ -106,11 +106,13 @@ items:
   nameWithType: Sale.ContactName
   fullName: SuperOffice.WebApi.Data.Sale.ContactName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Contact name
-  example: []
+  summary: "\nContact name\n"
   syntax:
     content: public virtual string ContactName { get; set; }
     parameters: []
@@ -118,6 +120,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ContactName As String
   overload: SuperOffice.WebApi.Data.Sale.ContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.SaleDate
   commentId: P:SuperOffice.WebApi.Data.Sale.SaleDate
   id: SaleDate
@@ -129,18 +139,28 @@ items:
   nameWithType: Sale.SaleDate
   fullName: SuperOffice.WebApi.Data.Sale.SaleDate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: (expected / lost / won) sales date
-  example: []
+  summary: "\n(expected / lost / won) sales date\n"
   syntax:
     content: public virtual DateTime SaleDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property SaleDate As Date
+    content.vb: Public Overridable Property SaleDate As DateTime
   overload: SuperOffice.WebApi.Data.Sale.SaleDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.SaleId
   commentId: P:SuperOffice.WebApi.Data.Sale.SaleId
   id: SaleId
@@ -152,11 +172,13 @@ items:
   nameWithType: Sale.SaleId
   fullName: SuperOffice.WebApi.Data.Sale.SaleId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int SaleId { get; set; }
     parameters: []
@@ -164,6 +186,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property SaleId As Integer
   overload: SuperOffice.WebApi.Data.Sale.SaleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.Probability
   commentId: P:SuperOffice.WebApi.Data.Sale.Probability
   id: Probability
@@ -175,11 +205,13 @@ items:
   nameWithType: Sale.Probability
   fullName: SuperOffice.WebApi.Data.Sale.Probability
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Actual probability, may differ from the one in the list
-  example: []
+  summary: "\nActual probability, may differ from the one in the list\n"
   syntax:
     content: public virtual short Probability { get; set; }
     parameters: []
@@ -187,6 +219,14 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property Probability As Short
   overload: SuperOffice.WebApi.Data.Sale.Probability*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.Title
   commentId: P:SuperOffice.WebApi.Data.Sale.Title
   id: Title
@@ -198,11 +238,13 @@ items:
   nameWithType: Sale.Title
   fullName: SuperOffice.WebApi.Data.Sale.Title
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Sale heading (short description?)
-  example: []
+  summary: "\nSale heading (short description?)\n"
   syntax:
     content: public virtual string Title { get; set; }
     parameters: []
@@ -210,6 +252,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Title As String
   overload: SuperOffice.WebApi.Data.Sale.Title*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.Amount
   commentId: P:SuperOffice.WebApi.Data.Sale.Amount
   id: Amount
@@ -221,11 +271,13 @@ items:
   nameWithType: Sale.Amount
   fullName: SuperOffice.WebApi.Data.Sale.Amount
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Total sale amount
-  example: []
+  summary: "\nTotal sale amount\n"
   syntax:
     content: public virtual double Amount { get; set; }
     parameters: []
@@ -233,6 +285,14 @@ items:
       type: System.Double
     content.vb: Public Overridable Property Amount As Double
   overload: SuperOffice.WebApi.Data.Sale.Amount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.Currency
   commentId: P:SuperOffice.WebApi.Data.Sale.Currency
   id: Currency
@@ -244,11 +304,13 @@ items:
   nameWithType: Sale.Currency
   fullName: SuperOffice.WebApi.Data.Sale.Currency
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Currency the sale was made in.
-  example: []
+  summary: "\nCurrency the sale was made in.\n"
   syntax:
     content: public virtual string Currency { get; set; }
     parameters: []
@@ -256,6 +318,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Currency As String
   overload: SuperOffice.WebApi.Data.Sale.Currency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.ProjectName
   commentId: P:SuperOffice.WebApi.Data.Sale.ProjectName
   id: ProjectName
@@ -267,11 +337,13 @@ items:
   nameWithType: Sale.ProjectName
   fullName: SuperOffice.WebApi.Data.Sale.ProjectName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Project name
-  example: []
+  summary: "\nProject name\n"
   syntax:
     content: public virtual string ProjectName { get; set; }
     parameters: []
@@ -279,6 +351,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ProjectName As String
   overload: SuperOffice.WebApi.Data.Sale.ProjectName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.AssociateFullName
   commentId: P:SuperOffice.WebApi.Data.Sale.AssociateFullName
   id: AssociateFullName
@@ -290,11 +370,13 @@ items:
   nameWithType: Sale.AssociateFullName
   fullName: SuperOffice.WebApi.Data.Sale.AssociateFullName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The sale's owner
-  example: []
+  summary: "\nThe sale&apos;s owner\n"
   syntax:
     content: public virtual string AssociateFullName { get; set; }
     parameters: []
@@ -302,6 +384,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property AssociateFullName As String
   overload: SuperOffice.WebApi.Data.Sale.AssociateFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.Description
   commentId: P:SuperOffice.WebApi.Data.Sale.Description
   id: Description
@@ -313,11 +403,13 @@ items:
   nameWithType: Sale.Description
   fullName: SuperOffice.WebApi.Data.Sale.Description
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The sales description
-  example: []
+  summary: "\nThe sales description\n"
   syntax:
     content: public virtual string Description { get; set; }
     parameters: []
@@ -325,6 +417,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Description As String
   overload: SuperOffice.WebApi.Data.Sale.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.Status_String
   commentId: P:SuperOffice.WebApi.Data.Sale.Status_String
   id: Status_String
@@ -336,36 +436,29 @@ items:
   nameWithType: Sale.Status_String
   fullName: SuperOffice.WebApi.Data.Sale.Status_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The sale's status, indicating wether the sale is open, sold or lost.
-
-    Raw string enum value.
-  example: []
+  summary: "\nThe sale&apos;s status, indicating wether the sale is open, sold or lost.\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("Status")]
-
-      public string Status_String { get; set; }
+    content: public string Status_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("Status")>
-
-      Public Property Status_String As String
+    content.vb: Public Property Status_String As String
   overload: SuperOffice.WebApi.Data.Sale.Status_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.Sale.Status
     commentId: P:SuperOffice.WebApi.Data.Sale.Status
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Status
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Sale.Status
   commentId: P:SuperOffice.WebApi.Data.Sale.Status
   id: Status
@@ -377,34 +470,29 @@ items:
   nameWithType: Sale.Status
   fullName: SuperOffice.WebApi.Data.Sale.Status
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The sale's status, indicating wether the sale is open, sold or lost.
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nThe sale&apos;s status, indicating wether the sale is open, sold or lost.\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public SaleStatus? Status { get; set; }
+    content: public Nullable<SaleStatus> Status { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.SaleStatus}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property Status As SaleStatus?
+    content.vb: Public Property Status As Nullable(Of SaleStatus)
   overload: SuperOffice.WebApi.Data.Sale.Status*
   seealso:
   - linkId: SuperOffice.WebApi.Data.Sale.Status_String
     commentId: P:SuperOffice.WebApi.Data.Sale.Status_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Sale.WeightedAmount
   commentId: P:SuperOffice.WebApi.Data.Sale.WeightedAmount
   id: WeightedAmount
@@ -416,11 +504,13 @@ items:
   nameWithType: Sale.WeightedAmount
   fullName: SuperOffice.WebApi.Data.Sale.WeightedAmount
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The weighted amount ( amount *  probability / 100)
-  example: []
+  summary: "\nThe weighted amount ( amount *  probability / 100)\n"
   syntax:
     content: public virtual double WeightedAmount { get; set; }
     parameters: []
@@ -428,6 +518,14 @@ items:
       type: System.Double
     content.vb: Public Overridable Property WeightedAmount As Double
   overload: SuperOffice.WebApi.Data.Sale.WeightedAmount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.ProjectId
   commentId: P:SuperOffice.WebApi.Data.Sale.ProjectId
   id: ProjectId
@@ -439,11 +537,13 @@ items:
   nameWithType: Sale.ProjectId
   fullName: SuperOffice.WebApi.Data.Sale.ProjectId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Optional project reference
-  example: []
+  summary: "\nOptional project reference\n"
   syntax:
     content: public virtual int ProjectId { get; set; }
     parameters: []
@@ -451,6 +551,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ProjectId As Integer
   overload: SuperOffice.WebApi.Data.Sale.ProjectId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.EarningPercent
   commentId: P:SuperOffice.WebApi.Data.Sale.EarningPercent
   id: EarningPercent
@@ -462,11 +570,13 @@ items:
   nameWithType: Sale.EarningPercent
   fullName: SuperOffice.WebApi.Data.Sale.EarningPercent
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Earning as percent of total
-  example: []
+  summary: "\nEarning as percent of total\n"
   syntax:
     content: public virtual double EarningPercent { get; set; }
     parameters: []
@@ -474,6 +584,14 @@ items:
       type: System.Double
     content.vb: Public Overridable Property EarningPercent As Double
   overload: SuperOffice.WebApi.Data.Sale.EarningPercent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.Earning
   commentId: P:SuperOffice.WebApi.Data.Sale.Earning
   id: Earning
@@ -485,11 +603,13 @@ items:
   nameWithType: Sale.Earning
   fullName: SuperOffice.WebApi.Data.Sale.Earning
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Earning on sale
-  example: []
+  summary: "\nEarning on sale\n"
   syntax:
     content: public virtual double Earning { get; set; }
     parameters: []
@@ -497,6 +617,14 @@ items:
       type: System.Double
     content.vb: Public Overridable Property Earning As Double
   overload: SuperOffice.WebApi.Data.Sale.Earning*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.ContactId
   commentId: P:SuperOffice.WebApi.Data.Sale.ContactId
   id: ContactId
@@ -508,11 +636,13 @@ items:
   nameWithType: Sale.ContactId
   fullName: SuperOffice.WebApi.Data.Sale.ContactId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Optional contact reference
-  example: []
+  summary: "\nOptional contact reference\n"
   syntax:
     content: public virtual int ContactId { get; set; }
     parameters: []
@@ -520,6 +650,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ContactId As Integer
   overload: SuperOffice.WebApi.Data.Sale.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.AssociateId
   commentId: P:SuperOffice.WebApi.Data.Sale.AssociateId
   id: AssociateId
@@ -531,11 +669,13 @@ items:
   nameWithType: Sale.AssociateId
   fullName: SuperOffice.WebApi.Data.Sale.AssociateId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The sale's owner id
-  example: []
+  summary: "\nThe sale&apos;s owner id\n"
   syntax:
     content: public virtual int AssociateId { get; set; }
     parameters: []
@@ -543,6 +683,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property AssociateId As Integer
   overload: SuperOffice.WebApi.Data.Sale.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.PersonId
   commentId: P:SuperOffice.WebApi.Data.Sale.PersonId
   id: PersonId
@@ -554,11 +702,13 @@ items:
   nameWithType: Sale.PersonId
   fullName: SuperOffice.WebApi.Data.Sale.PersonId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The sale's contact persons id
-  example: []
+  summary: "\nThe sale&apos;s contact persons id\n"
   syntax:
     content: public virtual int PersonId { get; set; }
     parameters: []
@@ -566,6 +716,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property PersonId As Integer
   overload: SuperOffice.WebApi.Data.Sale.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.SaleTypeId
   commentId: P:SuperOffice.WebApi.Data.Sale.SaleTypeId
   id: SaleTypeId
@@ -577,11 +735,13 @@ items:
   nameWithType: Sale.SaleTypeId
   fullName: SuperOffice.WebApi.Data.Sale.SaleTypeId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The sale's type id
-  example: []
+  summary: "\nThe sale&apos;s type id\n"
   syntax:
     content: public virtual int SaleTypeId { get; set; }
     parameters: []
@@ -589,6 +749,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property SaleTypeId As Integer
   overload: SuperOffice.WebApi.Data.Sale.SaleTypeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.SaleTypeName
   commentId: P:SuperOffice.WebApi.Data.Sale.SaleTypeName
   id: SaleTypeName
@@ -600,11 +768,13 @@ items:
   nameWithType: Sale.SaleTypeName
   fullName: SuperOffice.WebApi.Data.Sale.SaleTypeName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The sale's type name
-  example: []
+  summary: "\nThe sale&apos;s type name\n"
   syntax:
     content: public virtual string SaleTypeName { get; set; }
     parameters: []
@@ -612,6 +782,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property SaleTypeName As String
   overload: SuperOffice.WebApi.Data.Sale.SaleTypeName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.PersonFullName
   commentId: P:SuperOffice.WebApi.Data.Sale.PersonFullName
   id: PersonFullName
@@ -623,11 +801,13 @@ items:
   nameWithType: Sale.PersonFullName
   fullName: SuperOffice.WebApi.Data.Sale.PersonFullName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The name of the person this sale belongs to.
-  example: []
+  summary: "\nThe name of the person this sale belongs to.\n"
   syntax:
     content: public virtual string PersonFullName { get; set; }
     parameters: []
@@ -635,6 +815,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonFullName As String
   overload: SuperOffice.WebApi.Data.Sale.PersonFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.Completed_String
   commentId: P:SuperOffice.WebApi.Data.Sale.Completed_String
   id: Completed_String
@@ -646,36 +834,29 @@ items:
   nameWithType: Sale.Completed_String
   fullName: SuperOffice.WebApi.Data.Sale.Completed_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The Sale completed state. The completed state is either Started or Completed. NotStarted is treated as Started. The value maps to the Done database field.
-
-    Raw string enum value.
-  example: []
+  summary: "\nThe Sale completed state. The completed state is either Started or Completed. NotStarted is treated as Started. The value maps to the Done database field.\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("Completed")]
-
-      public string Completed_String { get; set; }
+    content: public string Completed_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("Completed")>
-
-      Public Property Completed_String As String
+    content.vb: Public Property Completed_String As String
   overload: SuperOffice.WebApi.Data.Sale.Completed_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.Sale.Completed
     commentId: P:SuperOffice.WebApi.Data.Sale.Completed
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Completed
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Sale.Completed
   commentId: P:SuperOffice.WebApi.Data.Sale.Completed
   id: Completed
@@ -687,34 +868,29 @@ items:
   nameWithType: Sale.Completed
   fullName: SuperOffice.WebApi.Data.Sale.Completed
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The Sale completed state. The completed state is either Started or Completed. NotStarted is treated as Started. The value maps to the Done database field.
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nThe Sale completed state. The completed state is either Started or Completed. NotStarted is treated as Started. The value maps to the Done database field.\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public ActivityStatus? Completed { get; set; }
+    content: public Nullable<ActivityStatus> Completed { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.ActivityStatus}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property Completed As ActivityStatus?
+    content.vb: Public Property Completed As Nullable(Of ActivityStatus)
   overload: SuperOffice.WebApi.Data.Sale.Completed*
   seealso:
   - linkId: SuperOffice.WebApi.Data.Sale.Completed_String
     commentId: P:SuperOffice.WebApi.Data.Sale.Completed_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Sale.ActiveErpLinks
   commentId: P:SuperOffice.WebApi.Data.Sale.ActiveErpLinks
   id: ActiveErpLinks
@@ -726,11 +902,13 @@ items:
   nameWithType: Sale.ActiveErpLinks
   fullName: SuperOffice.WebApi.Data.Sale.ActiveErpLinks
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The number of active erp links
-  example: []
+  summary: "\nThe number of active erp links\n"
   syntax:
     content: public virtual int ActiveErpLinks { get; set; }
     parameters: []
@@ -738,6 +916,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ActiveErpLinks As Integer
   overload: SuperOffice.WebApi.Data.Sale.ActiveErpLinks*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.NextDueDate
   commentId: P:SuperOffice.WebApi.Data.Sale.NextDueDate
   id: NextDueDate
@@ -749,18 +935,28 @@ items:
   nameWithType: Sale.NextDueDate
   fullName: SuperOffice.WebApi.Data.Sale.NextDueDate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Next due date, this is a denormalization of 'closest future activity date, or most recent if no future activities'. Maintained by the system, but very convenient for searching.
-  example: []
+  summary: "\nNext due date, this is a denormalization of &apos;closest future activity date, or most recent if no future activities&apos;. Maintained by the system, but very convenient for searching.\n"
   syntax:
     content: public virtual DateTime NextDueDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property NextDueDate As Date
+    content.vb: Public Overridable Property NextDueDate As DateTime
   overload: SuperOffice.WebApi.Data.Sale.NextDueDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Sale.Number
   commentId: P:SuperOffice.WebApi.Data.Sale.Number
   id: Number
@@ -772,11 +968,13 @@ items:
   nameWithType: Sale.Number
   fullName: SuperOffice.WebApi.Data.Sale.Number
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Alphanumeric user field
-  example: []
+  summary: "\nAlphanumeric user field\n"
   syntax:
     content: public virtual string Number { get; set; }
     parameters: []
@@ -784,67 +982,32 @@ items:
       type: System.String
     content.vb: Public Overridable Property Number As String
   overload: SuperOffice.WebApi.Data.Sale.Number*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.SaleAgent
-  commentId: T:SuperOffice.WebApi.Agents.SaleAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.SaleAgent.html
-  name: SaleAgent
-  nameWithType: SaleAgent
-  fullName: SuperOffice.WebApi.Agents.SaleAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -852,7 +1015,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -860,250 +1022,30 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.SaleAgent
+  commentId: T:SuperOffice.WebApi.Agents.SaleAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: SaleAgent
+  nameWithType: SaleAgent
+  fullName: SuperOffice.WebApi.Agents.SaleAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.Sale.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale__ctor
   name: Sale
   nameWithType: Sale.Sale
   fullName: SuperOffice.WebApi.Data.Sale.Sale
-  nameWithType.vb: Sale.New
-  fullName.vb: SuperOffice.WebApi.Data.Sale.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.Sale.ContactName*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.ContactName
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_ContactName
   name: ContactName
   nameWithType: Sale.ContactName
   fullName: SuperOffice.WebApi.Data.Sale.ContactName
@@ -1111,35 +1053,23 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.Sale.SaleDate*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.SaleDate
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_SaleDate
   name: SaleDate
   nameWithType: Sale.SaleDate
   fullName: SuperOffice.WebApi.Data.Sale.SaleDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.WebApi.Data.Sale.SaleId*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.SaleId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_SaleId
   name: SaleId
   nameWithType: Sale.SaleId
   fullName: SuperOffice.WebApi.Data.Sale.SaleId
@@ -1147,17 +1077,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.Sale.Probability*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.Probability
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_Probability
   name: Probability
   nameWithType: Sale.Probability
   fullName: SuperOffice.WebApi.Data.Sale.Probability
@@ -1165,24 +1090,18 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.Sale.Title*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.Title
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_Title
   name: Title
   nameWithType: Sale.Title
   fullName: SuperOffice.WebApi.Data.Sale.Title
 - uid: SuperOffice.WebApi.Data.Sale.Amount*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.Amount
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_Amount
   name: Amount
   nameWithType: Sale.Amount
   fullName: SuperOffice.WebApi.Data.Sale.Amount
@@ -1190,253 +1109,268 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.double
-  name: double
-  nameWithType: double
-  fullName: double
-  nameWithType.vb: Double
-  fullName.vb: Double
-  name.vb: Double
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
 - uid: SuperOffice.WebApi.Data.Sale.Currency*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.Currency
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_Currency
   name: Currency
   nameWithType: Sale.Currency
   fullName: SuperOffice.WebApi.Data.Sale.Currency
 - uid: SuperOffice.WebApi.Data.Sale.ProjectName*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.ProjectName
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_ProjectName
   name: ProjectName
   nameWithType: Sale.ProjectName
   fullName: SuperOffice.WebApi.Data.Sale.ProjectName
 - uid: SuperOffice.WebApi.Data.Sale.AssociateFullName*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.AssociateFullName
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_AssociateFullName
   name: AssociateFullName
   nameWithType: Sale.AssociateFullName
   fullName: SuperOffice.WebApi.Data.Sale.AssociateFullName
 - uid: SuperOffice.WebApi.Data.Sale.Description*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.Description
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_Description
   name: Description
   nameWithType: Sale.Description
   fullName: SuperOffice.WebApi.Data.Sale.Description
-- uid: SuperOffice.WebApi.Data.Sale.Status
-  commentId: P:SuperOffice.WebApi.Data.Sale.Status
-  isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_Status
-  name: Status
-  nameWithType: Sale.Status
-  fullName: SuperOffice.WebApi.Data.Sale.Status
 - uid: SuperOffice.WebApi.Data.Sale.Status_String*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.Status_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_Status_String
   name: Status_String
   nameWithType: Sale.Status_String
   fullName: SuperOffice.WebApi.Data.Sale.Status_String
-- uid: SuperOffice.WebApi.Data.Sale.Status_String
-  commentId: P:SuperOffice.WebApi.Data.Sale.Status_String
+- uid: SuperOffice.WebApi.Data.Sale.Status
+  commentId: P:SuperOffice.WebApi.Data.Sale.Status
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_Status_String
-  name: Status_String
-  nameWithType: Sale.Status_String
-  fullName: SuperOffice.WebApi.Data.Sale.Status_String
 - uid: SuperOffice.WebApi.Data.Sale.Status*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.Status
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_Status
   name: Status
   nameWithType: Sale.Status
   fullName: SuperOffice.WebApi.Data.Sale.Status
-- uid: System.Nullable{SuperOffice.WebApi.Data.SaleStatus}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.SaleStatus}
-  parent: System
-  definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.SaleStatus.html
-  name: SaleStatus?
-  nameWithType: SaleStatus?
-  fullName: SuperOffice.WebApi.Data.SaleStatus?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.SaleStatus
-    name: SaleStatus
-    isExternal: true
-    href: SuperOffice.WebApi.Data.SaleStatus.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.SaleStatus
-    name: SaleStatus
-    isExternal: true
-    href: SuperOffice.WebApi.Data.SaleStatus.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
+- uid: SuperOffice.WebApi.Data.Sale.Status_String
+  commentId: P:SuperOffice.WebApi.Data.Sale.Status_String
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+- uid: System.Nullable{SuperOffice.WebApi.Data.SaleStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.SaleStatus}'
+  definition: System.Nullable`1
+  name: Nullable<SaleStatus>
+  nameWithType: Nullable<SaleStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.SaleStatus>
+  nameWithType.vb: Nullable(Of SaleStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.SaleStatus)
+  name.vb: Nullable(Of SaleStatus)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.SaleStatus
+    name: SaleStatus
+    nameWithType: SaleStatus
+    fullName: SuperOffice.WebApi.Data.SaleStatus
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.SaleStatus
+    name: SaleStatus
+    nameWithType: SaleStatus
+    fullName: SuperOffice.WebApi.Data.SaleStatus
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.Sale.WeightedAmount*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.WeightedAmount
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_WeightedAmount
   name: WeightedAmount
   nameWithType: Sale.WeightedAmount
   fullName: SuperOffice.WebApi.Data.Sale.WeightedAmount
 - uid: SuperOffice.WebApi.Data.Sale.ProjectId*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.ProjectId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_ProjectId
   name: ProjectId
   nameWithType: Sale.ProjectId
   fullName: SuperOffice.WebApi.Data.Sale.ProjectId
 - uid: SuperOffice.WebApi.Data.Sale.EarningPercent*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.EarningPercent
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_EarningPercent
   name: EarningPercent
   nameWithType: Sale.EarningPercent
   fullName: SuperOffice.WebApi.Data.Sale.EarningPercent
 - uid: SuperOffice.WebApi.Data.Sale.Earning*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.Earning
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_Earning
   name: Earning
   nameWithType: Sale.Earning
   fullName: SuperOffice.WebApi.Data.Sale.Earning
 - uid: SuperOffice.WebApi.Data.Sale.ContactId*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.ContactId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_ContactId
   name: ContactId
   nameWithType: Sale.ContactId
   fullName: SuperOffice.WebApi.Data.Sale.ContactId
 - uid: SuperOffice.WebApi.Data.Sale.AssociateId*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.AssociateId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_AssociateId
   name: AssociateId
   nameWithType: Sale.AssociateId
   fullName: SuperOffice.WebApi.Data.Sale.AssociateId
 - uid: SuperOffice.WebApi.Data.Sale.PersonId*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.PersonId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_PersonId
   name: PersonId
   nameWithType: Sale.PersonId
   fullName: SuperOffice.WebApi.Data.Sale.PersonId
 - uid: SuperOffice.WebApi.Data.Sale.SaleTypeId*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.SaleTypeId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_SaleTypeId
   name: SaleTypeId
   nameWithType: Sale.SaleTypeId
   fullName: SuperOffice.WebApi.Data.Sale.SaleTypeId
 - uid: SuperOffice.WebApi.Data.Sale.SaleTypeName*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.SaleTypeName
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_SaleTypeName
   name: SaleTypeName
   nameWithType: Sale.SaleTypeName
   fullName: SuperOffice.WebApi.Data.Sale.SaleTypeName
 - uid: SuperOffice.WebApi.Data.Sale.PersonFullName*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.PersonFullName
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_PersonFullName
   name: PersonFullName
   nameWithType: Sale.PersonFullName
   fullName: SuperOffice.WebApi.Data.Sale.PersonFullName
-- uid: SuperOffice.WebApi.Data.Sale.Completed
-  commentId: P:SuperOffice.WebApi.Data.Sale.Completed
-  isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_Completed
-  name: Completed
-  nameWithType: Sale.Completed
-  fullName: SuperOffice.WebApi.Data.Sale.Completed
 - uid: SuperOffice.WebApi.Data.Sale.Completed_String*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.Completed_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_Completed_String
   name: Completed_String
   nameWithType: Sale.Completed_String
   fullName: SuperOffice.WebApi.Data.Sale.Completed_String
-- uid: SuperOffice.WebApi.Data.Sale.Completed_String
-  commentId: P:SuperOffice.WebApi.Data.Sale.Completed_String
+- uid: SuperOffice.WebApi.Data.Sale.Completed
+  commentId: P:SuperOffice.WebApi.Data.Sale.Completed
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_Completed_String
-  name: Completed_String
-  nameWithType: Sale.Completed_String
-  fullName: SuperOffice.WebApi.Data.Sale.Completed_String
 - uid: SuperOffice.WebApi.Data.Sale.Completed*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.Completed
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_Completed
   name: Completed
   nameWithType: Sale.Completed
   fullName: SuperOffice.WebApi.Data.Sale.Completed
+- uid: SuperOffice.WebApi.Data.Sale.Completed_String
+  commentId: P:SuperOffice.WebApi.Data.Sale.Completed_String
+  isExternal: true
 - uid: System.Nullable{SuperOffice.WebApi.Data.ActivityStatus}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.ActivityStatus}
-  parent: System
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ActivityStatus}'
   definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.ActivityStatus.html
-  name: ActivityStatus?
-  nameWithType: ActivityStatus?
-  fullName: SuperOffice.WebApi.Data.ActivityStatus?
+  name: Nullable<ActivityStatus>
+  nameWithType: Nullable<ActivityStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ActivityStatus>
+  nameWithType.vb: Nullable(Of ActivityStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ActivityStatus)
+  name.vb: Nullable(Of ActivityStatus)
   spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.ActivityStatus
     name: ActivityStatus
+    nameWithType: ActivityStatus
+    fullName: SuperOffice.WebApi.Data.ActivityStatus
     isExternal: true
-    href: SuperOffice.WebApi.Data.ActivityStatus.html
-  - name: '?'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.ActivityStatus
     name: ActivityStatus
+    nameWithType: ActivityStatus
+    fullName: SuperOffice.WebApi.Data.ActivityStatus
     isExternal: true
-    href: SuperOffice.WebApi.Data.ActivityStatus.html
-  - name: '?'
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.Sale.ActiveErpLinks*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.ActiveErpLinks
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_ActiveErpLinks
   name: ActiveErpLinks
   nameWithType: Sale.ActiveErpLinks
   fullName: SuperOffice.WebApi.Data.Sale.ActiveErpLinks
 - uid: SuperOffice.WebApi.Data.Sale.NextDueDate*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.NextDueDate
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_NextDueDate
   name: NextDueDate
   nameWithType: Sale.NextDueDate
   fullName: SuperOffice.WebApi.Data.Sale.NextDueDate
 - uid: SuperOffice.WebApi.Data.Sale.Number*
   commentId: Overload:SuperOffice.WebApi.Data.Sale.Number
   isExternal: true
-  href: SuperOffice.WebApi.Data.Sale.html#SuperOffice_WebApi_Data_Sale_Number
   name: Number
   nameWithType: Sale.Number
   fullName: SuperOffice.WebApi.Data.Sale.Number

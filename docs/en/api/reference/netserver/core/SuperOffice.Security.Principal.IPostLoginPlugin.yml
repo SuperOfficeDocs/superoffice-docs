@@ -15,15 +15,26 @@ items:
   nameWithType: IPostLoginPlugin
   fullName: SuperOffice.Security.Principal.IPostLoginPlugin
   type: Interface
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Principal
   syntax:
-    content: public interface IPostLoginPlugin
-    content.vb: Public Interface IPostLoginPlugin
+    content: 'public interface IPostLoginPlugin : IPlugin'
+    content.vb: >-
+      Public Interface IPostLoginPlugin
+          Inherits IPlugin
   extensionMethods:
   - SuperOffice.Security.Principal.IPostLoginPlugin.EnumUtil.MapEnums``2
   - SuperOffice.Security.Principal.IPostLoginPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(System.String,System.String)
   commentId: M:SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(System.String,System.String)
   id: GetEndpointUri(System.String,System.String)
@@ -31,15 +42,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetEndpointUri(string, string)
-  nameWithType: IPostLoginPlugin.GetEndpointUri(string, string)
-  fullName: SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(string, string)
+  name: GetEndpointUri(String, String)
+  nameWithType: IPostLoginPlugin.GetEndpointUri(String, String)
+  fullName: SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(System.String, System.String)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Principal
-  summary: Obtain endpoint for external service where browser should be redirected
-  example: []
+  summary: "\nObtain endpoint for external service where browser should be redirected\n"
   syntax:
     content: string GetEndpointUri(string callbackUri, string state)
     parameters:
@@ -54,9 +67,6 @@ items:
       description: url the browser can be redirected to
     content.vb: Function GetEndpointUri(callbackUri As String, state As String) As String
   overload: SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri*
-  nameWithType.vb: IPostLoginPlugin.GetEndpointUri(String, String)
-  fullName.vb: SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri(String, String)
-  name.vb: GetEndpointUri(String, String)
 - uid: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
   commentId: M:SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
   id: ProcessCallback(System.String,System.Collections.Generic.Dictionary{System.String,System.String})
@@ -64,15 +74,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ProcessCallback(string, Dictionary<string, string>)
-  nameWithType: IPostLoginPlugin.ProcessCallback(string, Dictionary<string, string>)
-  fullName: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(string, System.Collections.Generic.Dictionary<string, string>)
+  name: ProcessCallback(String, Dictionary<String, String>)
+  nameWithType: IPostLoginPlugin.ProcessCallback(String, Dictionary<String, String>)
+  fullName: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(System.String, System.Collections.Generic.Dictionary<System.String, System.String>)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Principal
-  summary: Handle payload and return state from external service
-  example: []
+  summary: "\nHandle payload and return state from external service\n"
   syntax:
     content: string ProcessCallback(string payload, Dictionary<string, string> args)
     parameters:
@@ -88,7 +100,7 @@ items:
     content.vb: Function ProcessCallback(payload As String, args As Dictionary(Of String, String)) As String
   overload: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback*
   nameWithType.vb: IPostLoginPlugin.ProcessCallback(String, Dictionary(Of String, String))
-  fullName.vb: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(String, System.Collections.Generic.Dictionary(Of String, String))
+  fullName.vb: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback(System.String, System.Collections.Generic.Dictionary(Of System.String, System.String))
   name.vb: ProcessCallback(String, Dictionary(Of String, String))
 - uid: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired
   commentId: P:SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired
@@ -101,6 +113,9 @@ items:
   nameWithType: IPostLoginPlugin.IsRequired
   fullName: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Security.Principal
@@ -111,154 +126,88 @@ items:
       type: System.Boolean
     content.vb: ReadOnly Property IsRequired As Boolean
   overload: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 references:
 - uid: SuperOffice.Security.Principal
   commentId: N:SuperOffice.Security.Principal
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Security.Principal
   nameWithType: SuperOffice.Security.Principal
   fullName: SuperOffice.Security.Principal
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
-  - name: .
-  - uid: SuperOffice.Security.Principal
-    name: Principal
-    isExternal: true
-    href: SuperOffice.Security.Principal.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
-  - name: .
-  - uid: SuperOffice.Security.Principal
-    name: Principal
-    isExternal: true
-    href: SuperOffice.Security.Principal.html
 - uid: SuperOffice.Security.Principal.IPostLoginPlugin.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<IPostLoginPlugin, To>(IPostLoginPlugin)
-  nameWithType: EnumUtil.MapEnums<IPostLoginPlugin, To>(IPostLoginPlugin)
-  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.IPostLoginPlugin, To>(SuperOffice.Security.Principal.IPostLoginPlugin)
-  nameWithType.vb: EnumUtil.MapEnums(Of IPostLoginPlugin, To)(IPostLoginPlugin)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.IPostLoginPlugin, To)(SuperOffice.Security.Principal.IPostLoginPlugin)
-  name.vb: MapEnums(Of IPostLoginPlugin, To)(IPostLoginPlugin)
+  name: MapEnums<IPostLoginPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<IPostLoginPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.IPostLoginPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IPostLoginPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.IPostLoginPlugin, To)()
+  name.vb: MapEnums(Of IPostLoginPlugin, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Principal.IPostLoginPlugin)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IPostLoginPlugin, To>
+    nameWithType: EnumUtil.MapEnums<IPostLoginPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.IPostLoginPlugin, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Security.Principal.IPostLoginPlugin
-    name: IPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Principal.IPostLoginPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Security.Principal.IPostLoginPlugin
-    name: IPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Principal.IPostLoginPlugin.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Principal.IPostLoginPlugin)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IPostLoginPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of IPostLoginPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.IPostLoginPlugin, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.Principal.IPostLoginPlugin
-    name: IPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Principal.IPostLoginPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Security.Principal.IPostLoginPlugin
-    name: IPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Principal.IPostLoginPlugin.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Security.Principal.IPostLoginPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<IPostLoginPlugin, To>(IPostLoginPlugin)
-  nameWithType: Converters.MapEnums<IPostLoginPlugin, To>(IPostLoginPlugin)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.IPostLoginPlugin, To>(SuperOffice.Security.Principal.IPostLoginPlugin)
-  nameWithType.vb: Converters.MapEnums(Of IPostLoginPlugin, To)(IPostLoginPlugin)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.IPostLoginPlugin, To)(SuperOffice.Security.Principal.IPostLoginPlugin)
-  name.vb: MapEnums(Of IPostLoginPlugin, To)(IPostLoginPlugin)
+  name: MapEnums<IPostLoginPlugin, To>()
+  nameWithType: Converters.MapEnums<IPostLoginPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.IPostLoginPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of IPostLoginPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.IPostLoginPlugin, To)()
+  name.vb: MapEnums(Of IPostLoginPlugin, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Principal.IPostLoginPlugin)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IPostLoginPlugin, To>
+    nameWithType: Converters.MapEnums<IPostLoginPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.IPostLoginPlugin, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Security.Principal.IPostLoginPlugin
-    name: IPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Principal.IPostLoginPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Security.Principal.IPostLoginPlugin
-    name: IPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Principal.IPostLoginPlugin.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Principal.IPostLoginPlugin)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IPostLoginPlugin, To)
+    nameWithType: Converters.MapEnums(Of IPostLoginPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.IPostLoginPlugin, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.Principal.IPostLoginPlugin
-    name: IPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Principal.IPostLoginPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Security.Principal.IPostLoginPlugin
-    name: IPostLoginPlugin
-    isExternal: true
-    href: SuperOffice.Security.Principal.IPostLoginPlugin.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -267,45 +216,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -314,83 +261,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri*
   commentId: Overload:SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri
   isExternal: true
-  href: SuperOffice.Security.Principal.IPostLoginPlugin.html#SuperOffice_Security_Principal_IPostLoginPlugin_GetEndpointUri_System_String_System_String_
   name: GetEndpointUri
   nameWithType: IPostLoginPlugin.GetEndpointUri
   fullName: SuperOffice.Security.Principal.IPostLoginPlugin.GetEndpointUri
@@ -398,149 +312,133 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback*
   commentId: Overload:SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback
   isExternal: true
-  href: SuperOffice.Security.Principal.IPostLoginPlugin.html#SuperOffice_Security_Principal_IPostLoginPlugin_ProcessCallback_System_String_System_Collections_Generic_Dictionary_System_String_System_String__
   name: ProcessCallback
   nameWithType: IPostLoginPlugin.ProcessCallback
   fullName: SuperOffice.Security.Principal.IPostLoginPlugin.ProcessCallback
 - uid: System.Collections.Generic.Dictionary{System.String,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
   definition: System.Collections.Generic.Dictionary`2
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<string, string>
-  nameWithType: Dictionary<string, string>
-  fullName: System.Collections.Generic.Dictionary<string, string>
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
   nameWithType.vb: Dictionary(Of String, String)
-  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
   name.vb: Dictionary(Of String, String)
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired*
   commentId: Overload:SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired
   isExternal: true
-  href: SuperOffice.Security.Principal.IPostLoginPlugin.html#SuperOffice_Security_Principal_IPostLoginPlugin_IsRequired
   name: IsRequired
   nameWithType: IPostLoginPlugin.IsRequired
   fullName: SuperOffice.Security.Principal.IPostLoginPlugin.IsRequired
@@ -548,10 +446,6 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

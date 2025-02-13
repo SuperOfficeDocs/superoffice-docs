@@ -16,17 +16,18 @@ items:
   nameWithType: WorkflowStepSendSMS
   fullName: SuperOffice.WebApi.Data.WorkflowStepSendSMS
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for WorkflowStepSendSMS.
-
-    Step in workflow.
-  example: []
+  summary: "\nCarrier object for WorkflowStepSendSMS.\nStep in workflow.    \n"
   syntax:
     content: 'public class WorkflowStepSendSMS : WorkflowStepBase'
-    content.vb: Public Class WorkflowStepSendSMS Inherits WorkflowStepBase
+    content.vb: >-
+      Public Class WorkflowStepSendSMS
+          Inherits WorkflowStepBase
   seealso:
   - linkId: SuperOffice.WebApi.Agents.WorkflowAgent
     commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
@@ -39,13 +40,12 @@ items:
   - SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
   - SuperOffice.WebApi.Data.WorkflowStepBase.StepType
   - SuperOffice.WebApi.Data.WorkflowStepBase.Rank
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.WorkflowStepSendSMS.#ctor
   commentId: M:SuperOffice.WebApi.Data.WorkflowStepSendSMS.#ctor
   id: '#ctor'
@@ -57,18 +57,21 @@ items:
   nameWithType: WorkflowStepSendSMS.WorkflowStepSendSMS()
   fullName: SuperOffice.WebApi.Data.WorkflowStepSendSMS.WorkflowStepSendSMS()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public WorkflowStepSendSMS()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.WorkflowStepSendSMS.#ctor*
-  nameWithType.vb: WorkflowStepSendSMS.New()
-  fullName.vb: SuperOffice.WebApi.Data.WorkflowStepSendSMS.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.WorkflowStepSendSMS.From
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepSendSMS.From
   id: From
@@ -80,11 +83,13 @@ items:
   nameWithType: WorkflowStepSendSMS.From
   fullName: SuperOffice.WebApi.Data.WorkflowStepSendSMS.From
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: SMS Sender
-  example: []
+  summary: "\nSMS Sender\n"
   syntax:
     content: public virtual string From { get; set; }
     parameters: []
@@ -92,6 +97,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property From As String
   overload: SuperOffice.WebApi.Data.WorkflowStepSendSMS.From*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.WorkflowStepSendSMS.Text
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepSendSMS.Text
   id: Text
@@ -103,11 +116,13 @@ items:
   nameWithType: WorkflowStepSendSMS.Text
   fullName: SuperOffice.WebApi.Data.WorkflowStepSendSMS.Text
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: SMS text message
-  example: []
+  summary: "\nSMS text message\n"
   syntax:
     content: public virtual string Text { get; set; }
     parameters: []
@@ -115,6 +130,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Text As String
   overload: SuperOffice.WebApi.Data.WorkflowStepSendSMS.Text*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.WorkflowStepSendSMS.Exit
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepSendSMS.Exit
   id: Exit
@@ -126,79 +149,46 @@ items:
   nameWithType: WorkflowStepSendSMS.Exit
   fullName: SuperOffice.WebApi.Data.WorkflowStepSendSMS.Exit
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Exit flow if no mobile phone registered
-  example: []
+  summary: "\nExit flow if no mobile phone registered\n"
   syntax:
     content: public virtual bool Exit { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property [Exit] As Boolean
+    content.vb: Public Overridable Property Exit As Boolean
   overload: SuperOffice.WebApi.Data.WorkflowStepSendSMS.Exit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.WorkflowAgent
-  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.WorkflowAgent.html
-  name: WorkflowAgent
-  nameWithType: WorkflowAgent
-  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.WorkflowStepBase
   commentId: T:SuperOffice.WebApi.Data.WorkflowStepBase
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html
   name: WorkflowStepBase
   nameWithType: WorkflowStepBase
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase
@@ -206,7 +196,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
   parent: SuperOffice.WebApi.Data.WorkflowStepBase
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_WorkflowStepId
   name: WorkflowStepId
   nameWithType: WorkflowStepBase.WorkflowStepId
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowStepId
@@ -214,7 +203,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
   parent: SuperOffice.WebApi.Data.WorkflowStepBase
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_WorkflowId
   name: WorkflowId
   nameWithType: WorkflowStepBase.WorkflowId
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.WorkflowId
@@ -222,7 +210,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
   parent: SuperOffice.WebApi.Data.WorkflowStepBase
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_StepType_String
   name: StepType_String
   nameWithType: WorkflowStepBase.StepType_String
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType_String
@@ -230,7 +217,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.StepType
   parent: SuperOffice.WebApi.Data.WorkflowStepBase
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_StepType
   name: StepType
   nameWithType: WorkflowStepBase.StepType
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.StepType
@@ -238,250 +224,30 @@ references:
   commentId: P:SuperOffice.WebApi.Data.WorkflowStepBase.Rank
   parent: SuperOffice.WebApi.Data.WorkflowStepBase
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepBase.html#SuperOffice_WebApi_Data_WorkflowStepBase_Rank
   name: Rank
   nameWithType: WorkflowStepBase.Rank
   fullName: SuperOffice.WebApi.Data.WorkflowStepBase.Rank
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent
+  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.WorkflowStepSendSMS.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepSendSMS.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepSendSMS.html#SuperOffice_WebApi_Data_WorkflowStepSendSMS__ctor
   name: WorkflowStepSendSMS
   nameWithType: WorkflowStepSendSMS.WorkflowStepSendSMS
   fullName: SuperOffice.WebApi.Data.WorkflowStepSendSMS.WorkflowStepSendSMS
-  nameWithType.vb: WorkflowStepSendSMS.New
-  fullName.vb: SuperOffice.WebApi.Data.WorkflowStepSendSMS.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.WorkflowStepSendSMS.From*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepSendSMS.From
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepSendSMS.html#SuperOffice_WebApi_Data_WorkflowStepSendSMS_From
   name: From
   nameWithType: WorkflowStepSendSMS.From
   fullName: SuperOffice.WebApi.Data.WorkflowStepSendSMS.From
@@ -489,24 +255,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.WorkflowStepSendSMS.Text*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepSendSMS.Text
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepSendSMS.html#SuperOffice_WebApi_Data_WorkflowStepSendSMS_Text
   name: Text
   nameWithType: WorkflowStepSendSMS.Text
   fullName: SuperOffice.WebApi.Data.WorkflowStepSendSMS.Text
 - uid: SuperOffice.WebApi.Data.WorkflowStepSendSMS.Exit*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowStepSendSMS.Exit
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowStepSendSMS.html#SuperOffice_WebApi_Data_WorkflowStepSendSMS_Exit
   name: Exit
   nameWithType: WorkflowStepSendSMS.Exit
   fullName: SuperOffice.WebApi.Data.WorkflowStepSendSMS.Exit
@@ -514,10 +274,6 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

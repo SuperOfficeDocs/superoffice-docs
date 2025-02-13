@@ -8,22 +8,23 @@ items:
   - SuperOffice.Data.ETableRight.Delete
   - SuperOffice.Data.ETableRight.F
   - SuperOffice.Data.ETableRight.FI
-  - SuperOffice.Data.ETableRight.FULL
   - SuperOffice.Data.ETableRight.Filtering
+  - SuperOffice.Data.ETableRight.FULL
   - SuperOffice.Data.ETableRight.Insert
   - SuperOffice.Data.ETableRight.None
   - SuperOffice.Data.ETableRight.R
+  - SuperOffice.Data.ETableRight.RestrictedUpdate
   - SuperOffice.Data.ETableRight.RF
   - SuperOffice.Data.ETableRight.RI
-  - SuperOffice.Data.ETableRight.RestrictedUpdate
   - SuperOffice.Data.ETableRight.Select
   - SuperOffice.Data.ETableRight.UDR
-  - SuperOffice.Data.ETableRight.UR
-  - SuperOffice.Data.ETableRight.URI
-  - SuperOffice.Data.ETableRight.URU
   - SuperOffice.Data.ETableRight.Uninitialized
   - SuperOffice.Data.ETableRight.Unused1
   - SuperOffice.Data.ETableRight.Update
+  - SuperOffice.Data.ETableRight.UR
+  - SuperOffice.Data.ETableRight.URI
+  - SuperOffice.Data.ETableRight.URU
+  - SuperOffice.Data.ETableRight.value__
   - SuperOffice.Data.ETableRight.WRITE
   langs:
   - csharp
@@ -31,34 +32,60 @@ items:
   name: ETableRight
   nameWithType: ETableRight
   fullName: SuperOffice.Data.ETableRight
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: >-
-    Table right is a combination of bits representing permissions on a row.
-
-    This Enum consists of flag values that can be combined.
-  example: []
+  summary: "\nTable right is a combination of bits representing permissions on a row.\nThis Enum consists of flag values that can be combined.\n"
   syntax:
-    content: >-
-      [Flags]
-
-      public enum ETableRight
+    content: 'public sealed class ETableRight : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class ETableRight
+          Inherits
 
-      Public Enum ETableRight
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.ETableRight.EnumUtil.MapEnums``2
   - SuperOffice.Data.ETableRight.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.ETableRight.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ETableRight)
-  - SuperOffice.Data.ETableRight.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.ETableRight.value__
+  commentId: F:SuperOffice.Data.ETableRight.value__
+  id: value__
+  parent: SuperOffice.Data.ETableRight
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ETableRight.value__
+  fullName: SuperOffice.Data.ETableRight.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.ETableRight.None
   commentId: F:SuperOffice.Data.ETableRight.None
   id: None
@@ -70,15 +97,24 @@ items:
   nameWithType: ETableRight.None
   fullName: SuperOffice.Data.ETableRight.None
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: The row should be hidden from the user.'
-  example: []
+  summary: "\n0: The row should be hidden from the user.\n"
   syntax:
-    content: None = 0
+    content: public const ETableRight None
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const None As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ETableRight.Select
   commentId: F:SuperOffice.Data.ETableRight.Select
   id: Select
@@ -90,15 +126,24 @@ items:
   nameWithType: ETableRight.Select
   fullName: SuperOffice.Data.ETableRight.Select
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: The user is allowed to see the row.'
-  example: []
+  summary: "\n1: The user is allowed to see the row.\n"
   syntax:
-    content: Select = 1
+    content: public const ETableRight Select
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const Select As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ETableRight.Update
   commentId: F:SuperOffice.Data.ETableRight.Update
   id: Update
@@ -110,15 +155,24 @@ items:
   nameWithType: ETableRight.Update
   fullName: SuperOffice.Data.ETableRight.Update
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: The user is allowed to modify the values in this row.'
-  example: []
+  summary: "\n2: The user is allowed to modify the values in this row.\n"
   syntax:
-    content: Update = 2
+    content: public const ETableRight Update
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const Update As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ETableRight.Insert
   commentId: F:SuperOffice.Data.ETableRight.Insert
   id: Insert
@@ -130,15 +184,24 @@ items:
   nameWithType: ETableRight.Insert
   fullName: SuperOffice.Data.ETableRight.Insert
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '4: The user is allowed to add new rows to the table.'
-  example: []
+  summary: "\n4: The user is allowed to add new rows to the table.\n"
   syntax:
-    content: Insert = 4
+    content: public const ETableRight Insert
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const Insert As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ETableRight.Delete
   commentId: F:SuperOffice.Data.ETableRight.Delete
   id: Delete
@@ -150,15 +213,24 @@ items:
   nameWithType: ETableRight.Delete
   fullName: SuperOffice.Data.ETableRight.Delete
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '8: The user is allowed to delete this row.'
-  example: []
+  summary: "\n8: The user is allowed to delete this row.\n"
   syntax:
-    content: Delete = 8
+    content: public const ETableRight Delete
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const Delete As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ETableRight.Filtering
   commentId: F:SuperOffice.Data.ETableRight.Filtering
   id: Filtering
@@ -170,15 +242,24 @@ items:
   nameWithType: ETableRight.Filtering
   fullName: SuperOffice.Data.ETableRight.Filtering
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '16: A flag used to indicate that some fields may be hidden.'
-  example: []
+  summary: "\n16: A flag used to indicate that some fields may be hidden.\n"
   syntax:
-    content: Filtering = 16
+    content: public const ETableRight Filtering
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const Filtering As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ETableRight.RestrictedUpdate
   commentId: F:SuperOffice.Data.ETableRight.RestrictedUpdate
   id: RestrictedUpdate
@@ -190,15 +271,24 @@ items:
   nameWithType: ETableRight.RestrictedUpdate
   fullName: SuperOffice.Data.ETableRight.RestrictedUpdate
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '32: A hint flag used to indicate that some fields may not be updateable, even though the user has update access to the row.'
-  example: []
+  summary: "\n32: A hint flag used to indicate that some fields may not be updateable, even though the user has update access to the row.\n"
   syntax:
-    content: RestrictedUpdate = 32
+    content: public const ETableRight RestrictedUpdate
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const RestrictedUpdate As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ETableRight.Unused1
   commentId: F:SuperOffice.Data.ETableRight.Unused1
   id: Unused1
@@ -210,15 +300,24 @@ items:
   nameWithType: ETableRight.Unused1
   fullName: SuperOffice.Data.ETableRight.Unused1
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '64: Unused value only present for serializatrion purposes'
-  example: []
+  summary: "\n64: Unused value only present for serializatrion purposes\n"
   syntax:
-    content: Unused1 = 64
+    content: public const ETableRight Unused1
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const Unused1 As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ETableRight.Uninitialized
   commentId: F:SuperOffice.Data.ETableRight.Uninitialized
   id: Uninitialized
@@ -230,15 +329,24 @@ items:
   nameWithType: ETableRight.Uninitialized
   fullName: SuperOffice.Data.ETableRight.Uninitialized
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '128: Magic value to indicate not'
-  example: []
+  summary: "\n128: Magic value to indicate not\n"
   syntax:
-    content: Uninitialized = 128
+    content: public const ETableRight Uninitialized
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const Uninitialized As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ETableRight.FULL
   commentId: F:SuperOffice.Data.ETableRight.FULL
   id: FULL
@@ -250,16 +358,24 @@ items:
   nameWithType: ETableRight.FULL
   fullName: SuperOffice.Data.ETableRight.FULL
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '15: Select, Update, Insert, Delete - no restrictions'
-  example: []
+  summary: "\n15: Select, Update, Insert, Delete - no restrictions\n"
   syntax:
-    content: FULL = Insert | UDR
+    content: public const ETableRight FULL
     return:
       type: SuperOffice.Data.ETableRight
-    content.vb: FULL = Insert Or UDR
+    content.vb: Public Const FULL As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ETableRight.WRITE
   commentId: F:SuperOffice.Data.ETableRight.WRITE
   id: WRITE
@@ -271,16 +387,24 @@ items:
   nameWithType: ETableRight.WRITE
   fullName: SuperOffice.Data.ETableRight.WRITE
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '38: Update/RestrictedUpdate or Insert'
-  example: []
+  summary: "\n38: Update/RestrictedUpdate or Insert\n"
   syntax:
-    content: WRITE = Insert | URU
+    content: public const ETableRight WRITE
     return:
       type: SuperOffice.Data.ETableRight
-    content.vb: WRITE = Insert Or URU
+    content.vb: Public Const WRITE As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ETableRight.URU
   commentId: F:SuperOffice.Data.ETableRight.URU
   id: URU
@@ -292,16 +416,24 @@ items:
   nameWithType: ETableRight.URU
   fullName: SuperOffice.Data.ETableRight.URU
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '34: Update or RestrictedUpdate'
-  example: []
+  summary: "\n34: Update or RestrictedUpdate\n"
   syntax:
-    content: URU = Update | RestrictedUpdate
+    content: public const ETableRight URU
     return:
       type: SuperOffice.Data.ETableRight
-    content.vb: URU = Update Or RestrictedUpdate
+    content.vb: Public Const URU As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ETableRight.UDR
   commentId: F:SuperOffice.Data.ETableRight.UDR
   id: UDR
@@ -313,16 +445,24 @@ items:
   nameWithType: ETableRight.UDR
   fullName: SuperOffice.Data.ETableRight.UDR
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '11: Select, Update, Delete'
-  example: []
+  summary: "\n11: Select, Update, Delete\n"
   syntax:
-    content: UDR = UR | Delete
+    content: public const ETableRight UDR
     return:
       type: SuperOffice.Data.ETableRight
-    content.vb: UDR = UR Or Delete
+    content.vb: Public Const UDR As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ETableRight.UR
   commentId: F:SuperOffice.Data.ETableRight.UR
   id: UR
@@ -334,16 +474,24 @@ items:
   nameWithType: ETableRight.UR
   fullName: SuperOffice.Data.ETableRight.UR
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '3: Select or Update'
-  example: []
+  summary: "\n3: Select or Update\n"
   syntax:
-    content: UR = R | Update
+    content: public const ETableRight UR
     return:
       type: SuperOffice.Data.ETableRight
-    content.vb: UR = R Or Update
+    content.vb: Public Const UR As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ETableRight.URI
   commentId: F:SuperOffice.Data.ETableRight.URI
   id: URI
@@ -355,16 +503,24 @@ items:
   nameWithType: ETableRight.URI
   fullName: SuperOffice.Data.ETableRight.URI
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '7: Select, Update, Insert'
-  example: []
+  summary: "\n7: Select, Update, Insert\n"
   syntax:
-    content: URI = Update | RI
+    content: public const ETableRight URI
     return:
       type: SuperOffice.Data.ETableRight
-    content.vb: URI = Update Or RI
+    content.vb: Public Const URI As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ETableRight.R
   commentId: F:SuperOffice.Data.ETableRight.R
   id: R
@@ -376,15 +532,24 @@ items:
   nameWithType: ETableRight.R
   fullName: SuperOffice.Data.ETableRight.R
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Select only'
-  example: []
+  summary: "\n1: Select only\n"
   syntax:
-    content: R = 1
+    content: public const ETableRight R
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const R As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ETableRight.RI
   commentId: F:SuperOffice.Data.ETableRight.RI
   id: RI
@@ -396,16 +561,24 @@ items:
   nameWithType: ETableRight.RI
   fullName: SuperOffice.Data.ETableRight.RI
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '5: Select and Insert (Anonymous)'
-  example: []
+  summary: "\n5: Select and Insert (Anonymous)\n"
   syntax:
-    content: RI = R | Insert
+    content: public const ETableRight RI
     return:
       type: SuperOffice.Data.ETableRight
-    content.vb: RI = R Or Insert
+    content.vb: Public Const RI As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ETableRight.RF
   commentId: F:SuperOffice.Data.ETableRight.RF
   id: RF
@@ -417,16 +590,24 @@ items:
   nameWithType: ETableRight.RF
   fullName: SuperOffice.Data.ETableRight.RF
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '17: Select or Filter'
-  example: []
+  summary: "\n17: Select or Filter\n"
   syntax:
-    content: RF = R | F
+    content: public const ETableRight RF
     return:
       type: SuperOffice.Data.ETableRight
-    content.vb: RF = R Or F
+    content.vb: Public Const RF As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ETableRight.F
   commentId: F:SuperOffice.Data.ETableRight.F
   id: F
@@ -438,15 +619,24 @@ items:
   nameWithType: ETableRight.F
   fullName: SuperOffice.Data.ETableRight.F
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '16: just Filtering'
-  example: []
+  summary: "\n16: just Filtering\n"
   syntax:
-    content: F = 16
+    content: public const ETableRight F
     return:
       type: SuperOffice.Data.ETableRight
+    content.vb: Public Const F As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ETableRight.FI
   commentId: F:SuperOffice.Data.ETableRight.FI
   id: FI
@@ -458,290 +648,115 @@ items:
   nameWithType: ETableRight.FI
   fullName: SuperOffice.Data.ETableRight.FI
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '20: Filtering and Insert (Anonymous)'
-  example: []
+  summary: "\n20: Filtering and Insert (Anonymous)\n"
   syntax:
-    content: FI = Insert | F
+    content: public const ETableRight FI
     return:
       type: SuperOffice.Data.ETableRight
-    content.vb: FI = Insert Or F
+    content.vb: Public Const FI As ETableRight
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.ETableRight.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ETableRight, To>(ETableRight)
-  nameWithType: EnumUtil.MapEnums<ETableRight, To>(ETableRight)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.ETableRight, To>(SuperOffice.Data.ETableRight)
-  nameWithType.vb: EnumUtil.MapEnums(Of ETableRight, To)(ETableRight)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ETableRight, To)(SuperOffice.Data.ETableRight)
-  name.vb: MapEnums(Of ETableRight, To)(ETableRight)
+  name: MapEnums<ETableRight, To>()
+  nameWithType: EnumUtil.MapEnums<ETableRight, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ETableRight, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ETableRight, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ETableRight, To)()
+  name.vb: MapEnums(Of ETableRight, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ETableRight)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ETableRight, To>
+    nameWithType: EnumUtil.MapEnums<ETableRight, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ETableRight, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.ETableRight
-    name: ETableRight
-    isExternal: true
-    href: SuperOffice.Data.ETableRight.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.ETableRight
-    name: ETableRight
-    isExternal: true
-    href: SuperOffice.Data.ETableRight.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ETableRight)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ETableRight, To)
+    nameWithType: EnumUtil.MapEnums(Of ETableRight, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ETableRight, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ETableRight
-    name: ETableRight
-    isExternal: true
-    href: SuperOffice.Data.ETableRight.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.ETableRight
-    name: ETableRight
-    isExternal: true
-    href: SuperOffice.Data.ETableRight.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.ETableRight.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ETableRight, To>(ETableRight)
-  nameWithType: Converters.MapEnums<ETableRight, To>(ETableRight)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ETableRight, To>(SuperOffice.Data.ETableRight)
-  nameWithType.vb: Converters.MapEnums(Of ETableRight, To)(ETableRight)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ETableRight, To)(SuperOffice.Data.ETableRight)
-  name.vb: MapEnums(Of ETableRight, To)(ETableRight)
+  name: MapEnums<ETableRight, To>()
+  nameWithType: Converters.MapEnums<ETableRight, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ETableRight, To>()
+  nameWithType.vb: Converters.MapEnums(Of ETableRight, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ETableRight, To)()
+  name.vb: MapEnums(Of ETableRight, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ETableRight)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ETableRight, To>
+    nameWithType: Converters.MapEnums<ETableRight, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ETableRight, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.ETableRight
-    name: ETableRight
-    isExternal: true
-    href: SuperOffice.Data.ETableRight.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.ETableRight
-    name: ETableRight
-    isExternal: true
-    href: SuperOffice.Data.ETableRight.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ETableRight)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ETableRight, To)
+    nameWithType: Converters.MapEnums(Of ETableRight, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ETableRight, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ETableRight
-    name: ETableRight
-    isExternal: true
-    href: SuperOffice.Data.ETableRight.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.ETableRight
-    name: ETableRight
-    isExternal: true
-    href: SuperOffice.Data.ETableRight.html
-  - name: )
-- uid: SuperOffice.Data.ETableRight.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ETableRight)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ETableRight>(ETableRight, ETableRight)
-  nameWithType: ObjectExtensions.AssignByReflection<ETableRight>(ETableRight, ETableRight)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ETableRight>(SuperOffice.Data.ETableRight, SuperOffice.Data.ETableRight)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ETableRight)(ETableRight, ETableRight)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ETableRight)(SuperOffice.Data.ETableRight, SuperOffice.Data.ETableRight)
-  name.vb: AssignByReflection(Of ETableRight)(ETableRight, ETableRight)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.ETableRight
-    name: ETableRight
-    isExternal: true
-    href: SuperOffice.Data.ETableRight.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.ETableRight
-    name: ETableRight
-    isExternal: true
-    href: SuperOffice.Data.ETableRight.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.ETableRight
-    name: ETableRight
-    isExternal: true
-    href: SuperOffice.Data.ETableRight.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ETableRight,SuperOffice.Data.ETableRight)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ETableRight
-    name: ETableRight
-    isExternal: true
-    href: SuperOffice.Data.ETableRight.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.ETableRight
-    name: ETableRight
-    isExternal: true
-    href: SuperOffice.Data.ETableRight.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.ETableRight
-    name: ETableRight
-    isExternal: true
-    href: SuperOffice.Data.ETableRight.html
-  - name: )
-- uid: SuperOffice.Data.ETableRight.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ETableRight>(ETableRight)
-  nameWithType: ObjectExtensions.GraphCopy<ETableRight>(ETableRight)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ETableRight>(SuperOffice.Data.ETableRight)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ETableRight)(ETableRight)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ETableRight)(SuperOffice.Data.ETableRight)
-  name.vb: GraphCopy(Of ETableRight)(ETableRight)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ETableRight)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.ETableRight
-    name: ETableRight
-    isExternal: true
-    href: SuperOffice.Data.ETableRight.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.ETableRight
-    name: ETableRight
-    isExternal: true
-    href: SuperOffice.Data.ETableRight.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ETableRight)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ETableRight
-    name: ETableRight
-    isExternal: true
-    href: SuperOffice.Data.ETableRight.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.ETableRight
-    name: ETableRight
-    isExternal: true
-    href: SuperOffice.Data.ETableRight.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -750,45 +765,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -797,222 +810,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.ETableRight
   commentId: T:SuperOffice.Data.ETableRight
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ETableRight.html
   name: ETableRight
   nameWithType: ETableRight
   fullName: SuperOffice.Data.ETableRight

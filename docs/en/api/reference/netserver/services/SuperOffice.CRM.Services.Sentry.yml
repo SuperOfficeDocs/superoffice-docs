@@ -15,27 +15,18 @@ items:
   nameWithType: Sentry
   fullName: SuperOffice.CRM.Services.Sentry
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    This service provides sentry information such as TableRights.
-
-    <p></p>
-
-    Carrier object for Sentry.
-
-    Services for the Sentry Carrier is available from the <xref href="SuperOffice.CRM.Services.ISentryAgent?text=Sentry+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nThis service provides sentry information such as TableRights.\n<p></p>\nCarrier object for Sentry.\nServices for the Sentry Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ISentryAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class Sentry : Carrier
+    content: 'public class Sentry : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class Sentry Inherits Carrier
+      Public Class Sentry
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.SentryAgent
     commentId: T:SuperOffice.CRM.Services.SentryAgent
@@ -43,14 +34,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.ISentryAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.Sentry.#ctor
   commentId: M:SuperOffice.CRM.Services.Sentry.#ctor
   id: '#ctor'
@@ -62,18 +51,21 @@ items:
   nameWithType: Sentry.Sentry()
   fullName: SuperOffice.CRM.Services.Sentry.Sentry()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public Sentry()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.Sentry.#ctor*
-  nameWithType.vb: Sentry.New()
-  fullName.vb: SuperOffice.CRM.Services.Sentry.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Sentry.ToString
   commentId: M:SuperOffice.CRM.Services.Sentry.ToString
   id: ToString
@@ -85,18 +77,26 @@ items:
   nameWithType: Sentry.ToString()
   fullName: SuperOffice.CRM.Services.Sentry.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.Sentry.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.Sentry.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.Sentry.ToString(System.String)
   id: ToString(System.String)
@@ -104,18 +104,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: Sentry.ToString(string)
-  fullName: SuperOffice.CRM.Services.Sentry.ToString(string)
+  name: ToString(String)
+  nameWithType: Sentry.ToString(String)
+  fullName: SuperOffice.CRM.Services.Sentry.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -127,14 +126,20 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.Sentry.ToString*
-  nameWithType.vb: Sentry.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.Sentry.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.SentryAgent
   commentId: T:SuperOffice.CRM.Services.SentryAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.SentryAgent.html
   name: SentryAgent
   nameWithType: SentryAgent
   fullName: SuperOffice.CRM.Services.SentryAgent
@@ -142,79 +147,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.ISentryAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ISentryAgent.html
   name: ISentryAgent
   nameWithType: ISentryAgent
   fullName: SuperOffice.CRM.Services.ISentryAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.Sentry.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.Sentry.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.Sentry.html#SuperOffice_CRM_Services_Sentry__ctor
   name: Sentry
   nameWithType: Sentry.Sentry
   fullName: SuperOffice.CRM.Services.Sentry.Sentry
-  nameWithType.vb: Sentry.New
-  fullName.vb: SuperOffice.CRM.Services.Sentry.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.Sentry.ToString*
   commentId: Overload:SuperOffice.CRM.Services.Sentry.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.Sentry.html#SuperOffice_CRM_Services_Sentry_ToString
   name: ToString
   nameWithType: Sentry.ToString
   fullName: SuperOffice.CRM.Services.Sentry.ToString
@@ -222,10 +166,12 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

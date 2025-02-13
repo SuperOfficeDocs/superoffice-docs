@@ -16,43 +16,29 @@ items:
   nameWithType: TimeZoneService
   fullName: SuperOffice.License.TimeZone.TimeZoneService
   type: Class
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License.TimeZone
-  summary: Facade for TimeZone service hosted by SuperOffice (or one of the partners)
-  example: []
+  summary: "\nFacade for TimeZone service hosted by SuperOffice (or one of the partners)\n"
   syntax:
     content: 'public class TimeZoneService : WcfClientBase<ITimeZoneService>'
-    content.vb: Public Class TimeZoneService Inherits WcfClientBase(Of ITimeZoneService)
+    content.vb: >-
+      Public Class TimeZoneService
+          Inherits WcfClientBase(Of ITimeZoneService)
   inheritance:
   - System.Object
-  - SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}
-  inheritedMembers:
-  - SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.SetUrl(System.String)
-  - SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.CreateChannel
-  - SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.CreateChannel(System.String)
-  - SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.CreateBinding(System.ServiceModel.EndpointAddress,System.Boolean@)
-  - SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.SetCredentials(System.ServiceModel.Description.ClientCredentials,System.Boolean)
-  - SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.CreateEndPoint(System.String)
-  - SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-  - SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.IsSecureUrl(System.Uri)
-  - SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.Execute``1(System.Func{SuperOffice.License.TimeZone.ITimeZoneService,{TRetVal}})
-  - SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.Execute``1(System.Func{SuperOffice.License.TimeZone.ITimeZoneService,{TRetVal}},System.String)
-  - SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.ExecuteAction(System.Action{SuperOffice.License.TimeZone.ITimeZoneService})
-  - SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.ExecuteAction(System.Action{SuperOffice.License.TimeZone.ITimeZoneService},System.String)
-  - SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.DefaultUrl
-  - SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.MessageSize
-  - SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.Timeout
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.License.TimeZone.TimeZoneService.EnumUtil.MapEnums``2
   - SuperOffice.License.TimeZone.TimeZoneService.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.License.TimeZone.TimeZoneService.#ctor(System.String)
   commentId: M:SuperOffice.License.TimeZone.TimeZoneService.#ctor(System.String)
   id: '#ctor(System.String)'
@@ -60,10 +46,13 @@ items:
   langs:
   - csharp
   - vb
-  name: TimeZoneService(string)
-  nameWithType: TimeZoneService.TimeZoneService(string)
-  fullName: SuperOffice.License.TimeZone.TimeZoneService.TimeZoneService(string)
+  name: TimeZoneService(String)
+  nameWithType: TimeZoneService.TimeZoneService(String)
+  fullName: SuperOffice.License.TimeZone.TimeZoneService.TimeZoneService(System.String)
   type: Constructor
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License.TimeZone
@@ -74,9 +63,10 @@ items:
       type: System.String
     content.vb: Public Sub New(url As String)
   overload: SuperOffice.License.TimeZone.TimeZoneService.#ctor*
-  nameWithType.vb: TimeZoneService.New(String)
-  fullName.vb: SuperOffice.License.TimeZone.TimeZoneService.New(String)
-  name.vb: New(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.License.TimeZone.TimeZoneService.InitBinding(System.ServiceModel.BasicHttpBinding)
   commentId: M:SuperOffice.License.TimeZone.TimeZoneService.InitBinding(System.ServiceModel.BasicHttpBinding)
   id: InitBinding(System.ServiceModel.BasicHttpBinding)
@@ -88,10 +78,12 @@ items:
   nameWithType: TimeZoneService.InitBinding(BasicHttpBinding)
   fullName: SuperOffice.License.TimeZone.TimeZoneService.InitBinding(System.ServiceModel.BasicHttpBinding)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License.TimeZone
-  example: []
   syntax:
     content: protected override void InitBinding(BasicHttpBinding binding)
     parameters:
@@ -99,6 +91,12 @@ items:
       type: System.ServiceModel.BasicHttpBinding
     content.vb: Protected Overrides Sub InitBinding(binding As BasicHttpBinding)
   overload: SuperOffice.License.TimeZone.TimeZoneService.InitBinding*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.License.TimeZone.TimeZoneService.GetTimeZoneData(SuperOffice.License.TimeZone.TimeZoneGetDataRequest)
   commentId: M:SuperOffice.License.TimeZone.TimeZoneService.GetTimeZoneData(SuperOffice.License.TimeZone.TimeZoneGetDataRequest)
   id: GetTimeZoneData(SuperOffice.License.TimeZone.TimeZoneGetDataRequest)
@@ -110,22 +108,28 @@ items:
   nameWithType: TimeZoneService.GetTimeZoneData(TimeZoneGetDataRequest)
   fullName: SuperOffice.License.TimeZone.TimeZoneService.GetTimeZoneData(SuperOffice.License.TimeZone.TimeZoneGetDataRequest)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License.TimeZone
-  summary: Ping the TimeZone service
-  example: []
+  summary: "\nPing the TimeZone service\n"
   syntax:
     content: public GetTimeZoneDataResult GetTimeZoneData(TimeZoneGetDataRequest req)
     parameters:
     - id: req
       type: SuperOffice.License.TimeZone.TimeZoneGetDataRequest
-      description: Request
+      description: 'Request '
     return:
       type: SuperOffice.License.TimeZone.GetTimeZoneDataResult
       description: Ping response
     content.vb: Public Function GetTimeZoneData(req As TimeZoneGetDataRequest) As GetTimeZoneDataResult
   overload: SuperOffice.License.TimeZone.TimeZoneService.GetTimeZoneData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.License.TimeZone.TimeZoneService.CheckHasNewTimeZoneData(SuperOffice.License.TimeZone.TimeZoneCheckHasNewDataRequest)
   commentId: M:SuperOffice.License.TimeZone.TimeZoneService.CheckHasNewTimeZoneData(SuperOffice.License.TimeZone.TimeZoneCheckHasNewDataRequest)
   id: CheckHasNewTimeZoneData(SuperOffice.License.TimeZone.TimeZoneCheckHasNewDataRequest)
@@ -137,1444 +141,119 @@ items:
   nameWithType: TimeZoneService.CheckHasNewTimeZoneData(TimeZoneCheckHasNewDataRequest)
   fullName: SuperOffice.License.TimeZone.TimeZoneService.CheckHasNewTimeZoneData(SuperOffice.License.TimeZone.TimeZoneCheckHasNewDataRequest)
   type: Method
+  source:
+    path: SoLicense
+    isExternal: true
   assemblies:
   - SoLicense
   namespace: SuperOffice.License.TimeZone
-  summary: Ping the TimeZone service
-  example: []
+  summary: "\nPing the TimeZone service\n"
   syntax:
     content: public HasNewTimeZoneDataResult CheckHasNewTimeZoneData(TimeZoneCheckHasNewDataRequest req)
     parameters:
     - id: req
       type: SuperOffice.License.TimeZone.TimeZoneCheckHasNewDataRequest
-      description: Request
+      description: 'Request '
     return:
       type: SuperOffice.License.TimeZone.HasNewTimeZoneDataResult
       description: Ping response
     content.vb: Public Function CheckHasNewTimeZoneData(req As TimeZoneCheckHasNewDataRequest) As HasNewTimeZoneDataResult
   overload: SuperOffice.License.TimeZone.TimeZoneService.CheckHasNewTimeZoneData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.License.TimeZone
   commentId: N:SuperOffice.License.TimeZone
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.License.TimeZone
   nameWithType: SuperOffice.License.TimeZone
   fullName: SuperOffice.License.TimeZone
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.License
-    name: License
-    isExternal: true
-    href: SuperOffice.License.html
-  - name: .
-  - uid: SuperOffice.License.TimeZone
-    name: TimeZone
-    isExternal: true
-    href: SuperOffice.License.TimeZone.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.License
-    name: License
-    isExternal: true
-    href: SuperOffice.License.html
-  - name: .
-  - uid: SuperOffice.License.TimeZone
-    name: TimeZone
-    isExternal: true
-    href: SuperOffice.License.TimeZone.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}
-  commentId: T:SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}
-  parent: SuperOffice
-  definition: SuperOffice.WcfClientBase`1
-  name: WcfClientBase<ITimeZoneService>
-  nameWithType: WcfClientBase<ITimeZoneService>
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.TimeZone.ITimeZoneService>
-  nameWithType.vb: WcfClientBase(Of ITimeZoneService)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.TimeZone.ITimeZoneService)
-  name.vb: WcfClientBase(Of ITimeZoneService)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1
-    name: WcfClientBase
-    isExternal: true
-  - name: <
-  - uid: SuperOffice.License.TimeZone.ITimeZoneService
-    name: ITimeZoneService
-    isExternal: true
-  - name: '>'
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1
-    name: WcfClientBase
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.TimeZone.ITimeZoneService
-    name: ITimeZoneService
-    isExternal: true
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.SetUrl(System.String)
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.SetUrl(System.String)
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}
-  definition: SuperOffice.WcfClientBase`1.SetUrl(System.String)
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: SetUrl(string)
-  nameWithType: WcfClientBase<ITimeZoneService>.SetUrl(string)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.TimeZone.ITimeZoneService>.SetUrl(string)
-  nameWithType.vb: WcfClientBase(Of ITimeZoneService).SetUrl(String)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.TimeZone.ITimeZoneService).SetUrl(String)
-  name.vb: SetUrl(String)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.SetUrl(System.String)
-    name: SetUrl
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.SetUrl(System.String)
-    name: SetUrl
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.CreateChannel
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.CreateChannel
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}
-  definition: SuperOffice.WcfClientBase`1.CreateChannel
-  name: CreateChannel()
-  nameWithType: WcfClientBase<ITimeZoneService>.CreateChannel()
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.TimeZone.ITimeZoneService>.CreateChannel()
-  nameWithType.vb: WcfClientBase(Of ITimeZoneService).CreateChannel()
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.TimeZone.ITimeZoneService).CreateChannel()
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.CreateChannel
-    name: CreateChannel
-    isExternal: true
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.CreateChannel
-    name: CreateChannel
-    isExternal: true
-  - name: (
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.CreateChannel(System.String)
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.CreateChannel(System.String)
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}
-  definition: SuperOffice.WcfClientBase`1.CreateChannel(System.String)
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: CreateChannel(string)
-  nameWithType: WcfClientBase<ITimeZoneService>.CreateChannel(string)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.TimeZone.ITimeZoneService>.CreateChannel(string)
-  nameWithType.vb: WcfClientBase(Of ITimeZoneService).CreateChannel(String)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.TimeZone.ITimeZoneService).CreateChannel(String)
-  name.vb: CreateChannel(String)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.CreateChannel(System.String)
-    name: CreateChannel
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.CreateChannel(System.String)
-    name: CreateChannel
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.CreateBinding(System.ServiceModel.EndpointAddress,System.Boolean@)
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.CreateBinding(System.ServiceModel.EndpointAddress,System.Boolean@)
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}
-  definition: SuperOffice.WcfClientBase`1.CreateBinding(System.ServiceModel.EndpointAddress,System.Boolean@)
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: CreateBinding(EndpointAddress, out bool)
-  nameWithType: WcfClientBase<ITimeZoneService>.CreateBinding(EndpointAddress, out bool)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.TimeZone.ITimeZoneService>.CreateBinding(System.ServiceModel.EndpointAddress, out bool)
-  nameWithType.vb: WcfClientBase(Of ITimeZoneService).CreateBinding(EndpointAddress, Boolean)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.TimeZone.ITimeZoneService).CreateBinding(System.ServiceModel.EndpointAddress, Boolean)
-  name.vb: CreateBinding(EndpointAddress, Boolean)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.CreateBinding(System.ServiceModel.EndpointAddress,System.Boolean@)
-    name: CreateBinding
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.EndpointAddress
-    name: EndpointAddress
-    isExternal: true
-  - name: ','
-  - name: " "
-  - name: out
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.CreateBinding(System.ServiceModel.EndpointAddress,System.Boolean@)
-    name: CreateBinding
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.EndpointAddress
-    name: EndpointAddress
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.SetCredentials(System.ServiceModel.Description.ClientCredentials,System.Boolean)
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.SetCredentials(System.ServiceModel.Description.ClientCredentials,System.Boolean)
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}
-  definition: SuperOffice.WcfClientBase`1.SetCredentials(System.ServiceModel.Description.ClientCredentials,System.Boolean)
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: SetCredentials(ClientCredentials, bool)
-  nameWithType: WcfClientBase<ITimeZoneService>.SetCredentials(ClientCredentials, bool)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.TimeZone.ITimeZoneService>.SetCredentials(System.ServiceModel.Description.ClientCredentials, bool)
-  nameWithType.vb: WcfClientBase(Of ITimeZoneService).SetCredentials(ClientCredentials, Boolean)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.TimeZone.ITimeZoneService).SetCredentials(System.ServiceModel.Description.ClientCredentials, Boolean)
-  name.vb: SetCredentials(ClientCredentials, Boolean)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.SetCredentials(System.ServiceModel.Description.ClientCredentials,System.Boolean)
-    name: SetCredentials
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.Description.ClientCredentials
-    name: ClientCredentials
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.SetCredentials(System.ServiceModel.Description.ClientCredentials,System.Boolean)
-    name: SetCredentials
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.Description.ClientCredentials
-    name: ClientCredentials
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.CreateEndPoint(System.String)
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.CreateEndPoint(System.String)
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}
-  definition: SuperOffice.WcfClientBase`1.CreateEndPoint(System.String)
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: CreateEndPoint(string)
-  nameWithType: WcfClientBase<ITimeZoneService>.CreateEndPoint(string)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.TimeZone.ITimeZoneService>.CreateEndPoint(string)
-  nameWithType.vb: WcfClientBase(Of ITimeZoneService).CreateEndPoint(String)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.TimeZone.ITimeZoneService).CreateEndPoint(String)
-  name.vb: CreateEndPoint(String)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.CreateEndPoint(System.String)
-    name: CreateEndPoint
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.CreateEndPoint(System.String)
-    name: CreateEndPoint
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}
-  definition: SuperOffice.WcfClientBase`1.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-  name: ConfigureBinding(BasicHttpBinding)
-  nameWithType: WcfClientBase<ITimeZoneService>.ConfigureBinding(BasicHttpBinding)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.TimeZone.ITimeZoneService>.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-  nameWithType.vb: WcfClientBase(Of ITimeZoneService).ConfigureBinding(BasicHttpBinding)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.TimeZone.ITimeZoneService).ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-    name: ConfigureBinding
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.BasicHttpBinding
-    name: BasicHttpBinding
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-    name: ConfigureBinding
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.BasicHttpBinding
-    name: BasicHttpBinding
-    isExternal: true
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.IsSecureUrl(System.Uri)
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.IsSecureUrl(System.Uri)
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}
-  definition: SuperOffice.WcfClientBase`1.IsSecureUrl(System.Uri)
-  name: IsSecureUrl(Uri)
-  nameWithType: WcfClientBase<ITimeZoneService>.IsSecureUrl(Uri)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.TimeZone.ITimeZoneService>.IsSecureUrl(System.Uri)
-  nameWithType.vb: WcfClientBase(Of ITimeZoneService).IsSecureUrl(Uri)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.TimeZone.ITimeZoneService).IsSecureUrl(System.Uri)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.IsSecureUrl(System.Uri)
-    name: IsSecureUrl
-    isExternal: true
-  - name: (
-  - uid: System.Uri
-    name: Uri
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.IsSecureUrl(System.Uri)
-    name: IsSecureUrl
-    isExternal: true
-  - name: (
-  - uid: System.Uri
-    name: Uri
-    isExternal: true
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.Execute``1(System.Func{SuperOffice.License.TimeZone.ITimeZoneService,{TRetVal}})
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.Execute``1(System.Func{SuperOffice.License.TimeZone.ITimeZoneService,``0})
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}
-  definition: SuperOffice.WcfClientBase`1.Execute``1(System.Func{`0,``0})
-  href: https://learn.microsoft.com/dotnet/api/system.func-2
-  name: Execute<TRetVal>(Func<ITimeZoneService, TRetVal>)
-  nameWithType: WcfClientBase<ITimeZoneService>.Execute<TRetVal>(Func<ITimeZoneService, TRetVal>)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.TimeZone.ITimeZoneService>.Execute<TRetVal>(System.Func<SuperOffice.License.TimeZone.ITimeZoneService, TRetVal>)
-  nameWithType.vb: WcfClientBase(Of ITimeZoneService).Execute(Of TRetVal)(Func(Of ITimeZoneService, TRetVal))
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.TimeZone.ITimeZoneService).Execute(Of TRetVal)(System.Func(Of SuperOffice.License.TimeZone.ITimeZoneService, TRetVal))
-  name.vb: Execute(Of TRetVal)(Func(Of ITimeZoneService, TRetVal))
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.Execute``1(System.Func{SuperOffice.License.TimeZone.ITimeZoneService,``0})
-    name: Execute
-    isExternal: true
-  - name: <
-  - name: TRetVal
-  - name: '>'
-  - name: (
-  - uid: System.Func`2
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-2
-  - name: <
-  - uid: SuperOffice.License.TimeZone.ITimeZoneService
-    name: ITimeZoneService
-    isExternal: true
-  - name: ','
-  - name: " "
-  - name: TRetVal
-  - name: '>'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.Execute``1(System.Func{SuperOffice.License.TimeZone.ITimeZoneService,``0})
-    name: Execute
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TRetVal
-  - name: )
-  - name: (
-  - uid: System.Func`2
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-2
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.TimeZone.ITimeZoneService
-    name: ITimeZoneService
-    isExternal: true
-  - name: ','
-  - name: " "
-  - name: TRetVal
-  - name: )
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.Execute``1(System.Func{SuperOffice.License.TimeZone.ITimeZoneService,{TRetVal}},System.String)
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.Execute``1(System.Func{SuperOffice.License.TimeZone.ITimeZoneService,``0},System.String)
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}
-  definition: SuperOffice.WcfClientBase`1.Execute``1(System.Func{`0,``0},System.String)
-  href: https://learn.microsoft.com/dotnet/api/system.func-2
-  name: Execute<TRetVal>(Func<ITimeZoneService, TRetVal>, string)
-  nameWithType: WcfClientBase<ITimeZoneService>.Execute<TRetVal>(Func<ITimeZoneService, TRetVal>, string)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.TimeZone.ITimeZoneService>.Execute<TRetVal>(System.Func<SuperOffice.License.TimeZone.ITimeZoneService, TRetVal>, string)
-  nameWithType.vb: WcfClientBase(Of ITimeZoneService).Execute(Of TRetVal)(Func(Of ITimeZoneService, TRetVal), String)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.TimeZone.ITimeZoneService).Execute(Of TRetVal)(System.Func(Of SuperOffice.License.TimeZone.ITimeZoneService, TRetVal), String)
-  name.vb: Execute(Of TRetVal)(Func(Of ITimeZoneService, TRetVal), String)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.Execute``1(System.Func{SuperOffice.License.TimeZone.ITimeZoneService,``0},System.String)
-    name: Execute
-    isExternal: true
-  - name: <
-  - name: TRetVal
-  - name: '>'
-  - name: (
-  - uid: System.Func`2
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-2
-  - name: <
-  - uid: SuperOffice.License.TimeZone.ITimeZoneService
-    name: ITimeZoneService
-    isExternal: true
-  - name: ','
-  - name: " "
-  - name: TRetVal
-  - name: '>'
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.Execute``1(System.Func{SuperOffice.License.TimeZone.ITimeZoneService,``0},System.String)
-    name: Execute
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TRetVal
-  - name: )
-  - name: (
-  - uid: System.Func`2
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-2
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.TimeZone.ITimeZoneService
-    name: ITimeZoneService
-    isExternal: true
-  - name: ','
-  - name: " "
-  - name: TRetVal
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.ExecuteAction(System.Action{SuperOffice.License.TimeZone.ITimeZoneService})
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.ExecuteAction(System.Action{SuperOffice.License.TimeZone.ITimeZoneService})
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}
-  definition: SuperOffice.WcfClientBase`1.ExecuteAction(System.Action{`0})
-  href: https://learn.microsoft.com/dotnet/api/system.action-1
-  name: ExecuteAction(Action<ITimeZoneService>)
-  nameWithType: WcfClientBase<ITimeZoneService>.ExecuteAction(Action<ITimeZoneService>)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.TimeZone.ITimeZoneService>.ExecuteAction(System.Action<SuperOffice.License.TimeZone.ITimeZoneService>)
-  nameWithType.vb: WcfClientBase(Of ITimeZoneService).ExecuteAction(Action(Of ITimeZoneService))
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.TimeZone.ITimeZoneService).ExecuteAction(System.Action(Of SuperOffice.License.TimeZone.ITimeZoneService))
-  name.vb: ExecuteAction(Action(Of ITimeZoneService))
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.ExecuteAction(System.Action{SuperOffice.License.TimeZone.ITimeZoneService})
-    name: ExecuteAction
-    isExternal: true
-  - name: (
-  - uid: System.Action`1
-    name: Action
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: <
-  - uid: SuperOffice.License.TimeZone.ITimeZoneService
-    name: ITimeZoneService
-    isExternal: true
-  - name: '>'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.ExecuteAction(System.Action{SuperOffice.License.TimeZone.ITimeZoneService})
-    name: ExecuteAction
-    isExternal: true
-  - name: (
-  - uid: System.Action`1
-    name: Action
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.TimeZone.ITimeZoneService
-    name: ITimeZoneService
-    isExternal: true
-  - name: )
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.ExecuteAction(System.Action{SuperOffice.License.TimeZone.ITimeZoneService},System.String)
-  commentId: M:SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.ExecuteAction(System.Action{SuperOffice.License.TimeZone.ITimeZoneService},System.String)
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}
-  definition: SuperOffice.WcfClientBase`1.ExecuteAction(System.Action{`0},System.String)
-  href: https://learn.microsoft.com/dotnet/api/system.action-1
-  name: ExecuteAction(Action<ITimeZoneService>, string)
-  nameWithType: WcfClientBase<ITimeZoneService>.ExecuteAction(Action<ITimeZoneService>, string)
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.TimeZone.ITimeZoneService>.ExecuteAction(System.Action<SuperOffice.License.TimeZone.ITimeZoneService>, string)
-  nameWithType.vb: WcfClientBase(Of ITimeZoneService).ExecuteAction(Action(Of ITimeZoneService), String)
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.TimeZone.ITimeZoneService).ExecuteAction(System.Action(Of SuperOffice.License.TimeZone.ITimeZoneService), String)
-  name.vb: ExecuteAction(Action(Of ITimeZoneService), String)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.ExecuteAction(System.Action{SuperOffice.License.TimeZone.ITimeZoneService},System.String)
-    name: ExecuteAction
-    isExternal: true
-  - name: (
-  - uid: System.Action`1
-    name: Action
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: <
-  - uid: SuperOffice.License.TimeZone.ITimeZoneService
-    name: ITimeZoneService
-    isExternal: true
-  - name: '>'
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.ExecuteAction(System.Action{SuperOffice.License.TimeZone.ITimeZoneService},System.String)
-    name: ExecuteAction
-    isExternal: true
-  - name: (
-  - uid: System.Action`1
-    name: Action
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.TimeZone.ITimeZoneService
-    name: ITimeZoneService
-    isExternal: true
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.DefaultUrl
-  commentId: P:SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.DefaultUrl
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}
-  definition: SuperOffice.WcfClientBase`1.DefaultUrl
-  name: DefaultUrl
-  nameWithType: WcfClientBase<ITimeZoneService>.DefaultUrl
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.TimeZone.ITimeZoneService>.DefaultUrl
-  nameWithType.vb: WcfClientBase(Of ITimeZoneService).DefaultUrl
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.TimeZone.ITimeZoneService).DefaultUrl
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.MessageSize
-  commentId: P:SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.MessageSize
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}
-  definition: SuperOffice.WcfClientBase`1.MessageSize
-  name: MessageSize
-  nameWithType: WcfClientBase<ITimeZoneService>.MessageSize
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.TimeZone.ITimeZoneService>.MessageSize
-  nameWithType.vb: WcfClientBase(Of ITimeZoneService).MessageSize
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.TimeZone.ITimeZoneService).MessageSize
-- uid: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.Timeout
-  commentId: P:SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}.Timeout
-  parent: SuperOffice.WcfClientBase{SuperOffice.License.TimeZone.ITimeZoneService}
-  definition: SuperOffice.WcfClientBase`1.Timeout
-  name: Timeout
-  nameWithType: WcfClientBase<ITimeZoneService>.Timeout
-  fullName: SuperOffice.WcfClientBase<SuperOffice.License.TimeZone.ITimeZoneService>.Timeout
-  nameWithType.vb: WcfClientBase(Of ITimeZoneService).Timeout
-  fullName.vb: SuperOffice.WcfClientBase(Of SuperOffice.License.TimeZone.ITimeZoneService).Timeout
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.License.TimeZone.TimeZoneService.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<TimeZoneService, To>(TimeZoneService)
-  nameWithType: EnumUtil.MapEnums<TimeZoneService, To>(TimeZoneService)
-  fullName: EnumUtil.MapEnums<SuperOffice.License.TimeZone.TimeZoneService, To>(SuperOffice.License.TimeZone.TimeZoneService)
-  nameWithType.vb: EnumUtil.MapEnums(Of TimeZoneService, To)(TimeZoneService)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.License.TimeZone.TimeZoneService, To)(SuperOffice.License.TimeZone.TimeZoneService)
-  name.vb: MapEnums(Of TimeZoneService, To)(TimeZoneService)
+  name: MapEnums<TimeZoneService, To>()
+  nameWithType: EnumUtil.MapEnums<TimeZoneService, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.License.TimeZone.TimeZoneService, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TimeZoneService, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.License.TimeZone.TimeZoneService, To)()
+  name.vb: MapEnums(Of TimeZoneService, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.License.TimeZone.TimeZoneService)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TimeZoneService, To>
+    nameWithType: EnumUtil.MapEnums<TimeZoneService, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.License.TimeZone.TimeZoneService, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.License.TimeZone.TimeZoneService
-    name: TimeZoneService
-    isExternal: true
-    href: SuperOffice.License.TimeZone.TimeZoneService.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.License.TimeZone.TimeZoneService
-    name: TimeZoneService
-    isExternal: true
-    href: SuperOffice.License.TimeZone.TimeZoneService.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.License.TimeZone.TimeZoneService)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TimeZoneService, To)
+    nameWithType: EnumUtil.MapEnums(Of TimeZoneService, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.License.TimeZone.TimeZoneService, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.TimeZone.TimeZoneService
-    name: TimeZoneService
-    isExternal: true
-    href: SuperOffice.License.TimeZone.TimeZoneService.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.License.TimeZone.TimeZoneService
-    name: TimeZoneService
-    isExternal: true
-    href: SuperOffice.License.TimeZone.TimeZoneService.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.TimeZone.TimeZoneService.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<TimeZoneService, To>(TimeZoneService)
-  nameWithType: Converters.MapEnums<TimeZoneService, To>(TimeZoneService)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.TimeZone.TimeZoneService, To>(SuperOffice.License.TimeZone.TimeZoneService)
-  nameWithType.vb: Converters.MapEnums(Of TimeZoneService, To)(TimeZoneService)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.TimeZone.TimeZoneService, To)(SuperOffice.License.TimeZone.TimeZoneService)
-  name.vb: MapEnums(Of TimeZoneService, To)(TimeZoneService)
+  name: MapEnums<TimeZoneService, To>()
+  nameWithType: Converters.MapEnums<TimeZoneService, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.TimeZone.TimeZoneService, To>()
+  nameWithType.vb: Converters.MapEnums(Of TimeZoneService, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.TimeZone.TimeZoneService, To)()
+  name.vb: MapEnums(Of TimeZoneService, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.License.TimeZone.TimeZoneService)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TimeZoneService, To>
+    nameWithType: Converters.MapEnums<TimeZoneService, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.TimeZone.TimeZoneService, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.License.TimeZone.TimeZoneService
-    name: TimeZoneService
-    isExternal: true
-    href: SuperOffice.License.TimeZone.TimeZoneService.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.License.TimeZone.TimeZoneService
-    name: TimeZoneService
-    isExternal: true
-    href: SuperOffice.License.TimeZone.TimeZoneService.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.License.TimeZone.TimeZoneService)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TimeZoneService, To)
+    nameWithType: Converters.MapEnums(Of TimeZoneService, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.TimeZone.TimeZoneService, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.TimeZone.TimeZoneService
-    name: TimeZoneService
-    isExternal: true
-    href: SuperOffice.License.TimeZone.TimeZoneService.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.License.TimeZone.TimeZoneService
-    name: TimeZoneService
-    isExternal: true
-    href: SuperOffice.License.TimeZone.TimeZoneService.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.WcfClientBase`1
-  commentId: T:SuperOffice.WcfClientBase`1
-  isExternal: true
-  name: WcfClientBase<TService>
-  nameWithType: WcfClientBase<TService>
-  fullName: SuperOffice.WcfClientBase<TService>
-  nameWithType.vb: WcfClientBase(Of TService)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService)
-  name.vb: WcfClientBase(Of TService)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1
-    name: WcfClientBase
-    isExternal: true
-  - name: <
-  - name: TService
-  - name: '>'
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1
-    name: WcfClientBase
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TService
-  - name: )
-- uid: SuperOffice
-  commentId: N:SuperOffice
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice
-  nameWithType: SuperOffice
-  fullName: SuperOffice
-- uid: SuperOffice.WcfClientBase`1.SetUrl(System.String)
-  commentId: M:SuperOffice.WcfClientBase`1.SetUrl(System.String)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: SetUrl(string)
-  nameWithType: WcfClientBase<TService>.SetUrl(string)
-  fullName: SuperOffice.WcfClientBase<TService>.SetUrl(string)
-  nameWithType.vb: WcfClientBase(Of TService).SetUrl(String)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).SetUrl(String)
-  name.vb: SetUrl(String)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.SetUrl(System.String)
-    name: SetUrl
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.SetUrl(System.String)
-    name: SetUrl
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.CreateChannel
-  commentId: M:SuperOffice.WcfClientBase`1.CreateChannel
-  isExternal: true
-  name: CreateChannel()
-  nameWithType: WcfClientBase<TService>.CreateChannel()
-  fullName: SuperOffice.WcfClientBase<TService>.CreateChannel()
-  nameWithType.vb: WcfClientBase(Of TService).CreateChannel()
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).CreateChannel()
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.CreateChannel
-    name: CreateChannel
-    isExternal: true
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.CreateChannel
-    name: CreateChannel
-    isExternal: true
-  - name: (
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.CreateChannel(System.String)
-  commentId: M:SuperOffice.WcfClientBase`1.CreateChannel(System.String)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: CreateChannel(string)
-  nameWithType: WcfClientBase<TService>.CreateChannel(string)
-  fullName: SuperOffice.WcfClientBase<TService>.CreateChannel(string)
-  nameWithType.vb: WcfClientBase(Of TService).CreateChannel(String)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).CreateChannel(String)
-  name.vb: CreateChannel(String)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.CreateChannel(System.String)
-    name: CreateChannel
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.CreateChannel(System.String)
-    name: CreateChannel
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.CreateBinding(System.ServiceModel.EndpointAddress,System.Boolean@)
-  commentId: M:SuperOffice.WcfClientBase`1.CreateBinding(System.ServiceModel.EndpointAddress,System.Boolean@)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: CreateBinding(EndpointAddress, out bool)
-  nameWithType: WcfClientBase<TService>.CreateBinding(EndpointAddress, out bool)
-  fullName: SuperOffice.WcfClientBase<TService>.CreateBinding(System.ServiceModel.EndpointAddress, out bool)
-  nameWithType.vb: WcfClientBase(Of TService).CreateBinding(EndpointAddress, Boolean)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).CreateBinding(System.ServiceModel.EndpointAddress, Boolean)
-  name.vb: CreateBinding(EndpointAddress, Boolean)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.CreateBinding(System.ServiceModel.EndpointAddress,System.Boolean@)
-    name: CreateBinding
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.EndpointAddress
-    name: EndpointAddress
-    isExternal: true
-  - name: ','
-  - name: " "
-  - name: out
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.CreateBinding(System.ServiceModel.EndpointAddress,System.Boolean@)
-    name: CreateBinding
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.EndpointAddress
-    name: EndpointAddress
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.SetCredentials(System.ServiceModel.Description.ClientCredentials,System.Boolean)
-  commentId: M:SuperOffice.WcfClientBase`1.SetCredentials(System.ServiceModel.Description.ClientCredentials,System.Boolean)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: SetCredentials(ClientCredentials, bool)
-  nameWithType: WcfClientBase<TService>.SetCredentials(ClientCredentials, bool)
-  fullName: SuperOffice.WcfClientBase<TService>.SetCredentials(System.ServiceModel.Description.ClientCredentials, bool)
-  nameWithType.vb: WcfClientBase(Of TService).SetCredentials(ClientCredentials, Boolean)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).SetCredentials(System.ServiceModel.Description.ClientCredentials, Boolean)
-  name.vb: SetCredentials(ClientCredentials, Boolean)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.SetCredentials(System.ServiceModel.Description.ClientCredentials,System.Boolean)
-    name: SetCredentials
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.Description.ClientCredentials
-    name: ClientCredentials
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.SetCredentials(System.ServiceModel.Description.ClientCredentials,System.Boolean)
-    name: SetCredentials
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.Description.ClientCredentials
-    name: ClientCredentials
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.CreateEndPoint(System.String)
-  commentId: M:SuperOffice.WcfClientBase`1.CreateEndPoint(System.String)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: CreateEndPoint(string)
-  nameWithType: WcfClientBase<TService>.CreateEndPoint(string)
-  fullName: SuperOffice.WcfClientBase<TService>.CreateEndPoint(string)
-  nameWithType.vb: WcfClientBase(Of TService).CreateEndPoint(String)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).CreateEndPoint(String)
-  name.vb: CreateEndPoint(String)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.CreateEndPoint(System.String)
-    name: CreateEndPoint
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.CreateEndPoint(System.String)
-    name: CreateEndPoint
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-  commentId: M:SuperOffice.WcfClientBase`1.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-  isExternal: true
-  name: ConfigureBinding(BasicHttpBinding)
-  nameWithType: WcfClientBase<TService>.ConfigureBinding(BasicHttpBinding)
-  fullName: SuperOffice.WcfClientBase<TService>.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-  nameWithType.vb: WcfClientBase(Of TService).ConfigureBinding(BasicHttpBinding)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-    name: ConfigureBinding
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.BasicHttpBinding
-    name: BasicHttpBinding
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.ConfigureBinding(System.ServiceModel.BasicHttpBinding)
-    name: ConfigureBinding
-    isExternal: true
-  - name: (
-  - uid: System.ServiceModel.BasicHttpBinding
-    name: BasicHttpBinding
-    isExternal: true
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.IsSecureUrl(System.Uri)
-  commentId: M:SuperOffice.WcfClientBase`1.IsSecureUrl(System.Uri)
-  isExternal: true
-  name: IsSecureUrl(Uri)
-  nameWithType: WcfClientBase<TService>.IsSecureUrl(Uri)
-  fullName: SuperOffice.WcfClientBase<TService>.IsSecureUrl(System.Uri)
-  nameWithType.vb: WcfClientBase(Of TService).IsSecureUrl(Uri)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).IsSecureUrl(System.Uri)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.IsSecureUrl(System.Uri)
-    name: IsSecureUrl
-    isExternal: true
-  - name: (
-  - uid: System.Uri
-    name: Uri
-    isExternal: true
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.IsSecureUrl(System.Uri)
-    name: IsSecureUrl
-    isExternal: true
-  - name: (
-  - uid: System.Uri
-    name: Uri
-    isExternal: true
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.Execute``1(System.Func{`0,``0})
-  commentId: M:SuperOffice.WcfClientBase`1.Execute``1(System.Func{`0,``0})
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.func-2
-  name: Execute<TRetVal>(Func<TService, TRetVal>)
-  nameWithType: WcfClientBase<TService>.Execute<TRetVal>(Func<TService, TRetVal>)
-  fullName: SuperOffice.WcfClientBase<TService>.Execute<TRetVal>(System.Func<TService, TRetVal>)
-  nameWithType.vb: WcfClientBase(Of TService).Execute(Of TRetVal)(Func(Of TService, TRetVal))
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).Execute(Of TRetVal)(System.Func(Of TService, TRetVal))
-  name.vb: Execute(Of TRetVal)(Func(Of TService, TRetVal))
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.Execute``1(System.Func{`0,``0})
-    name: Execute
-    isExternal: true
-  - name: <
-  - name: TRetVal
-  - name: '>'
-  - name: (
-  - uid: System.Func`2
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-2
-  - name: <
-  - name: TService
-  - name: ','
-  - name: " "
-  - name: TRetVal
-  - name: '>'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.Execute``1(System.Func{`0,``0})
-    name: Execute
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TRetVal
-  - name: )
-  - name: (
-  - uid: System.Func`2
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TService
-  - name: ','
-  - name: " "
-  - name: TRetVal
-  - name: )
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.Execute``1(System.Func{`0,``0},System.String)
-  commentId: M:SuperOffice.WcfClientBase`1.Execute``1(System.Func{`0,``0},System.String)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.func-2
-  name: Execute<TRetVal>(Func<TService, TRetVal>, string)
-  nameWithType: WcfClientBase<TService>.Execute<TRetVal>(Func<TService, TRetVal>, string)
-  fullName: SuperOffice.WcfClientBase<TService>.Execute<TRetVal>(System.Func<TService, TRetVal>, string)
-  nameWithType.vb: WcfClientBase(Of TService).Execute(Of TRetVal)(Func(Of TService, TRetVal), String)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).Execute(Of TRetVal)(System.Func(Of TService, TRetVal), String)
-  name.vb: Execute(Of TRetVal)(Func(Of TService, TRetVal), String)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.Execute``1(System.Func{`0,``0},System.String)
-    name: Execute
-    isExternal: true
-  - name: <
-  - name: TRetVal
-  - name: '>'
-  - name: (
-  - uid: System.Func`2
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-2
-  - name: <
-  - name: TService
-  - name: ','
-  - name: " "
-  - name: TRetVal
-  - name: '>'
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.Execute``1(System.Func{`0,``0},System.String)
-    name: Execute
-    isExternal: true
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TRetVal
-  - name: )
-  - name: (
-  - uid: System.Func`2
-    name: Func
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.func-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TService
-  - name: ','
-  - name: " "
-  - name: TRetVal
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.ExecuteAction(System.Action{`0})
-  commentId: M:SuperOffice.WcfClientBase`1.ExecuteAction(System.Action{`0})
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.action-1
-  name: ExecuteAction(Action<TService>)
-  nameWithType: WcfClientBase<TService>.ExecuteAction(Action<TService>)
-  fullName: SuperOffice.WcfClientBase<TService>.ExecuteAction(System.Action<TService>)
-  nameWithType.vb: WcfClientBase(Of TService).ExecuteAction(Action(Of TService))
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).ExecuteAction(System.Action(Of TService))
-  name.vb: ExecuteAction(Action(Of TService))
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.ExecuteAction(System.Action{`0})
-    name: ExecuteAction
-    isExternal: true
-  - name: (
-  - uid: System.Action`1
-    name: Action
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: <
-  - name: TService
-  - name: '>'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.ExecuteAction(System.Action{`0})
-    name: ExecuteAction
-    isExternal: true
-  - name: (
-  - uid: System.Action`1
-    name: Action
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TService
-  - name: )
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.ExecuteAction(System.Action{`0},System.String)
-  commentId: M:SuperOffice.WcfClientBase`1.ExecuteAction(System.Action{`0},System.String)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.action-1
-  name: ExecuteAction(Action<TService>, string)
-  nameWithType: WcfClientBase<TService>.ExecuteAction(Action<TService>, string)
-  fullName: SuperOffice.WcfClientBase<TService>.ExecuteAction(System.Action<TService>, string)
-  nameWithType.vb: WcfClientBase(Of TService).ExecuteAction(Action(Of TService), String)
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).ExecuteAction(System.Action(Of TService), String)
-  name.vb: ExecuteAction(Action(Of TService), String)
-  spec.csharp:
-  - uid: SuperOffice.WcfClientBase`1.ExecuteAction(System.Action{`0},System.String)
-    name: ExecuteAction
-    isExternal: true
-  - name: (
-  - uid: System.Action`1
-    name: Action
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: <
-  - name: TService
-  - name: '>'
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.WcfClientBase`1.ExecuteAction(System.Action{`0},System.String)
-    name: ExecuteAction
-    isExternal: true
-  - name: (
-  - uid: System.Action`1
-    name: Action
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TService
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.WcfClientBase`1.DefaultUrl
-  commentId: P:SuperOffice.WcfClientBase`1.DefaultUrl
-  isExternal: true
-  name: DefaultUrl
-  nameWithType: WcfClientBase<TService>.DefaultUrl
-  fullName: SuperOffice.WcfClientBase<TService>.DefaultUrl
-  nameWithType.vb: WcfClientBase(Of TService).DefaultUrl
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).DefaultUrl
-- uid: SuperOffice.WcfClientBase`1.MessageSize
-  commentId: P:SuperOffice.WcfClientBase`1.MessageSize
-  isExternal: true
-  name: MessageSize
-  nameWithType: WcfClientBase<TService>.MessageSize
-  fullName: SuperOffice.WcfClientBase<TService>.MessageSize
-  nameWithType.vb: WcfClientBase(Of TService).MessageSize
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).MessageSize
-- uid: SuperOffice.WcfClientBase`1.Timeout
-  commentId: P:SuperOffice.WcfClientBase`1.Timeout
-  isExternal: true
-  name: Timeout
-  nameWithType: WcfClientBase<TService>.Timeout
-  fullName: SuperOffice.WcfClientBase<TService>.Timeout
-  nameWithType.vb: WcfClientBase(Of TService).Timeout
-  fullName.vb: SuperOffice.WcfClientBase(Of TService).Timeout
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1583,45 +262,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1630,104 +307,63 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.License.TimeZone.TimeZoneService.#ctor*
   commentId: Overload:SuperOffice.License.TimeZone.TimeZoneService.#ctor
   isExternal: true
-  href: SuperOffice.License.TimeZone.TimeZoneService.html#SuperOffice_License_TimeZone_TimeZoneService__ctor_System_String_
   name: TimeZoneService
   nameWithType: TimeZoneService.TimeZoneService
   fullName: SuperOffice.License.TimeZone.TimeZoneService.TimeZoneService
-  nameWithType.vb: TimeZoneService.New
-  fullName.vb: SuperOffice.License.TimeZone.TimeZoneService.New
-  name.vb: New
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.License.TimeZone.TimeZoneService.InitBinding*
   commentId: Overload:SuperOffice.License.TimeZone.TimeZoneService.InitBinding
   isExternal: true
-  href: SuperOffice.License.TimeZone.TimeZoneService.html#SuperOffice_License_TimeZone_TimeZoneService_InitBinding_System_ServiceModel_BasicHttpBinding_
   name: InitBinding
   nameWithType: TimeZoneService.InitBinding
   fullName: SuperOffice.License.TimeZone.TimeZoneService.InitBinding
@@ -1740,20 +376,17 @@ references:
 - uid: SuperOffice.License.TimeZone.TimeZoneService.GetTimeZoneData*
   commentId: Overload:SuperOffice.License.TimeZone.TimeZoneService.GetTimeZoneData
   isExternal: true
-  href: SuperOffice.License.TimeZone.TimeZoneService.html#SuperOffice_License_TimeZone_TimeZoneService_GetTimeZoneData_SuperOffice_License_TimeZone_TimeZoneGetDataRequest_
   name: GetTimeZoneData
   nameWithType: TimeZoneService.GetTimeZoneData
   fullName: SuperOffice.License.TimeZone.TimeZoneService.GetTimeZoneData
 - uid: SuperOffice.License.TimeZone.TimeZoneGetDataRequest
-  commentId: T:SuperOffice.License.TimeZone.TimeZoneGetDataRequest
-  parent: SuperOffice.License.TimeZone
+  commentId: '!:SuperOffice.License.TimeZone.TimeZoneGetDataRequest'
   isExternal: true
   name: TimeZoneGetDataRequest
   nameWithType: TimeZoneGetDataRequest
   fullName: SuperOffice.License.TimeZone.TimeZoneGetDataRequest
 - uid: SuperOffice.License.TimeZone.GetTimeZoneDataResult
-  commentId: T:SuperOffice.License.TimeZone.GetTimeZoneDataResult
-  parent: SuperOffice.License.TimeZone
+  commentId: '!:SuperOffice.License.TimeZone.GetTimeZoneDataResult'
   isExternal: true
   name: GetTimeZoneDataResult
   nameWithType: GetTimeZoneDataResult
@@ -1761,20 +394,17 @@ references:
 - uid: SuperOffice.License.TimeZone.TimeZoneService.CheckHasNewTimeZoneData*
   commentId: Overload:SuperOffice.License.TimeZone.TimeZoneService.CheckHasNewTimeZoneData
   isExternal: true
-  href: SuperOffice.License.TimeZone.TimeZoneService.html#SuperOffice_License_TimeZone_TimeZoneService_CheckHasNewTimeZoneData_SuperOffice_License_TimeZone_TimeZoneCheckHasNewDataRequest_
   name: CheckHasNewTimeZoneData
   nameWithType: TimeZoneService.CheckHasNewTimeZoneData
   fullName: SuperOffice.License.TimeZone.TimeZoneService.CheckHasNewTimeZoneData
 - uid: SuperOffice.License.TimeZone.TimeZoneCheckHasNewDataRequest
-  commentId: T:SuperOffice.License.TimeZone.TimeZoneCheckHasNewDataRequest
-  parent: SuperOffice.License.TimeZone
+  commentId: '!:SuperOffice.License.TimeZone.TimeZoneCheckHasNewDataRequest'
   isExternal: true
   name: TimeZoneCheckHasNewDataRequest
   nameWithType: TimeZoneCheckHasNewDataRequest
   fullName: SuperOffice.License.TimeZone.TimeZoneCheckHasNewDataRequest
 - uid: SuperOffice.License.TimeZone.HasNewTimeZoneDataResult
-  commentId: T:SuperOffice.License.TimeZone.HasNewTimeZoneDataResult
-  parent: SuperOffice.License.TimeZone
+  commentId: '!:SuperOffice.License.TimeZone.HasNewTimeZoneDataResult'
   isExternal: true
   name: HasNewTimeZoneDataResult
   nameWithType: HasNewTimeZoneDataResult

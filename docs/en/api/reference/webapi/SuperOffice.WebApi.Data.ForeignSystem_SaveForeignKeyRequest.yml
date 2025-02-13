@@ -17,23 +17,25 @@ items:
   nameWithType: ForeignSystem_SaveForeignKeyRequest
   fullName: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
-    content: public class ForeignSystem_SaveForeignKeyRequest
-    content.vb: Public Class ForeignSystem_SaveForeignKeyRequest
+    content: 'public class ForeignSystem_SaveForeignKeyRequest : Object'
+    content.vb: >-
+      Public Class ForeignSystem_SaveForeignKeyRequest
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.#ctor
   commentId: M:SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.#ctor
   id: '#ctor'
@@ -45,16 +47,20 @@ items:
   nameWithType: ForeignSystem_SaveForeignKeyRequest.ForeignSystem_SaveForeignKeyRequest()
   fullName: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.ForeignSystem_SaveForeignKeyRequest()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   syntax:
     content: public ForeignSystem_SaveForeignKeyRequest()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.#ctor*
-  nameWithType.vb: ForeignSystem_SaveForeignKeyRequest.New()
-  fullName.vb: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.ForeignKey
   commentId: P:SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.ForeignKey
   id: ForeignKey
@@ -66,10 +72,12 @@ items:
   nameWithType: ForeignSystem_SaveForeignKeyRequest.ForeignKey
   fullName: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.ForeignKey
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public ForeignKey ForeignKey { get; set; }
     parameters: []
@@ -77,6 +85,12 @@ items:
       type: SuperOffice.WebApi.Data.ForeignKey
     content.vb: Public Property ForeignKey As ForeignKey
   overload: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.ForeignKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.ApplicationName
   commentId: P:SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.ApplicationName
   id: ApplicationName
@@ -88,10 +102,12 @@ items:
   nameWithType: ForeignSystem_SaveForeignKeyRequest.ApplicationName
   fullName: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.ApplicationName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string ApplicationName { get; set; }
     parameters: []
@@ -99,6 +115,12 @@ items:
       type: System.String
     content.vb: Public Property ApplicationName As String
   overload: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.ApplicationName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.DeviceName
   commentId: P:SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.DeviceName
   id: DeviceName
@@ -110,10 +132,12 @@ items:
   nameWithType: ForeignSystem_SaveForeignKeyRequest.DeviceName
   fullName: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.DeviceName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string DeviceName { get; set; }
     parameters: []
@@ -121,6 +145,12 @@ items:
       type: System.String
     content.vb: Public Property DeviceName As String
   overload: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.DeviceName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.DeviceIdentifier
   commentId: P:SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.DeviceIdentifier
   id: DeviceIdentifier
@@ -132,10 +162,12 @@ items:
   nameWithType: ForeignSystem_SaveForeignKeyRequest.DeviceIdentifier
   fullName: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.DeviceIdentifier
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string DeviceIdentifier { get; set; }
     parameters: []
@@ -143,295 +175,41 @@ items:
       type: System.String
     content.vb: Public Property DeviceIdentifier As String
   overload: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.DeviceIdentifier*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.html#SuperOffice_WebApi_Data_ForeignSystem_SaveForeignKeyRequest__ctor
   name: ForeignSystem_SaveForeignKeyRequest
   nameWithType: ForeignSystem_SaveForeignKeyRequest.ForeignSystem_SaveForeignKeyRequest
   fullName: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.ForeignSystem_SaveForeignKeyRequest
-  nameWithType.vb: ForeignSystem_SaveForeignKeyRequest.New
-  fullName.vb: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.ForeignKey*
   commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.ForeignKey
   isExternal: true
-  href: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.html#SuperOffice_WebApi_Data_ForeignSystem_SaveForeignKeyRequest_ForeignKey
   name: ForeignKey
   nameWithType: ForeignSystem_SaveForeignKeyRequest.ForeignKey
   fullName: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.ForeignKey
@@ -439,14 +217,12 @@ references:
   commentId: T:SuperOffice.WebApi.Data.ForeignKey
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.ForeignKey.html
   name: ForeignKey
   nameWithType: ForeignKey
   fullName: SuperOffice.WebApi.Data.ForeignKey
 - uid: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.ApplicationName*
   commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.ApplicationName
   isExternal: true
-  href: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.html#SuperOffice_WebApi_Data_ForeignSystem_SaveForeignKeyRequest_ApplicationName
   name: ApplicationName
   nameWithType: ForeignSystem_SaveForeignKeyRequest.ApplicationName
   fullName: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.ApplicationName
@@ -454,24 +230,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.DeviceName*
   commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.DeviceName
   isExternal: true
-  href: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.html#SuperOffice_WebApi_Data_ForeignSystem_SaveForeignKeyRequest_DeviceName
   name: DeviceName
   nameWithType: ForeignSystem_SaveForeignKeyRequest.DeviceName
   fullName: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.DeviceName
 - uid: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.DeviceIdentifier*
   commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.DeviceIdentifier
   isExternal: true
-  href: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.html#SuperOffice_WebApi_Data_ForeignSystem_SaveForeignKeyRequest_DeviceIdentifier
   name: DeviceIdentifier
   nameWithType: ForeignSystem_SaveForeignKeyRequest.DeviceIdentifier
   fullName: SuperOffice.WebApi.Data.ForeignSystem_SaveForeignKeyRequest.DeviceIdentifier

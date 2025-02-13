@@ -8,21 +8,64 @@ items:
   - SuperOffice.WebApi.Data.RecurrenceEndType.Counter
   - SuperOffice.WebApi.Data.RecurrenceEndType.EndDate
   - SuperOffice.WebApi.Data.RecurrenceEndType.Unknown
+  - SuperOffice.WebApi.Data.RecurrenceEndType.value__
   langs:
   - csharp
   - vb
   name: RecurrenceEndType
   nameWithType: RecurrenceEndType
   fullName: SuperOffice.WebApi.Data.RecurrenceEndType
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Enumerator describing how the series of recurring activities are terminated.
-  example: []
+  summary: "\nEnumerator describing how the series of recurring activities are terminated.\n"
   syntax:
-    content: public enum RecurrenceEndType
-    content.vb: Public Enum RecurrenceEndType
+    content: 'public sealed class RecurrenceEndType : Enum'
+    content.vb: >-
+      Public NotInheritable Class RecurrenceEndType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.RecurrenceEndType.value__
+  commentId: F:SuperOffice.WebApi.Data.RecurrenceEndType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.RecurrenceEndType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: RecurrenceEndType.value__
+  fullName: SuperOffice.WebApi.Data.RecurrenceEndType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.RecurrenceEndType.Unknown
   commentId: F:SuperOffice.WebApi.Data.RecurrenceEndType.Unknown
   id: Unknown
@@ -34,26 +77,24 @@ items:
   nameWithType: RecurrenceEndType.Unknown
   fullName: SuperOffice.WebApi.Data.RecurrenceEndType.Unknown
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: 0: Unknown/undecided type'
-  example: []
+  summary: "\n0: 0: Unknown/undecided type\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Unknown = 0
+    content: public const RecurrenceEndType Unknown
     return:
       type: SuperOffice.WebApi.Data.RecurrenceEndType
-    content.vb: >-
-      <EnumMember>
-
-      Unknown = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Unknown As RecurrenceEndType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.RecurrenceEndType.EndDate
   commentId: F:SuperOffice.WebApi.Data.RecurrenceEndType.EndDate
   id: EndDate
@@ -65,26 +106,24 @@ items:
   nameWithType: RecurrenceEndType.EndDate
   fullName: SuperOffice.WebApi.Data.RecurrenceEndType.EndDate
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: The end of the recurrence is described by an end date.'
-  example: []
+  summary: "\n1: The end of the recurrence is described by an end date.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      EndDate = 1
+    content: public const RecurrenceEndType EndDate
     return:
       type: SuperOffice.WebApi.Data.RecurrenceEndType
-    content.vb: >-
-      <EnumMember>
-
-      EndDate = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const EndDate As RecurrenceEndType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.RecurrenceEndType.Counter
   commentId: F:SuperOffice.WebApi.Data.RecurrenceEndType.Counter
   id: Counter
@@ -96,69 +135,55 @@ items:
   nameWithType: RecurrenceEndType.Counter
   fullName: SuperOffice.WebApi.Data.RecurrenceEndType.Counter
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: The end of the recurrence is described with a number of recurring activities.'
-  example: []
+  summary: "\n2: The end of the recurrence is described with a number of recurring activities.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Counter = 2
+    content: public const RecurrenceEndType Counter
     return:
       type: SuperOffice.WebApi.Data.RecurrenceEndType
-    content.vb: >-
-      <EnumMember>
-
-      Counter = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Counter As RecurrenceEndType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.RecurrenceEndType
   commentId: T:SuperOffice.WebApi.Data.RecurrenceEndType
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.RecurrenceEndType.html
   name: RecurrenceEndType
   nameWithType: RecurrenceEndType
   fullName: SuperOffice.WebApi.Data.RecurrenceEndType

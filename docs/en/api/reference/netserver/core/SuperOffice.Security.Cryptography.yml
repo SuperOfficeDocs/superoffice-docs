@@ -20,21 +20,18 @@ references:
 - uid: SuperOffice.Security.Cryptography.So3Des112Crypto
   commentId: T:SuperOffice.Security.Cryptography.So3Des112Crypto
   isExternal: true
-  href: SuperOffice.Security.Cryptography.So3Des112Crypto.html
   name: So3Des112Crypto
   nameWithType: So3Des112Crypto
   fullName: SuperOffice.Security.Cryptography.So3Des112Crypto
 - uid: SuperOffice.Security.Cryptography.SoHash
   commentId: T:SuperOffice.Security.Cryptography.SoHash
   isExternal: true
-  href: SuperOffice.Security.Cryptography.SoHash.html
   name: SoHash
   nameWithType: SoHash
   fullName: SuperOffice.Security.Cryptography.SoHash
 - uid: SuperOffice.Security.Cryptography.Symmetric
   commentId: T:SuperOffice.Security.Cryptography.Symmetric
   isExternal: true
-  href: SuperOffice.Security.Cryptography.Symmetric.html
   name: Symmetric
   nameWithType: Symmetric
   fullName: SuperOffice.Security.Cryptography.Symmetric

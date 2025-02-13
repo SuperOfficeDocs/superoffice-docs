@@ -28,7 +28,6 @@ items:
     content: 'public sealed class TicketLoggerProcessor : BatchSaveProcessor'
     content.vb: >-
       Public NotInheritable Class TicketLoggerProcessor
-
           Inherits BatchSaveProcessor
   inheritance:
   - System.Object

@@ -38,25 +38,20 @@ items:
   nameWithType: ExtAppEntity
   fullName: SuperOffice.WebApi.Data.ExtAppEntity
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for ExtAppEntity.
-
-    The ext app entity contains information on an external application
+  summary: "\nCarrier object for ExtAppEntity.\nThe ext app entity contains information on an external application    \n"
   example:
-  - >-
-    Get ExtAppEntity 123 using the WebApi client:
-
-    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
-
-    var agent = new ListAgent(configuration);
-
-    var extAppEntity = agent.GetExtAppEntity( 123 );</code></pre>
+  - "\nGet ExtAppEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar extAppEntity = agent.GetExtAppEntity( 123 );</code></pre>\n"
   syntax:
     content: 'public class ExtAppEntity : Carrier'
-    content.vb: Public Class ExtAppEntity Inherits Carrier
+    content.vb: >-
+      Public Class ExtAppEntity
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.ListAgent
     commentId: T:SuperOffice.WebApi.Agents.ListAgent
@@ -66,13 +61,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.#ctor
   commentId: M:SuperOffice.WebApi.Data.ExtAppEntity.#ctor
   id: '#ctor'
@@ -84,18 +78,21 @@ items:
   nameWithType: ExtAppEntity.ExtAppEntity()
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.ExtAppEntity()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public ExtAppEntity()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.ExtAppEntity.#ctor*
-  nameWithType.vb: ExtAppEntity.New()
-  fullName.vb: SuperOffice.WebApi.Data.ExtAppEntity.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.ExtAppId
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ExtAppId
   id: ExtAppId
@@ -107,11 +104,13 @@ items:
   nameWithType: ExtAppEntity.ExtAppId
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.ExtAppId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The identity of the external app
-  example: []
+  summary: "\nThe identity of the external app\n"
   syntax:
     content: public virtual int ExtAppId { get; set; }
     parameters: []
@@ -119,6 +118,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ExtAppId As Integer
   overload: SuperOffice.WebApi.Data.ExtAppEntity.ExtAppId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.Name
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.Name
   id: Name
@@ -130,11 +137,13 @@ items:
   nameWithType: ExtAppEntity.Name
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.Name
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The name of the web panel
-  example: []
+  summary: "\nThe name of the web panel\n"
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -142,6 +151,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.ExtAppEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.Tooltip
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.Tooltip
   id: Tooltip
@@ -153,11 +170,13 @@ items:
   nameWithType: ExtAppEntity.Tooltip
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.Tooltip
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The tooltip of the web panel
-  example: []
+  summary: "\nThe tooltip of the web panel\n"
   syntax:
     content: public virtual string Tooltip { get; set; }
     parameters: []
@@ -165,6 +184,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Tooltip As String
   overload: SuperOffice.WebApi.Data.ExtAppEntity.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.Deleted
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.Deleted
   id: Deleted
@@ -176,11 +203,13 @@ items:
   nameWithType: ExtAppEntity.Deleted
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.Deleted
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: True if the application is marked as deleted
-  example: []
+  summary: "\nTrue if the application is marked as deleted\n"
   syntax:
     content: public virtual bool Deleted { get; set; }
     parameters: []
@@ -188,6 +217,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property Deleted As Boolean
   overload: SuperOffice.WebApi.Data.ExtAppEntity.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.Rank
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.Rank
   id: Rank
@@ -199,11 +236,13 @@ items:
   nameWithType: ExtAppEntity.Rank
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.Rank
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The rank of the application
-  example: []
+  summary: "\nThe rank of the application\n"
   syntax:
     content: public virtual int Rank { get; set; }
     parameters: []
@@ -211,6 +250,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Rank As Integer
   overload: SuperOffice.WebApi.Data.ExtAppEntity.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.Filename
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.Filename
   id: Filename
@@ -222,11 +269,13 @@ items:
   nameWithType: ExtAppEntity.Filename
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.Filename
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Filename of the programfile
-  example: []
+  summary: "\nFilename of the programfile\n"
   syntax:
     content: public virtual string Filename { get; set; }
     parameters: []
@@ -234,6 +283,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Filename As String
   overload: SuperOffice.WebApi.Data.ExtAppEntity.Filename*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.Parameters
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.Parameters
   id: Parameters
@@ -245,11 +302,13 @@ items:
   nameWithType: ExtAppEntity.Parameters
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.Parameters
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '&lt;template variable&gt; &lt;other template variable&gt;'
-  example: []
+  summary: "\n&lt;template variable> &lt;other template variable>\n"
   syntax:
     content: public virtual string Parameters { get; set; }
     parameters: []
@@ -257,6 +316,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Parameters As String
   overload: SuperOffice.WebApi.Data.ExtAppEntity.Parameters*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.Workdir
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.Workdir
   id: Workdir
@@ -268,11 +335,13 @@ items:
   nameWithType: ExtAppEntity.Workdir
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.Workdir
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Directory set to current when loading the application, if different from application's own
-  example: []
+  summary: "\nDirectory set to current when loading the application, if different from application&apos;s own\n"
   syntax:
     content: public virtual string Workdir { get; set; }
     parameters: []
@@ -280,6 +349,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Workdir As String
   overload: SuperOffice.WebApi.Data.ExtAppEntity.Workdir*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.ShowState_String
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ShowState_String
   id: ShowState_String
@@ -291,36 +368,29 @@ items:
   nameWithType: ExtAppEntity.ShowState_String
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.ShowState_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The application is shown in which state Minimized, Maximized or Restored
-
-    Raw string enum value.
-  example: []
+  summary: "\nThe application is shown in which state Minimized, Maximized or Restored\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("ShowState")]
-
-      public string ShowState_String { get; set; }
+    content: public string ShowState_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("ShowState")>
-
-      Public Property ShowState_String As String
+    content.vb: Public Property ShowState_String As String
   overload: SuperOffice.WebApi.Data.ExtAppEntity.ShowState_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ExtAppEntity.ShowState
     commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ShowState
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: ShowState
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.ShowState
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ShowState
   id: ShowState
@@ -332,34 +402,29 @@ items:
   nameWithType: ExtAppEntity.ShowState
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.ShowState
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The application is shown in which state Minimized, Maximized or Restored
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nThe application is shown in which state Minimized, Maximized or Restored\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public ShowState? ShowState { get; set; }
+    content: public Nullable<ShowState> ShowState { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.ShowState}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property ShowState As ShowState?
+    content.vb: Public Property ShowState As Nullable(Of ShowState)
   overload: SuperOffice.WebApi.Data.ExtAppEntity.ShowState*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ExtAppEntity.ShowState_String
     commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ShowState_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn_String
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn_String
   id: VisibleIn_String
@@ -371,36 +436,29 @@ items:
   nameWithType: ExtAppEntity.VisibleIn_String
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The application is visible in
-
-    Raw string enum value.
-  example: []
+  summary: "\nThe application is visible in\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("VisibleIn")]
-
-      public string VisibleIn_String { get; set; }
+    content: public string VisibleIn_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("VisibleIn")>
-
-      Public Property VisibleIn_String As String
+    content.vb: Public Property VisibleIn_String As String
   overload: SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn
     commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: VisibleIn
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn
   id: VisibleIn
@@ -412,34 +470,29 @@ items:
   nameWithType: ExtAppEntity.VisibleIn
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The application is visible in
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nThe application is visible in\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public Navigation? VisibleIn { get; set; }
+    content: public Nullable<Navigation> VisibleIn { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.Navigation}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property VisibleIn As Navigation?
+    content.vb: Public Property VisibleIn As Nullable(Of Navigation)
   overload: SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn_String
     commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.OnCentral
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.OnCentral
   id: OnCentral
@@ -451,11 +504,13 @@ items:
   nameWithType: ExtAppEntity.OnCentral
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.OnCentral
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Is the application visible when user is on central database
-  example: []
+  summary: "\nIs the application visible when user is on central database\n"
   syntax:
     content: public virtual bool OnCentral { get; set; }
     parameters: []
@@ -463,6 +518,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property OnCentral As Boolean
   overload: SuperOffice.WebApi.Data.ExtAppEntity.OnCentral*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.OnSatellite
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.OnSatellite
   id: OnSatellite
@@ -474,11 +537,13 @@ items:
   nameWithType: ExtAppEntity.OnSatellite
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.OnSatellite
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Is the application visible when user is on a satellite
-  example: []
+  summary: "\nIs the application visible when user is on a satellite\n"
   syntax:
     content: public virtual bool OnSatellite { get; set; }
     parameters: []
@@ -486,6 +551,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property OnSatellite As Boolean
   overload: SuperOffice.WebApi.Data.ExtAppEntity.OnSatellite*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.OnTravel
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.OnTravel
   id: OnTravel
@@ -497,11 +570,13 @@ items:
   nameWithType: ExtAppEntity.OnTravel
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.OnTravel
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Is the application visible when user is on travel
-  example: []
+  summary: "\nIs the application visible when user is on travel\n"
   syntax:
     content: public virtual bool OnTravel { get; set; }
     parameters: []
@@ -509,6 +584,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property OnTravel As Boolean
   overload: SuperOffice.WebApi.Data.ExtAppEntity.OnTravel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.OnSalesMarketingPocket
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.OnSalesMarketingPocket
   id: OnSalesMarketingPocket
@@ -520,11 +603,13 @@ items:
   nameWithType: ExtAppEntity.OnSalesMarketingPocket
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.OnSalesMarketingPocket
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Is the webpanel visible when user is on pocket client
-  example: []
+  summary: "\nIs the webpanel visible when user is on pocket client\n"
   syntax:
     content: public virtual bool OnSalesMarketingPocket { get; set; }
     parameters: []
@@ -532,6 +617,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property OnSalesMarketingPocket As Boolean
   overload: SuperOffice.WebApi.Data.ExtAppEntity.OnSalesMarketingPocket*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.ShowInMenuBar
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ShowInMenuBar
   id: ShowInMenuBar
@@ -543,11 +636,13 @@ items:
   nameWithType: ExtAppEntity.ShowInMenuBar
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.ShowInMenuBar
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Does the application have a menu bar
-  example: []
+  summary: "\nDoes the application have a menu bar\n"
   syntax:
     content: public virtual bool ShowInMenuBar { get; set; }
     parameters: []
@@ -555,6 +650,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property ShowInMenuBar As Boolean
   overload: SuperOffice.WebApi.Data.ExtAppEntity.ShowInMenuBar*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.ShowInToolBar
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ShowInToolBar
   id: ShowInToolBar
@@ -566,11 +669,13 @@ items:
   nameWithType: ExtAppEntity.ShowInToolBar
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.ShowInToolBar
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Does the webpanel have a toolbar
-  example: []
+  summary: "\nDoes the webpanel have a toolbar\n"
   syntax:
     content: public virtual bool ShowInToolBar { get; set; }
     parameters: []
@@ -578,6 +683,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property ShowInToolBar As Boolean
   overload: SuperOffice.WebApi.Data.ExtAppEntity.ShowInToolBar*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.ShowInAddressBar
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ShowInAddressBar
   id: ShowInAddressBar
@@ -589,11 +702,13 @@ items:
   nameWithType: ExtAppEntity.ShowInAddressBar
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.ShowInAddressBar
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Does the webpanel have an address bar
-  example: []
+  summary: "\nDoes the webpanel have an address bar\n"
   syntax:
     content: public virtual bool ShowInAddressBar { get; set; }
     parameters: []
@@ -601,6 +716,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property ShowInAddressBar As Boolean
   overload: SuperOffice.WebApi.Data.ExtAppEntity.ShowInAddressBar*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.ShowInStatusBar
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ShowInStatusBar
   id: ShowInStatusBar
@@ -612,11 +735,13 @@ items:
   nameWithType: ExtAppEntity.ShowInStatusBar
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.ShowInStatusBar
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Does the webpanel have a status bar
-  example: []
+  summary: "\nDoes the webpanel have a status bar\n"
   syntax:
     content: public virtual bool ShowInStatusBar { get; set; }
     parameters: []
@@ -624,6 +749,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property ShowInStatusBar As Boolean
   overload: SuperOffice.WebApi.Data.ExtAppEntity.ShowInStatusBar*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.Icon
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.Icon
   id: Icon
@@ -635,11 +768,13 @@ items:
   nameWithType: ExtAppEntity.Icon
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.Icon
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The id of the icon of the external app
-  example: []
+  summary: "\nThe id of the icon of the external app\n"
   syntax:
     content: public virtual short Icon { get; set; }
     parameters: []
@@ -647,6 +782,14 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property Icon As Short
   overload: SuperOffice.WebApi.Data.ExtAppEntity.Icon*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.WaitToFinish
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.WaitToFinish
   id: WaitToFinish
@@ -658,11 +801,13 @@ items:
   nameWithType: ExtAppEntity.WaitToFinish
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.WaitToFinish
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: True if the application shall wait for fininsh event
-  example: []
+  summary: "\nTrue if the application shall wait for fininsh event\n"
   syntax:
     content: public virtual bool WaitToFinish { get; set; }
     parameters: []
@@ -670,6 +815,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property WaitToFinish As Boolean
   overload: SuperOffice.WebApi.Data.ExtAppEntity.WaitToFinish*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent_String
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent_String
   id: ExecuteOnEvent_String
@@ -681,36 +834,29 @@ items:
   nameWithType: ExtAppEntity.ExecuteOnEvent_String
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Events that cause automatic execution of this app
-
-    Raw string enum value.
-  example: []
+  summary: "\nEvents that cause automatic execution of this app\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("ExecuteOnEvent")]
-
-      public string ExecuteOnEvent_String { get; set; }
+    content: public string ExecuteOnEvent_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("ExecuteOnEvent")>
-
-      Public Property ExecuteOnEvent_String As String
+    content.vb: Public Property ExecuteOnEvent_String As String
   overload: SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent
     commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: ExecuteOnEvent
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent
   id: ExecuteOnEvent
@@ -722,34 +868,29 @@ items:
   nameWithType: ExtAppEntity.ExecuteOnEvent
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Events that cause automatic execution of this app
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nEvents that cause automatic execution of this app\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public ExecuteOnEvent? ExecuteOnEvent { get; set; }
+    content: public Nullable<ExecuteOnEvent> ExecuteOnEvent { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.ExecuteOnEvent}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property ExecuteOnEvent As ExecuteOnEvent?
+    content.vb: Public Property ExecuteOnEvent As Nullable(Of ExecuteOnEvent)
   overload: SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent_String
     commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.Path
   commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.Path
   id: Path
@@ -761,11 +902,13 @@ items:
   nameWithType: ExtAppEntity.Path
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.Path
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Path where the programfile is located; if empty, PATH is used
-  example: []
+  summary: "\nPath where the programfile is located; if empty, PATH is used\n"
   syntax:
     content: public virtual string Path { get; set; }
     parameters: []
@@ -773,67 +916,32 @@ items:
       type: System.String
     content.vb: Public Overridable Property Path As String
   overload: SuperOffice.WebApi.Data.ExtAppEntity.Path*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.ListAgent
-  commentId: T:SuperOffice.WebApi.Agents.ListAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.ListAgent.html
-  name: ListAgent
-  nameWithType: ListAgent
-  fullName: SuperOffice.WebApi.Agents.ListAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -841,7 +949,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -849,250 +956,30 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity__ctor
   name: ExtAppEntity
   nameWithType: ExtAppEntity.ExtAppEntity
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.ExtAppEntity
-  nameWithType.vb: ExtAppEntity.New
-  fullName.vb: SuperOffice.WebApi.Data.ExtAppEntity.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.ExtAppId*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.ExtAppId
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_ExtAppId
   name: ExtAppId
   nameWithType: ExtAppEntity.ExtAppId
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.ExtAppId
@@ -1100,17 +987,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.Name*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.Name
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_Name
   name: Name
   nameWithType: ExtAppEntity.Name
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.Name
@@ -1118,24 +1000,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.Tooltip*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.Tooltip
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_Tooltip
   name: Tooltip
   nameWithType: ExtAppEntity.Tooltip
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.Tooltip
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.Deleted*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.Deleted
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_Deleted
   name: Deleted
   nameWithType: ExtAppEntity.Deleted
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.Deleted
@@ -1143,225 +1019,244 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.Rank*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.Rank
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_Rank
   name: Rank
   nameWithType: ExtAppEntity.Rank
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.Rank
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.Filename*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.Filename
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_Filename
   name: Filename
   nameWithType: ExtAppEntity.Filename
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.Filename
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.Parameters*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.Parameters
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_Parameters
   name: Parameters
   nameWithType: ExtAppEntity.Parameters
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.Parameters
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.Workdir*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.Workdir
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_Workdir
   name: Workdir
   nameWithType: ExtAppEntity.Workdir
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.Workdir
-- uid: SuperOffice.WebApi.Data.ExtAppEntity.ShowState
-  commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ShowState
-  isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_ShowState
-  name: ShowState
-  nameWithType: ExtAppEntity.ShowState
-  fullName: SuperOffice.WebApi.Data.ExtAppEntity.ShowState
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.ShowState_String*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.ShowState_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_ShowState_String
   name: ShowState_String
   nameWithType: ExtAppEntity.ShowState_String
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.ShowState_String
-- uid: SuperOffice.WebApi.Data.ExtAppEntity.ShowState_String
-  commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ShowState_String
+- uid: SuperOffice.WebApi.Data.ExtAppEntity.ShowState
+  commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ShowState
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_ShowState_String
-  name: ShowState_String
-  nameWithType: ExtAppEntity.ShowState_String
-  fullName: SuperOffice.WebApi.Data.ExtAppEntity.ShowState_String
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.ShowState*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.ShowState
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_ShowState
   name: ShowState
   nameWithType: ExtAppEntity.ShowState
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.ShowState
+- uid: SuperOffice.WebApi.Data.ExtAppEntity.ShowState_String
+  commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ShowState_String
+  isExternal: true
 - uid: System.Nullable{SuperOffice.WebApi.Data.ShowState}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.ShowState}
-  parent: System
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ShowState}'
   definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.ShowState.html
-  name: ShowState?
-  nameWithType: ShowState?
-  fullName: SuperOffice.WebApi.Data.ShowState?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.ShowState
-    name: ShowState
-    isExternal: true
-    href: SuperOffice.WebApi.Data.ShowState.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.ShowState
-    name: ShowState
-    isExternal: true
-    href: SuperOffice.WebApi.Data.ShowState.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+  name: Nullable<ShowState>
+  nameWithType: Nullable<ShowState>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ShowState>
+  nameWithType.vb: Nullable(Of ShowState)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ShowState)
+  name.vb: Nullable(Of ShowState)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ShowState
+    name: ShowState
+    nameWithType: ShowState
+    fullName: SuperOffice.WebApi.Data.ShowState
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ShowState
+    name: ShowState
+    nameWithType: ShowState
+    fullName: SuperOffice.WebApi.Data.ShowState
+    isExternal: true
   - name: )
-- uid: SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn
-  commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_VisibleIn
-  name: VisibleIn
-  nameWithType: ExtAppEntity.VisibleIn
-  fullName: SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn_String*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_VisibleIn_String
   name: VisibleIn_String
   nameWithType: ExtAppEntity.VisibleIn_String
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn_String
-- uid: SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn_String
-  commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn_String
+- uid: SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn
+  commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_VisibleIn_String
-  name: VisibleIn_String
-  nameWithType: ExtAppEntity.VisibleIn_String
-  fullName: SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn_String
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_VisibleIn
   name: VisibleIn
   nameWithType: ExtAppEntity.VisibleIn
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn
+- uid: SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn_String
+  commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.VisibleIn_String
+  isExternal: true
 - uid: System.Nullable{SuperOffice.WebApi.Data.Navigation}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.Navigation}
-  parent: System
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.Navigation}'
   definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.Navigation.html
-  name: Navigation?
-  nameWithType: Navigation?
-  fullName: SuperOffice.WebApi.Data.Navigation?
+  name: Nullable<Navigation>
+  nameWithType: Nullable<Navigation>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.Navigation>
+  nameWithType.vb: Nullable(Of Navigation)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.Navigation)
+  name.vb: Nullable(Of Navigation)
   spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.Navigation
     name: Navigation
+    nameWithType: Navigation
+    fullName: SuperOffice.WebApi.Data.Navigation
     isExternal: true
-    href: SuperOffice.WebApi.Data.Navigation.html
-  - name: '?'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.Navigation
     name: Navigation
+    nameWithType: Navigation
+    fullName: SuperOffice.WebApi.Data.Navigation
     isExternal: true
-    href: SuperOffice.WebApi.Data.Navigation.html
-  - name: '?'
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.OnCentral*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.OnCentral
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_OnCentral
   name: OnCentral
   nameWithType: ExtAppEntity.OnCentral
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.OnCentral
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.OnSatellite*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.OnSatellite
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_OnSatellite
   name: OnSatellite
   nameWithType: ExtAppEntity.OnSatellite
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.OnSatellite
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.OnTravel*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.OnTravel
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_OnTravel
   name: OnTravel
   nameWithType: ExtAppEntity.OnTravel
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.OnTravel
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.OnSalesMarketingPocket*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.OnSalesMarketingPocket
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_OnSalesMarketingPocket
   name: OnSalesMarketingPocket
   nameWithType: ExtAppEntity.OnSalesMarketingPocket
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.OnSalesMarketingPocket
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.ShowInMenuBar*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.ShowInMenuBar
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_ShowInMenuBar
   name: ShowInMenuBar
   nameWithType: ExtAppEntity.ShowInMenuBar
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.ShowInMenuBar
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.ShowInToolBar*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.ShowInToolBar
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_ShowInToolBar
   name: ShowInToolBar
   nameWithType: ExtAppEntity.ShowInToolBar
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.ShowInToolBar
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.ShowInAddressBar*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.ShowInAddressBar
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_ShowInAddressBar
   name: ShowInAddressBar
   nameWithType: ExtAppEntity.ShowInAddressBar
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.ShowInAddressBar
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.ShowInStatusBar*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.ShowInStatusBar
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_ShowInStatusBar
   name: ShowInStatusBar
   nameWithType: ExtAppEntity.ShowInStatusBar
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.ShowInStatusBar
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.Icon*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.Icon
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_Icon
   name: Icon
   nameWithType: ExtAppEntity.Icon
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.Icon
@@ -1369,72 +1264,79 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.WaitToFinish*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.WaitToFinish
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_WaitToFinish
   name: WaitToFinish
   nameWithType: ExtAppEntity.WaitToFinish
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.WaitToFinish
-- uid: SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent
-  commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent
-  isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_ExecuteOnEvent
-  name: ExecuteOnEvent
-  nameWithType: ExtAppEntity.ExecuteOnEvent
-  fullName: SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent_String*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_ExecuteOnEvent_String
   name: ExecuteOnEvent_String
   nameWithType: ExtAppEntity.ExecuteOnEvent_String
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent_String
-- uid: SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent_String
-  commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent_String
+- uid: SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent
+  commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_ExecuteOnEvent_String
-  name: ExecuteOnEvent_String
-  nameWithType: ExtAppEntity.ExecuteOnEvent_String
-  fullName: SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent_String
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_ExecuteOnEvent
   name: ExecuteOnEvent
   nameWithType: ExtAppEntity.ExecuteOnEvent
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent
+- uid: SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent_String
+  commentId: P:SuperOffice.WebApi.Data.ExtAppEntity.ExecuteOnEvent_String
+  isExternal: true
 - uid: System.Nullable{SuperOffice.WebApi.Data.ExecuteOnEvent}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.ExecuteOnEvent}
-  parent: System
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ExecuteOnEvent}'
   definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.ExecuteOnEvent.html
-  name: ExecuteOnEvent?
-  nameWithType: ExecuteOnEvent?
-  fullName: SuperOffice.WebApi.Data.ExecuteOnEvent?
+  name: Nullable<ExecuteOnEvent>
+  nameWithType: Nullable<ExecuteOnEvent>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ExecuteOnEvent>
+  nameWithType.vb: Nullable(Of ExecuteOnEvent)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ExecuteOnEvent)
+  name.vb: Nullable(Of ExecuteOnEvent)
   spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.ExecuteOnEvent
     name: ExecuteOnEvent
+    nameWithType: ExecuteOnEvent
+    fullName: SuperOffice.WebApi.Data.ExecuteOnEvent
     isExternal: true
-    href: SuperOffice.WebApi.Data.ExecuteOnEvent.html
-  - name: '?'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.ExecuteOnEvent
     name: ExecuteOnEvent
+    nameWithType: ExecuteOnEvent
+    fullName: SuperOffice.WebApi.Data.ExecuteOnEvent
     isExternal: true
-    href: SuperOffice.WebApi.Data.ExecuteOnEvent.html
-  - name: '?'
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.ExtAppEntity.Path*
   commentId: Overload:SuperOffice.WebApi.Data.ExtAppEntity.Path
   isExternal: true
-  href: SuperOffice.WebApi.Data.ExtAppEntity.html#SuperOffice_WebApi_Data_ExtAppEntity_Path
   name: Path
   nameWithType: ExtAppEntity.Path
   fullName: SuperOffice.WebApi.Data.ExtAppEntity.Path

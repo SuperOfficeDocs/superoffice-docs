@@ -25,7 +25,6 @@ references:
 - uid: SuperOffice.CRM.MailMerge.MailMerge
   commentId: T:SuperOffice.CRM.MailMerge.MailMerge
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMerge.html
   name: MailMerge
   nameWithType: MailMerge
   fullName: SuperOffice.CRM.MailMerge.MailMerge
@@ -33,21 +32,18 @@ references:
   commentId: T:SuperOffice.CRM.MailMerge.MailMergeSettings
   parent: SuperOffice.CRM.MailMerge
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeSettings.html
   name: MailMergeSettings
   nameWithType: MailMergeSettings
   fullName: SuperOffice.CRM.MailMerge.MailMergeSettings
 - uid: SuperOffice.CRM.MailMerge.XmlSerializationWriterMailMergeSettings
   commentId: T:SuperOffice.CRM.MailMerge.XmlSerializationWriterMailMergeSettings
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.XmlSerializationWriterMailMergeSettings.html
   name: XmlSerializationWriterMailMergeSettings
   nameWithType: XmlSerializationWriterMailMergeSettings
   fullName: SuperOffice.CRM.MailMerge.XmlSerializationWriterMailMergeSettings
 - uid: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
   commentId: T:SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings.html
   name: XmlSerializationReaderMailMergeSettings
   nameWithType: XmlSerializationReaderMailMergeSettings
   fullName: SuperOffice.CRM.MailMerge.XmlSerializationReaderMailMergeSettings
@@ -55,21 +51,18 @@ references:
   commentId: T:SuperOffice.CRM.MailMerge.XmlSerializer1
   parent: SuperOffice.CRM.MailMerge
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.XmlSerializer1.html
   name: XmlSerializer1
   nameWithType: XmlSerializer1
   fullName: SuperOffice.CRM.MailMerge.XmlSerializer1
 - uid: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
   commentId: T:SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer.html
   name: MailMergeSettingsSerializer
   nameWithType: MailMergeSettingsSerializer
   fullName: SuperOffice.CRM.MailMerge.MailMergeSettingsSerializer
 - uid: SuperOffice.CRM.MailMerge.XmlSerializerContract
   commentId: T:SuperOffice.CRM.MailMerge.XmlSerializerContract
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.XmlSerializerContract.html
   name: XmlSerializerContract
   nameWithType: XmlSerializerContract
   fullName: SuperOffice.CRM.MailMerge.XmlSerializerContract
@@ -77,44 +70,12 @@ references:
   commentId: T:SuperOffice.CRM.MailMerge.MailMergeTask
   parent: SuperOffice.CRM.MailMerge
   isExternal: true
-  href: SuperOffice.CRM.MailMerge.MailMergeTask.html
   name: MailMergeTask
   nameWithType: MailMergeTask
   fullName: SuperOffice.CRM.MailMerge.MailMergeTask
 - uid: SuperOffice.CRM.MailMerge
   commentId: N:SuperOffice.CRM.MailMerge
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.MailMerge
   nameWithType: SuperOffice.CRM.MailMerge
   fullName: SuperOffice.CRM.MailMerge
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.MailMerge
-    name: MailMerge
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.MailMerge
-    name: MailMerge
-    isExternal: true
-    href: SuperOffice.CRM.MailMerge.html

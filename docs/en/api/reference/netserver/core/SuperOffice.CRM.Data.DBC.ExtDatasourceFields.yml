@@ -34,24 +34,27 @@ items:
   nameWithType: DBC.ExtDatasourceFields
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Fields for ExtDatasource, This table contains external datasources, used for databaseintegration of customers and companies.
-  example: []
+  summary: "\nFields for ExtDatasource, This table contains external datasources, used for databaseintegration of customers and companies.\n"
   syntax:
-    content: public static class DBC.ExtDatasourceFields
-    content.vb: Public Module DBC.ExtDatasourceFields
+    content: 'public static class ExtDatasourceFields : Object'
+    content.vb: >-
+      Public Module ExtDatasourceFields
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.ExtDatasourceId
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.ExtDatasourceId
   id: ExtDatasourceId
@@ -63,16 +66,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.ExtDatasourceId
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.ExtDatasourceId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.ExtDatasourceId: The primary key (auto-incremented)'
-  example: []
+  summary: "\nExtDatasource.ExtDatasourceId: The primary key (auto-incremented)\n"
   syntax:
     content: public const string ExtDatasourceId = "id"
     return:
       type: System.String
     content.vb: Public Const ExtDatasourceId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Name
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Name
   id: Name
@@ -84,16 +95,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.Name
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Name
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.Name: An alias for this datasource.'
-  example: []
+  summary: "\nExtDatasource.Name: An alias for this datasource.\n"
   syntax:
     content: public const string Name = "name"
     return:
       type: System.String
     content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Datatype
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Datatype
   id: Datatype
@@ -105,16 +124,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.Datatype
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Datatype
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.Datatype: An enum indicating the type/protocol for this datasource.'
-  example: []
+  summary: "\nExtDatasource.Datatype: An enum indicating the type/protocol for this datasource.\n"
   syntax:
     content: public const string Datatype = "datatype"
     return:
       type: System.String
     content.vb: Public Const Datatype As String = "datatype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.DatabaseType
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.DatabaseType
   id: DatabaseType
@@ -126,16 +153,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.DatabaseType
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.DatabaseType
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.DatabaseType: The database type (DbType).'
-  example: []
+  summary: "\nExtDatasource.DatabaseType: The database type (DbType).\n"
   syntax:
     content: public const string DatabaseType = "database_type"
     return:
       type: System.String
     content.vb: Public Const DatabaseType As String = "database_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Dbname
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Dbname
   id: Dbname
@@ -147,16 +182,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.Dbname
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Dbname
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.Dbname: The name used for accessing the datasource.'
-  example: []
+  summary: "\nExtDatasource.Dbname: The name used for accessing the datasource.\n"
   syntax:
     content: public const string Dbname = "dbname"
     return:
       type: System.String
     content.vb: Public Const Dbname As String = "dbname"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Hostname
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Hostname
   id: Hostname
@@ -168,16 +211,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.Hostname
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Hostname
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.Hostname: The hostname for accessing the datasource.'
-  example: []
+  summary: "\nExtDatasource.Hostname: The hostname for accessing the datasource.\n"
   syntax:
     content: public const string Hostname = "hostname"
     return:
       type: System.String
     content.vb: Public Const Hostname As String = "hostname"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Port
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Port
   id: Port
@@ -189,16 +240,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.Port
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Port
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.Port: The port used for accessing the datasource.'
-  example: []
+  summary: "\nExtDatasource.Port: The port used for accessing the datasource.\n"
   syntax:
     content: public const string Port = "port"
     return:
       type: System.String
     content.vb: Public Const Port As String = "port"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Path
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Path
   id: Path
@@ -210,16 +269,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.Path
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Path
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.Path: Path to the datasource.'
-  example: []
+  summary: "\nExtDatasource.Path: Path to the datasource.\n"
   syntax:
     content: public const string Path = "path"
     return:
       type: System.String
     content.vb: Public Const Path As String = "path"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Username
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Username
   id: Username
@@ -231,16 +298,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.Username
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Username
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.Username: The username used for authenticating against the datasource.'
-  example: []
+  summary: "\nExtDatasource.Username: The username used for authenticating against the datasource.\n"
   syntax:
     content: public const string Username = "username"
     return:
       type: System.String
     content.vb: Public Const Username As String = "username"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Password
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Password
   id: Password
@@ -252,16 +327,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.Password
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Password
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.Password: The poassword used for authenticating against the datasource.'
-  example: []
+  summary: "\nExtDatasource.Password: The poassword used for authenticating against the datasource.\n"
   syntax:
     content: public const string Password = "password"
     return:
       type: System.String
     content.vb: Public Const Password As String = "password"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Flags
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Flags
   id: Flags
@@ -273,16 +356,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.Flags
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.Flags
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.Flags: Bitmask of flags.'
-  example: []
+  summary: "\nExtDatasource.Flags: Bitmask of flags.\n"
   syntax:
     content: public const string Flags = "flags"
     return:
       type: System.String
     content.vb: Public Const Flags As String = "flags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.NextUpdate
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.NextUpdate
   id: NextUpdate
@@ -294,16 +385,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.NextUpdate
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.NextUpdate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.NextUpdate: Next time the update process starts'
-  example: []
+  summary: "\nExtDatasource.NextUpdate: Next time the update process starts\n"
   syntax:
     content: public const string NextUpdate = "next_update"
     return:
       type: System.String
     content.vb: Public Const NextUpdate As String = "next_update"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UpdateInterval
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UpdateInterval
   id: UpdateInterval
@@ -315,16 +414,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.UpdateInterval
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UpdateInterval
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.UpdateInterval: Number of hours between each database update'
-  example: []
+  summary: "\nExtDatasource.UpdateInterval: Number of hours between each database update\n"
   syntax:
     content: public const string UpdateInterval = "update_interval"
     return:
       type: System.String
     content.vb: Public Const UpdateInterval As String = "update_interval"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UpdateCustomerCount
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UpdateCustomerCount
   id: UpdateCustomerCount
@@ -336,16 +443,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.UpdateCustomerCount
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UpdateCustomerCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.UpdateCustomerCount: Number of customers updated so far'
-  example: []
+  summary: "\nExtDatasource.UpdateCustomerCount: Number of customers updated so far\n"
   syntax:
     content: public const string UpdateCustomerCount = "update_customer_count"
     return:
       type: System.String
     content.vb: Public Const UpdateCustomerCount As String = "update_customer_count"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UpdateCompanyCount
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UpdateCompanyCount
   id: UpdateCompanyCount
@@ -357,16 +472,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.UpdateCompanyCount
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UpdateCompanyCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.UpdateCompanyCount: Number of companies updated so far'
-  example: []
+  summary: "\nExtDatasource.UpdateCompanyCount: Number of companies updated so far\n"
   syntax:
     content: public const string UpdateCompanyCount = "update_company_count"
     return:
       type: System.String
     content.vb: Public Const UpdateCompanyCount As String = "update_company_count"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UpdateLock
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UpdateLock
   id: UpdateLock
@@ -378,16 +501,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.UpdateLock
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UpdateLock
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.UpdateLock: Lock to make sure not 2 updates are done simultaniously'
-  example: []
+  summary: "\nExtDatasource.UpdateLock: Lock to make sure not 2 updates are done simultaniously\n"
   syntax:
     content: public const string UpdateLock = "update_lock"
     return:
       type: System.String
     content.vb: Public Const UpdateLock As String = "update_lock"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.LastUpdate
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.LastUpdate
   id: LastUpdate
@@ -399,16 +530,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.LastUpdate
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.LastUpdate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.LastUpdate: When did the last update occur?.'
-  example: []
+  summary: "\nExtDatasource.LastUpdate: When did the last update occur?.\n"
   syntax:
     content: public const string LastUpdate = "last_update"
     return:
       type: System.String
     content.vb: Public Const LastUpdate As String = "last_update"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UpdateCompletionTime
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UpdateCompletionTime
   id: UpdateCompletionTime
@@ -420,16 +559,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.UpdateCompletionTime
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UpdateCompletionTime
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.UpdateCompletionTime: The last update completion time in minutes.'
-  example: []
+  summary: "\nExtDatasource.UpdateCompletionTime: The last update completion time in minutes.\n"
   syntax:
     content: public const string UpdateCompletionTime = "update_completion_time"
     return:
       type: System.String
     content.vb: Public Const UpdateCompletionTime As String = "update_completion_time"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UpdateErrorMessage
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UpdateErrorMessage
   id: UpdateErrorMessage
@@ -441,16 +588,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.UpdateErrorMessage
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UpdateErrorMessage
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.UpdateErrorMessage: The last error message from datasource update.'
-  example: []
+  summary: "\nExtDatasource.UpdateErrorMessage: The last error message from datasource update.\n"
   syntax:
     content: public const string UpdateErrorMessage = "update_error_message"
     return:
       type: System.String
     content.vb: Public Const UpdateErrorMessage As String = "update_error_message"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.LastAccess
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.LastAccess
   id: LastAccess
@@ -462,16 +617,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.LastAccess
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.LastAccess
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.LastAccess: The last time this datasource was accessed.'
-  example: []
+  summary: "\nExtDatasource.LastAccess: The last time this datasource was accessed.\n"
   syntax:
     content: public const string LastAccess = "last_access"
     return:
       type: System.String
     content.vb: Public Const LastAccess As String = "last_access"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.SqlInit
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.SqlInit
   id: SqlInit
@@ -483,16 +646,24 @@ items:
   nameWithType: DBC.ExtDatasourceFields.SqlInit
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.SqlInit
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.SqlInit: The SQL init used for configure the server before fetching external data.'
-  example: []
+  summary: "\nExtDatasource.SqlInit: The SQL init used for configure the server before fetching external data.\n"
   syntax:
     content: public const string SqlInit = "sql_init"
     return:
       type: System.String
     content.vb: Public Const SqlInit As String = "sql_init"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UnixSocket
   commentId: F:SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UnixSocket
   id: UnixSocket
@@ -504,288 +675,41 @@ items:
   nameWithType: DBC.ExtDatasourceFields.UnixSocket
   fullName: SuperOffice.CRM.Data.DBC.ExtDatasourceFields.UnixSocket
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExtDatasource.UnixSocket: Unix socket used with Mysql connections on Linux'
-  example: []
+  summary: "\nExtDatasource.UnixSocket: Unix socket used with Mysql connections on Linux\n"
   syntax:
     content: public const string UnixSocket = "unix_socket"
     return:
       type: System.String
     content.vb: Public Const UnixSocket As String = "unix_socket"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -793,10 +717,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -42,28 +42,15 @@ items:
   nameWithType: IForeignSystemAgent
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent
   type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Interface for the ForeignSystem Agent
-
-    Collection of all services that works with Foreign key data (Key/Value pairs)
+  summary: "\nInterface for the ForeignSystem Agent\nCollection of all services that works with Foreign key data (Key/Value pairs)\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (ForeignSystemAgent agent = new ForeignSystemAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (ForeignSystemAgent agent = new ForeignSystemAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: >-
       [Agent("ForeignSystem Agent", "Interface for the ForeignSystem Agent. Collection of all services that works with Foreign key data (Key/Value pairs)")]
@@ -72,7 +59,8 @@ items:
     content.vb: >-
       <Agent("ForeignSystem Agent", "Interface for the ForeignSystem Agent. Collection of all services that works with Foreign key data (Key/Value pairs)")>
 
-      Public Interface IForeignSystemAgent Inherits IAgent
+      Public Interface IForeignSystemAgent
+          Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -81,6 +69,12 @@ items:
       value: ForeignSystem Agent
     - type: System.String
       value: Interface for the ForeignSystem Agent. Collection of all services that works with Foreign key data (Key/Value pairs)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.CreateDefaultForeignAppEntity
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.CreateDefaultForeignAppEntity
   id: CreateDefaultForeignAppEntity
@@ -92,20 +86,19 @@ items:
   nameWithType: IForeignSystemAgent.CreateDefaultForeignAppEntity()
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.CreateDefaultForeignAppEntity()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ForeignAppEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new ForeignAppEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: ForeignAppEntity CreateDefaultForeignAppEntity()
     return:
       type: SuperOffice.CRM.Services.ForeignAppEntity
       description: New ForeignAppEntity with default values
-    content.vb: Function CreateDefaultForeignAppEntity() As ForeignAppEntity
+    content.vb: Function CreateDefaultForeignAppEntity As ForeignAppEntity
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.CreateDefaultForeignAppEntity*
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignAppEntity(SuperOffice.CRM.Services.ForeignAppEntity)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignAppEntity(SuperOffice.CRM.Services.ForeignAppEntity)
@@ -118,11 +111,13 @@ items:
   nameWithType: IForeignSystemAgent.SaveForeignAppEntity(ForeignAppEntity)
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignAppEntity(SuperOffice.CRM.Services.ForeignAppEntity)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing ForeignAppEntity or creates a new ForeignAppEntity if the id parameter is empty
-  example: []
+  summary: "\nUpdates the existing ForeignAppEntity or creates a new ForeignAppEntity if the id parameter is empty\n"
   syntax:
     content: ForeignAppEntity SaveForeignAppEntity(ForeignAppEntity foreignAppEntity)
     parameters:
@@ -141,15 +136,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteForeignAppEntity(int)
-  nameWithType: IForeignSystemAgent.DeleteForeignAppEntity(int)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignAppEntity(int)
+  name: DeleteForeignAppEntity(Int32)
+  nameWithType: IForeignSystemAgent.DeleteForeignAppEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignAppEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the ForeignAppEntity
-  example: []
+  summary: "\nDeletes the ForeignAppEntity\n"
   syntax:
     content: void DeleteForeignAppEntity(int foreignAppEntityId)
     parameters:
@@ -158,9 +155,6 @@ items:
       description: The identity of the ForeignAppEntity
     content.vb: Sub DeleteForeignAppEntity(foreignAppEntityId As Integer)
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignAppEntity*
-  nameWithType.vb: IForeignSystemAgent.DeleteForeignAppEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignAppEntity(Integer)
-  name.vb: DeleteForeignAppEntity(Integer)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignAppEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignAppEntity(System.Int32)
   id: GetForeignAppEntity(System.Int32)
@@ -168,15 +162,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetForeignAppEntity(int)
-  nameWithType: IForeignSystemAgent.GetForeignAppEntity(int)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignAppEntity(int)
+  name: GetForeignAppEntity(Int32)
+  nameWithType: IForeignSystemAgent.GetForeignAppEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignAppEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a ForeignAppEntity object.
-  example: []
+  summary: "\nGets a ForeignAppEntity object.                        \n"
   syntax:
     content: ForeignAppEntity GetForeignAppEntity(int foreignAppEntityId)
     parameters:
@@ -188,9 +184,6 @@ items:
       description: ForeignAppEntity
     content.vb: Function GetForeignAppEntity(foreignAppEntityId As Integer) As ForeignAppEntity
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignAppEntity*
-  nameWithType.vb: IForeignSystemAgent.GetForeignAppEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignAppEntity(Integer)
-  name.vb: GetForeignAppEntity(Integer)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetAppByName(System.String)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetAppByName(System.String)
   id: GetAppByName(System.String)
@@ -198,15 +191,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAppByName(string)
-  nameWithType: IForeignSystemAgent.GetAppByName(string)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetAppByName(string)
+  name: GetAppByName(String)
+  nameWithType: IForeignSystemAgent.GetAppByName(String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetAppByName(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets the ForeignApp with the given name.
-  example: []
+  summary: "\nGets the ForeignApp with the given name.\n"
   syntax:
     content: ForeignAppEntity GetAppByName(string applicationName)
     parameters:
@@ -218,9 +213,6 @@ items:
       description: The ForeignApp that matches the name.
     content.vb: Function GetAppByName(applicationName As String) As ForeignAppEntity
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.GetAppByName*
-  nameWithType.vb: IForeignSystemAgent.GetAppByName(String)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.GetAppByName(String)
-  name.vb: GetAppByName(String)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationDevices(System.String)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationDevices(System.String)
   id: GetApplicationDevices(System.String)
@@ -228,15 +220,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetApplicationDevices(string)
-  nameWithType: IForeignSystemAgent.GetApplicationDevices(string)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationDevices(string)
+  name: GetApplicationDevices(String)
+  nameWithType: IForeignSystemAgent.GetApplicationDevices(String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationDevices(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets all devices that belong to a foreign application.
-  example: []
+  summary: "\nGets all devices that belong to a foreign application.\n"
   syntax:
     content: ForeignDevice[] GetApplicationDevices(string applicationName)
     parameters:
@@ -248,9 +242,6 @@ items:
       description: Array of ForeignDevices
     content.vb: Function GetApplicationDevices(applicationName As String) As ForeignDevice()
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationDevices*
-  nameWithType.vb: IForeignSystemAgent.GetApplicationDevices(String)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationDevices(String)
-  name.vb: GetApplicationDevices(String)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByName(System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByName(System.String,System.String)
   id: GetDeviceByName(System.String,System.String)
@@ -258,15 +249,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDeviceByName(string, string)
-  nameWithType: IForeignSystemAgent.GetDeviceByName(string, string)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByName(string, string)
+  name: GetDeviceByName(String, String)
+  nameWithType: IForeignSystemAgent.GetDeviceByName(String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByName(System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a ForeignDevice with deviceName that belongs to the application with applicationName.
-  example: []
+  summary: "\nGets a ForeignDevice with deviceName that belongs to the application with applicationName.\n"
   syntax:
     content: ForeignDevice GetDeviceByName(string applicationName, string deviceName)
     parameters:
@@ -281,9 +274,6 @@ items:
       description: The ForeignDevice.
     content.vb: Function GetDeviceByName(applicationName As String, deviceName As String) As ForeignDevice
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByName*
-  nameWithType.vb: IForeignSystemAgent.GetDeviceByName(String, String)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByName(String, String)
-  name.vb: GetDeviceByName(String, String)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByIdentifier(System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByIdentifier(System.String,System.String,System.String)
   id: GetDeviceByIdentifier(System.String,System.String,System.String)
@@ -291,15 +281,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDeviceByIdentifier(string, string, string)
-  nameWithType: IForeignSystemAgent.GetDeviceByIdentifier(string, string, string)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByIdentifier(string, string, string)
+  name: GetDeviceByIdentifier(String, String, String)
+  nameWithType: IForeignSystemAgent.GetDeviceByIdentifier(String, String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByIdentifier(System.String, System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.
-  example: []
+  summary: "\nGets a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.\n"
   syntax:
     content: ForeignDevice GetDeviceByIdentifier(string applicationName, string deviceName, string deviceIdentifier)
     parameters:
@@ -317,9 +309,6 @@ items:
       description: The ForeignDevice.
     content.vb: Function GetDeviceByIdentifier(applicationName As String, deviceName As String, deviceIdentifier As String) As ForeignDevice
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByIdentifier*
-  nameWithType.vb: IForeignSystemAgent.GetDeviceByIdentifier(String, String, String)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByIdentifier(String, String, String)
-  name.vb: GetDeviceByIdentifier(String, String, String)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.AddDeviceByIdentifier(System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.AddDeviceByIdentifier(System.String,System.String,System.String)
   id: AddDeviceByIdentifier(System.String,System.String,System.String)
@@ -327,15 +316,17 @@ items:
   langs:
   - csharp
   - vb
-  name: AddDeviceByIdentifier(string, string, string)
-  nameWithType: IForeignSystemAgent.AddDeviceByIdentifier(string, string, string)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.AddDeviceByIdentifier(string, string, string)
+  name: AddDeviceByIdentifier(String, String, String)
+  nameWithType: IForeignSystemAgent.AddDeviceByIdentifier(String, String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.AddDeviceByIdentifier(System.String, System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Adds a new ForeignDevice with deviceName that belongs to the application with applicationName, with an optional device-specific identifier.
-  example: []
+  summary: "\nAdds a new ForeignDevice with deviceName that belongs to the application with applicationName, with an optional device-specific identifier.\n"
   syntax:
     content: ForeignDevice AddDeviceByIdentifier(string applicationName, string deviceName, string deviceIdentifier)
     parameters:
@@ -353,9 +344,6 @@ items:
       description: The ForeignDevice.
     content.vb: Function AddDeviceByIdentifier(applicationName As String, deviceName As String, deviceIdentifier As String) As ForeignDevice
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.AddDeviceByIdentifier*
-  nameWithType.vb: IForeignSystemAgent.AddDeviceByIdentifier(String, String, String)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.AddDeviceByIdentifier(String, String, String)
-  name.vb: AddDeviceByIdentifier(String, String, String)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.SaveDeviceByIdentifier(System.String,System.String,System.String,SuperOffice.CRM.Services.ForeignDevice)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.SaveDeviceByIdentifier(System.String,System.String,System.String,SuperOffice.CRM.Services.ForeignDevice)
   id: SaveDeviceByIdentifier(System.String,System.String,System.String,SuperOffice.CRM.Services.ForeignDevice)
@@ -363,15 +351,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SaveDeviceByIdentifier(string, string, string, ForeignDevice)
-  nameWithType: IForeignSystemAgent.SaveDeviceByIdentifier(string, string, string, ForeignDevice)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveDeviceByIdentifier(string, string, string, SuperOffice.CRM.Services.ForeignDevice)
+  name: SaveDeviceByIdentifier(String, String, String, ForeignDevice)
+  nameWithType: IForeignSystemAgent.SaveDeviceByIdentifier(String, String, String, ForeignDevice)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveDeviceByIdentifier(System.String, System.String, System.String, SuperOffice.CRM.Services.ForeignDevice)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates a ForeignDevice with deviceName that belongs to the application with applicationName.
-  example: []
+  summary: "\nUpdates a ForeignDevice with deviceName that belongs to the application with applicationName.\n"
   syntax:
     content: ForeignDevice SaveDeviceByIdentifier(string applicationName, string deviceName, string deviceIdentifier, ForeignDevice foreignDevice)
     parameters:
@@ -392,9 +382,6 @@ items:
       description: The ForeignDevice.
     content.vb: Function SaveDeviceByIdentifier(applicationName As String, deviceName As String, deviceIdentifier As String, foreignDevice As ForeignDevice) As ForeignDevice
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.SaveDeviceByIdentifier*
-  nameWithType.vb: IForeignSystemAgent.SaveDeviceByIdentifier(String, String, String, ForeignDevice)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.SaveDeviceByIdentifier(String, String, String, SuperOffice.CRM.Services.ForeignDevice)
-  name.vb: SaveDeviceByIdentifier(String, String, String, ForeignDevice)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteDeviceByIdentifier(System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.DeleteDeviceByIdentifier(System.String,System.String,System.String)
   id: DeleteDeviceByIdentifier(System.String,System.String,System.String)
@@ -402,15 +389,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteDeviceByIdentifier(string, string, string)
-  nameWithType: IForeignSystemAgent.DeleteDeviceByIdentifier(string, string, string)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteDeviceByIdentifier(string, string, string)
+  name: DeleteDeviceByIdentifier(String, String, String)
+  nameWithType: IForeignSystemAgent.DeleteDeviceByIdentifier(String, String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteDeviceByIdentifier(System.String, System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Delete a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.
-  example: []
+  summary: "\nDelete a ForeignDevice with deviceName and deviceIdentifier that belongs to the application with applicationName.\n"
   syntax:
     content: void DeleteDeviceByIdentifier(string applicationName, string deviceName, string deviceIdentifier)
     parameters:
@@ -425,9 +414,6 @@ items:
       description: Unique id of device (Palm pilot device ID, version number, etc)
     content.vb: Sub DeleteDeviceByIdentifier(applicationName As String, deviceName As String, deviceIdentifier As String)
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteDeviceByIdentifier*
-  nameWithType.vb: IForeignSystemAgent.DeleteDeviceByIdentifier(String, String, String)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteDeviceByIdentifier(String, String, String)
-  name.vb: DeleteDeviceByIdentifier(String, String, String)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKey(System.String,System.String,System.String,System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetKey(System.String,System.String,System.String,System.String,System.Int32)
   id: GetKey(System.String,System.String,System.String,System.String,System.Int32)
@@ -435,15 +421,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetKey(string, string, string, string, int)
-  nameWithType: IForeignSystemAgent.GetKey(string, string, string, string, int)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKey(string, string, string, string, int)
+  name: GetKey(String, String, String, String, Int32)
+  nameWithType: IForeignSystemAgent.GetKey(String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKey(System.String, System.String, System.String, System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returning a foreign key by its key name, that belongs to the specified device and application. A table name and record ID can also be specified.
-  example: []
+  summary: "\nReturning a foreign key by its key name, that belongs to the specified device and application. A table name and record ID can also be specified.\n"
   syntax:
     content: ForeignKey GetKey(string applicationName, string deviceName, string keyName, string tableName, int recordId)
     parameters:
@@ -458,7 +446,7 @@ items:
       description: The name of the foreign key.
     - id: tableName
       type: System.String
-      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table.
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
     - id: recordId
       type: System.Int32
       description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.
@@ -467,9 +455,6 @@ items:
       description: The ForeignKey.
     content.vb: Function GetKey(applicationName As String, deviceName As String, keyName As String, tableName As String, recordId As Integer) As ForeignKey
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.GetKey*
-  nameWithType.vb: IForeignSystemAgent.GetKey(String, String, String, String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.GetKey(String, String, String, String, Integer)
-  name.vb: GetKey(String, String, String, String, Integer)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValue(System.String,System.String,System.String,System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValue(System.String,System.String,System.String,System.String,System.Int32)
   id: GetKeyValue(System.String,System.String,System.String,System.String,System.Int32)
@@ -477,15 +462,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetKeyValue(string, string, string, string, int)
-  nameWithType: IForeignSystemAgent.GetKeyValue(string, string, string, string, int)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValue(string, string, string, string, int)
+  name: GetKeyValue(String, String, String, String, Int32)
+  nameWithType: IForeignSystemAgent.GetKeyValue(String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValue(System.String, System.String, System.String, System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets the string value of a ForeignKey, that belongs to the specified device and application. The table name and record ID must also be specified.
-  example: []
+  summary: "\nGets the string value of a ForeignKey, that belongs to the specified device and application. The table name and record ID must also be specified.\n"
   syntax:
     content: string GetKeyValue(string applicationName, string deviceName, string keyName, string tableName, int recordId)
     parameters:
@@ -500,7 +487,7 @@ items:
       description: The name of the foreign key.
     - id: tableName
       type: System.String
-      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table.
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
     - id: recordId
       type: System.Int32
       description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.
@@ -509,9 +496,6 @@ items:
       description: The ForeignKey value as string.
     content.vb: Function GetKeyValue(applicationName As String, deviceName As String, keyName As String, tableName As String, recordId As Integer) As String
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValue*
-  nameWithType.vb: IForeignSystemAgent.GetKeyValue(String, String, String, String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValue(String, String, String, String, Integer)
-  name.vb: GetKeyValue(String, String, String, String, Integer)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
   id: GetKeyOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
@@ -519,15 +503,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetKeyOnDeviceIdentifier(string, string, string, string, string, int)
-  nameWithType: IForeignSystemAgent.GetKeyOnDeviceIdentifier(string, string, string, string, string, int)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyOnDeviceIdentifier(string, string, string, string, string, int)
+  name: GetKeyOnDeviceIdentifier(String, String, String, String, String, Int32)
+  nameWithType: IForeignSystemAgent.GetKeyOnDeviceIdentifier(String, String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyOnDeviceIdentifier(System.String, System.String, System.String, System.String, System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returning a foreign key by its key name and device identifier, that belongs to the specified device and application. A table name and record ID can also be specified.
-  example: []
+  summary: "\nReturning a foreign key by its key name and device identifier, that belongs to the specified device and application. A table name and record ID can also be specified.\n"
   syntax:
     content: ForeignKey GetKeyOnDeviceIdentifier(string applicationName, string deviceName, string deviceIdentifier, string keyName, string tableName, int recordId)
     parameters:
@@ -545,7 +531,7 @@ items:
       description: The name of the foreign key.
     - id: tableName
       type: System.String
-      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table.
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
     - id: recordId
       type: System.Int32
       description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.
@@ -554,9 +540,6 @@ items:
       description: The ForeignKey.
     content.vb: Function GetKeyOnDeviceIdentifier(applicationName As String, deviceName As String, deviceIdentifier As String, keyName As String, tableName As String, recordId As Integer) As ForeignKey
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyOnDeviceIdentifier*
-  nameWithType.vb: IForeignSystemAgent.GetKeyOnDeviceIdentifier(String, String, String, String, String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyOnDeviceIdentifier(String, String, String, String, String, Integer)
-  name.vb: GetKeyOnDeviceIdentifier(String, String, String, String, String, Integer)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValueOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValueOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
   id: GetKeyValueOnDeviceIdentifier(System.String,System.String,System.String,System.String,System.String,System.Int32)
@@ -564,15 +547,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetKeyValueOnDeviceIdentifier(string, string, string, string, string, int)
-  nameWithType: IForeignSystemAgent.GetKeyValueOnDeviceIdentifier(string, string, string, string, string, int)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValueOnDeviceIdentifier(string, string, string, string, string, int)
+  name: GetKeyValueOnDeviceIdentifier(String, String, String, String, String, Int32)
+  nameWithType: IForeignSystemAgent.GetKeyValueOnDeviceIdentifier(String, String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValueOnDeviceIdentifier(System.String, System.String, System.String, System.String, System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returning a foreign key string value by its key name and device identifier, that belongs to the specified device and application. A table name and record ID can also be specified.
-  example: []
+  summary: "\nReturning a foreign key string value by its key name and device identifier, that belongs to the specified device and application. A table name and record ID can also be specified.\n"
   syntax:
     content: string GetKeyValueOnDeviceIdentifier(string applicationName, string deviceName, string deviceIdentifier, string keyName, string tableName, int recordId)
     parameters:
@@ -590,18 +575,15 @@ items:
       description: The name of the foreign key.
     - id: tableName
       type: System.String
-      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table.
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
     - id: recordId
       type: System.Int32
       description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.
     return:
       type: System.String
-      description: The ForeignKey's string value.
+      description: The ForeignKey&apos;s string value.
     content.vb: Function GetKeyValueOnDeviceIdentifier(applicationName As String, deviceName As String, deviceIdentifier As String, keyName As String, tableName As String, recordId As Integer) As String
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValueOnDeviceIdentifier*
-  nameWithType.vb: IForeignSystemAgent.GetKeyValueOnDeviceIdentifier(String, String, String, String, String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValueOnDeviceIdentifier(String, String, String, String, String, Integer)
-  name.vb: GetKeyValueOnDeviceIdentifier(String, String, String, String, String, Integer)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.AddForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.AddForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
   id: AddForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
@@ -609,15 +591,17 @@ items:
   langs:
   - csharp
   - vb
-  name: AddForeignKey(ForeignKey, string, string, string)
-  nameWithType: IForeignSystemAgent.AddForeignKey(ForeignKey, string, string, string)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.AddForeignKey(SuperOffice.CRM.Services.ForeignKey, string, string, string)
+  name: AddForeignKey(ForeignKey, String, String, String)
+  nameWithType: IForeignSystemAgent.AddForeignKey(ForeignKey, String, String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.AddForeignKey(SuperOffice.CRM.Services.ForeignKey, System.String, System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Add a new key belonging to the ForeignApp and ForeignDevice specified.
-  example: []
+  summary: "\nAdd a new key belonging to the ForeignApp and ForeignDevice specified.\n"
   syntax:
     content: ForeignKey AddForeignKey(ForeignKey foreignKey, string applicationName, string deviceName, string deviceIdentifier)
     parameters:
@@ -638,9 +622,6 @@ items:
       description: The new or updated ForeignKey
     content.vb: Function AddForeignKey(foreignKey As ForeignKey, applicationName As String, deviceName As String, deviceIdentifier As String) As ForeignKey
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.AddForeignKey*
-  nameWithType.vb: IForeignSystemAgent.AddForeignKey(ForeignKey, String, String, String)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.AddForeignKey(SuperOffice.CRM.Services.ForeignKey, String, String, String)
-  name.vb: AddForeignKey(ForeignKey, String, String, String)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
   id: SaveForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String)
@@ -648,15 +629,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SaveForeignKey(ForeignKey, string, string, string)
-  nameWithType: IForeignSystemAgent.SaveForeignKey(ForeignKey, string, string, string)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignKey(SuperOffice.CRM.Services.ForeignKey, string, string, string)
+  name: SaveForeignKey(ForeignKey, String, String, String)
+  nameWithType: IForeignSystemAgent.SaveForeignKey(ForeignKey, String, String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignKey(SuperOffice.CRM.Services.ForeignKey, System.String, System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Saves a key belonging to the ForeignApp and ForeignDevice specified.
-  example: []
+  summary: "\nSaves a key belonging to the ForeignApp and ForeignDevice specified.\n"
   syntax:
     content: ForeignKey SaveForeignKey(ForeignKey foreignKey, string applicationName, string deviceName, string deviceIdentifier)
     parameters:
@@ -677,9 +660,6 @@ items:
       description: The new or updated ForeignKey
     content.vb: Function SaveForeignKey(foreignKey As ForeignKey, applicationName As String, deviceName As String, deviceIdentifier As String) As ForeignKey
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignKey*
-  nameWithType.vb: IForeignSystemAgent.SaveForeignKey(ForeignKey, String, String, String)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignKey(SuperOffice.CRM.Services.ForeignKey, String, String, String)
-  name.vb: SaveForeignKey(ForeignKey, String, String, String)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKeyOnName(System.String,System.String,System.String,System.String,System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKeyOnName(System.String,System.String,System.String,System.String,System.String,System.Int32)
   id: DeleteForeignKeyOnName(System.String,System.String,System.String,System.String,System.String,System.Int32)
@@ -687,15 +667,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteForeignKeyOnName(string, string, string, string, string, int)
-  nameWithType: IForeignSystemAgent.DeleteForeignKeyOnName(string, string, string, string, string, int)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKeyOnName(string, string, string, string, string, int)
+  name: DeleteForeignKeyOnName(String, String, String, String, String, Int32)
+  nameWithType: IForeignSystemAgent.DeleteForeignKeyOnName(String, String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKeyOnName(System.String, System.String, System.String, System.String, System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes all specified occurrences of a key, belonging to the ForeignApp and ForeignDevice, table and record specified. Specifying a blank table name will delete ALL keys of the given name; specifying a recordId of 0 will delete ALL keys of the given name for the given table.
-  example: []
+  summary: "\nDeletes all specified occurrences of a key, belonging to the ForeignApp and ForeignDevice, table and record specified. Specifying a blank table name will delete ALL keys of the given name; specifying a recordId of 0 will delete ALL keys of the given name for the given table.\n"
   syntax:
     content: void DeleteForeignKeyOnName(string applicationName, string deviceName, string deviceIdentifier, string keyName, string tableName, int recordId)
     parameters:
@@ -713,15 +695,12 @@ items:
       description: The name of the foreign key to delete.
     - id: tableName
       type: System.String
-      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to delete ALL keys that otherwise match; this may be dangerous and can take a long time if there are many items to delete.
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to delete ALL keys that otherwise match; this may be dangerous and can take a long time if there are many items to delete.
     - id: recordId
       type: System.Int32
-      description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.&lt;p/&gt;Specifying a zero recordId will remove the recordId restriction and delete all keys that otherwise match.
+      description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.&lt;p/>Specifying a zero recordId will remove the recordId restriction and delete all keys that otherwise match.
     content.vb: Sub DeleteForeignKeyOnName(applicationName As String, deviceName As String, deviceIdentifier As String, keyName As String, tableName As String, recordId As Integer)
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKeyOnName*
-  nameWithType.vb: IForeignSystemAgent.DeleteForeignKeyOnName(String, String, String, String, String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKeyOnName(String, String, String, String, String, Integer)
-  name.vb: DeleteForeignKeyOnName(String, String, String, String, String, Integer)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValue(System.String,System.String,System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValue(System.String,System.String,System.String,System.String,System.String)
   id: GetKeyByValue(System.String,System.String,System.String,System.String,System.String)
@@ -729,15 +708,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetKeyByValue(string, string, string, string, string)
-  nameWithType: IForeignSystemAgent.GetKeyByValue(string, string, string, string, string)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValue(string, string, string, string, string)
+  name: GetKeyByValue(String, String, String, String, String)
+  nameWithType: IForeignSystemAgent.GetKeyByValue(String, String, String, String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValue(System.String, System.String, System.String, System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get a foreignkey based on its name and value, that belongs to the specified device and application.
-  example: []
+  summary: "\nGet a foreignkey based on its name and value, that belongs to the specified device and application.\n"
   syntax:
     content: ForeignKey GetKeyByValue(string applicationName, string deviceName, string keyName, string keyValue, string tableName)
     parameters:
@@ -755,15 +736,12 @@ items:
       description: Foreignkey value
     - id: tableName
       type: System.String
-      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table.
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
     return:
       type: SuperOffice.CRM.Services.ForeignKey
       description: The ForeignKey.
     content.vb: Function GetKeyByValue(applicationName As String, deviceName As String, keyName As String, keyValue As String, tableName As String) As ForeignKey
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValue*
-  nameWithType.vb: IForeignSystemAgent.GetKeyByValue(String, String, String, String, String)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValue(String, String, String, String, String)
-  name.vb: GetKeyByValue(String, String, String, String, String)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValueAndIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValueAndIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)
   id: GetKeyByValueAndIdentifier(System.String,System.String,System.String,System.String,System.String,System.String)
@@ -771,15 +749,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetKeyByValueAndIdentifier(string, string, string, string, string, string)
-  nameWithType: IForeignSystemAgent.GetKeyByValueAndIdentifier(string, string, string, string, string, string)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValueAndIdentifier(string, string, string, string, string, string)
+  name: GetKeyByValueAndIdentifier(String, String, String, String, String, String)
+  nameWithType: IForeignSystemAgent.GetKeyByValueAndIdentifier(String, String, String, String, String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValueAndIdentifier(System.String, System.String, System.String, System.String, System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get a foreignkey based on its name and value, that belongs to the specified deviceId, device, and application.
-  example: []
+  summary: "\nGet a foreignkey based on its name and value, that belongs to the specified deviceId, device, and application.\n"
   syntax:
     content: ForeignKey GetKeyByValueAndIdentifier(string applicationName, string deviceName, string deviceIdentifier, string keyName, string keyValue, string tableName)
     parameters:
@@ -800,15 +780,12 @@ items:
       description: Foreignkey value
     - id: tableName
       type: System.String
-      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table.
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
     return:
       type: SuperOffice.CRM.Services.ForeignKey
       description: The ForeignKey.
     content.vb: Function GetKeyByValueAndIdentifier(applicationName As String, deviceName As String, deviceIdentifier As String, keyName As String, keyValue As String, tableName As String) As ForeignKey
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValueAndIdentifier*
-  nameWithType.vb: IForeignSystemAgent.GetKeyByValueAndIdentifier(String, String, String, String, String, String)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValueAndIdentifier(String, String, String, String, String, String)
-  name.vb: GetKeyByValueAndIdentifier(String, String, String, String, String, String)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetAllForeignKeysOnEntity(System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetAllForeignKeysOnEntity(System.String,System.Int32)
   id: GetAllForeignKeysOnEntity(System.String,System.Int32)
@@ -816,32 +793,31 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAllForeignKeysOnEntity(string, int)
-  nameWithType: IForeignSystemAgent.GetAllForeignKeysOnEntity(string, int)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetAllForeignKeysOnEntity(string, int)
+  name: GetAllForeignKeysOnEntity(String, Int32)
+  nameWithType: IForeignSystemAgent.GetAllForeignKeysOnEntity(String, Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetAllForeignKeysOnEntity(System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get a list of foreignkeys ('app.device.key') and their values ('123') that belong to the specified entity.
-  example: []
+  summary: "\nGet a list of foreignkeys (&apos;app.device.key&apos;) and their values (&apos;123&apos;) that belong to the specified entity.\n"
   syntax:
     content: StringDictionary GetAllForeignKeysOnEntity(string entityType, int entityId)
     parameters:
     - id: entityType
       type: System.String
-      description: "Entity type (table name): 'contact', 'project' etc."
+      description: 'Entity type (table name): &apos;contact&apos;, &apos;project&apos; etc.'
     - id: entityId
       type: System.Int32
       description: Primary key of Entity
     return:
       type: SuperOffice.CRM.Services.StringDictionary
-      description: Dictionary of 'appname.deviceid.keyname' = '123' key values
+      description: Dictionary of &apos;appname.deviceid.keyname&apos; = &apos;123&apos; key values
     content.vb: Function GetAllForeignKeysOnEntity(entityType As String, entityId As Integer) As StringDictionary
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.GetAllForeignKeysOnEntity*
-  nameWithType.vb: IForeignSystemAgent.GetAllForeignKeysOnEntity(String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.GetAllForeignKeysOnEntity(String, Integer)
-  name.vb: GetAllForeignKeysOnEntity(String, Integer)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignDevice(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignDevice(System.Int32)
   id: GetForeignDevice(System.Int32)
@@ -849,15 +825,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetForeignDevice(int)
-  nameWithType: IForeignSystemAgent.GetForeignDevice(int)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignDevice(int)
+  name: GetForeignDevice(Int32)
+  nameWithType: IForeignSystemAgent.GetForeignDevice(Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignDevice(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a ForeignDevice object.
-  example: []
+  summary: "\nGets a ForeignDevice object.                        \n"
   syntax:
     content: ForeignDevice GetForeignDevice(int foreignDeviceId)
     parameters:
@@ -869,9 +847,6 @@ items:
       description: ForeignDevice
     content.vb: Function GetForeignDevice(foreignDeviceId As Integer) As ForeignDevice
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignDevice*
-  nameWithType.vb: IForeignSystemAgent.GetForeignDevice(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignDevice(Integer)
-  name.vb: GetForeignDevice(Integer)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
   id: SaveForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
@@ -879,15 +854,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SaveForeignDevice(ForeignDevice, string)
-  nameWithType: IForeignSystemAgent.SaveForeignDevice(ForeignDevice, string)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignDevice(SuperOffice.CRM.Services.ForeignDevice, string)
+  name: SaveForeignDevice(ForeignDevice, String)
+  nameWithType: IForeignSystemAgent.SaveForeignDevice(ForeignDevice, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignDevice(SuperOffice.CRM.Services.ForeignDevice, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Saves a foreign device for an foreign application
-  example: []
+  summary: "\nSaves a foreign device for an foreign application\n"
   syntax:
     content: ForeignDevice SaveForeignDevice(ForeignDevice foreignDevice, string applicationName)
     parameters:
@@ -902,9 +879,6 @@ items:
       description: Returns the saved foreign device
     content.vb: Function SaveForeignDevice(foreignDevice As ForeignDevice, applicationName As String) As ForeignDevice
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignDevice*
-  nameWithType.vb: IForeignSystemAgent.SaveForeignDevice(ForeignDevice, String)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignDevice(SuperOffice.CRM.Services.ForeignDevice, String)
-  name.vb: SaveForeignDevice(ForeignDevice, String)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
   id: DeleteForeignDevice(SuperOffice.CRM.Services.ForeignDevice,System.String)
@@ -912,15 +886,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteForeignDevice(ForeignDevice, string)
-  nameWithType: IForeignSystemAgent.DeleteForeignDevice(ForeignDevice, string)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignDevice(SuperOffice.CRM.Services.ForeignDevice, string)
+  name: DeleteForeignDevice(ForeignDevice, String)
+  nameWithType: IForeignSystemAgent.DeleteForeignDevice(ForeignDevice, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignDevice(SuperOffice.CRM.Services.ForeignDevice, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes a foreign device from an application
-  example: []
+  summary: "\nDeletes a foreign device from an application\n"
   syntax:
     content: void DeleteForeignDevice(ForeignDevice foreignDevice, string applicationName)
     parameters:
@@ -932,9 +908,6 @@ items:
       description: Name of application to delete from
     content.vb: Sub DeleteForeignDevice(foreignDevice As ForeignDevice, applicationName As String)
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignDevice*
-  nameWithType.vb: IForeignSystemAgent.DeleteForeignDevice(ForeignDevice, String)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignDevice(SuperOffice.CRM.Services.ForeignDevice, String)
-  name.vb: DeleteForeignDevice(ForeignDevice, String)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String,System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String,System.String,System.Int32)
   id: DeleteForeignKey(SuperOffice.CRM.Services.ForeignKey,System.String,System.String,System.String,System.String,System.Int32)
@@ -942,15 +915,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteForeignKey(ForeignKey, string, string, string, string, int)
-  nameWithType: IForeignSystemAgent.DeleteForeignKey(ForeignKey, string, string, string, string, int)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKey(SuperOffice.CRM.Services.ForeignKey, string, string, string, string, int)
+  name: DeleteForeignKey(ForeignKey, String, String, String, String, Int32)
+  nameWithType: IForeignSystemAgent.DeleteForeignKey(ForeignKey, String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKey(SuperOffice.CRM.Services.ForeignKey, System.String, System.String, System.String, System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes all specified occurrences of a key, belonging to the ForeignApp and ForeignDevice, table and record specified. Specifying a blank table name will delete ALL keys of the given name; specifying a recordId of 0 will delete ALL keys of the given name for the given table.
-  example: []
+  summary: "\nDeletes all specified occurrences of a key, belonging to the ForeignApp and ForeignDevice, table and record specified. Specifying a blank table name will delete ALL keys of the given name; specifying a recordId of 0 will delete ALL keys of the given name for the given table.\n"
   syntax:
     content: void DeleteForeignKey(ForeignKey foreignKey, string applicationName, string deviceName, string deviceIdentifier, string tableName, int recordId)
     parameters:
@@ -968,15 +943,12 @@ items:
       description: The device identifier. Optional if device identifier is not used.
     - id: tableName
       type: System.String
-      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to delete ALL keys that otherwise match; this may be dangerous and can take a long time if there are many items to delete.
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to delete ALL keys that otherwise match; this may be dangerous and can take a long time if there are many items to delete.
     - id: recordId
       type: System.Int32
-      description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.&lt;p/&gt;Specifying a zero recordId will remove the recordId restriction and delete all keys that otherwise match.
+      description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.&lt;p/>Specifying a zero recordId will remove the recordId restriction and delete all keys that otherwise match.
     content.vb: Sub DeleteForeignKey(foreignKey As ForeignKey, applicationName As String, deviceName As String, deviceIdentifier As String, tableName As String, recordId As Integer)
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKey*
-  nameWithType.vb: IForeignSystemAgent.DeleteForeignKey(ForeignKey, String, String, String, String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKey(SuperOffice.CRM.Services.ForeignKey, String, String, String, String, Integer)
-  name.vb: DeleteForeignKey(ForeignKey, String, String, String, String, Integer)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeys(System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeys(System.String,System.String)
   id: GetDeviceKeys(System.String,System.String)
@@ -984,15 +956,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDeviceKeys(string, string)
-  nameWithType: IForeignSystemAgent.GetDeviceKeys(string, string)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeys(string, string)
+  name: GetDeviceKeys(String, String)
+  nameWithType: IForeignSystemAgent.GetDeviceKeys(String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeys(System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns all ForeignKeys that belong to a device.
-  example: []
+  summary: "\nReturns all ForeignKeys that belong to a device.\n"
   syntax:
     content: ForeignKey[] GetDeviceKeys(string applicationName, string deviceName)
     parameters:
@@ -1007,9 +981,6 @@ items:
       description: Array of all ForeignKeys in the ForeignDevice.
     content.vb: Function GetDeviceKeys(applicationName As String, deviceName As String) As ForeignKey()
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeys*
-  nameWithType.vb: IForeignSystemAgent.GetDeviceKeys(String, String)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeys(String, String)
-  name.vb: GetDeviceKeys(String, String)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationKeys(System.String)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationKeys(System.String)
   id: GetApplicationKeys(System.String)
@@ -1017,15 +988,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetApplicationKeys(string)
-  nameWithType: IForeignSystemAgent.GetApplicationKeys(string)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationKeys(string)
+  name: GetApplicationKeys(String)
+  nameWithType: IForeignSystemAgent.GetApplicationKeys(String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationKeys(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns all ForeignKeys that belong to an application.
-  example: []
+  summary: "\nReturns all ForeignKeys that belong to an application.\n"
   syntax:
     content: ForeignKey[] GetApplicationKeys(string applicationName)
     parameters:
@@ -1037,9 +1010,6 @@ items:
       description: Array of all ForeignKeys in the ForeignApp.
     content.vb: Function GetApplicationKeys(applicationName As String) As ForeignKey()
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationKeys*
-  nameWithType.vb: IForeignSystemAgent.GetApplicationKeys(String)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationKeys(String)
-  name.vb: GetApplicationKeys(String)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(System.String,System.String,System.String)
   id: GetDeviceKeysOnDeviceIdentifier(System.String,System.String,System.String)
@@ -1047,15 +1017,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDeviceKeysOnDeviceIdentifier(string, string, string)
-  nameWithType: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(string, string, string)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(string, string, string)
+  name: GetDeviceKeysOnDeviceIdentifier(String, String, String)
+  nameWithType: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(String, String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(System.String, System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns all ForeignKeys that belong to a device with a given deviceIdentifier.
-  example: []
+  summary: "\nReturns all ForeignKeys that belong to a device with a given deviceIdentifier.\n"
   syntax:
     content: ForeignKey[] GetDeviceKeysOnDeviceIdentifier(string applicationName, string deviceName, string deviceIdentifier)
     parameters:
@@ -1073,9 +1045,6 @@ items:
       description: Array of all ForeignKeys in the ForeignDevice that belong to the DeviceIdentifier.
     content.vb: Function GetDeviceKeysOnDeviceIdentifier(applicationName As String, deviceName As String, deviceIdentifier As String) As ForeignKey()
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier*
-  nameWithType.vb: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(String, String, String)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier(String, String, String)
-  name.vb: GetDeviceKeysOnDeviceIdentifier(String, String, String)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(System.String,System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(System.String,System.String,System.String,System.String)
   id: GetDeviceKeysOnDeviceIdentifierTable(System.String,System.String,System.String,System.String)
@@ -1083,15 +1052,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDeviceKeysOnDeviceIdentifierTable(string, string, string, string)
-  nameWithType: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(string, string, string, string)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(string, string, string, string)
+  name: GetDeviceKeysOnDeviceIdentifierTable(String, String, String, String)
+  nameWithType: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(String, String, String, String)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(System.String, System.String, System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns all ForeignKeys that belong to a device with a given deviceIdentifier and table name.
-  example: []
+  summary: "\nReturns all ForeignKeys that belong to a device with a given deviceIdentifier and table name.\n"
   syntax:
     content: ForeignKey[] GetDeviceKeysOnDeviceIdentifierTable(string applicationName, string deviceName, string deviceIdentifier, string tableName)
     parameters:
@@ -1106,15 +1077,12 @@ items:
       description: Identifier for a unique grouping of keys within a device.
     - id: tableName
       type: System.String
-      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table.
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
     return:
       type: SuperOffice.CRM.Services.ForeignKey[]
       description: Array of all ForeignKeys in the ForeignDevice that belong to the DeviceIdentifier.
     content.vb: Function GetDeviceKeysOnDeviceIdentifierTable(applicationName As String, deviceName As String, deviceIdentifier As String, tableName As String) As ForeignKey()
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable*
-  nameWithType.vb: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(String, String, String, String)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(String, String, String, String)
-  name.vb: GetDeviceKeysOnDeviceIdentifierTable(String, String, String, String)
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(System.String,System.String,System.String,System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(System.String,System.String,System.String,System.String,System.Int32)
   id: GetDeviceKeysOnDeviceIdentifierTableRecordId(System.String,System.String,System.String,System.String,System.Int32)
@@ -1122,15 +1090,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDeviceKeysOnDeviceIdentifierTableRecordId(string, string, string, string, int)
-  nameWithType: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(string, string, string, string, int)
-  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(string, string, string, string, int)
+  name: GetDeviceKeysOnDeviceIdentifierTableRecordId(String, String, String, String, Int32)
+  nameWithType: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(String, String, String, String, Int32)
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(System.String, System.String, System.String, System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns all ForeignKeys that belong to a device with a given deviceIdentifier and table name, as well as record id.
-  example: []
+  summary: "\nReturns all ForeignKeys that belong to a device with a given deviceIdentifier and table name, as well as record id.\n"
   syntax:
     content: ForeignKey[] GetDeviceKeysOnDeviceIdentifierTableRecordId(string applicationName, string deviceName, string deviceIdentifier, string tableName, int recordId)
     parameters:
@@ -1145,7 +1115,7 @@ items:
       description: Identifier for a unique grouping of keys within a device.
     - id: tableName
       type: System.String
-      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/&gt;Use an empty string to indicate that your key is not bound to any specific table.
+      description: Table name, transformed to and from numeric table id by the service layer.&lt;p/>Use an empty string to indicate that your key is not bound to any specific table.
     - id: recordId
       type: System.Int32
       description: Id of record that this key refers to. If the table name was blank, then this parameter must be 0. It can also be 0 to mean that the foreign key record was not bound to any particular record of the target table.
@@ -1154,51 +1124,16 @@ items:
       description: Array of all ForeignKeys in the ForeignDevice that match the criteria
     content.vb: Function GetDeviceKeysOnDeviceIdentifierTableRecordId(applicationName As String, deviceName As String, deviceIdentifier As String, tableName As String, recordId As Integer) As ForeignKey()
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId*
-  nameWithType.vb: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(String, String, String, String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId(String, String, String, String, Integer)
-  name.vb: GetDeviceKeysOnDeviceIdentifierTableRecordId(String, String, String, String, Integer)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.CreateDefaultForeignAppEntity*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.CreateDefaultForeignAppEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_CreateDefaultForeignAppEntity
   name: CreateDefaultForeignAppEntity
   nameWithType: IForeignSystemAgent.CreateDefaultForeignAppEntity
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.CreateDefaultForeignAppEntity
@@ -1206,21 +1141,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.ForeignAppEntity
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ForeignAppEntity.html
   name: ForeignAppEntity
   nameWithType: ForeignAppEntity
   fullName: SuperOffice.CRM.Services.ForeignAppEntity
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignAppEntity*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignAppEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_SaveForeignAppEntity_SuperOffice_CRM_Services_ForeignAppEntity_
   name: SaveForeignAppEntity
   nameWithType: IForeignSystemAgent.SaveForeignAppEntity
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignAppEntity
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignAppEntity*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignAppEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_DeleteForeignAppEntity_System_Int32_
   name: DeleteForeignAppEntity
   nameWithType: IForeignSystemAgent.DeleteForeignAppEntity
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignAppEntity
@@ -1228,31 +1160,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignAppEntity*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignAppEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_GetForeignAppEntity_System_Int32_
   name: GetForeignAppEntity
   nameWithType: IForeignSystemAgent.GetForeignAppEntity
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignAppEntity
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetAppByName*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.GetAppByName
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_GetAppByName_System_String_
   name: GetAppByName
   nameWithType: IForeignSystemAgent.GetAppByName
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetAppByName
@@ -1260,23 +1185,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationDevices*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationDevices
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_GetApplicationDevices_System_String_
   name: GetApplicationDevices
   nameWithType: IForeignSystemAgent.GetApplicationDevices
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationDevices
 - uid: SuperOffice.CRM.Services.ForeignDevice[]
   isExternal: true
-  href: SuperOffice.CRM.Services.ForeignDevice.html
   name: ForeignDevice[]
   nameWithType: ForeignDevice[]
   fullName: SuperOffice.CRM.Services.ForeignDevice[]
@@ -1286,21 +1205,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.ForeignDevice
     name: ForeignDevice
+    nameWithType: ForeignDevice
+    fullName: SuperOffice.CRM.Services.ForeignDevice
     isExternal: true
-    href: SuperOffice.CRM.Services.ForeignDevice.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.ForeignDevice
     name: ForeignDevice
+    nameWithType: ForeignDevice
+    fullName: SuperOffice.CRM.Services.ForeignDevice
     isExternal: true
-    href: SuperOffice.CRM.Services.ForeignDevice.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByName*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByName
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_GetDeviceByName_System_String_System_String_
   name: GetDeviceByName
   nameWithType: IForeignSystemAgent.GetDeviceByName
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByName
@@ -1308,42 +1230,36 @@ references:
   commentId: T:SuperOffice.CRM.Services.ForeignDevice
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ForeignDevice.html
   name: ForeignDevice
   nameWithType: ForeignDevice
   fullName: SuperOffice.CRM.Services.ForeignDevice
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByIdentifier*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByIdentifier
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_GetDeviceByIdentifier_System_String_System_String_System_String_
   name: GetDeviceByIdentifier
   nameWithType: IForeignSystemAgent.GetDeviceByIdentifier
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceByIdentifier
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.AddDeviceByIdentifier*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.AddDeviceByIdentifier
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_AddDeviceByIdentifier_System_String_System_String_System_String_
   name: AddDeviceByIdentifier
   nameWithType: IForeignSystemAgent.AddDeviceByIdentifier
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.AddDeviceByIdentifier
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.SaveDeviceByIdentifier*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.SaveDeviceByIdentifier
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_SaveDeviceByIdentifier_System_String_System_String_System_String_SuperOffice_CRM_Services_ForeignDevice_
   name: SaveDeviceByIdentifier
   nameWithType: IForeignSystemAgent.SaveDeviceByIdentifier
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveDeviceByIdentifier
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteDeviceByIdentifier*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.DeleteDeviceByIdentifier
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_DeleteDeviceByIdentifier_System_String_System_String_System_String_
   name: DeleteDeviceByIdentifier
   nameWithType: IForeignSystemAgent.DeleteDeviceByIdentifier
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteDeviceByIdentifier
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKey*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.GetKey
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_GetKey_System_String_System_String_System_String_System_String_System_Int32_
   name: GetKey
   nameWithType: IForeignSystemAgent.GetKey
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKey
@@ -1351,70 +1267,60 @@ references:
   commentId: T:SuperOffice.CRM.Services.ForeignKey
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ForeignKey.html
   name: ForeignKey
   nameWithType: ForeignKey
   fullName: SuperOffice.CRM.Services.ForeignKey
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValue*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValue
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_GetKeyValue_System_String_System_String_System_String_System_String_System_Int32_
   name: GetKeyValue
   nameWithType: IForeignSystemAgent.GetKeyValue
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValue
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyOnDeviceIdentifier*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyOnDeviceIdentifier
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_GetKeyOnDeviceIdentifier_System_String_System_String_System_String_System_String_System_String_System_Int32_
   name: GetKeyOnDeviceIdentifier
   nameWithType: IForeignSystemAgent.GetKeyOnDeviceIdentifier
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyOnDeviceIdentifier
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValueOnDeviceIdentifier*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValueOnDeviceIdentifier
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_GetKeyValueOnDeviceIdentifier_System_String_System_String_System_String_System_String_System_String_System_Int32_
   name: GetKeyValueOnDeviceIdentifier
   nameWithType: IForeignSystemAgent.GetKeyValueOnDeviceIdentifier
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyValueOnDeviceIdentifier
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.AddForeignKey*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.AddForeignKey
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_AddForeignKey_SuperOffice_CRM_Services_ForeignKey_System_String_System_String_System_String_
   name: AddForeignKey
   nameWithType: IForeignSystemAgent.AddForeignKey
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.AddForeignKey
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignKey*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignKey
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_SaveForeignKey_SuperOffice_CRM_Services_ForeignKey_System_String_System_String_System_String_
   name: SaveForeignKey
   nameWithType: IForeignSystemAgent.SaveForeignKey
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignKey
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKeyOnName*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKeyOnName
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_DeleteForeignKeyOnName_System_String_System_String_System_String_System_String_System_String_System_Int32_
   name: DeleteForeignKeyOnName
   nameWithType: IForeignSystemAgent.DeleteForeignKeyOnName
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKeyOnName
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValue*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValue
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_GetKeyByValue_System_String_System_String_System_String_System_String_System_String_
   name: GetKeyByValue
   nameWithType: IForeignSystemAgent.GetKeyByValue
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValue
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValueAndIdentifier*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValueAndIdentifier
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_GetKeyByValueAndIdentifier_System_String_System_String_System_String_System_String_System_String_System_String_
   name: GetKeyByValueAndIdentifier
   nameWithType: IForeignSystemAgent.GetKeyByValueAndIdentifier
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetKeyByValueAndIdentifier
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetAllForeignKeysOnEntity*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.GetAllForeignKeysOnEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_GetAllForeignKeysOnEntity_System_String_System_Int32_
   name: GetAllForeignKeysOnEntity
   nameWithType: IForeignSystemAgent.GetAllForeignKeysOnEntity
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetAllForeignKeysOnEntity
@@ -1426,41 +1332,35 @@ references:
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignDevice*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignDevice
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_GetForeignDevice_System_Int32_
   name: GetForeignDevice
   nameWithType: IForeignSystemAgent.GetForeignDevice
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignDevice
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignDevice*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignDevice
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_SaveForeignDevice_SuperOffice_CRM_Services_ForeignDevice_System_String_
   name: SaveForeignDevice
   nameWithType: IForeignSystemAgent.SaveForeignDevice
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.SaveForeignDevice
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignDevice*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignDevice
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_DeleteForeignDevice_SuperOffice_CRM_Services_ForeignDevice_System_String_
   name: DeleteForeignDevice
   nameWithType: IForeignSystemAgent.DeleteForeignDevice
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignDevice
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKey*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKey
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_DeleteForeignKey_SuperOffice_CRM_Services_ForeignKey_System_String_System_String_System_String_System_String_System_Int32_
   name: DeleteForeignKey
   nameWithType: IForeignSystemAgent.DeleteForeignKey
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignKey
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeys*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeys
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_GetDeviceKeys_System_String_System_String_
   name: GetDeviceKeys
   nameWithType: IForeignSystemAgent.GetDeviceKeys
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeys
 - uid: SuperOffice.CRM.Services.ForeignKey[]
   isExternal: true
-  href: SuperOffice.CRM.Services.ForeignKey.html
   name: ForeignKey[]
   nameWithType: ForeignKey[]
   fullName: SuperOffice.CRM.Services.ForeignKey[]
@@ -1470,42 +1370,42 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.ForeignKey
     name: ForeignKey
+    nameWithType: ForeignKey
+    fullName: SuperOffice.CRM.Services.ForeignKey
     isExternal: true
-    href: SuperOffice.CRM.Services.ForeignKey.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.ForeignKey
     name: ForeignKey
+    nameWithType: ForeignKey
+    fullName: SuperOffice.CRM.Services.ForeignKey
     isExternal: true
-    href: SuperOffice.CRM.Services.ForeignKey.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationKeys*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationKeys
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_GetApplicationKeys_System_String_
   name: GetApplicationKeys
   nameWithType: IForeignSystemAgent.GetApplicationKeys
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetApplicationKeys
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_GetDeviceKeysOnDeviceIdentifier_System_String_System_String_System_String_
   name: GetDeviceKeysOnDeviceIdentifier
   nameWithType: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifier
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTable_System_String_System_String_System_String_System_String_
   name: GetDeviceKeysOnDeviceIdentifierTable
   nameWithType: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable
 - uid: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId*
   commentId: Overload:SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId
   isExternal: true
-  href: SuperOffice.CRM.Services.IForeignSystemAgent.html#SuperOffice_CRM_Services_IForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTableRecordId_System_String_System_String_System_String_System_String_System_Int32_
   name: GetDeviceKeysOnDeviceIdentifierTableRecordId
   nameWithType: IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId
   fullName: SuperOffice.CRM.Services.IForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTableRecordId

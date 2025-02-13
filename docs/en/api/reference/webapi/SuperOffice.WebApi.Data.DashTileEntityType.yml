@@ -11,24 +11,64 @@ items:
   - SuperOffice.WebApi.Data.DashTileEntityType.Person
   - SuperOffice.WebApi.Data.DashTileEntityType.Project
   - SuperOffice.WebApi.Data.DashTileEntityType.Sale
+  - SuperOffice.WebApi.Data.DashTileEntityType.value__
   langs:
   - csharp
   - vb
   name: DashTileEntityType
   nameWithType: DashTileEntityType
   fullName: SuperOffice.WebApi.Data.DashTileEntityType
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Dashboard tile entity type (V2)
-
-    This Enum is used by:  dashboard_tile_definition.entity_type
-  example: []
+  summary: "\nDashboard tile entity type (V2)\nThis Enum is used by:  dashboard_tile_definition.entity_type\n"
   syntax:
-    content: 'public enum DashTileEntityType : short'
-    content.vb: Public Enum DashTileEntityType As Short
+    content: 'public sealed class DashTileEntityType : Enum'
+    content.vb: >-
+      Public NotInheritable Class DashTileEntityType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.DashTileEntityType.value__
+  commentId: F:SuperOffice.WebApi.Data.DashTileEntityType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.DashTileEntityType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DashTileEntityType.value__
+  fullName: SuperOffice.WebApi.Data.DashTileEntityType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.DashTileEntityType.None
   commentId: F:SuperOffice.WebApi.Data.DashTileEntityType.None
   id: None
@@ -40,26 +80,24 @@ items:
   nameWithType: DashTileEntityType.None
   fullName: SuperOffice.WebApi.Data.DashTileEntityType.None
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: None'
-  example: []
+  summary: "\n0: None\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const DashTileEntityType None
     return:
       type: SuperOffice.WebApi.Data.DashTileEntityType
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As DashTileEntityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.DashTileEntityType.Contact
   commentId: F:SuperOffice.WebApi.Data.DashTileEntityType.Contact
   id: Contact
@@ -71,26 +109,24 @@ items:
   nameWithType: DashTileEntityType.Contact
   fullName: SuperOffice.WebApi.Data.DashTileEntityType.Contact
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: Contact'
-  example: []
+  summary: "\n1: Contact\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Contact = 1
+    content: public const DashTileEntityType Contact
     return:
       type: SuperOffice.WebApi.Data.DashTileEntityType
-    content.vb: >-
-      <EnumMember>
-
-      Contact = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Contact As DashTileEntityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.DashTileEntityType.Sale
   commentId: F:SuperOffice.WebApi.Data.DashTileEntityType.Sale
   id: Sale
@@ -102,26 +138,24 @@ items:
   nameWithType: DashTileEntityType.Sale
   fullName: SuperOffice.WebApi.Data.DashTileEntityType.Sale
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: Sale'
-  example: []
+  summary: "\n2: Sale\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Sale = 2
+    content: public const DashTileEntityType Sale
     return:
       type: SuperOffice.WebApi.Data.DashTileEntityType
-    content.vb: >-
-      <EnumMember>
-
-      Sale = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Sale As DashTileEntityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.DashTileEntityType.Project
   commentId: F:SuperOffice.WebApi.Data.DashTileEntityType.Project
   id: Project
@@ -133,26 +167,24 @@ items:
   nameWithType: DashTileEntityType.Project
   fullName: SuperOffice.WebApi.Data.DashTileEntityType.Project
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: Project'
-  example: []
+  summary: "\n3: Project\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Project = 3
+    content: public const DashTileEntityType Project
     return:
       type: SuperOffice.WebApi.Data.DashTileEntityType
-    content.vb: >-
-      <EnumMember>
-
-      Project = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Project As DashTileEntityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.DashTileEntityType.Appointment
   commentId: F:SuperOffice.WebApi.Data.DashTileEntityType.Appointment
   id: Appointment
@@ -164,26 +196,24 @@ items:
   nameWithType: DashTileEntityType.Appointment
   fullName: SuperOffice.WebApi.Data.DashTileEntityType.Appointment
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: Appointment'
-  example: []
+  summary: "\n4: Appointment\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Appointment = 4
+    content: public const DashTileEntityType Appointment
     return:
       type: SuperOffice.WebApi.Data.DashTileEntityType
-    content.vb: >-
-      <EnumMember>
-
-      Appointment = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Appointment As DashTileEntityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.DashTileEntityType.Person
   commentId: F:SuperOffice.WebApi.Data.DashTileEntityType.Person
   id: Person
@@ -195,69 +225,55 @@ items:
   nameWithType: DashTileEntityType.Person
   fullName: SuperOffice.WebApi.Data.DashTileEntityType.Person
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '5: Person'
-  example: []
+  summary: "\n5: Person\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Person = 5
+    content: public const DashTileEntityType Person
     return:
       type: SuperOffice.WebApi.Data.DashTileEntityType
-    content.vb: >-
-      <EnumMember>
-
-      Person = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Person As DashTileEntityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.DashTileEntityType
   commentId: T:SuperOffice.WebApi.Data.DashTileEntityType
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.DashTileEntityType.html
   name: DashTileEntityType
   nameWithType: DashTileEntityType
   fullName: SuperOffice.WebApi.Data.DashTileEntityType

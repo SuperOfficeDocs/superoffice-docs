@@ -25,24 +25,27 @@ items:
   nameWithType: DBC.TargetRevisionHistoryFields
   fullName: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Fields for TargetRevisionHistory, Revision history info in case the original target group or assignment info was deleted
-  example: []
+  summary: "\nFields for TargetRevisionHistory, Revision history info in case the original target group or assignment info was deleted\n"
   syntax:
-    content: public static class DBC.TargetRevisionHistoryFields
-    content.vb: Public Module DBC.TargetRevisionHistoryFields
+    content: 'public static class TargetRevisionHistoryFields : Object'
+    content.vb: >-
+      Public Module TargetRevisionHistoryFields
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.TargetRevisionHistoryId
   commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.TargetRevisionHistoryId
   id: TargetRevisionHistoryId
@@ -54,16 +57,24 @@ items:
   nameWithType: DBC.TargetRevisionHistoryFields.TargetRevisionHistoryId
   fullName: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.TargetRevisionHistoryId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'TargetRevisionHistory.TargetRevisionHistoryId: Primary key'
-  example: []
+  summary: "\nTargetRevisionHistory.TargetRevisionHistoryId: Primary key\n"
   syntax:
     content: public const string TargetRevisionHistoryId = "target_revision_history_id"
     return:
       type: System.String
     content.vb: Public Const TargetRevisionHistoryId As String = "target_revision_history_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.TargetGroupId
   commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.TargetGroupId
   id: TargetGroupId
@@ -75,16 +86,24 @@ items:
   nameWithType: DBC.TargetRevisionHistoryFields.TargetGroupId
   fullName: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.TargetGroupId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'TargetRevisionHistory.TargetGroupId: The group id - but it may not still exist'
-  example: []
+  summary: "\nTargetRevisionHistory.TargetGroupId: The group id - but it may not still exist\n"
   syntax:
     content: public const string TargetGroupId = "target_group_id"
     return:
       type: System.String
     content.vb: Public Const TargetGroupId As String = "target_group_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.Year
   commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.Year
   id: Year
@@ -96,16 +115,24 @@ items:
   nameWithType: DBC.TargetRevisionHistoryFields.Year
   fullName: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.Year
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'TargetRevisionHistory.Year: The year this set of targets are associated with (2020, 2021...)'
-  example: []
+  summary: "\nTargetRevisionHistory.Year: The year this set of targets are associated with (2020, 2021...)\n"
   syntax:
     content: public const string Year = "year"
     return:
       type: System.String
     content.vb: Public Const Year As String = "year"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.EntityType
   commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.EntityType
   id: EntityType
@@ -117,16 +144,24 @@ items:
   nameWithType: DBC.TargetRevisionHistoryFields.EntityType
   fullName: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.EntityType
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'TargetRevisionHistory.EntityType: Entity type for this set of targets (Sale, Project, Selection, Appointment...)'
-  example: []
+  summary: "\nTargetRevisionHistory.EntityType: Entity type for this set of targets (Sale, Project, Selection, Appointment...)\n"
   syntax:
     content: public const string EntityType = "entity_type"
     return:
       type: System.String
     content.vb: Public Const EntityType As String = "entity_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.AssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.AssociateId
   id: AssociateId
@@ -138,16 +173,24 @@ items:
   nameWithType: DBC.TargetRevisionHistoryFields.AssociateId
   fullName: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.AssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'TargetRevisionHistory.AssociateId: Associate who owns this target'
-  example: []
+  summary: "\nTargetRevisionHistory.AssociateId: Associate who owns this target\n"
   syntax:
     content: public const string AssociateId = "associate_id"
     return:
       type: System.String
     content.vb: Public Const AssociateId As String = "associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.UsergroupId
   commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.UsergroupId
   id: UsergroupId
@@ -159,16 +202,24 @@ items:
   nameWithType: DBC.TargetRevisionHistoryFields.UsergroupId
   fullName: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.UsergroupId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'TargetRevisionHistory.UsergroupId: User group who owns this target'
-  example: []
+  summary: "\nTargetRevisionHistory.UsergroupId: User group who owns this target\n"
   syntax:
     content: public const string UsergroupId = "usergroup_id"
     return:
       type: System.String
     content.vb: Public Const UsergroupId As String = "usergroup_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.ContactId
   commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.ContactId
   id: ContactId
@@ -180,16 +231,24 @@ items:
   nameWithType: DBC.TargetRevisionHistoryFields.ContactId
   fullName: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.ContactId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'TargetRevisionHistory.ContactId: Company who owns this target'
-  example: []
+  summary: "\nTargetRevisionHistory.ContactId: Company who owns this target\n"
   syntax:
     content: public const string ContactId = "contact_id"
     return:
       type: System.String
     content.vb: Public Const ContactId As String = "contact_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.Registered
   id: Registered
@@ -201,16 +260,24 @@ items:
   nameWithType: DBC.TargetRevisionHistoryFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'TargetRevisionHistory.Registered: Registered when'
-  example: []
+  summary: "\nTargetRevisionHistory.Registered: Registered when\n"
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -222,16 +289,24 @@ items:
   nameWithType: DBC.TargetRevisionHistoryFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'TargetRevisionHistory.RegisteredAssociateId: Registered by whom'
-  example: []
+  summary: "\nTargetRevisionHistory.RegisteredAssociateId: Registered by whom\n"
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.Updated
   id: Updated
@@ -243,16 +318,24 @@ items:
   nameWithType: DBC.TargetRevisionHistoryFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'TargetRevisionHistory.Updated: Last updated when'
-  example: []
+  summary: "\nTargetRevisionHistory.Updated: Last updated when\n"
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -264,16 +347,24 @@ items:
   nameWithType: DBC.TargetRevisionHistoryFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'TargetRevisionHistory.UpdatedAssociateId: Last updated by whom'
-  example: []
+  summary: "\nTargetRevisionHistory.UpdatedAssociateId: Last updated by whom\n"
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.UpdatedCount
   id: UpdatedCount
@@ -285,16 +376,24 @@ items:
   nameWithType: DBC.TargetRevisionHistoryFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'TargetRevisionHistory.UpdatedCount: Number of updates made to this record'
-  example: []
+  summary: "\nTargetRevisionHistory.UpdatedCount: Number of updates made to this record\n"
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.TargetAssignmentInfoId
   commentId: F:SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.TargetAssignmentInfoId
   id: TargetAssignmentInfoId
@@ -306,288 +405,41 @@ items:
   nameWithType: DBC.TargetRevisionHistoryFields.TargetAssignmentInfoId
   fullName: SuperOffice.CRM.Data.DBC.TargetRevisionHistoryFields.TargetAssignmentInfoId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'TargetRevisionHistory.TargetAssignmentInfoId: TargetAssignmentInfo associated with the logged info'
-  example: []
+  summary: "\nTargetRevisionHistory.TargetAssignmentInfoId: TargetAssignmentInfo associated with the logged info\n"
   syntax:
     content: public const string TargetAssignmentInfoId = "target_assignment_info_id"
     return:
       type: System.String
     content.vb: Public Const TargetAssignmentInfoId As String = "target_assignment_info_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -595,10 +447,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

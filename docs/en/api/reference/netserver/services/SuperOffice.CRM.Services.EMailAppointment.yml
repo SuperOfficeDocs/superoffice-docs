@@ -23,27 +23,18 @@ items:
   nameWithType: EMailAppointment
   fullName: SuperOffice.CRM.Services.EMailAppointment
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Information about an email appointment received as iCal data
-
-    <p></p>
-
-    Carrier object for EMailAppointment.
-
-    Services for the EMailAppointment Carrier is available from the <xref href="SuperOffice.CRM.Services.IEMailAgent?text=EMail+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nInformation about an email appointment received as iCal data\n<p></p>\nCarrier object for EMailAppointment.\nServices for the EMailAppointment Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IEMailAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class EMailAppointment : Carrier
+    content: 'public class EMailAppointment : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class EMailAppointment Inherits Carrier
+      Public Class EMailAppointment
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.EMailAgent
     commentId: T:SuperOffice.CRM.Services.EMailAgent
@@ -51,14 +42,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IEMailAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.EMailAppointment.#ctor
   commentId: M:SuperOffice.CRM.Services.EMailAppointment.#ctor
   id: '#ctor'
@@ -70,18 +59,21 @@ items:
   nameWithType: EMailAppointment.EMailAppointment()
   fullName: SuperOffice.CRM.Services.EMailAppointment.EMailAppointment()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public EMailAppointment()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.EMailAppointment.#ctor*
-  nameWithType.vb: EMailAppointment.New()
-  fullName.vb: SuperOffice.CRM.Services.EMailAppointment.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EMailAppointment.ToString
   commentId: M:SuperOffice.CRM.Services.EMailAppointment.ToString
   id: ToString
@@ -93,18 +85,26 @@ items:
   nameWithType: EMailAppointment.ToString()
   fullName: SuperOffice.CRM.Services.EMailAppointment.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.EMailAppointment.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.EMailAppointment.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.EMailAppointment.ToString(System.String)
   id: ToString(System.String)
@@ -112,18 +112,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: EMailAppointment.ToString(string)
-  fullName: SuperOffice.CRM.Services.EMailAppointment.ToString(string)
+  name: ToString(String)
+  nameWithType: EMailAppointment.ToString(String)
+  fullName: SuperOffice.CRM.Services.EMailAppointment.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -135,9 +134,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.EMailAppointment.ToString*
-  nameWithType.vb: EMailAppointment.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.EMailAppointment.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EMailAppointment.Appointment
   commentId: P:SuperOffice.CRM.Services.EMailAppointment.Appointment
   id: Appointment
@@ -149,28 +149,28 @@ items:
   nameWithType: EMailAppointment.Appointment
   fullName: SuperOffice.CRM.Services.EMailAppointment.Appointment
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Appointment information
-  example: []
+  summary: "\nAppointment information \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual Appointment Appointment { get; set; }
+    content: public virtual Appointment Appointment { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.Appointment
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Appointment As Appointment
+    content.vb: Public Overridable Property Appointment As Appointment
   overload: SuperOffice.CRM.Services.EMailAppointment.Appointment*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EMailAppointment.CalMethod
   commentId: P:SuperOffice.CRM.Services.EMailAppointment.CalMethod
   id: CalMethod
@@ -182,28 +182,28 @@ items:
   nameWithType: EMailAppointment.CalMethod
   fullName: SuperOffice.CRM.Services.EMailAppointment.CalMethod
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Method field stored in ICS file.
-  example: []
+  summary: "\nMethod field stored in ICS file. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual CalMethod CalMethod { get; set; }
+    content: public virtual CalMethod CalMethod { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.CalMethod
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CalMethod As CalMethod
+    content.vb: Public Overridable Property CalMethod As CalMethod
   overload: SuperOffice.CRM.Services.EMailAppointment.CalMethod*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EMailAppointment.Participants
   commentId: P:SuperOffice.CRM.Services.EMailAppointment.Participants
   id: Participants
@@ -215,28 +215,28 @@ items:
   nameWithType: EMailAppointment.Participants
   fullName: SuperOffice.CRM.Services.EMailAppointment.Participants
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: List of participants in the iCal file - first one being the organizer
-  example: []
+  summary: "\nList of participants in the iCal file - first one being the organizer \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string[] Participants { get; set; }
+    content: public virtual string[] Participants { get; set; }
     parameters: []
     return:
       type: System.String[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Participants As String()
+    content.vb: Public Overridable Property Participants As String()
   overload: SuperOffice.CRM.Services.EMailAppointment.Participants*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EMailAppointment.Comment
   commentId: P:SuperOffice.CRM.Services.EMailAppointment.Comment
   id: Comment
@@ -248,28 +248,28 @@ items:
   nameWithType: EMailAppointment.Comment
   fullName: SuperOffice.CRM.Services.EMailAppointment.Comment
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Comment attached to the calendar event (accept / reject reason etc.)
-  example: []
+  summary: "\nComment attached to the calendar event (accept / reject reason etc.) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Comment { get; set; }
+    content: public virtual string Comment { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Comment As String
+    content.vb: Public Overridable Property Comment As String
   overload: SuperOffice.CRM.Services.EMailAppointment.Comment*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EMailAppointment.Sequence
   commentId: P:SuperOffice.CRM.Services.EMailAppointment.Sequence
   id: Sequence
@@ -281,28 +281,28 @@ items:
   nameWithType: EMailAppointment.Sequence
   fullName: SuperOffice.CRM.Services.EMailAppointment.Sequence
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Sequence number in ICS file.
-  example: []
+  summary: "\nSequence number in ICS file. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int Sequence { get; set; }
+    content: public virtual int Sequence { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Sequence As Integer
+    content.vb: Public Overridable Property Sequence As Integer
   overload: SuperOffice.CRM.Services.EMailAppointment.Sequence*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EMailAppointment.DtStart
   commentId: P:SuperOffice.CRM.Services.EMailAppointment.DtStart
   id: DtStart
@@ -314,28 +314,28 @@ items:
   nameWithType: EMailAppointment.DtStart
   fullName: SuperOffice.CRM.Services.EMailAppointment.DtStart
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Start date/time in ICS file.
-  example: []
+  summary: "\nStart date/time in ICS file. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime DtStart { get; set; }
+    content: public virtual DateTime DtStart { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property DtStart As Date
+    content.vb: Public Overridable Property DtStart As DateTime
   overload: SuperOffice.CRM.Services.EMailAppointment.DtStart*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EMailAppointment.DtEnd
   commentId: P:SuperOffice.CRM.Services.EMailAppointment.DtEnd
   id: DtEnd
@@ -347,28 +347,28 @@ items:
   nameWithType: EMailAppointment.DtEnd
   fullName: SuperOffice.CRM.Services.EMailAppointment.DtEnd
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: End date/time in ICS file.
-  example: []
+  summary: "\nEnd date/time in ICS file. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime DtEnd { get; set; }
+    content: public virtual DateTime DtEnd { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property DtEnd As Date
+    content.vb: Public Overridable Property DtEnd As DateTime
   overload: SuperOffice.CRM.Services.EMailAppointment.DtEnd*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.EMailAppointment.Superseded
   commentId: P:SuperOffice.CRM.Services.EMailAppointment.Superseded
   id: Superseded
@@ -380,33 +380,38 @@ items:
   nameWithType: EMailAppointment.Superseded
   fullName: SuperOffice.CRM.Services.EMailAppointment.Superseded
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: A newer invitation exists
-  example: []
+  summary: "\nA newer invitation exists \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool Superseded { get; set; }
+    content: public virtual bool Superseded { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Superseded As Boolean
+    content.vb: Public Overridable Property Superseded As Boolean
   overload: SuperOffice.CRM.Services.EMailAppointment.Superseded*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.EMailAgent
   commentId: T:SuperOffice.CRM.Services.EMailAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.EMailAgent.html
   name: EMailAgent
   nameWithType: EMailAgent
   fullName: SuperOffice.CRM.Services.EMailAgent
@@ -414,79 +419,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IEMailAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IEMailAgent.html
   name: IEMailAgent
   nameWithType: IEMailAgent
   fullName: SuperOffice.CRM.Services.IEMailAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.EMailAppointment.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.EMailAppointment.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.EMailAppointment.html#SuperOffice_CRM_Services_EMailAppointment__ctor
   name: EMailAppointment
   nameWithType: EMailAppointment.EMailAppointment
   fullName: SuperOffice.CRM.Services.EMailAppointment.EMailAppointment
-  nameWithType.vb: EMailAppointment.New
-  fullName.vb: SuperOffice.CRM.Services.EMailAppointment.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.EMailAppointment.ToString*
   commentId: Overload:SuperOffice.CRM.Services.EMailAppointment.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.EMailAppointment.html#SuperOffice_CRM_Services_EMailAppointment_ToString
   name: ToString
   nameWithType: EMailAppointment.ToString
   fullName: SuperOffice.CRM.Services.EMailAppointment.ToString
@@ -494,17 +438,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.EMailAppointment.Appointment*
   commentId: Overload:SuperOffice.CRM.Services.EMailAppointment.Appointment
   isExternal: true
-  href: SuperOffice.CRM.Services.EMailAppointment.html#SuperOffice_CRM_Services_EMailAppointment_Appointment
   name: Appointment
   nameWithType: EMailAppointment.Appointment
   fullName: SuperOffice.CRM.Services.EMailAppointment.Appointment
@@ -512,14 +457,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.Appointment
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.Appointment.html
   name: Appointment
   nameWithType: Appointment
   fullName: SuperOffice.CRM.Services.Appointment
 - uid: SuperOffice.CRM.Services.EMailAppointment.CalMethod*
   commentId: Overload:SuperOffice.CRM.Services.EMailAppointment.CalMethod
   isExternal: true
-  href: SuperOffice.CRM.Services.EMailAppointment.html#SuperOffice_CRM_Services_EMailAppointment_CalMethod
   name: CalMethod
   nameWithType: EMailAppointment.CalMethod
   fullName: SuperOffice.CRM.Services.EMailAppointment.CalMethod
@@ -531,44 +474,44 @@ references:
 - uid: SuperOffice.CRM.Services.EMailAppointment.Participants*
   commentId: Overload:SuperOffice.CRM.Services.EMailAppointment.Participants
   isExternal: true
-  href: SuperOffice.CRM.Services.EMailAppointment.html#SuperOffice_CRM_Services_EMailAppointment_Participants
   name: Participants
   nameWithType: EMailAppointment.Participants
   fullName: SuperOffice.CRM.Services.EMailAppointment.Participants
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.EMailAppointment.Comment*
   commentId: Overload:SuperOffice.CRM.Services.EMailAppointment.Comment
   isExternal: true
-  href: SuperOffice.CRM.Services.EMailAppointment.html#SuperOffice_CRM_Services_EMailAppointment_Comment
   name: Comment
   nameWithType: EMailAppointment.Comment
   fullName: SuperOffice.CRM.Services.EMailAppointment.Comment
 - uid: SuperOffice.CRM.Services.EMailAppointment.Sequence*
   commentId: Overload:SuperOffice.CRM.Services.EMailAppointment.Sequence
   isExternal: true
-  href: SuperOffice.CRM.Services.EMailAppointment.html#SuperOffice_CRM_Services_EMailAppointment_Sequence
   name: Sequence
   nameWithType: EMailAppointment.Sequence
   fullName: SuperOffice.CRM.Services.EMailAppointment.Sequence
@@ -576,42 +519,29 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.EMailAppointment.DtStart*
   commentId: Overload:SuperOffice.CRM.Services.EMailAppointment.DtStart
   isExternal: true
-  href: SuperOffice.CRM.Services.EMailAppointment.html#SuperOffice_CRM_Services_EMailAppointment_DtStart
   name: DtStart
   nameWithType: EMailAppointment.DtStart
   fullName: SuperOffice.CRM.Services.EMailAppointment.DtStart
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.EMailAppointment.DtEnd*
   commentId: Overload:SuperOffice.CRM.Services.EMailAppointment.DtEnd
   isExternal: true
-  href: SuperOffice.CRM.Services.EMailAppointment.html#SuperOffice_CRM_Services_EMailAppointment_DtEnd
   name: DtEnd
   nameWithType: EMailAppointment.DtEnd
   fullName: SuperOffice.CRM.Services.EMailAppointment.DtEnd
 - uid: SuperOffice.CRM.Services.EMailAppointment.Superseded*
   commentId: Overload:SuperOffice.CRM.Services.EMailAppointment.Superseded
   isExternal: true
-  href: SuperOffice.CRM.Services.EMailAppointment.html#SuperOffice_CRM_Services_EMailAppointment_Superseded
   name: Superseded
   nameWithType: EMailAppointment.Superseded
   fullName: SuperOffice.CRM.Services.EMailAppointment.Superseded
@@ -619,10 +549,6 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

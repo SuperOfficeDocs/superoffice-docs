@@ -27,6 +27,7 @@ items:
   - SuperOffice.Data.ColorIndex.RedAlt1
   - SuperOffice.Data.ColorIndex.RedAlt2
   - SuperOffice.Data.ColorIndex.RedAlt3
+  - SuperOffice.Data.ColorIndex.value__
   - SuperOffice.Data.ColorIndex.YellowAlt1
   - SuperOffice.Data.ColorIndex.YellowAlt2
   - SuperOffice.Data.ColorIndex.YellowAlt3
@@ -36,35 +37,60 @@ items:
   name: ColorIndex
   nameWithType: ColorIndex
   fullName: SuperOffice.Data.ColorIndex
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: Color index of tasks
-  example: []
+  summary: "\nColor index of tasks\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum ColorIndex
+    content: 'public sealed class ColorIndex : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class ColorIndex
+          Inherits
 
-      Public Enum ColorIndex
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.ColorIndex.EnumUtil.MapEnums``2
   - SuperOffice.Data.ColorIndex.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.ColorIndex.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ColorIndex)
-  - SuperOffice.Data.ColorIndex.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.ColorIndex.value__
+  commentId: F:SuperOffice.Data.ColorIndex.value__
+  id: value__
+  parent: SuperOffice.Data.ColorIndex
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ColorIndex.value__
+  fullName: SuperOffice.Data.ColorIndex.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.ColorIndex.LightBlue
   commentId: F:SuperOffice.Data.ColorIndex.LightBlue
   id: LightBlue
@@ -76,26 +102,24 @@ items:
   nameWithType: ColorIndex.LightBlue
   fullName: SuperOffice.Data.ColorIndex.LightBlue
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: Light blue'
-  example: []
+  summary: "\n0: Light blue\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      LightBlue = 0
+    content: public const ColorIndex LightBlue
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      LightBlue = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const LightBlue As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.DarkBlue
   commentId: F:SuperOffice.Data.ColorIndex.DarkBlue
   id: DarkBlue
@@ -107,26 +131,24 @@ items:
   nameWithType: ColorIndex.DarkBlue
   fullName: SuperOffice.Data.ColorIndex.DarkBlue
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Dark blue'
-  example: []
+  summary: "\n1: Dark blue\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      DarkBlue = 1
+    content: public const ColorIndex DarkBlue
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      DarkBlue = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const DarkBlue As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.LightGray
   commentId: F:SuperOffice.Data.ColorIndex.LightGray
   id: LightGray
@@ -138,26 +160,24 @@ items:
   nameWithType: ColorIndex.LightGray
   fullName: SuperOffice.Data.ColorIndex.LightGray
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: Light gray'
-  example: []
+  summary: "\n2: Light gray\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      LightGray = 2
+    content: public const ColorIndex LightGray
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      LightGray = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const LightGray As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.DarkGray
   commentId: F:SuperOffice.Data.ColorIndex.DarkGray
   id: DarkGray
@@ -169,26 +189,24 @@ items:
   nameWithType: ColorIndex.DarkGray
   fullName: SuperOffice.Data.ColorIndex.DarkGray
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '3: Dark gray'
-  example: []
+  summary: "\n3: Dark gray\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      DarkGray = 3
+    content: public const ColorIndex DarkGray
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      DarkGray = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const DarkGray As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.LightGreen
   commentId: F:SuperOffice.Data.ColorIndex.LightGreen
   id: LightGreen
@@ -200,26 +218,24 @@ items:
   nameWithType: ColorIndex.LightGreen
   fullName: SuperOffice.Data.ColorIndex.LightGreen
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '4: Light green'
-  example: []
+  summary: "\n4: Light green\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      LightGreen = 4
+    content: public const ColorIndex LightGreen
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      LightGreen = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const LightGreen As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.DarkGreen
   commentId: F:SuperOffice.Data.ColorIndex.DarkGreen
   id: DarkGreen
@@ -231,26 +247,24 @@ items:
   nameWithType: ColorIndex.DarkGreen
   fullName: SuperOffice.Data.ColorIndex.DarkGreen
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '5: Dark Green'
-  example: []
+  summary: "\n5: Dark Green\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      DarkGreen = 5
+    content: public const ColorIndex DarkGreen
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      DarkGreen = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const DarkGreen As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.LightYellow
   commentId: F:SuperOffice.Data.ColorIndex.LightYellow
   id: LightYellow
@@ -262,26 +276,24 @@ items:
   nameWithType: ColorIndex.LightYellow
   fullName: SuperOffice.Data.ColorIndex.LightYellow
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '6: Light Yellow'
-  example: []
+  summary: "\n6: Light Yellow\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      LightYellow = 6
+    content: public const ColorIndex LightYellow
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      LightYellow = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const LightYellow As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.DarkYellow
   commentId: F:SuperOffice.Data.ColorIndex.DarkYellow
   id: DarkYellow
@@ -293,26 +305,24 @@ items:
   nameWithType: ColorIndex.DarkYellow
   fullName: SuperOffice.Data.ColorIndex.DarkYellow
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '7: Dark Yellow'
-  example: []
+  summary: "\n7: Dark Yellow\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      DarkYellow = 7
+    content: public const ColorIndex DarkYellow
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      DarkYellow = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const DarkYellow As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.LightRed
   commentId: F:SuperOffice.Data.ColorIndex.LightRed
   id: LightRed
@@ -324,26 +334,24 @@ items:
   nameWithType: ColorIndex.LightRed
   fullName: SuperOffice.Data.ColorIndex.LightRed
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '8: Light Red'
-  example: []
+  summary: "\n8: Light Red\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      LightRed = 8
+    content: public const ColorIndex LightRed
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      LightRed = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const LightRed As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.DarkRed
   commentId: F:SuperOffice.Data.ColorIndex.DarkRed
   id: DarkRed
@@ -355,26 +363,24 @@ items:
   nameWithType: ColorIndex.DarkRed
   fullName: SuperOffice.Data.ColorIndex.DarkRed
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '9: Dark Red'
-  example: []
+  summary: "\n9: Dark Red\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      DarkRed = 9
+    content: public const ColorIndex DarkRed
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      DarkRed = 9
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const DarkRed As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.BlueAlt1
   commentId: F:SuperOffice.Data.ColorIndex.BlueAlt1
   id: BlueAlt1
@@ -386,26 +392,24 @@ items:
   nameWithType: ColorIndex.BlueAlt1
   fullName: SuperOffice.Data.ColorIndex.BlueAlt1
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10: Blue alternative 1'
-  example: []
+  summary: "\n10: Blue alternative 1\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      BlueAlt1 = 10
+    content: public const ColorIndex BlueAlt1
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      BlueAlt1 = 10
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const BlueAlt1 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.BlueAlt2
   commentId: F:SuperOffice.Data.ColorIndex.BlueAlt2
   id: BlueAlt2
@@ -417,26 +421,24 @@ items:
   nameWithType: ColorIndex.BlueAlt2
   fullName: SuperOffice.Data.ColorIndex.BlueAlt2
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '11: Blue alternative 2'
-  example: []
+  summary: "\n11: Blue alternative 2\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      BlueAlt2 = 11
+    content: public const ColorIndex BlueAlt2
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      BlueAlt2 = 11
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const BlueAlt2 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.BlueAlt3
   commentId: F:SuperOffice.Data.ColorIndex.BlueAlt3
   id: BlueAlt3
@@ -448,26 +450,24 @@ items:
   nameWithType: ColorIndex.BlueAlt3
   fullName: SuperOffice.Data.ColorIndex.BlueAlt3
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '12: Blue alternative 3'
-  example: []
+  summary: "\n12: Blue alternative 3\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      BlueAlt3 = 12
+    content: public const ColorIndex BlueAlt3
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      BlueAlt3 = 12
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const BlueAlt3 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.GrayAlt1
   commentId: F:SuperOffice.Data.ColorIndex.GrayAlt1
   id: GrayAlt1
@@ -479,26 +479,24 @@ items:
   nameWithType: ColorIndex.GrayAlt1
   fullName: SuperOffice.Data.ColorIndex.GrayAlt1
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '13: Gray alternative 1'
-  example: []
+  summary: "\n13: Gray alternative 1\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      GrayAlt1 = 13
+    content: public const ColorIndex GrayAlt1
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      GrayAlt1 = 13
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const GrayAlt1 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.GrayAlt2
   commentId: F:SuperOffice.Data.ColorIndex.GrayAlt2
   id: GrayAlt2
@@ -510,26 +508,24 @@ items:
   nameWithType: ColorIndex.GrayAlt2
   fullName: SuperOffice.Data.ColorIndex.GrayAlt2
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '14: Gray alternative 2'
-  example: []
+  summary: "\n14: Gray alternative 2\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      GrayAlt2 = 14
+    content: public const ColorIndex GrayAlt2
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      GrayAlt2 = 14
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const GrayAlt2 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.GrayAlt3
   commentId: F:SuperOffice.Data.ColorIndex.GrayAlt3
   id: GrayAlt3
@@ -541,26 +537,24 @@ items:
   nameWithType: ColorIndex.GrayAlt3
   fullName: SuperOffice.Data.ColorIndex.GrayAlt3
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '15: Gray alternative 3'
-  example: []
+  summary: "\n15: Gray alternative 3\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      GrayAlt3 = 15
+    content: public const ColorIndex GrayAlt3
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      GrayAlt3 = 15
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const GrayAlt3 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.GreenAlt1
   commentId: F:SuperOffice.Data.ColorIndex.GreenAlt1
   id: GreenAlt1
@@ -572,26 +566,24 @@ items:
   nameWithType: ColorIndex.GreenAlt1
   fullName: SuperOffice.Data.ColorIndex.GreenAlt1
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '16: Green alternative 1'
-  example: []
+  summary: "\n16: Green alternative 1\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      GreenAlt1 = 16
+    content: public const ColorIndex GreenAlt1
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      GreenAlt1 = 16
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const GreenAlt1 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.GreenAlt2
   commentId: F:SuperOffice.Data.ColorIndex.GreenAlt2
   id: GreenAlt2
@@ -603,26 +595,24 @@ items:
   nameWithType: ColorIndex.GreenAlt2
   fullName: SuperOffice.Data.ColorIndex.GreenAlt2
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '17: Green alternative 2'
-  example: []
+  summary: "\n17: Green alternative 2\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      GreenAlt2 = 17
+    content: public const ColorIndex GreenAlt2
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      GreenAlt2 = 17
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const GreenAlt2 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.GreenAlt3
   commentId: F:SuperOffice.Data.ColorIndex.GreenAlt3
   id: GreenAlt3
@@ -634,26 +624,24 @@ items:
   nameWithType: ColorIndex.GreenAlt3
   fullName: SuperOffice.Data.ColorIndex.GreenAlt3
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '18: Green alternative 3'
-  example: []
+  summary: "\n18: Green alternative 3\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      GreenAlt3 = 18
+    content: public const ColorIndex GreenAlt3
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      GreenAlt3 = 18
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const GreenAlt3 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.YellowAlt1
   commentId: F:SuperOffice.Data.ColorIndex.YellowAlt1
   id: YellowAlt1
@@ -665,26 +653,24 @@ items:
   nameWithType: ColorIndex.YellowAlt1
   fullName: SuperOffice.Data.ColorIndex.YellowAlt1
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '19: Yellow alternative 1'
-  example: []
+  summary: "\n19: Yellow alternative 1\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      YellowAlt1 = 19
+    content: public const ColorIndex YellowAlt1
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      YellowAlt1 = 19
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const YellowAlt1 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.YellowAlt2
   commentId: F:SuperOffice.Data.ColorIndex.YellowAlt2
   id: YellowAlt2
@@ -696,26 +682,24 @@ items:
   nameWithType: ColorIndex.YellowAlt2
   fullName: SuperOffice.Data.ColorIndex.YellowAlt2
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '20: Yellow alternative 2'
-  example: []
+  summary: "\n20: Yellow alternative 2\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      YellowAlt2 = 20
+    content: public const ColorIndex YellowAlt2
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      YellowAlt2 = 20
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const YellowAlt2 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.YellowAlt3
   commentId: F:SuperOffice.Data.ColorIndex.YellowAlt3
   id: YellowAlt3
@@ -727,26 +711,24 @@ items:
   nameWithType: ColorIndex.YellowAlt3
   fullName: SuperOffice.Data.ColorIndex.YellowAlt3
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '21: Yellow alternative 3'
-  example: []
+  summary: "\n21: Yellow alternative 3\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      YellowAlt3 = 21
+    content: public const ColorIndex YellowAlt3
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      YellowAlt3 = 21
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const YellowAlt3 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.RedAlt1
   commentId: F:SuperOffice.Data.ColorIndex.RedAlt1
   id: RedAlt1
@@ -758,26 +740,24 @@ items:
   nameWithType: ColorIndex.RedAlt1
   fullName: SuperOffice.Data.ColorIndex.RedAlt1
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '22: Red alternative 1'
-  example: []
+  summary: "\n22: Red alternative 1\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      RedAlt1 = 22
+    content: public const ColorIndex RedAlt1
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      RedAlt1 = 22
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const RedAlt1 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.RedAlt2
   commentId: F:SuperOffice.Data.ColorIndex.RedAlt2
   id: RedAlt2
@@ -789,26 +769,24 @@ items:
   nameWithType: ColorIndex.RedAlt2
   fullName: SuperOffice.Data.ColorIndex.RedAlt2
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '23: Red alternative 2'
-  example: []
+  summary: "\n23: Red alternative 2\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      RedAlt2 = 23
+    content: public const ColorIndex RedAlt2
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      RedAlt2 = 23
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const RedAlt2 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ColorIndex.RedAlt3
   commentId: F:SuperOffice.Data.ColorIndex.RedAlt3
   id: RedAlt3
@@ -820,300 +798,115 @@ items:
   nameWithType: ColorIndex.RedAlt3
   fullName: SuperOffice.Data.ColorIndex.RedAlt3
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '24: Red alternative 3'
-  example: []
+  summary: "\n24: Red alternative 3\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      RedAlt3 = 24
+    content: public const ColorIndex RedAlt3
     return:
       type: SuperOffice.Data.ColorIndex
-    content.vb: >-
-      <EnumMember>
-
-      RedAlt3 = 24
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const RedAlt3 As ColorIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.ColorIndex.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ColorIndex, To>(ColorIndex)
-  nameWithType: EnumUtil.MapEnums<ColorIndex, To>(ColorIndex)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.ColorIndex, To>(SuperOffice.Data.ColorIndex)
-  nameWithType.vb: EnumUtil.MapEnums(Of ColorIndex, To)(ColorIndex)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ColorIndex, To)(SuperOffice.Data.ColorIndex)
-  name.vb: MapEnums(Of ColorIndex, To)(ColorIndex)
+  name: MapEnums<ColorIndex, To>()
+  nameWithType: EnumUtil.MapEnums<ColorIndex, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ColorIndex, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ColorIndex, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ColorIndex, To)()
+  name.vb: MapEnums(Of ColorIndex, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ColorIndex)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ColorIndex, To>
+    nameWithType: EnumUtil.MapEnums<ColorIndex, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ColorIndex, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.ColorIndex
-    name: ColorIndex
-    isExternal: true
-    href: SuperOffice.Data.ColorIndex.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.ColorIndex
-    name: ColorIndex
-    isExternal: true
-    href: SuperOffice.Data.ColorIndex.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ColorIndex)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ColorIndex, To)
+    nameWithType: EnumUtil.MapEnums(Of ColorIndex, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ColorIndex, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ColorIndex
-    name: ColorIndex
-    isExternal: true
-    href: SuperOffice.Data.ColorIndex.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.ColorIndex
-    name: ColorIndex
-    isExternal: true
-    href: SuperOffice.Data.ColorIndex.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.ColorIndex.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ColorIndex, To>(ColorIndex)
-  nameWithType: Converters.MapEnums<ColorIndex, To>(ColorIndex)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ColorIndex, To>(SuperOffice.Data.ColorIndex)
-  nameWithType.vb: Converters.MapEnums(Of ColorIndex, To)(ColorIndex)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ColorIndex, To)(SuperOffice.Data.ColorIndex)
-  name.vb: MapEnums(Of ColorIndex, To)(ColorIndex)
+  name: MapEnums<ColorIndex, To>()
+  nameWithType: Converters.MapEnums<ColorIndex, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ColorIndex, To>()
+  nameWithType.vb: Converters.MapEnums(Of ColorIndex, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ColorIndex, To)()
+  name.vb: MapEnums(Of ColorIndex, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ColorIndex)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ColorIndex, To>
+    nameWithType: Converters.MapEnums<ColorIndex, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ColorIndex, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.ColorIndex
-    name: ColorIndex
-    isExternal: true
-    href: SuperOffice.Data.ColorIndex.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.ColorIndex
-    name: ColorIndex
-    isExternal: true
-    href: SuperOffice.Data.ColorIndex.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ColorIndex)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ColorIndex, To)
+    nameWithType: Converters.MapEnums(Of ColorIndex, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ColorIndex, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ColorIndex
-    name: ColorIndex
-    isExternal: true
-    href: SuperOffice.Data.ColorIndex.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.ColorIndex
-    name: ColorIndex
-    isExternal: true
-    href: SuperOffice.Data.ColorIndex.html
-  - name: )
-- uid: SuperOffice.Data.ColorIndex.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ColorIndex)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ColorIndex>(ColorIndex, ColorIndex)
-  nameWithType: ObjectExtensions.AssignByReflection<ColorIndex>(ColorIndex, ColorIndex)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ColorIndex>(SuperOffice.Data.ColorIndex, SuperOffice.Data.ColorIndex)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ColorIndex)(ColorIndex, ColorIndex)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ColorIndex)(SuperOffice.Data.ColorIndex, SuperOffice.Data.ColorIndex)
-  name.vb: AssignByReflection(Of ColorIndex)(ColorIndex, ColorIndex)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ColorIndex,SuperOffice.Data.ColorIndex)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.ColorIndex
-    name: ColorIndex
-    isExternal: true
-    href: SuperOffice.Data.ColorIndex.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.ColorIndex
-    name: ColorIndex
-    isExternal: true
-    href: SuperOffice.Data.ColorIndex.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.ColorIndex
-    name: ColorIndex
-    isExternal: true
-    href: SuperOffice.Data.ColorIndex.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ColorIndex,SuperOffice.Data.ColorIndex)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ColorIndex
-    name: ColorIndex
-    isExternal: true
-    href: SuperOffice.Data.ColorIndex.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.ColorIndex
-    name: ColorIndex
-    isExternal: true
-    href: SuperOffice.Data.ColorIndex.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.ColorIndex
-    name: ColorIndex
-    isExternal: true
-    href: SuperOffice.Data.ColorIndex.html
-  - name: )
-- uid: SuperOffice.Data.ColorIndex.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ColorIndex>(ColorIndex)
-  nameWithType: ObjectExtensions.GraphCopy<ColorIndex>(ColorIndex)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ColorIndex>(SuperOffice.Data.ColorIndex)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ColorIndex)(ColorIndex)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ColorIndex)(SuperOffice.Data.ColorIndex)
-  name.vb: GraphCopy(Of ColorIndex)(ColorIndex)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ColorIndex)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.ColorIndex
-    name: ColorIndex
-    isExternal: true
-    href: SuperOffice.Data.ColorIndex.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.ColorIndex
-    name: ColorIndex
-    isExternal: true
-    href: SuperOffice.Data.ColorIndex.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ColorIndex)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ColorIndex
-    name: ColorIndex
-    isExternal: true
-    href: SuperOffice.Data.ColorIndex.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.ColorIndex
-    name: ColorIndex
-    isExternal: true
-    href: SuperOffice.Data.ColorIndex.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1122,45 +915,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1169,222 +960,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.ColorIndex
   commentId: T:SuperOffice.Data.ColorIndex
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ColorIndex.html
   name: ColorIndex
   nameWithType: ColorIndex
   fullName: SuperOffice.Data.ColorIndex

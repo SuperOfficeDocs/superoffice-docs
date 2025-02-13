@@ -8,8 +8,8 @@ items:
   - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.#ctor
   - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Day
-  - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.WeekOfMonth
   - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Weekday
+  - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.WeekOfMonth
   langs:
   - csharp
   - vb
@@ -17,20 +17,19 @@ items:
   nameWithType: RecurrenceWeekOfMonthPattern
   fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Class representing a pattern for monthly recurrence
-  example: []
+  summary: "\nClass representing a pattern for monthly recurrence\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public abstract class RecurrenceWeekOfMonthPattern : RecurrencePatternBase, ICloneable
+    content: 'public abstract class RecurrenceWeekOfMonthPattern : RecurrencePatternBase, ICloneable'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public MustInherit Class RecurrenceWeekOfMonthPattern Inherits RecurrencePatternBase Implements ICloneable
+      Public MustInherit Class RecurrenceWeekOfMonthPattern
+          Inherits RecurrencePatternBase
+          Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.CRM.Services.RecurrencePatternBase
@@ -42,24 +41,17 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Services.RecurrencePatternBase.Clone
   - SuperOffice.CRM.Services.RecurrencePatternBase.Cycle
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
 - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   commentId: M:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   id: CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
@@ -71,10 +63,12 @@ items:
   nameWithType: RecurrenceWeekOfMonthPattern.CopyTo(RecurrencePatternBase)
   fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  example: []
   syntax:
     content: protected override void CopyTo(RecurrencePatternBase destination)
     parameters:
@@ -83,6 +77,12 @@ items:
     content.vb: Protected Overrides Sub CopyTo(destination As RecurrencePatternBase)
   overridden: SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   overload: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.CopyTo*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.#ctor
   commentId: M:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.#ctor
   id: '#ctor'
@@ -94,16 +94,20 @@ items:
   nameWithType: RecurrenceWeekOfMonthPattern.RecurrenceWeekOfMonthPattern()
   fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.RecurrenceWeekOfMonthPattern()
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: protected RecurrenceWeekOfMonthPattern()
-    content.vb: Protected Sub New()
+    content.vb: Protected Sub New
   overload: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.#ctor*
-  nameWithType.vb: RecurrenceWeekOfMonthPattern.New()
-  fullName.vb: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.New()
-  name.vb: New()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Day
   commentId: P:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Day
   id: Day
@@ -115,35 +119,26 @@ items:
   nameWithType: RecurrenceWeekOfMonthPattern.Day
   fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Day
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    The day of the month when the recurrence occurs
-
-    Only used when the weekday of month pattern occurs. 
-
-    <xref href="SuperOffice.Data.RecurrenceMonthlyPattern.DayOfMonth" data-throw-if-not-resolved="false"></xref>
-
-    <xref href="SuperOffice.Data.RecurrenceYearlyPattern.DayOfMonth" data-throw-if-not-resolved="false"></xref>
-  example: []
+  summary: "\nThe day of the month when the recurrence occurs\nOnly used when the weekday of month pattern occurs. \n<xref href=\"SuperOffice.Data.RecurrenceMonthlyPattern.DayOfMonth\" data-throw-if-not-resolved=\"false\"></xref>\n<xref href=\"SuperOffice.Data.RecurrenceYearlyPattern.DayOfMonth\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public int Day { get; set; }
+    content: public int Day { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Property Day As Integer
+    content.vb: Public Property Day As Integer
   overload: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Day*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Weekday
   commentId: P:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Weekday
   id: Weekday
@@ -155,35 +150,26 @@ items:
   nameWithType: RecurrenceWeekOfMonthPattern.Weekday
   fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Weekday
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    The weekday of the recurring pattern. 
-
-    Only used when the weekday of month pattern occurs. 
-
-    <xref href="SuperOffice.Data.RecurrenceMonthlyPattern.WeekdayOfMonth" data-throw-if-not-resolved="false"></xref>
-
-    <xref href="SuperOffice.Data.RecurrenceYearlyPattern.WeekdayOfMonth" data-throw-if-not-resolved="false"></xref>
-  example: []
+  summary: "\nThe weekday of the recurring pattern. \nOnly used when the weekday of month pattern occurs. \n<xref href=\"SuperOffice.Data.RecurrenceMonthlyPattern.WeekdayOfMonth\" data-throw-if-not-resolved=\"false\"></xref>\n<xref href=\"SuperOffice.Data.RecurrenceYearlyPattern.WeekdayOfMonth\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public Weekday Weekday { get; set; }
+    content: public Weekday Weekday { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.Weekday
-    content.vb: >-
-      <DataMember>
-
-      Public Property Weekday As Weekday
+    content.vb: Public Property Weekday As Weekday
   overload: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Weekday*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.WeekOfMonth
   commentId: P:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.WeekOfMonth
   id: WeekOfMonth
@@ -195,97 +181,49 @@ items:
   nameWithType: RecurrenceWeekOfMonthPattern.WeekOfMonth
   fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.WeekOfMonth
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    The week of the month
-
-    Only used when the weekday of month pattern occurs. 
-
-    <xref href="SuperOffice.Data.RecurrenceMonthlyPattern.WeekdayOfMonth" data-throw-if-not-resolved="false"></xref>
-
-    <xref href="SuperOffice.Data.RecurrenceYearlyPattern.WeekdayOfMonth" data-throw-if-not-resolved="false"></xref>
-  example: []
+  summary: "\nThe week of the month\nOnly used when the weekday of month pattern occurs. \n<xref href=\"SuperOffice.Data.RecurrenceMonthlyPattern.WeekdayOfMonth\" data-throw-if-not-resolved=\"false\"></xref>\n<xref href=\"SuperOffice.Data.RecurrenceYearlyPattern.WeekdayOfMonth\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public WeekOfMonth WeekOfMonth { get; set; }
+    content: public WeekOfMonth WeekOfMonth { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.WeekOfMonth
-    content.vb: >-
-      <DataMember>
-
-      Public Property WeekOfMonth As WeekOfMonth
+    content.vb: Public Property WeekOfMonth As WeekOfMonth
   overload: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.WeekOfMonth*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase
   commentId: T:SuperOffice.CRM.Services.RecurrencePatternBase
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrencePatternBase.html
   name: RecurrencePatternBase
   nameWithType: RecurrencePatternBase
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
@@ -293,368 +231,117 @@ references:
   commentId: M:SuperOffice.CRM.Services.RecurrencePatternBase.Clone
   parent: SuperOffice.CRM.Services.RecurrencePatternBase
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrencePatternBase.html#SuperOffice_CRM_Services_RecurrencePatternBase_Clone
   name: Clone()
   nameWithType: RecurrencePatternBase.Clone()
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase.Clone()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.RecurrencePatternBase.Clone
     name: Clone
+    nameWithType: RecurrencePatternBase.Clone
+    fullName: SuperOffice.CRM.Services.RecurrencePatternBase.Clone
     isExternal: true
-    href: SuperOffice.CRM.Services.RecurrencePatternBase.html#SuperOffice_CRM_Services_RecurrencePatternBase_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.RecurrencePatternBase.Clone
     name: Clone
+    nameWithType: RecurrencePatternBase.Clone
+    fullName: SuperOffice.CRM.Services.RecurrencePatternBase.Clone
     isExternal: true
-    href: SuperOffice.CRM.Services.RecurrencePatternBase.html#SuperOffice_CRM_Services_RecurrencePatternBase_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase.Cycle
   commentId: P:SuperOffice.CRM.Services.RecurrencePatternBase.Cycle
   parent: SuperOffice.CRM.Services.RecurrencePatternBase
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrencePatternBase.html#SuperOffice_CRM_Services_RecurrencePatternBase_Cycle
   name: Cycle
   nameWithType: RecurrencePatternBase.Cycle
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase.Cycle
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<RecurrenceWeekOfMonthPattern, To>(RecurrenceWeekOfMonthPattern)
-  nameWithType: EnumUtil.MapEnums<RecurrenceWeekOfMonthPattern, To>(RecurrenceWeekOfMonthPattern)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern, To>(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
-  nameWithType.vb: EnumUtil.MapEnums(Of RecurrenceWeekOfMonthPattern, To)(RecurrenceWeekOfMonthPattern)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern, To)(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
-  name.vb: MapEnums(Of RecurrenceWeekOfMonthPattern, To)(RecurrenceWeekOfMonthPattern)
+  name: MapEnums<RecurrenceWeekOfMonthPattern, To>()
+  nameWithType: EnumUtil.MapEnums<RecurrenceWeekOfMonthPattern, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of RecurrenceWeekOfMonthPattern, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern, To)()
+  name.vb: MapEnums(Of RecurrenceWeekOfMonthPattern, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<RecurrenceWeekOfMonthPattern, To>
+    nameWithType: EnumUtil.MapEnums<RecurrenceWeekOfMonthPattern, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
-    name: RecurrenceWeekOfMonthPattern
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
-    name: RecurrenceWeekOfMonthPattern
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of RecurrenceWeekOfMonthPattern, To)
+    nameWithType: EnumUtil.MapEnums(Of RecurrenceWeekOfMonthPattern, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
-    name: RecurrenceWeekOfMonthPattern
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
-    name: RecurrenceWeekOfMonthPattern
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<RecurrenceWeekOfMonthPattern, To>(RecurrenceWeekOfMonthPattern)
-  nameWithType: Converters.MapEnums<RecurrenceWeekOfMonthPattern, To>(RecurrenceWeekOfMonthPattern)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern, To>(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
-  nameWithType.vb: Converters.MapEnums(Of RecurrenceWeekOfMonthPattern, To)(RecurrenceWeekOfMonthPattern)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern, To)(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
-  name.vb: MapEnums(Of RecurrenceWeekOfMonthPattern, To)(RecurrenceWeekOfMonthPattern)
+  name: MapEnums<RecurrenceWeekOfMonthPattern, To>()
+  nameWithType: Converters.MapEnums<RecurrenceWeekOfMonthPattern, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern, To>()
+  nameWithType.vb: Converters.MapEnums(Of RecurrenceWeekOfMonthPattern, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern, To)()
+  name.vb: MapEnums(Of RecurrenceWeekOfMonthPattern, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<RecurrenceWeekOfMonthPattern, To>
+    nameWithType: Converters.MapEnums<RecurrenceWeekOfMonthPattern, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
-    name: RecurrenceWeekOfMonthPattern
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
-    name: RecurrenceWeekOfMonthPattern
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of RecurrenceWeekOfMonthPattern, To)
+    nameWithType: Converters.MapEnums(Of RecurrenceWeekOfMonthPattern, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
-    name: RecurrenceWeekOfMonthPattern
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern
-    name: RecurrenceWeekOfMonthPattern
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -663,45 +350,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -710,144 +395,103 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   commentId: M:SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   parent: SuperOffice.CRM.Services.RecurrencePatternBase
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrencePatternBase.html#SuperOffice_CRM_Services_RecurrencePatternBase_CopyTo_SuperOffice_CRM_Services_RecurrencePatternBase_
   name: CopyTo(RecurrencePatternBase)
   nameWithType: RecurrencePatternBase.CopyTo(RecurrencePatternBase)
   fullName: SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
     name: CopyTo
+    nameWithType: RecurrencePatternBase.CopyTo
+    fullName: SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo
     isExternal: true
-    href: SuperOffice.CRM.Services.RecurrencePatternBase.html#SuperOffice_CRM_Services_RecurrencePatternBase_CopyTo_SuperOffice_CRM_Services_RecurrencePatternBase_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.RecurrencePatternBase
     name: RecurrencePatternBase
+    nameWithType: RecurrencePatternBase
+    fullName: SuperOffice.CRM.Services.RecurrencePatternBase
     isExternal: true
-    href: SuperOffice.CRM.Services.RecurrencePatternBase.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo(SuperOffice.CRM.Services.RecurrencePatternBase)
     name: CopyTo
+    nameWithType: RecurrencePatternBase.CopyTo
+    fullName: SuperOffice.CRM.Services.RecurrencePatternBase.CopyTo
     isExternal: true
-    href: SuperOffice.CRM.Services.RecurrencePatternBase.html#SuperOffice_CRM_Services_RecurrencePatternBase_CopyTo_SuperOffice_CRM_Services_RecurrencePatternBase_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.RecurrencePatternBase
     name: RecurrencePatternBase
+    nameWithType: RecurrencePatternBase
+    fullName: SuperOffice.CRM.Services.RecurrencePatternBase
     isExternal: true
-    href: SuperOffice.CRM.Services.RecurrencePatternBase.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.CopyTo*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.CopyTo
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html#SuperOffice_CRM_Services_RecurrenceWeekOfMonthPattern_CopyTo_SuperOffice_CRM_Services_RecurrencePatternBase_
   name: CopyTo
   nameWithType: RecurrenceWeekOfMonthPattern.CopyTo
   fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.CopyTo
 - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html#SuperOffice_CRM_Services_RecurrenceWeekOfMonthPattern__ctor
   name: RecurrenceWeekOfMonthPattern
   nameWithType: RecurrenceWeekOfMonthPattern.RecurrenceWeekOfMonthPattern
   fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.RecurrenceWeekOfMonthPattern
-  nameWithType.vb: RecurrenceWeekOfMonthPattern.New
-  fullName.vb: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.New
-  name.vb: New
-- uid: SuperOffice.Data.RecurrenceMonthlyPattern.DayOfMonth
-  commentId: F:SuperOffice.Data.RecurrenceMonthlyPattern.DayOfMonth
-  isExternal: true
-  href: SuperOffice.Data.RecurrenceMonthlyPattern.html#SuperOffice_Data_RecurrenceMonthlyPattern_DayOfMonth
-  name: DayOfMonth
-  nameWithType: RecurrenceMonthlyPattern.DayOfMonth
-  fullName: SuperOffice.Data.RecurrenceMonthlyPattern.DayOfMonth
-- uid: SuperOffice.Data.RecurrenceYearlyPattern.DayOfMonth
-  commentId: F:SuperOffice.Data.RecurrenceYearlyPattern.DayOfMonth
-  isExternal: true
-  href: SuperOffice.Data.RecurrenceYearlyPattern.html#SuperOffice_Data_RecurrenceYearlyPattern_DayOfMonth
-  name: DayOfMonth
-  nameWithType: RecurrenceYearlyPattern.DayOfMonth
-  fullName: SuperOffice.Data.RecurrenceYearlyPattern.DayOfMonth
 - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Day*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Day
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html#SuperOffice_CRM_Services_RecurrenceWeekOfMonthPattern_Day
   name: Day
   nameWithType: RecurrenceWeekOfMonthPattern.Day
   fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Day
@@ -855,31 +499,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: SuperOffice.Data.RecurrenceMonthlyPattern.WeekdayOfMonth
-  commentId: F:SuperOffice.Data.RecurrenceMonthlyPattern.WeekdayOfMonth
-  isExternal: true
-  href: SuperOffice.Data.RecurrenceMonthlyPattern.html#SuperOffice_Data_RecurrenceMonthlyPattern_WeekdayOfMonth
-  name: WeekdayOfMonth
-  nameWithType: RecurrenceMonthlyPattern.WeekdayOfMonth
-  fullName: SuperOffice.Data.RecurrenceMonthlyPattern.WeekdayOfMonth
-- uid: SuperOffice.Data.RecurrenceYearlyPattern.WeekdayOfMonth
-  commentId: F:SuperOffice.Data.RecurrenceYearlyPattern.WeekdayOfMonth
-  isExternal: true
-  href: SuperOffice.Data.RecurrenceYearlyPattern.html#SuperOffice_Data_RecurrenceYearlyPattern_WeekdayOfMonth
-  name: WeekdayOfMonth
-  nameWithType: RecurrenceYearlyPattern.WeekdayOfMonth
-  fullName: SuperOffice.Data.RecurrenceYearlyPattern.WeekdayOfMonth
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Weekday*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Weekday
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html#SuperOffice_CRM_Services_RecurrenceWeekOfMonthPattern_Weekday
   name: Weekday
   nameWithType: RecurrenceWeekOfMonthPattern.Weekday
   fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.Weekday
@@ -887,41 +512,18 @@ references:
   commentId: T:SuperOffice.Data.Weekday
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.Weekday.html
   name: Weekday
   nameWithType: Weekday
   fullName: SuperOffice.Data.Weekday
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.WeekOfMonth*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.WeekOfMonth
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.html#SuperOffice_CRM_Services_RecurrenceWeekOfMonthPattern_WeekOfMonth
   name: WeekOfMonth
   nameWithType: RecurrenceWeekOfMonthPattern.WeekOfMonth
   fullName: SuperOffice.CRM.Services.RecurrenceWeekOfMonthPattern.WeekOfMonth
@@ -929,7 +531,6 @@ references:
   commentId: T:SuperOffice.Data.WeekOfMonth
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WeekOfMonth.html
   name: WeekOfMonth
   nameWithType: WeekOfMonth
   fullName: SuperOffice.Data.WeekOfMonth

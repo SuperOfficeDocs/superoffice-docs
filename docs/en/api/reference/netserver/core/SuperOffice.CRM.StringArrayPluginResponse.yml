@@ -16,14 +16,18 @@ items:
   nameWithType: StringArrayPluginResponse
   fullName: SuperOffice.CRM.StringArrayPluginResponse
   type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Extended PluginResponseInfo containing a string array
-  example: []
+  summary: "\nExtended PluginResponseInfo containing a string array\n"
   syntax:
     content: 'public class StringArrayPluginResponse : PluginResponseInfo'
-    content.vb: Public Class StringArrayPluginResponse Inherits PluginResponseInfo
+    content.vb: >-
+      Public Class StringArrayPluginResponse
+          Inherits PluginResponseInfo
   inheritance:
   - System.Object
   - SuperOffice.CRM.PluginResponseInfo
@@ -35,17 +39,17 @@ items:
   - SuperOffice.CRM.PluginResponseInfo.UserExplanation
   - SuperOffice.CRM.PluginResponseInfo.TechExplanation
   - SuperOffice.CRM.PluginResponseInfo.ErrorCode
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.StringArrayPluginResponse.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.StringArrayPluginResponse.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.StringArrayPluginResponse.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.StringArrayPluginResponse)
   - SuperOffice.CRM.StringArrayPluginResponse.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.StringArrayPluginResponse.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.StringArrayPluginResponse.#ctor
   commentId: M:SuperOffice.CRM.StringArrayPluginResponse.#ctor
   id: '#ctor'
@@ -57,18 +61,21 @@ items:
   nameWithType: StringArrayPluginResponse.StringArrayPluginResponse()
   fullName: SuperOffice.CRM.StringArrayPluginResponse.StringArrayPluginResponse()
   type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Default constructor, creates an OK response
-  example: []
+  summary: "\nDefault constructor, creates an OK response\n"
   syntax:
     content: public StringArrayPluginResponse()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.StringArrayPluginResponse.#ctor*
-  nameWithType.vb: StringArrayPluginResponse.New()
-  fullName.vb: SuperOffice.CRM.StringArrayPluginResponse.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.StringArrayPluginResponse.#ctor(System.String[])
   commentId: M:SuperOffice.CRM.StringArrayPluginResponse.#ctor(System.String[])
   id: '#ctor(System.String[])'
@@ -76,15 +83,17 @@ items:
   langs:
   - csharp
   - vb
-  name: StringArrayPluginResponse(string[])
-  nameWithType: StringArrayPluginResponse.StringArrayPluginResponse(string[])
-  fullName: SuperOffice.CRM.StringArrayPluginResponse.StringArrayPluginResponse(string[])
+  name: StringArrayPluginResponse(String[])
+  nameWithType: StringArrayPluginResponse.StringArrayPluginResponse(String[])
+  fullName: SuperOffice.CRM.StringArrayPluginResponse.StringArrayPluginResponse(System.String[])
   type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Creates an Ok response and sets the string array object
-  example: []
+  summary: "\nCreates an Ok response and sets the string array object\n"
   syntax:
     content: public StringArrayPluginResponse(string[] items)
     parameters:
@@ -92,9 +101,13 @@ items:
       type: System.String[]
     content.vb: Public Sub New(items As String())
   overload: SuperOffice.CRM.StringArrayPluginResponse.#ctor*
-  nameWithType.vb: StringArrayPluginResponse.New(String())
-  fullName.vb: SuperOffice.CRM.StringArrayPluginResponse.New(String())
-  name.vb: New(String())
+  nameWithType.vb: StringArrayPluginResponse.StringArrayPluginResponse(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.StringArrayPluginResponse.StringArrayPluginResponse(System.String())
+  name.vb: StringArrayPluginResponse(String())
 - uid: SuperOffice.CRM.StringArrayPluginResponse.ToString
   commentId: M:SuperOffice.CRM.StringArrayPluginResponse.ToString
   id: ToString
@@ -106,18 +119,26 @@ items:
   nameWithType: StringArrayPluginResponse.ToString()
   fullName: SuperOffice.CRM.StringArrayPluginResponse.ToString()
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: ToString() for debugging
-  example: []
+  summary: "\nToString() for debugging\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overridden: SuperOffice.CRM.PluginResponseInfo.ToString
   overload: SuperOffice.CRM.StringArrayPluginResponse.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.StringArrayPluginResponse.Items
   commentId: P:SuperOffice.CRM.StringArrayPluginResponse.Items
   id: Items
@@ -129,11 +150,13 @@ items:
   nameWithType: StringArrayPluginResponse.Items
   fullName: SuperOffice.CRM.StringArrayPluginResponse.Items
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Main string array
-  example: []
+  summary: "\nMain string array\n"
   syntax:
     content: public string[] Items { get; set; }
     parameters: []
@@ -141,50 +164,30 @@ items:
       type: System.String[]
     content.vb: Public Property Items As String()
   overload: SuperOffice.CRM.StringArrayPluginResponse.Items*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.PluginResponseInfo
   commentId: T:SuperOffice.CRM.PluginResponseInfo
   parent: SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.CRM.PluginResponseInfo.html
   name: PluginResponseInfo
   nameWithType: PluginResponseInfo
   fullName: SuperOffice.CRM.PluginResponseInfo
@@ -192,82 +195,104 @@ references:
   commentId: M:SuperOffice.CRM.PluginResponseInfo.Merge(SuperOffice.CRM.PluginResponseInfo)
   parent: SuperOffice.CRM.PluginResponseInfo
   isExternal: true
-  href: SuperOffice.CRM.PluginResponseInfo.html#SuperOffice_CRM_PluginResponseInfo_Merge_SuperOffice_CRM_PluginResponseInfo_
   name: Merge(PluginResponseInfo)
   nameWithType: PluginResponseInfo.Merge(PluginResponseInfo)
   fullName: SuperOffice.CRM.PluginResponseInfo.Merge(SuperOffice.CRM.PluginResponseInfo)
   spec.csharp:
   - uid: SuperOffice.CRM.PluginResponseInfo.Merge(SuperOffice.CRM.PluginResponseInfo)
     name: Merge
+    nameWithType: PluginResponseInfo.Merge
+    fullName: SuperOffice.CRM.PluginResponseInfo.Merge
     isExternal: true
-    href: SuperOffice.CRM.PluginResponseInfo.html#SuperOffice_CRM_PluginResponseInfo_Merge_SuperOffice_CRM_PluginResponseInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.PluginResponseInfo
     name: PluginResponseInfo
+    nameWithType: PluginResponseInfo
+    fullName: SuperOffice.CRM.PluginResponseInfo
     isExternal: true
-    href: SuperOffice.CRM.PluginResponseInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.PluginResponseInfo.Merge(SuperOffice.CRM.PluginResponseInfo)
     name: Merge
+    nameWithType: PluginResponseInfo.Merge
+    fullName: SuperOffice.CRM.PluginResponseInfo.Merge
     isExternal: true
-    href: SuperOffice.CRM.PluginResponseInfo.html#SuperOffice_CRM_PluginResponseInfo_Merge_SuperOffice_CRM_PluginResponseInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.PluginResponseInfo
     name: PluginResponseInfo
+    nameWithType: PluginResponseInfo
+    fullName: SuperOffice.CRM.PluginResponseInfo
     isExternal: true
-    href: SuperOffice.CRM.PluginResponseInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.PluginResponseInfo.SetErrorAndUserExplanation(System.String,System.String)
   commentId: M:SuperOffice.CRM.PluginResponseInfo.SetErrorAndUserExplanation(System.String,System.String)
   parent: SuperOffice.CRM.PluginResponseInfo
   isExternal: true
-  href: SuperOffice.CRM.PluginResponseInfo.html#SuperOffice_CRM_PluginResponseInfo_SetErrorAndUserExplanation_System_String_System_String_
-  name: SetErrorAndUserExplanation(string, string)
-  nameWithType: PluginResponseInfo.SetErrorAndUserExplanation(string, string)
-  fullName: SuperOffice.CRM.PluginResponseInfo.SetErrorAndUserExplanation(string, string)
-  nameWithType.vb: PluginResponseInfo.SetErrorAndUserExplanation(String, String)
-  fullName.vb: SuperOffice.CRM.PluginResponseInfo.SetErrorAndUserExplanation(String, String)
-  name.vb: SetErrorAndUserExplanation(String, String)
+  name: SetErrorAndUserExplanation(String, String)
+  nameWithType: PluginResponseInfo.SetErrorAndUserExplanation(String, String)
+  fullName: SuperOffice.CRM.PluginResponseInfo.SetErrorAndUserExplanation(System.String, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.PluginResponseInfo.SetErrorAndUserExplanation(System.String,System.String)
     name: SetErrorAndUserExplanation
+    nameWithType: PluginResponseInfo.SetErrorAndUserExplanation
+    fullName: SuperOffice.CRM.PluginResponseInfo.SetErrorAndUserExplanation
     isExternal: true
-    href: SuperOffice.CRM.PluginResponseInfo.html#SuperOffice_CRM_PluginResponseInfo_SetErrorAndUserExplanation_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.PluginResponseInfo.SetErrorAndUserExplanation(System.String,System.String)
     name: SetErrorAndUserExplanation
+    nameWithType: PluginResponseInfo.SetErrorAndUserExplanation
+    fullName: SuperOffice.CRM.PluginResponseInfo.SetErrorAndUserExplanation
     isExternal: true
-    href: SuperOffice.CRM.PluginResponseInfo.html#SuperOffice_CRM_PluginResponseInfo_SetErrorAndUserExplanation_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.PluginResponseInfo.State
   commentId: P:SuperOffice.CRM.PluginResponseInfo.State
   parent: SuperOffice.CRM.PluginResponseInfo
   isExternal: true
-  href: SuperOffice.CRM.PluginResponseInfo.html#SuperOffice_CRM_PluginResponseInfo_State
   name: State
   nameWithType: PluginResponseInfo.State
   fullName: SuperOffice.CRM.PluginResponseInfo.State
@@ -275,7 +300,6 @@ references:
   commentId: P:SuperOffice.CRM.PluginResponseInfo.IsOk
   parent: SuperOffice.CRM.PluginResponseInfo
   isExternal: true
-  href: SuperOffice.CRM.PluginResponseInfo.html#SuperOffice_CRM_PluginResponseInfo_IsOk
   name: IsOk
   nameWithType: PluginResponseInfo.IsOk
   fullName: SuperOffice.CRM.PluginResponseInfo.IsOk
@@ -283,7 +307,6 @@ references:
   commentId: P:SuperOffice.CRM.PluginResponseInfo.UserExplanation
   parent: SuperOffice.CRM.PluginResponseInfo
   isExternal: true
-  href: SuperOffice.CRM.PluginResponseInfo.html#SuperOffice_CRM_PluginResponseInfo_UserExplanation
   name: UserExplanation
   nameWithType: PluginResponseInfo.UserExplanation
   fullName: SuperOffice.CRM.PluginResponseInfo.UserExplanation
@@ -291,7 +314,6 @@ references:
   commentId: P:SuperOffice.CRM.PluginResponseInfo.TechExplanation
   parent: SuperOffice.CRM.PluginResponseInfo
   isExternal: true
-  href: SuperOffice.CRM.PluginResponseInfo.html#SuperOffice_CRM_PluginResponseInfo_TechExplanation
   name: TechExplanation
   nameWithType: PluginResponseInfo.TechExplanation
   fullName: SuperOffice.CRM.PluginResponseInfo.TechExplanation
@@ -299,428 +321,164 @@ references:
   commentId: P:SuperOffice.CRM.PluginResponseInfo.ErrorCode
   parent: SuperOffice.CRM.PluginResponseInfo
   isExternal: true
-  href: SuperOffice.CRM.PluginResponseInfo.html#SuperOffice_CRM_PluginResponseInfo_ErrorCode
   name: ErrorCode
   nameWithType: PluginResponseInfo.ErrorCode
   fullName: SuperOffice.CRM.PluginResponseInfo.ErrorCode
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.StringArrayPluginResponse.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<StringArrayPluginResponse, To>(StringArrayPluginResponse)
-  nameWithType: EnumUtil.MapEnums<StringArrayPluginResponse, To>(StringArrayPluginResponse)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.StringArrayPluginResponse, To>(SuperOffice.CRM.StringArrayPluginResponse)
-  nameWithType.vb: EnumUtil.MapEnums(Of StringArrayPluginResponse, To)(StringArrayPluginResponse)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.StringArrayPluginResponse, To)(SuperOffice.CRM.StringArrayPluginResponse)
-  name.vb: MapEnums(Of StringArrayPluginResponse, To)(StringArrayPluginResponse)
+  name: MapEnums<StringArrayPluginResponse, To>()
+  nameWithType: EnumUtil.MapEnums<StringArrayPluginResponse, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.StringArrayPluginResponse, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of StringArrayPluginResponse, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.StringArrayPluginResponse, To)()
+  name.vb: MapEnums(Of StringArrayPluginResponse, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.StringArrayPluginResponse)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<StringArrayPluginResponse, To>
+    nameWithType: EnumUtil.MapEnums<StringArrayPluginResponse, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.StringArrayPluginResponse, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.StringArrayPluginResponse
-    name: StringArrayPluginResponse
-    isExternal: true
-    href: SuperOffice.CRM.StringArrayPluginResponse.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.StringArrayPluginResponse
-    name: StringArrayPluginResponse
-    isExternal: true
-    href: SuperOffice.CRM.StringArrayPluginResponse.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.StringArrayPluginResponse)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of StringArrayPluginResponse, To)
+    nameWithType: EnumUtil.MapEnums(Of StringArrayPluginResponse, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.StringArrayPluginResponse, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.StringArrayPluginResponse
-    name: StringArrayPluginResponse
-    isExternal: true
-    href: SuperOffice.CRM.StringArrayPluginResponse.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.StringArrayPluginResponse
-    name: StringArrayPluginResponse
-    isExternal: true
-    href: SuperOffice.CRM.StringArrayPluginResponse.html
-  - name: )
-- uid: SuperOffice.CRM.StringArrayPluginResponse.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<StringArrayPluginResponse, To>(StringArrayPluginResponse)
-  nameWithType: Converters.MapEnums<StringArrayPluginResponse, To>(StringArrayPluginResponse)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.StringArrayPluginResponse, To>(SuperOffice.CRM.StringArrayPluginResponse)
-  nameWithType.vb: Converters.MapEnums(Of StringArrayPluginResponse, To)(StringArrayPluginResponse)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.StringArrayPluginResponse, To)(SuperOffice.CRM.StringArrayPluginResponse)
-  name.vb: MapEnums(Of StringArrayPluginResponse, To)(StringArrayPluginResponse)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.StringArrayPluginResponse)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.StringArrayPluginResponse
-    name: StringArrayPluginResponse
-    isExternal: true
-    href: SuperOffice.CRM.StringArrayPluginResponse.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.StringArrayPluginResponse
-    name: StringArrayPluginResponse
-    isExternal: true
-    href: SuperOffice.CRM.StringArrayPluginResponse.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.StringArrayPluginResponse)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.StringArrayPluginResponse
-    name: StringArrayPluginResponse
-    isExternal: true
-    href: SuperOffice.CRM.StringArrayPluginResponse.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.StringArrayPluginResponse
-    name: StringArrayPluginResponse
-    isExternal: true
-    href: SuperOffice.CRM.StringArrayPluginResponse.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.StringArrayPluginResponse.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.StringArrayPluginResponse)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<StringArrayPluginResponse>(StringArrayPluginResponse, StringArrayPluginResponse)
-  nameWithType: ObjectExtensions.AssignByReflection<StringArrayPluginResponse>(StringArrayPluginResponse, StringArrayPluginResponse)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.StringArrayPluginResponse>(SuperOffice.CRM.StringArrayPluginResponse, SuperOffice.CRM.StringArrayPluginResponse)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of StringArrayPluginResponse)(StringArrayPluginResponse, StringArrayPluginResponse)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.StringArrayPluginResponse)(SuperOffice.CRM.StringArrayPluginResponse, SuperOffice.CRM.StringArrayPluginResponse)
-  name.vb: AssignByReflection(Of StringArrayPluginResponse)(StringArrayPluginResponse, StringArrayPluginResponse)
+  name: AssignByReflection<StringArrayPluginResponse>(StringArrayPluginResponse)
+  nameWithType: ObjectExtensions.AssignByReflection<StringArrayPluginResponse>(StringArrayPluginResponse)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.StringArrayPluginResponse>(SuperOffice.CRM.StringArrayPluginResponse)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of StringArrayPluginResponse)(StringArrayPluginResponse)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.StringArrayPluginResponse)(SuperOffice.CRM.StringArrayPluginResponse)
+  name.vb: AssignByReflection(Of StringArrayPluginResponse)(StringArrayPluginResponse)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.StringArrayPluginResponse,SuperOffice.CRM.StringArrayPluginResponse)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<StringArrayPluginResponse>
+    nameWithType: ObjectExtensions.AssignByReflection<StringArrayPluginResponse>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.StringArrayPluginResponse>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.StringArrayPluginResponse
-    name: StringArrayPluginResponse
-    isExternal: true
-    href: SuperOffice.CRM.StringArrayPluginResponse.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.StringArrayPluginResponse
     name: StringArrayPluginResponse
+    nameWithType: StringArrayPluginResponse
+    fullName: SuperOffice.CRM.StringArrayPluginResponse
     isExternal: true
-    href: SuperOffice.CRM.StringArrayPluginResponse.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.StringArrayPluginResponse
-    name: StringArrayPluginResponse
-    isExternal: true
-    href: SuperOffice.CRM.StringArrayPluginResponse.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.StringArrayPluginResponse,SuperOffice.CRM.StringArrayPluginResponse)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of StringArrayPluginResponse)
+    nameWithType: ObjectExtensions.AssignByReflection(Of StringArrayPluginResponse)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.StringArrayPluginResponse)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.StringArrayPluginResponse
     name: StringArrayPluginResponse
+    nameWithType: StringArrayPluginResponse
+    fullName: SuperOffice.CRM.StringArrayPluginResponse
     isExternal: true
-    href: SuperOffice.CRM.StringArrayPluginResponse.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.StringArrayPluginResponse
-    name: StringArrayPluginResponse
-    isExternal: true
-    href: SuperOffice.CRM.StringArrayPluginResponse.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.StringArrayPluginResponse
-    name: StringArrayPluginResponse
-    isExternal: true
-    href: SuperOffice.CRM.StringArrayPluginResponse.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.StringArrayPluginResponse.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<StringArrayPluginResponse>(StringArrayPluginResponse)
-  nameWithType: ObjectExtensions.GraphCopy<StringArrayPluginResponse>(StringArrayPluginResponse)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.StringArrayPluginResponse>(SuperOffice.CRM.StringArrayPluginResponse)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of StringArrayPluginResponse)(StringArrayPluginResponse)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.StringArrayPluginResponse)(SuperOffice.CRM.StringArrayPluginResponse)
-  name.vb: GraphCopy(Of StringArrayPluginResponse)(StringArrayPluginResponse)
+  name: GraphCopy<StringArrayPluginResponse>()
+  nameWithType: ObjectExtensions.GraphCopy<StringArrayPluginResponse>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.StringArrayPluginResponse>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of StringArrayPluginResponse)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.StringArrayPluginResponse)()
+  name.vb: GraphCopy(Of StringArrayPluginResponse)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.StringArrayPluginResponse)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<StringArrayPluginResponse>
+    nameWithType: ObjectExtensions.GraphCopy<StringArrayPluginResponse>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.StringArrayPluginResponse>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.StringArrayPluginResponse
-    name: StringArrayPluginResponse
-    isExternal: true
-    href: SuperOffice.CRM.StringArrayPluginResponse.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.StringArrayPluginResponse
-    name: StringArrayPluginResponse
-    isExternal: true
-    href: SuperOffice.CRM.StringArrayPluginResponse.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.StringArrayPluginResponse)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of StringArrayPluginResponse)
+    nameWithType: ObjectExtensions.GraphCopy(Of StringArrayPluginResponse)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.StringArrayPluginResponse)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.StringArrayPluginResponse
-    name: StringArrayPluginResponse
-    isExternal: true
-    href: SuperOffice.CRM.StringArrayPluginResponse.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.StringArrayPluginResponse.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<StringArrayPluginResponse, To>()
+  nameWithType: Converters.MapEnums<StringArrayPluginResponse, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.StringArrayPluginResponse, To>()
+  nameWithType.vb: Converters.MapEnums(Of StringArrayPluginResponse, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.StringArrayPluginResponse, To)()
+  name.vb: MapEnums(Of StringArrayPluginResponse, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<StringArrayPluginResponse, To>
+    nameWithType: Converters.MapEnums<StringArrayPluginResponse, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.StringArrayPluginResponse, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.StringArrayPluginResponse
-    name: StringArrayPluginResponse
-    isExternal: true
-    href: SuperOffice.CRM.StringArrayPluginResponse.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of StringArrayPluginResponse, To)
+    nameWithType: Converters.MapEnums(Of StringArrayPluginResponse, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.StringArrayPluginResponse, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -729,93 +487,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -824,46 +532,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -872,151 +590,158 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.CRM.StringArrayPluginResponse.#ctor*
   commentId: Overload:SuperOffice.CRM.StringArrayPluginResponse.#ctor
   isExternal: true
-  href: SuperOffice.CRM.StringArrayPluginResponse.html#SuperOffice_CRM_StringArrayPluginResponse__ctor
   name: StringArrayPluginResponse
   nameWithType: StringArrayPluginResponse.StringArrayPluginResponse
   fullName: SuperOffice.CRM.StringArrayPluginResponse.StringArrayPluginResponse
-  nameWithType.vb: StringArrayPluginResponse.New
-  fullName.vb: SuperOffice.CRM.StringArrayPluginResponse.New
-  name.vb: New
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.PluginResponseInfo.ToString
   commentId: M:SuperOffice.CRM.PluginResponseInfo.ToString
   parent: SuperOffice.CRM.PluginResponseInfo
   isExternal: true
-  href: SuperOffice.CRM.PluginResponseInfo.html#SuperOffice_CRM_PluginResponseInfo_ToString
   name: ToString()
   nameWithType: PluginResponseInfo.ToString()
   fullName: SuperOffice.CRM.PluginResponseInfo.ToString()
   spec.csharp:
   - uid: SuperOffice.CRM.PluginResponseInfo.ToString
     name: ToString
+    nameWithType: PluginResponseInfo.ToString
+    fullName: SuperOffice.CRM.PluginResponseInfo.ToString
     isExternal: true
-    href: SuperOffice.CRM.PluginResponseInfo.html#SuperOffice_CRM_PluginResponseInfo_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.PluginResponseInfo.ToString
     name: ToString
+    nameWithType: PluginResponseInfo.ToString
+    fullName: SuperOffice.CRM.PluginResponseInfo.ToString
     isExternal: true
-    href: SuperOffice.CRM.PluginResponseInfo.html#SuperOffice_CRM_PluginResponseInfo_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.StringArrayPluginResponse.ToString*
   commentId: Overload:SuperOffice.CRM.StringArrayPluginResponse.ToString
   isExternal: true
-  href: SuperOffice.CRM.StringArrayPluginResponse.html#SuperOffice_CRM_StringArrayPluginResponse_ToString
   name: ToString
   nameWithType: StringArrayPluginResponse.ToString
   fullName: SuperOffice.CRM.StringArrayPluginResponse.ToString
@@ -1024,17 +749,12 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.StringArrayPluginResponse.Items*
   commentId: Overload:SuperOffice.CRM.StringArrayPluginResponse.Items
   isExternal: true
-  href: SuperOffice.CRM.StringArrayPluginResponse.html#SuperOffice_CRM_StringArrayPluginResponse_Items
   name: Items
   nameWithType: StringArrayPluginResponse.Items
   fullName: SuperOffice.CRM.StringArrayPluginResponse.Items

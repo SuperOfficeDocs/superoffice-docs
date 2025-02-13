@@ -18,27 +18,18 @@ items:
   nameWithType: FindResults
   fullName: SuperOffice.CRM.Services.FindResults
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Result carrier for the Find operation. It contains a set of column specifications, and a set of row, where each row contains the columns. The row set is the result of carrying out some search operation.
-
-    <p></p>
-
-    Carrier object for FindResults.
-
-    Services for the FindResults Carrier is available from the <xref href="SuperOffice.CRM.Services.IFindAgent?text=Find+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nResult carrier for the Find operation. It contains a set of column specifications, and a set of row, where each row contains the columns. The row set is the result of carrying out some search operation.\n<p></p>\nCarrier object for FindResults.\nServices for the FindResults Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IFindAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class FindResults : Carrier
+    content: 'public class FindResults : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class FindResults Inherits Carrier
+      Public Class FindResults
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.FindAgent
     commentId: T:SuperOffice.CRM.Services.FindAgent
@@ -46,14 +37,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IFindAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.FindResults.#ctor
   commentId: M:SuperOffice.CRM.Services.FindResults.#ctor
   id: '#ctor'
@@ -65,18 +54,21 @@ items:
   nameWithType: FindResults.FindResults()
   fullName: SuperOffice.CRM.Services.FindResults.FindResults()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public FindResults()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.FindResults.#ctor*
-  nameWithType.vb: FindResults.New()
-  fullName.vb: SuperOffice.CRM.Services.FindResults.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.FindResults.ToString
   commentId: M:SuperOffice.CRM.Services.FindResults.ToString
   id: ToString
@@ -88,18 +80,26 @@ items:
   nameWithType: FindResults.ToString()
   fullName: SuperOffice.CRM.Services.FindResults.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.FindResults.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.FindResults.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.FindResults.ToString(System.String)
   id: ToString(System.String)
@@ -107,18 +107,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: FindResults.ToString(string)
-  fullName: SuperOffice.CRM.Services.FindResults.ToString(string)
+  name: ToString(String)
+  nameWithType: FindResults.ToString(String)
+  fullName: SuperOffice.CRM.Services.FindResults.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -130,9 +129,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.FindResults.ToString*
-  nameWithType.vb: FindResults.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.FindResults.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.FindResults.ArchiveColumns
   commentId: P:SuperOffice.CRM.Services.FindResults.ArchiveColumns
   id: ArchiveColumns
@@ -144,28 +144,28 @@ items:
   nameWithType: FindResults.ArchiveColumns
   fullName: SuperOffice.CRM.Services.FindResults.ArchiveColumns
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Array of ColumnInfo column specifications
-  example: []
+  summary: "\nArray of ColumnInfo column specifications \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual ArchiveColumnInfo[] ArchiveColumns { get; set; }
+    content: public virtual ArchiveColumnInfo[] ArchiveColumns { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ArchiveColumns As ArchiveColumnInfo()
+    content.vb: Public Overridable Property ArchiveColumns As ArchiveColumnInfo()
   overload: SuperOffice.CRM.Services.FindResults.ArchiveColumns*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.FindResults.ArchiveRows
   commentId: P:SuperOffice.CRM.Services.FindResults.ArchiveRows
   id: ArchiveRows
@@ -177,28 +177,28 @@ items:
   nameWithType: FindResults.ArchiveRows
   fullName: SuperOffice.CRM.Services.FindResults.ArchiveRows
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Array of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows
-  example: []
+  summary: "\nArray of archive list items, i.e., the service layer carrier for archive rows. These are the find results, represented as archive rows \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual ArchiveListItem[] ArchiveRows { get; set; }
+    content: public virtual ArchiveListItem[] ArchiveRows { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.ArchiveListItem[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ArchiveRows As ArchiveListItem()
+    content.vb: Public Overridable Property ArchiveRows As ArchiveListItem()
   overload: SuperOffice.CRM.Services.FindResults.ArchiveRows*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.FindResults.RowCount
   commentId: P:SuperOffice.CRM.Services.FindResults.RowCount
   id: RowCount
@@ -210,33 +210,38 @@ items:
   nameWithType: FindResults.RowCount
   fullName: SuperOffice.CRM.Services.FindResults.RowCount
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Count of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation
-  example: []
+  summary: "\nCount of rows, independent of paging. If you order up page 1 with page size 50, the row count may still be 279, that being the number of rows that would have been returned in a  paging-off situation \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int RowCount { get; set; }
+    content: public virtual int RowCount { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property RowCount As Integer
+    content.vb: Public Overridable Property RowCount As Integer
   overload: SuperOffice.CRM.Services.FindResults.RowCount*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.FindAgent
   commentId: T:SuperOffice.CRM.Services.FindAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.FindAgent.html
   name: FindAgent
   nameWithType: FindAgent
   fullName: SuperOffice.CRM.Services.FindAgent
@@ -244,79 +249,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IFindAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IFindAgent.html
   name: IFindAgent
   nameWithType: IFindAgent
   fullName: SuperOffice.CRM.Services.IFindAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.FindResults.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.FindResults.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.FindResults.html#SuperOffice_CRM_Services_FindResults__ctor
   name: FindResults
   nameWithType: FindResults.FindResults
   fullName: SuperOffice.CRM.Services.FindResults.FindResults
-  nameWithType.vb: FindResults.New
-  fullName.vb: SuperOffice.CRM.Services.FindResults.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.FindResults.ToString*
   commentId: Overload:SuperOffice.CRM.Services.FindResults.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.FindResults.html#SuperOffice_CRM_Services_FindResults_ToString
   name: ToString
   nameWithType: FindResults.ToString
   fullName: SuperOffice.CRM.Services.FindResults.ToString
@@ -324,17 +268,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.FindResults.ArchiveColumns*
   commentId: Overload:SuperOffice.CRM.Services.FindResults.ArchiveColumns
   isExternal: true
-  href: SuperOffice.CRM.Services.FindResults.html#SuperOffice_CRM_Services_FindResults_ArchiveColumns
   name: ArchiveColumns
   nameWithType: FindResults.ArchiveColumns
   fullName: SuperOffice.CRM.Services.FindResults.ArchiveColumns
@@ -349,25 +294,29 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     isExternal: true
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     isExternal: true
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.FindResults.ArchiveRows*
   commentId: Overload:SuperOffice.CRM.Services.FindResults.ArchiveRows
   isExternal: true
-  href: SuperOffice.CRM.Services.FindResults.html#SuperOffice_CRM_Services_FindResults_ArchiveRows
   name: ArchiveRows
   nameWithType: FindResults.ArchiveRows
   fullName: SuperOffice.CRM.Services.FindResults.ArchiveRows
 - uid: SuperOffice.CRM.Services.ArchiveListItem[]
   isExternal: true
-  href: SuperOffice.CRM.Services.ArchiveListItem.html
   name: ArchiveListItem[]
   nameWithType: ArchiveListItem[]
   fullName: SuperOffice.CRM.Services.ArchiveListItem[]
@@ -377,21 +326,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.ArchiveListItem
     name: ArchiveListItem
+    nameWithType: ArchiveListItem
+    fullName: SuperOffice.CRM.Services.ArchiveListItem
     isExternal: true
-    href: SuperOffice.CRM.Services.ArchiveListItem.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.ArchiveListItem
     name: ArchiveListItem
+    nameWithType: ArchiveListItem
+    fullName: SuperOffice.CRM.Services.ArchiveListItem
     isExternal: true
-    href: SuperOffice.CRM.Services.ArchiveListItem.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.FindResults.RowCount*
   commentId: Overload:SuperOffice.CRM.Services.FindResults.RowCount
   isExternal: true
-  href: SuperOffice.CRM.Services.FindResults.html#SuperOffice_CRM_Services_FindResults_RowCount
   name: RowCount
   nameWithType: FindResults.RowCount
   fullName: SuperOffice.CRM.Services.FindResults.RowCount
@@ -399,10 +351,6 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

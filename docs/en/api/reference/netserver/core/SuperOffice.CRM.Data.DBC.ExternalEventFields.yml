@@ -36,24 +36,27 @@ items:
   nameWithType: DBC.ExternalEventFields
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Fields for ExternalEvent, The definition of projects as events in Audience (or other Collaborative apps)
-  example: []
+  summary: "\nFields for ExternalEvent, The definition of projects as events in Audience (or other Collaborative apps)\n"
   syntax:
-    content: public static class DBC.ExternalEventFields
-    content.vb: Public Module DBC.ExternalEventFields
+    content: 'public static class ExternalEventFields : Object'
+    content.vb: >-
+      Public Module ExternalEventFields
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.ExternalEventId
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.ExternalEventId
   id: ExternalEventId
@@ -65,16 +68,24 @@ items:
   nameWithType: DBC.ExternalEventFields.ExternalEventId
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.ExternalEventId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.ExternalEventId: Primary key'
-  example: []
+  summary: "\nExternalEvent.ExternalEventId: Primary key\n"
   syntax:
     content: public const string ExternalEventId = "ExternalEvent_id"
     return:
       type: System.String
     content.vb: Public Const ExternalEventId As String = "ExternalEvent_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.EventEnabled
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.EventEnabled
   id: EventEnabled
@@ -86,16 +97,24 @@ items:
   nameWithType: DBC.ExternalEventFields.EventEnabled
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.EventEnabled
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.EventEnabled: Is the event enabled'
-  example: []
+  summary: "\nExternalEvent.EventEnabled: Is the event enabled\n"
   syntax:
     content: public const string EventEnabled = "eventEnabled"
     return:
       type: System.String
     content.vb: Public Const EventEnabled As String = "eventEnabled"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.EventDate
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.EventDate
   id: EventDate
@@ -107,16 +126,24 @@ items:
   nameWithType: DBC.ExternalEventFields.EventDate
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.EventDate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.EventDate: Dateof the event; publishing/visibility dates are in Publish, and restrictions are in AudienceVisibility'
-  example: []
+  summary: "\nExternalEvent.EventDate: Dateof the event; publishing/visibility dates are in Publish, and restrictions are in AudienceVisibility\n"
   syntax:
     content: public const string EventDate = "eventDate"
     return:
       type: System.String
     content.vb: Public Const EventDate As String = "eventDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.ParentTable
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.ParentTable
   id: ParentTable
@@ -128,16 +155,24 @@ items:
   nameWithType: DBC.ExternalEventFields.ParentTable
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.ParentTable
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.ParentTable: The thing, that has now become an Event'
-  example: []
+  summary: "\nExternalEvent.ParentTable: The thing, that has now become an Event\n"
   syntax:
     content: public const string ParentTable = "parentTable"
     return:
       type: System.String
     content.vb: Public Const ParentTable As String = "parentTable"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.ParentRecord
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.ParentRecord
   id: ParentRecord
@@ -149,16 +184,24 @@ items:
   nameWithType: DBC.ExternalEventFields.ParentRecord
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.ParentRecord
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.ParentRecord: The thing, that has now become an Event'
-  example: []
+  summary: "\nExternalEvent.ParentRecord: The thing, that has now become an Event\n"
   syntax:
     content: public const string ParentRecord = "parentRecord"
     return:
       type: System.String
     content.vb: Public Const ParentRecord As String = "parentRecord"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOn
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOn
   id: SignOn
@@ -170,16 +213,24 @@ items:
   nameWithType: DBC.ExternalEventFields.SignOn
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOn
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.SignOn: Is Sign On functionality enabled'
-  example: []
+  summary: "\nExternalEvent.SignOn: Is Sign On functionality enabled\n"
   syntax:
     content: public const string SignOn = "signOn"
     return:
       type: System.String
     content.vb: Public Const SignOn As String = "signOn"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTaskEnable
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTaskEnable
   id: SignOnTaskEnable
@@ -191,16 +242,24 @@ items:
   nameWithType: DBC.ExternalEventFields.SignOnTaskEnable
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTaskEnable
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.SignOnTaskEnable: If not 0, a task should be created when the external user Signs On to an event'
-  example: []
+  summary: "\nExternalEvent.SignOnTaskEnable: If not 0, a task should be created when the external user Signs On to an event\n"
   syntax:
     content: public const string SignOnTaskEnable = "signOnTaskEnable"
     return:
       type: System.String
     content.vb: Public Const SignOnTaskEnable As String = "signOnTaskEnable"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTaskId
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTaskId
   id: SignOnTaskId
@@ -212,16 +271,24 @@ items:
   nameWithType: DBC.ExternalEventFields.SignOnTaskId
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTaskId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.SignOnTaskId: If not 0, sign on should cause an Activity of this type to be registered'
-  example: []
+  summary: "\nExternalEvent.SignOnTaskId: If not 0, sign on should cause an Activity of this type to be registered\n"
   syntax:
     content: public const string SignOnTaskId = "signOnTaskId"
     return:
       type: System.String
     content.vb: Public Const SignOnTaskId As String = "signOnTaskId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnAssocId
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnAssocId
   id: SignOnAssocId
@@ -233,16 +300,24 @@ items:
   nameWithType: DBC.ExternalEventFields.SignOnAssocId
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnAssocId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.SignOnAssocId: If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Associate whose diary should get the activity'
-  example: []
+  summary: "\nExternalEvent.SignOnAssocId: If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Associate whose diary should get the activity\n"
   syntax:
     content: public const string SignOnAssocId = "signOnAssocId"
     return:
       type: System.String
     content.vb: Public Const SignOnAssocId As String = "signOnAssocId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTextId
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTextId
   id: SignOnTextId
@@ -254,16 +329,24 @@ items:
   nameWithType: DBC.ExternalEventFields.SignOnTextId
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTextId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.SignOnTextId: If not 0, the given text should be entered into the appointment'
-  example: []
+  summary: "\nExternalEvent.SignOnTextId: If not 0, the given text should be entered into the appointment\n"
   syntax:
     content: public const string SignOnTextId = "signOnTextId"
     return:
       type: System.String
     content.vb: Public Const SignOnTextId As String = "signOnTextId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnConfTextId
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnConfTextId
   id: SignOnConfTextId
@@ -275,16 +358,24 @@ items:
   nameWithType: DBC.ExternalEventFields.SignOnConfTextId
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnConfTextId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.SignOnConfTextId: If not 0, the given text should be shown as a confirmation text before accpting Sign On'
-  example: []
+  summary: "\nExternalEvent.SignOnConfTextId: If not 0, the given text should be shown as a confirmation text before accpting Sign On\n"
   syntax:
     content: public const string SignOnConfTextId = "signOnConfTextId"
     return:
       type: System.String
     content.vb: Public Const SignOnConfTextId As String = "signOnConfTextId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTriggersAssign
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTriggersAssign
   id: SignOnTriggersAssign
@@ -296,16 +387,24 @@ items:
   nameWithType: DBC.ExternalEventFields.SignOnTriggersAssign
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOnTriggersAssign
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.SignOnTriggersAssign: If 1, the SignOn task should be created as an Assigned task, triggering the invitation dialog'
-  example: []
+  summary: "\nExternalEvent.SignOnTriggersAssign: If 1, the SignOn task should be created as an Assigned task, triggering the invitation dialog\n"
   syntax:
     content: public const string SignOnTriggersAssign = "signOnTriggersAssign"
     return:
       type: System.String
     content.vb: Public Const SignOnTriggersAssign As String = "signOnTriggersAssign"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOff
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOff
   id: SignOff
@@ -317,16 +416,24 @@ items:
   nameWithType: DBC.ExternalEventFields.SignOff
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOff
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.SignOff: Is Sign Off functionality enabled'
-  example: []
+  summary: "\nExternalEvent.SignOff: Is Sign Off functionality enabled\n"
   syntax:
     content: public const string SignOff = "signOff"
     return:
       type: System.String
     content.vb: Public Const SignOff As String = "signOff"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTaskEnable
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTaskEnable
   id: SignOffTaskEnable
@@ -338,16 +445,24 @@ items:
   nameWithType: DBC.ExternalEventFields.SignOffTaskEnable
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTaskEnable
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.SignOffTaskEnable: If not 0, a task should be created when the external user Signs Off an event'
-  example: []
+  summary: "\nExternalEvent.SignOffTaskEnable: If not 0, a task should be created when the external user Signs Off an event\n"
   syntax:
     content: public const string SignOffTaskEnable = "signOffTaskEnable"
     return:
       type: System.String
     content.vb: Public Const SignOffTaskEnable As String = "signOffTaskEnable"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTaskId
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTaskId
   id: SignOffTaskId
@@ -359,16 +474,24 @@ items:
   nameWithType: DBC.ExternalEventFields.SignOffTaskId
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTaskId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.SignOffTaskId: If not 0, sign off should cause an Activity of this type to be registered'
-  example: []
+  summary: "\nExternalEvent.SignOffTaskId: If not 0, sign off should cause an Activity of this type to be registered\n"
   syntax:
     content: public const string SignOffTaskId = "signOffTaskId"
     return:
       type: System.String
     content.vb: Public Const SignOffTaskId As String = "signOffTaskId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffAssocId
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffAssocId
   id: SignOffAssocId
@@ -380,16 +503,24 @@ items:
   nameWithType: DBC.ExternalEventFields.SignOffAssocId
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffAssocId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.SignOffAssocId: If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Associate whose diary should get the activity'
-  example: []
+  summary: "\nExternalEvent.SignOffAssocId: If 0, the signOn Activity should go into the persons Our Contact; if not 0, this is the Associate whose diary should get the activity\n"
   syntax:
     content: public const string SignOffAssocId = "signOffAssocId"
     return:
       type: System.String
     content.vb: Public Const SignOffAssocId As String = "signOffAssocId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTextId
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTextId
   id: SignOffTextId
@@ -401,16 +532,24 @@ items:
   nameWithType: DBC.ExternalEventFields.SignOffTextId
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTextId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.SignOffTextId: If not 0, the given text should be shown as a confirmation text before accpting Sign Off'
-  example: []
+  summary: "\nExternalEvent.SignOffTextId: If not 0, the given text should be shown as a confirmation text before accpting Sign Off\n"
   syntax:
     content: public const string SignOffTextId = "signOffTextId"
     return:
       type: System.String
     content.vb: Public Const SignOffTextId As String = "signOffTextId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffConfTextId
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffConfTextId
   id: SignOffConfTextId
@@ -422,16 +561,24 @@ items:
   nameWithType: DBC.ExternalEventFields.SignOffConfTextId
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffConfTextId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.SignOffConfTextId: If not 0, the given text should be shown as a confirmation text before accpting Sign Off'
-  example: []
+  summary: "\nExternalEvent.SignOffConfTextId: If not 0, the given text should be shown as a confirmation text before accpting Sign Off\n"
   syntax:
     content: public const string SignOffConfTextId = "signOffConfTextId"
     return:
       type: System.String
     content.vb: Public Const SignOffConfTextId As String = "signOffConfTextId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTriggersAssign
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTriggersAssign
   id: SignOffTriggersAssign
@@ -443,16 +590,24 @@ items:
   nameWithType: DBC.ExternalEventFields.SignOffTriggersAssign
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.SignOffTriggersAssign
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.SignOffTriggersAssign: If 1, the SignOff task should be created as an Assigned task, triggering the invitation dialog'
-  example: []
+  summary: "\nExternalEvent.SignOffTriggersAssign: If 1, the SignOff task should be created as an Assigned task, triggering the invitation dialog\n"
   syntax:
     content: public const string SignOffTriggersAssign = "signOffTriggersAssign"
     return:
       type: System.String
     content.vb: Public Const SignOffTriggersAssign As String = "signOffTriggersAssign"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.Registered
   id: Registered
@@ -464,16 +619,24 @@ items:
   nameWithType: DBC.ExternalEventFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.Registered: Registered when'
-  example: []
+  summary: "\nExternalEvent.Registered: Registered when\n"
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -485,16 +648,24 @@ items:
   nameWithType: DBC.ExternalEventFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.RegisteredAssociateId: Registered by whom'
-  example: []
+  summary: "\nExternalEvent.RegisteredAssociateId: Registered by whom\n"
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.Updated
   id: Updated
@@ -506,16 +677,24 @@ items:
   nameWithType: DBC.ExternalEventFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.Updated: Last updated when'
-  example: []
+  summary: "\nExternalEvent.Updated: Last updated when\n"
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -527,16 +706,24 @@ items:
   nameWithType: DBC.ExternalEventFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.UpdatedAssociateId: Last updated by whom'
-  example: []
+  summary: "\nExternalEvent.UpdatedAssociateId: Last updated by whom\n"
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.ExternalEventFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.ExternalEventFields.UpdatedCount
   id: UpdatedCount
@@ -548,288 +735,41 @@ items:
   nameWithType: DBC.ExternalEventFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.ExternalEventFields.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'ExternalEvent.UpdatedCount: Number of updates made to this record'
-  example: []
+  summary: "\nExternalEvent.UpdatedCount: Number of updates made to this record\n"
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -837,10 +777,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

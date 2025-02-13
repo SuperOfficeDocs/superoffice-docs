@@ -23,14 +23,18 @@ items:
   nameWithType: PhoneListItem
   fullName: SuperOffice.WebApi.Data.PhoneListItem
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Carrier object for PhoneListItem.
-  example: []
+  summary: "\nCarrier object for PhoneListItem.\n\n"
   syntax:
     content: 'public class PhoneListItem : Carrier'
-    content.vb: Public Class PhoneListItem Inherits Carrier
+    content.vb: >-
+      Public Class PhoneListItem
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.PhoneListAgent
     commentId: T:SuperOffice.WebApi.Agents.PhoneListAgent
@@ -40,13 +44,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.PhoneListItem.#ctor
   commentId: M:SuperOffice.WebApi.Data.PhoneListItem.#ctor
   id: '#ctor'
@@ -58,18 +61,21 @@ items:
   nameWithType: PhoneListItem.PhoneListItem()
   fullName: SuperOffice.WebApi.Data.PhoneListItem.PhoneListItem()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public PhoneListItem()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.PhoneListItem.#ctor*
-  nameWithType.vb: PhoneListItem.New()
-  fullName.vb: SuperOffice.WebApi.Data.PhoneListItem.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.PhoneListItem.PersonDirectPhone
   commentId: P:SuperOffice.WebApi.Data.PhoneListItem.PersonDirectPhone
   id: PersonDirectPhone
@@ -81,11 +87,13 @@ items:
   nameWithType: PhoneListItem.PersonDirectPhone
   fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonDirectPhone
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Person Direct Phone
-  example: []
+  summary: "\nPerson Direct Phone\n"
   syntax:
     content: public virtual string PersonDirectPhone { get; set; }
     parameters: []
@@ -93,6 +101,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonDirectPhone As String
   overload: SuperOffice.WebApi.Data.PhoneListItem.PersonDirectPhone*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PhoneListItem.PersonCellPhone
   commentId: P:SuperOffice.WebApi.Data.PhoneListItem.PersonCellPhone
   id: PersonCellPhone
@@ -104,11 +120,13 @@ items:
   nameWithType: PhoneListItem.PersonCellPhone
   fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonCellPhone
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Person Cell Phone
-  example: []
+  summary: "\nPerson Cell Phone\n"
   syntax:
     content: public virtual string PersonCellPhone { get; set; }
     parameters: []
@@ -116,6 +134,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonCellPhone As String
   overload: SuperOffice.WebApi.Data.PhoneListItem.PersonCellPhone*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PhoneListItem.PersonPrivatePhone
   commentId: P:SuperOffice.WebApi.Data.PhoneListItem.PersonPrivatePhone
   id: PersonPrivatePhone
@@ -127,11 +153,13 @@ items:
   nameWithType: PhoneListItem.PersonPrivatePhone
   fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonPrivatePhone
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Person Private Phone
-  example: []
+  summary: "\nPerson Private Phone\n"
   syntax:
     content: public virtual string PersonPrivatePhone { get; set; }
     parameters: []
@@ -139,6 +167,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonPrivatePhone As String
   overload: SuperOffice.WebApi.Data.PhoneListItem.PersonPrivatePhone*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PhoneListItem.PersonFaxNumber
   commentId: P:SuperOffice.WebApi.Data.PhoneListItem.PersonFaxNumber
   id: PersonFaxNumber
@@ -150,11 +186,13 @@ items:
   nameWithType: PhoneListItem.PersonFaxNumber
   fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonFaxNumber
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Actual phone number as eneterd by the user
-  example: []
+  summary: "\nActual phone number as eneterd by the user\n"
   syntax:
     content: public virtual string PersonFaxNumber { get; set; }
     parameters: []
@@ -162,6 +200,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonFaxNumber As String
   overload: SuperOffice.WebApi.Data.PhoneListItem.PersonFaxNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PhoneListItem.PersonPagerNumber
   commentId: P:SuperOffice.WebApi.Data.PhoneListItem.PersonPagerNumber
   id: PersonPagerNumber
@@ -173,11 +219,13 @@ items:
   nameWithType: PhoneListItem.PersonPagerNumber
   fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonPagerNumber
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Actual phone number as eneterd by the user
-  example: []
+  summary: "\nActual phone number as eneterd by the user\n"
   syntax:
     content: public virtual string PersonPagerNumber { get; set; }
     parameters: []
@@ -185,6 +233,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonPagerNumber As String
   overload: SuperOffice.WebApi.Data.PhoneListItem.PersonPagerNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PhoneListItem.PersonEmail
   commentId: P:SuperOffice.WebApi.Data.PhoneListItem.PersonEmail
   id: PersonEmail
@@ -196,11 +252,13 @@ items:
   nameWithType: PhoneListItem.PersonEmail
   fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonEmail
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The address itself
-  example: []
+  summary: "\nThe address itself\n"
   syntax:
     content: public virtual string PersonEmail { get; set; }
     parameters: []
@@ -208,6 +266,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property PersonEmail As String
   overload: SuperOffice.WebApi.Data.PhoneListItem.PersonEmail*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PhoneListItem.Id
   commentId: P:SuperOffice.WebApi.Data.PhoneListItem.Id
   id: Id
@@ -219,11 +285,13 @@ items:
   nameWithType: PhoneListItem.Id
   fullName: SuperOffice.WebApi.Data.PhoneListItem.Id
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The contact or person's id
-  example: []
+  summary: "\nThe contact or person&apos;s id\n"
   syntax:
     content: public virtual int Id { get; set; }
     parameters: []
@@ -231,6 +299,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property Id As Integer
   overload: SuperOffice.WebApi.Data.PhoneListItem.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PhoneListItem.Name
   commentId: P:SuperOffice.WebApi.Data.PhoneListItem.Name
   id: Name
@@ -242,11 +318,13 @@ items:
   nameWithType: PhoneListItem.Name
   fullName: SuperOffice.WebApi.Data.PhoneListItem.Name
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The contact or person's name
-  example: []
+  summary: "\nThe contact or person&apos;s name\n"
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -254,6 +332,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.PhoneListItem.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PhoneListItem.Tooltip
   commentId: P:SuperOffice.WebApi.Data.PhoneListItem.Tooltip
   id: Tooltip
@@ -265,11 +351,13 @@ items:
   nameWithType: PhoneListItem.Tooltip
   fullName: SuperOffice.WebApi.Data.PhoneListItem.Tooltip
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public virtual string Tooltip { get; set; }
     parameters: []
@@ -277,6 +365,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Tooltip As String
   overload: SuperOffice.WebApi.Data.PhoneListItem.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.PhoneListItem.UniqueId
   commentId: P:SuperOffice.WebApi.Data.PhoneListItem.UniqueId
   id: UniqueId
@@ -288,11 +384,13 @@ items:
   nameWithType: PhoneListItem.UniqueId
   fullName: SuperOffice.WebApi.Data.PhoneListItem.UniqueId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Property setting a unique id indicating if this is a person or contact
-  example: []
+  summary: "\nProperty setting a unique id indicating if this is a person or contact\n"
   syntax:
     content: public virtual string UniqueId { get; set; }
     parameters: []
@@ -300,67 +398,32 @@ items:
       type: System.String
     content.vb: Public Overridable Property UniqueId As String
   overload: SuperOffice.WebApi.Data.PhoneListItem.UniqueId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.PhoneListAgent
-  commentId: T:SuperOffice.WebApi.Agents.PhoneListAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.PhoneListAgent.html
-  name: PhoneListAgent
-  nameWithType: PhoneListAgent
-  fullName: SuperOffice.WebApi.Agents.PhoneListAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -368,7 +431,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -376,250 +438,30 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.PhoneListAgent
+  commentId: T:SuperOffice.WebApi.Agents.PhoneListAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: PhoneListAgent
+  nameWithType: PhoneListAgent
+  fullName: SuperOffice.WebApi.Agents.PhoneListAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.PhoneListItem.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.PhoneListItem.html#SuperOffice_WebApi_Data_PhoneListItem__ctor
   name: PhoneListItem
   nameWithType: PhoneListItem.PhoneListItem
   fullName: SuperOffice.WebApi.Data.PhoneListItem.PhoneListItem
-  nameWithType.vb: PhoneListItem.New
-  fullName.vb: SuperOffice.WebApi.Data.PhoneListItem.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.PhoneListItem.PersonDirectPhone*
   commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.PersonDirectPhone
   isExternal: true
-  href: SuperOffice.WebApi.Data.PhoneListItem.html#SuperOffice_WebApi_Data_PhoneListItem_PersonDirectPhone
   name: PersonDirectPhone
   nameWithType: PhoneListItem.PersonDirectPhone
   fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonDirectPhone
@@ -627,52 +469,42 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.PhoneListItem.PersonCellPhone*
   commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.PersonCellPhone
   isExternal: true
-  href: SuperOffice.WebApi.Data.PhoneListItem.html#SuperOffice_WebApi_Data_PhoneListItem_PersonCellPhone
   name: PersonCellPhone
   nameWithType: PhoneListItem.PersonCellPhone
   fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonCellPhone
 - uid: SuperOffice.WebApi.Data.PhoneListItem.PersonPrivatePhone*
   commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.PersonPrivatePhone
   isExternal: true
-  href: SuperOffice.WebApi.Data.PhoneListItem.html#SuperOffice_WebApi_Data_PhoneListItem_PersonPrivatePhone
   name: PersonPrivatePhone
   nameWithType: PhoneListItem.PersonPrivatePhone
   fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonPrivatePhone
 - uid: SuperOffice.WebApi.Data.PhoneListItem.PersonFaxNumber*
   commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.PersonFaxNumber
   isExternal: true
-  href: SuperOffice.WebApi.Data.PhoneListItem.html#SuperOffice_WebApi_Data_PhoneListItem_PersonFaxNumber
   name: PersonFaxNumber
   nameWithType: PhoneListItem.PersonFaxNumber
   fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonFaxNumber
 - uid: SuperOffice.WebApi.Data.PhoneListItem.PersonPagerNumber*
   commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.PersonPagerNumber
   isExternal: true
-  href: SuperOffice.WebApi.Data.PhoneListItem.html#SuperOffice_WebApi_Data_PhoneListItem_PersonPagerNumber
   name: PersonPagerNumber
   nameWithType: PhoneListItem.PersonPagerNumber
   fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonPagerNumber
 - uid: SuperOffice.WebApi.Data.PhoneListItem.PersonEmail*
   commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.PersonEmail
   isExternal: true
-  href: SuperOffice.WebApi.Data.PhoneListItem.html#SuperOffice_WebApi_Data_PhoneListItem_PersonEmail
   name: PersonEmail
   nameWithType: PhoneListItem.PersonEmail
   fullName: SuperOffice.WebApi.Data.PhoneListItem.PersonEmail
 - uid: SuperOffice.WebApi.Data.PhoneListItem.Id*
   commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.Id
   isExternal: true
-  href: SuperOffice.WebApi.Data.PhoneListItem.html#SuperOffice_WebApi_Data_PhoneListItem_Id
   name: Id
   nameWithType: PhoneListItem.Id
   fullName: SuperOffice.WebApi.Data.PhoneListItem.Id
@@ -680,31 +512,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.PhoneListItem.Name*
   commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.Name
   isExternal: true
-  href: SuperOffice.WebApi.Data.PhoneListItem.html#SuperOffice_WebApi_Data_PhoneListItem_Name
   name: Name
   nameWithType: PhoneListItem.Name
   fullName: SuperOffice.WebApi.Data.PhoneListItem.Name
 - uid: SuperOffice.WebApi.Data.PhoneListItem.Tooltip*
   commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.Tooltip
   isExternal: true
-  href: SuperOffice.WebApi.Data.PhoneListItem.html#SuperOffice_WebApi_Data_PhoneListItem_Tooltip
   name: Tooltip
   nameWithType: PhoneListItem.Tooltip
   fullName: SuperOffice.WebApi.Data.PhoneListItem.Tooltip
 - uid: SuperOffice.WebApi.Data.PhoneListItem.UniqueId*
   commentId: Overload:SuperOffice.WebApi.Data.PhoneListItem.UniqueId
   isExternal: true
-  href: SuperOffice.WebApi.Data.PhoneListItem.html#SuperOffice_WebApi_Data_PhoneListItem_UniqueId
   name: UniqueId
   nameWithType: PhoneListItem.UniqueId
   fullName: SuperOffice.WebApi.Data.PhoneListItem.UniqueId

@@ -18,36 +18,64 @@ items:
   - SuperOffice.WebApi.Data.ShowState.UndefinedValue4
   - SuperOffice.WebApi.Data.ShowState.UndefinedValue64
   - SuperOffice.WebApi.Data.ShowState.UndefinedValue8
+  - SuperOffice.WebApi.Data.ShowState.value__
   langs:
   - csharp
   - vb
   name: ShowState
   nameWithType: ShowState
   fullName: SuperOffice.WebApi.Data.ShowState
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Value for the showState field in table externalapplication
-
-    This Enum is used by:  ExtApp.showState
-
-    This Enum consists of flag values that can be combined.
-  example: []
+  summary: "\nValue for the showState field in table externalapplication\nThis Enum is used by:  ExtApp.showState\nThis Enum consists of flag values that can be combined.\n"
   syntax:
-    content: >-
-      [Flags]
-
-      public enum ShowState : short
+    content: 'public sealed class ShowState : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class ShowState
+          Inherits
 
-      Public Enum ShowState As Short
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ShowState.value__
+  commentId: F:SuperOffice.WebApi.Data.ShowState.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ShowState
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ShowState.value__
+  fullName: SuperOffice.WebApi.Data.ShowState.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ShowState.Minimized
   commentId: F:SuperOffice.WebApi.Data.ShowState.Minimized
   id: Minimized
@@ -59,15 +87,24 @@ items:
   nameWithType: ShowState.Minimized
   fullName: SuperOffice.WebApi.Data.ShowState.Minimized
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: Start application in minimized state'
-  example: []
+  summary: "\n0: Start application in minimized state\n"
   syntax:
-    content: Minimized = 0
+    content: public const ShowState Minimized
     return:
       type: SuperOffice.WebApi.Data.ShowState
+    content.vb: Public Const Minimized As ShowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShowState.Maximized
   commentId: F:SuperOffice.WebApi.Data.ShowState.Maximized
   id: Maximized
@@ -79,26 +116,24 @@ items:
   nameWithType: ShowState.Maximized
   fullName: SuperOffice.WebApi.Data.ShowState.Maximized
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: Start application in maximized state'
-  example: []
+  summary: "\n1: Start application in maximized state\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Maximized = 1
+    content: public const ShowState Maximized
     return:
       type: SuperOffice.WebApi.Data.ShowState
-    content.vb: >-
-      <EnumMember>
-
-      Maximized = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Maximized As ShowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShowState.Default
   commentId: F:SuperOffice.WebApi.Data.ShowState.Default
   id: Default
@@ -110,26 +145,24 @@ items:
   nameWithType: ShowState.Default
   fullName: SuperOffice.WebApi.Data.ShowState.Default
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: Start application with default window size and position'
-  example: []
+  summary: "\n2: Start application with default window size and position\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Default = 2
+    content: public const ShowState Default
     return:
       type: SuperOffice.WebApi.Data.ShowState
-    content.vb: >-
-      <EnumMember>
-
-      Default = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Default As ShowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShowState.UndefinedValue4
   commentId: F:SuperOffice.WebApi.Data.ShowState.UndefinedValue4
   id: UndefinedValue4
@@ -141,26 +174,24 @@ items:
   nameWithType: ShowState.UndefinedValue4
   fullName: SuperOffice.WebApi.Data.ShowState.UndefinedValue4
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: Undefined and generated value 4'
-  example: []
+  summary: "\n4: Undefined and generated value 4\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UndefinedValue4 = 4
+    content: public const ShowState UndefinedValue4
     return:
       type: SuperOffice.WebApi.Data.ShowState
-    content.vb: >-
-      <EnumMember>
-
-      UndefinedValue4 = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UndefinedValue4 As ShowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShowState.UndefinedValue8
   commentId: F:SuperOffice.WebApi.Data.ShowState.UndefinedValue8
   id: UndefinedValue8
@@ -172,26 +203,24 @@ items:
   nameWithType: ShowState.UndefinedValue8
   fullName: SuperOffice.WebApi.Data.ShowState.UndefinedValue8
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '8: Undefined and generated value 8'
-  example: []
+  summary: "\n8: Undefined and generated value 8\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UndefinedValue8 = 8
+    content: public const ShowState UndefinedValue8
     return:
       type: SuperOffice.WebApi.Data.ShowState
-    content.vb: >-
-      <EnumMember>
-
-      UndefinedValue8 = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UndefinedValue8 As ShowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShowState.UndefinedValue16
   commentId: F:SuperOffice.WebApi.Data.ShowState.UndefinedValue16
   id: UndefinedValue16
@@ -203,26 +232,24 @@ items:
   nameWithType: ShowState.UndefinedValue16
   fullName: SuperOffice.WebApi.Data.ShowState.UndefinedValue16
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '16: Undefined and generated value 16'
-  example: []
+  summary: "\n16: Undefined and generated value 16\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UndefinedValue16 = 16
+    content: public const ShowState UndefinedValue16
     return:
       type: SuperOffice.WebApi.Data.ShowState
-    content.vb: >-
-      <EnumMember>
-
-      UndefinedValue16 = 16
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UndefinedValue16 As ShowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShowState.UndefinedValue32
   commentId: F:SuperOffice.WebApi.Data.ShowState.UndefinedValue32
   id: UndefinedValue32
@@ -234,26 +261,24 @@ items:
   nameWithType: ShowState.UndefinedValue32
   fullName: SuperOffice.WebApi.Data.ShowState.UndefinedValue32
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '32: Undefined and generated value 32'
-  example: []
+  summary: "\n32: Undefined and generated value 32\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UndefinedValue32 = 32
+    content: public const ShowState UndefinedValue32
     return:
       type: SuperOffice.WebApi.Data.ShowState
-    content.vb: >-
-      <EnumMember>
-
-      UndefinedValue32 = 32
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UndefinedValue32 As ShowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShowState.UndefinedValue64
   commentId: F:SuperOffice.WebApi.Data.ShowState.UndefinedValue64
   id: UndefinedValue64
@@ -265,26 +290,24 @@ items:
   nameWithType: ShowState.UndefinedValue64
   fullName: SuperOffice.WebApi.Data.ShowState.UndefinedValue64
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '64: Undefined and generated value 64'
-  example: []
+  summary: "\n64: Undefined and generated value 64\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UndefinedValue64 = 64
+    content: public const ShowState UndefinedValue64
     return:
       type: SuperOffice.WebApi.Data.ShowState
-    content.vb: >-
-      <EnumMember>
-
-      UndefinedValue64 = 64
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UndefinedValue64 As ShowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShowState.UndefinedValue128
   commentId: F:SuperOffice.WebApi.Data.ShowState.UndefinedValue128
   id: UndefinedValue128
@@ -296,26 +319,24 @@ items:
   nameWithType: ShowState.UndefinedValue128
   fullName: SuperOffice.WebApi.Data.ShowState.UndefinedValue128
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '128: Undefined and generated value 128'
-  example: []
+  summary: "\n128: Undefined and generated value 128\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UndefinedValue128 = 128
+    content: public const ShowState UndefinedValue128
     return:
       type: SuperOffice.WebApi.Data.ShowState
-    content.vb: >-
-      <EnumMember>
-
-      UndefinedValue128 = 128
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UndefinedValue128 As ShowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShowState.ToolBar
   commentId: F:SuperOffice.WebApi.Data.ShowState.ToolBar
   id: ToolBar
@@ -327,26 +348,24 @@ items:
   nameWithType: ShowState.ToolBar
   fullName: SuperOffice.WebApi.Data.ShowState.ToolBar
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '256: Show the Browser toolbar'
-  example: []
+  summary: "\n256: Show the Browser toolbar\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ToolBar = 256
+    content: public const ShowState ToolBar
     return:
       type: SuperOffice.WebApi.Data.ShowState
-    content.vb: >-
-      <EnumMember>
-
-      ToolBar = 256
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ToolBar As ShowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShowState.AddressBar
   commentId: F:SuperOffice.WebApi.Data.ShowState.AddressBar
   id: AddressBar
@@ -358,26 +377,24 @@ items:
   nameWithType: ShowState.AddressBar
   fullName: SuperOffice.WebApi.Data.ShowState.AddressBar
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "512: Show the Browser addressbar (where the user can type URL's and stuff)"
-  example: []
+  summary: "\n512: Show the Browser addressbar (where the user can type URL&apos;s and stuff)\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AddressBar = 512
+    content: public const ShowState AddressBar
     return:
       type: SuperOffice.WebApi.Data.ShowState
-    content.vb: >-
-      <EnumMember>
-
-      AddressBar = 512
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AddressBar As ShowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShowState.StatusBar
   commentId: F:SuperOffice.WebApi.Data.ShowState.StatusBar
   id: StatusBar
@@ -389,26 +406,24 @@ items:
   nameWithType: ShowState.StatusBar
   fullName: SuperOffice.WebApi.Data.ShowState.StatusBar
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1024: Show the Browser statusbar'
-  example: []
+  summary: "\n1024: Show the Browser statusbar\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      StatusBar = 1024
+    content: public const ShowState StatusBar
     return:
       type: SuperOffice.WebApi.Data.ShowState
-    content.vb: >-
-      <EnumMember>
-
-      StatusBar = 1024
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const StatusBar As ShowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ShowState.MenuBar
   commentId: F:SuperOffice.WebApi.Data.ShowState.MenuBar
   id: MenuBar
@@ -420,69 +435,55 @@ items:
   nameWithType: ShowState.MenuBar
   fullName: SuperOffice.WebApi.Data.ShowState.MenuBar
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2048: Show the Browser Menu bar (currently not implemented)'
-  example: []
+  summary: "\n2048: Show the Browser Menu bar (currently not implemented)\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      MenuBar = 2048
+    content: public const ShowState MenuBar
     return:
       type: SuperOffice.WebApi.Data.ShowState
-    content.vb: >-
-      <EnumMember>
-
-      MenuBar = 2048
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const MenuBar As ShowState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.ShowState
   commentId: T:SuperOffice.WebApi.Data.ShowState
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.ShowState.html
   name: ShowState
   nameWithType: ShowState
   fullName: SuperOffice.WebApi.Data.ShowState

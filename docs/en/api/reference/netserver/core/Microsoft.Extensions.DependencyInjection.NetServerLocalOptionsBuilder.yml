@@ -16,26 +16,31 @@ items:
   nameWithType: NetServerLocalOptionsBuilder
   fullName: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: Microsoft.Extensions.DependencyInjection
-  summary: Builder for configuring <xref href="Microsoft.Extensions.DependencyInjection.NetServerLocalOptions" data-throw-if-not-resolved="false"></xref>
-  example: []
+  summary: "\nBuilder for configuring <xref href=\"Microsoft.Extensions.DependencyInjection.NetServerLocalOptions\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
-    content: public sealed class NetServerLocalOptionsBuilder
-    content.vb: Public NotInheritable Class NetServerLocalOptionsBuilder
+    content: 'public sealed class NetServerLocalOptionsBuilder : Object'
+    content.vb: >-
+      Public NotInheritable Class NetServerLocalOptionsBuilder
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
   extensionMethods:
   - Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.EnumUtil.MapEnums``2
   - Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
 - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseCustomerServiceUrlResolverType``1
   commentId: M:Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseCustomerServiceUrlResolverType``1
   id: UseCustomerServiceUrlResolverType``1
@@ -47,22 +52,29 @@ items:
   nameWithType: NetServerLocalOptionsBuilder.UseCustomerServiceUrlResolverType<TType>()
   fullName: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseCustomerServiceUrlResolverType<TType>()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: Microsoft.Extensions.DependencyInjection
-  summary: Configure type of Customer Service resolver to use.  Default is <xref href="SuperOffice.CRM.CustomerServiceUrlResolver" data-throw-if-not-resolved="false"></xref>
-  example: []
+  summary: "\nConfigure type of Customer Service resolver to use.  Default is <xref href=\"SuperOffice.CRM.CustomerServiceUrlResolver\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
-    content: 'public NetServerLocalOptionsBuilder UseCustomerServiceUrlResolverType<TType>() where TType : class, ICustomerServiceUrlResolver'
+    content: >-
+      public NetServerLocalOptionsBuilder UseCustomerServiceUrlResolverType<TType>()
+          where TType : class, ICustomerServiceUrlResolver
     typeParameters:
     - id: TType
       description: Type of Customer Service resolver to use
     return:
       type: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
-      description: ''
-    content.vb: Public Function UseCustomerServiceUrlResolverType(Of TType As {Class, ICustomerServiceUrlResolver})() As NetServerLocalOptionsBuilder
+    content.vb: Public Function UseCustomerServiceUrlResolverType(Of TType As {Class, ICustomerServiceUrlResolver}) As NetServerLocalOptionsBuilder
   overload: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseCustomerServiceUrlResolverType*
   nameWithType.vb: NetServerLocalOptionsBuilder.UseCustomerServiceUrlResolverType(Of TType)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
   fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseCustomerServiceUrlResolverType(Of TType)()
   name.vb: UseCustomerServiceUrlResolverType(Of TType)()
 - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseTempFileProvider``1
@@ -76,18 +88,27 @@ items:
   nameWithType: NetServerLocalOptionsBuilder.UseTempFileProvider<T>()
   fullName: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseTempFileProvider<T>()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: Microsoft.Extensions.DependencyInjection
   syntax:
-    content: 'public NetServerLocalOptionsBuilder UseTempFileProvider<T>() where T : class, ITempFileProvider'
+    content: >-
+      public NetServerLocalOptionsBuilder UseTempFileProvider<T>()
+          where T : class, ITempFileProvider
     typeParameters:
     - id: T
     return:
       type: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
-    content.vb: Public Function UseTempFileProvider(Of T As {Class, ITempFileProvider})() As NetServerLocalOptionsBuilder
+    content.vb: Public Function UseTempFileProvider(Of T As {Class, ITempFileProvider}) As NetServerLocalOptionsBuilder
   overload: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseTempFileProvider*
   nameWithType.vb: NetServerLocalOptionsBuilder.UseTempFileProvider(Of T)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
   fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseTempFileProvider(Of T)()
   name.vb: UseTempFileProvider(Of T)()
 - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseFlushCacheAndBroadcastPluginType``1
@@ -101,18 +122,27 @@ items:
   nameWithType: NetServerLocalOptionsBuilder.UseFlushCacheAndBroadcastPluginType<TType>()
   fullName: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseFlushCacheAndBroadcastPluginType<TType>()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: Microsoft.Extensions.DependencyInjection
   syntax:
-    content: 'public NetServerLocalOptionsBuilder UseFlushCacheAndBroadcastPluginType<TType>() where TType : class, IFlushCacheAndBroadcastPlugin'
+    content: >-
+      public NetServerLocalOptionsBuilder UseFlushCacheAndBroadcastPluginType<TType>()
+          where TType : class, IFlushCacheAndBroadcastPlugin
     typeParameters:
     - id: TType
     return:
       type: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
-    content.vb: Public Function UseFlushCacheAndBroadcastPluginType(Of TType As {Class, IFlushCacheAndBroadcastPlugin})() As NetServerLocalOptionsBuilder
+    content.vb: Public Function UseFlushCacheAndBroadcastPluginType(Of TType As {Class, IFlushCacheAndBroadcastPlugin}) As NetServerLocalOptionsBuilder
   overload: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseFlushCacheAndBroadcastPluginType*
   nameWithType.vb: NetServerLocalOptionsBuilder.UseFlushCacheAndBroadcastPluginType(Of TType)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
   fullName.vb: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseFlushCacheAndBroadcastPluginType(Of TType)()
   name.vb: UseFlushCacheAndBroadcastPluginType(Of TType)()
 - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.ExcludeSoArc2DocumentPlugin
@@ -126,11 +156,13 @@ items:
   nameWithType: NetServerLocalOptionsBuilder.ExcludeSoArc2DocumentPlugin
   fullName: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.ExcludeSoArc2DocumentPlugin
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: Microsoft.Extensions.DependencyInjection
-  summary: Exclude the default <xref href="SuperOffice.CRM.Documents.SoArc2" data-throw-if-not-resolved="false"></xref> document plugin from the application.
-  example: []
+  summary: "\nExclude the default <xref href=\"SuperOffice.CRM.Documents.SoArc2\" data-throw-if-not-resolved=\"false\"></xref> document plugin from the application.\n"
   syntax:
     content: public bool ExcludeSoArc2DocumentPlugin { get; set; }
     parameters: []
@@ -138,374 +170,103 @@ items:
       type: System.Boolean
     content.vb: Public Property ExcludeSoArc2DocumentPlugin As Boolean
   overload: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.ExcludeSoArc2DocumentPlugin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
-- uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptions
-  commentId: T:Microsoft.Extensions.DependencyInjection.NetServerLocalOptions
-  isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.NetServerLocalOptions.html
-  name: NetServerLocalOptions
-  nameWithType: NetServerLocalOptions
-  fullName: Microsoft.Extensions.DependencyInjection.NetServerLocalOptions
 - uid: Microsoft.Extensions.DependencyInjection
   commentId: N:Microsoft.Extensions.DependencyInjection
   isExternal: true
-  href: Microsoft.html
   name: Microsoft.Extensions.DependencyInjection
   nameWithType: Microsoft.Extensions.DependencyInjection
   fullName: Microsoft.Extensions.DependencyInjection
-  spec.csharp:
-  - uid: Microsoft
-    name: Microsoft
-    isExternal: true
-    href: Microsoft.html
-  - name: .
-  - uid: Microsoft.Extensions
-    name: Extensions
-    isExternal: true
-    href: Microsoft.Extensions.html
-  - name: .
-  - uid: Microsoft.Extensions.DependencyInjection
-    name: DependencyInjection
-    isExternal: true
-    href: Microsoft.Extensions.DependencyInjection.html
-  spec.vb:
-  - uid: Microsoft
-    name: Microsoft
-    isExternal: true
-    href: Microsoft.html
-  - name: .
-  - uid: Microsoft.Extensions
-    name: Extensions
-    isExternal: true
-    href: Microsoft.Extensions.html
-  - name: .
-  - uid: Microsoft.Extensions.DependencyInjection
-    name: DependencyInjection
-    isExternal: true
-    href: Microsoft.Extensions.DependencyInjection.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<NetServerLocalOptionsBuilder, To>(NetServerLocalOptionsBuilder)
-  nameWithType: EnumUtil.MapEnums<NetServerLocalOptionsBuilder, To>(NetServerLocalOptionsBuilder)
-  fullName: EnumUtil.MapEnums<Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder, To>(Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder)
-  nameWithType.vb: EnumUtil.MapEnums(Of NetServerLocalOptionsBuilder, To)(NetServerLocalOptionsBuilder)
-  fullName.vb: EnumUtil.MapEnums(Of Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder, To)(Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder)
-  name.vb: MapEnums(Of NetServerLocalOptionsBuilder, To)(NetServerLocalOptionsBuilder)
+  name: MapEnums<NetServerLocalOptionsBuilder, To>()
+  nameWithType: EnumUtil.MapEnums<NetServerLocalOptionsBuilder, To>()
+  fullName: EnumUtil.MapEnums<Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of NetServerLocalOptionsBuilder, To)()
+  fullName.vb: EnumUtil.MapEnums(Of Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder, To)()
+  name.vb: MapEnums(Of NetServerLocalOptionsBuilder, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<NetServerLocalOptionsBuilder, To>
+    nameWithType: EnumUtil.MapEnums<NetServerLocalOptionsBuilder, To>
+    fullName: EnumUtil.MapEnums<Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
-    name: NetServerLocalOptionsBuilder
-    isExternal: true
-    href: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
-    name: NetServerLocalOptionsBuilder
-    isExternal: true
-    href: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of NetServerLocalOptionsBuilder, To)
+    nameWithType: EnumUtil.MapEnums(Of NetServerLocalOptionsBuilder, To)
+    fullName: EnumUtil.MapEnums(Of Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
-    name: NetServerLocalOptionsBuilder
-    isExternal: true
-    href: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
-    name: NetServerLocalOptionsBuilder
-    isExternal: true
-    href: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<NetServerLocalOptionsBuilder, To>(NetServerLocalOptionsBuilder)
-  nameWithType: Converters.MapEnums<NetServerLocalOptionsBuilder, To>(NetServerLocalOptionsBuilder)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder, To>(Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder)
-  nameWithType.vb: Converters.MapEnums(Of NetServerLocalOptionsBuilder, To)(NetServerLocalOptionsBuilder)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder, To)(Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder)
-  name.vb: MapEnums(Of NetServerLocalOptionsBuilder, To)(NetServerLocalOptionsBuilder)
+  name: MapEnums<NetServerLocalOptionsBuilder, To>()
+  nameWithType: Converters.MapEnums<NetServerLocalOptionsBuilder, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder, To>()
+  nameWithType.vb: Converters.MapEnums(Of NetServerLocalOptionsBuilder, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder, To)()
+  name.vb: MapEnums(Of NetServerLocalOptionsBuilder, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<NetServerLocalOptionsBuilder, To>
+    nameWithType: Converters.MapEnums<NetServerLocalOptionsBuilder, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
-    name: NetServerLocalOptionsBuilder
-    isExternal: true
-    href: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
-    name: NetServerLocalOptionsBuilder
-    isExternal: true
-    href: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of NetServerLocalOptionsBuilder, To)
+    nameWithType: Converters.MapEnums(Of NetServerLocalOptionsBuilder, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
-    name: NetServerLocalOptionsBuilder
-    isExternal: true
-    href: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
-    name: NetServerLocalOptionsBuilder
-    isExternal: true
-    href: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -514,45 +275,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -561,90 +320,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.CRM.CustomerServiceUrlResolver
-  commentId: T:SuperOffice.CRM.CustomerServiceUrlResolver
-  isExternal: true
-  href: SuperOffice.CRM.CustomerServiceUrlResolver.html
-  name: CustomerServiceUrlResolver
-  nameWithType: CustomerServiceUrlResolver
-  fullName: SuperOffice.CRM.CustomerServiceUrlResolver
 - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseCustomerServiceUrlResolverType*
   commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseCustomerServiceUrlResolverType
   isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.html#Microsoft_Extensions_DependencyInjection_NetServerLocalOptionsBuilder_UseCustomerServiceUrlResolverType__1
   name: UseCustomerServiceUrlResolverType
   nameWithType: NetServerLocalOptionsBuilder.UseCustomerServiceUrlResolverType
   fullName: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseCustomerServiceUrlResolverType
@@ -652,35 +371,24 @@ references:
   commentId: T:Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
   parent: Microsoft.Extensions.DependencyInjection
   isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.html
   name: NetServerLocalOptionsBuilder
   nameWithType: NetServerLocalOptionsBuilder
   fullName: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
 - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseTempFileProvider*
   commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseTempFileProvider
   isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.html#Microsoft_Extensions_DependencyInjection_NetServerLocalOptionsBuilder_UseTempFileProvider__1
   name: UseTempFileProvider
   nameWithType: NetServerLocalOptionsBuilder.UseTempFileProvider
   fullName: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseTempFileProvider
 - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseFlushCacheAndBroadcastPluginType*
   commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseFlushCacheAndBroadcastPluginType
   isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.html#Microsoft_Extensions_DependencyInjection_NetServerLocalOptionsBuilder_UseFlushCacheAndBroadcastPluginType__1
   name: UseFlushCacheAndBroadcastPluginType
   nameWithType: NetServerLocalOptionsBuilder.UseFlushCacheAndBroadcastPluginType
   fullName: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.UseFlushCacheAndBroadcastPluginType
-- uid: SuperOffice.CRM.Documents.SoArc2
-  commentId: T:SuperOffice.CRM.Documents.SoArc2
-  isExternal: true
-  href: SuperOffice.CRM.Documents.SoArc2.html
-  name: SoArc2
-  nameWithType: SoArc2
-  fullName: SuperOffice.CRM.Documents.SoArc2
 - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.ExcludeSoArc2DocumentPlugin*
   commentId: Overload:Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.ExcludeSoArc2DocumentPlugin
   isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.html#Microsoft_Extensions_DependencyInjection_NetServerLocalOptionsBuilder_ExcludeSoArc2DocumentPlugin
   name: ExcludeSoArc2DocumentPlugin
   nameWithType: NetServerLocalOptionsBuilder.ExcludeSoArc2DocumentPlugin
   fullName: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.ExcludeSoArc2DocumentPlugin
@@ -688,10 +396,6 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

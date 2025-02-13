@@ -7,9 +7,9 @@ items:
   children:
   - SuperOffice.CRM.Services.ReasonStalled.#ctor
   - SuperOffice.CRM.Services.ReasonStalled.Id
+  - SuperOffice.CRM.Services.ReasonStalled.Tooltip
   - SuperOffice.CRM.Services.ReasonStalled.ToString
   - SuperOffice.CRM.Services.ReasonStalled.ToString(System.String)
-  - SuperOffice.CRM.Services.ReasonStalled.Tooltip
   - SuperOffice.CRM.Services.ReasonStalled.Value
   langs:
   - csharp
@@ -18,37 +18,20 @@ items:
   nameWithType: ReasonStalled
   fullName: SuperOffice.CRM.Services.ReasonStalled
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Carrier object for ReasonStalled.
-
-    Services for the ReasonStalled Carrier is available from the <xref href="SuperOffice.CRM.Services.IListAgent?text=List+Agent" data-throw-if-not-resolved="false"></xref>.
+  summary: "\nCarrier object for ReasonStalled.\nServices for the ReasonStalled Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IListAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example:
-  - >-
-    Get ReasonStalled 123 using the agent:
-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       var agent = new ListAgent();
-       var reasonStalled = agent.GetReasonStalled( 123 );
-    }</code></pre>
+  - "\nGet ReasonStalled 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ListAgent();\n    var reasonStalled = agent.GetReasonStalled( 123 );\n }</code></pre>\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class ReasonStalled : Carrier
+    content: 'public class ReasonStalled : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class ReasonStalled Inherits Carrier
+      Public Class ReasonStalled
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent
     commentId: T:SuperOffice.CRM.Services.ListAgent
@@ -56,14 +39,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IListAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.ReasonStalled.#ctor
   commentId: M:SuperOffice.CRM.Services.ReasonStalled.#ctor
   id: '#ctor'
@@ -75,18 +56,21 @@ items:
   nameWithType: ReasonStalled.ReasonStalled()
   fullName: SuperOffice.CRM.Services.ReasonStalled.ReasonStalled()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public ReasonStalled()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.ReasonStalled.#ctor*
-  nameWithType.vb: ReasonStalled.New()
-  fullName.vb: SuperOffice.CRM.Services.ReasonStalled.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ReasonStalled.ToString
   commentId: M:SuperOffice.CRM.Services.ReasonStalled.ToString
   id: ToString
@@ -98,18 +82,26 @@ items:
   nameWithType: ReasonStalled.ToString()
   fullName: SuperOffice.CRM.Services.ReasonStalled.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.ReasonStalled.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.ReasonStalled.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ReasonStalled.ToString(System.String)
   id: ToString(System.String)
@@ -117,18 +109,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: ReasonStalled.ToString(string)
-  fullName: SuperOffice.CRM.Services.ReasonStalled.ToString(string)
+  name: ToString(String)
+  nameWithType: ReasonStalled.ToString(String)
+  fullName: SuperOffice.CRM.Services.ReasonStalled.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -140,9 +131,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ReasonStalled.ToString*
-  nameWithType.vb: ReasonStalled.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.ReasonStalled.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ReasonStalled.Id
   commentId: P:SuperOffice.CRM.Services.ReasonStalled.Id
   id: Id
@@ -154,28 +146,26 @@ items:
   nameWithType: ReasonStalled.Id
   fullName: SuperOffice.CRM.Services.ReasonStalled.Id
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The List Item Id
-  example: []
+  summary: "\nThe List Item Id\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public int Id { get; set; }
+    content: public int Id { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Property Id As Integer
+    content.vb: Public Property Id As Integer
   overload: SuperOffice.CRM.Services.ReasonStalled.Id*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ReasonStalled.Value
   commentId: P:SuperOffice.CRM.Services.ReasonStalled.Value
   id: Value
@@ -187,28 +177,26 @@ items:
   nameWithType: ReasonStalled.Value
   fullName: SuperOffice.CRM.Services.ReasonStalled.Value
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The List Item Value
-  example: []
+  summary: "\nThe List Item Value\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string Value { get; set; }
+    content: public string Value { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property Value As String
+    content.vb: Public Property Value As String
   overload: SuperOffice.CRM.Services.ReasonStalled.Value*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ReasonStalled.Tooltip
   commentId: P:SuperOffice.CRM.Services.ReasonStalled.Tooltip
   id: Tooltip
@@ -220,33 +208,36 @@ items:
   nameWithType: ReasonStalled.Tooltip
   fullName: SuperOffice.CRM.Services.ReasonStalled.Tooltip
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The List Item Tooltip
-  example: []
+  summary: "\nThe List Item Tooltip\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string Tooltip { get; set; }
+    content: public string Tooltip { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property Tooltip As String
+    content.vb: Public Property Tooltip As String
   overload: SuperOffice.CRM.Services.ReasonStalled.Tooltip*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.ListAgent
   commentId: T:SuperOffice.CRM.Services.ListAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.ListAgent.html
   name: ListAgent
   nameWithType: ListAgent
   fullName: SuperOffice.CRM.Services.ListAgent
@@ -254,79 +245,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IListAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IListAgent.html
   name: IListAgent
   nameWithType: IListAgent
   fullName: SuperOffice.CRM.Services.IListAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ReasonStalled.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ReasonStalled.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.ReasonStalled.html#SuperOffice_CRM_Services_ReasonStalled__ctor
   name: ReasonStalled
   nameWithType: ReasonStalled.ReasonStalled
   fullName: SuperOffice.CRM.Services.ReasonStalled.ReasonStalled
-  nameWithType.vb: ReasonStalled.New
-  fullName.vb: SuperOffice.CRM.Services.ReasonStalled.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.ReasonStalled.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ReasonStalled.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.ReasonStalled.html#SuperOffice_CRM_Services_ReasonStalled_ToString
   name: ToString
   nameWithType: ReasonStalled.ToString
   fullName: SuperOffice.CRM.Services.ReasonStalled.ToString
@@ -334,17 +264,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ReasonStalled.Id*
   commentId: Overload:SuperOffice.CRM.Services.ReasonStalled.Id
   isExternal: true
-  href: SuperOffice.CRM.Services.ReasonStalled.html#SuperOffice_CRM_Services_ReasonStalled_Id
   name: Id
   nameWithType: ReasonStalled.Id
   fullName: SuperOffice.CRM.Services.ReasonStalled.Id
@@ -352,24 +283,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.ReasonStalled.Value*
   commentId: Overload:SuperOffice.CRM.Services.ReasonStalled.Value
   isExternal: true
-  href: SuperOffice.CRM.Services.ReasonStalled.html#SuperOffice_CRM_Services_ReasonStalled_Value
   name: Value
   nameWithType: ReasonStalled.Value
   fullName: SuperOffice.CRM.Services.ReasonStalled.Value
 - uid: SuperOffice.CRM.Services.ReasonStalled.Tooltip*
   commentId: Overload:SuperOffice.CRM.Services.ReasonStalled.Tooltip
   isExternal: true
-  href: SuperOffice.CRM.Services.ReasonStalled.html#SuperOffice_CRM_Services_ReasonStalled_Tooltip
   name: Tooltip
   nameWithType: ReasonStalled.Tooltip
   fullName: SuperOffice.CRM.Services.ReasonStalled.Tooltip

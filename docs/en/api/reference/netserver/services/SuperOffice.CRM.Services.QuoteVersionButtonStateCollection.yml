@@ -18,33 +18,26 @@ items:
   nameWithType: QuoteVersionButtonStateCollection
   fullName: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Carrier object for QuoteVersionButtonStateCollection.
-
-    Services for the QuoteVersionButtonStateCollection Carrier is available from the <xref href="SuperOffice.CRM.Services.IQuoteAgent?text=Quote+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nCarrier object for QuoteVersionButtonStateCollection.\nServices for the QuoteVersionButtonStateCollection Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IQuoteAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class QuoteVersionButtonStateCollection : Carrier
+    content: 'public class QuoteVersionButtonStateCollection : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class QuoteVersionButtonStateCollection Inherits Carrier
+      Public Class QuoteVersionButtonStateCollection
+          Inherits Carrier
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.#ctor
   commentId: M:SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.#ctor
   id: '#ctor'
@@ -56,18 +49,21 @@ items:
   nameWithType: QuoteVersionButtonStateCollection.QuoteVersionButtonStateCollection()
   fullName: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.QuoteVersionButtonStateCollection()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public QuoteVersionButtonStateCollection()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.#ctor*
-  nameWithType.vb: QuoteVersionButtonStateCollection.New()
-  fullName.vb: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.ToString
   commentId: M:SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.ToString
   id: ToString
@@ -79,18 +75,26 @@ items:
   nameWithType: QuoteVersionButtonStateCollection.ToString()
   fullName: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.ToString(System.String)
   id: ToString(System.String)
@@ -98,18 +102,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: QuoteVersionButtonStateCollection.ToString(string)
-  fullName: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.ToString(string)
+  name: ToString(String)
+  nameWithType: QuoteVersionButtonStateCollection.ToString(String)
+  fullName: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -121,9 +124,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.ToString*
-  nameWithType.vb: QuoteVersionButtonStateCollection.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.ActionButtons
   commentId: P:SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.ActionButtons
   id: ActionButtons
@@ -135,28 +139,26 @@ items:
   nameWithType: QuoteVersionButtonStateCollection.ActionButtons
   fullName: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.ActionButtons
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Array of visible buttons with defined actions in the quote verson dialog.
-  example: []
+  summary: "\nArray of visible buttons with defined actions in the quote verson dialog.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public QuoteVersionButtonState[] ActionButtons { get; set; }
+    content: public QuoteVersionButtonState[] ActionButtons { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.QuoteVersionButtonState[]
-    content.vb: >-
-      <DataMember>
-
-      Public Property ActionButtons As QuoteVersionButtonState()
+    content.vb: Public Property ActionButtons As QuoteVersionButtonState()
   overload: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.ActionButtons*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.StateImage
   commentId: P:SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.StateImage
   id: StateImage
@@ -168,28 +170,26 @@ items:
   nameWithType: QuoteVersionButtonStateCollection.StateImage
   fullName: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.StateImage
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Information about the state image for the current quote version.
-  example: []
+  summary: "\nInformation about the state image for the current quote version.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public QuoteVersionButtonState StateImage { get; set; }
+    content: public QuoteVersionButtonState StateImage { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.QuoteVersionButtonState
-    content.vb: >-
-      <DataMember>
-
-      Public Property StateImage As QuoteVersionButtonState
+    content.vb: Public Property StateImage As QuoteVersionButtonState
   overload: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.StateImage*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.RecalculateButton
   commentId: P:SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.RecalculateButton
   id: RecalculateButton
@@ -201,106 +201,42 @@ items:
   nameWithType: QuoteVersionButtonStateCollection.RecalculateButton
   fullName: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.RecalculateButton
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Information about the action for the recalculate quote version button.
-  example: []
+  summary: "\nInformation about the action for the recalculate quote version button.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public QuoteVersionButtonState RecalculateButton { get; set; }
+    content: public QuoteVersionButtonState RecalculateButton { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.QuoteVersionButtonState
-    content.vb: >-
-      <DataMember>
-
-      Public Property RecalculateButton As QuoteVersionButtonState
+    content.vb: Public Property RecalculateButton As QuoteVersionButtonState
   overload: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.RecalculateButton*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.Services.IQuoteAgent
-  commentId: T:SuperOffice.CRM.Services.IQuoteAgent
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.IQuoteAgent.html
-  name: IQuoteAgent
-  nameWithType: IQuoteAgent
-  fullName: SuperOffice.CRM.Services.IQuoteAgent
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.html#SuperOffice_CRM_Services_QuoteVersionButtonStateCollection__ctor
   name: QuoteVersionButtonStateCollection
   nameWithType: QuoteVersionButtonStateCollection.QuoteVersionButtonStateCollection
   fullName: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.QuoteVersionButtonStateCollection
-  nameWithType.vb: QuoteVersionButtonStateCollection.New
-  fullName.vb: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.ToString*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.html#SuperOffice_CRM_Services_QuoteVersionButtonStateCollection_ToString
   name: ToString
   nameWithType: QuoteVersionButtonStateCollection.ToString
   fullName: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.ToString
@@ -308,23 +244,23 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.ActionButtons*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.ActionButtons
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.html#SuperOffice_CRM_Services_QuoteVersionButtonStateCollection_ActionButtons
   name: ActionButtons
   nameWithType: QuoteVersionButtonStateCollection.ActionButtons
   fullName: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.ActionButtons
 - uid: SuperOffice.CRM.Services.QuoteVersionButtonState[]
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionButtonState.html
   name: QuoteVersionButtonState[]
   nameWithType: QuoteVersionButtonState[]
   fullName: SuperOffice.CRM.Services.QuoteVersionButtonState[]
@@ -334,21 +270,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.QuoteVersionButtonState
     name: QuoteVersionButtonState
+    nameWithType: QuoteVersionButtonState
+    fullName: SuperOffice.CRM.Services.QuoteVersionButtonState
     isExternal: true
-    href: SuperOffice.CRM.Services.QuoteVersionButtonState.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.QuoteVersionButtonState
     name: QuoteVersionButtonState
+    nameWithType: QuoteVersionButtonState
+    fullName: SuperOffice.CRM.Services.QuoteVersionButtonState
     isExternal: true
-    href: SuperOffice.CRM.Services.QuoteVersionButtonState.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.StateImage*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.StateImage
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.html#SuperOffice_CRM_Services_QuoteVersionButtonStateCollection_StateImage
   name: StateImage
   nameWithType: QuoteVersionButtonStateCollection.StateImage
   fullName: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.StateImage
@@ -356,14 +295,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.QuoteVersionButtonState
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionButtonState.html
   name: QuoteVersionButtonState
   nameWithType: QuoteVersionButtonState
   fullName: SuperOffice.CRM.Services.QuoteVersionButtonState
 - uid: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.RecalculateButton*
   commentId: Overload:SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.RecalculateButton
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.html#SuperOffice_CRM_Services_QuoteVersionButtonStateCollection_RecalculateButton
   name: RecalculateButton
   nameWithType: QuoteVersionButtonStateCollection.RecalculateButton
   fullName: SuperOffice.CRM.Services.QuoteVersionButtonStateCollection.RecalculateButton

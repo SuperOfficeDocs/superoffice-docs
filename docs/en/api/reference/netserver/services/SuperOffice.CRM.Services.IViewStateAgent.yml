@@ -28,28 +28,15 @@ items:
   nameWithType: IViewStateAgent
   fullName: SuperOffice.CRM.Services.IViewStateAgent
   type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Interface for the ViewState Agent
-
-    User interface view state, history, currentXXX values
+  summary: "\nInterface for the ViewState Agent\nUser interface view state, history, currentXXX values\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (ViewStateAgent agent = new ViewStateAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (ViewStateAgent agent = new ViewStateAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: >-
       [Agent("ViewState Agent", "Interface for the ViewState Agent. User interface view state, history, currentXXX values")]
@@ -58,7 +45,8 @@ items:
     content.vb: >-
       <Agent("ViewState Agent", "Interface for the ViewState Agent. User interface view state, history, currentXXX values")>
 
-      Public Interface IViewStateAgent Inherits IAgent
+      Public Interface IViewStateAgent
+          Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -67,6 +55,12 @@ items:
       value: ViewState Agent
     - type: System.String
       value: Interface for the ViewState Agent. User interface view state, history, currentXXX values
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
   commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
   id: GetLiveUiConfig
@@ -78,17 +72,19 @@ items:
   nameWithType: IViewStateAgent.GetLiveUiConfig()
   fullName: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets live UI configuration
-  example: []
+  summary: "\nGets live UI configuration\n"
   syntax:
     content: LiveUiConfig GetLiveUiConfig()
     return:
       type: SuperOffice.CRM.Services.LiveUiConfig
       description: Live UI configuration containing the parameters needed for live UI functionality
-    content.vb: Function GetLiveUiConfig() As LiveUiConfig
+    content.vb: Function GetLiveUiConfig As LiveUiConfig
   overload: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig*
 - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistory(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistory(System.Int32)
@@ -97,15 +93,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetHistory(int)
-  nameWithType: IViewStateAgent.GetHistory(int)
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistory(int)
+  name: GetHistory(Int32)
+  nameWithType: IViewStateAgent.GetHistory(Int32)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistory(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a History object.
-  example: []
+  summary: "\nGets a History object.                        \n"
   syntax:
     content: History GetHistory(int historyId)
     parameters:
@@ -117,9 +115,6 @@ items:
       description: History
     content.vb: Function GetHistory(historyId As Integer) As History
   overload: SuperOffice.CRM.Services.IViewStateAgent.GetHistory*
-  nameWithType.vb: IViewStateAgent.GetHistory(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.GetHistory(Integer)
-  name.vb: GetHistory(Integer)
 - uid: SuperOffice.CRM.Services.IViewStateAgent.GetCurrent(System.String)
   commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetCurrent(System.String)
   id: GetCurrent(System.String)
@@ -127,15 +122,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetCurrent(string)
-  nameWithType: IViewStateAgent.GetCurrent(string)
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetCurrent(string)
+  name: GetCurrent(String)
+  nameWithType: IViewStateAgent.GetCurrent(String)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetCurrent(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get the current (most recent) value of the history list. This is the item with rank = 1. If no item exists a default value is returned. This is usually the first item in the table representing the history list.
-  example: []
+  summary: "\nGet the current (most recent) value of the history list. This is the item with rank = 1. If no item exists a default value is returned. This is usually the first item in the table representing the history list.\n"
   syntax:
     content: History GetCurrent(string historyName)
     parameters:
@@ -147,9 +144,6 @@ items:
       description: The current (most recent) history item
     content.vb: Function GetCurrent(historyName As String) As History
   overload: SuperOffice.CRM.Services.IViewStateAgent.GetCurrent*
-  nameWithType.vb: IViewStateAgent.GetCurrent(String)
-  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.GetCurrent(String)
-  name.vb: GetCurrent(String)
 - uid: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent(SuperOffice.CRM.Services.History)
   commentId: M:SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent(SuperOffice.CRM.Services.History)
   id: SaveCurrent(SuperOffice.CRM.Services.History)
@@ -161,11 +155,13 @@ items:
   nameWithType: IViewStateAgent.SaveCurrent(History)
   fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent(SuperOffice.CRM.Services.History)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Saving the current history item. This history item is saved with Rank = 1, and all the remaining elements rank values are shifted one down. The list is maintained with the max lenght of the History list length preference.
-  example: []
+  summary: "\nSaving the current history item. This history item is saved with Rank = 1, and all the remaining elements rank values are shifted one down. The list is maintained with the max lenght of the History list length preference.\n"
   syntax:
     content: History SaveCurrent(History current)
     parameters:
@@ -184,15 +180,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetNextCurrent(string, int)
-  nameWithType: IViewStateAgent.GetNextCurrent(string, int)
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent(string, int)
+  name: GetNextCurrent(String, Int32)
+  nameWithType: IViewStateAgent.GetNextCurrent(String, Int32)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent(System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the next current item. If no item exists a default value is returned. This is usually the first item in the table representing the history list.
-  example: []
+  summary: "\nReturns the next current item. If no item exists a default value is returned. This is usually the first item in the table representing the history list.\n"
   syntax:
     content: History GetNextCurrent(string historyName, int id)
     parameters:
@@ -207,9 +205,6 @@ items:
       description: The current value.
     content.vb: Function GetNextCurrent(historyName As String, id As Integer) As History
   overload: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent*
-  nameWithType.vb: IViewStateAgent.GetNextCurrent(String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent(String, Integer)
-  name.vb: GetNextCurrent(String, Integer)
 - uid: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent(System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent(System.String,System.Int32)
   id: GetPreviousCurrent(System.String,System.Int32)
@@ -217,15 +212,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPreviousCurrent(string, int)
-  nameWithType: IViewStateAgent.GetPreviousCurrent(string, int)
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent(string, int)
+  name: GetPreviousCurrent(String, Int32)
+  nameWithType: IViewStateAgent.GetPreviousCurrent(String, Int32)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent(System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the previous current item. If no item exists a default value is returned. This is usually the first item in the table representing the history list.
-  example: []
+  summary: "\nReturns the previous current item. If no item exists a default value is returned. This is usually the first item in the table representing the history list.\n"
   syntax:
     content: History GetPreviousCurrent(string historyName, int id)
     parameters:
@@ -240,9 +237,6 @@ items:
       description: The current value.
     content.vb: Function GetPreviousCurrent(historyName As String, id As Integer) As History
   overload: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent*
-  nameWithType.vb: IViewStateAgent.GetPreviousCurrent(String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent(String, Integer)
-  name.vb: GetPreviousCurrent(String, Integer)
 - uid: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory(System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory(System.String,System.Int32)
   id: DeleteHistory(System.String,System.Int32)
@@ -250,15 +244,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteHistory(string, int)
-  nameWithType: IViewStateAgent.DeleteHistory(string, int)
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory(string, int)
+  name: DeleteHistory(String, Int32)
+  nameWithType: IViewStateAgent.DeleteHistory(String, Int32)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory(System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the history element
-  example: []
+  summary: "\nDeletes the history element\n"
   syntax:
     content: void DeleteHistory(string historyName, int id)
     parameters:
@@ -270,9 +266,6 @@ items:
       description: Id of the history element, e.g. Contact id
     content.vb: Sub DeleteHistory(historyName As String, id As Integer)
   overload: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory*
-  nameWithType.vb: IViewStateAgent.DeleteHistory(String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory(String, Integer)
-  name.vb: DeleteHistory(String, Integer)
 - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistories
   commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistories
   id: GetHistories
@@ -284,17 +277,19 @@ items:
   nameWithType: IViewStateAgent.GetHistories()
   fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistories()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns all history items that belong to the currently logged in user
-  example: []
+  summary: "\nReturns all history items that belong to the currently logged in user\n"
   syntax:
     content: History[] GetHistories()
     return:
       type: SuperOffice.CRM.Services.History[]
       description: Array of History items
-    content.vb: Function GetHistories() As History()
+    content.vb: Function GetHistories As History()
   overload: SuperOffice.CRM.Services.IViewStateAgent.GetHistories*
 - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName(System.String)
   commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName(System.String)
@@ -303,15 +298,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetHistoriesByName(string)
-  nameWithType: IViewStateAgent.GetHistoriesByName(string)
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName(string)
+  name: GetHistoriesByName(String)
+  nameWithType: IViewStateAgent.GetHistoriesByName(String)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the named history list that belong to the currently logged in user
-  example: []
+  summary: "\nReturns the named history list that belong to the currently logged in user\n"
   syntax:
     content: History[] GetHistoriesByName(string historyName)
     parameters:
@@ -323,9 +320,6 @@ items:
       description: Array of History items
     content.vb: Function GetHistoriesByName(historyName As String) As History()
   overload: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName*
-  nameWithType.vb: IViewStateAgent.GetHistoriesByName(String)
-  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName(String)
-  name.vb: GetHistoriesByName(String)
 - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames(System.String[])
   commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames(System.String[])
   id: GetHistoriesByNames(System.String[])
@@ -333,15 +327,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetHistoriesByNames(string[])
-  nameWithType: IViewStateAgent.GetHistoriesByNames(string[])
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames(string[])
+  name: GetHistoriesByNames(String[])
+  nameWithType: IViewStateAgent.GetHistoriesByNames(String[])
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames(System.String[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the named history lists that belong to the currently logged in user
-  example: []
+  summary: "\nReturns the named history lists that belong to the currently logged in user\n"
   syntax:
     content: History[] GetHistoriesByNames(string[] historyNames)
     parameters:
@@ -354,7 +350,7 @@ items:
     content.vb: Function GetHistoriesByNames(historyNames As String()) As History()
   overload: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames*
   nameWithType.vb: IViewStateAgent.GetHistoriesByNames(String())
-  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames(String())
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames(System.String())
   name.vb: GetHistoriesByNames(String())
 - uid: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories(System.String,SuperOffice.CRM.Services.History[])
   commentId: M:SuperOffice.CRM.Services.IViewStateAgent.SaveHistories(System.String,SuperOffice.CRM.Services.History[])
@@ -363,21 +359,22 @@ items:
   langs:
   - csharp
   - vb
-  name: SaveHistories(string, History[])
-  nameWithType: IViewStateAgent.SaveHistories(string, History[])
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories(string, SuperOffice.CRM.Services.History[])
+  name: SaveHistories(String, History[])
+  nameWithType: IViewStateAgent.SaveHistories(String, History[])
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories(System.String, SuperOffice.CRM.Services.History[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Replaces the existing history-list for the currently logged in user. All elements must belong to the same history list. If not they are ignored.
-  example: []
+  summary: "\nReplaces the existing history-list for the currently logged in user. All elements must belong to the same history list. If not they are ignored.\n"
   syntax:
     content: History[] SaveHistories(string historyName, History[] history)
     parameters:
     - id: historyName
       type: System.String
-      description: ''
     - id: history
       type: SuperOffice.CRM.Services.History[]
       description: Array of new history items to save.
@@ -387,7 +384,7 @@ items:
     content.vb: Function SaveHistories(historyName As String, history As History()) As History()
   overload: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories*
   nameWithType.vb: IViewStateAgent.SaveHistories(String, History())
-  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories(String, SuperOffice.CRM.Services.History())
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories(System.String, SuperOffice.CRM.Services.History())
   name.vb: SaveHistories(String, History())
 - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue
   commentId: M:SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue
@@ -400,17 +397,19 @@ items:
   nameWithType: IViewStateAgent.GetHistoryLengthPrefValue()
   fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get the logged on user's preferred history list length. Will return the system preference if no user preferences are available.
-  example: []
+  summary: "\nGet the logged on user&apos;s preferred history list length. Will return the system preference if no user preferences are available.\n"
   syntax:
     content: int GetHistoryLengthPrefValue()
     return:
       type: System.Int32
       description: The history list lenght
-    content.vb: Function GetHistoryLengthPrefValue() As Integer
+    content.vb: Function GetHistoryLengthPrefValue As Integer
   overload: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue*
 - uid: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue(System.Int32)
@@ -419,15 +418,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetHistoryLengthPrefValue(int)
-  nameWithType: IViewStateAgent.SetHistoryLengthPrefValue(int)
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue(int)
+  name: SetHistoryLengthPrefValue(Int32)
+  nameWithType: IViewStateAgent.SetHistoryLengthPrefValue(Int32)
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Set the logged on user's preferred history list length.
-  example: []
+  summary: "\nSet the logged on user&apos;s preferred history list length.\n"
   syntax:
     content: void SetHistoryLengthPrefValue(int length)
     parameters:
@@ -436,9 +437,6 @@ items:
       description: The new history list lenght
     content.vb: Sub SetHistoryLengthPrefValue(length As Integer)
   overload: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue*
-  nameWithType.vb: IViewStateAgent.SetHistoryLengthPrefValue(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue(Integer)
-  name.vb: SetHistoryLengthPrefValue(Integer)
 - uid: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History[])
   commentId: M:SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History[])
   id: SaveCurrents(SuperOffice.CRM.Services.History[])
@@ -450,11 +448,13 @@ items:
   nameWithType: IViewStateAgent.SaveCurrents(History[])
   fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents(SuperOffice.CRM.Services.History[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Saves the history elements as the current value for their respective lists. If more than one item is submitted for the same list, they are added sequently, meaning that the last one is the most current.
-  example: []
+  summary: "\nSaves the history elements as the current value for their respective lists. If more than one item is submitted for the same list, they are added sequently, meaning that the last one is the most current.\n"
   syntax:
     content: History[] SaveCurrents(History[] currents)
     parameters:
@@ -480,11 +480,13 @@ items:
   nameWithType: IViewStateAgent.GetHistoriesByNamesAndIds(HistoryRequest[])
   fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds(SuperOffice.CRM.Services.HistoryRequest[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns history data for the named entities and the given ids - which may not directly correspond to the current history records in the database.&lt;para/&gt;Use this method if you know exactly which items you need, regardless of whether they are in the current history or not.&lt;para/&gt;The history in the database is not changed or even looked at by this method.
-  example: []
+  summary: "\nReturns history data for the named entities and the given ids - which may not directly correspond to the current history records in the database.&lt;para/>Use this method if you know exactly which items you need, regardless of whether they are in the current history or not.&lt;para/>The history in the database is not changed or even looked at by this method.\n"
   syntax:
     content: History[] GetHistoriesByNamesAndIds(HistoryRequest[] requests)
     parameters:
@@ -493,7 +495,7 @@ items:
       description: Array of request objects that define what entities we are requesting history information for
     return:
       type: SuperOffice.CRM.Services.History[]
-      description: On history item for each history name/id pair specified, in exactly the same order as specified.&lt;para/&gt;If a specified item cannot be found in the database, its Id will be 0 and its name will be blank in the return array.
+      description: On history item for each history name/id pair specified, in exactly the same order as specified.&lt;para/>If a specified item cannot be found in the database, its Id will be 0 and its name will be blank in the return array.
     content.vb: Function GetHistoriesByNamesAndIds(requests As HistoryRequest()) As History()
   overload: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds*
   nameWithType.vb: IViewStateAgent.GetHistoriesByNamesAndIds(HistoryRequest())
@@ -506,15 +508,17 @@ items:
   langs:
   - csharp
   - vb
-  name: PublishAndRetrieveUiEvents(int, UiEvent[], MetricPair[])
-  nameWithType: IViewStateAgent.PublishAndRetrieveUiEvents(int, UiEvent[], MetricPair[])
-  fullName: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(int, SuperOffice.CRM.Services.UiEvent[], SuperOffice.CRM.Services.MetricPair[])
+  name: PublishAndRetrieveUiEvents(Int32, UiEvent[], MetricPair[])
+  nameWithType: IViewStateAgent.PublishAndRetrieveUiEvents(Int32, UiEvent[], MetricPair[])
+  fullName: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(System.Int32, SuperOffice.CRM.Services.UiEvent[], SuperOffice.CRM.Services.MetricPair[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Publish zero or more events, and return any new events since the given event id. The initial implementation is in-memory only; applies solely to the front-end web server; and anything older than 20 minutes is discarded
-  example: []
+  summary: "\nPublish zero or more events, and return any new events since the given event id. The initial implementation is in-memory only; applies solely to the front-end web server; and anything older than 20 minutes is discarded\n"
   syntax:
     content: UiEvent[] PublishAndRetrieveUiEvents(int latestKnownEventId, UiEvent[] publishEvents, MetricPair[] metrics)
     parameters:
@@ -532,51 +536,19 @@ items:
       description: Array of events since the given event ID; within the time span kept by the event mechanism. Event/primarykey combinations are not guaranteed to be unique, and events in the PublishEvents parameter are echoed back to the client
     content.vb: Function PublishAndRetrieveUiEvents(latestKnownEventId As Integer, publishEvents As UiEvent(), metrics As MetricPair()) As UiEvent()
   overload: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents*
-  nameWithType.vb: IViewStateAgent.PublishAndRetrieveUiEvents(Integer, UiEvent(), MetricPair())
-  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(Integer, SuperOffice.CRM.Services.UiEvent(), SuperOffice.CRM.Services.MetricPair())
-  name.vb: PublishAndRetrieveUiEvents(Integer, UiEvent(), MetricPair())
+  nameWithType.vb: IViewStateAgent.PublishAndRetrieveUiEvents(Int32, UiEvent(), MetricPair())
+  fullName.vb: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents(System.Int32, SuperOffice.CRM.Services.UiEvent(), SuperOffice.CRM.Services.MetricPair())
+  name.vb: PublishAndRetrieveUiEvents(Int32, UiEvent(), MetricPair())
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig*
   commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
   isExternal: true
-  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_GetLiveUiConfig
   name: GetLiveUiConfig
   nameWithType: IViewStateAgent.GetLiveUiConfig
   fullName: SuperOffice.CRM.Services.IViewStateAgent.GetLiveUiConfig
@@ -584,14 +556,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.LiveUiConfig
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.LiveUiConfig.html
   name: LiveUiConfig
   nameWithType: LiveUiConfig
   fullName: SuperOffice.CRM.Services.LiveUiConfig
 - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistory*
   commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetHistory
   isExternal: true
-  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_GetHistory_System_Int32_
   name: GetHistory
   nameWithType: IViewStateAgent.GetHistory
   fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistory
@@ -599,32 +569,25 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.History
   commentId: T:SuperOffice.CRM.Services.History
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.History.html
   name: History
   nameWithType: History
   fullName: SuperOffice.CRM.Services.History
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Services.IViewStateAgent.GetCurrent*
   commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetCurrent
   isExternal: true
-  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_GetCurrent_System_String_
   name: GetCurrent
   nameWithType: IViewStateAgent.GetCurrent
   fullName: SuperOffice.CRM.Services.IViewStateAgent.GetCurrent
@@ -632,51 +595,41 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent*
   commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent
   isExternal: true
-  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_SaveCurrent_SuperOffice_CRM_Services_History_
   name: SaveCurrent
   nameWithType: IViewStateAgent.SaveCurrent
   fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrent
 - uid: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent*
   commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent
   isExternal: true
-  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_GetNextCurrent_System_String_System_Int32_
   name: GetNextCurrent
   nameWithType: IViewStateAgent.GetNextCurrent
   fullName: SuperOffice.CRM.Services.IViewStateAgent.GetNextCurrent
 - uid: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent*
   commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent
   isExternal: true
-  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_GetPreviousCurrent_System_String_System_Int32_
   name: GetPreviousCurrent
   nameWithType: IViewStateAgent.GetPreviousCurrent
   fullName: SuperOffice.CRM.Services.IViewStateAgent.GetPreviousCurrent
 - uid: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory*
   commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory
   isExternal: true
-  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_DeleteHistory_System_String_System_Int32_
   name: DeleteHistory
   nameWithType: IViewStateAgent.DeleteHistory
   fullName: SuperOffice.CRM.Services.IViewStateAgent.DeleteHistory
 - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistories*
   commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetHistories
   isExternal: true
-  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_GetHistories
   name: GetHistories
   nameWithType: IViewStateAgent.GetHistories
   fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistories
 - uid: SuperOffice.CRM.Services.History[]
   isExternal: true
-  href: SuperOffice.CRM.Services.History.html
   name: History[]
   nameWithType: History[]
   fullName: SuperOffice.CRM.Services.History[]
@@ -686,92 +639,91 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.History
     name: History
+    nameWithType: History
+    fullName: SuperOffice.CRM.Services.History
     isExternal: true
-    href: SuperOffice.CRM.Services.History.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.History
     name: History
+    nameWithType: History
+    fullName: SuperOffice.CRM.Services.History
     isExternal: true
-    href: SuperOffice.CRM.Services.History.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName*
   commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName
   isExternal: true
-  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_GetHistoriesByName_System_String_
   name: GetHistoriesByName
   nameWithType: IViewStateAgent.GetHistoriesByName
   fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByName
 - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames*
   commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames
   isExternal: true
-  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_GetHistoriesByNames_System_String___
   name: GetHistoriesByNames
   nameWithType: IViewStateAgent.GetHistoriesByNames
   fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNames
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories*
   commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.SaveHistories
   isExternal: true
-  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_SaveHistories_System_String_SuperOffice_CRM_Services_History___
   name: SaveHistories
   nameWithType: IViewStateAgent.SaveHistories
   fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveHistories
 - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue*
   commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue
   isExternal: true
-  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_GetHistoryLengthPrefValue
   name: GetHistoryLengthPrefValue
   nameWithType: IViewStateAgent.GetHistoryLengthPrefValue
   fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryLengthPrefValue
 - uid: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue*
   commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue
   isExternal: true
-  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_SetHistoryLengthPrefValue_System_Int32_
   name: SetHistoryLengthPrefValue
   nameWithType: IViewStateAgent.SetHistoryLengthPrefValue
   fullName: SuperOffice.CRM.Services.IViewStateAgent.SetHistoryLengthPrefValue
 - uid: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents*
   commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents
   isExternal: true
-  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_SaveCurrents_SuperOffice_CRM_Services_History___
   name: SaveCurrents
   nameWithType: IViewStateAgent.SaveCurrents
   fullName: SuperOffice.CRM.Services.IViewStateAgent.SaveCurrents
 - uid: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds*
   commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds
   isExternal: true
-  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_GetHistoriesByNamesAndIds_SuperOffice_CRM_Services_HistoryRequest___
   name: GetHistoriesByNamesAndIds
   nameWithType: IViewStateAgent.GetHistoriesByNamesAndIds
   fullName: SuperOffice.CRM.Services.IViewStateAgent.GetHistoriesByNamesAndIds
 - uid: SuperOffice.CRM.Services.HistoryRequest[]
   isExternal: true
-  href: SuperOffice.CRM.Services.HistoryRequest.html
   name: HistoryRequest[]
   nameWithType: HistoryRequest[]
   fullName: SuperOffice.CRM.Services.HistoryRequest[]
@@ -781,27 +733,29 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.HistoryRequest
     name: HistoryRequest
+    nameWithType: HistoryRequest
+    fullName: SuperOffice.CRM.Services.HistoryRequest
     isExternal: true
-    href: SuperOffice.CRM.Services.HistoryRequest.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.HistoryRequest
     name: HistoryRequest
+    nameWithType: HistoryRequest
+    fullName: SuperOffice.CRM.Services.HistoryRequest
     isExternal: true
-    href: SuperOffice.CRM.Services.HistoryRequest.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents*
   commentId: Overload:SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents
   isExternal: true
-  href: SuperOffice.CRM.Services.IViewStateAgent.html#SuperOffice_CRM_Services_IViewStateAgent_PublishAndRetrieveUiEvents_System_Int32_SuperOffice_CRM_Services_UiEvent___SuperOffice_CRM_Services_MetricPair___
   name: PublishAndRetrieveUiEvents
   nameWithType: IViewStateAgent.PublishAndRetrieveUiEvents
   fullName: SuperOffice.CRM.Services.IViewStateAgent.PublishAndRetrieveUiEvents
 - uid: SuperOffice.CRM.Services.UiEvent[]
   isExternal: true
-  href: SuperOffice.CRM.Services.UiEvent.html
   name: UiEvent[]
   nameWithType: UiEvent[]
   fullName: SuperOffice.CRM.Services.UiEvent[]
@@ -811,20 +765,23 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.UiEvent
     name: UiEvent
+    nameWithType: UiEvent
+    fullName: SuperOffice.CRM.Services.UiEvent
     isExternal: true
-    href: SuperOffice.CRM.Services.UiEvent.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.UiEvent
     name: UiEvent
+    nameWithType: UiEvent
+    fullName: SuperOffice.CRM.Services.UiEvent
     isExternal: true
-    href: SuperOffice.CRM.Services.UiEvent.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.MetricPair[]
   isExternal: true
-  href: SuperOffice.CRM.Services.MetricPair.html
   name: MetricPair[]
   nameWithType: MetricPair[]
   fullName: SuperOffice.CRM.Services.MetricPair[]
@@ -834,14 +791,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.MetricPair
     name: MetricPair
+    nameWithType: MetricPair
+    fullName: SuperOffice.CRM.Services.MetricPair
     isExternal: true
-    href: SuperOffice.CRM.Services.MetricPair.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.MetricPair
     name: MetricPair
+    nameWithType: MetricPair
+    fullName: SuperOffice.CRM.Services.MetricPair
     isExternal: true
-    href: SuperOffice.CRM.Services.MetricPair.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

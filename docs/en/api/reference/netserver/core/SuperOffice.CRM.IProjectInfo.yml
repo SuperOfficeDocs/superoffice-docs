@@ -30,17 +30,25 @@ items:
   nameWithType: IProjectInfo
   fullName: SuperOffice.CRM.IProjectInfo
   type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Interface providing information about a project.
-  example: []
+  summary: "\nInterface providing information about a project.\n"
   syntax:
     content: public interface IProjectInfo
     content.vb: Public Interface IProjectInfo
   extensionMethods:
   - SuperOffice.CRM.IProjectInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.IProjectInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(System.Int32)
   commentId: M:SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(System.Int32)
   id: GetUserDefinedInt(System.Int32)
@@ -48,15 +56,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedInt(int)
-  nameWithType: IProjectInfo.GetUserDefinedInt(int)
-  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(int)
+  name: GetUserDefinedInt(Int32)
+  nameWithType: IProjectInfo.GetUserDefinedInt(Int32)
+  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: User defined field x of type integer
-  example: []
+  summary: "\nUser defined field x of type integer\n"
   syntax:
     content: string GetUserDefinedInt(int fieldNo)
     parameters:
@@ -68,9 +78,6 @@ items:
       description: User-defined field value
     content.vb: Function GetUserDefinedInt(fieldNo As Integer) As String
   overload: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt*
-  nameWithType.vb: IProjectInfo.GetUserDefinedInt(Integer)
-  fullName.vb: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(Integer)
-  name.vb: GetUserDefinedInt(Integer)
 - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(System.Int32)
   commentId: M:SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(System.Int32)
   id: GetUserDefinedDecimal(System.Int32)
@@ -78,15 +85,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedDecimal(int)
-  nameWithType: IProjectInfo.GetUserDefinedDecimal(int)
-  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(int)
+  name: GetUserDefinedDecimal(Int32)
+  nameWithType: IProjectInfo.GetUserDefinedDecimal(Int32)
+  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: User defined field x of type double
-  example: []
+  summary: "\nUser defined field x of type double\n"
   syntax:
     content: string GetUserDefinedDecimal(int fieldNo)
     parameters:
@@ -98,9 +107,6 @@ items:
       description: User-defined field value
     content.vb: Function GetUserDefinedDecimal(fieldNo As Integer) As String
   overload: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal*
-  nameWithType.vb: IProjectInfo.GetUserDefinedDecimal(Integer)
-  fullName.vb: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(Integer)
-  name.vb: GetUserDefinedDecimal(Integer)
 - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(System.String)
   commentId: M:SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(System.String)
   id: GetUserDefinedDecimal(System.String)
@@ -108,15 +114,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedDecimal(string)
-  nameWithType: IProjectInfo.GetUserDefinedDecimal(string)
-  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(string)
+  name: GetUserDefinedDecimal(String)
+  nameWithType: IProjectInfo.GetUserDefinedDecimal(String)
+  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(System.String)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Get the decimal udef value based on the prog.id name of the udef field.
-  example: []
+  summary: "\nGet the decimal udef value based on the prog.id name of the udef field.\n"
   syntax:
     content: double GetUserDefinedDecimal(string progId)
     parameters:
@@ -128,9 +136,6 @@ items:
       description: double value of field, or NAN if field not found
     content.vb: Function GetUserDefinedDecimal(progId As String) As Double
   overload: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal*
-  nameWithType.vb: IProjectInfo.GetUserDefinedDecimal(String)
-  fullName.vb: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal(String)
-  name.vb: GetUserDefinedDecimal(String)
 - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(System.String)
   commentId: M:SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(System.String)
   id: GetUserDefinedInt(System.String)
@@ -138,15 +143,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedInt(string)
-  nameWithType: IProjectInfo.GetUserDefinedInt(string)
-  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(string)
+  name: GetUserDefinedInt(String)
+  nameWithType: IProjectInfo.GetUserDefinedInt(String)
+  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(System.String)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Get the int udef value based on the prog.id name of the udef field.
-  example: []
+  summary: "\nGet the int udef value based on the prog.id name of the udef field.\n"
   syntax:
     content: int GetUserDefinedInt(string progId)
     parameters:
@@ -158,9 +165,6 @@ items:
       description: int value of field, or MINVALUE if field not found
     content.vb: Function GetUserDefinedInt(progId As String) As Integer
   overload: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt*
-  nameWithType.vb: IProjectInfo.GetUserDefinedInt(String)
-  fullName.vb: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt(String)
-  name.vb: GetUserDefinedInt(String)
 - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedString(System.String)
   commentId: M:SuperOffice.CRM.IProjectInfo.GetUserDefinedString(System.String)
   id: GetUserDefinedString(System.String)
@@ -168,15 +172,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedString(string)
-  nameWithType: IProjectInfo.GetUserDefinedString(string)
-  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedString(string)
+  name: GetUserDefinedString(String)
+  nameWithType: IProjectInfo.GetUserDefinedString(String)
+  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Get the string udef value based on the prog.id name of the udef field.
-  example: []
+  summary: "\nGet the string udef value based on the prog.id name of the udef field.\n"
   syntax:
     content: string GetUserDefinedString(string progId)
     parameters:
@@ -188,9 +194,6 @@ items:
       description: string value of field, or NULL if field not found
     content.vb: Function GetUserDefinedString(progId As String) As String
   overload: SuperOffice.CRM.IProjectInfo.GetUserDefinedString*
-  nameWithType.vb: IProjectInfo.GetUserDefinedString(String)
-  fullName.vb: SuperOffice.CRM.IProjectInfo.GetUserDefinedString(String)
-  name.vb: GetUserDefinedString(String)
 - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedString(System.Int32)
   commentId: M:SuperOffice.CRM.IProjectInfo.GetUserDefinedString(System.Int32)
   id: GetUserDefinedString(System.Int32)
@@ -198,15 +201,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedString(int)
-  nameWithType: IProjectInfo.GetUserDefinedString(int)
-  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedString(int)
+  name: GetUserDefinedString(Int32)
+  nameWithType: IProjectInfo.GetUserDefinedString(Int32)
+  fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedString(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: User defined field x of type string
-  example: []
+  summary: "\nUser defined field x of type string\n"
   syntax:
     content: string GetUserDefinedString(int fieldNo)
     parameters:
@@ -218,9 +223,6 @@ items:
       description: User-defined field value
     content.vb: Function GetUserDefinedString(fieldNo As Integer) As String
   overload: SuperOffice.CRM.IProjectInfo.GetUserDefinedString*
-  nameWithType.vb: IProjectInfo.GetUserDefinedString(Integer)
-  fullName.vb: SuperOffice.CRM.IProjectInfo.GetUserDefinedString(Integer)
-  name.vb: GetUserDefinedString(Integer)
 - uid: SuperOffice.CRM.IProjectInfo.ProjectId
   commentId: P:SuperOffice.CRM.IProjectInfo.ProjectId
   id: ProjectId
@@ -232,11 +234,13 @@ items:
   nameWithType: IProjectInfo.ProjectId
   fullName: SuperOffice.CRM.IProjectInfo.ProjectId
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Primary key for the project
-  example: []
+  summary: "\nPrimary key for the project\n"
   syntax:
     content: int ProjectId { get; }
     parameters: []
@@ -244,6 +248,10 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property ProjectId As Integer
   overload: SuperOffice.CRM.IProjectInfo.ProjectId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IProjectInfo.Name
   commentId: P:SuperOffice.CRM.IProjectInfo.Name
   id: Name
@@ -255,11 +263,13 @@ items:
   nameWithType: IProjectInfo.Name
   fullName: SuperOffice.CRM.IProjectInfo.Name
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Name of the project
-  example: []
+  summary: "\nName of the project\n"
   syntax:
     content: string Name { get; }
     parameters: []
@@ -267,6 +277,10 @@ items:
       type: System.String
     content.vb: ReadOnly Property Name As String
   overload: SuperOffice.CRM.IProjectInfo.Name*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IProjectInfo.Description
   commentId: P:SuperOffice.CRM.IProjectInfo.Description
   id: Description
@@ -278,11 +292,13 @@ items:
   nameWithType: IProjectInfo.Description
   fullName: SuperOffice.CRM.IProjectInfo.Description
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Description of the project
-  example: []
+  summary: "\nDescription of the project\n"
   syntax:
     content: string Description { get; }
     parameters: []
@@ -290,6 +306,10 @@ items:
       type: System.String
     content.vb: ReadOnly Property Description As String
   overload: SuperOffice.CRM.IProjectInfo.Description*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IProjectInfo.Manager
   commentId: P:SuperOffice.CRM.IProjectInfo.Manager
   id: Manager
@@ -301,11 +321,13 @@ items:
   nameWithType: IProjectInfo.Manager
   fullName: SuperOffice.CRM.IProjectInfo.Manager
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Project manager
-  example: []
+  summary: "\nProject manager\n"
   syntax:
     content: string Manager { get; }
     parameters: []
@@ -313,6 +335,10 @@ items:
       type: System.String
     content.vb: ReadOnly Property Manager As String
   overload: SuperOffice.CRM.IProjectInfo.Manager*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IProjectInfo.Number
   commentId: P:SuperOffice.CRM.IProjectInfo.Number
   id: Number
@@ -324,11 +350,13 @@ items:
   nameWithType: IProjectInfo.Number
   fullName: SuperOffice.CRM.IProjectInfo.Number
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Project number
-  example: []
+  summary: "\nProject number\n"
   syntax:
     content: string Number { get; }
     parameters: []
@@ -336,6 +364,10 @@ items:
       type: System.String
     content.vb: ReadOnly Property Number As String
   overload: SuperOffice.CRM.IProjectInfo.Number*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IProjectInfo.EventDate
   commentId: P:SuperOffice.CRM.IProjectInfo.EventDate
   id: EventDate
@@ -347,11 +379,13 @@ items:
   nameWithType: IProjectInfo.EventDate
   fullName: SuperOffice.CRM.IProjectInfo.EventDate
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Project, event date
-  example: []
+  summary: "\nProject, event date\n"
   syntax:
     content: string EventDate { get; }
     parameters: []
@@ -359,6 +393,10 @@ items:
       type: System.String
     content.vb: ReadOnly Property EventDate As String
   overload: SuperOffice.CRM.IProjectInfo.EventDate*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IProjectInfo.PublishStartDate
   commentId: P:SuperOffice.CRM.IProjectInfo.PublishStartDate
   id: PublishStartDate
@@ -370,11 +408,13 @@ items:
   nameWithType: IProjectInfo.PublishStartDate
   fullName: SuperOffice.CRM.IProjectInfo.PublishStartDate
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Project, start date for publishing.
-  example: []
+  summary: "\nProject, start date for publishing.\n"
   syntax:
     content: string PublishStartDate { get; }
     parameters: []
@@ -382,6 +422,10 @@ items:
       type: System.String
     content.vb: ReadOnly Property PublishStartDate As String
   overload: SuperOffice.CRM.IProjectInfo.PublishStartDate*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IProjectInfo.PublishEndDate
   commentId: P:SuperOffice.CRM.IProjectInfo.PublishEndDate
   id: PublishEndDate
@@ -393,11 +437,13 @@ items:
   nameWithType: IProjectInfo.PublishEndDate
   fullName: SuperOffice.CRM.IProjectInfo.PublishEndDate
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Project, end date for publishing
-  example: []
+  summary: "\nProject, end date for publishing\n"
   syntax:
     content: string PublishEndDate { get; }
     parameters: []
@@ -405,6 +451,10 @@ items:
       type: System.String
     content.vb: ReadOnly Property PublishEndDate As String
   overload: SuperOffice.CRM.IProjectInfo.PublishEndDate*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IProjectInfo.Status
   commentId: P:SuperOffice.CRM.IProjectInfo.Status
   id: Status
@@ -416,11 +466,13 @@ items:
   nameWithType: IProjectInfo.Status
   fullName: SuperOffice.CRM.IProjectInfo.Status
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Project status
-  example: []
+  summary: "\nProject status\n"
   syntax:
     content: string Status { get; }
     parameters: []
@@ -428,6 +480,10 @@ items:
       type: System.String
     content.vb: ReadOnly Property Status As String
   overload: SuperOffice.CRM.IProjectInfo.Status*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IProjectInfo.Type
   commentId: P:SuperOffice.CRM.IProjectInfo.Type
   id: Type
@@ -439,11 +495,13 @@ items:
   nameWithType: IProjectInfo.Type
   fullName: SuperOffice.CRM.IProjectInfo.Type
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: Project type
-  example: []
+  summary: "\nProject type\n"
   syntax:
     content: string Type { get; }
     parameters: []
@@ -451,6 +509,10 @@ items:
       type: System.String
     content.vb: ReadOnly Property Type As String
   overload: SuperOffice.CRM.IProjectInfo.Type*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IProjectInfo.Web
   commentId: P:SuperOffice.CRM.IProjectInfo.Web
   id: Web
@@ -462,11 +524,13 @@ items:
   nameWithType: IProjectInfo.Web
   fullName: SuperOffice.CRM.IProjectInfo.Web
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: The project's primary web address
-  example: []
+  summary: "\nThe project&apos;s primary web address\n"
   syntax:
     content: string Web { get; }
     parameters: []
@@ -474,6 +538,10 @@ items:
       type: System.String
     content.vb: ReadOnly Property Web As String
   overload: SuperOffice.CRM.IProjectInfo.Web*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.IProjectInfo.WebId
   commentId: P:SuperOffice.CRM.IProjectInfo.WebId
   id: WebId
@@ -485,11 +553,13 @@ items:
   nameWithType: IProjectInfo.WebId
   fullName: SuperOffice.CRM.IProjectInfo.WebId
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.CRM
-  summary: The project's primary web address, ID (hidden, unique ID).
-  example: []
+  summary: "\nThe project&apos;s primary web address, ID (hidden, unique ID).\n"
   syntax:
     content: int WebId { get; }
     parameters: []
@@ -497,144 +567,88 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property WebId As Integer
   overload: SuperOffice.CRM.IProjectInfo.WebId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
 - uid: SuperOffice.CRM.IProjectInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<IProjectInfo, To>(IProjectInfo)
-  nameWithType: EnumUtil.MapEnums<IProjectInfo, To>(IProjectInfo)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.IProjectInfo, To>(SuperOffice.CRM.IProjectInfo)
-  nameWithType.vb: EnumUtil.MapEnums(Of IProjectInfo, To)(IProjectInfo)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.IProjectInfo, To)(SuperOffice.CRM.IProjectInfo)
-  name.vb: MapEnums(Of IProjectInfo, To)(IProjectInfo)
+  name: MapEnums<IProjectInfo, To>()
+  nameWithType: EnumUtil.MapEnums<IProjectInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.IProjectInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IProjectInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.IProjectInfo, To)()
+  name.vb: MapEnums(Of IProjectInfo, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.IProjectInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IProjectInfo, To>
+    nameWithType: EnumUtil.MapEnums<IProjectInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.IProjectInfo, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.IProjectInfo
-    name: IProjectInfo
-    isExternal: true
-    href: SuperOffice.CRM.IProjectInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.IProjectInfo
-    name: IProjectInfo
-    isExternal: true
-    href: SuperOffice.CRM.IProjectInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.IProjectInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IProjectInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of IProjectInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.IProjectInfo, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.IProjectInfo
-    name: IProjectInfo
-    isExternal: true
-    href: SuperOffice.CRM.IProjectInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.IProjectInfo
-    name: IProjectInfo
-    isExternal: true
-    href: SuperOffice.CRM.IProjectInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.IProjectInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<IProjectInfo, To>(IProjectInfo)
-  nameWithType: Converters.MapEnums<IProjectInfo, To>(IProjectInfo)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IProjectInfo, To>(SuperOffice.CRM.IProjectInfo)
-  nameWithType.vb: Converters.MapEnums(Of IProjectInfo, To)(IProjectInfo)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IProjectInfo, To)(SuperOffice.CRM.IProjectInfo)
-  name.vb: MapEnums(Of IProjectInfo, To)(IProjectInfo)
+  name: MapEnums<IProjectInfo, To>()
+  nameWithType: Converters.MapEnums<IProjectInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IProjectInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of IProjectInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IProjectInfo, To)()
+  name.vb: MapEnums(Of IProjectInfo, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.IProjectInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IProjectInfo, To>
+    nameWithType: Converters.MapEnums<IProjectInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.IProjectInfo, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.IProjectInfo
-    name: IProjectInfo
-    isExternal: true
-    href: SuperOffice.CRM.IProjectInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.IProjectInfo
-    name: IProjectInfo
-    isExternal: true
-    href: SuperOffice.CRM.IProjectInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.IProjectInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IProjectInfo, To)
+    nameWithType: Converters.MapEnums(Of IProjectInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.IProjectInfo, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.IProjectInfo
-    name: IProjectInfo
-    isExternal: true
-    href: SuperOffice.CRM.IProjectInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.IProjectInfo
-    name: IProjectInfo
-    isExternal: true
-    href: SuperOffice.CRM.IProjectInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -643,45 +657,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -690,83 +702,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt*
   commentId: Overload:SuperOffice.CRM.IProjectInfo.GetUserDefinedInt
   isExternal: true
-  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedInt_System_Int32_
   name: GetUserDefinedInt
   nameWithType: IProjectInfo.GetUserDefinedInt
   fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedInt
@@ -774,35 +753,25 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal*
   commentId: Overload:SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal
   isExternal: true
-  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedDecimal_System_Int32_
   name: GetUserDefinedDecimal
   nameWithType: IProjectInfo.GetUserDefinedDecimal
   fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedDecimal
@@ -810,101 +779,84 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.double
-  name: double
-  nameWithType: double
-  fullName: double
-  nameWithType.vb: Double
-  fullName.vb: Double
-  name.vb: Double
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
 - uid: SuperOffice.CRM.IProjectInfo.GetUserDefinedString*
   commentId: Overload:SuperOffice.CRM.IProjectInfo.GetUserDefinedString
   isExternal: true
-  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_GetUserDefinedString_System_String_
   name: GetUserDefinedString
   nameWithType: IProjectInfo.GetUserDefinedString
   fullName: SuperOffice.CRM.IProjectInfo.GetUserDefinedString
 - uid: SuperOffice.CRM.IProjectInfo.ProjectId*
   commentId: Overload:SuperOffice.CRM.IProjectInfo.ProjectId
   isExternal: true
-  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_ProjectId
   name: ProjectId
   nameWithType: IProjectInfo.ProjectId
   fullName: SuperOffice.CRM.IProjectInfo.ProjectId
 - uid: SuperOffice.CRM.IProjectInfo.Name*
   commentId: Overload:SuperOffice.CRM.IProjectInfo.Name
   isExternal: true
-  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_Name
   name: Name
   nameWithType: IProjectInfo.Name
   fullName: SuperOffice.CRM.IProjectInfo.Name
 - uid: SuperOffice.CRM.IProjectInfo.Description*
   commentId: Overload:SuperOffice.CRM.IProjectInfo.Description
   isExternal: true
-  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_Description
   name: Description
   nameWithType: IProjectInfo.Description
   fullName: SuperOffice.CRM.IProjectInfo.Description
 - uid: SuperOffice.CRM.IProjectInfo.Manager*
   commentId: Overload:SuperOffice.CRM.IProjectInfo.Manager
   isExternal: true
-  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_Manager
   name: Manager
   nameWithType: IProjectInfo.Manager
   fullName: SuperOffice.CRM.IProjectInfo.Manager
 - uid: SuperOffice.CRM.IProjectInfo.Number*
   commentId: Overload:SuperOffice.CRM.IProjectInfo.Number
   isExternal: true
-  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_Number
   name: Number
   nameWithType: IProjectInfo.Number
   fullName: SuperOffice.CRM.IProjectInfo.Number
 - uid: SuperOffice.CRM.IProjectInfo.EventDate*
   commentId: Overload:SuperOffice.CRM.IProjectInfo.EventDate
   isExternal: true
-  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_EventDate
   name: EventDate
   nameWithType: IProjectInfo.EventDate
   fullName: SuperOffice.CRM.IProjectInfo.EventDate
 - uid: SuperOffice.CRM.IProjectInfo.PublishStartDate*
   commentId: Overload:SuperOffice.CRM.IProjectInfo.PublishStartDate
   isExternal: true
-  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_PublishStartDate
   name: PublishStartDate
   nameWithType: IProjectInfo.PublishStartDate
   fullName: SuperOffice.CRM.IProjectInfo.PublishStartDate
 - uid: SuperOffice.CRM.IProjectInfo.PublishEndDate*
   commentId: Overload:SuperOffice.CRM.IProjectInfo.PublishEndDate
   isExternal: true
-  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_PublishEndDate
   name: PublishEndDate
   nameWithType: IProjectInfo.PublishEndDate
   fullName: SuperOffice.CRM.IProjectInfo.PublishEndDate
 - uid: SuperOffice.CRM.IProjectInfo.Status*
   commentId: Overload:SuperOffice.CRM.IProjectInfo.Status
   isExternal: true
-  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_Status
   name: Status
   nameWithType: IProjectInfo.Status
   fullName: SuperOffice.CRM.IProjectInfo.Status
 - uid: SuperOffice.CRM.IProjectInfo.Type*
   commentId: Overload:SuperOffice.CRM.IProjectInfo.Type
   isExternal: true
-  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_Type
   name: Type
   nameWithType: IProjectInfo.Type
   fullName: SuperOffice.CRM.IProjectInfo.Type
 - uid: SuperOffice.CRM.IProjectInfo.Web*
   commentId: Overload:SuperOffice.CRM.IProjectInfo.Web
   isExternal: true
-  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_Web
   name: Web
   nameWithType: IProjectInfo.Web
   fullName: SuperOffice.CRM.IProjectInfo.Web
 - uid: SuperOffice.CRM.IProjectInfo.WebId*
   commentId: Overload:SuperOffice.CRM.IProjectInfo.WebId
   isExternal: true
-  href: SuperOffice.CRM.IProjectInfo.html#SuperOffice_CRM_IProjectInfo_WebId
   name: WebId
   nameWithType: IProjectInfo.WebId
   fullName: SuperOffice.CRM.IProjectInfo.WebId

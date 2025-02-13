@@ -27,41 +27,33 @@ items:
   nameWithType: SORCriteriaRecordData
   fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
-
-    to a row from the SORCriteria table.
-  remarks: >-
-    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.SORCriteriaRow" data-throw-if-not-resolved="false"></xref> object when
-
-    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
-
-    since they carry the corresponding <xref href="SuperOffice.CRM.Data.SORCriteriaTableInfo" data-throw-if-not-resolved="false"></xref> object, which
-
-    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
-  example: []
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the SORCriteria table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.SORCriteriaRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.SORCriteriaTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class SORCriteriaRecordData
-    content.vb: Public Class SORCriteriaRecordData
+    content: 'public class SORCriteriaRecordData : Object'
+    content.vb: >-
+      Public Class SORCriteriaRecordData
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.SORCriteriaRecordData.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Rows.SORCriteriaRecordData.SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.SORCriteriaRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.SORCriteriaRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SORCriteriaRecordData)
   - SuperOffice.CRM.Rows.SORCriteriaRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.SORCriteriaRecordData.SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SORCriteriaRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.SORCriteriaId
   commentId: F:SuperOffice.CRM.Rows.SORCriteriaRecordData.SORCriteriaId
   id: SORCriteriaId
@@ -73,16 +65,22 @@ items:
   nameWithType: SORCriteriaRecordData.SORCriteriaId
   fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData.SORCriteriaId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
     content: public int SORCriteriaId
     return:
       type: System.Int32
     content.vb: Public SORCriteriaId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.SORPublishId
   commentId: F:SuperOffice.CRM.Rows.SORCriteriaRecordData.SORPublishId
   id: SORPublishId
@@ -94,16 +92,22 @@ items:
   nameWithType: SORCriteriaRecordData.SORPublishId
   fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData.SORPublishId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Owning publish name
-  example: []
+  summary: "\nOwning publish name \n"
   syntax:
     content: public int SORPublishId
     return:
       type: System.Int32
     content.vb: Public SORPublishId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.FieldName
   commentId: F:SuperOffice.CRM.Rows.SORCriteriaRecordData.FieldName
   id: FieldName
@@ -115,16 +119,22 @@ items:
   nameWithType: SORCriteriaRecordData.FieldName
   fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData.FieldName
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Database field name
-  example: []
+  summary: "\nDatabase field name \n"
   syntax:
     content: public string FieldName
     return:
       type: System.String
     content.vb: Public FieldName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.SOROperatorsId
   commentId: F:SuperOffice.CRM.Rows.SORCriteriaRecordData.SOROperatorsId
   id: SOROperatorsId
@@ -136,16 +146,22 @@ items:
   nameWithType: SORCriteriaRecordData.SOROperatorsId
   fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData.SOROperatorsId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Operator foreign key
-  example: []
+  summary: "\nOperator foreign key \n"
   syntax:
     content: public int SOROperatorsId
     return:
       type: System.Int32
     content.vb: Public SOROperatorsId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.Value1
   commentId: F:SuperOffice.CRM.Rows.SORCriteriaRecordData.Value1
   id: Value1
@@ -157,16 +173,22 @@ items:
   nameWithType: SORCriteriaRecordData.Value1
   fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData.Value1
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: First part of value
-  example: []
+  summary: "\nFirst part of value \n"
   syntax:
     content: public string Value1
     return:
       type: System.String
     content.vb: Public Value1 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.Value2
   commentId: F:SuperOffice.CRM.Rows.SORCriteriaRecordData.Value2
   id: Value2
@@ -178,16 +200,22 @@ items:
   nameWithType: SORCriteriaRecordData.Value2
   fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData.Value2
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Second part of value
-  example: []
+  summary: "\nSecond part of value \n"
   syntax:
     content: public string Value2
     return:
       type: System.String
     content.vb: Public Value2 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.UseIt
   commentId: F:SuperOffice.CRM.Rows.SORCriteriaRecordData.UseIt
   id: UseIt
@@ -199,16 +227,22 @@ items:
   nameWithType: SORCriteriaRecordData.UseIt
   fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData.UseIt
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: 1=criterion is in use, otherwise 0
-  example: []
+  summary: "\n1=criterion is in use, otherwise 0 \n"
   syntax:
     content: public short UseIt
     return:
       type: System.Int16
     content.vb: Public UseIt As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.WhereOrder
   commentId: F:SuperOffice.CRM.Rows.SORCriteriaRecordData.WhereOrder
   id: WhereOrder
@@ -220,16 +254,22 @@ items:
   nameWithType: SORCriteriaRecordData.WhereOrder
   fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData.WhereOrder
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: relative order in where clause
-  example: []
+  summary: "\nrelative order in where clause \n"
   syntax:
     content: public short WhereOrder
     return:
       type: System.Int16
     content.vb: Public WhereOrder As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.Registered
   commentId: F:SuperOffice.CRM.Rows.SORCriteriaRecordData.Registered
   id: Registered
@@ -241,16 +281,22 @@ items:
   nameWithType: SORCriteriaRecordData.Registered
   fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Registered when in UTC.
-  example: []
+  summary: "\nRegistered when in UTC.  \n"
   syntax:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As Date
+    content.vb: Public Registered As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Rows.SORCriteriaRecordData.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -262,16 +308,22 @@ items:
   nameWithType: SORCriteriaRecordData.RegisteredAssociateId
   fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Registered by whom
-  example: []
+  summary: "\nRegistered by whom \n"
   syntax:
     content: public int RegisteredAssociateId
     return:
       type: System.Int32
     content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.Updated
   commentId: F:SuperOffice.CRM.Rows.SORCriteriaRecordData.Updated
   id: Updated
@@ -283,16 +335,22 @@ items:
   nameWithType: SORCriteriaRecordData.Updated
   fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last updated when in UTC.
-  example: []
+  summary: "\nLast updated when in UTC.  \n"
   syntax:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As Date
+    content.vb: Public Updated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Rows.SORCriteriaRecordData.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -304,16 +362,22 @@ items:
   nameWithType: SORCriteriaRecordData.UpdatedAssociateId
   fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last updated by whom
-  example: []
+  summary: "\nLast updated by whom \n"
   syntax:
     content: public int UpdatedAssociateId
     return:
       type: System.Int32
     content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.UpdatedCount
   commentId: F:SuperOffice.CRM.Rows.SORCriteriaRecordData.UpdatedCount
   id: UpdatedCount
@@ -325,16 +389,22 @@ items:
   nameWithType: SORCriteriaRecordData.UpdatedCount
   fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Number of updates made to this record
-  example: []
+  summary: "\nNumber of updates made to this record \n"
   syntax:
     content: public short UpdatedCount
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.Locked
   commentId: F:SuperOffice.CRM.Rows.SORCriteriaRecordData.Locked
   id: Locked
@@ -346,16 +416,22 @@ items:
   nameWithType: SORCriteriaRecordData.Locked
   fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData.Locked
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: If 1, then this crierion is locked and its value cannot be changed outside of Reporter Studio
-  example: []
+  summary: "\nIf 1, then this crierion is locked and its value cannot be changed outside of Reporter Studio \n"
   syntax:
     content: public short Locked
     return:
       type: System.Int16
     content.vb: Public Locked As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.SORCriteriaRecordData.#ctor
   id: '#ctor'
@@ -367,590 +443,220 @@ items:
   nameWithType: SORCriteriaRecordData.SORCriteriaRecordData()
   fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData.SORCriteriaRecordData()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public SORCriteriaRecordData()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Rows.SORCriteriaRecordData.#ctor*
-  nameWithType.vb: SORCriteriaRecordData.New()
-  fullName.vb: SuperOffice.CRM.Rows.SORCriteriaRecordData.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.Rows.SORCriteriaRow
-  commentId: T:SuperOffice.CRM.Rows.SORCriteriaRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.SORCriteriaRow.html
-  name: SORCriteriaRow
-  nameWithType: SORCriteriaRow
-  fullName: SuperOffice.CRM.Rows.SORCriteriaRow
-- uid: SuperOffice.CRM.Data.SORCriteriaTableInfo
-  commentId: T:SuperOffice.CRM.Data.SORCriteriaTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.SORCriteriaTableInfo.html
-  name: SORCriteriaTableInfo
-  nameWithType: SORCriteriaTableInfo
-  fullName: SuperOffice.CRM.Data.SORCriteriaTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<SORCriteriaRecordData, To>(SORCriteriaRecordData)
-  nameWithType: EnumUtil.MapEnums<SORCriteriaRecordData, To>(SORCriteriaRecordData)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SORCriteriaRecordData, To>(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-  nameWithType.vb: EnumUtil.MapEnums(Of SORCriteriaRecordData, To)(SORCriteriaRecordData)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SORCriteriaRecordData, To)(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-  name.vb: MapEnums(Of SORCriteriaRecordData, To)(SORCriteriaRecordData)
+  name: MapEnums<SORCriteriaRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<SORCriteriaRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SORCriteriaRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SORCriteriaRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SORCriteriaRecordData, To)()
+  name.vb: MapEnums(Of SORCriteriaRecordData, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SORCriteriaRecordData, To>
+    nameWithType: EnumUtil.MapEnums<SORCriteriaRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SORCriteriaRecordData, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SORCriteriaRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of SORCriteriaRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SORCriteriaRecordData, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-  parent: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-  href: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.html#SuperOffice_CRM_Rows_SORCriteriaRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_SORCriteriaRecordData_
-  name: ToInsert(SORCriteriaRecordData)
-  nameWithType: SORCriteriaRecordDataExtensions.ToInsert(SORCriteriaRecordData)
-  fullName: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.html#SuperOffice_CRM_Rows_SORCriteriaRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_SORCriteriaRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.html#SuperOffice_CRM_Rows_SORCriteriaRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_SORCriteriaRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<SORCriteriaRecordData, To>(SORCriteriaRecordData)
-  nameWithType: Converters.MapEnums<SORCriteriaRecordData, To>(SORCriteriaRecordData)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SORCriteriaRecordData, To>(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-  nameWithType.vb: Converters.MapEnums(Of SORCriteriaRecordData, To)(SORCriteriaRecordData)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SORCriteriaRecordData, To)(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-  name.vb: MapEnums(Of SORCriteriaRecordData, To)(SORCriteriaRecordData)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SORCriteriaRecordData)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<SORCriteriaRecordData>(SORCriteriaRecordData, SORCriteriaRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<SORCriteriaRecordData>(SORCriteriaRecordData, SORCriteriaRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SORCriteriaRecordData>(SuperOffice.CRM.Rows.SORCriteriaRecordData, SuperOffice.CRM.Rows.SORCriteriaRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SORCriteriaRecordData)(SORCriteriaRecordData, SORCriteriaRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SORCriteriaRecordData)(SuperOffice.CRM.Rows.SORCriteriaRecordData, SuperOffice.CRM.Rows.SORCriteriaRecordData)
-  name.vb: AssignByReflection(Of SORCriteriaRecordData)(SORCriteriaRecordData, SORCriteriaRecordData)
+  name: AssignByReflection<SORCriteriaRecordData>(SORCriteriaRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<SORCriteriaRecordData>(SORCriteriaRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SORCriteriaRecordData>(SuperOffice.CRM.Rows.SORCriteriaRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SORCriteriaRecordData)(SORCriteriaRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SORCriteriaRecordData)(SuperOffice.CRM.Rows.SORCriteriaRecordData)
+  name.vb: AssignByReflection(Of SORCriteriaRecordData)(SORCriteriaRecordData)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SORCriteriaRecordData,SuperOffice.CRM.Rows.SORCriteriaRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SORCriteriaRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<SORCriteriaRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SORCriteriaRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
     name: SORCriteriaRecordData
+    nameWithType: SORCriteriaRecordData
+    fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SORCriteriaRecordData,SuperOffice.CRM.Rows.SORCriteriaRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SORCriteriaRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SORCriteriaRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SORCriteriaRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
     name: SORCriteriaRecordData
+    nameWithType: SORCriteriaRecordData
+    fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<SORCriteriaRecordData>(SORCriteriaRecordData)
-  nameWithType: ObjectExtensions.GraphCopy<SORCriteriaRecordData>(SORCriteriaRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SORCriteriaRecordData>(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of SORCriteriaRecordData)(SORCriteriaRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SORCriteriaRecordData)(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-  name.vb: GraphCopy(Of SORCriteriaRecordData)(SORCriteriaRecordData)
+  name: GraphCopy<SORCriteriaRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<SORCriteriaRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SORCriteriaRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SORCriteriaRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SORCriteriaRecordData)()
+  name.vb: GraphCopy(Of SORCriteriaRecordData)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SORCriteriaRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<SORCriteriaRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SORCriteriaRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SORCriteriaRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of SORCriteriaRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SORCriteriaRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Data
-  commentId: N:SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Data
-  nameWithType: SuperOffice.CRM.Data
-  fullName: SuperOffice.CRM.Data
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORCriteriaRecordData)
+  parent: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORCriteriaRecordData)
+  name: ToInsert()
+  nameWithType: SORCriteriaRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert()
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: SORCriteriaRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: SORCriteriaRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SORCriteriaRecordData, To>()
+  nameWithType: Converters.MapEnums<SORCriteriaRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SORCriteriaRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of SORCriteriaRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SORCriteriaRecordData, To)()
+  name.vb: MapEnums(Of SORCriteriaRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SORCriteriaRecordData, To>
+    nameWithType: Converters.MapEnums<SORCriteriaRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SORCriteriaRecordData, To>
     isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SORCriteriaRecordData, To)
+    nameWithType: Converters.MapEnums(Of SORCriteriaRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SORCriteriaRecordData, To)
     isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -959,130 +665,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-  commentId: M:SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-  isExternal: true
-  href: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.html#SuperOffice_CRM_Rows_SORCriteriaRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_SORCriteriaRecordData_
-  name: ToInsert(SORCriteriaRecordData)
-  nameWithType: SORCriteriaRecordDataExtensions.ToInsert(SORCriteriaRecordData)
-  fullName: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.html#SuperOffice_CRM_Rows_SORCriteriaRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_SORCriteriaRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORCriteriaRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.html#SuperOffice_CRM_Rows_SORCriteriaRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_SORCriteriaRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
-    name: SORCriteriaRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions
-  commentId: T:SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.html
-  name: SORCriteriaRecordDataExtensions
-  nameWithType: SORCriteriaRecordDataExtensions
-  fullName: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1091,46 +710,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1139,143 +768,168 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORCriteriaRecordData)
+  commentId: M:SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORCriteriaRecordData)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: ToInsert(SORCriteriaRecordData)
+  nameWithType: SORCriteriaRecordDataExtensions.ToInsert(SORCriteriaRecordData)
+  fullName: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORCriteriaRecordData)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORCriteriaRecordData)
+    name: ToInsert
+    nameWithType: SORCriteriaRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
+    name: SORCriteriaRecordData
+    nameWithType: SORCriteriaRecordData
+    fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SORCriteriaRecordData)
+    name: ToInsert
+    nameWithType: SORCriteriaRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData
+    name: SORCriteriaRecordData
+    nameWithType: SORCriteriaRecordData
+    fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: SORCriteriaRecordDataExtensions
+  nameWithType: SORCriteriaRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.SORCriteriaRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Rows.SORCriteriaRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.SORCriteriaRecordData.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Rows.SORCriteriaRecordData.html#SuperOffice_CRM_Rows_SORCriteriaRecordData__ctor
   name: SORCriteriaRecordData
   nameWithType: SORCriteriaRecordData.SORCriteriaRecordData
   fullName: SuperOffice.CRM.Rows.SORCriteriaRecordData.SORCriteriaRecordData
-  nameWithType.vb: SORCriteriaRecordData.New
-  fullName.vb: SuperOffice.CRM.Rows.SORCriteriaRecordData.New
-  name.vb: New

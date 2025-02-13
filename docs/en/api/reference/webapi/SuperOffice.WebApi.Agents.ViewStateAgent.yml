@@ -30,29 +30,21 @@ items:
   nameWithType: ViewStateAgent
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: User interface view state, history, currentXXX values
+  summary: "\nUser interface view state, history, currentXXX values\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice.WebApi;
-
-    using SuperOffice.WebApi.Agents;
-
-
-    var mySession = new WebApiOptions("http://example.com/super/api");
-
-    mySession.Authorization = new AuthorizationUsernamePassword("user", "pass");
-
-    using (ViewStateAgent agent = new ViewStateAgent(mySession))
-
-    {
-          // call methods on agent here...
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (ViewStateAgent agent = new ViewStateAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
   syntax:
     content: 'public class ViewStateAgent : AgentBase, IViewStateAgent, IDisposable'
-    content.vb: Public Class ViewStateAgent Inherits AgentBase Implements IViewStateAgent, IDisposable
+    content.vb: >-
+      Public Class ViewStateAgent
+          Inherits AgentBase
+          Implements IViewStateAgent, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.WebApi.Agents.AgentBase
@@ -84,13 +76,12 @@ items:
   - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
   - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
   - SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.#ctor(System.Net.Http.HttpClient)
   commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.#ctor(System.Net.Http.HttpClient)
   id: '#ctor(System.Net.Http.HttpClient)'
@@ -102,11 +93,13 @@ items:
   nameWithType: ViewStateAgent.ViewStateAgent(HttpClient)
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.ViewStateAgent(System.Net.Http.HttpClient)
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: 'Constructor: User interface view state, history, currentXXX values'
-  example: []
+  summary: "\nConstructor: User interface view state, history, currentXXX values\n"
   syntax:
     content: public ViewStateAgent(HttpClient httpClient)
     parameters:
@@ -115,9 +108,10 @@ items:
       description: Use this HTTP client instead of making own HttpClient instance.
     content.vb: Public Sub New(httpClient As HttpClient)
   overload: SuperOffice.WebApi.Agents.ViewStateAgent.#ctor*
-  nameWithType.vb: ViewStateAgent.New(HttpClient)
-  fullName.vb: SuperOffice.WebApi.Agents.ViewStateAgent.New(System.Net.Http.HttpClient)
-  name.vb: New(HttpClient)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
   commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
   id: '#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)'
@@ -129,11 +123,13 @@ items:
   nameWithType: ViewStateAgent.ViewStateAgent(WebApiOptions, HttpClient)
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.ViewStateAgent(SuperOffice.WebApi.WebApiOptions, System.Net.Http.HttpClient)
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: 'Constructor: User interface view state, history, currentXXX values'
-  example: []
+  summary: "\nConstructor: User interface view state, history, currentXXX values\n"
   syntax:
     content: public ViewStateAgent(WebApiOptions options, HttpClient httpClient = null)
     parameters:
@@ -145,9 +141,10 @@ items:
       description: 'Optional: Use this HTTP client instead of making a new one.'
     content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
   overload: SuperOffice.WebApi.Agents.ViewStateAgent.#ctor*
-  nameWithType.vb: ViewStateAgent.New(WebApiOptions, HttpClient)
-  fullName.vb: SuperOffice.WebApi.Agents.ViewStateAgent.New(SuperOffice.WebApi.WebApiOptions, System.Net.Http.HttpClient)
-  name.vb: New(WebApiOptions, HttpClient)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetLiveUiConfigAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.GetLiveUiConfigAsync(SuperOffice.WebApi.RequestOptions)
   id: GetLiveUiConfigAsync(SuperOffice.WebApi.RequestOptions)
@@ -159,17 +156,19 @@ items:
   nameWithType: ViewStateAgent.GetLiveUiConfigAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetLiveUiConfigAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Gets live UI configuration
-  example: []
+  summary: "\nGets live UI configuration\n"
   syntax:
     content: public Task<LiveUiConfig> GetLiveUiConfigAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LiveUiConfig}
       description: Live UI configuration containing the parameters needed for live UI functionality
@@ -177,6 +176,10 @@ items:
   overload: SuperOffice.WebApi.Agents.ViewStateAgent.GetLiveUiConfigAsync*
   implements:
   - SuperOffice.WebApi.Agents.IViewStateAgent.GetLiveUiConfigAsync(SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetHistoryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -184,15 +187,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetHistoryAsync(int, RequestOptions)
-  nameWithType: ViewStateAgent.GetHistoryAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: GetHistoryAsync(Int32, RequestOptions)
+  nameWithType: ViewStateAgent.GetHistoryAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Gets a specific History object.
-  example: []
+  summary: "\nGets a specific History object.                        \n"
   syntax:
     content: public Task<History> GetHistoryAsync(int historyId, RequestOptions requestOptions = null)
     parameters:
@@ -201,7 +206,7 @@ items:
       description: The identifier of the History object
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.History}
       description: History
@@ -209,9 +214,10 @@ items:
   overload: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryAsync*
   implements:
   - SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: ViewStateAgent.GetHistoryAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetHistoryAsync(Integer, RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetCurrentAsync(System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.GetCurrentAsync(System.String,SuperOffice.WebApi.RequestOptions)
   id: GetCurrentAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -219,15 +225,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetCurrentAsync(string, RequestOptions)
-  nameWithType: ViewStateAgent.GetCurrentAsync(string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetCurrentAsync(string, SuperOffice.WebApi.RequestOptions)
+  name: GetCurrentAsync(String, RequestOptions)
+  nameWithType: ViewStateAgent.GetCurrentAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetCurrentAsync(System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get the current (most recent) value of the history list. This is the item with rank = 1. If no item exists a default value is returned. This is usually the first item in the table representing the history list.
-  example: []
+  summary: "\nGet the current (most recent) value of the history list. This is the item with rank = 1. If no item exists a default value is returned. This is usually the first item in the table representing the history list.\n"
   syntax:
     content: public Task<History> GetCurrentAsync(string historyName, RequestOptions requestOptions = null)
     parameters:
@@ -236,7 +244,7 @@ items:
       description: Name of the history list, e.g. contact, project
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.History}
       description: The current (most recent) history item
@@ -244,9 +252,10 @@ items:
   overload: SuperOffice.WebApi.Agents.ViewStateAgent.GetCurrentAsync*
   implements:
   - SuperOffice.WebApi.Agents.IViewStateAgent.GetCurrentAsync(System.String,SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: ViewStateAgent.GetCurrentAsync(String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ViewStateAgent.GetCurrentAsync(String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetCurrentAsync(String, RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.SaveCurrentAsync(SuperOffice.WebApi.Data.History,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.SaveCurrentAsync(SuperOffice.WebApi.Data.History,SuperOffice.WebApi.RequestOptions)
   id: SaveCurrentAsync(SuperOffice.WebApi.Data.History,SuperOffice.WebApi.RequestOptions)
@@ -258,11 +267,13 @@ items:
   nameWithType: ViewStateAgent.SaveCurrentAsync(History, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.SaveCurrentAsync(SuperOffice.WebApi.Data.History, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Saving the current history item. This history item is saved with Rank = 1, and all the remaining elements rank values are shifted one down. The list is maintained with the max lenght of the History list length preference.
-  example: []
+  summary: "\nSaving the current history item. This history item is saved with Rank = 1, and all the remaining elements rank values are shifted one down. The list is maintained with the max lenght of the History list length preference.\n"
   syntax:
     content: public Task<History> SaveCurrentAsync(History current, RequestOptions requestOptions = null)
     parameters:
@@ -271,7 +282,7 @@ items:
       description: The new current history element.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.History}
       description: The current (most recent) history item
@@ -279,6 +290,10 @@ items:
   overload: SuperOffice.WebApi.Agents.ViewStateAgent.SaveCurrentAsync*
   implements:
   - SuperOffice.WebApi.Agents.IViewStateAgent.SaveCurrentAsync(SuperOffice.WebApi.Data.History,SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetNextCurrentAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.GetNextCurrentAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetNextCurrentAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -286,15 +301,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetNextCurrentAsync(string, int, RequestOptions)
-  nameWithType: ViewStateAgent.GetNextCurrentAsync(string, int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetNextCurrentAsync(string, int, SuperOffice.WebApi.RequestOptions)
+  name: GetNextCurrentAsync(String, Int32, RequestOptions)
+  nameWithType: ViewStateAgent.GetNextCurrentAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetNextCurrentAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Returns the next current item. If no item exists a default value is returned. This is usually the first item in the table representing the history list.
-  example: []
+  summary: "\nReturns the next current item. If no item exists a default value is returned. This is usually the first item in the table representing the history list.\n"
   syntax:
     content: public Task<History> GetNextCurrentAsync(string historyName, int id, RequestOptions requestOptions = null)
     parameters:
@@ -306,7 +323,7 @@ items:
       description: Id of the history element, e.g. Contact id
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.History}
       description: The current value.
@@ -314,9 +331,10 @@ items:
   overload: SuperOffice.WebApi.Agents.ViewStateAgent.GetNextCurrentAsync*
   implements:
   - SuperOffice.WebApi.Agents.IViewStateAgent.GetNextCurrentAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: ViewStateAgent.GetNextCurrentAsync(String, Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ViewStateAgent.GetNextCurrentAsync(String, Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetNextCurrentAsync(String, Integer, RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetPreviousCurrentAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.GetPreviousCurrentAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetPreviousCurrentAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -324,15 +342,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPreviousCurrentAsync(string, int, RequestOptions)
-  nameWithType: ViewStateAgent.GetPreviousCurrentAsync(string, int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetPreviousCurrentAsync(string, int, SuperOffice.WebApi.RequestOptions)
+  name: GetPreviousCurrentAsync(String, Int32, RequestOptions)
+  nameWithType: ViewStateAgent.GetPreviousCurrentAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetPreviousCurrentAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Returns the previous current item. If no item exists a default value is returned. This is usually the first item in the table representing the history list.
-  example: []
+  summary: "\nReturns the previous current item. If no item exists a default value is returned. This is usually the first item in the table representing the history list.\n"
   syntax:
     content: public Task<History> GetPreviousCurrentAsync(string historyName, int id, RequestOptions requestOptions = null)
     parameters:
@@ -344,7 +364,7 @@ items:
       description: Id of the history element, e.g. Contact id
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.History}
       description: The current value.
@@ -352,9 +372,10 @@ items:
   overload: SuperOffice.WebApi.Agents.ViewStateAgent.GetPreviousCurrentAsync*
   implements:
   - SuperOffice.WebApi.Agents.IViewStateAgent.GetPreviousCurrentAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: ViewStateAgent.GetPreviousCurrentAsync(String, Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ViewStateAgent.GetPreviousCurrentAsync(String, Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetPreviousCurrentAsync(String, Integer, RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.DeleteHistoryAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.DeleteHistoryAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   id: DeleteHistoryAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -362,15 +383,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteHistoryAsync(string, int, RequestOptions)
-  nameWithType: ViewStateAgent.DeleteHistoryAsync(string, int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.DeleteHistoryAsync(string, int, SuperOffice.WebApi.RequestOptions)
+  name: DeleteHistoryAsync(String, Int32, RequestOptions)
+  nameWithType: ViewStateAgent.DeleteHistoryAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.DeleteHistoryAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Deletes the history element
-  example: []
+  summary: "\nDeletes the history element\n"
   syntax:
     content: public Task DeleteHistoryAsync(string historyName, int id, RequestOptions requestOptions = null)
     parameters:
@@ -382,17 +405,17 @@ items:
       description: Id of the history element, e.g. Contact id
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
-      description: ''
     content.vb: Public Function DeleteHistoryAsync(historyName As String, id As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ViewStateAgent.DeleteHistoryAsync*
   implements:
   - SuperOffice.WebApi.Agents.IViewStateAgent.DeleteHistoryAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: ViewStateAgent.DeleteHistoryAsync(String, Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ViewStateAgent.DeleteHistoryAsync(String, Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: DeleteHistoryAsync(String, Integer, RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesAsync(SuperOffice.WebApi.RequestOptions)
   id: GetHistoriesAsync(SuperOffice.WebApi.RequestOptions)
@@ -404,17 +427,19 @@ items:
   nameWithType: ViewStateAgent.GetHistoriesAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Returns all history items that belong to the currently logged in user
-  example: []
+  summary: "\nReturns all history items that belong to the currently logged in user\n"
   syntax:
     content: public Task<History[]> GetHistoriesAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.History[]}
       description: Array of History items
@@ -422,6 +447,10 @@ items:
   overload: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesAsync*
   implements:
   - SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesAsync(SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
   id: GetHistoriesByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -429,15 +458,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetHistoriesByNameAsync(string, RequestOptions)
-  nameWithType: ViewStateAgent.GetHistoriesByNameAsync(string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNameAsync(string, SuperOffice.WebApi.RequestOptions)
+  name: GetHistoriesByNameAsync(String, RequestOptions)
+  nameWithType: ViewStateAgent.GetHistoriesByNameAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNameAsync(System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Returns the named history list that belong to the currently logged in user
-  example: []
+  summary: "\nReturns the named history list that belong to the currently logged in user\n"
   syntax:
     content: public Task<History[]> GetHistoriesByNameAsync(string historyName, RequestOptions requestOptions = null)
     parameters:
@@ -446,7 +477,7 @@ items:
       description: Name of the history list
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.History[]}
       description: Array of History items
@@ -454,9 +485,10 @@ items:
   overload: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNameAsync*
   implements:
   - SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: ViewStateAgent.GetHistoriesByNameAsync(String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNameAsync(String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetHistoriesByNameAsync(String, RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNamesAsync(System.String[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNamesAsync(System.String[],SuperOffice.WebApi.RequestOptions)
   id: GetHistoriesByNamesAsync(System.String[],SuperOffice.WebApi.RequestOptions)
@@ -464,15 +496,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetHistoriesByNamesAsync(string[], RequestOptions)
-  nameWithType: ViewStateAgent.GetHistoriesByNamesAsync(string[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNamesAsync(string[], SuperOffice.WebApi.RequestOptions)
+  name: GetHistoriesByNamesAsync(String[], RequestOptions)
+  nameWithType: ViewStateAgent.GetHistoriesByNamesAsync(String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNamesAsync(System.String[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Returns the named history lists that belong to the currently logged in user
-  example: []
+  summary: "\nReturns the named history lists that belong to the currently logged in user\n"
   syntax:
     content: public Task<History[]> GetHistoriesByNamesAsync(string[] historyNames, RequestOptions requestOptions = null)
     parameters:
@@ -481,7 +515,7 @@ items:
       description: String array of list names
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.History[]}
       description: Array of History items
@@ -490,7 +524,11 @@ items:
   implements:
   - SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNamesAsync(System.String[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: ViewStateAgent.GetHistoriesByNamesAsync(String(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNamesAsync(String(), SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNamesAsync(System.String(), SuperOffice.WebApi.RequestOptions)
   name.vb: GetHistoriesByNamesAsync(String(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.SaveHistoriesAsync(System.String,SuperOffice.WebApi.Data.History[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.SaveHistoriesAsync(System.String,SuperOffice.WebApi.Data.History[],SuperOffice.WebApi.RequestOptions)
@@ -499,27 +537,28 @@ items:
   langs:
   - csharp
   - vb
-  name: SaveHistoriesAsync(string, History[], RequestOptions)
-  nameWithType: ViewStateAgent.SaveHistoriesAsync(string, History[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.SaveHistoriesAsync(string, SuperOffice.WebApi.Data.History[], SuperOffice.WebApi.RequestOptions)
+  name: SaveHistoriesAsync(String, History[], RequestOptions)
+  nameWithType: ViewStateAgent.SaveHistoriesAsync(String, History[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.SaveHistoriesAsync(System.String, SuperOffice.WebApi.Data.History[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Replaces the existing history-list for the currently logged in user. All elements must belong to the same history list. If not they are ignored.
-  example: []
+  summary: "\nReplaces the existing history-list for the currently logged in user. All elements must belong to the same history list. If not they are ignored.\n"
   syntax:
     content: public Task<History[]> SaveHistoriesAsync(string historyName, History[] history, RequestOptions requestOptions = null)
     parameters:
     - id: historyName
       type: System.String
-      description: ''
     - id: history
       type: SuperOffice.WebApi.Data.History[]
       description: Array of new history items to save.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.History[]}
       description: Array of the saved History items
@@ -528,7 +567,11 @@ items:
   implements:
   - SuperOffice.WebApi.Agents.IViewStateAgent.SaveHistoriesAsync(System.String,SuperOffice.WebApi.Data.History[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: ViewStateAgent.SaveHistoriesAsync(String, History(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ViewStateAgent.SaveHistoriesAsync(String, SuperOffice.WebApi.Data.History(), SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ViewStateAgent.SaveHistoriesAsync(System.String, SuperOffice.WebApi.Data.History(), SuperOffice.WebApi.RequestOptions)
   name.vb: SaveHistoriesAsync(String, History(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
@@ -541,17 +584,19 @@ items:
   nameWithType: ViewStateAgent.GetHistoryLengthPrefValueAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get the logged on user's preferred history list length. Will return the system preference if no user preferences are available.
-  example: []
+  summary: "\nGet the logged on user&apos;s preferred history list length. Will return the system preference if no user preferences are available.\n"
   syntax:
     content: public Task<int> GetHistoryLengthPrefValueAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{System.Int32}
       description: The history list lenght
@@ -559,6 +604,10 @@ items:
   overload: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync*
   implements:
   - SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -566,15 +615,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetHistoryLengthPrefValueAsync(int, RequestOptions)
-  nameWithType: ViewStateAgent.SetHistoryLengthPrefValueAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: SetHistoryLengthPrefValueAsync(Int32, RequestOptions)
+  nameWithType: ViewStateAgent.SetHistoryLengthPrefValueAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Set the logged on user's preferred history list length.
-  example: []
+  summary: "\nSet the logged on user&apos;s preferred history list length.\n"
   syntax:
     content: public Task SetHistoryLengthPrefValueAsync(int length, RequestOptions requestOptions = null)
     parameters:
@@ -583,17 +634,17 @@ items:
       description: The new history list lenght
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
-      description: ''
     content.vb: Public Function SetHistoryLengthPrefValueAsync(length As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync*
   implements:
   - SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: ViewStateAgent.SetHistoryLengthPrefValueAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: SetHistoryLengthPrefValueAsync(Integer, RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.SaveCurrentsAsync(SuperOffice.WebApi.Data.History[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ViewStateAgent.SaveCurrentsAsync(SuperOffice.WebApi.Data.History[],SuperOffice.WebApi.RequestOptions)
   id: SaveCurrentsAsync(SuperOffice.WebApi.Data.History[],SuperOffice.WebApi.RequestOptions)
@@ -605,11 +656,13 @@ items:
   nameWithType: ViewStateAgent.SaveCurrentsAsync(History[], RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.SaveCurrentsAsync(SuperOffice.WebApi.Data.History[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Saves the history elements as the current value for their respective lists. If more than one item is submitted for the same list, they are added sequently, meaning that the last one is the most current.
-  example: []
+  summary: "\nSaves the history elements as the current value for their respective lists. If more than one item is submitted for the same list, they are added sequently, meaning that the last one is the most current.\n"
   syntax:
     content: public Task<History[]> SaveCurrentsAsync(History[] currents, RequestOptions requestOptions = null)
     parameters:
@@ -618,7 +671,7 @@ items:
       description: Array of new history items to save.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.History[]}
       description: Array of the saved History items
@@ -627,6 +680,10 @@ items:
   implements:
   - SuperOffice.WebApi.Agents.IViewStateAgent.SaveCurrentsAsync(SuperOffice.WebApi.Data.History[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: ViewStateAgent.SaveCurrentsAsync(History(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
   fullName.vb: SuperOffice.WebApi.Agents.ViewStateAgent.SaveCurrentsAsync(SuperOffice.WebApi.Data.History(), SuperOffice.WebApi.RequestOptions)
   name.vb: SaveCurrentsAsync(History(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNamesAndIdsAsync(SuperOffice.WebApi.Data.HistoryRequest[],SuperOffice.WebApi.RequestOptions)
@@ -640,11 +697,13 @@ items:
   nameWithType: ViewStateAgent.GetHistoriesByNamesAndIdsAsync(HistoryRequest[], RequestOptions)
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNamesAndIdsAsync(SuperOffice.WebApi.Data.HistoryRequest[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Returns history data for the named entities and the given ids - which may not directly correspond to the current history records in the database.&lt;para/&gt;Use this method if you know exactly which items you need, regardless of whether they are in the current history or not.&lt;para/&gt;The history in the database is not changed or even looked at by this method.
-  example: []
+  summary: "\nReturns history data for the named entities and the given ids - which may not directly correspond to the current history records in the database.&lt;para/>Use this method if you know exactly which items you need, regardless of whether they are in the current history or not.&lt;para/>The history in the database is not changed or even looked at by this method.\n"
   syntax:
     content: public Task<History[]> GetHistoriesByNamesAndIdsAsync(HistoryRequest[] requests, RequestOptions requestOptions = null)
     parameters:
@@ -653,15 +712,19 @@ items:
       description: Array of request objects that define what entities we are requesting history information for
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.History[]}
-      description: On history item for each history name/id pair specified, in exactly the same order as specified.&lt;para/&gt;If a specified item cannot be found in the database, its Id will be 0 and its name will be blank in the return array.
+      description: On history item for each history name/id pair specified, in exactly the same order as specified.&lt;para/>If a specified item cannot be found in the database, its Id will be 0 and its name will be blank in the return array.
     content.vb: Public Function GetHistoriesByNamesAndIdsAsync(requests As HistoryRequest(), requestOptions As RequestOptions = Nothing) As Task(Of History())
   overload: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNamesAndIdsAsync*
   implements:
   - SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNamesAndIdsAsync(SuperOffice.WebApi.Data.HistoryRequest[],SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: ViewStateAgent.GetHistoriesByNamesAndIdsAsync(HistoryRequest(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
   fullName.vb: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNamesAndIdsAsync(SuperOffice.WebApi.Data.HistoryRequest(), SuperOffice.WebApi.RequestOptions)
   name.vb: GetHistoriesByNamesAndIdsAsync(HistoryRequest(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.PublishAndRetrieveUiEventsAsync(System.Int32,SuperOffice.WebApi.Data.UiEvent[],SuperOffice.WebApi.Data.MetricPair[],SuperOffice.WebApi.RequestOptions)
@@ -671,15 +734,17 @@ items:
   langs:
   - csharp
   - vb
-  name: PublishAndRetrieveUiEventsAsync(int, UiEvent[], MetricPair[], RequestOptions)
-  nameWithType: ViewStateAgent.PublishAndRetrieveUiEventsAsync(int, UiEvent[], MetricPair[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.PublishAndRetrieveUiEventsAsync(int, SuperOffice.WebApi.Data.UiEvent[], SuperOffice.WebApi.Data.MetricPair[], SuperOffice.WebApi.RequestOptions)
+  name: PublishAndRetrieveUiEventsAsync(Int32, UiEvent[], MetricPair[], RequestOptions)
+  nameWithType: ViewStateAgent.PublishAndRetrieveUiEventsAsync(Int32, UiEvent[], MetricPair[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ViewStateAgent.PublishAndRetrieveUiEventsAsync(System.Int32, SuperOffice.WebApi.Data.UiEvent[], SuperOffice.WebApi.Data.MetricPair[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Publish zero or more events, and return any new events since the given event id. The initial implementation is in-memory only; applies solely to the front-end web server; and anything older than 20 minutes is discarded
-  example: []
+  summary: "\nPublish zero or more events, and return any new events since the given event id. The initial implementation is in-memory only; applies solely to the front-end web server; and anything older than 20 minutes is discarded\n"
   syntax:
     content: public Task<UiEvent[]> PublishAndRetrieveUiEventsAsync(int latestKnownEventId, UiEvent[] publishEvents, MetricPair[] metrics, RequestOptions requestOptions = null)
     parameters:
@@ -694,7 +759,7 @@ items:
       description: Optional statistical and performance metrics collected by the frontend. Can be null or empty. Metrics are sum-accumulated and reported once a minute; please do not report the same logical event twice
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UiEvent[]}
       description: Array of events since the given event ID; within the time span kept by the event mechanism. Event/primarykey combinations are not guaranteed to be unique, and events in the PublishEvents parameter are echoed back to the client
@@ -702,63 +767,31 @@ items:
   overload: SuperOffice.WebApi.Agents.ViewStateAgent.PublishAndRetrieveUiEventsAsync*
   implements:
   - SuperOffice.WebApi.Agents.IViewStateAgent.PublishAndRetrieveUiEventsAsync(System.Int32,SuperOffice.WebApi.Data.UiEvent[],SuperOffice.WebApi.Data.MetricPair[],SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: ViewStateAgent.PublishAndRetrieveUiEventsAsync(Integer, UiEvent(), MetricPair(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.ViewStateAgent.PublishAndRetrieveUiEventsAsync(Integer, SuperOffice.WebApi.Data.UiEvent(), SuperOffice.WebApi.Data.MetricPair(), SuperOffice.WebApi.RequestOptions)
-  name.vb: PublishAndRetrieveUiEventsAsync(Integer, UiEvent(), MetricPair(), RequestOptions)
+  nameWithType.vb: ViewStateAgent.PublishAndRetrieveUiEventsAsync(Int32, UiEvent(), MetricPair(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ViewStateAgent.PublishAndRetrieveUiEventsAsync(System.Int32, SuperOffice.WebApi.Data.UiEvent(), SuperOffice.WebApi.Data.MetricPair(), SuperOffice.WebApi.RequestOptions)
+  name.vb: PublishAndRetrieveUiEventsAsync(Int32, UiEvent(), MetricPair(), RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Agents
-    name: Agents
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Agents
-    name: Agents
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Agents.AgentBase
   commentId: T:SuperOffice.WebApi.Agents.AgentBase
   parent: SuperOffice.WebApi.Agents
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html
   name: AgentBase
   nameWithType: AgentBase
   fullName: SuperOffice.WebApi.Agents.AgentBase
@@ -766,15 +799,11 @@ references:
   commentId: T:SuperOffice.WebApi.Agents.IViewStateAgent
   parent: SuperOffice.WebApi.Agents
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IViewStateAgent.html
   name: IViewStateAgent
   nameWithType: IViewStateAgent
   fullName: SuperOffice.WebApi.Agents.IViewStateAgent
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
@@ -782,7 +811,6 @@ references:
   commentId: F:SuperOffice.WebApi.Agents.AgentBase._json
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase__json
   name: _json
   nameWithType: AgentBase._json
   fullName: SuperOffice.WebApi.Agents.AgentBase._json
@@ -790,7 +818,6 @@ references:
   commentId: F:SuperOffice.WebApi.Agents.AgentBase._binary
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase__binary
   name: _binary
   nameWithType: AgentBase._binary
   fullName: SuperOffice.WebApi.Agents.AgentBase._binary
@@ -798,7 +825,6 @@ references:
   commentId: F:SuperOffice.WebApi.Agents.AgentBase._config
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase__config
   name: _config
   nameWithType: AgentBase._config
   fullName: SuperOffice.WebApi.Agents.AgentBase._config
@@ -806,7 +832,6 @@ references:
   commentId: F:SuperOffice.WebApi.Agents.AgentBase._client
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase__client
   name: _client
   nameWithType: AgentBase._client
   fullName: SuperOffice.WebApi.Agents.AgentBase._client
@@ -814,7 +839,6 @@ references:
   commentId: F:SuperOffice.WebApi.Agents.AgentBase._disposeClient
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase__disposeClient
   name: _disposeClient
   nameWithType: AgentBase._disposeClient
   fullName: SuperOffice.WebApi.Agents.AgentBase._disposeClient
@@ -822,600 +846,790 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Merge_SuperOffice_WebApi_RequestOptions_
   name: Merge(RequestOptions)
   nameWithType: AgentBase.Merge(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
     name: Merge
+    nameWithType: AgentBase.Merge
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Merge_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
     name: Merge
+    nameWithType: AgentBase.Merge
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Merge_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromObject_System_Net_Http_HttpMethod_System_String_System_Object_SuperOffice_WebApi_WebApiOptions_System_String_
-  name: BuildRequestFromObject(HttpMethod, string, object, WebApiOptions, string)
-  nameWithType: AgentBase.BuildRequestFromObject(HttpMethod, string, object, WebApiOptions, string)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod, string, object, SuperOffice.WebApi.WebApiOptions, string)
-  nameWithType.vb: AgentBase.BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
-  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod, String, Object, SuperOffice.WebApi.WebApiOptions, String)
-  name.vb: BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  name: BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
     name: BuildRequestFromObject
+    nameWithType: AgentBase.BuildRequestFromObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromObject_System_Net_Http_HttpMethod_System_String_System_Object_SuperOffice_WebApi_WebApiOptions_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Net.Http.HttpMethod
     name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Object
-    name: object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.WebApiOptions
     name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
     isExternal: true
-    href: SuperOffice.WebApi.WebApiOptions.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
     name: BuildRequestFromObject
+    nameWithType: AgentBase.BuildRequestFromObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromObject_System_Net_Http_HttpMethod_System_String_System_Object_SuperOffice_WebApi_WebApiOptions_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Net.Http.HttpMethod
     name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Object
     name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.WebApiOptions
     name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
     isExternal: true
-    href: SuperOffice.WebApi.WebApiOptions.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromStream_System_Net_Http_HttpMethod_System_String_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
-  name: BuildRequestFromStream(HttpMethod, string, Stream, WebApiOptions, string)
-  nameWithType: AgentBase.BuildRequestFromStream(HttpMethod, string, Stream, WebApiOptions, string)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod, string, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, string)
-  nameWithType.vb: AgentBase.BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
-  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod, String, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, String)
-  name.vb: BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  name: BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod, System.String, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
     name: BuildRequestFromStream
+    nameWithType: AgentBase.BuildRequestFromStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromStream_System_Net_Http_HttpMethod_System_String_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Net.Http.HttpMethod
     name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.IO.Stream
     name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.WebApiOptions
     name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
     isExternal: true
-    href: SuperOffice.WebApi.WebApiOptions.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
     name: BuildRequestFromStream
+    nameWithType: AgentBase.BuildRequestFromStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromStream_System_Net_Http_HttpMethod_System_String_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Net.Http.HttpMethod
     name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.IO.Stream
     name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.WebApiOptions
     name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
     isExternal: true
-    href: SuperOffice.WebApi.WebApiOptions.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromObjectWithStream_System_Net_Http_HttpMethod_System_String_System_Object_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
-  name: BuildRequestFromObjectWithStream(HttpMethod, string, object, Stream, WebApiOptions, string)
-  nameWithType: AgentBase.BuildRequestFromObjectWithStream(HttpMethod, string, object, Stream, WebApiOptions, string)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod, string, object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, string)
-  nameWithType.vb: AgentBase.BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
-  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod, String, Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, String)
-  name.vb: BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  name: BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
     name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromObjectWithStream_System_Net_Http_HttpMethod_System_String_System_Object_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Net.Http.HttpMethod
     name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Object
-    name: object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.IO.Stream
     name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.WebApiOptions
     name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
     isExternal: true
-    href: SuperOffice.WebApi.WebApiOptions.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
     name: BuildRequestFromObjectWithStream
+    nameWithType: AgentBase.BuildRequestFromObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObjectWithStream
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_BuildRequestFromObjectWithStream_System_Net_Http_HttpMethod_System_String_System_Object_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Net.Http.HttpMethod
     name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Object
     name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.IO.Stream
     name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.WebApiOptions
     name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
     isExternal: true
-    href: SuperOffice.WebApi.WebApiOptions.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ParseAuthorization_SuperOffice_WebApi_Authorization_IAuthorization_
   name: ParseAuthorization(IAuthorization)
   nameWithType: AgentBase.ParseAuthorization(IAuthorization)
   fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
     name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ParseAuthorization_SuperOffice_WebApi_Authorization_IAuthorization_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.WebApi.Authorization.IAuthorization
     name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.Authorization.IAuthorization)
     name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ParseAuthorization_SuperOffice_WebApi_Authorization_IAuthorization_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.WebApi.Authorization.IAuthorization
     name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.Authorization.IAuthorization
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.CancelRequest
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_CancelRequest
   name: CancelRequest()
   nameWithType: AgentBase.CancelRequest()
   fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest()
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
     name: CancelRequest
+    nameWithType: AgentBase.CancelRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_CancelRequest
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
     name: CancelRequest
+    nameWithType: AgentBase.CancelRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_CancelRequest
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequestObject_System_Net_Http_HttpMethod_System_String_System_Object_SuperOffice_WebApi_WebApiOptions_System_String_
-  name: SendRequestObject(HttpMethod, string, object, WebApiOptions, string)
-  nameWithType: AgentBase.SendRequestObject(HttpMethod, string, object, WebApiOptions, string)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod, string, object, SuperOffice.WebApi.WebApiOptions, string)
-  nameWithType.vb: AgentBase.SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
-  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod, String, Object, SuperOffice.WebApi.WebApiOptions, String)
-  name.vb: SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  name: SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
     name: SendRequestObject
+    nameWithType: AgentBase.SendRequestObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequestObject_System_Net_Http_HttpMethod_System_String_System_Object_SuperOffice_WebApi_WebApiOptions_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Net.Http.HttpMethod
     name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Object
-    name: object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.WebApiOptions
     name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
     isExternal: true
-    href: SuperOffice.WebApi.WebApiOptions.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
     name: SendRequestObject
+    nameWithType: AgentBase.SendRequestObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequestObject_System_Net_Http_HttpMethod_System_String_System_Object_SuperOffice_WebApi_WebApiOptions_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Net.Http.HttpMethod
     name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Object
     name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.WebApiOptions
     name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
     isExternal: true
-    href: SuperOffice.WebApi.WebApiOptions.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequestObjectWithStream_System_Net_Http_HttpMethod_System_String_System_Object_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
-  name: SendRequestObjectWithStream(HttpMethod, string, object, Stream, WebApiOptions, string)
-  nameWithType: AgentBase.SendRequestObjectWithStream(HttpMethod, string, object, Stream, WebApiOptions, string)
-  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod, string, object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, string)
-  nameWithType.vb: AgentBase.SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
-  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod, String, Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, String)
-  name.vb: SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  name: SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObjectWithStream(HttpMethod, String, Object, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod, System.String, System.Object, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
     name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequestObjectWithStream_System_Net_Http_HttpMethod_System_String_System_Object_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Net.Http.HttpMethod
     name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Object
-    name: object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.IO.Stream
     name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.WebApiOptions
     name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
     isExternal: true
-    href: SuperOffice.WebApi.WebApiOptions.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream(System.Net.Http.HttpMethod,System.String,System.Object,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
     name: SendRequestObjectWithStream
+    nameWithType: AgentBase.SendRequestObjectWithStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObjectWithStream
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequestObjectWithStream_System_Net_Http_HttpMethod_System_String_System_Object_System_IO_Stream_SuperOffice_WebApi_WebApiOptions_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Net.Http.HttpMethod
     name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpmethod
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Object
     name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.IO.Stream
     name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.WebApiOptions
     name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
     isExternal: true
-    href: SuperOffice.WebApi.WebApiOptions.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequest_System_Net_Http_HttpRequestMessage_SuperOffice_WebApi_RequestOptions_
   name: SendRequest(HttpRequestMessage, RequestOptions)
   nameWithType: AgentBase.SendRequest(HttpRequestMessage, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
+    nameWithType: AgentBase.SendRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequest_System_Net_Http_HttpRequestMessage_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Net.Http.HttpRequestMessage
     name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage,SuperOffice.WebApi.RequestOptions)
     name: SendRequest
+    nameWithType: AgentBase.SendRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_SendRequest_System_Net_Http_HttpRequestMessage_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Net.Http.HttpRequestMessage
     name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ThrowOnResponseError_System_Net_Http_HttpRequestMessage_System_Net_Http_HttpResponseMessage_
   name: ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
   nameWithType: AgentBase.ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
   fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
     name: ThrowOnResponseError
+    nameWithType: AgentBase.ThrowOnResponseError
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ThrowOnResponseError_System_Net_Http_HttpRequestMessage_System_Net_Http_HttpResponseMessage_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Net.Http.HttpRequestMessage
     name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Net.Http.HttpResponseMessage
     name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
     name: ThrowOnResponseError
+    nameWithType: AgentBase.ThrowOnResponseError
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ThrowOnResponseError_System_Net_Http_HttpRequestMessage_System_Net_Http_HttpResponseMessage_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Net.Http.HttpRequestMessage
     name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net.http.httprequestmessage
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Net.Http.HttpResponseMessage
     name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ParseResponse__1_System_Net_Http_HttpResponseMessage_
   name: ParseResponse<T>(HttpResponseMessage)
   nameWithType: AgentBase.ParseResponse<T>(HttpResponseMessage)
   fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>(System.Net.Http.HttpResponseMessage)
@@ -1424,91 +1638,114 @@ references:
   name.vb: ParseResponse(Of T)(HttpResponseMessage)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
-    name: ParseResponse
+    name: ParseResponse<T>
+    nameWithType: AgentBase.ParseResponse<T>
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ParseResponse__1_System_Net_Http_HttpResponseMessage_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Net.Http.HttpResponseMessage
     name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
-    name: ParseResponse
+    name: ParseResponse(Of T)
+    nameWithType: AgentBase.ParseResponse(Of T)
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse(Of T)
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ParseResponse__1_System_Net_Http_HttpResponseMessage_
   - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Net.Http.HttpResponseMessage
     name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net.http.httpresponsemessage
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Finally_SuperOffice_WebApi_RequestOptions_
   name: Finally(RequestOptions)
   nameWithType: AgentBase.Finally(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
     name: Finally
+    nameWithType: AgentBase.Finally
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Finally_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
     name: Finally
+    nameWithType: AgentBase.Finally
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Finally_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
   commentId: M:SuperOffice.WebApi.Agents.AgentBase.Dispose
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Dispose
   name: Dispose()
   nameWithType: AgentBase.Dispose()
   fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose()
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
     name: Dispose
+    nameWithType: AgentBase.Dispose
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
     name: Dispose
+    nameWithType: AgentBase.Dispose
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
     isExternal: true
-    href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.AgentBase.Configuration
   commentId: P:SuperOffice.WebApi.Agents.AgentBase.Configuration
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Configuration
   name: Configuration
   nameWithType: AgentBase.Configuration
   fullName: SuperOffice.WebApi.Agents.AgentBase.Configuration
@@ -1516,7 +1753,6 @@ references:
   commentId: P:SuperOffice.WebApi.Agents.AgentBase.Client
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_Client
   name: Client
   nameWithType: AgentBase.Client
   fullName: SuperOffice.WebApi.Agents.AgentBase.Client
@@ -1524,7 +1760,6 @@ references:
   commentId: P:SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_HasRunningRequest
   name: HasRunningRequest
   nameWithType: AgentBase.HasRunningRequest
   fullName: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
@@ -1532,7 +1767,6 @@ references:
   commentId: P:SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ClientCancellationTokenSource
   name: ClientCancellationTokenSource
   nameWithType: AgentBase.ClientCancellationTokenSource
   fullName: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
@@ -1540,7 +1774,6 @@ references:
   commentId: P:SuperOffice.WebApi.Agents.AgentBase.ProgressListener
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_ProgressListener
   name: ProgressListener
   nameWithType: AgentBase.ProgressListener
   fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
@@ -1548,330 +1781,42 @@ references:
   commentId: P:SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
   parent: SuperOffice.WebApi.Agents.AgentBase
   isExternal: true
-  href: SuperOffice.WebApi.Agents.AgentBase.html#SuperOffice_WebApi_Agents_AgentBase_UploadProgressListener
   name: UploadProgressListener
   nameWithType: AgentBase.UploadProgressListener
   fullName: SuperOffice.WebApi.Agents.AgentBase.UploadProgressListener
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.#ctor*
   commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ViewStateAgent.html#SuperOffice_WebApi_Agents_ViewStateAgent__ctor_System_Net_Http_HttpClient_
   name: ViewStateAgent
   nameWithType: ViewStateAgent.ViewStateAgent
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.ViewStateAgent
-  nameWithType.vb: ViewStateAgent.New
-  fullName.vb: SuperOffice.WebApi.Agents.ViewStateAgent.New
-  name.vb: New
 - uid: System.Net.Http.HttpClient
-  commentId: T:System.Net.Http.HttpClient
-  parent: System.Net.Http
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.net.http.httpclient
   name: HttpClient
   nameWithType: HttpClient
   fullName: System.Net.Http.HttpClient
-- uid: System.Net.Http
-  commentId: N:System.Net.Http
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Net.Http
-  nameWithType: System.Net.Http
-  fullName: System.Net.Http
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Net
-    name: Net
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net
-  - name: .
-  - uid: System.Net.Http
-    name: Http
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net.http
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Net
-    name: Net
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net
-  - name: .
-  - uid: System.Net.Http
-    name: Http
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.net.http
 - uid: SuperOffice.WebApi.WebApiOptions
   commentId: T:SuperOffice.WebApi.WebApiOptions
   parent: SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.WebApi.WebApiOptions.html
   name: WebApiOptions
   nameWithType: WebApiOptions
   fullName: SuperOffice.WebApi.WebApiOptions
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetLiveUiConfigAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.GetLiveUiConfigAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ViewStateAgent.html#SuperOffice_WebApi_Agents_ViewStateAgent_GetLiveUiConfigAsync_SuperOffice_WebApi_RequestOptions_
   name: GetLiveUiConfigAsync
   nameWithType: ViewStateAgent.GetLiveUiConfigAsync
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetLiveUiConfigAsync
@@ -1879,45 +1824,53 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.GetLiveUiConfigAsync(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IViewStateAgent
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetLiveUiConfigAsync_SuperOffice_WebApi_RequestOptions_
   name: GetLiveUiConfigAsync(RequestOptions)
   nameWithType: IViewStateAgent.GetLiveUiConfigAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetLiveUiConfigAsync(SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetLiveUiConfigAsync(SuperOffice.WebApi.RequestOptions)
     name: GetLiveUiConfigAsync
+    nameWithType: IViewStateAgent.GetLiveUiConfigAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetLiveUiConfigAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetLiveUiConfigAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetLiveUiConfigAsync(SuperOffice.WebApi.RequestOptions)
     name: GetLiveUiConfigAsync
+    nameWithType: IViewStateAgent.GetLiveUiConfigAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetLiveUiConfigAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetLiveUiConfigAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.RequestOptions
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LiveUiConfig}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LiveUiConfig}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.LiveUiConfig}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<LiveUiConfig>
   nameWithType: Task<LiveUiConfig>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.LiveUiConfig>
@@ -1927,96 +1880,78 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.LiveUiConfig
     name: LiveUiConfig
+    nameWithType: LiveUiConfig
+    fullName: SuperOffice.WebApi.Data.LiveUiConfig
     isExternal: true
-    href: SuperOffice.WebApi.Data.LiveUiConfig.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.LiveUiConfig
     name: LiveUiConfig
+    nameWithType: LiveUiConfig
+    fullName: SuperOffice.WebApi.Data.LiveUiConfig
     isExternal: true
-    href: SuperOffice.WebApi.Data.LiveUiConfig.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task`1
-  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TResult>
-  nameWithType: Task<TResult>
-  fullName: System.Threading.Tasks.Task<TResult>
-  nameWithType.vb: Task(Of TResult)
-  fullName.vb: System.Threading.Tasks.Task(Of TResult)
-  name.vb: Task(Of TResult)
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - name: TResult
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TResult
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Threading.Tasks
-  commentId: N:System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Threading.Tasks
-  nameWithType: System.Threading.Tasks
-  fullName: System.Threading.Tasks
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ViewStateAgent.html#SuperOffice_WebApi_Agents_ViewStateAgent_GetHistoryAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetHistoryAsync
   nameWithType: ViewStateAgent.GetHistoryAsync
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryAsync
@@ -2024,63 +1959,69 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IViewStateAgent
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetHistoryAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
-  name: GetHistoryAsync(int, RequestOptions)
-  nameWithType: IViewStateAgent.GetHistoryAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryAsync(int, SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: IViewStateAgent.GetHistoryAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetHistoryAsync(Integer, RequestOptions)
+  name: GetHistoryAsync(Int32, RequestOptions)
+  nameWithType: IViewStateAgent.GetHistoryAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
     name: GetHistoryAsync
+    nameWithType: IViewStateAgent.GetHistoryAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetHistoryAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
     name: GetHistoryAsync
+    nameWithType: IViewStateAgent.GetHistoryAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetHistoryAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.History}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.History}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.History}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<History>
   nameWithType: Task<History>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.History>
@@ -2090,31 +2031,40 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.History
     name: History
+    nameWithType: History
+    fullName: SuperOffice.WebApi.Data.History
     isExternal: true
-    href: SuperOffice.WebApi.Data.History.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.History
     name: History
+    nameWithType: History
+    fullName: SuperOffice.WebApi.Data.History
     isExternal: true
-    href: SuperOffice.WebApi.Data.History.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetCurrentAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.GetCurrentAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ViewStateAgent.html#SuperOffice_WebApi_Agents_ViewStateAgent_GetCurrentAsync_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetCurrentAsync
   nameWithType: ViewStateAgent.GetCurrentAsync
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetCurrentAsync
@@ -2122,62 +2072,69 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.GetCurrentAsync(System.String,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IViewStateAgent
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetCurrentAsync_System_String_SuperOffice_WebApi_RequestOptions_
-  name: GetCurrentAsync(string, RequestOptions)
-  nameWithType: IViewStateAgent.GetCurrentAsync(string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetCurrentAsync(string, SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: IViewStateAgent.GetCurrentAsync(String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IViewStateAgent.GetCurrentAsync(String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetCurrentAsync(String, RequestOptions)
+  name: GetCurrentAsync(String, RequestOptions)
+  nameWithType: IViewStateAgent.GetCurrentAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetCurrentAsync(System.String, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetCurrentAsync(System.String,SuperOffice.WebApi.RequestOptions)
     name: GetCurrentAsync
+    nameWithType: IViewStateAgent.GetCurrentAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetCurrentAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetCurrentAsync_System_String_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetCurrentAsync(System.String,SuperOffice.WebApi.RequestOptions)
     name: GetCurrentAsync
+    nameWithType: IViewStateAgent.GetCurrentAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetCurrentAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetCurrentAsync_System_String_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.SaveCurrentAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.SaveCurrentAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ViewStateAgent.html#SuperOffice_WebApi_Agents_ViewStateAgent_SaveCurrentAsync_SuperOffice_WebApi_Data_History_SuperOffice_WebApi_RequestOptions_
   name: SaveCurrentAsync
   nameWithType: ViewStateAgent.SaveCurrentAsync
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.SaveCurrentAsync
@@ -2185,93 +2142,75 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.SaveCurrentAsync(SuperOffice.WebApi.Data.History,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IViewStateAgent
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_SaveCurrentAsync_SuperOffice_WebApi_Data_History_SuperOffice_WebApi_RequestOptions_
   name: SaveCurrentAsync(History, RequestOptions)
   nameWithType: IViewStateAgent.SaveCurrentAsync(History, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SaveCurrentAsync(SuperOffice.WebApi.Data.History, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.SaveCurrentAsync(SuperOffice.WebApi.Data.History,SuperOffice.WebApi.RequestOptions)
     name: SaveCurrentAsync
+    nameWithType: IViewStateAgent.SaveCurrentAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SaveCurrentAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_SaveCurrentAsync_SuperOffice_WebApi_Data_History_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.WebApi.Data.History
     name: History
+    nameWithType: History
+    fullName: SuperOffice.WebApi.Data.History
     isExternal: true
-    href: SuperOffice.WebApi.Data.History.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.SaveCurrentAsync(SuperOffice.WebApi.Data.History,SuperOffice.WebApi.RequestOptions)
     name: SaveCurrentAsync
+    nameWithType: IViewStateAgent.SaveCurrentAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SaveCurrentAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_SaveCurrentAsync_SuperOffice_WebApi_Data_History_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.WebApi.Data.History
     name: History
+    nameWithType: History
+    fullName: SuperOffice.WebApi.Data.History
     isExternal: true
-    href: SuperOffice.WebApi.Data.History.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.History
   commentId: T:SuperOffice.WebApi.Data.History
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.History.html
   name: History
   nameWithType: History
   fullName: SuperOffice.WebApi.Data.History
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetNextCurrentAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.GetNextCurrentAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ViewStateAgent.html#SuperOffice_WebApi_Agents_ViewStateAgent_GetNextCurrentAsync_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetNextCurrentAsync
   nameWithType: ViewStateAgent.GetNextCurrentAsync
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetNextCurrentAsync
@@ -2279,63 +2218,78 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.GetNextCurrentAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IViewStateAgent
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetNextCurrentAsync_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
-  name: GetNextCurrentAsync(string, int, RequestOptions)
-  nameWithType: IViewStateAgent.GetNextCurrentAsync(string, int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetNextCurrentAsync(string, int, SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: IViewStateAgent.GetNextCurrentAsync(String, Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IViewStateAgent.GetNextCurrentAsync(String, Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetNextCurrentAsync(String, Integer, RequestOptions)
+  name: GetNextCurrentAsync(String, Int32, RequestOptions)
+  nameWithType: IViewStateAgent.GetNextCurrentAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetNextCurrentAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetNextCurrentAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
     name: GetNextCurrentAsync
+    nameWithType: IViewStateAgent.GetNextCurrentAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetNextCurrentAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetNextCurrentAsync_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetNextCurrentAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
     name: GetNextCurrentAsync
+    nameWithType: IViewStateAgent.GetNextCurrentAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetNextCurrentAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetNextCurrentAsync_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetPreviousCurrentAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.GetPreviousCurrentAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ViewStateAgent.html#SuperOffice_WebApi_Agents_ViewStateAgent_GetPreviousCurrentAsync_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetPreviousCurrentAsync
   nameWithType: ViewStateAgent.GetPreviousCurrentAsync
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetPreviousCurrentAsync
@@ -2343,63 +2297,78 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.GetPreviousCurrentAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IViewStateAgent
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetPreviousCurrentAsync_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
-  name: GetPreviousCurrentAsync(string, int, RequestOptions)
-  nameWithType: IViewStateAgent.GetPreviousCurrentAsync(string, int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetPreviousCurrentAsync(string, int, SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: IViewStateAgent.GetPreviousCurrentAsync(String, Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IViewStateAgent.GetPreviousCurrentAsync(String, Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetPreviousCurrentAsync(String, Integer, RequestOptions)
+  name: GetPreviousCurrentAsync(String, Int32, RequestOptions)
+  nameWithType: IViewStateAgent.GetPreviousCurrentAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetPreviousCurrentAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetPreviousCurrentAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
     name: GetPreviousCurrentAsync
+    nameWithType: IViewStateAgent.GetPreviousCurrentAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetPreviousCurrentAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetPreviousCurrentAsync_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetPreviousCurrentAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
     name: GetPreviousCurrentAsync
+    nameWithType: IViewStateAgent.GetPreviousCurrentAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetPreviousCurrentAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetPreviousCurrentAsync_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.DeleteHistoryAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.DeleteHistoryAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ViewStateAgent.html#SuperOffice_WebApi_Agents_ViewStateAgent_DeleteHistoryAsync_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: DeleteHistoryAsync
   nameWithType: ViewStateAgent.DeleteHistoryAsync
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.DeleteHistoryAsync
@@ -2407,71 +2376,83 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.DeleteHistoryAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IViewStateAgent
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_DeleteHistoryAsync_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
-  name: DeleteHistoryAsync(string, int, RequestOptions)
-  nameWithType: IViewStateAgent.DeleteHistoryAsync(string, int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.DeleteHistoryAsync(string, int, SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: IViewStateAgent.DeleteHistoryAsync(String, Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IViewStateAgent.DeleteHistoryAsync(String, Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: DeleteHistoryAsync(String, Integer, RequestOptions)
+  name: DeleteHistoryAsync(String, Int32, RequestOptions)
+  nameWithType: IViewStateAgent.DeleteHistoryAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.DeleteHistoryAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.DeleteHistoryAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
     name: DeleteHistoryAsync
+    nameWithType: IViewStateAgent.DeleteHistoryAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.DeleteHistoryAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_DeleteHistoryAsync_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.DeleteHistoryAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
     name: DeleteHistoryAsync
+    nameWithType: IViewStateAgent.DeleteHistoryAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.DeleteHistoryAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_DeleteHistoryAsync_System_String_System_Int32_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ViewStateAgent.html#SuperOffice_WebApi_Agents_ViewStateAgent_GetHistoriesAsync_SuperOffice_WebApi_RequestOptions_
   name: GetHistoriesAsync
   nameWithType: ViewStateAgent.GetHistoriesAsync
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesAsync
@@ -2479,37 +2460,46 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesAsync(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IViewStateAgent
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetHistoriesAsync_SuperOffice_WebApi_RequestOptions_
   name: GetHistoriesAsync(RequestOptions)
   nameWithType: IViewStateAgent.GetHistoriesAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesAsync(SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesAsync(SuperOffice.WebApi.RequestOptions)
     name: GetHistoriesAsync
+    nameWithType: IViewStateAgent.GetHistoriesAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetHistoriesAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesAsync(SuperOffice.WebApi.RequestOptions)
     name: GetHistoriesAsync
+    nameWithType: IViewStateAgent.GetHistoriesAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetHistoriesAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.History[]}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.History[]}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.History[]}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<History[]>
   nameWithType: Task<History[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.History[]>
@@ -2519,35 +2509,46 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.History
     name: History
+    nameWithType: History
+    fullName: SuperOffice.WebApi.Data.History
     isExternal: true
-    href: SuperOffice.WebApi.Data.History.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.History
     name: History
+    nameWithType: History
+    fullName: SuperOffice.WebApi.Data.History
     isExternal: true
-    href: SuperOffice.WebApi.Data.History.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNameAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNameAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ViewStateAgent.html#SuperOffice_WebApi_Agents_ViewStateAgent_GetHistoriesByNameAsync_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetHistoriesByNameAsync
   nameWithType: ViewStateAgent.GetHistoriesByNameAsync
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNameAsync
@@ -2555,51 +2556,62 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IViewStateAgent
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetHistoriesByNameAsync_System_String_SuperOffice_WebApi_RequestOptions_
-  name: GetHistoriesByNameAsync(string, RequestOptions)
-  nameWithType: IViewStateAgent.GetHistoriesByNameAsync(string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNameAsync(string, SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: IViewStateAgent.GetHistoriesByNameAsync(String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNameAsync(String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetHistoriesByNameAsync(String, RequestOptions)
+  name: GetHistoriesByNameAsync(String, RequestOptions)
+  nameWithType: IViewStateAgent.GetHistoriesByNameAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNameAsync(System.String, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
     name: GetHistoriesByNameAsync
+    nameWithType: IViewStateAgent.GetHistoriesByNameAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNameAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetHistoriesByNameAsync_System_String_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNameAsync(System.String,SuperOffice.WebApi.RequestOptions)
     name: GetHistoriesByNameAsync
+    nameWithType: IViewStateAgent.GetHistoriesByNameAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNameAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetHistoriesByNameAsync_System_String_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNamesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNamesAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ViewStateAgent.html#SuperOffice_WebApi_Agents_ViewStateAgent_GetHistoriesByNamesAsync_System_String___SuperOffice_WebApi_RequestOptions_
   name: GetHistoriesByNamesAsync
   nameWithType: ViewStateAgent.GetHistoriesByNamesAsync
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNamesAsync
@@ -2607,78 +2619,97 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNamesAsync(System.String[],SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IViewStateAgent
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetHistoriesByNamesAsync_System_String___SuperOffice_WebApi_RequestOptions_
-  name: GetHistoriesByNamesAsync(string[], RequestOptions)
-  nameWithType: IViewStateAgent.GetHistoriesByNamesAsync(string[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNamesAsync(string[], SuperOffice.WebApi.RequestOptions)
+  name: GetHistoriesByNamesAsync(String[], RequestOptions)
+  nameWithType: IViewStateAgent.GetHistoriesByNamesAsync(String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNamesAsync(System.String[], SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: IViewStateAgent.GetHistoriesByNamesAsync(String(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNamesAsync(String(), SuperOffice.WebApi.RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNamesAsync(System.String(), SuperOffice.WebApi.RequestOptions)
   name.vb: GetHistoriesByNamesAsync(String(), RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNamesAsync(System.String[],SuperOffice.WebApi.RequestOptions)
     name: GetHistoriesByNamesAsync
+    nameWithType: IViewStateAgent.GetHistoriesByNamesAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNamesAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetHistoriesByNamesAsync_System_String___SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNamesAsync(System.String[],SuperOffice.WebApi.RequestOptions)
     name: GetHistoriesByNamesAsync
+    nameWithType: IViewStateAgent.GetHistoriesByNamesAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNamesAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetHistoriesByNamesAsync_System_String___SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.SaveHistoriesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.SaveHistoriesAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ViewStateAgent.html#SuperOffice_WebApi_Agents_ViewStateAgent_SaveHistoriesAsync_System_String_SuperOffice_WebApi_Data_History___SuperOffice_WebApi_RequestOptions_
   name: SaveHistoriesAsync
   nameWithType: ViewStateAgent.SaveHistoriesAsync
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.SaveHistoriesAsync
@@ -2686,66 +2717,86 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.SaveHistoriesAsync(System.String,SuperOffice.WebApi.Data.History[],SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IViewStateAgent
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_SaveHistoriesAsync_System_String_SuperOffice_WebApi_Data_History___SuperOffice_WebApi_RequestOptions_
-  name: SaveHistoriesAsync(string, History[], RequestOptions)
-  nameWithType: IViewStateAgent.SaveHistoriesAsync(string, History[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SaveHistoriesAsync(string, SuperOffice.WebApi.Data.History[], SuperOffice.WebApi.RequestOptions)
+  name: SaveHistoriesAsync(String, History[], RequestOptions)
+  nameWithType: IViewStateAgent.SaveHistoriesAsync(String, History[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SaveHistoriesAsync(System.String, SuperOffice.WebApi.Data.History[], SuperOffice.WebApi.RequestOptions)
   nameWithType.vb: IViewStateAgent.SaveHistoriesAsync(String, History(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IViewStateAgent.SaveHistoriesAsync(String, SuperOffice.WebApi.Data.History(), SuperOffice.WebApi.RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IViewStateAgent.SaveHistoriesAsync(System.String, SuperOffice.WebApi.Data.History(), SuperOffice.WebApi.RequestOptions)
   name.vb: SaveHistoriesAsync(String, History(), RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.SaveHistoriesAsync(System.String,SuperOffice.WebApi.Data.History[],SuperOffice.WebApi.RequestOptions)
     name: SaveHistoriesAsync
+    nameWithType: IViewStateAgent.SaveHistoriesAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SaveHistoriesAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_SaveHistoriesAsync_System_String_SuperOffice_WebApi_Data_History___SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.Data.History
     name: History
+    nameWithType: History
+    fullName: SuperOffice.WebApi.Data.History
     isExternal: true
-    href: SuperOffice.WebApi.Data.History.html
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.SaveHistoriesAsync(System.String,SuperOffice.WebApi.Data.History[],SuperOffice.WebApi.RequestOptions)
     name: SaveHistoriesAsync
+    nameWithType: IViewStateAgent.SaveHistoriesAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SaveHistoriesAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_SaveHistoriesAsync_System_String_SuperOffice_WebApi_Data_History___SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.Data.History
     name: History
+    nameWithType: History
+    fullName: SuperOffice.WebApi.Data.History
     isExternal: true
-    href: SuperOffice.WebApi.Data.History.html
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.History[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.History.html
   name: History[]
   nameWithType: History[]
   fullName: SuperOffice.WebApi.Data.History[]
@@ -2755,21 +2806,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.History
     name: History
+    nameWithType: History
+    fullName: SuperOffice.WebApi.Data.History
     isExternal: true
-    href: SuperOffice.WebApi.Data.History.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.History
     name: History
+    nameWithType: History
+    fullName: SuperOffice.WebApi.Data.History
     isExternal: true
-    href: SuperOffice.WebApi.Data.History.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ViewStateAgent.html#SuperOffice_WebApi_Agents_ViewStateAgent_GetHistoryLengthPrefValueAsync_SuperOffice_WebApi_RequestOptions_
   name: GetHistoryLengthPrefValueAsync
   nameWithType: ViewStateAgent.GetHistoryLengthPrefValueAsync
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoryLengthPrefValueAsync
@@ -2777,71 +2831,89 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IViewStateAgent
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetHistoryLengthPrefValueAsync_SuperOffice_WebApi_RequestOptions_
   name: GetHistoryLengthPrefValueAsync(RequestOptions)
   nameWithType: IViewStateAgent.GetHistoryLengthPrefValueAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
     name: GetHistoryLengthPrefValueAsync
+    nameWithType: IViewStateAgent.GetHistoryLengthPrefValueAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetHistoryLengthPrefValueAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync(SuperOffice.WebApi.RequestOptions)
     name: GetHistoryLengthPrefValueAsync
+    nameWithType: IViewStateAgent.GetHistoryLengthPrefValueAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoryLengthPrefValueAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetHistoryLengthPrefValueAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task{System.Int32}
-  commentId: T:System.Threading.Tasks.Task{System.Int32}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<int>
-  nameWithType: Task<int>
-  fullName: System.Threading.Tasks.Task<int>
-  nameWithType.vb: Task(Of Integer)
-  fullName.vb: System.Threading.Tasks.Task(Of Integer)
-  name.vb: Task(Of Integer)
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ViewStateAgent.html#SuperOffice_WebApi_Agents_ViewStateAgent_SetHistoryLengthPrefValueAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: SetHistoryLengthPrefValueAsync
   nameWithType: ViewStateAgent.SetHistoryLengthPrefValueAsync
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.SetHistoryLengthPrefValueAsync
@@ -2849,51 +2921,62 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IViewStateAgent
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_SetHistoryLengthPrefValueAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
-  name: SetHistoryLengthPrefValueAsync(int, RequestOptions)
-  nameWithType: IViewStateAgent.SetHistoryLengthPrefValueAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(int, SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: IViewStateAgent.SetHistoryLengthPrefValueAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: SetHistoryLengthPrefValueAsync(Integer, RequestOptions)
+  name: SetHistoryLengthPrefValueAsync(Int32, RequestOptions)
+  nameWithType: IViewStateAgent.SetHistoryLengthPrefValueAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
     name: SetHistoryLengthPrefValueAsync
+    nameWithType: IViewStateAgent.SetHistoryLengthPrefValueAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_SetHistoryLengthPrefValueAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
     name: SetHistoryLengthPrefValueAsync
+    nameWithType: IViewStateAgent.SetHistoryLengthPrefValueAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SetHistoryLengthPrefValueAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_SetHistoryLengthPrefValueAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.SaveCurrentsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.SaveCurrentsAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ViewStateAgent.html#SuperOffice_WebApi_Agents_ViewStateAgent_SaveCurrentsAsync_SuperOffice_WebApi_Data_History___SuperOffice_WebApi_RequestOptions_
   name: SaveCurrentsAsync
   nameWithType: ViewStateAgent.SaveCurrentsAsync
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.SaveCurrentsAsync
@@ -2901,7 +2984,6 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.SaveCurrentsAsync(SuperOffice.WebApi.Data.History[],SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IViewStateAgent
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_SaveCurrentsAsync_SuperOffice_WebApi_Data_History___SuperOffice_WebApi_RequestOptions_
   name: SaveCurrentsAsync(History[], RequestOptions)
   nameWithType: IViewStateAgent.SaveCurrentsAsync(History[], RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SaveCurrentsAsync(SuperOffice.WebApi.Data.History[], SuperOffice.WebApi.RequestOptions)
@@ -2911,45 +2993,62 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.SaveCurrentsAsync(SuperOffice.WebApi.Data.History[],SuperOffice.WebApi.RequestOptions)
     name: SaveCurrentsAsync
+    nameWithType: IViewStateAgent.SaveCurrentsAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SaveCurrentsAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_SaveCurrentsAsync_SuperOffice_WebApi_Data_History___SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.WebApi.Data.History
     name: History
+    nameWithType: History
+    fullName: SuperOffice.WebApi.Data.History
     isExternal: true
-    href: SuperOffice.WebApi.Data.History.html
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.SaveCurrentsAsync(SuperOffice.WebApi.Data.History[],SuperOffice.WebApi.RequestOptions)
     name: SaveCurrentsAsync
+    nameWithType: IViewStateAgent.SaveCurrentsAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.SaveCurrentsAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_SaveCurrentsAsync_SuperOffice_WebApi_Data_History___SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.WebApi.Data.History
     name: History
+    nameWithType: History
+    fullName: SuperOffice.WebApi.Data.History
     isExternal: true
-    href: SuperOffice.WebApi.Data.History.html
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNamesAndIdsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNamesAndIdsAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ViewStateAgent.html#SuperOffice_WebApi_Agents_ViewStateAgent_GetHistoriesByNamesAndIdsAsync_SuperOffice_WebApi_Data_HistoryRequest___SuperOffice_WebApi_RequestOptions_
   name: GetHistoriesByNamesAndIdsAsync
   nameWithType: ViewStateAgent.GetHistoriesByNamesAndIdsAsync
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.GetHistoriesByNamesAndIdsAsync
@@ -2957,7 +3056,6 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNamesAndIdsAsync(SuperOffice.WebApi.Data.HistoryRequest[],SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IViewStateAgent
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetHistoriesByNamesAndIdsAsync_SuperOffice_WebApi_Data_HistoryRequest___SuperOffice_WebApi_RequestOptions_
   name: GetHistoriesByNamesAndIdsAsync(HistoryRequest[], RequestOptions)
   nameWithType: IViewStateAgent.GetHistoriesByNamesAndIdsAsync(HistoryRequest[], RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNamesAndIdsAsync(SuperOffice.WebApi.Data.HistoryRequest[], SuperOffice.WebApi.RequestOptions)
@@ -2967,44 +3065,61 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNamesAndIdsAsync(SuperOffice.WebApi.Data.HistoryRequest[],SuperOffice.WebApi.RequestOptions)
     name: GetHistoriesByNamesAndIdsAsync
+    nameWithType: IViewStateAgent.GetHistoriesByNamesAndIdsAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNamesAndIdsAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetHistoriesByNamesAndIdsAsync_SuperOffice_WebApi_Data_HistoryRequest___SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.WebApi.Data.HistoryRequest
     name: HistoryRequest
+    nameWithType: HistoryRequest
+    fullName: SuperOffice.WebApi.Data.HistoryRequest
     isExternal: true
-    href: SuperOffice.WebApi.Data.HistoryRequest.html
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNamesAndIdsAsync(SuperOffice.WebApi.Data.HistoryRequest[],SuperOffice.WebApi.RequestOptions)
     name: GetHistoriesByNamesAndIdsAsync
+    nameWithType: IViewStateAgent.GetHistoriesByNamesAndIdsAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.GetHistoriesByNamesAndIdsAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_GetHistoriesByNamesAndIdsAsync_SuperOffice_WebApi_Data_HistoryRequest___SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.WebApi.Data.HistoryRequest
     name: HistoryRequest
+    nameWithType: HistoryRequest
+    fullName: SuperOffice.WebApi.Data.HistoryRequest
     isExternal: true
-    href: SuperOffice.WebApi.Data.HistoryRequest.html
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.HistoryRequest[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.HistoryRequest.html
   name: HistoryRequest[]
   nameWithType: HistoryRequest[]
   fullName: SuperOffice.WebApi.Data.HistoryRequest[]
@@ -3014,21 +3129,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.HistoryRequest
     name: HistoryRequest
+    nameWithType: HistoryRequest
+    fullName: SuperOffice.WebApi.Data.HistoryRequest
     isExternal: true
-    href: SuperOffice.WebApi.Data.HistoryRequest.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.HistoryRequest
     name: HistoryRequest
+    nameWithType: HistoryRequest
+    fullName: SuperOffice.WebApi.Data.HistoryRequest
     isExternal: true
-    href: SuperOffice.WebApi.Data.HistoryRequest.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Agents.ViewStateAgent.PublishAndRetrieveUiEventsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ViewStateAgent.PublishAndRetrieveUiEventsAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.ViewStateAgent.html#SuperOffice_WebApi_Agents_ViewStateAgent_PublishAndRetrieveUiEventsAsync_System_Int32_SuperOffice_WebApi_Data_UiEvent___SuperOffice_WebApi_Data_MetricPair___SuperOffice_WebApi_RequestOptions_
   name: PublishAndRetrieveUiEventsAsync
   nameWithType: ViewStateAgent.PublishAndRetrieveUiEventsAsync
   fullName: SuperOffice.WebApi.Agents.ViewStateAgent.PublishAndRetrieveUiEventsAsync
@@ -3036,82 +3154,108 @@ references:
   commentId: M:SuperOffice.WebApi.Agents.IViewStateAgent.PublishAndRetrieveUiEventsAsync(System.Int32,SuperOffice.WebApi.Data.UiEvent[],SuperOffice.WebApi.Data.MetricPair[],SuperOffice.WebApi.RequestOptions)
   parent: SuperOffice.WebApi.Agents.IViewStateAgent
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_PublishAndRetrieveUiEventsAsync_System_Int32_SuperOffice_WebApi_Data_UiEvent___SuperOffice_WebApi_Data_MetricPair___SuperOffice_WebApi_RequestOptions_
-  name: PublishAndRetrieveUiEventsAsync(int, UiEvent[], MetricPair[], RequestOptions)
-  nameWithType: IViewStateAgent.PublishAndRetrieveUiEventsAsync(int, UiEvent[], MetricPair[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.PublishAndRetrieveUiEventsAsync(int, SuperOffice.WebApi.Data.UiEvent[], SuperOffice.WebApi.Data.MetricPair[], SuperOffice.WebApi.RequestOptions)
-  nameWithType.vb: IViewStateAgent.PublishAndRetrieveUiEventsAsync(Integer, UiEvent(), MetricPair(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IViewStateAgent.PublishAndRetrieveUiEventsAsync(Integer, SuperOffice.WebApi.Data.UiEvent(), SuperOffice.WebApi.Data.MetricPair(), SuperOffice.WebApi.RequestOptions)
-  name.vb: PublishAndRetrieveUiEventsAsync(Integer, UiEvent(), MetricPair(), RequestOptions)
+  name: PublishAndRetrieveUiEventsAsync(Int32, UiEvent[], MetricPair[], RequestOptions)
+  nameWithType: IViewStateAgent.PublishAndRetrieveUiEventsAsync(Int32, UiEvent[], MetricPair[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IViewStateAgent.PublishAndRetrieveUiEventsAsync(System.Int32, SuperOffice.WebApi.Data.UiEvent[], SuperOffice.WebApi.Data.MetricPair[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IViewStateAgent.PublishAndRetrieveUiEventsAsync(Int32, UiEvent(), MetricPair(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IViewStateAgent.PublishAndRetrieveUiEventsAsync(System.Int32, SuperOffice.WebApi.Data.UiEvent(), SuperOffice.WebApi.Data.MetricPair(), SuperOffice.WebApi.RequestOptions)
+  name.vb: PublishAndRetrieveUiEventsAsync(Int32, UiEvent(), MetricPair(), RequestOptions)
   spec.csharp:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.PublishAndRetrieveUiEventsAsync(System.Int32,SuperOffice.WebApi.Data.UiEvent[],SuperOffice.WebApi.Data.MetricPair[],SuperOffice.WebApi.RequestOptions)
     name: PublishAndRetrieveUiEventsAsync
+    nameWithType: IViewStateAgent.PublishAndRetrieveUiEventsAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.PublishAndRetrieveUiEventsAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_PublishAndRetrieveUiEventsAsync_System_Int32_SuperOffice_WebApi_Data_UiEvent___SuperOffice_WebApi_Data_MetricPair___SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.Data.UiEvent
     name: UiEvent
+    nameWithType: UiEvent
+    fullName: SuperOffice.WebApi.Data.UiEvent
     isExternal: true
-    href: SuperOffice.WebApi.Data.UiEvent.html
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.Data.MetricPair
     name: MetricPair
+    nameWithType: MetricPair
+    fullName: SuperOffice.WebApi.Data.MetricPair
     isExternal: true
-    href: SuperOffice.WebApi.Data.MetricPair.html
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.WebApi.Agents.IViewStateAgent.PublishAndRetrieveUiEventsAsync(System.Int32,SuperOffice.WebApi.Data.UiEvent[],SuperOffice.WebApi.Data.MetricPair[],SuperOffice.WebApi.RequestOptions)
     name: PublishAndRetrieveUiEventsAsync
+    nameWithType: IViewStateAgent.PublishAndRetrieveUiEventsAsync
+    fullName: SuperOffice.WebApi.Agents.IViewStateAgent.PublishAndRetrieveUiEventsAsync
     isExternal: true
-    href: SuperOffice.WebApi.Agents.IViewStateAgent.html#SuperOffice_WebApi_Agents_IViewStateAgent_PublishAndRetrieveUiEventsAsync_System_Int32_SuperOffice_WebApi_Data_UiEvent___SuperOffice_WebApi_Data_MetricPair___SuperOffice_WebApi_RequestOptions_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.Data.UiEvent
     name: UiEvent
+    nameWithType: UiEvent
+    fullName: SuperOffice.WebApi.Data.UiEvent
     isExternal: true
-    href: SuperOffice.WebApi.Data.UiEvent.html
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.Data.MetricPair
     name: MetricPair
+    nameWithType: MetricPair
+    fullName: SuperOffice.WebApi.Data.MetricPair
     isExternal: true
-    href: SuperOffice.WebApi.Data.MetricPair.html
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
-    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.UiEvent[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.UiEvent.html
   name: UiEvent[]
   nameWithType: UiEvent[]
   fullName: SuperOffice.WebApi.Data.UiEvent[]
@@ -3121,20 +3265,23 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.UiEvent
     name: UiEvent
+    nameWithType: UiEvent
+    fullName: SuperOffice.WebApi.Data.UiEvent
     isExternal: true
-    href: SuperOffice.WebApi.Data.UiEvent.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.UiEvent
     name: UiEvent
+    nameWithType: UiEvent
+    fullName: SuperOffice.WebApi.Data.UiEvent
     isExternal: true
-    href: SuperOffice.WebApi.Data.UiEvent.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Data.MetricPair[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.MetricPair.html
   name: MetricPair[]
   nameWithType: MetricPair[]
   fullName: SuperOffice.WebApi.Data.MetricPair[]
@@ -3144,22 +3291,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.MetricPair
     name: MetricPair
+    nameWithType: MetricPair
+    fullName: SuperOffice.WebApi.Data.MetricPair
     isExternal: true
-    href: SuperOffice.WebApi.Data.MetricPair.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.MetricPair
     name: MetricPair
+    nameWithType: MetricPair
+    fullName: SuperOffice.WebApi.Data.MetricPair
     isExternal: true
-    href: SuperOffice.WebApi.Data.MetricPair.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UiEvent[]}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UiEvent[]}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UiEvent[]}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<UiEvent[]>
   nameWithType: Task<UiEvent[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.UiEvent[]>
@@ -3169,28 +3318,40 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.UiEvent
     name: UiEvent
+    nameWithType: UiEvent
+    fullName: SuperOffice.WebApi.Data.UiEvent
     isExternal: true
-    href: SuperOffice.WebApi.Data.UiEvent.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.UiEvent
     name: UiEvent
+    nameWithType: UiEvent
+    fullName: SuperOffice.WebApi.Data.UiEvent
     isExternal: true
-    href: SuperOffice.WebApi.Data.UiEvent.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )

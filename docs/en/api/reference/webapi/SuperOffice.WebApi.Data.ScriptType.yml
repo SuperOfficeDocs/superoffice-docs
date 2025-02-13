@@ -8,24 +8,64 @@ items:
   - SuperOffice.WebApi.Data.ScriptType.CRMScript
   - SuperOffice.WebApi.Data.ScriptType.JavaScript
   - SuperOffice.WebApi.Data.ScriptType.Unknown
+  - SuperOffice.WebApi.Data.ScriptType.value__
   langs:
   - csharp
   - vb
   name: ScriptType
   nameWithType: ScriptType
   fullName: SuperOffice.WebApi.Data.ScriptType
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Value for field 'Type' in table 'ej_script'. Indicates what type of script this is.
-
-    This Enum is used by:  ejscript.type
-  example: []
+  summary: "\nValue for field &apos;Type&apos; in table &apos;ej_script&apos;. Indicates what type of script this is.\nThis Enum is used by:  ejscript.type\n"
   syntax:
-    content: 'public enum ScriptType : short'
-    content.vb: Public Enum ScriptType As Short
+    content: 'public sealed class ScriptType : Enum'
+    content.vb: >-
+      Public NotInheritable Class ScriptType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ScriptType.value__
+  commentId: F:SuperOffice.WebApi.Data.ScriptType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ScriptType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ScriptType.value__
+  fullName: SuperOffice.WebApi.Data.ScriptType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ScriptType.Unknown
   commentId: F:SuperOffice.WebApi.Data.ScriptType.Unknown
   id: Unknown
@@ -37,26 +77,24 @@ items:
   nameWithType: ScriptType.Unknown
   fullName: SuperOffice.WebApi.Data.ScriptType.Unknown
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: Unknown script type'
-  example: []
+  summary: "\n0: Unknown script type\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Unknown = 0
+    content: public const ScriptType Unknown
     return:
       type: SuperOffice.WebApi.Data.ScriptType
-    content.vb: >-
-      <EnumMember>
-
-      Unknown = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Unknown As ScriptType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ScriptType.CRMScript
   commentId: F:SuperOffice.WebApi.Data.ScriptType.CRMScript
   id: CRMScript
@@ -68,26 +106,24 @@ items:
   nameWithType: ScriptType.CRMScript
   fullName: SuperOffice.WebApi.Data.ScriptType.CRMScript
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: CRMScript'
-  example: []
+  summary: "\n1: CRMScript\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      CRMScript = 1
+    content: public const ScriptType CRMScript
     return:
       type: SuperOffice.WebApi.Data.ScriptType
-    content.vb: >-
-      <EnumMember>
-
-      CRMScript = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const CRMScript As ScriptType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ScriptType.JavaScript
   commentId: F:SuperOffice.WebApi.Data.ScriptType.JavaScript
   id: JavaScript
@@ -99,69 +135,55 @@ items:
   nameWithType: ScriptType.JavaScript
   fullName: SuperOffice.WebApi.Data.ScriptType.JavaScript
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: JavaScript'
-  example: []
+  summary: "\n2: JavaScript\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      JavaScript = 2
+    content: public const ScriptType JavaScript
     return:
       type: SuperOffice.WebApi.Data.ScriptType
-    content.vb: >-
-      <EnumMember>
-
-      JavaScript = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const JavaScript As ScriptType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.ScriptType
   commentId: T:SuperOffice.WebApi.Data.ScriptType
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.ScriptType.html
   name: ScriptType
   nameWithType: ScriptType
   fullName: SuperOffice.WebApi.Data.ScriptType

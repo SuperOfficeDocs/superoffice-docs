@@ -13,14 +13,19 @@ items:
   nameWithType: Appointment.IdxAppointmentId
   fullName: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Class representing index 'IDXAppntId'.
-  example: []
+  summary: "\nClass representing index &apos;IDXAppntId&apos;.\n"
   syntax:
-    content: 'public sealed class Appointment.IdxAppointmentId : Appointment.AppointmentIdx<AppointmentRow.IdxAppointmentId>, ISentryIgnorable'
-    content.vb: Public NotInheritable Class Appointment.IdxAppointmentId Inherits Appointment.AppointmentIdx(Of AppointmentRow.IdxAppointmentId) Implements ISentryIgnorable
+    content: 'public sealed class IdxAppointmentId : Appointment.AppointmentIdx<AppointmentRow.IdxAppointmentId>, ISentryIgnorable'
+    content.vb: >-
+      Public NotInheritable Class IdxAppointmentId
+          Inherits Appointment.AppointmentIdx(Of AppointmentRow.IdxAppointmentId)
+          Implements ISentryIgnorable
   inheritance:
   - System.Object
   - SuperOffice.CRM.Entities.EntityIdxBase
@@ -32,15 +37,17 @@ items:
   - SuperOffice.CRM.Security.ISentryIgnorable
   inheritedMembers:
   - SuperOffice.CRM.Entities.Appointment.AppointmentIdx{SuperOffice.CRM.Rows.AppointmentRow.IdxAppointmentId}.RowIdx
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
   extensionMethods:
   - SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
 - uid: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.#ctor(System.Int32)
   commentId: M:SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.#ctor(System.Int32)
   id: '#ctor(System.Int32)'
@@ -48,18 +55,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxAppointmentId(int)
-  nameWithType: Appointment.IdxAppointmentId.IdxAppointmentId(int)
-  fullName: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.IdxAppointmentId(int)
+  name: IdxAppointmentId(Int32)
+  nameWithType: Appointment.IdxAppointmentId.IdxAppointmentId(Int32)
+  fullName: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.IdxAppointmentId(System.Int32)
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: >-
-    Constructor for class Appointment.IdxAppointmentId
-
-    This class represents index 'IDXAppntId'.
-  example: []
+  summary: "\nConstructor for class Appointment.IdxAppointmentId\nThis class represents index &apos;IDXAppntId&apos;.\n"
   syntax:
     content: public IdxAppointmentId(int appointmentId)
     parameters:
@@ -68,63 +74,28 @@ items:
       description: Primary key
     content.vb: Public Sub New(appointmentId As Integer)
   overload: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.#ctor*
-  nameWithType.vb: Appointment.IdxAppointmentId.New(Integer)
-  fullName.vb: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.New(Integer)
-  name.vb: New(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Entities.EntityIdxBase
   commentId: T:SuperOffice.CRM.Entities.EntityIdxBase
   parent: SuperOffice.CRM.Entities
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityIdxBase.html
   name: EntityIdxBase
   nameWithType: EntityIdxBase
   fullName: SuperOffice.CRM.Entities.EntityIdxBase
@@ -132,7 +103,6 @@ references:
   commentId: T:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.AppointmentTableInfo,SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase}
   parent: SuperOffice.CRM.Entities
   definition: SuperOffice.CRM.Entities.EntityIdxBase`2
-  href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
   name: EntityIdxBase<AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase>
   nameWithType: EntityIdxBase<AppointmentTableInfo, AppointmentRow.AppointmentRowIdxBase>
   fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.AppointmentTableInfo, SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase>
@@ -142,110 +112,71 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
     name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
     isExternal: true
-    href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.AppointmentTableInfo
     name: AppointmentTableInfo
+    nameWithType: AppointmentTableInfo
+    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.AppointmentTableInfo.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.AppointmentRow
-    name: AppointmentRow
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AppointmentRow.html
-  - name: .
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase
-    name: AppointmentRowIdxBase
+    name: AppointmentRow.AppointmentRowIdxBase
+    nameWithType: AppointmentRow.AppointmentRowIdxBase
+    fullName: SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase
     isExternal: true
-    href: SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
     name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
     isExternal: true
-    href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.AppointmentTableInfo
     name: AppointmentTableInfo
+    nameWithType: AppointmentTableInfo
+    fullName: SuperOffice.CRM.Data.AppointmentTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.AppointmentTableInfo.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.AppointmentRow
-    name: AppointmentRow
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AppointmentRow.html
-  - name: .
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase
-    name: AppointmentRowIdxBase
+    name: AppointmentRow.AppointmentRowIdxBase
+    nameWithType: AppointmentRow.AppointmentRowIdxBase
+    fullName: SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase
     isExternal: true
-    href: SuperOffice.CRM.Rows.AppointmentRow.AppointmentRowIdxBase.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
   commentId: T:SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
   parent: SuperOffice.CRM.Entities
   isExternal: true
-  href: SuperOffice.CRM.Entities.Appointment.html
   name: Appointment.AppointmentIdxBase
   nameWithType: Appointment.AppointmentIdxBase
   fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
-  spec.csharp:
-  - uid: SuperOffice.CRM.Entities.Appointment
-    name: Appointment
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
-    name: AppointmentIdxBase
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Entities.Appointment
-    name: Appointment
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase
-    name: AppointmentIdxBase
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.AppointmentIdxBase.html
 - uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx
   commentId: T:SuperOffice.CRM.Entities.Appointment.AppointmentIdx
   parent: SuperOffice.CRM.Entities
   isExternal: true
-  href: SuperOffice.CRM.Entities.Appointment.html
   name: Appointment.AppointmentIdx
   nameWithType: Appointment.AppointmentIdx
   fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx
-  spec.csharp:
-  - uid: SuperOffice.CRM.Entities.Appointment
-    name: Appointment
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx
-    name: AppointmentIdx
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.AppointmentIdx.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Entities.Appointment
-    name: Appointment
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx
-    name: AppointmentIdx
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.AppointmentIdx.html
 - uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx{SuperOffice.CRM.Rows.AppointmentRow.IdxAppointmentId}
   commentId: T:SuperOffice.CRM.Entities.Appointment.AppointmentIdx{SuperOffice.CRM.Rows.AppointmentRow.IdxAppointmentId}
   parent: SuperOffice.CRM.Entities
   definition: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1
-  href: SuperOffice.CRM.Entities.Appointment.html
   name: Appointment.AppointmentIdx<AppointmentRow.IdxAppointmentId>
   nameWithType: Appointment.AppointmentIdx<AppointmentRow.IdxAppointmentId>
   fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx<SuperOffice.CRM.Rows.AppointmentRow.IdxAppointmentId>
@@ -253,54 +184,43 @@ references:
   fullName.vb: SuperOffice.CRM.Entities.Appointment.AppointmentIdx(Of SuperOffice.CRM.Rows.AppointmentRow.IdxAppointmentId)
   name.vb: Appointment.AppointmentIdx(Of AppointmentRow.IdxAppointmentId)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.Appointment
-    name: Appointment
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.html
-  - name: .
   - uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1
-    name: AppointmentIdx
+    name: Appointment.AppointmentIdx
+    nameWithType: Appointment.AppointmentIdx
+    fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx
     isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.AppointmentIdx-1.html
   - name: <
-  - uid: SuperOffice.CRM.Rows.AppointmentRow
-    name: AppointmentRow
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AppointmentRow.html
-  - name: .
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Rows.AppointmentRow.IdxAppointmentId
-    name: IdxAppointmentId
+    name: AppointmentRow.IdxAppointmentId
+    nameWithType: AppointmentRow.IdxAppointmentId
+    fullName: SuperOffice.CRM.Rows.AppointmentRow.IdxAppointmentId
     isExternal: true
-    href: SuperOffice.CRM.Rows.AppointmentRow.IdxAppointmentId.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.Appointment
-    name: Appointment
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.html
-  - name: .
   - uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1
-    name: AppointmentIdx
+    name: Appointment.AppointmentIdx
+    nameWithType: Appointment.AppointmentIdx
+    fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx
     isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.AppointmentIdx-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.AppointmentRow
-    name: AppointmentRow
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AppointmentRow.html
-  - name: .
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Rows.AppointmentRow.IdxAppointmentId
-    name: IdxAppointmentId
+    name: AppointmentRow.IdxAppointmentId
+    nameWithType: AppointmentRow.IdxAppointmentId
+    fullName: SuperOffice.CRM.Rows.AppointmentRow.IdxAppointmentId
     isExternal: true
-    href: SuperOffice.CRM.Rows.AppointmentRow.IdxAppointmentId.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Security.ISentryIgnorable
   commentId: T:SuperOffice.CRM.Security.ISentryIgnorable
   parent: SuperOffice.CRM.Security
   isExternal: true
-  href: SuperOffice.CRM.Security.ISentryIgnorable.html
   name: ISentryIgnorable
   nameWithType: ISentryIgnorable
   fullName: SuperOffice.CRM.Security.ISentryIgnorable
@@ -308,324 +228,88 @@ references:
   commentId: P:SuperOffice.CRM.Entities.Appointment.AppointmentIdx{SuperOffice.CRM.Rows.AppointmentRow.IdxAppointmentId}.RowIdx
   parent: SuperOffice.CRM.Entities.Appointment.AppointmentIdx{SuperOffice.CRM.Rows.AppointmentRow.IdxAppointmentId}
   definition: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1.RowIdx
-  href: SuperOffice.CRM.Entities.Appointment.AppointmentIdx-1.html#SuperOffice_CRM_Entities_Appointment_AppointmentIdx_1_RowIdx
   name: RowIdx
   nameWithType: Appointment.AppointmentIdx<AppointmentRow.IdxAppointmentId>.RowIdx
   fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx<SuperOffice.CRM.Rows.AppointmentRow.IdxAppointmentId>.RowIdx
   nameWithType.vb: Appointment.AppointmentIdx(Of AppointmentRow.IdxAppointmentId).RowIdx
   fullName.vb: SuperOffice.CRM.Entities.Appointment.AppointmentIdx(Of SuperOffice.CRM.Rows.AppointmentRow.IdxAppointmentId).RowIdx
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<IdxAppointmentId, To>(IdxAppointmentId)
-  nameWithType: EnumUtil.MapEnums<Appointment.IdxAppointmentId, To>(Appointment.IdxAppointmentId)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Appointment.IdxAppointmentId, To>(SuperOffice.CRM.Entities.Appointment.IdxAppointmentId)
-  nameWithType.vb: EnumUtil.MapEnums(Of Appointment.IdxAppointmentId, To)(Appointment.IdxAppointmentId)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Appointment.IdxAppointmentId, To)(SuperOffice.CRM.Entities.Appointment.IdxAppointmentId)
-  name.vb: MapEnums(Of IdxAppointmentId, To)(IdxAppointmentId)
+  name: MapEnums<Appointment.IdxAppointmentId, To>()
+  nameWithType: EnumUtil.MapEnums<Appointment.IdxAppointmentId, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Appointment.IdxAppointmentId, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of Appointment.IdxAppointmentId, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Appointment.IdxAppointmentId, To)()
+  name.vb: MapEnums(Of Appointment.IdxAppointmentId, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.Appointment.IdxAppointmentId)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<Appointment.IdxAppointmentId, To>
+    nameWithType: EnumUtil.MapEnums<Appointment.IdxAppointmentId, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Appointment.IdxAppointmentId, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId
-    name: IdxAppointmentId
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId
-    name: IdxAppointmentId
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.Appointment.IdxAppointmentId)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of Appointment.IdxAppointmentId, To)
+    nameWithType: EnumUtil.MapEnums(Of Appointment.IdxAppointmentId, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Appointment.IdxAppointmentId, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId
-    name: IdxAppointmentId
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId
-    name: IdxAppointmentId
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<IdxAppointmentId, To>(IdxAppointmentId)
-  nameWithType: Converters.MapEnums<Appointment.IdxAppointmentId, To>(Appointment.IdxAppointmentId)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Appointment.IdxAppointmentId, To>(SuperOffice.CRM.Entities.Appointment.IdxAppointmentId)
-  nameWithType.vb: Converters.MapEnums(Of Appointment.IdxAppointmentId, To)(Appointment.IdxAppointmentId)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Appointment.IdxAppointmentId, To)(SuperOffice.CRM.Entities.Appointment.IdxAppointmentId)
-  name.vb: MapEnums(Of IdxAppointmentId, To)(IdxAppointmentId)
+  name: MapEnums<Appointment.IdxAppointmentId, To>()
+  nameWithType: Converters.MapEnums<Appointment.IdxAppointmentId, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Appointment.IdxAppointmentId, To>()
+  nameWithType.vb: Converters.MapEnums(Of Appointment.IdxAppointmentId, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Appointment.IdxAppointmentId, To)()
+  name.vb: MapEnums(Of Appointment.IdxAppointmentId, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.Appointment.IdxAppointmentId)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<Appointment.IdxAppointmentId, To>
+    nameWithType: Converters.MapEnums<Appointment.IdxAppointmentId, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Appointment.IdxAppointmentId, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId
-    name: IdxAppointmentId
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId
-    name: IdxAppointmentId
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.Appointment.IdxAppointmentId)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of Appointment.IdxAppointmentId, To)
+    nameWithType: Converters.MapEnums(Of Appointment.IdxAppointmentId, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Appointment.IdxAppointmentId, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId
-    name: IdxAppointmentId
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId
-    name: IdxAppointmentId
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
   commentId: T:SuperOffice.CRM.Entities.EntityIdxBase`2
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
   name: EntityIdxBase<TTableInfo, TIdx>
   nameWithType: EntityIdxBase<TTableInfo, TIdx>
   fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>
@@ -635,31 +319,48 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
     name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
     isExternal: true
-    href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TTableInfo
-  - name: ','
-  - name: " "
+    nameWithType: TTableInfo
+    fullName: TTableInfo
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
     name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
     isExternal: true
-    href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TTableInfo
-  - name: ','
-  - name: " "
+    nameWithType: TTableInfo
+    fullName: TTableInfo
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1
   commentId: T:SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1
   isExternal: true
-  href: SuperOffice.CRM.Entities.Appointment.html
   name: Appointment.AppointmentIdx<TIdx>
   nameWithType: Appointment.AppointmentIdx<TIdx>
   fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx<TIdx>
@@ -667,74 +368,44 @@ references:
   fullName.vb: SuperOffice.CRM.Entities.Appointment.AppointmentIdx(Of TIdx)
   name.vb: Appointment.AppointmentIdx(Of TIdx)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.Appointment
-    name: Appointment
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.html
-  - name: .
   - uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1
-    name: AppointmentIdx
+    name: Appointment.AppointmentIdx
+    nameWithType: Appointment.AppointmentIdx
+    fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx
     isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.AppointmentIdx-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.Appointment
-    name: Appointment
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.html
-  - name: .
   - uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1
-    name: AppointmentIdx
+    name: Appointment.AppointmentIdx
+    nameWithType: Appointment.AppointmentIdx
+    fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx
     isExternal: true
-    href: SuperOffice.CRM.Entities.Appointment.AppointmentIdx-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Security
   nameWithType: SuperOffice.CRM.Security
   fullName: SuperOffice.CRM.Security
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.CRM.Security.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.CRM.Security.html
 - uid: SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1.RowIdx
   commentId: P:SuperOffice.CRM.Entities.Appointment.AppointmentIdx`1.RowIdx
   isExternal: true
-  href: SuperOffice.CRM.Entities.Appointment.AppointmentIdx-1.html#SuperOffice_CRM_Entities_Appointment_AppointmentIdx_1_RowIdx
   name: RowIdx
   nameWithType: Appointment.AppointmentIdx<TIdx>.RowIdx
   fullName: SuperOffice.CRM.Entities.Appointment.AppointmentIdx<TIdx>.RowIdx
@@ -743,7 +414,6 @@ references:
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -752,45 +422,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -799,97 +467,57 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.#ctor*
   commentId: Overload:SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.html#SuperOffice_CRM_Entities_Appointment_IdxAppointmentId__ctor_System_Int32_
   name: IdxAppointmentId
   nameWithType: Appointment.IdxAppointmentId.IdxAppointmentId
   fullName: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.IdxAppointmentId
-  nameWithType.vb: Appointment.IdxAppointmentId.New
-  fullName.vb: SuperOffice.CRM.Entities.Appointment.IdxAppointmentId.New
-  name.vb: New
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

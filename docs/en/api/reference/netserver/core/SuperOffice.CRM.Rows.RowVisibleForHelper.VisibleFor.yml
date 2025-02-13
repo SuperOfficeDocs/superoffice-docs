@@ -8,27 +8,67 @@ items:
   - SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.All
   - SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.Group
   - SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.Private
+  - SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.value__
   langs:
   - csharp
   - vb
   name: RowVisibleForHelper.VisibleFor
   nameWithType: RowVisibleForHelper.VisibleFor
   fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-  type: Enum
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Enumerator describing the level of visible for.
-  example: []
+  summary: "\nEnumerator describing the level of visible for.\n"
   syntax:
-    content: public enum RowVisibleForHelper.VisibleFor
-    content.vb: Public Enum RowVisibleForHelper.VisibleFor
+    content: 'public sealed class VisibleFor : Enum'
+    content.vb: >-
+      Public NotInheritable Class VisibleFor
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
-  - SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.String)
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.value__
+  commentId: F:SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.value__
+  id: value__
+  parent: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: RowVisibleForHelper.VisibleFor.value__
+  fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.All
   commentId: F:SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.All
   id: All
@@ -40,13 +80,23 @@ items:
   nameWithType: RowVisibleForHelper.VisibleFor.All
   fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.All
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: All = 0
+    content: public const RowVisibleForHelper.VisibleFor All
     return:
       type: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+    content.vb: Public Const All As RowVisibleForHelper.VisibleFor
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.Group
   commentId: F:SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.Group
   id: Group
@@ -58,13 +108,23 @@ items:
   nameWithType: RowVisibleForHelper.VisibleFor.Group
   fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.Group
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: Group = 1
+    content: public const RowVisibleForHelper.VisibleFor Group
     return:
       type: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+    content.vb: Public Const Group As RowVisibleForHelper.VisibleFor
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.Private
   commentId: F:SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.Private
   id: Private
@@ -76,312 +136,114 @@ items:
   nameWithType: RowVisibleForHelper.VisibleFor.Private
   fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.Private
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
-    content: Private = 2
+    content: public const RowVisibleForHelper.VisibleFor Private
     return:
       type: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
+    content.vb: Public Const Private As RowVisibleForHelper.VisibleFor
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<VisibleFor, To>(VisibleFor)
-  nameWithType: EnumUtil.MapEnums<RowVisibleForHelper.VisibleFor, To>(RowVisibleForHelper.VisibleFor)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, To>(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
-  nameWithType.vb: EnumUtil.MapEnums(Of RowVisibleForHelper.VisibleFor, To)(RowVisibleForHelper.VisibleFor)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, To)(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
-  name.vb: MapEnums(Of VisibleFor, To)(VisibleFor)
+  name: MapEnums<RowVisibleForHelper.VisibleFor, To>()
+  nameWithType: EnumUtil.MapEnums<RowVisibleForHelper.VisibleFor, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of RowVisibleForHelper.VisibleFor, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, To)()
+  name.vb: MapEnums(Of RowVisibleForHelper.VisibleFor, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<RowVisibleForHelper.VisibleFor, To>
+    nameWithType: EnumUtil.MapEnums<RowVisibleForHelper.VisibleFor, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-    name: VisibleFor
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-    name: VisibleFor
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of RowVisibleForHelper.VisibleFor, To)
+    nameWithType: EnumUtil.MapEnums(Of RowVisibleForHelper.VisibleFor, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-    name: VisibleFor
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-    name: VisibleFor
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<VisibleFor, To>(VisibleFor)
-  nameWithType: Converters.MapEnums<RowVisibleForHelper.VisibleFor, To>(RowVisibleForHelper.VisibleFor)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, To>(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
-  nameWithType.vb: Converters.MapEnums(Of RowVisibleForHelper.VisibleFor, To)(RowVisibleForHelper.VisibleFor)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, To)(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
-  name.vb: MapEnums(Of VisibleFor, To)(VisibleFor)
+  name: MapEnums<RowVisibleForHelper.VisibleFor, To>()
+  nameWithType: Converters.MapEnums<RowVisibleForHelper.VisibleFor, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, To>()
+  nameWithType.vb: Converters.MapEnums(Of RowVisibleForHelper.VisibleFor, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, To)()
+  name.vb: MapEnums(Of RowVisibleForHelper.VisibleFor, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<RowVisibleForHelper.VisibleFor, To>
+    nameWithType: Converters.MapEnums<RowVisibleForHelper.VisibleFor, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-    name: VisibleFor
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-    name: VisibleFor
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of RowVisibleForHelper.VisibleFor, To)
+    nameWithType: Converters.MapEnums(Of RowVisibleForHelper.VisibleFor, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-    name: VisibleFor
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-    name: VisibleFor
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<VisibleFor>(VisibleFor, VisibleFor)
-  nameWithType: ObjectExtensions.AssignByReflection<RowVisibleForHelper.VisibleFor>(RowVisibleForHelper.VisibleFor, RowVisibleForHelper.VisibleFor)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor>(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RowVisibleForHelper.VisibleFor)(RowVisibleForHelper.VisibleFor, RowVisibleForHelper.VisibleFor)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor, SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
-  name.vb: AssignByReflection(Of VisibleFor)(VisibleFor, VisibleFor)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor,SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-    name: VisibleFor
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-    name: VisibleFor
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-    name: VisibleFor
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor,SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-    name: VisibleFor
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-    name: VisibleFor
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-    name: VisibleFor
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<VisibleFor>(VisibleFor)
-  nameWithType: ObjectExtensions.GraphCopy<RowVisibleForHelper.VisibleFor>(RowVisibleForHelper.VisibleFor)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor>(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of RowVisibleForHelper.VisibleFor)(RowVisibleForHelper.VisibleFor)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
-  name.vb: GraphCopy(Of VisibleFor)(VisibleFor)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-    name: VisibleFor
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-    name: VisibleFor
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-    name: VisibleFor
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-    name: VisibleFor
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.html
-  - name: )
-- uid: System.Enum.SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.String)
-  commentId: M:SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  parent: SuperOffice.CRM.RegistryExtensions
-  definition: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  name: GetRegistryRow(Enum, string)
-  nameWithType: RegistryExtensions.GetRegistryRow(Enum, string)
-  fullName: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, string)
-  nameWithType.vb: RegistryExtensions.GetRegistryRow(Enum, String)
-  fullName.vb: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, String)
-  name.vb: GetRegistryRow(Enum, String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-    name: GetRegistryRow
-    isExternal: true
-    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-    name: GetRegistryRow
-    isExternal: true
-    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -390,45 +252,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -437,292 +297,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  commentId: M:SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  isExternal: true
-  href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  name: GetRegistryRow(Enum, string)
-  nameWithType: RegistryExtensions.GetRegistryRow(Enum, string)
-  fullName: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, string)
-  nameWithType.vb: RegistryExtensions.GetRegistryRow(Enum, String)
-  fullName.vb: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, String)
-  name.vb: GetRegistryRow(Enum, String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-    name: GetRegistryRow
-    isExternal: true
-    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-    name: GetRegistryRow
-    isExternal: true
-    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.CRM.RegistryExtensions
-  commentId: T:SuperOffice.CRM.RegistryExtensions
-  parent: SuperOffice.CRM
-  isExternal: true
-  href: SuperOffice.CRM.RegistryExtensions.html
-  name: RegistryExtensions
-  nameWithType: RegistryExtensions
-  fullName: SuperOffice.CRM.RegistryExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-- uid: SuperOffice.CRM
-  commentId: N:SuperOffice.CRM
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM
-  nameWithType: SuperOffice.CRM
-  fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
   commentId: T:SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.RowVisibleForHelper.html
   name: RowVisibleForHelper.VisibleFor
   nameWithType: RowVisibleForHelper.VisibleFor
   fullName: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper
-    name: RowVisibleForHelper
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-    name: VisibleFor
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper
-    name: RowVisibleForHelper
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor
-    name: VisibleFor
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowVisibleForHelper.VisibleFor.html

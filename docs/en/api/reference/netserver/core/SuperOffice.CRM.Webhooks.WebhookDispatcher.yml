@@ -14,35 +14,25 @@ items:
   nameWithType: WebhookDispatcher
   fullName: SuperOffice.CRM.Webhooks.WebhookDispatcher
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Webhooks
-  summary: >-
-    Webhook dispatcher. Manages the background thread for dispatching webhook calls.
-
-    Self-destructs when the queue is empty for a few seconds.
-
-    <xref href="SuperOffice.Threading.ParallelConsumerQueue%601" data-throw-if-not-resolved="false"></xref>
-  example: []
+  summary: "\nWebhook dispatcher. Manages the background thread for dispatching webhook calls.\nSelf-destructs when the queue is empty for a few seconds.\n<xref href=\"SuperOffice.Threading.ParallelConsumerQueue%601\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
     content: >-
       [SoInject("Database")]
 
-      public class WebhookDispatcher
+      public class WebhookDispatcher : Object
     content.vb: >-
       <SoInject("Database")>
 
       Public Class WebhookDispatcher
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Webhooks.WebhookDispatcher.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Webhooks.WebhookDispatcher.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -52,6 +42,12 @@ items:
     arguments:
     - type: System.String
       value: Database
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Webhooks.WebhookDispatcher.WaitForWebhooksToComplete
   commentId: M:SuperOffice.CRM.Webhooks.WebhookDispatcher.WaitForWebhooksToComplete
   id: WaitForWebhooksToComplete
@@ -63,15 +59,21 @@ items:
   nameWithType: WebhookDispatcher.WaitForWebhooksToComplete()
   fullName: SuperOffice.CRM.Webhooks.WebhookDispatcher.WaitForWebhooksToComplete()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Webhooks
-  summary: Wait for queue to empty
-  example: []
+  summary: "\nWait for queue to empty\n"
   syntax:
     content: public void WaitForWebhooksToComplete()
-    content.vb: Public Sub WaitForWebhooksToComplete()
+    content.vb: Public Sub WaitForWebhooksToComplete
   overload: SuperOffice.CRM.Webhooks.WebhookDispatcher.WaitForWebhooksToComplete*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Webhooks.WebhookDispatcher.Enqueue(SuperOffice.CRM.Webhooks.WebhookTaskInfo)
   commentId: M:SuperOffice.CRM.Webhooks.WebhookDispatcher.Enqueue(SuperOffice.CRM.Webhooks.WebhookTaskInfo)
   id: Enqueue(SuperOffice.CRM.Webhooks.WebhookTaskInfo)
@@ -83,6 +85,9 @@ items:
   nameWithType: WebhookDispatcher.Enqueue(WebhookTaskInfo)
   fullName: SuperOffice.CRM.Webhooks.WebhookDispatcher.Enqueue(SuperOffice.CRM.Webhooks.WebhookTaskInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Webhooks
@@ -93,419 +98,101 @@ items:
       type: SuperOffice.CRM.Webhooks.WebhookTaskInfo
     content.vb: Public Sub Enqueue(info As WebhookTaskInfo)
   overload: SuperOffice.CRM.Webhooks.WebhookDispatcher.Enqueue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.Threading.ParallelConsumerQueue`1
-  commentId: T:SuperOffice.Threading.ParallelConsumerQueue`1
-  isExternal: true
-  href: SuperOffice.Threading.ParallelConsumerQueue-1.html
-  name: ParallelConsumerQueue<T>
-  nameWithType: ParallelConsumerQueue<T>
-  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>
-  nameWithType.vb: ParallelConsumerQueue(Of T)
-  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T)
-  name.vb: ParallelConsumerQueue(Of T)
-  spec.csharp:
-  - uid: SuperOffice.Threading.ParallelConsumerQueue`1
-    name: ParallelConsumerQueue
-    isExternal: true
-    href: SuperOffice.Threading.ParallelConsumerQueue-1.html
-  - name: <
-  - name: T
-  - name: '>'
-  spec.vb:
-  - uid: SuperOffice.Threading.ParallelConsumerQueue`1
-    name: ParallelConsumerQueue
-    isExternal: true
-    href: SuperOffice.Threading.ParallelConsumerQueue-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
 - uid: SuperOffice.CRM.Webhooks
   commentId: N:SuperOffice.CRM.Webhooks
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Webhooks
   nameWithType: SuperOffice.CRM.Webhooks
   fullName: SuperOffice.CRM.Webhooks
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Webhooks
-    name: Webhooks
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Webhooks
-    name: Webhooks
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Webhooks.WebhookDispatcher.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<WebhookDispatcher, To>(WebhookDispatcher)
-  nameWithType: EnumUtil.MapEnums<WebhookDispatcher, To>(WebhookDispatcher)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Webhooks.WebhookDispatcher, To>(SuperOffice.CRM.Webhooks.WebhookDispatcher)
-  nameWithType.vb: EnumUtil.MapEnums(Of WebhookDispatcher, To)(WebhookDispatcher)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Webhooks.WebhookDispatcher, To)(SuperOffice.CRM.Webhooks.WebhookDispatcher)
-  name.vb: MapEnums(Of WebhookDispatcher, To)(WebhookDispatcher)
+  name: MapEnums<WebhookDispatcher, To>()
+  nameWithType: EnumUtil.MapEnums<WebhookDispatcher, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Webhooks.WebhookDispatcher, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WebhookDispatcher, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Webhooks.WebhookDispatcher, To)()
+  name.vb: MapEnums(Of WebhookDispatcher, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Webhooks.WebhookDispatcher)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WebhookDispatcher, To>
+    nameWithType: EnumUtil.MapEnums<WebhookDispatcher, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Webhooks.WebhookDispatcher, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Webhooks.WebhookDispatcher
-    name: WebhookDispatcher
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.WebhookDispatcher.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Webhooks.WebhookDispatcher
-    name: WebhookDispatcher
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.WebhookDispatcher.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Webhooks.WebhookDispatcher)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WebhookDispatcher, To)
+    nameWithType: EnumUtil.MapEnums(Of WebhookDispatcher, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Webhooks.WebhookDispatcher, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Webhooks.WebhookDispatcher
-    name: WebhookDispatcher
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.WebhookDispatcher.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Webhooks.WebhookDispatcher
-    name: WebhookDispatcher
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.WebhookDispatcher.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Webhooks.WebhookDispatcher.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<WebhookDispatcher, To>(WebhookDispatcher)
-  nameWithType: Converters.MapEnums<WebhookDispatcher, To>(WebhookDispatcher)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Webhooks.WebhookDispatcher, To>(SuperOffice.CRM.Webhooks.WebhookDispatcher)
-  nameWithType.vb: Converters.MapEnums(Of WebhookDispatcher, To)(WebhookDispatcher)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Webhooks.WebhookDispatcher, To)(SuperOffice.CRM.Webhooks.WebhookDispatcher)
-  name.vb: MapEnums(Of WebhookDispatcher, To)(WebhookDispatcher)
+  name: MapEnums<WebhookDispatcher, To>()
+  nameWithType: Converters.MapEnums<WebhookDispatcher, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Webhooks.WebhookDispatcher, To>()
+  nameWithType.vb: Converters.MapEnums(Of WebhookDispatcher, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Webhooks.WebhookDispatcher, To)()
+  name.vb: MapEnums(Of WebhookDispatcher, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Webhooks.WebhookDispatcher)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WebhookDispatcher, To>
+    nameWithType: Converters.MapEnums<WebhookDispatcher, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Webhooks.WebhookDispatcher, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Webhooks.WebhookDispatcher
-    name: WebhookDispatcher
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.WebhookDispatcher.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Webhooks.WebhookDispatcher
-    name: WebhookDispatcher
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.WebhookDispatcher.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Webhooks.WebhookDispatcher)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WebhookDispatcher, To)
+    nameWithType: Converters.MapEnums(Of WebhookDispatcher, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Webhooks.WebhookDispatcher, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Webhooks.WebhookDispatcher
-    name: WebhookDispatcher
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.WebhookDispatcher.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Webhooks.WebhookDispatcher
-    name: WebhookDispatcher
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.WebhookDispatcher.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -514,45 +201,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -561,90 +246,56 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Webhooks.WebhookDispatcher.WaitForWebhooksToComplete*
   commentId: Overload:SuperOffice.CRM.Webhooks.WebhookDispatcher.WaitForWebhooksToComplete
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.WebhookDispatcher.html#SuperOffice_CRM_Webhooks_WebhookDispatcher_WaitForWebhooksToComplete
   name: WaitForWebhooksToComplete
   nameWithType: WebhookDispatcher.WaitForWebhooksToComplete
   fullName: SuperOffice.CRM.Webhooks.WebhookDispatcher.WaitForWebhooksToComplete
 - uid: SuperOffice.CRM.Webhooks.WebhookDispatcher.Enqueue*
   commentId: Overload:SuperOffice.CRM.Webhooks.WebhookDispatcher.Enqueue
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.WebhookDispatcher.html#SuperOffice_CRM_Webhooks_WebhookDispatcher_Enqueue_SuperOffice_CRM_Webhooks_WebhookTaskInfo_
   name: Enqueue
   nameWithType: WebhookDispatcher.Enqueue
   fullName: SuperOffice.CRM.Webhooks.WebhookDispatcher.Enqueue
@@ -652,7 +303,6 @@ references:
   commentId: T:SuperOffice.CRM.Webhooks.WebhookTaskInfo
   parent: SuperOffice.CRM.Webhooks
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.WebhookTaskInfo.html
   name: WebhookTaskInfo
   nameWithType: WebhookTaskInfo
   fullName: SuperOffice.CRM.Webhooks.WebhookTaskInfo

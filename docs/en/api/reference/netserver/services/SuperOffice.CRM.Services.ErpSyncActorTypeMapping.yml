@@ -20,27 +20,18 @@ items:
   nameWithType: ErpSyncActorTypeMapping
   fullName: SuperOffice.CRM.Services.ErpSyncActorTypeMapping
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Mapping information for one Actor, contains array of field mappings (ERP &lt;-&gt; SuperOffice)
-
-    <p></p>
-
-    Carrier object for ErpSyncActorTypeMapping.
-
-    Services for the ErpSyncActorTypeMapping Carrier is available from the <xref href="SuperOffice.CRM.Services.IErpSyncAgent?text=ErpSync+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nMapping information for one Actor, contains array of field mappings (ERP &lt;-> SuperOffice)\n<p></p>\nCarrier object for ErpSyncActorTypeMapping.\nServices for the ErpSyncActorTypeMapping Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IErpSyncAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class ErpSyncActorTypeMapping : Carrier
+    content: 'public class ErpSyncActorTypeMapping : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class ErpSyncActorTypeMapping Inherits Carrier
+      Public Class ErpSyncActorTypeMapping
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ErpSyncAgent
     commentId: T:SuperOffice.CRM.Services.ErpSyncAgent
@@ -48,14 +39,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.#ctor
   commentId: M:SuperOffice.CRM.Services.ErpSyncActorTypeMapping.#ctor
   id: '#ctor'
@@ -67,18 +56,21 @@ items:
   nameWithType: ErpSyncActorTypeMapping.ErpSyncActorTypeMapping()
   fullName: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ErpSyncActorTypeMapping()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public ErpSyncActorTypeMapping()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.#ctor*
-  nameWithType.vb: ErpSyncActorTypeMapping.New()
-  fullName.vb: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ToString
   commentId: M:SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ToString
   id: ToString
@@ -90,18 +82,26 @@ items:
   nameWithType: ErpSyncActorTypeMapping.ToString()
   fullName: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ToString(System.String)
   id: ToString(System.String)
@@ -109,18 +109,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: ErpSyncActorTypeMapping.ToString(string)
-  fullName: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ToString(string)
+  name: ToString(String)
+  nameWithType: ErpSyncActorTypeMapping.ToString(String)
+  fullName: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -132,9 +131,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ToString*
-  nameWithType.vb: ErpSyncActorTypeMapping.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ErpConnectionId
   commentId: P:SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ErpConnectionId
   id: ErpConnectionId
@@ -146,28 +146,28 @@ items:
   nameWithType: ErpSyncActorTypeMapping.ErpConnectionId
   fullName: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ErpConnectionId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ErpConnectionId { get; set; }
+    content: public virtual int ErpConnectionId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ErpConnectionId As Integer
+    content.vb: Public Overridable Property ErpConnectionId As Integer
   overload: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ErpConnectionId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.IsActive
   commentId: P:SuperOffice.CRM.Services.ErpSyncActorTypeMapping.IsActive
   id: IsActive
@@ -179,28 +179,28 @@ items:
   nameWithType: ErpSyncActorTypeMapping.IsActive
   fullName: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.IsActive
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Is this sync mapping active
-  example: []
+  summary: "\nIs this sync mapping active \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool IsActive { get; set; }
+    content: public virtual bool IsActive { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property IsActive As Boolean
+    content.vb: Public Overridable Property IsActive As Boolean
   overload: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.IsActive*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.FieldMappings
   commentId: P:SuperOffice.CRM.Services.ErpSyncActorTypeMapping.FieldMappings
   id: FieldMappings
@@ -212,28 +212,28 @@ items:
   nameWithType: ErpSyncActorTypeMapping.FieldMappings
   fullName: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.FieldMappings
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Array of individual field mappings; explicitly map to empty CrmFieldKey to indicate non-sync
-  example: []
+  summary: "\nArray of individual field mappings; explicitly map to empty CrmFieldKey to indicate non-sync \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual ErpSyncFieldMapping[] FieldMappings { get; set; }
+    content: public virtual ErpSyncFieldMapping[] FieldMappings { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.ErpSyncFieldMapping[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property FieldMappings As ErpSyncFieldMapping()
+    content.vb: Public Overridable Property FieldMappings As ErpSyncFieldMapping()
   overload: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.FieldMappings*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ActorTypeErp
   commentId: P:SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ActorTypeErp
   id: ActorTypeErp
@@ -245,28 +245,28 @@ items:
   nameWithType: ErpSyncActorTypeMapping.ActorTypeErp
   fullName: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ActorTypeErp
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The actor type (ERP side)
-  example: []
+  summary: "\nThe actor type (ERP side) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual ErpActorType ActorTypeErp { get; set; }
+    content: public virtual ErpActorType ActorTypeErp { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.ErpActorType
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ActorTypeErp As ErpActorType
+    content.vb: Public Overridable Property ActorTypeErp As ErpActorType
   overload: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ActorTypeErp*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ActorTypeCrm
   commentId: P:SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ActorTypeCrm
   id: ActorTypeCrm
@@ -278,33 +278,38 @@ items:
   nameWithType: ErpSyncActorTypeMapping.ActorTypeCrm
   fullName: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ActorTypeCrm
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The actor type (CRM side)
-  example: []
+  summary: "\nThe actor type (CRM side) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual CrmActorType ActorTypeCrm { get; set; }
+    content: public virtual CrmActorType ActorTypeCrm { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.CrmActorType
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ActorTypeCrm As CrmActorType
+    content.vb: Public Overridable Property ActorTypeCrm As CrmActorType
   overload: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ActorTypeCrm*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.ErpSyncAgent
   commentId: T:SuperOffice.CRM.Services.ErpSyncAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncAgent.html
   name: ErpSyncAgent
   nameWithType: ErpSyncAgent
   fullName: SuperOffice.CRM.Services.ErpSyncAgent
@@ -312,79 +317,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html
   name: IErpSyncAgent
   nameWithType: IErpSyncAgent
   fullName: SuperOffice.CRM.Services.IErpSyncAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncActorTypeMapping.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.html#SuperOffice_CRM_Services_ErpSyncActorTypeMapping__ctor
   name: ErpSyncActorTypeMapping
   nameWithType: ErpSyncActorTypeMapping.ErpSyncActorTypeMapping
   fullName: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ErpSyncActorTypeMapping
-  nameWithType.vb: ErpSyncActorTypeMapping.New
-  fullName.vb: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.html#SuperOffice_CRM_Services_ErpSyncActorTypeMapping_ToString
   name: ToString
   nameWithType: ErpSyncActorTypeMapping.ToString
   fullName: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ToString
@@ -392,17 +336,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ErpConnectionId*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ErpConnectionId
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.html#SuperOffice_CRM_Services_ErpSyncActorTypeMapping_ErpConnectionId
   name: ErpConnectionId
   nameWithType: ErpSyncActorTypeMapping.ErpConnectionId
   fullName: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ErpConnectionId
@@ -410,17 +355,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.IsActive*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncActorTypeMapping.IsActive
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.html#SuperOffice_CRM_Services_ErpSyncActorTypeMapping_IsActive
   name: IsActive
   nameWithType: ErpSyncActorTypeMapping.IsActive
   fullName: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.IsActive
@@ -428,23 +368,17 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.FieldMappings*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncActorTypeMapping.FieldMappings
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.html#SuperOffice_CRM_Services_ErpSyncActorTypeMapping_FieldMappings
   name: FieldMappings
   nameWithType: ErpSyncActorTypeMapping.FieldMappings
   fullName: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.FieldMappings
 - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping[]
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html
   name: ErpSyncFieldMapping[]
   nameWithType: ErpSyncFieldMapping[]
   fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping[]
@@ -454,21 +388,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping
     name: ErpSyncFieldMapping
+    nameWithType: ErpSyncFieldMapping
+    fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping
     isExternal: true
-    href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.ErpSyncFieldMapping
     name: ErpSyncFieldMapping
+    nameWithType: ErpSyncFieldMapping
+    fullName: SuperOffice.CRM.Services.ErpSyncFieldMapping
     isExternal: true
-    href: SuperOffice.CRM.Services.ErpSyncFieldMapping.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ActorTypeErp*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ActorTypeErp
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.html#SuperOffice_CRM_Services_ErpSyncActorTypeMapping_ActorTypeErp
   name: ActorTypeErp
   nameWithType: ErpSyncActorTypeMapping.ActorTypeErp
   fullName: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ActorTypeErp
@@ -480,7 +417,6 @@ references:
 - uid: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ActorTypeCrm*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ActorTypeCrm
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.html#SuperOffice_CRM_Services_ErpSyncActorTypeMapping_ActorTypeCrm
   name: ActorTypeCrm
   nameWithType: ErpSyncActorTypeMapping.ActorTypeCrm
   fullName: SuperOffice.CRM.Services.ErpSyncActorTypeMapping.ActorTypeCrm

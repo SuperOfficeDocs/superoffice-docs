@@ -1,0 +1,340 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest
+  id: Appointment_MoveWithEmailRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.AppointmentId
+  - SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.ImapEMailConnectionInfo
+  - SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.NewStartTime
+  - SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.SendEmailToParticipants
+  - SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.SmtpEMailConnectionInfo
+  - SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.UpdateMode
+  langs:
+  - csharp
+  - vb
+  name: Appointment_MoveWithEmailRequest
+  nameWithType: Appointment_MoveWithEmailRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_MoveWithEmailRequest : Object'
+    content.vb: >-
+      Public Class Appointment_MoveWithEmailRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_MoveWithEmailRequest()
+  nameWithType: Appointment_MoveWithEmailRequest.Appointment_MoveWithEmailRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.Appointment_MoveWithEmailRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_MoveWithEmailRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.AppointmentId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: Appointment_MoveWithEmailRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.AppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.NewStartTime
+  commentId: P:SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.NewStartTime
+  id: NewStartTime
+  parent: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: NewStartTime
+  nameWithType: Appointment_MoveWithEmailRequest.NewStartTime
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.NewStartTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime NewStartTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property NewStartTime As DateTime
+  overload: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.NewStartTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.UpdateMode
+  commentId: P:SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.UpdateMode
+  id: UpdateMode
+  parent: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateMode
+  nameWithType: Appointment_MoveWithEmailRequest.UpdateMode
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.UpdateMode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public RecurrenceUpdateMode UpdateMode { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+    content.vb: Public Property UpdateMode As RecurrenceUpdateMode
+  overload: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.UpdateMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.SendEmailToParticipants
+  commentId: P:SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.SendEmailToParticipants
+  id: SendEmailToParticipants
+  parent: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: SendEmailToParticipants
+  nameWithType: Appointment_MoveWithEmailRequest.SendEmailToParticipants
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.SendEmailToParticipants
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool SendEmailToParticipants { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SendEmailToParticipants As Boolean
+  overload: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.SendEmailToParticipants*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.SmtpEMailConnectionInfo
+  commentId: P:SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.SmtpEMailConnectionInfo
+  id: SmtpEMailConnectionInfo
+  parent: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: SmtpEMailConnectionInfo
+  nameWithType: Appointment_MoveWithEmailRequest.SmtpEMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.SmtpEMailConnectionInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailConnectionInfo SmtpEMailConnectionInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+    content.vb: Public Property SmtpEMailConnectionInfo As EMailConnectionInfo
+  overload: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.SmtpEMailConnectionInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.ImapEMailConnectionInfo
+  commentId: P:SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.ImapEMailConnectionInfo
+  id: ImapEMailConnectionInfo
+  parent: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest
+  langs:
+  - csharp
+  - vb
+  name: ImapEMailConnectionInfo
+  nameWithType: Appointment_MoveWithEmailRequest.ImapEMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.ImapEMailConnectionInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailConnectionInfo ImapEMailConnectionInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+    content.vb: Public Property ImapEMailConnectionInfo As EMailConnectionInfo
+  overload: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.ImapEMailConnectionInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.#ctor
+  isExternal: true
+  name: Appointment_MoveWithEmailRequest
+  nameWithType: Appointment_MoveWithEmailRequest.Appointment_MoveWithEmailRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.Appointment_MoveWithEmailRequest
+- uid: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.AppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: Appointment_MoveWithEmailRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.AppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.NewStartTime*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.NewStartTime
+  isExternal: true
+  name: NewStartTime
+  nameWithType: Appointment_MoveWithEmailRequest.NewStartTime
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.NewStartTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.UpdateMode*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.UpdateMode
+  isExternal: true
+  name: UpdateMode
+  nameWithType: Appointment_MoveWithEmailRequest.UpdateMode
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.UpdateMode
+- uid: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RecurrenceUpdateMode
+  nameWithType: RecurrenceUpdateMode
+  fullName: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+- uid: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.SendEmailToParticipants*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.SendEmailToParticipants
+  isExternal: true
+  name: SendEmailToParticipants
+  nameWithType: Appointment_MoveWithEmailRequest.SendEmailToParticipants
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.SendEmailToParticipants
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.SmtpEMailConnectionInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.SmtpEMailConnectionInfo
+  isExternal: true
+  name: SmtpEMailConnectionInfo
+  nameWithType: Appointment_MoveWithEmailRequest.SmtpEMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.SmtpEMailConnectionInfo
+- uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+  commentId: T:SuperOffice.WebApi.Data.EMailConnectionInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailConnectionInfo
+  nameWithType: EMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMailConnectionInfo
+- uid: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.ImapEMailConnectionInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.ImapEMailConnectionInfo
+  isExternal: true
+  name: ImapEMailConnectionInfo
+  nameWithType: Appointment_MoveWithEmailRequest.ImapEMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.Appointment_MoveWithEmailRequest.ImapEMailConnectionInfo

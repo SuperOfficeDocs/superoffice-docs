@@ -20,30 +20,22 @@ items:
   nameWithType: UDListRow.CustomSearch
   fullName: SuperOffice.CRM.Rows.UDListRow.CustomSearch
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    Class representing a custom search against table 'UDList'. Use this class to create a query that
-
-    is pre-populated with the correct <xref href="SuperOffice.CRM.Rows.UDListRow.UDListTableInfo" data-throw-if-not-resolved="false"></xref> and return fields; you can
-
-    then add your own restrictions and other clauses to the query. The result will be a UDListRow.
-
-    If your query matches more than one row in the database, the result will reflect the first row only.
-  remarks: ''
+  summary: "\nClass representing a custom search against table &apos;UDList&apos;. Use this class to create a query that\nis pre-populated with the correct <xref href=\"SuperOffice.CRM.Rows.UDListRow.UDListTableInfo\" data-throw-if-not-resolved=\"false\"></xref> and return fields; you can\nthen add your own restrictions and other clauses to the query. The result will be a UDListRow.\nIf your query matches more than one row in the database, the result will reflect the first row only.\n"
+  remarks: "\n"
   example:
-  - >-
-    This example shows how a custom search is created, one restriction added, and the search executed.
-
-    <pre><code class="lang-csharp">UDListRow.CustomSearch mySearch = new UDListRow.CustomSearch();
-
-    mySearch.Restriction = (some relevant restriction);
-
-    UDListRow myRow = UDListRow.GetFromCustomSearch( mySearch );        // query executed here</code></pre>
+  - "\nThis example shows how a custom search is created, one restriction added, and the search executed.\n<pre><code>UDListRow.CustomSearch mySearch = new UDListRow.CustomSearch();\nmySearch.Restriction = (some relevant restriction);\nUDListRow myRow = UDListRow.GetFromCustomSearch( mySearch );        // query executed here</code></pre>\n"
   syntax:
-    content: 'public sealed class UDListRow.CustomSearch : UDListRow.UDListRowIdx, ICloneable, ISentryIgnorable'
-    content.vb: Public NotInheritable Class UDListRow.CustomSearch Inherits UDListRow.UDListRowIdx Implements ICloneable, ISentryIgnorable
+    content: 'public sealed class CustomSearch : UDListRow.UDListRowIdx, ICloneable, ISentryIgnorable'
+    content.vb: >-
+      Public NotInheritable Class CustomSearch
+          Inherits UDListRow.UDListRowIdx
+          Implements ICloneable, ISentryIgnorable
   inheritance:
   - System.Object
   - SuperOffice.Data.SQL.SqlCommand
@@ -56,6 +48,7 @@ items:
   - System.ICloneable
   - SuperOffice.CRM.Security.ISentryIgnorable
   inheritedMembers:
+  - SuperOffice.Data.SQL.PrivateSelect._isDistinct
   - SuperOffice.Data.SQL.PrivateSelect.GetTableInfos
   - SuperOffice.Data.SQL.PrivateSelect.GetRelations(SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.Data.SQL.PrivateSelect.GetRelations(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.Dictionary.SoTable)
@@ -68,8 +61,12 @@ items:
   - SuperOffice.Data.SQL.PrivateSelect.ToString
   - SuperOffice.Data.SQL.PrivateSelect.GetCachingHash
   - SuperOffice.Data.SQL.PrivateSelect.GetRestrictionTables
+  - SuperOffice.Data.SQL.PrivateSelect.CreateOrderBy
+  - SuperOffice.Data.SQL.PrivateSelect.InnerReturnFields
   - SuperOffice.Data.SQL.PrivateSelect.IsDistinct
   - SuperOffice.Data.SQL.PrivateSelect.ForceRecompile
+  - SuperOffice.Data.SQL.PrivateSelect.InnerGroupBy
+  - SuperOffice.Data.SQL.PrivateSelect.InnerJoinRestriction
   - SuperOffice.Data.SQL.PrivateSelect.SqlType
   - SuperOffice.Data.SQL.SqlCommand.Origin
   - SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
@@ -84,20 +81,23 @@ items:
   - SuperOffice.Data.SQL.SqlCommand.GetDeletes
   - SuperOffice.Data.SQL.SqlCommand.GetSelect
   - SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
   extensionMethods:
   - SuperOffice.CRM.Rows.UDListRow.CustomSearch.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Rows.UDListRow.CustomSearch.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.UDListRow.CustomSearch.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.UDListRow.CustomSearch)
   - SuperOffice.CRM.Rows.UDListRow.CustomSearch.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
   - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
+  - SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+  - SuperOffice.CRM.Rows.UDListRow.CustomSearch.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
 - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.#ctor
   commentId: M:SuperOffice.CRM.Rows.UDListRow.CustomSearch.#ctor
   id: '#ctor'
@@ -109,29 +109,22 @@ items:
   nameWithType: UDListRow.CustomSearch.CustomSearch()
   fullName: SuperOffice.CRM.Rows.UDListRow.CustomSearch.CustomSearch()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    Constructor for class UDListRows.CustomSearch.
-
-    This class represents a custom search against table 'UDList'.
-  remarks: >-
-    By adding restrictions and order by information, 
-
-    a custom query can be formatted against the database.  
-
-    If this is not added, all the rows in the 
-
-    table are returned.
-  example: []
+  summary: "\nConstructor for class UDListRows.CustomSearch.\nThis class represents a custom search against table &apos;UDList&apos;.\n"
+  remarks: "\nBy adding restrictions and order by information, \na custom query can be formatted against the database.  \nIf this is not added, all the rows in the \ntable are returned.\n"
   syntax:
     content: public CustomSearch()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Rows.UDListRow.CustomSearch.#ctor*
-  nameWithType.vb: UDListRow.CustomSearch.New()
-  fullName.vb: SuperOffice.CRM.Rows.UDListRow.CustomSearch.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.UpdateRow(SuperOffice.CRM.Rows.TableRowBase)
   commentId: M:SuperOffice.CRM.Rows.UDListRow.CustomSearch.UpdateRow(SuperOffice.CRM.Rows.TableRowBase)
   id: UpdateRow(SuperOffice.CRM.Rows.TableRowBase)
@@ -143,12 +136,14 @@ items:
   nameWithType: UDListRow.CustomSearch.UpdateRow(TableRowBase)
   fullName: SuperOffice.CRM.Rows.UDListRow.CustomSearch.UpdateRow(SuperOffice.CRM.Rows.TableRowBase)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Update the UDListRow with the values from the index.
-  remarks: This method does nothing for a the CustomSearch class.
-  example: []
+  summary: "\nUpdate the UDListRow with the values from the index.\n"
+  remarks: "\nThis method does nothing for a the CustomSearch class.\n"
   syntax:
     content: public override void UpdateRow(TableRowBase row)
     parameters:
@@ -158,6 +153,12 @@ items:
     content.vb: Public Overrides Sub UpdateRow(row As TableRowBase)
   overridden: SuperOffice.CRM.Rows.IdxBase.UpdateRow(SuperOffice.CRM.Rows.TableRowBase)
   overload: SuperOffice.CRM.Rows.UDListRow.CustomSearch.UpdateRow*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.RestrictionAnd(SuperOffice.Data.SQL.Restriction)
   commentId: M:SuperOffice.CRM.Rows.UDListRow.CustomSearch.RestrictionAnd(SuperOffice.Data.SQL.Restriction)
   id: RestrictionAnd(SuperOffice.Data.SQL.Restriction)
@@ -169,24 +170,25 @@ items:
   nameWithType: UDListRow.CustomSearch.RestrictionAnd(Restriction)
   fullName: SuperOffice.CRM.Rows.UDListRow.CustomSearch.RestrictionAnd(SuperOffice.Data.SQL.Restriction)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    Calling this method is equivalent to the statement Restriction = Restriction.And( &lt;argument&gt; ),
-
-    including protection against null Restrictions. Use it as a convenient shorthand if you are building
-
-    complex restrictions out of smaller parts.
-  example: []
+  summary: "\nCalling this method is equivalent to the statement Restriction = Restriction.And( &lt;argument> ),\nincluding protection against null Restrictions. Use it as a convenient shorthand if you are building\ncomplex restrictions out of smaller parts.\n"
   syntax:
     content: public void RestrictionAnd(Restriction rightHandSide)
     parameters:
     - id: rightHandSide
       type: SuperOffice.Data.SQL.Restriction
-      description: The right-hand side of the AND, the left-hand side is this objects' current Restriction.
+      description: The right-hand side of the AND, the left-hand side is this objects&apos; current Restriction.
     content.vb: Public Sub RestrictionAnd(rightHandSide As Restriction)
   overload: SuperOffice.CRM.Rows.UDListRow.CustomSearch.RestrictionAnd*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.RestrictionOr(SuperOffice.Data.SQL.Restriction)
   commentId: M:SuperOffice.CRM.Rows.UDListRow.CustomSearch.RestrictionOr(SuperOffice.Data.SQL.Restriction)
   id: RestrictionOr(SuperOffice.Data.SQL.Restriction)
@@ -198,24 +200,25 @@ items:
   nameWithType: UDListRow.CustomSearch.RestrictionOr(Restriction)
   fullName: SuperOffice.CRM.Rows.UDListRow.CustomSearch.RestrictionOr(SuperOffice.Data.SQL.Restriction)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    Calling this method is equivalent to the statement Restriction = Restriction.Or( &lt;argument&gt; ),
-
-    including protection against null Restrictions. Use it as a convenient shorthand if you are building
-
-    complex restrictions out of smaller parts.
-  example: []
+  summary: "\nCalling this method is equivalent to the statement Restriction = Restriction.Or( &lt;argument> ),\nincluding protection against null Restrictions. Use it as a convenient shorthand if you are building\ncomplex restrictions out of smaller parts.\n"
   syntax:
     content: public void RestrictionOr(Restriction rightHandSide)
     parameters:
     - id: rightHandSide
       type: SuperOffice.Data.SQL.Restriction
-      description: The right-hand side of the OR, the left-hand side is this objects' current Restriction.
+      description: The right-hand side of the OR, the left-hand side is this objects&apos; current Restriction.
     content.vb: Public Sub RestrictionOr(rightHandSide As Restriction)
   overload: SuperOffice.CRM.Rows.UDListRow.CustomSearch.RestrictionOr*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.InnerRestriction
   commentId: P:SuperOffice.CRM.Rows.UDListRow.CustomSearch.InnerRestriction
   id: InnerRestriction
@@ -227,11 +230,13 @@ items:
   nameWithType: UDListRow.CustomSearch.InnerRestriction
   fullName: SuperOffice.CRM.Rows.UDListRow.CustomSearch.InnerRestriction
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: 'Restriction (e.g. sql: WHERE) for the select statement.'
-  example: []
+  summary: "\nRestriction (e.g. sql: WHERE) for the select statement.\n"
   syntax:
     content: protected override Restriction InnerRestriction { get; }
     parameters: []
@@ -241,6 +246,14 @@ items:
     content.vb: Protected Overrides ReadOnly Property InnerRestriction As Restriction
   overridden: SuperOffice.Data.SQL.PrivateSelect.InnerRestriction
   overload: SuperOffice.CRM.Rows.UDListRow.CustomSearch.InnerRestriction*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
 - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.InnerOrderBy
   commentId: P:SuperOffice.CRM.Rows.UDListRow.CustomSearch.InnerOrderBy
   id: InnerOrderBy
@@ -252,11 +265,13 @@ items:
   nameWithType: UDListRow.CustomSearch.InnerOrderBy
   fullName: SuperOffice.CRM.Rows.UDListRow.CustomSearch.InnerOrderBy
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Implementation of the OrderBy clause.
-  example: []
+  summary: "\nImplementation of the OrderBy clause.\n"
   syntax:
     content: protected override OrderBy InnerOrderBy { get; }
     parameters: []
@@ -265,6 +280,14 @@ items:
     content.vb: Protected Overrides ReadOnly Property InnerOrderBy As OrderBy
   overridden: SuperOffice.CRM.Rows.IdxBase.InnerOrderBy
   overload: SuperOffice.CRM.Rows.UDListRow.CustomSearch.InnerOrderBy*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
 - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.Restriction
   commentId: P:SuperOffice.CRM.Rows.UDListRow.CustomSearch.Restriction
   id: Restriction
@@ -276,11 +299,13 @@ items:
   nameWithType: UDListRow.CustomSearch.Restriction
   fullName: SuperOffice.CRM.Rows.UDListRow.CustomSearch.Restriction
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: 'Restriction (e.g. sql: WHERE) for the select statement.'
-  example: []
+  summary: "\nRestriction (e.g. sql: WHERE) for the select statement.\n"
   syntax:
     content: public Restriction Restriction { get; set; }
     parameters: []
@@ -289,6 +314,12 @@ items:
       description: <xref href="SuperOffice.CRM.Rows.UDListRow.CustomSearch.Restriction" data-throw-if-not-resolved="false"></xref>Object holding the restrictions for the select statement.
     content.vb: Public Property Restriction As Restriction
   overload: SuperOffice.CRM.Rows.UDListRow.CustomSearch.Restriction*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.OrderBy
   commentId: P:SuperOffice.CRM.Rows.UDListRow.CustomSearch.OrderBy
   id: OrderBy
@@ -300,11 +331,13 @@ items:
   nameWithType: UDListRow.CustomSearch.OrderBy
   fullName: SuperOffice.CRM.Rows.UDListRow.CustomSearch.OrderBy
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Implementation of the OrderBy clause.
-  example: []
+  summary: "\nImplementation of the OrderBy clause.\n"
   syntax:
     content: public OrderBy OrderBy { get; }
     parameters: []
@@ -312,67 +345,30 @@ items:
       type: SuperOffice.Data.SQL.OrderBy
     content.vb: Public ReadOnly Property OrderBy As OrderBy
   overload: SuperOffice.CRM.Rows.UDListRow.CustomSearch.OrderBy*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
-- uid: SuperOffice.CRM.Rows.UDListRow.UDListTableInfo
-  commentId: P:SuperOffice.CRM.Rows.UDListRow.UDListTableInfo
-  isExternal: true
-  href: SuperOffice.CRM.Rows.UDListRow.html#SuperOffice_CRM_Rows_UDListRow_UDListTableInfo
-  name: UDListTableInfo
-  nameWithType: UDListRow.UDListTableInfo
-  fullName: SuperOffice.CRM.Rows.UDListRow.UDListTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SQL.SqlCommand
   commentId: T:SuperOffice.Data.SQL.SqlCommand
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.SqlCommand.html
   name: SqlCommand
   nameWithType: SqlCommand
   fullName: SuperOffice.Data.SQL.SqlCommand
@@ -380,7 +376,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.PrivateSelect
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.PrivateSelect.html
   name: PrivateSelect
   nameWithType: PrivateSelect
   fullName: SuperOffice.Data.SQL.PrivateSelect
@@ -388,7 +383,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.IdxBase
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.IdxBase.html
   name: IdxBase
   nameWithType: IdxBase
   fullName: SuperOffice.CRM.Rows.IdxBase
@@ -396,7 +390,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.IdxBase{SuperOffice.CRM.Data.UDListTableInfo}
   parent: SuperOffice.CRM.Rows
   definition: SuperOffice.CRM.Rows.IdxBase`1
-  href: SuperOffice.CRM.Rows.IdxBase-1.html
   name: IdxBase<UDListTableInfo>
   nameWithType: IdxBase<UDListTableInfo>
   fullName: SuperOffice.CRM.Rows.IdxBase<SuperOffice.CRM.Data.UDListTableInfo>
@@ -406,88 +399,53 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.IdxBase`1
     name: IdxBase
+    nameWithType: IdxBase
+    fullName: SuperOffice.CRM.Rows.IdxBase
     isExternal: true
-    href: SuperOffice.CRM.Rows.IdxBase-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.UDListTableInfo
     name: UDListTableInfo
+    nameWithType: UDListTableInfo
+    fullName: SuperOffice.CRM.Data.UDListTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.UDListTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Rows.IdxBase`1
     name: IdxBase
+    nameWithType: IdxBase
+    fullName: SuperOffice.CRM.Rows.IdxBase
     isExternal: true
-    href: SuperOffice.CRM.Rows.IdxBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.UDListTableInfo
     name: UDListTableInfo
+    nameWithType: UDListTableInfo
+    fullName: SuperOffice.CRM.Data.UDListTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.UDListTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDListRow.UDListRowIdxBase
   commentId: T:SuperOffice.CRM.Rows.UDListRow.UDListRowIdxBase
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDListRow.html
   name: UDListRow.UDListRowIdxBase
   nameWithType: UDListRow.UDListRowIdxBase
   fullName: SuperOffice.CRM.Rows.UDListRow.UDListRowIdxBase
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.UDListRow
-    name: UDListRow
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows.UDListRow.UDListRowIdxBase
-    name: UDListRowIdxBase
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.UDListRowIdxBase.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.UDListRow
-    name: UDListRow
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows.UDListRow.UDListRowIdxBase
-    name: UDListRowIdxBase
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.UDListRowIdxBase.html
 - uid: SuperOffice.CRM.Rows.UDListRow.UDListRowIdx
   commentId: T:SuperOffice.CRM.Rows.UDListRow.UDListRowIdx
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDListRow.html
   name: UDListRow.UDListRowIdx
   nameWithType: UDListRow.UDListRowIdx
   fullName: SuperOffice.CRM.Rows.UDListRow.UDListRowIdx
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.UDListRow
-    name: UDListRow
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows.UDListRow.UDListRowIdx
-    name: UDListRowIdx
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.UDListRowIdx.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.UDListRow
-    name: UDListRow
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows.UDListRow.UDListRowIdx
-    name: UDListRowIdx
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.UDListRowIdx.html
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
@@ -495,323 +453,486 @@ references:
   commentId: T:SuperOffice.CRM.Security.ISentryIgnorable
   parent: SuperOffice.CRM.Security
   isExternal: true
-  href: SuperOffice.CRM.Security.ISentryIgnorable.html
   name: ISentryIgnorable
   nameWithType: ISentryIgnorable
   fullName: SuperOffice.CRM.Security.ISentryIgnorable
+- uid: SuperOffice.Data.SQL.PrivateSelect._isDistinct
+  commentId: F:SuperOffice.Data.SQL.PrivateSelect._isDistinct
+  parent: SuperOffice.Data.SQL.PrivateSelect
+  isExternal: true
+  name: _isDistinct
+  nameWithType: PrivateSelect._isDistinct
+  fullName: SuperOffice.Data.SQL.PrivateSelect._isDistinct
 - uid: SuperOffice.Data.SQL.PrivateSelect.GetTableInfos
   commentId: M:SuperOffice.Data.SQL.PrivateSelect.GetTableInfos
   parent: SuperOffice.Data.SQL.PrivateSelect
   isExternal: true
-  href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetTableInfos
   name: GetTableInfos()
   nameWithType: PrivateSelect.GetTableInfos()
   fullName: SuperOffice.Data.SQL.PrivateSelect.GetTableInfos()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.PrivateSelect.GetTableInfos
     name: GetTableInfos
+    nameWithType: PrivateSelect.GetTableInfos
+    fullName: SuperOffice.Data.SQL.PrivateSelect.GetTableInfos
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetTableInfos
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.PrivateSelect.GetTableInfos
     name: GetTableInfos
+    nameWithType: PrivateSelect.GetTableInfos
+    fullName: SuperOffice.Data.SQL.PrivateSelect.GetTableInfos
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetTableInfos
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.PrivateSelect.GetRelations(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.PrivateSelect.GetRelations(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.PrivateSelect
   isExternal: true
-  href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetRelations_SuperOffice_Data_SQL_TableInfo_
   name: GetRelations(TableInfo)
   nameWithType: PrivateSelect.GetRelations(TableInfo)
   fullName: SuperOffice.Data.SQL.PrivateSelect.GetRelations(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.PrivateSelect.GetRelations(SuperOffice.Data.SQL.TableInfo)
     name: GetRelations
+    nameWithType: PrivateSelect.GetRelations
+    fullName: SuperOffice.Data.SQL.PrivateSelect.GetRelations
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetRelations_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.PrivateSelect.GetRelations(SuperOffice.Data.SQL.TableInfo)
     name: GetRelations
+    nameWithType: PrivateSelect.GetRelations
+    fullName: SuperOffice.Data.SQL.PrivateSelect.GetRelations
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetRelations_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.PrivateSelect.GetRelations(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.Dictionary.SoTable)
   commentId: M:SuperOffice.Data.SQL.PrivateSelect.GetRelations(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.Dictionary.SoTable)
   parent: SuperOffice.Data.SQL.PrivateSelect
   isExternal: true
-  href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetRelations_SuperOffice_Data_SQL_TableInfo_SuperOffice_Data_Dictionary_SoTable_
   name: GetRelations(TableInfo, SoTable)
   nameWithType: PrivateSelect.GetRelations(TableInfo, SoTable)
   fullName: SuperOffice.Data.SQL.PrivateSelect.GetRelations(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.Dictionary.SoTable)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.PrivateSelect.GetRelations(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.Dictionary.SoTable)
     name: GetRelations
+    nameWithType: PrivateSelect.GetRelations
+    fullName: SuperOffice.Data.SQL.PrivateSelect.GetRelations
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetRelations_SuperOffice_Data_SQL_TableInfo_SuperOffice_Data_Dictionary_SoTable_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.Dictionary.SoTable
     name: SoTable
+    nameWithType: SoTable
+    fullName: SuperOffice.Data.Dictionary.SoTable
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.PrivateSelect.GetRelations(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.Dictionary.SoTable)
     name: GetRelations
+    nameWithType: PrivateSelect.GetRelations
+    fullName: SuperOffice.Data.SQL.PrivateSelect.GetRelations
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetRelations_SuperOffice_Data_SQL_TableInfo_SuperOffice_Data_Dictionary_SoTable_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.Dictionary.SoTable
     name: SoTable
+    nameWithType: SoTable
+    fullName: SuperOffice.Data.Dictionary.SoTable
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.PrivateSelect.IsTableOuterJoined(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.PrivateSelect.IsTableOuterJoined(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.PrivateSelect
   isExternal: true
-  href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_IsTableOuterJoined_SuperOffice_Data_SQL_TableInfo_
   name: IsTableOuterJoined(TableInfo)
   nameWithType: PrivateSelect.IsTableOuterJoined(TableInfo)
   fullName: SuperOffice.Data.SQL.PrivateSelect.IsTableOuterJoined(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.PrivateSelect.IsTableOuterJoined(SuperOffice.Data.SQL.TableInfo)
     name: IsTableOuterJoined
+    nameWithType: PrivateSelect.IsTableOuterJoined
+    fullName: SuperOffice.Data.SQL.PrivateSelect.IsTableOuterJoined
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_IsTableOuterJoined_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.PrivateSelect.IsTableOuterJoined(SuperOffice.Data.SQL.TableInfo)
     name: IsTableOuterJoined
+    nameWithType: PrivateSelect.IsTableOuterJoined
+    fullName: SuperOffice.Data.SQL.PrivateSelect.IsTableOuterJoined
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_IsTableOuterJoined_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.PrivateSelect.GetTablesInOrderBy
   commentId: M:SuperOffice.Data.SQL.PrivateSelect.GetTablesInOrderBy
   parent: SuperOffice.Data.SQL.PrivateSelect
   isExternal: true
-  href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetTablesInOrderBy
   name: GetTablesInOrderBy()
   nameWithType: PrivateSelect.GetTablesInOrderBy()
   fullName: SuperOffice.Data.SQL.PrivateSelect.GetTablesInOrderBy()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.PrivateSelect.GetTablesInOrderBy
     name: GetTablesInOrderBy
+    nameWithType: PrivateSelect.GetTablesInOrderBy
+    fullName: SuperOffice.Data.SQL.PrivateSelect.GetTablesInOrderBy
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetTablesInOrderBy
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.PrivateSelect.GetTablesInOrderBy
     name: GetTablesInOrderBy
+    nameWithType: PrivateSelect.GetTablesInOrderBy
+    fullName: SuperOffice.Data.SQL.PrivateSelect.GetTablesInOrderBy
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetTablesInOrderBy
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.PrivateSelect.GetTablesLeadingToTable(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.PrivateSelect.GetTablesLeadingToTable(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.PrivateSelect
   isExternal: true
-  href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetTablesLeadingToTable_SuperOffice_Data_SQL_TableInfo_
   name: GetTablesLeadingToTable(TableInfo)
   nameWithType: PrivateSelect.GetTablesLeadingToTable(TableInfo)
   fullName: SuperOffice.Data.SQL.PrivateSelect.GetTablesLeadingToTable(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.PrivateSelect.GetTablesLeadingToTable(SuperOffice.Data.SQL.TableInfo)
     name: GetTablesLeadingToTable
+    nameWithType: PrivateSelect.GetTablesLeadingToTable
+    fullName: SuperOffice.Data.SQL.PrivateSelect.GetTablesLeadingToTable
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetTablesLeadingToTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.PrivateSelect.GetTablesLeadingToTable(SuperOffice.Data.SQL.TableInfo)
     name: GetTablesLeadingToTable
+    nameWithType: PrivateSelect.GetTablesLeadingToTable
+    fullName: SuperOffice.Data.SQL.PrivateSelect.GetTablesLeadingToTable
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetTablesLeadingToTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.PrivateSelect.ValidateJoin
   commentId: M:SuperOffice.Data.SQL.PrivateSelect.ValidateJoin
   parent: SuperOffice.Data.SQL.PrivateSelect
   isExternal: true
-  href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_ValidateJoin
   name: ValidateJoin()
   nameWithType: PrivateSelect.ValidateJoin()
   fullName: SuperOffice.Data.SQL.PrivateSelect.ValidateJoin()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.PrivateSelect.ValidateJoin
     name: ValidateJoin
+    nameWithType: PrivateSelect.ValidateJoin
+    fullName: SuperOffice.Data.SQL.PrivateSelect.ValidateJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_ValidateJoin
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.PrivateSelect.ValidateJoin
     name: ValidateJoin
+    nameWithType: PrivateSelect.ValidateJoin
+    fullName: SuperOffice.Data.SQL.PrivateSelect.ValidateJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_ValidateJoin
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.PrivateSelect.Clone
   commentId: M:SuperOffice.Data.SQL.PrivateSelect.Clone
   parent: SuperOffice.Data.SQL.PrivateSelect
   isExternal: true
-  href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_Clone
   name: Clone()
   nameWithType: PrivateSelect.Clone()
   fullName: SuperOffice.Data.SQL.PrivateSelect.Clone()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.PrivateSelect.Clone
     name: Clone
+    nameWithType: PrivateSelect.Clone
+    fullName: SuperOffice.Data.SQL.PrivateSelect.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.PrivateSelect.Clone
     name: Clone
+    nameWithType: PrivateSelect.Clone
+    fullName: SuperOffice.Data.SQL.PrivateSelect.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.PrivateSelect.CloneSelect
   commentId: M:SuperOffice.Data.SQL.PrivateSelect.CloneSelect
   parent: SuperOffice.Data.SQL.PrivateSelect
   isExternal: true
-  href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_CloneSelect
   name: CloneSelect()
   nameWithType: PrivateSelect.CloneSelect()
   fullName: SuperOffice.Data.SQL.PrivateSelect.CloneSelect()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.PrivateSelect.CloneSelect
     name: CloneSelect
+    nameWithType: PrivateSelect.CloneSelect
+    fullName: SuperOffice.Data.SQL.PrivateSelect.CloneSelect
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_CloneSelect
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.PrivateSelect.CloneSelect
     name: CloneSelect
+    nameWithType: PrivateSelect.CloneSelect
+    fullName: SuperOffice.Data.SQL.PrivateSelect.CloneSelect
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_CloneSelect
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.PrivateSelect.ToString
   commentId: M:SuperOffice.Data.SQL.PrivateSelect.ToString
   parent: SuperOffice.Data.SQL.PrivateSelect
   isExternal: true
-  href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_ToString
   name: ToString()
   nameWithType: PrivateSelect.ToString()
   fullName: SuperOffice.Data.SQL.PrivateSelect.ToString()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.PrivateSelect.ToString
     name: ToString
+    nameWithType: PrivateSelect.ToString
+    fullName: SuperOffice.Data.SQL.PrivateSelect.ToString
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.PrivateSelect.ToString
     name: ToString
+    nameWithType: PrivateSelect.ToString
+    fullName: SuperOffice.Data.SQL.PrivateSelect.ToString
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.PrivateSelect.GetCachingHash
   commentId: M:SuperOffice.Data.SQL.PrivateSelect.GetCachingHash
   parent: SuperOffice.Data.SQL.PrivateSelect
   isExternal: true
-  href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetCachingHash
   name: GetCachingHash()
   nameWithType: PrivateSelect.GetCachingHash()
   fullName: SuperOffice.Data.SQL.PrivateSelect.GetCachingHash()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.PrivateSelect.GetCachingHash
     name: GetCachingHash
+    nameWithType: PrivateSelect.GetCachingHash
+    fullName: SuperOffice.Data.SQL.PrivateSelect.GetCachingHash
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetCachingHash
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.PrivateSelect.GetCachingHash
     name: GetCachingHash
+    nameWithType: PrivateSelect.GetCachingHash
+    fullName: SuperOffice.Data.SQL.PrivateSelect.GetCachingHash
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetCachingHash
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.PrivateSelect.GetRestrictionTables
   commentId: M:SuperOffice.Data.SQL.PrivateSelect.GetRestrictionTables
   parent: SuperOffice.Data.SQL.PrivateSelect
   isExternal: true
-  href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetRestrictionTables
   name: GetRestrictionTables()
   nameWithType: PrivateSelect.GetRestrictionTables()
   fullName: SuperOffice.Data.SQL.PrivateSelect.GetRestrictionTables()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.PrivateSelect.GetRestrictionTables
     name: GetRestrictionTables
+    nameWithType: PrivateSelect.GetRestrictionTables
+    fullName: SuperOffice.Data.SQL.PrivateSelect.GetRestrictionTables
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetRestrictionTables
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.PrivateSelect.GetRestrictionTables
     name: GetRestrictionTables
+    nameWithType: PrivateSelect.GetRestrictionTables
+    fullName: SuperOffice.Data.SQL.PrivateSelect.GetRestrictionTables
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_GetRestrictionTables
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSelect.CreateOrderBy
+  commentId: M:SuperOffice.Data.SQL.PrivateSelect.CreateOrderBy
+  parent: SuperOffice.Data.SQL.PrivateSelect
+  isExternal: true
+  name: CreateOrderBy()
+  nameWithType: PrivateSelect.CreateOrderBy()
+  fullName: SuperOffice.Data.SQL.PrivateSelect.CreateOrderBy()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.PrivateSelect.CreateOrderBy
+    name: CreateOrderBy
+    nameWithType: PrivateSelect.CreateOrderBy
+    fullName: SuperOffice.Data.SQL.PrivateSelect.CreateOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.PrivateSelect.CreateOrderBy
+    name: CreateOrderBy
+    nameWithType: PrivateSelect.CreateOrderBy
+    fullName: SuperOffice.Data.SQL.PrivateSelect.CreateOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.PrivateSelect.InnerReturnFields
+  commentId: P:SuperOffice.Data.SQL.PrivateSelect.InnerReturnFields
+  parent: SuperOffice.Data.SQL.PrivateSelect
+  isExternal: true
+  name: InnerReturnFields
+  nameWithType: PrivateSelect.InnerReturnFields
+  fullName: SuperOffice.Data.SQL.PrivateSelect.InnerReturnFields
 - uid: SuperOffice.Data.SQL.PrivateSelect.IsDistinct
   commentId: P:SuperOffice.Data.SQL.PrivateSelect.IsDistinct
   parent: SuperOffice.Data.SQL.PrivateSelect
   isExternal: true
-  href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_IsDistinct
   name: IsDistinct
   nameWithType: PrivateSelect.IsDistinct
   fullName: SuperOffice.Data.SQL.PrivateSelect.IsDistinct
@@ -819,15 +940,27 @@ references:
   commentId: P:SuperOffice.Data.SQL.PrivateSelect.ForceRecompile
   parent: SuperOffice.Data.SQL.PrivateSelect
   isExternal: true
-  href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_ForceRecompile
   name: ForceRecompile
   nameWithType: PrivateSelect.ForceRecompile
   fullName: SuperOffice.Data.SQL.PrivateSelect.ForceRecompile
+- uid: SuperOffice.Data.SQL.PrivateSelect.InnerGroupBy
+  commentId: P:SuperOffice.Data.SQL.PrivateSelect.InnerGroupBy
+  parent: SuperOffice.Data.SQL.PrivateSelect
+  isExternal: true
+  name: InnerGroupBy
+  nameWithType: PrivateSelect.InnerGroupBy
+  fullName: SuperOffice.Data.SQL.PrivateSelect.InnerGroupBy
+- uid: SuperOffice.Data.SQL.PrivateSelect.InnerJoinRestriction
+  commentId: P:SuperOffice.Data.SQL.PrivateSelect.InnerJoinRestriction
+  parent: SuperOffice.Data.SQL.PrivateSelect
+  isExternal: true
+  name: InnerJoinRestriction
+  nameWithType: PrivateSelect.InnerJoinRestriction
+  fullName: SuperOffice.Data.SQL.PrivateSelect.InnerJoinRestriction
 - uid: SuperOffice.Data.SQL.PrivateSelect.SqlType
   commentId: P:SuperOffice.Data.SQL.PrivateSelect.SqlType
   parent: SuperOffice.Data.SQL.PrivateSelect
   isExternal: true
-  href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_SqlType
   name: SqlType
   nameWithType: PrivateSelect.SqlType
   fullName: SuperOffice.Data.SQL.PrivateSelect.SqlType
@@ -835,7 +968,6 @@ references:
   commentId: F:SuperOffice.Data.SQL.SqlCommand.Origin
   parent: SuperOffice.Data.SQL.SqlCommand
   isExternal: true
-  href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_Origin
   name: Origin
   nameWithType: SqlCommand.Origin
   fullName: SuperOffice.Data.SQL.SqlCommand.Origin
@@ -843,7 +975,6 @@ references:
   commentId: F:SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
   parent: SuperOffice.Data.SQL.SqlCommand
   isExternal: true
-  href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_AdditionalInfo
   name: AdditionalInfo
   nameWithType: SqlCommand.AdditionalInfo
   fullName: SuperOffice.Data.SQL.SqlCommand.AdditionalInfo
@@ -851,37 +982,47 @@ references:
   commentId: M:SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.SqlCommand
   isExternal: true
-  href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_AddIgnoreAutoSentryTableInfo_SuperOffice_Data_SQL_TableInfo_
   name: AddIgnoreAutoSentryTableInfo(TableInfo)
   nameWithType: SqlCommand.AddIgnoreAutoSentryTableInfo(TableInfo)
   fullName: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
     name: AddIgnoreAutoSentryTableInfo
+    nameWithType: SqlCommand.AddIgnoreAutoSentryTableInfo
+    fullName: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_AddIgnoreAutoSentryTableInfo_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
     name: AddIgnoreAutoSentryTableInfo
+    nameWithType: SqlCommand.AddIgnoreAutoSentryTableInfo
+    fullName: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_AddIgnoreAutoSentryTableInfo_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
   commentId: M:SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
   parent: SuperOffice.Data.SQL.SqlCommand
   isExternal: true
-  href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_AddIgnoreAutoSentryTableInfo_System_Collections_Generic_IEnumerable_SuperOffice_Data_SQL_TableInfo__
   name: AddIgnoreAutoSentryTableInfo(IEnumerable<TableInfo>)
   nameWithType: SqlCommand.AddIgnoreAutoSentryTableInfo(IEnumerable<TableInfo>)
   fullName: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.TableInfo>)
@@ -891,839 +1032,645 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
     name: AddIgnoreAutoSentryTableInfo
+    nameWithType: SqlCommand.AddIgnoreAutoSentryTableInfo
+    fullName: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_AddIgnoreAutoSentryTableInfo_System_Collections_Generic_IEnumerable_SuperOffice_Data_SQL_TableInfo__
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
     name: AddIgnoreAutoSentryTableInfo
+    nameWithType: SqlCommand.AddIgnoreAutoSentryTableInfo
+    fullName: SuperOffice.Data.SQL.SqlCommand.AddIgnoreAutoSentryTableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_AddIgnoreAutoSentryTableInfo_System_Collections_Generic_IEnumerable_SuperOffice_Data_SQL_TableInfo__
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.SqlCommand
   isExternal: true
-  href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_RemoveIgnoreAutoSentryTableInfo_SuperOffice_Data_SQL_TableInfo_
   name: RemoveIgnoreAutoSentryTableInfo(TableInfo)
   nameWithType: SqlCommand.RemoveIgnoreAutoSentryTableInfo(TableInfo)
   fullName: SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
     name: RemoveIgnoreAutoSentryTableInfo
+    nameWithType: SqlCommand.RemoveIgnoreAutoSentryTableInfo
+    fullName: SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_RemoveIgnoreAutoSentryTableInfo_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo(SuperOffice.Data.SQL.TableInfo)
     name: RemoveIgnoreAutoSentryTableInfo
+    nameWithType: SqlCommand.RemoveIgnoreAutoSentryTableInfo
+    fullName: SuperOffice.Data.SQL.SqlCommand.RemoveIgnoreAutoSentryTableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_RemoveIgnoreAutoSentryTableInfo_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos
   commentId: M:SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos
   parent: SuperOffice.Data.SQL.SqlCommand
   isExternal: true
-  href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_ClearIgnoreAutoSentryTableInfos
   name: ClearIgnoreAutoSentryTableInfos()
   nameWithType: SqlCommand.ClearIgnoreAutoSentryTableInfos()
   fullName: SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos
     name: ClearIgnoreAutoSentryTableInfos
+    nameWithType: SqlCommand.ClearIgnoreAutoSentryTableInfos
+    fullName: SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_ClearIgnoreAutoSentryTableInfos
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos
     name: ClearIgnoreAutoSentryTableInfos
+    nameWithType: SqlCommand.ClearIgnoreAutoSentryTableInfos
+    fullName: SuperOffice.Data.SQL.SqlCommand.ClearIgnoreAutoSentryTableInfos
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_ClearIgnoreAutoSentryTableInfos
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.SqlCommand
   isExternal: true
-  href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_IsAutoSentryIgnoredOnTableInfo_SuperOffice_Data_SQL_TableInfo_
   name: IsAutoSentryIgnoredOnTableInfo(TableInfo)
   nameWithType: SqlCommand.IsAutoSentryIgnoredOnTableInfo(TableInfo)
   fullName: SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo(SuperOffice.Data.SQL.TableInfo)
     name: IsAutoSentryIgnoredOnTableInfo
+    nameWithType: SqlCommand.IsAutoSentryIgnoredOnTableInfo
+    fullName: SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_IsAutoSentryIgnoredOnTableInfo_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo(SuperOffice.Data.SQL.TableInfo)
     name: IsAutoSentryIgnoredOnTableInfo
+    nameWithType: SqlCommand.IsAutoSentryIgnoredOnTableInfo
+    fullName: SuperOffice.Data.SQL.SqlCommand.IsAutoSentryIgnoredOnTableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_IsAutoSentryIgnoredOnTableInfo_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves
   commentId: M:SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves
   parent: SuperOffice.Data.SQL.SqlCommand
   isExternal: true
-  href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_GetPrivateSaves
   name: GetPrivateSaves()
   nameWithType: SqlCommand.GetPrivateSaves()
   fullName: SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves
     name: GetPrivateSaves
+    nameWithType: SqlCommand.GetPrivateSaves
+    fullName: SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_GetPrivateSaves
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves
     name: GetPrivateSaves
+    nameWithType: SqlCommand.GetPrivateSaves
+    fullName: SuperOffice.Data.SQL.SqlCommand.GetPrivateSaves
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_GetPrivateSaves
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.SqlCommand.GetInserts
   commentId: M:SuperOffice.Data.SQL.SqlCommand.GetInserts
   parent: SuperOffice.Data.SQL.SqlCommand
   isExternal: true
-  href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_GetInserts
   name: GetInserts()
   nameWithType: SqlCommand.GetInserts()
   fullName: SuperOffice.Data.SQL.SqlCommand.GetInserts()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.SqlCommand.GetInserts
     name: GetInserts
+    nameWithType: SqlCommand.GetInserts
+    fullName: SuperOffice.Data.SQL.SqlCommand.GetInserts
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_GetInserts
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.SqlCommand.GetInserts
     name: GetInserts
+    nameWithType: SqlCommand.GetInserts
+    fullName: SuperOffice.Data.SQL.SqlCommand.GetInserts
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_GetInserts
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.SqlCommand.GetUpdates
   commentId: M:SuperOffice.Data.SQL.SqlCommand.GetUpdates
   parent: SuperOffice.Data.SQL.SqlCommand
   isExternal: true
-  href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_GetUpdates
   name: GetUpdates()
   nameWithType: SqlCommand.GetUpdates()
   fullName: SuperOffice.Data.SQL.SqlCommand.GetUpdates()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.SqlCommand.GetUpdates
     name: GetUpdates
+    nameWithType: SqlCommand.GetUpdates
+    fullName: SuperOffice.Data.SQL.SqlCommand.GetUpdates
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_GetUpdates
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.SqlCommand.GetUpdates
     name: GetUpdates
+    nameWithType: SqlCommand.GetUpdates
+    fullName: SuperOffice.Data.SQL.SqlCommand.GetUpdates
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_GetUpdates
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.SqlCommand.GetDeletes
   commentId: M:SuperOffice.Data.SQL.SqlCommand.GetDeletes
   parent: SuperOffice.Data.SQL.SqlCommand
   isExternal: true
-  href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_GetDeletes
   name: GetDeletes()
   nameWithType: SqlCommand.GetDeletes()
   fullName: SuperOffice.Data.SQL.SqlCommand.GetDeletes()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.SqlCommand.GetDeletes
     name: GetDeletes
+    nameWithType: SqlCommand.GetDeletes
+    fullName: SuperOffice.Data.SQL.SqlCommand.GetDeletes
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_GetDeletes
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.SqlCommand.GetDeletes
     name: GetDeletes
+    nameWithType: SqlCommand.GetDeletes
+    fullName: SuperOffice.Data.SQL.SqlCommand.GetDeletes
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_GetDeletes
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.SqlCommand.GetSelect
   commentId: M:SuperOffice.Data.SQL.SqlCommand.GetSelect
   parent: SuperOffice.Data.SQL.SqlCommand
   isExternal: true
-  href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_GetSelect
   name: GetSelect()
   nameWithType: SqlCommand.GetSelect()
   fullName: SuperOffice.Data.SQL.SqlCommand.GetSelect()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.SqlCommand.GetSelect
     name: GetSelect
+    nameWithType: SqlCommand.GetSelect
+    fullName: SuperOffice.Data.SQL.SqlCommand.GetSelect
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_GetSelect
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.SqlCommand.GetSelect
     name: GetSelect
+    nameWithType: SqlCommand.GetSelect
+    fullName: SuperOffice.Data.SQL.SqlCommand.GetSelect
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_GetSelect
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
   commentId: P:SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
   parent: SuperOffice.Data.SQL.SqlCommand
   isExternal: true
-  href: SuperOffice.Data.SQL.SqlCommand.html#SuperOffice_Data_SQL_SqlCommand_AutoSentryIgnoredTables
   name: AutoSentryIgnoredTables
   nameWithType: SqlCommand.AutoSentryIgnoredTables
   fullName: SuperOffice.Data.SQL.SqlCommand.AutoSentryIgnoredTables
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<CustomSearch, To>(CustomSearch)
-  nameWithType: EnumUtil.MapEnums<UDListRow.CustomSearch, To>(UDListRow.CustomSearch)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.UDListRow.CustomSearch, To>(SuperOffice.CRM.Rows.UDListRow.CustomSearch)
-  nameWithType.vb: EnumUtil.MapEnums(Of UDListRow.CustomSearch, To)(UDListRow.CustomSearch)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.UDListRow.CustomSearch, To)(SuperOffice.CRM.Rows.UDListRow.CustomSearch)
-  name.vb: MapEnums(Of CustomSearch, To)(CustomSearch)
+  name: MapEnums<UDListRow.CustomSearch, To>()
+  nameWithType: EnumUtil.MapEnums<UDListRow.CustomSearch, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.UDListRow.CustomSearch, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of UDListRow.CustomSearch, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.UDListRow.CustomSearch, To)()
+  name.vb: MapEnums(Of UDListRow.CustomSearch, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.UDListRow.CustomSearch)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<UDListRow.CustomSearch, To>
+    nameWithType: EnumUtil.MapEnums<UDListRow.CustomSearch, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.UDListRow.CustomSearch, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch
-    name: CustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch
-    name: CustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.UDListRow.CustomSearch)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of UDListRow.CustomSearch, To)
+    nameWithType: EnumUtil.MapEnums(Of UDListRow.CustomSearch, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.UDListRow.CustomSearch, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch
-    name: CustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch
-    name: CustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<CustomSearch, To>(CustomSearch)
-  nameWithType: Converters.MapEnums<UDListRow.CustomSearch, To>(UDListRow.CustomSearch)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.UDListRow.CustomSearch, To>(SuperOffice.CRM.Rows.UDListRow.CustomSearch)
-  nameWithType.vb: Converters.MapEnums(Of UDListRow.CustomSearch, To)(UDListRow.CustomSearch)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.UDListRow.CustomSearch, To)(SuperOffice.CRM.Rows.UDListRow.CustomSearch)
-  name.vb: MapEnums(Of CustomSearch, To)(CustomSearch)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.UDListRow.CustomSearch)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch
-    name: CustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch
-    name: CustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.UDListRow.CustomSearch)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch
-    name: CustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch
-    name: CustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.UDListRow.CustomSearch)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<CustomSearch>(CustomSearch, CustomSearch)
-  nameWithType: ObjectExtensions.AssignByReflection<UDListRow.CustomSearch>(UDListRow.CustomSearch, UDListRow.CustomSearch)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.UDListRow.CustomSearch>(SuperOffice.CRM.Rows.UDListRow.CustomSearch, SuperOffice.CRM.Rows.UDListRow.CustomSearch)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of UDListRow.CustomSearch)(UDListRow.CustomSearch, UDListRow.CustomSearch)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.UDListRow.CustomSearch)(SuperOffice.CRM.Rows.UDListRow.CustomSearch, SuperOffice.CRM.Rows.UDListRow.CustomSearch)
-  name.vb: AssignByReflection(Of CustomSearch)(CustomSearch, CustomSearch)
+  name: AssignByReflection<UDListRow.CustomSearch>(UDListRow.CustomSearch)
+  nameWithType: ObjectExtensions.AssignByReflection<UDListRow.CustomSearch>(UDListRow.CustomSearch)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.UDListRow.CustomSearch>(SuperOffice.CRM.Rows.UDListRow.CustomSearch)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of UDListRow.CustomSearch)(UDListRow.CustomSearch)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.UDListRow.CustomSearch)(SuperOffice.CRM.Rows.UDListRow.CustomSearch)
+  name.vb: AssignByReflection(Of UDListRow.CustomSearch)(UDListRow.CustomSearch)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.UDListRow.CustomSearch,SuperOffice.CRM.Rows.UDListRow.CustomSearch)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<UDListRow.CustomSearch>
+    nameWithType: ObjectExtensions.AssignByReflection<UDListRow.CustomSearch>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.UDListRow.CustomSearch>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch
-    name: CustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch
-    name: CustomSearch
+    name: UDListRow.CustomSearch
+    nameWithType: UDListRow.CustomSearch
+    fullName: SuperOffice.CRM.Rows.UDListRow.CustomSearch
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch
-    name: CustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.UDListRow.CustomSearch,SuperOffice.CRM.Rows.UDListRow.CustomSearch)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of UDListRow.CustomSearch)
+    nameWithType: ObjectExtensions.AssignByReflection(Of UDListRow.CustomSearch)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.UDListRow.CustomSearch)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch
-    name: CustomSearch
+    name: UDListRow.CustomSearch
+    nameWithType: UDListRow.CustomSearch
+    fullName: SuperOffice.CRM.Rows.UDListRow.CustomSearch
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch
-    name: CustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch
-    name: CustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<CustomSearch>(CustomSearch)
-  nameWithType: ObjectExtensions.GraphCopy<UDListRow.CustomSearch>(UDListRow.CustomSearch)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.UDListRow.CustomSearch>(SuperOffice.CRM.Rows.UDListRow.CustomSearch)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of UDListRow.CustomSearch)(UDListRow.CustomSearch)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.UDListRow.CustomSearch)(SuperOffice.CRM.Rows.UDListRow.CustomSearch)
-  name.vb: GraphCopy(Of CustomSearch)(CustomSearch)
+  name: GraphCopy<UDListRow.CustomSearch>()
+  nameWithType: ObjectExtensions.GraphCopy<UDListRow.CustomSearch>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.UDListRow.CustomSearch>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of UDListRow.CustomSearch)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.UDListRow.CustomSearch)()
+  name.vb: GraphCopy(Of UDListRow.CustomSearch)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.UDListRow.CustomSearch)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<UDListRow.CustomSearch>
+    nameWithType: ObjectExtensions.GraphCopy<UDListRow.CustomSearch>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.UDListRow.CustomSearch>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch
-    name: CustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch
-    name: CustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.UDListRow.CustomSearch)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of UDListRow.CustomSearch)
+    nameWithType: ObjectExtensions.GraphCopy(Of UDListRow.CustomSearch)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.UDListRow.CustomSearch)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch
-    name: CustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch
-    name: CustomSearch
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html
-  - name: )
-- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
-  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
-  parent: SuperOffice.Data.QueryExectionExtensions
-  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
-  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteNonQuery_SuperOffice_Data_SQL_SqlCommand_
-  name: ExecuteNonQuery(SqlCommand)
-  nameWithType: QueryExectionExtensions.ExecuteNonQuery(SqlCommand)
-  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
-  spec.csharp:
-  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
-    name: ExecuteNonQuery
-    isExternal: true
-    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteNonQuery_SuperOffice_Data_SQL_SqlCommand_
-  - name: (
-  - uid: SuperOffice.Data.SQL.SqlCommand
-    name: SqlCommand
-    isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
-    name: ExecuteNonQuery
-    isExternal: true
-    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteNonQuery_SuperOffice_Data_SQL_SqlCommand_
-  - name: (
-  - uid: SuperOffice.Data.SQL.SqlCommand
-    name: SqlCommand
-    isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   parent: SuperOffice.Data.QueryExectionExtensions
   definition: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
-  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteReader_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
-  name: ExecuteReader(SqlCommand, bool)
-  nameWithType: QueryExectionExtensions.ExecuteReader(SqlCommand, bool)
-  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand, bool)
-  nameWithType.vb: QueryExectionExtensions.ExecuteReader(SqlCommand, Boolean)
-  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand, Boolean)
-  name.vb: ExecuteReader(SqlCommand, Boolean)
+  name: ExecuteReader(Boolean)
+  nameWithType: QueryExectionExtensions.ExecuteReader(Boolean)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
   spec.csharp:
-  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
     name: ExecuteReader
+    nameWithType: QueryExectionExtensions.ExecuteReader
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReader
     isExternal: true
-    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteReader_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
   - name: (
-  - uid: SuperOffice.Data.SQL.SqlCommand
-    name: SqlCommand
-    isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
-    name: ExecuteReader
-    isExternal: true
-    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteReader_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
-  - name: (
-  - uid: SuperOffice.Data.SQL.SqlCommand
-    name: SqlCommand
-    isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html
-  - name: ','
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(System.Boolean)
+    name: ExecuteReader
+    nameWithType: QueryExectionExtensions.ExecuteReader
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
   commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
   parent: SuperOffice.Data.QueryExectionExtensions
   definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
-  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_
-  name: ExecuteScalar<T>(SqlCommand)
-  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand)
-  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand)
-  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand)
-  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand)
-  name.vb: ExecuteScalar(Of T)(SqlCommand)
+  name: ExecuteScalar<T>()
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>()
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>()
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)()
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)()
+  name.vb: ExecuteScalar(Of T)()
   spec.csharp:
-  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
-    name: ExecuteScalar
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+    name: ExecuteScalar<T>
+    nameWithType: QueryExectionExtensions.ExecuteScalar<T>
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>
     isExternal: true
-    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.SQL.SqlCommand
-    name: SqlCommand
-    isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
-    name: ExecuteScalar
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1
+    name: ExecuteScalar(Of T)
+    nameWithType: QueryExectionExtensions.ExecuteScalar(Of T)
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)
     isExternal: true
-    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_
   - name: (
-  - name: Of
-  - name: " "
-  - name: T
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.SQL.SqlCommand
-    name: SqlCommand
-    isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
   commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   parent: SuperOffice.Data.QueryExectionExtensions
   definition: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
-  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
-  name: ExecuteScalar<T>(SqlCommand, bool)
-  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
-  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
-  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
-  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
-  name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
+  name: ExecuteScalar<T>(Boolean)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(Boolean)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(System.Boolean)
+  nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(System.Boolean)
+  name.vb: ExecuteScalar(Of T)(Boolean)
   spec.csharp:
-  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
-    name: ExecuteScalar
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
+    name: ExecuteScalar<T>
+    nameWithType: QueryExectionExtensions.ExecuteScalar<T>
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>
     isExternal: true
-    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.SQL.SqlCommand
-    name: SqlCommand
-    isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
-    name: ExecuteScalar
-    isExternal: true
-    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.SQL.SqlCommand
-    name: SqlCommand
-    isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html
-  - name: ','
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(System.Boolean)
+    name: ExecuteScalar(Of T)
+    nameWithType: QueryExectionExtensions.ExecuteScalar(Of T)
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.SqlCommand.SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  parent: SuperOffice.Data.QueryExectionExtensions
+  definition: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  name: ExecuteNonQuery()
+  nameWithType: QueryExectionExtensions.ExecuteNonQuery()
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery()
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    name: ExecuteNonQuery
+    nameWithType: QueryExectionExtensions.ExecuteNonQuery
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    name: ExecuteNonQuery
+    nameWithType: QueryExectionExtensions.ExecuteNonQuery
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<UDListRow.CustomSearch, To>()
+  nameWithType: Converters.MapEnums<UDListRow.CustomSearch, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.UDListRow.CustomSearch, To>()
+  nameWithType.vb: Converters.MapEnums(Of UDListRow.CustomSearch, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.UDListRow.CustomSearch, To)()
+  name.vb: MapEnums(Of UDListRow.CustomSearch, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<UDListRow.CustomSearch, To>
+    nameWithType: Converters.MapEnums<UDListRow.CustomSearch, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.UDListRow.CustomSearch, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of UDListRow.CustomSearch, To)
+    nameWithType: Converters.MapEnums(Of UDListRow.CustomSearch, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.UDListRow.CustomSearch, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: SuperOffice.CRM.Rows.IdxBase`1
   commentId: T:SuperOffice.CRM.Rows.IdxBase`1
   isExternal: true
-  href: SuperOffice.CRM.Rows.IdxBase-1.html
   name: IdxBase<TTableInfo>
   nameWithType: IdxBase<TTableInfo>
   fullName: SuperOffice.CRM.Rows.IdxBase<TTableInfo>
@@ -1733,62 +1680,42 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.IdxBase`1
     name: IdxBase
+    nameWithType: IdxBase
+    fullName: SuperOffice.CRM.Rows.IdxBase
     isExternal: true
-    href: SuperOffice.CRM.Rows.IdxBase-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TTableInfo
+    nameWithType: TTableInfo
+    fullName: TTableInfo
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Rows.IdxBase`1
     name: IdxBase
+    nameWithType: IdxBase
+    fullName: SuperOffice.CRM.Rows.IdxBase
     isExternal: true
-    href: SuperOffice.CRM.Rows.IdxBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TTableInfo
+    nameWithType: TTableInfo
+    fullName: TTableInfo
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Security
   nameWithType: SuperOffice.CRM.Security
   fullName: SuperOffice.CRM.Security
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.CRM.Security.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.CRM.Security.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1797,93 +1724,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1892,46 +1769,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1940,113 +1827,100 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
-  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   isExternal: true
-  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteNonQuery_SuperOffice_Data_SQL_SqlCommand_
-  name: ExecuteNonQuery(SqlCommand)
-  nameWithType: QueryExectionExtensions.ExecuteNonQuery(SqlCommand)
-  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  name: ExecuteReader(SqlCommand, Boolean)
+  nameWithType: QueryExectionExtensions.ExecuteReader(SqlCommand, Boolean)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand, System.Boolean)
   spec.csharp:
-  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
-    name: ExecuteNonQuery
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteReader
+    nameWithType: QueryExectionExtensions.ExecuteReader
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReader
     isExternal: true
-    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteNonQuery_SuperOffice_Data_SQL_SqlCommand_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.SqlCommand
     name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
-    name: ExecuteNonQuery
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteReader
+    nameWithType: QueryExectionExtensions.ExecuteReader
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReader
     isExternal: true
-    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteNonQuery_SuperOffice_Data_SQL_SqlCommand_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.SqlCommand
     name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.QueryExectionExtensions
   commentId: T:SuperOffice.Data.QueryExectionExtensions
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.QueryExectionExtensions.html
   name: QueryExectionExtensions
   nameWithType: QueryExectionExtensions
   fullName: SuperOffice.Data.QueryExectionExtensions
-- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
-  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
-  isExternal: true
-  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteReader_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
-  name: ExecuteReader(SqlCommand, bool)
-  nameWithType: QueryExectionExtensions.ExecuteReader(SqlCommand, bool)
-  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand, bool)
-  nameWithType.vb: QueryExectionExtensions.ExecuteReader(SqlCommand, Boolean)
-  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand, Boolean)
-  name.vb: ExecuteReader(SqlCommand, Boolean)
-  spec.csharp:
-  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
-    name: ExecuteReader
-    isExternal: true
-    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteReader_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
-  - name: (
-  - uid: SuperOffice.Data.SQL.SqlCommand
-    name: SqlCommand
-    isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteReader(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
-    name: ExecuteReader
-    isExternal: true
-    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteReader_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
-  - name: (
-  - uid: SuperOffice.Data.SQL.SqlCommand
-    name: SqlCommand
-    isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
 - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
   commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
   isExternal: true
-  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_
   name: ExecuteScalar<T>(SqlCommand)
   nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand)
   fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand)
@@ -2055,221 +1929,251 @@ references:
   name.vb: ExecuteScalar(Of T)(SqlCommand)
   spec.csharp:
   - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
-    name: ExecuteScalar
+    name: ExecuteScalar<T>
+    nameWithType: QueryExectionExtensions.ExecuteScalar<T>
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>
     isExternal: true
-    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.SqlCommand
     name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand)
-    name: ExecuteScalar
+    name: ExecuteScalar(Of T)
+    nameWithType: QueryExectionExtensions.ExecuteScalar(Of T)
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)
     isExternal: true
-    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_
   - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.SqlCommand
     name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
   isExternal: true
-  href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
-  name: ExecuteScalar<T>(SqlCommand, bool)
-  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, bool)
-  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, bool)
+  name: ExecuteScalar<T>(SqlCommand, Boolean)
+  nameWithType: QueryExectionExtensions.ExecuteScalar<T>(SqlCommand, Boolean)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>(SuperOffice.Data.SQL.SqlCommand, System.Boolean)
   nameWithType.vb: QueryExectionExtensions.ExecuteScalar(Of T)(SqlCommand, Boolean)
-  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, Boolean)
+  fullName.vb: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)(SuperOffice.Data.SQL.SqlCommand, System.Boolean)
   name.vb: ExecuteScalar(Of T)(SqlCommand, Boolean)
   spec.csharp:
   - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
-    name: ExecuteScalar
+    name: ExecuteScalar<T>
+    nameWithType: QueryExectionExtensions.ExecuteScalar<T>
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar<T>
     isExternal: true
-    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.SqlCommand
     name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
     isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
-    name: ExecuteScalar
-    isExternal: true
-    href: SuperOffice.Data.QueryExectionExtensions.html#SuperOffice_Data_QueryExectionExtensions_ExecuteScalar__1_SuperOffice_Data_SQL_SqlCommand_System_Boolean_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.SQL.SqlCommand
-    name: SqlCommand
-    isExternal: true
-    href: SuperOffice.Data.SQL.SqlCommand.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar``1(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+    name: ExecuteScalar(Of T)
+    nameWithType: QueryExectionExtensions.ExecuteScalar(Of T)
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteScalar(Of T)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  commentId: M:SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  isExternal: true
+  name: ExecuteNonQuery(SqlCommand)
+  nameWithType: QueryExectionExtensions.ExecuteNonQuery(SqlCommand)
+  fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  spec.csharp:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+    name: ExecuteNonQuery
+    nameWithType: QueryExectionExtensions.ExecuteNonQuery
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+    name: ExecuteNonQuery
+    nameWithType: QueryExectionExtensions.ExecuteNonQuery
+    fullName: SuperOffice.Data.QueryExectionExtensions.ExecuteNonQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.SqlCommand
+    name: SqlCommand
+    nameWithType: SqlCommand
+    fullName: SuperOffice.Data.SQL.SqlCommand
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.UDListRow.CustomSearch.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html#SuperOffice_CRM_Rows_UDListRow_CustomSearch__ctor
   name: CustomSearch
   nameWithType: UDListRow.CustomSearch.CustomSearch
   fullName: SuperOffice.CRM.Rows.UDListRow.CustomSearch.CustomSearch
-  nameWithType.vb: UDListRow.CustomSearch.New
-  fullName.vb: SuperOffice.CRM.Rows.UDListRow.CustomSearch.New
-  name.vb: New
 - uid: SuperOffice.CRM.Rows.IdxBase.UpdateRow(SuperOffice.CRM.Rows.TableRowBase)
   commentId: M:SuperOffice.CRM.Rows.IdxBase.UpdateRow(SuperOffice.CRM.Rows.TableRowBase)
   parent: SuperOffice.CRM.Rows.IdxBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.IdxBase.html#SuperOffice_CRM_Rows_IdxBase_UpdateRow_SuperOffice_CRM_Rows_TableRowBase_
   name: UpdateRow(TableRowBase)
   nameWithType: IdxBase.UpdateRow(TableRowBase)
   fullName: SuperOffice.CRM.Rows.IdxBase.UpdateRow(SuperOffice.CRM.Rows.TableRowBase)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.IdxBase.UpdateRow(SuperOffice.CRM.Rows.TableRowBase)
     name: UpdateRow
+    nameWithType: IdxBase.UpdateRow
+    fullName: SuperOffice.CRM.Rows.IdxBase.UpdateRow
     isExternal: true
-    href: SuperOffice.CRM.Rows.IdxBase.html#SuperOffice_CRM_Rows_IdxBase_UpdateRow_SuperOffice_CRM_Rows_TableRowBase_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.TableRowBase
     name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowBase.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.IdxBase.UpdateRow(SuperOffice.CRM.Rows.TableRowBase)
     name: UpdateRow
+    nameWithType: IdxBase.UpdateRow
+    fullName: SuperOffice.CRM.Rows.IdxBase.UpdateRow
     isExternal: true
-    href: SuperOffice.CRM.Rows.IdxBase.html#SuperOffice_CRM_Rows_IdxBase_UpdateRow_SuperOffice_CRM_Rows_TableRowBase_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.TableRowBase
     name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
     isExternal: true
-    href: SuperOffice.CRM.Rows.TableRowBase.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.UpdateRow*
   commentId: Overload:SuperOffice.CRM.Rows.UDListRow.CustomSearch.UpdateRow
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html#SuperOffice_CRM_Rows_UDListRow_CustomSearch_UpdateRow_SuperOffice_CRM_Rows_TableRowBase_
   name: UpdateRow
   nameWithType: UDListRow.CustomSearch.UpdateRow
   fullName: SuperOffice.CRM.Rows.UDListRow.CustomSearch.UpdateRow
@@ -2277,14 +2181,12 @@ references:
   commentId: T:SuperOffice.CRM.Rows.TableRowBase
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowBase.html
   name: TableRowBase
   nameWithType: TableRowBase
   fullName: SuperOffice.CRM.Rows.TableRowBase
 - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.RestrictionAnd*
   commentId: Overload:SuperOffice.CRM.Rows.UDListRow.CustomSearch.RestrictionAnd
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html#SuperOffice_CRM_Rows_UDListRow_CustomSearch_RestrictionAnd_SuperOffice_Data_SQL_Restriction_
   name: RestrictionAnd
   nameWithType: UDListRow.CustomSearch.RestrictionAnd
   fullName: SuperOffice.CRM.Rows.UDListRow.CustomSearch.RestrictionAnd
@@ -2292,36 +2194,25 @@ references:
   commentId: T:SuperOffice.Data.SQL.Restriction
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Restriction.html
   name: Restriction
   nameWithType: Restriction
   fullName: SuperOffice.Data.SQL.Restriction
 - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.RestrictionOr*
   commentId: Overload:SuperOffice.CRM.Rows.UDListRow.CustomSearch.RestrictionOr
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html#SuperOffice_CRM_Rows_UDListRow_CustomSearch_RestrictionOr_SuperOffice_Data_SQL_Restriction_
   name: RestrictionOr
   nameWithType: UDListRow.CustomSearch.RestrictionOr
   fullName: SuperOffice.CRM.Rows.UDListRow.CustomSearch.RestrictionOr
-- uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.Restriction
-  commentId: P:SuperOffice.CRM.Rows.UDListRow.CustomSearch.Restriction
-  isExternal: true
-  href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html#SuperOffice_CRM_Rows_UDListRow_CustomSearch_Restriction
-  name: Restriction
-  nameWithType: UDListRow.CustomSearch.Restriction
-  fullName: SuperOffice.CRM.Rows.UDListRow.CustomSearch.Restriction
 - uid: SuperOffice.Data.SQL.PrivateSelect.InnerRestriction
   commentId: P:SuperOffice.Data.SQL.PrivateSelect.InnerRestriction
   parent: SuperOffice.Data.SQL.PrivateSelect
   isExternal: true
-  href: SuperOffice.Data.SQL.PrivateSelect.html#SuperOffice_Data_SQL_PrivateSelect_InnerRestriction
   name: InnerRestriction
   nameWithType: PrivateSelect.InnerRestriction
   fullName: SuperOffice.Data.SQL.PrivateSelect.InnerRestriction
 - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.InnerRestriction*
   commentId: Overload:SuperOffice.CRM.Rows.UDListRow.CustomSearch.InnerRestriction
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html#SuperOffice_CRM_Rows_UDListRow_CustomSearch_InnerRestriction
   name: InnerRestriction
   nameWithType: UDListRow.CustomSearch.InnerRestriction
   fullName: SuperOffice.CRM.Rows.UDListRow.CustomSearch.InnerRestriction
@@ -2329,14 +2220,12 @@ references:
   commentId: P:SuperOffice.CRM.Rows.IdxBase.InnerOrderBy
   parent: SuperOffice.CRM.Rows.IdxBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.IdxBase.html#SuperOffice_CRM_Rows_IdxBase_InnerOrderBy
   name: InnerOrderBy
   nameWithType: IdxBase.InnerOrderBy
   fullName: SuperOffice.CRM.Rows.IdxBase.InnerOrderBy
 - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.InnerOrderBy*
   commentId: Overload:SuperOffice.CRM.Rows.UDListRow.CustomSearch.InnerOrderBy
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html#SuperOffice_CRM_Rows_UDListRow_CustomSearch_InnerOrderBy
   name: InnerOrderBy
   nameWithType: UDListRow.CustomSearch.InnerOrderBy
   fullName: SuperOffice.CRM.Rows.UDListRow.CustomSearch.InnerOrderBy
@@ -2344,21 +2233,18 @@ references:
   commentId: T:SuperOffice.Data.SQL.OrderBy
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.OrderBy.html
   name: OrderBy
   nameWithType: OrderBy
   fullName: SuperOffice.Data.SQL.OrderBy
 - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.Restriction*
   commentId: Overload:SuperOffice.CRM.Rows.UDListRow.CustomSearch.Restriction
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html#SuperOffice_CRM_Rows_UDListRow_CustomSearch_Restriction
   name: Restriction
   nameWithType: UDListRow.CustomSearch.Restriction
   fullName: SuperOffice.CRM.Rows.UDListRow.CustomSearch.Restriction
 - uid: SuperOffice.CRM.Rows.UDListRow.CustomSearch.OrderBy*
   commentId: Overload:SuperOffice.CRM.Rows.UDListRow.CustomSearch.OrderBy
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDListRow.CustomSearch.html#SuperOffice_CRM_Rows_UDListRow_CustomSearch_OrderBy
   name: OrderBy
   nameWithType: UDListRow.CustomSearch.OrderBy
   fullName: SuperOffice.CRM.Rows.UDListRow.CustomSearch.OrderBy

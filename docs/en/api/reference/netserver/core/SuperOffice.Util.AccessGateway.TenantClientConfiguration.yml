@@ -17,27 +17,30 @@ items:
   nameWithType: AccessGateway.TenantClientConfiguration
   fullName: SuperOffice.Util.AccessGateway.TenantClientConfiguration
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public class AccessGateway.TenantClientConfiguration
-    content.vb: Public Class AccessGateway.TenantClientConfiguration
+    content: 'public class TenantClientConfiguration : Object'
+    content.vb: >-
+      Public Class TenantClientConfiguration
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Util.AccessGateway.TenantClientConfiguration.EnumUtil.MapEnums``2
-  - SuperOffice.Util.AccessGateway.TenantClientConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Util.AccessGateway.TenantClientConfiguration.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.AccessGateway.TenantClientConfiguration)
   - SuperOffice.Util.AccessGateway.TenantClientConfiguration.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Util.AccessGateway.TenantClientConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration.#ctor
   commentId: M:SuperOffice.Util.AccessGateway.TenantClientConfiguration.#ctor
   id: '#ctor'
@@ -49,16 +52,20 @@ items:
   nameWithType: AccessGateway.TenantClientConfiguration.TenantClientConfiguration()
   fullName: SuperOffice.Util.AccessGateway.TenantClientConfiguration.TenantClientConfiguration()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
     content: public TenantClientConfiguration()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.Util.AccessGateway.TenantClientConfiguration.#ctor*
-  nameWithType.vb: AccessGateway.TenantClientConfiguration.New()
-  fullName.vb: SuperOffice.Util.AccessGateway.TenantClientConfiguration.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration.ClientId
   commentId: P:SuperOffice.Util.AccessGateway.TenantClientConfiguration.ClientId
   id: ClientId
@@ -70,6 +77,9 @@ items:
   nameWithType: AccessGateway.TenantClientConfiguration.ClientId
   fullName: SuperOffice.Util.AccessGateway.TenantClientConfiguration.ClientId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
@@ -80,6 +90,12 @@ items:
       type: System.String
     content.vb: Public Property ClientId As String
   overload: SuperOffice.Util.AccessGateway.TenantClientConfiguration.ClientId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration.ClientSecret
   commentId: P:SuperOffice.Util.AccessGateway.TenantClientConfiguration.ClientSecret
   id: ClientSecret
@@ -91,6 +107,9 @@ items:
   nameWithType: AccessGateway.TenantClientConfiguration.ClientSecret
   fullName: SuperOffice.Util.AccessGateway.TenantClientConfiguration.ClientSecret
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
@@ -101,6 +120,12 @@ items:
       type: System.String
     content.vb: Public Property ClientSecret As String
   overload: SuperOffice.Util.AccessGateway.TenantClientConfiguration.ClientSecret*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration.RefreshToken
   commentId: P:SuperOffice.Util.AccessGateway.TenantClientConfiguration.RefreshToken
   id: RefreshToken
@@ -112,6 +137,9 @@ items:
   nameWithType: AccessGateway.TenantClientConfiguration.RefreshToken
   fullName: SuperOffice.Util.AccessGateway.TenantClientConfiguration.RefreshToken
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
@@ -122,6 +150,12 @@ items:
       type: System.String
     content.vb: Public Property RefreshToken As String
   overload: SuperOffice.Util.AccessGateway.TenantClientConfiguration.RefreshToken*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration.AccessToken
   commentId: P:SuperOffice.Util.AccessGateway.TenantClientConfiguration.AccessToken
   id: AccessToken
@@ -133,6 +167,9 @@ items:
   nameWithType: AccessGateway.TenantClientConfiguration.AccessToken
   fullName: SuperOffice.Util.AccessGateway.TenantClientConfiguration.AccessToken
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
@@ -143,487 +180,181 @@ items:
       type: System.String
     content.vb: Public Property AccessToken As String
   overload: SuperOffice.Util.AccessGateway.TenantClientConfiguration.AccessToken*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<TenantClientConfiguration, To>(TenantClientConfiguration)
-  nameWithType: EnumUtil.MapEnums<AccessGateway.TenantClientConfiguration, To>(AccessGateway.TenantClientConfiguration)
-  fullName: EnumUtil.MapEnums<SuperOffice.Util.AccessGateway.TenantClientConfiguration, To>(SuperOffice.Util.AccessGateway.TenantClientConfiguration)
-  nameWithType.vb: EnumUtil.MapEnums(Of AccessGateway.TenantClientConfiguration, To)(AccessGateway.TenantClientConfiguration)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.AccessGateway.TenantClientConfiguration, To)(SuperOffice.Util.AccessGateway.TenantClientConfiguration)
-  name.vb: MapEnums(Of TenantClientConfiguration, To)(TenantClientConfiguration)
+  name: MapEnums<AccessGateway.TenantClientConfiguration, To>()
+  nameWithType: EnumUtil.MapEnums<AccessGateway.TenantClientConfiguration, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.AccessGateway.TenantClientConfiguration, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AccessGateway.TenantClientConfiguration, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.AccessGateway.TenantClientConfiguration, To)()
+  name.vb: MapEnums(Of AccessGateway.TenantClientConfiguration, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.AccessGateway.TenantClientConfiguration)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AccessGateway.TenantClientConfiguration, To>
+    nameWithType: EnumUtil.MapEnums<AccessGateway.TenantClientConfiguration, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.AccessGateway.TenantClientConfiguration, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
-    name: TenantClientConfiguration
-    isExternal: true
-    href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
-    name: TenantClientConfiguration
-    isExternal: true
-    href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.AccessGateway.TenantClientConfiguration)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AccessGateway.TenantClientConfiguration, To)
+    nameWithType: EnumUtil.MapEnums(Of AccessGateway.TenantClientConfiguration, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.AccessGateway.TenantClientConfiguration, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
-    name: TenantClientConfiguration
-    isExternal: true
-    href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
-    name: TenantClientConfiguration
-    isExternal: true
-    href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html
-  - name: )
-- uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<TenantClientConfiguration, To>(TenantClientConfiguration)
-  nameWithType: Converters.MapEnums<AccessGateway.TenantClientConfiguration, To>(AccessGateway.TenantClientConfiguration)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.AccessGateway.TenantClientConfiguration, To>(SuperOffice.Util.AccessGateway.TenantClientConfiguration)
-  nameWithType.vb: Converters.MapEnums(Of AccessGateway.TenantClientConfiguration, To)(AccessGateway.TenantClientConfiguration)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.AccessGateway.TenantClientConfiguration, To)(SuperOffice.Util.AccessGateway.TenantClientConfiguration)
-  name.vb: MapEnums(Of TenantClientConfiguration, To)(TenantClientConfiguration)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.AccessGateway.TenantClientConfiguration)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
-    name: TenantClientConfiguration
-    isExternal: true
-    href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
-    name: TenantClientConfiguration
-    isExternal: true
-    href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.AccessGateway.TenantClientConfiguration)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
-    name: TenantClientConfiguration
-    isExternal: true
-    href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
-    name: TenantClientConfiguration
-    isExternal: true
-    href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.AccessGateway.TenantClientConfiguration)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<TenantClientConfiguration>(TenantClientConfiguration, TenantClientConfiguration)
-  nameWithType: ObjectExtensions.AssignByReflection<AccessGateway.TenantClientConfiguration>(AccessGateway.TenantClientConfiguration, AccessGateway.TenantClientConfiguration)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.AccessGateway.TenantClientConfiguration>(SuperOffice.Util.AccessGateway.TenantClientConfiguration, SuperOffice.Util.AccessGateway.TenantClientConfiguration)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AccessGateway.TenantClientConfiguration)(AccessGateway.TenantClientConfiguration, AccessGateway.TenantClientConfiguration)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.AccessGateway.TenantClientConfiguration)(SuperOffice.Util.AccessGateway.TenantClientConfiguration, SuperOffice.Util.AccessGateway.TenantClientConfiguration)
-  name.vb: AssignByReflection(Of TenantClientConfiguration)(TenantClientConfiguration, TenantClientConfiguration)
+  name: AssignByReflection<AccessGateway.TenantClientConfiguration>(AccessGateway.TenantClientConfiguration)
+  nameWithType: ObjectExtensions.AssignByReflection<AccessGateway.TenantClientConfiguration>(AccessGateway.TenantClientConfiguration)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.AccessGateway.TenantClientConfiguration>(SuperOffice.Util.AccessGateway.TenantClientConfiguration)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AccessGateway.TenantClientConfiguration)(AccessGateway.TenantClientConfiguration)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.AccessGateway.TenantClientConfiguration)(SuperOffice.Util.AccessGateway.TenantClientConfiguration)
+  name.vb: AssignByReflection(Of AccessGateway.TenantClientConfiguration)(AccessGateway.TenantClientConfiguration)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.AccessGateway.TenantClientConfiguration,SuperOffice.Util.AccessGateway.TenantClientConfiguration)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<AccessGateway.TenantClientConfiguration>
+    nameWithType: ObjectExtensions.AssignByReflection<AccessGateway.TenantClientConfiguration>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.AccessGateway.TenantClientConfiguration>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
-    name: TenantClientConfiguration
-    isExternal: true
-    href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
-    name: TenantClientConfiguration
+    name: AccessGateway.TenantClientConfiguration
+    nameWithType: AccessGateway.TenantClientConfiguration
+    fullName: SuperOffice.Util.AccessGateway.TenantClientConfiguration
     isExternal: true
-    href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
-    name: TenantClientConfiguration
-    isExternal: true
-    href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.AccessGateway.TenantClientConfiguration,SuperOffice.Util.AccessGateway.TenantClientConfiguration)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of AccessGateway.TenantClientConfiguration)
+    nameWithType: ObjectExtensions.AssignByReflection(Of AccessGateway.TenantClientConfiguration)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.AccessGateway.TenantClientConfiguration)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
-    name: TenantClientConfiguration
+    name: AccessGateway.TenantClientConfiguration
+    nameWithType: AccessGateway.TenantClientConfiguration
+    fullName: SuperOffice.Util.AccessGateway.TenantClientConfiguration
     isExternal: true
-    href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html
   - name: )
-  - name: (
-  - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
-    name: TenantClientConfiguration
-    isExternal: true
-    href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
-    name: TenantClientConfiguration
-    isExternal: true
-    href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<TenantClientConfiguration>(TenantClientConfiguration)
-  nameWithType: ObjectExtensions.GraphCopy<AccessGateway.TenantClientConfiguration>(AccessGateway.TenantClientConfiguration)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.AccessGateway.TenantClientConfiguration>(SuperOffice.Util.AccessGateway.TenantClientConfiguration)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of AccessGateway.TenantClientConfiguration)(AccessGateway.TenantClientConfiguration)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.AccessGateway.TenantClientConfiguration)(SuperOffice.Util.AccessGateway.TenantClientConfiguration)
-  name.vb: GraphCopy(Of TenantClientConfiguration)(TenantClientConfiguration)
+  name: GraphCopy<AccessGateway.TenantClientConfiguration>()
+  nameWithType: ObjectExtensions.GraphCopy<AccessGateway.TenantClientConfiguration>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.AccessGateway.TenantClientConfiguration>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of AccessGateway.TenantClientConfiguration)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.AccessGateway.TenantClientConfiguration)()
+  name.vb: GraphCopy(Of AccessGateway.TenantClientConfiguration)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.AccessGateway.TenantClientConfiguration)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<AccessGateway.TenantClientConfiguration>
+    nameWithType: ObjectExtensions.GraphCopy<AccessGateway.TenantClientConfiguration>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.AccessGateway.TenantClientConfiguration>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
-    name: TenantClientConfiguration
-    isExternal: true
-    href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
-    name: TenantClientConfiguration
-    isExternal: true
-    href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.AccessGateway.TenantClientConfiguration)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of AccessGateway.TenantClientConfiguration)
+    nameWithType: ObjectExtensions.GraphCopy(Of AccessGateway.TenantClientConfiguration)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.AccessGateway.TenantClientConfiguration)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
-    name: TenantClientConfiguration
-    isExternal: true
-    href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AccessGateway.TenantClientConfiguration, To>()
+  nameWithType: Converters.MapEnums<AccessGateway.TenantClientConfiguration, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.AccessGateway.TenantClientConfiguration, To>()
+  nameWithType.vb: Converters.MapEnums(Of AccessGateway.TenantClientConfiguration, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.AccessGateway.TenantClientConfiguration, To)()
+  name.vb: MapEnums(Of AccessGateway.TenantClientConfiguration, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AccessGateway.TenantClientConfiguration, To>
+    nameWithType: Converters.MapEnums<AccessGateway.TenantClientConfiguration, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.AccessGateway.TenantClientConfiguration, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration
-    name: TenantClientConfiguration
-    isExternal: true
-    href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AccessGateway.TenantClientConfiguration, To)
+    nameWithType: Converters.MapEnums(Of AccessGateway.TenantClientConfiguration, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.AccessGateway.TenantClientConfiguration, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -632,93 +363,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -727,46 +408,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -775,79 +466,95 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
   - name: (
-  - name: T
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration.#ctor*
   commentId: Overload:SuperOffice.Util.AccessGateway.TenantClientConfiguration.#ctor
   isExternal: true
-  href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html#SuperOffice_Util_AccessGateway_TenantClientConfiguration__ctor
   name: TenantClientConfiguration
   nameWithType: AccessGateway.TenantClientConfiguration.TenantClientConfiguration
   fullName: SuperOffice.Util.AccessGateway.TenantClientConfiguration.TenantClientConfiguration
-  nameWithType.vb: AccessGateway.TenantClientConfiguration.New
-  fullName.vb: SuperOffice.Util.AccessGateway.TenantClientConfiguration.New
-  name.vb: New
 - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration.ClientId*
   commentId: Overload:SuperOffice.Util.AccessGateway.TenantClientConfiguration.ClientId
   isExternal: true
-  href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html#SuperOffice_Util_AccessGateway_TenantClientConfiguration_ClientId
   name: ClientId
   nameWithType: AccessGateway.TenantClientConfiguration.ClientId
   fullName: SuperOffice.Util.AccessGateway.TenantClientConfiguration.ClientId
@@ -855,31 +562,24 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration.ClientSecret*
   commentId: Overload:SuperOffice.Util.AccessGateway.TenantClientConfiguration.ClientSecret
   isExternal: true
-  href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html#SuperOffice_Util_AccessGateway_TenantClientConfiguration_ClientSecret
   name: ClientSecret
   nameWithType: AccessGateway.TenantClientConfiguration.ClientSecret
   fullName: SuperOffice.Util.AccessGateway.TenantClientConfiguration.ClientSecret
 - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration.RefreshToken*
   commentId: Overload:SuperOffice.Util.AccessGateway.TenantClientConfiguration.RefreshToken
   isExternal: true
-  href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html#SuperOffice_Util_AccessGateway_TenantClientConfiguration_RefreshToken
   name: RefreshToken
   nameWithType: AccessGateway.TenantClientConfiguration.RefreshToken
   fullName: SuperOffice.Util.AccessGateway.TenantClientConfiguration.RefreshToken
 - uid: SuperOffice.Util.AccessGateway.TenantClientConfiguration.AccessToken*
   commentId: Overload:SuperOffice.Util.AccessGateway.TenantClientConfiguration.AccessToken
   isExternal: true
-  href: SuperOffice.Util.AccessGateway.TenantClientConfiguration.html#SuperOffice_Util_AccessGateway_TenantClientConfiguration_AccessToken
   name: AccessToken
   nameWithType: AccessGateway.TenantClientConfiguration.AccessToken
   fullName: SuperOffice.Util.AccessGateway.TenantClientConfiguration.AccessToken

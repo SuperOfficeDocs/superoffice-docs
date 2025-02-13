@@ -17,27 +17,18 @@ items:
   nameWithType: ApproveRejectResponse
   fullName: SuperOffice.CRM.Services.ApproveRejectResponse
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    ApproveRejectResponse contains a PluginResponse and an appointmentId if the operation created one.
-
-    <p></p>
-
-    Carrier object for ApproveRejectResponse.
-
-    Services for the ApproveRejectResponse Carrier is available from the <xref href="SuperOffice.CRM.Services.IQuoteAgent?text=Quote+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nApproveRejectResponse contains a PluginResponse and an appointmentId if the operation created one.\n<p></p>\nCarrier object for ApproveRejectResponse.\nServices for the ApproveRejectResponse Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IQuoteAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class ApproveRejectResponse : Carrier
+    content: 'public class ApproveRejectResponse : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class ApproveRejectResponse Inherits Carrier
+      Public Class ApproveRejectResponse
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.QuoteAgent
     commentId: T:SuperOffice.CRM.Services.QuoteAgent
@@ -45,14 +36,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.ApproveRejectResponse.#ctor
   commentId: M:SuperOffice.CRM.Services.ApproveRejectResponse.#ctor
   id: '#ctor'
@@ -64,18 +53,21 @@ items:
   nameWithType: ApproveRejectResponse.ApproveRejectResponse()
   fullName: SuperOffice.CRM.Services.ApproveRejectResponse.ApproveRejectResponse()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public ApproveRejectResponse()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.ApproveRejectResponse.#ctor*
-  nameWithType.vb: ApproveRejectResponse.New()
-  fullName.vb: SuperOffice.CRM.Services.ApproveRejectResponse.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ApproveRejectResponse.ToString
   commentId: M:SuperOffice.CRM.Services.ApproveRejectResponse.ToString
   id: ToString
@@ -87,18 +79,26 @@ items:
   nameWithType: ApproveRejectResponse.ToString()
   fullName: SuperOffice.CRM.Services.ApproveRejectResponse.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.ApproveRejectResponse.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.ApproveRejectResponse.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ApproveRejectResponse.ToString(System.String)
   id: ToString(System.String)
@@ -106,18 +106,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: ApproveRejectResponse.ToString(string)
-  fullName: SuperOffice.CRM.Services.ApproveRejectResponse.ToString(string)
+  name: ToString(String)
+  nameWithType: ApproveRejectResponse.ToString(String)
+  fullName: SuperOffice.CRM.Services.ApproveRejectResponse.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -129,9 +128,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ApproveRejectResponse.ToString*
-  nameWithType.vb: ApproveRejectResponse.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.ApproveRejectResponse.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ApproveRejectResponse.PluginResponse
   commentId: P:SuperOffice.CRM.Services.ApproveRejectResponse.PluginResponse
   id: PluginResponse
@@ -143,28 +143,28 @@ items:
   nameWithType: ApproveRejectResponse.PluginResponse
   fullName: SuperOffice.CRM.Services.ApproveRejectResponse.PluginResponse
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The response from the operation.
-  example: []
+  summary: "\nThe response from the operation. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual PluginResponse PluginResponse { get; set; }
+    content: public virtual PluginResponse PluginResponse { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.PluginResponse
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PluginResponse As PluginResponse
+    content.vb: Public Overridable Property PluginResponse As PluginResponse
   overload: SuperOffice.CRM.Services.ApproveRejectResponse.PluginResponse*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ApproveRejectResponse.CreatedAppointmentId
   commentId: P:SuperOffice.CRM.Services.ApproveRejectResponse.CreatedAppointmentId
   id: CreatedAppointmentId
@@ -176,33 +176,38 @@ items:
   nameWithType: ApproveRejectResponse.CreatedAppointmentId
   fullName: SuperOffice.CRM.Services.ApproveRejectResponse.CreatedAppointmentId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Id of the created follow up.
-  example: []
+  summary: "\nId of the created follow up. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int CreatedAppointmentId { get; set; }
+    content: public virtual int CreatedAppointmentId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CreatedAppointmentId As Integer
+    content.vb: Public Overridable Property CreatedAppointmentId As Integer
   overload: SuperOffice.CRM.Services.ApproveRejectResponse.CreatedAppointmentId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.QuoteAgent
   commentId: T:SuperOffice.CRM.Services.QuoteAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteAgent.html
   name: QuoteAgent
   nameWithType: QuoteAgent
   fullName: SuperOffice.CRM.Services.QuoteAgent
@@ -210,79 +215,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IQuoteAgent.html
   name: IQuoteAgent
   nameWithType: IQuoteAgent
   fullName: SuperOffice.CRM.Services.IQuoteAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ApproveRejectResponse.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ApproveRejectResponse.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.ApproveRejectResponse.html#SuperOffice_CRM_Services_ApproveRejectResponse__ctor
   name: ApproveRejectResponse
   nameWithType: ApproveRejectResponse.ApproveRejectResponse
   fullName: SuperOffice.CRM.Services.ApproveRejectResponse.ApproveRejectResponse
-  nameWithType.vb: ApproveRejectResponse.New
-  fullName.vb: SuperOffice.CRM.Services.ApproveRejectResponse.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.ApproveRejectResponse.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ApproveRejectResponse.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.ApproveRejectResponse.html#SuperOffice_CRM_Services_ApproveRejectResponse_ToString
   name: ToString
   nameWithType: ApproveRejectResponse.ToString
   fullName: SuperOffice.CRM.Services.ApproveRejectResponse.ToString
@@ -290,17 +234,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ApproveRejectResponse.PluginResponse*
   commentId: Overload:SuperOffice.CRM.Services.ApproveRejectResponse.PluginResponse
   isExternal: true
-  href: SuperOffice.CRM.Services.ApproveRejectResponse.html#SuperOffice_CRM_Services_ApproveRejectResponse_PluginResponse
   name: PluginResponse
   nameWithType: ApproveRejectResponse.PluginResponse
   fullName: SuperOffice.CRM.Services.ApproveRejectResponse.PluginResponse
@@ -308,14 +253,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.PluginResponse
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.PluginResponse.html
   name: PluginResponse
   nameWithType: PluginResponse
   fullName: SuperOffice.CRM.Services.PluginResponse
 - uid: SuperOffice.CRM.Services.ApproveRejectResponse.CreatedAppointmentId*
   commentId: Overload:SuperOffice.CRM.Services.ApproveRejectResponse.CreatedAppointmentId
   isExternal: true
-  href: SuperOffice.CRM.Services.ApproveRejectResponse.html#SuperOffice_CRM_Services_ApproveRejectResponse_CreatedAppointmentId
   name: CreatedAppointmentId
   nameWithType: ApproveRejectResponse.CreatedAppointmentId
   fullName: SuperOffice.CRM.Services.ApproveRejectResponse.CreatedAppointmentId
@@ -323,10 +266,6 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

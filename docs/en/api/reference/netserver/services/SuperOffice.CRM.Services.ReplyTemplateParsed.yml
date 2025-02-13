@@ -20,27 +20,18 @@ items:
   nameWithType: ReplyTemplateParsed
   fullName: SuperOffice.CRM.Services.ReplyTemplateParsed
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Reply template with parsed text. Represent one language version of reply template
-
-    <p></p>
-
-    Carrier object for ReplyTemplateParsed.
-
-    Services for the ReplyTemplateParsed Carrier is available from the <xref href="SuperOffice.CRM.Services.ICustomerServiceAgent?text=CustomerService+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nReply template with parsed text. Represent one language version of reply template\n<p></p>\nCarrier object for ReplyTemplateParsed.\nServices for the ReplyTemplateParsed Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICustomerServiceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class ReplyTemplateParsed : Carrier
+    content: 'public class ReplyTemplateParsed : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class ReplyTemplateParsed Inherits Carrier
+      Public Class ReplyTemplateParsed
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.CustomerServiceAgent
     commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
@@ -48,14 +39,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.ReplyTemplateParsed.#ctor
   commentId: M:SuperOffice.CRM.Services.ReplyTemplateParsed.#ctor
   id: '#ctor'
@@ -67,18 +56,21 @@ items:
   nameWithType: ReplyTemplateParsed.ReplyTemplateParsed()
   fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.ReplyTemplateParsed()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public ReplyTemplateParsed()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.ReplyTemplateParsed.#ctor*
-  nameWithType.vb: ReplyTemplateParsed.New()
-  fullName.vb: SuperOffice.CRM.Services.ReplyTemplateParsed.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ReplyTemplateParsed.ToString
   commentId: M:SuperOffice.CRM.Services.ReplyTemplateParsed.ToString
   id: ToString
@@ -90,18 +82,26 @@ items:
   nameWithType: ReplyTemplateParsed.ToString()
   fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.ReplyTemplateParsed.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.ReplyTemplateParsed.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ReplyTemplateParsed.ToString(System.String)
   id: ToString(System.String)
@@ -109,18 +109,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: ReplyTemplateParsed.ToString(string)
-  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.ToString(string)
+  name: ToString(String)
+  nameWithType: ReplyTemplateParsed.ToString(String)
+  fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -132,9 +131,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ReplyTemplateParsed.ToString*
-  nameWithType.vb: ReplyTemplateParsed.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.ReplyTemplateParsed.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ReplyTemplateParsed.ReplyTemplateId
   commentId: P:SuperOffice.CRM.Services.ReplyTemplateParsed.ReplyTemplateId
   id: ReplyTemplateId
@@ -146,28 +146,28 @@ items:
   nameWithType: ReplyTemplateParsed.ReplyTemplateId
   fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.ReplyTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The primary key (auto-incremented)
-  example: []
+  summary: "\nThe primary key (auto-incremented) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ReplyTemplateId { get; set; }
+    content: public virtual int ReplyTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ReplyTemplateId As Integer
+    content.vb: Public Overridable Property ReplyTemplateId As Integer
   overload: SuperOffice.CRM.Services.ReplyTemplateParsed.ReplyTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ReplyTemplateParsed.PlainParsed
   commentId: P:SuperOffice.CRM.Services.ReplyTemplateParsed.PlainParsed
   id: PlainParsed
@@ -179,28 +179,28 @@ items:
   nameWithType: ReplyTemplateParsed.PlainParsed
   fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.PlainParsed
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The plain text version of the reply template, and if applicable parsed with customer and ticket data
-  example: []
+  summary: "\nThe plain text version of the reply template, and if applicable parsed with customer and ticket data \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string PlainParsed { get; set; }
+    content: public virtual string PlainParsed { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PlainParsed As String
+    content.vb: Public Overridable Property PlainParsed As String
   overload: SuperOffice.CRM.Services.ReplyTemplateParsed.PlainParsed*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ReplyTemplateParsed.HtmlParsed
   commentId: P:SuperOffice.CRM.Services.ReplyTemplateParsed.HtmlParsed
   id: HtmlParsed
@@ -212,28 +212,28 @@ items:
   nameWithType: ReplyTemplateParsed.HtmlParsed
   fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.HtmlParsed
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The HTML version of the reply template, and if applicable parsed with customer and ticket data
-  example: []
+  summary: "\nThe HTML version of the reply template, and if applicable parsed with customer and ticket data \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string HtmlParsed { get; set; }
+    content: public virtual string HtmlParsed { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property HtmlParsed As String
+    content.vb: Public Overridable Property HtmlParsed As String
   overload: SuperOffice.CRM.Services.ReplyTemplateParsed.HtmlParsed*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ReplyTemplateParsed.Attachments
   commentId: P:SuperOffice.CRM.Services.ReplyTemplateParsed.Attachments
   id: Attachments
@@ -245,28 +245,28 @@ items:
   nameWithType: ReplyTemplateParsed.Attachments
   fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.Attachments
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Meta data for the connected attachments
-  example: []
+  summary: "\nMeta data for the connected attachments \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual AttachmentEntity[] Attachments { get; set; }
+    content: public virtual AttachmentEntity[] Attachments { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.AttachmentEntity[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Attachments As AttachmentEntity()
+    content.vb: Public Overridable Property Attachments As AttachmentEntity()
   overload: SuperOffice.CRM.Services.ReplyTemplateParsed.Attachments*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ReplyTemplateParsed.Subject
   commentId: P:SuperOffice.CRM.Services.ReplyTemplateParsed.Subject
   id: Subject
@@ -278,33 +278,38 @@ items:
   nameWithType: ReplyTemplateParsed.Subject
   fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.Subject
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The subject for this reply template
-  example: []
+  summary: "\nThe subject for this reply template \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Subject { get; set; }
+    content: public virtual string Subject { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Subject As String
+    content.vb: Public Overridable Property Subject As String
   overload: SuperOffice.CRM.Services.ReplyTemplateParsed.Subject*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.CustomerServiceAgent
   commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.CustomerServiceAgent.html
   name: CustomerServiceAgent
   nameWithType: CustomerServiceAgent
   fullName: SuperOffice.CRM.Services.CustomerServiceAgent
@@ -312,79 +317,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html
   name: ICustomerServiceAgent
   nameWithType: ICustomerServiceAgent
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ReplyTemplateParsed.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ReplyTemplateParsed.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.ReplyTemplateParsed.html#SuperOffice_CRM_Services_ReplyTemplateParsed__ctor
   name: ReplyTemplateParsed
   nameWithType: ReplyTemplateParsed.ReplyTemplateParsed
   fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.ReplyTemplateParsed
-  nameWithType.vb: ReplyTemplateParsed.New
-  fullName.vb: SuperOffice.CRM.Services.ReplyTemplateParsed.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.ReplyTemplateParsed.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ReplyTemplateParsed.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.ReplyTemplateParsed.html#SuperOffice_CRM_Services_ReplyTemplateParsed_ToString
   name: ToString
   nameWithType: ReplyTemplateParsed.ToString
   fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.ToString
@@ -392,17 +336,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ReplyTemplateParsed.ReplyTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.ReplyTemplateParsed.ReplyTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.ReplyTemplateParsed.html#SuperOffice_CRM_Services_ReplyTemplateParsed_ReplyTemplateId
   name: ReplyTemplateId
   nameWithType: ReplyTemplateParsed.ReplyTemplateId
   fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.ReplyTemplateId
@@ -410,37 +355,29 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.ReplyTemplateParsed.PlainParsed*
   commentId: Overload:SuperOffice.CRM.Services.ReplyTemplateParsed.PlainParsed
   isExternal: true
-  href: SuperOffice.CRM.Services.ReplyTemplateParsed.html#SuperOffice_CRM_Services_ReplyTemplateParsed_PlainParsed
   name: PlainParsed
   nameWithType: ReplyTemplateParsed.PlainParsed
   fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.PlainParsed
 - uid: SuperOffice.CRM.Services.ReplyTemplateParsed.HtmlParsed*
   commentId: Overload:SuperOffice.CRM.Services.ReplyTemplateParsed.HtmlParsed
   isExternal: true
-  href: SuperOffice.CRM.Services.ReplyTemplateParsed.html#SuperOffice_CRM_Services_ReplyTemplateParsed_HtmlParsed
   name: HtmlParsed
   nameWithType: ReplyTemplateParsed.HtmlParsed
   fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.HtmlParsed
 - uid: SuperOffice.CRM.Services.ReplyTemplateParsed.Attachments*
   commentId: Overload:SuperOffice.CRM.Services.ReplyTemplateParsed.Attachments
   isExternal: true
-  href: SuperOffice.CRM.Services.ReplyTemplateParsed.html#SuperOffice_CRM_Services_ReplyTemplateParsed_Attachments
   name: Attachments
   nameWithType: ReplyTemplateParsed.Attachments
   fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.Attachments
 - uid: SuperOffice.CRM.Services.AttachmentEntity[]
   isExternal: true
-  href: SuperOffice.CRM.Services.AttachmentEntity.html
   name: AttachmentEntity[]
   nameWithType: AttachmentEntity[]
   fullName: SuperOffice.CRM.Services.AttachmentEntity[]
@@ -450,21 +387,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AttachmentEntity
     name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.CRM.Services.AttachmentEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.AttachmentEntity.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.AttachmentEntity
     name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.CRM.Services.AttachmentEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.AttachmentEntity.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.ReplyTemplateParsed.Subject*
   commentId: Overload:SuperOffice.CRM.Services.ReplyTemplateParsed.Subject
   isExternal: true
-  href: SuperOffice.CRM.Services.ReplyTemplateParsed.html#SuperOffice_CRM_Services_ReplyTemplateParsed_Subject
   name: Subject
   nameWithType: ReplyTemplateParsed.Subject
   fullName: SuperOffice.CRM.Services.ReplyTemplateParsed.Subject

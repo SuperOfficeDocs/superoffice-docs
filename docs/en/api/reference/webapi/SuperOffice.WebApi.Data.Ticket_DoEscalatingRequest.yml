@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest
+  id: Ticket_DoEscalatingRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.Action
+  - SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.TicketId
+  langs:
+  - csharp
+  - vb
+  name: Ticket_DoEscalatingRequest
+  nameWithType: Ticket_DoEscalatingRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_DoEscalatingRequest : Object'
+    content.vb: >-
+      Public Class Ticket_DoEscalatingRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_DoEscalatingRequest()
+  nameWithType: Ticket_DoEscalatingRequest.Ticket_DoEscalatingRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.Ticket_DoEscalatingRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_DoEscalatingRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.TicketId
+  commentId: P:SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.TicketId
+  id: TicketId
+  parent: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest
+  langs:
+  - csharp
+  - vb
+  name: TicketId
+  nameWithType: Ticket_DoEscalatingRequest.TicketId
+  fullName: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.TicketId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TicketId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TicketId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.TicketId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.Action
+  commentId: P:SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.Action
+  id: Action
+  parent: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: Ticket_DoEscalatingRequest.Action
+  fullName: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.Action
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public TicketPriorityEscalateAction Action { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+    content.vb: Public Property Action As TicketPriorityEscalateAction
+  overload: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.Action*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.#ctor
+  isExternal: true
+  name: Ticket_DoEscalatingRequest
+  nameWithType: Ticket_DoEscalatingRequest.Ticket_DoEscalatingRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.Ticket_DoEscalatingRequest
+- uid: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.TicketId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.TicketId
+  isExternal: true
+  name: TicketId
+  nameWithType: Ticket_DoEscalatingRequest.TicketId
+  fullName: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.TicketId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.Action*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.Action
+  isExternal: true
+  name: Action
+  nameWithType: Ticket_DoEscalatingRequest.Action
+  fullName: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest.Action
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+  commentId: T:SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketPriorityEscalateAction
+  nameWithType: TicketPriorityEscalateAction
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateAction

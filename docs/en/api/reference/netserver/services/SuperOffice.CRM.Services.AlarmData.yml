@@ -38,23 +38,18 @@ items:
   nameWithType: AlarmData
   fullName: SuperOffice.CRM.Services.AlarmData
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Carrier object for AlarmData.
-
-    Services for the AlarmData Carrier is available from the <xref href="SuperOffice.CRM.Services.IAppointmentAgent?text=Appointment+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nCarrier object for AlarmData.\nServices for the AlarmData Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAppointmentAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class AlarmData : Carrier
+    content: 'public class AlarmData : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class AlarmData Inherits Carrier
+      Public Class AlarmData
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.AppointmentAgent
     commentId: T:SuperOffice.CRM.Services.AppointmentAgent
@@ -62,14 +57,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.AlarmData.#ctor
   commentId: M:SuperOffice.CRM.Services.AlarmData.#ctor
   id: '#ctor'
@@ -81,18 +74,21 @@ items:
   nameWithType: AlarmData.AlarmData()
   fullName: SuperOffice.CRM.Services.AlarmData.AlarmData()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public AlarmData()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.AlarmData.#ctor*
-  nameWithType.vb: AlarmData.New()
-  fullName.vb: SuperOffice.CRM.Services.AlarmData.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AlarmData.ToString
   commentId: M:SuperOffice.CRM.Services.AlarmData.ToString
   id: ToString
@@ -104,18 +100,26 @@ items:
   nameWithType: AlarmData.ToString()
   fullName: SuperOffice.CRM.Services.AlarmData.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.AlarmData.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.AlarmData.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.AlarmData.ToString(System.String)
   id: ToString(System.String)
@@ -123,18 +127,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: AlarmData.ToString(string)
-  fullName: SuperOffice.CRM.Services.AlarmData.ToString(string)
+  name: ToString(String)
+  nameWithType: AlarmData.ToString(String)
+  fullName: SuperOffice.CRM.Services.AlarmData.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -146,9 +149,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.AlarmData.ToString*
-  nameWithType.vb: AlarmData.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.AlarmData.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AlarmData.AppointmentId
   commentId: P:SuperOffice.CRM.Services.AlarmData.AppointmentId
   id: AppointmentId
@@ -160,28 +164,28 @@ items:
   nameWithType: AlarmData.AppointmentId
   fullName: SuperOffice.CRM.Services.AlarmData.AppointmentId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int AppointmentId { get; set; }
+    content: public virtual int AppointmentId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property AppointmentId As Integer
+    content.vb: Public Overridable Property AppointmentId As Integer
   overload: SuperOffice.CRM.Services.AlarmData.AppointmentId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.StartTime
   commentId: P:SuperOffice.CRM.Services.AlarmData.StartTime
   id: StartTime
@@ -193,28 +197,28 @@ items:
   nameWithType: AlarmData.StartTime
   fullName: SuperOffice.CRM.Services.AlarmData.StartTime
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: date + start time planned
-  example: []
+  summary: "\ndate + start time planned \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime StartTime { get; set; }
+    content: public virtual DateTime StartTime { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property StartTime As Date
+    content.vb: Public Overridable Property StartTime As DateTime
   overload: SuperOffice.CRM.Services.AlarmData.StartTime*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.EndDate
   commentId: P:SuperOffice.CRM.Services.AlarmData.EndDate
   id: EndDate
@@ -226,28 +230,28 @@ items:
   nameWithType: AlarmData.EndDate
   fullName: SuperOffice.CRM.Services.AlarmData.EndDate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Date + end time planned
-  example: []
+  summary: "\nDate + end time planned \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime EndDate { get; set; }
+    content: public virtual DateTime EndDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property EndDate As Date
+    content.vb: Public Overridable Property EndDate As DateTime
   overload: SuperOffice.CRM.Services.AlarmData.EndDate*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.AlarmTime
   commentId: P:SuperOffice.CRM.Services.AlarmData.AlarmTime
   id: AlarmTime
@@ -259,28 +263,28 @@ items:
   nameWithType: AlarmData.AlarmTime
   fullName: SuperOffice.CRM.Services.AlarmData.AlarmTime
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime AlarmTime { get; set; }
+    content: public virtual DateTime AlarmTime { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property AlarmTime As Date
+    content.vb: Public Overridable Property AlarmTime As DateTime
   overload: SuperOffice.CRM.Services.AlarmData.AlarmTime*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.PersonId
   commentId: P:SuperOffice.CRM.Services.AlarmData.PersonId
   id: PersonId
@@ -292,28 +296,28 @@ items:
   nameWithType: AlarmData.PersonId
   fullName: SuperOffice.CRM.Services.AlarmData.PersonId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Person ID of person the appointment is with, may be 0
-  example: []
+  summary: "\nPerson ID of person the appointment is with, may be 0 \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int PersonId { get; set; }
+    content: public virtual int PersonId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PersonId As Integer
+    content.vb: Public Overridable Property PersonId As Integer
   overload: SuperOffice.CRM.Services.AlarmData.PersonId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.PersonFullName
   commentId: P:SuperOffice.CRM.Services.AlarmData.PersonFullName
   id: PersonFullName
@@ -325,28 +329,28 @@ items:
   nameWithType: AlarmData.PersonFullName
   fullName: SuperOffice.CRM.Services.AlarmData.PersonFullName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The associate's culture formatted fullname (firstname, middleName and lastname)
-  example: []
+  summary: "\nThe associate&apos;s culture formatted fullname (firstname, middleName and lastname) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string PersonFullName { get; set; }
+    content: public virtual string PersonFullName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PersonFullName As String
+    content.vb: Public Overridable Property PersonFullName As String
   overload: SuperOffice.CRM.Services.AlarmData.PersonFullName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.ContactName
   commentId: P:SuperOffice.CRM.Services.AlarmData.ContactName
   id: ContactName
@@ -358,28 +362,28 @@ items:
   nameWithType: AlarmData.ContactName
   fullName: SuperOffice.CRM.Services.AlarmData.ContactName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Contact name
-  example: []
+  summary: "\nContact name \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ContactName { get; set; }
+    content: public virtual string ContactName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ContactName As String
+    content.vb: Public Overridable Property ContactName As String
   overload: SuperOffice.CRM.Services.AlarmData.ContactName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.ProjectId
   commentId: P:SuperOffice.CRM.Services.AlarmData.ProjectId
   id: ProjectId
@@ -391,28 +395,28 @@ items:
   nameWithType: AlarmData.ProjectId
   fullName: SuperOffice.CRM.Services.AlarmData.ProjectId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: ID of project referred to, may be 0
-  example: []
+  summary: "\nID of project referred to, may be 0 \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ProjectId { get; set; }
+    content: public virtual int ProjectId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ProjectId As Integer
+    content.vb: Public Overridable Property ProjectId As Integer
   overload: SuperOffice.CRM.Services.AlarmData.ProjectId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.ProjectName
   commentId: P:SuperOffice.CRM.Services.AlarmData.ProjectName
   id: ProjectName
@@ -424,28 +428,28 @@ items:
   nameWithType: AlarmData.ProjectName
   fullName: SuperOffice.CRM.Services.AlarmData.ProjectName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Project name
-  example: []
+  summary: "\nProject name \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ProjectName { get; set; }
+    content: public virtual string ProjectName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ProjectName As String
+    content.vb: Public Overridable Property ProjectName As String
   overload: SuperOffice.CRM.Services.AlarmData.ProjectName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.AppointmentText
   commentId: P:SuperOffice.CRM.Services.AlarmData.AppointmentText
   id: AppointmentText
@@ -457,28 +461,28 @@ items:
   nameWithType: AlarmData.AppointmentText
   fullName: SuperOffice.CRM.Services.AlarmData.AppointmentText
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases
-  example: []
+  summary: "\nThe actual text, max 2047 significant characters even though it is stored as a larger data type on some databases \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string AppointmentText { get; set; }
+    content: public virtual string AppointmentText { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property AppointmentText As String
+    content.vb: Public Overridable Property AppointmentText As String
   overload: SuperOffice.CRM.Services.AlarmData.AppointmentText*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.SaleId
   commentId: P:SuperOffice.CRM.Services.AlarmData.SaleId
   id: SaleId
@@ -490,28 +494,28 @@ items:
   nameWithType: AlarmData.SaleId
   fullName: SuperOffice.CRM.Services.AlarmData.SaleId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Owning sale, if any (may be 0)
-  example: []
+  summary: "\nOwning sale, if any (may be 0) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int SaleId { get; set; }
+    content: public virtual int SaleId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SaleId As Integer
+    content.vb: Public Overridable Property SaleId As Integer
   overload: SuperOffice.CRM.Services.AlarmData.SaleId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.SaleName
   commentId: P:SuperOffice.CRM.Services.AlarmData.SaleName
   id: SaleName
@@ -523,28 +527,28 @@ items:
   nameWithType: AlarmData.SaleName
   fullName: SuperOffice.CRM.Services.AlarmData.SaleName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string SaleName { get; set; }
+    content: public virtual string SaleName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SaleName As String
+    content.vb: Public Overridable Property SaleName As String
   overload: SuperOffice.CRM.Services.AlarmData.SaleName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.Location
   commentId: P:SuperOffice.CRM.Services.AlarmData.Location
   id: Location
@@ -556,28 +560,28 @@ items:
   nameWithType: AlarmData.Location
   fullName: SuperOffice.CRM.Services.AlarmData.Location
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Location for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here
-  example: []
+  summary: "\nLocation for appointment, defaulted from invited resource of type place and other rules, but you can write anything you want here \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Location { get; set; }
+    content: public virtual string Location { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Location As String
+    content.vb: Public Overridable Property Location As String
   overload: SuperOffice.CRM.Services.AlarmData.Location*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.AppointmentType
   commentId: P:SuperOffice.CRM.Services.AlarmData.AppointmentType
   id: AppointmentType
@@ -589,28 +593,28 @@ items:
   nameWithType: AlarmData.AppointmentType
   fullName: SuperOffice.CRM.Services.AlarmData.AppointmentType
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: where=no start time,note,docin, docout
-  example: []
+  summary: "\nwhere=no start time,note,docin, docout  \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual AppointmentType AppointmentType { get; set; }
+    content: public virtual AppointmentType AppointmentType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.AppointmentType
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property AppointmentType As AppointmentType
+    content.vb: Public Overridable Property AppointmentType As AppointmentType
   overload: SuperOffice.CRM.Services.AlarmData.AppointmentType*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.ContactId
   commentId: P:SuperOffice.CRM.Services.AlarmData.ContactId
   id: ContactId
@@ -622,28 +626,28 @@ items:
   nameWithType: AlarmData.ContactId
   fullName: SuperOffice.CRM.Services.AlarmData.ContactId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Contact ID of owning contact, may be 0
-  example: []
+  summary: "\nContact ID of owning contact, may be 0 \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ContactId { get; set; }
+    content: public virtual int ContactId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ContactId As Integer
+    content.vb: Public Overridable Property ContactId As Integer
   overload: SuperOffice.CRM.Services.AlarmData.ContactId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.AssignmentStatus
   commentId: P:SuperOffice.CRM.Services.AlarmData.AssignmentStatus
   id: AssignmentStatus
@@ -655,28 +659,28 @@ items:
   nameWithType: AlarmData.AssignmentStatus
   fullName: SuperOffice.CRM.Services.AlarmData.AssignmentStatus
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Status if this appointment is in the process of being assigned to someone else
-  example: []
+  summary: "\nStatus if this appointment is in the process of being assigned to someone else \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual AssignmentStatus AssignmentStatus { get; set; }
+    content: public virtual AssignmentStatus AssignmentStatus { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.AssignmentStatus
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property AssignmentStatus As AssignmentStatus
+    content.vb: Public Overridable Property AssignmentStatus As AssignmentStatus
   overload: SuperOffice.CRM.Services.AlarmData.AssignmentStatus*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.InvitationStatus
   commentId: P:SuperOffice.CRM.Services.AlarmData.InvitationStatus
   id: InvitationStatus
@@ -688,28 +692,28 @@ items:
   nameWithType: AlarmData.InvitationStatus
   fullName: SuperOffice.CRM.Services.AlarmData.InvitationStatus
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Status if this appointment represents an invitation
-  example: []
+  summary: "\nStatus if this appointment represents an invitation \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual InvitationStatus InvitationStatus { get; set; }
+    content: public virtual InvitationStatus InvitationStatus { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.InvitationStatus
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property InvitationStatus As InvitationStatus
+    content.vb: Public Overridable Property InvitationStatus As InvitationStatus
   overload: SuperOffice.CRM.Services.AlarmData.InvitationStatus*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.BookingType
   commentId: P:SuperOffice.CRM.Services.AlarmData.BookingType
   id: BookingType
@@ -721,28 +725,28 @@ items:
   nameWithType: AlarmData.BookingType
   fullName: SuperOffice.CRM.Services.AlarmData.BookingType
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The type of booking the appointment represents
-  example: []
+  summary: "\nThe type of booking the appointment represents \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual BookingType BookingType { get; set; }
+    content: public virtual BookingType BookingType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.BookingType
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property BookingType As BookingType
+    content.vb: Public Overridable Property BookingType As BookingType
   overload: SuperOffice.CRM.Services.AlarmData.BookingType*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.FormalName
   commentId: P:SuperOffice.CRM.Services.AlarmData.FormalName
   id: FormalName
@@ -754,28 +758,28 @@ items:
   nameWithType: AlarmData.FormalName
   fullName: SuperOffice.CRM.Services.AlarmData.FormalName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The associate's culture formatted formalname (firstname, middleName and lastname, title, mrmrs)
-  example: []
+  summary: "\nThe associate&apos;s culture formatted formalname (firstname, middleName and lastname, title, mrmrs) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string FormalName { get; set; }
+    content: public virtual string FormalName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property FormalName As String
+    content.vb: Public Overridable Property FormalName As String
   overload: SuperOffice.CRM.Services.AlarmData.FormalName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.TaskName
   commentId: P:SuperOffice.CRM.Services.AlarmData.TaskName
   id: TaskName
@@ -787,28 +791,28 @@ items:
   nameWithType: AlarmData.TaskName
   fullName: SuperOffice.CRM.Services.AlarmData.TaskName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string TaskName { get; set; }
+    content: public virtual string TaskName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property TaskName As String
+    content.vb: Public Overridable Property TaskName As String
   overload: SuperOffice.CRM.Services.AlarmData.TaskName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.ContactDepartment
   commentId: P:SuperOffice.CRM.Services.AlarmData.ContactDepartment
   id: ContactDepartment
@@ -820,28 +824,28 @@ items:
   nameWithType: AlarmData.ContactDepartment
   fullName: SuperOffice.CRM.Services.AlarmData.ContactDepartment
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Department
-  example: []
+  summary: "\nDepartment \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ContactDepartment { get; set; }
+    content: public virtual string ContactDepartment { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ContactDepartment As String
+    content.vb: Public Overridable Property ContactDepartment As String
   overload: SuperOffice.CRM.Services.AlarmData.ContactDepartment*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.ContactFullName
   commentId: P:SuperOffice.CRM.Services.AlarmData.ContactFullName
   id: ContactFullName
@@ -853,28 +857,28 @@ items:
   nameWithType: AlarmData.ContactFullName
   fullName: SuperOffice.CRM.Services.AlarmData.ContactFullName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ContactFullName { get; set; }
+    content: public virtual string ContactFullName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ContactFullName As String
+    content.vb: Public Overridable Property ContactFullName As String
   overload: SuperOffice.CRM.Services.AlarmData.ContactFullName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AlarmData.JoinVideomeetUrl
   commentId: P:SuperOffice.CRM.Services.AlarmData.JoinVideomeetUrl
   id: JoinVideomeetUrl
@@ -886,33 +890,38 @@ items:
   nameWithType: AlarmData.JoinVideomeetUrl
   fullName: SuperOffice.CRM.Services.AlarmData.JoinVideomeetUrl
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string JoinVideomeetUrl { get; set; }
+    content: public virtual string JoinVideomeetUrl { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property JoinVideomeetUrl As String
+    content.vb: Public Overridable Property JoinVideomeetUrl As String
   overload: SuperOffice.CRM.Services.AlarmData.JoinVideomeetUrl*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.AppointmentAgent
   commentId: T:SuperOffice.CRM.Services.AppointmentAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.AppointmentAgent.html
   name: AppointmentAgent
   nameWithType: AppointmentAgent
   fullName: SuperOffice.CRM.Services.AppointmentAgent
@@ -920,79 +929,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IAppointmentAgent.html
   name: IAppointmentAgent
   nameWithType: IAppointmentAgent
   fullName: SuperOffice.CRM.Services.IAppointmentAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AlarmData.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData__ctor
   name: AlarmData
   nameWithType: AlarmData.AlarmData
   fullName: SuperOffice.CRM.Services.AlarmData.AlarmData
-  nameWithType.vb: AlarmData.New
-  fullName.vb: SuperOffice.CRM.Services.AlarmData.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.AlarmData.ToString*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_ToString
   name: ToString
   nameWithType: AlarmData.ToString
   fullName: SuperOffice.CRM.Services.AlarmData.ToString
@@ -1000,17 +948,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.AlarmData.AppointmentId*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.AppointmentId
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_AppointmentId
   name: AppointmentId
   nameWithType: AlarmData.AppointmentId
   fullName: SuperOffice.CRM.Services.AlarmData.AppointmentId
@@ -1018,112 +967,89 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.AlarmData.StartTime*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.StartTime
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_StartTime
   name: StartTime
   nameWithType: AlarmData.StartTime
   fullName: SuperOffice.CRM.Services.AlarmData.StartTime
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.AlarmData.EndDate*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.EndDate
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_EndDate
   name: EndDate
   nameWithType: AlarmData.EndDate
   fullName: SuperOffice.CRM.Services.AlarmData.EndDate
 - uid: SuperOffice.CRM.Services.AlarmData.AlarmTime*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.AlarmTime
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_AlarmTime
   name: AlarmTime
   nameWithType: AlarmData.AlarmTime
   fullName: SuperOffice.CRM.Services.AlarmData.AlarmTime
 - uid: SuperOffice.CRM.Services.AlarmData.PersonId*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.PersonId
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_PersonId
   name: PersonId
   nameWithType: AlarmData.PersonId
   fullName: SuperOffice.CRM.Services.AlarmData.PersonId
 - uid: SuperOffice.CRM.Services.AlarmData.PersonFullName*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.PersonFullName
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_PersonFullName
   name: PersonFullName
   nameWithType: AlarmData.PersonFullName
   fullName: SuperOffice.CRM.Services.AlarmData.PersonFullName
 - uid: SuperOffice.CRM.Services.AlarmData.ContactName*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.ContactName
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_ContactName
   name: ContactName
   nameWithType: AlarmData.ContactName
   fullName: SuperOffice.CRM.Services.AlarmData.ContactName
 - uid: SuperOffice.CRM.Services.AlarmData.ProjectId*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.ProjectId
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_ProjectId
   name: ProjectId
   nameWithType: AlarmData.ProjectId
   fullName: SuperOffice.CRM.Services.AlarmData.ProjectId
 - uid: SuperOffice.CRM.Services.AlarmData.ProjectName*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.ProjectName
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_ProjectName
   name: ProjectName
   nameWithType: AlarmData.ProjectName
   fullName: SuperOffice.CRM.Services.AlarmData.ProjectName
 - uid: SuperOffice.CRM.Services.AlarmData.AppointmentText*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.AppointmentText
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_AppointmentText
   name: AppointmentText
   nameWithType: AlarmData.AppointmentText
   fullName: SuperOffice.CRM.Services.AlarmData.AppointmentText
 - uid: SuperOffice.CRM.Services.AlarmData.SaleId*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.SaleId
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_SaleId
   name: SaleId
   nameWithType: AlarmData.SaleId
   fullName: SuperOffice.CRM.Services.AlarmData.SaleId
 - uid: SuperOffice.CRM.Services.AlarmData.SaleName*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.SaleName
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_SaleName
   name: SaleName
   nameWithType: AlarmData.SaleName
   fullName: SuperOffice.CRM.Services.AlarmData.SaleName
 - uid: SuperOffice.CRM.Services.AlarmData.Location*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.Location
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_Location
   name: Location
   nameWithType: AlarmData.Location
   fullName: SuperOffice.CRM.Services.AlarmData.Location
 - uid: SuperOffice.CRM.Services.AlarmData.AppointmentType*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.AppointmentType
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_AppointmentType
   name: AppointmentType
   nameWithType: AlarmData.AppointmentType
   fullName: SuperOffice.CRM.Services.AlarmData.AppointmentType
@@ -1135,14 +1061,12 @@ references:
 - uid: SuperOffice.CRM.Services.AlarmData.ContactId*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.ContactId
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_ContactId
   name: ContactId
   nameWithType: AlarmData.ContactId
   fullName: SuperOffice.CRM.Services.AlarmData.ContactId
 - uid: SuperOffice.CRM.Services.AlarmData.AssignmentStatus*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.AssignmentStatus
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_AssignmentStatus
   name: AssignmentStatus
   nameWithType: AlarmData.AssignmentStatus
   fullName: SuperOffice.CRM.Services.AlarmData.AssignmentStatus
@@ -1154,7 +1078,6 @@ references:
 - uid: SuperOffice.CRM.Services.AlarmData.InvitationStatus*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.InvitationStatus
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_InvitationStatus
   name: InvitationStatus
   nameWithType: AlarmData.InvitationStatus
   fullName: SuperOffice.CRM.Services.AlarmData.InvitationStatus
@@ -1166,7 +1089,6 @@ references:
 - uid: SuperOffice.CRM.Services.AlarmData.BookingType*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.BookingType
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_BookingType
   name: BookingType
   nameWithType: AlarmData.BookingType
   fullName: SuperOffice.CRM.Services.AlarmData.BookingType
@@ -1178,35 +1100,30 @@ references:
 - uid: SuperOffice.CRM.Services.AlarmData.FormalName*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.FormalName
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_FormalName
   name: FormalName
   nameWithType: AlarmData.FormalName
   fullName: SuperOffice.CRM.Services.AlarmData.FormalName
 - uid: SuperOffice.CRM.Services.AlarmData.TaskName*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.TaskName
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_TaskName
   name: TaskName
   nameWithType: AlarmData.TaskName
   fullName: SuperOffice.CRM.Services.AlarmData.TaskName
 - uid: SuperOffice.CRM.Services.AlarmData.ContactDepartment*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.ContactDepartment
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_ContactDepartment
   name: ContactDepartment
   nameWithType: AlarmData.ContactDepartment
   fullName: SuperOffice.CRM.Services.AlarmData.ContactDepartment
 - uid: SuperOffice.CRM.Services.AlarmData.ContactFullName*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.ContactFullName
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_ContactFullName
   name: ContactFullName
   nameWithType: AlarmData.ContactFullName
   fullName: SuperOffice.CRM.Services.AlarmData.ContactFullName
 - uid: SuperOffice.CRM.Services.AlarmData.JoinVideomeetUrl*
   commentId: Overload:SuperOffice.CRM.Services.AlarmData.JoinVideomeetUrl
   isExternal: true
-  href: SuperOffice.CRM.Services.AlarmData.html#SuperOffice_CRM_Services_AlarmData_JoinVideomeetUrl
   name: JoinVideomeetUrl
   nameWithType: AlarmData.JoinVideomeetUrl
   fullName: SuperOffice.CRM.Services.AlarmData.JoinVideomeetUrl

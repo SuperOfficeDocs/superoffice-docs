@@ -59,24 +59,27 @@ items:
   nameWithType: UserPreferenceStrings.Functions
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Functions
-  example: []
+  summary: "\nFunctions\n"
   syntax:
-    content: public static class UserPreferenceStrings.Functions
-    content.vb: Public Module UserPreferenceStrings.Functions
+    content: 'public static class Functions : Object'
+    content.vb: >-
+      Public Module Functions
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.Section
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.Section
   id: Section
@@ -88,16 +91,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.Section
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.Section
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Section heading
-  example: []
+  summary: "\nSection heading\n"
   syntax:
     content: public const string Section = "Functions"
     return:
       type: System.String
     content.vb: Public Const Section As String = "Functions"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.ThreeStateStatusCheckbox
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.ThreeStateStatusCheckbox
   id: ThreeStateStatusCheckbox
@@ -109,28 +120,23 @@ items:
   nameWithType: UserPreferenceStrings.Functions.ThreeStateStatusCheckbox
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ThreeStateStatusCheckbox
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
   syntax:
-    content: >-
-      [Obsolete("This functionality is no longer supported; it was never fully present in SM.web", true)]
-
-      public const string ThreeStateStatusCheckbox = "3StateStatusCheckbox"
+    content: public const string ThreeStateStatusCheckbox = "3StateStatusCheckbox"
     return:
       type: System.String
-    content.vb: >-
-      <Obsolete("This functionality is no longer supported; it was never fully present in SM.web", True)>
-
-      Public Const ThreeStateStatusCheckbox As String = "3StateStatusCheckbox"
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: This functionality is no longer supported; it was never fully present in SM.web
-    - type: System.Boolean
-      value: true
+    content.vb: Public Const ThreeStateStatusCheckbox As String = "3StateStatusCheckbox"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.AcademicTitle
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.AcademicTitle
   id: AcademicTitle
@@ -142,19 +148,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.AcademicTitle
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.AcademicTitle
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Use academic title for persons. (Default = NO)
-
-    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nUse academic title for persons. (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string AcademicTitle = "AcademicTitle"
     return:
       type: System.String
     content.vb: Public Const AcademicTitle As String = "AcademicTitle"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.BlankApptClick
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.BlankApptClick
   id: BlankApptClick
@@ -166,19 +177,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.BlankApptClick
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.BlankApptClick
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Specifies the type of activity to create when you double-click on a blank line in the Activities section tab in the Company or Project screens.
-
-    <p></p>Control type: List, access: Admin, Crm, Admin users, Wizard
-  example: []
+  summary: "\nSpecifies the type of activity to create when you double-click on a blank line in the Activities section tab in the Company or Project screens.\n<p></p>Control type: List, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
     content: public const string BlankApptClick = "BlankApptClick"
     return:
       type: System.String
     content.vb: Public Const BlankApptClick As String = "BlankApptClick"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.CapitalFirstLetterCompanyName
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.CapitalFirstLetterCompanyName
   id: CapitalFirstLetterCompanyName
@@ -190,19 +206,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.CapitalFirstLetterCompanyName
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.CapitalFirstLetterCompanyName
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Should the first letter in every word in the company name automatically be converted to a capital letter? (Default = YES)
-
-    <p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard
-  example: []
+  summary: "\nShould the first letter in every word in the company name automatically be converted to a capital letter? (Default = YES)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
     content: public const string CapitalFirstLetterCompanyName = "CapitalFirstLetterCompanyName"
     return:
       type: System.String
     content.vb: Public Const CapitalFirstLetterCompanyName As String = "CapitalFirstLetterCompanyName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.CapitalFirstLetterPersonName
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.CapitalFirstLetterPersonName
   id: CapitalFirstLetterPersonName
@@ -214,19 +235,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.CapitalFirstLetterPersonName
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.CapitalFirstLetterPersonName
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Should the first letter in every word in the contact name automatically be converted to a capital letter? (Default = YES)
-
-    <p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard
-  example: []
+  summary: "\nShould the first letter in every word in the contact name automatically be converted to a capital letter? (Default = YES)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
     content: public const string CapitalFirstLetterPersonName = "CapitalFirstLetterPersonName"
     return:
       type: System.String
     content.vb: Public Const CapitalFirstLetterPersonName As String = "CapitalFirstLetterPersonName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableContactDogEar
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DisableContactDogEar
   id: DisableContactDogEar
@@ -238,19 +264,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.DisableContactDogEar
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableContactDogEar
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Removes the corner tabs on the Company card if there are too many companies - i.e. more than this number
-
-    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nRemoves the corner tabs on the Company card if there are too many companies - i.e. more than this number\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string DisableContactDogEar = "DisableContactDogEar"
     return:
       type: System.String
     content.vb: Public Const DisableContactDogEar As String = "DisableContactDogEar"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDelKey
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDelKey
   id: DisableDelKey
@@ -262,19 +293,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.DisableDelKey
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDelKey
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    If YES, the user has to use the menu in order to delete a company, project or selection (Default = YES).
-
-    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nIf YES, the user has to use the menu in order to delete a company, project or selection (Default = YES).\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string DisableDelKey = "DisableDelKey"
     return:
       type: System.String
     content.vb: Public Const DisableDelKey As String = "DisableDelKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DisplayDateFormatInLists
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DisplayDateFormatInLists
   id: DisplayDateFormatInLists
@@ -286,19 +322,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.DisplayDateFormatInLists
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisplayDateFormatInLists
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Specifies the date format used in section tabs in CRM (ex. dd.mm.yyyy hh:mm). (Default: computer's regional settings for short date format.)
-
-    <p></p>Control type: Text, access: Wizard
-  example: []
+  summary: "\nSpecifies the date format used in section tabs in CRM (ex. dd.mm.yyyy hh:mm). (Default: computer&apos;s regional settings for short date format.)\n<p></p>Control type: Text, access: Wizard\n"
   syntax:
     content: public const string DisplayDateFormatInLists = "DisplayDateFormatInLists"
     return:
       type: System.String
     content.vb: Public Const DisplayDateFormatInLists As String = "DisplayDateFormatInLists"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.EditIfVisible
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.EditIfVisible
   id: EditIfVisible
@@ -310,19 +351,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.EditIfVisible
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.EditIfVisible
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Allows other users to add and remove members from any selection visible to the user
-
-    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nAllows other users to add and remove members from any selection visible to the user\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string EditIfVisible = "EditIfVisible"
     return:
       type: System.String
     content.vb: Public Const EditIfVisible As String = "EditIfVisible"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.FilterBookingSlaves
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.FilterBookingSlaves
   id: FilterBookingSlaves
@@ -334,19 +380,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.FilterBookingSlaves
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.FilterBookingSlaves
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Filter out invitations for everyone except the person making the invitation, to avoid duplicates in the list.
-
-    <p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard
-  example: []
+  summary: "\nFilter out invitations for everyone except the person making the invitation, to avoid duplicates in the list.\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
     content: public const string FilterBookingSlaves = "FilterBookingSlaves"
     return:
       type: System.String
     content.vb: Public Const FilterBookingSlaves As String = "FilterBookingSlaves"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.ForceConfirmation
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.ForceConfirmation
   id: ForceConfirmation
@@ -358,19 +409,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.ForceConfirmation
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ForceConfirmation
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Always displays confirmation dialog when deleting
-
-    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nAlways displays confirmation dialog when deleting\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string ForceConfirmation = "ForceConfirmation"
     return:
       type: System.String
     content.vb: Public Const ForceConfirmation As String = "ForceConfirmation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.GetAdvanceDays
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.GetAdvanceDays
   id: GetAdvanceDays
@@ -382,19 +438,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.GetAdvanceDays
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.GetAdvanceDays
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Number of days ahead to display tasks in the checklist. Default is 21 days
-
-    <p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard
-  example: []
+  summary: "\nNumber of days ahead to display tasks in the checklist. Default is 21 days\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
     content: public const string GetAdvanceDays = "GetAdvanceDays"
     return:
       type: System.String
     content.vb: Public Const GetAdvanceDays As String = "GetAdvanceDays"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.HomeContact
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.HomeContact
   id: HomeContact
@@ -406,19 +467,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.HomeContact
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.HomeContact
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Which contact is displayed when you click on Hugo (the owl in the Navigator)
-
-    <p></p>Control type: ContactId, access: Admin, Crm, Admin users, Wizard
-  example: []
+  summary: "\nWhich contact is displayed when you click on Hugo (the owl in the Navigator)\n<p></p>Control type: ContactId, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
     content: public const string HomeContact = "HomeContact"
     return:
       type: System.String
     content.vb: Public Const HomeContact As String = "HomeContact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.InternetUseIntegratedBrowser
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.InternetUseIntegratedBrowser
   id: InternetUseIntegratedBrowser
@@ -430,19 +496,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.InternetUseIntegratedBrowser
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.InternetUseIntegratedBrowser
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Uses the internal CRM browser when clicking a URL within CRM. Default is Yes. If you set this preference to No, your computer's default browser will be used instead.
-
-    <p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard
-  example: []
+  summary: "\nUses the internal CRM browser when clicking a URL within CRM. Default is Yes. If you set this preference to No, your computer&apos;s default browser will be used instead.\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
     content: public const string InternetUseIntegratedBrowser = "InternetUseIntegratedBrowser"
     return:
       type: System.String
     content.vb: Public Const InternetUseIntegratedBrowser As String = "InternetUseIntegratedBrowser"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.PastDateAlert
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.PastDateAlert
   id: PastDateAlert
@@ -454,19 +525,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.PastDateAlert
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.PastDateAlert
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Marks overdue activities in section tabs (Default = YES)
-
-    <p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard
-  example: []
+  summary: "\nMarks overdue activities in section tabs (Default = YES)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
     content: public const string PastDateAlert = "PastDateAlert"
     return:
       type: System.String
     content.vb: Public Const PastDateAlert As String = "PastDateAlert"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.PeriodicCheckInterval
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.PeriodicCheckInterval
   id: PeriodicCheckInterval
@@ -478,19 +554,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.PeriodicCheckInterval
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.PeriodicCheckInterval
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    How often (in minutes) should CRM check the database for new invitations etc.
-
-    <p></p>Control type: Number, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nHow often (in minutes) should CRM check the database for new invitations etc.\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string PeriodicCheckInterval = "PeriodicCheckInterval"
     return:
       type: System.String
     content.vb: Public Const PeriodicCheckInterval As String = "PeriodicCheckInterval"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.RemoveInvitationDuplicates
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.RemoveInvitationDuplicates
   id: RemoveInvitationDuplicates
@@ -502,19 +583,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.RemoveInvitationDuplicates
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.RemoveInvitationDuplicates
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    This ensures that invitations are displayed only once in the Activities section tab in CRM (Default = YES).
-
-    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nThis ensures that invitations are displayed only once in the Activities section tab in CRM (Default = YES).\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string RemoveInvitationDuplicates = "RemoveInvitationDuplicates"
     return:
       type: System.String
     content.vb: Public Const RemoveInvitationDuplicates As String = "RemoveInvitationDuplicates"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowAllPhoneNumbers
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.ShowAllPhoneNumbers
   id: ShowAllPhoneNumbers
@@ -526,19 +612,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.ShowAllPhoneNumbers
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowAllPhoneNumbers
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Allows the option of adding several phone numbers of the same type (e.g. mobile phone) in the Contact dialog. (Default = NO).
-
-    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nAllows the option of adding several phone numbers of the same type (e.g. mobile phone) in the Contact dialog. (Default = NO).\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string ShowAllPhoneNumbers = "ShowAllPhoneNumbers"
     return:
       type: System.String
     content.vb: Public Const ShowAllPhoneNumbers As String = "ShowAllPhoneNumbers"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowInviteDlgFromView
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.ShowInviteDlgFromView
   id: ShowInviteDlgFromView
@@ -550,19 +641,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.ShowInviteDlgFromView
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowInviteDlgFromView
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Should CRM automatically display the Invitation dialog when creating an activity from the diary view. (Default = NO).
-
-    <p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard
-  example: []
+  summary: "\nShould CRM automatically display the Invitation dialog when creating an activity from the diary view. (Default = NO).\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
     content: public const string ShowInviteDlgFromView = "ShowInviteDlgFromView"
     return:
       type: System.String
     content.vb: Public Const ShowInviteDlgFromView As String = "ShowInviteDlgFromView"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowTipNumber
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.ShowTipNumber
   id: ShowTipNumber
@@ -574,19 +670,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.ShowTipNumber
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowTipNumber
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Next tip of the day to be displayed.
-
-    <p></p>Control type: Number, access: Wizard
-  example: []
+  summary: "\nNext tip of the day to be displayed.\n<p></p>Control type: Number, access: Wizard\n"
   syntax:
     content: public const string ShowTipNumber = "ShowTipNumber"
     return:
       type: System.String
     content.vb: Public Const ShowTipNumber As String = "ShowTipNumber"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowTipsAtStart
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.ShowTipsAtStart
   id: ShowTipsAtStart
@@ -598,19 +699,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.ShowTipsAtStart
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowTipsAtStart
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Should a tip of the day be displayed every time a user logs in to SuperOffice. (Default = YES)
-
-    <p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard
-  example: []
+  summary: "\nShould a tip of the day be displayed every time a user logs in to SuperOffice. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
   syntax:
     content: public const string ShowTipsAtStart = "ShowTipsAtStart"
     return:
       type: System.String
     content.vb: Public Const ShowTipsAtStart As String = "ShowTipsAtStart"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.UseCaseOnTemplateVariables
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.UseCaseOnTemplateVariables
   id: UseCaseOnTemplateVariables
@@ -622,19 +728,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.UseCaseOnTemplateVariables
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.UseCaseOnTemplateVariables
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    The template variables used in, for instance, documents and addresses are output in lower case and get the text exactly as stored in the database by default. Setting this preference will change the text to uppercase for all or just the first letter, depending how the template variable is input. (Default: No).
-
-    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nThe template variables used in, for instance, documents and addresses are output in lower case and get the text exactly as stored in the database by default. Setting this preference will change the text to uppercase for all or just the first letter, depending how the template variable is input. (Default: No).\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string UseCaseOnTemplateVariables = "UseCaseOnTemplateVariables"
     return:
       type: System.String
     content.vb: Public Const UseCaseOnTemplateVariables As String = "UseCaseOnTemplateVariables"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.UseMiddleName
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.UseMiddleName
   id: UseMiddleName
@@ -646,19 +757,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.UseMiddleName
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.UseMiddleName
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Enables the use of middle names in the Contact dialog
-
-    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nEnables the use of middle names in the Contact dialog\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string UseMiddleName = "UseMiddleName"
     return:
       type: System.String
     content.vb: Public Const UseMiddleName As String = "UseMiddleName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowProgressInfo
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.ShowProgressInfo
   id: ShowProgressInfo
@@ -670,19 +786,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.ShowProgressInfo
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowProgressInfo
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Should a progress dialog be displayed on the Travel Gateway when active tasks are running? (Default = YES)
-
-    <p></p>Control type: Bool, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nShould a progress dialog be displayed on the Travel Gateway when active tasks are running? (Default = YES)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string ShowProgressInfo = "ShowProgressInfo"
     return:
       type: System.String
     content.vb: Public Const ShowProgressInfo As String = "ShowProgressInfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.IdAllocationBatchSize
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.IdAllocationBatchSize
   id: IdAllocationBatchSize
@@ -694,19 +815,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.IdAllocationBatchSize
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.IdAllocationBatchSize
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    How many records should be inserted into the database during an import before they are committed?
-
-    <p></p>Control type: Number, access: Admin, Admin users, Wizard
-  example: []
+  summary: "\nHow many records should be inserted into the database during an import before they are committed?\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
   syntax:
     content: public const string IdAllocationBatchSize = "IdAllocationBatchSize"
     return:
       type: System.String
     content.vb: Public Const IdAllocationBatchSize As String = "IdAllocationBatchSize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckContact
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckContact
   id: DisableSoundExCheckContact
@@ -718,16 +844,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.DisableSoundExCheckContact
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckContact
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Should duplicate checking for contact by soundex value be disabled
-  example: []
+  summary: "\nShould duplicate checking for contact by soundex value be disabled\n"
   syntax:
     content: public const string DisableSoundExCheckContact = "DisableSoundexCheckContact"
     return:
       type: System.String
     content.vb: Public Const DisableSoundExCheckContact As String = "DisableSoundexCheckContact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckProject
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckProject
   id: DisableSoundExCheckProject
@@ -739,16 +873,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.DisableSoundExCheckProject
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckProject
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Should duplicate checking for project by soundex value be disabled
-  example: []
+  summary: "\nShould duplicate checking for project by soundex value be disabled\n"
   syntax:
     content: public const string DisableSoundExCheckProject = "DisableSoundExCheckProject"
     return:
       type: System.String
     content.vb: Public Const DisableSoundExCheckProject As String = "DisableSoundExCheckProject"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckSelection
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckSelection
   id: DisableSoundExCheckSelection
@@ -760,16 +902,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.DisableSoundExCheckSelection
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableSoundExCheckSelection
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Should duplicate checking for selection by soundex value be disabled
-  example: []
+  summary: "\nShould duplicate checking for selection by soundex value be disabled\n"
   syntax:
     content: public const string DisableSoundExCheckSelection = "DisableSoundExCheckSelection"
     return:
       type: System.String
     content.vb: Public Const DisableSoundExCheckSelection As String = "DisableSoundExCheckSelection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckContact
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckContact
   id: DisableDuplicateCheckContact
@@ -781,16 +931,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.DisableDuplicateCheckContact
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckContact
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Should duplicate checking for contact by exact match be disabled
-  example: []
+  summary: "\nShould duplicate checking for contact by exact match be disabled\n"
   syntax:
     content: public const string DisableDuplicateCheckContact = "DisableDuplicateCheckContact"
     return:
       type: System.String
     content.vb: Public Const DisableDuplicateCheckContact As String = "DisableDuplicateCheckContact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckProject
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckProject
   id: DisableDuplicateCheckProject
@@ -802,16 +960,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.DisableDuplicateCheckProject
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckProject
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Should duplicate checking for project by exact match be disabled
-  example: []
+  summary: "\nShould duplicate checking for project by exact match be disabled\n"
   syntax:
     content: public const string DisableDuplicateCheckProject = "DisableDuplicateCheckProject"
     return:
       type: System.String
     content.vb: Public Const DisableDuplicateCheckProject As String = "DisableDuplicateCheckProject"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckSelection
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckSelection
   id: DisableDuplicateCheckSelection
@@ -823,16 +989,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.DisableDuplicateCheckSelection
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDuplicateCheckSelection
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Should duplicate checking for selection exact match be disabled
-  example: []
+  summary: "\nShould duplicate checking for selection exact match be disabled\n"
   syntax:
     content: public const string DisableDuplicateCheckSelection = "DisableDuplicateCheckSelection"
     return:
       type: System.String
     content.vb: Public Const DisableDuplicateCheckSelection As String = "DisableDuplicateCheckSelection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.SaintRankDuplicateContacts
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.SaintRankDuplicateContacts
   id: SaintRankDuplicateContacts
@@ -844,16 +1018,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.SaintRankDuplicateContacts
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.SaintRankDuplicateContacts
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Should SAINT data be used to rank and style contacts with duplicate soundex'es
-  example: []
+  summary: "\nShould SAINT data be used to rank and style contacts with duplicate soundex&apos;es\n"
   syntax:
     content: public const string SaintRankDuplicateContacts = "SaintRankDuplicateContacts"
     return:
       type: System.String
     content.vb: Public Const SaintRankDuplicateContacts As String = "SaintRankDuplicateContacts"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.HideCounterInArchiveFooter
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.HideCounterInArchiveFooter
   id: HideCounterInArchiveFooter
@@ -865,16 +1047,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.HideCounterInArchiveFooter
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.HideCounterInArchiveFooter
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Should the rowcount not be visible in the archive footers
-  example: []
+  summary: "\nShould the rowcount not be visible in the archive footers\n"
   syntax:
     content: public const string HideCounterInArchiveFooter = "HideCounterInArchiveFooter"
     return:
       type: System.String
     content.vb: Public Const HideCounterInArchiveFooter As String = "HideCounterInArchiveFooter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.EnableLocalRendererInArchive
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.EnableLocalRendererInArchive
   id: EnableLocalRendererInArchive
@@ -886,16 +1076,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.EnableLocalRendererInArchive
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.EnableLocalRendererInArchive
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Should the local renderer be enabled for user
-  example: []
+  summary: "\nShould the local renderer be enabled for user\n"
   syntax:
     content: public const string EnableLocalRendererInArchive = "EnableLocalRendererInArchive"
     return:
       type: System.String
     content.vb: Public Const EnableLocalRendererInArchive As String = "EnableLocalRendererInArchive"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.AutoLoadLimitInArchive
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.AutoLoadLimitInArchive
   id: AutoLoadLimitInArchive
@@ -907,16 +1105,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.AutoLoadLimitInArchive
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.AutoLoadLimitInArchive
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: The limit for auto loading the full archive
-  example: []
+  summary: "\nThe limit for auto loading the full archive\n"
   syntax:
     content: public const string AutoLoadLimitInArchive = "AutoLoadLimitInArchive"
     return:
       type: System.String
     content.vb: Public Const AutoLoadLimitInArchive As String = "AutoLoadLimitInArchive"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.AskToEditOrRead
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.AskToEditOrRead
   id: AskToEditOrRead
@@ -928,16 +1134,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.AskToEditOrRead
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.AskToEditOrRead
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Ask if the user want to edit or read the document when opening an existing document. Only applies when Web Tools is installed.
-  example: []
+  summary: "\nAsk if the user want to edit or read the document when opening an existing document. Only applies when Web Tools is installed.\n"
   syntax:
     content: public const string AskToEditOrRead = "AskToEditOrRead"
     return:
       type: System.String
     content.vb: Public Const AskToEditOrRead As String = "AskToEditOrRead"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowChangeCompanyWarning
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.ShowChangeCompanyWarning
   id: ShowChangeCompanyWarning
@@ -949,16 +1163,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.ShowChangeCompanyWarning
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowChangeCompanyWarning
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Warn the user that all activities will be moved to the new company. Used when changing company in the person panel.
-  example: []
+  summary: "\nWarn the user that all activities will be moved to the new company. Used when changing company in the person panel.\n"
   syntax:
     content: public const string ShowChangeCompanyWarning = "ShowChangeCompanyWarning"
     return:
       type: System.String
     content.vb: Public Const ShowChangeCompanyWarning As String = "ShowChangeCompanyWarning"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.MandatoryContactOnPerson
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.MandatoryContactOnPerson
   id: MandatoryContactOnPerson
@@ -970,16 +1192,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.MandatoryContactOnPerson
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.MandatoryContactOnPerson
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Whether a company is required when creating a new person. Default true.
-  example: []
+  summary: "\nWhether a company is required when creating a new person. Default true.\n"
   syntax:
     content: public const string MandatoryContactOnPerson = "MandatoryContactOnPerson"
     return:
       type: System.String
     content.vb: Public Const MandatoryContactOnPerson As String = "MandatoryContactOnPerson"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.MandatoryContactOnPerson_HardDefault
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.MandatoryContactOnPerson_HardDefault
   id: MandatoryContactOnPerson_HardDefault
@@ -991,16 +1221,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.MandatoryContactOnPerson_HardDefault
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.MandatoryContactOnPerson_HardDefault
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Hard default for MandatoryContactOnPerson
-  example: []
+  summary: "\nHard default for MandatoryContactOnPerson\n"
   syntax:
     content: public const bool MandatoryContactOnPerson_HardDefault = true
     return:
       type: System.Boolean
     content.vb: Public Const MandatoryContactOnPerson_HardDefault As Boolean = True
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.LanguageCookie
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.LanguageCookie
   id: LanguageCookie
@@ -1012,16 +1250,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.LanguageCookie
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.LanguageCookie
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Language cookie (when cookie is missing)
-  example: []
+  summary: "\nLanguage cookie (when cookie is missing)\n"
   syntax:
     content: public const string LanguageCookie = "LanguageCookie"
     return:
       type: System.String
     content.vb: Public Const LanguageCookie As String = "LanguageCookie"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.LanguageUICookie
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.LanguageUICookie
   id: LanguageUICookie
@@ -1033,16 +1279,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.LanguageUICookie
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.LanguageUICookie
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Language UI (when cookie is missing)
-  example: []
+  summary: "\nLanguage UI (when cookie is missing)\n"
   syntax:
     content: public const string LanguageUICookie = "LanguageUICookie"
     return:
       type: System.String
     content.vb: Public Const LanguageUICookie As String = "LanguageUICookie"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DefaultMailClientCookie
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DefaultMailClientCookie
   id: DefaultMailClientCookie
@@ -1054,16 +1308,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.DefaultMailClientCookie
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DefaultMailClientCookie
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Default mail client setting (when cookie is missing)
-  example: []
+  summary: "\nDefault mail client setting (when cookie is missing)\n"
   syntax:
     content: public const string DefaultMailClientCookie = "DefaultMailClient"
     return:
       type: System.String
     content.vb: Public Const DefaultMailClientCookie As String = "DefaultMailClient"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.SoCrm75SR1FirstUseCookie
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.SoCrm75SR1FirstUseCookie
   id: SoCrm75SR1FirstUseCookie
@@ -1075,16 +1337,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.SoCrm75SR1FirstUseCookie
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.SoCrm75SR1FirstUseCookie
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: First use setting (when cookie is missing)
-  example: []
+  summary: "\nFirst use setting (when cookie is missing)\n"
   syntax:
     content: public const string SoCrm75SR1FirstUseCookie = "SoCrm75SR1FirstUse"
     return:
       type: System.String
     content.vb: Public Const SoCrm75SR1FirstUseCookie As String = "SoCrm75SR1FirstUse"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.JoinPilotForWebTools
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.JoinPilotForWebTools
   id: JoinPilotForWebTools
@@ -1096,19 +1366,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.JoinPilotForWebTools
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.JoinPilotForWebTools
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Route all DownloadService requests from PROD to STAGE to allow customers
-
-    early access to WebTools versions prior to release.
-  example: []
+  summary: "\nRoute all DownloadService requests from PROD to STAGE to allow customers\nearly access to WebTools versions prior to release.\n"
   syntax:
     content: public const string JoinPilotForWebTools = "JoinPilotForWebTools"
     return:
       type: System.String
     content.vb: Public Const JoinPilotForWebTools As String = "JoinPilotForWebTools"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDashboardTileExport
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDashboardTileExport
   id: DisableDashboardTileExport
@@ -1120,19 +1395,24 @@ items:
   nameWithType: UserPreferenceStrings.Functions.DisableDashboardTileExport
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.DisableDashboardTileExport
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: >-
-    Disable export functionaliy for dashboard tiles. Customers who dont want to
-
-    send chart data to external serviers can enable this.
-  example: []
+  summary: "\nDisable export functionaliy for dashboard tiles. Customers who dont want to\nsend chart data to external serviers can enable this.\n"
   syntax:
     content: public const string DisableDashboardTileExport = "DisableDashboardTileExport"
     return:
       type: System.String
     content.vb: Public Const DisableDashboardTileExport As String = "DisableDashboardTileExport"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowWeekNumbersInCalendars
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.Functions.ShowWeekNumbersInCalendars
   id: ShowWeekNumbersInCalendars
@@ -1144,278 +1424,41 @@ items:
   nameWithType: UserPreferenceStrings.Functions.ShowWeekNumbersInCalendars
   fullName: SuperOffice.CRM.UserPreferenceStrings.Functions.ShowWeekNumbersInCalendars
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: Show week numbers in popup calendars.
-  example: []
+  summary: "\nShow week numbers in popup calendars.\n"
   syntax:
     content: public const string ShowWeekNumbersInCalendars = "ShowWeekNumbersInCalendars"
     return:
       type: System.String
     content.vb: Public Const ShowWeekNumbersInCalendars As String = "ShowWeekNumbersInCalendars"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -1423,21 +1466,13 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

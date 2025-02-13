@@ -23,27 +23,18 @@ items:
   nameWithType: QuotePublishDocuments
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Prepare the documents required to publish a quote - Email, main document as pdf, quoted products as pdf, attachments
-
-    <p></p>
-
-    Carrier object for QuotePublishDocuments.
-
-    Services for the QuotePublishDocuments Carrier is available from the <xref href="SuperOffice.CRM.Services.IQuoteAgent?text=Quote+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nPrepare the documents required to publish a quote - Email, main document as pdf, quoted products as pdf, attachments\n<p></p>\nCarrier object for QuotePublishDocuments.\nServices for the QuotePublishDocuments Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IQuoteAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class QuotePublishDocuments : Carrier
+    content: 'public class QuotePublishDocuments : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class QuotePublishDocuments Inherits Carrier
+      Public Class QuotePublishDocuments
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.QuoteAgent
     commentId: T:SuperOffice.CRM.Services.QuoteAgent
@@ -51,14 +42,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.#ctor
   commentId: M:SuperOffice.CRM.Services.QuotePublishDocuments.#ctor
   id: '#ctor'
@@ -70,18 +59,21 @@ items:
   nameWithType: QuotePublishDocuments.QuotePublishDocuments()
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments.QuotePublishDocuments()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public QuotePublishDocuments()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.QuotePublishDocuments.#ctor*
-  nameWithType.vb: QuotePublishDocuments.New()
-  fullName.vb: SuperOffice.CRM.Services.QuotePublishDocuments.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.ToString
   commentId: M:SuperOffice.CRM.Services.QuotePublishDocuments.ToString
   id: ToString
@@ -93,18 +85,26 @@ items:
   nameWithType: QuotePublishDocuments.ToString()
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.QuotePublishDocuments.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.QuotePublishDocuments.ToString(System.String)
   id: ToString(System.String)
@@ -112,18 +112,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: QuotePublishDocuments.ToString(string)
-  fullName: SuperOffice.CRM.Services.QuotePublishDocuments.ToString(string)
+  name: ToString(String)
+  nameWithType: QuotePublishDocuments.ToString(String)
+  fullName: SuperOffice.CRM.Services.QuotePublishDocuments.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -135,9 +134,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.QuotePublishDocuments.ToString*
-  nameWithType.vb: QuotePublishDocuments.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.QuotePublishDocuments.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.QuoteDocumentId
   commentId: P:SuperOffice.CRM.Services.QuotePublishDocuments.QuoteDocumentId
   id: QuoteDocumentId
@@ -149,28 +149,28 @@ items:
   nameWithType: QuotePublishDocuments.QuoteDocumentId
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments.QuoteDocumentId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Quote document, as PDF; may be zero if there is no document specified for the version
-  example: []
+  summary: "\nQuote document, as PDF; may be zero if there is no document specified for the version \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int QuoteDocumentId { get; set; }
+    content: public virtual int QuoteDocumentId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property QuoteDocumentId As Integer
+    content.vb: Public Overridable Property QuoteDocumentId As Integer
   overload: SuperOffice.CRM.Services.QuotePublishDocuments.QuoteDocumentId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.QuotedProductsId
   commentId: P:SuperOffice.CRM.Services.QuotePublishDocuments.QuotedProductsId
   id: QuotedProductsId
@@ -182,28 +182,28 @@ items:
   nameWithType: QuotePublishDocuments.QuotedProductsId
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments.QuotedProductsId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Quoted products (quote lines or confirmation lines) document, as PDF
-  example: []
+  summary: "\nQuoted products (quote lines or confirmation lines) document, as PDF \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int QuotedProductsId { get; set; }
+    content: public virtual int QuotedProductsId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property QuotedProductsId As Integer
+    content.vb: Public Overridable Property QuotedProductsId As Integer
   overload: SuperOffice.CRM.Services.QuotePublishDocuments.QuotedProductsId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.QuoteAttachmentIds
   commentId: P:SuperOffice.CRM.Services.QuotePublishDocuments.QuoteAttachmentIds
   id: QuoteAttachmentIds
@@ -215,28 +215,28 @@ items:
   nameWithType: QuotePublishDocuments.QuoteAttachmentIds
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments.QuoteAttachmentIds
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Array of id's of any attachments (standard + custom for this version)
-  example: []
+  summary: "\nArray of id&apos;s of any attachments (standard + custom for this version) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int[] QuoteAttachmentIds { get; set; }
+    content: public virtual int[] QuoteAttachmentIds { get; set; }
     parameters: []
     return:
       type: System.Int32[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property QuoteAttachmentIds As Integer()
+    content.vb: Public Overridable Property QuoteAttachmentIds As Integer()
   overload: SuperOffice.CRM.Services.QuotePublishDocuments.QuoteAttachmentIds*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.MailBody
   commentId: P:SuperOffice.CRM.Services.QuotePublishDocuments.MailBody
   id: MailBody
@@ -248,28 +248,28 @@ items:
   nameWithType: QuotePublishDocuments.MailBody
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments.MailBody
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The string that is the content of the mail body; this is the result of merging the mail body template with the current template variable values
-  example: []
+  summary: "\nThe string that is the content of the mail body; this is the result of merging the mail body template with the current template variable values \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string MailBody { get; set; }
+    content: public virtual string MailBody { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property MailBody As String
+    content.vb: Public Overridable Property MailBody As String
   overload: SuperOffice.CRM.Services.QuotePublishDocuments.MailBody*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.MailSubject
   commentId: P:SuperOffice.CRM.Services.QuotePublishDocuments.MailSubject
   id: MailSubject
@@ -281,28 +281,28 @@ items:
   nameWithType: QuotePublishDocuments.MailSubject
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments.MailSubject
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The string that is the mail subject; done by merging the text resource SR_QUOTE_PUBLISH_MAILHEADING with the current template variable values
-  example: []
+  summary: "\nThe string that is the mail subject; done by merging the text resource SR_QUOTE_PUBLISH_MAILHEADING with the current template variable values \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string MailSubject { get; set; }
+    content: public virtual string MailSubject { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property MailSubject As String
+    content.vb: Public Overridable Property MailSubject As String
   overload: SuperOffice.CRM.Services.QuotePublishDocuments.MailSubject*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.ToEmail
   commentId: P:SuperOffice.CRM.Services.QuotePublishDocuments.ToEmail
   id: ToEmail
@@ -314,28 +314,28 @@ items:
   nameWithType: QuotePublishDocuments.ToEmail
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments.ToEmail
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The email address of the recipient, taken from the sale's person
-  example: []
+  summary: "\nThe email address of the recipient, taken from the sale&apos;s person \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ToEmail { get; set; }
+    content: public virtual string ToEmail { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ToEmail As String
+    content.vb: Public Overridable Property ToEmail As String
   overload: SuperOffice.CRM.Services.QuotePublishDocuments.ToEmail*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.ToFullName
   commentId: P:SuperOffice.CRM.Services.QuotePublishDocuments.ToFullName
   id: ToFullName
@@ -347,28 +347,28 @@ items:
   nameWithType: QuotePublishDocuments.ToFullName
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments.ToFullName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The full name of the recipient, taken from the sale's person
-  example: []
+  summary: "\nThe full name of the recipient, taken from the sale&apos;s person \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ToFullName { get; set; }
+    content: public virtual string ToFullName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ToFullName As String
+    content.vb: Public Overridable Property ToFullName As String
   overload: SuperOffice.CRM.Services.QuotePublishDocuments.ToFullName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.ErrorMessage
   commentId: P:SuperOffice.CRM.Services.QuotePublishDocuments.ErrorMessage
   id: ErrorMessage
@@ -380,33 +380,38 @@ items:
   nameWithType: QuotePublishDocuments.ErrorMessage
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments.ErrorMessage
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If something went wrong, show this message and do not continue
-  example: []
+  summary: "\nIf something went wrong, show this message and do not continue \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ErrorMessage { get; set; }
+    content: public virtual string ErrorMessage { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ErrorMessage As String
+    content.vb: Public Overridable Property ErrorMessage As String
   overload: SuperOffice.CRM.Services.QuotePublishDocuments.ErrorMessage*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.QuoteAgent
   commentId: T:SuperOffice.CRM.Services.QuoteAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteAgent.html
   name: QuoteAgent
   nameWithType: QuoteAgent
   fullName: SuperOffice.CRM.Services.QuoteAgent
@@ -414,79 +419,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IQuoteAgent.html
   name: IQuoteAgent
   nameWithType: IQuoteAgent
   fullName: SuperOffice.CRM.Services.IQuoteAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.QuotePublishDocuments.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.QuotePublishDocuments.html#SuperOffice_CRM_Services_QuotePublishDocuments__ctor
   name: QuotePublishDocuments
   nameWithType: QuotePublishDocuments.QuotePublishDocuments
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments.QuotePublishDocuments
-  nameWithType.vb: QuotePublishDocuments.New
-  fullName.vb: SuperOffice.CRM.Services.QuotePublishDocuments.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.ToString*
   commentId: Overload:SuperOffice.CRM.Services.QuotePublishDocuments.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.QuotePublishDocuments.html#SuperOffice_CRM_Services_QuotePublishDocuments_ToString
   name: ToString
   nameWithType: QuotePublishDocuments.ToString
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments.ToString
@@ -494,17 +438,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.QuoteDocumentId*
   commentId: Overload:SuperOffice.CRM.Services.QuotePublishDocuments.QuoteDocumentId
   isExternal: true
-  href: SuperOffice.CRM.Services.QuotePublishDocuments.html#SuperOffice_CRM_Services_QuotePublishDocuments_QuoteDocumentId
   name: QuoteDocumentId
   nameWithType: QuotePublishDocuments.QuoteDocumentId
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments.QuoteDocumentId
@@ -512,82 +457,74 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.QuotedProductsId*
   commentId: Overload:SuperOffice.CRM.Services.QuotePublishDocuments.QuotedProductsId
   isExternal: true
-  href: SuperOffice.CRM.Services.QuotePublishDocuments.html#SuperOffice_CRM_Services_QuotePublishDocuments_QuotedProductsId
   name: QuotedProductsId
   nameWithType: QuotePublishDocuments.QuotedProductsId
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments.QuotedProductsId
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.QuoteAttachmentIds*
   commentId: Overload:SuperOffice.CRM.Services.QuotePublishDocuments.QuoteAttachmentIds
   isExternal: true
-  href: SuperOffice.CRM.Services.QuotePublishDocuments.html#SuperOffice_CRM_Services_QuotePublishDocuments_QuoteAttachmentIds
   name: QuoteAttachmentIds
   nameWithType: QuotePublishDocuments.QuoteAttachmentIds
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments.QuoteAttachmentIds
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.MailBody*
   commentId: Overload:SuperOffice.CRM.Services.QuotePublishDocuments.MailBody
   isExternal: true
-  href: SuperOffice.CRM.Services.QuotePublishDocuments.html#SuperOffice_CRM_Services_QuotePublishDocuments_MailBody
   name: MailBody
   nameWithType: QuotePublishDocuments.MailBody
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments.MailBody
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.MailSubject*
   commentId: Overload:SuperOffice.CRM.Services.QuotePublishDocuments.MailSubject
   isExternal: true
-  href: SuperOffice.CRM.Services.QuotePublishDocuments.html#SuperOffice_CRM_Services_QuotePublishDocuments_MailSubject
   name: MailSubject
   nameWithType: QuotePublishDocuments.MailSubject
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments.MailSubject
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.ToEmail*
   commentId: Overload:SuperOffice.CRM.Services.QuotePublishDocuments.ToEmail
   isExternal: true
-  href: SuperOffice.CRM.Services.QuotePublishDocuments.html#SuperOffice_CRM_Services_QuotePublishDocuments_ToEmail
   name: ToEmail
   nameWithType: QuotePublishDocuments.ToEmail
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments.ToEmail
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.ToFullName*
   commentId: Overload:SuperOffice.CRM.Services.QuotePublishDocuments.ToFullName
   isExternal: true
-  href: SuperOffice.CRM.Services.QuotePublishDocuments.html#SuperOffice_CRM_Services_QuotePublishDocuments_ToFullName
   name: ToFullName
   nameWithType: QuotePublishDocuments.ToFullName
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments.ToFullName
 - uid: SuperOffice.CRM.Services.QuotePublishDocuments.ErrorMessage*
   commentId: Overload:SuperOffice.CRM.Services.QuotePublishDocuments.ErrorMessage
   isExternal: true
-  href: SuperOffice.CRM.Services.QuotePublishDocuments.html#SuperOffice_CRM_Services_QuotePublishDocuments_ErrorMessage
   name: ErrorMessage
   nameWithType: QuotePublishDocuments.ErrorMessage
   fullName: SuperOffice.CRM.Services.QuotePublishDocuments.ErrorMessage

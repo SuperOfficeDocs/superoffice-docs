@@ -13,41 +13,67 @@ items:
   - SuperOffice.Data.MessageHeaderStdItem.SentAutoReplyToCustomersA
   - SuperOffice.Data.MessageHeaderStdItem.SentAutoReplyToCustomersB
   - SuperOffice.Data.MessageHeaderStdItem.UnnamedAttachmentBlocked
+  - SuperOffice.Data.MessageHeaderStdItem.value__
   langs:
   - csharp
   - vb
   name: MessageHeaderStdItem
   nameWithType: MessageHeaderStdItem
   fullName: SuperOffice.Data.MessageHeaderStdItem
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: Standard/predefined values for ticket message header
-  example: []
+  summary: "\nStandard/predefined values for ticket message header\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum MessageHeaderStdItem
+    content: 'public sealed class MessageHeaderStdItem : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class MessageHeaderStdItem
+          Inherits
 
-      Public Enum MessageHeaderStdItem
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.MessageHeaderStdItem.EnumUtil.MapEnums``2
   - SuperOffice.Data.MessageHeaderStdItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.MessageHeaderStdItem.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.MessageHeaderStdItem)
-  - SuperOffice.Data.MessageHeaderStdItem.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.MessageHeaderStdItem.value__
+  commentId: F:SuperOffice.Data.MessageHeaderStdItem.value__
+  id: value__
+  parent: SuperOffice.Data.MessageHeaderStdItem
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: MessageHeaderStdItem.value__
+  fullName: SuperOffice.Data.MessageHeaderStdItem.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.MessageHeaderStdItem.None
   commentId: F:SuperOffice.Data.MessageHeaderStdItem.None
   id: None
@@ -59,26 +85,24 @@ items:
   nameWithType: MessageHeaderStdItem.None
   fullName: SuperOffice.Data.MessageHeaderStdItem.None
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: A standard header without predefined meaning'
-  example: []
+  summary: "\n0: A standard header without predefined meaning\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const MessageHeaderStdItem None
     return:
       type: SuperOffice.Data.MessageHeaderStdItem
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.MessageHeaderStdItem.Forward
   commentId: F:SuperOffice.Data.MessageHeaderStdItem.Forward
   id: Forward
@@ -90,26 +114,24 @@ items:
   nameWithType: MessageHeaderStdItem.Forward
   fullName: SuperOffice.Data.MessageHeaderStdItem.Forward
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Forward'
-  example: []
+  summary: "\n1: Forward\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Forward = 1
+    content: public const MessageHeaderStdItem Forward
     return:
       type: SuperOffice.Data.MessageHeaderStdItem
-    content.vb: >-
-      <EnumMember>
-
-      Forward = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Forward As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.MessageHeaderStdItem.UnnamedAttachmentBlocked
   commentId: F:SuperOffice.Data.MessageHeaderStdItem.UnnamedAttachmentBlocked
   id: UnnamedAttachmentBlocked
@@ -121,26 +143,24 @@ items:
   nameWithType: MessageHeaderStdItem.UnnamedAttachmentBlocked
   fullName: SuperOffice.Data.MessageHeaderStdItem.UnnamedAttachmentBlocked
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: Message contains certain attachments we simply do not import'
-  example: []
+  summary: "\n2: Message contains certain attachments we simply do not import\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UnnamedAttachmentBlocked = 2
+    content: public const MessageHeaderStdItem UnnamedAttachmentBlocked
     return:
       type: SuperOffice.Data.MessageHeaderStdItem
-    content.vb: >-
-      <EnumMember>
-
-      UnnamedAttachmentBlocked = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UnnamedAttachmentBlocked As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.MessageHeaderStdItem.NoAutoReply
   commentId: F:SuperOffice.Data.MessageHeaderStdItem.NoAutoReply
   id: NoAutoReply
@@ -152,26 +172,24 @@ items:
   nameWithType: MessageHeaderStdItem.NoAutoReply
   fullName: SuperOffice.Data.MessageHeaderStdItem.NoAutoReply
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '3: NoAutoReply'
-  example: []
+  summary: "\n3: NoAutoReply\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      NoAutoReply = 3
+    content: public const MessageHeaderStdItem NoAutoReply
     return:
       type: SuperOffice.Data.MessageHeaderStdItem
-    content.vb: >-
-      <EnumMember>
-
-      NoAutoReply = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const NoAutoReply As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.MessageHeaderStdItem.SentAutoReplyToCustomersA
   commentId: F:SuperOffice.Data.MessageHeaderStdItem.SentAutoReplyToCustomersA
   id: SentAutoReplyToCustomersA
@@ -183,26 +201,24 @@ items:
   nameWithType: MessageHeaderStdItem.SentAutoReplyToCustomersA
   fullName: SuperOffice.Data.MessageHeaderStdItem.SentAutoReplyToCustomersA
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '4: Auto-reply sent to customers A'
-  example: []
+  summary: "\n4: Auto-reply sent to customers A\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SentAutoReplyToCustomersA = 4
+    content: public const MessageHeaderStdItem SentAutoReplyToCustomersA
     return:
       type: SuperOffice.Data.MessageHeaderStdItem
-    content.vb: >-
-      <EnumMember>
-
-      SentAutoReplyToCustomersA = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SentAutoReplyToCustomersA As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.MessageHeaderStdItem.SentAutoReplyToCustomersB
   commentId: F:SuperOffice.Data.MessageHeaderStdItem.SentAutoReplyToCustomersB
   id: SentAutoReplyToCustomersB
@@ -214,26 +230,24 @@ items:
   nameWithType: MessageHeaderStdItem.SentAutoReplyToCustomersB
   fullName: SuperOffice.Data.MessageHeaderStdItem.SentAutoReplyToCustomersB
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '5: Auto-reply sent to customers B'
-  example: []
+  summary: "\n5: Auto-reply sent to customers B\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SentAutoReplyToCustomersB = 5
+    content: public const MessageHeaderStdItem SentAutoReplyToCustomersB
     return:
       type: SuperOffice.Data.MessageHeaderStdItem
-    content.vb: >-
-      <EnumMember>
-
-      SentAutoReplyToCustomersB = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SentAutoReplyToCustomersB As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.MessageHeaderStdItem.CustomerReadFAQ
   commentId: F:SuperOffice.Data.MessageHeaderStdItem.CustomerReadFAQ
   id: CustomerReadFAQ
@@ -245,26 +259,24 @@ items:
   nameWithType: MessageHeaderStdItem.CustomerReadFAQ
   fullName: SuperOffice.Data.MessageHeaderStdItem.CustomerReadFAQ
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '6: Customer read FAQ'
-  example: []
+  summary: "\n6: Customer read FAQ\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      CustomerReadFAQ = 6
+    content: public const MessageHeaderStdItem CustomerReadFAQ
     return:
       type: SuperOffice.Data.MessageHeaderStdItem
-    content.vb: >-
-      <EnumMember>
-
-      CustomerReadFAQ = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const CustomerReadFAQ As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.MessageHeaderStdItem.ReplyTemplate
   commentId: F:SuperOffice.Data.MessageHeaderStdItem.ReplyTemplate
   id: ReplyTemplate
@@ -276,300 +288,115 @@ items:
   nameWithType: MessageHeaderStdItem.ReplyTemplate
   fullName: SuperOffice.Data.MessageHeaderStdItem.ReplyTemplate
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '7: This message was generated from reply template'
-  example: []
+  summary: "\n7: This message was generated from reply template\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ReplyTemplate = 7
+    content: public const MessageHeaderStdItem ReplyTemplate
     return:
       type: SuperOffice.Data.MessageHeaderStdItem
-    content.vb: >-
-      <EnumMember>
-
-      ReplyTemplate = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ReplyTemplate As MessageHeaderStdItem
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.MessageHeaderStdItem.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<MessageHeaderStdItem, To>(MessageHeaderStdItem)
-  nameWithType: EnumUtil.MapEnums<MessageHeaderStdItem, To>(MessageHeaderStdItem)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.MessageHeaderStdItem, To>(SuperOffice.Data.MessageHeaderStdItem)
-  nameWithType.vb: EnumUtil.MapEnums(Of MessageHeaderStdItem, To)(MessageHeaderStdItem)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.MessageHeaderStdItem, To)(SuperOffice.Data.MessageHeaderStdItem)
-  name.vb: MapEnums(Of MessageHeaderStdItem, To)(MessageHeaderStdItem)
+  name: MapEnums<MessageHeaderStdItem, To>()
+  nameWithType: EnumUtil.MapEnums<MessageHeaderStdItem, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.MessageHeaderStdItem, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of MessageHeaderStdItem, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.MessageHeaderStdItem, To)()
+  name.vb: MapEnums(Of MessageHeaderStdItem, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.MessageHeaderStdItem)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<MessageHeaderStdItem, To>
+    nameWithType: EnumUtil.MapEnums<MessageHeaderStdItem, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.MessageHeaderStdItem, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.MessageHeaderStdItem
-    name: MessageHeaderStdItem
-    isExternal: true
-    href: SuperOffice.Data.MessageHeaderStdItem.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.MessageHeaderStdItem
-    name: MessageHeaderStdItem
-    isExternal: true
-    href: SuperOffice.Data.MessageHeaderStdItem.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.MessageHeaderStdItem)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of MessageHeaderStdItem, To)
+    nameWithType: EnumUtil.MapEnums(Of MessageHeaderStdItem, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.MessageHeaderStdItem, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.MessageHeaderStdItem
-    name: MessageHeaderStdItem
-    isExternal: true
-    href: SuperOffice.Data.MessageHeaderStdItem.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.MessageHeaderStdItem
-    name: MessageHeaderStdItem
-    isExternal: true
-    href: SuperOffice.Data.MessageHeaderStdItem.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.MessageHeaderStdItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<MessageHeaderStdItem, To>(MessageHeaderStdItem)
-  nameWithType: Converters.MapEnums<MessageHeaderStdItem, To>(MessageHeaderStdItem)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.MessageHeaderStdItem, To>(SuperOffice.Data.MessageHeaderStdItem)
-  nameWithType.vb: Converters.MapEnums(Of MessageHeaderStdItem, To)(MessageHeaderStdItem)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.MessageHeaderStdItem, To)(SuperOffice.Data.MessageHeaderStdItem)
-  name.vb: MapEnums(Of MessageHeaderStdItem, To)(MessageHeaderStdItem)
+  name: MapEnums<MessageHeaderStdItem, To>()
+  nameWithType: Converters.MapEnums<MessageHeaderStdItem, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.MessageHeaderStdItem, To>()
+  nameWithType.vb: Converters.MapEnums(Of MessageHeaderStdItem, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.MessageHeaderStdItem, To)()
+  name.vb: MapEnums(Of MessageHeaderStdItem, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.MessageHeaderStdItem)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<MessageHeaderStdItem, To>
+    nameWithType: Converters.MapEnums<MessageHeaderStdItem, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.MessageHeaderStdItem, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.MessageHeaderStdItem
-    name: MessageHeaderStdItem
-    isExternal: true
-    href: SuperOffice.Data.MessageHeaderStdItem.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.MessageHeaderStdItem
-    name: MessageHeaderStdItem
-    isExternal: true
-    href: SuperOffice.Data.MessageHeaderStdItem.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.MessageHeaderStdItem)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of MessageHeaderStdItem, To)
+    nameWithType: Converters.MapEnums(Of MessageHeaderStdItem, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.MessageHeaderStdItem, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.MessageHeaderStdItem
-    name: MessageHeaderStdItem
-    isExternal: true
-    href: SuperOffice.Data.MessageHeaderStdItem.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.MessageHeaderStdItem
-    name: MessageHeaderStdItem
-    isExternal: true
-    href: SuperOffice.Data.MessageHeaderStdItem.html
-  - name: )
-- uid: SuperOffice.Data.MessageHeaderStdItem.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.MessageHeaderStdItem)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<MessageHeaderStdItem>(MessageHeaderStdItem, MessageHeaderStdItem)
-  nameWithType: ObjectExtensions.AssignByReflection<MessageHeaderStdItem>(MessageHeaderStdItem, MessageHeaderStdItem)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.MessageHeaderStdItem>(SuperOffice.Data.MessageHeaderStdItem, SuperOffice.Data.MessageHeaderStdItem)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MessageHeaderStdItem)(MessageHeaderStdItem, MessageHeaderStdItem)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.MessageHeaderStdItem)(SuperOffice.Data.MessageHeaderStdItem, SuperOffice.Data.MessageHeaderStdItem)
-  name.vb: AssignByReflection(Of MessageHeaderStdItem)(MessageHeaderStdItem, MessageHeaderStdItem)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.MessageHeaderStdItem,SuperOffice.Data.MessageHeaderStdItem)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.MessageHeaderStdItem
-    name: MessageHeaderStdItem
-    isExternal: true
-    href: SuperOffice.Data.MessageHeaderStdItem.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.MessageHeaderStdItem
-    name: MessageHeaderStdItem
-    isExternal: true
-    href: SuperOffice.Data.MessageHeaderStdItem.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.MessageHeaderStdItem
-    name: MessageHeaderStdItem
-    isExternal: true
-    href: SuperOffice.Data.MessageHeaderStdItem.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.MessageHeaderStdItem,SuperOffice.Data.MessageHeaderStdItem)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.MessageHeaderStdItem
-    name: MessageHeaderStdItem
-    isExternal: true
-    href: SuperOffice.Data.MessageHeaderStdItem.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.MessageHeaderStdItem
-    name: MessageHeaderStdItem
-    isExternal: true
-    href: SuperOffice.Data.MessageHeaderStdItem.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.MessageHeaderStdItem
-    name: MessageHeaderStdItem
-    isExternal: true
-    href: SuperOffice.Data.MessageHeaderStdItem.html
-  - name: )
-- uid: SuperOffice.Data.MessageHeaderStdItem.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<MessageHeaderStdItem>(MessageHeaderStdItem)
-  nameWithType: ObjectExtensions.GraphCopy<MessageHeaderStdItem>(MessageHeaderStdItem)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.MessageHeaderStdItem>(SuperOffice.Data.MessageHeaderStdItem)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of MessageHeaderStdItem)(MessageHeaderStdItem)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.MessageHeaderStdItem)(SuperOffice.Data.MessageHeaderStdItem)
-  name.vb: GraphCopy(Of MessageHeaderStdItem)(MessageHeaderStdItem)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.MessageHeaderStdItem)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.MessageHeaderStdItem
-    name: MessageHeaderStdItem
-    isExternal: true
-    href: SuperOffice.Data.MessageHeaderStdItem.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.MessageHeaderStdItem
-    name: MessageHeaderStdItem
-    isExternal: true
-    href: SuperOffice.Data.MessageHeaderStdItem.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.MessageHeaderStdItem)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.MessageHeaderStdItem
-    name: MessageHeaderStdItem
-    isExternal: true
-    href: SuperOffice.Data.MessageHeaderStdItem.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.MessageHeaderStdItem
-    name: MessageHeaderStdItem
-    isExternal: true
-    href: SuperOffice.Data.MessageHeaderStdItem.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -578,45 +405,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -625,222 +450,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.MessageHeaderStdItem
   commentId: T:SuperOffice.Data.MessageHeaderStdItem
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.MessageHeaderStdItem.html
   name: MessageHeaderStdItem
   nameWithType: MessageHeaderStdItem
   fullName: SuperOffice.Data.MessageHeaderStdItem

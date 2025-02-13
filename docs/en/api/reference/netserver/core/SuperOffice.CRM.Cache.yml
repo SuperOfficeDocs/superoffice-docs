@@ -19,8 +19,8 @@ items:
   - SuperOffice.CRM.Cache.MDOListTableBusinessCache
   - SuperOffice.CRM.Cache.MDOListTableCacheBase
   - SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
-  - SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
   - SuperOffice.CRM.Cache.MDOListTableCaches
+  - SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
   - SuperOffice.CRM.Cache.MDOListTableCategoryCache
   - SuperOffice.CRM.Cache.MDOListTableComptrCache
   - SuperOffice.CRM.Cache.MDOListTableContIntCache
@@ -33,11 +33,11 @@ items:
   - SuperOffice.CRM.Cache.MDOListTableExtAppCache
   - SuperOffice.CRM.Cache.MDOListTableIntentCache
   - SuperOffice.CRM.Cache.MDOListTableMrMrsCache
-  - SuperOffice.CRM.Cache.MDOListTablePMembTypeCache
   - SuperOffice.CRM.Cache.MDOListTablePaymentTermsCache
   - SuperOffice.CRM.Cache.MDOListTablePaymentTypeCache
   - SuperOffice.CRM.Cache.MDOListTablePersIntCache
   - SuperOffice.CRM.Cache.MDOListTablePersPosCache
+  - SuperOffice.CRM.Cache.MDOListTablePMembTypeCache
   - SuperOffice.CRM.Cache.MDOListTablePriceUnitCache
   - SuperOffice.CRM.Cache.MDOListTablePriorityCache
   - SuperOffice.CRM.Cache.MDOListTableProbCache
@@ -93,7 +93,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.AssociateCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.AssociateCache.html
   name: AssociateCache
   nameWithType: AssociateCache
   fullName: SuperOffice.CRM.Cache.AssociateCache
@@ -101,7 +100,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.BusinessCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.BusinessCache.html
   name: BusinessCache
   nameWithType: BusinessCache
   fullName: SuperOffice.CRM.Cache.BusinessCache
@@ -109,7 +107,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.CategoryCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.CategoryCache.html
   name: CategoryCache
   nameWithType: CategoryCache
   fullName: SuperOffice.CRM.Cache.CategoryCache
@@ -117,7 +114,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.ConsentCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.ConsentCache.html
   name: ConsentCache
   nameWithType: ConsentCache
   fullName: SuperOffice.CRM.Cache.ConsentCache
@@ -125,7 +121,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.CurrencyCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.CurrencyCache.html
   name: CurrencyCache
   nameWithType: CurrencyCache
   fullName: SuperOffice.CRM.Cache.CurrencyCache
@@ -133,7 +128,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.ExtAppCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.ExtAppCache.html
   name: ExtAppCache
   nameWithType: ExtAppCache
   fullName: SuperOffice.CRM.Cache.ExtAppCache
@@ -141,7 +135,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.ExtraFieldsCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.ExtraFieldsCache.html
   name: ExtraFieldsCache
   nameWithType: ExtraFieldsCache
   fullName: SuperOffice.CRM.Cache.ExtraFieldsCache
@@ -149,14 +142,12 @@ references:
   commentId: T:SuperOffice.CRM.Cache.FreetextStatus
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.FreetextStatus.html
   name: FreetextStatus
   nameWithType: FreetextStatus
   fullName: SuperOffice.CRM.Cache.FreetextStatus
 - uid: SuperOffice.CRM.Cache.FreetextStatusCache
   commentId: T:SuperOffice.CRM.Cache.FreetextStatusCache
   isExternal: true
-  href: SuperOffice.CRM.Cache.FreetextStatusCache.html
   name: FreetextStatusCache
   nameWithType: FreetextStatusCache
   fullName: SuperOffice.CRM.Cache.FreetextStatusCache
@@ -164,7 +155,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.HierarchyTreeCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.HierarchyTreeCache.html
   name: HierarchyTreeCache
   nameWithType: HierarchyTreeCache
   fullName: SuperOffice.CRM.Cache.HierarchyTreeCache
@@ -172,7 +162,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableAmountClassCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableAmountClassCache.html
   name: MDOListTableAmountClassCache
   nameWithType: MDOListTableAmountClassCache
   fullName: SuperOffice.CRM.Cache.MDOListTableAmountClassCache
@@ -180,7 +169,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableAssociateCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableAssociateCache.html
   name: MDOListTableAssociateCache
   nameWithType: MDOListTableAssociateCache
   fullName: SuperOffice.CRM.Cache.MDOListTableAssociateCache
@@ -188,7 +176,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableBusinessCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableBusinessCache.html
   name: MDOListTableBusinessCache
   nameWithType: MDOListTableBusinessCache
   fullName: SuperOffice.CRM.Cache.MDOListTableBusinessCache
@@ -196,7 +183,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableCategoryCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableCategoryCache.html
   name: MDOListTableCategoryCache
   nameWithType: MDOListTableCategoryCache
   fullName: SuperOffice.CRM.Cache.MDOListTableCategoryCache
@@ -204,7 +190,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableComptrCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableComptrCache.html
   name: MDOListTableComptrCache
   nameWithType: MDOListTableComptrCache
   fullName: SuperOffice.CRM.Cache.MDOListTableComptrCache
@@ -212,7 +197,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableContIntCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableContIntCache.html
   name: MDOListTableContIntCache
   nameWithType: MDOListTableContIntCache
   fullName: SuperOffice.CRM.Cache.MDOListTableContIntCache
@@ -220,7 +204,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableCountryCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableCountryCache.html
   name: MDOListTableCountryCache
   nameWithType: MDOListTableCountryCache
   fullName: SuperOffice.CRM.Cache.MDOListTableCountryCache
@@ -228,7 +211,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableCreditedCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableCreditedCache.html
   name: MDOListTableCreditedCache
   nameWithType: MDOListTableCreditedCache
   fullName: SuperOffice.CRM.Cache.MDOListTableCreditedCache
@@ -236,7 +218,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableCurrencyCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableCurrencyCache.html
   name: MDOListTableCurrencyCache
   nameWithType: MDOListTableCurrencyCache
   fullName: SuperOffice.CRM.Cache.MDOListTableCurrencyCache
@@ -244,7 +225,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableDeliveryTermsCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableDeliveryTermsCache.html
   name: MDOListTableDeliveryTermsCache
   nameWithType: MDOListTableDeliveryTermsCache
   fullName: SuperOffice.CRM.Cache.MDOListTableDeliveryTermsCache
@@ -252,7 +232,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableDeliveryTypeCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableDeliveryTypeCache.html
   name: MDOListTableDeliveryTypeCache
   nameWithType: MDOListTableDeliveryTypeCache
   fullName: SuperOffice.CRM.Cache.MDOListTableDeliveryTypeCache
@@ -260,7 +239,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableDocTmplCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableDocTmplCache.html
   name: MDOListTableDocTmplCache
   nameWithType: MDOListTableDocTmplCache
   fullName: SuperOffice.CRM.Cache.MDOListTableDocTmplCache
@@ -268,7 +246,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableExtAppCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableExtAppCache.html
   name: MDOListTableExtAppCache
   nameWithType: MDOListTableExtAppCache
   fullName: SuperOffice.CRM.Cache.MDOListTableExtAppCache
@@ -276,7 +253,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableIntentCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableIntentCache.html
   name: MDOListTableIntentCache
   nameWithType: MDOListTableIntentCache
   fullName: SuperOffice.CRM.Cache.MDOListTableIntentCache
@@ -284,7 +260,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableMrMrsCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableMrMrsCache.html
   name: MDOListTableMrMrsCache
   nameWithType: MDOListTableMrMrsCache
   fullName: SuperOffice.CRM.Cache.MDOListTableMrMrsCache
@@ -292,7 +267,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTablePaymentTermsCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTablePaymentTermsCache.html
   name: MDOListTablePaymentTermsCache
   nameWithType: MDOListTablePaymentTermsCache
   fullName: SuperOffice.CRM.Cache.MDOListTablePaymentTermsCache
@@ -300,7 +274,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTablePaymentTypeCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTablePaymentTypeCache.html
   name: MDOListTablePaymentTypeCache
   nameWithType: MDOListTablePaymentTypeCache
   fullName: SuperOffice.CRM.Cache.MDOListTablePaymentTypeCache
@@ -308,7 +281,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTablePersIntCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTablePersIntCache.html
   name: MDOListTablePersIntCache
   nameWithType: MDOListTablePersIntCache
   fullName: SuperOffice.CRM.Cache.MDOListTablePersIntCache
@@ -316,7 +288,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTablePersPosCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTablePersPosCache.html
   name: MDOListTablePersPosCache
   nameWithType: MDOListTablePersPosCache
   fullName: SuperOffice.CRM.Cache.MDOListTablePersPosCache
@@ -324,7 +295,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTablePMembTypeCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTablePMembTypeCache.html
   name: MDOListTablePMembTypeCache
   nameWithType: MDOListTablePMembTypeCache
   fullName: SuperOffice.CRM.Cache.MDOListTablePMembTypeCache
@@ -332,7 +302,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTablePriceUnitCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTablePriceUnitCache.html
   name: MDOListTablePriceUnitCache
   nameWithType: MDOListTablePriceUnitCache
   fullName: SuperOffice.CRM.Cache.MDOListTablePriceUnitCache
@@ -340,7 +309,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTablePriorityCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTablePriorityCache.html
   name: MDOListTablePriorityCache
   nameWithType: MDOListTablePriorityCache
   fullName: SuperOffice.CRM.Cache.MDOListTablePriorityCache
@@ -348,7 +316,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableProbCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableProbCache.html
   name: MDOListTableProbCache
   nameWithType: MDOListTableProbCache
   fullName: SuperOffice.CRM.Cache.MDOListTableProbCache
@@ -356,7 +323,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableProductCategoryCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableProductCategoryCache.html
   name: MDOListTableProductCategoryCache
   nameWithType: MDOListTableProductCategoryCache
   fullName: SuperOffice.CRM.Cache.MDOListTableProductCategoryCache
@@ -364,7 +330,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableProductFamilyCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableProductFamilyCache.html
   name: MDOListTableProductFamilyCache
   nameWithType: MDOListTableProductFamilyCache
   fullName: SuperOffice.CRM.Cache.MDOListTableProductFamilyCache
@@ -372,7 +337,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableProductTypeCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableProductTypeCache.html
   name: MDOListTableProductTypeCache
   nameWithType: MDOListTableProductTypeCache
   fullName: SuperOffice.CRM.Cache.MDOListTableProductTypeCache
@@ -380,7 +344,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableProjStatusCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableProjStatusCache.html
   name: MDOListTableProjStatusCache
   nameWithType: MDOListTableProjStatusCache
   fullName: SuperOffice.CRM.Cache.MDOListTableProjStatusCache
@@ -388,7 +351,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableProjTypeCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableProjTypeCache.html
   name: MDOListTableProjTypeCache
   nameWithType: MDOListTableProjTypeCache
   fullName: SuperOffice.CRM.Cache.MDOListTableProjTypeCache
@@ -396,7 +358,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableQuoteApprReasonCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableQuoteApprReasonCache.html
   name: MDOListTableQuoteApprReasonCache
   nameWithType: MDOListTableQuoteApprReasonCache
   fullName: SuperOffice.CRM.Cache.MDOListTableQuoteApprReasonCache
@@ -404,7 +365,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableQuoteDenyReasonCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableQuoteDenyReasonCache.html
   name: MDOListTableQuoteDenyReasonCache
   nameWithType: MDOListTableQuoteDenyReasonCache
   fullName: SuperOffice.CRM.Cache.MDOListTableQuoteDenyReasonCache
@@ -412,7 +372,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableReasonCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableReasonCache.html
   name: MDOListTableReasonCache
   nameWithType: MDOListTableReasonCache
   fullName: SuperOffice.CRM.Cache.MDOListTableReasonCache
@@ -420,7 +379,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableReasonSoldCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableReasonSoldCache.html
   name: MDOListTableReasonSoldCache
   nameWithType: MDOListTableReasonSoldCache
   fullName: SuperOffice.CRM.Cache.MDOListTableReasonSoldCache
@@ -428,7 +386,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableReasonStalledCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableReasonStalledCache.html
   name: MDOListTableReasonStalledCache
   nameWithType: MDOListTableReasonStalledCache
   fullName: SuperOffice.CRM.Cache.MDOListTableReasonStalledCache
@@ -436,7 +393,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableRejectReasonCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableRejectReasonCache.html
   name: MDOListTableRejectReasonCache
   nameWithType: MDOListTableRejectReasonCache
   fullName: SuperOffice.CRM.Cache.MDOListTableRejectReasonCache
@@ -444,7 +400,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableRelationDefinitionCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableRelationDefinitionCache.html
   name: MDOListTableRelationDefinitionCache
   nameWithType: MDOListTableRelationDefinitionCache
   fullName: SuperOffice.CRM.Cache.MDOListTableRelationDefinitionCache
@@ -452,7 +407,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableSaleTypeCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableSaleTypeCache.html
   name: MDOListTableSaleTypeCache
   nameWithType: MDOListTableSaleTypeCache
   fullName: SuperOffice.CRM.Cache.MDOListTableSaleTypeCache
@@ -460,7 +414,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableSaleTypeCatCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableSaleTypeCatCache.html
   name: MDOListTableSaleTypeCatCache
   nameWithType: MDOListTableSaleTypeCatCache
   fullName: SuperOffice.CRM.Cache.MDOListTableSaleTypeCatCache
@@ -468,7 +421,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableSalutationCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableSalutationCache.html
   name: MDOListTableSalutationCache
   nameWithType: MDOListTableSalutationCache
   fullName: SuperOffice.CRM.Cache.MDOListTableSalutationCache
@@ -476,7 +428,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableSearchCatCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableSearchCatCache.html
   name: MDOListTableSearchCatCache
   nameWithType: MDOListTableSearchCatCache
   fullName: SuperOffice.CRM.Cache.MDOListTableSearchCatCache
@@ -484,7 +435,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableSourceCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableSourceCache.html
   name: MDOListTableSourceCache
   nameWithType: MDOListTableSourceCache
   fullName: SuperOffice.CRM.Cache.MDOListTableSourceCache
@@ -492,7 +442,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableStakeholderRoleCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableStakeholderRoleCache.html
   name: MDOListTableStakeholderRoleCache
   nameWithType: MDOListTableStakeholderRoleCache
   fullName: SuperOffice.CRM.Cache.MDOListTableStakeholderRoleCache
@@ -500,7 +449,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableSubscriptionUnitCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableSubscriptionUnitCache.html
   name: MDOListTableSubscriptionUnitCache
   nameWithType: MDOListTableSubscriptionUnitCache
   fullName: SuperOffice.CRM.Cache.MDOListTableSubscriptionUnitCache
@@ -508,7 +456,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableTagsCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableTagsCache.html
   name: MDOListTableTagsCache
   nameWithType: MDOListTableTagsCache
   fullName: SuperOffice.CRM.Cache.MDOListTableTagsCache
@@ -516,7 +463,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableTaskCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableTaskCache.html
   name: MDOListTableTaskCache
   nameWithType: MDOListTableTaskCache
   fullName: SuperOffice.CRM.Cache.MDOListTableTaskCache
@@ -524,7 +470,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableTaskMenuCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableTaskMenuCache.html
   name: MDOListTableTaskMenuCache
   nameWithType: MDOListTableTaskMenuCache
   fullName: SuperOffice.CRM.Cache.MDOListTableTaskMenuCache
@@ -532,14 +477,12 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableUDListCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableUDListCache.html
   name: MDOListTableUDListCache
   nameWithType: MDOListTableUDListCache
   fullName: SuperOffice.CRM.Cache.MDOListTableUDListCache
 - uid: SuperOffice.CRM.Cache.MDOListTableCaches
   commentId: T:SuperOffice.CRM.Cache.MDOListTableCaches
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableCaches.html
   name: MDOListTableCaches
   nameWithType: MDOListTableCaches
   fullName: SuperOffice.CRM.Cache.MDOListTableCaches
@@ -547,7 +490,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableCacheBase
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableCacheBase.html
   name: MDOListTableCacheBase
   nameWithType: MDOListTableCacheBase
   fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase
@@ -555,34 +497,12 @@ references:
   commentId: T:SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableCacheBase.html
   name: MDOListTableCacheBase.MDOCacheElement
   nameWithType: MDOListTableCacheBase.MDOCacheElement
   fullName: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
-  spec.csharp:
-  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase
-    name: MDOListTableCacheBase
-    isExternal: true
-    href: SuperOffice.CRM.Cache.MDOListTableCacheBase.html
-  - name: .
-  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
-    name: MDOCacheElement
-    isExternal: true
-    href: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase
-    name: MDOListTableCacheBase
-    isExternal: true
-    href: SuperOffice.CRM.Cache.MDOListTableCacheBase.html
-  - name: .
-  - uid: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement
-    name: MDOCacheElement
-    isExternal: true
-    href: SuperOffice.CRM.Cache.MDOListTableCacheBase.MDOCacheElement.html
 - uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
   commentId: T:SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase-1.html
   name: MDOListTableCacheTypedBase<T>
   nameWithType: MDOListTableCacheTypedBase<T>
   fullName: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase<T>
@@ -592,26 +512,37 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
     name: MDOListTableCacheTypedBase
+    nameWithType: MDOListTableCacheTypedBase
+    fullName: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase
     isExternal: true
-    href: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase`1
     name: MDOListTableCacheTypedBase
+    nameWithType: MDOListTableCacheTypedBase
+    fullName: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase
     isExternal: true
-    href: SuperOffice.CRM.Cache.MDOListTableCacheTypedBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Cache.MDOPreferenceCache
   commentId: T:SuperOffice.CRM.Cache.MDOPreferenceCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.MDOPreferenceCache.html
   name: MDOPreferenceCache
   nameWithType: MDOPreferenceCache
   fullName: SuperOffice.CRM.Cache.MDOPreferenceCache
@@ -619,7 +550,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.OnlineAppCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.OnlineAppCache.html
   name: OnlineAppCache
   nameWithType: OnlineAppCache
   fullName: SuperOffice.CRM.Cache.OnlineAppCache
@@ -627,7 +557,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.PriceListCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.PriceListCache.html
   name: PriceListCache
   nameWithType: PriceListCache
   fullName: SuperOffice.CRM.Cache.PriceListCache
@@ -635,7 +564,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.ProbCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.ProbCache.html
   name: ProbCache
   nameWithType: ProbCache
   fullName: SuperOffice.CRM.Cache.ProbCache
@@ -643,7 +571,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.ProjectStatusCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.ProjectStatusCache.html
   name: ProjectStatusCache
   nameWithType: ProjectStatusCache
   fullName: SuperOffice.CRM.Cache.ProjectStatusCache
@@ -651,7 +578,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.ProjectTypeCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.ProjectTypeCache.html
   name: ProjectTypeCache
   nameWithType: ProjectTypeCache
   fullName: SuperOffice.CRM.Cache.ProjectTypeCache
@@ -659,7 +585,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.RedLetterDayCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.RedLetterDayCache.html
   name: RedLetterDayCache
   nameWithType: RedLetterDayCache
   fullName: SuperOffice.CRM.Cache.RedLetterDayCache
@@ -667,7 +592,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.RelationDefinitionCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.RelationDefinitionCache.html
   name: RelationDefinitionCache
   nameWithType: RelationDefinitionCache
   fullName: SuperOffice.CRM.Cache.RelationDefinitionCache
@@ -675,7 +599,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.SaleTypeCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.SaleTypeCache.html
   name: SaleTypeCache
   nameWithType: SaleTypeCache
   fullName: SuperOffice.CRM.Cache.SaleTypeCache
@@ -683,7 +606,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.ShipmentTypeCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.ShipmentTypeCache.html
   name: ShipmentTypeCache
   nameWithType: ShipmentTypeCache
   fullName: SuperOffice.CRM.Cache.ShipmentTypeCache
@@ -691,7 +613,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.StatusMonitorInfo
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.StatusMonitorInfo.html
   name: StatusMonitorInfo
   nameWithType: StatusMonitorInfo
   fullName: SuperOffice.CRM.Cache.StatusMonitorInfo
@@ -699,7 +620,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.StatusMonitorCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.StatusMonitorCache.html
   name: StatusMonitorCache
   nameWithType: StatusMonitorCache
   fullName: SuperOffice.CRM.Cache.StatusMonitorCache
@@ -707,7 +627,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.TicketPriorityCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.TicketPriorityCache.html
   name: TicketPriorityCache
   nameWithType: TicketPriorityCache
   fullName: SuperOffice.CRM.Cache.TicketPriorityCache
@@ -715,7 +634,6 @@ references:
   commentId: T:SuperOffice.CRM.Cache.TicketStatusCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.TicketStatusCache.html
   name: TicketStatusCache
   nameWithType: TicketStatusCache
   fullName: SuperOffice.CRM.Cache.TicketStatusCache
@@ -723,44 +641,12 @@ references:
   commentId: T:SuperOffice.CRM.Cache.SystemEventCache
   parent: SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.CRM.Cache.SystemEventCache.html
   name: SystemEventCache
   nameWithType: SystemEventCache
   fullName: SuperOffice.CRM.Cache.SystemEventCache
 - uid: SuperOffice.CRM.Cache
   commentId: N:SuperOffice.CRM.Cache
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Cache
   nameWithType: SuperOffice.CRM.Cache
   fullName: SuperOffice.CRM.Cache
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Cache
-    name: Cache
-    isExternal: true
-    href: SuperOffice.CRM.Cache.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Cache
-    name: Cache
-    isExternal: true
-    href: SuperOffice.CRM.Cache.html

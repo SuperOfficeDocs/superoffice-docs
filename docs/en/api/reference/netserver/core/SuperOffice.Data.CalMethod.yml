@@ -14,41 +14,67 @@ items:
   - SuperOffice.Data.CalMethod.Reply
   - SuperOffice.Data.CalMethod.Request
   - SuperOffice.Data.CalMethod.Unknown
+  - SuperOffice.Data.CalMethod.value__
   langs:
   - csharp
   - vb
   name: CalMethod
   nameWithType: CalMethod
   fullName: SuperOffice.Data.CalMethod
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: Valid iCal methods
-  example: []
+  summary: "\nValid iCal methods\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum CalMethod
+    content: 'public sealed class CalMethod : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class CalMethod
+          Inherits
 
-      Public Enum CalMethod
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.CalMethod.EnumUtil.MapEnums``2
   - SuperOffice.Data.CalMethod.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.CalMethod.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.CalMethod)
-  - SuperOffice.Data.CalMethod.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.CalMethod.value__
+  commentId: F:SuperOffice.Data.CalMethod.value__
+  id: value__
+  parent: SuperOffice.Data.CalMethod
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: CalMethod.value__
+  fullName: SuperOffice.Data.CalMethod.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.CalMethod.Unknown
   commentId: F:SuperOffice.Data.CalMethod.Unknown
   id: Unknown
@@ -60,26 +86,24 @@ items:
   nameWithType: CalMethod.Unknown
   fullName: SuperOffice.Data.CalMethod.Unknown
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: Method is not known'
-  example: []
+  summary: "\n0: Method is not known\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Unknown = 0
+    content: public const CalMethod Unknown
     return:
       type: SuperOffice.Data.CalMethod
-    content.vb: >-
-      <EnumMember>
-
-      Unknown = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Unknown As CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.CalMethod.Add
   commentId: F:SuperOffice.Data.CalMethod.Add
   id: Add
@@ -91,26 +115,24 @@ items:
   nameWithType: CalMethod.Add
   fullName: SuperOffice.Data.CalMethod.Add
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Add one or more instances to an existing event.'
-  example: []
+  summary: "\n1: Add one or more instances to an existing event.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Add = 1
+    content: public const CalMethod Add
     return:
       type: SuperOffice.Data.CalMethod
-    content.vb: >-
-      <EnumMember>
-
-      Add = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Add As CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.CalMethod.Cancel
   commentId: F:SuperOffice.Data.CalMethod.Cancel
   id: Cancel
@@ -122,26 +144,24 @@ items:
   nameWithType: CalMethod.Cancel
   fullName: SuperOffice.Data.CalMethod.Cancel
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: Cancel one or more instances of an existing event.'
-  example: []
+  summary: "\n2: Cancel one or more instances of an existing event.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Cancel = 2
+    content: public const CalMethod Cancel
     return:
       type: SuperOffice.Data.CalMethod
-    content.vb: >-
-      <EnumMember>
-
-      Cancel = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Cancel As CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.CalMethod.Counter
   commentId: F:SuperOffice.Data.CalMethod.Counter
   id: Counter
@@ -153,26 +173,24 @@ items:
   nameWithType: CalMethod.Counter
   fullName: SuperOffice.Data.CalMethod.Counter
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "3: Counter a REQUEST with an alternative proposal, Sent by an 'Attendee' to the 'Organizer'."
-  example: []
+  summary: "\n3: Counter a REQUEST with an alternative proposal, Sent by an &apos;Attendee&apos; to the &apos;Organizer&apos;. \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Counter = 3
+    content: public const CalMethod Counter
     return:
       type: SuperOffice.Data.CalMethod
-    content.vb: >-
-      <EnumMember>
-
-      Counter = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Counter As CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.CalMethod.DeclineCounter
   commentId: F:SuperOffice.Data.CalMethod.DeclineCounter
   id: DeclineCounter
@@ -184,26 +202,24 @@ items:
   nameWithType: CalMethod.DeclineCounter
   fullName: SuperOffice.Data.CalMethod.DeclineCounter
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "4: Decline a counter proposal. Sent to an 'Attendee' by the 'Organizer'."
-  example: []
+  summary: "\n4: Decline a counter proposal. Sent to an &apos;Attendee&apos; by the &apos;Organizer&apos;.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      DeclineCounter = 4
+    content: public const CalMethod DeclineCounter
     return:
       type: SuperOffice.Data.CalMethod
-    content.vb: >-
-      <EnumMember>
-
-      DeclineCounter = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const DeclineCounter As CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.CalMethod.Publish
   commentId: F:SuperOffice.Data.CalMethod.Publish
   id: Publish
@@ -215,26 +231,24 @@ items:
   nameWithType: CalMethod.Publish
   fullName: SuperOffice.Data.CalMethod.Publish
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '5: Post notification of an event. Used primarily as a method of advertising the existence of an event.'
-  example: []
+  summary: "\n5: Post notification of an event. Used primarily as a method of advertising the existence of an event.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Publish = 5
+    content: public const CalMethod Publish
     return:
       type: SuperOffice.Data.CalMethod
-    content.vb: >-
-      <EnumMember>
-
-      Publish = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Publish As CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.CalMethod.Refresh
   commentId: F:SuperOffice.Data.CalMethod.Refresh
   id: Refresh
@@ -246,26 +260,24 @@ items:
   nameWithType: CalMethod.Refresh
   fullName: SuperOffice.Data.CalMethod.Refresh
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "6: A request is sent to an 'Organizer' by an 'Attendee' asking for the latest version of an event to be resent to the requester."
-  example: []
+  summary: "\n6: A request is sent to an &apos;Organizer&apos; by an &apos;Attendee&apos; asking for the latest version of an event to be resent to the requester.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Refresh = 6
+    content: public const CalMethod Refresh
     return:
       type: SuperOffice.Data.CalMethod
-    content.vb: >-
-      <EnumMember>
-
-      Refresh = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Refresh As CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.CalMethod.Reply
   commentId: F:SuperOffice.Data.CalMethod.Reply
   id: Reply
@@ -277,26 +289,24 @@ items:
   nameWithType: CalMethod.Reply
   fullName: SuperOffice.Data.CalMethod.Reply
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "7: Reply to an event request. Clients may set their status ('partstat') to ACCEPTED, DECLINED, TENTATIVE, or DELEGATED."
-  example: []
+  summary: "\n7: Reply to an event request. Clients may set their status (&apos;partstat&apos;) to ACCEPTED, DECLINED, TENTATIVE, or DELEGATED.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Reply = 7
+    content: public const CalMethod Reply
     return:
       type: SuperOffice.Data.CalMethod
-    content.vb: >-
-      <EnumMember>
-
-      Reply = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Reply As CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.CalMethod.Request
   commentId: F:SuperOffice.Data.CalMethod.Request
   id: Request
@@ -308,300 +318,115 @@ items:
   nameWithType: CalMethod.Request
   fullName: SuperOffice.Data.CalMethod.Request
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: "8: Make a request for an event. This is an explicit invitation to one or more 'Attendees'. Event Requests are also used to update or change an existing event. Clients that cannot handle REQUEST may degrade the event to view it as an PUBLISH."
-  example: []
+  summary: "\n8: Make a request for an event. This is an explicit invitation to one or more &apos;Attendees&apos;. Event Requests are also used to update or change an existing event. Clients that cannot handle REQUEST may degrade the event to view it as an PUBLISH.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Request = 8
+    content: public const CalMethod Request
     return:
       type: SuperOffice.Data.CalMethod
-    content.vb: >-
-      <EnumMember>
-
-      Request = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Request As CalMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.CalMethod.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<CalMethod, To>(CalMethod)
-  nameWithType: EnumUtil.MapEnums<CalMethod, To>(CalMethod)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.CalMethod, To>(SuperOffice.Data.CalMethod)
-  nameWithType.vb: EnumUtil.MapEnums(Of CalMethod, To)(CalMethod)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.CalMethod, To)(SuperOffice.Data.CalMethod)
-  name.vb: MapEnums(Of CalMethod, To)(CalMethod)
+  name: MapEnums<CalMethod, To>()
+  nameWithType: EnumUtil.MapEnums<CalMethod, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.CalMethod, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CalMethod, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.CalMethod, To)()
+  name.vb: MapEnums(Of CalMethod, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.CalMethod)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CalMethod, To>
+    nameWithType: EnumUtil.MapEnums<CalMethod, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.CalMethod, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.CalMethod
-    name: CalMethod
-    isExternal: true
-    href: SuperOffice.Data.CalMethod.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.CalMethod
-    name: CalMethod
-    isExternal: true
-    href: SuperOffice.Data.CalMethod.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.CalMethod)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CalMethod, To)
+    nameWithType: EnumUtil.MapEnums(Of CalMethod, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.CalMethod, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.CalMethod
-    name: CalMethod
-    isExternal: true
-    href: SuperOffice.Data.CalMethod.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.CalMethod
-    name: CalMethod
-    isExternal: true
-    href: SuperOffice.Data.CalMethod.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.CalMethod.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<CalMethod, To>(CalMethod)
-  nameWithType: Converters.MapEnums<CalMethod, To>(CalMethod)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.CalMethod, To>(SuperOffice.Data.CalMethod)
-  nameWithType.vb: Converters.MapEnums(Of CalMethod, To)(CalMethod)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.CalMethod, To)(SuperOffice.Data.CalMethod)
-  name.vb: MapEnums(Of CalMethod, To)(CalMethod)
+  name: MapEnums<CalMethod, To>()
+  nameWithType: Converters.MapEnums<CalMethod, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.CalMethod, To>()
+  nameWithType.vb: Converters.MapEnums(Of CalMethod, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.CalMethod, To)()
+  name.vb: MapEnums(Of CalMethod, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.CalMethod)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CalMethod, To>
+    nameWithType: Converters.MapEnums<CalMethod, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.CalMethod, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.CalMethod
-    name: CalMethod
-    isExternal: true
-    href: SuperOffice.Data.CalMethod.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.CalMethod
-    name: CalMethod
-    isExternal: true
-    href: SuperOffice.Data.CalMethod.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.CalMethod)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CalMethod, To)
+    nameWithType: Converters.MapEnums(Of CalMethod, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.CalMethod, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.CalMethod
-    name: CalMethod
-    isExternal: true
-    href: SuperOffice.Data.CalMethod.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.CalMethod
-    name: CalMethod
-    isExternal: true
-    href: SuperOffice.Data.CalMethod.html
-  - name: )
-- uid: SuperOffice.Data.CalMethod.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.CalMethod)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<CalMethod>(CalMethod, CalMethod)
-  nameWithType: ObjectExtensions.AssignByReflection<CalMethod>(CalMethod, CalMethod)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.CalMethod>(SuperOffice.Data.CalMethod, SuperOffice.Data.CalMethod)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CalMethod)(CalMethod, CalMethod)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.CalMethod)(SuperOffice.Data.CalMethod, SuperOffice.Data.CalMethod)
-  name.vb: AssignByReflection(Of CalMethod)(CalMethod, CalMethod)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.CalMethod,SuperOffice.Data.CalMethod)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.CalMethod
-    name: CalMethod
-    isExternal: true
-    href: SuperOffice.Data.CalMethod.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.CalMethod
-    name: CalMethod
-    isExternal: true
-    href: SuperOffice.Data.CalMethod.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.CalMethod
-    name: CalMethod
-    isExternal: true
-    href: SuperOffice.Data.CalMethod.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.CalMethod,SuperOffice.Data.CalMethod)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.CalMethod
-    name: CalMethod
-    isExternal: true
-    href: SuperOffice.Data.CalMethod.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.CalMethod
-    name: CalMethod
-    isExternal: true
-    href: SuperOffice.Data.CalMethod.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.CalMethod
-    name: CalMethod
-    isExternal: true
-    href: SuperOffice.Data.CalMethod.html
-  - name: )
-- uid: SuperOffice.Data.CalMethod.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<CalMethod>(CalMethod)
-  nameWithType: ObjectExtensions.GraphCopy<CalMethod>(CalMethod)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.CalMethod>(SuperOffice.Data.CalMethod)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of CalMethod)(CalMethod)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.CalMethod)(SuperOffice.Data.CalMethod)
-  name.vb: GraphCopy(Of CalMethod)(CalMethod)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.CalMethod)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.CalMethod
-    name: CalMethod
-    isExternal: true
-    href: SuperOffice.Data.CalMethod.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.CalMethod
-    name: CalMethod
-    isExternal: true
-    href: SuperOffice.Data.CalMethod.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.CalMethod)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.CalMethod
-    name: CalMethod
-    isExternal: true
-    href: SuperOffice.Data.CalMethod.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.CalMethod
-    name: CalMethod
-    isExternal: true
-    href: SuperOffice.Data.CalMethod.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -610,45 +435,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -657,222 +480,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.CalMethod
   commentId: T:SuperOffice.Data.CalMethod
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.CalMethod.html
   name: CalMethod
   nameWithType: CalMethod
   fullName: SuperOffice.Data.CalMethod

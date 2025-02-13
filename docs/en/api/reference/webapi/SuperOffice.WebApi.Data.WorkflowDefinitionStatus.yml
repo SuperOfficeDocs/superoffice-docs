@@ -9,24 +9,64 @@ items:
   - SuperOffice.WebApi.Data.WorkflowDefinitionStatus.Paused
   - SuperOffice.WebApi.Data.WorkflowDefinitionStatus.Running
   - SuperOffice.WebApi.Data.WorkflowDefinitionStatus.Stopped
+  - SuperOffice.WebApi.Data.WorkflowDefinitionStatus.value__
   langs:
   - csharp
   - vb
   name: WorkflowDefinitionStatus
   nameWithType: WorkflowDefinitionStatus
   fullName: SuperOffice.WebApi.Data.WorkflowDefinitionStatus
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Workflow definition status
-
-    This Enum is used by:  workflow.status
-  example: []
+  summary: "\nWorkflow definition status\nThis Enum is used by:  workflow.status\n"
   syntax:
-    content: 'public enum WorkflowDefinitionStatus : short'
-    content.vb: Public Enum WorkflowDefinitionStatus As Short
+    content: 'public sealed class WorkflowDefinitionStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class WorkflowDefinitionStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowDefinitionStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.WorkflowDefinitionStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.WorkflowDefinitionStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowDefinitionStatus.value__
+  fullName: SuperOffice.WebApi.Data.WorkflowDefinitionStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.WorkflowDefinitionStatus.None
   commentId: F:SuperOffice.WebApi.Data.WorkflowDefinitionStatus.None
   id: None
@@ -38,26 +78,24 @@ items:
   nameWithType: WorkflowDefinitionStatus.None
   fullName: SuperOffice.WebApi.Data.WorkflowDefinitionStatus.None
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: None'
-  example: []
+  summary: "\n0: None\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const WorkflowDefinitionStatus None
     return:
       type: SuperOffice.WebApi.Data.WorkflowDefinitionStatus
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As WorkflowDefinitionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowDefinitionStatus.Stopped
   commentId: F:SuperOffice.WebApi.Data.WorkflowDefinitionStatus.Stopped
   id: Stopped
@@ -69,26 +107,24 @@ items:
   nameWithType: WorkflowDefinitionStatus.Stopped
   fullName: SuperOffice.WebApi.Data.WorkflowDefinitionStatus.Stopped
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: Stopped'
-  example: []
+  summary: "\n1: Stopped\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Stopped = 1
+    content: public const WorkflowDefinitionStatus Stopped
     return:
       type: SuperOffice.WebApi.Data.WorkflowDefinitionStatus
-    content.vb: >-
-      <EnumMember>
-
-      Stopped = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Stopped As WorkflowDefinitionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowDefinitionStatus.Paused
   commentId: F:SuperOffice.WebApi.Data.WorkflowDefinitionStatus.Paused
   id: Paused
@@ -100,26 +136,24 @@ items:
   nameWithType: WorkflowDefinitionStatus.Paused
   fullName: SuperOffice.WebApi.Data.WorkflowDefinitionStatus.Paused
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: Paused'
-  example: []
+  summary: "\n2: Paused\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Paused = 2
+    content: public const WorkflowDefinitionStatus Paused
     return:
       type: SuperOffice.WebApi.Data.WorkflowDefinitionStatus
-    content.vb: >-
-      <EnumMember>
-
-      Paused = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Paused As WorkflowDefinitionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowDefinitionStatus.Running
   commentId: F:SuperOffice.WebApi.Data.WorkflowDefinitionStatus.Running
   id: Running
@@ -131,69 +165,55 @@ items:
   nameWithType: WorkflowDefinitionStatus.Running
   fullName: SuperOffice.WebApi.Data.WorkflowDefinitionStatus.Running
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: Running'
-  example: []
+  summary: "\n3: Running\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Running = 3
+    content: public const WorkflowDefinitionStatus Running
     return:
       type: SuperOffice.WebApi.Data.WorkflowDefinitionStatus
-    content.vb: >-
-      <EnumMember>
-
-      Running = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Running As WorkflowDefinitionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.WorkflowDefinitionStatus
   commentId: T:SuperOffice.WebApi.Data.WorkflowDefinitionStatus
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowDefinitionStatus.html
   name: WorkflowDefinitionStatus
   nameWithType: WorkflowDefinitionStatus
   fullName: SuperOffice.WebApi.Data.WorkflowDefinitionStatus

@@ -24,25 +24,20 @@ items:
   nameWithType: FormSubmissionEntity
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for FormSubmissionEntity.
-
-    Content of a Form submission
+  summary: "\nCarrier object for FormSubmissionEntity.\nContent of a Form submission    \n"
   example:
-  - >-
-    Get FormSubmissionEntity 123 using the WebApi client:
-
-    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
-
-    var agent = new MarketingAgent(configuration);
-
-    var formSubmissionEntity = agent.GetFormSubmissionEntity( 123 );</code></pre>
+  - "\nGet FormSubmissionEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new MarketingAgent(configuration);\nvar formSubmissionEntity = agent.GetFormSubmissionEntity( 123 );</code></pre>\n"
   syntax:
     content: 'public class FormSubmissionEntity : Carrier'
-    content.vb: Public Class FormSubmissionEntity Inherits Carrier
+    content.vb: >-
+      Public Class FormSubmissionEntity
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.MarketingAgent
     commentId: T:SuperOffice.WebApi.Agents.MarketingAgent
@@ -52,13 +47,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.#ctor
   commentId: M:SuperOffice.WebApi.Data.FormSubmissionEntity.#ctor
   id: '#ctor'
@@ -70,18 +64,21 @@ items:
   nameWithType: FormSubmissionEntity.FormSubmissionEntity()
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.FormSubmissionEntity()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public FormSubmissionEntity()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.FormSubmissionEntity.#ctor*
-  nameWithType.vb: FormSubmissionEntity.New()
-  fullName.vb: SuperOffice.WebApi.Data.FormSubmissionEntity.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.FormSubmissionId
   commentId: P:SuperOffice.WebApi.Data.FormSubmissionEntity.FormSubmissionId
   id: FormSubmissionId
@@ -93,11 +90,13 @@ items:
   nameWithType: FormSubmissionEntity.FormSubmissionId
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.FormSubmissionId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int FormSubmissionId { get; set; }
     parameters: []
@@ -105,6 +104,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property FormSubmissionId As Integer
   overload: SuperOffice.WebApi.Data.FormSubmissionEntity.FormSubmissionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.FormId
   commentId: P:SuperOffice.WebApi.Data.FormSubmissionEntity.FormId
   id: FormId
@@ -116,11 +123,13 @@ items:
   nameWithType: FormSubmissionEntity.FormId
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.FormId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The id of the parent form.
-  example: []
+  summary: "\nThe id of the parent form.\n"
   syntax:
     content: public virtual int FormId { get; set; }
     parameters: []
@@ -128,6 +137,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property FormId As Integer
   overload: SuperOffice.WebApi.Data.FormSubmissionEntity.FormId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.WhenSubmitted
   commentId: P:SuperOffice.WebApi.Data.FormSubmissionEntity.WhenSubmitted
   id: WhenSubmitted
@@ -139,18 +156,28 @@ items:
   nameWithType: FormSubmissionEntity.WhenSubmitted
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.WhenSubmitted
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The time of the submit.
-  example: []
+  summary: "\nThe time of the submit.\n"
   syntax:
     content: public virtual DateTime WhenSubmitted { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property WhenSubmitted As Date
+    content.vb: Public Overridable Property WhenSubmitted As DateTime
   overload: SuperOffice.WebApi.Data.FormSubmissionEntity.WhenSubmitted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.ContactId
   commentId: P:SuperOffice.WebApi.Data.FormSubmissionEntity.ContactId
   id: ContactId
@@ -162,11 +189,13 @@ items:
   nameWithType: FormSubmissionEntity.ContactId
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.ContactId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The optional id of the contact of the person who submitted.
-  example: []
+  summary: "\nThe optional id of the contact of the person who submitted.\n"
   syntax:
     content: public virtual int ContactId { get; set; }
     parameters: []
@@ -174,6 +203,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ContactId As Integer
   overload: SuperOffice.WebApi.Data.FormSubmissionEntity.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.PersonId
   commentId: P:SuperOffice.WebApi.Data.FormSubmissionEntity.PersonId
   id: PersonId
@@ -185,11 +222,13 @@ items:
   nameWithType: FormSubmissionEntity.PersonId
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.PersonId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The optional id of the person who submitted.
-  example: []
+  summary: "\nThe optional id of the person who submitted.\n"
   syntax:
     content: public virtual int PersonId { get; set; }
     parameters: []
@@ -197,6 +236,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property PersonId As Integer
   overload: SuperOffice.WebApi.Data.FormSubmissionEntity.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.EmailAddress
   commentId: P:SuperOffice.WebApi.Data.FormSubmissionEntity.EmailAddress
   id: EmailAddress
@@ -208,11 +255,13 @@ items:
   nameWithType: FormSubmissionEntity.EmailAddress
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.EmailAddress
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The email address of the person who submitted
-  example: []
+  summary: "\nThe email address of the person who submitted\n"
   syntax:
     content: public virtual string EmailAddress { get; set; }
     parameters: []
@@ -220,6 +269,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property EmailAddress As String
   overload: SuperOffice.WebApi.Data.FormSubmissionEntity.EmailAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.ResponseShipmentAddrId
   commentId: P:SuperOffice.WebApi.Data.FormSubmissionEntity.ResponseShipmentAddrId
   id: ResponseShipmentAddrId
@@ -231,11 +288,13 @@ items:
   nameWithType: FormSubmissionEntity.ResponseShipmentAddrId
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.ResponseShipmentAddrId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The id of the s_shipment_addr that is the response mail
-  example: []
+  summary: "\nThe id of the s_shipment_addr that is the response mail\n"
   syntax:
     content: public virtual int ResponseShipmentAddrId { get; set; }
     parameters: []
@@ -243,6 +302,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ResponseShipmentAddrId As Integer
   overload: SuperOffice.WebApi.Data.FormSubmissionEntity.ResponseShipmentAddrId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.Response
   commentId: P:SuperOffice.WebApi.Data.FormSubmissionEntity.Response
   id: Response
@@ -254,11 +321,13 @@ items:
   nameWithType: FormSubmissionEntity.Response
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.Response
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The JSON-formatted response from this form
-  example: []
+  summary: "\nThe JSON-formatted response from this form\n"
   syntax:
     content: public virtual string Response { get; set; }
     parameters: []
@@ -266,6 +335,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Response As String
   overload: SuperOffice.WebApi.Data.FormSubmissionEntity.Response*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.Status_String
   commentId: P:SuperOffice.WebApi.Data.FormSubmissionEntity.Status_String
   id: Status_String
@@ -277,36 +354,29 @@ items:
   nameWithType: FormSubmissionEntity.Status_String
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.Status_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    What is the status of this submission
-
-    Raw string enum value.
-  example: []
+  summary: "\nWhat is the status of this submission\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("Status")]
-
-      public string Status_String { get; set; }
+    content: public string Status_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("Status")>
-
-      Public Property Status_String As String
+    content.vb: Public Property Status_String As String
   overload: SuperOffice.WebApi.Data.FormSubmissionEntity.Status_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.FormSubmissionEntity.Status
     commentId: P:SuperOffice.WebApi.Data.FormSubmissionEntity.Status
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Status
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.Status
   commentId: P:SuperOffice.WebApi.Data.FormSubmissionEntity.Status
   id: Status
@@ -318,34 +388,29 @@ items:
   nameWithType: FormSubmissionEntity.Status
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.Status
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    What is the status of this submission
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nWhat is the status of this submission\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public FormSubmissionStatus? Status { get; set; }
+    content: public Nullable<FormSubmissionStatus> Status { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.FormSubmissionStatus}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property Status As FormSubmissionStatus?
+    content.vb: Public Property Status As Nullable(Of FormSubmissionStatus)
   overload: SuperOffice.WebApi.Data.FormSubmissionEntity.Status*
   seealso:
   - linkId: SuperOffice.WebApi.Data.FormSubmissionEntity.Status_String
     commentId: P:SuperOffice.WebApi.Data.FormSubmissionEntity.Status_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.ProcessingLog
   commentId: P:SuperOffice.WebApi.Data.FormSubmissionEntity.ProcessingLog
   id: ProcessingLog
@@ -357,11 +422,13 @@ items:
   nameWithType: FormSubmissionEntity.ProcessingLog
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.ProcessingLog
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: A log of what happened during processing
-  example: []
+  summary: "\nA log of what happened during processing\n"
   syntax:
     content: public virtual string ProcessingLog { get; set; }
     parameters: []
@@ -369,67 +436,32 @@ items:
       type: System.String
     content.vb: Public Overridable Property ProcessingLog As String
   overload: SuperOffice.WebApi.Data.FormSubmissionEntity.ProcessingLog*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.MarketingAgent
-  commentId: T:SuperOffice.WebApi.Agents.MarketingAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.MarketingAgent.html
-  name: MarketingAgent
-  nameWithType: MarketingAgent
-  fullName: SuperOffice.WebApi.Agents.MarketingAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -437,7 +469,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -445,250 +476,30 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.MarketingAgent
+  commentId: T:SuperOffice.WebApi.Agents.MarketingAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: MarketingAgent
+  nameWithType: MarketingAgent
+  fullName: SuperOffice.WebApi.Agents.MarketingAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.FormSubmissionEntity.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.FormSubmissionEntity.html#SuperOffice_WebApi_Data_FormSubmissionEntity__ctor
   name: FormSubmissionEntity
   nameWithType: FormSubmissionEntity.FormSubmissionEntity
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.FormSubmissionEntity
-  nameWithType.vb: FormSubmissionEntity.New
-  fullName.vb: SuperOffice.WebApi.Data.FormSubmissionEntity.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.FormSubmissionId*
   commentId: Overload:SuperOffice.WebApi.Data.FormSubmissionEntity.FormSubmissionId
   isExternal: true
-  href: SuperOffice.WebApi.Data.FormSubmissionEntity.html#SuperOffice_WebApi_Data_FormSubmissionEntity_FormSubmissionId
   name: FormSubmissionId
   nameWithType: FormSubmissionEntity.FormSubmissionId
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.FormSubmissionId
@@ -696,56 +507,41 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.FormId*
   commentId: Overload:SuperOffice.WebApi.Data.FormSubmissionEntity.FormId
   isExternal: true
-  href: SuperOffice.WebApi.Data.FormSubmissionEntity.html#SuperOffice_WebApi_Data_FormSubmissionEntity_FormId
   name: FormId
   nameWithType: FormSubmissionEntity.FormId
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.FormId
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.WhenSubmitted*
   commentId: Overload:SuperOffice.WebApi.Data.FormSubmissionEntity.WhenSubmitted
   isExternal: true
-  href: SuperOffice.WebApi.Data.FormSubmissionEntity.html#SuperOffice_WebApi_Data_FormSubmissionEntity_WhenSubmitted
   name: WhenSubmitted
   nameWithType: FormSubmissionEntity.WhenSubmitted
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.WhenSubmitted
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.ContactId*
   commentId: Overload:SuperOffice.WebApi.Data.FormSubmissionEntity.ContactId
   isExternal: true
-  href: SuperOffice.WebApi.Data.FormSubmissionEntity.html#SuperOffice_WebApi_Data_FormSubmissionEntity_ContactId
   name: ContactId
   nameWithType: FormSubmissionEntity.ContactId
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.ContactId
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.PersonId*
   commentId: Overload:SuperOffice.WebApi.Data.FormSubmissionEntity.PersonId
   isExternal: true
-  href: SuperOffice.WebApi.Data.FormSubmissionEntity.html#SuperOffice_WebApi_Data_FormSubmissionEntity_PersonId
   name: PersonId
   nameWithType: FormSubmissionEntity.PersonId
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.PersonId
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.EmailAddress*
   commentId: Overload:SuperOffice.WebApi.Data.FormSubmissionEntity.EmailAddress
   isExternal: true
-  href: SuperOffice.WebApi.Data.FormSubmissionEntity.html#SuperOffice_WebApi_Data_FormSubmissionEntity_EmailAddress
   name: EmailAddress
   nameWithType: FormSubmissionEntity.EmailAddress
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.EmailAddress
@@ -753,107 +549,123 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.ResponseShipmentAddrId*
   commentId: Overload:SuperOffice.WebApi.Data.FormSubmissionEntity.ResponseShipmentAddrId
   isExternal: true
-  href: SuperOffice.WebApi.Data.FormSubmissionEntity.html#SuperOffice_WebApi_Data_FormSubmissionEntity_ResponseShipmentAddrId
   name: ResponseShipmentAddrId
   nameWithType: FormSubmissionEntity.ResponseShipmentAddrId
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.ResponseShipmentAddrId
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.Response*
   commentId: Overload:SuperOffice.WebApi.Data.FormSubmissionEntity.Response
   isExternal: true
-  href: SuperOffice.WebApi.Data.FormSubmissionEntity.html#SuperOffice_WebApi_Data_FormSubmissionEntity_Response
   name: Response
   nameWithType: FormSubmissionEntity.Response
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.Response
-- uid: SuperOffice.WebApi.Data.FormSubmissionEntity.Status
-  commentId: P:SuperOffice.WebApi.Data.FormSubmissionEntity.Status
-  isExternal: true
-  href: SuperOffice.WebApi.Data.FormSubmissionEntity.html#SuperOffice_WebApi_Data_FormSubmissionEntity_Status
-  name: Status
-  nameWithType: FormSubmissionEntity.Status
-  fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.Status
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.Status_String*
   commentId: Overload:SuperOffice.WebApi.Data.FormSubmissionEntity.Status_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.FormSubmissionEntity.html#SuperOffice_WebApi_Data_FormSubmissionEntity_Status_String
   name: Status_String
   nameWithType: FormSubmissionEntity.Status_String
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.Status_String
-- uid: SuperOffice.WebApi.Data.FormSubmissionEntity.Status_String
-  commentId: P:SuperOffice.WebApi.Data.FormSubmissionEntity.Status_String
+- uid: SuperOffice.WebApi.Data.FormSubmissionEntity.Status
+  commentId: P:SuperOffice.WebApi.Data.FormSubmissionEntity.Status
   isExternal: true
-  href: SuperOffice.WebApi.Data.FormSubmissionEntity.html#SuperOffice_WebApi_Data_FormSubmissionEntity_Status_String
-  name: Status_String
-  nameWithType: FormSubmissionEntity.Status_String
-  fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.Status_String
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.Status*
   commentId: Overload:SuperOffice.WebApi.Data.FormSubmissionEntity.Status
   isExternal: true
-  href: SuperOffice.WebApi.Data.FormSubmissionEntity.html#SuperOffice_WebApi_Data_FormSubmissionEntity_Status
   name: Status
   nameWithType: FormSubmissionEntity.Status
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.Status
-- uid: System.Nullable{SuperOffice.WebApi.Data.FormSubmissionStatus}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.FormSubmissionStatus}
-  parent: System
-  definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.FormSubmissionStatus.html
-  name: FormSubmissionStatus?
-  nameWithType: FormSubmissionStatus?
-  fullName: SuperOffice.WebApi.Data.FormSubmissionStatus?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    isExternal: true
-    href: SuperOffice.WebApi.Data.FormSubmissionStatus.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    isExternal: true
-    href: SuperOffice.WebApi.Data.FormSubmissionStatus.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
+- uid: SuperOffice.WebApi.Data.FormSubmissionEntity.Status_String
+  commentId: P:SuperOffice.WebApi.Data.FormSubmissionEntity.Status_String
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+- uid: System.Nullable{SuperOffice.WebApi.Data.FormSubmissionStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.FormSubmissionStatus}'
+  definition: System.Nullable`1
+  name: Nullable<FormSubmissionStatus>
+  nameWithType: Nullable<FormSubmissionStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.FormSubmissionStatus>
+  nameWithType.vb: Nullable(Of FormSubmissionStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.FormSubmissionStatus)
+  name.vb: Nullable(Of FormSubmissionStatus)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.FormSubmissionStatus
+    name: FormSubmissionStatus
+    nameWithType: FormSubmissionStatus
+    fullName: SuperOffice.WebApi.Data.FormSubmissionStatus
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.FormSubmissionStatus
+    name: FormSubmissionStatus
+    nameWithType: FormSubmissionStatus
+    fullName: SuperOffice.WebApi.Data.FormSubmissionStatus
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.FormSubmissionEntity.ProcessingLog*
   commentId: Overload:SuperOffice.WebApi.Data.FormSubmissionEntity.ProcessingLog
   isExternal: true
-  href: SuperOffice.WebApi.Data.FormSubmissionEntity.html#SuperOffice_WebApi_Data_FormSubmissionEntity_ProcessingLog
   name: ProcessingLog
   nameWithType: FormSubmissionEntity.ProcessingLog
   fullName: SuperOffice.WebApi.Data.FormSubmissionEntity.ProcessingLog

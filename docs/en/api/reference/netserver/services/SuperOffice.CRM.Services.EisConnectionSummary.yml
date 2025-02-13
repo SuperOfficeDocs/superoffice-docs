@@ -20,33 +20,26 @@ items:
   nameWithType: EisConnectionSummary
   fullName: SuperOffice.CRM.Services.EisConnectionSummary
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Carrier object for EisConnectionSummary.
-
-    Services for the EisConnectionSummary Carrier is available from the <xref href="SuperOffice.CRM.Services.IErpSyncAgent?text=ErpSync+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nCarrier object for EisConnectionSummary.\nServices for the EisConnectionSummary Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IErpSyncAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class EisConnectionSummary : Carrier
+    content: 'public class EisConnectionSummary : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class EisConnectionSummary Inherits Carrier
+      Public Class EisConnectionSummary
+          Inherits Carrier
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.EisConnectionSummary.#ctor
   commentId: M:SuperOffice.CRM.Services.EisConnectionSummary.#ctor
   id: '#ctor'
@@ -58,18 +51,21 @@ items:
   nameWithType: EisConnectionSummary.EisConnectionSummary()
   fullName: SuperOffice.CRM.Services.EisConnectionSummary.EisConnectionSummary()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public EisConnectionSummary()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.EisConnectionSummary.#ctor*
-  nameWithType.vb: EisConnectionSummary.New()
-  fullName.vb: SuperOffice.CRM.Services.EisConnectionSummary.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EisConnectionSummary.ToString
   commentId: M:SuperOffice.CRM.Services.EisConnectionSummary.ToString
   id: ToString
@@ -81,18 +77,26 @@ items:
   nameWithType: EisConnectionSummary.ToString()
   fullName: SuperOffice.CRM.Services.EisConnectionSummary.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.EisConnectionSummary.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.EisConnectionSummary.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.EisConnectionSummary.ToString(System.String)
   id: ToString(System.String)
@@ -100,18 +104,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: EisConnectionSummary.ToString(string)
-  fullName: SuperOffice.CRM.Services.EisConnectionSummary.ToString(string)
+  name: ToString(String)
+  nameWithType: EisConnectionSummary.ToString(String)
+  fullName: SuperOffice.CRM.Services.EisConnectionSummary.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -123,9 +126,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.EisConnectionSummary.ToString*
-  nameWithType.vb: EisConnectionSummary.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.EisConnectionSummary.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EisConnectionSummary.DisplayName
   commentId: P:SuperOffice.CRM.Services.EisConnectionSummary.DisplayName
   id: DisplayName
@@ -137,28 +141,26 @@ items:
   nameWithType: EisConnectionSummary.DisplayName
   fullName: SuperOffice.CRM.Services.EisConnectionSummary.DisplayName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Connection name shown to user; multi-language support
-  example: []
+  summary: "\nConnection name shown to user; multi-language support\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string DisplayName { get; set; }
+    content: public string DisplayName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property DisplayName As String
+    content.vb: Public Property DisplayName As String
   overload: SuperOffice.CRM.Services.EisConnectionSummary.DisplayName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EisConnectionSummary.DisplayDescription
   commentId: P:SuperOffice.CRM.Services.EisConnectionSummary.DisplayDescription
   id: DisplayDescription
@@ -170,28 +172,26 @@ items:
   nameWithType: EisConnectionSummary.DisplayDescription
   fullName: SuperOffice.CRM.Services.EisConnectionSummary.DisplayDescription
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Tooltip/description shown to user; multi-language support
-  example: []
+  summary: "\nTooltip/description shown to user; multi-language support\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string DisplayDescription { get; set; }
+    content: public string DisplayDescription { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property DisplayDescription As String
+    content.vb: Public Property DisplayDescription As String
   overload: SuperOffice.CRM.Services.EisConnectionSummary.DisplayDescription*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EisConnectionSummary.Active
   commentId: P:SuperOffice.CRM.Services.EisConnectionSummary.Active
   id: Active
@@ -203,28 +203,26 @@ items:
   nameWithType: EisConnectionSummary.Active
   fullName: SuperOffice.CRM.Services.EisConnectionSummary.Active
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Is the connection currently active
-  example: []
+  summary: "\nIs the connection currently active\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public bool Active { get; set; }
+    content: public bool Active { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Property Active As Boolean
+    content.vb: Public Property Active As Boolean
   overload: SuperOffice.CRM.Services.EisConnectionSummary.Active*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EisConnectionSummary.Deleted
   commentId: P:SuperOffice.CRM.Services.EisConnectionSummary.Deleted
   id: Deleted
@@ -236,28 +234,26 @@ items:
   nameWithType: EisConnectionSummary.Deleted
   fullName: SuperOffice.CRM.Services.EisConnectionSummary.Deleted
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Is the connection deleted
-  example: []
+  summary: "\nIs the connection deleted\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public bool Deleted { get; set; }
+    content: public bool Deleted { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Property Deleted As Boolean
+    content.vb: Public Property Deleted As Boolean
   overload: SuperOffice.CRM.Services.EisConnectionSummary.Deleted*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.EisConnectionSummary.Actors
   commentId: P:SuperOffice.CRM.Services.EisConnectionSummary.Actors
   id: Actors
@@ -269,106 +265,42 @@ items:
   nameWithType: EisConnectionSummary.Actors
   fullName: SuperOffice.CRM.Services.EisConnectionSummary.Actors
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Summaries of the configuration of the actors configured for this connection
-  example: []
+  summary: "\nSummaries of the configuration of the actors configured for this connection\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public EisActorSummary[] Actors { get; set; }
+    content: public EisActorSummary[] Actors { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.EisActorSummary[]
-    content.vb: >-
-      <DataMember>
-
-      Public Property Actors As EisActorSummary()
+    content.vb: Public Property Actors As EisActorSummary()
   overload: SuperOffice.CRM.Services.EisConnectionSummary.Actors*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.Services.IErpSyncAgent
-  commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html
-  name: IErpSyncAgent
-  nameWithType: IErpSyncAgent
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.EisConnectionSummary.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.EisConnectionSummary.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.EisConnectionSummary.html#SuperOffice_CRM_Services_EisConnectionSummary__ctor
   name: EisConnectionSummary
   nameWithType: EisConnectionSummary.EisConnectionSummary
   fullName: SuperOffice.CRM.Services.EisConnectionSummary.EisConnectionSummary
-  nameWithType.vb: EisConnectionSummary.New
-  fullName.vb: SuperOffice.CRM.Services.EisConnectionSummary.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.EisConnectionSummary.ToString*
   commentId: Overload:SuperOffice.CRM.Services.EisConnectionSummary.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.EisConnectionSummary.html#SuperOffice_CRM_Services_EisConnectionSummary_ToString
   name: ToString
   nameWithType: EisConnectionSummary.ToString
   fullName: SuperOffice.CRM.Services.EisConnectionSummary.ToString
@@ -376,31 +308,30 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.EisConnectionSummary.DisplayName*
   commentId: Overload:SuperOffice.CRM.Services.EisConnectionSummary.DisplayName
   isExternal: true
-  href: SuperOffice.CRM.Services.EisConnectionSummary.html#SuperOffice_CRM_Services_EisConnectionSummary_DisplayName
   name: DisplayName
   nameWithType: EisConnectionSummary.DisplayName
   fullName: SuperOffice.CRM.Services.EisConnectionSummary.DisplayName
 - uid: SuperOffice.CRM.Services.EisConnectionSummary.DisplayDescription*
   commentId: Overload:SuperOffice.CRM.Services.EisConnectionSummary.DisplayDescription
   isExternal: true
-  href: SuperOffice.CRM.Services.EisConnectionSummary.html#SuperOffice_CRM_Services_EisConnectionSummary_DisplayDescription
   name: DisplayDescription
   nameWithType: EisConnectionSummary.DisplayDescription
   fullName: SuperOffice.CRM.Services.EisConnectionSummary.DisplayDescription
 - uid: SuperOffice.CRM.Services.EisConnectionSummary.Active*
   commentId: Overload:SuperOffice.CRM.Services.EisConnectionSummary.Active
   isExternal: true
-  href: SuperOffice.CRM.Services.EisConnectionSummary.html#SuperOffice_CRM_Services_EisConnectionSummary_Active
   name: Active
   nameWithType: EisConnectionSummary.Active
   fullName: SuperOffice.CRM.Services.EisConnectionSummary.Active
@@ -408,30 +339,23 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.EisConnectionSummary.Deleted*
   commentId: Overload:SuperOffice.CRM.Services.EisConnectionSummary.Deleted
   isExternal: true
-  href: SuperOffice.CRM.Services.EisConnectionSummary.html#SuperOffice_CRM_Services_EisConnectionSummary_Deleted
   name: Deleted
   nameWithType: EisConnectionSummary.Deleted
   fullName: SuperOffice.CRM.Services.EisConnectionSummary.Deleted
 - uid: SuperOffice.CRM.Services.EisConnectionSummary.Actors*
   commentId: Overload:SuperOffice.CRM.Services.EisConnectionSummary.Actors
   isExternal: true
-  href: SuperOffice.CRM.Services.EisConnectionSummary.html#SuperOffice_CRM_Services_EisConnectionSummary_Actors
   name: Actors
   nameWithType: EisConnectionSummary.Actors
   fullName: SuperOffice.CRM.Services.EisConnectionSummary.Actors
 - uid: SuperOffice.CRM.Services.EisActorSummary[]
   isExternal: true
-  href: SuperOffice.CRM.Services.EisActorSummary.html
   name: EisActorSummary[]
   nameWithType: EisActorSummary[]
   fullName: SuperOffice.CRM.Services.EisActorSummary[]
@@ -441,14 +365,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.EisActorSummary
     name: EisActorSummary
+    nameWithType: EisActorSummary
+    fullName: SuperOffice.CRM.Services.EisActorSummary
     isExternal: true
-    href: SuperOffice.CRM.Services.EisActorSummary.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.EisActorSummary
     name: EisActorSummary
+    nameWithType: EisActorSummary
+    fullName: SuperOffice.CRM.Services.EisActorSummary
     isExternal: true
-    href: SuperOffice.CRM.Services.EisActorSummary.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

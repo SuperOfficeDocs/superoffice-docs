@@ -17,17 +17,14 @@ items:
   nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>
   fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Owner of the thread processing the queue on behalf of AsyncChunkedProcessedQueue.
-  remarks: >-
-    The handler is designed to be used with AsyncChunkedProcessedQueue and 
-
-    uses the QueueAsyncChunkProcessor to perform the actuall processing on 
-
-    the queue.  All implementations need a default parameter-less constructor.
-  example: []
+  summary: "\nOwner of the thread processing the queue on behalf of <see cref=\"!:AsyncChunkedProcessedQueue\"></see>.\n"
+  remarks: "\nThe handler is designed to be used with <see cref=\"!:AsyncChunkedProcessedQueue\"></see> and \nuses the <see cref=\"!:QueueAsyncChunkProcessor\"></see> to perform the actuall processing on \nthe queue.  All implementations need a default parameter-less constructor.\n"
   syntax:
     content: 'public class QueueAsyncChunkHandler<TWorkItem, TChunkProcessor> : AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>> where TChunkProcessor : QueueAsyncChunkProcessor<TWorkItem>, new()'
     typeParameters:
@@ -35,7 +32,9 @@ items:
       description: The type that is in the queue
     - id: TChunkProcessor
       description: The processor that processes a chunk of the queue.
-    content.vb: Public Class QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor As {QueueAsyncChunkProcessor(Of TWorkItem), New}) Inherits AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem))
+    content.vb: >-
+      Public Class QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor As {QueueAsyncChunkProcessor(Of TWorkItem), New})
+          Inherits AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem))
   inheritance:
   - System.Object
   - SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
@@ -50,19 +49,18 @@ items:
   - SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.WasSetupCalled
   - SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.HasWorkToDo
   - SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.ThreadName
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Threading.QueueAsyncChunkHandler`2.EnumUtil.MapEnums``2
-  - SuperOffice.Threading.QueueAsyncChunkHandler`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Threading.QueueAsyncChunkHandler`2.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.QueueAsyncChunkHandler{{TWorkItem},{TChunkProcessor}})
   - SuperOffice.Threading.QueueAsyncChunkHandler`2.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Threading.QueueAsyncChunkHandler`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   nameWithType.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
   fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor)
   name.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor)
 - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.#ctor
@@ -76,18 +74,23 @@ items:
   nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.QueueAsyncChunkHandler()
   fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.QueueAsyncChunkHandler()
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public QueueAsyncChunkHandler()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.Threading.QueueAsyncChunkHandler`2.#ctor*
-  nameWithType.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).New()
-  fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).New()
-  name.vb: New()
+  nameWithType.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).QueueAsyncChunkHandler()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).QueueAsyncChunkHandler()
 - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.ScheduleNewWork
   commentId: M:SuperOffice.Threading.QueueAsyncChunkHandler`2.ScheduleNewWork
   id: ScheduleNewWork
@@ -99,17 +102,25 @@ items:
   nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.ScheduleNewWork()
   fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.ScheduleNewWork()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Start the thread and start processing the chunk.
-  example: []
+  summary: "\nStart the thread and start processing the chunk.\n"
   syntax:
     content: protected override void ScheduleNewWork()
-    content.vb: Protected Overrides Sub ScheduleNewWork()
+    content.vb: Protected Overrides Sub ScheduleNewWork
   overridden: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.ScheduleNewWork
   overload: SuperOffice.Threading.QueueAsyncChunkHandler`2.ScheduleNewWork*
   nameWithType.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).ScheduleNewWork()
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
   fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).ScheduleNewWork()
 - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.ThreadDelegate(SuperOffice.Threading.AsyncContext,System.Object)
   commentId: M:SuperOffice.Threading.QueueAsyncChunkHandler`2.ThreadDelegate(SuperOffice.Threading.AsyncContext,System.Object)
@@ -118,15 +129,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ThreadDelegate(AsyncContext, object)
-  nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.ThreadDelegate(AsyncContext, object)
-  fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.ThreadDelegate(SuperOffice.Threading.AsyncContext, object)
+  name: ThreadDelegate(AsyncContext, Object)
+  nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.ThreadDelegate(AsyncContext, Object)
+  fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.ThreadDelegate(SuperOffice.Threading.AsyncContext, System.Object)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: The actual thread perform processing.
-  example: []
+  summary: "\nThe actual thread perform processing.\n"
   syntax:
     content: protected void ThreadDelegate(AsyncContext context, object argument)
     parameters:
@@ -139,8 +152,11 @@ items:
     content.vb: Protected Sub ThreadDelegate(context As AsyncContext, argument As Object)
   overload: SuperOffice.Threading.QueueAsyncChunkHandler`2.ThreadDelegate*
   nameWithType.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).ThreadDelegate(AsyncContext, Object)
-  fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).ThreadDelegate(SuperOffice.Threading.AsyncContext, Object)
-  name.vb: ThreadDelegate(AsyncContext, Object)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).ThreadDelegate(SuperOffice.Threading.AsyncContext, System.Object)
 - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.Enqueue(`0)
   commentId: M:SuperOffice.Threading.QueueAsyncChunkHandler`2.Enqueue(`0)
   id: Enqueue(`0)
@@ -152,11 +168,13 @@ items:
   nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.Enqueue(TWorkItem)
   fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.Enqueue(TWorkItem)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Add a work item to the queue for processing.
-  example: []
+  summary: "\nAdd a work item to the queue for processing.\n"
   syntax:
     content: public bool Enqueue(TWorkItem workItem)
     parameters:
@@ -169,6 +187,10 @@ items:
     content.vb: Public Function Enqueue(workItem As TWorkItem) As Boolean
   overload: SuperOffice.Threading.QueueAsyncChunkHandler`2.Enqueue*
   nameWithType.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).Enqueue(TWorkItem)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
   fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).Enqueue(TWorkItem)
 - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.QueueLength
   commentId: P:SuperOffice.Threading.QueueAsyncChunkHandler`2.QueueLength
@@ -181,11 +203,13 @@ items:
   nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.QueueLength
   fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.QueueLength
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Obtain the length of the queue
-  example: []
+  summary: "\nObtain the length of the queue\n"
   syntax:
     content: public int QueueLength { get; }
     parameters: []
@@ -194,51 +218,31 @@ items:
     content.vb: Public ReadOnly Property QueueLength As Integer
   overload: SuperOffice.Threading.QueueAsyncChunkHandler`2.QueueLength*
   nameWithType.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).QueueLength
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
   fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).QueueLength
 references:
 - uid: SuperOffice.Threading
   commentId: N:SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Threading
   nameWithType: SuperOffice.Threading
   fullName: SuperOffice.Threading
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Threading
-    name: Threading
-    isExternal: true
-    href: SuperOffice.Threading.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Threading
-    name: Threading
-    isExternal: true
-    href: SuperOffice.Threading.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
   commentId: T:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}
   parent: SuperOffice.Threading
   definition: SuperOffice.Threading.AsynchronousHandler`2
-  href: SuperOffice.Threading.AsynchronousHandler-2.html
   name: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>
   nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>
   fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>
@@ -248,70 +252,104 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2
     name: AsynchronousHandler
+    nameWithType: AsynchronousHandler
+    fullName: SuperOffice.Threading.AsynchronousHandler
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TChunkProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TChunkProcessor
+    fullName: TChunkProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Collections.Generic.Queue`1
     name: Queue
+    nameWithType: Queue
+    fullName: System.Collections.Generic.Queue
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.queue-1
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TWorkItem
+    nameWithType: TWorkItem
+    fullName: TWorkItem
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2
     name: AsynchronousHandler
+    nameWithType: AsynchronousHandler
+    fullName: SuperOffice.Threading.AsynchronousHandler
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TChunkProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TChunkProcessor
+    fullName: TChunkProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Collections.Generic.Queue`1
     name: Queue
+    nameWithType: Queue
+    fullName: System.Collections.Generic.Queue
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.queue-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TWorkItem
+    nameWithType: TWorkItem
+    fullName: TWorkItem
   - name: )
+    nameWithType: )
+    fullName: )
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.ToString
   commentId: M:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.ToString
   parent: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
   definition: SuperOffice.Threading.AsynchronousHandler`2.ToString
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ToString
   name: ToString()
   nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.ToString()
   fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.ToString()
   nameWithType.vb: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).ToString()
   fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).ToString()
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.ToString
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
     name: ToString
+    nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.ToString
+    fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.ToString
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.ToString
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
     name: ToString
+    nameWithType: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).ToString
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).ToString
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.OnSetup(System.Collections.Generic.Queue{{TWorkItem}})
   commentId: M:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.OnSetup(System.Collections.Generic.Queue{`0})
   parent: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
   definition: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_OnSetup__1_
   name: OnSetup(Queue<TWorkItem>)
   nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.OnSetup(Queue<TWorkItem>)
   fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.OnSetup(System.Collections.Generic.Queue<TWorkItem>)
@@ -319,40 +357,61 @@ references:
   fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).OnSetup(System.Collections.Generic.Queue(Of TWorkItem))
   name.vb: OnSetup(Queue(Of TWorkItem))
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.OnSetup(System.Collections.Generic.Queue{`0})
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
     name: OnSetup
+    nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.OnSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.OnSetup
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_OnSetup__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Collections.Generic.Queue`1
     name: Queue
+    nameWithType: Queue
+    fullName: System.Collections.Generic.Queue
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.queue-1
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TWorkItem
+    nameWithType: TWorkItem
+    fullName: TWorkItem
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.OnSetup(System.Collections.Generic.Queue{`0})
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
     name: OnSetup
+    nameWithType: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).OnSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).OnSetup
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_OnSetup__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Collections.Generic.Queue`1
     name: Queue
+    nameWithType: Queue
+    fullName: System.Collections.Generic.Queue
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.queue-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TWorkItem
+    nameWithType: TWorkItem
+    fullName: TWorkItem
   - name: )
+    nameWithType: )
+    fullName: )
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.SynchronousSetup(System.Collections.Generic.Queue{{TWorkItem}})
   commentId: M:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.SynchronousSetup(System.Collections.Generic.Queue{`0})
   parent: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
   definition: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_SynchronousSetup__1_
   name: SynchronousSetup(Queue<TWorkItem>)
   nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.SynchronousSetup(Queue<TWorkItem>)
   fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.SynchronousSetup(System.Collections.Generic.Queue<TWorkItem>)
@@ -360,112 +419,160 @@ references:
   fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).SynchronousSetup(System.Collections.Generic.Queue(Of TWorkItem))
   name.vb: SynchronousSetup(Queue(Of TWorkItem))
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.SynchronousSetup(System.Collections.Generic.Queue{`0})
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
     name: SynchronousSetup
+    nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.SynchronousSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.SynchronousSetup
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_SynchronousSetup__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Collections.Generic.Queue`1
     name: Queue
+    nameWithType: Queue
+    fullName: System.Collections.Generic.Queue
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.queue-1
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TWorkItem
+    nameWithType: TWorkItem
+    fullName: TWorkItem
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.SynchronousSetup(System.Collections.Generic.Queue{`0})
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
     name: SynchronousSetup
+    nameWithType: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).SynchronousSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).SynchronousSetup
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_SynchronousSetup__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Collections.Generic.Queue`1
     name: Queue
+    nameWithType: Queue
+    fullName: System.Collections.Generic.Queue
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.queue-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TWorkItem
+    nameWithType: TWorkItem
+    fullName: TWorkItem
   - name: )
+    nameWithType: )
+    fullName: )
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.AsynchronousOperation
   commentId: M:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.AsynchronousOperation
   parent: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
   definition: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_AsynchronousOperation
   name: AsynchronousOperation()
   nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.AsynchronousOperation()
   fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.AsynchronousOperation()
   nameWithType.vb: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).AsynchronousOperation()
   fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).AsynchronousOperation()
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.AsynchronousOperation
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
     name: AsynchronousOperation
+    nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.AsynchronousOperation
+    fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.AsynchronousOperation
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_AsynchronousOperation
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.AsynchronousOperation
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
     name: AsynchronousOperation
+    nameWithType: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).AsynchronousOperation
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).AsynchronousOperation
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_AsynchronousOperation
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.ScheduleNewWork
   commentId: M:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.ScheduleNewWork
   parent: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
   definition: SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ScheduleNewWork
   name: ScheduleNewWork()
   nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.ScheduleNewWork()
   fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.ScheduleNewWork()
   nameWithType.vb: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).ScheduleNewWork()
   fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).ScheduleNewWork()
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.ScheduleNewWork
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
     name: ScheduleNewWork
+    nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.ScheduleNewWork
+    fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.ScheduleNewWork
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ScheduleNewWork
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.ScheduleNewWork
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
     name: ScheduleNewWork
+    nameWithType: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).ScheduleNewWork
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).ScheduleNewWork
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ScheduleNewWork
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.ExecuteWork
   commentId: M:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.ExecuteWork
   parent: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
   definition: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ExecuteWork
   name: ExecuteWork()
   nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.ExecuteWork()
   fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.ExecuteWork()
   nameWithType.vb: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).ExecuteWork()
   fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).ExecuteWork()
   spec.csharp:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.ExecuteWork
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
     name: ExecuteWork
+    nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.ExecuteWork
+    fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.ExecuteWork
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ExecuteWork
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.ExecuteWork
+  - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
     name: ExecuteWork
+    nameWithType: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).ExecuteWork
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).ExecuteWork
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ExecuteWork
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}.Processor
   commentId: P:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.Processor
   parent: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
   definition: SuperOffice.Threading.AsynchronousHandler`2.Processor
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_Processor
   name: Processor
   nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.Processor
   fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.Processor
@@ -475,7 +582,6 @@ references:
   commentId: P:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.WasSetupCalled
   parent: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
   definition: SuperOffice.Threading.AsynchronousHandler`2.WasSetupCalled
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_WasSetupCalled
   name: WasSetupCalled
   nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.WasSetupCalled
   fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.WasSetupCalled
@@ -485,7 +591,6 @@ references:
   commentId: P:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.HasWorkToDo
   parent: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
   definition: SuperOffice.Threading.AsynchronousHandler`2.HasWorkToDo
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_HasWorkToDo
   name: HasWorkToDo
   nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.HasWorkToDo
   fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.HasWorkToDo
@@ -495,580 +600,196 @@ references:
   commentId: P:SuperOffice.Threading.AsynchronousHandler{`1,System.Collections.Generic.Queue{`0}}.ThreadName
   parent: SuperOffice.Threading.AsynchronousHandler{{TChunkProcessor},System.Collections.Generic.Queue{{TWorkItem}}}
   definition: SuperOffice.Threading.AsynchronousHandler`2.ThreadName
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ThreadName
   name: ThreadName
   nameWithType: AsynchronousHandler<TChunkProcessor, Queue<TWorkItem>>.ThreadName
   fullName: SuperOffice.Threading.AsynchronousHandler<TChunkProcessor, System.Collections.Generic.Queue<TWorkItem>>.ThreadName
   nameWithType.vb: AsynchronousHandler(Of TChunkProcessor, Queue(Of TWorkItem)).ThreadName
   fullName.vb: SuperOffice.Threading.AsynchronousHandler(Of TChunkProcessor, System.Collections.Generic.Queue(Of TWorkItem)).ThreadName
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>(QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>)
-  nameWithType: EnumUtil.MapEnums<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>(QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>)
-  fullName: EnumUtil.MapEnums<SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>(SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>)
-  nameWithType.vb: EnumUtil.MapEnums(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)(QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)(SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
-  name.vb: MapEnums(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)(QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
+  name: MapEnums<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>()
+  nameWithType: EnumUtil.MapEnums<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)()
+  name.vb: MapEnums(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Threading.QueueAsyncChunkHandler{`0,`1})
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>
+    nameWithType: EnumUtil.MapEnums<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
-    name: QueueAsyncChunkHandler
-    isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
-  - name: <
-  - name: TWorkItem
-  - name: ','
-  - name: " "
-  - name: TChunkProcessor
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
-    name: QueueAsyncChunkHandler
-    isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
-  - name: <
-  - name: TWorkItem
-  - name: ','
-  - name: " "
-  - name: TChunkProcessor
-  - name: '>'
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Threading.QueueAsyncChunkHandler{`0,`1})
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)
+    nameWithType: EnumUtil.MapEnums(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
-    name: QueueAsyncChunkHandler
-    isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TWorkItem
-  - name: ','
-  - name: " "
-  - name: TChunkProcessor
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
-    name: QueueAsyncChunkHandler
-    isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TWorkItem
-  - name: ','
-  - name: " "
-  - name: TChunkProcessor
-  - name: )
-  - name: )
-- uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>(QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>)
-  nameWithType: Converters.MapEnums<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>(QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>(SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>)
-  nameWithType.vb: Converters.MapEnums(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)(QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)(SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
-  name.vb: MapEnums(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)(QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Threading.QueueAsyncChunkHandler{`0,`1})
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
-    name: QueueAsyncChunkHandler
-    isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
-  - name: <
-  - name: TWorkItem
-  - name: ','
-  - name: " "
-  - name: TChunkProcessor
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
-    name: QueueAsyncChunkHandler
-    isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
-  - name: <
-  - name: TWorkItem
-  - name: ','
-  - name: " "
-  - name: TChunkProcessor
-  - name: '>'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Threading.QueueAsyncChunkHandler{`0,`1})
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
-    name: QueueAsyncChunkHandler
-    isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TWorkItem
-  - name: ','
-  - name: " "
-  - name: TChunkProcessor
-  - name: )
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
-    name: QueueAsyncChunkHandler
-    isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TWorkItem
-  - name: ','
-  - name: " "
-  - name: TChunkProcessor
-  - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.QueueAsyncChunkHandler{{TWorkItem},{TChunkProcessor}})
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>(QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>)
-  nameWithType: ObjectExtensions.AssignByReflection<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>(QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>(SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))(QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))(SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
-  name.vb: AssignByReflection(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))(QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
+  name: AssignByReflection<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>(QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>)
+  nameWithType: ObjectExtensions.AssignByReflection<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>(QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>(SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))(QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))(SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
+  name.vb: AssignByReflection(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))(QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.QueueAsyncChunkHandler{`0,`1},SuperOffice.Threading.QueueAsyncChunkHandler{`0,`1})
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>
+    nameWithType: ObjectExtensions.AssignByReflection<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
-    name: QueueAsyncChunkHandler
-    isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
-  - name: <
-  - name: TWorkItem
-  - name: ','
-  - name: " "
-  - name: TChunkProcessor
-  - name: '>'
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
     name: QueueAsyncChunkHandler
+    nameWithType: QueueAsyncChunkHandler
+    fullName: SuperOffice.Threading.QueueAsyncChunkHandler
     isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TWorkItem
-  - name: ','
-  - name: " "
+    nameWithType: TWorkItem
+    fullName: TWorkItem
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TChunkProcessor
+    nameWithType: TChunkProcessor
+    fullName: TChunkProcessor
   - name: '>'
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
-    name: QueueAsyncChunkHandler
-    isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
-  - name: <
-  - name: TWorkItem
-  - name: ','
-  - name: " "
-  - name: TChunkProcessor
-  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Threading.QueueAsyncChunkHandler{`0,`1},SuperOffice.Threading.QueueAsyncChunkHandler{`0,`1})
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
+    nameWithType: ObjectExtensions.AssignByReflection(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
     name: QueueAsyncChunkHandler
+    nameWithType: QueueAsyncChunkHandler
+    fullName: SuperOffice.Threading.QueueAsyncChunkHandler
     isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TWorkItem
-  - name: ','
-  - name: " "
+    nameWithType: TWorkItem
+    fullName: TWorkItem
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TChunkProcessor
+    nameWithType: TChunkProcessor
+    fullName: TChunkProcessor
   - name: )
+    nameWithType: )
+    fullName: )
   - name: )
-  - name: (
-  - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
-    name: QueueAsyncChunkHandler
-    isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TWorkItem
-  - name: ','
-  - name: " "
-  - name: TChunkProcessor
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
-    name: QueueAsyncChunkHandler
-    isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TWorkItem
-  - name: ','
-  - name: " "
-  - name: TChunkProcessor
-  - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>(QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>)
-  nameWithType: ObjectExtensions.GraphCopy<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>(QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>(SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))(QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))(SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
-  name.vb: GraphCopy(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))(QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
+  name: GraphCopy<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>()
+  nameWithType: ObjectExtensions.GraphCopy<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))()
+  name.vb: GraphCopy(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Threading.QueueAsyncChunkHandler{`0,`1})
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>
+    nameWithType: ObjectExtensions.GraphCopy<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
-    name: QueueAsyncChunkHandler
-    isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
-  - name: <
-  - name: TWorkItem
-  - name: ','
-  - name: " "
-  - name: TChunkProcessor
-  - name: '>'
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
-    name: QueueAsyncChunkHandler
-    isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
-  - name: <
-  - name: TWorkItem
-  - name: ','
-  - name: " "
-  - name: TChunkProcessor
-  - name: '>'
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Threading.QueueAsyncChunkHandler{`0,`1})
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
+    nameWithType: ObjectExtensions.GraphCopy(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor))
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
-    name: QueueAsyncChunkHandler
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>()
+  nameWithType: Converters.MapEnums<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>()
+  nameWithType.vb: Converters.MapEnums(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)()
+  name.vb: MapEnums(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>
+    nameWithType: Converters.MapEnums<QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>, To>
     isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
   - name: (
-  - name: Of
-  - name: " "
-  - name: TWorkItem
-  - name: ','
-  - name: " "
-  - name: TChunkProcessor
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: )
-  - name: (
-  - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
-    name: QueueAsyncChunkHandler
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)
+    nameWithType: Converters.MapEnums(Of QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor), To)
     isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
   - name: (
-  - name: Of
-  - name: " "
-  - name: TWorkItem
-  - name: ','
-  - name: " "
-  - name: TChunkProcessor
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Threading.AsynchronousHandler`2
   commentId: T:SuperOffice.Threading.AsynchronousHandler`2
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html
   name: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
@@ -1078,31 +799,48 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2
     name: AsynchronousHandler
+    nameWithType: AsynchronousHandler
+    fullName: SuperOffice.Threading.AsynchronousHandler
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2
     name: AsynchronousHandler
+    nameWithType: AsynchronousHandler
+    fullName: SuperOffice.Threading.AsynchronousHandler
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
   commentId: M:SuperOffice.Threading.AsynchronousHandler`2.ToString
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ToString
   name: ToString()
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString()
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString()
@@ -1111,21 +849,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
     name: ToString
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ToString
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.ToString
     name: ToString
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ToString
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ToString
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
   commentId: M:SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_OnSetup__1_
   name: OnSetup(TAsynchronousArgument)
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup(TAsynchronousArgument)
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup(TAsynchronousArgument)
@@ -1134,23 +881,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
     name: OnSetup
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.OnSetup
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_OnSetup__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.OnSetup(`1)
     name: OnSetup
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).OnSetup
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_OnSetup__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
   commentId: M:SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_SynchronousSetup__1_
   name: SynchronousSetup(TAsynchronousArgument)
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup(TAsynchronousArgument)
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup(TAsynchronousArgument)
@@ -1159,23 +919,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
     name: SynchronousSetup
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.SynchronousSetup
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_SynchronousSetup__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.SynchronousSetup(`1)
     name: SynchronousSetup
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).SynchronousSetup
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_SynchronousSetup__1_
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
   commentId: M:SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_AsynchronousOperation
   name: AsynchronousOperation()
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation()
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation()
@@ -1184,21 +957,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
     name: AsynchronousOperation
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.AsynchronousOperation
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_AsynchronousOperation
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.AsynchronousOperation
     name: AsynchronousOperation
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).AsynchronousOperation
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_AsynchronousOperation
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
   commentId: M:SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ScheduleNewWork
   name: ScheduleNewWork()
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork()
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork()
@@ -1207,21 +989,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
     name: ScheduleNewWork
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ScheduleNewWork
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ScheduleNewWork
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.ScheduleNewWork
     name: ScheduleNewWork
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ScheduleNewWork
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ScheduleNewWork
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ScheduleNewWork
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
   commentId: M:SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ExecuteWork
   name: ExecuteWork()
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork()
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork()
@@ -1230,21 +1021,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
     name: ExecuteWork
+    nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork
+    fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ExecuteWork
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ExecuteWork
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2.ExecuteWork
     name: ExecuteWork
+    nameWithType: AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ExecuteWork
+    fullName: SuperOffice.Threading.AsynchronousHandler(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).ExecuteWork
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ExecuteWork
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2.Processor
   commentId: P:SuperOffice.Threading.AsynchronousHandler`2.Processor
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_Processor
   name: Processor
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.Processor
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.Processor
@@ -1253,7 +1053,6 @@ references:
 - uid: SuperOffice.Threading.AsynchronousHandler`2.WasSetupCalled
   commentId: P:SuperOffice.Threading.AsynchronousHandler`2.WasSetupCalled
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_WasSetupCalled
   name: WasSetupCalled
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WasSetupCalled
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WasSetupCalled
@@ -1262,7 +1061,6 @@ references:
 - uid: SuperOffice.Threading.AsynchronousHandler`2.HasWorkToDo
   commentId: P:SuperOffice.Threading.AsynchronousHandler`2.HasWorkToDo
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_HasWorkToDo
   name: HasWorkToDo
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.HasWorkToDo
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.HasWorkToDo
@@ -1271,7 +1069,6 @@ references:
 - uid: SuperOffice.Threading.AsynchronousHandler`2.ThreadName
   commentId: P:SuperOffice.Threading.AsynchronousHandler`2.ThreadName
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html#SuperOffice_Threading_AsynchronousHandler_2_ThreadName
   name: ThreadName
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ThreadName
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>.ThreadName
@@ -1280,7 +1077,6 @@ references:
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1289,93 +1085,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1384,46 +1130,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1432,106 +1188,103 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.#ctor*
   commentId: Overload:SuperOffice.Threading.QueueAsyncChunkHandler`2.#ctor
   isExternal: true
-  href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html#SuperOffice_Threading_QueueAsyncChunkHandler_2__ctor
   name: QueueAsyncChunkHandler
   nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.QueueAsyncChunkHandler
   fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.QueueAsyncChunkHandler
-  nameWithType.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).New
-  fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).New
-  name.vb: New
+  nameWithType.vb: QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).QueueAsyncChunkHandler
+  fullName.vb: SuperOffice.Threading.QueueAsyncChunkHandler(Of TWorkItem, TChunkProcessor).QueueAsyncChunkHandler
 - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.ScheduleNewWork*
   commentId: Overload:SuperOffice.Threading.QueueAsyncChunkHandler`2.ScheduleNewWork
   isExternal: true
-  href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html#SuperOffice_Threading_QueueAsyncChunkHandler_2_ScheduleNewWork
   name: ScheduleNewWork
   nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.ScheduleNewWork
   fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.ScheduleNewWork
@@ -1540,7 +1293,6 @@ references:
 - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.ThreadDelegate*
   commentId: Overload:SuperOffice.Threading.QueueAsyncChunkHandler`2.ThreadDelegate
   isExternal: true
-  href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html#SuperOffice_Threading_QueueAsyncChunkHandler_2_ThreadDelegate_SuperOffice_Threading_AsyncContext_System_Object_
   name: ThreadDelegate
   nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.ThreadDelegate
   fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.ThreadDelegate
@@ -1550,14 +1302,12 @@ references:
   commentId: T:SuperOffice.Threading.AsyncContext
   parent: SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html
   name: AsyncContext
   nameWithType: AsyncContext
   fullName: SuperOffice.Threading.AsyncContext
 - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.Enqueue*
   commentId: Overload:SuperOffice.Threading.QueueAsyncChunkHandler`2.Enqueue
   isExternal: true
-  href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html#SuperOffice_Threading_QueueAsyncChunkHandler_2_Enqueue__0_
   name: Enqueue
   nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.Enqueue
   fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.Enqueue
@@ -1573,13 +1323,9 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: TWorkItem
   name: TWorkItem
   nameWithType: TWorkItem
@@ -1587,7 +1333,6 @@ references:
 - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2.QueueLength*
   commentId: Overload:SuperOffice.Threading.QueueAsyncChunkHandler`2.QueueLength
   isExternal: true
-  href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html#SuperOffice_Threading_QueueAsyncChunkHandler_2_QueueLength
   name: QueueLength
   nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.QueueLength
   fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>.QueueLength
@@ -1597,10 +1342,6 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -17,46 +17,7 @@ items:
 references:
 - uid: System.Linq.SupportForNetstandard2_0.LinqExtensions
   commentId: T:System.Linq.SupportForNetstandard2_0.LinqExtensions
-  parent: System.Linq.SupportForNetstandard2_0
   isExternal: true
-  href: System.Linq.SupportForNetstandard2_0.LinqExtensions.html
   name: LinqExtensions
   nameWithType: LinqExtensions
   fullName: System.Linq.SupportForNetstandard2_0.LinqExtensions
-- uid: System.Linq.SupportForNetstandard2_0
-  commentId: N:System.Linq.SupportForNetstandard2_0
-  isExternal: true
-  href: System.html
-  name: System.Linq.SupportForNetstandard2_0
-  nameWithType: System.Linq.SupportForNetstandard2_0
-  fullName: System.Linq.SupportForNetstandard2_0
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: System.html
-  - name: .
-  - uid: System.Linq
-    name: Linq
-    isExternal: true
-    href: System.Linq.html
-  - name: .
-  - uid: System.Linq.SupportForNetstandard2_0
-    name: SupportForNetstandard2_0
-    isExternal: true
-    href: System.Linq.SupportForNetstandard2_0.html
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: System.html
-  - name: .
-  - uid: System.Linq
-    name: Linq
-    isExternal: true
-    href: System.Linq.html
-  - name: .
-  - uid: System.Linq.SupportForNetstandard2_0
-    name: SupportForNetstandard2_0
-    isExternal: true
-    href: System.Linq.SupportForNetstandard2_0.html

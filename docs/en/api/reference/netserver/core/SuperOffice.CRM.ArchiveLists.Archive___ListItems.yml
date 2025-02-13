@@ -18,7 +18,6 @@ references:
 - uid: SuperOffice.CRM.ArchiveLists.Archive___ListItems.TemplateLanguageProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.Archive___ListItems.TemplateLanguageProvider
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Archive___ListItems.TemplateLanguageProvider.html
   name: TemplateLanguageProvider
   nameWithType: TemplateLanguageProvider
   fullName: SuperOffice.CRM.ArchiveLists.Archive___ListItems.TemplateLanguageProvider

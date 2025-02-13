@@ -25,41 +25,33 @@ items:
   nameWithType: ExtraFieldsRecordData
   fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
-
-    to a row from the extra_fields table.
-  remarks: >-
-    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.ExtraFieldsRow" data-throw-if-not-resolved="false"></xref> object when
-
-    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
-
-    since they carry the corresponding <xref href="SuperOffice.CRM.Data.ExtraFieldsTableInfo" data-throw-if-not-resolved="false"></xref> object, which
-
-    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
-  example: []
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the extra_fields table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.ExtraFieldsRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.ExtraFieldsTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class ExtraFieldsRecordData
-    content.vb: Public Class ExtraFieldsRecordData
+    content: 'public class ExtraFieldsRecordData : Object'
+    content.vb: >-
+      Public Class ExtraFieldsRecordData
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.ExtraFieldsRecordData.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Rows.ExtraFieldsRecordData.SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.ExtraFieldsRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.ExtraFieldsRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
   - SuperOffice.CRM.Rows.ExtraFieldsRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.ExtraFieldsRecordData.SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ExtraFieldsRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.ExtraFieldsId
   commentId: F:SuperOffice.CRM.Rows.ExtraFieldsRecordData.ExtraFieldsId
   id: ExtraFieldsId
@@ -71,16 +63,22 @@ items:
   nameWithType: ExtraFieldsRecordData.ExtraFieldsId
   fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData.ExtraFieldsId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The primary key (auto-incremented)
-  example: []
+  summary: "\nThe primary key (auto-incremented) \n"
   syntax:
     content: public int ExtraFieldsId
     return:
       type: System.Int32
     content.vb: Public ExtraFieldsId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.Domain
   commentId: F:SuperOffice.CRM.Rows.ExtraFieldsRecordData.Domain
   id: Domain
@@ -92,16 +90,22 @@ items:
   nameWithType: ExtraFieldsRecordData.Domain
   fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData.Domain
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Enum indicating for what table this is an extra field (ticket, customer, company, etc).
-  example: []
+  summary: "\nEnum indicating for what table this is an extra field (ticket, customer, company, etc). \n"
   syntax:
     content: public short Domain
     return:
       type: System.Int16
     content.vb: Public Domain As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.ExtraTable
   commentId: F:SuperOffice.CRM.Rows.ExtraFieldsRecordData.ExtraTable
   id: ExtraTable
@@ -113,16 +117,22 @@ items:
   nameWithType: ExtraFieldsRecordData.ExtraTable
   fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData.ExtraTable
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The reference to the extra_table if this table is related to an extra_table. NULL or -1 if not set.
-  example: []
+  summary: "\nThe reference to the extra_table if this table is related to an extra_table. NULL or -1 if not set. \n"
   syntax:
     content: public int ExtraTable
     return:
       type: System.Int32
     content.vb: Public ExtraTable As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.TargetExtraTable
   commentId: F:SuperOffice.CRM.Rows.ExtraFieldsRecordData.TargetExtraTable
   id: TargetExtraTable
@@ -134,16 +144,22 @@ items:
   nameWithType: ExtraFieldsRecordData.TargetExtraTable
   fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData.TargetExtraTable
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: If this extra field is a extra table relation, then this is the id of the extra table this entry *points* to.
-  example: []
+  summary: "\nIf this extra field is a extra table relation, then this is the id of the extra table this entry *points* to. \n"
   syntax:
     content: public int TargetExtraTable
     return:
       type: System.Int32
     content.vb: Public TargetExtraTable As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.FieldName
   commentId: F:SuperOffice.CRM.Rows.ExtraFieldsRecordData.FieldName
   id: FieldName
@@ -155,16 +171,22 @@ items:
   nameWithType: ExtraFieldsRecordData.FieldName
   fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData.FieldName
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The database name of this extra field.
-  example: []
+  summary: "\nThe database name of this extra field. \n"
   syntax:
     content: public string FieldName
     return:
       type: System.String
     content.vb: Public FieldName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.Name
   commentId: F:SuperOffice.CRM.Rows.ExtraFieldsRecordData.Name
   id: Name
@@ -176,16 +198,22 @@ items:
   nameWithType: ExtraFieldsRecordData.Name
   fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData.Name
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The name of this extra field.
-  example: []
+  summary: "\nThe name of this extra field. \n"
   syntax:
     content: public string Name
     return:
       type: System.String
     content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.DefaultValue
   commentId: F:SuperOffice.CRM.Rows.ExtraFieldsRecordData.DefaultValue
   id: DefaultValue
@@ -197,16 +225,22 @@ items:
   nameWithType: ExtraFieldsRecordData.DefaultValue
   fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData.DefaultValue
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The default value of this extra field.
-  example: []
+  summary: "\nThe default value of this extra field. \n"
   syntax:
     content: public string DefaultValue
     return:
       type: System.String
     content.vb: Public DefaultValue As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.Type
   commentId: F:SuperOffice.CRM.Rows.ExtraFieldsRecordData.Type
   id: Type
@@ -218,16 +252,22 @@ items:
   nameWithType: ExtraFieldsRecordData.Type
   fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData.Type
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Enum indicating the type for this extra field (string, int, date, etc).
-  example: []
+  summary: "\nEnum indicating the type for this extra field (string, int, date, etc). \n"
   syntax:
     content: public short Type
     return:
       type: System.Int16
     content.vb: Public Type As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.Flags
   commentId: F:SuperOffice.CRM.Rows.ExtraFieldsRecordData.Flags
   id: Flags
@@ -239,16 +279,22 @@ items:
   nameWithType: ExtraFieldsRecordData.Flags
   fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData.Flags
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: A bitmask for flags for this extra field.
-  example: []
+  summary: "\nA bitmask for flags for this extra field. \n"
   syntax:
     content: public int Flags
     return:
       type: System.Int32
     content.vb: Public Flags As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.Params
   commentId: F:SuperOffice.CRM.Rows.ExtraFieldsRecordData.Params
   id: Params
@@ -260,16 +306,22 @@ items:
   nameWithType: ExtraFieldsRecordData.Params
   fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData.Params
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: A string contaning various parameters for this extra field, stored in an arbitrary format.
-  example: []
+  summary: "\nA string contaning various parameters for this extra field, stored in an arbitrary format. \n"
   syntax:
     content: public string Params
     return:
       type: System.String
     content.vb: Public Params As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.OrderPos
   commentId: F:SuperOffice.CRM.Rows.ExtraFieldsRecordData.OrderPos
   id: OrderPos
@@ -281,16 +333,22 @@ items:
   nameWithType: ExtraFieldsRecordData.OrderPos
   fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData.OrderPos
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Used to order elements when listed.
-  example: []
+  summary: "\nUsed to order elements when listed. \n"
   syntax:
     content: public int OrderPos
     return:
       type: System.Int32
     content.vb: Public OrderPos As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.Description
   commentId: F:SuperOffice.CRM.Rows.ExtraFieldsRecordData.Description
   id: Description
@@ -302,16 +360,22 @@ items:
   nameWithType: ExtraFieldsRecordData.Description
   fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData.Description
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Optional description of what this field is used for.
-  example: []
+  summary: "\nOptional description of what this field is used for. \n"
   syntax:
     content: public string Description
     return:
       type: System.String
     content.vb: Public Description As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.ExtraFieldsRecordData.#ctor
   id: '#ctor'
@@ -323,590 +387,220 @@ items:
   nameWithType: ExtraFieldsRecordData.ExtraFieldsRecordData()
   fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData.ExtraFieldsRecordData()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public ExtraFieldsRecordData()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Rows.ExtraFieldsRecordData.#ctor*
-  nameWithType.vb: ExtraFieldsRecordData.New()
-  fullName.vb: SuperOffice.CRM.Rows.ExtraFieldsRecordData.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.Rows.ExtraFieldsRow
-  commentId: T:SuperOffice.CRM.Rows.ExtraFieldsRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.ExtraFieldsRow.html
-  name: ExtraFieldsRow
-  nameWithType: ExtraFieldsRow
-  fullName: SuperOffice.CRM.Rows.ExtraFieldsRow
-- uid: SuperOffice.CRM.Data.ExtraFieldsTableInfo
-  commentId: T:SuperOffice.CRM.Data.ExtraFieldsTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.ExtraFieldsTableInfo.html
-  name: ExtraFieldsTableInfo
-  nameWithType: ExtraFieldsTableInfo
-  fullName: SuperOffice.CRM.Data.ExtraFieldsTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ExtraFieldsRecordData, To>(ExtraFieldsRecordData)
-  nameWithType: EnumUtil.MapEnums<ExtraFieldsRecordData, To>(ExtraFieldsRecordData)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ExtraFieldsRecordData, To>(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-  nameWithType.vb: EnumUtil.MapEnums(Of ExtraFieldsRecordData, To)(ExtraFieldsRecordData)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ExtraFieldsRecordData, To)(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-  name.vb: MapEnums(Of ExtraFieldsRecordData, To)(ExtraFieldsRecordData)
+  name: MapEnums<ExtraFieldsRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<ExtraFieldsRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ExtraFieldsRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ExtraFieldsRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ExtraFieldsRecordData, To)()
+  name.vb: MapEnums(Of ExtraFieldsRecordData, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ExtraFieldsRecordData, To>
+    nameWithType: EnumUtil.MapEnums<ExtraFieldsRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ExtraFieldsRecordData, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    name: ExtraFieldsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    name: ExtraFieldsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ExtraFieldsRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of ExtraFieldsRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ExtraFieldsRecordData, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    name: ExtraFieldsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    name: ExtraFieldsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-  parent: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-  href: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.html#SuperOffice_CRM_Rows_ExtraFieldsRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_ExtraFieldsRecordData_
-  name: ToInsert(ExtraFieldsRecordData)
-  nameWithType: ExtraFieldsRecordDataExtensions.ToInsert(ExtraFieldsRecordData)
-  fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.html#SuperOffice_CRM_Rows_ExtraFieldsRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_ExtraFieldsRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    name: ExtraFieldsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.html#SuperOffice_CRM_Rows_ExtraFieldsRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_ExtraFieldsRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    name: ExtraFieldsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ExtraFieldsRecordData, To>(ExtraFieldsRecordData)
-  nameWithType: Converters.MapEnums<ExtraFieldsRecordData, To>(ExtraFieldsRecordData)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ExtraFieldsRecordData, To>(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-  nameWithType.vb: Converters.MapEnums(Of ExtraFieldsRecordData, To)(ExtraFieldsRecordData)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ExtraFieldsRecordData, To)(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-  name.vb: MapEnums(Of ExtraFieldsRecordData, To)(ExtraFieldsRecordData)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    name: ExtraFieldsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    name: ExtraFieldsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    name: ExtraFieldsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    name: ExtraFieldsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ExtraFieldsRecordData>(ExtraFieldsRecordData, ExtraFieldsRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<ExtraFieldsRecordData>(ExtraFieldsRecordData, ExtraFieldsRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ExtraFieldsRecordData>(SuperOffice.CRM.Rows.ExtraFieldsRecordData, SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ExtraFieldsRecordData)(ExtraFieldsRecordData, ExtraFieldsRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ExtraFieldsRecordData)(SuperOffice.CRM.Rows.ExtraFieldsRecordData, SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-  name.vb: AssignByReflection(Of ExtraFieldsRecordData)(ExtraFieldsRecordData, ExtraFieldsRecordData)
+  name: AssignByReflection<ExtraFieldsRecordData>(ExtraFieldsRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<ExtraFieldsRecordData>(ExtraFieldsRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ExtraFieldsRecordData>(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ExtraFieldsRecordData)(ExtraFieldsRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ExtraFieldsRecordData)(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
+  name.vb: AssignByReflection(Of ExtraFieldsRecordData)(ExtraFieldsRecordData)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ExtraFieldsRecordData,SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ExtraFieldsRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<ExtraFieldsRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ExtraFieldsRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    name: ExtraFieldsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
     name: ExtraFieldsRecordData
+    nameWithType: ExtraFieldsRecordData
+    fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    name: ExtraFieldsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ExtraFieldsRecordData,SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ExtraFieldsRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ExtraFieldsRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ExtraFieldsRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
     name: ExtraFieldsRecordData
+    nameWithType: ExtraFieldsRecordData
+    fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    name: ExtraFieldsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    name: ExtraFieldsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ExtraFieldsRecordData>(ExtraFieldsRecordData)
-  nameWithType: ObjectExtensions.GraphCopy<ExtraFieldsRecordData>(ExtraFieldsRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ExtraFieldsRecordData>(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ExtraFieldsRecordData)(ExtraFieldsRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ExtraFieldsRecordData)(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-  name.vb: GraphCopy(Of ExtraFieldsRecordData)(ExtraFieldsRecordData)
+  name: GraphCopy<ExtraFieldsRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<ExtraFieldsRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ExtraFieldsRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ExtraFieldsRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ExtraFieldsRecordData)()
+  name.vb: GraphCopy(Of ExtraFieldsRecordData)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ExtraFieldsRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<ExtraFieldsRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ExtraFieldsRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    name: ExtraFieldsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    name: ExtraFieldsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ExtraFieldsRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of ExtraFieldsRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ExtraFieldsRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    name: ExtraFieldsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    name: ExtraFieldsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Data
-  commentId: N:SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Data
-  nameWithType: SuperOffice.CRM.Data
-  fullName: SuperOffice.CRM.Data
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
+  parent: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
+  name: ToInsert()
+  nameWithType: ExtraFieldsRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert()
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ExtraFieldsRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ExtraFieldsRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ExtraFieldsRecordData, To>()
+  nameWithType: Converters.MapEnums<ExtraFieldsRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ExtraFieldsRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of ExtraFieldsRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ExtraFieldsRecordData, To)()
+  name.vb: MapEnums(Of ExtraFieldsRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ExtraFieldsRecordData, To>
+    nameWithType: Converters.MapEnums<ExtraFieldsRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ExtraFieldsRecordData, To>
     isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ExtraFieldsRecordData, To)
+    nameWithType: Converters.MapEnums(Of ExtraFieldsRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ExtraFieldsRecordData, To)
     isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -915,130 +609,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-  isExternal: true
-  href: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.html#SuperOffice_CRM_Rows_ExtraFieldsRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_ExtraFieldsRecordData_
-  name: ToInsert(ExtraFieldsRecordData)
-  nameWithType: ExtraFieldsRecordDataExtensions.ToInsert(ExtraFieldsRecordData)
-  fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.html#SuperOffice_CRM_Rows_ExtraFieldsRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_ExtraFieldsRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    name: ExtraFieldsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.html#SuperOffice_CRM_Rows_ExtraFieldsRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_ExtraFieldsRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
-    name: ExtraFieldsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions
-  commentId: T:SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.html
-  name: ExtraFieldsRecordDataExtensions
-  nameWithType: ExtraFieldsRecordDataExtensions
-  fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1047,46 +654,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1095,132 +712,163 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
+  commentId: M:SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: ToInsert(ExtraFieldsRecordData)
+  nameWithType: ExtraFieldsRecordDataExtensions.ToInsert(ExtraFieldsRecordData)
+  fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
+    name: ToInsert
+    nameWithType: ExtraFieldsRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
+    name: ExtraFieldsRecordData
+    nameWithType: ExtraFieldsRecordData
+    fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ExtraFieldsRecordData)
+    name: ToInsert
+    nameWithType: ExtraFieldsRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData
+    name: ExtraFieldsRecordData
+    nameWithType: ExtraFieldsRecordData
+    fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ExtraFieldsRecordDataExtensions
+  nameWithType: ExtraFieldsRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Rows.ExtraFieldsRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.ExtraFieldsRecordData.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Rows.ExtraFieldsRecordData.html#SuperOffice_CRM_Rows_ExtraFieldsRecordData__ctor
   name: ExtraFieldsRecordData
   nameWithType: ExtraFieldsRecordData.ExtraFieldsRecordData
   fullName: SuperOffice.CRM.Rows.ExtraFieldsRecordData.ExtraFieldsRecordData
-  nameWithType.vb: ExtraFieldsRecordData.New
-  fullName.vb: SuperOffice.CRM.Rows.ExtraFieldsRecordData.New
-  name.vb: New

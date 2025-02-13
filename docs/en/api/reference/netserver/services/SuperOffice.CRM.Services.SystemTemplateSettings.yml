@@ -36,27 +36,18 @@ items:
   nameWithType: SystemTemplateSettings
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    System template settings item
-
-    <p></p>
-
-    Carrier object for SystemTemplateSettings.
-
-    Services for the SystemTemplateSettings Carrier is available from the <xref href="SuperOffice.CRM.Services.ICustomerServiceAgent?text=CustomerService+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nSystem template settings item\n<p></p>\nCarrier object for SystemTemplateSettings.\nServices for the SystemTemplateSettings Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICustomerServiceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class SystemTemplateSettings : Carrier
+    content: 'public class SystemTemplateSettings : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class SystemTemplateSettings Inherits Carrier
+      Public Class SystemTemplateSettings
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.CustomerServiceAgent
     commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
@@ -64,14 +55,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.#ctor
   commentId: M:SuperOffice.CRM.Services.SystemTemplateSettings.#ctor
   id: '#ctor'
@@ -83,18 +72,21 @@ items:
   nameWithType: SystemTemplateSettings.SystemTemplateSettings()
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.SystemTemplateSettings()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public SystemTemplateSettings()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.#ctor*
-  nameWithType.vb: SystemTemplateSettings.New()
-  fullName.vb: SuperOffice.CRM.Services.SystemTemplateSettings.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.ToString
   commentId: M:SuperOffice.CRM.Services.SystemTemplateSettings.ToString
   id: ToString
@@ -106,18 +98,26 @@ items:
   nameWithType: SystemTemplateSettings.ToString()
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.SystemTemplateSettings.ToString(System.String)
   id: ToString(System.String)
@@ -125,18 +125,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: SystemTemplateSettings.ToString(string)
-  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.ToString(string)
+  name: ToString(String)
+  nameWithType: SystemTemplateSettings.ToString(String)
+  fullName: SuperOffice.CRM.Services.SystemTemplateSettings.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -148,9 +147,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.ToString*
-  nameWithType.vb: SystemTemplateSettings.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.SystemTemplateSettings.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerNewCustomerTemplateId
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.CustomerNewCustomerTemplateId
   id: CustomerNewCustomerTemplateId
@@ -162,28 +162,28 @@ items:
   nameWithType: SystemTemplateSettings.CustomerNewCustomerTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerNewCustomerTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Template for new contacts
-  example: []
+  summary: "\nTemplate for new contacts \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int CustomerNewCustomerTemplateId { get; set; }
+    content: public virtual int CustomerNewCustomerTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CustomerNewCustomerTemplateId As Integer
+    content.vb: Public Overridable Property CustomerNewCustomerTemplateId As Integer
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerNewCustomerTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerCustomerReplyTemplateId
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.CustomerCustomerReplyTemplateId
   id: CustomerCustomerReplyTemplateId
@@ -195,28 +195,28 @@ items:
   nameWithType: SystemTemplateSettings.CustomerCustomerReplyTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerCustomerReplyTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Template for auto-reply
-  example: []
+  summary: "\nTemplate for auto-reply \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int CustomerCustomerReplyTemplateId { get; set; }
+    content: public virtual int CustomerCustomerReplyTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CustomerCustomerReplyTemplateId As Integer
+    content.vb: Public Overridable Property CustomerCustomerReplyTemplateId As Integer
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerCustomerReplyTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerPasswordTemplateId
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.CustomerPasswordTemplateId
   id: CustomerPasswordTemplateId
@@ -228,28 +228,28 @@ items:
   nameWithType: SystemTemplateSettings.CustomerPasswordTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerPasswordTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Template for sending password to contacts
-  example: []
+  summary: "\nTemplate for sending password to contacts \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int CustomerPasswordTemplateId { get; set; }
+    content: public virtual int CustomerPasswordTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CustomerPasswordTemplateId As Integer
+    content.vb: Public Overridable Property CustomerPasswordTemplateId As Integer
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerPasswordTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerConfirmEmailTemplateId
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.CustomerConfirmEmailTemplateId
   id: CustomerConfirmEmailTemplateId
@@ -261,28 +261,28 @@ items:
   nameWithType: SystemTemplateSettings.CustomerConfirmEmailTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerConfirmEmailTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Template for sending confirmation e-mail to contacts
-  example: []
+  summary: "\nTemplate for sending confirmation e-mail to contacts \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int CustomerConfirmEmailTemplateId { get; set; }
+    content: public virtual int CustomerConfirmEmailTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CustomerConfirmEmailTemplateId As Integer
+    content.vb: Public Overridable Property CustomerConfirmEmailTemplateId As Integer
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerConfirmEmailTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerChatLogTemplateId
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.CustomerChatLogTemplateId
   id: CustomerChatLogTemplateId
@@ -294,28 +294,28 @@ items:
   nameWithType: SystemTemplateSettings.CustomerChatLogTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerChatLogTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Template for customer chat log
-  example: []
+  summary: "\nTemplate for customer chat log \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int CustomerChatLogTemplateId { get; set; }
+    content: public virtual int CustomerChatLogTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CustomerChatLogTemplateId As Integer
+    content.vb: Public Overridable Property CustomerChatLogTemplateId As Integer
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerChatLogTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.NewLinkTemplateId
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.NewLinkTemplateId
   id: NewLinkTemplateId
@@ -327,28 +327,28 @@ items:
   nameWithType: SystemTemplateSettings.NewLinkTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.NewLinkTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Template for new link
-  example: []
+  summary: "\nTemplate for new link \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int NewLinkTemplateId { get; set; }
+    content: public virtual int NewLinkTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property NewLinkTemplateId As Integer
+    content.vb: Public Overridable Property NewLinkTemplateId As Integer
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.NewLinkTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistNewMessageTemplateId
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.HotlistNewMessageTemplateId
   id: HotlistNewMessageTemplateId
@@ -360,28 +360,28 @@ items:
   nameWithType: SystemTemplateSettings.HotlistNewMessageTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistNewMessageTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Template for notification of a new message in the favourites list
-  example: []
+  summary: "\nTemplate for notification of a new message in the favourites list \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int HotlistNewMessageTemplateId { get; set; }
+    content: public virtual int HotlistNewMessageTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property HotlistNewMessageTemplateId As Integer
+    content.vb: Public Overridable Property HotlistNewMessageTemplateId As Integer
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistNewMessageTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketActivatedTemplateId
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketActivatedTemplateId
   id: HotlistTicketActivatedTemplateId
@@ -393,28 +393,28 @@ items:
   nameWithType: SystemTemplateSettings.HotlistTicketActivatedTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketActivatedTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Template for notification of a activated ticket in the favourites list
-  example: []
+  summary: "\nTemplate for notification of a activated ticket in the favourites list \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int HotlistTicketActivatedTemplateId { get; set; }
+    content: public virtual int HotlistTicketActivatedTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property HotlistTicketActivatedTemplateId As Integer
+    content.vb: Public Overridable Property HotlistTicketActivatedTemplateId As Integer
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketActivatedTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketAlarmTemplateId
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketAlarmTemplateId
   id: UserTicketAlarmTemplateId
@@ -426,28 +426,28 @@ items:
   nameWithType: SystemTemplateSettings.UserTicketAlarmTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketAlarmTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Template for notification of escalated request
-  example: []
+  summary: "\nTemplate for notification of escalated request \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int UserTicketAlarmTemplateId { get; set; }
+    content: public virtual int UserTicketAlarmTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property UserTicketAlarmTemplateId As Integer
+    content.vb: Public Overridable Property UserTicketAlarmTemplateId As Integer
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketAlarmTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketTakenOverTemplateId
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketTakenOverTemplateId
   id: HotlistTicketTakenOverTemplateId
@@ -459,28 +459,28 @@ items:
   nameWithType: SystemTemplateSettings.HotlistTicketTakenOverTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketTakenOverTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Template for notification of reassignment of a request in the favourites list
-  example: []
+  summary: "\nTemplate for notification of reassignment of a request in the favourites list \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int HotlistTicketTakenOverTemplateId { get; set; }
+    content: public virtual int HotlistTicketTakenOverTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property HotlistTicketTakenOverTemplateId As Integer
+    content.vb: Public Overridable Property HotlistTicketTakenOverTemplateId As Integer
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketTakenOverTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserActiveTicketsTemplateId
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.UserActiveTicketsTemplateId
   id: UserActiveTicketsTemplateId
@@ -492,28 +492,28 @@ items:
   nameWithType: SystemTemplateSettings.UserActiveTicketsTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserActiveTicketsTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Template for notification of open requests
-  example: []
+  summary: "\nTemplate for notification of open requests \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int UserActiveTicketsTemplateId { get; set; }
+    content: public virtual int UserActiveTicketsTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property UserActiveTicketsTemplateId As Integer
+    content.vb: Public Overridable Property UserActiveTicketsTemplateId As Integer
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.UserActiveTicketsTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserNewMessageTemplateId
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.UserNewMessageTemplateId
   id: UserNewMessageTemplateId
@@ -525,28 +525,28 @@ items:
   nameWithType: SystemTemplateSettings.UserNewMessageTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserNewMessageTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Template for notification of new message
-  example: []
+  summary: "\nTemplate for notification of new message \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int UserNewMessageTemplateId { get; set; }
+    content: public virtual int UserNewMessageTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property UserNewMessageTemplateId As Integer
+    content.vb: Public Overridable Property UserNewMessageTemplateId As Integer
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.UserNewMessageTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketActivatedTemplateId
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketActivatedTemplateId
   id: UserTicketActivatedTemplateId
@@ -558,28 +558,28 @@ items:
   nameWithType: SystemTemplateSettings.UserTicketActivatedTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketActivatedTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Template for notification of activated request
-  example: []
+  summary: "\nTemplate for notification of activated request \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int UserTicketActivatedTemplateId { get; set; }
+    content: public virtual int UserTicketActivatedTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property UserTicketActivatedTemplateId As Integer
+    content.vb: Public Overridable Property UserTicketActivatedTemplateId As Integer
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketActivatedTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserNewTicketTemplateId
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.UserNewTicketTemplateId
   id: UserNewTicketTemplateId
@@ -591,28 +591,28 @@ items:
   nameWithType: SystemTemplateSettings.UserNewTicketTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserNewTicketTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Template for new ticket notification
-  example: []
+  summary: "\nTemplate for new ticket notification \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int UserNewTicketTemplateId { get; set; }
+    content: public virtual int UserNewTicketTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property UserNewTicketTemplateId As Integer
+    content.vb: Public Overridable Property UserNewTicketTemplateId As Integer
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.UserNewTicketTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbQuestionTemplateId
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbQuestionTemplateId
   id: PublishKbQuestionTemplateId
@@ -624,28 +624,28 @@ items:
   nameWithType: SystemTemplateSettings.PublishKbQuestionTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbQuestionTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Template for formatting FAQ questions
-  example: []
+  summary: "\nTemplate for formatting FAQ questions \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int PublishKbQuestionTemplateId { get; set; }
+    content: public virtual int PublishKbQuestionTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PublishKbQuestionTemplateId As Integer
+    content.vb: Public Overridable Property PublishKbQuestionTemplateId As Integer
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbQuestionTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbAnswerTemplateId
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbAnswerTemplateId
   id: PublishKbAnswerTemplateId
@@ -657,28 +657,28 @@ items:
   nameWithType: SystemTemplateSettings.PublishKbAnswerTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbAnswerTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Template for formatting FAQ answers
-  example: []
+  summary: "\nTemplate for formatting FAQ answers \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int PublishKbAnswerTemplateId { get; set; }
+    content: public virtual int PublishKbAnswerTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PublishKbAnswerTemplateId As Integer
+    content.vb: Public Overridable Property PublishKbAnswerTemplateId As Integer
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbAnswerTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketTakenOverTemplateId
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketTakenOverTemplateId
   id: UserTicketTakenOverTemplateId
@@ -690,28 +690,28 @@ items:
   nameWithType: SystemTemplateSettings.UserTicketTakenOverTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketTakenOverTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Template for ticket reassignment
-  example: []
+  summary: "\nTemplate for ticket reassignment \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int UserTicketTakenOverTemplateId { get; set; }
+    content: public virtual int UserTicketTakenOverTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property UserTicketTakenOverTemplateId As Integer
+    content.vb: Public Overridable Property UserTicketTakenOverTemplateId As Integer
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketTakenOverTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.PrintTicketTemplateId
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.PrintTicketTemplateId
   id: PrintTicketTemplateId
@@ -723,28 +723,28 @@ items:
   nameWithType: SystemTemplateSettings.PrintTicketTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.PrintTicketTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Template for printing a ticket
-  example: []
+  summary: "\nTemplate for printing a ticket \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int PrintTicketTemplateId { get; set; }
+    content: public virtual int PrintTicketTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PrintTicketTemplateId As Integer
+    content.vb: Public Overridable Property PrintTicketTemplateId As Integer
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.PrintTicketTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.WeekStatTemplateId
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.WeekStatTemplateId
   id: WeekStatTemplateId
@@ -756,28 +756,28 @@ items:
   nameWithType: SystemTemplateSettings.WeekStatTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.WeekStatTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Template for weekly statistics
-  example: []
+  summary: "\nTemplate for weekly statistics \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int WeekStatTemplateId { get; set; }
+    content: public virtual int WeekStatTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property WeekStatTemplateId As Integer
+    content.vb: Public Overridable Property WeekStatTemplateId As Integer
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.WeekStatTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.TicketAlarmHotlistTemplateId
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.TicketAlarmHotlistTemplateId
   id: TicketAlarmHotlistTemplateId
@@ -789,28 +789,28 @@ items:
   nameWithType: SystemTemplateSettings.TicketAlarmHotlistTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.TicketAlarmHotlistTemplateId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Template for notification of an escalated request in the favourites list
-  example: []
+  summary: "\nTemplate for notification of an escalated request in the favourites list \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int TicketAlarmHotlistTemplateId { get; set; }
+    content: public virtual int TicketAlarmHotlistTemplateId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property TicketAlarmHotlistTemplateId As Integer
+    content.vb: Public Overridable Property TicketAlarmHotlistTemplateId As Integer
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.TicketAlarmHotlistTemplateId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.EmailAddresses
   commentId: P:SuperOffice.CRM.Services.SystemTemplateSettings.EmailAddresses
   id: EmailAddresses
@@ -822,33 +822,38 @@ items:
   nameWithType: SystemTemplateSettings.EmailAddresses
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.EmailAddresses
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: One or more e-mail addresses (comma-separated)
-  example: []
+  summary: "\nOne or more e-mail addresses (comma-separated) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string EmailAddresses { get; set; }
+    content: public virtual string EmailAddresses { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property EmailAddresses As String
+    content.vb: Public Overridable Property EmailAddresses As String
   overload: SuperOffice.CRM.Services.SystemTemplateSettings.EmailAddresses*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.CustomerServiceAgent
   commentId: T:SuperOffice.CRM.Services.CustomerServiceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.CustomerServiceAgent.html
   name: CustomerServiceAgent
   nameWithType: CustomerServiceAgent
   fullName: SuperOffice.CRM.Services.CustomerServiceAgent
@@ -856,79 +861,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.ICustomerServiceAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html
   name: ICustomerServiceAgent
   nameWithType: ICustomerServiceAgent
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings__ctor
   name: SystemTemplateSettings
   nameWithType: SystemTemplateSettings.SystemTemplateSettings
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.SystemTemplateSettings
-  nameWithType.vb: SystemTemplateSettings.New
-  fullName.vb: SuperOffice.CRM.Services.SystemTemplateSettings.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.ToString*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_ToString
   name: ToString
   nameWithType: SystemTemplateSettings.ToString
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.ToString
@@ -936,17 +880,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerNewCustomerTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.CustomerNewCustomerTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_CustomerNewCustomerTemplateId
   name: CustomerNewCustomerTemplateId
   nameWithType: SystemTemplateSettings.CustomerNewCustomerTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerNewCustomerTemplateId
@@ -954,150 +899,126 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerCustomerReplyTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.CustomerCustomerReplyTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_CustomerCustomerReplyTemplateId
   name: CustomerCustomerReplyTemplateId
   nameWithType: SystemTemplateSettings.CustomerCustomerReplyTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerCustomerReplyTemplateId
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerPasswordTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.CustomerPasswordTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_CustomerPasswordTemplateId
   name: CustomerPasswordTemplateId
   nameWithType: SystemTemplateSettings.CustomerPasswordTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerPasswordTemplateId
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerConfirmEmailTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.CustomerConfirmEmailTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_CustomerConfirmEmailTemplateId
   name: CustomerConfirmEmailTemplateId
   nameWithType: SystemTemplateSettings.CustomerConfirmEmailTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerConfirmEmailTemplateId
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerChatLogTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.CustomerChatLogTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_CustomerChatLogTemplateId
   name: CustomerChatLogTemplateId
   nameWithType: SystemTemplateSettings.CustomerChatLogTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.CustomerChatLogTemplateId
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.NewLinkTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.NewLinkTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_NewLinkTemplateId
   name: NewLinkTemplateId
   nameWithType: SystemTemplateSettings.NewLinkTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.NewLinkTemplateId
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistNewMessageTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.HotlistNewMessageTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_HotlistNewMessageTemplateId
   name: HotlistNewMessageTemplateId
   nameWithType: SystemTemplateSettings.HotlistNewMessageTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistNewMessageTemplateId
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketActivatedTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketActivatedTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_HotlistTicketActivatedTemplateId
   name: HotlistTicketActivatedTemplateId
   nameWithType: SystemTemplateSettings.HotlistTicketActivatedTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketActivatedTemplateId
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketAlarmTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketAlarmTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_UserTicketAlarmTemplateId
   name: UserTicketAlarmTemplateId
   nameWithType: SystemTemplateSettings.UserTicketAlarmTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketAlarmTemplateId
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketTakenOverTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketTakenOverTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_HotlistTicketTakenOverTemplateId
   name: HotlistTicketTakenOverTemplateId
   nameWithType: SystemTemplateSettings.HotlistTicketTakenOverTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.HotlistTicketTakenOverTemplateId
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserActiveTicketsTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.UserActiveTicketsTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_UserActiveTicketsTemplateId
   name: UserActiveTicketsTemplateId
   nameWithType: SystemTemplateSettings.UserActiveTicketsTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserActiveTicketsTemplateId
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserNewMessageTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.UserNewMessageTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_UserNewMessageTemplateId
   name: UserNewMessageTemplateId
   nameWithType: SystemTemplateSettings.UserNewMessageTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserNewMessageTemplateId
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketActivatedTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketActivatedTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_UserTicketActivatedTemplateId
   name: UserTicketActivatedTemplateId
   nameWithType: SystemTemplateSettings.UserTicketActivatedTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketActivatedTemplateId
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserNewTicketTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.UserNewTicketTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_UserNewTicketTemplateId
   name: UserNewTicketTemplateId
   nameWithType: SystemTemplateSettings.UserNewTicketTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserNewTicketTemplateId
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbQuestionTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbQuestionTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_PublishKbQuestionTemplateId
   name: PublishKbQuestionTemplateId
   nameWithType: SystemTemplateSettings.PublishKbQuestionTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbQuestionTemplateId
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbAnswerTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbAnswerTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_PublishKbAnswerTemplateId
   name: PublishKbAnswerTemplateId
   nameWithType: SystemTemplateSettings.PublishKbAnswerTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.PublishKbAnswerTemplateId
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketTakenOverTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketTakenOverTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_UserTicketTakenOverTemplateId
   name: UserTicketTakenOverTemplateId
   nameWithType: SystemTemplateSettings.UserTicketTakenOverTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.UserTicketTakenOverTemplateId
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.PrintTicketTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.PrintTicketTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_PrintTicketTemplateId
   name: PrintTicketTemplateId
   nameWithType: SystemTemplateSettings.PrintTicketTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.PrintTicketTemplateId
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.WeekStatTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.WeekStatTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_WeekStatTemplateId
   name: WeekStatTemplateId
   nameWithType: SystemTemplateSettings.WeekStatTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.WeekStatTemplateId
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.TicketAlarmHotlistTemplateId*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.TicketAlarmHotlistTemplateId
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_TicketAlarmHotlistTemplateId
   name: TicketAlarmHotlistTemplateId
   nameWithType: SystemTemplateSettings.TicketAlarmHotlistTemplateId
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.TicketAlarmHotlistTemplateId
 - uid: SuperOffice.CRM.Services.SystemTemplateSettings.EmailAddresses*
   commentId: Overload:SuperOffice.CRM.Services.SystemTemplateSettings.EmailAddresses
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemTemplateSettings.html#SuperOffice_CRM_Services_SystemTemplateSettings_EmailAddresses
   name: EmailAddresses
   nameWithType: SystemTemplateSettings.EmailAddresses
   fullName: SuperOffice.CRM.Services.SystemTemplateSettings.EmailAddresses

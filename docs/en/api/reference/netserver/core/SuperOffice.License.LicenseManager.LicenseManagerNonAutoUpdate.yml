@@ -14,14 +14,18 @@ items:
   nameWithType: LicenseManager.LicenseManagerNonAutoUpdate
   fullName: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.License
-  summary: License Manager override used during license upgrade.
-  example: []
+  summary: "\nLicense Manager override used during license upgrade.\n"
   syntax:
-    content: 'public class LicenseManager.LicenseManagerNonAutoUpdate : LicenseManager'
-    content.vb: Public Class LicenseManager.LicenseManagerNonAutoUpdate Inherits LicenseManager
+    content: 'public class LicenseManagerNonAutoUpdate : LicenseManager'
+    content.vb: >-
+      Public Class LicenseManagerNonAutoUpdate
+          Inherits LicenseManager
   inheritance:
   - System.Object
   - SuperOffice.License.LicenseManager
@@ -57,18 +61,17 @@ items:
   - SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeeded
   - SuperOffice.License.LicenseManager.PopulateSignedPublicKey(SuperOffice.License.LicenseInfo,System.IO.Stream)
   - SuperOffice.License.LicenseManager.IsUnitTesting
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.EnumUtil.MapEnums``2
-  - SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
   - SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.#ctor
   commentId: M:SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.#ctor
   id: '#ctor'
@@ -80,16 +83,20 @@ items:
   nameWithType: LicenseManager.LicenseManagerNonAutoUpdate.LicenseManagerNonAutoUpdate()
   fullName: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.LicenseManagerNonAutoUpdate()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.License
   syntax:
     content: public LicenseManagerNonAutoUpdate()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.#ctor*
-  nameWithType.vb: LicenseManager.LicenseManagerNonAutoUpdate.New()
-  fullName.vb: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.AllowAutoUpdate
   commentId: P:SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.AllowAutoUpdate
   id: AllowAutoUpdate
@@ -101,11 +108,13 @@ items:
   nameWithType: LicenseManager.LicenseManagerNonAutoUpdate.AllowAutoUpdate
   fullName: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.AllowAutoUpdate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.License
-  summary: Turn off auto-updating of the license while we are upgrading.
-  example: []
+  summary: "\nTurn off auto-updating of the license while we are upgrading.\n"
   syntax:
     content: protected override bool AllowAutoUpdate { get; }
     parameters: []
@@ -114,50 +123,32 @@ items:
     content.vb: Protected Overrides ReadOnly Property AllowAutoUpdate As Boolean
   overridden: SuperOffice.License.LicenseManager.AllowAutoUpdate
   overload: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.AllowAutoUpdate*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
 references:
 - uid: SuperOffice.License
   commentId: N:SuperOffice.License
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.License
   nameWithType: SuperOffice.License
   fullName: SuperOffice.License
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.License
-    name: License
-    isExternal: true
-    href: SuperOffice.License.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.License
-    name: License
-    isExternal: true
-    href: SuperOffice.License.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.License.LicenseManager
   commentId: T:SuperOffice.License.LicenseManager
   parent: SuperOffice.License
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html
   name: LicenseManager
   nameWithType: LicenseManager
   fullName: SuperOffice.License.LicenseManager
@@ -165,7 +156,6 @@ references:
   commentId: F:SuperOffice.License.LicenseManager.SuperOfficeOwner
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_SuperOfficeOwner
   name: SuperOfficeOwner
   nameWithType: LicenseManager.SuperOfficeOwner
   fullName: SuperOffice.License.LicenseManager.SuperOfficeOwner
@@ -173,1535 +163,1587 @@ references:
   commentId: M:SuperOffice.License.LicenseManager.GetCurrent
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetCurrent
   name: GetCurrent()
   nameWithType: LicenseManager.GetCurrent()
   fullName: SuperOffice.License.LicenseManager.GetCurrent()
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.GetCurrent
     name: GetCurrent
+    nameWithType: LicenseManager.GetCurrent
+    fullName: SuperOffice.License.LicenseManager.GetCurrent
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetCurrent
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.GetCurrent
     name: GetCurrent
+    nameWithType: LicenseManager.GetCurrent
+    fullName: SuperOffice.License.LicenseManager.GetCurrent
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetCurrent
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.GetModuleOwners
   commentId: M:SuperOffice.License.LicenseManager.GetModuleOwners
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetModuleOwners
   name: GetModuleOwners()
   nameWithType: LicenseManager.GetModuleOwners()
   fullName: SuperOffice.License.LicenseManager.GetModuleOwners()
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.GetModuleOwners
     name: GetModuleOwners
+    nameWithType: LicenseManager.GetModuleOwners
+    fullName: SuperOffice.License.LicenseManager.GetModuleOwners
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetModuleOwners
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.GetModuleOwners
     name: GetModuleOwners
+    nameWithType: LicenseManager.GetModuleOwners
+    fullName: SuperOffice.License.LicenseManager.GetModuleOwners
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetModuleOwners
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.GetModuleOwner(System.String)
   commentId: M:SuperOffice.License.LicenseManager.GetModuleOwner(System.String)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetModuleOwner_System_String_
-  name: GetModuleOwner(string)
-  nameWithType: LicenseManager.GetModuleOwner(string)
-  fullName: SuperOffice.License.LicenseManager.GetModuleOwner(string)
-  nameWithType.vb: LicenseManager.GetModuleOwner(String)
-  fullName.vb: SuperOffice.License.LicenseManager.GetModuleOwner(String)
-  name.vb: GetModuleOwner(String)
+  name: GetModuleOwner(String)
+  nameWithType: LicenseManager.GetModuleOwner(String)
+  fullName: SuperOffice.License.LicenseManager.GetModuleOwner(System.String)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.GetModuleOwner(System.String)
     name: GetModuleOwner
+    nameWithType: LicenseManager.GetModuleOwner
+    fullName: SuperOffice.License.LicenseManager.GetModuleOwner
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetModuleOwner_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.GetModuleOwner(System.String)
     name: GetModuleOwner
+    nameWithType: LicenseManager.GetModuleOwner
+    fullName: SuperOffice.License.LicenseManager.GetModuleOwner
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetModuleOwner_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.GetCurrentLicense(System.String,System.DateTime@)
   commentId: M:SuperOffice.License.LicenseManager.GetCurrentLicense(System.String,System.DateTime@)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetCurrentLicense_System_String_System_DateTime__
-  name: GetCurrentLicense(string, out DateTime)
-  nameWithType: LicenseManager.GetCurrentLicense(string, out DateTime)
-  fullName: SuperOffice.License.LicenseManager.GetCurrentLicense(string, out System.DateTime)
-  nameWithType.vb: LicenseManager.GetCurrentLicense(String, Date)
-  fullName.vb: SuperOffice.License.LicenseManager.GetCurrentLicense(String, Date)
-  name.vb: GetCurrentLicense(String, Date)
+  name: GetCurrentLicense(String, DateTime)
+  nameWithType: LicenseManager.GetCurrentLicense(String, DateTime)
+  fullName: SuperOffice.License.LicenseManager.GetCurrentLicense(System.String, System.DateTime)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.GetCurrentLicense(System.String,System.DateTime@)
     name: GetCurrentLicense
+    nameWithType: LicenseManager.GetCurrentLicense
+    fullName: SuperOffice.License.LicenseManager.GetCurrentLicense
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetCurrentLicense_System_String_System_DateTime__
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - name: out
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.DateTime
     name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.datetime
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.GetCurrentLicense(System.String,System.DateTime@)
     name: GetCurrentLicense
+    nameWithType: LicenseManager.GetCurrentLicense
+    fullName: SuperOffice.License.LicenseManager.GetCurrentLicense
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetCurrentLicense_System_String_System_DateTime__
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.DateTime
-    name: Date
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.datetime
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.GetLicenseFromDB(System.String)
   commentId: M:SuperOffice.License.LicenseManager.GetLicenseFromDB(System.String)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetLicenseFromDB_System_String_
-  name: GetLicenseFromDB(string)
-  nameWithType: LicenseManager.GetLicenseFromDB(string)
-  fullName: SuperOffice.License.LicenseManager.GetLicenseFromDB(string)
-  nameWithType.vb: LicenseManager.GetLicenseFromDB(String)
-  fullName.vb: SuperOffice.License.LicenseManager.GetLicenseFromDB(String)
-  name.vb: GetLicenseFromDB(String)
+  name: GetLicenseFromDB(String)
+  nameWithType: LicenseManager.GetLicenseFromDB(String)
+  fullName: SuperOffice.License.LicenseManager.GetLicenseFromDB(System.String)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.GetLicenseFromDB(System.String)
     name: GetLicenseFromDB
+    nameWithType: LicenseManager.GetLicenseFromDB
+    fullName: SuperOffice.License.LicenseManager.GetLicenseFromDB
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetLicenseFromDB_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.GetLicenseFromDB(System.String)
     name: GetLicenseFromDB
+    nameWithType: LicenseManager.GetLicenseFromDB
+    fullName: SuperOffice.License.LicenseManager.GetLicenseFromDB
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetLicenseFromDB_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.GetLicenseForAllOwnersFromDB
   commentId: M:SuperOffice.License.LicenseManager.GetLicenseForAllOwnersFromDB
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetLicenseForAllOwnersFromDB
   name: GetLicenseForAllOwnersFromDB()
   nameWithType: LicenseManager.GetLicenseForAllOwnersFromDB()
   fullName: SuperOffice.License.LicenseManager.GetLicenseForAllOwnersFromDB()
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.GetLicenseForAllOwnersFromDB
     name: GetLicenseForAllOwnersFromDB
+    nameWithType: LicenseManager.GetLicenseForAllOwnersFromDB
+    fullName: SuperOffice.License.LicenseManager.GetLicenseForAllOwnersFromDB
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetLicenseForAllOwnersFromDB
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.GetLicenseForAllOwnersFromDB
     name: GetLicenseForAllOwnersFromDB
+    nameWithType: LicenseManager.GetLicenseForAllOwnersFromDB
+    fullName: SuperOffice.License.LicenseManager.GetLicenseForAllOwnersFromDB
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetLicenseForAllOwnersFromDB
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.GetLicenseFromLicenseServerWithAssignments(System.String,System.Boolean,System.String)
   commentId: M:SuperOffice.License.LicenseManager.GetLicenseFromLicenseServerWithAssignments(System.String,System.Boolean,System.String)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetLicenseFromLicenseServerWithAssignments_System_String_System_Boolean_System_String_
-  name: GetLicenseFromLicenseServerWithAssignments(string, bool, string)
-  nameWithType: LicenseManager.GetLicenseFromLicenseServerWithAssignments(string, bool, string)
-  fullName: SuperOffice.License.LicenseManager.GetLicenseFromLicenseServerWithAssignments(string, bool, string)
-  nameWithType.vb: LicenseManager.GetLicenseFromLicenseServerWithAssignments(String, Boolean, String)
-  fullName.vb: SuperOffice.License.LicenseManager.GetLicenseFromLicenseServerWithAssignments(String, Boolean, String)
-  name.vb: GetLicenseFromLicenseServerWithAssignments(String, Boolean, String)
+  name: GetLicenseFromLicenseServerWithAssignments(String, Boolean, String)
+  nameWithType: LicenseManager.GetLicenseFromLicenseServerWithAssignments(String, Boolean, String)
+  fullName: SuperOffice.License.LicenseManager.GetLicenseFromLicenseServerWithAssignments(System.String, System.Boolean, System.String)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.GetLicenseFromLicenseServerWithAssignments(System.String,System.Boolean,System.String)
     name: GetLicenseFromLicenseServerWithAssignments
+    nameWithType: LicenseManager.GetLicenseFromLicenseServerWithAssignments
+    fullName: SuperOffice.License.LicenseManager.GetLicenseFromLicenseServerWithAssignments
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetLicenseFromLicenseServerWithAssignments_System_String_System_Boolean_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.GetLicenseFromLicenseServerWithAssignments(System.String,System.Boolean,System.String)
     name: GetLicenseFromLicenseServerWithAssignments
+    nameWithType: LicenseManager.GetLicenseFromLicenseServerWithAssignments
+    fullName: SuperOffice.License.LicenseManager.GetLicenseFromLicenseServerWithAssignments
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetLicenseFromLicenseServerWithAssignments_System_String_System_Boolean_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.GetLicenseFromLicenseServer(System.String,System.String)
   commentId: M:SuperOffice.License.LicenseManager.GetLicenseFromLicenseServer(System.String,System.String)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetLicenseFromLicenseServer_System_String_System_String_
-  name: GetLicenseFromLicenseServer(string, string)
-  nameWithType: LicenseManager.GetLicenseFromLicenseServer(string, string)
-  fullName: SuperOffice.License.LicenseManager.GetLicenseFromLicenseServer(string, string)
-  nameWithType.vb: LicenseManager.GetLicenseFromLicenseServer(String, String)
-  fullName.vb: SuperOffice.License.LicenseManager.GetLicenseFromLicenseServer(String, String)
-  name.vb: GetLicenseFromLicenseServer(String, String)
+  name: GetLicenseFromLicenseServer(String, String)
+  nameWithType: LicenseManager.GetLicenseFromLicenseServer(String, String)
+  fullName: SuperOffice.License.LicenseManager.GetLicenseFromLicenseServer(System.String, System.String)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.GetLicenseFromLicenseServer(System.String,System.String)
     name: GetLicenseFromLicenseServer
+    nameWithType: LicenseManager.GetLicenseFromLicenseServer
+    fullName: SuperOffice.License.LicenseManager.GetLicenseFromLicenseServer
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetLicenseFromLicenseServer_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.GetLicenseFromLicenseServer(System.String,System.String)
     name: GetLicenseFromLicenseServer
+    nameWithType: LicenseManager.GetLicenseFromLicenseServer
+    fullName: SuperOffice.License.LicenseManager.GetLicenseFromLicenseServer
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetLicenseFromLicenseServer_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.GetLicenseFromFile(System.String)
   commentId: M:SuperOffice.License.LicenseManager.GetLicenseFromFile(System.String)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetLicenseFromFile_System_String_
-  name: GetLicenseFromFile(string)
-  nameWithType: LicenseManager.GetLicenseFromFile(string)
-  fullName: SuperOffice.License.LicenseManager.GetLicenseFromFile(string)
-  nameWithType.vb: LicenseManager.GetLicenseFromFile(String)
-  fullName.vb: SuperOffice.License.LicenseManager.GetLicenseFromFile(String)
-  name.vb: GetLicenseFromFile(String)
+  name: GetLicenseFromFile(String)
+  nameWithType: LicenseManager.GetLicenseFromFile(String)
+  fullName: SuperOffice.License.LicenseManager.GetLicenseFromFile(System.String)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.GetLicenseFromFile(System.String)
     name: GetLicenseFromFile
+    nameWithType: LicenseManager.GetLicenseFromFile
+    fullName: SuperOffice.License.LicenseManager.GetLicenseFromFile
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetLicenseFromFile_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.GetLicenseFromFile(System.String)
     name: GetLicenseFromFile
+    nameWithType: LicenseManager.GetLicenseFromFile
+    fullName: SuperOffice.License.LicenseManager.GetLicenseFromFile
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetLicenseFromFile_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.MapAndValidateLicenseWithDb(SuperOffice.License.LicenseInfo)
   commentId: M:SuperOffice.License.LicenseManager.MapAndValidateLicenseWithDb(SuperOffice.License.LicenseInfo)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_MapAndValidateLicenseWithDb_SuperOffice_License_LicenseInfo_
   name: MapAndValidateLicenseWithDb(LicenseInfo)
   nameWithType: LicenseManager.MapAndValidateLicenseWithDb(LicenseInfo)
   fullName: SuperOffice.License.LicenseManager.MapAndValidateLicenseWithDb(SuperOffice.License.LicenseInfo)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.MapAndValidateLicenseWithDb(SuperOffice.License.LicenseInfo)
     name: MapAndValidateLicenseWithDb
+    nameWithType: LicenseManager.MapAndValidateLicenseWithDb
+    fullName: SuperOffice.License.LicenseManager.MapAndValidateLicenseWithDb
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_MapAndValidateLicenseWithDb_SuperOffice_License_LicenseInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.LicenseInfo
     name: LicenseInfo
+    nameWithType: LicenseInfo
+    fullName: SuperOffice.License.LicenseInfo
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.MapAndValidateLicenseWithDb(SuperOffice.License.LicenseInfo)
     name: MapAndValidateLicenseWithDb
+    nameWithType: LicenseManager.MapAndValidateLicenseWithDb
+    fullName: SuperOffice.License.LicenseManager.MapAndValidateLicenseWithDb
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_MapAndValidateLicenseWithDb_SuperOffice_License_LicenseInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.LicenseInfo
     name: LicenseInfo
+    nameWithType: LicenseInfo
+    fullName: SuperOffice.License.LicenseInfo
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.GetModuleLicenseHistoryFromLicenseServer(SuperOffice.License.ExtendedLicenseInfo,SuperOffice.License.ExtendedModuleLicense)
   commentId: M:SuperOffice.License.LicenseManager.GetModuleLicenseHistoryFromLicenseServer(SuperOffice.License.ExtendedLicenseInfo,SuperOffice.License.ExtendedModuleLicense)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetModuleLicenseHistoryFromLicenseServer_SuperOffice_License_ExtendedLicenseInfo_SuperOffice_License_ExtendedModuleLicense_
   name: GetModuleLicenseHistoryFromLicenseServer(ExtendedLicenseInfo, ExtendedModuleLicense)
   nameWithType: LicenseManager.GetModuleLicenseHistoryFromLicenseServer(ExtendedLicenseInfo, ExtendedModuleLicense)
   fullName: SuperOffice.License.LicenseManager.GetModuleLicenseHistoryFromLicenseServer(SuperOffice.License.ExtendedLicenseInfo, SuperOffice.License.ExtendedModuleLicense)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.GetModuleLicenseHistoryFromLicenseServer(SuperOffice.License.ExtendedLicenseInfo,SuperOffice.License.ExtendedModuleLicense)
     name: GetModuleLicenseHistoryFromLicenseServer
+    nameWithType: LicenseManager.GetModuleLicenseHistoryFromLicenseServer
+    fullName: SuperOffice.License.LicenseManager.GetModuleLicenseHistoryFromLicenseServer
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetModuleLicenseHistoryFromLicenseServer_SuperOffice_License_ExtendedLicenseInfo_SuperOffice_License_ExtendedModuleLicense_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.ExtendedLicenseInfo
     name: ExtendedLicenseInfo
+    nameWithType: ExtendedLicenseInfo
+    fullName: SuperOffice.License.ExtendedLicenseInfo
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.License.ExtendedModuleLicense
     name: ExtendedModuleLicense
+    nameWithType: ExtendedModuleLicense
+    fullName: SuperOffice.License.ExtendedModuleLicense
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.GetModuleLicenseHistoryFromLicenseServer(SuperOffice.License.ExtendedLicenseInfo,SuperOffice.License.ExtendedModuleLicense)
     name: GetModuleLicenseHistoryFromLicenseServer
+    nameWithType: LicenseManager.GetModuleLicenseHistoryFromLicenseServer
+    fullName: SuperOffice.License.LicenseManager.GetModuleLicenseHistoryFromLicenseServer
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetModuleLicenseHistoryFromLicenseServer_SuperOffice_License_ExtendedLicenseInfo_SuperOffice_License_ExtendedModuleLicense_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.ExtendedLicenseInfo
     name: ExtendedLicenseInfo
+    nameWithType: ExtendedLicenseInfo
+    fullName: SuperOffice.License.ExtendedLicenseInfo
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.License.ExtendedModuleLicense
     name: ExtendedModuleLicense
+    nameWithType: ExtendedModuleLicense
+    fullName: SuperOffice.License.ExtendedModuleLicense
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.ValidatePublicKey(SuperOffice.License.SignedPublicKey)
   commentId: M:SuperOffice.License.LicenseManager.ValidatePublicKey(SuperOffice.License.SignedPublicKey)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_ValidatePublicKey_SuperOffice_License_SignedPublicKey_
   name: ValidatePublicKey(SignedPublicKey)
   nameWithType: LicenseManager.ValidatePublicKey(SignedPublicKey)
   fullName: SuperOffice.License.LicenseManager.ValidatePublicKey(SuperOffice.License.SignedPublicKey)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.ValidatePublicKey(SuperOffice.License.SignedPublicKey)
     name: ValidatePublicKey
+    nameWithType: LicenseManager.ValidatePublicKey
+    fullName: SuperOffice.License.LicenseManager.ValidatePublicKey
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_ValidatePublicKey_SuperOffice_License_SignedPublicKey_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.SignedPublicKey
     name: SignedPublicKey
+    nameWithType: SignedPublicKey
+    fullName: SuperOffice.License.SignedPublicKey
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.ValidatePublicKey(SuperOffice.License.SignedPublicKey)
     name: ValidatePublicKey
+    nameWithType: LicenseManager.ValidatePublicKey
+    fullName: SuperOffice.License.LicenseManager.ValidatePublicKey
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_ValidatePublicKey_SuperOffice_License_SignedPublicKey_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.SignedPublicKey
     name: SignedPublicKey
+    nameWithType: SignedPublicKey
+    fullName: SuperOffice.License.SignedPublicKey
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.ValidateLicenseInfo(SuperOffice.License.LicenseInfo,System.Boolean)
   commentId: M:SuperOffice.License.LicenseManager.ValidateLicenseInfo(SuperOffice.License.LicenseInfo,System.Boolean)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_ValidateLicenseInfo_SuperOffice_License_LicenseInfo_System_Boolean_
-  name: ValidateLicenseInfo(LicenseInfo, bool)
-  nameWithType: LicenseManager.ValidateLicenseInfo(LicenseInfo, bool)
-  fullName: SuperOffice.License.LicenseManager.ValidateLicenseInfo(SuperOffice.License.LicenseInfo, bool)
-  nameWithType.vb: LicenseManager.ValidateLicenseInfo(LicenseInfo, Boolean)
-  fullName.vb: SuperOffice.License.LicenseManager.ValidateLicenseInfo(SuperOffice.License.LicenseInfo, Boolean)
-  name.vb: ValidateLicenseInfo(LicenseInfo, Boolean)
+  name: ValidateLicenseInfo(LicenseInfo, Boolean)
+  nameWithType: LicenseManager.ValidateLicenseInfo(LicenseInfo, Boolean)
+  fullName: SuperOffice.License.LicenseManager.ValidateLicenseInfo(SuperOffice.License.LicenseInfo, System.Boolean)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.ValidateLicenseInfo(SuperOffice.License.LicenseInfo,System.Boolean)
     name: ValidateLicenseInfo
+    nameWithType: LicenseManager.ValidateLicenseInfo
+    fullName: SuperOffice.License.LicenseManager.ValidateLicenseInfo
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_ValidateLicenseInfo_SuperOffice_License_LicenseInfo_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.LicenseInfo
     name: LicenseInfo
+    nameWithType: LicenseInfo
+    fullName: SuperOffice.License.LicenseInfo
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.ValidateLicenseInfo(SuperOffice.License.LicenseInfo,System.Boolean)
     name: ValidateLicenseInfo
+    nameWithType: LicenseManager.ValidateLicenseInfo
+    fullName: SuperOffice.License.LicenseManager.ValidateLicenseInfo
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_ValidateLicenseInfo_SuperOffice_License_LicenseInfo_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.LicenseInfo
     name: LicenseInfo
+    nameWithType: LicenseInfo
+    fullName: SuperOffice.License.LicenseInfo
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.ToInfo(SuperOffice.License.ModuleLicense)
   commentId: M:SuperOffice.License.LicenseManager.ToInfo(SuperOffice.License.ModuleLicense)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_ToInfo_SuperOffice_License_ModuleLicense_
   name: ToInfo(ModuleLicense)
   nameWithType: LicenseManager.ToInfo(ModuleLicense)
   fullName: SuperOffice.License.LicenseManager.ToInfo(SuperOffice.License.ModuleLicense)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.ToInfo(SuperOffice.License.ModuleLicense)
     name: ToInfo
+    nameWithType: LicenseManager.ToInfo
+    fullName: SuperOffice.License.LicenseManager.ToInfo
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_ToInfo_SuperOffice_License_ModuleLicense_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.ModuleLicense
     name: ModuleLicense
+    nameWithType: ModuleLicense
+    fullName: SuperOffice.License.ModuleLicense
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.ToInfo(SuperOffice.License.ModuleLicense)
     name: ToInfo
+    nameWithType: LicenseManager.ToInfo
+    fullName: SuperOffice.License.LicenseManager.ToInfo
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_ToInfo_SuperOffice_License_ModuleLicense_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.ModuleLicense
     name: ModuleLicense
+    nameWithType: ModuleLicense
+    fullName: SuperOffice.License.ModuleLicense
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.ValidateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo)
   commentId: M:SuperOffice.License.LicenseManager.ValidateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_ValidateLicenseInfo_SuperOffice_License_ExtendedLicenseInfo_
   name: ValidateLicenseInfo(ExtendedLicenseInfo)
   nameWithType: LicenseManager.ValidateLicenseInfo(ExtendedLicenseInfo)
   fullName: SuperOffice.License.LicenseManager.ValidateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.ValidateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo)
     name: ValidateLicenseInfo
+    nameWithType: LicenseManager.ValidateLicenseInfo
+    fullName: SuperOffice.License.LicenseManager.ValidateLicenseInfo
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_ValidateLicenseInfo_SuperOffice_License_ExtendedLicenseInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.ExtendedLicenseInfo
     name: ExtendedLicenseInfo
+    nameWithType: ExtendedLicenseInfo
+    fullName: SuperOffice.License.ExtendedLicenseInfo
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.ValidateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo)
     name: ValidateLicenseInfo
+    nameWithType: LicenseManager.ValidateLicenseInfo
+    fullName: SuperOffice.License.LicenseManager.ValidateLicenseInfo
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_ValidateLicenseInfo_SuperOffice_License_ExtendedLicenseInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.ExtendedLicenseInfo
     name: ExtendedLicenseInfo
+    nameWithType: ExtendedLicenseInfo
+    fullName: SuperOffice.License.ExtendedLicenseInfo
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.ActivateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo,System.Boolean,System.Boolean)
   commentId: M:SuperOffice.License.LicenseManager.ActivateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo,System.Boolean,System.Boolean)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_ActivateLicenseInfo_SuperOffice_License_ExtendedLicenseInfo_System_Boolean_System_Boolean_
-  name: ActivateLicenseInfo(ExtendedLicenseInfo, bool, bool)
-  nameWithType: LicenseManager.ActivateLicenseInfo(ExtendedLicenseInfo, bool, bool)
-  fullName: SuperOffice.License.LicenseManager.ActivateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo, bool, bool)
-  nameWithType.vb: LicenseManager.ActivateLicenseInfo(ExtendedLicenseInfo, Boolean, Boolean)
-  fullName.vb: SuperOffice.License.LicenseManager.ActivateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo, Boolean, Boolean)
-  name.vb: ActivateLicenseInfo(ExtendedLicenseInfo, Boolean, Boolean)
+  name: ActivateLicenseInfo(ExtendedLicenseInfo, Boolean, Boolean)
+  nameWithType: LicenseManager.ActivateLicenseInfo(ExtendedLicenseInfo, Boolean, Boolean)
+  fullName: SuperOffice.License.LicenseManager.ActivateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo, System.Boolean, System.Boolean)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.ActivateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo,System.Boolean,System.Boolean)
     name: ActivateLicenseInfo
+    nameWithType: LicenseManager.ActivateLicenseInfo
+    fullName: SuperOffice.License.LicenseManager.ActivateLicenseInfo
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_ActivateLicenseInfo_SuperOffice_License_ExtendedLicenseInfo_System_Boolean_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.ExtendedLicenseInfo
     name: ExtendedLicenseInfo
+    nameWithType: ExtendedLicenseInfo
+    fullName: SuperOffice.License.ExtendedLicenseInfo
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.ActivateLicenseInfo(SuperOffice.License.ExtendedLicenseInfo,System.Boolean,System.Boolean)
     name: ActivateLicenseInfo
+    nameWithType: LicenseManager.ActivateLicenseInfo
+    fullName: SuperOffice.License.LicenseManager.ActivateLicenseInfo
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_ActivateLicenseInfo_SuperOffice_License_ExtendedLicenseInfo_System_Boolean_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.ExtendedLicenseInfo
     name: ExtendedLicenseInfo
+    nameWithType: ExtendedLicenseInfo
+    fullName: SuperOffice.License.ExtendedLicenseInfo
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.GetLicenseStateFromLicenseServer(System.String,System.String)
   commentId: M:SuperOffice.License.LicenseManager.GetLicenseStateFromLicenseServer(System.String,System.String)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetLicenseStateFromLicenseServer_System_String_System_String_
-  name: GetLicenseStateFromLicenseServer(string, string)
-  nameWithType: LicenseManager.GetLicenseStateFromLicenseServer(string, string)
-  fullName: SuperOffice.License.LicenseManager.GetLicenseStateFromLicenseServer(string, string)
-  nameWithType.vb: LicenseManager.GetLicenseStateFromLicenseServer(String, String)
-  fullName.vb: SuperOffice.License.LicenseManager.GetLicenseStateFromLicenseServer(String, String)
-  name.vb: GetLicenseStateFromLicenseServer(String, String)
+  name: GetLicenseStateFromLicenseServer(String, String)
+  nameWithType: LicenseManager.GetLicenseStateFromLicenseServer(String, String)
+  fullName: SuperOffice.License.LicenseManager.GetLicenseStateFromLicenseServer(System.String, System.String)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.GetLicenseStateFromLicenseServer(System.String,System.String)
     name: GetLicenseStateFromLicenseServer
+    nameWithType: LicenseManager.GetLicenseStateFromLicenseServer
+    fullName: SuperOffice.License.LicenseManager.GetLicenseStateFromLicenseServer
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetLicenseStateFromLicenseServer_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.GetLicenseStateFromLicenseServer(System.String,System.String)
     name: GetLicenseStateFromLicenseServer
+    nameWithType: LicenseManager.GetLicenseStateFromLicenseServer
+    fullName: SuperOffice.License.LicenseManager.GetLicenseStateFromLicenseServer
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetLicenseStateFromLicenseServer_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.ChangeSerialNumber(System.String,System.String)
   commentId: M:SuperOffice.License.LicenseManager.ChangeSerialNumber(System.String,System.String)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_ChangeSerialNumber_System_String_System_String_
-  name: ChangeSerialNumber(string, string)
-  nameWithType: LicenseManager.ChangeSerialNumber(string, string)
-  fullName: SuperOffice.License.LicenseManager.ChangeSerialNumber(string, string)
-  nameWithType.vb: LicenseManager.ChangeSerialNumber(String, String)
-  fullName.vb: SuperOffice.License.LicenseManager.ChangeSerialNumber(String, String)
-  name.vb: ChangeSerialNumber(String, String)
+  name: ChangeSerialNumber(String, String)
+  nameWithType: LicenseManager.ChangeSerialNumber(String, String)
+  fullName: SuperOffice.License.LicenseManager.ChangeSerialNumber(System.String, System.String)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.ChangeSerialNumber(System.String,System.String)
     name: ChangeSerialNumber
+    nameWithType: LicenseManager.ChangeSerialNumber
+    fullName: SuperOffice.License.LicenseManager.ChangeSerialNumber
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_ChangeSerialNumber_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.ChangeSerialNumber(System.String,System.String)
     name: ChangeSerialNumber
+    nameWithType: LicenseManager.ChangeSerialNumber
+    fullName: SuperOffice.License.LicenseManager.ChangeSerialNumber
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_ChangeSerialNumber_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.GetShopUrl(System.String,System.String)
   commentId: M:SuperOffice.License.LicenseManager.GetShopUrl(System.String,System.String)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetShopUrl_System_String_System_String_
-  name: GetShopUrl(string, string)
-  nameWithType: LicenseManager.GetShopUrl(string, string)
-  fullName: SuperOffice.License.LicenseManager.GetShopUrl(string, string)
-  nameWithType.vb: LicenseManager.GetShopUrl(String, String)
-  fullName.vb: SuperOffice.License.LicenseManager.GetShopUrl(String, String)
-  name.vb: GetShopUrl(String, String)
+  name: GetShopUrl(String, String)
+  nameWithType: LicenseManager.GetShopUrl(String, String)
+  fullName: SuperOffice.License.LicenseManager.GetShopUrl(System.String, System.String)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.GetShopUrl(System.String,System.String)
     name: GetShopUrl
+    nameWithType: LicenseManager.GetShopUrl
+    fullName: SuperOffice.License.LicenseManager.GetShopUrl
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetShopUrl_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.GetShopUrl(System.String,System.String)
     name: GetShopUrl
+    nameWithType: LicenseManager.GetShopUrl
+    fullName: SuperOffice.License.LicenseManager.GetShopUrl
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetShopUrl_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.RemoveLicenseFromDB(System.String)
   commentId: M:SuperOffice.License.LicenseManager.RemoveLicenseFromDB(System.String)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_RemoveLicenseFromDB_System_String_
-  name: RemoveLicenseFromDB(string)
-  nameWithType: LicenseManager.RemoveLicenseFromDB(string)
-  fullName: SuperOffice.License.LicenseManager.RemoveLicenseFromDB(string)
-  nameWithType.vb: LicenseManager.RemoveLicenseFromDB(String)
-  fullName.vb: SuperOffice.License.LicenseManager.RemoveLicenseFromDB(String)
-  name.vb: RemoveLicenseFromDB(String)
+  name: RemoveLicenseFromDB(String)
+  nameWithType: LicenseManager.RemoveLicenseFromDB(String)
+  fullName: SuperOffice.License.LicenseManager.RemoveLicenseFromDB(System.String)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.RemoveLicenseFromDB(System.String)
     name: RemoveLicenseFromDB
+    nameWithType: LicenseManager.RemoveLicenseFromDB
+    fullName: SuperOffice.License.LicenseManager.RemoveLicenseFromDB
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_RemoveLicenseFromDB_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.RemoveLicenseFromDB(System.String)
     name: RemoveLicenseFromDB
+    nameWithType: LicenseManager.RemoveLicenseFromDB
+    fullName: SuperOffice.License.LicenseManager.RemoveLicenseFromDB
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_RemoveLicenseFromDB_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.GetGrantedModuleLicenses(System.Int32)
   commentId: M:SuperOffice.License.LicenseManager.GetGrantedModuleLicenses(System.Int32)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetGrantedModuleLicenses_System_Int32_
-  name: GetGrantedModuleLicenses(int)
-  nameWithType: LicenseManager.GetGrantedModuleLicenses(int)
-  fullName: SuperOffice.License.LicenseManager.GetGrantedModuleLicenses(int)
-  nameWithType.vb: LicenseManager.GetGrantedModuleLicenses(Integer)
-  fullName.vb: SuperOffice.License.LicenseManager.GetGrantedModuleLicenses(Integer)
-  name.vb: GetGrantedModuleLicenses(Integer)
+  name: GetGrantedModuleLicenses(Int32)
+  nameWithType: LicenseManager.GetGrantedModuleLicenses(Int32)
+  fullName: SuperOffice.License.LicenseManager.GetGrantedModuleLicenses(System.Int32)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.GetGrantedModuleLicenses(System.Int32)
     name: GetGrantedModuleLicenses
+    nameWithType: LicenseManager.GetGrantedModuleLicenses
+    fullName: SuperOffice.License.LicenseManager.GetGrantedModuleLicenses
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetGrantedModuleLicenses_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.GetGrantedModuleLicenses(System.Int32)
     name: GetGrantedModuleLicenses
+    nameWithType: LicenseManager.GetGrantedModuleLicenses
+    fullName: SuperOffice.License.LicenseManager.GetGrantedModuleLicenses
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetGrantedModuleLicenses_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.GetGrantedModuleLicenses(System.Int32,System.Int32)
   commentId: M:SuperOffice.License.LicenseManager.GetGrantedModuleLicenses(System.Int32,System.Int32)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetGrantedModuleLicenses_System_Int32_System_Int32_
-  name: GetGrantedModuleLicenses(int, int)
-  nameWithType: LicenseManager.GetGrantedModuleLicenses(int, int)
-  fullName: SuperOffice.License.LicenseManager.GetGrantedModuleLicenses(int, int)
-  nameWithType.vb: LicenseManager.GetGrantedModuleLicenses(Integer, Integer)
-  fullName.vb: SuperOffice.License.LicenseManager.GetGrantedModuleLicenses(Integer, Integer)
-  name.vb: GetGrantedModuleLicenses(Integer, Integer)
+  name: GetGrantedModuleLicenses(Int32, Int32)
+  nameWithType: LicenseManager.GetGrantedModuleLicenses(Int32, Int32)
+  fullName: SuperOffice.License.LicenseManager.GetGrantedModuleLicenses(System.Int32, System.Int32)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.GetGrantedModuleLicenses(System.Int32,System.Int32)
     name: GetGrantedModuleLicenses
+    nameWithType: LicenseManager.GetGrantedModuleLicenses
+    fullName: SuperOffice.License.LicenseManager.GetGrantedModuleLicenses
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetGrantedModuleLicenses_System_Int32_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.GetGrantedModuleLicenses(System.Int32,System.Int32)
     name: GetGrantedModuleLicenses
+    nameWithType: LicenseManager.GetGrantedModuleLicenses
+    fullName: SuperOffice.License.LicenseManager.GetGrantedModuleLicenses
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetGrantedModuleLicenses_System_Int32_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.GetSatelliteLicenses(System.Int32,System.Boolean)
   commentId: M:SuperOffice.License.LicenseManager.GetSatelliteLicenses(System.Int32,System.Boolean)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetSatelliteLicenses_System_Int32_System_Boolean_
-  name: GetSatelliteLicenses(int, bool)
-  nameWithType: LicenseManager.GetSatelliteLicenses(int, bool)
-  fullName: SuperOffice.License.LicenseManager.GetSatelliteLicenses(int, bool)
-  nameWithType.vb: LicenseManager.GetSatelliteLicenses(Integer, Boolean)
-  fullName.vb: SuperOffice.License.LicenseManager.GetSatelliteLicenses(Integer, Boolean)
-  name.vb: GetSatelliteLicenses(Integer, Boolean)
+  name: GetSatelliteLicenses(Int32, Boolean)
+  nameWithType: LicenseManager.GetSatelliteLicenses(Int32, Boolean)
+  fullName: SuperOffice.License.LicenseManager.GetSatelliteLicenses(System.Int32, System.Boolean)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.GetSatelliteLicenses(System.Int32,System.Boolean)
     name: GetSatelliteLicenses
+    nameWithType: LicenseManager.GetSatelliteLicenses
+    fullName: SuperOffice.License.LicenseManager.GetSatelliteLicenses
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetSatelliteLicenses_System_Int32_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.GetSatelliteLicenses(System.Int32,System.Boolean)
     name: GetSatelliteLicenses
+    nameWithType: LicenseManager.GetSatelliteLicenses
+    fullName: SuperOffice.License.LicenseManager.GetSatelliteLicenses
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetSatelliteLicenses_System_Int32_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.GetSatelliteLicenseUsageCount(System.Int32[])
   commentId: M:SuperOffice.License.LicenseManager.GetSatelliteLicenseUsageCount(System.Int32[])
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetSatelliteLicenseUsageCount_System_Int32___
-  name: GetSatelliteLicenseUsageCount(params int[])
-  nameWithType: LicenseManager.GetSatelliteLicenseUsageCount(params int[])
-  fullName: SuperOffice.License.LicenseManager.GetSatelliteLicenseUsageCount(params int[])
-  nameWithType.vb: LicenseManager.GetSatelliteLicenseUsageCount(ParamArray Integer())
-  fullName.vb: SuperOffice.License.LicenseManager.GetSatelliteLicenseUsageCount(ParamArray Integer())
-  name.vb: GetSatelliteLicenseUsageCount(ParamArray Integer())
+  name: GetSatelliteLicenseUsageCount(Int32[])
+  nameWithType: LicenseManager.GetSatelliteLicenseUsageCount(Int32[])
+  fullName: SuperOffice.License.LicenseManager.GetSatelliteLicenseUsageCount(System.Int32[])
+  nameWithType.vb: LicenseManager.GetSatelliteLicenseUsageCount(Int32())
+  fullName.vb: SuperOffice.License.LicenseManager.GetSatelliteLicenseUsageCount(System.Int32())
+  name.vb: GetSatelliteLicenseUsageCount(Int32())
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.GetSatelliteLicenseUsageCount(System.Int32[])
     name: GetSatelliteLicenseUsageCount
+    nameWithType: LicenseManager.GetSatelliteLicenseUsageCount
+    fullName: SuperOffice.License.LicenseManager.GetSatelliteLicenseUsageCount
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetSatelliteLicenseUsageCount_System_Int32___
   - name: (
-  - name: params
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.GetSatelliteLicenseUsageCount(System.Int32[])
     name: GetSatelliteLicenseUsageCount
+    nameWithType: LicenseManager.GetSatelliteLicenseUsageCount
+    fullName: SuperOffice.License.LicenseManager.GetSatelliteLicenseUsageCount
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetSatelliteLicenseUsageCount_System_Int32___
   - name: (
-  - name: ParamArray
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.GetUserLicenses(System.Int32,SuperOffice.License.UserType)
   commentId: M:SuperOffice.License.LicenseManager.GetUserLicenses(System.Int32,SuperOffice.License.UserType)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetUserLicenses_System_Int32_SuperOffice_License_UserType_
-  name: GetUserLicenses(int, UserType)
-  nameWithType: LicenseManager.GetUserLicenses(int, UserType)
-  fullName: SuperOffice.License.LicenseManager.GetUserLicenses(int, SuperOffice.License.UserType)
-  nameWithType.vb: LicenseManager.GetUserLicenses(Integer, UserType)
-  fullName.vb: SuperOffice.License.LicenseManager.GetUserLicenses(Integer, SuperOffice.License.UserType)
-  name.vb: GetUserLicenses(Integer, UserType)
+  name: GetUserLicenses(Int32, UserType)
+  nameWithType: LicenseManager.GetUserLicenses(Int32, UserType)
+  fullName: SuperOffice.License.LicenseManager.GetUserLicenses(System.Int32, SuperOffice.License.UserType)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.GetUserLicenses(System.Int32,SuperOffice.License.UserType)
     name: GetUserLicenses
+    nameWithType: LicenseManager.GetUserLicenses
+    fullName: SuperOffice.License.LicenseManager.GetUserLicenses
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetUserLicenses_System_Int32_SuperOffice_License_UserType_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.License.UserType
     name: UserType
+    nameWithType: UserType
+    fullName: SuperOffice.License.UserType
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.GetUserLicenses(System.Int32,SuperOffice.License.UserType)
     name: GetUserLicenses
+    nameWithType: LicenseManager.GetUserLicenses
+    fullName: SuperOffice.License.LicenseManager.GetUserLicenses
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetUserLicenses_System_Int32_SuperOffice_License_UserType_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.License.UserType
     name: UserType
+    nameWithType: UserType
+    fullName: SuperOffice.License.UserType
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.GetAssociateLicenseUsageCount(SuperOffice.Data.AssociateType,System.Int32[])
   commentId: M:SuperOffice.License.LicenseManager.GetAssociateLicenseUsageCount(SuperOffice.Data.AssociateType,System.Int32[])
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetAssociateLicenseUsageCount_SuperOffice_Data_AssociateType_System_Int32___
-  name: GetAssociateLicenseUsageCount(AssociateType, params int[])
-  nameWithType: LicenseManager.GetAssociateLicenseUsageCount(AssociateType, params int[])
-  fullName: SuperOffice.License.LicenseManager.GetAssociateLicenseUsageCount(SuperOffice.Data.AssociateType, params int[])
-  nameWithType.vb: LicenseManager.GetAssociateLicenseUsageCount(AssociateType, ParamArray Integer())
-  fullName.vb: SuperOffice.License.LicenseManager.GetAssociateLicenseUsageCount(SuperOffice.Data.AssociateType, ParamArray Integer())
-  name.vb: GetAssociateLicenseUsageCount(AssociateType, ParamArray Integer())
+  name: GetAssociateLicenseUsageCount(AssociateType, Int32[])
+  nameWithType: LicenseManager.GetAssociateLicenseUsageCount(AssociateType, Int32[])
+  fullName: SuperOffice.License.LicenseManager.GetAssociateLicenseUsageCount(SuperOffice.Data.AssociateType, System.Int32[])
+  nameWithType.vb: LicenseManager.GetAssociateLicenseUsageCount(AssociateType, Int32())
+  fullName.vb: SuperOffice.License.LicenseManager.GetAssociateLicenseUsageCount(SuperOffice.Data.AssociateType, System.Int32())
+  name.vb: GetAssociateLicenseUsageCount(AssociateType, Int32())
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.GetAssociateLicenseUsageCount(SuperOffice.Data.AssociateType,System.Int32[])
     name: GetAssociateLicenseUsageCount
+    nameWithType: LicenseManager.GetAssociateLicenseUsageCount
+    fullName: SuperOffice.License.LicenseManager.GetAssociateLicenseUsageCount
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetAssociateLicenseUsageCount_SuperOffice_Data_AssociateType_System_Int32___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.AssociateType
     name: AssociateType
+    nameWithType: AssociateType
+    fullName: SuperOffice.Data.AssociateType
     isExternal: true
-  - name: ','
-  - name: " "
-  - name: params
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.GetAssociateLicenseUsageCount(SuperOffice.Data.AssociateType,System.Int32[])
     name: GetAssociateLicenseUsageCount
+    nameWithType: LicenseManager.GetAssociateLicenseUsageCount
+    fullName: SuperOffice.License.LicenseManager.GetAssociateLicenseUsageCount
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_GetAssociateLicenseUsageCount_SuperOffice_Data_AssociateType_System_Int32___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.AssociateType
     name: AssociateType
+    nameWithType: AssociateType
+    fullName: SuperOffice.Data.AssociateType
     isExternal: true
-  - name: ','
-  - name: " "
-  - name: ParamArray
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.LicenseExists(System.String)
   commentId: M:SuperOffice.License.LicenseManager.LicenseExists(System.String)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_LicenseExists_System_String_
-  name: LicenseExists(string)
-  nameWithType: LicenseManager.LicenseExists(string)
-  fullName: SuperOffice.License.LicenseManager.LicenseExists(string)
-  nameWithType.vb: LicenseManager.LicenseExists(String)
-  fullName.vb: SuperOffice.License.LicenseManager.LicenseExists(String)
-  name.vb: LicenseExists(String)
+  name: LicenseExists(String)
+  nameWithType: LicenseManager.LicenseExists(String)
+  fullName: SuperOffice.License.LicenseManager.LicenseExists(System.String)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.LicenseExists(System.String)
     name: LicenseExists
+    nameWithType: LicenseManager.LicenseExists
+    fullName: SuperOffice.License.LicenseManager.LicenseExists
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_LicenseExists_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.LicenseExists(System.String)
     name: LicenseExists
+    nameWithType: LicenseManager.LicenseExists
+    fullName: SuperOffice.License.LicenseManager.LicenseExists
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_LicenseExists_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeeded
   commentId: M:SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeeded
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_LoadNewLicenseFromServerIfNeeded
   name: LoadNewLicenseFromServerIfNeeded()
   nameWithType: LicenseManager.LoadNewLicenseFromServerIfNeeded()
   fullName: SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeeded()
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeeded
     name: LoadNewLicenseFromServerIfNeeded
+    nameWithType: LicenseManager.LoadNewLicenseFromServerIfNeeded
+    fullName: SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeeded
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_LoadNewLicenseFromServerIfNeeded
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeeded
     name: LoadNewLicenseFromServerIfNeeded
+    nameWithType: LicenseManager.LoadNewLicenseFromServerIfNeeded
+    fullName: SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeeded
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_LoadNewLicenseFromServerIfNeeded
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.PopulateSignedPublicKey(SuperOffice.License.LicenseInfo,System.IO.Stream)
   commentId: M:SuperOffice.License.LicenseManager.PopulateSignedPublicKey(SuperOffice.License.LicenseInfo,System.IO.Stream)
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_PopulateSignedPublicKey_SuperOffice_License_LicenseInfo_System_IO_Stream_
   name: PopulateSignedPublicKey(LicenseInfo, Stream)
   nameWithType: LicenseManager.PopulateSignedPublicKey(LicenseInfo, Stream)
   fullName: SuperOffice.License.LicenseManager.PopulateSignedPublicKey(SuperOffice.License.LicenseInfo, System.IO.Stream)
   spec.csharp:
   - uid: SuperOffice.License.LicenseManager.PopulateSignedPublicKey(SuperOffice.License.LicenseInfo,System.IO.Stream)
     name: PopulateSignedPublicKey
+    nameWithType: LicenseManager.PopulateSignedPublicKey
+    fullName: SuperOffice.License.LicenseManager.PopulateSignedPublicKey
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_PopulateSignedPublicKey_SuperOffice_License_LicenseInfo_System_IO_Stream_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.LicenseInfo
     name: LicenseInfo
+    nameWithType: LicenseInfo
+    fullName: SuperOffice.License.LicenseInfo
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.IO.Stream
     name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.LicenseManager.PopulateSignedPublicKey(SuperOffice.License.LicenseInfo,System.IO.Stream)
     name: PopulateSignedPublicKey
+    nameWithType: LicenseManager.PopulateSignedPublicKey
+    fullName: SuperOffice.License.LicenseManager.PopulateSignedPublicKey
     isExternal: true
-    href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_PopulateSignedPublicKey_SuperOffice_License_LicenseInfo_System_IO_Stream_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.LicenseInfo
     name: LicenseInfo
+    nameWithType: LicenseInfo
+    fullName: SuperOffice.License.LicenseInfo
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.IO.Stream
     name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.IsUnitTesting
   commentId: P:SuperOffice.License.LicenseManager.IsUnitTesting
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_IsUnitTesting
   name: IsUnitTesting
   nameWithType: LicenseManager.IsUnitTesting
   fullName: SuperOffice.License.LicenseManager.IsUnitTesting
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<LicenseManagerNonAutoUpdate, To>(LicenseManagerNonAutoUpdate)
-  nameWithType: EnumUtil.MapEnums<LicenseManager.LicenseManagerNonAutoUpdate, To>(LicenseManager.LicenseManagerNonAutoUpdate)
-  fullName: EnumUtil.MapEnums<SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate, To>(SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
-  nameWithType.vb: EnumUtil.MapEnums(Of LicenseManager.LicenseManagerNonAutoUpdate, To)(LicenseManager.LicenseManagerNonAutoUpdate)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate, To)(SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
-  name.vb: MapEnums(Of LicenseManagerNonAutoUpdate, To)(LicenseManagerNonAutoUpdate)
+  name: MapEnums<LicenseManager.LicenseManagerNonAutoUpdate, To>()
+  nameWithType: EnumUtil.MapEnums<LicenseManager.LicenseManagerNonAutoUpdate, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of LicenseManager.LicenseManagerNonAutoUpdate, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate, To)()
+  name.vb: MapEnums(Of LicenseManager.LicenseManagerNonAutoUpdate, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<LicenseManager.LicenseManagerNonAutoUpdate, To>
+    nameWithType: EnumUtil.MapEnums<LicenseManager.LicenseManagerNonAutoUpdate, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-    name: LicenseManagerNonAutoUpdate
-    isExternal: true
-    href: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-    name: LicenseManagerNonAutoUpdate
-    isExternal: true
-    href: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of LicenseManager.LicenseManagerNonAutoUpdate, To)
+    nameWithType: EnumUtil.MapEnums(Of LicenseManager.LicenseManagerNonAutoUpdate, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-    name: LicenseManagerNonAutoUpdate
-    isExternal: true
-    href: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-    name: LicenseManagerNonAutoUpdate
-    isExternal: true
-    href: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.html
-  - name: )
-- uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<LicenseManagerNonAutoUpdate, To>(LicenseManagerNonAutoUpdate)
-  nameWithType: Converters.MapEnums<LicenseManager.LicenseManagerNonAutoUpdate, To>(LicenseManager.LicenseManagerNonAutoUpdate)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate, To>(SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
-  nameWithType.vb: Converters.MapEnums(Of LicenseManager.LicenseManagerNonAutoUpdate, To)(LicenseManager.LicenseManagerNonAutoUpdate)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate, To)(SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
-  name.vb: MapEnums(Of LicenseManagerNonAutoUpdate, To)(LicenseManagerNonAutoUpdate)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-    name: LicenseManagerNonAutoUpdate
-    isExternal: true
-    href: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-    name: LicenseManagerNonAutoUpdate
-    isExternal: true
-    href: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-    name: LicenseManagerNonAutoUpdate
-    isExternal: true
-    href: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-    name: LicenseManagerNonAutoUpdate
-    isExternal: true
-    href: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<LicenseManagerNonAutoUpdate>(LicenseManagerNonAutoUpdate, LicenseManagerNonAutoUpdate)
-  nameWithType: ObjectExtensions.AssignByReflection<LicenseManager.LicenseManagerNonAutoUpdate>(LicenseManager.LicenseManagerNonAutoUpdate, LicenseManager.LicenseManagerNonAutoUpdate)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate>(SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate, SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of LicenseManager.LicenseManagerNonAutoUpdate)(LicenseManager.LicenseManagerNonAutoUpdate, LicenseManager.LicenseManagerNonAutoUpdate)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)(SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate, SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
-  name.vb: AssignByReflection(Of LicenseManagerNonAutoUpdate)(LicenseManagerNonAutoUpdate, LicenseManagerNonAutoUpdate)
+  name: AssignByReflection<LicenseManager.LicenseManagerNonAutoUpdate>(LicenseManager.LicenseManagerNonAutoUpdate)
+  nameWithType: ObjectExtensions.AssignByReflection<LicenseManager.LicenseManagerNonAutoUpdate>(LicenseManager.LicenseManagerNonAutoUpdate)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate>(SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of LicenseManager.LicenseManagerNonAutoUpdate)(LicenseManager.LicenseManagerNonAutoUpdate)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)(SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
+  name.vb: AssignByReflection(Of LicenseManager.LicenseManagerNonAutoUpdate)(LicenseManager.LicenseManagerNonAutoUpdate)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate,SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<LicenseManager.LicenseManagerNonAutoUpdate>
+    nameWithType: ObjectExtensions.AssignByReflection<LicenseManager.LicenseManagerNonAutoUpdate>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-    name: LicenseManagerNonAutoUpdate
-    isExternal: true
-    href: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-    name: LicenseManagerNonAutoUpdate
+    name: LicenseManager.LicenseManagerNonAutoUpdate
+    nameWithType: LicenseManager.LicenseManagerNonAutoUpdate
+    fullName: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
     isExternal: true
-    href: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-    name: LicenseManagerNonAutoUpdate
-    isExternal: true
-    href: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate,SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of LicenseManager.LicenseManagerNonAutoUpdate)
+    nameWithType: ObjectExtensions.AssignByReflection(Of LicenseManager.LicenseManagerNonAutoUpdate)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-    name: LicenseManagerNonAutoUpdate
+    name: LicenseManager.LicenseManagerNonAutoUpdate
+    nameWithType: LicenseManager.LicenseManagerNonAutoUpdate
+    fullName: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
     isExternal: true
-    href: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.html
   - name: )
-  - name: (
-  - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-    name: LicenseManagerNonAutoUpdate
-    isExternal: true
-    href: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-    name: LicenseManagerNonAutoUpdate
-    isExternal: true
-    href: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<LicenseManagerNonAutoUpdate>(LicenseManagerNonAutoUpdate)
-  nameWithType: ObjectExtensions.GraphCopy<LicenseManager.LicenseManagerNonAutoUpdate>(LicenseManager.LicenseManagerNonAutoUpdate)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate>(SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of LicenseManager.LicenseManagerNonAutoUpdate)(LicenseManager.LicenseManagerNonAutoUpdate)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)(SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
-  name.vb: GraphCopy(Of LicenseManagerNonAutoUpdate)(LicenseManagerNonAutoUpdate)
+  name: GraphCopy<LicenseManager.LicenseManagerNonAutoUpdate>()
+  nameWithType: ObjectExtensions.GraphCopy<LicenseManager.LicenseManagerNonAutoUpdate>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of LicenseManager.LicenseManagerNonAutoUpdate)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)()
+  name.vb: GraphCopy(Of LicenseManager.LicenseManagerNonAutoUpdate)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<LicenseManager.LicenseManagerNonAutoUpdate>
+    nameWithType: ObjectExtensions.GraphCopy<LicenseManager.LicenseManagerNonAutoUpdate>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-    name: LicenseManagerNonAutoUpdate
-    isExternal: true
-    href: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-    name: LicenseManagerNonAutoUpdate
-    isExternal: true
-    href: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of LicenseManager.LicenseManagerNonAutoUpdate)
+    nameWithType: ObjectExtensions.GraphCopy(Of LicenseManager.LicenseManagerNonAutoUpdate)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-    name: LicenseManagerNonAutoUpdate
-    isExternal: true
-    href: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<LicenseManager.LicenseManagerNonAutoUpdate, To>()
+  nameWithType: Converters.MapEnums<LicenseManager.LicenseManagerNonAutoUpdate, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate, To>()
+  nameWithType.vb: Converters.MapEnums(Of LicenseManager.LicenseManagerNonAutoUpdate, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate, To)()
+  name.vb: MapEnums(Of LicenseManager.LicenseManagerNonAutoUpdate, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<LicenseManager.LicenseManagerNonAutoUpdate, To>
+    nameWithType: Converters.MapEnums<LicenseManager.LicenseManagerNonAutoUpdate, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate
-    name: LicenseManagerNonAutoUpdate
-    isExternal: true
-    href: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of LicenseManager.LicenseManagerNonAutoUpdate, To)
+    nameWithType: Converters.MapEnums(Of LicenseManager.LicenseManagerNonAutoUpdate, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1710,93 +1752,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1805,46 +1797,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1853,114 +1855,108 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.#ctor*
   commentId: Overload:SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.#ctor
   isExternal: true
-  href: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.html#SuperOffice_License_LicenseManager_LicenseManagerNonAutoUpdate__ctor
   name: LicenseManagerNonAutoUpdate
   nameWithType: LicenseManager.LicenseManagerNonAutoUpdate.LicenseManagerNonAutoUpdate
   fullName: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.LicenseManagerNonAutoUpdate
-  nameWithType.vb: LicenseManager.LicenseManagerNonAutoUpdate.New
-  fullName.vb: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.New
-  name.vb: New
 - uid: SuperOffice.License.LicenseManager.AllowAutoUpdate
   commentId: P:SuperOffice.License.LicenseManager.AllowAutoUpdate
   parent: SuperOffice.License.LicenseManager
   isExternal: true
-  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_AllowAutoUpdate
   name: AllowAutoUpdate
   nameWithType: LicenseManager.AllowAutoUpdate
   fullName: SuperOffice.License.LicenseManager.AllowAutoUpdate
 - uid: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.AllowAutoUpdate*
   commentId: Overload:SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.AllowAutoUpdate
   isExternal: true
-  href: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.html#SuperOffice_License_LicenseManager_LicenseManagerNonAutoUpdate_AllowAutoUpdate
   name: AllowAutoUpdate
   nameWithType: LicenseManager.LicenseManagerNonAutoUpdate.AllowAutoUpdate
   fullName: SuperOffice.License.LicenseManager.LicenseManagerNonAutoUpdate.AllowAutoUpdate
@@ -1968,10 +1964,6 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

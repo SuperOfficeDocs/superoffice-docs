@@ -9,41 +9,67 @@ items:
   - SuperOffice.Data.WorkflowTimeWaitAlgorithm.NumIntervals
   - SuperOffice.Data.WorkflowTimeWaitAlgorithm.UntilDateField
   - SuperOffice.Data.WorkflowTimeWaitAlgorithm.UntilSpecified
+  - SuperOffice.Data.WorkflowTimeWaitAlgorithm.value__
   langs:
   - csharp
   - vb
   name: WorkflowTimeWaitAlgorithm
   nameWithType: WorkflowTimeWaitAlgorithm
   fullName: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: Workflow waiting step wait algorithm
-  example: []
+  summary: "\nWorkflow waiting step wait algorithm\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum WorkflowTimeWaitAlgorithm
+    content: 'public sealed class WorkflowTimeWaitAlgorithm : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class WorkflowTimeWaitAlgorithm
+          Inherits
 
-      Public Enum WorkflowTimeWaitAlgorithm
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.WorkflowTimeWaitAlgorithm.EnumUtil.MapEnums``2
   - SuperOffice.Data.WorkflowTimeWaitAlgorithm.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.WorkflowTimeWaitAlgorithm.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.WorkflowTimeWaitAlgorithm)
-  - SuperOffice.Data.WorkflowTimeWaitAlgorithm.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm.value__
+  commentId: F:SuperOffice.Data.WorkflowTimeWaitAlgorithm.value__
+  id: value__
+  parent: SuperOffice.Data.WorkflowTimeWaitAlgorithm
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowTimeWaitAlgorithm.value__
+  fullName: SuperOffice.Data.WorkflowTimeWaitAlgorithm.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm.None
   commentId: F:SuperOffice.Data.WorkflowTimeWaitAlgorithm.None
   id: None
@@ -55,26 +81,24 @@ items:
   nameWithType: WorkflowTimeWaitAlgorithm.None
   fullName: SuperOffice.Data.WorkflowTimeWaitAlgorithm.None
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: None'
-  example: []
+  summary: "\n0: None\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const WorkflowTimeWaitAlgorithm None
     return:
       type: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As WorkflowTimeWaitAlgorithm
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm.NumIntervals
   commentId: F:SuperOffice.Data.WorkflowTimeWaitAlgorithm.NumIntervals
   id: NumIntervals
@@ -86,26 +110,24 @@ items:
   nameWithType: WorkflowTimeWaitAlgorithm.NumIntervals
   fullName: SuperOffice.Data.WorkflowTimeWaitAlgorithm.NumIntervals
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Number of intervals (min, hour, workdays, days, weeks...)'
-  example: []
+  summary: "\n1: Number of intervals (min, hour, workdays, days, weeks...)\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      NumIntervals = 1
+    content: public const WorkflowTimeWaitAlgorithm NumIntervals
     return:
       type: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    content.vb: >-
-      <EnumMember>
-
-      NumIntervals = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const NumIntervals As WorkflowTimeWaitAlgorithm
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm.UntilSpecified
   commentId: F:SuperOffice.Data.WorkflowTimeWaitAlgorithm.UntilSpecified
   id: UntilSpecified
@@ -117,26 +139,24 @@ items:
   nameWithType: WorkflowTimeWaitAlgorithm.UntilSpecified
   fullName: SuperOffice.Data.WorkflowTimeWaitAlgorithm.UntilSpecified
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: Until specified datetime'
-  example: []
+  summary: "\n2: Until specified datetime\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UntilSpecified = 2
+    content: public const WorkflowTimeWaitAlgorithm UntilSpecified
     return:
       type: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    content.vb: >-
-      <EnumMember>
-
-      UntilSpecified = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UntilSpecified As WorkflowTimeWaitAlgorithm
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm.UntilDateField
   commentId: F:SuperOffice.Data.WorkflowTimeWaitAlgorithm.UntilDateField
   id: UntilDateField
@@ -148,300 +168,115 @@ items:
   nameWithType: WorkflowTimeWaitAlgorithm.UntilDateField
   fullName: SuperOffice.Data.WorkflowTimeWaitAlgorithm.UntilDateField
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '3: Until date on person/company (a persons birthdate etc)'
-  example: []
+  summary: "\n3: Until date on person/company (a persons birthdate etc)\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UntilDateField = 3
+    content: public const WorkflowTimeWaitAlgorithm UntilDateField
     return:
       type: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    content.vb: >-
-      <EnumMember>
-
-      UntilDateField = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UntilDateField As WorkflowTimeWaitAlgorithm
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<WorkflowTimeWaitAlgorithm, To>(WorkflowTimeWaitAlgorithm)
-  nameWithType: EnumUtil.MapEnums<WorkflowTimeWaitAlgorithm, To>(WorkflowTimeWaitAlgorithm)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.WorkflowTimeWaitAlgorithm, To>(SuperOffice.Data.WorkflowTimeWaitAlgorithm)
-  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowTimeWaitAlgorithm, To)(WorkflowTimeWaitAlgorithm)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.WorkflowTimeWaitAlgorithm, To)(SuperOffice.Data.WorkflowTimeWaitAlgorithm)
-  name.vb: MapEnums(Of WorkflowTimeWaitAlgorithm, To)(WorkflowTimeWaitAlgorithm)
+  name: MapEnums<WorkflowTimeWaitAlgorithm, To>()
+  nameWithType: EnumUtil.MapEnums<WorkflowTimeWaitAlgorithm, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.WorkflowTimeWaitAlgorithm, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of WorkflowTimeWaitAlgorithm, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.WorkflowTimeWaitAlgorithm, To)()
+  name.vb: MapEnums(Of WorkflowTimeWaitAlgorithm, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.WorkflowTimeWaitAlgorithm)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<WorkflowTimeWaitAlgorithm, To>
+    nameWithType: EnumUtil.MapEnums<WorkflowTimeWaitAlgorithm, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.WorkflowTimeWaitAlgorithm, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    name: WorkflowTimeWaitAlgorithm
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTimeWaitAlgorithm.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    name: WorkflowTimeWaitAlgorithm
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTimeWaitAlgorithm.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.WorkflowTimeWaitAlgorithm)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of WorkflowTimeWaitAlgorithm, To)
+    nameWithType: EnumUtil.MapEnums(Of WorkflowTimeWaitAlgorithm, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.WorkflowTimeWaitAlgorithm, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    name: WorkflowTimeWaitAlgorithm
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTimeWaitAlgorithm.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    name: WorkflowTimeWaitAlgorithm
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTimeWaitAlgorithm.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<WorkflowTimeWaitAlgorithm, To>(WorkflowTimeWaitAlgorithm)
-  nameWithType: Converters.MapEnums<WorkflowTimeWaitAlgorithm, To>(WorkflowTimeWaitAlgorithm)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WorkflowTimeWaitAlgorithm, To>(SuperOffice.Data.WorkflowTimeWaitAlgorithm)
-  nameWithType.vb: Converters.MapEnums(Of WorkflowTimeWaitAlgorithm, To)(WorkflowTimeWaitAlgorithm)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WorkflowTimeWaitAlgorithm, To)(SuperOffice.Data.WorkflowTimeWaitAlgorithm)
-  name.vb: MapEnums(Of WorkflowTimeWaitAlgorithm, To)(WorkflowTimeWaitAlgorithm)
+  name: MapEnums<WorkflowTimeWaitAlgorithm, To>()
+  nameWithType: Converters.MapEnums<WorkflowTimeWaitAlgorithm, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WorkflowTimeWaitAlgorithm, To>()
+  nameWithType.vb: Converters.MapEnums(Of WorkflowTimeWaitAlgorithm, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WorkflowTimeWaitAlgorithm, To)()
+  name.vb: MapEnums(Of WorkflowTimeWaitAlgorithm, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.WorkflowTimeWaitAlgorithm)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<WorkflowTimeWaitAlgorithm, To>
+    nameWithType: Converters.MapEnums<WorkflowTimeWaitAlgorithm, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.WorkflowTimeWaitAlgorithm, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    name: WorkflowTimeWaitAlgorithm
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTimeWaitAlgorithm.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    name: WorkflowTimeWaitAlgorithm
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTimeWaitAlgorithm.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.WorkflowTimeWaitAlgorithm)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of WorkflowTimeWaitAlgorithm, To)
+    nameWithType: Converters.MapEnums(Of WorkflowTimeWaitAlgorithm, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.WorkflowTimeWaitAlgorithm, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    name: WorkflowTimeWaitAlgorithm
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTimeWaitAlgorithm.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    name: WorkflowTimeWaitAlgorithm
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTimeWaitAlgorithm.html
-  - name: )
-- uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.WorkflowTimeWaitAlgorithm)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<WorkflowTimeWaitAlgorithm>(WorkflowTimeWaitAlgorithm, WorkflowTimeWaitAlgorithm)
-  nameWithType: ObjectExtensions.AssignByReflection<WorkflowTimeWaitAlgorithm>(WorkflowTimeWaitAlgorithm, WorkflowTimeWaitAlgorithm)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.WorkflowTimeWaitAlgorithm>(SuperOffice.Data.WorkflowTimeWaitAlgorithm, SuperOffice.Data.WorkflowTimeWaitAlgorithm)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WorkflowTimeWaitAlgorithm)(WorkflowTimeWaitAlgorithm, WorkflowTimeWaitAlgorithm)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.WorkflowTimeWaitAlgorithm)(SuperOffice.Data.WorkflowTimeWaitAlgorithm, SuperOffice.Data.WorkflowTimeWaitAlgorithm)
-  name.vb: AssignByReflection(Of WorkflowTimeWaitAlgorithm)(WorkflowTimeWaitAlgorithm, WorkflowTimeWaitAlgorithm)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.WorkflowTimeWaitAlgorithm,SuperOffice.Data.WorkflowTimeWaitAlgorithm)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    name: WorkflowTimeWaitAlgorithm
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTimeWaitAlgorithm.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    name: WorkflowTimeWaitAlgorithm
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTimeWaitAlgorithm.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    name: WorkflowTimeWaitAlgorithm
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTimeWaitAlgorithm.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.WorkflowTimeWaitAlgorithm,SuperOffice.Data.WorkflowTimeWaitAlgorithm)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    name: WorkflowTimeWaitAlgorithm
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTimeWaitAlgorithm.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    name: WorkflowTimeWaitAlgorithm
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTimeWaitAlgorithm.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    name: WorkflowTimeWaitAlgorithm
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTimeWaitAlgorithm.html
-  - name: )
-- uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<WorkflowTimeWaitAlgorithm>(WorkflowTimeWaitAlgorithm)
-  nameWithType: ObjectExtensions.GraphCopy<WorkflowTimeWaitAlgorithm>(WorkflowTimeWaitAlgorithm)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.WorkflowTimeWaitAlgorithm>(SuperOffice.Data.WorkflowTimeWaitAlgorithm)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of WorkflowTimeWaitAlgorithm)(WorkflowTimeWaitAlgorithm)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.WorkflowTimeWaitAlgorithm)(SuperOffice.Data.WorkflowTimeWaitAlgorithm)
-  name.vb: GraphCopy(Of WorkflowTimeWaitAlgorithm)(WorkflowTimeWaitAlgorithm)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.WorkflowTimeWaitAlgorithm)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    name: WorkflowTimeWaitAlgorithm
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTimeWaitAlgorithm.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    name: WorkflowTimeWaitAlgorithm
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTimeWaitAlgorithm.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.WorkflowTimeWaitAlgorithm)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    name: WorkflowTimeWaitAlgorithm
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTimeWaitAlgorithm.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
-    name: WorkflowTimeWaitAlgorithm
-    isExternal: true
-    href: SuperOffice.Data.WorkflowTimeWaitAlgorithm.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -450,45 +285,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -497,222 +330,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.WorkflowTimeWaitAlgorithm
   commentId: T:SuperOffice.Data.WorkflowTimeWaitAlgorithm
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.WorkflowTimeWaitAlgorithm.html
   name: WorkflowTimeWaitAlgorithm
   nameWithType: WorkflowTimeWaitAlgorithm
   fullName: SuperOffice.Data.WorkflowTimeWaitAlgorithm

@@ -39,21 +39,14 @@ items:
   nameWithType: SuperListColumnSizeTableInfo
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "Table 'SuperListColumnSize': Stores the relative size (in percent) or in characters of a column in a SuperList"
-  remarks: >-
-    An instance of this class represents one instance of this table in an SQL statement. In most
-
-    cases each table appears only once in a SELECT, but in cases where you need to self-join, or
-
-    there are multiple occurrences for other reasons (typically additional restrictions in the joins),
-
-    then you will need multiple instances. <br />
-
-    Instances of this class are created by calling TablesInfo.GetSuperListColumnSizeInfo().
-  example: []
+  summary: "\nTable &apos;SuperListColumnSize&apos;: Stores the relative size (in percent) or in characters of a column in a SuperList\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetSuperListColumnSizeInfo()\"></see>.\n"
   syntax:
     content: >-
       [DatabaseTable("SuperListColumnSize")]
@@ -62,7 +55,9 @@ items:
     content.vb: >-
       <DatabaseTable("SuperListColumnSize")>
 
-      Public Class SuperListColumnSizeTableInfo Inherits TableInfo Implements ICloneable
+      Public Class SuperListColumnSizeTableInfo
+          Inherits TableInfo
+          Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.Data.SQL.TableInfo
@@ -83,12 +78,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -98,6 +87,12 @@ items:
     arguments:
     - type: System.String
       value: SuperListColumnSize
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.DictionaryTableName
   commentId: F:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.DictionaryTableName
   id: DictionaryTableName
@@ -109,16 +104,24 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.DictionaryTableName
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.DictionaryTableName
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Conceptual name of table SuperListColumnSize in the database dictionary: SuperListColumnSize'
-  example: []
+  summary: "\nConceptual name of table SuperListColumnSize in the database dictionary: SuperListColumnSize\n"
   syntax:
     content: public const string DictionaryTableName = "SuperListColumnSize"
     return:
       type: System.String
     content.vb: Public Const DictionaryTableName As String = "SuperListColumnSize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.IdxAssocId(System.Int32)
   commentId: M:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.IdxAssocId(System.Int32)
   id: IdxAssocId(System.Int32)
@@ -126,18 +129,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxAssocId(int)
-  nameWithType: SuperListColumnSizeTableInfo.IdxAssocId(int)
-  fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.IdxAssocId(int)
+  name: IdxAssocId(Int32)
+  nameWithType: SuperListColumnSizeTableInfo.IdxAssocId(Int32)
+  fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.IdxAssocId(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index AssocId, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">AssocId</td><td class="description">Owning associate</td></tr></tbody></table>
-  example: []
+  summary: "\nShortcut method for looking up using the database index AssocId, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>AssocId</td><td>Owning associate</td></tr></tbody></table>\n"
   syntax:
     content: public Restriction IdxAssocId(int assocId)
     parameters:
@@ -147,9 +149,10 @@ items:
       type: SuperOffice.Data.SQL.Restriction
     content.vb: Public Function IdxAssocId(assocId As Integer) As Restriction
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.IdxAssocId*
-  nameWithType.vb: SuperListColumnSizeTableInfo.IdxAssocId(Integer)
-  fullName.vb: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.IdxAssocId(Integer)
-  name.vb: IdxAssocId(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -161,14 +164,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.DictionaryTableNumber
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Table number for table SuperListColumnSize in the database dictionary; potentially changes between databases, but
-
-    always the same over the lifetime of any single database
-  example: []
+  summary: "\nTable number for table SuperListColumnSize in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
   syntax:
     content: public int DictionaryTableNumber { get; }
     parameters: []
@@ -176,6 +178,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RuntimeDefinition
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RuntimeDefinition
   id: RuntimeDefinition
@@ -187,32 +195,28 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RuntimeDefinition
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Definition of the table as described in the deployed runtime dictionary
-  example: []
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Definition
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Definition
   id: Definition
@@ -224,11 +228,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.Definition
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Definition
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Definition of the table as described in the deployed runtime dictionary
-  example: []
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
     content: public override SoTable Definition { get; }
     parameters: []
@@ -237,6 +243,14 @@ items:
     content.vb: Public Overrides ReadOnly Property Definition As SoTable
   overridden: SuperOffice.Data.SQL.TableInfo.Definition
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.SuperListColumnSizeId
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.SuperListColumnSizeId
   id: SuperListColumnSizeId
@@ -248,14 +262,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.SuperListColumnSizeId
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.SuperListColumnSizeId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'SuperListColumnSize_id' in table 'SuperListColumnSize': Dictionary type PK, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Primary key
-  example: []
+  summary: "\nField &apos;SuperListColumnSize_id&apos; in table &apos;SuperListColumnSize&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
   syntax:
     content: public Int32FieldInfo SuperListColumnSizeId { get; }
     parameters: []
@@ -263,6 +276,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property SuperListColumnSizeId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.SuperListColumnSizeId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.AssocId
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.AssocId
   id: AssocId
@@ -274,14 +293,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.AssocId
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.AssocId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'assoc_id' in table 'SuperListColumnSize': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Owning associate
-  example: []
+  summary: "\nField &apos;assoc_id&apos; in table &apos;SuperListColumnSize&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOwning associate\n"
   syntax:
     content: public Int32FieldInfo AssocId { get; }
     parameters: []
@@ -289,6 +307,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property AssocId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.AssocId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ListOwner
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ListOwner
   id: ListOwner
@@ -300,14 +324,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.ListOwner
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ListOwner
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'listOwner' in table 'SuperListColumnSize': Dictionary type String[255], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The dialog, panel or whatever that owns this record
-  example: []
+  summary: "\nField &apos;listOwner&apos; in table &apos;SuperListColumnSize&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe dialog, panel or whatever that owns this record\n"
   syntax:
     content: public StringFieldInfo ListOwner { get; }
     parameters: []
@@ -315,6 +338,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property ListOwner As StringFieldInfo
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ListOwner*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ListColumn
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ListColumn
   id: ListColumn
@@ -326,14 +355,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.ListColumn
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ListColumn
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'listColumn' in table 'SuperListColumnSize': Dictionary type String[255], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The name of the column
-  example: []
+  summary: "\nField &apos;listColumn&apos; in table &apos;SuperListColumnSize&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe name of the column\n"
   syntax:
     content: public StringFieldInfo ListColumn { get; }
     parameters: []
@@ -341,6 +369,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property ListColumn As StringFieldInfo
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ListColumn*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ColumnSize
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ColumnSize
   id: ColumnSize
@@ -352,14 +386,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.ColumnSize
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ColumnSize
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'columnSize' in table 'SuperListColumnSize': Dictionary type String[255], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The size, either as a percentage, characters, or other code as needed
-  example: []
+  summary: "\nField &apos;columnSize&apos; in table &apos;SuperListColumnSize&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe size, either as a percentage, characters, or other code as needed\n"
   syntax:
     content: public StringFieldInfo ColumnSize { get; }
     parameters: []
@@ -367,6 +400,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property ColumnSize As StringFieldInfo
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ColumnSize*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ExtraInfo
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ExtraInfo
   id: ExtraInfo
@@ -378,14 +417,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.ExtraInfo
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ExtraInfo
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'extraInfo' in table 'SuperListColumnSize': Dictionary type String[255], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Extra information - show state, or whatever is required
-  example: []
+  summary: "\nField &apos;extraInfo&apos; in table &apos;SuperListColumnSize&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nExtra information - show state, or whatever is required\n"
   syntax:
     content: public StringFieldInfo ExtraInfo { get; }
     parameters: []
@@ -393,6 +431,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property ExtraInfo As StringFieldInfo
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Registered
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Registered
   id: Registered
@@ -404,14 +448,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.Registered
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Registered
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'registered' in table 'SuperListColumnSize': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Registered when
-  example: []
+  summary: "\nField &apos;registered&apos; in table &apos;SuperListColumnSize&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered when\n"
   syntax:
     content: public DateTimeFieldInfo Registered { get; }
     parameters: []
@@ -419,6 +462,12 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Registered*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -430,14 +479,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RegisteredAssociateId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'registered_associate_id' in table 'SuperListColumnSize': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Registered by whom
-  example: []
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;SuperListColumnSize&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
   syntax:
     content: public Int32FieldInfo RegisteredAssociateId { get; }
     parameters: []
@@ -445,6 +493,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Updated
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Updated
   id: Updated
@@ -456,14 +510,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.Updated
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Updated
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'updated' in table 'SuperListColumnSize': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Last updated when
-  example: []
+  summary: "\nField &apos;updated&apos; in table &apos;SuperListColumnSize&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated when\n"
   syntax:
     content: public DateTimeFieldInfo Updated { get; }
     parameters: []
@@ -471,6 +524,12 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Updated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedAssociateId
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -482,14 +541,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedAssociateId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'updated_associate_id' in table 'SuperListColumnSize': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Last updated by whom
-  example: []
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;SuperListColumnSize&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
   syntax:
     content: public Int32FieldInfo UpdatedAssociateId { get; }
     parameters: []
@@ -497,6 +555,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedCount
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedCount
   id: UpdatedCount
@@ -508,14 +572,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedCount
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'updatedCount' in table 'SuperListColumnSize': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Number of updates made to this record
-  example: []
+  summary: "\nField &apos;updatedCount&apos; in table &apos;SuperListColumnSize&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of updates made to this record\n"
   syntax:
     content: public UInt16FieldInfo UpdatedCount { get; }
     parameters: []
@@ -523,6 +586,12 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Rank
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Rank
   id: Rank
@@ -534,14 +603,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.Rank
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Rank
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'rank' in table 'SuperListColumnSize': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Column rank, from left to right in display
-  example: []
+  summary: "\nField &apos;rank&apos; in table &apos;SuperListColumnSize&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nColumn rank, from left to right in display\n"
   syntax:
     content: public UInt16FieldInfo Rank { get; }
     parameters: []
@@ -549,6 +617,12 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Rank As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Rank*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OrderByRank
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OrderByRank
   id: OrderByRank
@@ -560,14 +634,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.OrderByRank
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OrderByRank
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'orderByRank' in table 'SuperListColumnSize': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Order by rank, 0 if this column is not part of orderby
-  example: []
+  summary: "\nField &apos;orderByRank&apos; in table &apos;SuperListColumnSize&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOrder by rank, 0 if this column is not part of orderby\n"
   syntax:
     content: public UInt16FieldInfo OrderByRank { get; }
     parameters: []
@@ -575,6 +648,12 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property OrderByRank As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OrderByRank*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OrderByDirection
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OrderByDirection
   id: OrderByDirection
@@ -586,14 +665,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.OrderByDirection
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OrderByDirection
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'orderByDirection' in table 'SuperListColumnSize': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Direction, 1 = ascending, 2 = descending; 0 = not an orderby column
-  example: []
+  summary: "\nField &apos;orderByDirection&apos; in table &apos;SuperListColumnSize&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nDirection, 1 = ascending, 2 = descending; 0 = not an orderby column\n"
   syntax:
     content: public UInt16FieldInfo OrderByDirection { get; }
     parameters: []
@@ -601,6 +679,12 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property OrderByDirection As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OrderByDirection*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OwnerTable
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OwnerTable
   id: OwnerTable
@@ -612,14 +696,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.OwnerTable
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OwnerTable
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'ownerTable' in table 'SuperListColumnSize': Dictionary type TableNumber, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Optional owner table, if layout is bound to an owner (Selection, ...)
-  example: []
+  summary: "\nField &apos;ownerTable&apos; in table &apos;SuperListColumnSize&apos;: Dictionary type TableNumber, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional owner table, if layout is bound to an owner (Selection, ...)\n"
   syntax:
     content: public UInt16FieldInfo OwnerTable { get; }
     parameters: []
@@ -627,6 +710,12 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property OwnerTable As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OwnerTable*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OwnerRecord
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OwnerRecord
   id: OwnerRecord
@@ -638,14 +727,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.OwnerRecord
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OwnerRecord
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'ownerRecord' in table 'SuperListColumnSize': Dictionary type RecordId, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Optional owner record id, if layout is bound to an owner
-  example: []
+  summary: "\nField &apos;ownerRecord&apos; in table &apos;SuperListColumnSize&apos;: Dictionary type RecordId, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional owner record id, if layout is bound to an owner\n"
   syntax:
     content: public Int32FieldInfo OwnerRecord { get; }
     parameters: []
@@ -653,6 +741,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property OwnerRecord As Int32FieldInfo
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OwnerRecord*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.GroupId
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.GroupId
   id: GroupId
@@ -664,14 +758,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.GroupId
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.GroupId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'group_id' in table 'SuperListColumnSize': Dictionary type FK, target: UserGroup, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Optional group id, if layout is bound to a group
-  example: []
+  summary: "\nField &apos;group_id&apos; in table &apos;SuperListColumnSize&apos;: Dictionary type FK, target: UserGroup, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional group id, if layout is bound to a group\n"
   syntax:
     content: public Int32FieldInfo GroupId { get; }
     parameters: []
@@ -679,6 +772,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property GroupId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.GroupId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ConfigurationName
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ConfigurationName
   id: ConfigurationName
@@ -690,14 +789,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.ConfigurationName
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ConfigurationName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'configurationName' in table 'SuperListColumnSize': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Name to show in dropdowns/menus so this configuration can be selected
-  example: []
+  summary: "\nField &apos;configurationName&apos; in table &apos;SuperListColumnSize&apos;: Dictionary type String[256], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nName to show in dropdowns/menus so this configuration can be selected\n"
   syntax:
     content: public StringFieldInfo ConfigurationName { get; }
     parameters: []
@@ -705,6 +803,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property ConfigurationName As StringFieldInfo
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ConfigurationName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.AssocId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.AssocId_InnerJoin_Associate
   id: AssocId_InnerJoin_Associate
@@ -716,11 +820,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.AssocId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.AssocId_InnerJoin_Associate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key AssocId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key AssocId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<AssociateTableInfo> AssocId_InnerJoin_Associate { get; }
     parameters: []
@@ -728,6 +834,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property AssocId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.AssocId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RegisteredAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RegisteredAssociateId_InnerJoin_Associate
   id: RegisteredAssociateId_InnerJoin_Associate
@@ -739,11 +851,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.RegisteredAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RegisteredAssociateId_InnerJoin_Associate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
     parameters: []
@@ -751,6 +865,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedAssociateId_InnerJoin_Associate
   id: UpdatedAssociateId_InnerJoin_Associate
@@ -762,11 +882,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.UpdatedAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedAssociateId_InnerJoin_Associate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
     parameters: []
@@ -774,6 +896,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.GroupId_InnerJoin_UserGroup
   commentId: P:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.GroupId_InnerJoin_UserGroup
   id: GroupId_InnerJoin_UserGroup
@@ -785,11 +913,13 @@ items:
   nameWithType: SuperListColumnSizeTableInfo.GroupId_InnerJoin_UserGroup
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.GroupId_InnerJoin_UserGroup
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key GroupId in this table, to its target table <xref href="SuperOffice.CRM.Data.UserGroupTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key GroupId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.UserGroupTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<UserGroupTableInfo> GroupId_InnerJoin_UserGroup { get; }
     parameters: []
@@ -797,68 +927,35 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.UserGroupTableInfo}
     content.vb: Public ReadOnly Property GroupId_InnerJoin_UserGroup As TargetedInnerJoin(Of UserGroupTableInfo)
   overload: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.GroupId_InnerJoin_UserGroup*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SQL.TableInfo
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
@@ -866,185 +963,241 @@ references:
   commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   name: ToString()
   nameWithType: TableInfo.ToString()
   fullName: SuperOffice.Data.SQL.TableInfo.ToString()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
-  name: RegisterFields(params FieldInfo[])
-  nameWithType: TableInfo.RegisterFields(params FieldInfo[])
-  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(params SuperOffice.Data.SQL.FieldInfo[])
-  nameWithType.vb: TableInfo.RegisterFields(ParamArray FieldInfo())
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(ParamArray SuperOffice.Data.SQL.FieldInfo())
-  name.vb: RegisterFields(ParamArray FieldInfo())
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-  - name: params
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-  - name: ParamArray
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   name: FieldInfoFromSoField(SoField)
   nameWithType: TableInfo.FieldInfoFromSoField(SoField)
   fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.Clone
   commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   name: Clone()
   nameWithType: TableInfo.Clone()
   fullName: SuperOffice.Data.SQL.TableInfo.Clone()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   name: IsSameTable(TableInfo)
   nameWithType: TableInfo.IsSameTable(TableInfo)
   fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
-  name: FindField(string)
-  nameWithType: TableInfo.FindField(string)
-  fullName: SuperOffice.Data.SQL.TableInfo.FindField(string)
-  nameWithType.vb: TableInfo.FindField(String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.FindField(String)
-  name.vb: FindField(String)
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.ProtAll
   commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
   name: ProtAll
   nameWithType: TableInfo.ProtAll
   fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
@@ -1052,7 +1205,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_HashCheckFields
   name: HashCheckFields
   nameWithType: TableInfo.HashCheckFields
   fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
@@ -1060,7 +1212,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_TableName
   name: TableName
   nameWithType: TableInfo.TableName
   fullName: SuperOffice.Data.SQL.TableInfo.TableName
@@ -1068,7 +1219,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_DbName
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
@@ -1076,7 +1226,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
   name: IsDictionaryTable
   nameWithType: TableInfo.IsDictionaryTable
   fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
@@ -1084,7 +1233,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_All
   name: All
   nameWithType: TableInfo.All
   fullName: SuperOffice.Data.SQL.TableInfo.All
@@ -1092,389 +1240,136 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: this[string]
-  nameWithType: TableInfo.this[string]
-  fullName: SuperOffice.Data.SQL.TableInfo.this[string]
-  nameWithType.vb: TableInfo.this[](String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.this[](String)
-  name.vb: this[](String)
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
   spec.csharp:
-  - name: this
-  - name: '['
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ']'
-  spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-    name: this[]
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Item_System_String_
-  - name: (
+  - name: '['
+    nameWithType: '['
+    fullName: '['
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_PrimaryKeyField
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<SuperListColumnSizeTableInfo, To>(SuperListColumnSizeTableInfo)
-  nameWithType: EnumUtil.MapEnums<SuperListColumnSizeTableInfo, To>(SuperListColumnSizeTableInfo)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.SuperListColumnSizeTableInfo, To>(SuperOffice.CRM.Data.SuperListColumnSizeTableInfo)
-  nameWithType.vb: EnumUtil.MapEnums(Of SuperListColumnSizeTableInfo, To)(SuperListColumnSizeTableInfo)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.SuperListColumnSizeTableInfo, To)(SuperOffice.CRM.Data.SuperListColumnSizeTableInfo)
-  name.vb: MapEnums(Of SuperListColumnSizeTableInfo, To)(SuperListColumnSizeTableInfo)
+  name: MapEnums<SuperListColumnSizeTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<SuperListColumnSizeTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.SuperListColumnSizeTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SuperListColumnSizeTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.SuperListColumnSizeTableInfo, To)()
+  name.vb: MapEnums(Of SuperListColumnSizeTableInfo, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.SuperListColumnSizeTableInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SuperListColumnSizeTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<SuperListColumnSizeTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.SuperListColumnSizeTableInfo, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo
-    name: SuperListColumnSizeTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo
-    name: SuperListColumnSizeTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.SuperListColumnSizeTableInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SuperListColumnSizeTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of SuperListColumnSizeTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.SuperListColumnSizeTableInfo, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo
-    name: SuperListColumnSizeTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo
-    name: SuperListColumnSizeTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<SuperListColumnSizeTableInfo, To>(SuperListColumnSizeTableInfo)
-  nameWithType: Converters.MapEnums<SuperListColumnSizeTableInfo, To>(SuperListColumnSizeTableInfo)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.SuperListColumnSizeTableInfo, To>(SuperOffice.CRM.Data.SuperListColumnSizeTableInfo)
-  nameWithType.vb: Converters.MapEnums(Of SuperListColumnSizeTableInfo, To)(SuperListColumnSizeTableInfo)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.SuperListColumnSizeTableInfo, To)(SuperOffice.CRM.Data.SuperListColumnSizeTableInfo)
-  name.vb: MapEnums(Of SuperListColumnSizeTableInfo, To)(SuperListColumnSizeTableInfo)
+  name: MapEnums<SuperListColumnSizeTableInfo, To>()
+  nameWithType: Converters.MapEnums<SuperListColumnSizeTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.SuperListColumnSizeTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of SuperListColumnSizeTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.SuperListColumnSizeTableInfo, To)()
+  name.vb: MapEnums(Of SuperListColumnSizeTableInfo, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.SuperListColumnSizeTableInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SuperListColumnSizeTableInfo, To>
+    nameWithType: Converters.MapEnums<SuperListColumnSizeTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.SuperListColumnSizeTableInfo, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo
-    name: SuperListColumnSizeTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo
-    name: SuperListColumnSizeTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.SuperListColumnSizeTableInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SuperListColumnSizeTableInfo, To)
+    nameWithType: Converters.MapEnums(Of SuperListColumnSizeTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.SuperListColumnSizeTableInfo, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo
-    name: SuperListColumnSizeTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo
-    name: SuperListColumnSizeTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1483,45 +1378,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1530,94 +1423,57 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.IdxAssocId*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.IdxAssocId
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_IdxAssocId_System_Int32_
   name: IdxAssocId
   nameWithType: SuperListColumnSizeTableInfo.IdxAssocId
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.IdxAssocId
@@ -1625,32 +1481,25 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.SQL.Restriction
   commentId: T:SuperOffice.Data.SQL.Restriction
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Restriction.html
   name: Restriction
   nameWithType: Restriction
   fullName: SuperOffice.Data.SQL.Restriction
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.DictionaryTableNumber*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.DictionaryTableNumber
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_DictionaryTableNumber
   name: DictionaryTableNumber
   nameWithType: SuperListColumnSizeTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.DictionaryTableNumber
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RuntimeDefinition*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RuntimeDefinition
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_RuntimeDefinition
   name: RuntimeDefinition
   nameWithType: SuperListColumnSizeTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RuntimeDefinition
@@ -1658,66 +1507,31 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
 - uid: SuperOffice.Data.SQL.TableInfo.Definition
   commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Definition
   name: Definition
   nameWithType: TableInfo.Definition
   fullName: SuperOffice.Data.SQL.TableInfo.Definition
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Definition*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Definition
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_Definition
   name: Definition
   nameWithType: SuperListColumnSizeTableInfo.Definition
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Definition
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.SuperListColumnSizeId*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.SuperListColumnSizeId
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_SuperListColumnSizeId
   name: SuperListColumnSizeId
   nameWithType: SuperListColumnSizeTableInfo.SuperListColumnSizeId
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.SuperListColumnSizeId
@@ -1725,21 +1539,18 @@ references:
   commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Int32FieldInfo.html
   name: Int32FieldInfo
   nameWithType: Int32FieldInfo
   fullName: SuperOffice.Data.SQL.Int32FieldInfo
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.AssocId*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.AssocId
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_AssocId
   name: AssocId
   nameWithType: SuperListColumnSizeTableInfo.AssocId
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.AssocId
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ListOwner*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ListOwner
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_ListOwner
   name: ListOwner
   nameWithType: SuperListColumnSizeTableInfo.ListOwner
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ListOwner
@@ -1747,46 +1558,30 @@ references:
   commentId: T:SuperOffice.Data.SQL.StringFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.StringFieldInfo.html
   name: StringFieldInfo
   nameWithType: StringFieldInfo
   fullName: SuperOffice.Data.SQL.StringFieldInfo
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ListColumn*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ListColumn
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_ListColumn
   name: ListColumn
   nameWithType: SuperListColumnSizeTableInfo.ListColumn
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ListColumn
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ColumnSize*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ColumnSize
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_ColumnSize
   name: ColumnSize
   nameWithType: SuperListColumnSizeTableInfo.ColumnSize
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ColumnSize
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ExtraInfo*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ExtraInfo
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_ExtraInfo
   name: ExtraInfo
   nameWithType: SuperListColumnSizeTableInfo.ExtraInfo
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ExtraInfo
-- uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Registered*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Registered
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_Registered
   name: Registered
   nameWithType: SuperListColumnSizeTableInfo.Registered
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Registered
@@ -1794,46 +1589,30 @@ references:
   commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.DateTimeFieldInfo.html
   name: DateTimeFieldInfo
   nameWithType: DateTimeFieldInfo
   fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RegisteredAssociateId*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RegisteredAssociateId
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_RegisteredAssociateId
   name: RegisteredAssociateId
   nameWithType: SuperListColumnSizeTableInfo.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RegisteredAssociateId
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Updated*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Updated
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_Updated
   name: Updated
   nameWithType: SuperListColumnSizeTableInfo.Updated
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Updated
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedAssociateId*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedAssociateId
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_UpdatedAssociateId
   name: UpdatedAssociateId
   nameWithType: SuperListColumnSizeTableInfo.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedAssociateId
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedCount*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedCount
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_UpdatedCount
   name: UpdatedCount
   nameWithType: SuperListColumnSizeTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedCount
@@ -1841,71 +1620,54 @@ references:
   commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.UInt16FieldInfo.html
   name: UInt16FieldInfo
   nameWithType: UInt16FieldInfo
   fullName: SuperOffice.Data.SQL.UInt16FieldInfo
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Rank*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Rank
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_Rank
   name: Rank
   nameWithType: SuperListColumnSizeTableInfo.Rank
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.Rank
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OrderByRank*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OrderByRank
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_OrderByRank
   name: OrderByRank
   nameWithType: SuperListColumnSizeTableInfo.OrderByRank
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OrderByRank
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OrderByDirection*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OrderByDirection
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_OrderByDirection
   name: OrderByDirection
   nameWithType: SuperListColumnSizeTableInfo.OrderByDirection
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OrderByDirection
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OwnerTable*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OwnerTable
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_OwnerTable
   name: OwnerTable
   nameWithType: SuperListColumnSizeTableInfo.OwnerTable
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OwnerTable
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OwnerRecord*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OwnerRecord
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_OwnerRecord
   name: OwnerRecord
   nameWithType: SuperListColumnSizeTableInfo.OwnerRecord
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.OwnerRecord
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.GroupId*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.GroupId
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_GroupId
   name: GroupId
   nameWithType: SuperListColumnSizeTableInfo.GroupId
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.GroupId
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ConfigurationName*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ConfigurationName
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_ConfigurationName
   name: ConfigurationName
   nameWithType: SuperListColumnSizeTableInfo.ConfigurationName
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.ConfigurationName
-- uid: SuperOffice.CRM.Data.AssociateTableInfo
-  commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.AssociateTableInfo.html
-  name: AssociateTableInfo
-  nameWithType: AssociateTableInfo
-  fullName: SuperOffice.CRM.Data.AssociateTableInfo
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.AssocId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.AssocId_InnerJoin_Associate
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_AssocId_InnerJoin_Associate
   name: AssocId_InnerJoin_Associate
   nameWithType: SuperListColumnSizeTableInfo.AssocId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.AssocId_InnerJoin_Associate
@@ -1913,7 +1675,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<AssociateTableInfo>
   nameWithType: TargetedInnerJoin<AssociateTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
@@ -1923,31 +1684,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.AssociateTableInfo
     name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.AssociateTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.AssociateTableInfo
     name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.AssociateTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
   isExternal: true
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<TargetTableInfo>
   nameWithType: TargetedInnerJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
@@ -1957,47 +1727,48 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RegisteredAssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RegisteredAssociateId_InnerJoin_Associate
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_RegisteredAssociateId_InnerJoin_Associate
   name: RegisteredAssociateId_InnerJoin_Associate
   nameWithType: SuperListColumnSizeTableInfo.RegisteredAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.RegisteredAssociateId_InnerJoin_Associate
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedAssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedAssociateId_InnerJoin_Associate
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_UpdatedAssociateId_InnerJoin_Associate
   name: UpdatedAssociateId_InnerJoin_Associate
   nameWithType: SuperListColumnSizeTableInfo.UpdatedAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.UpdatedAssociateId_InnerJoin_Associate
-- uid: SuperOffice.CRM.Data.UserGroupTableInfo
-  commentId: T:SuperOffice.CRM.Data.UserGroupTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.UserGroupTableInfo.html
-  name: UserGroupTableInfo
-  nameWithType: UserGroupTableInfo
-  fullName: SuperOffice.CRM.Data.UserGroupTableInfo
 - uid: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.GroupId_InnerJoin_UserGroup*
   commentId: Overload:SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.GroupId_InnerJoin_UserGroup
   isExternal: true
-  href: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.html#SuperOffice_CRM_Data_SuperListColumnSizeTableInfo_GroupId_InnerJoin_UserGroup
   name: GroupId_InnerJoin_UserGroup
   nameWithType: SuperListColumnSizeTableInfo.GroupId_InnerJoin_UserGroup
   fullName: SuperOffice.CRM.Data.SuperListColumnSizeTableInfo.GroupId_InnerJoin_UserGroup
@@ -2005,7 +1776,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.UserGroupTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<UserGroupTableInfo>
   nameWithType: TargetedInnerJoin<UserGroupTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.UserGroupTableInfo>
@@ -2015,24 +1785,34 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.UserGroupTableInfo
     name: UserGroupTableInfo
+    nameWithType: UserGroupTableInfo
+    fullName: SuperOffice.CRM.Data.UserGroupTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.UserGroupTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.UserGroupTableInfo
     name: UserGroupTableInfo
+    nameWithType: UserGroupTableInfo
+    fullName: SuperOffice.CRM.Data.UserGroupTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.UserGroupTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )

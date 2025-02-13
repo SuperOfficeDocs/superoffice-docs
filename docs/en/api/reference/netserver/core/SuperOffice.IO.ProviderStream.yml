@@ -25,70 +25,32 @@ items:
   nameWithType: ProviderStream
   fullName: SuperOffice.IO.ProviderStream
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
-  summary: Stream for reading from and writing to the document archive.
-  example: []
+  summary: "\nStream for reading from and writing to the document archive.\n"
   syntax:
     content: 'public class ProviderStream : Stream, IDisposable'
-    content.vb: Public Class ProviderStream Inherits Stream Implements IDisposable
+    content.vb: >-
+      Public Class ProviderStream
+          Inherits Stream
+          Implements IDisposable
   inheritance:
   - System.Object
-  - System.MarshalByRefObject
-  - System.IO.Stream
   implements:
   - System.IDisposable
-  inheritedMembers:
-  - System.IO.Stream.Null
-  - System.IO.Stream.CopyToAsync(System.IO.Stream)
-  - System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32)
-  - System.IO.Stream.CopyToAsync(System.IO.Stream,System.Threading.CancellationToken)
-  - System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)
-  - System.IO.Stream.CopyTo(System.IO.Stream)
-  - System.IO.Stream.CopyTo(System.IO.Stream,System.Int32)
-  - System.IO.Stream.Dispose(System.Boolean)
-  - System.IO.Stream.FlushAsync
-  - System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
-  - System.IO.Stream.CreateWaitHandle
-  - System.IO.Stream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-  - System.IO.Stream.EndRead(System.IAsyncResult)
-  - System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32)
-  - System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
-  - System.IO.Stream.ReadAsync(System.Memory{System.Byte},System.Threading.CancellationToken)
-  - System.IO.Stream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-  - System.IO.Stream.EndWrite(System.IAsyncResult)
-  - System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32)
-  - System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
-  - System.IO.Stream.WriteAsync(System.ReadOnlyMemory{System.Byte},System.Threading.CancellationToken)
-  - System.IO.Stream.Read(System.Span{System.Byte})
-  - System.IO.Stream.ReadByte
-  - System.IO.Stream.Write(System.ReadOnlySpan{System.Byte})
-  - System.IO.Stream.WriteByte(System.Byte)
-  - System.IO.Stream.Synchronized(System.IO.Stream)
-  - System.IO.Stream.ObjectInvariant
-  - System.IO.Stream.CanTimeout
-  - System.IO.Stream.ReadTimeout
-  - System.IO.Stream.WriteTimeout
-  - System.MarshalByRefObject.GetLifetimeService
-  - System.MarshalByRefObject.InitializeLifetimeService
-  - System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.IO.ProviderStream.EnumUtil.MapEnums``2
   - SuperOffice.IO.ProviderStream.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - System.IO.Stream.StreamExtensions.CopyToNewStream
-  - System.IO.Stream.StreamExtensions.CopyToNewStreamInChunks
-  - System.IO.Stream.StreamExtensions.ReadReliably(System.Int64,System.Int32)
-  - System.IO.Stream.StreamExtensions.ToByteArray(System.Int32)
-  - System.IO.Stream.StreamExtensions.WriteInChunksTo(System.IO.Stream)
-  - System.IO.Stream.SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.IO.ProviderStream.GetProviderStream(SuperOffice.IO.IStreamProvider,SuperOffice.IO.ProviderStream.AccessMode)
   commentId: M:SuperOffice.IO.ProviderStream.GetProviderStream(SuperOffice.IO.IStreamProvider,SuperOffice.IO.ProviderStream.AccessMode)
   id: GetProviderStream(SuperOffice.IO.IStreamProvider,SuperOffice.IO.ProviderStream.AccessMode)
@@ -96,29 +58,37 @@ items:
   langs:
   - csharp
   - vb
-  name: GetProviderStream(IStreamProvider, AccessMode)
+  name: GetProviderStream(IStreamProvider, ProviderStream.AccessMode)
   nameWithType: ProviderStream.GetProviderStream(IStreamProvider, ProviderStream.AccessMode)
   fullName: SuperOffice.IO.ProviderStream.GetProviderStream(SuperOffice.IO.IStreamProvider, SuperOffice.IO.ProviderStream.AccessMode)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
-  summary: Get a new instance of the <xref href="SuperOffice.IO.ProviderStream" data-throw-if-not-resolved="false"></xref>
-  example: []
+  summary: "\nGet a new instance of the <xref href=\"SuperOffice.IO.ProviderStream\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
     content: public static ProviderStream GetProviderStream(IStreamProvider provider, ProviderStream.AccessMode accessMode)
     parameters:
     - id: provider
       type: SuperOffice.IO.IStreamProvider
-      description: Data source for the DocumentStream.
+      description: Data source for the <see cref="!:DocumentStream"></see>.
     - id: accessMode
       type: SuperOffice.IO.ProviderStream.AccessMode
-      description: Mode in which the DocumentStreamis accessed.
+      description: 'Mode in which the <see cref="!:DocumentStream"></see>is accessed. '
     return:
       type: SuperOffice.IO.ProviderStream
-      description: New instance of the DocumentStream.
+      description: New instance of the <see cref="!:DocumentStream"></see>.
     content.vb: Public Shared Function GetProviderStream(provider As IStreamProvider, accessMode As ProviderStream.AccessMode) As ProviderStream
   overload: SuperOffice.IO.ProviderStream.GetProviderStream*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.IO.ProviderStream.Read(System.Byte[],System.Int32,System.Int32)
   commentId: M:SuperOffice.IO.ProviderStream.Read(System.Byte[],System.Int32,System.Int32)
   id: Read(System.Byte[],System.Int32,System.Int32)
@@ -126,24 +96,18 @@ items:
   langs:
   - csharp
   - vb
-  name: Read(byte[], int, int)
-  nameWithType: ProviderStream.Read(byte[], int, int)
-  fullName: SuperOffice.IO.ProviderStream.Read(byte[], int, int)
+  name: Read(Byte[], Int32, Int32)
+  nameWithType: ProviderStream.Read(Byte[], Int32, Int32)
+  fullName: SuperOffice.IO.ProviderStream.Read(System.Byte[], System.Int32, System.Int32)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
-  summary: >-
-    Read a block of bytes from a stream, and insert them into the given position in the
-
-    callers buffer array
-  remarks: >-
-    Note that the actual remote stream or file may be read using other chunk sizes than what is
-
-    use in the incoming 'count' parameter. The <xref href="SuperOffice.IO.ProviderStream.Position" data-throw-if-not-resolved="false"></xref> property will report the
-
-    position as seen by the caller, not the position as read from the file.
-  example: []
+  summary: "\nRead a block of bytes from a stream, and insert them into the given position in the\ncallers buffer array\n"
+  remarks: "\nNote that the actual remote stream or file may be read using other chunk sizes than what is\nuse in the incoming &apos;count&apos; parameter. The <xref href=\"SuperOffice.IO.ProviderStream.Position\" data-throw-if-not-resolved=\"false\"></xref> property will report the\nposition as seen by the caller, not the position as read from the file.\n"
   syntax:
     content: public override int Read(byte[] buffer, int offsetIntoDestination, int count)
     parameters:
@@ -160,11 +124,16 @@ items:
       type: System.Int32
       description: Number of bytes actually read
     content.vb: Public Overrides Function Read(buffer As Byte(), offsetIntoDestination As Integer, count As Integer) As Integer
-  overridden: System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
   overload: SuperOffice.IO.ProviderStream.Read*
-  nameWithType.vb: ProviderStream.Read(Byte(), Integer, Integer)
-  fullName.vb: SuperOffice.IO.ProviderStream.Read(Byte(), Integer, Integer)
-  name.vb: Read(Byte(), Integer, Integer)
+  nameWithType.vb: ProviderStream.Read(Byte(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: SuperOffice.IO.ProviderStream.Read(System.Byte(), System.Int32, System.Int32)
+  name.vb: Read(Byte(), Int32, Int32)
 - uid: SuperOffice.IO.ProviderStream.Write(System.Byte[],System.Int32,System.Int32)
   commentId: M:SuperOffice.IO.ProviderStream.Write(System.Byte[],System.Int32,System.Int32)
   id: Write(System.Byte[],System.Int32,System.Int32)
@@ -172,18 +141,17 @@ items:
   langs:
   - csharp
   - vb
-  name: Write(byte[], int, int)
-  nameWithType: ProviderStream.Write(byte[], int, int)
-  fullName: SuperOffice.IO.ProviderStream.Write(byte[], int, int)
+  name: Write(Byte[], Int32, Int32)
+  nameWithType: ProviderStream.Write(Byte[], Int32, Int32)
+  fullName: SuperOffice.IO.ProviderStream.Write(System.Byte[], System.Int32, System.Int32)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
-  summary: >-
-    Write a chunk of bytes to a stream, potentially triggering a write to the
-
-    underlying file or remote stream
-  example: []
+  summary: "\nWrite a chunk of bytes to a stream, potentially triggering a write to the\nunderlying file or remote stream\n"
   syntax:
     content: public override void Write(byte[] buffer, int sourceOffset, int count)
     parameters:
@@ -197,11 +165,16 @@ items:
       type: System.Int32
       description: Number of bytes to get from offset
     content.vb: Public Overrides Sub Write(buffer As Byte(), sourceOffset As Integer, count As Integer)
-  overridden: System.IO.Stream.Write(System.Byte[],System.Int32,System.Int32)
   overload: SuperOffice.IO.ProviderStream.Write*
-  nameWithType.vb: ProviderStream.Write(Byte(), Integer, Integer)
-  fullName.vb: SuperOffice.IO.ProviderStream.Write(Byte(), Integer, Integer)
-  name.vb: Write(Byte(), Integer, Integer)
+  nameWithType.vb: ProviderStream.Write(Byte(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: SuperOffice.IO.ProviderStream.Write(System.Byte(), System.Int32, System.Int32)
+  name.vb: Write(Byte(), Int32, Int32)
 - uid: SuperOffice.IO.ProviderStream.Flush
   commentId: M:SuperOffice.IO.ProviderStream.Flush
   id: Flush
@@ -213,16 +186,23 @@ items:
   nameWithType: ProviderStream.Flush()
   fullName: SuperOffice.IO.ProviderStream.Flush()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public override void Flush()
-    content.vb: Public Overrides Sub Flush()
-  overridden: System.IO.Stream.Flush
+    content.vb: Public Overrides Sub Flush
   overload: SuperOffice.IO.ProviderStream.Flush*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.IO.ProviderStream.Close
   commentId: M:SuperOffice.IO.ProviderStream.Close
   id: Close
@@ -234,16 +214,23 @@ items:
   nameWithType: ProviderStream.Close()
   fullName: SuperOffice.IO.ProviderStream.Close()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public override void Close()
-    content.vb: Public Overrides Sub Close()
-  overridden: System.IO.Stream.Close
+    content.vb: Public Overrides Sub Close
   overload: SuperOffice.IO.ProviderStream.Close*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.IO.ProviderStream.SetLength(System.Int64)
   commentId: M:SuperOffice.IO.ProviderStream.SetLength(System.Int64)
   id: SetLength(System.Int64)
@@ -251,27 +238,30 @@ items:
   langs:
   - csharp
   - vb
-  name: SetLength(long)
-  nameWithType: ProviderStream.SetLength(long)
-  fullName: SuperOffice.IO.ProviderStream.SetLength(long)
+  name: SetLength(Int64)
+  nameWithType: ProviderStream.SetLength(Int64)
+  fullName: SuperOffice.IO.ProviderStream.SetLength(System.Int64)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public override void SetLength(long value)
     parameters:
     - id: value
       type: System.Int64
-      description: ''
     content.vb: Public Overrides Sub SetLength(value As Long)
-  overridden: System.IO.Stream.SetLength(System.Int64)
   overload: SuperOffice.IO.ProviderStream.SetLength*
-  nameWithType.vb: ProviderStream.SetLength(Long)
-  fullName.vb: SuperOffice.IO.ProviderStream.SetLength(Long)
-  name.vb: SetLength(Long)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.IO.ProviderStream.Seek(System.Int64,System.IO.SeekOrigin)
   commentId: M:SuperOffice.IO.ProviderStream.Seek(System.Int64,System.IO.SeekOrigin)
   id: Seek(System.Int64,System.IO.SeekOrigin)
@@ -279,33 +269,34 @@ items:
   langs:
   - csharp
   - vb
-  name: Seek(long, SeekOrigin)
-  nameWithType: ProviderStream.Seek(long, SeekOrigin)
-  fullName: SuperOffice.IO.ProviderStream.Seek(long, System.IO.SeekOrigin)
+  name: Seek(Int64, SeekOrigin)
+  nameWithType: ProviderStream.Seek(Int64, SeekOrigin)
+  fullName: SuperOffice.IO.ProviderStream.Seek(System.Int64, System.IO.SeekOrigin)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public override long Seek(long offset, SeekOrigin origin)
     parameters:
     - id: offset
       type: System.Int64
-      description: ''
     - id: origin
       type: System.IO.SeekOrigin
-      description: ''
     return:
       type: System.Int64
-      description: ''
     content.vb: Public Overrides Function Seek(offset As Long, origin As SeekOrigin) As Long
-  overridden: System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
   overload: SuperOffice.IO.ProviderStream.Seek*
-  nameWithType.vb: ProviderStream.Seek(Long, SeekOrigin)
-  fullName.vb: SuperOffice.IO.ProviderStream.Seek(Long, System.IO.SeekOrigin)
-  name.vb: Seek(Long, SeekOrigin)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.IO.ProviderStream.Dispose
   commentId: M:SuperOffice.IO.ProviderStream.Dispose
   id: Dispose
@@ -317,17 +308,21 @@ items:
   nameWithType: ProviderStream.Dispose()
   fullName: SuperOffice.IO.ProviderStream.Dispose()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
-  summary: Dispose of the document stream
-  example: []
+  summary: "\nDispose of the document stream\n"
   syntax:
     content: public void Dispose()
-    content.vb: Public Sub Dispose()
+    content.vb: Public Sub Dispose
   overload: SuperOffice.IO.ProviderStream.Dispose*
-  implements:
-  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.IO.ProviderStream.CanSeek
   commentId: P:SuperOffice.IO.ProviderStream.CanSeek
   id: CanSeek
@@ -339,19 +334,28 @@ items:
   nameWithType: ProviderStream.CanSeek
   fullName: SuperOffice.IO.ProviderStream.CanSeek
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
-  summary: Does the stream support seeking?
-  example: []
+  summary: "\nDoes the stream support seeking?\n"
   syntax:
     content: public override bool CanSeek { get; }
     parameters: []
     return:
       type: System.Boolean
     content.vb: Public Overrides ReadOnly Property CanSeek As Boolean
-  overridden: System.IO.Stream.CanSeek
   overload: SuperOffice.IO.ProviderStream.CanSeek*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
 - uid: SuperOffice.IO.ProviderStream.CanRead
   commentId: P:SuperOffice.IO.ProviderStream.CanRead
   id: CanRead
@@ -363,19 +367,28 @@ items:
   nameWithType: ProviderStream.CanRead
   fullName: SuperOffice.IO.ProviderStream.CanRead
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
-  summary: Does the stream support reading?
-  example: []
+  summary: "\nDoes the stream support reading?\n"
   syntax:
     content: public override bool CanRead { get; }
     parameters: []
     return:
       type: System.Boolean
     content.vb: Public Overrides ReadOnly Property CanRead As Boolean
-  overridden: System.IO.Stream.CanRead
   overload: SuperOffice.IO.ProviderStream.CanRead*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
 - uid: SuperOffice.IO.ProviderStream.CanWrite
   commentId: P:SuperOffice.IO.ProviderStream.CanWrite
   id: CanWrite
@@ -387,19 +400,28 @@ items:
   nameWithType: ProviderStream.CanWrite
   fullName: SuperOffice.IO.ProviderStream.CanWrite
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
-  summary: Does the stream support writing?
-  example: []
+  summary: "\nDoes the stream support writing?\n"
   syntax:
     content: public override bool CanWrite { get; }
     parameters: []
     return:
       type: System.Boolean
     content.vb: Public Overrides ReadOnly Property CanWrite As Boolean
-  overridden: System.IO.Stream.CanWrite
   overload: SuperOffice.IO.ProviderStream.CanWrite*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
 - uid: SuperOffice.IO.ProviderStream.Length
   commentId: P:SuperOffice.IO.ProviderStream.Length
   id: Length
@@ -411,19 +433,28 @@ items:
   nameWithType: ProviderStream.Length
   fullName: SuperOffice.IO.ProviderStream.Length
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public override long Length { get; }
     parameters: []
     return:
       type: System.Int64
     content.vb: Public Overrides ReadOnly Property Length As Long
-  overridden: System.IO.Stream.Length
   overload: SuperOffice.IO.ProviderStream.Length*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
 - uid: SuperOffice.IO.ProviderStream.Position
   commentId: P:SuperOffice.IO.ProviderStream.Position
   id: Position
@@ -435,1988 +466,124 @@ items:
   nameWithType: ProviderStream.Position
   fullName: SuperOffice.IO.ProviderStream.Position
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.IO
-  summary: Current position in stream buffer, as seen by caller (not internal chunk buffer position)
-  example: []
+  summary: "\nCurrent position in stream buffer, as seen by caller (not internal chunk buffer position)\n"
   syntax:
     content: public override long Position { get; set; }
     parameters: []
     return:
       type: System.Int64
     content.vb: Public Overrides Property Position As Long
-  overridden: System.IO.Stream.Position
   overload: SuperOffice.IO.ProviderStream.Position*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
 references:
 - uid: SuperOffice.IO
   commentId: N:SuperOffice.IO
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.IO
   nameWithType: SuperOffice.IO
   fullName: SuperOffice.IO
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.IO
-    name: IO
-    isExternal: true
-    href: SuperOffice.IO.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.IO
-    name: IO
-    isExternal: true
-    href: SuperOffice.IO.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.MarshalByRefObject
-  commentId: T:System.MarshalByRefObject
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject
-  name: MarshalByRefObject
-  nameWithType: MarshalByRefObject
-  fullName: System.MarshalByRefObject
-- uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
-- uid: System.IO.Stream.Null
-  commentId: F:System.IO.Stream.Null
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.null
-  name: "Null"
-  nameWithType: Stream.Null
-  fullName: System.IO.Stream.Null
-- uid: System.IO.Stream.CopyToAsync(System.IO.Stream)
-  commentId: M:System.IO.Stream.CopyToAsync(System.IO.Stream)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.copytoasync#system-io-stream-copytoasync(system-io-stream)
-  name: CopyToAsync(Stream)
-  nameWithType: Stream.CopyToAsync(Stream)
-  fullName: System.IO.Stream.CopyToAsync(System.IO.Stream)
-  spec.csharp:
-  - uid: System.IO.Stream.CopyToAsync(System.IO.Stream)
-    name: CopyToAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.copytoasync#system-io-stream-copytoasync(system-io-stream)
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.CopyToAsync(System.IO.Stream)
-    name: CopyToAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.copytoasync#system-io-stream-copytoasync(system-io-stream)
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-- uid: System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32)
-  commentId: M:System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.copytoasync#system-io-stream-copytoasync(system-io-stream-system-int32)
-  name: CopyToAsync(Stream, int)
-  nameWithType: Stream.CopyToAsync(Stream, int)
-  fullName: System.IO.Stream.CopyToAsync(System.IO.Stream, int)
-  nameWithType.vb: Stream.CopyToAsync(Stream, Integer)
-  fullName.vb: System.IO.Stream.CopyToAsync(System.IO.Stream, Integer)
-  name.vb: CopyToAsync(Stream, Integer)
-  spec.csharp:
-  - uid: System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32)
-    name: CopyToAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.copytoasync#system-io-stream-copytoasync(system-io-stream-system-int32)
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32)
-    name: CopyToAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.copytoasync#system-io-stream-copytoasync(system-io-stream-system-int32)
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-- uid: System.IO.Stream.CopyToAsync(System.IO.Stream,System.Threading.CancellationToken)
-  commentId: M:System.IO.Stream.CopyToAsync(System.IO.Stream,System.Threading.CancellationToken)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.copytoasync#system-io-stream-copytoasync(system-io-stream-system-threading-cancellationtoken)
-  name: CopyToAsync(Stream, CancellationToken)
-  nameWithType: Stream.CopyToAsync(Stream, CancellationToken)
-  fullName: System.IO.Stream.CopyToAsync(System.IO.Stream, System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: System.IO.Stream.CopyToAsync(System.IO.Stream,System.Threading.CancellationToken)
-    name: CopyToAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.copytoasync#system-io-stream-copytoasync(system-io-stream-system-threading-cancellationtoken)
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.CopyToAsync(System.IO.Stream,System.Threading.CancellationToken)
-    name: CopyToAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.copytoasync#system-io-stream-copytoasync(system-io-stream-system-threading-cancellationtoken)
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)
-  commentId: M:System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.copytoasync#system-io-stream-copytoasync(system-io-stream-system-int32-system-threading-cancellationtoken)
-  name: CopyToAsync(Stream, int, CancellationToken)
-  nameWithType: Stream.CopyToAsync(Stream, int, CancellationToken)
-  fullName: System.IO.Stream.CopyToAsync(System.IO.Stream, int, System.Threading.CancellationToken)
-  nameWithType.vb: Stream.CopyToAsync(Stream, Integer, CancellationToken)
-  fullName.vb: System.IO.Stream.CopyToAsync(System.IO.Stream, Integer, System.Threading.CancellationToken)
-  name.vb: CopyToAsync(Stream, Integer, CancellationToken)
-  spec.csharp:
-  - uid: System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)
-    name: CopyToAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.copytoasync#system-io-stream-copytoasync(system-io-stream-system-int32-system-threading-cancellationtoken)
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)
-    name: CopyToAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.copytoasync#system-io-stream-copytoasync(system-io-stream-system-int32-system-threading-cancellationtoken)
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.IO.Stream.CopyTo(System.IO.Stream)
-  commentId: M:System.IO.Stream.CopyTo(System.IO.Stream)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.copyto#system-io-stream-copyto(system-io-stream)
-  name: CopyTo(Stream)
-  nameWithType: Stream.CopyTo(Stream)
-  fullName: System.IO.Stream.CopyTo(System.IO.Stream)
-  spec.csharp:
-  - uid: System.IO.Stream.CopyTo(System.IO.Stream)
-    name: CopyTo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.copyto#system-io-stream-copyto(system-io-stream)
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.CopyTo(System.IO.Stream)
-    name: CopyTo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.copyto#system-io-stream-copyto(system-io-stream)
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-- uid: System.IO.Stream.CopyTo(System.IO.Stream,System.Int32)
-  commentId: M:System.IO.Stream.CopyTo(System.IO.Stream,System.Int32)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.copyto#system-io-stream-copyto(system-io-stream-system-int32)
-  name: CopyTo(Stream, int)
-  nameWithType: Stream.CopyTo(Stream, int)
-  fullName: System.IO.Stream.CopyTo(System.IO.Stream, int)
-  nameWithType.vb: Stream.CopyTo(Stream, Integer)
-  fullName.vb: System.IO.Stream.CopyTo(System.IO.Stream, Integer)
-  name.vb: CopyTo(Stream, Integer)
-  spec.csharp:
-  - uid: System.IO.Stream.CopyTo(System.IO.Stream,System.Int32)
-    name: CopyTo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.copyto#system-io-stream-copyto(system-io-stream-system-int32)
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.CopyTo(System.IO.Stream,System.Int32)
-    name: CopyTo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.copyto#system-io-stream-copyto(system-io-stream-system-int32)
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-- uid: System.IO.Stream.Dispose(System.Boolean)
-  commentId: M:System.IO.Stream.Dispose(System.Boolean)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.dispose#system-io-stream-dispose(system-boolean)
-  name: Dispose(bool)
-  nameWithType: Stream.Dispose(bool)
-  fullName: System.IO.Stream.Dispose(bool)
-  nameWithType.vb: Stream.Dispose(Boolean)
-  fullName.vb: System.IO.Stream.Dispose(Boolean)
-  name.vb: Dispose(Boolean)
-  spec.csharp:
-  - uid: System.IO.Stream.Dispose(System.Boolean)
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.dispose#system-io-stream-dispose(system-boolean)
-  - name: (
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.Dispose(System.Boolean)
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.dispose#system-io-stream-dispose(system-boolean)
-  - name: (
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.IO.Stream.FlushAsync
-  commentId: M:System.IO.Stream.FlushAsync
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.flushasync#system-io-stream-flushasync
-  name: FlushAsync()
-  nameWithType: Stream.FlushAsync()
-  fullName: System.IO.Stream.FlushAsync()
-  spec.csharp:
-  - uid: System.IO.Stream.FlushAsync
-    name: FlushAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.flushasync#system-io-stream-flushasync
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.FlushAsync
-    name: FlushAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.flushasync#system-io-stream-flushasync
-  - name: (
-  - name: )
-- uid: System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
-  commentId: M:System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.flushasync#system-io-stream-flushasync(system-threading-cancellationtoken)
-  name: FlushAsync(CancellationToken)
-  nameWithType: Stream.FlushAsync(CancellationToken)
-  fullName: System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
-    name: FlushAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.flushasync#system-io-stream-flushasync(system-threading-cancellationtoken)
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
-    name: FlushAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.flushasync#system-io-stream-flushasync(system-threading-cancellationtoken)
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.IO.Stream.CreateWaitHandle
-  commentId: M:System.IO.Stream.CreateWaitHandle
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.createwaithandle
-  name: CreateWaitHandle()
-  nameWithType: Stream.CreateWaitHandle()
-  fullName: System.IO.Stream.CreateWaitHandle()
-  spec.csharp:
-  - uid: System.IO.Stream.CreateWaitHandle
-    name: CreateWaitHandle
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.createwaithandle
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.CreateWaitHandle
-    name: CreateWaitHandle
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.createwaithandle
-  - name: (
-  - name: )
-- uid: System.IO.Stream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-  commentId: M:System.IO.Stream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.beginread
-  name: BeginRead(byte[], int, int, AsyncCallback, object)
-  nameWithType: Stream.BeginRead(byte[], int, int, AsyncCallback, object)
-  fullName: System.IO.Stream.BeginRead(byte[], int, int, System.AsyncCallback, object)
-  nameWithType.vb: Stream.BeginRead(Byte(), Integer, Integer, AsyncCallback, Object)
-  fullName.vb: System.IO.Stream.BeginRead(Byte(), Integer, Integer, System.AsyncCallback, Object)
-  name.vb: BeginRead(Byte(), Integer, Integer, AsyncCallback, Object)
-  spec.csharp:
-  - uid: System.IO.Stream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-    name: BeginRead
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.beginread
-  - name: (
-  - uid: System.Byte
-    name: byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.AsyncCallback
-    name: AsyncCallback
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.asynccallback
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-    name: BeginRead
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.beginread
-  - name: (
-  - uid: System.Byte
-    name: Byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.AsyncCallback
-    name: AsyncCallback
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.asynccallback
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.IO.Stream.EndRead(System.IAsyncResult)
-  commentId: M:System.IO.Stream.EndRead(System.IAsyncResult)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.endread
-  name: EndRead(IAsyncResult)
-  nameWithType: Stream.EndRead(IAsyncResult)
-  fullName: System.IO.Stream.EndRead(System.IAsyncResult)
-  spec.csharp:
-  - uid: System.IO.Stream.EndRead(System.IAsyncResult)
-    name: EndRead
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.endread
-  - name: (
-  - uid: System.IAsyncResult
-    name: IAsyncResult
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.EndRead(System.IAsyncResult)
-    name: EndRead
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.endread
-  - name: (
-  - uid: System.IAsyncResult
-    name: IAsyncResult
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
-  - name: )
-- uid: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32)
-  commentId: M:System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.readasync#system-io-stream-readasync(system-byte()-system-int32-system-int32)
-  name: ReadAsync(byte[], int, int)
-  nameWithType: Stream.ReadAsync(byte[], int, int)
-  fullName: System.IO.Stream.ReadAsync(byte[], int, int)
-  nameWithType.vb: Stream.ReadAsync(Byte(), Integer, Integer)
-  fullName.vb: System.IO.Stream.ReadAsync(Byte(), Integer, Integer)
-  name.vb: ReadAsync(Byte(), Integer, Integer)
-  spec.csharp:
-  - uid: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32)
-    name: ReadAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.readasync#system-io-stream-readasync(system-byte()-system-int32-system-int32)
-  - name: (
-  - uid: System.Byte
-    name: byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32)
-    name: ReadAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.readasync#system-io-stream-readasync(system-byte()-system-int32-system-int32)
-  - name: (
-  - uid: System.Byte
-    name: Byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-- uid: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
-  commentId: M:System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.readasync#system-io-stream-readasync(system-byte()-system-int32-system-int32-system-threading-cancellationtoken)
-  name: ReadAsync(byte[], int, int, CancellationToken)
-  nameWithType: Stream.ReadAsync(byte[], int, int, CancellationToken)
-  fullName: System.IO.Stream.ReadAsync(byte[], int, int, System.Threading.CancellationToken)
-  nameWithType.vb: Stream.ReadAsync(Byte(), Integer, Integer, CancellationToken)
-  fullName.vb: System.IO.Stream.ReadAsync(Byte(), Integer, Integer, System.Threading.CancellationToken)
-  name.vb: ReadAsync(Byte(), Integer, Integer, CancellationToken)
-  spec.csharp:
-  - uid: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
-    name: ReadAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.readasync#system-io-stream-readasync(system-byte()-system-int32-system-int32-system-threading-cancellationtoken)
-  - name: (
-  - uid: System.Byte
-    name: byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
-    name: ReadAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.readasync#system-io-stream-readasync(system-byte()-system-int32-system-int32-system-threading-cancellationtoken)
-  - name: (
-  - uid: System.Byte
-    name: Byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.IO.Stream.ReadAsync(System.Memory{System.Byte},System.Threading.CancellationToken)
-  commentId: M:System.IO.Stream.ReadAsync(System.Memory{System.Byte},System.Threading.CancellationToken)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.readasync#system-io-stream-readasync(system-memory((system-byte))-system-threading-cancellationtoken)
-  name: ReadAsync(Memory<byte>, CancellationToken)
-  nameWithType: Stream.ReadAsync(Memory<byte>, CancellationToken)
-  fullName: System.IO.Stream.ReadAsync(System.Memory<byte>, System.Threading.CancellationToken)
-  nameWithType.vb: Stream.ReadAsync(Memory(Of Byte), CancellationToken)
-  fullName.vb: System.IO.Stream.ReadAsync(System.Memory(Of Byte), System.Threading.CancellationToken)
-  name.vb: ReadAsync(Memory(Of Byte), CancellationToken)
-  spec.csharp:
-  - uid: System.IO.Stream.ReadAsync(System.Memory{System.Byte},System.Threading.CancellationToken)
-    name: ReadAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.readasync#system-io-stream-readasync(system-memory((system-byte))-system-threading-cancellationtoken)
-  - name: (
-  - uid: System.Memory`1
-    name: Memory
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.memory-1
-  - name: <
-  - uid: System.Byte
-    name: byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '>'
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.ReadAsync(System.Memory{System.Byte},System.Threading.CancellationToken)
-    name: ReadAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.readasync#system-io-stream-readasync(system-memory((system-byte))-system-threading-cancellationtoken)
-  - name: (
-  - uid: System.Memory`1
-    name: Memory
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.memory-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.Byte
-    name: Byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.IO.Stream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-  commentId: M:System.IO.Stream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.beginwrite
-  name: BeginWrite(byte[], int, int, AsyncCallback, object)
-  nameWithType: Stream.BeginWrite(byte[], int, int, AsyncCallback, object)
-  fullName: System.IO.Stream.BeginWrite(byte[], int, int, System.AsyncCallback, object)
-  nameWithType.vb: Stream.BeginWrite(Byte(), Integer, Integer, AsyncCallback, Object)
-  fullName.vb: System.IO.Stream.BeginWrite(Byte(), Integer, Integer, System.AsyncCallback, Object)
-  name.vb: BeginWrite(Byte(), Integer, Integer, AsyncCallback, Object)
-  spec.csharp:
-  - uid: System.IO.Stream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-    name: BeginWrite
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.beginwrite
-  - name: (
-  - uid: System.Byte
-    name: byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.AsyncCallback
-    name: AsyncCallback
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.asynccallback
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)
-    name: BeginWrite
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.beginwrite
-  - name: (
-  - uid: System.Byte
-    name: Byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.AsyncCallback
-    name: AsyncCallback
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.asynccallback
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.IO.Stream.EndWrite(System.IAsyncResult)
-  commentId: M:System.IO.Stream.EndWrite(System.IAsyncResult)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.endwrite
-  name: EndWrite(IAsyncResult)
-  nameWithType: Stream.EndWrite(IAsyncResult)
-  fullName: System.IO.Stream.EndWrite(System.IAsyncResult)
-  spec.csharp:
-  - uid: System.IO.Stream.EndWrite(System.IAsyncResult)
-    name: EndWrite
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.endwrite
-  - name: (
-  - uid: System.IAsyncResult
-    name: IAsyncResult
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.EndWrite(System.IAsyncResult)
-    name: EndWrite
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.endwrite
-  - name: (
-  - uid: System.IAsyncResult
-    name: IAsyncResult
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
-  - name: )
-- uid: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32)
-  commentId: M:System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.writeasync#system-io-stream-writeasync(system-byte()-system-int32-system-int32)
-  name: WriteAsync(byte[], int, int)
-  nameWithType: Stream.WriteAsync(byte[], int, int)
-  fullName: System.IO.Stream.WriteAsync(byte[], int, int)
-  nameWithType.vb: Stream.WriteAsync(Byte(), Integer, Integer)
-  fullName.vb: System.IO.Stream.WriteAsync(Byte(), Integer, Integer)
-  name.vb: WriteAsync(Byte(), Integer, Integer)
-  spec.csharp:
-  - uid: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32)
-    name: WriteAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.writeasync#system-io-stream-writeasync(system-byte()-system-int32-system-int32)
-  - name: (
-  - uid: System.Byte
-    name: byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32)
-    name: WriteAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.writeasync#system-io-stream-writeasync(system-byte()-system-int32-system-int32)
-  - name: (
-  - uid: System.Byte
-    name: Byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-- uid: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
-  commentId: M:System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.writeasync#system-io-stream-writeasync(system-byte()-system-int32-system-int32-system-threading-cancellationtoken)
-  name: WriteAsync(byte[], int, int, CancellationToken)
-  nameWithType: Stream.WriteAsync(byte[], int, int, CancellationToken)
-  fullName: System.IO.Stream.WriteAsync(byte[], int, int, System.Threading.CancellationToken)
-  nameWithType.vb: Stream.WriteAsync(Byte(), Integer, Integer, CancellationToken)
-  fullName.vb: System.IO.Stream.WriteAsync(Byte(), Integer, Integer, System.Threading.CancellationToken)
-  name.vb: WriteAsync(Byte(), Integer, Integer, CancellationToken)
-  spec.csharp:
-  - uid: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
-    name: WriteAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.writeasync#system-io-stream-writeasync(system-byte()-system-int32-system-int32-system-threading-cancellationtoken)
-  - name: (
-  - uid: System.Byte
-    name: byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
-    name: WriteAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.writeasync#system-io-stream-writeasync(system-byte()-system-int32-system-int32-system-threading-cancellationtoken)
-  - name: (
-  - uid: System.Byte
-    name: Byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.IO.Stream.WriteAsync(System.ReadOnlyMemory{System.Byte},System.Threading.CancellationToken)
-  commentId: M:System.IO.Stream.WriteAsync(System.ReadOnlyMemory{System.Byte},System.Threading.CancellationToken)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.writeasync#system-io-stream-writeasync(system-readonlymemory((system-byte))-system-threading-cancellationtoken)
-  name: WriteAsync(ReadOnlyMemory<byte>, CancellationToken)
-  nameWithType: Stream.WriteAsync(ReadOnlyMemory<byte>, CancellationToken)
-  fullName: System.IO.Stream.WriteAsync(System.ReadOnlyMemory<byte>, System.Threading.CancellationToken)
-  nameWithType.vb: Stream.WriteAsync(ReadOnlyMemory(Of Byte), CancellationToken)
-  fullName.vb: System.IO.Stream.WriteAsync(System.ReadOnlyMemory(Of Byte), System.Threading.CancellationToken)
-  name.vb: WriteAsync(ReadOnlyMemory(Of Byte), CancellationToken)
-  spec.csharp:
-  - uid: System.IO.Stream.WriteAsync(System.ReadOnlyMemory{System.Byte},System.Threading.CancellationToken)
-    name: WriteAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.writeasync#system-io-stream-writeasync(system-readonlymemory((system-byte))-system-threading-cancellationtoken)
-  - name: (
-  - uid: System.ReadOnlyMemory`1
-    name: ReadOnlyMemory
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.readonlymemory-1
-  - name: <
-  - uid: System.Byte
-    name: byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '>'
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.WriteAsync(System.ReadOnlyMemory{System.Byte},System.Threading.CancellationToken)
-    name: WriteAsync
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.writeasync#system-io-stream-writeasync(system-readonlymemory((system-byte))-system-threading-cancellationtoken)
-  - name: (
-  - uid: System.ReadOnlyMemory`1
-    name: ReadOnlyMemory
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.readonlymemory-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.Byte
-    name: Byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.IO.Stream.Read(System.Span{System.Byte})
-  commentId: M:System.IO.Stream.Read(System.Span{System.Byte})
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.read#system-io-stream-read(system-span((system-byte)))
-  name: Read(Span<byte>)
-  nameWithType: Stream.Read(Span<byte>)
-  fullName: System.IO.Stream.Read(System.Span<byte>)
-  nameWithType.vb: Stream.Read(Span(Of Byte))
-  fullName.vb: System.IO.Stream.Read(System.Span(Of Byte))
-  name.vb: Read(Span(Of Byte))
-  spec.csharp:
-  - uid: System.IO.Stream.Read(System.Span{System.Byte})
-    name: Read
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.read#system-io-stream-read(system-span((system-byte)))
-  - name: (
-  - uid: System.Span`1
-    name: Span
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.span-1
-  - name: <
-  - uid: System.Byte
-    name: byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '>'
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.Read(System.Span{System.Byte})
-    name: Read
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.read#system-io-stream-read(system-span((system-byte)))
-  - name: (
-  - uid: System.Span`1
-    name: Span
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.span-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.Byte
-    name: Byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: )
-  - name: )
-- uid: System.IO.Stream.ReadByte
-  commentId: M:System.IO.Stream.ReadByte
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.readbyte
-  name: ReadByte()
-  nameWithType: Stream.ReadByte()
-  fullName: System.IO.Stream.ReadByte()
-  spec.csharp:
-  - uid: System.IO.Stream.ReadByte
-    name: ReadByte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.readbyte
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.ReadByte
-    name: ReadByte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.readbyte
-  - name: (
-  - name: )
-- uid: System.IO.Stream.Write(System.ReadOnlySpan{System.Byte})
-  commentId: M:System.IO.Stream.Write(System.ReadOnlySpan{System.Byte})
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.write#system-io-stream-write(system-readonlyspan((system-byte)))
-  name: Write(ReadOnlySpan<byte>)
-  nameWithType: Stream.Write(ReadOnlySpan<byte>)
-  fullName: System.IO.Stream.Write(System.ReadOnlySpan<byte>)
-  nameWithType.vb: Stream.Write(ReadOnlySpan(Of Byte))
-  fullName.vb: System.IO.Stream.Write(System.ReadOnlySpan(Of Byte))
-  name.vb: Write(ReadOnlySpan(Of Byte))
-  spec.csharp:
-  - uid: System.IO.Stream.Write(System.ReadOnlySpan{System.Byte})
-    name: Write
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.write#system-io-stream-write(system-readonlyspan((system-byte)))
-  - name: (
-  - uid: System.ReadOnlySpan`1
-    name: ReadOnlySpan
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
-  - name: <
-  - uid: System.Byte
-    name: byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '>'
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.Write(System.ReadOnlySpan{System.Byte})
-    name: Write
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.write#system-io-stream-write(system-readonlyspan((system-byte)))
-  - name: (
-  - uid: System.ReadOnlySpan`1
-    name: ReadOnlySpan
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.Byte
-    name: Byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: )
-  - name: )
-- uid: System.IO.Stream.WriteByte(System.Byte)
-  commentId: M:System.IO.Stream.WriteByte(System.Byte)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.writebyte
-  name: WriteByte(byte)
-  nameWithType: Stream.WriteByte(byte)
-  fullName: System.IO.Stream.WriteByte(byte)
-  nameWithType.vb: Stream.WriteByte(Byte)
-  fullName.vb: System.IO.Stream.WriteByte(Byte)
-  name.vb: WriteByte(Byte)
-  spec.csharp:
-  - uid: System.IO.Stream.WriteByte(System.Byte)
-    name: WriteByte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.writebyte
-  - name: (
-  - uid: System.Byte
-    name: byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.WriteByte(System.Byte)
-    name: WriteByte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.writebyte
-  - name: (
-  - uid: System.Byte
-    name: Byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: )
-- uid: System.IO.Stream.Synchronized(System.IO.Stream)
-  commentId: M:System.IO.Stream.Synchronized(System.IO.Stream)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.synchronized
-  name: Synchronized(Stream)
-  nameWithType: Stream.Synchronized(Stream)
-  fullName: System.IO.Stream.Synchronized(System.IO.Stream)
-  spec.csharp:
-  - uid: System.IO.Stream.Synchronized(System.IO.Stream)
-    name: Synchronized
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.synchronized
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.Synchronized(System.IO.Stream)
-    name: Synchronized
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.synchronized
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-- uid: System.IO.Stream.ObjectInvariant
-  commentId: M:System.IO.Stream.ObjectInvariant
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.objectinvariant
-  name: ObjectInvariant()
-  nameWithType: Stream.ObjectInvariant()
-  fullName: System.IO.Stream.ObjectInvariant()
-  spec.csharp:
-  - uid: System.IO.Stream.ObjectInvariant
-    name: ObjectInvariant
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.objectinvariant
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.ObjectInvariant
-    name: ObjectInvariant
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.objectinvariant
-  - name: (
-  - name: )
-- uid: System.IO.Stream.CanTimeout
-  commentId: P:System.IO.Stream.CanTimeout
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.cantimeout
-  name: CanTimeout
-  nameWithType: Stream.CanTimeout
-  fullName: System.IO.Stream.CanTimeout
-- uid: System.IO.Stream.ReadTimeout
-  commentId: P:System.IO.Stream.ReadTimeout
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.readtimeout
-  name: ReadTimeout
-  nameWithType: Stream.ReadTimeout
-  fullName: System.IO.Stream.ReadTimeout
-- uid: System.IO.Stream.WriteTimeout
-  commentId: P:System.IO.Stream.WriteTimeout
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.writetimeout
-  name: WriteTimeout
-  nameWithType: Stream.WriteTimeout
-  fullName: System.IO.Stream.WriteTimeout
-- uid: System.MarshalByRefObject.GetLifetimeService
-  commentId: M:System.MarshalByRefObject.GetLifetimeService
-  parent: System.MarshalByRefObject
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice
-  name: GetLifetimeService()
-  nameWithType: MarshalByRefObject.GetLifetimeService()
-  fullName: System.MarshalByRefObject.GetLifetimeService()
-  spec.csharp:
-  - uid: System.MarshalByRefObject.GetLifetimeService
-    name: GetLifetimeService
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.MarshalByRefObject.GetLifetimeService
-    name: GetLifetimeService
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice
-  - name: (
-  - name: )
-- uid: System.MarshalByRefObject.InitializeLifetimeService
-  commentId: M:System.MarshalByRefObject.InitializeLifetimeService
-  parent: System.MarshalByRefObject
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice
-  name: InitializeLifetimeService()
-  nameWithType: MarshalByRefObject.InitializeLifetimeService()
-  fullName: System.MarshalByRefObject.InitializeLifetimeService()
-  spec.csharp:
-  - uid: System.MarshalByRefObject.InitializeLifetimeService
-    name: InitializeLifetimeService
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.MarshalByRefObject.InitializeLifetimeService
-    name: InitializeLifetimeService
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice
-  - name: (
-  - name: )
-- uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-  commentId: M:System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-  parent: System.MarshalByRefObject
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone
-  name: MemberwiseClone(bool)
-  nameWithType: MarshalByRefObject.MemberwiseClone(bool)
-  fullName: System.MarshalByRefObject.MemberwiseClone(bool)
-  nameWithType.vb: MarshalByRefObject.MemberwiseClone(Boolean)
-  fullName.vb: System.MarshalByRefObject.MemberwiseClone(Boolean)
-  name.vb: MemberwiseClone(Boolean)
-  spec.csharp:
-  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone
-  - name: (
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone
-  - name: (
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.IO.ProviderStream.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ProviderStream, To>(ProviderStream)
-  nameWithType: EnumUtil.MapEnums<ProviderStream, To>(ProviderStream)
-  fullName: EnumUtil.MapEnums<SuperOffice.IO.ProviderStream, To>(SuperOffice.IO.ProviderStream)
-  nameWithType.vb: EnumUtil.MapEnums(Of ProviderStream, To)(ProviderStream)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.IO.ProviderStream, To)(SuperOffice.IO.ProviderStream)
-  name.vb: MapEnums(Of ProviderStream, To)(ProviderStream)
+  name: MapEnums<ProviderStream, To>()
+  nameWithType: EnumUtil.MapEnums<ProviderStream, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.IO.ProviderStream, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ProviderStream, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.IO.ProviderStream, To)()
+  name.vb: MapEnums(Of ProviderStream, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.IO.ProviderStream)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ProviderStream, To>
+    nameWithType: EnumUtil.MapEnums<ProviderStream, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.IO.ProviderStream, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.IO.ProviderStream
-    name: ProviderStream
-    isExternal: true
-    href: SuperOffice.IO.ProviderStream.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.IO.ProviderStream
-    name: ProviderStream
-    isExternal: true
-    href: SuperOffice.IO.ProviderStream.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.IO.ProviderStream)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ProviderStream, To)
+    nameWithType: EnumUtil.MapEnums(Of ProviderStream, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.IO.ProviderStream, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.IO.ProviderStream
-    name: ProviderStream
-    isExternal: true
-    href: SuperOffice.IO.ProviderStream.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.IO.ProviderStream
-    name: ProviderStream
-    isExternal: true
-    href: SuperOffice.IO.ProviderStream.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.IO.ProviderStream.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ProviderStream, To>(ProviderStream)
-  nameWithType: Converters.MapEnums<ProviderStream, To>(ProviderStream)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.ProviderStream, To>(SuperOffice.IO.ProviderStream)
-  nameWithType.vb: Converters.MapEnums(Of ProviderStream, To)(ProviderStream)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.ProviderStream, To)(SuperOffice.IO.ProviderStream)
-  name.vb: MapEnums(Of ProviderStream, To)(ProviderStream)
+  name: MapEnums<ProviderStream, To>()
+  nameWithType: Converters.MapEnums<ProviderStream, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.ProviderStream, To>()
+  nameWithType.vb: Converters.MapEnums(Of ProviderStream, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.ProviderStream, To)()
+  name.vb: MapEnums(Of ProviderStream, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.IO.ProviderStream)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ProviderStream, To>
+    nameWithType: Converters.MapEnums<ProviderStream, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.ProviderStream, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.IO.ProviderStream
-    name: ProviderStream
-    isExternal: true
-    href: SuperOffice.IO.ProviderStream.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.IO.ProviderStream
-    name: ProviderStream
-    isExternal: true
-    href: SuperOffice.IO.ProviderStream.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.IO.ProviderStream)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ProviderStream, To)
+    nameWithType: Converters.MapEnums(Of ProviderStream, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.ProviderStream, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.IO.ProviderStream
-    name: ProviderStream
-    isExternal: true
-    href: SuperOffice.IO.ProviderStream.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.IO.ProviderStream
-    name: ProviderStream
-    isExternal: true
-    href: SuperOffice.IO.ProviderStream.html
-  - name: )
-- uid: System.IO.Stream.StreamExtensions.CopyToNewStream
-  commentId: M:StreamExtensions.CopyToNewStream(System.IO.Stream)
-  parent: StreamExtensions
-  definition: StreamExtensions.CopyToNewStream(System.IO.Stream)
-  href: StreamExtensions.html#StreamExtensions_CopyToNewStream_System_IO_Stream_
-  name: CopyToNewStream(Stream)
-  nameWithType: StreamExtensions.CopyToNewStream(Stream)
-  fullName: StreamExtensions.CopyToNewStream(System.IO.Stream)
-  spec.csharp:
-  - uid: StreamExtensions.CopyToNewStream(System.IO.Stream)
-    name: CopyToNewStream
-    isExternal: true
-    href: StreamExtensions.html#StreamExtensions_CopyToNewStream_System_IO_Stream_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-  spec.vb:
-  - uid: StreamExtensions.CopyToNewStream(System.IO.Stream)
-    name: CopyToNewStream
-    isExternal: true
-    href: StreamExtensions.html#StreamExtensions_CopyToNewStream_System_IO_Stream_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-- uid: System.IO.Stream.StreamExtensions.CopyToNewStreamInChunks
-  commentId: M:StreamExtensions.CopyToNewStreamInChunks(System.IO.Stream)
-  parent: StreamExtensions
-  definition: StreamExtensions.CopyToNewStreamInChunks(System.IO.Stream)
-  href: StreamExtensions.html#StreamExtensions_CopyToNewStreamInChunks_System_IO_Stream_
-  name: CopyToNewStreamInChunks(Stream)
-  nameWithType: StreamExtensions.CopyToNewStreamInChunks(Stream)
-  fullName: StreamExtensions.CopyToNewStreamInChunks(System.IO.Stream)
-  spec.csharp:
-  - uid: StreamExtensions.CopyToNewStreamInChunks(System.IO.Stream)
-    name: CopyToNewStreamInChunks
-    isExternal: true
-    href: StreamExtensions.html#StreamExtensions_CopyToNewStreamInChunks_System_IO_Stream_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-  spec.vb:
-  - uid: StreamExtensions.CopyToNewStreamInChunks(System.IO.Stream)
-    name: CopyToNewStreamInChunks
-    isExternal: true
-    href: StreamExtensions.html#StreamExtensions_CopyToNewStreamInChunks_System_IO_Stream_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-- uid: System.IO.Stream.StreamExtensions.ReadReliably(System.Int64,System.Int32)
-  commentId: M:StreamExtensions.ReadReliably(System.IO.Stream,System.Int64,System.Int32)
-  parent: StreamExtensions
-  definition: StreamExtensions.ReadReliably(System.IO.Stream,System.Int64,System.Int32)
-  href: StreamExtensions.html#StreamExtensions_ReadReliably_System_IO_Stream_System_Int64_System_Int32_
-  name: ReadReliably(Stream, long, int)
-  nameWithType: StreamExtensions.ReadReliably(Stream, long, int)
-  fullName: StreamExtensions.ReadReliably(System.IO.Stream, long, int)
-  nameWithType.vb: StreamExtensions.ReadReliably(Stream, Long, Integer)
-  fullName.vb: StreamExtensions.ReadReliably(System.IO.Stream, Long, Integer)
-  name.vb: ReadReliably(Stream, Long, Integer)
-  spec.csharp:
-  - uid: StreamExtensions.ReadReliably(System.IO.Stream,System.Int64,System.Int32)
-    name: ReadReliably
-    isExternal: true
-    href: StreamExtensions.html#StreamExtensions_ReadReliably_System_IO_Stream_System_Int64_System_Int32_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Int64
-    name: long
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int64
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: StreamExtensions.ReadReliably(System.IO.Stream,System.Int64,System.Int32)
-    name: ReadReliably
-    isExternal: true
-    href: StreamExtensions.html#StreamExtensions_ReadReliably_System_IO_Stream_System_Int64_System_Int32_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Int64
-    name: Long
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int64
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-- uid: System.IO.Stream.StreamExtensions.ToByteArray(System.Int32)
-  commentId: M:StreamExtensions.ToByteArray(System.IO.Stream,System.Int32)
-  parent: StreamExtensions
-  definition: StreamExtensions.ToByteArray(System.IO.Stream,System.Int32)
-  href: StreamExtensions.html#StreamExtensions_ToByteArray_System_IO_Stream_System_Int32_
-  name: ToByteArray(Stream, int)
-  nameWithType: StreamExtensions.ToByteArray(Stream, int)
-  fullName: StreamExtensions.ToByteArray(System.IO.Stream, int)
-  nameWithType.vb: StreamExtensions.ToByteArray(Stream, Integer)
-  fullName.vb: StreamExtensions.ToByteArray(System.IO.Stream, Integer)
-  name.vb: ToByteArray(Stream, Integer)
-  spec.csharp:
-  - uid: StreamExtensions.ToByteArray(System.IO.Stream,System.Int32)
-    name: ToByteArray
-    isExternal: true
-    href: StreamExtensions.html#StreamExtensions_ToByteArray_System_IO_Stream_System_Int32_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: StreamExtensions.ToByteArray(System.IO.Stream,System.Int32)
-    name: ToByteArray
-    isExternal: true
-    href: StreamExtensions.html#StreamExtensions_ToByteArray_System_IO_Stream_System_Int32_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-- uid: System.IO.Stream.StreamExtensions.WriteInChunksTo(System.IO.Stream)
-  commentId: M:StreamExtensions.WriteInChunksTo(System.IO.Stream,System.IO.Stream)
-  parent: StreamExtensions
-  definition: StreamExtensions.WriteInChunksTo(System.IO.Stream,System.IO.Stream)
-  href: StreamExtensions.html#StreamExtensions_WriteInChunksTo_System_IO_Stream_System_IO_Stream_
-  name: WriteInChunksTo(Stream, Stream)
-  nameWithType: StreamExtensions.WriteInChunksTo(Stream, Stream)
-  fullName: StreamExtensions.WriteInChunksTo(System.IO.Stream, System.IO.Stream)
-  spec.csharp:
-  - uid: StreamExtensions.WriteInChunksTo(System.IO.Stream,System.IO.Stream)
-    name: WriteInChunksTo
-    isExternal: true
-    href: StreamExtensions.html#StreamExtensions_WriteInChunksTo_System_IO_Stream_System_IO_Stream_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-  spec.vb:
-  - uid: StreamExtensions.WriteInChunksTo(System.IO.Stream,System.IO.Stream)
-    name: WriteInChunksTo
-    isExternal: true
-    href: StreamExtensions.html#StreamExtensions_WriteInChunksTo_System_IO_Stream_System_IO_Stream_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-- uid: System.IO.Stream.SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.Int32,System.Int32)
-  commentId: M:SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
-  parent: SuperOffice.Util.ImageUtilities
-  definition: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
-  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetThumbnailImage_System_IO_Stream_System_Int32_System_Int32_
-  name: GetThumbnailImage(Stream, int, int)
-  nameWithType: ImageUtilities.GetThumbnailImage(Stream, int, int)
-  fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream, int, int)
-  nameWithType.vb: ImageUtilities.GetThumbnailImage(Stream, Integer, Integer)
-  fullName.vb: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream, Integer, Integer)
-  name.vb: GetThumbnailImage(Stream, Integer, Integer)
-  spec.csharp:
-  - uid: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
-    name: GetThumbnailImage
-    isExternal: true
-    href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetThumbnailImage_System_IO_Stream_System_Int32_System_Int32_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
-    name: GetThumbnailImage
-    isExternal: true
-    href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetThumbnailImage_System_IO_Stream_System_Int32_System_Int32_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.IO
-    name: IO
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.IO
-    name: IO
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -2425,45 +592,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -2472,388 +637,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: StreamExtensions.CopyToNewStream(System.IO.Stream)
-  commentId: M:StreamExtensions.CopyToNewStream(System.IO.Stream)
-  isExternal: true
-  href: StreamExtensions.html#StreamExtensions_CopyToNewStream_System_IO_Stream_
-  name: CopyToNewStream(Stream)
-  nameWithType: StreamExtensions.CopyToNewStream(Stream)
-  fullName: StreamExtensions.CopyToNewStream(System.IO.Stream)
-  spec.csharp:
-  - uid: StreamExtensions.CopyToNewStream(System.IO.Stream)
-    name: CopyToNewStream
-    isExternal: true
-    href: StreamExtensions.html#StreamExtensions_CopyToNewStream_System_IO_Stream_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-  spec.vb:
-  - uid: StreamExtensions.CopyToNewStream(System.IO.Stream)
-    name: CopyToNewStream
-    isExternal: true
-    href: StreamExtensions.html#StreamExtensions_CopyToNewStream_System_IO_Stream_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-- uid: StreamExtensions
-  commentId: T:StreamExtensions
-  isExternal: true
-  href: StreamExtensions.html
-  name: StreamExtensions
-  nameWithType: StreamExtensions
-  fullName: StreamExtensions
-- uid: StreamExtensions.CopyToNewStreamInChunks(System.IO.Stream)
-  commentId: M:StreamExtensions.CopyToNewStreamInChunks(System.IO.Stream)
-  isExternal: true
-  href: StreamExtensions.html#StreamExtensions_CopyToNewStreamInChunks_System_IO_Stream_
-  name: CopyToNewStreamInChunks(Stream)
-  nameWithType: StreamExtensions.CopyToNewStreamInChunks(Stream)
-  fullName: StreamExtensions.CopyToNewStreamInChunks(System.IO.Stream)
-  spec.csharp:
-  - uid: StreamExtensions.CopyToNewStreamInChunks(System.IO.Stream)
-    name: CopyToNewStreamInChunks
-    isExternal: true
-    href: StreamExtensions.html#StreamExtensions_CopyToNewStreamInChunks_System_IO_Stream_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-  spec.vb:
-  - uid: StreamExtensions.CopyToNewStreamInChunks(System.IO.Stream)
-    name: CopyToNewStreamInChunks
-    isExternal: true
-    href: StreamExtensions.html#StreamExtensions_CopyToNewStreamInChunks_System_IO_Stream_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-- uid: StreamExtensions.ReadReliably(System.IO.Stream,System.Int64,System.Int32)
-  commentId: M:StreamExtensions.ReadReliably(System.IO.Stream,System.Int64,System.Int32)
-  isExternal: true
-  href: StreamExtensions.html#StreamExtensions_ReadReliably_System_IO_Stream_System_Int64_System_Int32_
-  name: ReadReliably(Stream, long, int)
-  nameWithType: StreamExtensions.ReadReliably(Stream, long, int)
-  fullName: StreamExtensions.ReadReliably(System.IO.Stream, long, int)
-  nameWithType.vb: StreamExtensions.ReadReliably(Stream, Long, Integer)
-  fullName.vb: StreamExtensions.ReadReliably(System.IO.Stream, Long, Integer)
-  name.vb: ReadReliably(Stream, Long, Integer)
-  spec.csharp:
-  - uid: StreamExtensions.ReadReliably(System.IO.Stream,System.Int64,System.Int32)
-    name: ReadReliably
-    isExternal: true
-    href: StreamExtensions.html#StreamExtensions_ReadReliably_System_IO_Stream_System_Int64_System_Int32_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Int64
-    name: long
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int64
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: StreamExtensions.ReadReliably(System.IO.Stream,System.Int64,System.Int32)
-    name: ReadReliably
-    isExternal: true
-    href: StreamExtensions.html#StreamExtensions_ReadReliably_System_IO_Stream_System_Int64_System_Int32_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Int64
-    name: Long
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int64
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-- uid: StreamExtensions.ToByteArray(System.IO.Stream,System.Int32)
-  commentId: M:StreamExtensions.ToByteArray(System.IO.Stream,System.Int32)
-  isExternal: true
-  href: StreamExtensions.html#StreamExtensions_ToByteArray_System_IO_Stream_System_Int32_
-  name: ToByteArray(Stream, int)
-  nameWithType: StreamExtensions.ToByteArray(Stream, int)
-  fullName: StreamExtensions.ToByteArray(System.IO.Stream, int)
-  nameWithType.vb: StreamExtensions.ToByteArray(Stream, Integer)
-  fullName.vb: StreamExtensions.ToByteArray(System.IO.Stream, Integer)
-  name.vb: ToByteArray(Stream, Integer)
-  spec.csharp:
-  - uid: StreamExtensions.ToByteArray(System.IO.Stream,System.Int32)
-    name: ToByteArray
-    isExternal: true
-    href: StreamExtensions.html#StreamExtensions_ToByteArray_System_IO_Stream_System_Int32_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: StreamExtensions.ToByteArray(System.IO.Stream,System.Int32)
-    name: ToByteArray
-    isExternal: true
-    href: StreamExtensions.html#StreamExtensions_ToByteArray_System_IO_Stream_System_Int32_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-- uid: StreamExtensions.WriteInChunksTo(System.IO.Stream,System.IO.Stream)
-  commentId: M:StreamExtensions.WriteInChunksTo(System.IO.Stream,System.IO.Stream)
-  isExternal: true
-  href: StreamExtensions.html#StreamExtensions_WriteInChunksTo_System_IO_Stream_System_IO_Stream_
-  name: WriteInChunksTo(Stream, Stream)
-  nameWithType: StreamExtensions.WriteInChunksTo(Stream, Stream)
-  fullName: StreamExtensions.WriteInChunksTo(System.IO.Stream, System.IO.Stream)
-  spec.csharp:
-  - uid: StreamExtensions.WriteInChunksTo(System.IO.Stream,System.IO.Stream)
-    name: WriteInChunksTo
-    isExternal: true
-    href: StreamExtensions.html#StreamExtensions_WriteInChunksTo_System_IO_Stream_System_IO_Stream_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-  spec.vb:
-  - uid: StreamExtensions.WriteInChunksTo(System.IO.Stream,System.IO.Stream)
-    name: WriteInChunksTo
-    isExternal: true
-    href: StreamExtensions.html#StreamExtensions_WriteInChunksTo_System_IO_Stream_System_IO_Stream_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: )
-- uid: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
-  commentId: M:SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
-  isExternal: true
-  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetThumbnailImage_System_IO_Stream_System_Int32_System_Int32_
-  name: GetThumbnailImage(Stream, int, int)
-  nameWithType: ImageUtilities.GetThumbnailImage(Stream, int, int)
-  fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream, int, int)
-  nameWithType.vb: ImageUtilities.GetThumbnailImage(Stream, Integer, Integer)
-  fullName.vb: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream, Integer, Integer)
-  name.vb: GetThumbnailImage(Stream, Integer, Integer)
-  spec.csharp:
-  - uid: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
-    name: GetThumbnailImage
-    isExternal: true
-    href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetThumbnailImage_System_IO_Stream_System_Int32_System_Int32_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
-    name: GetThumbnailImage
-    isExternal: true
-    href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetThumbnailImage_System_IO_Stream_System_Int32_System_Int32_
-  - name: (
-  - uid: System.IO.Stream
-    name: Stream
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-- uid: SuperOffice.Util.ImageUtilities
-  commentId: T:SuperOffice.Util.ImageUtilities
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ImageUtilities.html
-  name: ImageUtilities
-  nameWithType: ImageUtilities
-  fullName: SuperOffice.Util.ImageUtilities
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-- uid: SuperOffice.IO.ProviderStream
-  commentId: T:SuperOffice.IO.ProviderStream
-  parent: SuperOffice.IO
-  isExternal: true
-  href: SuperOffice.IO.ProviderStream.html
-  name: ProviderStream
-  nameWithType: ProviderStream
-  fullName: SuperOffice.IO.ProviderStream
 - uid: SuperOffice.IO.ProviderStream.GetProviderStream*
   commentId: Overload:SuperOffice.IO.ProviderStream.GetProviderStream
   isExternal: true
-  href: SuperOffice.IO.ProviderStream.html#SuperOffice_IO_ProviderStream_GetProviderStream_SuperOffice_IO_IStreamProvider_SuperOffice_IO_ProviderStream_AccessMode_
   name: GetProviderStream
   nameWithType: ProviderStream.GetProviderStream
   fullName: SuperOffice.IO.ProviderStream.GetProviderStream
@@ -2861,7 +688,6 @@ references:
   commentId: T:SuperOffice.IO.IStreamProvider
   parent: SuperOffice.IO
   isExternal: true
-  href: SuperOffice.IO.IStreamProvider.html
   name: IStreamProvider
   nameWithType: IStreamProvider
   fullName: SuperOffice.IO.IStreamProvider
@@ -2869,302 +695,76 @@ references:
   commentId: T:SuperOffice.IO.ProviderStream.AccessMode
   parent: SuperOffice.IO
   isExternal: true
-  href: SuperOffice.IO.ProviderStream.html
   name: ProviderStream.AccessMode
   nameWithType: ProviderStream.AccessMode
   fullName: SuperOffice.IO.ProviderStream.AccessMode
-  spec.csharp:
-  - uid: SuperOffice.IO.ProviderStream
-    name: ProviderStream
-    isExternal: true
-    href: SuperOffice.IO.ProviderStream.html
-  - name: .
-  - uid: SuperOffice.IO.ProviderStream.AccessMode
-    name: AccessMode
-    isExternal: true
-    href: SuperOffice.IO.ProviderStream.AccessMode.html
-  spec.vb:
-  - uid: SuperOffice.IO.ProviderStream
-    name: ProviderStream
-    isExternal: true
-    href: SuperOffice.IO.ProviderStream.html
-  - name: .
-  - uid: SuperOffice.IO.ProviderStream.AccessMode
-    name: AccessMode
-    isExternal: true
-    href: SuperOffice.IO.ProviderStream.AccessMode.html
-- uid: SuperOffice.IO.ProviderStream.Position
-  commentId: P:SuperOffice.IO.ProviderStream.Position
+- uid: SuperOffice.IO.ProviderStream
+  commentId: T:SuperOffice.IO.ProviderStream
+  parent: SuperOffice.IO
   isExternal: true
-  href: SuperOffice.IO.ProviderStream.html#SuperOffice_IO_ProviderStream_Position
-  name: Position
-  nameWithType: ProviderStream.Position
-  fullName: SuperOffice.IO.ProviderStream.Position
-- uid: System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
-  commentId: M:System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.read#system-io-stream-read(system-byte()-system-int32-system-int32)
-  name: Read(byte[], int, int)
-  nameWithType: Stream.Read(byte[], int, int)
-  fullName: System.IO.Stream.Read(byte[], int, int)
-  nameWithType.vb: Stream.Read(Byte(), Integer, Integer)
-  fullName.vb: System.IO.Stream.Read(Byte(), Integer, Integer)
-  name.vb: Read(Byte(), Integer, Integer)
-  spec.csharp:
-  - uid: System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
-    name: Read
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.read#system-io-stream-read(system-byte()-system-int32-system-int32)
-  - name: (
-  - uid: System.Byte
-    name: byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
-    name: Read
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.read#system-io-stream-read(system-byte()-system-int32-system-int32)
-  - name: (
-  - uid: System.Byte
-    name: Byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
+  name: ProviderStream
+  nameWithType: ProviderStream
+  fullName: SuperOffice.IO.ProviderStream
 - uid: SuperOffice.IO.ProviderStream.Read*
   commentId: Overload:SuperOffice.IO.ProviderStream.Read
   isExternal: true
-  href: SuperOffice.IO.ProviderStream.html#SuperOffice_IO_ProviderStream_Read_System_Byte___System_Int32_System_Int32_
   name: Read
   nameWithType: ProviderStream.Read
   fullName: SuperOffice.IO.ProviderStream.Read
 - uid: System.Byte[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.byte
-  name: byte[]
-  nameWithType: byte[]
-  fullName: byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
   nameWithType.vb: Byte()
-  fullName.vb: Byte()
+  fullName.vb: System.Byte()
   name.vb: Byte()
   spec.csharp:
   - uid: System.Byte
-    name: byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Byte
     name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: System.IO.Stream.Write(System.Byte[],System.Int32,System.Int32)
-  commentId: M:System.IO.Stream.Write(System.Byte[],System.Int32,System.Int32)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.write#system-io-stream-write(system-byte()-system-int32-system-int32)
-  name: Write(byte[], int, int)
-  nameWithType: Stream.Write(byte[], int, int)
-  fullName: System.IO.Stream.Write(byte[], int, int)
-  nameWithType.vb: Stream.Write(Byte(), Integer, Integer)
-  fullName.vb: System.IO.Stream.Write(Byte(), Integer, Integer)
-  name.vb: Write(Byte(), Integer, Integer)
-  spec.csharp:
-  - uid: System.IO.Stream.Write(System.Byte[],System.Int32,System.Int32)
-    name: Write
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.write#system-io-stream-write(system-byte()-system-int32-system-int32)
-  - name: (
-  - uid: System.Byte
-    name: byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.Write(System.Byte[],System.Int32,System.Int32)
-    name: Write
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.write#system-io-stream-write(system-byte()-system-int32-system-int32)
-  - name: (
-  - uid: System.Byte
-    name: Byte
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.byte
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.IO.ProviderStream.Write*
   commentId: Overload:SuperOffice.IO.ProviderStream.Write
   isExternal: true
-  href: SuperOffice.IO.ProviderStream.html#SuperOffice_IO_ProviderStream_Write_System_Byte___System_Int32_System_Int32_
   name: Write
   nameWithType: ProviderStream.Write
   fullName: SuperOffice.IO.ProviderStream.Write
-- uid: System.IO.Stream.Flush
-  commentId: M:System.IO.Stream.Flush
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.flush
-  name: Flush()
-  nameWithType: Stream.Flush()
-  fullName: System.IO.Stream.Flush()
-  spec.csharp:
-  - uid: System.IO.Stream.Flush
-    name: Flush
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.flush
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.Flush
-    name: Flush
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.flush
-  - name: (
-  - name: )
 - uid: SuperOffice.IO.ProviderStream.Flush*
   commentId: Overload:SuperOffice.IO.ProviderStream.Flush
   isExternal: true
-  href: SuperOffice.IO.ProviderStream.html#SuperOffice_IO_ProviderStream_Flush
   name: Flush
   nameWithType: ProviderStream.Flush
   fullName: SuperOffice.IO.ProviderStream.Flush
-- uid: System.IO.Stream.Close
-  commentId: M:System.IO.Stream.Close
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.close
-  name: Close()
-  nameWithType: Stream.Close()
-  fullName: System.IO.Stream.Close()
-  spec.csharp:
-  - uid: System.IO.Stream.Close
-    name: Close
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.close
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.Close
-    name: Close
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.close
-  - name: (
-  - name: )
 - uid: SuperOffice.IO.ProviderStream.Close*
   commentId: Overload:SuperOffice.IO.ProviderStream.Close
   isExternal: true
-  href: SuperOffice.IO.ProviderStream.html#SuperOffice_IO_ProviderStream_Close
   name: Close
   nameWithType: ProviderStream.Close
   fullName: SuperOffice.IO.ProviderStream.Close
-- uid: System.IO.Stream.SetLength(System.Int64)
-  commentId: M:System.IO.Stream.SetLength(System.Int64)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.setlength
-  name: SetLength(long)
-  nameWithType: Stream.SetLength(long)
-  fullName: System.IO.Stream.SetLength(long)
-  nameWithType.vb: Stream.SetLength(Long)
-  fullName.vb: System.IO.Stream.SetLength(Long)
-  name.vb: SetLength(Long)
-  spec.csharp:
-  - uid: System.IO.Stream.SetLength(System.Int64)
-    name: SetLength
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.setlength
-  - name: (
-  - uid: System.Int64
-    name: long
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int64
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.SetLength(System.Int64)
-    name: SetLength
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.setlength
-  - name: (
-  - uid: System.Int64
-    name: Long
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int64
-  - name: )
 - uid: SuperOffice.IO.ProviderStream.SetLength*
   commentId: Overload:SuperOffice.IO.ProviderStream.SetLength
   isExternal: true
-  href: SuperOffice.IO.ProviderStream.html#SuperOffice_IO_ProviderStream_SetLength_System_Int64_
   name: SetLength
   nameWithType: ProviderStream.SetLength
   fullName: SuperOffice.IO.ProviderStream.SetLength
@@ -3172,114 +772,30 @@ references:
   commentId: T:System.Int64
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int64
-  name: long
-  nameWithType: long
-  fullName: long
-  nameWithType.vb: Long
-  fullName.vb: Long
-  name.vb: Long
-- uid: System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
-  commentId: M:System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.seek
-  name: Seek(long, SeekOrigin)
-  nameWithType: Stream.Seek(long, SeekOrigin)
-  fullName: System.IO.Stream.Seek(long, System.IO.SeekOrigin)
-  nameWithType.vb: Stream.Seek(Long, SeekOrigin)
-  fullName.vb: System.IO.Stream.Seek(Long, System.IO.SeekOrigin)
-  name.vb: Seek(Long, SeekOrigin)
-  spec.csharp:
-  - uid: System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
-    name: Seek
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.seek
-  - name: (
-  - uid: System.Int64
-    name: long
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int64
-  - name: ','
-  - name: " "
-  - uid: System.IO.SeekOrigin
-    name: SeekOrigin
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.seekorigin
-  - name: )
-  spec.vb:
-  - uid: System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
-    name: Seek
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream.seek
-  - name: (
-  - uid: System.Int64
-    name: Long
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int64
-  - name: ','
-  - name: " "
-  - uid: System.IO.SeekOrigin
-    name: SeekOrigin
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.seekorigin
-  - name: )
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
 - uid: SuperOffice.IO.ProviderStream.Seek*
   commentId: Overload:SuperOffice.IO.ProviderStream.Seek
   isExternal: true
-  href: SuperOffice.IO.ProviderStream.html#SuperOffice_IO_ProviderStream_Seek_System_Int64_System_IO_SeekOrigin_
   name: Seek
   nameWithType: ProviderStream.Seek
   fullName: SuperOffice.IO.ProviderStream.Seek
 - uid: System.IO.SeekOrigin
-  commentId: T:System.IO.SeekOrigin
-  parent: System.IO
+  commentId: '!:System.IO.SeekOrigin'
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.seekorigin
   name: SeekOrigin
   nameWithType: SeekOrigin
   fullName: System.IO.SeekOrigin
 - uid: SuperOffice.IO.ProviderStream.Dispose*
   commentId: Overload:SuperOffice.IO.ProviderStream.Dispose
   isExternal: true
-  href: SuperOffice.IO.ProviderStream.html#SuperOffice_IO_ProviderStream_Dispose
   name: Dispose
   nameWithType: ProviderStream.Dispose
   fullName: SuperOffice.IO.ProviderStream.Dispose
-- uid: System.IDisposable.Dispose
-  commentId: M:System.IDisposable.Dispose
-  parent: System.IDisposable
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  name: Dispose()
-  nameWithType: IDisposable.Dispose()
-  fullName: System.IDisposable.Dispose()
-  spec.csharp:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
-- uid: System.IO.Stream.CanSeek
-  commentId: P:System.IO.Stream.CanSeek
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.canseek
-  name: CanSeek
-  nameWithType: Stream.CanSeek
-  fullName: System.IO.Stream.CanSeek
 - uid: SuperOffice.IO.ProviderStream.CanSeek*
   commentId: Overload:SuperOffice.IO.ProviderStream.CanSeek
   isExternal: true
-  href: SuperOffice.IO.ProviderStream.html#SuperOffice_IO_ProviderStream_CanSeek
   name: CanSeek
   nameWithType: ProviderStream.CanSeek
   fullName: SuperOffice.IO.ProviderStream.CanSeek
@@ -3287,70 +803,30 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
-- uid: System.IO.Stream.CanRead
-  commentId: P:System.IO.Stream.CanRead
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.canread
-  name: CanRead
-  nameWithType: Stream.CanRead
-  fullName: System.IO.Stream.CanRead
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.IO.ProviderStream.CanRead*
   commentId: Overload:SuperOffice.IO.ProviderStream.CanRead
   isExternal: true
-  href: SuperOffice.IO.ProviderStream.html#SuperOffice_IO_ProviderStream_CanRead
   name: CanRead
   nameWithType: ProviderStream.CanRead
   fullName: SuperOffice.IO.ProviderStream.CanRead
-- uid: System.IO.Stream.CanWrite
-  commentId: P:System.IO.Stream.CanWrite
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.canwrite
-  name: CanWrite
-  nameWithType: Stream.CanWrite
-  fullName: System.IO.Stream.CanWrite
 - uid: SuperOffice.IO.ProviderStream.CanWrite*
   commentId: Overload:SuperOffice.IO.ProviderStream.CanWrite
   isExternal: true
-  href: SuperOffice.IO.ProviderStream.html#SuperOffice_IO_ProviderStream_CanWrite
   name: CanWrite
   nameWithType: ProviderStream.CanWrite
   fullName: SuperOffice.IO.ProviderStream.CanWrite
-- uid: System.IO.Stream.Length
-  commentId: P:System.IO.Stream.Length
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.length
-  name: Length
-  nameWithType: Stream.Length
-  fullName: System.IO.Stream.Length
 - uid: SuperOffice.IO.ProviderStream.Length*
   commentId: Overload:SuperOffice.IO.ProviderStream.Length
   isExternal: true
-  href: SuperOffice.IO.ProviderStream.html#SuperOffice_IO_ProviderStream_Length
   name: Length
   nameWithType: ProviderStream.Length
   fullName: SuperOffice.IO.ProviderStream.Length
-- uid: System.IO.Stream.Position
-  commentId: P:System.IO.Stream.Position
-  parent: System.IO.Stream
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream.position
-  name: Position
-  nameWithType: Stream.Position
-  fullName: System.IO.Stream.Position
 - uid: SuperOffice.IO.ProviderStream.Position*
   commentId: Overload:SuperOffice.IO.ProviderStream.Position
   isExternal: true
-  href: SuperOffice.IO.ProviderStream.html#SuperOffice_IO_ProviderStream_Position
   name: Position
   nameWithType: ProviderStream.Position
   fullName: SuperOffice.IO.ProviderStream.Position

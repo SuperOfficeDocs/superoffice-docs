@@ -24,25 +24,20 @@ items:
   nameWithType: RefCountEntity
   fullName: SuperOffice.WebApi.Data.RefCountEntity
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for RefCountEntity.
-
-    A refcount entity for a number allocation
+  summary: "\nCarrier object for RefCountEntity.\nA refcount entity for a number allocation    \n"
   example:
-  - >-
-    Get RefCountEntity 123 using the WebApi client:
-
-    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
-
-    var agent = new NumberAllocationAgent(configuration);
-
-    var refCountEntity = agent.GetRefCountEntity( 123 );</code></pre>
+  - "\nGet RefCountEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new NumberAllocationAgent(configuration);\nvar refCountEntity = agent.GetRefCountEntity( 123 );</code></pre>\n"
   syntax:
     content: 'public class RefCountEntity : Carrier'
-    content.vb: Public Class RefCountEntity Inherits Carrier
+    content.vb: >-
+      Public Class RefCountEntity
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.NumberAllocationAgent
     commentId: T:SuperOffice.WebApi.Agents.NumberAllocationAgent
@@ -52,13 +47,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.RefCountEntity.#ctor
   commentId: M:SuperOffice.WebApi.Data.RefCountEntity.#ctor
   id: '#ctor'
@@ -70,18 +64,21 @@ items:
   nameWithType: RefCountEntity.RefCountEntity()
   fullName: SuperOffice.WebApi.Data.RefCountEntity.RefCountEntity()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public RefCountEntity()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.RefCountEntity.#ctor*
-  nameWithType.vb: RefCountEntity.New()
-  fullName.vb: SuperOffice.WebApi.Data.RefCountEntity.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.RefCountEntity.RefCountsId
   commentId: P:SuperOffice.WebApi.Data.RefCountEntity.RefCountsId
   id: RefCountsId
@@ -93,11 +90,13 @@ items:
   nameWithType: RefCountEntity.RefCountsId
   fullName: SuperOffice.WebApi.Data.RefCountEntity.RefCountsId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int RefCountsId { get; set; }
     parameters: []
@@ -105,6 +104,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property RefCountsId As Integer
   overload: SuperOffice.WebApi.Data.RefCountEntity.RefCountsId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.RefCountEntity.Field
   commentId: P:SuperOffice.WebApi.Data.RefCountEntity.Field
   id: Field
@@ -116,11 +123,13 @@ items:
   nameWithType: RefCountEntity.Field
   fullName: SuperOffice.WebApi.Data.RefCountEntity.Field
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Field identifier in string format table.field
-  example: []
+  summary: "\nField identifier in string format table.field\n"
   syntax:
     content: public virtual string Field { get; set; }
     parameters: []
@@ -128,6 +137,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Field As String
   overload: SuperOffice.WebApi.Data.RefCountEntity.Field*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.RefCountEntity.RecordId
   commentId: P:SuperOffice.WebApi.Data.RefCountEntity.RecordId
   id: RecordId
@@ -139,11 +156,13 @@ items:
   nameWithType: RefCountEntity.RecordId
   fullName: SuperOffice.WebApi.Data.RefCountEntity.RecordId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Record id in target table, used when there are separate counters for each target record
-  example: []
+  summary: "\nRecord id in target table, used when there are separate counters for each target record\n"
   syntax:
     content: public virtual int RecordId { get; set; }
     parameters: []
@@ -151,6 +170,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property RecordId As Integer
   overload: SuperOffice.WebApi.Data.RefCountEntity.RecordId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.RefCountEntity.SuggestedRecords
   commentId: P:SuperOffice.WebApi.Data.RefCountEntity.SuggestedRecords
   id: SuggestedRecords
@@ -162,11 +189,13 @@ items:
   nameWithType: RefCountEntity.SuggestedRecords
   fullName: SuperOffice.WebApi.Data.RefCountEntity.SuggestedRecords
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: List of valid entities, the associated record is selected in the list, used records are filtered out
-  example: []
+  summary: "\nList of valid entities, the associated record is selected in the list, used records are filtered out\n"
   syntax:
     content: public virtual MDOListItem[] SuggestedRecords { get; set; }
     parameters: []
@@ -174,6 +203,14 @@ items:
       type: SuperOffice.WebApi.Data.MDOListItem[]
     content.vb: Public Overridable Property SuggestedRecords As MDOListItem()
   overload: SuperOffice.WebApi.Data.RefCountEntity.SuggestedRecords*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.RefCountEntity.CurrentValue
   commentId: P:SuperOffice.WebApi.Data.RefCountEntity.CurrentValue
   id: CurrentValue
@@ -185,11 +222,13 @@ items:
   nameWithType: RefCountEntity.CurrentValue
   fullName: SuperOffice.WebApi.Data.RefCountEntity.CurrentValue
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Current value of counter
-  example: []
+  summary: "\nCurrent value of counter\n"
   syntax:
     content: public virtual int CurrentValue { get; set; }
     parameters: []
@@ -197,6 +236,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property CurrentValue As Integer
   overload: SuperOffice.WebApi.Data.RefCountEntity.CurrentValue*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.RefCountEntity.TravelPrefix
   commentId: P:SuperOffice.WebApi.Data.RefCountEntity.TravelPrefix
   id: TravelPrefix
@@ -208,11 +255,13 @@ items:
   nameWithType: RefCountEntity.TravelPrefix
   fullName: SuperOffice.WebApi.Data.RefCountEntity.TravelPrefix
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: size of prefix for Travel use of ths counter
-  example: []
+  summary: "\nsize of prefix for Travel use of ths counter\n"
   syntax:
     content: public virtual uint TravelPrefix { get; set; }
     parameters: []
@@ -220,6 +269,14 @@ items:
       type: System.UInt32
     content.vb: Public Overridable Property TravelPrefix As UInteger
   overload: SuperOffice.WebApi.Data.RefCountEntity.TravelPrefix*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.RefCountEntity.SatPrefix
   commentId: P:SuperOffice.WebApi.Data.RefCountEntity.SatPrefix
   id: SatPrefix
@@ -231,11 +288,13 @@ items:
   nameWithType: RefCountEntity.SatPrefix
   fullName: SuperOffice.WebApi.Data.RefCountEntity.SatPrefix
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: size of prefix for Satellite use of this counter
-  example: []
+  summary: "\nsize of prefix for Satellite use of this counter\n"
   syntax:
     content: public virtual uint SatPrefix { get; set; }
     parameters: []
@@ -243,6 +302,14 @@ items:
       type: System.UInt32
     content.vb: Public Overridable Property SatPrefix As UInteger
   overload: SuperOffice.WebApi.Data.RefCountEntity.SatPrefix*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.RefCountEntity.Allocate
   commentId: P:SuperOffice.WebApi.Data.RefCountEntity.Allocate
   id: Allocate
@@ -254,11 +321,13 @@ items:
   nameWithType: RefCountEntity.Allocate
   fullName: SuperOffice.WebApi.Data.RefCountEntity.Allocate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Allocate numbers automatically
-  example: []
+  summary: "\nAllocate numbers automatically\n"
   syntax:
     content: public virtual bool Allocate { get; set; }
     parameters: []
@@ -266,6 +335,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property Allocate As Boolean
   overload: SuperOffice.WebApi.Data.RefCountEntity.Allocate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.RefCountEntity.Unique
   commentId: P:SuperOffice.WebApi.Data.RefCountEntity.Unique
   id: Unique
@@ -277,11 +354,13 @@ items:
   nameWithType: RefCountEntity.Unique
   fullName: SuperOffice.WebApi.Data.RefCountEntity.Unique
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Check that entered value is unique
-  example: []
+  summary: "\nCheck that entered value is unique\n"
   syntax:
     content: public virtual bool Unique { get; set; }
     parameters: []
@@ -289,6 +368,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property Unique As Boolean
   overload: SuperOffice.WebApi.Data.RefCountEntity.Unique*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.RefCountEntity.ReadOnly
   commentId: P:SuperOffice.WebApi.Data.RefCountEntity.ReadOnly
   id: ReadOnly
@@ -300,18 +387,28 @@ items:
   nameWithType: RefCountEntity.ReadOnly
   fullName: SuperOffice.WebApi.Data.RefCountEntity.ReadOnly
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Target field is read only in GUI
-  example: []
+  summary: "\nTarget field is read only in GUI\n"
   syntax:
     content: public virtual bool ReadOnly { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property [ReadOnly] As Boolean
+    content.vb: Public Overridable Property ReadOnly As Boolean
   overload: SuperOffice.WebApi.Data.RefCountEntity.ReadOnly*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.RefCountEntity.AllowBlank
   commentId: P:SuperOffice.WebApi.Data.RefCountEntity.AllowBlank
   id: AllowBlank
@@ -323,11 +420,13 @@ items:
   nameWithType: RefCountEntity.AllowBlank
   fullName: SuperOffice.WebApi.Data.RefCountEntity.AllowBlank
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Allow blank  as a valid value
-  example: []
+  summary: "\nAllow blank  as a valid value\n"
   syntax:
     content: public virtual bool AllowBlank { get; set; }
     parameters: []
@@ -335,67 +434,32 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property AllowBlank As Boolean
   overload: SuperOffice.WebApi.Data.RefCountEntity.AllowBlank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.NumberAllocationAgent
-  commentId: T:SuperOffice.WebApi.Agents.NumberAllocationAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.NumberAllocationAgent.html
-  name: NumberAllocationAgent
-  nameWithType: NumberAllocationAgent
-  fullName: SuperOffice.WebApi.Agents.NumberAllocationAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -403,7 +467,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -411,250 +474,30 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.NumberAllocationAgent
+  commentId: T:SuperOffice.WebApi.Agents.NumberAllocationAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: NumberAllocationAgent
+  nameWithType: NumberAllocationAgent
+  fullName: SuperOffice.WebApi.Agents.NumberAllocationAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.RefCountEntity.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.RefCountEntity.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.RefCountEntity.html#SuperOffice_WebApi_Data_RefCountEntity__ctor
   name: RefCountEntity
   nameWithType: RefCountEntity.RefCountEntity
   fullName: SuperOffice.WebApi.Data.RefCountEntity.RefCountEntity
-  nameWithType.vb: RefCountEntity.New
-  fullName.vb: SuperOffice.WebApi.Data.RefCountEntity.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.RefCountEntity.RefCountsId*
   commentId: Overload:SuperOffice.WebApi.Data.RefCountEntity.RefCountsId
   isExternal: true
-  href: SuperOffice.WebApi.Data.RefCountEntity.html#SuperOffice_WebApi_Data_RefCountEntity_RefCountsId
   name: RefCountsId
   nameWithType: RefCountEntity.RefCountsId
   fullName: SuperOffice.WebApi.Data.RefCountEntity.RefCountsId
@@ -662,17 +505,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.RefCountEntity.Field*
   commentId: Overload:SuperOffice.WebApi.Data.RefCountEntity.Field
   isExternal: true
-  href: SuperOffice.WebApi.Data.RefCountEntity.html#SuperOffice_WebApi_Data_RefCountEntity_Field
   name: Field
   nameWithType: RefCountEntity.Field
   fullName: SuperOffice.WebApi.Data.RefCountEntity.Field
@@ -680,30 +518,23 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.RefCountEntity.RecordId*
   commentId: Overload:SuperOffice.WebApi.Data.RefCountEntity.RecordId
   isExternal: true
-  href: SuperOffice.WebApi.Data.RefCountEntity.html#SuperOffice_WebApi_Data_RefCountEntity_RecordId
   name: RecordId
   nameWithType: RefCountEntity.RecordId
   fullName: SuperOffice.WebApi.Data.RefCountEntity.RecordId
 - uid: SuperOffice.WebApi.Data.RefCountEntity.SuggestedRecords*
   commentId: Overload:SuperOffice.WebApi.Data.RefCountEntity.SuggestedRecords
   isExternal: true
-  href: SuperOffice.WebApi.Data.RefCountEntity.html#SuperOffice_WebApi_Data_RefCountEntity_SuggestedRecords
   name: SuggestedRecords
   nameWithType: RefCountEntity.SuggestedRecords
   fullName: SuperOffice.WebApi.Data.RefCountEntity.SuggestedRecords
 - uid: SuperOffice.WebApi.Data.MDOListItem[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.MDOListItem.html
   name: MDOListItem[]
   nameWithType: MDOListItem[]
   fullName: SuperOffice.WebApi.Data.MDOListItem[]
@@ -713,28 +544,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.MDOListItem
     name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.WebApi.Data.MDOListItem
     isExternal: true
-    href: SuperOffice.WebApi.Data.MDOListItem.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.MDOListItem
     name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.WebApi.Data.MDOListItem
     isExternal: true
-    href: SuperOffice.WebApi.Data.MDOListItem.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Data.RefCountEntity.CurrentValue*
   commentId: Overload:SuperOffice.WebApi.Data.RefCountEntity.CurrentValue
   isExternal: true
-  href: SuperOffice.WebApi.Data.RefCountEntity.html#SuperOffice_WebApi_Data_RefCountEntity_CurrentValue
   name: CurrentValue
   nameWithType: RefCountEntity.CurrentValue
   fullName: SuperOffice.WebApi.Data.RefCountEntity.CurrentValue
 - uid: SuperOffice.WebApi.Data.RefCountEntity.TravelPrefix*
   commentId: Overload:SuperOffice.WebApi.Data.RefCountEntity.TravelPrefix
   isExternal: true
-  href: SuperOffice.WebApi.Data.RefCountEntity.html#SuperOffice_WebApi_Data_RefCountEntity_TravelPrefix
   name: TravelPrefix
   nameWithType: RefCountEntity.TravelPrefix
   fullName: SuperOffice.WebApi.Data.RefCountEntity.TravelPrefix
@@ -742,24 +575,18 @@ references:
   commentId: T:System.UInt32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.uint32
-  name: uint
-  nameWithType: uint
-  fullName: uint
-  nameWithType.vb: UInteger
-  fullName.vb: UInteger
-  name.vb: UInteger
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
 - uid: SuperOffice.WebApi.Data.RefCountEntity.SatPrefix*
   commentId: Overload:SuperOffice.WebApi.Data.RefCountEntity.SatPrefix
   isExternal: true
-  href: SuperOffice.WebApi.Data.RefCountEntity.html#SuperOffice_WebApi_Data_RefCountEntity_SatPrefix
   name: SatPrefix
   nameWithType: RefCountEntity.SatPrefix
   fullName: SuperOffice.WebApi.Data.RefCountEntity.SatPrefix
 - uid: SuperOffice.WebApi.Data.RefCountEntity.Allocate*
   commentId: Overload:SuperOffice.WebApi.Data.RefCountEntity.Allocate
   isExternal: true
-  href: SuperOffice.WebApi.Data.RefCountEntity.html#SuperOffice_WebApi_Data_RefCountEntity_Allocate
   name: Allocate
   nameWithType: RefCountEntity.Allocate
   fullName: SuperOffice.WebApi.Data.RefCountEntity.Allocate
@@ -767,31 +594,24 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.WebApi.Data.RefCountEntity.Unique*
   commentId: Overload:SuperOffice.WebApi.Data.RefCountEntity.Unique
   isExternal: true
-  href: SuperOffice.WebApi.Data.RefCountEntity.html#SuperOffice_WebApi_Data_RefCountEntity_Unique
   name: Unique
   nameWithType: RefCountEntity.Unique
   fullName: SuperOffice.WebApi.Data.RefCountEntity.Unique
 - uid: SuperOffice.WebApi.Data.RefCountEntity.ReadOnly*
   commentId: Overload:SuperOffice.WebApi.Data.RefCountEntity.ReadOnly
   isExternal: true
-  href: SuperOffice.WebApi.Data.RefCountEntity.html#SuperOffice_WebApi_Data_RefCountEntity_ReadOnly
   name: ReadOnly
   nameWithType: RefCountEntity.ReadOnly
   fullName: SuperOffice.WebApi.Data.RefCountEntity.ReadOnly
 - uid: SuperOffice.WebApi.Data.RefCountEntity.AllowBlank*
   commentId: Overload:SuperOffice.WebApi.Data.RefCountEntity.AllowBlank
   isExternal: true
-  href: SuperOffice.WebApi.Data.RefCountEntity.html#SuperOffice_WebApi_Data_RefCountEntity_AllowBlank
   name: AllowBlank
   nameWithType: RefCountEntity.AllowBlank
   fullName: SuperOffice.WebApi.Data.RefCountEntity.AllowBlank

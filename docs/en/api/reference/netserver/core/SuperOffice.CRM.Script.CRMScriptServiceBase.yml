@@ -20,27 +20,33 @@ items:
   nameWithType: CRMScriptServiceBase
   fullName: SuperOffice.CRM.Script.CRMScriptServiceBase
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Script
   syntax:
-    content: 'public abstract class CRMScriptServiceBase : ICRMScriptService'
-    content.vb: Public MustInherit Class CRMScriptServiceBase Implements ICRMScriptService
+    content: 'public abstract class CRMScriptServiceBase : Object, ICRMScriptService'
+    content.vb: >-
+      Public MustInherit Class CRMScriptServiceBase
+          Inherits Object
+          Implements ICRMScriptService
   inheritance:
   - System.Object
   implements:
   - SuperOffice.CRM.Script.ICRMScriptService
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Script.CRMScriptServiceBase.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Script.CRMScriptServiceBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
 - uid: SuperOffice.CRM.Script.CRMScriptServiceBase.#ctor
   commentId: M:SuperOffice.CRM.Script.CRMScriptServiceBase.#ctor
   id: '#ctor'
@@ -52,16 +58,20 @@ items:
   nameWithType: CRMScriptServiceBase.CRMScriptServiceBase()
   fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.CRMScriptServiceBase()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Script
   syntax:
     content: protected CRMScriptServiceBase()
-    content.vb: Protected Sub New()
+    content.vb: Protected Sub New
   overload: SuperOffice.CRM.Script.CRMScriptServiceBase.#ctor*
-  nameWithType.vb: CRMScriptServiceBase.New()
-  fullName.vb: SuperOffice.CRM.Script.CRMScriptServiceBase.New()
-  name.vb: New()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext,System.Int32)
   commentId: M:SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext,System.Int32)
   id: ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext,System.Int32)
@@ -69,14 +79,16 @@ items:
   langs:
   - csharp
   - vb
-  name: ExecuteScript(Scriptwithcontext, int)
-  nameWithType: CRMScriptServiceBase.ExecuteScript(Scriptwithcontext, int)
-  fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext, int)
+  name: ExecuteScript(Scriptwithcontext, Int32)
+  nameWithType: CRMScriptServiceBase.ExecuteScript(Scriptwithcontext, Int32)
+  fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext, System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Script
-  example: []
   syntax:
     content: public Response2 ExecuteScript(Scriptwithcontext body, int timeout)
     parameters:
@@ -90,9 +102,10 @@ items:
   overload: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScript*
   implements:
   - SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext,System.Int32)
-  nameWithType.vb: CRMScriptServiceBase.ExecuteScript(Scriptwithcontext, Integer)
-  fullName.vb: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext, Integer)
-  name.vb: ExecuteScript(Scriptwithcontext, Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
   commentId: M:SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
   id: ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
@@ -104,10 +117,12 @@ items:
   nameWithType: CRMScriptServiceBase.ValidateScript(Scriptwithoutcontext)
   fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Script
-  example: []
   syntax:
     content: public Response ValidateScript(Scriptwithoutcontext body)
     parameters:
@@ -119,6 +134,10 @@ items:
   overload: SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScript*
   implements:
   - SuperOffice.CRM.Script.ICRMScriptService.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Script.CRMScriptServiceBase.GetExecutionTimeout
   commentId: M:SuperOffice.CRM.Script.CRMScriptServiceBase.GetExecutionTimeout
   id: GetExecutionTimeout
@@ -130,6 +149,9 @@ items:
   nameWithType: CRMScriptServiceBase.GetExecutionTimeout()
   fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.GetExecutionTimeout()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Script
@@ -137,8 +159,12 @@ items:
     content: protected int GetExecutionTimeout()
     return:
       type: System.Int32
-    content.vb: Protected Function GetExecutionTimeout() As Integer
+    content.vb: Protected Function GetExecutionTimeout As Integer
   overload: SuperOffice.CRM.Script.CRMScriptServiceBase.GetExecutionTimeout*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScriptAsync(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext,System.String,System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScriptAsync(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext,System.String,System.Int32,System.Threading.CancellationToken)
   id: ExecuteScriptAsync(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext,System.String,System.Int32,System.Threading.CancellationToken)
@@ -146,10 +172,13 @@ items:
   langs:
   - csharp
   - vb
-  name: ExecuteScriptAsync(Scriptwithcontext, string, int, CancellationToken)
-  nameWithType: CRMScriptServiceBase.ExecuteScriptAsync(Scriptwithcontext, string, int, CancellationToken)
-  fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScriptAsync(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext, string, int, System.Threading.CancellationToken)
+  name: ExecuteScriptAsync(Scriptwithcontext, String, Int32, CancellationToken)
+  nameWithType: CRMScriptServiceBase.ExecuteScriptAsync(Scriptwithcontext, String, Int32, CancellationToken)
+  fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScriptAsync(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext, System.String, System.Int32, System.Threading.CancellationToken)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Script
@@ -168,9 +197,12 @@ items:
       type: System.Threading.Tasks.Task{SuperOffice.CRMScript.RTE.Client.Response2}
     content.vb: Public MustOverride Function ExecuteScriptAsync(body As Scriptwithcontext, accessToken As String, timeout As Integer, cancellationToken As CancellationToken) As Task(Of Response2)
   overload: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScriptAsync*
-  nameWithType.vb: CRMScriptServiceBase.ExecuteScriptAsync(Scriptwithcontext, String, Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScriptAsync(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext, String, Integer, System.Threading.CancellationToken)
-  name.vb: ExecuteScriptAsync(Scriptwithcontext, String, Integer, CancellationToken)
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
 - uid: SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScriptAsync(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScriptAsync(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext,System.Threading.CancellationToken)
   id: ValidateScriptAsync(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext,System.Threading.CancellationToken)
@@ -182,6 +214,9 @@ items:
   nameWithType: CRMScriptServiceBase.ValidateScriptAsync(Scriptwithoutcontext, CancellationToken)
   fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScriptAsync(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext, System.Threading.CancellationToken)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Script
@@ -196,6 +231,12 @@ items:
       type: System.Threading.Tasks.Task{SuperOffice.CRMScript.RTE.Client.Response}
     content.vb: Public MustOverride Function ValidateScriptAsync(body As Scriptwithoutcontext, cancellation As CancellationToken) As Task(Of Response)
   overload: SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScriptAsync*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
 - uid: SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackAccessToken
   commentId: M:SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackAccessToken
   id: GetCallbackAccessToken
@@ -207,6 +248,9 @@ items:
   nameWithType: CRMScriptServiceBase.GetCallbackAccessToken()
   fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackAccessToken()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Script
@@ -214,8 +258,14 @@ items:
     content: protected abstract string GetCallbackAccessToken()
     return:
       type: System.String
-    content.vb: Protected MustOverride Function GetCallbackAccessToken() As String
+    content.vb: Protected MustOverride Function GetCallbackAccessToken As String
   overload: SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackAccessToken*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
 - uid: SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackBaseUrl
   commentId: M:SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackBaseUrl
   id: GetCallbackBaseUrl
@@ -227,6 +277,9 @@ items:
   nameWithType: CRMScriptServiceBase.GetCallbackBaseUrl()
   fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackBaseUrl()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Script
@@ -234,401 +287,112 @@ items:
     content: protected abstract Task<string> GetCallbackBaseUrl()
     return:
       type: System.Threading.Tasks.Task{System.String}
-    content.vb: Protected MustOverride Function GetCallbackBaseUrl() As Task(Of String)
+    content.vb: Protected MustOverride Function GetCallbackBaseUrl As Task(Of String)
   overload: SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackBaseUrl*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
 references:
 - uid: SuperOffice.CRM.Script
   commentId: N:SuperOffice.CRM.Script
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Script
   nameWithType: SuperOffice.CRM.Script
   fullName: SuperOffice.CRM.Script
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Script
-    name: Script
-    isExternal: true
-    href: SuperOffice.CRM.Script.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Script
-    name: Script
-    isExternal: true
-    href: SuperOffice.CRM.Script.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Script.ICRMScriptService
   commentId: T:SuperOffice.CRM.Script.ICRMScriptService
   parent: SuperOffice.CRM.Script
   isExternal: true
-  href: SuperOffice.CRM.Script.ICRMScriptService.html
   name: ICRMScriptService
   nameWithType: ICRMScriptService
   fullName: SuperOffice.CRM.Script.ICRMScriptService
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Script.CRMScriptServiceBase.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<CRMScriptServiceBase, To>(CRMScriptServiceBase)
-  nameWithType: EnumUtil.MapEnums<CRMScriptServiceBase, To>(CRMScriptServiceBase)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Script.CRMScriptServiceBase, To>(SuperOffice.CRM.Script.CRMScriptServiceBase)
-  nameWithType.vb: EnumUtil.MapEnums(Of CRMScriptServiceBase, To)(CRMScriptServiceBase)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Script.CRMScriptServiceBase, To)(SuperOffice.CRM.Script.CRMScriptServiceBase)
-  name.vb: MapEnums(Of CRMScriptServiceBase, To)(CRMScriptServiceBase)
+  name: MapEnums<CRMScriptServiceBase, To>()
+  nameWithType: EnumUtil.MapEnums<CRMScriptServiceBase, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Script.CRMScriptServiceBase, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CRMScriptServiceBase, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Script.CRMScriptServiceBase, To)()
+  name.vb: MapEnums(Of CRMScriptServiceBase, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Script.CRMScriptServiceBase)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CRMScriptServiceBase, To>
+    nameWithType: EnumUtil.MapEnums<CRMScriptServiceBase, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Script.CRMScriptServiceBase, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Script.CRMScriptServiceBase
-    name: CRMScriptServiceBase
-    isExternal: true
-    href: SuperOffice.CRM.Script.CRMScriptServiceBase.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Script.CRMScriptServiceBase
-    name: CRMScriptServiceBase
-    isExternal: true
-    href: SuperOffice.CRM.Script.CRMScriptServiceBase.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Script.CRMScriptServiceBase)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CRMScriptServiceBase, To)
+    nameWithType: EnumUtil.MapEnums(Of CRMScriptServiceBase, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Script.CRMScriptServiceBase, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Script.CRMScriptServiceBase
-    name: CRMScriptServiceBase
-    isExternal: true
-    href: SuperOffice.CRM.Script.CRMScriptServiceBase.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Script.CRMScriptServiceBase
-    name: CRMScriptServiceBase
-    isExternal: true
-    href: SuperOffice.CRM.Script.CRMScriptServiceBase.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Script.CRMScriptServiceBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<CRMScriptServiceBase, To>(CRMScriptServiceBase)
-  nameWithType: Converters.MapEnums<CRMScriptServiceBase, To>(CRMScriptServiceBase)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Script.CRMScriptServiceBase, To>(SuperOffice.CRM.Script.CRMScriptServiceBase)
-  nameWithType.vb: Converters.MapEnums(Of CRMScriptServiceBase, To)(CRMScriptServiceBase)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Script.CRMScriptServiceBase, To)(SuperOffice.CRM.Script.CRMScriptServiceBase)
-  name.vb: MapEnums(Of CRMScriptServiceBase, To)(CRMScriptServiceBase)
+  name: MapEnums<CRMScriptServiceBase, To>()
+  nameWithType: Converters.MapEnums<CRMScriptServiceBase, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Script.CRMScriptServiceBase, To>()
+  nameWithType.vb: Converters.MapEnums(Of CRMScriptServiceBase, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Script.CRMScriptServiceBase, To)()
+  name.vb: MapEnums(Of CRMScriptServiceBase, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Script.CRMScriptServiceBase)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CRMScriptServiceBase, To>
+    nameWithType: Converters.MapEnums<CRMScriptServiceBase, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Script.CRMScriptServiceBase, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Script.CRMScriptServiceBase
-    name: CRMScriptServiceBase
-    isExternal: true
-    href: SuperOffice.CRM.Script.CRMScriptServiceBase.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Script.CRMScriptServiceBase
-    name: CRMScriptServiceBase
-    isExternal: true
-    href: SuperOffice.CRM.Script.CRMScriptServiceBase.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Script.CRMScriptServiceBase)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CRMScriptServiceBase, To)
+    nameWithType: Converters.MapEnums(Of CRMScriptServiceBase, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Script.CRMScriptServiceBase, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Script.CRMScriptServiceBase
-    name: CRMScriptServiceBase
-    isExternal: true
-    href: SuperOffice.CRM.Script.CRMScriptServiceBase.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Script.CRMScriptServiceBase
-    name: CRMScriptServiceBase
-    isExternal: true
-    href: SuperOffice.CRM.Script.CRMScriptServiceBase.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -637,45 +401,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -684,93 +446,56 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Script.CRMScriptServiceBase.#ctor*
   commentId: Overload:SuperOffice.CRM.Script.CRMScriptServiceBase.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Script.CRMScriptServiceBase.html#SuperOffice_CRM_Script_CRMScriptServiceBase__ctor
   name: CRMScriptServiceBase
   nameWithType: CRMScriptServiceBase.CRMScriptServiceBase
   fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.CRMScriptServiceBase
-  nameWithType.vb: CRMScriptServiceBase.New
-  fullName.vb: SuperOffice.CRM.Script.CRMScriptServiceBase.New
-  name.vb: New
 - uid: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScript*
   commentId: Overload:SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScript
   isExternal: true
-  href: SuperOffice.CRM.Script.CRMScriptServiceBase.html#SuperOffice_CRM_Script_CRMScriptServiceBase_ExecuteScript_SuperOffice_CRMScript_RTE_Client_Scriptwithcontext_System_Int32_
   name: ExecuteScript
   nameWithType: CRMScriptServiceBase.ExecuteScript
   fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScript
@@ -778,48 +503,60 @@ references:
   commentId: M:SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext,System.Int32)
   parent: SuperOffice.CRM.Script.ICRMScriptService
   isExternal: true
-  href: SuperOffice.CRM.Script.ICRMScriptService.html#SuperOffice_CRM_Script_ICRMScriptService_ExecuteScript_SuperOffice_CRMScript_RTE_Client_Scriptwithcontext_System_Int32_
-  name: ExecuteScript(Scriptwithcontext, int)
-  nameWithType: ICRMScriptService.ExecuteScript(Scriptwithcontext, int)
-  fullName: SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext, int)
-  nameWithType.vb: ICRMScriptService.ExecuteScript(Scriptwithcontext, Integer)
-  fullName.vb: SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext, Integer)
-  name.vb: ExecuteScript(Scriptwithcontext, Integer)
+  name: ExecuteScript(Scriptwithcontext, Int32)
+  nameWithType: ICRMScriptService.ExecuteScript(Scriptwithcontext, Int32)
+  fullName: SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext, System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext,System.Int32)
     name: ExecuteScript
+    nameWithType: ICRMScriptService.ExecuteScript
+    fullName: SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript
     isExternal: true
-    href: SuperOffice.CRM.Script.ICRMScriptService.html#SuperOffice_CRM_Script_ICRMScriptService_ExecuteScript_SuperOffice_CRMScript_RTE_Client_Scriptwithcontext_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRMScript.RTE.Client.Scriptwithcontext
     name: Scriptwithcontext
+    nameWithType: Scriptwithcontext
+    fullName: SuperOffice.CRMScript.RTE.Client.Scriptwithcontext
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript(SuperOffice.CRMScript.RTE.Client.Scriptwithcontext,System.Int32)
     name: ExecuteScript
+    nameWithType: ICRMScriptService.ExecuteScript
+    fullName: SuperOffice.CRM.Script.ICRMScriptService.ExecuteScript
     isExternal: true
-    href: SuperOffice.CRM.Script.ICRMScriptService.html#SuperOffice_CRM_Script_ICRMScriptService_ExecuteScript_SuperOffice_CRMScript_RTE_Client_Scriptwithcontext_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRMScript.RTE.Client.Scriptwithcontext
     name: Scriptwithcontext
+    nameWithType: Scriptwithcontext
+    fullName: SuperOffice.CRMScript.RTE.Client.Scriptwithcontext
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRMScript.RTE.Client.Scriptwithcontext
-  commentId: T:SuperOffice.CRMScript.RTE.Client.Scriptwithcontext
-  parent: SuperOffice.CRMScript.RTE.Client
   isExternal: true
   name: Scriptwithcontext
   nameWithType: Scriptwithcontext
@@ -828,62 +565,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRMScript.RTE.Client.Response2
-  commentId: T:SuperOffice.CRMScript.RTE.Client.Response2
-  parent: SuperOffice.CRMScript.RTE.Client
   isExternal: true
   name: Response2
   nameWithType: Response2
   fullName: SuperOffice.CRMScript.RTE.Client.Response2
-- uid: SuperOffice.CRMScript.RTE.Client
-  commentId: N:SuperOffice.CRMScript.RTE.Client
-  isExternal: true
-  name: SuperOffice.CRMScript.RTE.Client
-  nameWithType: SuperOffice.CRMScript.RTE.Client
-  fullName: SuperOffice.CRMScript.RTE.Client
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-  - name: .
-  - uid: SuperOffice.CRMScript
-    name: CRMScript
-    isExternal: true
-  - name: .
-  - uid: SuperOffice.CRMScript.RTE
-    name: RTE
-    isExternal: true
-  - name: .
-  - uid: SuperOffice.CRMScript.RTE.Client
-    name: Client
-    isExternal: true
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-  - name: .
-  - uid: SuperOffice.CRMScript
-    name: CRMScript
-    isExternal: true
-  - name: .
-  - uid: SuperOffice.CRMScript.RTE
-    name: RTE
-    isExternal: true
-  - name: .
-  - uid: SuperOffice.CRMScript.RTE.Client
-    name: Client
-    isExternal: true
 - uid: SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScript*
   commentId: Overload:SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScript
   isExternal: true
-  href: SuperOffice.CRM.Script.CRMScriptServiceBase.html#SuperOffice_CRM_Script_CRMScriptServiceBase_ValidateScript_SuperOffice_CRMScript_RTE_Client_Scriptwithoutcontext_
   name: ValidateScript
   nameWithType: CRMScriptServiceBase.ValidateScript
   fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScript
@@ -891,40 +583,49 @@ references:
   commentId: M:SuperOffice.CRM.Script.ICRMScriptService.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
   parent: SuperOffice.CRM.Script.ICRMScriptService
   isExternal: true
-  href: SuperOffice.CRM.Script.ICRMScriptService.html#SuperOffice_CRM_Script_ICRMScriptService_ValidateScript_SuperOffice_CRMScript_RTE_Client_Scriptwithoutcontext_
   name: ValidateScript(Scriptwithoutcontext)
   nameWithType: ICRMScriptService.ValidateScript(Scriptwithoutcontext)
   fullName: SuperOffice.CRM.Script.ICRMScriptService.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
   spec.csharp:
   - uid: SuperOffice.CRM.Script.ICRMScriptService.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
     name: ValidateScript
+    nameWithType: ICRMScriptService.ValidateScript
+    fullName: SuperOffice.CRM.Script.ICRMScriptService.ValidateScript
     isExternal: true
-    href: SuperOffice.CRM.Script.ICRMScriptService.html#SuperOffice_CRM_Script_ICRMScriptService_ValidateScript_SuperOffice_CRMScript_RTE_Client_Scriptwithoutcontext_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext
     name: Scriptwithoutcontext
+    nameWithType: Scriptwithoutcontext
+    fullName: SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Script.ICRMScriptService.ValidateScript(SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext)
     name: ValidateScript
+    nameWithType: ICRMScriptService.ValidateScript
+    fullName: SuperOffice.CRM.Script.ICRMScriptService.ValidateScript
     isExternal: true
-    href: SuperOffice.CRM.Script.ICRMScriptService.html#SuperOffice_CRM_Script_ICRMScriptService_ValidateScript_SuperOffice_CRMScript_RTE_Client_Scriptwithoutcontext_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext
     name: Scriptwithoutcontext
+    nameWithType: Scriptwithoutcontext
+    fullName: SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext
-  commentId: T:SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext
-  parent: SuperOffice.CRMScript.RTE.Client
   isExternal: true
   name: Scriptwithoutcontext
   nameWithType: Scriptwithoutcontext
   fullName: SuperOffice.CRMScript.RTE.Client.Scriptwithoutcontext
 - uid: SuperOffice.CRMScript.RTE.Client.Response
-  commentId: T:SuperOffice.CRMScript.RTE.Client.Response
-  parent: SuperOffice.CRMScript.RTE.Client
   isExternal: true
   name: Response
   nameWithType: Response
@@ -932,14 +633,12 @@ references:
 - uid: SuperOffice.CRM.Script.CRMScriptServiceBase.GetExecutionTimeout*
   commentId: Overload:SuperOffice.CRM.Script.CRMScriptServiceBase.GetExecutionTimeout
   isExternal: true
-  href: SuperOffice.CRM.Script.CRMScriptServiceBase.html#SuperOffice_CRM_Script_CRMScriptServiceBase_GetExecutionTimeout
   name: GetExecutionTimeout
   nameWithType: CRMScriptServiceBase.GetExecutionTimeout
   fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.GetExecutionTimeout
 - uid: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScriptAsync*
   commentId: Overload:SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScriptAsync
   isExternal: true
-  href: SuperOffice.CRM.Script.CRMScriptServiceBase.html#SuperOffice_CRM_Script_CRMScriptServiceBase_ExecuteScriptAsync_SuperOffice_CRMScript_RTE_Client_Scriptwithcontext_System_String_System_Int32_System_Threading_CancellationToken_
   name: ExecuteScriptAsync
   nameWithType: CRMScriptServiceBase.ExecuteScriptAsync
   fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.ExecuteScriptAsync
@@ -947,26 +646,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Threading.CancellationToken
-  commentId: T:System.Threading.CancellationToken
-  parent: System.Threading
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken
 - uid: System.Threading.Tasks.Task{SuperOffice.CRMScript.RTE.Client.Response2}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRMScript.RTE.Client.Response2}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRMScript.RTE.Client.Response2}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<Response2>
   nameWithType: Task<Response2>
   fullName: System.Threading.Tasks.Task<SuperOffice.CRMScript.RTE.Client.Response2>
@@ -976,129 +666,84 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRMScript.RTE.Client.Response2
     name: Response2
+    nameWithType: Response2
+    fullName: SuperOffice.CRMScript.RTE.Client.Response2
     isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRMScript.RTE.Client.Response2
     name: Response2
+    nameWithType: Response2
+    fullName: SuperOffice.CRMScript.RTE.Client.Response2
     isExternal: true
   - name: )
-- uid: System.Threading
-  commentId: N:System.Threading
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Threading
-  nameWithType: System.Threading
-  fullName: System.Threading
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
+    nameWithType: )
+    fullName: )
 - uid: System.Threading.Tasks.Task`1
-  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TResult>
-  nameWithType: Task<TResult>
-  fullName: System.Threading.Tasks.Task<TResult>
-  nameWithType.vb: Task(Of TResult)
-  fullName.vb: System.Threading.Tasks.Task(Of TResult)
-  name.vb: Task(Of TResult)
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - name: TResult
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TResult
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Threading.Tasks
-  commentId: N:System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Threading.Tasks
-  nameWithType: System.Threading.Tasks
-  fullName: System.Threading.Tasks
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScriptAsync*
   commentId: Overload:SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScriptAsync
   isExternal: true
-  href: SuperOffice.CRM.Script.CRMScriptServiceBase.html#SuperOffice_CRM_Script_CRMScriptServiceBase_ValidateScriptAsync_SuperOffice_CRMScript_RTE_Client_Scriptwithoutcontext_System_Threading_CancellationToken_
   name: ValidateScriptAsync
   nameWithType: CRMScriptServiceBase.ValidateScriptAsync
   fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.ValidateScriptAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.CRMScript.RTE.Client.Response}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRMScript.RTE.Client.Response}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.CRMScript.RTE.Client.Response}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<Response>
   nameWithType: Task<Response>
   fullName: System.Threading.Tasks.Task<SuperOffice.CRMScript.RTE.Client.Response>
@@ -1108,71 +753,89 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRMScript.RTE.Client.Response
     name: Response
+    nameWithType: Response
+    fullName: SuperOffice.CRMScript.RTE.Client.Response
     isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRMScript.RTE.Client.Response
     name: Response
+    nameWithType: Response
+    fullName: SuperOffice.CRMScript.RTE.Client.Response
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackAccessToken*
   commentId: Overload:SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackAccessToken
   isExternal: true
-  href: SuperOffice.CRM.Script.CRMScriptServiceBase.html#SuperOffice_CRM_Script_CRMScriptServiceBase_GetCallbackAccessToken
   name: GetCallbackAccessToken
   nameWithType: CRMScriptServiceBase.GetCallbackAccessToken
   fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackAccessToken
 - uid: SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackBaseUrl*
   commentId: Overload:SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackBaseUrl
   isExternal: true
-  href: SuperOffice.CRM.Script.CRMScriptServiceBase.html#SuperOffice_CRM_Script_CRMScriptServiceBase_GetCallbackBaseUrl
   name: GetCallbackBaseUrl
   nameWithType: CRMScriptServiceBase.GetCallbackBaseUrl
   fullName: SuperOffice.CRM.Script.CRMScriptServiceBase.GetCallbackBaseUrl
 - uid: System.Threading.Tasks.Task{System.String}
-  commentId: T:System.Threading.Tasks.Task{System.String}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<string>
-  nameWithType: Task<string>
-  fullName: System.Threading.Tasks.Task<string>
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
   nameWithType.vb: Task(Of String)
-  fullName.vb: System.Threading.Tasks.Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
   name.vb: Task(Of String)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )

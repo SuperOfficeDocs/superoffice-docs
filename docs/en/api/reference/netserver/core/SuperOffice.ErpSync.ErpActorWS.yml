@@ -19,44 +19,32 @@ items:
   nameWithType: ErpActorWS
   fullName: SuperOffice.ErpSync.ErpActorWS
   type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Carrier object representing an Actor inside an ERP Connection, used for sending to and from an ERP Connector
-  example: []
+  summary: "\nCarrier object representing an Actor inside an ERP Connection, used for sending to and from an ERP Connector\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/EIS/Connector/1.0")]
-
-      public class ErpActorWS
+    content: 'public class ErpActorWS : Object'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/EIS/Connector/1.0")>
-
       Public Class ErpActorWS
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.ErpSync.ErpActorWS.EnumUtil.MapEnums``2
-  - SuperOffice.ErpSync.ErpActorWS.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.ErpSync.ErpActorWS.SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
   - SuperOffice.ErpSync.ErpActorWS.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.ErpActorWS)
   - SuperOffice.ErpSync.ErpActorWS.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/EIS/Connector/1.0
+  - SuperOffice.ErpSync.ErpActorWS.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.ErpSync.ErpActorWS.SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.ErpSync.ErpActorWS.#ctor
   commentId: M:SuperOffice.ErpSync.ErpActorWS.#ctor
   id: '#ctor'
@@ -68,16 +56,20 @@ items:
   nameWithType: ErpActorWS.ErpActorWS()
   fullName: SuperOffice.ErpSync.ErpActorWS.ErpActorWS()
   type: Constructor
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
   syntax:
     content: public ErpActorWS()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.ErpSync.ErpActorWS.#ctor*
-  nameWithType.vb: ErpActorWS.New()
-  fullName.vb: SuperOffice.ErpSync.ErpActorWS.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.ErpSync.ErpActorWS.ActorType
   commentId: P:SuperOffice.ErpSync.ErpActorWS.ActorType
   id: ActorType
@@ -89,28 +81,26 @@ items:
   nameWithType: ErpActorWS.ActorType
   fullName: SuperOffice.ErpSync.ErpActorWS.ActorType
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Actor type (Customer, Supplier, Partner, Person, Employee, Project, etc)
-  example: []
+  summary: "\nActor type (Customer, Supplier, Partner, Person, Employee, Project, etc)\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string ActorType { get; set; }
+    content: public string ActorType { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property ActorType As String
+    content.vb: Public Property ActorType As String
   overload: SuperOffice.ErpSync.ErpActorWS.ActorType*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.ErpSync.ErpActorWS.ErpKey
   commentId: P:SuperOffice.ErpSync.ErpActorWS.ErpKey
   id: ErpKey
@@ -122,28 +112,26 @@ items:
   nameWithType: ErpActorWS.ErpKey
   fullName: SuperOffice.ErpSync.ErpActorWS.ErpKey
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: The local identifier (primary key) for the actor in the given connection
-  example: []
+  summary: "\nThe local identifier (primary key) for the actor in the given connection\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string ErpKey { get; set; }
+    content: public string ErpKey { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property ErpKey As String
+    content.vb: Public Property ErpKey As String
   overload: SuperOffice.ErpSync.ErpActorWS.ErpKey*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.ErpSync.ErpActorWS.LastModified
   commentId: P:SuperOffice.ErpSync.ErpActorWS.LastModified
   id: LastModified
@@ -155,28 +143,26 @@ items:
   nameWithType: ErpActorWS.LastModified
   fullName: SuperOffice.ErpSync.ErpActorWS.LastModified
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: When was the actor last changed/modified. Absolutely mandatory; used for timestamp comparison and sync loop retrieval.
-  example: []
+  summary: "\nWhen was the actor last changed/modified. Absolutely mandatory; used for timestamp comparison and sync loop retrieval.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string LastModified { get; set; }
+    content: public string LastModified { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property LastModified As String
+    content.vb: Public Property LastModified As String
   overload: SuperOffice.ErpSync.ErpActorWS.LastModified*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.ErpSync.ErpActorWS.FieldValues
   commentId: P:SuperOffice.ErpSync.ErpActorWS.FieldValues
   id: FieldValues
@@ -188,28 +174,26 @@ items:
   nameWithType: ErpActorWS.FieldValues
   fullName: SuperOffice.ErpSync.ErpActorWS.FieldValues
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Key/value pairs of field keys and field values (field keys as specified by the given connector/connection)
-  example: []
+  summary: "\nKey/value pairs of field keys and field values (field keys as specified by the given connector/connection)\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public Dictionary<string, string> FieldValues { get; set; }
+    content: public Dictionary<string, string> FieldValues { get; set; }
     parameters: []
     return:
       type: System.Collections.Generic.Dictionary{System.String,System.String}
-    content.vb: >-
-      <DataMember>
-
-      Public Property FieldValues As Dictionary(Of String, String)
+    content.vb: Public Property FieldValues As Dictionary(Of String, String)
   overload: SuperOffice.ErpSync.ErpActorWS.FieldValues*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.ErpSync.ErpActorWS.ParentActorType
   commentId: P:SuperOffice.ErpSync.ErpActorWS.ParentActorType
   id: ParentActorType
@@ -221,28 +205,26 @@ items:
   nameWithType: ErpActorWS.ParentActorType
   fullName: SuperOffice.ErpSync.ErpActorWS.ParentActorType
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Actor type for the PARENT actor, (for example the company owner for a contact person)
-  example: []
+  summary: "\nActor type for the PARENT actor, (for example the company owner for a contact person)\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string ParentActorType { get; set; }
+    content: public string ParentActorType { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property ParentActorType As String
+    content.vb: Public Property ParentActorType As String
   overload: SuperOffice.ErpSync.ErpActorWS.ParentActorType*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.ErpSync.ErpActorWS.ParentErpKey
   commentId: P:SuperOffice.ErpSync.ErpActorWS.ParentErpKey
   id: ParentErpKey
@@ -254,539 +236,226 @@ items:
   nameWithType: ErpActorWS.ParentErpKey
   fullName: SuperOffice.ErpSync.ErpActorWS.ParentErpKey
   type: Property
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: The local identifier (primary key) for the PARENT actor in the given connection (for example the company owner for a contact person)
-  example: []
+  summary: "\nThe local identifier (primary key) for the PARENT actor in the given connection (for example the company owner for a contact person)\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string ParentErpKey { get; set; }
+    content: public string ParentErpKey { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property ParentErpKey As String
+    content.vb: Public Property ParentErpKey As String
   overload: SuperOffice.ErpSync.ErpActorWS.ParentErpKey*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.ErpSync
   commentId: N:SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync
   nameWithType: SuperOffice.ErpSync
   fullName: SuperOffice.ErpSync
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.ErpSync.ErpActorWS.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ErpActorWS, To>(ErpActorWS)
-  nameWithType: EnumUtil.MapEnums<ErpActorWS, To>(ErpActorWS)
-  fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.ErpActorWS, To>(SuperOffice.ErpSync.ErpActorWS)
-  nameWithType.vb: EnumUtil.MapEnums(Of ErpActorWS, To)(ErpActorWS)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.ErpSync.ErpActorWS, To)(SuperOffice.ErpSync.ErpActorWS)
-  name.vb: MapEnums(Of ErpActorWS, To)(ErpActorWS)
+  name: MapEnums<ErpActorWS, To>()
+  nameWithType: EnumUtil.MapEnums<ErpActorWS, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.ErpActorWS, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ErpActorWS, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.ErpSync.ErpActorWS, To)()
+  name.vb: MapEnums(Of ErpActorWS, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.ErpSync.ErpActorWS)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ErpActorWS, To>
+    nameWithType: EnumUtil.MapEnums<ErpActorWS, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.ErpActorWS, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.ErpSync.ErpActorWS
-    name: ErpActorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.ErpSync.ErpActorWS
-    name: ErpActorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.ErpSync.ErpActorWS)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ErpActorWS, To)
+    nameWithType: EnumUtil.MapEnums(Of ErpActorWS, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.ErpSync.ErpActorWS, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.ErpSync.ErpActorWS
-    name: ErpActorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.ErpSync.ErpActorWS
-    name: ErpActorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
-  - name: )
-- uid: SuperOffice.ErpSync.ErpActorWS.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ErpActorWS, To>(ErpActorWS)
-  nameWithType: Converters.MapEnums<ErpActorWS, To>(ErpActorWS)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.ErpActorWS, To>(SuperOffice.ErpSync.ErpActorWS)
-  nameWithType.vb: Converters.MapEnums(Of ErpActorWS, To)(ErpActorWS)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.ErpActorWS, To)(SuperOffice.ErpSync.ErpActorWS)
-  name.vb: MapEnums(Of ErpActorWS, To)(ErpActorWS)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.ErpSync.ErpActorWS)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.ErpSync.ErpActorWS
-    name: ErpActorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.ErpSync.ErpActorWS
-    name: ErpActorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.ErpSync.ErpActorWS)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.ErpSync.ErpActorWS
-    name: ErpActorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.ErpSync.ErpActorWS
-    name: ErpActorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
-  - name: )
-- uid: SuperOffice.ErpSync.ErpActorWS.SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_ToPlugin_SuperOffice_ErpSync_ErpActorWS_
-  name: ToPlugin(ErpActorWS)
-  nameWithType: Converters.ToPlugin(ErpActorWS)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
-    name: ToPlugin
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_ToPlugin_SuperOffice_ErpSync_ErpActorWS_
-  - name: (
-  - uid: SuperOffice.ErpSync.ErpActorWS
-    name: ErpActorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
-    name: ToPlugin
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_ToPlugin_SuperOffice_ErpSync_ErpActorWS_
-  - name: (
-  - uid: SuperOffice.ErpSync.ErpActorWS
-    name: ErpActorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ErpActorWS.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.ErpActorWS)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ErpActorWS>(ErpActorWS, ErpActorWS)
-  nameWithType: ObjectExtensions.AssignByReflection<ErpActorWS>(ErpActorWS, ErpActorWS)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ErpSync.ErpActorWS>(SuperOffice.ErpSync.ErpActorWS, SuperOffice.ErpSync.ErpActorWS)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ErpActorWS)(ErpActorWS, ErpActorWS)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ErpSync.ErpActorWS)(SuperOffice.ErpSync.ErpActorWS, SuperOffice.ErpSync.ErpActorWS)
-  name.vb: AssignByReflection(Of ErpActorWS)(ErpActorWS, ErpActorWS)
+  name: AssignByReflection<ErpActorWS>(ErpActorWS)
+  nameWithType: ObjectExtensions.AssignByReflection<ErpActorWS>(ErpActorWS)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ErpSync.ErpActorWS>(SuperOffice.ErpSync.ErpActorWS)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ErpActorWS)(ErpActorWS)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ErpSync.ErpActorWS)(SuperOffice.ErpSync.ErpActorWS)
+  name.vb: AssignByReflection(Of ErpActorWS)(ErpActorWS)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.ErpActorWS,SuperOffice.ErpSync.ErpActorWS)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ErpActorWS>
+    nameWithType: ObjectExtensions.AssignByReflection<ErpActorWS>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ErpSync.ErpActorWS>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.ErpSync.ErpActorWS
-    name: ErpActorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.ErpSync.ErpActorWS
     name: ErpActorWS
+    nameWithType: ErpActorWS
+    fullName: SuperOffice.ErpSync.ErpActorWS
     isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.ErpSync.ErpActorWS
-    name: ErpActorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.ErpActorWS,SuperOffice.ErpSync.ErpActorWS)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ErpActorWS)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ErpActorWS)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ErpSync.ErpActorWS)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.ErpSync.ErpActorWS
     name: ErpActorWS
+    nameWithType: ErpActorWS
+    fullName: SuperOffice.ErpSync.ErpActorWS
     isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
   - name: )
-  - name: (
-  - uid: SuperOffice.ErpSync.ErpActorWS
-    name: ErpActorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.ErpSync.ErpActorWS
-    name: ErpActorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ErpActorWS.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ErpActorWS>(ErpActorWS)
-  nameWithType: ObjectExtensions.GraphCopy<ErpActorWS>(ErpActorWS)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ErpSync.ErpActorWS>(SuperOffice.ErpSync.ErpActorWS)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ErpActorWS)(ErpActorWS)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ErpSync.ErpActorWS)(SuperOffice.ErpSync.ErpActorWS)
-  name.vb: GraphCopy(Of ErpActorWS)(ErpActorWS)
+  name: GraphCopy<ErpActorWS>()
+  nameWithType: ObjectExtensions.GraphCopy<ErpActorWS>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ErpSync.ErpActorWS>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ErpActorWS)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ErpSync.ErpActorWS)()
+  name.vb: GraphCopy(Of ErpActorWS)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.ErpSync.ErpActorWS)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ErpActorWS>
+    nameWithType: ObjectExtensions.GraphCopy<ErpActorWS>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ErpSync.ErpActorWS>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.ErpSync.ErpActorWS
-    name: ErpActorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.ErpSync.ErpActorWS
-    name: ErpActorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.ErpSync.ErpActorWS)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ErpActorWS)
+    nameWithType: ObjectExtensions.GraphCopy(Of ErpActorWS)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ErpSync.ErpActorWS)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.ErpSync.ErpActorWS
-    name: ErpActorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ErpActorWS.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ErpActorWS, To>()
+  nameWithType: Converters.MapEnums<ErpActorWS, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.ErpActorWS, To>()
+  nameWithType.vb: Converters.MapEnums(Of ErpActorWS, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.ErpActorWS, To)()
+  name.vb: MapEnums(Of ErpActorWS, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ErpActorWS, To>
+    nameWithType: Converters.MapEnums<ErpActorWS, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.ErpActorWS, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.ErpSync.ErpActorWS
-    name: ErpActorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ErpActorWS, To)
+    nameWithType: Converters.MapEnums(Of ErpActorWS, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.ErpActorWS, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ErpActorWS.SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
+  name: ToPlugin()
+  nameWithType: Converters.ToPlugin()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+    name: ToPlugin
+    nameWithType: Converters.ToPlugin
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+    name: ToPlugin
+    nameWithType: Converters.ToPlugin
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -795,122 +464,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_ToPlugin_SuperOffice_ErpSync_ErpActorWS_
-  name: ToPlugin(ErpActorWS)
-  nameWithType: Converters.ToPlugin(ErpActorWS)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
-    name: ToPlugin
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_ToPlugin_SuperOffice_ErpSync_ErpActorWS_
-  - name: (
-  - uid: SuperOffice.ErpSync.ErpActorWS
-    name: ErpActorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
-    name: ToPlugin
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_ToPlugin_SuperOffice_ErpSync_ErpActorWS_
-  - name: (
-  - uid: SuperOffice.ErpSync.ErpActorWS
-    name: ErpActorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ErpActorWS.html
-  - name: )
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -919,46 +509,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -967,106 +567,141 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
+  isExternal: true
+  name: ToPlugin(ErpActorWS)
+  nameWithType: Converters.ToPlugin(ErpActorWS)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
+    name: ToPlugin
+    nameWithType: Converters.ToPlugin
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.ErpSync.ErpActorWS
+    name: ErpActorWS
+    nameWithType: ErpActorWS
+    fullName: SuperOffice.ErpSync.ErpActorWS
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin(SuperOffice.ErpSync.ErpActorWS)
+    name: ToPlugin
+    nameWithType: Converters.ToPlugin
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.ToPlugin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.ErpSync.ErpActorWS
+    name: ErpActorWS
+    nameWithType: ErpActorWS
+    fullName: SuperOffice.ErpSync.ErpActorWS
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.ErpSync.ErpActorWS.#ctor*
   commentId: Overload:SuperOffice.ErpSync.ErpActorWS.#ctor
   isExternal: true
-  href: SuperOffice.ErpSync.ErpActorWS.html#SuperOffice_ErpSync_ErpActorWS__ctor
   name: ErpActorWS
   nameWithType: ErpActorWS.ErpActorWS
   fullName: SuperOffice.ErpSync.ErpActorWS.ErpActorWS
-  nameWithType.vb: ErpActorWS.New
-  fullName.vb: SuperOffice.ErpSync.ErpActorWS.New
-  name.vb: New
 - uid: SuperOffice.ErpSync.ErpActorWS.ActorType*
   commentId: Overload:SuperOffice.ErpSync.ErpActorWS.ActorType
   isExternal: true
-  href: SuperOffice.ErpSync.ErpActorWS.html#SuperOffice_ErpSync_ErpActorWS_ActorType
   name: ActorType
   nameWithType: ErpActorWS.ActorType
   fullName: SuperOffice.ErpSync.ErpActorWS.ActorType
@@ -1074,163 +709,145 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.ErpSync.ErpActorWS.ErpKey*
   commentId: Overload:SuperOffice.ErpSync.ErpActorWS.ErpKey
   isExternal: true
-  href: SuperOffice.ErpSync.ErpActorWS.html#SuperOffice_ErpSync_ErpActorWS_ErpKey
   name: ErpKey
   nameWithType: ErpActorWS.ErpKey
   fullName: SuperOffice.ErpSync.ErpActorWS.ErpKey
 - uid: SuperOffice.ErpSync.ErpActorWS.LastModified*
   commentId: Overload:SuperOffice.ErpSync.ErpActorWS.LastModified
   isExternal: true
-  href: SuperOffice.ErpSync.ErpActorWS.html#SuperOffice_ErpSync_ErpActorWS_LastModified
   name: LastModified
   nameWithType: ErpActorWS.LastModified
   fullName: SuperOffice.ErpSync.ErpActorWS.LastModified
 - uid: SuperOffice.ErpSync.ErpActorWS.FieldValues*
   commentId: Overload:SuperOffice.ErpSync.ErpActorWS.FieldValues
   isExternal: true
-  href: SuperOffice.ErpSync.ErpActorWS.html#SuperOffice_ErpSync_ErpActorWS_FieldValues
   name: FieldValues
   nameWithType: ErpActorWS.FieldValues
   fullName: SuperOffice.ErpSync.ErpActorWS.FieldValues
 - uid: System.Collections.Generic.Dictionary{System.String,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
   definition: System.Collections.Generic.Dictionary`2
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<string, string>
-  nameWithType: Dictionary<string, string>
-  fullName: System.Collections.Generic.Dictionary<string, string>
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
   nameWithType.vb: Dictionary(Of String, String)
-  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
   name.vb: Dictionary(Of String, String)
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ErpActorWS.ParentActorType*
   commentId: Overload:SuperOffice.ErpSync.ErpActorWS.ParentActorType
   isExternal: true
-  href: SuperOffice.ErpSync.ErpActorWS.html#SuperOffice_ErpSync_ErpActorWS_ParentActorType
   name: ParentActorType
   nameWithType: ErpActorWS.ParentActorType
   fullName: SuperOffice.ErpSync.ErpActorWS.ParentActorType
 - uid: SuperOffice.ErpSync.ErpActorWS.ParentErpKey*
   commentId: Overload:SuperOffice.ErpSync.ErpActorWS.ParentErpKey
   isExternal: true
-  href: SuperOffice.ErpSync.ErpActorWS.html#SuperOffice_ErpSync_ErpActorWS_ParentErpKey
   name: ParentErpKey
   nameWithType: ErpActorWS.ParentErpKey
   fullName: SuperOffice.ErpSync.ErpActorWS.ParentErpKey

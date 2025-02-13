@@ -15,14 +15,19 @@ items:
   nameWithType: SelectableListItemDeep
   fullName: SuperOffice.CRM.Lists.SelectableListItemDeep
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Lists
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: 'public class SelectableListItemDeep : SelectableListItem, IComparable<ISoListItem>, IComparable, ISelectableListItemDeep, ISelectableListItem, ISoListItem'
-    content.vb: Public Class SelectableListItemDeep Inherits SelectableListItem Implements IComparable(Of ISoListItem), IComparable, ISelectableListItemDeep, ISelectableListItem, ISoListItem
+    content.vb: >-
+      Public Class SelectableListItemDeep
+          Inherits SelectableListItem
+          Implements IComparable(Of ISoListItem), IComparable, ISelectableListItemDeep, ISelectableListItem, ISoListItem
   inheritance:
   - System.Object
   - SuperOffice.CRM.Lists.SoListItem
@@ -50,16 +55,17 @@ items:
   - SuperOffice.CRM.Lists.SoListItem.StyleHint
   - SuperOffice.CRM.Lists.SoListItem.ExtraInfo
   - SuperOffice.CRM.Lists.SoListItem.FullName
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Lists.SelectableListItemDeep.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Lists.SelectableListItemDeep.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Lists.SelectableListItemDeep.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.SelectableListItemDeep)
   - SuperOffice.CRM.Lists.SelectableListItemDeep.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Lists.SelectableListItemDeep.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Lists.SelectableListItemDeep.#ctor
   commentId: M:SuperOffice.CRM.Lists.SelectableListItemDeep.#ctor
   id: '#ctor'
@@ -71,16 +77,20 @@ items:
   nameWithType: SelectableListItemDeep.SelectableListItemDeep()
   fullName: SuperOffice.CRM.Lists.SelectableListItemDeep.SelectableListItemDeep()
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Lists
   syntax:
     content: public SelectableListItemDeep()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Lists.SelectableListItemDeep.#ctor*
-  nameWithType.vb: SelectableListItemDeep.New()
-  fullName.vb: SuperOffice.CRM.Lists.SelectableListItemDeep.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Lists.SelectableListItemDeep.#ctor(System.Int32,System.String,System.String,System.Int16,System.Boolean,System.String,System.Int32,System.String,System.String,System.String,System.Boolean,System.DateTime)
   commentId: M:SuperOffice.CRM.Lists.SelectableListItemDeep.#ctor(System.Int32,System.String,System.String,System.Int16,System.Boolean,System.String,System.Int32,System.String,System.String,System.String,System.Boolean,System.DateTime)
   id: '#ctor(System.Int32,System.String,System.String,System.Int16,System.Boolean,System.String,System.Int32,System.String,System.String,System.String,System.Boolean,System.DateTime)'
@@ -88,59 +98,50 @@ items:
   langs:
   - csharp
   - vb
-  name: SelectableListItemDeep(int, string, string, short, bool, string, int, string, string, string, bool, DateTime)
-  nameWithType: SelectableListItemDeep.SelectableListItemDeep(int, string, string, short, bool, string, int, string, string, string, bool, DateTime)
-  fullName: SuperOffice.CRM.Lists.SelectableListItemDeep.SelectableListItemDeep(int, string, string, short, bool, string, int, string, string, string, bool, System.DateTime)
+  name: SelectableListItemDeep(Int32, String, String, Int16, Boolean, String, Int32, String, String, String, Boolean, DateTime)
+  nameWithType: SelectableListItemDeep.SelectableListItemDeep(Int32, String, String, Int16, Boolean, String, Int32, String, String, String, Boolean, DateTime)
+  fullName: SuperOffice.CRM.Lists.SelectableListItemDeep.SelectableListItemDeep(System.Int32, System.String, System.String, System.Int16, System.Boolean, System.String, System.Int32, System.String, System.String, System.String, System.Boolean, System.DateTime)
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Lists
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public SelectableListItemDeep(int Id, string Name, string Tooltip, short Rank, bool Deleted, string Type, int Color, string IconHint, string StyleHint, string ExtraInfo, bool Selected, DateTime LastChange)
     parameters:
     - id: Id
       type: System.Int32
-      description: ''
     - id: Name
       type: System.String
-      description: ''
     - id: Tooltip
       type: System.String
-      description: ''
     - id: Rank
       type: System.Int16
-      description: ''
     - id: Deleted
       type: System.Boolean
-      description: ''
     - id: Type
       type: System.String
-      description: ''
     - id: Color
       type: System.Int32
-      description: ''
     - id: IconHint
       type: System.String
-      description: ''
     - id: StyleHint
       type: System.String
-      description: ''
     - id: ExtraInfo
       type: System.String
-      description: ''
     - id: Selected
       type: System.Boolean
-      description: ''
     - id: LastChange
       type: System.DateTime
-      description: ''
-    content.vb: Public Sub New(Id As Integer, Name As String, Tooltip As String, Rank As Short, Deleted As Boolean, Type As String, Color As Integer, IconHint As String, StyleHint As String, ExtraInfo As String, Selected As Boolean, LastChange As Date)
+    content.vb: Public Sub New(Id As Integer, Name As String, Tooltip As String, Rank As Short, Deleted As Boolean, Type As String, Color As Integer, IconHint As String, StyleHint As String, ExtraInfo As String, Selected As Boolean, LastChange As DateTime)
   overload: SuperOffice.CRM.Lists.SelectableListItemDeep.#ctor*
-  nameWithType.vb: SelectableListItemDeep.New(Integer, String, String, Short, Boolean, String, Integer, String, String, String, Boolean, Date)
-  fullName.vb: SuperOffice.CRM.Lists.SelectableListItemDeep.New(Integer, String, String, Short, Boolean, String, Integer, String, String, String, Boolean, Date)
-  name.vb: New(Integer, String, String, Short, Boolean, String, Integer, String, String, String, Boolean, Date)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Lists.SelectableListItemDeep.ChildItems
   commentId: P:SuperOffice.CRM.Lists.SelectableListItemDeep.ChildItems
   id: ChildItems
@@ -152,11 +153,13 @@ items:
   nameWithType: SelectableListItemDeep.ChildItems
   fullName: SuperOffice.CRM.Lists.SelectableListItemDeep.ChildItems
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Lists
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public List<ISelectableListItemDeep> ChildItems { get; set; }
     parameters: []
@@ -166,60 +169,30 @@ items:
   overload: SuperOffice.CRM.Lists.SelectableListItemDeep.ChildItems*
   implements:
   - SuperOffice.CRM.Lists.ISelectableListItemDeep.ChildItems
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Lists
   commentId: N:SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Lists
   nameWithType: SuperOffice.CRM.Lists
   fullName: SuperOffice.CRM.Lists
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Lists
-    name: Lists
-    isExternal: true
-    href: SuperOffice.CRM.Lists.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Lists
-    name: Lists
-    isExternal: true
-    href: SuperOffice.CRM.Lists.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Lists.SoListItem
   commentId: T:SuperOffice.CRM.Lists.SoListItem
   parent: SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html
   name: SoListItem
   nameWithType: SoListItem
   fullName: SuperOffice.CRM.Lists.SoListItem
@@ -227,15 +200,12 @@ references:
   commentId: T:SuperOffice.CRM.Lists.SelectableListItem
   parent: SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.CRM.Lists.SelectableListItem.html
   name: SelectableListItem
   nameWithType: SelectableListItem
   fullName: SuperOffice.CRM.Lists.SelectableListItem
 - uid: System.IComparable{SuperOffice.CRM.Lists.ISoListItem}
-  commentId: T:System.IComparable{SuperOffice.CRM.Lists.ISoListItem}
-  parent: System
+  commentId: '!:System.IComparable{SuperOffice.CRM.Lists.ISoListItem}'
   definition: System.IComparable`1
-  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
   name: IComparable<ISoListItem>
   nameWithType: IComparable<ISoListItem>
   fullName: System.IComparable<SuperOffice.CRM.Lists.ISoListItem>
@@ -245,32 +215,39 @@ references:
   spec.csharp:
   - uid: System.IComparable`1
     name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
-    href: SuperOffice.CRM.Lists.ISoListItem.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.IComparable`1
     name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
-    href: SuperOffice.CRM.Lists.ISoListItem.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.IComparable
-  commentId: T:System.IComparable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icomparable
   name: IComparable
   nameWithType: IComparable
   fullName: System.IComparable
@@ -278,7 +255,6 @@ references:
   commentId: T:SuperOffice.CRM.Lists.ISelectableListItemDeep
   parent: SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.CRM.Lists.ISelectableListItemDeep.html
   name: ISelectableListItemDeep
   nameWithType: ISelectableListItemDeep
   fullName: SuperOffice.CRM.Lists.ISelectableListItemDeep
@@ -286,7 +262,6 @@ references:
   commentId: T:SuperOffice.CRM.Lists.ISelectableListItem
   parent: SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.CRM.Lists.ISelectableListItem.html
   name: ISelectableListItem
   nameWithType: ISelectableListItem
   fullName: SuperOffice.CRM.Lists.ISelectableListItem
@@ -294,7 +269,6 @@ references:
   commentId: T:SuperOffice.CRM.Lists.ISoListItem
   parent: SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.CRM.Lists.ISoListItem.html
   name: ISoListItem
   nameWithType: ISoListItem
   fullName: SuperOffice.CRM.Lists.ISoListItem
@@ -302,29 +276,37 @@ references:
   commentId: M:SuperOffice.CRM.Lists.SelectableListItem.ToString
   parent: SuperOffice.CRM.Lists.SelectableListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SelectableListItem.html#SuperOffice_CRM_Lists_SelectableListItem_ToString
   name: ToString()
   nameWithType: SelectableListItem.ToString()
   fullName: SuperOffice.CRM.Lists.SelectableListItem.ToString()
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.SelectableListItem.ToString
     name: ToString
+    nameWithType: SelectableListItem.ToString
+    fullName: SuperOffice.CRM.Lists.SelectableListItem.ToString
     isExternal: true
-    href: SuperOffice.CRM.Lists.SelectableListItem.html#SuperOffice_CRM_Lists_SelectableListItem_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.SelectableListItem.ToString
     name: ToString
+    nameWithType: SelectableListItem.ToString
+    fullName: SuperOffice.CRM.Lists.SelectableListItem.ToString
     isExternal: true
-    href: SuperOffice.CRM.Lists.SelectableListItem.html#SuperOffice_CRM_Lists_SelectableListItem_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.SelectableListItem.LastChange
   commentId: P:SuperOffice.CRM.Lists.SelectableListItem.LastChange
   parent: SuperOffice.CRM.Lists.SelectableListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SelectableListItem.html#SuperOffice_CRM_Lists_SelectableListItem_LastChange
   name: LastChange
   nameWithType: SelectableListItem.LastChange
   fullName: SuperOffice.CRM.Lists.SelectableListItem.LastChange
@@ -332,7 +314,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SelectableListItem.Selected
   parent: SuperOffice.CRM.Lists.SelectableListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SelectableListItem.html#SuperOffice_CRM_Lists_SelectableListItem_Selected
   name: Selected
   nameWithType: SelectableListItem.Selected
   fullName: SuperOffice.CRM.Lists.SelectableListItem.Selected
@@ -340,59 +321,78 @@ references:
   commentId: M:SuperOffice.CRM.Lists.SoListItem.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_CompareTo_SuperOffice_CRM_Lists_ISoListItem_
   name: CompareTo(ISoListItem)
   nameWithType: SoListItem.CompareTo(ISoListItem)
   fullName: SuperOffice.CRM.Lists.SoListItem.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.SoListItem.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
     name: CompareTo
+    nameWithType: SoListItem.CompareTo
+    fullName: SuperOffice.CRM.Lists.SoListItem.CompareTo
     isExternal: true
-    href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_CompareTo_SuperOffice_CRM_Lists_ISoListItem_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
-    href: SuperOffice.CRM.Lists.ISoListItem.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.SoListItem.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
     name: CompareTo
+    nameWithType: SoListItem.CompareTo
+    fullName: SuperOffice.CRM.Lists.SoListItem.CompareTo
     isExternal: true
-    href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_CompareTo_SuperOffice_CRM_Lists_ISoListItem_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
-    href: SuperOffice.CRM.Lists.ISoListItem.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.SoListItem.GetHashCode
   commentId: M:SuperOffice.CRM.Lists.SoListItem.GetHashCode
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_GetHashCode
   name: GetHashCode()
   nameWithType: SoListItem.GetHashCode()
   fullName: SuperOffice.CRM.Lists.SoListItem.GetHashCode()
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.SoListItem.GetHashCode
     name: GetHashCode
+    nameWithType: SoListItem.GetHashCode
+    fullName: SuperOffice.CRM.Lists.SoListItem.GetHashCode
     isExternal: true
-    href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_GetHashCode
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.SoListItem.GetHashCode
     name: GetHashCode
+    nameWithType: SoListItem.GetHashCode
+    fullName: SuperOffice.CRM.Lists.SoListItem.GetHashCode
     isExternal: true
-    href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_GetHashCode
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.SoListItem.Id
   commentId: P:SuperOffice.CRM.Lists.SoListItem.Id
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_Id
   name: Id
   nameWithType: SoListItem.Id
   fullName: SuperOffice.CRM.Lists.SoListItem.Id
@@ -400,7 +400,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SoListItem.Name
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_Name
   name: Name
   nameWithType: SoListItem.Name
   fullName: SuperOffice.CRM.Lists.SoListItem.Name
@@ -408,7 +407,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SoListItem.Tooltip
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_Tooltip
   name: Tooltip
   nameWithType: SoListItem.Tooltip
   fullName: SuperOffice.CRM.Lists.SoListItem.Tooltip
@@ -416,7 +414,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SoListItem.Rank
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_Rank
   name: Rank
   nameWithType: SoListItem.Rank
   fullName: SuperOffice.CRM.Lists.SoListItem.Rank
@@ -424,7 +421,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SoListItem.Deleted
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_Deleted
   name: Deleted
   nameWithType: SoListItem.Deleted
   fullName: SuperOffice.CRM.Lists.SoListItem.Deleted
@@ -432,7 +428,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SoListItem.Type
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_Type
   name: Type
   nameWithType: SoListItem.Type
   fullName: SuperOffice.CRM.Lists.SoListItem.Type
@@ -440,7 +435,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SoListItem.Color
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_Color
   name: Color
   nameWithType: SoListItem.Color
   fullName: SuperOffice.CRM.Lists.SoListItem.Color
@@ -448,7 +442,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SoListItem.IconHint
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_IconHint
   name: IconHint
   nameWithType: SoListItem.IconHint
   fullName: SuperOffice.CRM.Lists.SoListItem.IconHint
@@ -456,7 +449,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SoListItem.StyleHint
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_StyleHint
   name: StyleHint
   nameWithType: SoListItem.StyleHint
   fullName: SuperOffice.CRM.Lists.SoListItem.StyleHint
@@ -464,7 +456,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SoListItem.ExtraInfo
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_ExtraInfo
   name: ExtraInfo
   nameWithType: SoListItem.ExtraInfo
   fullName: SuperOffice.CRM.Lists.SoListItem.ExtraInfo
@@ -472,432 +463,202 @@ references:
   commentId: P:SuperOffice.CRM.Lists.SoListItem.FullName
   parent: SuperOffice.CRM.Lists.SoListItem
   isExternal: true
-  href: SuperOffice.CRM.Lists.SoListItem.html#SuperOffice_CRM_Lists_SoListItem_FullName
   name: FullName
   nameWithType: SoListItem.FullName
   fullName: SuperOffice.CRM.Lists.SoListItem.FullName
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Lists.SelectableListItemDeep.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<SelectableListItemDeep, To>(SelectableListItemDeep)
-  nameWithType: EnumUtil.MapEnums<SelectableListItemDeep, To>(SelectableListItemDeep)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.SelectableListItemDeep, To>(SuperOffice.CRM.Lists.SelectableListItemDeep)
-  nameWithType.vb: EnumUtil.MapEnums(Of SelectableListItemDeep, To)(SelectableListItemDeep)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.SelectableListItemDeep, To)(SuperOffice.CRM.Lists.SelectableListItemDeep)
-  name.vb: MapEnums(Of SelectableListItemDeep, To)(SelectableListItemDeep)
+  name: MapEnums<SelectableListItemDeep, To>()
+  nameWithType: EnumUtil.MapEnums<SelectableListItemDeep, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.SelectableListItemDeep, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SelectableListItemDeep, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.SelectableListItemDeep, To)()
+  name.vb: MapEnums(Of SelectableListItemDeep, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Lists.SelectableListItemDeep)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SelectableListItemDeep, To>
+    nameWithType: EnumUtil.MapEnums<SelectableListItemDeep, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.SelectableListItemDeep, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Lists.SelectableListItemDeep
-    name: SelectableListItemDeep
-    isExternal: true
-    href: SuperOffice.CRM.Lists.SelectableListItemDeep.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Lists.SelectableListItemDeep
-    name: SelectableListItemDeep
-    isExternal: true
-    href: SuperOffice.CRM.Lists.SelectableListItemDeep.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Lists.SelectableListItemDeep)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SelectableListItemDeep, To)
+    nameWithType: EnumUtil.MapEnums(Of SelectableListItemDeep, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.SelectableListItemDeep, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.SelectableListItemDeep
-    name: SelectableListItemDeep
-    isExternal: true
-    href: SuperOffice.CRM.Lists.SelectableListItemDeep.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Lists.SelectableListItemDeep
-    name: SelectableListItemDeep
-    isExternal: true
-    href: SuperOffice.CRM.Lists.SelectableListItemDeep.html
-  - name: )
-- uid: SuperOffice.CRM.Lists.SelectableListItemDeep.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<SelectableListItemDeep, To>(SelectableListItemDeep)
-  nameWithType: Converters.MapEnums<SelectableListItemDeep, To>(SelectableListItemDeep)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.SelectableListItemDeep, To>(SuperOffice.CRM.Lists.SelectableListItemDeep)
-  nameWithType.vb: Converters.MapEnums(Of SelectableListItemDeep, To)(SelectableListItemDeep)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.SelectableListItemDeep, To)(SuperOffice.CRM.Lists.SelectableListItemDeep)
-  name.vb: MapEnums(Of SelectableListItemDeep, To)(SelectableListItemDeep)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Lists.SelectableListItemDeep)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Lists.SelectableListItemDeep
-    name: SelectableListItemDeep
-    isExternal: true
-    href: SuperOffice.CRM.Lists.SelectableListItemDeep.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Lists.SelectableListItemDeep
-    name: SelectableListItemDeep
-    isExternal: true
-    href: SuperOffice.CRM.Lists.SelectableListItemDeep.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Lists.SelectableListItemDeep)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.SelectableListItemDeep
-    name: SelectableListItemDeep
-    isExternal: true
-    href: SuperOffice.CRM.Lists.SelectableListItemDeep.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Lists.SelectableListItemDeep
-    name: SelectableListItemDeep
-    isExternal: true
-    href: SuperOffice.CRM.Lists.SelectableListItemDeep.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.SelectableListItemDeep.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.SelectableListItemDeep)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<SelectableListItemDeep>(SelectableListItemDeep, SelectableListItemDeep)
-  nameWithType: ObjectExtensions.AssignByReflection<SelectableListItemDeep>(SelectableListItemDeep, SelectableListItemDeep)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.SelectableListItemDeep>(SuperOffice.CRM.Lists.SelectableListItemDeep, SuperOffice.CRM.Lists.SelectableListItemDeep)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SelectableListItemDeep)(SelectableListItemDeep, SelectableListItemDeep)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.SelectableListItemDeep)(SuperOffice.CRM.Lists.SelectableListItemDeep, SuperOffice.CRM.Lists.SelectableListItemDeep)
-  name.vb: AssignByReflection(Of SelectableListItemDeep)(SelectableListItemDeep, SelectableListItemDeep)
+  name: AssignByReflection<SelectableListItemDeep>(SelectableListItemDeep)
+  nameWithType: ObjectExtensions.AssignByReflection<SelectableListItemDeep>(SelectableListItemDeep)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.SelectableListItemDeep>(SuperOffice.CRM.Lists.SelectableListItemDeep)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SelectableListItemDeep)(SelectableListItemDeep)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.SelectableListItemDeep)(SuperOffice.CRM.Lists.SelectableListItemDeep)
+  name.vb: AssignByReflection(Of SelectableListItemDeep)(SelectableListItemDeep)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.SelectableListItemDeep,SuperOffice.CRM.Lists.SelectableListItemDeep)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SelectableListItemDeep>
+    nameWithType: ObjectExtensions.AssignByReflection<SelectableListItemDeep>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.SelectableListItemDeep>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Lists.SelectableListItemDeep
-    name: SelectableListItemDeep
-    isExternal: true
-    href: SuperOffice.CRM.Lists.SelectableListItemDeep.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Lists.SelectableListItemDeep
     name: SelectableListItemDeep
+    nameWithType: SelectableListItemDeep
+    fullName: SuperOffice.CRM.Lists.SelectableListItemDeep
     isExternal: true
-    href: SuperOffice.CRM.Lists.SelectableListItemDeep.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.SelectableListItemDeep
-    name: SelectableListItemDeep
-    isExternal: true
-    href: SuperOffice.CRM.Lists.SelectableListItemDeep.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.SelectableListItemDeep,SuperOffice.CRM.Lists.SelectableListItemDeep)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SelectableListItemDeep)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SelectableListItemDeep)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.SelectableListItemDeep)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Lists.SelectableListItemDeep
     name: SelectableListItemDeep
+    nameWithType: SelectableListItemDeep
+    fullName: SuperOffice.CRM.Lists.SelectableListItemDeep
     isExternal: true
-    href: SuperOffice.CRM.Lists.SelectableListItemDeep.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Lists.SelectableListItemDeep
-    name: SelectableListItemDeep
-    isExternal: true
-    href: SuperOffice.CRM.Lists.SelectableListItemDeep.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.SelectableListItemDeep
-    name: SelectableListItemDeep
-    isExternal: true
-    href: SuperOffice.CRM.Lists.SelectableListItemDeep.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.SelectableListItemDeep.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<SelectableListItemDeep>(SelectableListItemDeep)
-  nameWithType: ObjectExtensions.GraphCopy<SelectableListItemDeep>(SelectableListItemDeep)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.SelectableListItemDeep>(SuperOffice.CRM.Lists.SelectableListItemDeep)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of SelectableListItemDeep)(SelectableListItemDeep)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.SelectableListItemDeep)(SuperOffice.CRM.Lists.SelectableListItemDeep)
-  name.vb: GraphCopy(Of SelectableListItemDeep)(SelectableListItemDeep)
+  name: GraphCopy<SelectableListItemDeep>()
+  nameWithType: ObjectExtensions.GraphCopy<SelectableListItemDeep>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.SelectableListItemDeep>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SelectableListItemDeep)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.SelectableListItemDeep)()
+  name.vb: GraphCopy(Of SelectableListItemDeep)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Lists.SelectableListItemDeep)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SelectableListItemDeep>
+    nameWithType: ObjectExtensions.GraphCopy<SelectableListItemDeep>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.SelectableListItemDeep>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Lists.SelectableListItemDeep
-    name: SelectableListItemDeep
-    isExternal: true
-    href: SuperOffice.CRM.Lists.SelectableListItemDeep.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Lists.SelectableListItemDeep
-    name: SelectableListItemDeep
-    isExternal: true
-    href: SuperOffice.CRM.Lists.SelectableListItemDeep.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Lists.SelectableListItemDeep)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SelectableListItemDeep)
+    nameWithType: ObjectExtensions.GraphCopy(Of SelectableListItemDeep)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.SelectableListItemDeep)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.SelectableListItemDeep
-    name: SelectableListItemDeep
-    isExternal: true
-    href: SuperOffice.CRM.Lists.SelectableListItemDeep.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.SelectableListItemDeep.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SelectableListItemDeep, To>()
+  nameWithType: Converters.MapEnums<SelectableListItemDeep, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.SelectableListItemDeep, To>()
+  nameWithType.vb: Converters.MapEnums(Of SelectableListItemDeep, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.SelectableListItemDeep, To)()
+  name.vb: MapEnums(Of SelectableListItemDeep, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SelectableListItemDeep, To>
+    nameWithType: Converters.MapEnums<SelectableListItemDeep, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.SelectableListItemDeep, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.Lists.SelectableListItemDeep
-    name: SelectableListItemDeep
-    isExternal: true
-    href: SuperOffice.CRM.Lists.SelectableListItemDeep.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SelectableListItemDeep, To)
+    nameWithType: Converters.MapEnums(Of SelectableListItemDeep, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.SelectableListItemDeep, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: System.IComparable`1
-  commentId: T:System.IComparable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
-  name: IComparable<T>
-  nameWithType: IComparable<T>
-  fullName: System.IComparable<T>
-  nameWithType.vb: IComparable(Of T)
-  fullName.vb: System.IComparable(Of T)
-  name.vb: IComparable(Of T)
+  name: IComparable<>
+  nameWithType: IComparable<>
+  fullName: System.IComparable<>
+  nameWithType.vb: IComparable(Of )
+  fullName.vb: System.IComparable(Of )
+  name.vb: IComparable(Of )
   spec.csharp:
   - uid: System.IComparable`1
     name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.IComparable`1
     name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -906,93 +667,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1001,46 +712,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1049,161 +770,134 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.CRM.Lists.SelectableListItemDeep.#ctor*
   commentId: Overload:SuperOffice.CRM.Lists.SelectableListItemDeep.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Lists.SelectableListItemDeep.html#SuperOffice_CRM_Lists_SelectableListItemDeep__ctor
   name: SelectableListItemDeep
   nameWithType: SelectableListItemDeep.SelectableListItemDeep
   fullName: SuperOffice.CRM.Lists.SelectableListItemDeep.SelectableListItemDeep
-  nameWithType.vb: SelectableListItemDeep.New
-  fullName.vb: SuperOffice.CRM.Lists.SelectableListItemDeep.New
-  name.vb: New
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Lists.SelectableListItemDeep.ChildItems*
   commentId: Overload:SuperOffice.CRM.Lists.SelectableListItemDeep.ChildItems
   isExternal: true
-  href: SuperOffice.CRM.Lists.SelectableListItemDeep.html#SuperOffice_CRM_Lists_SelectableListItemDeep_ChildItems
   name: ChildItems
   nameWithType: SelectableListItemDeep.ChildItems
   fullName: SuperOffice.CRM.Lists.SelectableListItemDeep.ChildItems
@@ -1211,15 +905,12 @@ references:
   commentId: P:SuperOffice.CRM.Lists.ISelectableListItemDeep.ChildItems
   parent: SuperOffice.CRM.Lists.ISelectableListItemDeep
   isExternal: true
-  href: SuperOffice.CRM.Lists.ISelectableListItemDeep.html#SuperOffice_CRM_Lists_ISelectableListItemDeep_ChildItems
   name: ChildItems
   nameWithType: ISelectableListItemDeep.ChildItems
   fullName: SuperOffice.CRM.Lists.ISelectableListItemDeep.ChildItems
 - uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItemDeep}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItemDeep}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISelectableListItemDeep}'
   definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<ISelectableListItemDeep>
   nameWithType: List<ISelectableListItemDeep>
   fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.ISelectableListItemDeep>
@@ -1229,89 +920,72 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Lists.ISelectableListItemDeep
     name: ISelectableListItemDeep
+    nameWithType: ISelectableListItemDeep
+    fullName: SuperOffice.CRM.Lists.ISelectableListItemDeep
     isExternal: true
-    href: SuperOffice.CRM.Lists.ISelectableListItemDeep.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Lists.ISelectableListItemDeep
     name: ISelectableListItemDeep
+    nameWithType: ISelectableListItemDeep
+    fullName: SuperOffice.CRM.Lists.ISelectableListItemDeep
     isExternal: true
-    href: SuperOffice.CRM.Lists.ISelectableListItemDeep.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )

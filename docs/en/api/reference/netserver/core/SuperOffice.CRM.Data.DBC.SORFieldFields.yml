@@ -22,13 +22,13 @@ items:
   - SuperOffice.CRM.Data.DBC.SORFieldFields.Registered
   - SuperOffice.CRM.Data.DBC.SORFieldFields.RegisteredAssociateId
   - SuperOffice.CRM.Data.DBC.SORFieldFields.Running
-  - SuperOffice.CRM.Data.DBC.SORFieldFields.SORFieldId
-  - SuperOffice.CRM.Data.DBC.SORFieldFields.SORSectionId
   - SuperOffice.CRM.Data.DBC.SORFieldFields.SetHeight
   - SuperOffice.CRM.Data.DBC.SORFieldFields.SetLeft
   - SuperOffice.CRM.Data.DBC.SORFieldFields.SetTop
   - SuperOffice.CRM.Data.DBC.SORFieldFields.SetWidth
   - SuperOffice.CRM.Data.DBC.SORFieldFields.Sgroup
+  - SuperOffice.CRM.Data.DBC.SORFieldFields.SORFieldId
+  - SuperOffice.CRM.Data.DBC.SORFieldFields.SORSectionId
   - SuperOffice.CRM.Data.DBC.SORFieldFields.Updated
   - SuperOffice.CRM.Data.DBC.SORFieldFields.UpdatedAssociateId
   - SuperOffice.CRM.Data.DBC.SORFieldFields.UpdatedCount
@@ -40,24 +40,27 @@ items:
   nameWithType: DBC.SORFieldFields
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Fields for SORField, SuperOffice reporter data
-  example: []
+  summary: "\nFields for SORField, SuperOffice reporter data\n"
   syntax:
-    content: public static class DBC.SORFieldFields
-    content.vb: Public Module DBC.SORFieldFields
+    content: 'public static class SORFieldFields : Object'
+    content.vb: >-
+      Public Module SORFieldFields
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.SORFieldId
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.SORFieldId
   id: SORFieldId
@@ -69,16 +72,24 @@ items:
   nameWithType: DBC.SORFieldFields.SORFieldId
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.SORFieldId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.SORFieldId: Primary key'
-  example: []
+  summary: "\nSORField.SORFieldId: Primary key\n"
   syntax:
     content: public const string SORFieldId = "SORField_id"
     return:
       type: System.String
     content.vb: Public Const SORFieldId As String = "SORField_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.SORSectionId
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.SORSectionId
   id: SORSectionId
@@ -90,16 +101,24 @@ items:
   nameWithType: DBC.SORFieldFields.SORSectionId
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.SORSectionId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.SORSectionId: Foreign key to Section'
-  example: []
+  summary: "\nSORField.SORSectionId: Foreign key to Section\n"
   syntax:
     content: public const string SORSectionId = "SORSection_id"
     return:
       type: System.String
     content.vb: Public Const SORSectionId As String = "SORSection_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.FieldType
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.FieldType
   id: FieldType
@@ -111,16 +130,24 @@ items:
   nameWithType: DBC.SORFieldFields.FieldType
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.FieldType
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.FieldType: field, label, line, image, pagenr, pages, date, associatename'
-  example: []
+  summary: "\nSORField.FieldType: field, label, line, image, pagenr, pages, date, associatename\n"
   syntax:
     content: public const string FieldType = "fieldType"
     return:
       type: System.String
     content.vb: Public Const FieldType As String = "fieldType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.Content
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.Content
   id: Content
@@ -132,16 +159,24 @@ items:
   nameWithType: DBC.SORFieldFields.Content
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.Content
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.Content: Field: db field name; Label: caption; image: file name; otherwise - empty'
-  example: []
+  summary: "\nSORField.Content: Field: db field name; Label: caption; image: file name; otherwise - empty\n"
   syntax:
     content: public const string Content = "content"
     return:
       type: System.String
     content.vb: Public Const Content As String = "content"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.ContentResId
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.ContentResId
   id: ContentResId
@@ -153,16 +188,24 @@ items:
   nameWithType: DBC.SORFieldFields.ContentResId
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.ContentResId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.ContentResId: resource id if translatable resource'
-  example: []
+  summary: "\nSORField.ContentResId: resource id if translatable resource\n"
   syntax:
     content: public const string ContentResId = "contentResId"
     return:
       type: System.String
     content.vb: Public Const ContentResId As String = "contentResId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.SetTop
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.SetTop
   id: SetTop
@@ -174,16 +217,24 @@ items:
   nameWithType: DBC.SORFieldFields.SetTop
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.SetTop
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.SetTop: top position in twips'
-  example: []
+  summary: "\nSORField.SetTop: top position in twips\n"
   syntax:
     content: public const string SetTop = "setTop"
     return:
       type: System.String
     content.vb: Public Const SetTop As String = "setTop"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.SetLeft
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.SetLeft
   id: SetLeft
@@ -195,16 +246,24 @@ items:
   nameWithType: DBC.SORFieldFields.SetLeft
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.SetLeft
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.SetLeft: left position in twips'
-  example: []
+  summary: "\nSORField.SetLeft: left position in twips\n"
   syntax:
     content: public const string SetLeft = "setLeft"
     return:
       type: System.String
     content.vb: Public Const SetLeft As String = "setLeft"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.SetHeight
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.SetHeight
   id: SetHeight
@@ -216,16 +275,24 @@ items:
   nameWithType: DBC.SORFieldFields.SetHeight
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.SetHeight
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.SetHeight: height in twips'
-  example: []
+  summary: "\nSORField.SetHeight: height in twips\n"
   syntax:
     content: public const string SetHeight = "setHeight"
     return:
       type: System.String
     content.vb: Public Const SetHeight As String = "setHeight"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.SetWidth
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.SetWidth
   id: SetWidth
@@ -237,16 +304,24 @@ items:
   nameWithType: DBC.SORFieldFields.SetWidth
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.SetWidth
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.SetWidth: width in twips'
-  example: []
+  summary: "\nSORField.SetWidth: width in twips\n"
   syntax:
     content: public const string SetWidth = "setWidth"
     return:
       type: System.String
     content.vb: Public Const SetWidth As String = "setWidth"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.Running
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.Running
   id: Running
@@ -258,16 +333,24 @@ items:
   nameWithType: DBC.SORFieldFields.Running
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.Running
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.Running: -1=NULL, 0=ddSRNone, 1=ddSRGroup, 2=ddSRAll'
-  example: []
+  summary: "\nSORField.Running: -1=NULL, 0=ddSRNone, 1=ddSRGroup, 2=ddSRAll\n"
   syntax:
     content: public const string Running = "running"
     return:
       type: System.String
     content.vb: Public Const Running As String = "running"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.Func
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.Func
   id: Func
@@ -279,16 +362,24 @@ items:
   nameWithType: DBC.SORFieldFields.Func
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.Func
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.Func: -1=NULL, 0=ddSFSum, 1=ddSFAvg, 2=ddSFCount, 3=dSFMin, 4=ddSFMax'
-  example: []
+  summary: "\nSORField.Func: -1=NULL, 0=ddSFSum, 1=ddSFAvg, 2=ddSFCount, 3=dSFMin, 4=ddSFMax\n"
   syntax:
     content: public const string Func = "func"
     return:
       type: System.String
     content.vb: Public Const Func As String = "func"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.GroupType
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.GroupType
   id: GroupType
@@ -300,16 +391,24 @@ items:
   nameWithType: DBC.SORFieldFields.GroupType
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.GroupType
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.GroupType: -1=NULL, 0=ddSMNone, 1=ddSMGrandTotal, 2=ddSMPageTotal, 3=ddSMSubTotal, 4=ddSMPageCount'
-  example: []
+  summary: "\nSORField.GroupType: -1=NULL, 0=ddSMNone, 1=ddSMGrandTotal, 2=ddSMPageTotal, 3=ddSMSubTotal, 4=ddSMPageCount\n"
   syntax:
     content: public const string GroupType = "groupType"
     return:
       type: System.String
     content.vb: Public Const GroupType As String = "groupType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.Sgroup
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.Sgroup
   id: Sgroup
@@ -321,16 +420,24 @@ items:
   nameWithType: DBC.SORFieldFields.Sgroup
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.Sgroup
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.Sgroup: Which group to use for heading: GroupHeader1-3 or empty string'
-  example: []
+  summary: "\nSORField.Sgroup: Which group to use for heading: GroupHeader1-3 or empty string\n"
   syntax:
     content: public const string Sgroup = "sgroup"
     return:
       type: System.String
     content.vb: Public Const Sgroup As String = "sgroup"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.Visible
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.Visible
   id: Visible
@@ -342,16 +449,24 @@ items:
   nameWithType: DBC.SORFieldFields.Visible
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.Visible
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.Visible: Is field visible, 1=true'
-  example: []
+  summary: "\nSORField.Visible: Is field visible, 1=true\n"
   syntax:
     content: public const string Visible = "visible"
     return:
       type: System.String
     content.vb: Public Const Visible As String = "visible"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.FontName
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.FontName
   id: FontName
@@ -363,16 +478,24 @@ items:
   nameWithType: DBC.SORFieldFields.FontName
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.FontName
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.FontName: Name of font'
-  example: []
+  summary: "\nSORField.FontName: Name of font\n"
   syntax:
     content: public const string FontName = "fontName"
     return:
       type: System.String
     content.vb: Public Const FontName As String = "fontName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.FontSize
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.FontSize
   id: FontSize
@@ -384,16 +507,24 @@ items:
   nameWithType: DBC.SORFieldFields.FontSize
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.FontSize
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.FontSize: In points'
-  example: []
+  summary: "\nSORField.FontSize: In points\n"
   syntax:
     content: public const string FontSize = "fontSize"
     return:
       type: System.String
     content.vb: Public Const FontSize As String = "fontSize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.FontColor
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.FontColor
   id: FontColor
@@ -405,16 +536,24 @@ items:
   nameWithType: DBC.SORFieldFields.FontColor
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.FontColor
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.FontColor: colour index'
-  example: []
+  summary: "\nSORField.FontColor: colour index\n"
   syntax:
     content: public const string FontColor = "fontColor"
     return:
       type: System.String
     content.vb: Public Const FontColor As String = "fontColor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.FontBold
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.FontBold
   id: FontBold
@@ -426,16 +565,24 @@ items:
   nameWithType: DBC.SORFieldFields.FontBold
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.FontBold
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.FontBold: 1=bold'
-  example: []
+  summary: "\nSORField.FontBold: 1=bold\n"
   syntax:
     content: public const string FontBold = "fontBold"
     return:
       type: System.String
     content.vb: Public Const FontBold As String = "fontBold"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.FontItalic
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.FontItalic
   id: FontItalic
@@ -447,16 +594,24 @@ items:
   nameWithType: DBC.SORFieldFields.FontItalic
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.FontItalic
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.FontItalic: 1=iatlic'
-  example: []
+  summary: "\nSORField.FontItalic: 1=iatlic\n"
   syntax:
     content: public const string FontItalic = "fontItalic"
     return:
       type: System.String
     content.vb: Public Const FontItalic As String = "fontItalic"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.FontStrikethrough
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.FontStrikethrough
   id: FontStrikethrough
@@ -468,16 +623,24 @@ items:
   nameWithType: DBC.SORFieldFields.FontStrikethrough
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.FontStrikethrough
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.FontStrikethrough: 1=strikethrough'
-  example: []
+  summary: "\nSORField.FontStrikethrough: 1=strikethrough\n"
   syntax:
     content: public const string FontStrikethrough = "fontStrikethrough"
     return:
       type: System.String
     content.vb: Public Const FontStrikethrough As String = "fontStrikethrough"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.FontUnderline
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.FontUnderline
   id: FontUnderline
@@ -489,16 +652,24 @@ items:
   nameWithType: DBC.SORFieldFields.FontUnderline
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.FontUnderline
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.FontUnderline: 1=underline'
-  example: []
+  summary: "\nSORField.FontUnderline: 1=underline\n"
   syntax:
     content: public const string FontUnderline = "fontUnderline"
     return:
       type: System.String
     content.vb: Public Const FontUnderline As String = "fontUnderline"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.Alignment
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.Alignment
   id: Alignment
@@ -510,16 +681,24 @@ items:
   nameWithType: DBC.SORFieldFields.Alignment
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.Alignment
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.Alignment: 0=left, 1=right, 2=center'
-  example: []
+  summary: "\nSORField.Alignment: 0=left, 1=right, 2=center\n"
   syntax:
     content: public const string Alignment = "alignment"
     return:
       type: System.String
     content.vb: Public Const Alignment As String = "alignment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.DataFormat
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.DataFormat
   id: DataFormat
@@ -531,16 +710,24 @@ items:
   nameWithType: DBC.SORFieldFields.DataFormat
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.DataFormat
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.DataFormat: Field format mask'
-  example: []
+  summary: "\nSORField.DataFormat: Field format mask\n"
   syntax:
     content: public const string DataFormat = "dataFormat"
     return:
       type: System.String
     content.vb: Public Const DataFormat As String = "dataFormat"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.Registered
   id: Registered
@@ -552,16 +739,24 @@ items:
   nameWithType: DBC.SORFieldFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.Registered: Registered when'
-  example: []
+  summary: "\nSORField.Registered: Registered when\n"
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -573,16 +768,24 @@ items:
   nameWithType: DBC.SORFieldFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.RegisteredAssociateId: Registered by whom'
-  example: []
+  summary: "\nSORField.RegisteredAssociateId: Registered by whom\n"
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.Updated
   id: Updated
@@ -594,16 +797,24 @@ items:
   nameWithType: DBC.SORFieldFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.Updated: Last updated when'
-  example: []
+  summary: "\nSORField.Updated: Last updated when\n"
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -615,16 +826,24 @@ items:
   nameWithType: DBC.SORFieldFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.UpdatedAssociateId: Last updated by whom'
-  example: []
+  summary: "\nSORField.UpdatedAssociateId: Last updated by whom\n"
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SORFieldFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.SORFieldFields.UpdatedCount
   id: UpdatedCount
@@ -636,288 +855,41 @@ items:
   nameWithType: DBC.SORFieldFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.SORFieldFields.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SORField.UpdatedCount: Number of updates made to this record'
-  example: []
+  summary: "\nSORField.UpdatedCount: Number of updates made to this record\n"
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -925,10 +897,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

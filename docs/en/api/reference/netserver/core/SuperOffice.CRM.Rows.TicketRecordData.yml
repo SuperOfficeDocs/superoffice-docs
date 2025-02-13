@@ -38,8 +38,8 @@ items:
   - SuperOffice.CRM.Rows.TicketRecordData.NumReplies
   - SuperOffice.CRM.Rows.TicketRecordData.OrigCategory
   - SuperOffice.CRM.Rows.TicketRecordData.OrigHumanCategoryId
-  - SuperOffice.CRM.Rows.TicketRecordData.OrigPriority
   - SuperOffice.CRM.Rows.TicketRecordData.Origin
+  - SuperOffice.CRM.Rows.TicketRecordData.OrigPriority
   - SuperOffice.CRM.Rows.TicketRecordData.OwnedBy
   - SuperOffice.CRM.Rows.TicketRecordData.Priority
   - SuperOffice.CRM.Rows.TicketRecordData.ProjectId
@@ -77,41 +77,33 @@ items:
   nameWithType: TicketRecordData
   fullName: SuperOffice.CRM.Rows.TicketRecordData
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
-
-    to a row from the ticket table.
-  remarks: >-
-    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.TicketRow" data-throw-if-not-resolved="false"></xref> object when
-
-    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
-
-    since they carry the corresponding <xref href="SuperOffice.CRM.Data.TicketTableInfo" data-throw-if-not-resolved="false"></xref> object, which
-
-    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
-  example: []
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the ticket table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.TicketRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.TicketTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class TicketRecordData
-    content.vb: Public Class TicketRecordData
+    content: 'public class TicketRecordData : Object'
+    content.vb: >-
+      Public Class TicketRecordData
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.TicketRecordData.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TicketRecordData)
   - SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Rows.TicketRecordData.TicketId
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TicketId
   id: TicketId
@@ -123,16 +115,22 @@ items:
   nameWithType: TicketRecordData.TicketId
   fullName: SuperOffice.CRM.Rows.TicketRecordData.TicketId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The primary key (auto-incremented)
-  example: []
+  summary: "\nThe primary key (auto-incremented) \n"
   syntax:
     content: public int TicketId
     return:
       type: System.Int32
     content.vb: Public TicketId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.ConnectId
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.ConnectId
   id: ConnectId
@@ -144,16 +142,22 @@ items:
   nameWithType: TicketRecordData.ConnectId
   fullName: SuperOffice.CRM.Rows.TicketRecordData.ConnectId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: If a ticket is connected to another ticket, this field is set to the id of the 'master' ticket.
-  example: []
+  summary: "\nIf a ticket is connected to another ticket, this field is set to the id of the &apos;master&apos; ticket. \n"
   syntax:
     content: public int ConnectId
     return:
       type: System.Int32
     content.vb: Public ConnectId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.Title
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Title
   id: Title
@@ -165,16 +169,22 @@ items:
   nameWithType: TicketRecordData.Title
   fullName: SuperOffice.CRM.Rows.TicketRecordData.Title
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The title of the ticket.
-  example: []
+  summary: "\nThe title of the ticket. \n"
   syntax:
     content: public string Title
     return:
       type: System.String
     content.vb: Public Title As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.CreatedAt
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.CreatedAt
   id: CreatedAt
@@ -186,16 +196,22 @@ items:
   nameWithType: TicketRecordData.CreatedAt
   fullName: SuperOffice.CRM.Rows.TicketRecordData.CreatedAt
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: When the ticket was created.
-  example: []
+  summary: "\nWhen the ticket was created. \n"
   syntax:
     content: public DateTime CreatedAt
     return:
       type: System.DateTime
-    content.vb: Public CreatedAt As Date
+    content.vb: Public CreatedAt As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.LastChanged
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.LastChanged
   id: LastChanged
@@ -207,16 +223,22 @@ items:
   nameWithType: TicketRecordData.LastChanged
   fullName: SuperOffice.CRM.Rows.TicketRecordData.LastChanged
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The last time the ticket was modified.
-  example: []
+  summary: "\nThe last time the ticket was modified. \n"
   syntax:
     content: public DateTime LastChanged
     return:
       type: System.DateTime
-    content.vb: Public LastChanged As Date
+    content.vb: Public LastChanged As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.Activate
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Activate
   id: Activate
@@ -228,16 +250,22 @@ items:
   nameWithType: TicketRecordData.Activate
   fullName: SuperOffice.CRM.Rows.TicketRecordData.Activate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: When the ticket should be activated, if it is postponed.
-  example: []
+  summary: "\nWhen the ticket should be activated, if it is postponed. \n"
   syntax:
     content: public DateTime Activate
     return:
       type: System.DateTime
-    content.vb: Public Activate As Date
+    content.vb: Public Activate As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.ClosedAt
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.ClosedAt
   id: ClosedAt
@@ -249,16 +277,22 @@ items:
   nameWithType: TicketRecordData.ClosedAt
   fullName: SuperOffice.CRM.Rows.TicketRecordData.ClosedAt
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: When the ticket was closed.
-  example: []
+  summary: "\nWhen the ticket was closed. \n"
   syntax:
     content: public DateTime ClosedAt
     return:
       type: System.DateTime
-    content.vb: Public ClosedAt As Date
+    content.vb: Public ClosedAt As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.CreatedBy
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.CreatedBy
   id: CreatedBy
@@ -270,16 +304,22 @@ items:
   nameWithType: TicketRecordData.CreatedBy
   fullName: SuperOffice.CRM.Rows.TicketRecordData.CreatedBy
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The id of the user who created the ticket. 1 (system user) if the ticket was created externally
-  example: []
+  summary: "\nThe id of the user who created the ticket. 1 (system user) if the ticket was created externally \n"
   syntax:
     content: public int CreatedBy
     return:
       type: System.Int32
     content.vb: Public CreatedBy As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.Author
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Author
   id: Author
@@ -291,16 +331,22 @@ items:
   nameWithType: TicketRecordData.Author
   fullName: SuperOffice.CRM.Rows.TicketRecordData.Author
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: A string representing the author of the ticket (same as author of first message).
-  example: []
+  summary: "\nA string representing the author of the ticket (same as author of first message). \n"
   syntax:
     content: public string Author
     return:
       type: System.String
     content.vb: Public Author As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.OwnedBy
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.OwnedBy
   id: OwnedBy
@@ -312,16 +358,22 @@ items:
   nameWithType: TicketRecordData.OwnedBy
   fullName: SuperOffice.CRM.Rows.TicketRecordData.OwnedBy
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The id of the user who owns the ticket. 1 (system user) if the ticket is unassigned.
-  example: []
+  summary: "\nThe id of the user who owns the ticket. 1 (system user) if the ticket is unassigned. \n"
   syntax:
     content: public int OwnedBy
     return:
       type: System.Int32
     content.vb: Public OwnedBy As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.Category
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Category
   id: Category
@@ -333,16 +385,22 @@ items:
   nameWithType: TicketRecordData.Category
   fullName: SuperOffice.CRM.Rows.TicketRecordData.Category
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The id of the category a ticket is in.
-  example: []
+  summary: "\nThe id of the category a ticket is in. \n"
   syntax:
     content: public int Category
     return:
       type: System.Int32
     content.vb: Public Category As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.OrigCategory
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.OrigCategory
   id: OrigCategory
@@ -354,16 +412,22 @@ items:
   nameWithType: TicketRecordData.OrigCategory
   fullName: SuperOffice.CRM.Rows.TicketRecordData.OrigCategory
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The id of the category the ticket was posted to.
-  example: []
+  summary: "\nThe id of the category the ticket was posted to. \n"
   syntax:
     content: public int OrigCategory
     return:
       type: System.Int32
     content.vb: Public OrigCategory As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.Slevel
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Slevel
   id: Slevel
@@ -375,16 +439,22 @@ items:
   nameWithType: TicketRecordData.Slevel
   fullName: SuperOffice.CRM.Rows.TicketRecordData.Slevel
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The securitylevel of the ticket.
-  example: []
+  summary: "\nThe securitylevel of the ticket. \n"
   syntax:
     content: public TicketSecurityLevel Slevel
     return:
       type: SuperOffice.Data.TicketSecurityLevel
     content.vb: Public Slevel As TicketSecurityLevel
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.Status
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Status
   id: Status
@@ -396,16 +466,22 @@ items:
   nameWithType: TicketRecordData.Status
   fullName: SuperOffice.CRM.Rows.TicketRecordData.Status
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The status of the ticket. I.e. active/closed/postponed/deleted
-  example: []
+  summary: "\nThe status of the ticket. I.e. active/closed/postponed/deleted \n"
   syntax:
     content: public TicketBaseStatus Status
     return:
       type: SuperOffice.Data.TicketBaseStatus
     content.vb: Public Status As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.TicketStatus
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TicketStatus
   id: TicketStatus
@@ -417,16 +493,22 @@ items:
   nameWithType: TicketRecordData.TicketStatus
   fullName: SuperOffice.CRM.Rows.TicketRecordData.TicketStatus
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: User defined ticket status
-  example: []
+  summary: "\nUser defined ticket status \n"
   syntax:
     content: public int TicketStatus
     return:
       type: System.Int32
     content.vb: Public TicketStatus As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.CustId
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.CustId
   id: CustId
@@ -438,16 +520,22 @@ items:
   nameWithType: TicketRecordData.CustId
   fullName: SuperOffice.CRM.Rows.TicketRecordData.CustId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The reference to the customer. NULL or -1 if ticket is not connected to customer.
-  example: []
+  summary: "\nThe reference to the customer. NULL or -1 if ticket is not connected to customer. \n"
   syntax:
     content: public int CustId
     return:
       type: System.Int32
     content.vb: Public CustId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.Priority
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Priority
   id: Priority
@@ -459,16 +547,22 @@ items:
   nameWithType: TicketRecordData.Priority
   fullName: SuperOffice.CRM.Rows.TicketRecordData.Priority
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The reference to the ticket_priority table.
-  example: []
+  summary: "\nThe reference to the ticket_priority table. \n"
   syntax:
     content: public int Priority
     return:
       type: System.Int32
     content.vb: Public Priority As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.OrigPriority
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.OrigPriority
   id: OrigPriority
@@ -480,16 +574,22 @@ items:
   nameWithType: TicketRecordData.OrigPriority
   fullName: SuperOffice.CRM.Rows.TicketRecordData.OrigPriority
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The reference to the initial priority for the ticket.
-  example: []
+  summary: "\nThe reference to the initial priority for the ticket. \n"
   syntax:
     content: public int OrigPriority
     return:
       type: System.Int32
     content.vb: Public OrigPriority As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.AlertLevel
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.AlertLevel
   id: AlertLevel
@@ -501,16 +601,22 @@ items:
   nameWithType: TicketRecordData.AlertLevel
   fullName: SuperOffice.CRM.Rows.TicketRecordData.AlertLevel
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The alert level for the ticket. Matches the level value of the ticket_alert table.
-  example: []
+  summary: "\nThe alert level for the ticket. Matches the level value of the ticket_alert table. \n"
   syntax:
     content: public short AlertLevel
     return:
       type: System.Int16
     content.vb: Public AlertLevel As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.AlertTimeout
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.AlertTimeout
   id: AlertTimeout
@@ -522,16 +628,22 @@ items:
   nameWithType: TicketRecordData.AlertTimeout
   fullName: SuperOffice.CRM.Rows.TicketRecordData.AlertTimeout
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The datetime for when the ticket should jump to the next alert_level.
-  example: []
+  summary: "\nThe datetime for when the ticket should jump to the next alert_level. \n"
   syntax:
     content: public DateTime AlertTimeout
     return:
       type: System.DateTime
-    content.vb: Public AlertTimeout As Date
+    content.vb: Public AlertTimeout As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.AlertStop
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.AlertStop
   id: AlertStop
@@ -543,16 +655,22 @@ items:
   nameWithType: TicketRecordData.AlertStop
   fullName: SuperOffice.CRM.Rows.TicketRecordData.AlertStop
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: If the esclatation was stopped, this fields indicates how many seconds left before the next escalation level. -1 if escalation is running.
-  example: []
+  summary: "\nIf the esclatation was stopped, this fields indicates how many seconds left before the next escalation level. -1 if escalation is running. \n"
   syntax:
     content: public int AlertStop
     return:
       type: System.Int32
     content.vb: Public AlertStop As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.ReadByOwner
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.ReadByOwner
   id: ReadByOwner
@@ -564,16 +682,22 @@ items:
   nameWithType: TicketRecordData.ReadByOwner
   fullName: SuperOffice.CRM.Rows.TicketRecordData.ReadByOwner
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The datetime for when the ticket last was read by the owner.
-  example: []
+  summary: "\nThe datetime for when the ticket last was read by the owner. \n"
   syntax:
     content: public DateTime ReadByOwner
     return:
       type: System.DateTime
-    content.vb: Public ReadByOwner As Date
+    content.vb: Public ReadByOwner As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.FirstReadByOwner
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.FirstReadByOwner
   id: FirstReadByOwner
@@ -585,16 +709,22 @@ items:
   nameWithType: TicketRecordData.FirstReadByOwner
   fullName: SuperOffice.CRM.Rows.TicketRecordData.FirstReadByOwner
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The datetime for when the ticket first was read by the current owner.
-  example: []
+  summary: "\nThe datetime for when the ticket first was read by the current owner. \n"
   syntax:
     content: public DateTime FirstReadByOwner
     return:
       type: System.DateTime
-    content.vb: Public FirstReadByOwner As Date
+    content.vb: Public FirstReadByOwner As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.FirstReadByUser
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.FirstReadByUser
   id: FirstReadByUser
@@ -606,16 +736,22 @@ items:
   nameWithType: TicketRecordData.FirstReadByUser
   fullName: SuperOffice.CRM.Rows.TicketRecordData.FirstReadByUser
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The datetime for when the ticket first was read by a user.
-  example: []
+  summary: "\nThe datetime for when the ticket first was read by a user. \n"
   syntax:
     content: public DateTime FirstReadByUser
     return:
       type: System.DateTime
-    content.vb: Public FirstReadByUser As Date
+    content.vb: Public FirstReadByUser As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.ReadByCustomer
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.ReadByCustomer
   id: ReadByCustomer
@@ -627,16 +763,22 @@ items:
   nameWithType: TicketRecordData.ReadByCustomer
   fullName: SuperOffice.CRM.Rows.TicketRecordData.ReadByCustomer
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The datetime for when the ticket was read by the customer.
-  example: []
+  summary: "\nThe datetime for when the ticket was read by the customer. \n"
   syntax:
     content: public DateTime ReadByCustomer
     return:
       type: System.DateTime
-    content.vb: Public ReadByCustomer As Date
+    content.vb: Public ReadByCustomer As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.FilterId
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.FilterId
   id: FilterId
@@ -648,16 +790,22 @@ items:
   nameWithType: TicketRecordData.FilterId
   fullName: SuperOffice.CRM.Rows.TicketRecordData.FilterId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The reference to the mailbox from which the ticket was created. NULL or -1 if the ticket was not created by a mailbox.
-  example: []
+  summary: "\nThe reference to the mailbox from which the ticket was created. NULL or -1 if the ticket was not created by a mailbox. \n"
   syntax:
     content: public int FilterId
     return:
       type: System.Int32
     content.vb: Public FilterId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.DisplayFilter
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.DisplayFilter
   id: DisplayFilter
@@ -669,16 +817,22 @@ items:
   nameWithType: TicketRecordData.DisplayFilter
   fullName: SuperOffice.CRM.Rows.TicketRecordData.DisplayFilter
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The name of the mailbox from which the ticket was created. Only for displaypurposes
-  example: []
+  summary: "\nThe name of the mailbox from which the ticket was created. Only for displaypurposes \n"
   syntax:
     content: public string DisplayFilter
     return:
       type: System.String
     content.vb: Public DisplayFilter As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.RepliedAt
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.RepliedAt
   id: RepliedAt
@@ -690,16 +844,22 @@ items:
   nameWithType: TicketRecordData.RepliedAt
   fullName: SuperOffice.CRM.Rows.TicketRecordData.RepliedAt
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The datetime for when the ticket was replied to. I.e. the first external message added to the ticket.
-  example: []
+  summary: "\nThe datetime for when the ticket was replied to. I.e. the first external message added to the ticket. \n"
   syntax:
     content: public DateTime RepliedAt
     return:
       type: System.DateTime
-    content.vb: Public RepliedAt As Date
+    content.vb: Public RepliedAt As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.TimeToReply
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TimeToReply
   id: TimeToReply
@@ -711,16 +871,22 @@ items:
   nameWithType: TicketRecordData.TimeToReply
   fullName: SuperOffice.CRM.Rows.TicketRecordData.TimeToReply
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The time (minutes) between when the ticket was created and when it was replied to. Calculated based on priority's timeframe.
-  example: []
+  summary: "\nThe time (minutes) between when the ticket was created and when it was replied to. Calculated based on priority&apos;s timeframe. \n"
   syntax:
     content: public int TimeToReply
     return:
       type: System.Int32
     content.vb: Public TimeToReply As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.TimeToClose
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TimeToClose
   id: TimeToClose
@@ -732,16 +898,22 @@ items:
   nameWithType: TicketRecordData.TimeToClose
   fullName: SuperOffice.CRM.Rows.TicketRecordData.TimeToClose
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The time (minutes) between when the ticket was created and when it was closed. Calculated based on priority's timeframe.
-  example: []
+  summary: "\nThe time (minutes) between when the ticket was created and when it was closed. Calculated based on priority&apos;s timeframe. \n"
   syntax:
     content: public int TimeToClose
     return:
       type: System.Int32
     content.vb: Public TimeToClose As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.RealTimeToReply
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.RealTimeToReply
   id: RealTimeToReply
@@ -753,16 +925,22 @@ items:
   nameWithType: TicketRecordData.RealTimeToReply
   fullName: SuperOffice.CRM.Rows.TicketRecordData.RealTimeToReply
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Same as time_to_reply, but not calculated based on priority.
-  example: []
+  summary: "\nSame as time_to_reply, but not calculated based on priority. \n"
   syntax:
     content: public int RealTimeToReply
     return:
       type: System.Int32
     content.vb: Public RealTimeToReply As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.RealTimeToClose
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.RealTimeToClose
   id: RealTimeToClose
@@ -774,16 +952,22 @@ items:
   nameWithType: TicketRecordData.RealTimeToClose
   fullName: SuperOffice.CRM.Rows.TicketRecordData.RealTimeToClose
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Same as time_to_close, but not calculated based on priority.
-  example: []
+  summary: "\nSame as time_to_close, but not calculated based on priority. \n"
   syntax:
     content: public int RealTimeToClose
     return:
       type: System.Int32
     content.vb: Public RealTimeToClose As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.ReadStatus
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.ReadStatus
   id: ReadStatus
@@ -795,16 +979,22 @@ items:
   nameWithType: TicketRecordData.ReadStatus
   fullName: SuperOffice.CRM.Rows.TicketRecordData.ReadStatus
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Whether the owner has read the ticket or not (red, yellow, green).
-  example: []
+  summary: "\nWhether the owner has read the ticket or not (red, yellow, green). \n"
   syntax:
     content: public TicketReadStatus ReadStatus
     return:
       type: SuperOffice.Data.TicketReadStatus
     content.vb: Public ReadStatus As TicketReadStatus
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.HasAttachment
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.HasAttachment
   id: HasAttachment
@@ -816,16 +1006,22 @@ items:
   nameWithType: TicketRecordData.HasAttachment
   fullName: SuperOffice.CRM.Rows.TicketRecordData.HasAttachment
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Boolean indicating if this ticket has one or more attachments.
-  example: []
+  summary: "\nBoolean indicating if this ticket has one or more attachments. \n"
   syntax:
     content: public short HasAttachment
     return:
       type: System.Int16
     content.vb: Public HasAttachment As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.Deadline
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Deadline
   id: Deadline
@@ -837,16 +1033,22 @@ items:
   nameWithType: TicketRecordData.Deadline
   fullName: SuperOffice.CRM.Rows.TicketRecordData.Deadline
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Deadline for ticket.
-  example: []
+  summary: "\nDeadline for ticket. \n"
   syntax:
     content: public DateTime Deadline
     return:
       type: System.DateTime
-    content.vb: Public Deadline As Date
+    content.vb: Public Deadline As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.FilterAddress
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.FilterAddress
   id: FilterAddress
@@ -858,16 +1060,22 @@ items:
   nameWithType: TicketRecordData.FilterAddress
   fullName: SuperOffice.CRM.Rows.TicketRecordData.FilterAddress
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Address of receiving filter (mail box)
-  example: []
+  summary: "\nAddress of receiving filter (mail box) \n"
   syntax:
     content: public string FilterAddress
     return:
       type: System.String
     content.vb: Public FilterAddress As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.DbiAgentId
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.DbiAgentId
   id: DbiAgentId
@@ -879,16 +1087,22 @@ items:
   nameWithType: TicketRecordData.DbiAgentId
   fullName: SuperOffice.CRM.Rows.TicketRecordData.DbiAgentId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Integration agent (eJournal)
-  example: []
+  summary: "\nIntegration agent (eJournal) \n"
   syntax:
     content: public int DbiAgentId
     return:
       type: System.Int32
     content.vb: Public DbiAgentId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.DbiKey
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.DbiKey
   id: DbiKey
@@ -900,16 +1114,22 @@ items:
   nameWithType: TicketRecordData.DbiKey
   fullName: SuperOffice.CRM.Rows.TicketRecordData.DbiKey
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The primary key for the integrated entry in the external datasource.
-  example: []
+  summary: "\nThe primary key for the integrated entry in the external datasource. \n"
   syntax:
     content: public string DbiKey
     return:
       type: System.String
     content.vb: Public DbiKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.DbiLastSyncronized
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.DbiLastSyncronized
   id: DbiLastSyncronized
@@ -921,16 +1141,22 @@ items:
   nameWithType: TicketRecordData.DbiLastSyncronized
   fullName: SuperOffice.CRM.Rows.TicketRecordData.DbiLastSyncronized
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last external synchronization.
-  example: []
+  summary: "\nLast external synchronization. \n"
   syntax:
     content: public DateTime DbiLastSyncronized
     return:
       type: System.DateTime
-    content.vb: Public DbiLastSyncronized As Date
+    content.vb: Public DbiLastSyncronized As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.DbiLastModified
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.DbiLastModified
   id: DbiLastModified
@@ -942,16 +1168,22 @@ items:
   nameWithType: TicketRecordData.DbiLastModified
   fullName: SuperOffice.CRM.Rows.TicketRecordData.DbiLastModified
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: When the entry was last modified.
-  example: []
+  summary: "\nWhen the entry was last modified. \n"
   syntax:
     content: public DateTime DbiLastModified
     return:
       type: System.DateTime
-    content.vb: Public DbiLastModified As Date
+    content.vb: Public DbiLastModified As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.Origin
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Origin
   id: Origin
@@ -963,16 +1195,22 @@ items:
   nameWithType: TicketRecordData.Origin
   fullName: SuperOffice.CRM.Rows.TicketRecordData.Origin
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: What is the origin of this ticket
-  example: []
+  summary: "\nWhat is the origin of this ticket \n"
   syntax:
     content: public TicketOrigin Origin
     return:
       type: SuperOffice.Data.TicketOrigin
     content.vb: Public Origin As TicketOrigin
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.TimeSpentInternally
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TimeSpentInternally
   id: TimeSpentInternally
@@ -984,16 +1222,22 @@ items:
   nameWithType: TicketRecordData.TimeSpentInternally
   fullName: SuperOffice.CRM.Rows.TicketRecordData.TimeSpentInternally
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The total time (seconds) within the priority's office hours the ticket has been in an open status (configurable), not including current state
-  example: []
+  summary: "\nThe total time (seconds) within the priority&apos;s office hours the ticket has been in an open status (configurable), not including current state \n"
   syntax:
     content: public int TimeSpentInternally
     return:
       type: System.Int32
     content.vb: Public TimeSpentInternally As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.TimeSpentExternally
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TimeSpentExternally
   id: TimeSpentExternally
@@ -1005,16 +1249,22 @@ items:
   nameWithType: TicketRecordData.TimeSpentExternally
   fullName: SuperOffice.CRM.Rows.TicketRecordData.TimeSpentExternally
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The total time (seconds) within the priority's office hours the ticket has been in a external waiting status (configurable), not including current state
-  example: []
+  summary: "\nThe total time (seconds) within the priority&apos;s office hours the ticket has been in a external waiting status (configurable), not including current state \n"
   syntax:
     content: public int TimeSpentExternally
     return:
       type: System.Int32
     content.vb: Public TimeSpentExternally As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.TimeSpentQueue
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TimeSpentQueue
   id: TimeSpentQueue
@@ -1026,16 +1276,22 @@ items:
   nameWithType: TicketRecordData.TimeSpentQueue
   fullName: SuperOffice.CRM.Rows.TicketRecordData.TimeSpentQueue
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The total time (seconds) within the priority's office hours the ticket has been in a queue status, not including current state
-  example: []
+  summary: "\nThe total time (seconds) within the priority&apos;s office hours the ticket has been in a queue status, not including current state \n"
   syntax:
     content: public int TimeSpentQueue
     return:
       type: System.Int32
     content.vb: Public TimeSpentQueue As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentInternally
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentInternally
   id: RealTimeSpentInternally
@@ -1047,16 +1303,22 @@ items:
   nameWithType: TicketRecordData.RealTimeSpentInternally
   fullName: SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentInternally
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state
-  example: []
+  summary: "\nThe total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state \n"
   syntax:
     content: public int RealTimeSpentInternally
     return:
       type: System.Int32
     content.vb: Public RealTimeSpentInternally As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentExternally
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentExternally
   id: RealTimeSpentExternally
@@ -1068,16 +1330,22 @@ items:
   nameWithType: TicketRecordData.RealTimeSpentExternally
   fullName: SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentExternally
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state
-  example: []
+  summary: "\nThe total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state \n"
   syntax:
     content: public int RealTimeSpentExternally
     return:
       type: System.Int32
     content.vb: Public RealTimeSpentExternally As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentQueue
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentQueue
   id: RealTimeSpentQueue
@@ -1089,16 +1357,22 @@ items:
   nameWithType: TicketRecordData.RealTimeSpentQueue
   fullName: SuperOffice.CRM.Rows.TicketRecordData.RealTimeSpentQueue
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state
-  example: []
+  summary: "\nThe total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state \n"
   syntax:
     content: public int RealTimeSpentQueue
     return:
       type: System.Int32
     content.vb: Public RealTimeSpentQueue As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.TimeSpentCalculated
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TimeSpentCalculated
   id: TimeSpentCalculated
@@ -1110,16 +1384,22 @@ items:
   nameWithType: TicketRecordData.TimeSpentCalculated
   fullName: SuperOffice.CRM.Rows.TicketRecordData.TimeSpentCalculated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: When the time_spent value was last calculated.
-  example: []
+  summary: "\nWhen the time_spent value was last calculated. \n"
   syntax:
     content: public DateTime TimeSpentCalculated
     return:
       type: System.DateTime
-    content.vb: Public TimeSpentCalculated As Date
+    content.vb: Public TimeSpentCalculated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.NumReplies
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.NumReplies
   id: NumReplies
@@ -1131,16 +1411,22 @@ items:
   nameWithType: TicketRecordData.NumReplies
   fullName: SuperOffice.CRM.Rows.TicketRecordData.NumReplies
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The number of replies (messages) to the customer for this request.
-  example: []
+  summary: "\nThe number of replies (messages) to the customer for this request. \n"
   syntax:
     content: public int NumReplies
     return:
       type: System.Int32
     content.vb: Public NumReplies As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.NumMessages
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.NumMessages
   id: NumMessages
@@ -1152,16 +1438,22 @@ items:
   nameWithType: TicketRecordData.NumMessages
   fullName: SuperOffice.CRM.Rows.TicketRecordData.NumMessages
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The total number of messages for this request.
-  example: []
+  summary: "\nThe total number of messages for this request. \n"
   syntax:
     content: public int NumMessages
     return:
       type: System.Int32
     content.vb: Public NumMessages As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.FromAddress
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.FromAddress
   id: FromAddress
@@ -1173,16 +1465,22 @@ items:
   nameWithType: TicketRecordData.FromAddress
   fullName: SuperOffice.CRM.Rows.TicketRecordData.FromAddress
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The from-address used when this ticket got created, e.g. by email
-  example: []
+  summary: "\nThe from-address used when this ticket got created, e.g. by email \n"
   syntax:
     content: public string FromAddress
     return:
       type: System.String
     content.vb: Public FromAddress As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.Tags
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Tags
   id: Tags
@@ -1194,16 +1492,22 @@ items:
   nameWithType: TicketRecordData.Tags
   fullName: SuperOffice.CRM.Rows.TicketRecordData.Tags
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Array of references to the Tags records
-  example: []
+  summary: "\nArray of references to the Tags records \n"
   syntax:
     content: public int[] Tags
     return:
       type: System.Int32[]
     content.vb: Public Tags As Integer()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.ContactId
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.ContactId
   id: ContactId
@@ -1215,16 +1519,22 @@ items:
   nameWithType: TicketRecordData.ContactId
   fullName: SuperOffice.CRM.Rows.TicketRecordData.ContactId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The company of the person in the cust_id field, if that person belongs to a company
-  example: []
+  summary: "\nThe company of the person in the cust_id field, if that person belongs to a company \n"
   syntax:
     content: public int ContactId
     return:
       type: System.Int32
     content.vb: Public ContactId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.Language
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Language
   id: Language
@@ -1236,16 +1546,22 @@ items:
   nameWithType: TicketRecordData.Language
   fullName: SuperOffice.CRM.Rows.TicketRecordData.Language
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The language of the first external message
-  example: []
+  summary: "\nThe language of the first external message \n"
   syntax:
     content: public string Language
     return:
       type: System.String
     content.vb: Public Language As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.Sentiment
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.Sentiment
   id: Sentiment
@@ -1257,16 +1573,22 @@ items:
   nameWithType: TicketRecordData.Sentiment
   fullName: SuperOffice.CRM.Rows.TicketRecordData.Sentiment
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The sentiment index of the last external message
-  example: []
+  summary: "\nThe sentiment index of the last external message \n"
   syntax:
     content: public int Sentiment
     return:
       type: System.Int32
     content.vb: Public Sentiment As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.SentimentConfidence
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.SentimentConfidence
   id: SentimentConfidence
@@ -1278,16 +1600,22 @@ items:
   nameWithType: TicketRecordData.SentimentConfidence
   fullName: SuperOffice.CRM.Rows.TicketRecordData.SentimentConfidence
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The sentiment confidence of the last external message
-  example: []
+  summary: "\nThe sentiment confidence of the last external message \n"
   syntax:
     content: public int SentimentConfidence
     return:
       type: System.Int32
     content.vb: Public SentimentConfidence As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.FormSubmissionId
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.FormSubmissionId
   id: FormSubmissionId
@@ -1299,16 +1627,22 @@ items:
   nameWithType: TicketRecordData.FormSubmissionId
   fullName: SuperOffice.CRM.Rows.TicketRecordData.FormSubmissionId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: If this ticket was created from a form submission, this field will point to that record
-  example: []
+  summary: "\nIf this ticket was created from a form submission, this field will point to that record \n"
   syntax:
     content: public int FormSubmissionId
     return:
       type: System.Int32
     content.vb: Public FormSubmissionId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.CreatedByWorkflowId
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.CreatedByWorkflowId
   id: CreatedByWorkflowId
@@ -1320,16 +1654,22 @@ items:
   nameWithType: TicketRecordData.CreatedByWorkflowId
   fullName: SuperOffice.CRM.Rows.TicketRecordData.CreatedByWorkflowId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The workflow this request/ticket was created by
-  example: []
+  summary: "\nThe workflow this request/ticket was created by \n"
   syntax:
     content: public int CreatedByWorkflowId
     return:
       type: System.Int32
     content.vb: Public CreatedByWorkflowId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.SuggestedCategoryId
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.SuggestedCategoryId
   id: SuggestedCategoryId
@@ -1341,16 +1681,22 @@ items:
   nameWithType: TicketRecordData.SuggestedCategoryId
   fullName: SuperOffice.CRM.Rows.TicketRecordData.SuggestedCategoryId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Suggestion for categorization, based on the text of the message (AI)
-  example: []
+  summary: "\nSuggestion for categorization, based on the text of the message (AI) \n"
   syntax:
     content: public int SuggestedCategoryId
     return:
       type: System.Int32
     content.vb: Public SuggestedCategoryId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.OrigHumanCategoryId
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.OrigHumanCategoryId
   id: OrigHumanCategoryId
@@ -1362,16 +1708,22 @@ items:
   nameWithType: TicketRecordData.OrigHumanCategoryId
   fullName: SuperOffice.CRM.Rows.TicketRecordData.OrigHumanCategoryId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Will contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category
-  example: []
+  summary: "\nWill contain the category id selected by the user, when having the choice of using the suggested category or manually selecting a category \n"
   syntax:
     content: public int OrigHumanCategoryId
     return:
       type: System.Int32
     content.vb: Public OrigHumanCategoryId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.SaleId
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.SaleId
   id: SaleId
@@ -1383,16 +1735,22 @@ items:
   nameWithType: TicketRecordData.SaleId
   fullName: SuperOffice.CRM.Rows.TicketRecordData.SaleId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Reference to sale table
-  example: []
+  summary: "\nReference to sale table \n"
   syntax:
     content: public int SaleId
     return:
       type: System.Int32
     content.vb: Public SaleId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.ProjectId
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.ProjectId
   id: ProjectId
@@ -1404,16 +1762,22 @@ items:
   nameWithType: TicketRecordData.ProjectId
   fullName: SuperOffice.CRM.Rows.TicketRecordData.ProjectId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Reference to project table
-  example: []
+  summary: "\nReference to project table \n"
   syntax:
     content: public int ProjectId
     return:
       type: System.Int32
     content.vb: Public ProjectId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.TimeSpent
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TimeSpent
   id: TimeSpent
@@ -1425,16 +1789,22 @@ items:
   nameWithType: TicketRecordData.TimeSpent
   fullName: SuperOffice.CRM.Rows.TicketRecordData.TimeSpent
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The total time (minutes). Aggregated time spent from ticket's messages. Read-only for external use.
-  example: []
+  summary: "\nThe total time (minutes). Aggregated time spent from ticket&apos;s messages. Read-only for external use. \n"
   syntax:
     content: public int TimeSpent
     return:
       type: System.Int32
     content.vb: Public TimeSpent As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.TicketType
   commentId: F:SuperOffice.CRM.Rows.TicketRecordData.TicketType
   id: TicketType
@@ -1446,16 +1816,22 @@ items:
   nameWithType: TicketRecordData.TicketType
   fullName: SuperOffice.CRM.Rows.TicketRecordData.TicketType
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Tickettype of the ticket
-  example: []
+  summary: "\nTickettype of the ticket \n"
   syntax:
     content: public int TicketType
     return:
       type: System.Int32
     content.vb: Public TicketType As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TicketRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.TicketRecordData.#ctor
   id: '#ctor'
@@ -1467,590 +1843,220 @@ items:
   nameWithType: TicketRecordData.TicketRecordData()
   fullName: SuperOffice.CRM.Rows.TicketRecordData.TicketRecordData()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public TicketRecordData()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Rows.TicketRecordData.#ctor*
-  nameWithType.vb: TicketRecordData.New()
-  fullName.vb: SuperOffice.CRM.Rows.TicketRecordData.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.Rows.TicketRow
-  commentId: T:SuperOffice.CRM.Rows.TicketRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.TicketRow.html
-  name: TicketRow
-  nameWithType: TicketRow
-  fullName: SuperOffice.CRM.Rows.TicketRow
-- uid: SuperOffice.CRM.Data.TicketTableInfo
-  commentId: T:SuperOffice.CRM.Data.TicketTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.TicketTableInfo.html
-  name: TicketTableInfo
-  nameWithType: TicketTableInfo
-  fullName: SuperOffice.CRM.Data.TicketTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.TicketRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<TicketRecordData, To>(TicketRecordData)
-  nameWithType: EnumUtil.MapEnums<TicketRecordData, To>(TicketRecordData)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TicketRecordData, To>(SuperOffice.CRM.Rows.TicketRecordData)
-  nameWithType.vb: EnumUtil.MapEnums(Of TicketRecordData, To)(TicketRecordData)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TicketRecordData, To)(SuperOffice.CRM.Rows.TicketRecordData)
-  name.vb: MapEnums(Of TicketRecordData, To)(TicketRecordData)
+  name: MapEnums<TicketRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<TicketRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TicketRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TicketRecordData, To)()
+  name.vb: MapEnums(Of TicketRecordData, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.TicketRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TicketRecordData, To>
+    nameWithType: EnumUtil.MapEnums<TicketRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TicketRecordData, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.TicketRecordData
-    name: TicketRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.TicketRecordData
-    name: TicketRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.TicketRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TicketRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of TicketRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TicketRecordData, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.TicketRecordData
-    name: TicketRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.TicketRecordData
-    name: TicketRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
-  parent: SuperOffice.CRM.Rows.TicketRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
-  href: SuperOffice.CRM.Rows.TicketRecordDataExtensions.html#SuperOffice_CRM_Rows_TicketRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_TicketRecordData_
-  name: ToInsert(TicketRecordData)
-  nameWithType: TicketRecordDataExtensions.ToInsert(TicketRecordData)
-  fullName: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordDataExtensions.html#SuperOffice_CRM_Rows_TicketRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_TicketRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.TicketRecordData
-    name: TicketRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordDataExtensions.html#SuperOffice_CRM_Rows_TicketRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_TicketRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.TicketRecordData
-    name: TicketRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<TicketRecordData, To>(TicketRecordData)
-  nameWithType: Converters.MapEnums<TicketRecordData, To>(TicketRecordData)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TicketRecordData, To>(SuperOffice.CRM.Rows.TicketRecordData)
-  nameWithType.vb: Converters.MapEnums(Of TicketRecordData, To)(TicketRecordData)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TicketRecordData, To)(SuperOffice.CRM.Rows.TicketRecordData)
-  name.vb: MapEnums(Of TicketRecordData, To)(TicketRecordData)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.TicketRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.TicketRecordData
-    name: TicketRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Rows.TicketRecordData
-    name: TicketRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.TicketRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.TicketRecordData
-    name: TicketRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.TicketRecordData
-    name: TicketRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TicketRecordData)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<TicketRecordData>(TicketRecordData, TicketRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<TicketRecordData>(TicketRecordData, TicketRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TicketRecordData>(SuperOffice.CRM.Rows.TicketRecordData, SuperOffice.CRM.Rows.TicketRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TicketRecordData)(TicketRecordData, TicketRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TicketRecordData)(SuperOffice.CRM.Rows.TicketRecordData, SuperOffice.CRM.Rows.TicketRecordData)
-  name.vb: AssignByReflection(Of TicketRecordData)(TicketRecordData, TicketRecordData)
+  name: AssignByReflection<TicketRecordData>(TicketRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<TicketRecordData>(TicketRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TicketRecordData>(SuperOffice.CRM.Rows.TicketRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TicketRecordData)(TicketRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TicketRecordData)(SuperOffice.CRM.Rows.TicketRecordData)
+  name.vb: AssignByReflection(Of TicketRecordData)(TicketRecordData)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TicketRecordData,SuperOffice.CRM.Rows.TicketRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TicketRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<TicketRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TicketRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.TicketRecordData
-    name: TicketRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.TicketRecordData
     name: TicketRecordData
+    nameWithType: TicketRecordData
+    fullName: SuperOffice.CRM.Rows.TicketRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.TicketRecordData
-    name: TicketRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TicketRecordData,SuperOffice.CRM.Rows.TicketRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TicketRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TicketRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TicketRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.TicketRecordData
     name: TicketRecordData
+    nameWithType: TicketRecordData
+    fullName: SuperOffice.CRM.Rows.TicketRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.TicketRecordData
-    name: TicketRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.TicketRecordData
-    name: TicketRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<TicketRecordData>(TicketRecordData)
-  nameWithType: ObjectExtensions.GraphCopy<TicketRecordData>(TicketRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TicketRecordData>(SuperOffice.CRM.Rows.TicketRecordData)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of TicketRecordData)(TicketRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TicketRecordData)(SuperOffice.CRM.Rows.TicketRecordData)
-  name.vb: GraphCopy(Of TicketRecordData)(TicketRecordData)
+  name: GraphCopy<TicketRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<TicketRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TicketRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TicketRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TicketRecordData)()
+  name.vb: GraphCopy(Of TicketRecordData)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.TicketRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TicketRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<TicketRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TicketRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.TicketRecordData
-    name: TicketRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.TicketRecordData
-    name: TicketRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.TicketRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TicketRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of TicketRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TicketRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.TicketRecordData
-    name: TicketRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.TicketRecordData
-    name: TicketRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Data
-  commentId: N:SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Data
-  nameWithType: SuperOffice.CRM.Data
-  fullName: SuperOffice.CRM.Data
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
+  parent: SuperOffice.CRM.Rows.TicketRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
+  name: ToInsert()
+  nameWithType: TicketRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert()
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: TicketRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: TicketRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TicketRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TicketRecordData, To>()
+  nameWithType: Converters.MapEnums<TicketRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TicketRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of TicketRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TicketRecordData, To)()
+  name.vb: MapEnums(Of TicketRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TicketRecordData, To>
+    nameWithType: Converters.MapEnums<TicketRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TicketRecordData, To>
     isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TicketRecordData, To)
+    nameWithType: Converters.MapEnums(Of TicketRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TicketRecordData, To)
     isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -2059,130 +2065,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
-  commentId: M:SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
-  isExternal: true
-  href: SuperOffice.CRM.Rows.TicketRecordDataExtensions.html#SuperOffice_CRM_Rows_TicketRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_TicketRecordData_
-  name: ToInsert(TicketRecordData)
-  nameWithType: TicketRecordDataExtensions.ToInsert(TicketRecordData)
-  fullName: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordDataExtensions.html#SuperOffice_CRM_Rows_TicketRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_TicketRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.TicketRecordData
-    name: TicketRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordDataExtensions.html#SuperOffice_CRM_Rows_TicketRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_TicketRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.TicketRecordData
-    name: TicketRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TicketRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.TicketRecordDataExtensions
-  commentId: T:SuperOffice.CRM.Rows.TicketRecordDataExtensions
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.TicketRecordDataExtensions.html
-  name: TicketRecordDataExtensions
-  nameWithType: TicketRecordDataExtensions
-  fullName: SuperOffice.CRM.Rows.TicketRecordDataExtensions
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -2191,46 +2110,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -2239,165 +2168,175 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
+  commentId: M:SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: ToInsert(TicketRecordData)
+  nameWithType: TicketRecordDataExtensions.ToInsert(TicketRecordData)
+  fullName: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
+    name: ToInsert
+    nameWithType: TicketRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TicketRecordData
+    name: TicketRecordData
+    nameWithType: TicketRecordData
+    fullName: SuperOffice.CRM.Rows.TicketRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TicketRecordData)
+    name: ToInsert
+    nameWithType: TicketRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TicketRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TicketRecordData
+    name: TicketRecordData
+    nameWithType: TicketRecordData
+    fullName: SuperOffice.CRM.Rows.TicketRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TicketRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.TicketRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TicketRecordDataExtensions
+  nameWithType: TicketRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.TicketRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.Data.TicketSecurityLevel
   commentId: T:SuperOffice.Data.TicketSecurityLevel
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketSecurityLevel.html
   name: TicketSecurityLevel
   nameWithType: TicketSecurityLevel
   fullName: SuperOffice.Data.TicketSecurityLevel
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.TicketBaseStatus
   commentId: T:SuperOffice.Data.TicketBaseStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketBaseStatus.html
   name: TicketBaseStatus
   nameWithType: TicketBaseStatus
   fullName: SuperOffice.Data.TicketBaseStatus
@@ -2405,18 +2344,13 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.TicketReadStatus
   commentId: T:SuperOffice.Data.TicketReadStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketReadStatus.html
   name: TicketReadStatus
   nameWithType: TicketReadStatus
   fullName: SuperOffice.Data.TicketReadStatus
@@ -2424,40 +2358,38 @@ references:
   commentId: T:SuperOffice.Data.TicketOrigin
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketOrigin.html
   name: TicketOrigin
   nameWithType: TicketOrigin
   fullName: SuperOffice.Data.TicketOrigin
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Rows.TicketRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.TicketRecordData.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Rows.TicketRecordData.html#SuperOffice_CRM_Rows_TicketRecordData__ctor
   name: TicketRecordData
   nameWithType: TicketRecordData.TicketRecordData
   fullName: SuperOffice.CRM.Rows.TicketRecordData.TicketRecordData
-  nameWithType.vb: TicketRecordData.New
-  fullName.vb: SuperOffice.CRM.Rows.TicketRecordData.New
-  name.vb: New

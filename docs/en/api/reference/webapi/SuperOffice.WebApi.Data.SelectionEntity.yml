@@ -56,25 +56,24 @@ items:
   nameWithType: SelectionEntity
   fullName: SuperOffice.WebApi.Data.SelectionEntity
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Carrier object for SelectionEntity.
-  remarks: >-
-    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent?text=Archive+agent" data-throw-if-not-resolved="false"></xref>:
-                All SelectionEntity: <pre><code class="lang-csharp">"FindSelection"</code></pre>
+  summary: "\nCarrier object for SelectionEntity.\n\n"
+  remarks: >
+    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent" data-throw-if-not-resolved="false"></xref>:
+
+    All SelectionEntity: <pre><code>&quot;FindSelection&quot;</code></pre>
   example:
-  - >-
-    Get SelectionEntity 123 using the WebApi client:
-
-    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
-
-    var agent = new SelectionAgent(configuration);
-
-    var selectionEntity = agent.GetSelectionEntity( 123 );</code></pre>
+  - "\nGet SelectionEntity 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new SelectionAgent(configuration);\nvar selectionEntity = agent.GetSelectionEntity( 123 );</code></pre>\n"
   syntax:
     content: 'public class SelectionEntity : Carrier'
-    content.vb: Public Class SelectionEntity Inherits Carrier
+    content.vb: >-
+      Public Class SelectionEntity
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.SelectionAgent
     commentId: T:SuperOffice.WebApi.Agents.SelectionAgent
@@ -88,13 +87,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.SelectionEntity.#ctor
   commentId: M:SuperOffice.WebApi.Data.SelectionEntity.#ctor
   id: '#ctor'
@@ -106,18 +104,21 @@ items:
   nameWithType: SelectionEntity.SelectionEntity()
   fullName: SuperOffice.WebApi.Data.SelectionEntity.SelectionEntity()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public SelectionEntity()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.SelectionEntity.#ctor*
-  nameWithType.vb: SelectionEntity.New()
-  fullName.vb: SuperOffice.WebApi.Data.SelectionEntity.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.SelectionEntity.Description
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.Description
   id: Description
@@ -129,11 +130,13 @@ items:
   nameWithType: SelectionEntity.Description
   fullName: SuperOffice.WebApi.Data.SelectionEntity.Description
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases
-  example: []
+  summary: "\nThe actual text, max 2047 significant characters even though it is stored as a larger data type on some databases\n"
   syntax:
     content: public virtual string Description { get; set; }
     parameters: []
@@ -141,6 +144,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Description As String
   overload: SuperOffice.WebApi.Data.SelectionEntity.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.Postit
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.Postit
   id: Postit
@@ -152,11 +163,13 @@ items:
   nameWithType: SelectionEntity.Postit
   fullName: SuperOffice.WebApi.Data.SelectionEntity.Postit
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The actual text, max 2047 significant characters even though it is stored as a larger data type on some databases
-  example: []
+  summary: "\nThe actual text, max 2047 significant characters even though it is stored as a larger data type on some databases\n"
   syntax:
     content: public virtual string Postit { get; set; }
     parameters: []
@@ -164,6 +177,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Postit As String
   overload: SuperOffice.WebApi.Data.SelectionEntity.Postit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.Associate
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.Associate
   id: Associate
@@ -175,11 +196,13 @@ items:
   nameWithType: SelectionEntity.Associate
   fullName: SuperOffice.WebApi.Data.SelectionEntity.Associate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Owner of the selection
-  example: []
+  summary: "\nOwner of the selection\n"
   syntax:
     content: public virtual Associate Associate { get; set; }
     parameters: []
@@ -187,6 +210,14 @@ items:
       type: SuperOffice.WebApi.Data.Associate
     content.vb: Public Overridable Property Associate As Associate
   overload: SuperOffice.WebApi.Data.SelectionEntity.Associate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.CreatedBy
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.CreatedBy
   id: CreatedBy
@@ -198,11 +229,13 @@ items:
   nameWithType: SelectionEntity.CreatedBy
   fullName: SuperOffice.WebApi.Data.SelectionEntity.CreatedBy
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Who created the selection
-  example: []
+  summary: "\nWho created the selection\n"
   syntax:
     content: public virtual Associate CreatedBy { get; set; }
     parameters: []
@@ -210,6 +243,14 @@ items:
       type: SuperOffice.WebApi.Data.Associate
     content.vb: Public Overridable Property CreatedBy As Associate
   overload: SuperOffice.WebApi.Data.SelectionEntity.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.UpdatedBy
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.UpdatedBy
   id: UpdatedBy
@@ -221,11 +262,13 @@ items:
   nameWithType: SelectionEntity.UpdatedBy
   fullName: SuperOffice.WebApi.Data.SelectionEntity.UpdatedBy
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Who last modified the selection
-  example: []
+  summary: "\nWho last modified the selection\n"
   syntax:
     content: public virtual Associate UpdatedBy { get; set; }
     parameters: []
@@ -233,6 +276,14 @@ items:
       type: SuperOffice.WebApi.Data.Associate
     content.vb: Public Overridable Property UpdatedBy As Associate
   overload: SuperOffice.WebApi.Data.SelectionEntity.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.SelectionCategory
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.SelectionCategory
   id: SelectionCategory
@@ -244,14 +295,13 @@ items:
   nameWithType: SelectionEntity.SelectionCategory
   fullName: SuperOffice.WebApi.Data.SelectionEntity.SelectionCategory
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Selection category type (list item)
-
-    <p>Use MDO List name "searchCat" to get list items.</p>
-  example: []
+  summary: "\nSelection category type (list item)\n<p>Use MDO List name &quot;searchCat&quot; to get list items.</p>\n"
   syntax:
     content: public virtual SelectionCategory SelectionCategory { get; set; }
     parameters: []
@@ -259,6 +309,14 @@ items:
       type: SuperOffice.WebApi.Data.SelectionCategory
     content.vb: Public Overridable Property SelectionCategory As SelectionCategory
   overload: SuperOffice.WebApi.Data.SelectionEntity.SelectionCategory*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.GroupIdx
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.GroupIdx
   id: GroupIdx
@@ -270,11 +328,13 @@ items:
   nameWithType: SelectionEntity.GroupIdx
   fullName: SuperOffice.WebApi.Data.SelectionEntity.GroupIdx
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Original primary user group of associate
-  example: []
+  summary: "\nOriginal primary user group of associate\n"
   syntax:
     content: public virtual int GroupIdx { get; set; }
     parameters: []
@@ -282,6 +342,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property GroupIdx As Integer
   overload: SuperOffice.WebApi.Data.SelectionEntity.GroupIdx*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.IncludePerson
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.IncludePerson
   id: IncludePerson
@@ -293,11 +361,13 @@ items:
   nameWithType: SelectionEntity.IncludePerson
   fullName: SuperOffice.WebApi.Data.SelectionEntity.IncludePerson
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: 0 = Include first person, 1 = Include all persons, 2 = Include no persons
-  example: []
+  summary: "\n0 = Include first person, 1 = Include all persons, 2 = Include no persons\n"
   syntax:
     content: public virtual int IncludePerson { get; set; }
     parameters: []
@@ -305,6 +375,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property IncludePerson As Integer
   overload: SuperOffice.WebApi.Data.SelectionEntity.IncludePerson*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.MemberCount
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.MemberCount
   id: MemberCount
@@ -316,11 +394,13 @@ items:
   nameWithType: SelectionEntity.MemberCount
   fullName: SuperOffice.WebApi.Data.SelectionEntity.MemberCount
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: How many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don't know
-  example: []
+  summary: "\nHow many selectionmembers (for progress bar calculations) - estimate, -1 (or 4294967295) means we don&apos;t know\n"
   syntax:
     content: public virtual uint MemberCount { get; set; }
     parameters: []
@@ -328,6 +408,14 @@ items:
       type: System.UInt32
     content.vb: Public Overridable Property MemberCount As UInteger
   overload: SuperOffice.WebApi.Data.SelectionEntity.MemberCount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.Name
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.Name
   id: Name
@@ -339,11 +427,13 @@ items:
   nameWithType: SelectionEntity.Name
   fullName: SuperOffice.WebApi.Data.SelectionEntity.Name
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Name of selection, freetext indexed
-  example: []
+  summary: "\nName of selection, freetext indexed\n"
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -351,6 +441,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.SelectionEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.PostitTextId
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.PostitTextId
   id: PostitTextId
@@ -362,11 +460,13 @@ items:
   nameWithType: SelectionEntity.PostitTextId
   fullName: SuperOffice.WebApi.Data.SelectionEntity.PostitTextId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Postit text record id.
-  example: []
+  summary: "\nPostit text record id.\n"
   syntax:
     content: public virtual int PostitTextId { get; set; }
     parameters: []
@@ -374,6 +474,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property PostitTextId As Integer
   overload: SuperOffice.WebApi.Data.SelectionEntity.PostitTextId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.CreatedDate
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.CreatedDate
   id: CreatedDate
@@ -385,18 +493,28 @@ items:
   nameWithType: SelectionEntity.CreatedDate
   fullName: SuperOffice.WebApi.Data.SelectionEntity.CreatedDate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Registered when
-  example: []
+  summary: "\nRegistered when\n"
   syntax:
     content: public virtual DateTime CreatedDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property CreatedDate As Date
+    content.vb: Public Overridable Property CreatedDate As DateTime
   overload: SuperOffice.WebApi.Data.SelectionEntity.CreatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.SelectionId
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.SelectionId
   id: SelectionId
@@ -408,11 +526,13 @@ items:
   nameWithType: SelectionEntity.SelectionId
   fullName: SuperOffice.WebApi.Data.SelectionEntity.SelectionId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int SelectionId { get; set; }
     parameters: []
@@ -420,6 +540,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property SelectionId As Integer
   overload: SuperOffice.WebApi.Data.SelectionEntity.SelectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.SoundEx
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.SoundEx
   id: SoundEx
@@ -431,11 +559,13 @@ items:
   nameWithType: SelectionEntity.SoundEx
   fullName: SuperOffice.WebApi.Data.SelectionEntity.SoundEx
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: What the name sounds like, for duplicate detection
-  example: []
+  summary: "\nWhat the name sounds like, for duplicate detection\n"
   syntax:
     content: public virtual string SoundEx { get; set; }
     parameters: []
@@ -443,6 +573,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property SoundEx As String
   overload: SuperOffice.WebApi.Data.SelectionEntity.SoundEx*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.Source
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.Source
   id: Source
@@ -454,11 +592,13 @@ items:
   nameWithType: SelectionEntity.Source
   fullName: SuperOffice.WebApi.Data.SelectionEntity.Source
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: How did we get this selection? For future integration needs
-  example: []
+  summary: "\nHow did we get this selection? For future integration needs\n"
   syntax:
     content: public virtual short Source { get; set; }
     parameters: []
@@ -466,6 +606,14 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property Source As Short
   overload: SuperOffice.WebApi.Data.SelectionEntity.Source*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.TextId
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.TextId
   id: TextId
@@ -477,11 +625,13 @@ items:
   nameWithType: SelectionEntity.TextId
   fullName: SuperOffice.WebApi.Data.SelectionEntity.TextId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Description text record id
-  example: []
+  summary: "\nDescription text record id\n"
   syntax:
     content: public virtual int TextId { get; set; }
     parameters: []
@@ -489,6 +639,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property TextId As Integer
   overload: SuperOffice.WebApi.Data.SelectionEntity.TextId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.UpdatedDate
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.UpdatedDate
   id: UpdatedDate
@@ -500,18 +658,28 @@ items:
   nameWithType: SelectionEntity.UpdatedDate
   fullName: SuperOffice.WebApi.Data.SelectionEntity.UpdatedDate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Last updated when
-  example: []
+  summary: "\nLast updated when\n"
   syntax:
     content: public virtual DateTime UpdatedDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property UpdatedDate As Date
+    content.vb: Public Overridable Property UpdatedDate As DateTime
   overload: SuperOffice.WebApi.Data.SelectionEntity.UpdatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.UpdatedCount
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.UpdatedCount
   id: UpdatedCount
@@ -523,11 +691,13 @@ items:
   nameWithType: SelectionEntity.UpdatedCount
   fullName: SuperOffice.WebApi.Data.SelectionEntity.UpdatedCount
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Number of updates made to this record
-  example: []
+  summary: "\nNumber of updates made to this record\n"
   syntax:
     content: public virtual short UpdatedCount { get; set; }
     parameters: []
@@ -535,6 +705,14 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property UpdatedCount As Short
   overload: SuperOffice.WebApi.Data.SelectionEntity.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.Visibility
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.Visibility
   id: Visibility
@@ -546,11 +724,13 @@ items:
   nameWithType: SelectionEntity.Visibility
   fullName: SuperOffice.WebApi.Data.SelectionEntity.Visibility
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Obsolete, but still maintained denormalization of visiblefor
-  example: []
+  summary: "\nObsolete, but still maintained denormalization of visiblefor\n"
   syntax:
     content: public virtual short Visibility { get; set; }
     parameters: []
@@ -558,6 +738,14 @@ items:
       type: System.Int16
     content.vb: Public Overridable Property Visibility As Short
   overload: SuperOffice.WebApi.Data.SelectionEntity.Visibility*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.SelectionType_String
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.SelectionType_String
   id: SelectionType_String
@@ -569,36 +757,29 @@ items:
   nameWithType: SelectionEntity.SelectionType_String
   fullName: SuperOffice.WebApi.Data.SelectionEntity.SelectionType_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Static/Dynamic/Combined?
-
-    Raw string enum value.
-  example: []
+  summary: "\nStatic/Dynamic/Combined?\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("SelectionType")]
-
-      public string SelectionType_String { get; set; }
+    content: public string SelectionType_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("SelectionType")>
-
-      Public Property SelectionType_String As String
+    content.vb: Public Property SelectionType_String As String
   overload: SuperOffice.WebApi.Data.SelectionEntity.SelectionType_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.SelectionEntity.SelectionType
     commentId: P:SuperOffice.WebApi.Data.SelectionEntity.SelectionType
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: SelectionType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.SelectionEntity.SelectionType
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.SelectionType
   id: SelectionType
@@ -610,34 +791,29 @@ items:
   nameWithType: SelectionEntity.SelectionType
   fullName: SuperOffice.WebApi.Data.SelectionEntity.SelectionType
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Static/Dynamic/Combined?
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nStatic/Dynamic/Combined?\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public SelectionType? SelectionType { get; set; }
+    content: public Nullable<SelectionType> SelectionType { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.SelectionType}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property SelectionType As SelectionType?
+    content.vb: Public Property SelectionType As Nullable(Of SelectionType)
   overload: SuperOffice.WebApi.Data.SelectionEntity.SelectionType*
   seealso:
   - linkId: SuperOffice.WebApi.Data.SelectionEntity.SelectionType_String
     commentId: P:SuperOffice.WebApi.Data.SelectionEntity.SelectionType_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.SelectionEntity.CompanyUnique
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.CompanyUnique
   id: CompanyUnique
@@ -649,11 +825,13 @@ items:
   nameWithType: SelectionEntity.CompanyUnique
   fullName: SuperOffice.WebApi.Data.SelectionEntity.CompanyUnique
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Filter out duplicate members based on company?
-  example: []
+  summary: "\nFilter out duplicate members based on company?\n"
   syntax:
     content: public virtual bool CompanyUnique { get; set; }
     parameters: []
@@ -661,6 +839,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property CompanyUnique As Boolean
   overload: SuperOffice.WebApi.Data.SelectionEntity.CompanyUnique*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.TargetTableNumber
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.TargetTableNumber
   id: TargetTableNumber
@@ -672,11 +858,13 @@ items:
   nameWithType: SelectionEntity.TargetTableNumber
   fullName: SuperOffice.WebApi.Data.SelectionEntity.TargetTableNumber
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: TargetTableNumber defines the type of selection members this selection contains. e.g. the table number for 'contact', or 'project' or 'sale'
-  example: []
+  summary: "\nTargetTableNumber defines the type of selection members this selection contains. e.g. the table number for &apos;contact&apos;, or &apos;project&apos; or &apos;sale&apos;\n"
   syntax:
     content: public virtual int TargetTableNumber { get; set; }
     parameters: []
@@ -684,6 +872,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property TargetTableNumber As Integer
   overload: SuperOffice.WebApi.Data.SelectionEntity.TargetTableNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.TargetTableName
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.TargetTableName
   id: TargetTableName
@@ -695,11 +891,13 @@ items:
   nameWithType: SelectionEntity.TargetTableName
   fullName: SuperOffice.WebApi.Data.SelectionEntity.TargetTableName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: TargetTableName contains the name of the table in lowercase. defines the type of selection members this selection contains. e.g. 'contact', or 'project' or 'sale'
-  example: []
+  summary: "\nTargetTableName contains the name of the table in lowercase. defines the type of selection members this selection contains. e.g. &apos;contact&apos;, or &apos;project&apos; or &apos;sale&apos;\n"
   syntax:
     content: public virtual string TargetTableName { get; set; }
     parameters: []
@@ -707,6 +905,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property TargetTableName As String
   overload: SuperOffice.WebApi.Data.SelectionEntity.TargetTableName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.Completed
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.Completed
   id: Completed
@@ -718,11 +924,13 @@ items:
   nameWithType: SelectionEntity.Completed
   fullName: SuperOffice.WebApi.Data.SelectionEntity.Completed
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The Completed state.
-  example: []
+  summary: "\nThe Completed state. \n"
   syntax:
     content: public virtual bool Completed { get; set; }
     parameters: []
@@ -730,6 +938,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property Completed As Boolean
   overload: SuperOffice.WebApi.Data.SelectionEntity.Completed*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.LeftSelectionId
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.LeftSelectionId
   id: LeftSelectionId
@@ -741,11 +957,13 @@ items:
   nameWithType: SelectionEntity.LeftSelectionId
   fullName: SuperOffice.WebApi.Data.SelectionEntity.LeftSelectionId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: LeftSelectionId is used in combination with RightSelectionId and CombinationType to define an union of two selections when SelectionType=Combined.
-  example: []
+  summary: "\nLeftSelectionId is used in combination with RightSelectionId and CombinationType to define an union of two selections when SelectionType=Combined.\n"
   syntax:
     content: public virtual int LeftSelectionId { get; set; }
     parameters: []
@@ -753,6 +971,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property LeftSelectionId As Integer
   overload: SuperOffice.WebApi.Data.SelectionEntity.LeftSelectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.RightSelectionId
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.RightSelectionId
   id: RightSelectionId
@@ -764,11 +990,13 @@ items:
   nameWithType: SelectionEntity.RightSelectionId
   fullName: SuperOffice.WebApi.Data.SelectionEntity.RightSelectionId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: RightSelectionId  is used in combination with LeftSelectionId and CombinationType to define an union of two selections when SelectionType=Combined.
-  example: []
+  summary: "\nRightSelectionId  is used in combination with LeftSelectionId and CombinationType to define an union of two selections when SelectionType=Combined.\n"
   syntax:
     content: public virtual int RightSelectionId { get; set; }
     parameters: []
@@ -776,6 +1004,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property RightSelectionId As Integer
   overload: SuperOffice.WebApi.Data.SelectionEntity.RightSelectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType_String
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType_String
   id: SelectionUnionType_String
@@ -787,36 +1023,29 @@ items:
   nameWithType: SelectionEntity.SelectionUnionType_String
   fullName: SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    How to combine the two selections when SelectionType = Combined.
-
-    Raw string enum value.
-  example: []
+  summary: "\nHow to combine the two selections when SelectionType = Combined.\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("SelectionUnionType")]
-
-      public string SelectionUnionType_String { get; set; }
+    content: public string SelectionUnionType_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("SelectionUnionType")>
-
-      Public Property SelectionUnionType_String As String
+    content.vb: Public Property SelectionUnionType_String As String
   overload: SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType
     commentId: P:SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: SelectionUnionType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType
   id: SelectionUnionType
@@ -828,34 +1057,29 @@ items:
   nameWithType: SelectionEntity.SelectionUnionType
   fullName: SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    How to combine the two selections when SelectionType = Combined.
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nHow to combine the two selections when SelectionType = Combined.\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public SelectionUnionType? SelectionUnionType { get; set; }
+    content: public Nullable<SelectionUnionType> SelectionUnionType { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.SelectionUnionType}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property SelectionUnionType As SelectionUnionType?
+    content.vb: Public Property SelectionUnionType As Nullable(Of SelectionUnionType)
   overload: SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType*
   seealso:
   - linkId: SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType_String
     commentId: P:SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.SelectionEntity.MainProviderName
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.MainProviderName
   id: MainProviderName
@@ -867,11 +1091,13 @@ items:
   nameWithType: SelectionEntity.MainProviderName
   fullName: SuperOffice.WebApi.Data.SelectionEntity.MainProviderName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The name of the Archive Provider that will deliver the content of the archive - the actual entity rows
-  example: []
+  summary: "\nThe name of the Archive Provider that will deliver the content of the archive - the actual entity rows\n"
   syntax:
     content: public virtual string MainProviderName { get; set; }
     parameters: []
@@ -879,6 +1105,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property MainProviderName As String
   overload: SuperOffice.WebApi.Data.SelectionEntity.MainProviderName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.ShadowProviderName
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.ShadowProviderName
   id: ShadowProviderName
@@ -890,11 +1124,13 @@ items:
   nameWithType: SelectionEntity.ShadowProviderName
   fullName: SuperOffice.WebApi.Data.SelectionEntity.ShadowProviderName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: 'The name, if relevant, of the Archive Provider that will deliver the Shadow rows: contact/person rows related to the actual entity. Can be blank, indicating that there is no shadow archive'
-  example: []
+  summary: "\nThe name, if relevant, of the Archive Provider that will deliver the Shadow rows: contact/person rows related to the actual entity. Can be blank, indicating that there is no shadow archive\n"
   syntax:
     content: public virtual string ShadowProviderName { get; set; }
     parameters: []
@@ -902,6 +1138,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ShadowProviderName As String
   overload: SuperOffice.WebApi.Data.SelectionEntity.ShadowProviderName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.ChartKey
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.ChartKey
   id: ChartKey
@@ -913,11 +1157,13 @@ items:
   nameWithType: SelectionEntity.ChartKey
   fullName: SuperOffice.WebApi.Data.SelectionEntity.ChartKey
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: ID/key of the last-used chart tile on this selection
-  example: []
+  summary: "\nID/key of the last-used chart tile on this selection\n"
   syntax:
     content: public virtual string ChartKey { get; set; }
     parameters: []
@@ -925,6 +1171,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ChartKey As String
   overload: SuperOffice.WebApi.Data.SelectionEntity.ChartKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.LastLoaded
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.LastLoaded
   id: LastLoaded
@@ -936,18 +1190,28 @@ items:
   nameWithType: SelectionEntity.LastLoaded
   fullName: SuperOffice.WebApi.Data.SelectionEntity.LastLoaded
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The date/time this selection was last loaded (selectionentity fetched)
-  example: []
+  summary: "\nThe date/time this selection was last loaded (selectionentity fetched)\n"
   syntax:
     content: public virtual DateTime LastLoaded { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property LastLoaded As Date
+    content.vb: Public Overridable Property LastLoaded As DateTime
   overload: SuperOffice.WebApi.Data.SelectionEntity.LastLoaded*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.LastLoadedBy
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.LastLoadedBy
   id: LastLoadedBy
@@ -959,11 +1223,13 @@ items:
   nameWithType: SelectionEntity.LastLoadedBy
   fullName: SuperOffice.WebApi.Data.SelectionEntity.LastLoadedBy
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Who last loaded this selection
-  example: []
+  summary: "\nWho last loaded this selection\n"
   syntax:
     content: public virtual int LastLoadedBy { get; set; }
     parameters: []
@@ -971,6 +1237,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property LastLoadedBy As Integer
   overload: SuperOffice.WebApi.Data.SelectionEntity.LastLoadedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.LastLoadedByAssociate
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.LastLoadedByAssociate
   id: LastLoadedByAssociate
@@ -982,11 +1256,13 @@ items:
   nameWithType: SelectionEntity.LastLoadedByAssociate
   fullName: SuperOffice.WebApi.Data.SelectionEntity.LastLoadedByAssociate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Associate that last looked at the selection members; only date (not time) is valid
-  example: []
+  summary: "\nAssociate that last looked at the selection members; only date (not time) is valid\n"
   syntax:
     content: public virtual Associate LastLoadedByAssociate { get; set; }
     parameters: []
@@ -994,6 +1270,14 @@ items:
       type: SuperOffice.WebApi.Data.Associate
     content.vb: Public Overridable Property LastLoadedByAssociate As Associate
   overload: SuperOffice.WebApi.Data.SelectionEntity.LastLoadedByAssociate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChange
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChange
   id: LastMembershipChange
@@ -1005,18 +1289,28 @@ items:
   nameWithType: SelectionEntity.LastMembershipChange
   fullName: SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChange
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: 'The date/time the membership the selection last changed. Dynamic: change of criteria; Static: add/remove members; Combined: change of algorithm'
-  example: []
+  summary: "\nThe date/time the membership the selection last changed. Dynamic: change of criteria; Static: add/remove members; Combined: change of algorithm\n"
   syntax:
     content: public virtual DateTime LastMembershipChange { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property LastMembershipChange As Date
+    content.vb: Public Overridable Property LastMembershipChange As DateTime
   overload: SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChange*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChangeBy
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChangeBy
   id: LastMembershipChangeBy
@@ -1028,11 +1322,13 @@ items:
   nameWithType: SelectionEntity.LastMembershipChangeBy
   fullName: SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChangeBy
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Who last changed the membership
-  example: []
+  summary: "\nWho last changed the membership\n"
   syntax:
     content: public virtual int LastMembershipChangeBy { get; set; }
     parameters: []
@@ -1040,6 +1336,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property LastMembershipChangeBy As Integer
   overload: SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChangeBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChangeByAssociate
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChangeByAssociate
   id: LastMembershipChangeByAssociate
@@ -1051,11 +1355,13 @@ items:
   nameWithType: SelectionEntity.LastMembershipChangeByAssociate
   fullName: SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChangeByAssociate
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Associate that last changed the selection membership (static members, dynamic criteria, combined parameters); only date (not time) is valid
-  example: []
+  summary: "\nAssociate that last changed the selection membership (static members, dynamic criteria, combined parameters); only date (not time) is valid\n"
   syntax:
     content: public virtual Associate LastMembershipChangeByAssociate { get; set; }
     parameters: []
@@ -1063,6 +1369,14 @@ items:
       type: SuperOffice.WebApi.Data.Associate
     content.vb: Public Overridable Property LastMembershipChangeByAssociate As Associate
   overload: SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChangeByAssociate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.MainHeading
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.MainHeading
   id: MainHeading
@@ -1074,11 +1388,13 @@ items:
   nameWithType: SelectionEntity.MainHeading
   fullName: SuperOffice.WebApi.Data.SelectionEntity.MainHeading
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "'Static selection of Companies', or whatever else is appropriate, made by combining text resources for the type and the entity (plural form); this string will contain resource references"
-  example: []
+  summary: "\n&apos;Static selection of Companies&apos;, or whatever else is appropriate, made by combining text resources for the type and the entity (plural form); this string will contain resource references\n"
   syntax:
     content: public virtual string MainHeading { get; set; }
     parameters: []
@@ -1086,6 +1402,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property MainHeading As String
   overload: SuperOffice.WebApi.Data.SelectionEntity.MainHeading*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.MemberTabHeading
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.MemberTabHeading
   id: MemberTabHeading
@@ -1097,11 +1421,13 @@ items:
   nameWithType: SelectionEntity.MemberTabHeading
   fullName: SuperOffice.WebApi.Data.SelectionEntity.MemberTabHeading
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "'Companies', or whatever else is appropriate - the plural form of the entity name; this string will contain resource references"
-  example: []
+  summary: "\n&apos;Companies&apos;, or whatever else is appropriate - the plural form of the entity name; this string will contain resource references\n"
   syntax:
     content: public virtual string MemberTabHeading { get; set; }
     parameters: []
@@ -1109,6 +1435,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property MemberTabHeading As String
   overload: SuperOffice.WebApi.Data.SelectionEntity.MemberTabHeading*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.MailingsProviderName
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.MailingsProviderName
   id: MailingsProviderName
@@ -1120,11 +1454,13 @@ items:
   nameWithType: SelectionEntity.MailingsProviderName
   fullName: SuperOffice.WebApi.Data.SelectionEntity.MailingsProviderName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The name of the provider for the Mailings tab, if relevant; this string will contain resource references
-  example: []
+  summary: "\nThe name of the provider for the Mailings tab, if relevant; this string will contain resource references\n"
   syntax:
     content: public virtual string MailingsProviderName { get; set; }
     parameters: []
@@ -1132,6 +1468,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property MailingsProviderName As String
   overload: SuperOffice.WebApi.Data.SelectionEntity.MailingsProviderName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.DashboardTileDefinitionId
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.DashboardTileDefinitionId
   id: DashboardTileDefinitionId
@@ -1143,11 +1487,13 @@ items:
   nameWithType: SelectionEntity.DashboardTileDefinitionId
   fullName: SuperOffice.WebApi.Data.SelectionEntity.DashboardTileDefinitionId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The associated tile definition
-  example: []
+  summary: "\nThe associated tile definition\n"
   syntax:
     content: public virtual int DashboardTileDefinitionId { get; set; }
     parameters: []
@@ -1155,6 +1501,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property DashboardTileDefinitionId As Integer
   overload: SuperOffice.WebApi.Data.SelectionEntity.DashboardTileDefinitionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.SelectionEntity.VisibleFor
   commentId: P:SuperOffice.WebApi.Data.SelectionEntity.VisibleFor
   id: VisibleFor
@@ -1166,11 +1520,13 @@ items:
   nameWithType: SelectionEntity.VisibleFor
   fullName: SuperOffice.WebApi.Data.SelectionEntity.VisibleFor
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The set of users or groups the record is visible for
-  example: []
+  summary: "\nThe set of users or groups the record is visible for\n"
   syntax:
     content: public virtual VisibleFor[] VisibleFor { get; set; }
     parameters: []
@@ -1178,80 +1534,32 @@ items:
       type: SuperOffice.WebApi.Data.VisibleFor[]
     content.vb: Public Overridable Property VisibleFor As VisibleFor()
   overload: SuperOffice.WebApi.Data.SelectionEntity.VisibleFor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.SelectionAgent
-  commentId: T:SuperOffice.WebApi.Agents.SelectionAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.SelectionAgent.html
-  name: SelectionAgent
-  nameWithType: SelectionAgent
-  fullName: SuperOffice.WebApi.Agents.SelectionAgent
-- uid: SuperOffice.WebApi.Agents.ArchiveAgent
-  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.ArchiveAgent.html
-  name: ArchiveAgent
-  nameWithType: ArchiveAgent
-  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
-- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
-  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
-  isExternal: true
-- uid: SuperOffice.CRM.Services.ArchiveAgent
-  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
-  isExternal: true
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -1259,7 +1567,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -1267,250 +1574,39 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.SelectionAgent
+  commentId: T:SuperOffice.WebApi.Agents.SelectionAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
+  name: SelectionAgent
+  nameWithType: SelectionAgent
+  fullName: SuperOffice.WebApi.Agents.SelectionAgent
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.SelectionEntity.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity__ctor
   name: SelectionEntity
   nameWithType: SelectionEntity.SelectionEntity
   fullName: SuperOffice.WebApi.Data.SelectionEntity.SelectionEntity
-  nameWithType.vb: SelectionEntity.New
-  fullName.vb: SuperOffice.WebApi.Data.SelectionEntity.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.SelectionEntity.Description*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.Description
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_Description
   name: Description
   nameWithType: SelectionEntity.Description
   fullName: SuperOffice.WebApi.Data.SelectionEntity.Description
@@ -1518,24 +1614,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.SelectionEntity.Postit*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.Postit
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_Postit
   name: Postit
   nameWithType: SelectionEntity.Postit
   fullName: SuperOffice.WebApi.Data.SelectionEntity.Postit
 - uid: SuperOffice.WebApi.Data.SelectionEntity.Associate*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.Associate
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_Associate
   name: Associate
   nameWithType: SelectionEntity.Associate
   fullName: SuperOffice.WebApi.Data.SelectionEntity.Associate
@@ -1543,28 +1633,24 @@ references:
   commentId: T:SuperOffice.WebApi.Data.Associate
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Associate.html
   name: Associate
   nameWithType: Associate
   fullName: SuperOffice.WebApi.Data.Associate
 - uid: SuperOffice.WebApi.Data.SelectionEntity.CreatedBy*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.CreatedBy
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_CreatedBy
   name: CreatedBy
   nameWithType: SelectionEntity.CreatedBy
   fullName: SuperOffice.WebApi.Data.SelectionEntity.CreatedBy
 - uid: SuperOffice.WebApi.Data.SelectionEntity.UpdatedBy*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.UpdatedBy
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_UpdatedBy
   name: UpdatedBy
   nameWithType: SelectionEntity.UpdatedBy
   fullName: SuperOffice.WebApi.Data.SelectionEntity.UpdatedBy
 - uid: SuperOffice.WebApi.Data.SelectionEntity.SelectionCategory*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.SelectionCategory
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_SelectionCategory
   name: SelectionCategory
   nameWithType: SelectionEntity.SelectionCategory
   fullName: SuperOffice.WebApi.Data.SelectionEntity.SelectionCategory
@@ -1572,14 +1658,12 @@ references:
   commentId: T:SuperOffice.WebApi.Data.SelectionCategory
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionCategory.html
   name: SelectionCategory
   nameWithType: SelectionCategory
   fullName: SuperOffice.WebApi.Data.SelectionCategory
 - uid: SuperOffice.WebApi.Data.SelectionEntity.GroupIdx*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.GroupIdx
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_GroupIdx
   name: GroupIdx
   nameWithType: SelectionEntity.GroupIdx
   fullName: SuperOffice.WebApi.Data.SelectionEntity.GroupIdx
@@ -1587,24 +1671,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.SelectionEntity.IncludePerson*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.IncludePerson
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_IncludePerson
   name: IncludePerson
   nameWithType: SelectionEntity.IncludePerson
   fullName: SuperOffice.WebApi.Data.SelectionEntity.IncludePerson
 - uid: SuperOffice.WebApi.Data.SelectionEntity.MemberCount*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.MemberCount
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_MemberCount
   name: MemberCount
   nameWithType: SelectionEntity.MemberCount
   fullName: SuperOffice.WebApi.Data.SelectionEntity.MemberCount
@@ -1612,63 +1690,47 @@ references:
   commentId: T:System.UInt32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.uint32
-  name: uint
-  nameWithType: uint
-  fullName: uint
-  nameWithType.vb: UInteger
-  fullName.vb: UInteger
-  name.vb: UInteger
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
 - uid: SuperOffice.WebApi.Data.SelectionEntity.Name*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.Name
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_Name
   name: Name
   nameWithType: SelectionEntity.Name
   fullName: SuperOffice.WebApi.Data.SelectionEntity.Name
 - uid: SuperOffice.WebApi.Data.SelectionEntity.PostitTextId*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.PostitTextId
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_PostitTextId
   name: PostitTextId
   nameWithType: SelectionEntity.PostitTextId
   fullName: SuperOffice.WebApi.Data.SelectionEntity.PostitTextId
 - uid: SuperOffice.WebApi.Data.SelectionEntity.CreatedDate*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.CreatedDate
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_CreatedDate
   name: CreatedDate
   nameWithType: SelectionEntity.CreatedDate
   fullName: SuperOffice.WebApi.Data.SelectionEntity.CreatedDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.WebApi.Data.SelectionEntity.SelectionId*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.SelectionId
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_SelectionId
   name: SelectionId
   nameWithType: SelectionEntity.SelectionId
   fullName: SuperOffice.WebApi.Data.SelectionEntity.SelectionId
 - uid: SuperOffice.WebApi.Data.SelectionEntity.SoundEx*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.SoundEx
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_SoundEx
   name: SoundEx
   nameWithType: SelectionEntity.SoundEx
   fullName: SuperOffice.WebApi.Data.SelectionEntity.SoundEx
 - uid: SuperOffice.WebApi.Data.SelectionEntity.Source*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.Source
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_Source
   name: Source
   nameWithType: SelectionEntity.Source
   fullName: SuperOffice.WebApi.Data.SelectionEntity.Source
@@ -1676,121 +1738,135 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.SelectionEntity.TextId*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.TextId
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_TextId
   name: TextId
   nameWithType: SelectionEntity.TextId
   fullName: SuperOffice.WebApi.Data.SelectionEntity.TextId
 - uid: SuperOffice.WebApi.Data.SelectionEntity.UpdatedDate*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.UpdatedDate
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_UpdatedDate
   name: UpdatedDate
   nameWithType: SelectionEntity.UpdatedDate
   fullName: SuperOffice.WebApi.Data.SelectionEntity.UpdatedDate
 - uid: SuperOffice.WebApi.Data.SelectionEntity.UpdatedCount*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.UpdatedCount
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_UpdatedCount
   name: UpdatedCount
   nameWithType: SelectionEntity.UpdatedCount
   fullName: SuperOffice.WebApi.Data.SelectionEntity.UpdatedCount
 - uid: SuperOffice.WebApi.Data.SelectionEntity.Visibility*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.Visibility
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_Visibility
   name: Visibility
   nameWithType: SelectionEntity.Visibility
   fullName: SuperOffice.WebApi.Data.SelectionEntity.Visibility
-- uid: SuperOffice.WebApi.Data.SelectionEntity.SelectionType
-  commentId: P:SuperOffice.WebApi.Data.SelectionEntity.SelectionType
-  isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_SelectionType
-  name: SelectionType
-  nameWithType: SelectionEntity.SelectionType
-  fullName: SuperOffice.WebApi.Data.SelectionEntity.SelectionType
 - uid: SuperOffice.WebApi.Data.SelectionEntity.SelectionType_String*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.SelectionType_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_SelectionType_String
   name: SelectionType_String
   nameWithType: SelectionEntity.SelectionType_String
   fullName: SuperOffice.WebApi.Data.SelectionEntity.SelectionType_String
-- uid: SuperOffice.WebApi.Data.SelectionEntity.SelectionType_String
-  commentId: P:SuperOffice.WebApi.Data.SelectionEntity.SelectionType_String
+- uid: SuperOffice.WebApi.Data.SelectionEntity.SelectionType
+  commentId: P:SuperOffice.WebApi.Data.SelectionEntity.SelectionType
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_SelectionType_String
-  name: SelectionType_String
-  nameWithType: SelectionEntity.SelectionType_String
-  fullName: SuperOffice.WebApi.Data.SelectionEntity.SelectionType_String
 - uid: SuperOffice.WebApi.Data.SelectionEntity.SelectionType*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.SelectionType
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_SelectionType
   name: SelectionType
   nameWithType: SelectionEntity.SelectionType
   fullName: SuperOffice.WebApi.Data.SelectionEntity.SelectionType
-- uid: System.Nullable{SuperOffice.WebApi.Data.SelectionType}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.SelectionType}
-  parent: System
-  definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.SelectionType.html
-  name: SelectionType?
-  nameWithType: SelectionType?
-  fullName: SuperOffice.WebApi.Data.SelectionType?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.SelectionType
-    name: SelectionType
-    isExternal: true
-    href: SuperOffice.WebApi.Data.SelectionType.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.SelectionType
-    name: SelectionType
-    isExternal: true
-    href: SuperOffice.WebApi.Data.SelectionType.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
+- uid: SuperOffice.WebApi.Data.SelectionEntity.SelectionType_String
+  commentId: P:SuperOffice.WebApi.Data.SelectionEntity.SelectionType_String
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+- uid: System.Nullable{SuperOffice.WebApi.Data.SelectionType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.SelectionType}'
+  definition: System.Nullable`1
+  name: Nullable<SelectionType>
+  nameWithType: Nullable<SelectionType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.SelectionType>
+  nameWithType.vb: Nullable(Of SelectionType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.SelectionType)
+  name.vb: Nullable(Of SelectionType)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.SelectionType
+    name: SelectionType
+    nameWithType: SelectionType
+    fullName: SuperOffice.WebApi.Data.SelectionType
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.SelectionType
+    name: SelectionType
+    nameWithType: SelectionType
+    fullName: SuperOffice.WebApi.Data.SelectionType
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.SelectionEntity.CompanyUnique*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.CompanyUnique
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_CompanyUnique
   name: CompanyUnique
   nameWithType: SelectionEntity.CompanyUnique
   fullName: SuperOffice.WebApi.Data.SelectionEntity.CompanyUnique
@@ -1798,197 +1874,186 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.WebApi.Data.SelectionEntity.TargetTableNumber*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.TargetTableNumber
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_TargetTableNumber
   name: TargetTableNumber
   nameWithType: SelectionEntity.TargetTableNumber
   fullName: SuperOffice.WebApi.Data.SelectionEntity.TargetTableNumber
 - uid: SuperOffice.WebApi.Data.SelectionEntity.TargetTableName*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.TargetTableName
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_TargetTableName
   name: TargetTableName
   nameWithType: SelectionEntity.TargetTableName
   fullName: SuperOffice.WebApi.Data.SelectionEntity.TargetTableName
 - uid: SuperOffice.WebApi.Data.SelectionEntity.Completed*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.Completed
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_Completed
   name: Completed
   nameWithType: SelectionEntity.Completed
   fullName: SuperOffice.WebApi.Data.SelectionEntity.Completed
 - uid: SuperOffice.WebApi.Data.SelectionEntity.LeftSelectionId*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.LeftSelectionId
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_LeftSelectionId
   name: LeftSelectionId
   nameWithType: SelectionEntity.LeftSelectionId
   fullName: SuperOffice.WebApi.Data.SelectionEntity.LeftSelectionId
 - uid: SuperOffice.WebApi.Data.SelectionEntity.RightSelectionId*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.RightSelectionId
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_RightSelectionId
   name: RightSelectionId
   nameWithType: SelectionEntity.RightSelectionId
   fullName: SuperOffice.WebApi.Data.SelectionEntity.RightSelectionId
-- uid: SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType
-  commentId: P:SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType
-  isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_SelectionUnionType
-  name: SelectionUnionType
-  nameWithType: SelectionEntity.SelectionUnionType
-  fullName: SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType
 - uid: SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType_String*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_SelectionUnionType_String
   name: SelectionUnionType_String
   nameWithType: SelectionEntity.SelectionUnionType_String
   fullName: SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType_String
-- uid: SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType_String
-  commentId: P:SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType_String
+- uid: SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType
+  commentId: P:SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_SelectionUnionType_String
-  name: SelectionUnionType_String
-  nameWithType: SelectionEntity.SelectionUnionType_String
-  fullName: SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType_String
 - uid: SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_SelectionUnionType
   name: SelectionUnionType
   nameWithType: SelectionEntity.SelectionUnionType
   fullName: SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType
+- uid: SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType_String
+  commentId: P:SuperOffice.WebApi.Data.SelectionEntity.SelectionUnionType_String
+  isExternal: true
 - uid: System.Nullable{SuperOffice.WebApi.Data.SelectionUnionType}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.SelectionUnionType}
-  parent: System
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.SelectionUnionType}'
   definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.SelectionUnionType.html
-  name: SelectionUnionType?
-  nameWithType: SelectionUnionType?
-  fullName: SuperOffice.WebApi.Data.SelectionUnionType?
+  name: Nullable<SelectionUnionType>
+  nameWithType: Nullable<SelectionUnionType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.SelectionUnionType>
+  nameWithType.vb: Nullable(Of SelectionUnionType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.SelectionUnionType)
+  name.vb: Nullable(Of SelectionUnionType)
   spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.SelectionUnionType
     name: SelectionUnionType
+    nameWithType: SelectionUnionType
+    fullName: SuperOffice.WebApi.Data.SelectionUnionType
     isExternal: true
-    href: SuperOffice.WebApi.Data.SelectionUnionType.html
-  - name: '?'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.SelectionUnionType
     name: SelectionUnionType
+    nameWithType: SelectionUnionType
+    fullName: SuperOffice.WebApi.Data.SelectionUnionType
     isExternal: true
-    href: SuperOffice.WebApi.Data.SelectionUnionType.html
-  - name: '?'
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.SelectionEntity.MainProviderName*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.MainProviderName
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_MainProviderName
   name: MainProviderName
   nameWithType: SelectionEntity.MainProviderName
   fullName: SuperOffice.WebApi.Data.SelectionEntity.MainProviderName
 - uid: SuperOffice.WebApi.Data.SelectionEntity.ShadowProviderName*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.ShadowProviderName
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_ShadowProviderName
   name: ShadowProviderName
   nameWithType: SelectionEntity.ShadowProviderName
   fullName: SuperOffice.WebApi.Data.SelectionEntity.ShadowProviderName
 - uid: SuperOffice.WebApi.Data.SelectionEntity.ChartKey*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.ChartKey
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_ChartKey
   name: ChartKey
   nameWithType: SelectionEntity.ChartKey
   fullName: SuperOffice.WebApi.Data.SelectionEntity.ChartKey
 - uid: SuperOffice.WebApi.Data.SelectionEntity.LastLoaded*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.LastLoaded
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_LastLoaded
   name: LastLoaded
   nameWithType: SelectionEntity.LastLoaded
   fullName: SuperOffice.WebApi.Data.SelectionEntity.LastLoaded
 - uid: SuperOffice.WebApi.Data.SelectionEntity.LastLoadedBy*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.LastLoadedBy
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_LastLoadedBy
   name: LastLoadedBy
   nameWithType: SelectionEntity.LastLoadedBy
   fullName: SuperOffice.WebApi.Data.SelectionEntity.LastLoadedBy
 - uid: SuperOffice.WebApi.Data.SelectionEntity.LastLoadedByAssociate*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.LastLoadedByAssociate
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_LastLoadedByAssociate
   name: LastLoadedByAssociate
   nameWithType: SelectionEntity.LastLoadedByAssociate
   fullName: SuperOffice.WebApi.Data.SelectionEntity.LastLoadedByAssociate
 - uid: SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChange*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChange
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_LastMembershipChange
   name: LastMembershipChange
   nameWithType: SelectionEntity.LastMembershipChange
   fullName: SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChange
 - uid: SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChangeBy*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChangeBy
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_LastMembershipChangeBy
   name: LastMembershipChangeBy
   nameWithType: SelectionEntity.LastMembershipChangeBy
   fullName: SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChangeBy
 - uid: SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChangeByAssociate*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChangeByAssociate
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_LastMembershipChangeByAssociate
   name: LastMembershipChangeByAssociate
   nameWithType: SelectionEntity.LastMembershipChangeByAssociate
   fullName: SuperOffice.WebApi.Data.SelectionEntity.LastMembershipChangeByAssociate
 - uid: SuperOffice.WebApi.Data.SelectionEntity.MainHeading*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.MainHeading
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_MainHeading
   name: MainHeading
   nameWithType: SelectionEntity.MainHeading
   fullName: SuperOffice.WebApi.Data.SelectionEntity.MainHeading
 - uid: SuperOffice.WebApi.Data.SelectionEntity.MemberTabHeading*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.MemberTabHeading
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_MemberTabHeading
   name: MemberTabHeading
   nameWithType: SelectionEntity.MemberTabHeading
   fullName: SuperOffice.WebApi.Data.SelectionEntity.MemberTabHeading
 - uid: SuperOffice.WebApi.Data.SelectionEntity.MailingsProviderName*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.MailingsProviderName
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_MailingsProviderName
   name: MailingsProviderName
   nameWithType: SelectionEntity.MailingsProviderName
   fullName: SuperOffice.WebApi.Data.SelectionEntity.MailingsProviderName
 - uid: SuperOffice.WebApi.Data.SelectionEntity.DashboardTileDefinitionId*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.DashboardTileDefinitionId
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_DashboardTileDefinitionId
   name: DashboardTileDefinitionId
   nameWithType: SelectionEntity.DashboardTileDefinitionId
   fullName: SuperOffice.WebApi.Data.SelectionEntity.DashboardTileDefinitionId
 - uid: SuperOffice.WebApi.Data.SelectionEntity.VisibleFor*
   commentId: Overload:SuperOffice.WebApi.Data.SelectionEntity.VisibleFor
   isExternal: true
-  href: SuperOffice.WebApi.Data.SelectionEntity.html#SuperOffice_WebApi_Data_SelectionEntity_VisibleFor
   name: VisibleFor
   nameWithType: SelectionEntity.VisibleFor
   fullName: SuperOffice.WebApi.Data.SelectionEntity.VisibleFor
 - uid: SuperOffice.WebApi.Data.VisibleFor[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.VisibleFor.html
   name: VisibleFor[]
   nameWithType: VisibleFor[]
   fullName: SuperOffice.WebApi.Data.VisibleFor[]
@@ -1998,14 +2063,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.VisibleFor
     name: VisibleFor
+    nameWithType: VisibleFor
+    fullName: SuperOffice.WebApi.Data.VisibleFor
     isExternal: true
-    href: SuperOffice.WebApi.Data.VisibleFor.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.VisibleFor
     name: VisibleFor
+    nameWithType: VisibleFor
+    fullName: SuperOffice.WebApi.Data.VisibleFor
     isExternal: true
-    href: SuperOffice.WebApi.Data.VisibleFor.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

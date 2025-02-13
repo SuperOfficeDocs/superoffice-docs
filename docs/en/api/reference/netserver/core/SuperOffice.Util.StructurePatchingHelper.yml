@@ -14,47 +14,28 @@ items:
   nameWithType: StructurePatchingHelper
   fullName: SuperOffice.Util.StructurePatchingHelper
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: >-
-    Iterate over a complex data structure. Unroll arrays and dictionaries; recurse class members. Only look at public Properties that can read/write.
-
-    Used for Carrier data patching in WebApi
-  remarks: >-
-    This class will visit every element in the data structure it is given. Such a structure can be a simple value type, a string, a class, an array or a
-
-    dictionary of elements. Every element will be evaluated to see if its type matches one of those that are to be patched; if so, the supplied
-
-    action method is called and the value returned from that method is substituted into the original element.
-
-    <br />
-
-    This is a somewhat-specialized case of the Visitor pattern, with this class implementing the iterator over a data structure and
-
-    the dispatching based on element type.
-
-    <br />
-
-    If required, it can be extended to deal with other kinds of sub-elements - but note that the <b>overwriteValue</b> action
-
-    argument needs to be tailored to the replacement semantics of each kind of element. Replacing an element of an array is very
-
-    different from setting a property of a class.
-  example: []
+  summary: "\nIterate over a complex data structure. Unroll arrays and dictionaries; recurse class members. Only look at public Properties that can read/write.\nUsed for Carrier data patching in WebApi\n"
+  remarks: "\nThis class will visit every element in the data structure it is given. Such a structure can be a simple value type, a string, a class, an array or a\ndictionary of elements. Every element will be evaluated to see if its type matches one of those that are to be patched; if so, the supplied\naction method is called and the value returned from that method is substituted into the original element.\n<br />\nThis is a somewhat-specialized case of the Visitor pattern, with this class implementing the iterator over a data structure and\nthe dispatching based on element type.\n<br />\nIf required, it can be extended to deal with other kinds of sub-elements - but note that the <strong>overwriteValue</strong> action\nargument needs to be tailored to the replacement semantics of each kind of element. Replacing an element of an array is very\ndifferent from setting a property of a class.\n"
   syntax:
-    content: public static class StructurePatchingHelper
-    content.vb: Public Module StructurePatchingHelper
+    content: 'public static class StructurePatchingHelper : Object'
+    content.vb: >-
+      Public Module StructurePatchingHelper
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.Util.StructurePatchingHelper.ApplyActions(System.Object,System.Collections.Generic.Dictionary{System.Type,SuperOffice.Util.StructurePatchingHelper.TypeAction},System.Action{System.Object})
   commentId: M:SuperOffice.Util.StructurePatchingHelper.ApplyActions(System.Object,System.Collections.Generic.Dictionary{System.Type,SuperOffice.Util.StructurePatchingHelper.TypeAction},System.Action{System.Object})
   id: ApplyActions(System.Object,System.Collections.Generic.Dictionary{System.Type,SuperOffice.Util.StructurePatchingHelper.TypeAction},System.Action{System.Object})
@@ -62,19 +43,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ApplyActions(object, Dictionary<Type, TypeAction>, Action<object>)
-  nameWithType: StructurePatchingHelper.ApplyActions(object, Dictionary<Type, StructurePatchingHelper.TypeAction>, Action<object>)
-  fullName: SuperOffice.Util.StructurePatchingHelper.ApplyActions(object, System.Collections.Generic.Dictionary<System.Type, SuperOffice.Util.StructurePatchingHelper.TypeAction>, System.Action<object>)
+  name: ApplyActions(Object, Dictionary<Type, StructurePatchingHelper.TypeAction>, Action<Object>)
+  nameWithType: StructurePatchingHelper.ApplyActions(Object, Dictionary<Type, StructurePatchingHelper.TypeAction>, Action<Object>)
+  fullName: SuperOffice.Util.StructurePatchingHelper.ApplyActions(System.Object, System.Collections.Generic.Dictionary<System.Type, SuperOffice.Util.StructurePatchingHelper.TypeAction>, System.Action<System.Object>)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: >-
-    Iterate over a complex data structure. Unroll arrays and dictionaries; recurse class members. Only look at public Properties that can read/write.
-
-    Used for Carrier data patching in WebApi
-  remarks: See unit tests and the <b>SoCarrierDataPatching</b> class for illustrations of usage
-  example: []
+  summary: "\nIterate over a complex data structure. Unroll arrays and dictionaries; recurse class members. Only look at public Properties that can read/write.\nUsed for Carrier data patching in WebApi\n"
+  remarks: "\nSee unit tests and the <strong>SoCarrierDataPatching</strong> class for illustrations of usage\n"
   syntax:
     content: public static void ApplyActions(object root, Dictionary<Type, StructurePatchingHelper.TypeAction> actions, Action<object> overwriteValue)
     parameters:
@@ -85,15 +65,22 @@ items:
       type: System.Collections.Generic.Dictionary{System.Type,SuperOffice.Util.StructurePatchingHelper.TypeAction}
       description: >-
         Types that should trigger actions, mapped to a function that takes a value object + decorations and returns an amended value.
-                    The trigger types should be simple types - not sequences or classes as these are the things that are traversed
+
+        The trigger types should be simple types - not sequences or classes as these are the things that are traversed
     - id: overwriteValue
       type: System.Action{System.Object}
       description: Client-supplied method that performs the actual overwrite of the original value, with a patched value
     content.vb: Public Shared Sub ApplyActions(root As Object, actions As Dictionary(Of Type, StructurePatchingHelper.TypeAction), overwriteValue As Action(Of Object))
   overload: SuperOffice.Util.StructurePatchingHelper.ApplyActions*
   nameWithType.vb: StructurePatchingHelper.ApplyActions(Object, Dictionary(Of Type, StructurePatchingHelper.TypeAction), Action(Of Object))
-  fullName.vb: SuperOffice.Util.StructurePatchingHelper.ApplyActions(Object, System.Collections.Generic.Dictionary(Of System.Type, SuperOffice.Util.StructurePatchingHelper.TypeAction), System.Action(Of Object))
-  name.vb: ApplyActions(Object, Dictionary(Of Type, TypeAction), Action(Of Object))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.StructurePatchingHelper.ApplyActions(System.Object, System.Collections.Generic.Dictionary(Of System.Type, SuperOffice.Util.StructurePatchingHelper.TypeAction), System.Action(Of System.Object))
+  name.vb: ApplyActions(Object, Dictionary(Of Type, StructurePatchingHelper.TypeAction), Action(Of Object))
 - uid: SuperOffice.Util.StructurePatchingHelper.ApplyActions(System.Object,System.Attribute[],System.String,System.Collections.Generic.Dictionary{System.Type,SuperOffice.Util.StructurePatchingHelper.TypeAction},System.Action{System.Object})
   commentId: M:SuperOffice.Util.StructurePatchingHelper.ApplyActions(System.Object,System.Attribute[],System.String,System.Collections.Generic.Dictionary{System.Type,SuperOffice.Util.StructurePatchingHelper.TypeAction},System.Action{System.Object})
   id: ApplyActions(System.Object,System.Attribute[],System.String,System.Collections.Generic.Dictionary{System.Type,SuperOffice.Util.StructurePatchingHelper.TypeAction},System.Action{System.Object})
@@ -101,19 +88,18 @@ items:
   langs:
   - csharp
   - vb
-  name: ApplyActions(object, Attribute[], string, Dictionary<Type, TypeAction>, Action<object>)
-  nameWithType: StructurePatchingHelper.ApplyActions(object, Attribute[], string, Dictionary<Type, StructurePatchingHelper.TypeAction>, Action<object>)
-  fullName: SuperOffice.Util.StructurePatchingHelper.ApplyActions(object, System.Attribute[], string, System.Collections.Generic.Dictionary<System.Type, SuperOffice.Util.StructurePatchingHelper.TypeAction>, System.Action<object>)
+  name: ApplyActions(Object, Attribute[], String, Dictionary<Type, StructurePatchingHelper.TypeAction>, Action<Object>)
+  nameWithType: StructurePatchingHelper.ApplyActions(Object, Attribute[], String, Dictionary<Type, StructurePatchingHelper.TypeAction>, Action<Object>)
+  fullName: SuperOffice.Util.StructurePatchingHelper.ApplyActions(System.Object, System.Attribute[], System.String, System.Collections.Generic.Dictionary<System.Type, SuperOffice.Util.StructurePatchingHelper.TypeAction>, System.Action<System.Object>)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: >-
-    Iterate over a complex data structure. Unroll arrays and dictionaries; recurse class members. Only look at public Properties that can read/write.
-
-    Used for Carrier data patching in WebApi
-  remarks: See unit tests and the <b>SoCarrierDataPatching</b> class for illustrations of usage
-  example: []
+  summary: "\nIterate over a complex data structure. Unroll arrays and dictionaries; recurse class members. Only look at public Properties that can read/write.\nUsed for Carrier data patching in WebApi\n"
+  remarks: "\nSee unit tests and the <strong>SoCarrierDataPatching</strong> class for illustrations of usage\n"
   syntax:
     content: public static void ApplyActions(object element, Attribute[] decorations, string name, Dictionary<Type, StructurePatchingHelper.TypeAction> actions, Action<object> overwriteValue)
     parameters:
@@ -129,292 +115,51 @@ items:
       type: System.Collections.Generic.Dictionary{System.Type,SuperOffice.Util.StructurePatchingHelper.TypeAction}
       description: >-
         Types that should trigger actions, mapped to a function that takes a value object + decorations and returns an amended value.
-                    The trigger types should be simple types - not sequences or classes as these are the things that are traversed
+
+        The trigger types should be simple types - not sequences or classes as these are the things that are traversed
     - id: overwriteValue
       type: System.Action{System.Object}
       description: Client-supplied method that performs the actual overwrite of the original value, with a patched value
     content.vb: Public Shared Sub ApplyActions(element As Object, decorations As Attribute(), name As String, actions As Dictionary(Of Type, StructurePatchingHelper.TypeAction), overwriteValue As Action(Of Object))
   overload: SuperOffice.Util.StructurePatchingHelper.ApplyActions*
   nameWithType.vb: StructurePatchingHelper.ApplyActions(Object, Attribute(), String, Dictionary(Of Type, StructurePatchingHelper.TypeAction), Action(Of Object))
-  fullName.vb: SuperOffice.Util.StructurePatchingHelper.ApplyActions(Object, System.Attribute(), String, System.Collections.Generic.Dictionary(Of System.Type, SuperOffice.Util.StructurePatchingHelper.TypeAction), System.Action(Of Object))
-  name.vb: ApplyActions(Object, Attribute(), String, Dictionary(Of Type, TypeAction), Action(Of Object))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.StructurePatchingHelper.ApplyActions(System.Object, System.Attribute(), System.String, System.Collections.Generic.Dictionary(Of System.Type, SuperOffice.Util.StructurePatchingHelper.TypeAction), System.Action(Of System.Object))
+  name.vb: ApplyActions(Object, Attribute(), String, Dictionary(Of Type, StructurePatchingHelper.TypeAction), Action(Of Object))
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Util.StructurePatchingHelper.ApplyActions*
   commentId: Overload:SuperOffice.Util.StructurePatchingHelper.ApplyActions
   isExternal: true
-  href: SuperOffice.Util.StructurePatchingHelper.html#SuperOffice_Util_StructurePatchingHelper_ApplyActions_System_Object_System_Collections_Generic_Dictionary_System_Type_SuperOffice_Util_StructurePatchingHelper_TypeAction__System_Action_System_Object__
   name: ApplyActions
   nameWithType: StructurePatchingHelper.ApplyActions
   fullName: SuperOffice.Util.StructurePatchingHelper.ApplyActions
 - uid: System.Collections.Generic.Dictionary{System.Type,SuperOffice.Util.StructurePatchingHelper.TypeAction}
-  commentId: T:System.Collections.Generic.Dictionary{System.Type,SuperOffice.Util.StructurePatchingHelper.TypeAction}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.Type,SuperOffice.Util.StructurePatchingHelper.TypeAction}'
   definition: System.Collections.Generic.Dictionary`2
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   name: Dictionary<Type, StructurePatchingHelper.TypeAction>
   nameWithType: Dictionary<Type, StructurePatchingHelper.TypeAction>
   fullName: System.Collections.Generic.Dictionary<System.Type, SuperOffice.Util.StructurePatchingHelper.TypeAction>
@@ -424,186 +169,186 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Type
     name: Type
+    nameWithType: Type
+    fullName: System.Type
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Util.StructurePatchingHelper
-    name: StructurePatchingHelper
-    isExternal: true
-    href: SuperOffice.Util.StructurePatchingHelper.html
-  - name: .
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction
-    name: TypeAction
+    name: StructurePatchingHelper.TypeAction
+    nameWithType: StructurePatchingHelper.TypeAction
+    fullName: SuperOffice.Util.StructurePatchingHelper.TypeAction
     isExternal: true
-    href: SuperOffice.Util.StructurePatchingHelper.TypeAction.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Type
     name: Type
+    nameWithType: Type
+    fullName: System.Type
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.type
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Util.StructurePatchingHelper
-    name: StructurePatchingHelper
-    isExternal: true
-    href: SuperOffice.Util.StructurePatchingHelper.html
-  - name: .
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Util.StructurePatchingHelper.TypeAction
-    name: TypeAction
+    name: StructurePatchingHelper.TypeAction
+    nameWithType: StructurePatchingHelper.TypeAction
+    fullName: SuperOffice.Util.StructurePatchingHelper.TypeAction
     isExternal: true
-    href: SuperOffice.Util.StructurePatchingHelper.TypeAction.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Action{System.Object}
-  commentId: T:System.Action{System.Object}
-  parent: System
+  commentId: '!:System.Action{System.Object}'
   definition: System.Action`1
-  href: https://learn.microsoft.com/dotnet/api/system.action-1
-  name: Action<object>
-  nameWithType: Action<object>
-  fullName: System.Action<object>
+  name: Action<Object>
+  nameWithType: Action<Object>
+  fullName: System.Action<System.Object>
   nameWithType.vb: Action(Of Object)
-  fullName.vb: System.Action(Of Object)
+  fullName.vb: System.Action(Of System.Object)
   name.vb: Action(Of Object)
   spec.csharp:
   - uid: System.Action`1
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
   - name: <
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: '>'
-  spec.vb:
-  - uid: System.Action`1
-    name: Action
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: (
-  - name: Of
-  - name: " "
+    nameWithType: <
+    fullName: <
   - uid: System.Object
     name: Object
+    nameWithType: Object
+    fullName: System.Object
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: System.Action`1
-  commentId: T:System.Action`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.action-1
-  name: Action<T>
-  nameWithType: Action<T>
-  fullName: System.Action<T>
-  nameWithType.vb: Action(Of T)
-  fullName.vb: System.Action(Of T)
-  name.vb: Action(Of T)
+  name: Action<>
+  nameWithType: Action<>
+  fullName: System.Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: System.Action(Of )
+  name.vb: Action(Of )
   spec.csharp:
   - uid: System.Action`1
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Action`1
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Attribute[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.attribute
   name: Attribute[]
   nameWithType: Attribute[]
   fullName: System.Attribute[]
@@ -613,25 +358,25 @@ references:
   spec.csharp:
   - uid: System.Attribute
     name: Attribute
+    nameWithType: Attribute
+    fullName: System.Attribute
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Attribute
     name: Attribute
+    nameWithType: Attribute
+    fullName: System.Attribute
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.attribute
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

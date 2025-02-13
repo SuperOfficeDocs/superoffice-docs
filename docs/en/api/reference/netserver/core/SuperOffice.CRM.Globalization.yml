@@ -64,7 +64,6 @@ references:
   commentId: T:SuperOffice.CRM.Globalization.FormattedAddress
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.FormattedAddress.html
   name: FormattedAddress
   nameWithType: FormattedAddress
   fullName: SuperOffice.CRM.Globalization.FormattedAddress
@@ -72,7 +71,6 @@ references:
   commentId: T:SuperOffice.CRM.Globalization.FormattedFieldFlags
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.FormattedFieldFlags.html
   name: FormattedFieldFlags
   nameWithType: FormattedFieldFlags
   fullName: SuperOffice.CRM.Globalization.FormattedFieldFlags
@@ -80,21 +78,18 @@ references:
   commentId: T:SuperOffice.CRM.Globalization.IFormattedField
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.IFormattedField.html
   name: IFormattedField
   nameWithType: IFormattedField
   fullName: SuperOffice.CRM.Globalization.IFormattedField
 - uid: SuperOffice.CRM.Globalization.FormattedFieldLocal
   commentId: T:SuperOffice.CRM.Globalization.FormattedFieldLocal
   isExternal: true
-  href: SuperOffice.CRM.Globalization.FormattedFieldLocal.html
   name: FormattedFieldLocal
   nameWithType: FormattedFieldLocal
   fullName: SuperOffice.CRM.Globalization.FormattedFieldLocal
 - uid: SuperOffice.CRM.Globalization.DummyField
   commentId: T:SuperOffice.CRM.Globalization.DummyField
   isExternal: true
-  href: SuperOffice.CRM.Globalization.DummyField.html
   name: DummyField
   nameWithType: DummyField
   fullName: SuperOffice.CRM.Globalization.DummyField
@@ -102,21 +97,18 @@ references:
   commentId: T:SuperOffice.CRM.Globalization.FormattedFields
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.FormattedFields.html
   name: FormattedFields
   nameWithType: FormattedFields
   fullName: SuperOffice.CRM.Globalization.FormattedFields
 - uid: SuperOffice.CRM.Globalization.Metaphone
   commentId: T:SuperOffice.CRM.Globalization.Metaphone
   isExternal: true
-  href: SuperOffice.CRM.Globalization.Metaphone.html
   name: Metaphone
   nameWithType: Metaphone
   fullName: SuperOffice.CRM.Globalization.Metaphone
 - uid: SuperOffice.CRM.Globalization.AddressData
   commentId: T:SuperOffice.CRM.Globalization.AddressData
   isExternal: true
-  href: SuperOffice.CRM.Globalization.AddressData.html
   name: AddressData
   nameWithType: AddressData
   fullName: SuperOffice.CRM.Globalization.AddressData
@@ -124,7 +116,6 @@ references:
   commentId: T:SuperOffice.CRM.Globalization.AddressElementFormat
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.AddressElementFormat.html
   name: AddressElementFormat
   nameWithType: AddressElementFormat
   fullName: SuperOffice.CRM.Globalization.AddressElementFormat
@@ -132,7 +123,6 @@ references:
   commentId: T:SuperOffice.CRM.Globalization.AddressFormat
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.AddressFormat.html
   name: AddressFormat
   nameWithType: AddressFormat
   fullName: SuperOffice.CRM.Globalization.AddressFormat
@@ -140,14 +130,12 @@ references:
   commentId: T:SuperOffice.CRM.Globalization.AddressFormatCache
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.AddressFormatCache.html
   name: AddressFormatCache
   nameWithType: AddressFormatCache
   fullName: SuperOffice.CRM.Globalization.AddressFormatCache
 - uid: SuperOffice.CRM.Globalization.AddressFormatter
   commentId: T:SuperOffice.CRM.Globalization.AddressFormatter
   isExternal: true
-  href: SuperOffice.CRM.Globalization.AddressFormatter.html
   name: AddressFormatter
   nameWithType: AddressFormatter
   fullName: SuperOffice.CRM.Globalization.AddressFormatter
@@ -155,70 +143,26 @@ references:
   commentId: T:SuperOffice.CRM.Globalization.AddressFormatter.Data
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.AddressFormatter.html
   name: AddressFormatter.Data
   nameWithType: AddressFormatter.Data
   fullName: SuperOffice.CRM.Globalization.AddressFormatter.Data
-  spec.csharp:
-  - uid: SuperOffice.CRM.Globalization.AddressFormatter
-    name: AddressFormatter
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.AddressFormatter.html
-  - name: .
-  - uid: SuperOffice.CRM.Globalization.AddressFormatter.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.AddressFormatter.Data.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Globalization.AddressFormatter
-    name: AddressFormatter
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.AddressFormatter.html
-  - name: .
-  - uid: SuperOffice.CRM.Globalization.AddressFormatter.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.AddressFormatter.Data.html
 - uid: SuperOffice.CRM.Globalization.AddressFormatter.AddressData
   commentId: T:SuperOffice.CRM.Globalization.AddressFormatter.AddressData
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.AddressFormatter.html
   name: AddressFormatter.AddressData
   nameWithType: AddressFormatter.AddressData
   fullName: SuperOffice.CRM.Globalization.AddressFormatter.AddressData
-  spec.csharp:
-  - uid: SuperOffice.CRM.Globalization.AddressFormatter
-    name: AddressFormatter
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.AddressFormatter.html
-  - name: .
-  - uid: SuperOffice.CRM.Globalization.AddressFormatter.AddressData
-    name: AddressData
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.AddressFormatter.AddressData.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Globalization.AddressFormatter
-    name: AddressFormatter
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.AddressFormatter.html
-  - name: .
-  - uid: SuperOffice.CRM.Globalization.AddressFormatter.AddressData
-    name: AddressData
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.AddressFormatter.AddressData.html
 - uid: SuperOffice.CRM.Globalization.AddressLayout
   commentId: T:SuperOffice.CRM.Globalization.AddressLayout
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.AddressLayout.html
   name: AddressLayout
   nameWithType: AddressLayout
   fullName: SuperOffice.CRM.Globalization.AddressLayout
 - uid: SuperOffice.CRM.Globalization.ContactAddressData
   commentId: T:SuperOffice.CRM.Globalization.ContactAddressData
   isExternal: true
-  href: SuperOffice.CRM.Globalization.ContactAddressData.html
   name: ContactAddressData
   nameWithType: ContactAddressData
   fullName: SuperOffice.CRM.Globalization.ContactAddressData
@@ -226,7 +170,6 @@ references:
   commentId: T:SuperOffice.CRM.Globalization.ContactNameFormatter
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.ContactNameFormatter.html
   name: ContactNameFormatter
   nameWithType: ContactNameFormatter
   fullName: SuperOffice.CRM.Globalization.ContactNameFormatter
@@ -234,7 +177,6 @@ references:
   commentId: T:SuperOffice.CRM.Globalization.Country
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.Country.html
   name: Country
   nameWithType: Country
   fullName: SuperOffice.CRM.Globalization.Country
@@ -242,28 +184,24 @@ references:
   commentId: T:SuperOffice.CRM.Globalization.CountryCache
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.CountryCache.html
   name: CountryCache
   nameWithType: CountryCache
   fullName: SuperOffice.CRM.Globalization.CountryCache
 - uid: SuperOffice.CRM.Globalization.EmailFormatter
   commentId: T:SuperOffice.CRM.Globalization.EmailFormatter
   isExternal: true
-  href: SuperOffice.CRM.Globalization.EmailFormatter.html
   name: EmailFormatter
   nameWithType: EmailFormatter
   fullName: SuperOffice.CRM.Globalization.EmailFormatter
 - uid: SuperOffice.CRM.Globalization.LanguageIdHelper
   commentId: T:SuperOffice.CRM.Globalization.LanguageIdHelper
   isExternal: true
-  href: SuperOffice.CRM.Globalization.LanguageIdHelper.html
   name: LanguageIdHelper
   nameWithType: LanguageIdHelper
   fullName: SuperOffice.CRM.Globalization.LanguageIdHelper
 - uid: SuperOffice.CRM.Globalization.PersonAddressData
   commentId: T:SuperOffice.CRM.Globalization.PersonAddressData
   isExternal: true
-  href: SuperOffice.CRM.Globalization.PersonAddressData.html
   name: PersonAddressData
   nameWithType: PersonAddressData
   fullName: SuperOffice.CRM.Globalization.PersonAddressData
@@ -271,7 +209,6 @@ references:
   commentId: T:SuperOffice.CRM.Globalization.PersonNameFormatter
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.PersonNameFormatter.html
   name: PersonNameFormatter
   nameWithType: PersonNameFormatter
   fullName: SuperOffice.CRM.Globalization.PersonNameFormatter
@@ -279,48 +216,24 @@ references:
   commentId: T:SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.PersonNameFormatter.html
   name: PersonNameFormatter.NameFormatStylePreference
   nameWithType: PersonNameFormatter.NameFormatStylePreference
   fullName: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
-  spec.csharp:
-  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter
-    name: PersonNameFormatter
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.PersonNameFormatter.html
-  - name: .
-  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
-    name: NameFormatStylePreference
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter
-    name: PersonNameFormatter
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.PersonNameFormatter.html
-  - name: .
-  - uid: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference
-    name: NameFormatStylePreference
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.PersonNameFormatter.NameFormatStylePreference.html
 - uid: SuperOffice.CRM.Globalization.PhoneFormatter
   commentId: T:SuperOffice.CRM.Globalization.PhoneFormatter
   isExternal: true
-  href: SuperOffice.CRM.Globalization.PhoneFormatter.html
   name: PhoneFormatter
   nameWithType: PhoneFormatter
   fullName: SuperOffice.CRM.Globalization.PhoneFormatter
 - uid: SuperOffice.CRM.Globalization.QuoteAddressData
   commentId: T:SuperOffice.CRM.Globalization.QuoteAddressData
   isExternal: true
-  href: SuperOffice.CRM.Globalization.QuoteAddressData.html
   name: QuoteAddressData
   nameWithType: QuoteAddressData
   fullName: SuperOffice.CRM.Globalization.QuoteAddressData
 - uid: SuperOffice.CRM.Globalization.AppointmentVariables
   commentId: T:SuperOffice.CRM.Globalization.AppointmentVariables
   isExternal: true
-  href: SuperOffice.CRM.Globalization.AppointmentVariables.html
   name: AppointmentVariables
   nameWithType: AppointmentVariables
   fullName: SuperOffice.CRM.Globalization.AppointmentVariables
@@ -328,7 +241,6 @@ references:
   commentId: T:SuperOffice.CRM.Globalization.ContactTags
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.ContactTags.html
   name: ContactTags
   nameWithType: ContactTags
   fullName: SuperOffice.CRM.Globalization.ContactTags
@@ -336,35 +248,30 @@ references:
   commentId: T:SuperOffice.CRM.Globalization.CurrentPersonVariables
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.CurrentPersonVariables.html
   name: CurrentPersonVariables
   nameWithType: CurrentPersonVariables
   fullName: SuperOffice.CRM.Globalization.CurrentPersonVariables
 - uid: SuperOffice.CRM.Globalization.DocumentTags
   commentId: T:SuperOffice.CRM.Globalization.DocumentTags
   isExternal: true
-  href: SuperOffice.CRM.Globalization.DocumentTags.html
   name: DocumentTags
   nameWithType: DocumentTags
   fullName: SuperOffice.CRM.Globalization.DocumentTags
 - uid: SuperOffice.CRM.Globalization.FadTemplateVariables
   commentId: T:SuperOffice.CRM.Globalization.FadTemplateVariables
   isExternal: true
-  href: SuperOffice.CRM.Globalization.FadTemplateVariables.html
   name: FadTemplateVariables
   nameWithType: FadTemplateVariables
   fullName: SuperOffice.CRM.Globalization.FadTemplateVariables
 - uid: SuperOffice.CRM.Globalization.FadTags
   commentId: T:SuperOffice.CRM.Globalization.FadTags
   isExternal: true
-  href: SuperOffice.CRM.Globalization.FadTags.html
   name: FadTags
   nameWithType: FadTags
   fullName: SuperOffice.CRM.Globalization.FadTags
 - uid: SuperOffice.CRM.Globalization.OwnPersonVariables
   commentId: T:SuperOffice.CRM.Globalization.OwnPersonVariables
   isExternal: true
-  href: SuperOffice.CRM.Globalization.OwnPersonVariables.html
   name: OwnPersonVariables
   nameWithType: OwnPersonVariables
   fullName: SuperOffice.CRM.Globalization.OwnPersonVariables
@@ -372,63 +279,54 @@ references:
   commentId: T:SuperOffice.CRM.Globalization.PersonVariables
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.PersonVariables.html
   name: PersonVariables
   nameWithType: PersonVariables
   fullName: SuperOffice.CRM.Globalization.PersonVariables
 - uid: SuperOffice.CRM.Globalization.ProjectTags
   commentId: T:SuperOffice.CRM.Globalization.ProjectTags
   isExternal: true
-  href: SuperOffice.CRM.Globalization.ProjectTags.html
   name: ProjectTags
   nameWithType: ProjectTags
   fullName: SuperOffice.CRM.Globalization.ProjectTags
 - uid: SuperOffice.CRM.Globalization.IQuoteAlternativeInfoPopulator
   commentId: T:SuperOffice.CRM.Globalization.IQuoteAlternativeInfoPopulator
   isExternal: true
-  href: SuperOffice.CRM.Globalization.IQuoteAlternativeInfoPopulator.html
   name: IQuoteAlternativeInfoPopulator
   nameWithType: IQuoteAlternativeInfoPopulator
   fullName: SuperOffice.CRM.Globalization.IQuoteAlternativeInfoPopulator
 - uid: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator
   commentId: T:SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator
   isExternal: true
-  href: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator.html
   name: IQuoteLineInfoPopulator
   nameWithType: IQuoteLineInfoPopulator
   fullName: SuperOffice.CRM.Globalization.IQuoteLineInfoPopulator
 - uid: SuperOffice.CRM.Globalization.IQuoteInfoPopulator
   commentId: T:SuperOffice.CRM.Globalization.IQuoteInfoPopulator
   isExternal: true
-  href: SuperOffice.CRM.Globalization.IQuoteInfoPopulator.html
   name: IQuoteInfoPopulator
   nameWithType: IQuoteInfoPopulator
   fullName: SuperOffice.CRM.Globalization.IQuoteInfoPopulator
 - uid: SuperOffice.CRM.Globalization.IQuoteVersionInfoPopulator
   commentId: T:SuperOffice.CRM.Globalization.IQuoteVersionInfoPopulator
   isExternal: true
-  href: SuperOffice.CRM.Globalization.IQuoteVersionInfoPopulator.html
   name: IQuoteVersionInfoPopulator
   nameWithType: IQuoteVersionInfoPopulator
   fullName: SuperOffice.CRM.Globalization.IQuoteVersionInfoPopulator
 - uid: SuperOffice.CRM.Globalization.SaleTags
   commentId: T:SuperOffice.CRM.Globalization.SaleTags
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SaleTags.html
   name: SaleTags
   nameWithType: SaleTags
   fullName: SuperOffice.CRM.Globalization.SaleTags
 - uid: SuperOffice.CRM.Globalization.SelectionTags
   commentId: T:SuperOffice.CRM.Globalization.SelectionTags
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SelectionTags.html
   name: SelectionTags
   nameWithType: SelectionTags
   fullName: SuperOffice.CRM.Globalization.SelectionTags
 - uid: SuperOffice.CRM.Globalization.SystemTags
   commentId: T:SuperOffice.CRM.Globalization.SystemTags
   isExternal: true
-  href: SuperOffice.CRM.Globalization.SystemTags.html
   name: SystemTags
   nameWithType: SystemTags
   fullName: SuperOffice.CRM.Globalization.SystemTags
@@ -436,7 +334,6 @@ references:
   commentId: T:SuperOffice.CRM.Globalization.TemplateVariableIds
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.TemplateVariableIds.html
   name: TemplateVariableIds
   nameWithType: TemplateVariableIds
   fullName: SuperOffice.CRM.Globalization.TemplateVariableIds
@@ -444,58 +341,24 @@ references:
   commentId: T:SuperOffice.CRM.Globalization.TemplateVariables
   parent: SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.CRM.Globalization.TemplateVariables.html
   name: TemplateVariables
   nameWithType: TemplateVariables
   fullName: SuperOffice.CRM.Globalization.TemplateVariables
 - uid: SuperOffice.CRM.Globalization.UrlFormatter
   commentId: T:SuperOffice.CRM.Globalization.UrlFormatter
   isExternal: true
-  href: SuperOffice.CRM.Globalization.UrlFormatter.html
   name: UrlFormatter
   nameWithType: UrlFormatter
   fullName: SuperOffice.CRM.Globalization.UrlFormatter
 - uid: SuperOffice.CRM.Globalization.CultureDataFormatter
   commentId: T:SuperOffice.CRM.Globalization.CultureDataFormatter
   isExternal: true
-  href: SuperOffice.CRM.Globalization.CultureDataFormatter.html
   name: CultureDataFormatter
   nameWithType: CultureDataFormatter
   fullName: SuperOffice.CRM.Globalization.CultureDataFormatter
 - uid: SuperOffice.CRM.Globalization
   commentId: N:SuperOffice.CRM.Globalization
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Globalization
   nameWithType: SuperOffice.CRM.Globalization
   fullName: SuperOffice.CRM.Globalization
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Globalization
-    name: Globalization
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Globalization
-    name: Globalization
-    isExternal: true
-    href: SuperOffice.CRM.Globalization.html

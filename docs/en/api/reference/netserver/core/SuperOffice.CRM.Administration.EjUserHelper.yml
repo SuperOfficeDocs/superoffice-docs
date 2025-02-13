@@ -20,27 +20,30 @@ items:
   nameWithType: EjUserHelper
   fullName: SuperOffice.CRM.Administration.EjUserHelper
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
   syntax:
-    content: public class EjUserHelper
-    content.vb: Public Class EjUserHelper
+    content: 'public class EjUserHelper : Object'
+    content.vb: >-
+      Public Class EjUserHelper
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Administration.EjUserHelper.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Administration.EjUserHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Administration.EjUserHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Administration.EjUserHelper)
   - SuperOffice.CRM.Administration.EjUserHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Administration.EjUserHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Administration.EjUserHelper.CategoryMasterCount(System.Int32)
   commentId: M:SuperOffice.CRM.Administration.EjUserHelper.CategoryMasterCount(System.Int32)
   id: CategoryMasterCount(System.Int32)
@@ -48,10 +51,13 @@ items:
   langs:
   - csharp
   - vb
-  name: CategoryMasterCount(int)
-  nameWithType: EjUserHelper.CategoryMasterCount(int)
-  fullName: SuperOffice.CRM.Administration.EjUserHelper.CategoryMasterCount(int)
+  name: CategoryMasterCount(Int32)
+  nameWithType: EjUserHelper.CategoryMasterCount(Int32)
+  fullName: SuperOffice.CRM.Administration.EjUserHelper.CategoryMasterCount(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
@@ -64,9 +70,12 @@ items:
       type: System.Int32
     content.vb: Public Shared Function CategoryMasterCount(ejUserId As Integer) As Integer
   overload: SuperOffice.CRM.Administration.EjUserHelper.CategoryMasterCount*
-  nameWithType.vb: EjUserHelper.CategoryMasterCount(Integer)
-  fullName.vb: SuperOffice.CRM.Administration.EjUserHelper.CategoryMasterCount(Integer)
-  name.vb: CategoryMasterCount(Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCount(System.Int32)
   commentId: M:SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCount(System.Int32)
   id: MailFilterDependentCount(System.Int32)
@@ -74,10 +83,13 @@ items:
   langs:
   - csharp
   - vb
-  name: MailFilterDependentCount(int)
-  nameWithType: EjUserHelper.MailFilterDependentCount(int)
-  fullName: SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCount(int)
+  name: MailFilterDependentCount(Int32)
+  nameWithType: EjUserHelper.MailFilterDependentCount(Int32)
+  fullName: SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCount(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
@@ -90,9 +102,12 @@ items:
       type: System.Int32
     content.vb: Public Shared Function MailFilterDependentCount(ejUserId As Integer) As Integer
   overload: SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCount*
-  nameWithType.vb: EjUserHelper.MailFilterDependentCount(Integer)
-  fullName.vb: SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCount(Integer)
-  name.vb: MailFilterDependentCount(Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCount(System.Int32)
   commentId: M:SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCount(System.Int32)
   id: EscalationLevelDependentCount(System.Int32)
@@ -100,10 +115,13 @@ items:
   langs:
   - csharp
   - vb
-  name: EscalationLevelDependentCount(int)
-  nameWithType: EjUserHelper.EscalationLevelDependentCount(int)
-  fullName: SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCount(int)
+  name: EscalationLevelDependentCount(Int32)
+  nameWithType: EjUserHelper.EscalationLevelDependentCount(Int32)
+  fullName: SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCount(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
@@ -116,9 +134,12 @@ items:
       type: System.Int32
     content.vb: Public Shared Function EscalationLevelDependentCount(ejUserId As Integer) As Integer
   overload: SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCount*
-  nameWithType.vb: EjUserHelper.EscalationLevelDependentCount(Integer)
-  fullName.vb: SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCount(Integer)
-  name.vb: EscalationLevelDependentCount(Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCount(System.Int32)
   commentId: M:SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCount(System.Int32)
   id: OpenRequestsCount(System.Int32)
@@ -126,10 +147,13 @@ items:
   langs:
   - csharp
   - vb
-  name: OpenRequestsCount(int)
-  nameWithType: EjUserHelper.OpenRequestsCount(int)
-  fullName: SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCount(int)
+  name: OpenRequestsCount(Int32)
+  nameWithType: EjUserHelper.OpenRequestsCount(Int32)
+  fullName: SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCount(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
@@ -142,9 +166,12 @@ items:
       type: System.Int32
     content.vb: Public Shared Function OpenRequestsCount(ejUserId As Integer) As Integer
   overload: SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCount*
-  nameWithType.vb: EjUserHelper.OpenRequestsCount(Integer)
-  fullName.vb: SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCount(Integer)
-  name.vb: OpenRequestsCount(Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Administration.EjUserHelper.DeleteCategoryMembership(System.Int32)
   commentId: M:SuperOffice.CRM.Administration.EjUserHelper.DeleteCategoryMembership(System.Int32)
   id: DeleteCategoryMembership(System.Int32)
@@ -152,10 +179,13 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteCategoryMembership(int)
-  nameWithType: EjUserHelper.DeleteCategoryMembership(int)
-  fullName: SuperOffice.CRM.Administration.EjUserHelper.DeleteCategoryMembership(int)
+  name: DeleteCategoryMembership(Int32)
+  nameWithType: EjUserHelper.DeleteCategoryMembership(Int32)
+  fullName: SuperOffice.CRM.Administration.EjUserHelper.DeleteCategoryMembership(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
@@ -166,9 +196,12 @@ items:
       type: System.Int32
     content.vb: Public Shared Sub DeleteCategoryMembership(ejUserId As Integer)
   overload: SuperOffice.CRM.Administration.EjUserHelper.DeleteCategoryMembership*
-  nameWithType.vb: EjUserHelper.DeleteCategoryMembership(Integer)
-  fullName.vb: SuperOffice.CRM.Administration.EjUserHelper.DeleteCategoryMembership(Integer)
-  name.vb: DeleteCategoryMembership(Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Administration.EjUserHelper.LogoutUser(System.Int32)
   commentId: M:SuperOffice.CRM.Administration.EjUserHelper.LogoutUser(System.Int32)
   id: LogoutUser(System.Int32)
@@ -176,10 +209,13 @@ items:
   langs:
   - csharp
   - vb
-  name: LogoutUser(int)
-  nameWithType: EjUserHelper.LogoutUser(int)
-  fullName: SuperOffice.CRM.Administration.EjUserHelper.LogoutUser(int)
+  name: LogoutUser(Int32)
+  nameWithType: EjUserHelper.LogoutUser(Int32)
+  fullName: SuperOffice.CRM.Administration.EjUserHelper.LogoutUser(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
@@ -190,9 +226,12 @@ items:
       type: System.Int32
     content.vb: Public Shared Sub LogoutUser(ejUserId As Integer)
   overload: SuperOffice.CRM.Administration.EjUserHelper.LogoutUser*
-  nameWithType.vb: EjUserHelper.LogoutUser(Integer)
-  fullName.vb: SuperOffice.CRM.Administration.EjUserHelper.LogoutUser(Integer)
-  name.vb: LogoutUser(Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembership(System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembership(System.Int32,System.Int32)
   id: CalculateCategoryMembership(System.Int32,System.Int32)
@@ -200,15 +239,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CalculateCategoryMembership(int, int)
-  nameWithType: EjUserHelper.CalculateCategoryMembership(int, int)
-  fullName: SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembership(int, int)
+  name: CalculateCategoryMembership(Int32, Int32)
+  nameWithType: EjUserHelper.CalculateCategoryMembership(Int32, Int32)
+  fullName: SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembership(System.Int32, System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
-  summary: Creates/Deletes category membership records for the given user to match user group memberships (primary and secondary).
-  example: []
+  summary: "\nCreates/Deletes category membership records for the given user to match user group memberships (primary and secondary).\n"
   syntax:
     content: public static void CalculateCategoryMembership(int ejUserId, int associateId)
     parameters:
@@ -220,9 +261,12 @@ items:
       description: SM user id
     content.vb: Public Shared Sub CalculateCategoryMembership(ejUserId As Integer, associateId As Integer)
   overload: SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembership*
-  nameWithType.vb: EjUserHelper.CalculateCategoryMembership(Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembership(Integer, Integer)
-  name.vb: CalculateCategoryMembership(Integer, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Administration.EjUserHelper.#ctor
   commentId: M:SuperOffice.CRM.Administration.EjUserHelper.#ctor
   id: '#ctor'
@@ -234,507 +278,189 @@ items:
   nameWithType: EjUserHelper.EjUserHelper()
   fullName: SuperOffice.CRM.Administration.EjUserHelper.EjUserHelper()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Administration
   syntax:
     content: public EjUserHelper()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Administration.EjUserHelper.#ctor*
-  nameWithType.vb: EjUserHelper.New()
-  fullName.vb: SuperOffice.CRM.Administration.EjUserHelper.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Administration
   commentId: N:SuperOffice.CRM.Administration
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Administration
   nameWithType: SuperOffice.CRM.Administration
   fullName: SuperOffice.CRM.Administration
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Administration
-    name: Administration
-    isExternal: true
-    href: SuperOffice.CRM.Administration.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Administration
-    name: Administration
-    isExternal: true
-    href: SuperOffice.CRM.Administration.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Administration.EjUserHelper.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<EjUserHelper, To>(EjUserHelper)
-  nameWithType: EnumUtil.MapEnums<EjUserHelper, To>(EjUserHelper)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Administration.EjUserHelper, To>(SuperOffice.CRM.Administration.EjUserHelper)
-  nameWithType.vb: EnumUtil.MapEnums(Of EjUserHelper, To)(EjUserHelper)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Administration.EjUserHelper, To)(SuperOffice.CRM.Administration.EjUserHelper)
-  name.vb: MapEnums(Of EjUserHelper, To)(EjUserHelper)
+  name: MapEnums<EjUserHelper, To>()
+  nameWithType: EnumUtil.MapEnums<EjUserHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Administration.EjUserHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EjUserHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Administration.EjUserHelper, To)()
+  name.vb: MapEnums(Of EjUserHelper, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Administration.EjUserHelper)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EjUserHelper, To>
+    nameWithType: EnumUtil.MapEnums<EjUserHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Administration.EjUserHelper, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Administration.EjUserHelper
-    name: EjUserHelper
-    isExternal: true
-    href: SuperOffice.CRM.Administration.EjUserHelper.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Administration.EjUserHelper
-    name: EjUserHelper
-    isExternal: true
-    href: SuperOffice.CRM.Administration.EjUserHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Administration.EjUserHelper)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EjUserHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of EjUserHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Administration.EjUserHelper, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Administration.EjUserHelper
-    name: EjUserHelper
-    isExternal: true
-    href: SuperOffice.CRM.Administration.EjUserHelper.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Administration.EjUserHelper
-    name: EjUserHelper
-    isExternal: true
-    href: SuperOffice.CRM.Administration.EjUserHelper.html
-  - name: )
-- uid: SuperOffice.CRM.Administration.EjUserHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<EjUserHelper, To>(EjUserHelper)
-  nameWithType: Converters.MapEnums<EjUserHelper, To>(EjUserHelper)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Administration.EjUserHelper, To>(SuperOffice.CRM.Administration.EjUserHelper)
-  nameWithType.vb: Converters.MapEnums(Of EjUserHelper, To)(EjUserHelper)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Administration.EjUserHelper, To)(SuperOffice.CRM.Administration.EjUserHelper)
-  name.vb: MapEnums(Of EjUserHelper, To)(EjUserHelper)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Administration.EjUserHelper)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Administration.EjUserHelper
-    name: EjUserHelper
-    isExternal: true
-    href: SuperOffice.CRM.Administration.EjUserHelper.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Administration.EjUserHelper
-    name: EjUserHelper
-    isExternal: true
-    href: SuperOffice.CRM.Administration.EjUserHelper.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Administration.EjUserHelper)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Administration.EjUserHelper
-    name: EjUserHelper
-    isExternal: true
-    href: SuperOffice.CRM.Administration.EjUserHelper.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Administration.EjUserHelper
-    name: EjUserHelper
-    isExternal: true
-    href: SuperOffice.CRM.Administration.EjUserHelper.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Administration.EjUserHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Administration.EjUserHelper)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<EjUserHelper>(EjUserHelper, EjUserHelper)
-  nameWithType: ObjectExtensions.AssignByReflection<EjUserHelper>(EjUserHelper, EjUserHelper)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Administration.EjUserHelper>(SuperOffice.CRM.Administration.EjUserHelper, SuperOffice.CRM.Administration.EjUserHelper)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EjUserHelper)(EjUserHelper, EjUserHelper)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Administration.EjUserHelper)(SuperOffice.CRM.Administration.EjUserHelper, SuperOffice.CRM.Administration.EjUserHelper)
-  name.vb: AssignByReflection(Of EjUserHelper)(EjUserHelper, EjUserHelper)
+  name: AssignByReflection<EjUserHelper>(EjUserHelper)
+  nameWithType: ObjectExtensions.AssignByReflection<EjUserHelper>(EjUserHelper)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Administration.EjUserHelper>(SuperOffice.CRM.Administration.EjUserHelper)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EjUserHelper)(EjUserHelper)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Administration.EjUserHelper)(SuperOffice.CRM.Administration.EjUserHelper)
+  name.vb: AssignByReflection(Of EjUserHelper)(EjUserHelper)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Administration.EjUserHelper,SuperOffice.CRM.Administration.EjUserHelper)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<EjUserHelper>
+    nameWithType: ObjectExtensions.AssignByReflection<EjUserHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Administration.EjUserHelper>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Administration.EjUserHelper
-    name: EjUserHelper
-    isExternal: true
-    href: SuperOffice.CRM.Administration.EjUserHelper.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Administration.EjUserHelper
     name: EjUserHelper
+    nameWithType: EjUserHelper
+    fullName: SuperOffice.CRM.Administration.EjUserHelper
     isExternal: true
-    href: SuperOffice.CRM.Administration.EjUserHelper.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Administration.EjUserHelper
-    name: EjUserHelper
-    isExternal: true
-    href: SuperOffice.CRM.Administration.EjUserHelper.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Administration.EjUserHelper,SuperOffice.CRM.Administration.EjUserHelper)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of EjUserHelper)
+    nameWithType: ObjectExtensions.AssignByReflection(Of EjUserHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Administration.EjUserHelper)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Administration.EjUserHelper
     name: EjUserHelper
+    nameWithType: EjUserHelper
+    fullName: SuperOffice.CRM.Administration.EjUserHelper
     isExternal: true
-    href: SuperOffice.CRM.Administration.EjUserHelper.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Administration.EjUserHelper
-    name: EjUserHelper
-    isExternal: true
-    href: SuperOffice.CRM.Administration.EjUserHelper.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Administration.EjUserHelper
-    name: EjUserHelper
-    isExternal: true
-    href: SuperOffice.CRM.Administration.EjUserHelper.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Administration.EjUserHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<EjUserHelper>(EjUserHelper)
-  nameWithType: ObjectExtensions.GraphCopy<EjUserHelper>(EjUserHelper)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Administration.EjUserHelper>(SuperOffice.CRM.Administration.EjUserHelper)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of EjUserHelper)(EjUserHelper)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Administration.EjUserHelper)(SuperOffice.CRM.Administration.EjUserHelper)
-  name.vb: GraphCopy(Of EjUserHelper)(EjUserHelper)
+  name: GraphCopy<EjUserHelper>()
+  nameWithType: ObjectExtensions.GraphCopy<EjUserHelper>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Administration.EjUserHelper>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of EjUserHelper)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Administration.EjUserHelper)()
+  name.vb: GraphCopy(Of EjUserHelper)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Administration.EjUserHelper)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<EjUserHelper>
+    nameWithType: ObjectExtensions.GraphCopy<EjUserHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Administration.EjUserHelper>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Administration.EjUserHelper
-    name: EjUserHelper
-    isExternal: true
-    href: SuperOffice.CRM.Administration.EjUserHelper.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Administration.EjUserHelper
-    name: EjUserHelper
-    isExternal: true
-    href: SuperOffice.CRM.Administration.EjUserHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Administration.EjUserHelper)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of EjUserHelper)
+    nameWithType: ObjectExtensions.GraphCopy(Of EjUserHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Administration.EjUserHelper)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Administration.EjUserHelper
-    name: EjUserHelper
-    isExternal: true
-    href: SuperOffice.CRM.Administration.EjUserHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Administration.EjUserHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<EjUserHelper, To>()
+  nameWithType: Converters.MapEnums<EjUserHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Administration.EjUserHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of EjUserHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Administration.EjUserHelper, To)()
+  name.vb: MapEnums(Of EjUserHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EjUserHelper, To>
+    nameWithType: Converters.MapEnums<EjUserHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Administration.EjUserHelper, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.Administration.EjUserHelper
-    name: EjUserHelper
-    isExternal: true
-    href: SuperOffice.CRM.Administration.EjUserHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EjUserHelper, To)
+    nameWithType: Converters.MapEnums(Of EjUserHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Administration.EjUserHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -743,93 +469,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -838,46 +514,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -886,96 +572,95 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.CRM.Administration.EjUserHelper.CategoryMasterCount*
   commentId: Overload:SuperOffice.CRM.Administration.EjUserHelper.CategoryMasterCount
   isExternal: true
-  href: SuperOffice.CRM.Administration.EjUserHelper.html#SuperOffice_CRM_Administration_EjUserHelper_CategoryMasterCount_System_Int32_
   name: CategoryMasterCount
   nameWithType: EjUserHelper.CategoryMasterCount
   fullName: SuperOffice.CRM.Administration.EjUserHelper.CategoryMasterCount
@@ -983,62 +668,48 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCount*
   commentId: Overload:SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCount
   isExternal: true
-  href: SuperOffice.CRM.Administration.EjUserHelper.html#SuperOffice_CRM_Administration_EjUserHelper_MailFilterDependentCount_System_Int32_
   name: MailFilterDependentCount
   nameWithType: EjUserHelper.MailFilterDependentCount
   fullName: SuperOffice.CRM.Administration.EjUserHelper.MailFilterDependentCount
 - uid: SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCount*
   commentId: Overload:SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCount
   isExternal: true
-  href: SuperOffice.CRM.Administration.EjUserHelper.html#SuperOffice_CRM_Administration_EjUserHelper_EscalationLevelDependentCount_System_Int32_
   name: EscalationLevelDependentCount
   nameWithType: EjUserHelper.EscalationLevelDependentCount
   fullName: SuperOffice.CRM.Administration.EjUserHelper.EscalationLevelDependentCount
 - uid: SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCount*
   commentId: Overload:SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCount
   isExternal: true
-  href: SuperOffice.CRM.Administration.EjUserHelper.html#SuperOffice_CRM_Administration_EjUserHelper_OpenRequestsCount_System_Int32_
   name: OpenRequestsCount
   nameWithType: EjUserHelper.OpenRequestsCount
   fullName: SuperOffice.CRM.Administration.EjUserHelper.OpenRequestsCount
 - uid: SuperOffice.CRM.Administration.EjUserHelper.DeleteCategoryMembership*
   commentId: Overload:SuperOffice.CRM.Administration.EjUserHelper.DeleteCategoryMembership
   isExternal: true
-  href: SuperOffice.CRM.Administration.EjUserHelper.html#SuperOffice_CRM_Administration_EjUserHelper_DeleteCategoryMembership_System_Int32_
   name: DeleteCategoryMembership
   nameWithType: EjUserHelper.DeleteCategoryMembership
   fullName: SuperOffice.CRM.Administration.EjUserHelper.DeleteCategoryMembership
 - uid: SuperOffice.CRM.Administration.EjUserHelper.LogoutUser*
   commentId: Overload:SuperOffice.CRM.Administration.EjUserHelper.LogoutUser
   isExternal: true
-  href: SuperOffice.CRM.Administration.EjUserHelper.html#SuperOffice_CRM_Administration_EjUserHelper_LogoutUser_System_Int32_
   name: LogoutUser
   nameWithType: EjUserHelper.LogoutUser
   fullName: SuperOffice.CRM.Administration.EjUserHelper.LogoutUser
 - uid: SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembership*
   commentId: Overload:SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembership
   isExternal: true
-  href: SuperOffice.CRM.Administration.EjUserHelper.html#SuperOffice_CRM_Administration_EjUserHelper_CalculateCategoryMembership_System_Int32_System_Int32_
   name: CalculateCategoryMembership
   nameWithType: EjUserHelper.CalculateCategoryMembership
   fullName: SuperOffice.CRM.Administration.EjUserHelper.CalculateCategoryMembership
 - uid: SuperOffice.CRM.Administration.EjUserHelper.#ctor*
   commentId: Overload:SuperOffice.CRM.Administration.EjUserHelper.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Administration.EjUserHelper.html#SuperOffice_CRM_Administration_EjUserHelper__ctor
   name: EjUserHelper
   nameWithType: EjUserHelper.EjUserHelper
   fullName: SuperOffice.CRM.Administration.EjUserHelper.EjUserHelper
-  nameWithType.vb: EjUserHelper.New
-  fullName.vb: SuperOffice.CRM.Administration.EjUserHelper.New
-  name.vb: New

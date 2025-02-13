@@ -23,9 +23,9 @@ items:
   - SuperOffice.Data.Dictionary.SoTable.GetRelations
   - SuperOffice.Data.Dictionary.SoTable.GetRelationsWithTable(SuperOffice.Data.Dictionary.SoTable)
   - SuperOffice.Data.Dictionary.SoTable.GetTableInfo
+  - SuperOffice.Data.Dictionary.SoTable.HashCheckFields
   - SuperOffice.Data.Dictionary.SoTable.HasSoftDelete
   - SuperOffice.Data.Dictionary.SoTable.HasTextExtensions
-  - SuperOffice.Data.Dictionary.SoTable.HashCheckFields
   - SuperOffice.Data.Dictionary.SoTable.IsMDOList
   - SuperOffice.Data.Dictionary.SoTable.IsTableRelated(SuperOffice.Data.Dictionary.SoTable)
   - SuperOffice.Data.Dictionary.SoTable.Item(SuperOffice.Data.SQL.FieldInfo)
@@ -36,6 +36,8 @@ items:
   - SuperOffice.Data.Dictionary.SoTable.MDOListInfo
   - SuperOffice.Data.Dictionary.SoTable.Name
   - SuperOffice.Data.Dictionary.SoTable.NumFields
+  - SuperOffice.Data.Dictionary.SoTable.op_Equality(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable)
+  - SuperOffice.Data.Dictionary.SoTable.op_Inequality(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable)
   - SuperOffice.Data.Dictionary.SoTable.PrivacyTags
   - SuperOffice.Data.Dictionary.SoTable.ReplicateAreaManagement
   - SuperOffice.Data.Dictionary.SoTable.ReplicateDown
@@ -48,8 +50,6 @@ items:
   - SuperOffice.Data.Dictionary.SoTable.TempTableCreationStamp
   - SuperOffice.Data.Dictionary.SoTable.ToString
   - SuperOffice.Data.Dictionary.SoTable.TravelTransactionLog
-  - SuperOffice.Data.Dictionary.SoTable.op_Equality(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable)
-  - SuperOffice.Data.Dictionary.SoTable.op_Inequality(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable)
   langs:
   - csharp
   - vb
@@ -57,30 +57,33 @@ items:
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: >-
-    Table description according to the deployed dictionary and friends. All relevant dictionary bits, naming convetions
-
-    and preferences are collected and decoded here, to hide the ugly details of history...
-  remarks: The details around transaction logging are based on the code found DBDLL/DBAS.CPP around line 2800 in the C++ client.
-  example: []
+  summary: "\nTable description according to the deployed dictionary and friends. All relevant dictionary bits, naming convetions\nand preferences are collected and decoded here, to hide the ugly details of history...\n"
+  remarks: "\nThe details around transaction logging are based on the code found DBDLL/DBAS.CPP around line 2800 in the C++ client.\n"
   syntax:
-    content: 'public class SoTable : IEquatable<SoTable>'
-    content.vb: Public Class SoTable Implements IEquatable(Of SoTable)
+    content: 'public class SoTable : Object, IEquatable<SoTable>'
+    content.vb: >-
+      Public Class SoTable
+          Inherits Object
+          Implements IEquatable(Of SoTable)
   inheritance:
   - System.Object
   implements:
   - System.IEquatable{SuperOffice.Data.Dictionary.SoTable}
-  inheritedMembers:
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.Dictionary.SoTable.EnumUtil.MapEnums``2
   - SuperOffice.Data.Dictionary.SoTable.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.Data.Dictionary.SoTable.GetRelations
   commentId: M:SuperOffice.Data.Dictionary.SoTable.GetRelations
   id: GetRelations
@@ -92,17 +95,23 @@ items:
   nameWithType: SoTable.GetRelations()
   fullName: SuperOffice.Data.Dictionary.SoTable.GetRelations()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Get all the relations the table is involved in.
-  example: []
+  summary: "\nGet all the relations the table is involved in.\n"
   syntax:
     content: public IEnumerable<SoRelation> GetRelations()
     return:
       type: System.Collections.Generic.IEnumerable{SuperOffice.Data.Dictionary.SoRelation}
-    content.vb: Public Function GetRelations() As IEnumerable(Of SoRelation)
+    content.vb: Public Function GetRelations As IEnumerable(Of SoRelation)
   overload: SuperOffice.Data.Dictionary.SoTable.GetRelations*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.Dictionary.SoTable.GetRelationsWithTable(SuperOffice.Data.Dictionary.SoTable)
   commentId: M:SuperOffice.Data.Dictionary.SoTable.GetRelationsWithTable(SuperOffice.Data.Dictionary.SoTable)
   id: GetRelationsWithTable(SuperOffice.Data.Dictionary.SoTable)
@@ -114,11 +123,13 @@ items:
   nameWithType: SoTable.GetRelationsWithTable(SoTable)
   fullName: SuperOffice.Data.Dictionary.SoTable.GetRelationsWithTable(SuperOffice.Data.Dictionary.SoTable)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Get all relations that the table is involved in towards the provided table.
-  example: []
+  summary: "\nGet all relations that the table is involved in towards the provided table.\n"
   syntax:
     content: public IEnumerable<SoRelation> GetRelationsWithTable(SoTable table)
     parameters:
@@ -130,6 +141,10 @@ items:
       description: Relations with the other table.
     content.vb: Public Function GetRelationsWithTable(table As SoTable) As IEnumerable(Of SoRelation)
   overload: SuperOffice.Data.Dictionary.SoTable.GetRelationsWithTable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.Dictionary.SoTable.IsTableRelated(SuperOffice.Data.Dictionary.SoTable)
   commentId: M:SuperOffice.Data.Dictionary.SoTable.IsTableRelated(SuperOffice.Data.Dictionary.SoTable)
   id: IsTableRelated(SuperOffice.Data.Dictionary.SoTable)
@@ -141,11 +156,13 @@ items:
   nameWithType: SoTable.IsTableRelated(SoTable)
   fullName: SuperOffice.Data.Dictionary.SoTable.IsTableRelated(SuperOffice.Data.Dictionary.SoTable)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Is this table related to the provided table.
-  example: []
+  summary: "\nIs this table related to the provided table.\n"
   syntax:
     content: public bool IsTableRelated(SoTable table)
     parameters:
@@ -157,6 +174,10 @@ items:
       description: True if the two tables are related.
     content.vb: Public Function IsTableRelated(table As SoTable) As Boolean
   overload: SuperOffice.Data.Dictionary.SoTable.IsTableRelated*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.Dictionary.SoTable.GetTableInfo
   commentId: M:SuperOffice.Data.Dictionary.SoTable.GetTableInfo
   id: GetTableInfo
@@ -168,18 +189,24 @@ items:
   nameWithType: SoTable.GetTableInfo()
   fullName: SuperOffice.Data.Dictionary.SoTable.GetTableInfo()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Get a new instance of <xref href="SuperOffice.Data.SQL.TableInfo" data-throw-if-not-resolved="false"></xref> representing the defenition of the table.
-  example: []
+  summary: "\nGet a new instance of <xref href=\"SuperOffice.Data.SQL.TableInfo\" data-throw-if-not-resolved=\"false\"></xref> representing the defenition of the table.\n"
   syntax:
     content: public TableInfo GetTableInfo()
     return:
       type: SuperOffice.Data.SQL.TableInfo
       description: New instance of <xref href="SuperOffice.Data.SQL.TableInfo" data-throw-if-not-resolved="false"></xref> representing the defenition of the table.
-    content.vb: Public Function GetTableInfo() As TableInfo
+    content.vb: Public Function GetTableInfo As TableInfo
   overload: SuperOffice.Data.Dictionary.SoTable.GetTableInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.Dictionary.SoTable.ToString
   commentId: M:SuperOffice.Data.Dictionary.SoTable.ToString
   id: ToString
@@ -191,19 +218,26 @@ items:
   nameWithType: SoTable.ToString()
   fullName: SuperOffice.Data.Dictionary.SoTable.ToString()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Name of the table for debug purposes.
-  example: []
+  summary: "\nName of the table for debug purposes.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: Name of the table for debug purposes.
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.Data.Dictionary.SoTable.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.Data.Dictionary.SoTable.Equals(SuperOffice.Data.Dictionary.SoTable)
   commentId: M:SuperOffice.Data.Dictionary.SoTable.Equals(SuperOffice.Data.Dictionary.SoTable)
   id: Equals(SuperOffice.Data.Dictionary.SoTable)
@@ -215,11 +249,13 @@ items:
   nameWithType: SoTable.Equals(SoTable)
   fullName: SuperOffice.Data.Dictionary.SoTable.Equals(SuperOffice.Data.Dictionary.SoTable)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Overrided equals comparer that is valid accross database sessions
-  example: []
+  summary: "\nOverrided equals comparer that is valid accross database sessions\n"
   syntax:
     content: public bool Equals(SoTable other)
     parameters:
@@ -231,8 +267,10 @@ items:
       description: True if equal
     content.vb: Public Function Equals(other As SoTable) As Boolean
   overload: SuperOffice.Data.Dictionary.SoTable.Equals*
-  implements:
-  - System.IEquatable{SuperOffice.Data.Dictionary.SoTable}.Equals(SuperOffice.Data.Dictionary.SoTable)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.Dictionary.SoTable.Equals(System.Object)
   commentId: M:SuperOffice.Data.Dictionary.SoTable.Equals(System.Object)
   id: Equals(System.Object)
@@ -240,15 +278,17 @@ items:
   langs:
   - csharp
   - vb
-  name: Equals(object)
-  nameWithType: SoTable.Equals(object)
-  fullName: SuperOffice.Data.Dictionary.SoTable.Equals(object)
+  name: Equals(Object)
+  nameWithType: SoTable.Equals(Object)
+  fullName: SuperOffice.Data.Dictionary.SoTable.Equals(System.Object)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Overrided equals comparer that is valid accross database sessions
-  example: []
+  summary: "\nOverrided equals comparer that is valid accross database sessions\n"
   syntax:
     content: public override bool Equals(object obj)
     parameters:
@@ -259,11 +299,13 @@ items:
       type: System.Boolean
       description: True if equal
     content.vb: Public Overrides Function Equals(obj As Object) As Boolean
-  overridden: System.Object.Equals(System.Object)
   overload: SuperOffice.Data.Dictionary.SoTable.Equals*
-  nameWithType.vb: SoTable.Equals(Object)
-  fullName.vb: SuperOffice.Data.Dictionary.SoTable.Equals(Object)
-  name.vb: Equals(Object)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.Data.Dictionary.SoTable.op_Equality(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable)
   commentId: M:SuperOffice.Data.Dictionary.SoTable.op_Equality(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable)
   id: op_Equality(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable)
@@ -271,10 +313,13 @@ items:
   langs:
   - csharp
   - vb
-  name: operator ==(SoTable, SoTable)
-  nameWithType: SoTable.operator ==(SoTable, SoTable)
-  fullName: SuperOffice.Data.Dictionary.SoTable.operator ==(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable)
+  name: Equality(SoTable, SoTable)
+  nameWithType: SoTable.Equality(SoTable, SoTable)
+  fullName: SuperOffice.Data.Dictionary.SoTable.Equality(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable)
   type: Operator
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
@@ -289,9 +334,12 @@ items:
       type: System.Boolean
     content.vb: Public Shared Operator =(x As SoTable, y As SoTable) As Boolean
   overload: SuperOffice.Data.Dictionary.SoTable.op_Equality*
-  nameWithType.vb: SoTable.=(SoTable, SoTable)
-  fullName.vb: SuperOffice.Data.Dictionary.SoTable.=(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable)
-  name.vb: =(SoTable, SoTable)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Data.Dictionary.SoTable.op_Inequality(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable)
   commentId: M:SuperOffice.Data.Dictionary.SoTable.op_Inequality(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable)
   id: op_Inequality(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable)
@@ -299,10 +347,13 @@ items:
   langs:
   - csharp
   - vb
-  name: operator !=(SoTable, SoTable)
-  nameWithType: SoTable.operator !=(SoTable, SoTable)
-  fullName: SuperOffice.Data.Dictionary.SoTable.operator !=(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable)
+  name: Inequality(SoTable, SoTable)
+  nameWithType: SoTable.Inequality(SoTable, SoTable)
+  fullName: SuperOffice.Data.Dictionary.SoTable.Inequality(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable)
   type: Operator
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
@@ -317,9 +368,12 @@ items:
       type: System.Boolean
     content.vb: Public Shared Operator <>(x As SoTable, y As SoTable) As Boolean
   overload: SuperOffice.Data.Dictionary.SoTable.op_Inequality*
-  nameWithType.vb: SoTable.<>(SoTable, SoTable)
-  fullName.vb: SuperOffice.Data.Dictionary.SoTable.<>(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable)
-  name.vb: <>(SoTable, SoTable)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Data.Dictionary.SoTable.GetHashCode
   commentId: M:SuperOffice.Data.Dictionary.SoTable.GetHashCode
   id: GetHashCode
@@ -331,19 +385,26 @@ items:
   nameWithType: SoTable.GetHashCode()
   fullName: SuperOffice.Data.Dictionary.SoTable.GetHashCode()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Hash code valid accross database sessions.
-  example: []
+  summary: "\nHash code valid accross database sessions.\n"
   syntax:
     content: public override int GetHashCode()
     return:
       type: System.Int32
       description: Hash code valid accross database sessions.
-    content.vb: Public Overrides Function GetHashCode() As Integer
-  overridden: System.Object.GetHashCode
+    content.vb: Public Overrides Function GetHashCode As Integer
   overload: SuperOffice.Data.Dictionary.SoTable.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.Data.Dictionary.SoTable.AdditionalValues
   commentId: P:SuperOffice.Data.Dictionary.SoTable.AdditionalValues
   id: AdditionalValues
@@ -355,14 +416,13 @@ items:
   nameWithType: SoTable.AdditionalValues
   fullName: SuperOffice.Data.Dictionary.SoTable.AdditionalValues
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: >-
-    Additional meta-data on the table key/value dictionary from the DatabaseModel. 
-
-    e.g. "SoftDelete" = "true"
-  example: []
+  summary: "\nAdditional meta-data on the table key/value dictionary from the DatabaseModel. \ne.g. &quot;SoftDelete&quot; = &quot;true&quot;\n"
   syntax:
     content: public Dictionary<string, string> AdditionalValues { get; }
     parameters: []
@@ -370,6 +430,12 @@ items:
       type: System.Collections.Generic.Dictionary{System.String,System.String}
     content.vb: Public ReadOnly Property AdditionalValues As Dictionary(Of String, String)
   overload: SuperOffice.Data.Dictionary.SoTable.AdditionalValues*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.PrivacyTags
   commentId: P:SuperOffice.Data.Dictionary.SoTable.PrivacyTags
   id: PrivacyTags
@@ -381,11 +447,13 @@ items:
   nameWithType: SoTable.PrivacyTags
   fullName: SuperOffice.Data.Dictionary.SoTable.PrivacyTags
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Set of privacy tags on the table from the DatabaseModel
-  example: []
+  summary: "\nSet of privacy tags on the table from the DatabaseModel\n"
   syntax:
     content: public HashSet<string> PrivacyTags { get; }
     parameters: []
@@ -393,6 +461,12 @@ items:
       type: System.Collections.Generic.HashSet{System.String}
     content.vb: Public ReadOnly Property PrivacyTags As HashSet(Of String)
   overload: SuperOffice.Data.Dictionary.SoTable.PrivacyTags*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.Item(System.Int32)
   commentId: P:SuperOffice.Data.Dictionary.SoTable.Item(System.Int32)
   id: Item(System.Int32)
@@ -400,15 +474,17 @@ items:
   langs:
   - csharp
   - vb
-  name: this[int]
-  nameWithType: SoTable.this[int]
-  fullName: SuperOffice.Data.Dictionary.SoTable.this[int]
+  name: Item[Int32]
+  nameWithType: SoTable.Item[Int32]
+  fullName: SuperOffice.Data.Dictionary.SoTable.Item[System.Int32]
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Get the SoField located at the given position in the table definition
-  example: []
+  summary: "\nGet the SoField located at the given position in the table definition\n"
   syntax:
     content: public SoField this[int index] { get; }
     parameters:
@@ -416,11 +492,17 @@ items:
       type: System.Int32
     return:
       type: SuperOffice.Data.Dictionary.SoField
-    content.vb: Public ReadOnly Default Property this[](index As Integer) As SoField
+    content.vb: Public ReadOnly Property Item(index As Integer) As SoField
   overload: SuperOffice.Data.Dictionary.SoTable.Item*
-  nameWithType.vb: SoTable.this[](Integer)
-  fullName.vb: SuperOffice.Data.Dictionary.SoTable.this[](Integer)
-  name.vb: this[](Integer)
+  nameWithType.vb: SoTable.Item(Int32)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Data.Dictionary.SoTable.Item(System.Int32)
+  name.vb: Item(Int32)
 - uid: SuperOffice.Data.Dictionary.SoTable.AdditionalFields
   commentId: P:SuperOffice.Data.Dictionary.SoTable.AdditionalFields
   id: AdditionalFields
@@ -432,17 +514,14 @@ items:
   nameWithType: SoTable.AdditionalFields
   fullName: SuperOffice.Data.Dictionary.SoTable.AdditionalFields
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: >-
-    This list contains SoField objects for those fields that are in the database, but were not known
-
-    at the time the NetServer code was generated. See <xref href="SuperOffice.Data.Dictionary.CodeGenerationState" data-throw-if-not-resolved="false"></xref>; all these fields
-
-    <b>are present</b> in the main SoField collection, this list exists as an optimization.
-  remarks: Extra fields only.
-  example: []
+  summary: "\nThis list contains SoField objects for those fields that are in the database, but were not known\nat the time the NetServer code was generated. See <xref href=\"SuperOffice.Data.Dictionary.CodeGenerationState\" data-throw-if-not-resolved=\"false\"></xref>; all these fields\n<strong>are present</strong> in the main SoField collection, this list exists as an optimization.\n"
+  remarks: "\nExtra fields only.\n"
   syntax:
     content: public List<SoField> AdditionalFields { get; }
     parameters: []
@@ -450,6 +529,12 @@ items:
       type: System.Collections.Generic.List{SuperOffice.Data.Dictionary.SoField}
     content.vb: Public ReadOnly Property AdditionalFields As List(Of SoField)
   overload: SuperOffice.Data.Dictionary.SoTable.AdditionalFields*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.Item(System.String)
   commentId: P:SuperOffice.Data.Dictionary.SoTable.Item(System.String)
   id: Item(System.String)
@@ -457,15 +542,17 @@ items:
   langs:
   - csharp
   - vb
-  name: this[string]
-  nameWithType: SoTable.this[string]
-  fullName: SuperOffice.Data.Dictionary.SoTable.this[string]
+  name: Item[String]
+  nameWithType: SoTable.Item[String]
+  fullName: SuperOffice.Data.Dictionary.SoTable.Item[System.String]
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Get the SoField corresponding to the given field name (not case sensitive)
-  example: []
+  summary: "\nGet the SoField corresponding to the given field name (not case sensitive)\n"
   syntax:
     content: public SoField this[string fieldName] { get; }
     parameters:
@@ -473,11 +560,17 @@ items:
       type: System.String
     return:
       type: SuperOffice.Data.Dictionary.SoField
-    content.vb: Public ReadOnly Default Property this[](fieldName As String) As SoField
+    content.vb: Public ReadOnly Property Item(fieldName As String) As SoField
   overload: SuperOffice.Data.Dictionary.SoTable.Item*
-  nameWithType.vb: SoTable.this[](String)
-  fullName.vb: SuperOffice.Data.Dictionary.SoTable.this[](String)
-  name.vb: this[](String)
+  nameWithType.vb: SoTable.Item(String)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Data.Dictionary.SoTable.Item(System.String)
+  name.vb: Item(String)
 - uid: SuperOffice.Data.Dictionary.SoTable.Item(SuperOffice.Data.SQL.FieldInfo)
   commentId: P:SuperOffice.Data.Dictionary.SoTable.Item(SuperOffice.Data.SQL.FieldInfo)
   id: Item(SuperOffice.Data.SQL.FieldInfo)
@@ -485,15 +578,17 @@ items:
   langs:
   - csharp
   - vb
-  name: this[FieldInfo]
-  nameWithType: SoTable.this[FieldInfo]
-  fullName: SuperOffice.Data.Dictionary.SoTable.this[SuperOffice.Data.SQL.FieldInfo]
+  name: Item[FieldInfo]
+  nameWithType: SoTable.Item[FieldInfo]
+  fullName: SuperOffice.Data.Dictionary.SoTable.Item[SuperOffice.Data.SQL.FieldInfo]
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Get the SoField corresponding to the given FieldInfo object, by its name
-  example: []
+  summary: "\nGet the SoField corresponding to the given FieldInfo object, by its name\n"
   syntax:
     content: public SoField this[FieldInfo fieldInfo] { get; }
     parameters:
@@ -501,11 +596,17 @@ items:
       type: SuperOffice.Data.SQL.FieldInfo
     return:
       type: SuperOffice.Data.Dictionary.SoField
-    content.vb: Public ReadOnly Default Property this[](fieldInfo As FieldInfo) As SoField
+    content.vb: Public ReadOnly Property Item(fieldInfo As FieldInfo) As SoField
   overload: SuperOffice.Data.Dictionary.SoTable.Item*
-  nameWithType.vb: SoTable.this[](FieldInfo)
-  fullName.vb: SuperOffice.Data.Dictionary.SoTable.this[](SuperOffice.Data.SQL.FieldInfo)
-  name.vb: this[](FieldInfo)
+  nameWithType.vb: SoTable.Item(FieldInfo)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Data.Dictionary.SoTable.Item(SuperOffice.Data.SQL.FieldInfo)
+  name.vb: Item(FieldInfo)
 - uid: SuperOffice.Data.Dictionary.SoTable.NumFields
   commentId: P:SuperOffice.Data.Dictionary.SoTable.NumFields
   id: NumFields
@@ -517,11 +618,13 @@ items:
   nameWithType: SoTable.NumFields
   fullName: SuperOffice.Data.Dictionary.SoTable.NumFields
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Get the number of fields in this table
-  example: []
+  summary: "\nGet the number of fields in this table\n"
   syntax:
     content: public int NumFields { get; }
     parameters: []
@@ -529,6 +632,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property NumFields As Integer
   overload: SuperOffice.Data.Dictionary.SoTable.NumFields*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.GenerationState
   commentId: P:SuperOffice.Data.Dictionary.SoTable.GenerationState
   id: GenerationState
@@ -540,11 +649,13 @@ items:
   nameWithType: SoTable.GenerationState
   fullName: SuperOffice.Data.Dictionary.SoTable.GenerationState
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Relation between the generated code in NetServer and the actual database state, applies to both tables and fields
-  example: []
+  summary: "\nRelation between the generated code in NetServer and the actual database state, applies to both tables and fields\n"
   syntax:
     content: public CodeGenerationState GenerationState { get; }
     parameters: []
@@ -552,6 +663,12 @@ items:
       type: SuperOffice.Data.Dictionary.CodeGenerationState
     content.vb: Public ReadOnly Property GenerationState As CodeGenerationState
   overload: SuperOffice.Data.Dictionary.SoTable.GenerationState*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.Fields
   commentId: P:SuperOffice.Data.Dictionary.SoTable.Fields
   id: Fields
@@ -563,11 +680,13 @@ items:
   nameWithType: SoTable.Fields
   fullName: SuperOffice.Data.Dictionary.SoTable.Fields
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Get a list of all the Fields in the deployed dictionary. Including the <xref href="SuperOffice.Data.Dictionary.SoTable.AdditionalFields?text=AdditionalFields" data-throw-if-not-resolved="false"></xref>
-  example: []
+  summary: "\nGet a list of all the Fields in the deployed dictionary. Including the <xref href=\"SuperOffice.Data.Dictionary.SoTable.AdditionalFields\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
     content: public SoField[] Fields { get; }
     parameters: []
@@ -575,6 +694,12 @@ items:
       type: SuperOffice.Data.Dictionary.SoField[]
     content.vb: Public ReadOnly Property Fields As SoField()
   overload: SuperOffice.Data.Dictionary.SoTable.Fields*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.HashCheckFields
   commentId: P:SuperOffice.Data.Dictionary.SoTable.HashCheckFields
   id: HashCheckFields
@@ -586,11 +711,13 @@ items:
   nameWithType: SoTable.HashCheckFields
   fullName: SuperOffice.Data.Dictionary.SoTable.HashCheckFields
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Get an enumeration of all fields involved in hash checks, either as source or as the checksum
-  example: []
+  summary: "\nGet an enumeration of all fields involved in hash checks, either as source or as the checksum\n"
   syntax:
     content: public IEnumerable<SoField> HashCheckFields { get; }
     parameters: []
@@ -598,6 +725,12 @@ items:
       type: System.Collections.Generic.IEnumerable{SuperOffice.Data.Dictionary.SoField}
     content.vb: Public ReadOnly Property HashCheckFields As IEnumerable(Of SoField)
   overload: SuperOffice.Data.Dictionary.SoTable.HashCheckFields*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.Name
   commentId: P:SuperOffice.Data.Dictionary.SoTable.Name
   id: Name
@@ -609,11 +742,13 @@ items:
   nameWithType: SoTable.Name
   fullName: SuperOffice.Data.Dictionary.SoTable.Name
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Conceptual name of the table (the real name of the table, independent of database)
-  example: []
+  summary: "\nConceptual name of the table (the real name of the table, independent of database)\n"
   syntax:
     content: public string Name { get; }
     parameters: []
@@ -621,6 +756,12 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property Name As String
   overload: SuperOffice.Data.Dictionary.SoTable.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.DbName
   commentId: P:SuperOffice.Data.Dictionary.SoTable.DbName
   id: DbName
@@ -632,11 +773,13 @@ items:
   nameWithType: SoTable.DbName
   fullName: SuperOffice.Data.Dictionary.SoTable.DbName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Name of the table in the database
-  example: []
+  summary: "\nName of the table in the database\n"
   syntax:
     content: public string DbName { get; }
     parameters: []
@@ -644,6 +787,12 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property DbName As String
   overload: SuperOffice.Data.Dictionary.SoTable.DbName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.TableNumber
   commentId: P:SuperOffice.Data.Dictionary.SoTable.TableNumber
   id: TableNumber
@@ -655,16 +804,13 @@ items:
   nameWithType: SoTable.TableNumber
   fullName: SuperOffice.Data.Dictionary.SoTable.TableNumber
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: >-
-    Number used on the table in the database when it is referenced.
-
-    Examples are TravelTransactionLog and ForeignKey. It is not the 
-
-    same as <xref href="SuperOffice.Data.Dictionary.SoTable.SequenceId" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nNumber used on the table in the database when it is referenced.\nExamples are TravelTransactionLog and ForeignKey. It is not the \nsame as <xref href=\"SuperOffice.Data.Dictionary.SoTable.SequenceId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public int TableNumber { get; }
     parameters: []
@@ -672,6 +818,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property TableNumber As Integer
   overload: SuperOffice.Data.Dictionary.SoTable.TableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.SequenceId
   commentId: P:SuperOffice.Data.Dictionary.SoTable.SequenceId
   id: SequenceId
@@ -683,14 +835,13 @@ items:
   nameWithType: SoTable.SequenceId
   fullName: SuperOffice.Data.Dictionary.SoTable.SequenceId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: >-
-    ID used for the table in the sequence table. For ForeignKey and
-
-    TravelTransactionLog entries, <xref href="SuperOffice.Data.Dictionary.SoTable.TableNumber" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nID used for the table in the sequence table. For ForeignKey and\nTravelTransactionLog entries, <xref href=\"SuperOffice.Data.Dictionary.SoTable.TableNumber\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public int SequenceId { get; }
     parameters: []
@@ -698,6 +849,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property SequenceId As Integer
   overload: SuperOffice.Data.Dictionary.SoTable.SequenceId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.FreetextIndex
   commentId: P:SuperOffice.Data.Dictionary.SoTable.FreetextIndex
   id: FreetextIndex
@@ -709,11 +866,13 @@ items:
   nameWithType: SoTable.FreetextIndex
   fullName: SuperOffice.Data.Dictionary.SoTable.FreetextIndex
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Is this table marked for freetext indexing
-  example: []
+  summary: "\nIs this table marked for freetext indexing\n"
   syntax:
     content: public bool FreetextIndex { get; }
     parameters: []
@@ -721,6 +880,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property FreetextIndex As Boolean
   overload: SuperOffice.Data.Dictionary.SoTable.FreetextIndex*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.FieldLevelLogging
   commentId: P:SuperOffice.Data.Dictionary.SoTable.FieldLevelLogging
   id: FieldLevelLogging
@@ -732,11 +897,13 @@ items:
   nameWithType: SoTable.FieldLevelLogging
   fullName: SuperOffice.Data.Dictionary.SoTable.FieldLevelLogging
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Is this table marked for field-level logging
-  example: []
+  summary: "\nIs this table marked for field-level logging\n"
   syntax:
     content: public bool FieldLevelLogging { get; }
     parameters: []
@@ -744,6 +911,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property FieldLevelLogging As Boolean
   overload: SuperOffice.Data.Dictionary.SoTable.FieldLevelLogging*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.ReplicateDown
   commentId: P:SuperOffice.Data.Dictionary.SoTable.ReplicateDown
   id: ReplicateDown
@@ -755,11 +928,13 @@ items:
   nameWithType: SoTable.ReplicateDown
   fullName: SuperOffice.Data.Dictionary.SoTable.ReplicateDown
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Is this table marked with ReplicateDown in the dictionary
-  example: []
+  summary: "\nIs this table marked with ReplicateDown in the dictionary\n"
   syntax:
     content: public bool ReplicateDown { get; }
     parameters: []
@@ -767,6 +942,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property ReplicateDown As Boolean
   overload: SuperOffice.Data.Dictionary.SoTable.ReplicateDown*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.ReplicateUp
   commentId: P:SuperOffice.Data.Dictionary.SoTable.ReplicateUp
   id: ReplicateUp
@@ -778,11 +959,13 @@ items:
   nameWithType: SoTable.ReplicateUp
   fullName: SuperOffice.Data.Dictionary.SoTable.ReplicateUp
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Is this table marked with ReplicateUp in the dictionary
-  example: []
+  summary: "\nIs this table marked with ReplicateUp in the dictionary\n"
   syntax:
     content: public bool ReplicateUp { get; }
     parameters: []
@@ -790,6 +973,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property ReplicateUp As Boolean
   overload: SuperOffice.Data.Dictionary.SoTable.ReplicateUp*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.ReplicateAreaManagement
   commentId: P:SuperOffice.Data.Dictionary.SoTable.ReplicateAreaManagement
   id: ReplicateAreaManagement
@@ -801,11 +990,13 @@ items:
   nameWithType: SoTable.ReplicateAreaManagement
   fullName: SuperOffice.Data.Dictionary.SoTable.ReplicateAreaManagement
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Is this table marked with ReplicateAreaManagement in the dictionary
-  example: []
+  summary: "\nIs this table marked with ReplicateAreaManagement in the dictionary\n"
   syntax:
     content: public bool ReplicateAreaManagement { get; }
     parameters: []
@@ -813,6 +1004,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property ReplicateAreaManagement As Boolean
   overload: SuperOffice.Data.Dictionary.SoTable.ReplicateAreaManagement*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.ReplicatePrototype
   commentId: P:SuperOffice.Data.Dictionary.SoTable.ReplicatePrototype
   id: ReplicatePrototype
@@ -824,11 +1021,13 @@ items:
   nameWithType: SoTable.ReplicatePrototype
   fullName: SuperOffice.Data.Dictionary.SoTable.ReplicatePrototype
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Is this table marked with ReplicatePrototype in the dictionary
-  example: []
+  summary: "\nIs this table marked with ReplicatePrototype in the dictionary\n"
   syntax:
     content: public bool ReplicatePrototype { get; }
     parameters: []
@@ -836,6 +1035,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property ReplicatePrototype As Boolean
   overload: SuperOffice.Data.Dictionary.SoTable.ReplicatePrototype*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.DoNotReplicate
   commentId: P:SuperOffice.Data.Dictionary.SoTable.DoNotReplicate
   id: DoNotReplicate
@@ -847,11 +1052,13 @@ items:
   nameWithType: SoTable.DoNotReplicate
   fullName: SuperOffice.Data.Dictionary.SoTable.DoNotReplicate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Is this table marked with DoNotReplicate in the dictionary
-  example: []
+  summary: "\nIs this table marked with DoNotReplicate in the dictionary\n"
   syntax:
     content: public bool DoNotReplicate { get; }
     parameters: []
@@ -859,6 +1066,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property DoNotReplicate As Boolean
   overload: SuperOffice.Data.Dictionary.SoTable.DoNotReplicate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.KeepInCache
   commentId: P:SuperOffice.Data.Dictionary.SoTable.KeepInCache
   id: KeepInCache
@@ -870,11 +1083,13 @@ items:
   nameWithType: SoTable.KeepInCache
   fullName: SuperOffice.Data.Dictionary.SoTable.KeepInCache
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Is this table marked with KeepInCache in the dictionary
-  example: []
+  summary: "\nIs this table marked with KeepInCache in the dictionary\n"
   syntax:
     content: public bool KeepInCache { get; }
     parameters: []
@@ -882,6 +1097,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property KeepInCache As Boolean
   overload: SuperOffice.Data.Dictionary.SoTable.KeepInCache*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.SystemTable
   commentId: P:SuperOffice.Data.Dictionary.SoTable.SystemTable
   id: SystemTable
@@ -893,11 +1114,13 @@ items:
   nameWithType: SoTable.SystemTable
   fullName: SuperOffice.Data.Dictionary.SoTable.SystemTable
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Is this table marked with SystemTable in the dictionary
-  example: []
+  summary: "\nIs this table marked with SystemTable in the dictionary\n"
   syntax:
     content: public bool SystemTable { get; }
     parameters: []
@@ -905,6 +1128,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property SystemTable As Boolean
   overload: SuperOffice.Data.Dictionary.SoTable.SystemTable*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.TravelTransactionLog
   commentId: P:SuperOffice.Data.Dictionary.SoTable.TravelTransactionLog
   id: TravelTransactionLog
@@ -916,15 +1145,14 @@ items:
   nameWithType: SoTable.TravelTransactionLog
   fullName: SuperOffice.Data.Dictionary.SoTable.TravelTransactionLog
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Should this table be logged to the traveltransactionlog
-  remarks: >-
-    Note that replication to prototype does not imply traveltransaction logging,
-
-    so this is not simply the inverse of the DoNotReplicate flag.
-  example: []
+  summary: "\nShould this table be logged to the traveltransactionlog\n"
+  remarks: "\nNote that replication to prototype does not imply traveltransaction logging,\nso this is not simply the inverse of the DoNotReplicate flag.\n"
   syntax:
     content: public bool TravelTransactionLog { get; }
     parameters: []
@@ -932,6 +1160,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property TravelTransactionLog As Boolean
   overload: SuperOffice.Data.Dictionary.SoTable.TravelTransactionLog*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.IsMDOList
   commentId: P:SuperOffice.Data.Dictionary.SoTable.IsMDOList
   id: IsMDOList
@@ -943,11 +1177,13 @@ items:
   nameWithType: SoTable.IsMDOList
   fullName: SuperOffice.Data.Dictionary.SoTable.IsMDOList
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Is this table the base table of an MDO list? If true, the <xref href="SuperOffice.Data.Dictionary.SoTable.MDOListInfo" data-throw-if-not-resolved="false"></xref> property will tell you more.
-  example: []
+  summary: "\nIs this table the base table of an MDO list? If true, the <xref href=\"SuperOffice.Data.Dictionary.SoTable.MDOListInfo\" data-throw-if-not-resolved=\"false\"></xref> property will tell you more.\n"
   syntax:
     content: public bool IsMDOList { get; }
     parameters: []
@@ -955,6 +1191,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property IsMDOList As Boolean
   overload: SuperOffice.Data.Dictionary.SoTable.IsMDOList*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.MDOListInfo
   commentId: P:SuperOffice.Data.Dictionary.SoTable.MDOListInfo
   id: MDOListInfo
@@ -966,11 +1208,13 @@ items:
   nameWithType: SoTable.MDOListInfo
   fullName: SuperOffice.Data.Dictionary.SoTable.MDOListInfo
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: If <xref href="SuperOffice.Data.Dictionary.SoTable.IsMDOList" data-throw-if-not-resolved="false"></xref> is true, this property returns an object that contains a lot of information about the MDO list
-  example: []
+  summary: "\nIf <xref href=\"SuperOffice.Data.Dictionary.SoTable.IsMDOList\" data-throw-if-not-resolved=\"false\"></xref> is true, this property returns an object that contains a lot of information about the MDO list\n"
   syntax:
     content: public ListInfo MDOListInfo { get; }
     parameters: []
@@ -978,6 +1222,12 @@ items:
       type: SuperOffice.Data.Dictionary.ListInfo
     content.vb: Public ReadOnly Property MDOListInfo As ListInfo
   overload: SuperOffice.Data.Dictionary.SoTable.MDOListInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.HasSoftDelete
   commentId: P:SuperOffice.Data.Dictionary.SoTable.HasSoftDelete
   id: HasSoftDelete
@@ -989,11 +1239,13 @@ items:
   nameWithType: SoTable.HasSoftDelete
   fullName: SuperOffice.Data.Dictionary.SoTable.HasSoftDelete
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Is Soft Delete support enabled for this table
-  example: []
+  summary: "\nIs Soft Delete support enabled for this table\n"
   syntax:
     content: public bool HasSoftDelete { get; }
     parameters: []
@@ -1001,6 +1253,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property HasSoftDelete As Boolean
   overload: SuperOffice.Data.Dictionary.SoTable.HasSoftDelete*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.SoftDeletedDate
   commentId: P:SuperOffice.Data.Dictionary.SoTable.SoftDeletedDate
   id: SoftDeletedDate
@@ -1012,11 +1270,13 @@ items:
   nameWithType: SoTable.SoftDeletedDate
   fullName: SuperOffice.Data.Dictionary.SoTable.SoftDeletedDate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Points to the field that is the delete date (soft) for this row
-  example: []
+  summary: "\nPoints to the field that is the delete date (soft) for this row\n"
   syntax:
     content: public SoField SoftDeletedDate { get; }
     parameters: []
@@ -1024,6 +1284,12 @@ items:
       type: SuperOffice.Data.Dictionary.SoField
     content.vb: Public ReadOnly Property SoftDeletedDate As SoField
   overload: SuperOffice.Data.Dictionary.SoTable.SoftDeletedDate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.AutoGenerateGuid
   commentId: P:SuperOffice.Data.Dictionary.SoTable.AutoGenerateGuid
   id: AutoGenerateGuid
@@ -1035,11 +1301,13 @@ items:
   nameWithType: SoTable.AutoGenerateGuid
   fullName: SuperOffice.Data.Dictionary.SoTable.AutoGenerateGuid
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Does this table have at least one field that needs to be auto-populated with a GUID on insert?
-  example: []
+  summary: "\nDoes this table have at least one field that needs to be auto-populated with a GUID on insert?\n"
   syntax:
     content: public bool AutoGenerateGuid { get; }
     parameters: []
@@ -1047,6 +1315,12 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property AutoGenerateGuid As Boolean
   overload: SuperOffice.Data.Dictionary.SoTable.AutoGenerateGuid*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.TempTableCreationStamp
   commentId: P:SuperOffice.Data.Dictionary.SoTable.TempTableCreationStamp
   id: TempTableCreationStamp
@@ -1058,18 +1332,26 @@ items:
   nameWithType: SoTable.TempTableCreationStamp
   fullName: SuperOffice.Data.Dictionary.SoTable.TempTableCreationStamp
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: If != null, then this is the UTC creation time for this Temporary Table; otherwise, this is not a temporary table
-  example: []
+  summary: "\nIf != null, then this is the UTC creation time for this Temporary Table; otherwise, this is not a temporary table\n"
   syntax:
     content: public DateTime TempTableCreationStamp { get; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public ReadOnly Property TempTableCreationStamp As Date
+    content.vb: Public ReadOnly Property TempTableCreationStamp As DateTime
   overload: SuperOffice.Data.Dictionary.SoTable.TempTableCreationStamp*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.DisplayName
   commentId: P:SuperOffice.Data.Dictionary.SoTable.DisplayName
   id: DisplayName
@@ -1081,11 +1363,13 @@ items:
   nameWithType: SoTable.DisplayName
   fullName: SuperOffice.Data.Dictionary.SoTable.DisplayName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Friendly name, if set, can be multi-language string
-  example: []
+  summary: "\nFriendly name, if set, can be multi-language string\n"
   syntax:
     content: public string DisplayName { get; }
     parameters: []
@@ -1093,6 +1377,12 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property DisplayName As String
   overload: SuperOffice.Data.Dictionary.SoTable.DisplayName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.DisplayDescription
   commentId: P:SuperOffice.Data.Dictionary.SoTable.DisplayDescription
   id: DisplayDescription
@@ -1104,11 +1394,13 @@ items:
   nameWithType: SoTable.DisplayDescription
   fullName: SuperOffice.Data.Dictionary.SoTable.DisplayDescription
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Friendly description, if set, can be multi-language string
-  example: []
+  summary: "\nFriendly description, if set, can be multi-language string\n"
   syntax:
     content: public string DisplayDescription { get; }
     parameters: []
@@ -1116,6 +1408,12 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property DisplayDescription As String
   overload: SuperOffice.Data.Dictionary.SoTable.DisplayDescription*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.Block
   commentId: P:SuperOffice.Data.Dictionary.SoTable.Block
   id: Block
@@ -1127,11 +1425,13 @@ items:
   nameWithType: SoTable.Block
   fullName: SuperOffice.Data.Dictionary.SoTable.Block
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Should table be blocked in generic API's - comes from DatabaseModel + hardcoded blocklist in <xref href="SuperOffice.CD.DSL.PhysicalDatabase.DatabaseManagement" data-throw-if-not-resolved="false"></xref>
-  example: []
+  summary: "\nShould table be blocked in generic API&apos;s - comes from DatabaseModel + hardcoded blocklist in <xref href=\"SuperOffice.CD.DSL.PhysicalDatabase.DatabaseManagement\" data-throw-if-not-resolved=\"false\"></xref>\n"
   syntax:
     content: public SoTable.BlockKind Block { get; }
     parameters: []
@@ -1139,6 +1439,12 @@ items:
       type: SuperOffice.Data.Dictionary.SoTable.BlockKind
     content.vb: Public ReadOnly Property Block As SoTable.BlockKind
   overload: SuperOffice.Data.Dictionary.SoTable.Block*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.Kind
   commentId: P:SuperOffice.Data.Dictionary.SoTable.Kind
   id: Kind
@@ -1150,11 +1456,13 @@ items:
   nameWithType: SoTable.Kind
   fullName: SuperOffice.Data.Dictionary.SoTable.Kind
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Kind and origin of table - SuperOffice system; Partner-defined using the SoDictionary; or ExtraTable from Customer Service
-  example: []
+  summary: "\nKind and origin of table - SuperOffice system; Partner-defined using the SoDictionary; or ExtraTable from Customer Service\n"
   syntax:
     content: public SoTable.TableKind Kind { get; }
     parameters: []
@@ -1162,6 +1470,12 @@ items:
       type: SuperOffice.Data.Dictionary.SoTable.TableKind
     content.vb: Public ReadOnly Property Kind As SoTable.TableKind
   overload: SuperOffice.Data.Dictionary.SoTable.Kind*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.Data.Dictionary.SoTable.HasTextExtensions
   commentId: P:SuperOffice.Data.Dictionary.SoTable.HasTextExtensions
   id: HasTextExtensions
@@ -1173,11 +1487,13 @@ items:
   nameWithType: SoTable.HasTextExtensions
   fullName: SuperOffice.Data.Dictionary.SoTable.HasTextExtensions
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.Dictionary
-  summary: Does this table have at least one field that overruns into the text table, currently active?
-  example: []
+  summary: "\nDoes this table have at least one field that overruns into the text table, currently active?\n"
   syntax:
     content: public bool HasTextExtensions { get; }
     parameters: []
@@ -1185,60 +1501,29 @@ items:
       type: System.Boolean
     content.vb: Public ReadOnly Property HasTextExtensions As Boolean
   overload: SuperOffice.Data.Dictionary.SoTable.HasTextExtensions*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System.IEquatable{SuperOffice.Data.Dictionary.SoTable}
-  commentId: T:System.IEquatable{SuperOffice.Data.Dictionary.SoTable}
-  parent: System
+  commentId: '!:System.IEquatable{SuperOffice.Data.Dictionary.SoTable}'
   definition: System.IEquatable`1
-  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
   name: IEquatable<SoTable>
   nameWithType: IEquatable<SoTable>
   fullName: System.IEquatable<SuperOffice.Data.Dictionary.SoTable>
@@ -1248,310 +1533,152 @@ references:
   spec.csharp:
   - uid: System.IEquatable`1
     name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.Data.Dictionary.SoTable
     name: SoTable
+    nameWithType: SoTable
+    fullName: SuperOffice.Data.Dictionary.SoTable
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.IEquatable`1
     name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.Data.Dictionary.SoTable
     name: SoTable
+    nameWithType: SoTable
+    fullName: SuperOffice.Data.Dictionary.SoTable
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html
   - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Dictionary.SoTable.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<SoTable, To>(SoTable)
-  nameWithType: EnumUtil.MapEnums<SoTable, To>(SoTable)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.Dictionary.SoTable, To>(SuperOffice.Data.Dictionary.SoTable)
-  nameWithType.vb: EnumUtil.MapEnums(Of SoTable, To)(SoTable)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Dictionary.SoTable, To)(SuperOffice.Data.Dictionary.SoTable)
-  name.vb: MapEnums(Of SoTable, To)(SoTable)
+  name: MapEnums<SoTable, To>()
+  nameWithType: EnumUtil.MapEnums<SoTable, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Dictionary.SoTable, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoTable, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Dictionary.SoTable, To)()
+  name.vb: MapEnums(Of SoTable, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.Dictionary.SoTable)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoTable, To>
+    nameWithType: EnumUtil.MapEnums<SoTable, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Dictionary.SoTable, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.Dictionary.SoTable
-    name: SoTable
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.Dictionary.SoTable
-    name: SoTable
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.Dictionary.SoTable)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoTable, To)
+    nameWithType: EnumUtil.MapEnums(Of SoTable, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Dictionary.SoTable, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.Dictionary.SoTable
-    name: SoTable
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.Dictionary.SoTable
-    name: SoTable
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Dictionary.SoTable.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<SoTable, To>(SoTable)
-  nameWithType: Converters.MapEnums<SoTable, To>(SoTable)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dictionary.SoTable, To>(SuperOffice.Data.Dictionary.SoTable)
-  nameWithType.vb: Converters.MapEnums(Of SoTable, To)(SoTable)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dictionary.SoTable, To)(SuperOffice.Data.Dictionary.SoTable)
-  name.vb: MapEnums(Of SoTable, To)(SoTable)
+  name: MapEnums<SoTable, To>()
+  nameWithType: Converters.MapEnums<SoTable, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dictionary.SoTable, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoTable, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dictionary.SoTable, To)()
+  name.vb: MapEnums(Of SoTable, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.Dictionary.SoTable)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoTable, To>
+    nameWithType: Converters.MapEnums<SoTable, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dictionary.SoTable, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.Dictionary.SoTable
-    name: SoTable
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.Dictionary.SoTable
-    name: SoTable
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.Dictionary.SoTable)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoTable, To)
+    nameWithType: Converters.MapEnums(Of SoTable, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dictionary.SoTable, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.Dictionary.SoTable
-    name: SoTable
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.Dictionary.SoTable
-    name: SoTable
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: System.IEquatable`1
-  commentId: T:System.IEquatable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
-  name: IEquatable<T>
-  nameWithType: IEquatable<T>
-  fullName: System.IEquatable<T>
-  nameWithType.vb: IEquatable(Of T)
-  fullName.vb: System.IEquatable(Of T)
-  name.vb: IEquatable(Of T)
+  name: IEquatable<>
+  nameWithType: IEquatable<>
+  fullName: System.IEquatable<>
+  nameWithType.vb: IEquatable(Of )
+  fullName.vb: System.IEquatable(Of )
+  name.vb: IEquatable(Of )
   spec.csharp:
   - uid: System.IEquatable`1
     name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.IEquatable`1
     name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1560,45 +1687,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1607,91 +1732,56 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Data.Dictionary.SoTable.GetRelations*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.GetRelations
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_GetRelations
   name: GetRelations
   nameWithType: SoTable.GetRelations
   fullName: SuperOffice.Data.Dictionary.SoTable.GetRelations
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.Dictionary.SoRelation}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.Dictionary.SoRelation}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.Dictionary.SoRelation}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<SoRelation>
   nameWithType: IEnumerable<SoRelation>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.Dictionary.SoRelation>
@@ -1701,96 +1791,78 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.Data.Dictionary.SoRelation
     name: SoRelation
+    nameWithType: SoRelation
+    fullName: SuperOffice.Data.Dictionary.SoRelation
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoRelation.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.Data.Dictionary.SoRelation
     name: SoRelation
+    nameWithType: SoRelation
+    fullName: SuperOffice.Data.Dictionary.SoRelation
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoRelation.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Dictionary.SoTable.GetRelationsWithTable*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.GetRelationsWithTable
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_GetRelationsWithTable_SuperOffice_Data_Dictionary_SoTable_
   name: GetRelationsWithTable
   nameWithType: SoTable.GetRelationsWithTable
   fullName: SuperOffice.Data.Dictionary.SoTable.GetRelationsWithTable
@@ -1798,14 +1870,12 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
 - uid: SuperOffice.Data.Dictionary.SoTable.IsTableRelated*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.IsTableRelated
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_IsTableRelated_SuperOffice_Data_Dictionary_SoTable_
   name: IsTableRelated
   nameWithType: SoTable.IsTableRelated
   fullName: SuperOffice.Data.Dictionary.SoTable.IsTableRelated
@@ -1813,93 +1883,31 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.Dictionary.SoTable.GetTableInfo*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoTable.GetTableInfo
+  isExternal: true
+  name: GetTableInfo
+  nameWithType: SoTable.GetTableInfo
+  fullName: SuperOffice.Data.Dictionary.SoTable.GetTableInfo
 - uid: SuperOffice.Data.SQL.TableInfo
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
-- uid: SuperOffice.Data.Dictionary.SoTable.GetTableInfo*
-  commentId: Overload:SuperOffice.Data.Dictionary.SoTable.GetTableInfo
-  isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_GetTableInfo
-  name: GetTableInfo
-  nameWithType: SoTable.GetTableInfo
-  fullName: SuperOffice.Data.Dictionary.SoTable.GetTableInfo
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: SuperOffice.Data.Dictionary.SoTable.ToString*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.ToString
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_ToString
   name: ToString
   nameWithType: SoTable.ToString
   fullName: SuperOffice.Data.Dictionary.SoTable.ToString
@@ -1907,172 +1915,30 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Data.Dictionary.SoTable.Equals*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.Equals
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_Equals_SuperOffice_Data_Dictionary_SoTable_
   name: Equals
   nameWithType: SoTable.Equals
   fullName: SuperOffice.Data.Dictionary.SoTable.Equals
-- uid: System.IEquatable{SuperOffice.Data.Dictionary.SoTable}.Equals(SuperOffice.Data.Dictionary.SoTable)
-  commentId: M:System.IEquatable{SuperOffice.Data.Dictionary.SoTable}.Equals(SuperOffice.Data.Dictionary.SoTable)
-  parent: System.IEquatable{SuperOffice.Data.Dictionary.SoTable}
-  definition: System.IEquatable`1.Equals(`0)
-  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
-  name: Equals(SoTable)
-  nameWithType: IEquatable<SoTable>.Equals(SoTable)
-  fullName: System.IEquatable<SuperOffice.Data.Dictionary.SoTable>.Equals(SuperOffice.Data.Dictionary.SoTable)
-  nameWithType.vb: IEquatable(Of SoTable).Equals(SoTable)
-  fullName.vb: System.IEquatable(Of SuperOffice.Data.Dictionary.SoTable).Equals(SuperOffice.Data.Dictionary.SoTable)
-  spec.csharp:
-  - uid: System.IEquatable{SuperOffice.Data.Dictionary.SoTable}.Equals(SuperOffice.Data.Dictionary.SoTable)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
-  - name: (
-  - uid: SuperOffice.Data.Dictionary.SoTable
-    name: SoTable
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html
-  - name: )
-  spec.vb:
-  - uid: System.IEquatable{SuperOffice.Data.Dictionary.SoTable}.Equals(SuperOffice.Data.Dictionary.SoTable)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
-  - name: (
-  - uid: SuperOffice.Data.Dictionary.SoTable
-    name: SoTable
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html
-  - name: )
-- uid: System.IEquatable`1.Equals(`0)
-  commentId: M:System.IEquatable`1.Equals(`0)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
-  name: Equals(T)
-  nameWithType: IEquatable<T>.Equals(T)
-  fullName: System.IEquatable<T>.Equals(T)
-  nameWithType.vb: IEquatable(Of T).Equals(T)
-  fullName.vb: System.IEquatable(Of T).Equals(T)
-  spec.csharp:
-  - uid: System.IEquatable`1.Equals(`0)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: System.IEquatable`1.Equals(`0)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
-  - name: (
-  - name: T
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
 - uid: SuperOffice.Data.Dictionary.SoTable.op_Equality*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.op_Equality
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_op_Equality_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_
-  name: operator ==
-  nameWithType: SoTable.operator ==
-  fullName: SuperOffice.Data.Dictionary.SoTable.operator ==
-  nameWithType.vb: SoTable.=
-  fullName.vb: SuperOffice.Data.Dictionary.SoTable.=
-  name.vb: =
-  spec.csharp:
-  - name: operator
-  - name: " "
-  - uid: SuperOffice.Data.Dictionary.SoTable.op_Equality*
-    name: ==
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_op_Equality_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_
+  name: Equality
+  nameWithType: SoTable.Equality
+  fullName: SuperOffice.Data.Dictionary.SoTable.Equality
 - uid: SuperOffice.Data.Dictionary.SoTable.op_Inequality*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.op_Inequality
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_op_Inequality_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_
-  name: operator !=
-  nameWithType: SoTable.operator !=
-  fullName: SuperOffice.Data.Dictionary.SoTable.operator !=
-  nameWithType.vb: SoTable.<>
-  fullName.vb: SuperOffice.Data.Dictionary.SoTable.<>
-  name.vb: <>
-  spec.csharp:
-  - name: operator
-  - name: " "
-  - uid: SuperOffice.Data.Dictionary.SoTable.op_Inequality*
-    name: '!='
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_op_Inequality_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
+  name: Inequality
+  nameWithType: SoTable.Inequality
+  fullName: SuperOffice.Data.Dictionary.SoTable.Inequality
 - uid: SuperOffice.Data.Dictionary.SoTable.GetHashCode*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.GetHashCode
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_GetHashCode
   name: GetHashCode
   nameWithType: SoTable.GetHashCode
   fullName: SuperOffice.Data.Dictionary.SoTable.GetHashCode
@@ -2080,209 +1946,233 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.Dictionary.SoTable.AdditionalValues*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.AdditionalValues
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_AdditionalValues
   name: AdditionalValues
   nameWithType: SoTable.AdditionalValues
   fullName: SuperOffice.Data.Dictionary.SoTable.AdditionalValues
 - uid: System.Collections.Generic.Dictionary{System.String,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
   definition: System.Collections.Generic.Dictionary`2
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<string, string>
-  nameWithType: Dictionary<string, string>
-  fullName: System.Collections.Generic.Dictionary<string, string>
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
   nameWithType.vb: Dictionary(Of String, String)
-  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
   name.vb: Dictionary(Of String, String)
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Dictionary.SoTable.PrivacyTags*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.PrivacyTags
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_PrivacyTags
   name: PrivacyTags
   nameWithType: SoTable.PrivacyTags
   fullName: SuperOffice.Data.Dictionary.SoTable.PrivacyTags
 - uid: System.Collections.Generic.HashSet{System.String}
-  commentId: T:System.Collections.Generic.HashSet{System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.HashSet{System.String}'
   definition: System.Collections.Generic.HashSet`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
-  name: HashSet<string>
-  nameWithType: HashSet<string>
-  fullName: System.Collections.Generic.HashSet<string>
+  name: HashSet<String>
+  nameWithType: HashSet<String>
+  fullName: System.Collections.Generic.HashSet<System.String>
   nameWithType.vb: HashSet(Of String)
-  fullName.vb: System.Collections.Generic.HashSet(Of String)
+  fullName.vb: System.Collections.Generic.HashSet(Of System.String)
   name.vb: HashSet(Of String)
   spec.csharp:
   - uid: System.Collections.Generic.HashSet`1
     name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.HashSet`1
     name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.HashSet`1
-  commentId: T:System.Collections.Generic.HashSet`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
-  name: HashSet<T>
-  nameWithType: HashSet<T>
-  fullName: System.Collections.Generic.HashSet<T>
-  nameWithType.vb: HashSet(Of T)
-  fullName.vb: System.Collections.Generic.HashSet(Of T)
-  name.vb: HashSet(Of T)
+  name: HashSet<>
+  nameWithType: HashSet<>
+  fullName: System.Collections.Generic.HashSet<>
+  nameWithType.vb: HashSet(Of )
+  fullName.vb: System.Collections.Generic.HashSet(Of )
+  name.vb: HashSet(Of )
   spec.csharp:
   - uid: System.Collections.Generic.HashSet`1
     name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.HashSet`1
     name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Dictionary.SoTable.Item*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.Item
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_Item_System_Int32_
-  name: this
-  nameWithType: SoTable.this
-  fullName: SuperOffice.Data.Dictionary.SoTable.this
-  nameWithType.vb: SoTable.this[]
-  fullName.vb: SuperOffice.Data.Dictionary.SoTable.this[]
-  name.vb: this[]
+  name: Item
+  nameWithType: SoTable.Item
+  fullName: SuperOffice.Data.Dictionary.SoTable.Item
 - uid: SuperOffice.Data.Dictionary.SoField
   commentId: T:SuperOffice.Data.Dictionary.SoField
   parent: SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoField.html
   name: SoField
   nameWithType: SoField
   fullName: SuperOffice.Data.Dictionary.SoField
-- uid: SuperOffice.Data.Dictionary.CodeGenerationState
-  commentId: T:SuperOffice.Data.Dictionary.CodeGenerationState
-  parent: SuperOffice.Data.Dictionary
-  isExternal: true
-  href: SuperOffice.Data.Dictionary.CodeGenerationState.html
-  name: CodeGenerationState
-  nameWithType: CodeGenerationState
-  fullName: SuperOffice.Data.Dictionary.CodeGenerationState
 - uid: SuperOffice.Data.Dictionary.SoTable.AdditionalFields*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.AdditionalFields
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_AdditionalFields
   name: AdditionalFields
   nameWithType: SoTable.AdditionalFields
   fullName: SuperOffice.Data.Dictionary.SoTable.AdditionalFields
 - uid: System.Collections.Generic.List{SuperOffice.Data.Dictionary.SoField}
-  commentId: T:System.Collections.Generic.List{SuperOffice.Data.Dictionary.SoField}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.Data.Dictionary.SoField}'
   definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<SoField>
   nameWithType: List<SoField>
   fullName: System.Collections.Generic.List<SuperOffice.Data.Dictionary.SoField>
@@ -2292,94 +2182,109 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.FieldInfo
   commentId: T:SuperOffice.Data.SQL.FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.FieldInfo.html
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
 - uid: SuperOffice.Data.Dictionary.SoTable.NumFields*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.NumFields
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_NumFields
   name: NumFields
   nameWithType: SoTable.NumFields
   fullName: SuperOffice.Data.Dictionary.SoTable.NumFields
 - uid: SuperOffice.Data.Dictionary.SoTable.GenerationState*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.GenerationState
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_GenerationState
   name: GenerationState
   nameWithType: SoTable.GenerationState
   fullName: SuperOffice.Data.Dictionary.SoTable.GenerationState
-- uid: SuperOffice.Data.Dictionary.SoTable.AdditionalFields
-  commentId: P:SuperOffice.Data.Dictionary.SoTable.AdditionalFields
+- uid: SuperOffice.Data.Dictionary.CodeGenerationState
+  commentId: T:SuperOffice.Data.Dictionary.CodeGenerationState
+  parent: SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_AdditionalFields
-  name: AdditionalFields
-  nameWithType: SoTable.AdditionalFields
-  fullName: SuperOffice.Data.Dictionary.SoTable.AdditionalFields
+  name: CodeGenerationState
+  nameWithType: CodeGenerationState
+  fullName: SuperOffice.Data.Dictionary.CodeGenerationState
 - uid: SuperOffice.Data.Dictionary.SoTable.Fields*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.Fields
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_Fields
   name: Fields
   nameWithType: SoTable.Fields
   fullName: SuperOffice.Data.Dictionary.SoTable.Fields
 - uid: SuperOffice.Data.Dictionary.SoField[]
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoField.html
   name: SoField[]
   nameWithType: SoField[]
   fullName: SuperOffice.Data.Dictionary.SoField[]
@@ -2389,29 +2294,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.Data.Dictionary.SoTable.HashCheckFields*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.HashCheckFields
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_HashCheckFields
   name: HashCheckFields
   nameWithType: SoTable.HashCheckFields
   fullName: SuperOffice.Data.Dictionary.SoTable.HashCheckFields
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.Dictionary.SoField}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.Dictionary.SoField}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.Dictionary.SoField}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<SoField>
   nameWithType: IEnumerable<SoField>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.Dictionary.SoField>
@@ -2421,164 +2327,130 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Dictionary.SoTable.Name*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.Name
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_Name
   name: Name
   nameWithType: SoTable.Name
   fullName: SuperOffice.Data.Dictionary.SoTable.Name
 - uid: SuperOffice.Data.Dictionary.SoTable.DbName*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.DbName
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_DbName
   name: DbName
   nameWithType: SoTable.DbName
   fullName: SuperOffice.Data.Dictionary.SoTable.DbName
-- uid: SuperOffice.Data.Dictionary.SoTable.SequenceId
-  commentId: P:SuperOffice.Data.Dictionary.SoTable.SequenceId
-  isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_SequenceId
-  name: SequenceId
-  nameWithType: SoTable.SequenceId
-  fullName: SuperOffice.Data.Dictionary.SoTable.SequenceId
 - uid: SuperOffice.Data.Dictionary.SoTable.TableNumber*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.TableNumber
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_TableNumber
-  name: TableNumber
-  nameWithType: SoTable.TableNumber
-  fullName: SuperOffice.Data.Dictionary.SoTable.TableNumber
-- uid: SuperOffice.Data.Dictionary.SoTable.TableNumber
-  commentId: P:SuperOffice.Data.Dictionary.SoTable.TableNumber
-  isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_TableNumber
   name: TableNumber
   nameWithType: SoTable.TableNumber
   fullName: SuperOffice.Data.Dictionary.SoTable.TableNumber
 - uid: SuperOffice.Data.Dictionary.SoTable.SequenceId*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.SequenceId
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_SequenceId
   name: SequenceId
   nameWithType: SoTable.SequenceId
   fullName: SuperOffice.Data.Dictionary.SoTable.SequenceId
 - uid: SuperOffice.Data.Dictionary.SoTable.FreetextIndex*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.FreetextIndex
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_FreetextIndex
   name: FreetextIndex
   nameWithType: SoTable.FreetextIndex
   fullName: SuperOffice.Data.Dictionary.SoTable.FreetextIndex
 - uid: SuperOffice.Data.Dictionary.SoTable.FieldLevelLogging*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.FieldLevelLogging
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_FieldLevelLogging
   name: FieldLevelLogging
   nameWithType: SoTable.FieldLevelLogging
   fullName: SuperOffice.Data.Dictionary.SoTable.FieldLevelLogging
 - uid: SuperOffice.Data.Dictionary.SoTable.ReplicateDown*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.ReplicateDown
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_ReplicateDown
   name: ReplicateDown
   nameWithType: SoTable.ReplicateDown
   fullName: SuperOffice.Data.Dictionary.SoTable.ReplicateDown
 - uid: SuperOffice.Data.Dictionary.SoTable.ReplicateUp*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.ReplicateUp
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_ReplicateUp
   name: ReplicateUp
   nameWithType: SoTable.ReplicateUp
   fullName: SuperOffice.Data.Dictionary.SoTable.ReplicateUp
 - uid: SuperOffice.Data.Dictionary.SoTable.ReplicateAreaManagement*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.ReplicateAreaManagement
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_ReplicateAreaManagement
   name: ReplicateAreaManagement
   nameWithType: SoTable.ReplicateAreaManagement
   fullName: SuperOffice.Data.Dictionary.SoTable.ReplicateAreaManagement
 - uid: SuperOffice.Data.Dictionary.SoTable.ReplicatePrototype*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.ReplicatePrototype
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_ReplicatePrototype
   name: ReplicatePrototype
   nameWithType: SoTable.ReplicatePrototype
   fullName: SuperOffice.Data.Dictionary.SoTable.ReplicatePrototype
 - uid: SuperOffice.Data.Dictionary.SoTable.DoNotReplicate*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.DoNotReplicate
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_DoNotReplicate
   name: DoNotReplicate
   nameWithType: SoTable.DoNotReplicate
   fullName: SuperOffice.Data.Dictionary.SoTable.DoNotReplicate
 - uid: SuperOffice.Data.Dictionary.SoTable.KeepInCache*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.KeepInCache
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_KeepInCache
   name: KeepInCache
   nameWithType: SoTable.KeepInCache
   fullName: SuperOffice.Data.Dictionary.SoTable.KeepInCache
 - uid: SuperOffice.Data.Dictionary.SoTable.SystemTable*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.SystemTable
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_SystemTable
   name: SystemTable
   nameWithType: SoTable.SystemTable
   fullName: SuperOffice.Data.Dictionary.SoTable.SystemTable
 - uid: SuperOffice.Data.Dictionary.SoTable.TravelTransactionLog*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.TravelTransactionLog
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_TravelTransactionLog
   name: TravelTransactionLog
   nameWithType: SoTable.TravelTransactionLog
   fullName: SuperOffice.Data.Dictionary.SoTable.TravelTransactionLog
-- uid: SuperOffice.Data.Dictionary.SoTable.MDOListInfo
-  commentId: P:SuperOffice.Data.Dictionary.SoTable.MDOListInfo
-  isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_MDOListInfo
-  name: MDOListInfo
-  nameWithType: SoTable.MDOListInfo
-  fullName: SuperOffice.Data.Dictionary.SoTable.MDOListInfo
 - uid: SuperOffice.Data.Dictionary.SoTable.IsMDOList*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.IsMDOList
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_IsMDOList
-  name: IsMDOList
-  nameWithType: SoTable.IsMDOList
-  fullName: SuperOffice.Data.Dictionary.SoTable.IsMDOList
-- uid: SuperOffice.Data.Dictionary.SoTable.IsMDOList
-  commentId: P:SuperOffice.Data.Dictionary.SoTable.IsMDOList
-  isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_IsMDOList
   name: IsMDOList
   nameWithType: SoTable.IsMDOList
   fullName: SuperOffice.Data.Dictionary.SoTable.IsMDOList
 - uid: SuperOffice.Data.Dictionary.SoTable.MDOListInfo*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.MDOListInfo
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_MDOListInfo
   name: MDOListInfo
   nameWithType: SoTable.MDOListInfo
   fullName: SuperOffice.Data.Dictionary.SoTable.MDOListInfo
@@ -2586,72 +2458,53 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.ListInfo
   parent: SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.Data.Dictionary.ListInfo.html
   name: ListInfo
   nameWithType: ListInfo
   fullName: SuperOffice.Data.Dictionary.ListInfo
 - uid: SuperOffice.Data.Dictionary.SoTable.HasSoftDelete*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.HasSoftDelete
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_HasSoftDelete
   name: HasSoftDelete
   nameWithType: SoTable.HasSoftDelete
   fullName: SuperOffice.Data.Dictionary.SoTable.HasSoftDelete
 - uid: SuperOffice.Data.Dictionary.SoTable.SoftDeletedDate*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.SoftDeletedDate
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_SoftDeletedDate
   name: SoftDeletedDate
   nameWithType: SoTable.SoftDeletedDate
   fullName: SuperOffice.Data.Dictionary.SoTable.SoftDeletedDate
 - uid: SuperOffice.Data.Dictionary.SoTable.AutoGenerateGuid*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.AutoGenerateGuid
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_AutoGenerateGuid
   name: AutoGenerateGuid
   nameWithType: SoTable.AutoGenerateGuid
   fullName: SuperOffice.Data.Dictionary.SoTable.AutoGenerateGuid
 - uid: SuperOffice.Data.Dictionary.SoTable.TempTableCreationStamp*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.TempTableCreationStamp
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_TempTableCreationStamp
   name: TempTableCreationStamp
   nameWithType: SoTable.TempTableCreationStamp
   fullName: SuperOffice.Data.Dictionary.SoTable.TempTableCreationStamp
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.Data.Dictionary.SoTable.DisplayName*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.DisplayName
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_DisplayName
   name: DisplayName
   nameWithType: SoTable.DisplayName
   fullName: SuperOffice.Data.Dictionary.SoTable.DisplayName
 - uid: SuperOffice.Data.Dictionary.SoTable.DisplayDescription*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.DisplayDescription
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_DisplayDescription
   name: DisplayDescription
   nameWithType: SoTable.DisplayDescription
   fullName: SuperOffice.Data.Dictionary.SoTable.DisplayDescription
-- uid: SuperOffice.CD.DSL.PhysicalDatabase.DatabaseManagement
-  isExternal: true
-  name: DatabaseManagement
-  nameWithType: DatabaseManagement
-  fullName: SuperOffice.CD.DSL.PhysicalDatabase.DatabaseManagement
 - uid: SuperOffice.Data.Dictionary.SoTable.Block*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.Block
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_Block
   name: Block
   nameWithType: SoTable.Block
   fullName: SuperOffice.Data.Dictionary.SoTable.Block
@@ -2659,34 +2512,12 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable.BlockKind
   parent: SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable.BlockKind
   nameWithType: SoTable.BlockKind
   fullName: SuperOffice.Data.Dictionary.SoTable.BlockKind
-  spec.csharp:
-  - uid: SuperOffice.Data.Dictionary.SoTable
-    name: SoTable
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary.SoTable.BlockKind
-    name: BlockKind
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.BlockKind.html
-  spec.vb:
-  - uid: SuperOffice.Data.Dictionary.SoTable
-    name: SoTable
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary.SoTable.BlockKind
-    name: BlockKind
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.BlockKind.html
 - uid: SuperOffice.Data.Dictionary.SoTable.Kind*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.Kind
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_Kind
   name: Kind
   nameWithType: SoTable.Kind
   fullName: SuperOffice.Data.Dictionary.SoTable.Kind
@@ -2694,34 +2525,12 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable.TableKind
   parent: SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable.TableKind
   nameWithType: SoTable.TableKind
   fullName: SuperOffice.Data.Dictionary.SoTable.TableKind
-  spec.csharp:
-  - uid: SuperOffice.Data.Dictionary.SoTable
-    name: SoTable
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary.SoTable.TableKind
-    name: TableKind
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.TableKind.html
-  spec.vb:
-  - uid: SuperOffice.Data.Dictionary.SoTable
-    name: SoTable
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary.SoTable.TableKind
-    name: TableKind
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.SoTable.TableKind.html
 - uid: SuperOffice.Data.Dictionary.SoTable.HasTextExtensions*
   commentId: Overload:SuperOffice.Data.Dictionary.SoTable.HasTextExtensions
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html#SuperOffice_Data_Dictionary_SoTable_HasTextExtensions
   name: HasTextExtensions
   nameWithType: SoTable.HasTextExtensions
   fullName: SuperOffice.Data.Dictionary.SoTable.HasTextExtensions

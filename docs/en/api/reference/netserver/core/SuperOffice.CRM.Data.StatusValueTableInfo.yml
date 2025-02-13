@@ -46,21 +46,14 @@ items:
   nameWithType: StatusValueTableInfo
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "Table 'StatusValue': Values for statuses"
-  remarks: >-
-    An instance of this class represents one instance of this table in an SQL statement. In most
-
-    cases each table appears only once in a SELECT, but in cases where you need to self-join, or
-
-    there are multiple occurrences for other reasons (typically additional restrictions in the joins),
-
-    then you will need multiple instances. <br />
-
-    Instances of this class are created by calling TablesInfo.GetStatusValueInfo().
-  example: []
+  summary: "\nTable &apos;StatusValue&apos;: Values for statuses\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetStatusValueInfo()\"></see>.\n"
   syntax:
     content: >-
       [DatabaseTable("StatusValue")]
@@ -69,7 +62,9 @@ items:
     content.vb: >-
       <DatabaseTable("StatusValue")>
 
-      Public Class StatusValueTableInfo Inherits TableInfo Implements ICloneable
+      Public Class StatusValueTableInfo
+          Inherits TableInfo
+          Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.Data.SQL.TableInfo
@@ -90,12 +85,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.StatusValueTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.StatusValueTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -105,6 +94,12 @@ items:
     arguments:
     - type: System.String
       value: StatusValue
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.DictionaryTableName
   commentId: F:SuperOffice.CRM.Data.StatusValueTableInfo.DictionaryTableName
   id: DictionaryTableName
@@ -116,16 +111,24 @@ items:
   nameWithType: StatusValueTableInfo.DictionaryTableName
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.DictionaryTableName
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Conceptual name of table StatusValue in the database dictionary: StatusValue'
-  example: []
+  summary: "\nConceptual name of table StatusValue in the database dictionary: StatusValue\n"
   syntax:
     content: public const string DictionaryTableName = "StatusValue"
     return:
       type: System.String
     content.vb: Public Const DictionaryTableName As String = "StatusValue"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IdxContactId(System.Int32)
   commentId: M:SuperOffice.CRM.Data.StatusValueTableInfo.IdxContactId(System.Int32)
   id: IdxContactId(System.Int32)
@@ -133,18 +136,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxContactId(int)
-  nameWithType: StatusValueTableInfo.IdxContactId(int)
-  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxContactId(int)
+  name: IdxContactId(Int32)
+  nameWithType: StatusValueTableInfo.IdxContactId(Int32)
+  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxContactId(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index ContactId, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">ContactId</td><td class="description">Link to contact, 0 if this status is not for contacts</td></tr></tbody></table>
-  example: []
+  summary: "\nShortcut method for looking up using the database index ContactId, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>ContactId</td><td>Link to contact, 0 if this status is not for contacts</td></tr></tbody></table>\n"
   syntax:
     content: public Restriction IdxContactId(int contactId)
     parameters:
@@ -154,9 +156,10 @@ items:
       type: SuperOffice.Data.SQL.Restriction
     content.vb: Public Function IdxContactId(contactId As Integer) As Restriction
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.IdxContactId*
-  nameWithType.vb: StatusValueTableInfo.IdxContactId(Integer)
-  fullName.vb: SuperOffice.CRM.Data.StatusValueTableInfo.IdxContactId(Integer)
-  name.vb: IdxContactId(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IdxContactIdIsSignalled(System.Int32,System.Int16)
   commentId: M:SuperOffice.CRM.Data.StatusValueTableInfo.IdxContactIdIsSignalled(System.Int32,System.Int16)
   id: IdxContactIdIsSignalled(System.Int32,System.Int16)
@@ -164,18 +167,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxContactIdIsSignalled(int, short)
-  nameWithType: StatusValueTableInfo.IdxContactIdIsSignalled(int, short)
-  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxContactIdIsSignalled(int, short)
+  name: IdxContactIdIsSignalled(Int32, Int16)
+  nameWithType: StatusValueTableInfo.IdxContactIdIsSignalled(Int32, Int16)
+  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxContactIdIsSignalled(System.Int32, System.Int16)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index ContactIdIsSignalled, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">ContactId</td><td class="description">Link to contact, 0 if this status is not for contacts</td></tr><tr><td class="term">IsSignalled</td><td class="description">1 = this status is 'true', and the GUI should display it</td></tr></tbody></table>
-  example: []
+  summary: "\nShortcut method for looking up using the database index ContactIdIsSignalled, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>ContactId</td><td>Link to contact, 0 if this status is not for contacts</td></tr><tr><td>IsSignalled</td><td>1 = this status is &apos;true&apos;, and the GUI should display it</td></tr></tbody></table>\n"
   syntax:
     content: public Restriction IdxContactIdIsSignalled(int contactId, short isSignalled)
     parameters:
@@ -187,9 +189,10 @@ items:
       type: SuperOffice.Data.SQL.Restriction
     content.vb: Public Function IdxContactIdIsSignalled(contactId As Integer, isSignalled As Short) As Restriction
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.IdxContactIdIsSignalled*
-  nameWithType.vb: StatusValueTableInfo.IdxContactIdIsSignalled(Integer, Short)
-  fullName.vb: SuperOffice.CRM.Data.StatusValueTableInfo.IdxContactIdIsSignalled(Integer, Short)
-  name.vb: IdxContactIdIsSignalled(Integer, Short)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IdxPersonId(System.Int32)
   commentId: M:SuperOffice.CRM.Data.StatusValueTableInfo.IdxPersonId(System.Int32)
   id: IdxPersonId(System.Int32)
@@ -197,18 +200,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxPersonId(int)
-  nameWithType: StatusValueTableInfo.IdxPersonId(int)
-  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxPersonId(int)
+  name: IdxPersonId(Int32)
+  nameWithType: StatusValueTableInfo.IdxPersonId(Int32)
+  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxPersonId(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index PersonId, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">PersonId</td><td class="description">Link to person, 0 if this status is not for person (always 0 in 6.0)</td></tr></tbody></table>
-  example: []
+  summary: "\nShortcut method for looking up using the database index PersonId, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>PersonId</td><td>Link to person, 0 if this status is not for person (always 0 in 6.0)</td></tr></tbody></table>\n"
   syntax:
     content: public Restriction IdxPersonId(int personId)
     parameters:
@@ -218,9 +220,10 @@ items:
       type: SuperOffice.Data.SQL.Restriction
     content.vb: Public Function IdxPersonId(personId As Integer) As Restriction
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.IdxPersonId*
-  nameWithType.vb: StatusValueTableInfo.IdxPersonId(Integer)
-  fullName.vb: SuperOffice.CRM.Data.StatusValueTableInfo.IdxPersonId(Integer)
-  name.vb: IdxPersonId(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IdxPersonIdIsSignalled(System.Int32,System.Int16)
   commentId: M:SuperOffice.CRM.Data.StatusValueTableInfo.IdxPersonIdIsSignalled(System.Int32,System.Int16)
   id: IdxPersonIdIsSignalled(System.Int32,System.Int16)
@@ -228,18 +231,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxPersonIdIsSignalled(int, short)
-  nameWithType: StatusValueTableInfo.IdxPersonIdIsSignalled(int, short)
-  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxPersonIdIsSignalled(int, short)
+  name: IdxPersonIdIsSignalled(Int32, Int16)
+  nameWithType: StatusValueTableInfo.IdxPersonIdIsSignalled(Int32, Int16)
+  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxPersonIdIsSignalled(System.Int32, System.Int16)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index PersonIdIsSignalled, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">PersonId</td><td class="description">Link to person, 0 if this status is not for person (always 0 in 6.0)</td></tr><tr><td class="term">IsSignalled</td><td class="description">1 = this status is 'true', and the GUI should display it</td></tr></tbody></table>
-  example: []
+  summary: "\nShortcut method for looking up using the database index PersonIdIsSignalled, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>PersonId</td><td>Link to person, 0 if this status is not for person (always 0 in 6.0)</td></tr><tr><td>IsSignalled</td><td>1 = this status is &apos;true&apos;, and the GUI should display it</td></tr></tbody></table>\n"
   syntax:
     content: public Restriction IdxPersonIdIsSignalled(int personId, short isSignalled)
     parameters:
@@ -251,9 +253,10 @@ items:
       type: SuperOffice.Data.SQL.Restriction
     content.vb: Public Function IdxPersonIdIsSignalled(personId As Integer, isSignalled As Short) As Restriction
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.IdxPersonIdIsSignalled*
-  nameWithType.vb: StatusValueTableInfo.IdxPersonIdIsSignalled(Integer, Short)
-  fullName.vb: SuperOffice.CRM.Data.StatusValueTableInfo.IdxPersonIdIsSignalled(Integer, Short)
-  name.vb: IdxPersonIdIsSignalled(Integer, Short)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IdxProjectId(System.Int32)
   commentId: M:SuperOffice.CRM.Data.StatusValueTableInfo.IdxProjectId(System.Int32)
   id: IdxProjectId(System.Int32)
@@ -261,18 +264,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxProjectId(int)
-  nameWithType: StatusValueTableInfo.IdxProjectId(int)
-  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxProjectId(int)
+  name: IdxProjectId(Int32)
+  nameWithType: StatusValueTableInfo.IdxProjectId(Int32)
+  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxProjectId(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index ProjectId, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">ProjectId</td><td class="description">Link to project, 0 if this status is not for project</td></tr></tbody></table>
-  example: []
+  summary: "\nShortcut method for looking up using the database index ProjectId, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>ProjectId</td><td>Link to project, 0 if this status is not for project</td></tr></tbody></table>\n"
   syntax:
     content: public Restriction IdxProjectId(int projectId)
     parameters:
@@ -282,9 +284,10 @@ items:
       type: SuperOffice.Data.SQL.Restriction
     content.vb: Public Function IdxProjectId(projectId As Integer) As Restriction
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.IdxProjectId*
-  nameWithType.vb: StatusValueTableInfo.IdxProjectId(Integer)
-  fullName.vb: SuperOffice.CRM.Data.StatusValueTableInfo.IdxProjectId(Integer)
-  name.vb: IdxProjectId(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IdxProjectIdIsSignalled(System.Int32,System.Int16)
   commentId: M:SuperOffice.CRM.Data.StatusValueTableInfo.IdxProjectIdIsSignalled(System.Int32,System.Int16)
   id: IdxProjectIdIsSignalled(System.Int32,System.Int16)
@@ -292,18 +295,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxProjectIdIsSignalled(int, short)
-  nameWithType: StatusValueTableInfo.IdxProjectIdIsSignalled(int, short)
-  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxProjectIdIsSignalled(int, short)
+  name: IdxProjectIdIsSignalled(Int32, Int16)
+  nameWithType: StatusValueTableInfo.IdxProjectIdIsSignalled(Int32, Int16)
+  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxProjectIdIsSignalled(System.Int32, System.Int16)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index ProjectIdIsSignalled, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">ProjectId</td><td class="description">Link to project, 0 if this status is not for project</td></tr><tr><td class="term">IsSignalled</td><td class="description">1 = this status is 'true', and the GUI should display it</td></tr></tbody></table>
-  example: []
+  summary: "\nShortcut method for looking up using the database index ProjectIdIsSignalled, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>ProjectId</td><td>Link to project, 0 if this status is not for project</td></tr><tr><td>IsSignalled</td><td>1 = this status is &apos;true&apos;, and the GUI should display it</td></tr></tbody></table>\n"
   syntax:
     content: public Restriction IdxProjectIdIsSignalled(int projectId, short isSignalled)
     parameters:
@@ -315,9 +317,10 @@ items:
       type: SuperOffice.Data.SQL.Restriction
     content.vb: Public Function IdxProjectIdIsSignalled(projectId As Integer, isSignalled As Short) As Restriction
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.IdxProjectIdIsSignalled*
-  nameWithType.vb: StatusValueTableInfo.IdxProjectIdIsSignalled(Integer, Short)
-  fullName.vb: SuperOffice.CRM.Data.StatusValueTableInfo.IdxProjectIdIsSignalled(Integer, Short)
-  name.vb: IdxProjectIdIsSignalled(Integer, Short)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra1Id(System.Int32)
   commentId: M:SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra1Id(System.Int32)
   id: IdxExtra1Id(System.Int32)
@@ -325,18 +328,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxExtra1Id(int)
-  nameWithType: StatusValueTableInfo.IdxExtra1Id(int)
-  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra1Id(int)
+  name: IdxExtra1Id(Int32)
+  nameWithType: StatusValueTableInfo.IdxExtra1Id(Int32)
+  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra1Id(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index Extra1Id, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">Extra1Id</td><td class="description">Spare ID for future links</td></tr></tbody></table>
-  example: []
+  summary: "\nShortcut method for looking up using the database index Extra1Id, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Extra1Id</td><td>Spare ID for future links</td></tr></tbody></table>\n"
   syntax:
     content: public Restriction IdxExtra1Id(int extra1Id)
     parameters:
@@ -346,9 +348,10 @@ items:
       type: SuperOffice.Data.SQL.Restriction
     content.vb: Public Function IdxExtra1Id(extra1Id As Integer) As Restriction
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra1Id*
-  nameWithType.vb: StatusValueTableInfo.IdxExtra1Id(Integer)
-  fullName.vb: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra1Id(Integer)
-  name.vb: IdxExtra1Id(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra1IdIsSignalled(System.Int32,System.Int16)
   commentId: M:SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra1IdIsSignalled(System.Int32,System.Int16)
   id: IdxExtra1IdIsSignalled(System.Int32,System.Int16)
@@ -356,18 +359,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxExtra1IdIsSignalled(int, short)
-  nameWithType: StatusValueTableInfo.IdxExtra1IdIsSignalled(int, short)
-  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra1IdIsSignalled(int, short)
+  name: IdxExtra1IdIsSignalled(Int32, Int16)
+  nameWithType: StatusValueTableInfo.IdxExtra1IdIsSignalled(Int32, Int16)
+  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra1IdIsSignalled(System.Int32, System.Int16)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index Extra1IdIsSignalled, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">Extra1Id</td><td class="description">Spare ID for future links</td></tr><tr><td class="term">IsSignalled</td><td class="description">1 = this status is 'true', and the GUI should display it</td></tr></tbody></table>
-  example: []
+  summary: "\nShortcut method for looking up using the database index Extra1IdIsSignalled, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Extra1Id</td><td>Spare ID for future links</td></tr><tr><td>IsSignalled</td><td>1 = this status is &apos;true&apos;, and the GUI should display it</td></tr></tbody></table>\n"
   syntax:
     content: public Restriction IdxExtra1IdIsSignalled(int extra1Id, short isSignalled)
     parameters:
@@ -379,9 +381,10 @@ items:
       type: SuperOffice.Data.SQL.Restriction
     content.vb: Public Function IdxExtra1IdIsSignalled(extra1Id As Integer, isSignalled As Short) As Restriction
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra1IdIsSignalled*
-  nameWithType.vb: StatusValueTableInfo.IdxExtra1IdIsSignalled(Integer, Short)
-  fullName.vb: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra1IdIsSignalled(Integer, Short)
-  name.vb: IdxExtra1IdIsSignalled(Integer, Short)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra2Id(System.Int32)
   commentId: M:SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra2Id(System.Int32)
   id: IdxExtra2Id(System.Int32)
@@ -389,18 +392,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxExtra2Id(int)
-  nameWithType: StatusValueTableInfo.IdxExtra2Id(int)
-  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra2Id(int)
+  name: IdxExtra2Id(Int32)
+  nameWithType: StatusValueTableInfo.IdxExtra2Id(Int32)
+  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra2Id(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index Extra2Id, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">Extra2Id</td><td class="description">Spare ID for future links</td></tr></tbody></table>
-  example: []
+  summary: "\nShortcut method for looking up using the database index Extra2Id, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Extra2Id</td><td>Spare ID for future links</td></tr></tbody></table>\n"
   syntax:
     content: public Restriction IdxExtra2Id(int extra2Id)
     parameters:
@@ -410,9 +412,10 @@ items:
       type: SuperOffice.Data.SQL.Restriction
     content.vb: Public Function IdxExtra2Id(extra2Id As Integer) As Restriction
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra2Id*
-  nameWithType.vb: StatusValueTableInfo.IdxExtra2Id(Integer)
-  fullName.vb: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra2Id(Integer)
-  name.vb: IdxExtra2Id(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra2IdIsSignalled(System.Int32,System.Int16)
   commentId: M:SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra2IdIsSignalled(System.Int32,System.Int16)
   id: IdxExtra2IdIsSignalled(System.Int32,System.Int16)
@@ -420,18 +423,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxExtra2IdIsSignalled(int, short)
-  nameWithType: StatusValueTableInfo.IdxExtra2IdIsSignalled(int, short)
-  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra2IdIsSignalled(int, short)
+  name: IdxExtra2IdIsSignalled(Int32, Int16)
+  nameWithType: StatusValueTableInfo.IdxExtra2IdIsSignalled(Int32, Int16)
+  fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra2IdIsSignalled(System.Int32, System.Int16)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index Extra2IdIsSignalled, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">Extra2Id</td><td class="description">Spare ID for future links</td></tr><tr><td class="term">IsSignalled</td><td class="description">1 = this status is 'true', and the GUI should display it</td></tr></tbody></table>
-  example: []
+  summary: "\nShortcut method for looking up using the database index Extra2IdIsSignalled, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Extra2Id</td><td>Spare ID for future links</td></tr><tr><td>IsSignalled</td><td>1 = this status is &apos;true&apos;, and the GUI should display it</td></tr></tbody></table>\n"
   syntax:
     content: public Restriction IdxExtra2IdIsSignalled(int extra2Id, short isSignalled)
     parameters:
@@ -443,9 +445,10 @@ items:
       type: SuperOffice.Data.SQL.Restriction
     content.vb: Public Function IdxExtra2IdIsSignalled(extra2Id As Integer, isSignalled As Short) As Restriction
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra2IdIsSignalled*
-  nameWithType.vb: StatusValueTableInfo.IdxExtra2IdIsSignalled(Integer, Short)
-  fullName.vb: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra2IdIsSignalled(Integer, Short)
-  name.vb: IdxExtra2IdIsSignalled(Integer, Short)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -457,14 +460,13 @@ items:
   nameWithType: StatusValueTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.DictionaryTableNumber
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Table number for table StatusValue in the database dictionary; potentially changes between databases, but
-
-    always the same over the lifetime of any single database
-  example: []
+  summary: "\nTable number for table StatusValue in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
   syntax:
     content: public int DictionaryTableNumber { get; }
     parameters: []
@@ -472,6 +474,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.RuntimeDefinition
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.RuntimeDefinition
   id: RuntimeDefinition
@@ -483,32 +491,28 @@ items:
   nameWithType: StatusValueTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.RuntimeDefinition
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Definition of the table as described in the deployed runtime dictionary
-  example: []
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.Definition
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.Definition
   id: Definition
@@ -520,11 +524,13 @@ items:
   nameWithType: StatusValueTableInfo.Definition
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.Definition
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Definition of the table as described in the deployed runtime dictionary
-  example: []
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
     content: public override SoTable Definition { get; }
     parameters: []
@@ -533,6 +539,14 @@ items:
     content.vb: Public Overrides ReadOnly Property Definition As SoTable
   overridden: SuperOffice.Data.SQL.TableInfo.Definition
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.StatusValueId
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.StatusValueId
   id: StatusValueId
@@ -544,14 +558,13 @@ items:
   nameWithType: StatusValueTableInfo.StatusValueId
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.StatusValueId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'StatusValue_id' in table 'StatusValue': Dictionary type PK, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Primary key
-  example: []
+  summary: "\nField &apos;StatusValue_id&apos; in table &apos;StatusValue&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
   syntax:
     content: public Int32FieldInfo StatusValueId { get; }
     parameters: []
@@ -559,6 +572,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property StatusValueId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.StatusValueId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.StatusDefId
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.StatusDefId
   id: StatusDefId
@@ -570,14 +589,13 @@ items:
   nameWithType: StatusValueTableInfo.StatusDefId
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.StatusDefId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'StatusDef_id' in table 'StatusValue': Dictionary type FK, target: StatusDef, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Link to statusdefinition
-  example: []
+  summary: "\nField &apos;StatusDef_id&apos; in table &apos;StatusValue&apos;: Dictionary type FK, target: StatusDef, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLink to statusdefinition\n"
   syntax:
     content: public Int32FieldInfo StatusDefId { get; }
     parameters: []
@@ -585,6 +603,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property StatusDefId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.StatusDefId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.ContactId
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.ContactId
   id: ContactId
@@ -596,14 +620,13 @@ items:
   nameWithType: StatusValueTableInfo.ContactId
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.ContactId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'contact_id' in table 'StatusValue': Dictionary type FK, target: Contact, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Link to contact, 0 if this status is not for contacts
-  example: []
+  summary: "\nField &apos;contact_id&apos; in table &apos;StatusValue&apos;: Dictionary type FK, target: Contact, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLink to contact, 0 if this status is not for contacts\n"
   syntax:
     content: public Int32FieldInfo ContactId { get; }
     parameters: []
@@ -611,6 +634,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property ContactId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.PersonId
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.PersonId
   id: PersonId
@@ -622,14 +651,13 @@ items:
   nameWithType: StatusValueTableInfo.PersonId
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.PersonId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'person_id' in table 'StatusValue': Dictionary type FK, target: Person, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Link to person, 0 if this status is not for person (always 0 in 6.0)
-  example: []
+  summary: "\nField &apos;person_id&apos; in table &apos;StatusValue&apos;: Dictionary type FK, target: Person, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLink to person, 0 if this status is not for person (always 0 in 6.0)\n"
   syntax:
     content: public Int32FieldInfo PersonId { get; }
     parameters: []
@@ -637,6 +665,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property PersonId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.ProjectId
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.ProjectId
   id: ProjectId
@@ -648,14 +682,13 @@ items:
   nameWithType: StatusValueTableInfo.ProjectId
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.ProjectId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'project_id' in table 'StatusValue': Dictionary type FK, target: Project, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Link to project, 0 if this status is not for project
-  example: []
+  summary: "\nField &apos;project_id&apos; in table &apos;StatusValue&apos;: Dictionary type FK, target: Project, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLink to project, 0 if this status is not for project\n"
   syntax:
     content: public Int32FieldInfo ProjectId { get; }
     parameters: []
@@ -663,6 +696,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property ProjectId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.Extra1Id
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.Extra1Id
   id: Extra1Id
@@ -674,14 +713,13 @@ items:
   nameWithType: StatusValueTableInfo.Extra1Id
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.Extra1Id
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'extra1_id' in table 'StatusValue': Dictionary type Id, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Spare ID for future links
-  example: []
+  summary: "\nField &apos;extra1_id&apos; in table &apos;StatusValue&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSpare ID for future links\n"
   syntax:
     content: public Int32FieldInfo Extra1Id { get; }
     parameters: []
@@ -689,6 +727,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property Extra1Id As Int32FieldInfo
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.Extra1Id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.Extra2Id
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.Extra2Id
   id: Extra2Id
@@ -700,14 +744,13 @@ items:
   nameWithType: StatusValueTableInfo.Extra2Id
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.Extra2Id
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'extra2_id' in table 'StatusValue': Dictionary type Id, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Spare ID for future links
-  example: []
+  summary: "\nField &apos;extra2_id&apos; in table &apos;StatusValue&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSpare ID for future links\n"
   syntax:
     content: public Int32FieldInfo Extra2Id { get; }
     parameters: []
@@ -715,6 +758,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property Extra2Id As Int32FieldInfo
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.Extra2Id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IsSignalled
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.IsSignalled
   id: IsSignalled
@@ -726,14 +775,13 @@ items:
   nameWithType: StatusValueTableInfo.IsSignalled
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IsSignalled
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'isSignalled' in table 'StatusValue': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    1 = this status is 'true', and the GUI should display it
-  example: []
+  summary: "\nField &apos;isSignalled&apos; in table &apos;StatusValue&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n1 = this status is &apos;true&apos;, and the GUI should display it\n"
   syntax:
     content: public UInt16FieldInfo IsSignalled { get; }
     parameters: []
@@ -741,6 +789,12 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property IsSignalled As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.IsSignalled*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.NeedsUpdate
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.NeedsUpdate
   id: NeedsUpdate
@@ -752,14 +806,13 @@ items:
   nameWithType: StatusValueTableInfo.NeedsUpdate
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.NeedsUpdate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'needsUpdate' in table 'StatusValue': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    1 = the value is dirty and needs updating; set when the target (contact, project) is changed (or its activities and sales are changed)
-  example: []
+  summary: "\nField &apos;needsUpdate&apos; in table &apos;StatusValue&apos;: Dictionary type Bool, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\n1 = the value is dirty and needs updating; set when the target (contact, project) is changed (or its activities and sales are changed)\n"
   syntax:
     content: public UInt16FieldInfo NeedsUpdate { get; }
     parameters: []
@@ -767,6 +820,12 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property NeedsUpdate As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.NeedsUpdate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.Registered
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.Registered
   id: Registered
@@ -778,14 +837,13 @@ items:
   nameWithType: StatusValueTableInfo.Registered
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.Registered
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'registered' in table 'StatusValue': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Registered when
-  example: []
+  summary: "\nField &apos;registered&apos; in table &apos;StatusValue&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered when\n"
   syntax:
     content: public DateTimeFieldInfo Registered { get; }
     parameters: []
@@ -793,6 +851,12 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.Registered*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -804,14 +868,13 @@ items:
   nameWithType: StatusValueTableInfo.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.RegisteredAssociateId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'registered_associate_id' in table 'StatusValue': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Registered by whom
-  example: []
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;StatusValue&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
   syntax:
     content: public Int32FieldInfo RegisteredAssociateId { get; }
     parameters: []
@@ -819,6 +882,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.Updated
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.Updated
   id: Updated
@@ -830,14 +899,13 @@ items:
   nameWithType: StatusValueTableInfo.Updated
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.Updated
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'updated' in table 'StatusValue': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Last updated when
-  example: []
+  summary: "\nField &apos;updated&apos; in table &apos;StatusValue&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated when\n"
   syntax:
     content: public DateTimeFieldInfo Updated { get; }
     parameters: []
@@ -845,6 +913,12 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.Updated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedAssociateId
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -856,14 +930,13 @@ items:
   nameWithType: StatusValueTableInfo.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedAssociateId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'updated_associate_id' in table 'StatusValue': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Last updated by whom
-  example: []
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;StatusValue&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
   syntax:
     content: public Int32FieldInfo UpdatedAssociateId { get; }
     parameters: []
@@ -871,6 +944,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedCount
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedCount
   id: UpdatedCount
@@ -882,14 +961,13 @@ items:
   nameWithType: StatusValueTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedCount
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'updatedCount' in table 'StatusValue': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Number of updates made to this record
-  example: []
+  summary: "\nField &apos;updatedCount&apos; in table &apos;StatusValue&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of updates made to this record\n"
   syntax:
     content: public UInt16FieldInfo UpdatedCount { get; }
     parameters: []
@@ -897,6 +975,12 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.StatusDefId_InnerJoin_StatusDef
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.StatusDefId_InnerJoin_StatusDef
   id: StatusDefId_InnerJoin_StatusDef
@@ -908,11 +992,13 @@ items:
   nameWithType: StatusValueTableInfo.StatusDefId_InnerJoin_StatusDef
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.StatusDefId_InnerJoin_StatusDef
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key StatusDefId in this table, to its target table <xref href="SuperOffice.CRM.Data.StatusDefTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key StatusDefId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.StatusDefTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<StatusDefTableInfo> StatusDefId_InnerJoin_StatusDef { get; }
     parameters: []
@@ -920,6 +1006,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.StatusDefTableInfo}
     content.vb: Public ReadOnly Property StatusDefId_InnerJoin_StatusDef As TargetedInnerJoin(Of StatusDefTableInfo)
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.StatusDefId_InnerJoin_StatusDef*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.ContactId_InnerJoin_Contact
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.ContactId_InnerJoin_Contact
   id: ContactId_InnerJoin_Contact
@@ -931,11 +1023,13 @@ items:
   nameWithType: StatusValueTableInfo.ContactId_InnerJoin_Contact
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.ContactId_InnerJoin_Contact
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key ContactId in this table, to its target table <xref href="SuperOffice.CRM.Data.ContactTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key ContactId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.ContactTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<ContactTableInfo> ContactId_InnerJoin_Contact { get; }
     parameters: []
@@ -943,6 +1037,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
     content.vb: Public ReadOnly Property ContactId_InnerJoin_Contact As TargetedInnerJoin(Of ContactTableInfo)
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.ContactId_InnerJoin_Contact*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.PersonId_InnerJoin_Person
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.PersonId_InnerJoin_Person
   id: PersonId_InnerJoin_Person
@@ -954,11 +1054,13 @@ items:
   nameWithType: StatusValueTableInfo.PersonId_InnerJoin_Person
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.PersonId_InnerJoin_Person
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key PersonId in this table, to its target table <xref href="SuperOffice.CRM.Data.PersonTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key PersonId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.PersonTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<PersonTableInfo> PersonId_InnerJoin_Person { get; }
     parameters: []
@@ -966,6 +1068,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
     content.vb: Public ReadOnly Property PersonId_InnerJoin_Person As TargetedInnerJoin(Of PersonTableInfo)
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.PersonId_InnerJoin_Person*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.ProjectId_InnerJoin_Project
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.ProjectId_InnerJoin_Project
   id: ProjectId_InnerJoin_Project
@@ -977,11 +1085,13 @@ items:
   nameWithType: StatusValueTableInfo.ProjectId_InnerJoin_Project
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.ProjectId_InnerJoin_Project
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key ProjectId in this table, to its target table <xref href="SuperOffice.CRM.Data.ProjectTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key ProjectId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.ProjectTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<ProjectTableInfo> ProjectId_InnerJoin_Project { get; }
     parameters: []
@@ -989,6 +1099,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ProjectTableInfo}
     content.vb: Public ReadOnly Property ProjectId_InnerJoin_Project As TargetedInnerJoin(Of ProjectTableInfo)
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.ProjectId_InnerJoin_Project*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.RegisteredAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.RegisteredAssociateId_InnerJoin_Associate
   id: RegisteredAssociateId_InnerJoin_Associate
@@ -1000,11 +1116,13 @@ items:
   nameWithType: StatusValueTableInfo.RegisteredAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.RegisteredAssociateId_InnerJoin_Associate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
     parameters: []
@@ -1012,6 +1130,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedAssociateId_InnerJoin_Associate
   id: UpdatedAssociateId_InnerJoin_Associate
@@ -1023,11 +1147,13 @@ items:
   nameWithType: StatusValueTableInfo.UpdatedAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedAssociateId_InnerJoin_Associate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
     parameters: []
@@ -1035,68 +1161,35 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SQL.TableInfo
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
@@ -1104,185 +1197,241 @@ references:
   commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   name: ToString()
   nameWithType: TableInfo.ToString()
   fullName: SuperOffice.Data.SQL.TableInfo.ToString()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
-  name: RegisterFields(params FieldInfo[])
-  nameWithType: TableInfo.RegisterFields(params FieldInfo[])
-  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(params SuperOffice.Data.SQL.FieldInfo[])
-  nameWithType.vb: TableInfo.RegisterFields(ParamArray FieldInfo())
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(ParamArray SuperOffice.Data.SQL.FieldInfo())
-  name.vb: RegisterFields(ParamArray FieldInfo())
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-  - name: params
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-  - name: ParamArray
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   name: FieldInfoFromSoField(SoField)
   nameWithType: TableInfo.FieldInfoFromSoField(SoField)
   fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.Clone
   commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   name: Clone()
   nameWithType: TableInfo.Clone()
   fullName: SuperOffice.Data.SQL.TableInfo.Clone()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   name: IsSameTable(TableInfo)
   nameWithType: TableInfo.IsSameTable(TableInfo)
   fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
-  name: FindField(string)
-  nameWithType: TableInfo.FindField(string)
-  fullName: SuperOffice.Data.SQL.TableInfo.FindField(string)
-  nameWithType.vb: TableInfo.FindField(String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.FindField(String)
-  name.vb: FindField(String)
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.ProtAll
   commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
   name: ProtAll
   nameWithType: TableInfo.ProtAll
   fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
@@ -1290,7 +1439,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_HashCheckFields
   name: HashCheckFields
   nameWithType: TableInfo.HashCheckFields
   fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
@@ -1298,7 +1446,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_TableName
   name: TableName
   nameWithType: TableInfo.TableName
   fullName: SuperOffice.Data.SQL.TableInfo.TableName
@@ -1306,7 +1453,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_DbName
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
@@ -1314,7 +1460,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
   name: IsDictionaryTable
   nameWithType: TableInfo.IsDictionaryTable
   fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
@@ -1322,7 +1467,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_All
   name: All
   nameWithType: TableInfo.All
   fullName: SuperOffice.Data.SQL.TableInfo.All
@@ -1330,389 +1474,136 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: this[string]
-  nameWithType: TableInfo.this[string]
-  fullName: SuperOffice.Data.SQL.TableInfo.this[string]
-  nameWithType.vb: TableInfo.this[](String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.this[](String)
-  name.vb: this[](String)
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
   spec.csharp:
-  - name: this
-  - name: '['
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ']'
-  spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-    name: this[]
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Item_System_String_
-  - name: (
+  - name: '['
+    nameWithType: '['
+    fullName: '['
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_PrimaryKeyField
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<StatusValueTableInfo, To>(StatusValueTableInfo)
-  nameWithType: EnumUtil.MapEnums<StatusValueTableInfo, To>(StatusValueTableInfo)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.StatusValueTableInfo, To>(SuperOffice.CRM.Data.StatusValueTableInfo)
-  nameWithType.vb: EnumUtil.MapEnums(Of StatusValueTableInfo, To)(StatusValueTableInfo)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.StatusValueTableInfo, To)(SuperOffice.CRM.Data.StatusValueTableInfo)
-  name.vb: MapEnums(Of StatusValueTableInfo, To)(StatusValueTableInfo)
+  name: MapEnums<StatusValueTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<StatusValueTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.StatusValueTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of StatusValueTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.StatusValueTableInfo, To)()
+  name.vb: MapEnums(Of StatusValueTableInfo, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.StatusValueTableInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<StatusValueTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<StatusValueTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.StatusValueTableInfo, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.StatusValueTableInfo
-    name: StatusValueTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.StatusValueTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Data.StatusValueTableInfo
-    name: StatusValueTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.StatusValueTableInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.StatusValueTableInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of StatusValueTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of StatusValueTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.StatusValueTableInfo, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.StatusValueTableInfo
-    name: StatusValueTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.StatusValueTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.StatusValueTableInfo
-    name: StatusValueTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.StatusValueTableInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<StatusValueTableInfo, To>(StatusValueTableInfo)
-  nameWithType: Converters.MapEnums<StatusValueTableInfo, To>(StatusValueTableInfo)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.StatusValueTableInfo, To>(SuperOffice.CRM.Data.StatusValueTableInfo)
-  nameWithType.vb: Converters.MapEnums(Of StatusValueTableInfo, To)(StatusValueTableInfo)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.StatusValueTableInfo, To)(SuperOffice.CRM.Data.StatusValueTableInfo)
-  name.vb: MapEnums(Of StatusValueTableInfo, To)(StatusValueTableInfo)
+  name: MapEnums<StatusValueTableInfo, To>()
+  nameWithType: Converters.MapEnums<StatusValueTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.StatusValueTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of StatusValueTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.StatusValueTableInfo, To)()
+  name.vb: MapEnums(Of StatusValueTableInfo, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.StatusValueTableInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<StatusValueTableInfo, To>
+    nameWithType: Converters.MapEnums<StatusValueTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.StatusValueTableInfo, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.StatusValueTableInfo
-    name: StatusValueTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.StatusValueTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Data.StatusValueTableInfo
-    name: StatusValueTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.StatusValueTableInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.StatusValueTableInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of StatusValueTableInfo, To)
+    nameWithType: Converters.MapEnums(Of StatusValueTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.StatusValueTableInfo, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.StatusValueTableInfo
-    name: StatusValueTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.StatusValueTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.StatusValueTableInfo
-    name: StatusValueTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.StatusValueTableInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1721,45 +1612,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1768,94 +1657,57 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IdxContactId*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.IdxContactId
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_IdxContactId_System_Int32_
   name: IdxContactId
   nameWithType: StatusValueTableInfo.IdxContactId
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxContactId
@@ -1863,25 +1715,19 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.SQL.Restriction
   commentId: T:SuperOffice.Data.SQL.Restriction
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Restriction.html
   name: Restriction
   nameWithType: Restriction
   fullName: SuperOffice.Data.SQL.Restriction
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IdxContactIdIsSignalled*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.IdxContactIdIsSignalled
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_IdxContactIdIsSignalled_System_Int32_System_Int16_
   name: IdxContactIdIsSignalled
   nameWithType: StatusValueTableInfo.IdxContactIdIsSignalled
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxContactIdIsSignalled
@@ -1889,80 +1735,66 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IdxPersonId*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.IdxPersonId
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_IdxPersonId_System_Int32_
   name: IdxPersonId
   nameWithType: StatusValueTableInfo.IdxPersonId
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxPersonId
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IdxPersonIdIsSignalled*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.IdxPersonIdIsSignalled
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_IdxPersonIdIsSignalled_System_Int32_System_Int16_
   name: IdxPersonIdIsSignalled
   nameWithType: StatusValueTableInfo.IdxPersonIdIsSignalled
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxPersonIdIsSignalled
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IdxProjectId*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.IdxProjectId
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_IdxProjectId_System_Int32_
   name: IdxProjectId
   nameWithType: StatusValueTableInfo.IdxProjectId
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxProjectId
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IdxProjectIdIsSignalled*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.IdxProjectIdIsSignalled
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_IdxProjectIdIsSignalled_System_Int32_System_Int16_
   name: IdxProjectIdIsSignalled
   nameWithType: StatusValueTableInfo.IdxProjectIdIsSignalled
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxProjectIdIsSignalled
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra1Id*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra1Id
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_IdxExtra1Id_System_Int32_
   name: IdxExtra1Id
   nameWithType: StatusValueTableInfo.IdxExtra1Id
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra1Id
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra1IdIsSignalled*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra1IdIsSignalled
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_IdxExtra1IdIsSignalled_System_Int32_System_Int16_
   name: IdxExtra1IdIsSignalled
   nameWithType: StatusValueTableInfo.IdxExtra1IdIsSignalled
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra1IdIsSignalled
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra2Id*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra2Id
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_IdxExtra2Id_System_Int32_
   name: IdxExtra2Id
   nameWithType: StatusValueTableInfo.IdxExtra2Id
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra2Id
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra2IdIsSignalled*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra2IdIsSignalled
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_IdxExtra2IdIsSignalled_System_Int32_System_Int16_
   name: IdxExtra2IdIsSignalled
   nameWithType: StatusValueTableInfo.IdxExtra2IdIsSignalled
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IdxExtra2IdIsSignalled
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.DictionaryTableNumber*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.DictionaryTableNumber
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_DictionaryTableNumber
   name: DictionaryTableNumber
   nameWithType: StatusValueTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.DictionaryTableNumber
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.RuntimeDefinition*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.RuntimeDefinition
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_RuntimeDefinition
   name: RuntimeDefinition
   nameWithType: StatusValueTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.RuntimeDefinition
@@ -1970,66 +1802,31 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
 - uid: SuperOffice.Data.SQL.TableInfo.Definition
   commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Definition
   name: Definition
   nameWithType: TableInfo.Definition
   fullName: SuperOffice.Data.SQL.TableInfo.Definition
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.Definition*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.Definition
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_Definition
   name: Definition
   nameWithType: StatusValueTableInfo.Definition
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.Definition
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.StatusValueId*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.StatusValueId
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_StatusValueId
   name: StatusValueId
   nameWithType: StatusValueTableInfo.StatusValueId
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.StatusValueId
@@ -2037,56 +1834,48 @@ references:
   commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Int32FieldInfo.html
   name: Int32FieldInfo
   nameWithType: Int32FieldInfo
   fullName: SuperOffice.Data.SQL.Int32FieldInfo
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.StatusDefId*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.StatusDefId
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_StatusDefId
   name: StatusDefId
   nameWithType: StatusValueTableInfo.StatusDefId
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.StatusDefId
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.ContactId*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.ContactId
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_ContactId
   name: ContactId
   nameWithType: StatusValueTableInfo.ContactId
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.ContactId
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.PersonId*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.PersonId
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_PersonId
   name: PersonId
   nameWithType: StatusValueTableInfo.PersonId
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.PersonId
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.ProjectId*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.ProjectId
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_ProjectId
   name: ProjectId
   nameWithType: StatusValueTableInfo.ProjectId
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.ProjectId
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.Extra1Id*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.Extra1Id
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_Extra1Id
   name: Extra1Id
   nameWithType: StatusValueTableInfo.Extra1Id
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.Extra1Id
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.Extra2Id*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.Extra2Id
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_Extra2Id
   name: Extra2Id
   nameWithType: StatusValueTableInfo.Extra2Id
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.Extra2Id
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.IsSignalled*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.IsSignalled
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_IsSignalled
   name: IsSignalled
   nameWithType: StatusValueTableInfo.IsSignalled
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.IsSignalled
@@ -2094,32 +1883,18 @@ references:
   commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.UInt16FieldInfo.html
   name: UInt16FieldInfo
   nameWithType: UInt16FieldInfo
   fullName: SuperOffice.Data.SQL.UInt16FieldInfo
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.NeedsUpdate*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.NeedsUpdate
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_NeedsUpdate
   name: NeedsUpdate
   nameWithType: StatusValueTableInfo.NeedsUpdate
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.NeedsUpdate
-- uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.Registered*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.Registered
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_Registered
   name: Registered
   nameWithType: StatusValueTableInfo.Registered
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.Registered
@@ -2127,50 +1902,36 @@ references:
   commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.DateTimeFieldInfo.html
   name: DateTimeFieldInfo
   nameWithType: DateTimeFieldInfo
   fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.RegisteredAssociateId*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.RegisteredAssociateId
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_RegisteredAssociateId
   name: RegisteredAssociateId
   nameWithType: StatusValueTableInfo.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.RegisteredAssociateId
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.Updated*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.Updated
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_Updated
   name: Updated
   nameWithType: StatusValueTableInfo.Updated
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.Updated
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedAssociateId*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedAssociateId
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_UpdatedAssociateId
   name: UpdatedAssociateId
   nameWithType: StatusValueTableInfo.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedAssociateId
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedCount*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedCount
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_UpdatedCount
   name: UpdatedCount
   nameWithType: StatusValueTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedCount
-- uid: SuperOffice.CRM.Data.StatusDefTableInfo
-  commentId: T:SuperOffice.CRM.Data.StatusDefTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.StatusDefTableInfo.html
-  name: StatusDefTableInfo
-  nameWithType: StatusDefTableInfo
-  fullName: SuperOffice.CRM.Data.StatusDefTableInfo
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.StatusDefId_InnerJoin_StatusDef*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.StatusDefId_InnerJoin_StatusDef
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_StatusDefId_InnerJoin_StatusDef
   name: StatusDefId_InnerJoin_StatusDef
   nameWithType: StatusValueTableInfo.StatusDefId_InnerJoin_StatusDef
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.StatusDefId_InnerJoin_StatusDef
@@ -2178,7 +1939,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.StatusDefTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<StatusDefTableInfo>
   nameWithType: TargetedInnerJoin<StatusDefTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.StatusDefTableInfo>
@@ -2188,31 +1948,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.StatusDefTableInfo
     name: StatusDefTableInfo
+    nameWithType: StatusDefTableInfo
+    fullName: SuperOffice.CRM.Data.StatusDefTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.StatusDefTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.StatusDefTableInfo
     name: StatusDefTableInfo
+    nameWithType: StatusDefTableInfo
+    fullName: SuperOffice.CRM.Data.StatusDefTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.StatusDefTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
   isExternal: true
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<TargetTableInfo>
   nameWithType: TargetedInnerJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
@@ -2222,33 +1991,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: )
-- uid: SuperOffice.CRM.Data.ContactTableInfo
-  commentId: T:SuperOffice.CRM.Data.ContactTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.ContactTableInfo.html
-  name: ContactTableInfo
-  nameWithType: ContactTableInfo
-  fullName: SuperOffice.CRM.Data.ContactTableInfo
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.ContactId_InnerJoin_Contact*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.ContactId_InnerJoin_Contact
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_ContactId_InnerJoin_Contact
   name: ContactId_InnerJoin_Contact
   nameWithType: StatusValueTableInfo.ContactId_InnerJoin_Contact
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.ContactId_InnerJoin_Contact
@@ -2256,7 +2028,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<ContactTableInfo>
   nameWithType: TargetedInnerJoin<ContactTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.ContactTableInfo>
@@ -2266,39 +2037,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.ContactTableInfo
     name: ContactTableInfo
+    nameWithType: ContactTableInfo
+    fullName: SuperOffice.CRM.Data.ContactTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.ContactTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.ContactTableInfo
     name: ContactTableInfo
+    nameWithType: ContactTableInfo
+    fullName: SuperOffice.CRM.Data.ContactTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.ContactTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Data.PersonTableInfo
-  commentId: T:SuperOffice.CRM.Data.PersonTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.PersonTableInfo.html
-  name: PersonTableInfo
-  nameWithType: PersonTableInfo
-  fullName: SuperOffice.CRM.Data.PersonTableInfo
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.PersonId_InnerJoin_Person*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.PersonId_InnerJoin_Person
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_PersonId_InnerJoin_Person
   name: PersonId_InnerJoin_Person
   nameWithType: StatusValueTableInfo.PersonId_InnerJoin_Person
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.PersonId_InnerJoin_Person
@@ -2306,7 +2078,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<PersonTableInfo>
   nameWithType: TargetedInnerJoin<PersonTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.PersonTableInfo>
@@ -2316,39 +2087,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.PersonTableInfo
     name: PersonTableInfo
+    nameWithType: PersonTableInfo
+    fullName: SuperOffice.CRM.Data.PersonTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.PersonTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.PersonTableInfo
     name: PersonTableInfo
+    nameWithType: PersonTableInfo
+    fullName: SuperOffice.CRM.Data.PersonTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.PersonTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Data.ProjectTableInfo
-  commentId: T:SuperOffice.CRM.Data.ProjectTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.ProjectTableInfo.html
-  name: ProjectTableInfo
-  nameWithType: ProjectTableInfo
-  fullName: SuperOffice.CRM.Data.ProjectTableInfo
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.ProjectId_InnerJoin_Project*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.ProjectId_InnerJoin_Project
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_ProjectId_InnerJoin_Project
   name: ProjectId_InnerJoin_Project
   nameWithType: StatusValueTableInfo.ProjectId_InnerJoin_Project
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.ProjectId_InnerJoin_Project
@@ -2356,7 +2128,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ProjectTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<ProjectTableInfo>
   nameWithType: TargetedInnerJoin<ProjectTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.ProjectTableInfo>
@@ -2366,39 +2137,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.ProjectTableInfo
     name: ProjectTableInfo
+    nameWithType: ProjectTableInfo
+    fullName: SuperOffice.CRM.Data.ProjectTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.ProjectTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.ProjectTableInfo
     name: ProjectTableInfo
+    nameWithType: ProjectTableInfo
+    fullName: SuperOffice.CRM.Data.ProjectTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.ProjectTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Data.AssociateTableInfo
-  commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.AssociateTableInfo.html
-  name: AssociateTableInfo
-  nameWithType: AssociateTableInfo
-  fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.RegisteredAssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.RegisteredAssociateId_InnerJoin_Associate
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_RegisteredAssociateId_InnerJoin_Associate
   name: RegisteredAssociateId_InnerJoin_Associate
   nameWithType: StatusValueTableInfo.RegisteredAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.RegisteredAssociateId_InnerJoin_Associate
@@ -2406,7 +2178,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<AssociateTableInfo>
   nameWithType: TargetedInnerJoin<AssociateTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
@@ -2416,31 +2187,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.AssociateTableInfo
     name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.AssociateTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.AssociateTableInfo
     name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.AssociateTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedAssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedAssociateId_InnerJoin_Associate
   isExternal: true
-  href: SuperOffice.CRM.Data.StatusValueTableInfo.html#SuperOffice_CRM_Data_StatusValueTableInfo_UpdatedAssociateId_InnerJoin_Associate
   name: UpdatedAssociateId_InnerJoin_Associate
   nameWithType: StatusValueTableInfo.UpdatedAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.StatusValueTableInfo.UpdatedAssociateId_InnerJoin_Associate

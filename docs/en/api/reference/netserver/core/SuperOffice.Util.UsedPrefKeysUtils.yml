@@ -15,27 +15,30 @@ items:
   nameWithType: UsedPrefKeysUtils
   fullName: SuperOffice.Util.UsedPrefKeysUtils
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
-    content: public class UsedPrefKeysUtils
-    content.vb: Public Class UsedPrefKeysUtils
+    content: 'public class UsedPrefKeysUtils : Object'
+    content.vb: >-
+      Public Class UsedPrefKeysUtils
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Util.UsedPrefKeysUtils.EnumUtil.MapEnums``2
-  - SuperOffice.Util.UsedPrefKeysUtils.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Util.UsedPrefKeysUtils.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.UsedPrefKeysUtils)
   - SuperOffice.Util.UsedPrefKeysUtils.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Util.UsedPrefKeysUtils.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.Util.UsedPrefKeysUtils.GetUsedPrefKeys
   commentId: M:SuperOffice.Util.UsedPrefKeysUtils.GetUsedPrefKeys
   id: GetUsedPrefKeys
@@ -47,6 +50,9 @@ items:
   nameWithType: UsedPrefKeysUtils.GetUsedPrefKeys()
   fullName: SuperOffice.Util.UsedPrefKeysUtils.GetUsedPrefKeys()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
@@ -54,8 +60,14 @@ items:
     content: public static HashSet<string> GetUsedPrefKeys()
     return:
       type: System.Collections.Generic.HashSet{System.String}
-    content.vb: Public Shared Function GetUsedPrefKeys() As HashSet(Of String)
+    content.vb: Public Shared Function GetUsedPrefKeys As HashSet(Of String)
   overload: SuperOffice.Util.UsedPrefKeysUtils.GetUsedPrefKeys*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.UsedPrefKeysUtils.GetUsedPrefKeysInSection(System.String)
   commentId: M:SuperOffice.Util.UsedPrefKeysUtils.GetUsedPrefKeysInSection(System.String)
   id: GetUsedPrefKeysInSection(System.String)
@@ -63,10 +75,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUsedPrefKeysInSection(string)
-  nameWithType: UsedPrefKeysUtils.GetUsedPrefKeysInSection(string)
-  fullName: SuperOffice.Util.UsedPrefKeysUtils.GetUsedPrefKeysInSection(string)
+  name: GetUsedPrefKeysInSection(String)
+  nameWithType: UsedPrefKeysUtils.GetUsedPrefKeysInSection(String)
+  fullName: SuperOffice.Util.UsedPrefKeysUtils.GetUsedPrefKeysInSection(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
@@ -79,9 +94,12 @@ items:
       type: System.Collections.Generic.HashSet{System.String}
     content.vb: Public Shared Function GetUsedPrefKeysInSection(section As String) As HashSet(Of String)
   overload: SuperOffice.Util.UsedPrefKeysUtils.GetUsedPrefKeysInSection*
-  nameWithType.vb: UsedPrefKeysUtils.GetUsedPrefKeysInSection(String)
-  fullName.vb: SuperOffice.Util.UsedPrefKeysUtils.GetUsedPrefKeysInSection(String)
-  name.vb: GetUsedPrefKeysInSection(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Util.UsedPrefKeysUtils.#ctor
   commentId: M:SuperOffice.Util.UsedPrefKeysUtils.#ctor
   id: '#ctor'
@@ -93,497 +111,189 @@ items:
   nameWithType: UsedPrefKeysUtils.UsedPrefKeysUtils()
   fullName: SuperOffice.Util.UsedPrefKeysUtils.UsedPrefKeysUtils()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
   syntax:
     content: public UsedPrefKeysUtils()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.Util.UsedPrefKeysUtils.#ctor*
-  nameWithType.vb: UsedPrefKeysUtils.New()
-  fullName.vb: SuperOffice.Util.UsedPrefKeysUtils.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Util.UsedPrefKeysUtils.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<UsedPrefKeysUtils, To>(UsedPrefKeysUtils)
-  nameWithType: EnumUtil.MapEnums<UsedPrefKeysUtils, To>(UsedPrefKeysUtils)
-  fullName: EnumUtil.MapEnums<SuperOffice.Util.UsedPrefKeysUtils, To>(SuperOffice.Util.UsedPrefKeysUtils)
-  nameWithType.vb: EnumUtil.MapEnums(Of UsedPrefKeysUtils, To)(UsedPrefKeysUtils)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.UsedPrefKeysUtils, To)(SuperOffice.Util.UsedPrefKeysUtils)
-  name.vb: MapEnums(Of UsedPrefKeysUtils, To)(UsedPrefKeysUtils)
+  name: MapEnums<UsedPrefKeysUtils, To>()
+  nameWithType: EnumUtil.MapEnums<UsedPrefKeysUtils, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.UsedPrefKeysUtils, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of UsedPrefKeysUtils, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.UsedPrefKeysUtils, To)()
+  name.vb: MapEnums(Of UsedPrefKeysUtils, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.UsedPrefKeysUtils)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<UsedPrefKeysUtils, To>
+    nameWithType: EnumUtil.MapEnums<UsedPrefKeysUtils, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.UsedPrefKeysUtils, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Util.UsedPrefKeysUtils
-    name: UsedPrefKeysUtils
-    isExternal: true
-    href: SuperOffice.Util.UsedPrefKeysUtils.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Util.UsedPrefKeysUtils
-    name: UsedPrefKeysUtils
-    isExternal: true
-    href: SuperOffice.Util.UsedPrefKeysUtils.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.UsedPrefKeysUtils)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of UsedPrefKeysUtils, To)
+    nameWithType: EnumUtil.MapEnums(Of UsedPrefKeysUtils, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.UsedPrefKeysUtils, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Util.UsedPrefKeysUtils
-    name: UsedPrefKeysUtils
-    isExternal: true
-    href: SuperOffice.Util.UsedPrefKeysUtils.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Util.UsedPrefKeysUtils
-    name: UsedPrefKeysUtils
-    isExternal: true
-    href: SuperOffice.Util.UsedPrefKeysUtils.html
-  - name: )
-- uid: SuperOffice.Util.UsedPrefKeysUtils.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<UsedPrefKeysUtils, To>(UsedPrefKeysUtils)
-  nameWithType: Converters.MapEnums<UsedPrefKeysUtils, To>(UsedPrefKeysUtils)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.UsedPrefKeysUtils, To>(SuperOffice.Util.UsedPrefKeysUtils)
-  nameWithType.vb: Converters.MapEnums(Of UsedPrefKeysUtils, To)(UsedPrefKeysUtils)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.UsedPrefKeysUtils, To)(SuperOffice.Util.UsedPrefKeysUtils)
-  name.vb: MapEnums(Of UsedPrefKeysUtils, To)(UsedPrefKeysUtils)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.UsedPrefKeysUtils)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Util.UsedPrefKeysUtils
-    name: UsedPrefKeysUtils
-    isExternal: true
-    href: SuperOffice.Util.UsedPrefKeysUtils.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Util.UsedPrefKeysUtils
-    name: UsedPrefKeysUtils
-    isExternal: true
-    href: SuperOffice.Util.UsedPrefKeysUtils.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.UsedPrefKeysUtils)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Util.UsedPrefKeysUtils
-    name: UsedPrefKeysUtils
-    isExternal: true
-    href: SuperOffice.Util.UsedPrefKeysUtils.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Util.UsedPrefKeysUtils
-    name: UsedPrefKeysUtils
-    isExternal: true
-    href: SuperOffice.Util.UsedPrefKeysUtils.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.UsedPrefKeysUtils.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.UsedPrefKeysUtils)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<UsedPrefKeysUtils>(UsedPrefKeysUtils, UsedPrefKeysUtils)
-  nameWithType: ObjectExtensions.AssignByReflection<UsedPrefKeysUtils>(UsedPrefKeysUtils, UsedPrefKeysUtils)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.UsedPrefKeysUtils>(SuperOffice.Util.UsedPrefKeysUtils, SuperOffice.Util.UsedPrefKeysUtils)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of UsedPrefKeysUtils)(UsedPrefKeysUtils, UsedPrefKeysUtils)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.UsedPrefKeysUtils)(SuperOffice.Util.UsedPrefKeysUtils, SuperOffice.Util.UsedPrefKeysUtils)
-  name.vb: AssignByReflection(Of UsedPrefKeysUtils)(UsedPrefKeysUtils, UsedPrefKeysUtils)
+  name: AssignByReflection<UsedPrefKeysUtils>(UsedPrefKeysUtils)
+  nameWithType: ObjectExtensions.AssignByReflection<UsedPrefKeysUtils>(UsedPrefKeysUtils)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.UsedPrefKeysUtils>(SuperOffice.Util.UsedPrefKeysUtils)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of UsedPrefKeysUtils)(UsedPrefKeysUtils)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.UsedPrefKeysUtils)(SuperOffice.Util.UsedPrefKeysUtils)
+  name.vb: AssignByReflection(Of UsedPrefKeysUtils)(UsedPrefKeysUtils)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.UsedPrefKeysUtils,SuperOffice.Util.UsedPrefKeysUtils)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<UsedPrefKeysUtils>
+    nameWithType: ObjectExtensions.AssignByReflection<UsedPrefKeysUtils>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.UsedPrefKeysUtils>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Util.UsedPrefKeysUtils
-    name: UsedPrefKeysUtils
-    isExternal: true
-    href: SuperOffice.Util.UsedPrefKeysUtils.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Util.UsedPrefKeysUtils
     name: UsedPrefKeysUtils
+    nameWithType: UsedPrefKeysUtils
+    fullName: SuperOffice.Util.UsedPrefKeysUtils
     isExternal: true
-    href: SuperOffice.Util.UsedPrefKeysUtils.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Util.UsedPrefKeysUtils
-    name: UsedPrefKeysUtils
-    isExternal: true
-    href: SuperOffice.Util.UsedPrefKeysUtils.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.UsedPrefKeysUtils,SuperOffice.Util.UsedPrefKeysUtils)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of UsedPrefKeysUtils)
+    nameWithType: ObjectExtensions.AssignByReflection(Of UsedPrefKeysUtils)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.UsedPrefKeysUtils)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Util.UsedPrefKeysUtils
     name: UsedPrefKeysUtils
+    nameWithType: UsedPrefKeysUtils
+    fullName: SuperOffice.Util.UsedPrefKeysUtils
     isExternal: true
-    href: SuperOffice.Util.UsedPrefKeysUtils.html
   - name: )
-  - name: (
-  - uid: SuperOffice.Util.UsedPrefKeysUtils
-    name: UsedPrefKeysUtils
-    isExternal: true
-    href: SuperOffice.Util.UsedPrefKeysUtils.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Util.UsedPrefKeysUtils
-    name: UsedPrefKeysUtils
-    isExternal: true
-    href: SuperOffice.Util.UsedPrefKeysUtils.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.UsedPrefKeysUtils.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<UsedPrefKeysUtils>(UsedPrefKeysUtils)
-  nameWithType: ObjectExtensions.GraphCopy<UsedPrefKeysUtils>(UsedPrefKeysUtils)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.UsedPrefKeysUtils>(SuperOffice.Util.UsedPrefKeysUtils)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of UsedPrefKeysUtils)(UsedPrefKeysUtils)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.UsedPrefKeysUtils)(SuperOffice.Util.UsedPrefKeysUtils)
-  name.vb: GraphCopy(Of UsedPrefKeysUtils)(UsedPrefKeysUtils)
+  name: GraphCopy<UsedPrefKeysUtils>()
+  nameWithType: ObjectExtensions.GraphCopy<UsedPrefKeysUtils>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.UsedPrefKeysUtils>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of UsedPrefKeysUtils)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.UsedPrefKeysUtils)()
+  name.vb: GraphCopy(Of UsedPrefKeysUtils)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.UsedPrefKeysUtils)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<UsedPrefKeysUtils>
+    nameWithType: ObjectExtensions.GraphCopy<UsedPrefKeysUtils>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.UsedPrefKeysUtils>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Util.UsedPrefKeysUtils
-    name: UsedPrefKeysUtils
-    isExternal: true
-    href: SuperOffice.Util.UsedPrefKeysUtils.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Util.UsedPrefKeysUtils
-    name: UsedPrefKeysUtils
-    isExternal: true
-    href: SuperOffice.Util.UsedPrefKeysUtils.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.UsedPrefKeysUtils)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of UsedPrefKeysUtils)
+    nameWithType: ObjectExtensions.GraphCopy(Of UsedPrefKeysUtils)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.UsedPrefKeysUtils)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Util.UsedPrefKeysUtils
-    name: UsedPrefKeysUtils
-    isExternal: true
-    href: SuperOffice.Util.UsedPrefKeysUtils.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.UsedPrefKeysUtils.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<UsedPrefKeysUtils, To>()
+  nameWithType: Converters.MapEnums<UsedPrefKeysUtils, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.UsedPrefKeysUtils, To>()
+  nameWithType.vb: Converters.MapEnums(Of UsedPrefKeysUtils, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.UsedPrefKeysUtils, To)()
+  name.vb: MapEnums(Of UsedPrefKeysUtils, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<UsedPrefKeysUtils, To>
+    nameWithType: Converters.MapEnums<UsedPrefKeysUtils, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.UsedPrefKeysUtils, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.Util.UsedPrefKeysUtils
-    name: UsedPrefKeysUtils
-    isExternal: true
-    href: SuperOffice.Util.UsedPrefKeysUtils.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of UsedPrefKeysUtils, To)
+    nameWithType: Converters.MapEnums(Of UsedPrefKeysUtils, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.UsedPrefKeysUtils, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -592,93 +302,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -687,46 +347,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -735,176 +405,176 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
   - name: (
-  - name: T
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Util.UsedPrefKeysUtils.GetUsedPrefKeys*
   commentId: Overload:SuperOffice.Util.UsedPrefKeysUtils.GetUsedPrefKeys
   isExternal: true
-  href: SuperOffice.Util.UsedPrefKeysUtils.html#SuperOffice_Util_UsedPrefKeysUtils_GetUsedPrefKeys
   name: GetUsedPrefKeys
   nameWithType: UsedPrefKeysUtils.GetUsedPrefKeys
   fullName: SuperOffice.Util.UsedPrefKeysUtils.GetUsedPrefKeys
 - uid: System.Collections.Generic.HashSet{System.String}
-  commentId: T:System.Collections.Generic.HashSet{System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.HashSet{System.String}'
   definition: System.Collections.Generic.HashSet`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
-  name: HashSet<string>
-  nameWithType: HashSet<string>
-  fullName: System.Collections.Generic.HashSet<string>
+  name: HashSet<String>
+  nameWithType: HashSet<String>
+  fullName: System.Collections.Generic.HashSet<System.String>
   nameWithType.vb: HashSet(Of String)
-  fullName.vb: System.Collections.Generic.HashSet(Of String)
+  fullName.vb: System.Collections.Generic.HashSet(Of System.String)
   name.vb: HashSet(Of String)
   spec.csharp:
   - uid: System.Collections.Generic.HashSet`1
     name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
   - name: <
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.HashSet`1
-    name: HashSet
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
-  - name: (
-  - name: Of
-  - name: " "
+    nameWithType: <
+    fullName: <
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Collections.Generic.HashSet`1
-  commentId: T:System.Collections.Generic.HashSet`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
-  name: HashSet<T>
-  nameWithType: HashSet<T>
-  fullName: System.Collections.Generic.HashSet<T>
-  nameWithType.vb: HashSet(Of T)
-  fullName.vb: System.Collections.Generic.HashSet(Of T)
-  name.vb: HashSet(Of T)
-  spec.csharp:
-  - uid: System.Collections.Generic.HashSet`1
-    name: HashSet
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
-  - name: <
-  - name: T
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.HashSet`1
     name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.HashSet`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
+  name: HashSet<>
+  nameWithType: HashSet<>
+  fullName: System.Collections.Generic.HashSet<>
+  nameWithType.vb: HashSet(Of )
+  fullName.vb: System.Collections.Generic.HashSet(Of )
+  name.vb: HashSet(Of )
   spec.csharp:
-  - uid: System
-    name: System
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
-  - uid: System
-    name: System
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.UsedPrefKeysUtils.GetUsedPrefKeysInSection*
   commentId: Overload:SuperOffice.Util.UsedPrefKeysUtils.GetUsedPrefKeysInSection
   isExternal: true
-  href: SuperOffice.Util.UsedPrefKeysUtils.html#SuperOffice_Util_UsedPrefKeysUtils_GetUsedPrefKeysInSection_System_String_
   name: GetUsedPrefKeysInSection
   nameWithType: UsedPrefKeysUtils.GetUsedPrefKeysInSection
   fullName: SuperOffice.Util.UsedPrefKeysUtils.GetUsedPrefKeysInSection
@@ -912,20 +582,12 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Util.UsedPrefKeysUtils.#ctor*
   commentId: Overload:SuperOffice.Util.UsedPrefKeysUtils.#ctor
   isExternal: true
-  href: SuperOffice.Util.UsedPrefKeysUtils.html#SuperOffice_Util_UsedPrefKeysUtils__ctor
   name: UsedPrefKeysUtils
   nameWithType: UsedPrefKeysUtils.UsedPrefKeysUtils
   fullName: SuperOffice.Util.UsedPrefKeysUtils.UsedPrefKeysUtils
-  nameWithType.vb: UsedPrefKeysUtils.New
-  fullName.vb: SuperOffice.Util.UsedPrefKeysUtils.New
-  name.vb: New

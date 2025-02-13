@@ -20,27 +20,28 @@ items:
   nameWithType: UserPlanProvider
   fullName: SuperOffice.CRM.Lists.UserPlanProvider
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: >-
-    List provider for the UserPlan in the module license table.
-
-    Returns all user plans except the one specified by additional-info "exclude_id"
-  example: []
+  summary: "\nList provider for the UserPlan in the module license table.\nReturns all user plans except the one specified by additional-info &quot;exclude_id&quot;\n"
   syntax:
     content: >-
       [MDOProviderPlugin("UserPlan")]
 
       [MDOAdditionalInfo("exclude_id", "Exclude the given user-plan by id", 1234)]
 
-      public class UserPlanProvider : AnyTableListProviderBase, ISoListProvider, ISoList
+      public class UserPlanProvider : AnyTableListProviderBase, ISoListProvider, ISoList, IPlugin
     content.vb: >-
       <MDOProviderPlugin("UserPlan")>
 
       <MDOAdditionalInfo("exclude_id", "Exclude the given user-plan by id", 1234)>
 
-      Public Class UserPlanProvider Inherits AnyTableListProviderBase Implements ISoListProvider, ISoList
+      Public Class UserPlanProvider
+          Inherits AnyTableListProviderBase
+          Implements ISoListProvider, ISoList, IPlugin
   inheritance:
   - System.Object
   - SuperOffice.CRM.Lists.AnyTableListProviderBase
@@ -66,18 +67,11 @@ items:
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryItems
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.RootItems
   - SuperOffice.CRM.Lists.AnyTableListProviderBase.HeadingItems
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Lists.UserPlanProvider.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Lists.UserPlanProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Lists.UserPlanProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.UserPlanProvider)
   - SuperOffice.CRM.Lists.UserPlanProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Lists.UserPlanProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
   - type: SuperOffice.CRM.Lists.MDOProviderPluginAttribute
     ctor: SuperOffice.CRM.Lists.MDOProviderPluginAttribute.#ctor(System.String)
@@ -93,6 +87,12 @@ items:
       value: Exclude the given user-plan by id
     - type: System.Int32
       value: 1234
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Lists.UserPlanProvider.ProviderName
   commentId: F:SuperOffice.CRM.Lists.UserPlanProvider.ProviderName
   id: ProviderName
@@ -104,6 +104,9 @@ items:
   nameWithType: UserPlanProvider.ProviderName
   fullName: SuperOffice.CRM.Lists.UserPlanProvider.ProviderName
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
@@ -112,6 +115,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const ProviderName As String = "UserPlan"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Lists.UserPlanProvider.Init
   commentId: M:SuperOffice.CRM.Lists.UserPlanProvider.Init
   id: Init
@@ -123,16 +132,24 @@ items:
   nameWithType: UserPlanProvider.Init()
   fullName: SuperOffice.CRM.Lists.UserPlanProvider.Init()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: 'Subclass contract: Initialize (nothing much here)'
-  example: []
+  summary: "\nSubclass contract: Initialize (nothing much here)\n"
   syntax:
     content: protected override void Init()
-    content.vb: Protected Overrides Sub Init()
+    content.vb: Protected Overrides Sub Init
   overridden: SuperOffice.CRM.Lists.AnyTableListProviderBase.Init
   overload: SuperOffice.CRM.Lists.UserPlanProvider.Init*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.Lists.UserPlanProvider.GetMainQuery
   commentId: M:SuperOffice.CRM.Lists.UserPlanProvider.GetMainQuery
   id: GetMainQuery
@@ -144,22 +161,27 @@ items:
   nameWithType: UserPlanProvider.GetMainQuery()
   fullName: SuperOffice.CRM.Lists.UserPlanProvider.GetMainQuery()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: >-
-    Subclass contract: Get main query. We only fetch the neeeded fields, and use
-
-    ascending sort by name, always
-  example: []
+  summary: "\nSubclass contract: Get main query. We only fetch the neeeded fields, and use\nascending sort by name, always\n"
   syntax:
     content: protected override Select GetMainQuery()
     return:
       type: SuperOffice.Data.SQL.Select
       description: Query primed with return fields and orderby
-    content.vb: Protected Overrides Function GetMainQuery() As [Select]
+    content.vb: 'Protected Overrides Function GetMainQuery As '
   overridden: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetMainQuery
   overload: SuperOffice.CRM.Lists.UserPlanProvider.GetMainQuery*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.Lists.UserPlanProvider.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
   commentId: M:SuperOffice.CRM.Lists.UserPlanProvider.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
   id: SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
@@ -167,18 +189,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetSearchRestriction(Select, string)
-  nameWithType: UserPlanProvider.SetSearchRestriction(Select, string)
-  fullName: SuperOffice.CRM.Lists.UserPlanProvider.SetSearchRestriction(SuperOffice.Data.SQL.Select, string)
+  name: SetSearchRestriction(Select, String)
+  nameWithType: UserPlanProvider.SetSearchRestriction(Select, String)
+  fullName: SuperOffice.CRM.Lists.UserPlanProvider.SetSearchRestriction(SuperOffice.Data.SQL.Select, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: >-
-    Subclass contract: Set restriction in case of search. This method is always called,
-
-    but we only set a restriction (on start with name) if there is nonempty string.
-  example: []
+  summary: "\nSubclass contract: Set restriction in case of search. This method is always called,\nbut we only set a restriction (on start with name) if there is nonempty string.\n"
   syntax:
     content: protected override void SetSearchRestriction(Select sql, string searchValue)
     parameters:
@@ -188,12 +209,15 @@ items:
     - id: searchValue
       type: System.String
       description: Search value to set
-    content.vb: Protected Overrides Sub SetSearchRestriction(sql As [Select], searchValue As String)
+    content.vb: Protected Overrides Sub SetSearchRestriction(sql As  Select, searchValue As String)
   overridden: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
   overload: SuperOffice.CRM.Lists.UserPlanProvider.SetSearchRestriction*
-  nameWithType.vb: UserPlanProvider.SetSearchRestriction(Select, String)
-  fullName.vb: SuperOffice.CRM.Lists.UserPlanProvider.SetSearchRestriction(SuperOffice.Data.SQL.Select, String)
-  name.vb: SetSearchRestriction(Select, String)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.Lists.UserPlanProvider.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
   commentId: M:SuperOffice.CRM.Lists.UserPlanProvider.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
   id: OnRead(SuperOffice.Data.SoDataReader,System.Int16)
@@ -201,36 +225,35 @@ items:
   langs:
   - csharp
   - vb
-  name: OnRead(SoDataReader, short)
-  nameWithType: UserPlanProvider.OnRead(SoDataReader, short)
-  fullName: SuperOffice.CRM.Lists.UserPlanProvider.OnRead(SuperOffice.Data.SoDataReader, short)
+  name: OnRead(SoDataReader, Int16)
+  nameWithType: UserPlanProvider.OnRead(SoDataReader, Int16)
+  fullName: SuperOffice.CRM.Lists.UserPlanProvider.OnRead(SuperOffice.Data.SoDataReader, System.Int16)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: >-
-    Subclass contract: Create a new item. For each row read, we construct a simple
-
-    List item based on the id, name and tooltip. Ranks
-  example: []
+  summary: "\nSubclass contract: Create a new item. For each row read, we construct a simple\nList item based on the id, name and tooltip. Ranks\n"
   syntax:
     content: protected override ISoListItem OnRead(SoDataReader reader, short lastRank)
     parameters:
     - id: reader
       type: SuperOffice.Data.SoDataReader
-      description: ''
     - id: lastRank
       type: System.Int16
-      description: ''
     return:
       type: SuperOffice.CRM.Lists.ISoListItem
-      description: ''
     content.vb: Protected Overrides Function OnRead(reader As SoDataReader, lastRank As Short) As ISoListItem
   overridden: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
   overload: SuperOffice.CRM.Lists.UserPlanProvider.OnRead*
-  nameWithType.vb: UserPlanProvider.OnRead(SoDataReader, Short)
-  fullName.vb: SuperOffice.CRM.Lists.UserPlanProvider.OnRead(SuperOffice.Data.SoDataReader, Short)
-  name.vb: OnRead(SoDataReader, Short)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.Lists.UserPlanProvider.OnPreGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
   commentId: M:SuperOffice.CRM.Lists.UserPlanProvider.OnPreGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
   id: OnPreGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
@@ -242,24 +265,29 @@ items:
   nameWithType: UserPlanProvider.OnPreGetRootItems(List<ISoListItem>)
   fullName: SuperOffice.CRM.Lists.UserPlanProvider.OnPreGetRootItems(System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: >-
-    Event raised by GetRootItems after values are fetched from the database.
-
-    Adding option for empty group at the beginning of list
-  example: []
+  summary: "\nEvent raised by <see cref=\"!:GetRootItems\"></see> after values are fetched from the database.\nAdding option for empty group at the beginning of list\n"
   syntax:
     content: protected override void OnPreGetRootItems(List<ISoListItem> items)
     parameters:
     - id: items
       type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-      description: List of items returned from GetRootItems.
+      description: List of items returned from <see cref="!:GetRootItems"></see>.
     content.vb: Protected Overrides Sub OnPreGetRootItems(items As List(Of ISoListItem))
   overridden: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
   overload: SuperOffice.CRM.Lists.UserPlanProvider.OnPreGetRootItems*
   nameWithType.vb: UserPlanProvider.OnPreGetRootItems(List(Of ISoListItem))
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
   fullName.vb: SuperOffice.CRM.Lists.UserPlanProvider.OnPreGetRootItems(System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
   name.vb: OnPreGetRootItems(List(Of ISoListItem))
 - uid: SuperOffice.CRM.Lists.UserPlanProvider.#ctor
@@ -273,16 +301,20 @@ items:
   nameWithType: UserPlanProvider.UserPlanProvider()
   fullName: SuperOffice.CRM.Lists.UserPlanProvider.UserPlanProvider()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
   syntax:
     content: public UserPlanProvider()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Lists.UserPlanProvider.#ctor*
-  nameWithType.vb: UserPlanProvider.New()
-  fullName.vb: SuperOffice.CRM.Lists.UserPlanProvider.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Lists.UserPlanProvider.TableInfo
   commentId: P:SuperOffice.CRM.Lists.UserPlanProvider.TableInfo
   id: TableInfo
@@ -294,11 +326,12 @@ items:
   nameWithType: UserPlanProvider.TableInfo
   fullName: SuperOffice.CRM.Lists.UserPlanProvider.TableInfo
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: The main table info of the query.  This is used by subclasses (e.g. this class) when restricting history data.
-  example: []
   syntax:
     content: protected override TableInfo TableInfo { get; }
     parameters: []
@@ -307,60 +340,32 @@ items:
     content.vb: Protected Overrides ReadOnly Property TableInfo As TableInfo
   overridden: SuperOffice.CRM.Lists.AnyTableListProviderBase.TableInfo
   overload: SuperOffice.CRM.Lists.UserPlanProvider.TableInfo*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Lists
   commentId: N:SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Lists
   nameWithType: SuperOffice.CRM.Lists
   fullName: SuperOffice.CRM.Lists
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Lists
-    name: Lists
-    isExternal: true
-    href: SuperOffice.CRM.Lists.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Lists
-    name: Lists
-    isExternal: true
-    href: SuperOffice.CRM.Lists.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase
   commentId: T:SuperOffice.CRM.Lists.AnyTableListProviderBase
   parent: SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html
   name: AnyTableListProviderBase
   nameWithType: AnyTableListProviderBase
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase
@@ -368,7 +373,6 @@ references:
   commentId: T:SuperOffice.CRM.Lists.ISoListProvider
   parent: SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.CRM.Lists.ISoListProvider.html
   name: ISoListProvider
   nameWithType: ISoListProvider
   fullName: SuperOffice.CRM.Lists.ISoListProvider
@@ -376,7 +380,6 @@ references:
   commentId: T:SuperOffice.CRM.Lists.ISoList
   parent: SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.CRM.Lists.ISoList.html
   name: ISoList
   nameWithType: ISoList
   fullName: SuperOffice.CRM.Lists.ISoList
@@ -384,148 +387,198 @@ references:
   commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_Construct_System_String_System_String_System_Int32___System_Boolean_System_String_System_Boolean_
-  name: Construct(string, string, int[], bool, string, bool)
-  nameWithType: AnyTableListProviderBase.Construct(string, string, int[], bool, string, bool)
-  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(string, string, int[], bool, string, bool)
-  nameWithType.vb: AnyTableListProviderBase.Construct(String, String, Integer(), Boolean, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(String, String, Integer(), Boolean, String, Boolean)
-  name.vb: Construct(String, String, Integer(), Boolean, String, Boolean)
+  name: Construct(String, String, Int32[], Boolean, String, Boolean)
+  nameWithType: AnyTableListProviderBase.Construct(String, String, Int32[], Boolean, String, Boolean)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(System.String, System.String, System.Int32[], System.Boolean, System.String, System.Boolean)
+  nameWithType.vb: AnyTableListProviderBase.Construct(String, String, Int32(), Boolean, String, Boolean)
+  fullName.vb: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(System.String, System.String, System.Int32(), System.Boolean, System.String, System.Boolean)
+  name.vb: Construct(String, String, Int32(), Boolean, String, Boolean)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
     name: Construct
+    nameWithType: AnyTableListProviderBase.Construct
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_Construct_System_String_System_String_System_Int32___System_Boolean_System_String_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
     name: Construct
+    nameWithType: AnyTableListProviderBase.Construct
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.Construct
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_Construct_System_String_System_String_System_Int32___System_Boolean_System_String_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
   commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_GetHistoryItems
   name: GetHistoryItems()
   nameWithType: AnyTableListProviderBase.GetHistoryItems()
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems()
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
     name: GetHistoryItems
+    nameWithType: AnyTableListProviderBase.GetHistoryItems
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_GetHistoryItems
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
     name: GetHistoryItems
+    nameWithType: AnyTableListProviderBase.GetHistoryItems
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetHistoryItems
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_GetHistoryItems
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
   commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_GetRootItems
   name: GetRootItems()
   nameWithType: AnyTableListProviderBase.GetRootItems()
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems()
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
     name: GetRootItems
+    nameWithType: AnyTableListProviderBase.GetRootItems
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_GetRootItems
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
     name: GetRootItems
+    nameWithType: AnyTableListProviderBase.GetRootItems
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetRootItems
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_GetRootItems
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
   commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_OnPostGetRootItems_System_Collections_Generic_List_SuperOffice_CRM_Lists_ISoListItem__
   name: OnPostGetRootItems(List<ISoListItem>)
   nameWithType: AnyTableListProviderBase.OnPostGetRootItems(List<ISoListItem>)
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems(System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>)
@@ -535,72 +588,104 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
     name: OnPostGetRootItems
+    nameWithType: AnyTableListProviderBase.OnPostGetRootItems
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_OnPostGetRootItems_System_Collections_Generic_List_SuperOffice_CRM_Lists_ISoListItem__
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
     name: OnPostGetRootItems
+    nameWithType: AnyTableListProviderBase.OnPostGetRootItems
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPostGetRootItems
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_OnPostGetRootItems_System_Collections_Generic_List_SuperOffice_CRM_Lists_ISoListItem__
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction(SuperOffice.Data.SQL.Select)
   commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction(SuperOffice.Data.SQL.Select)
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_SetHistoryRestriction_SuperOffice_Data_SQL_Select_
   name: SetHistoryRestriction(Select)
   nameWithType: AnyTableListProviderBase.SetHistoryRestriction(Select)
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction(SuperOffice.Data.SQL.Select)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction(SuperOffice.Data.SQL.Select)
     name: SetHistoryRestriction
+    nameWithType: AnyTableListProviderBase.SetHistoryRestriction
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_SetHistoryRestriction_SuperOffice_Data_SQL_Select_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Select
     name: Select
+    nameWithType: Select
+    fullName: SuperOffice.Data.SQL.Select
     isExternal: true
-    href: SuperOffice.Data.SQL.Select.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction(SuperOffice.Data.SQL.Select)
     name: SetHistoryRestriction
+    nameWithType: AnyTableListProviderBase.SetHistoryRestriction
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetHistoryRestriction
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_SetHistoryRestriction_SuperOffice_Data_SQL_Select_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Select
     name: Select
+    nameWithType: Select
+    fullName: SuperOffice.Data.SQL.Select
     isExternal: true
-    href: SuperOffice.Data.SQL.Select.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
   commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_ExecuteQuery_SuperOffice_Data_SQL_Select_System_Collections_Generic_List_SuperOffice_CRM_Lists_ISoListItem__
   name: ExecuteQuery(Select, List<ISoListItem>)
   nameWithType: AnyTableListProviderBase.ExecuteQuery(Select, List<ISoListItem>)
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select, System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>)
@@ -610,84 +695,120 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
     name: ExecuteQuery
+    nameWithType: AnyTableListProviderBase.ExecuteQuery
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_ExecuteQuery_SuperOffice_Data_SQL_Select_System_Collections_Generic_List_SuperOffice_CRM_Lists_ISoListItem__
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Select
     name: Select
+    nameWithType: Select
+    fullName: SuperOffice.Data.SQL.Select
     isExternal: true
-    href: SuperOffice.Data.SQL.Select.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery(SuperOffice.Data.SQL.Select,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
     name: ExecuteQuery
+    nameWithType: AnyTableListProviderBase.ExecuteQuery
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteQuery
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_ExecuteQuery_SuperOffice_Data_SQL_Select_System_Collections_Generic_List_SuperOffice_CRM_Lists_ISoListItem__
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Select
     name: Select
+    nameWithType: Select
+    fullName: SuperOffice.Data.SQL.Select
     isExternal: true
-    href: SuperOffice.Data.SQL.Select.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
   commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_ExecuteReader_SuperOffice_Data_SoCommand_
   name: ExecuteReader(SoCommand)
   nameWithType: AnyTableListProviderBase.ExecuteReader(SoCommand)
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
     name: ExecuteReader
+    nameWithType: AnyTableListProviderBase.ExecuteReader
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_ExecuteReader_SuperOffice_Data_SoCommand_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SoCommand
     name: SoCommand
+    nameWithType: SoCommand
+    fullName: SuperOffice.Data.SoCommand
     isExternal: true
-    href: SuperOffice.Data.SoCommand.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader(SuperOffice.Data.SoCommand)
     name: ExecuteReader
+    nameWithType: AnyTableListProviderBase.ExecuteReader
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExecuteReader
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_ExecuteReader_SuperOffice_Data_SoCommand_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SoCommand
     name: SoCommand
+    nameWithType: SoCommand
+    fullName: SuperOffice.Data.SoCommand
     isExternal: true
-    href: SuperOffice.Data.SoCommand.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.ListName
   commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.ListName
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_ListName
   name: ListName
   nameWithType: AnyTableListProviderBase.ListName
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ListName
@@ -695,7 +816,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.AdditionalInfo
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_AdditionalInfo
   name: AdditionalInfo
   nameWithType: AnyTableListProviderBase.AdditionalInfo
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.AdditionalInfo
@@ -703,7 +823,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryIDs
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_HistoryIDs
   name: HistoryIDs
   nameWithType: AnyTableListProviderBase.HistoryIDs
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryIDs
@@ -711,7 +830,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.OnlyReadHistory
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_OnlyReadHistory
   name: OnlyReadHistory
   nameWithType: AnyTableListProviderBase.OnlyReadHistory
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnlyReadHistory
@@ -719,7 +837,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.ExcludeHistory
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_ExcludeHistory
   name: ExcludeHistory
   nameWithType: AnyTableListProviderBase.ExcludeHistory
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ExcludeHistory
@@ -727,7 +844,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.SearchValue
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_SearchValue
   name: SearchValue
   nameWithType: AnyTableListProviderBase.SearchValue
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.SearchValue
@@ -735,7 +851,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.ForceFlatList
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_ForceFlatList
   name: ForceFlatList
   nameWithType: AnyTableListProviderBase.ForceFlatList
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.ForceFlatList
@@ -743,7 +858,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryInfo
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_HistoryInfo
   name: HistoryInfo
   nameWithType: AnyTableListProviderBase.HistoryInfo
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryInfo
@@ -751,7 +865,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryItems
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_HistoryItems
   name: HistoryItems
   nameWithType: AnyTableListProviderBase.HistoryItems
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.HistoryItems
@@ -759,7 +872,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.RootItems
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_RootItems
   name: RootItems
   nameWithType: AnyTableListProviderBase.RootItems
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.RootItems
@@ -767,452 +879,164 @@ references:
   commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.HeadingItems
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_HeadingItems
   name: HeadingItems
   nameWithType: AnyTableListProviderBase.HeadingItems
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.HeadingItems
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Lists.UserPlanProvider.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<UserPlanProvider, To>(UserPlanProvider)
-  nameWithType: EnumUtil.MapEnums<UserPlanProvider, To>(UserPlanProvider)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.UserPlanProvider, To>(SuperOffice.CRM.Lists.UserPlanProvider)
-  nameWithType.vb: EnumUtil.MapEnums(Of UserPlanProvider, To)(UserPlanProvider)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.UserPlanProvider, To)(SuperOffice.CRM.Lists.UserPlanProvider)
-  name.vb: MapEnums(Of UserPlanProvider, To)(UserPlanProvider)
+  name: MapEnums<UserPlanProvider, To>()
+  nameWithType: EnumUtil.MapEnums<UserPlanProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.UserPlanProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of UserPlanProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.UserPlanProvider, To)()
+  name.vb: MapEnums(Of UserPlanProvider, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Lists.UserPlanProvider)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<UserPlanProvider, To>
+    nameWithType: EnumUtil.MapEnums<UserPlanProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.UserPlanProvider, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Lists.UserPlanProvider
-    name: UserPlanProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.UserPlanProvider.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Lists.UserPlanProvider
-    name: UserPlanProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.UserPlanProvider.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Lists.UserPlanProvider)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of UserPlanProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of UserPlanProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.UserPlanProvider, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.UserPlanProvider
-    name: UserPlanProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.UserPlanProvider.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Lists.UserPlanProvider
-    name: UserPlanProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.UserPlanProvider.html
-  - name: )
-- uid: SuperOffice.CRM.Lists.UserPlanProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<UserPlanProvider, To>(UserPlanProvider)
-  nameWithType: Converters.MapEnums<UserPlanProvider, To>(UserPlanProvider)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.UserPlanProvider, To>(SuperOffice.CRM.Lists.UserPlanProvider)
-  nameWithType.vb: Converters.MapEnums(Of UserPlanProvider, To)(UserPlanProvider)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.UserPlanProvider, To)(SuperOffice.CRM.Lists.UserPlanProvider)
-  name.vb: MapEnums(Of UserPlanProvider, To)(UserPlanProvider)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Lists.UserPlanProvider)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Lists.UserPlanProvider
-    name: UserPlanProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.UserPlanProvider.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Lists.UserPlanProvider
-    name: UserPlanProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.UserPlanProvider.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Lists.UserPlanProvider)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.UserPlanProvider
-    name: UserPlanProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.UserPlanProvider.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Lists.UserPlanProvider
-    name: UserPlanProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.UserPlanProvider.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.UserPlanProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.UserPlanProvider)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<UserPlanProvider>(UserPlanProvider, UserPlanProvider)
-  nameWithType: ObjectExtensions.AssignByReflection<UserPlanProvider>(UserPlanProvider, UserPlanProvider)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.UserPlanProvider>(SuperOffice.CRM.Lists.UserPlanProvider, SuperOffice.CRM.Lists.UserPlanProvider)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of UserPlanProvider)(UserPlanProvider, UserPlanProvider)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.UserPlanProvider)(SuperOffice.CRM.Lists.UserPlanProvider, SuperOffice.CRM.Lists.UserPlanProvider)
-  name.vb: AssignByReflection(Of UserPlanProvider)(UserPlanProvider, UserPlanProvider)
+  name: AssignByReflection<UserPlanProvider>(UserPlanProvider)
+  nameWithType: ObjectExtensions.AssignByReflection<UserPlanProvider>(UserPlanProvider)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.UserPlanProvider>(SuperOffice.CRM.Lists.UserPlanProvider)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of UserPlanProvider)(UserPlanProvider)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.UserPlanProvider)(SuperOffice.CRM.Lists.UserPlanProvider)
+  name.vb: AssignByReflection(Of UserPlanProvider)(UserPlanProvider)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.UserPlanProvider,SuperOffice.CRM.Lists.UserPlanProvider)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<UserPlanProvider>
+    nameWithType: ObjectExtensions.AssignByReflection<UserPlanProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.UserPlanProvider>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Lists.UserPlanProvider
-    name: UserPlanProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.UserPlanProvider.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Lists.UserPlanProvider
     name: UserPlanProvider
+    nameWithType: UserPlanProvider
+    fullName: SuperOffice.CRM.Lists.UserPlanProvider
     isExternal: true
-    href: SuperOffice.CRM.Lists.UserPlanProvider.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.UserPlanProvider
-    name: UserPlanProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.UserPlanProvider.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.UserPlanProvider,SuperOffice.CRM.Lists.UserPlanProvider)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of UserPlanProvider)
+    nameWithType: ObjectExtensions.AssignByReflection(Of UserPlanProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.UserPlanProvider)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Lists.UserPlanProvider
     name: UserPlanProvider
+    nameWithType: UserPlanProvider
+    fullName: SuperOffice.CRM.Lists.UserPlanProvider
     isExternal: true
-    href: SuperOffice.CRM.Lists.UserPlanProvider.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Lists.UserPlanProvider
-    name: UserPlanProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.UserPlanProvider.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.UserPlanProvider
-    name: UserPlanProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.UserPlanProvider.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.UserPlanProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<UserPlanProvider>(UserPlanProvider)
-  nameWithType: ObjectExtensions.GraphCopy<UserPlanProvider>(UserPlanProvider)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.UserPlanProvider>(SuperOffice.CRM.Lists.UserPlanProvider)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of UserPlanProvider)(UserPlanProvider)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.UserPlanProvider)(SuperOffice.CRM.Lists.UserPlanProvider)
-  name.vb: GraphCopy(Of UserPlanProvider)(UserPlanProvider)
+  name: GraphCopy<UserPlanProvider>()
+  nameWithType: ObjectExtensions.GraphCopy<UserPlanProvider>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.UserPlanProvider>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of UserPlanProvider)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.UserPlanProvider)()
+  name.vb: GraphCopy(Of UserPlanProvider)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Lists.UserPlanProvider)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<UserPlanProvider>
+    nameWithType: ObjectExtensions.GraphCopy<UserPlanProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.UserPlanProvider>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Lists.UserPlanProvider
-    name: UserPlanProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.UserPlanProvider.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Lists.UserPlanProvider
-    name: UserPlanProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.UserPlanProvider.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Lists.UserPlanProvider)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of UserPlanProvider)
+    nameWithType: ObjectExtensions.GraphCopy(Of UserPlanProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.UserPlanProvider)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.UserPlanProvider
-    name: UserPlanProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.UserPlanProvider.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.UserPlanProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<UserPlanProvider, To>()
+  nameWithType: Converters.MapEnums<UserPlanProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.UserPlanProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of UserPlanProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.UserPlanProvider, To)()
+  name.vb: MapEnums(Of UserPlanProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<UserPlanProvider, To>
+    nameWithType: Converters.MapEnums<UserPlanProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.UserPlanProvider, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.Lists.UserPlanProvider
-    name: UserPlanProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.UserPlanProvider.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of UserPlanProvider, To)
+    nameWithType: Converters.MapEnums(Of UserPlanProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.UserPlanProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1221,93 +1045,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1316,46 +1090,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1364,129 +1148,133 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.Init
   commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.Init
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_Init
   name: Init()
   nameWithType: AnyTableListProviderBase.Init()
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.Init()
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.Init
     name: Init
+    nameWithType: AnyTableListProviderBase.Init
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.Init
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_Init
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.Init
     name: Init
+    nameWithType: AnyTableListProviderBase.Init
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.Init
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_Init
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.UserPlanProvider.Init*
   commentId: Overload:SuperOffice.CRM.Lists.UserPlanProvider.Init
   isExternal: true
-  href: SuperOffice.CRM.Lists.UserPlanProvider.html#SuperOffice_CRM_Lists_UserPlanProvider_Init
   name: Init
   nameWithType: UserPlanProvider.Init
   fullName: SuperOffice.CRM.Lists.UserPlanProvider.Init
@@ -1494,28 +1282,36 @@ references:
   commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.GetMainQuery
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_GetMainQuery
   name: GetMainQuery()
   nameWithType: AnyTableListProviderBase.GetMainQuery()
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetMainQuery()
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetMainQuery
     name: GetMainQuery
+    nameWithType: AnyTableListProviderBase.GetMainQuery
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetMainQuery
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_GetMainQuery
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetMainQuery
     name: GetMainQuery
+    nameWithType: AnyTableListProviderBase.GetMainQuery
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.GetMainQuery
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_GetMainQuery
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.UserPlanProvider.GetMainQuery*
   commentId: Overload:SuperOffice.CRM.Lists.UserPlanProvider.GetMainQuery
   isExternal: true
-  href: SuperOffice.CRM.Lists.UserPlanProvider.html#SuperOffice_CRM_Lists_UserPlanProvider_GetMainQuery
   name: GetMainQuery
   nameWithType: UserPlanProvider.GetMainQuery
   fullName: SuperOffice.CRM.Lists.UserPlanProvider.GetMainQuery
@@ -1523,96 +1319,75 @@ references:
   commentId: T:SuperOffice.Data.SQL.Select
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Select.html
   name: Select
   nameWithType: Select
   fullName: SuperOffice.Data.SQL.Select
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
   commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_SetSearchRestriction_SuperOffice_Data_SQL_Select_System_String_
-  name: SetSearchRestriction(Select, string)
-  nameWithType: AnyTableListProviderBase.SetSearchRestriction(Select, string)
-  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetSearchRestriction(SuperOffice.Data.SQL.Select, string)
-  nameWithType.vb: AnyTableListProviderBase.SetSearchRestriction(Select, String)
-  fullName.vb: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetSearchRestriction(SuperOffice.Data.SQL.Select, String)
-  name.vb: SetSearchRestriction(Select, String)
+  name: SetSearchRestriction(Select, String)
+  nameWithType: AnyTableListProviderBase.SetSearchRestriction(Select, String)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetSearchRestriction(SuperOffice.Data.SQL.Select, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
     name: SetSearchRestriction
+    nameWithType: AnyTableListProviderBase.SetSearchRestriction
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetSearchRestriction
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_SetSearchRestriction_SuperOffice_Data_SQL_Select_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Select
     name: Select
+    nameWithType: Select
+    fullName: SuperOffice.Data.SQL.Select
     isExternal: true
-    href: SuperOffice.Data.SQL.Select.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetSearchRestriction(SuperOffice.Data.SQL.Select,System.String)
     name: SetSearchRestriction
+    nameWithType: AnyTableListProviderBase.SetSearchRestriction
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.SetSearchRestriction
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_SetSearchRestriction_SuperOffice_Data_SQL_Select_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Select
     name: Select
+    nameWithType: Select
+    fullName: SuperOffice.Data.SQL.Select
     isExternal: true
-    href: SuperOffice.Data.SQL.Select.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.UserPlanProvider.SetSearchRestriction*
   commentId: Overload:SuperOffice.CRM.Lists.UserPlanProvider.SetSearchRestriction
   isExternal: true
-  href: SuperOffice.CRM.Lists.UserPlanProvider.html#SuperOffice_CRM_Lists_UserPlanProvider_SetSearchRestriction_SuperOffice_Data_SQL_Select_System_String_
   name: SetSearchRestriction
   nameWithType: UserPlanProvider.SetSearchRestriction
   fullName: SuperOffice.CRM.Lists.UserPlanProvider.SetSearchRestriction
@@ -1620,51 +1395,62 @@ references:
   commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_OnRead_SuperOffice_Data_SoDataReader_System_Int16_
-  name: OnRead(SoDataReader, short)
-  nameWithType: AnyTableListProviderBase.OnRead(SoDataReader, short)
-  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnRead(SuperOffice.Data.SoDataReader, short)
-  nameWithType.vb: AnyTableListProviderBase.OnRead(SoDataReader, Short)
-  fullName.vb: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnRead(SuperOffice.Data.SoDataReader, Short)
-  name.vb: OnRead(SoDataReader, Short)
+  name: OnRead(SoDataReader, Int16)
+  nameWithType: AnyTableListProviderBase.OnRead(SoDataReader, Int16)
+  fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnRead(SuperOffice.Data.SoDataReader, System.Int16)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
     name: OnRead
+    nameWithType: AnyTableListProviderBase.OnRead
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnRead
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_OnRead_SuperOffice_Data_SoDataReader_System_Int16_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SoDataReader
     name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
     isExternal: true
-    href: SuperOffice.Data.SoDataReader.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int16
-    name: short
+    name: Int16
+    nameWithType: Int16
+    fullName: System.Int16
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int16
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnRead(SuperOffice.Data.SoDataReader,System.Int16)
     name: OnRead
+    nameWithType: AnyTableListProviderBase.OnRead
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnRead
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_OnRead_SuperOffice_Data_SoDataReader_System_Int16_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SoDataReader
     name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
     isExternal: true
-    href: SuperOffice.Data.SoDataReader.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int16
-    name: Short
+    name: Int16
+    nameWithType: Int16
+    fullName: System.Int16
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int16
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.UserPlanProvider.OnRead*
   commentId: Overload:SuperOffice.CRM.Lists.UserPlanProvider.OnRead
   isExternal: true
-  href: SuperOffice.CRM.Lists.UserPlanProvider.html#SuperOffice_CRM_Lists_UserPlanProvider_OnRead_SuperOffice_Data_SoDataReader_System_Int16_
   name: OnRead
   nameWithType: UserPlanProvider.OnRead
   fullName: SuperOffice.CRM.Lists.UserPlanProvider.OnRead
@@ -1672,7 +1458,6 @@ references:
   commentId: T:SuperOffice.Data.SoDataReader
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoDataReader.html
   name: SoDataReader
   nameWithType: SoDataReader
   fullName: SuperOffice.Data.SoDataReader
@@ -1680,53 +1465,26 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Lists.ISoListItem
   commentId: T:SuperOffice.CRM.Lists.ISoListItem
   parent: SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.CRM.Lists.ISoListItem.html
   name: ISoListItem
   nameWithType: ISoListItem
   fullName: SuperOffice.CRM.Lists.ISoListItem
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
   commentId: M:SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_OnPreGetRootItems_System_Collections_Generic_List_SuperOffice_CRM_Lists_ISoListItem__
   name: OnPreGetRootItems(List<ISoListItem>)
   nameWithType: AnyTableListProviderBase.OnPreGetRootItems(List<ISoListItem>)
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems(System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>)
@@ -1736,49 +1494,68 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
     name: OnPreGetRootItems
+    nameWithType: AnyTableListProviderBase.OnPreGetRootItems
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_OnPreGetRootItems_System_Collections_Generic_List_SuperOffice_CRM_Lists_ISoListItem__
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
     name: OnPreGetRootItems
+    nameWithType: AnyTableListProviderBase.OnPreGetRootItems
+    fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.OnPreGetRootItems
     isExternal: true
-    href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_OnPreGetRootItems_System_Collections_Generic_List_SuperOffice_CRM_Lists_ISoListItem__
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.UserPlanProvider.OnPreGetRootItems*
   commentId: Overload:SuperOffice.CRM.Lists.UserPlanProvider.OnPreGetRootItems
   isExternal: true
-  href: SuperOffice.CRM.Lists.UserPlanProvider.html#SuperOffice_CRM_Lists_UserPlanProvider_OnPreGetRootItems_System_Collections_Generic_List_SuperOffice_CRM_Lists_ISoListItem__
   name: OnPreGetRootItems
   nameWithType: UserPlanProvider.OnPreGetRootItems
   fullName: SuperOffice.CRM.Lists.UserPlanProvider.OnPreGetRootItems
 - uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}'
   definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<ISoListItem>
   nameWithType: List<ISoListItem>
   fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>
@@ -1788,114 +1565,91 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
-    href: SuperOffice.CRM.Lists.ISoListItem.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Lists.ISoListItem
     name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
     isExternal: true
-    href: SuperOffice.CRM.Lists.ISoListItem.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.UserPlanProvider.#ctor*
   commentId: Overload:SuperOffice.CRM.Lists.UserPlanProvider.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Lists.UserPlanProvider.html#SuperOffice_CRM_Lists_UserPlanProvider__ctor
   name: UserPlanProvider
   nameWithType: UserPlanProvider.UserPlanProvider
   fullName: SuperOffice.CRM.Lists.UserPlanProvider.UserPlanProvider
-  nameWithType.vb: UserPlanProvider.New
-  fullName.vb: SuperOffice.CRM.Lists.UserPlanProvider.New
-  name.vb: New
 - uid: SuperOffice.CRM.Lists.AnyTableListProviderBase.TableInfo
   commentId: P:SuperOffice.CRM.Lists.AnyTableListProviderBase.TableInfo
   parent: SuperOffice.CRM.Lists.AnyTableListProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.AnyTableListProviderBase.html#SuperOffice_CRM_Lists_AnyTableListProviderBase_TableInfo
   name: TableInfo
   nameWithType: AnyTableListProviderBase.TableInfo
   fullName: SuperOffice.CRM.Lists.AnyTableListProviderBase.TableInfo
 - uid: SuperOffice.CRM.Lists.UserPlanProvider.TableInfo*
   commentId: Overload:SuperOffice.CRM.Lists.UserPlanProvider.TableInfo
   isExternal: true
-  href: SuperOffice.CRM.Lists.UserPlanProvider.html#SuperOffice_CRM_Lists_UserPlanProvider_TableInfo
   name: TableInfo
   nameWithType: UserPlanProvider.TableInfo
   fullName: SuperOffice.CRM.Lists.UserPlanProvider.TableInfo
@@ -1903,7 +1657,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo

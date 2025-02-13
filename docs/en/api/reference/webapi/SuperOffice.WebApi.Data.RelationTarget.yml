@@ -9,21 +9,64 @@ items:
   - SuperOffice.WebApi.Data.RelationTarget.Contact
   - SuperOffice.WebApi.Data.RelationTarget.None
   - SuperOffice.WebApi.Data.RelationTarget.Person
+  - SuperOffice.WebApi.Data.RelationTarget.value__
   langs:
   - csharp
   - vb
   name: RelationTarget
   nameWithType: RelationTarget
   fullName: SuperOffice.WebApi.Data.RelationTarget
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Target type of relation. (Contact, person or both)
-  example: []
+  summary: "\nTarget type of relation. (Contact, person or both)\n"
   syntax:
-    content: public enum RelationTarget
-    content.vb: Public Enum RelationTarget
+    content: 'public sealed class RelationTarget : Enum'
+    content.vb: >-
+      Public NotInheritable Class RelationTarget
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.RelationTarget.value__
+  commentId: F:SuperOffice.WebApi.Data.RelationTarget.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.RelationTarget
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: RelationTarget.value__
+  fullName: SuperOffice.WebApi.Data.RelationTarget.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.RelationTarget.None
   commentId: F:SuperOffice.WebApi.Data.RelationTarget.None
   id: None
@@ -35,26 +78,24 @@ items:
   nameWithType: RelationTarget.None
   fullName: SuperOffice.WebApi.Data.RelationTarget.None
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: None'
-  example: []
+  summary: "\n0: None\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const RelationTarget None
     return:
       type: SuperOffice.WebApi.Data.RelationTarget
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As RelationTarget
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.RelationTarget.Contact
   commentId: F:SuperOffice.WebApi.Data.RelationTarget.Contact
   id: Contact
@@ -66,26 +107,24 @@ items:
   nameWithType: RelationTarget.Contact
   fullName: SuperOffice.WebApi.Data.RelationTarget.Contact
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: Contact'
-  example: []
+  summary: "\n1: Contact\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Contact = 1
+    content: public const RelationTarget Contact
     return:
       type: SuperOffice.WebApi.Data.RelationTarget
-    content.vb: >-
-      <EnumMember>
-
-      Contact = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Contact As RelationTarget
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.RelationTarget.Person
   commentId: F:SuperOffice.WebApi.Data.RelationTarget.Person
   id: Person
@@ -97,26 +136,24 @@ items:
   nameWithType: RelationTarget.Person
   fullName: SuperOffice.WebApi.Data.RelationTarget.Person
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: Person'
-  example: []
+  summary: "\n2: Person\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Person = 2
+    content: public const RelationTarget Person
     return:
       type: SuperOffice.WebApi.Data.RelationTarget
-    content.vb: >-
-      <EnumMember>
-
-      Person = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Person As RelationTarget
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.RelationTarget.Both
   commentId: F:SuperOffice.WebApi.Data.RelationTarget.Both
   id: Both
@@ -128,69 +165,55 @@ items:
   nameWithType: RelationTarget.Both
   fullName: SuperOffice.WebApi.Data.RelationTarget.Both
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: Both'
-  example: []
+  summary: "\n3: Both\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Both = 3
+    content: public const RelationTarget Both
     return:
       type: SuperOffice.WebApi.Data.RelationTarget
-    content.vb: >-
-      <EnumMember>
-
-      Both = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Both As RelationTarget
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.RelationTarget
   commentId: T:SuperOffice.WebApi.Data.RelationTarget
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.RelationTarget.html
   name: RelationTarget
   nameWithType: RelationTarget
   fullName: SuperOffice.WebApi.Data.RelationTarget

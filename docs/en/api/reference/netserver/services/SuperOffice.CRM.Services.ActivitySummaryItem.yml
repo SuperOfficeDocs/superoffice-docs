@@ -21,27 +21,18 @@ items:
   nameWithType: ActivitySummaryItem
   fullName: SuperOffice.CRM.Services.ActivitySummaryItem
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Summary details about appointments and documents.
-
-    <p></p>
-
-    Carrier object for ActivitySummaryItem.
-
-    Services for the ActivitySummaryItem Carrier is available from the <xref href="SuperOffice.CRM.Services.IAppointmentAgent?text=Appointment+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nSummary details about appointments and documents.\n<p></p>\nCarrier object for ActivitySummaryItem.\nServices for the ActivitySummaryItem Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAppointmentAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class ActivitySummaryItem
+    content: 'public class ActivitySummaryItem : Object'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
       Public Class ActivitySummaryItem
+          Inherits Object
   seealso:
   - linkId: SuperOffice.CRM.Services.AppointmentAgent
     commentId: T:SuperOffice.CRM.Services.AppointmentAgent
@@ -49,21 +40,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.ActivitySummaryItem.#ctor
   commentId: M:SuperOffice.CRM.Services.ActivitySummaryItem.#ctor
   id: '#ctor'
@@ -75,18 +57,21 @@ items:
   nameWithType: ActivitySummaryItem.ActivitySummaryItem()
   fullName: SuperOffice.CRM.Services.ActivitySummaryItem.ActivitySummaryItem()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public ActivitySummaryItem()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.ActivitySummaryItem.#ctor*
-  nameWithType.vb: ActivitySummaryItem.New()
-  fullName.vb: SuperOffice.CRM.Services.ActivitySummaryItem.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ActivitySummaryItem.ToString
   commentId: M:SuperOffice.CRM.Services.ActivitySummaryItem.ToString
   id: ToString
@@ -98,19 +83,26 @@ items:
   nameWithType: ActivitySummaryItem.ToString()
   fullName: SuperOffice.CRM.Services.ActivitySummaryItem.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.ActivitySummaryItem.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.ActivitySummaryItem.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ActivitySummaryItem.ToString(System.String)
   id: ToString(System.String)
@@ -118,18 +110,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: ActivitySummaryItem.ToString(string)
-  fullName: SuperOffice.CRM.Services.ActivitySummaryItem.ToString(string)
+  name: ToString(String)
+  nameWithType: ActivitySummaryItem.ToString(String)
+  fullName: SuperOffice.CRM.Services.ActivitySummaryItem.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -141,9 +132,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ActivitySummaryItem.ToString*
-  nameWithType.vb: ActivitySummaryItem.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.ActivitySummaryItem.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ActivitySummaryItem.AppointmentId
   commentId: P:SuperOffice.CRM.Services.ActivitySummaryItem.AppointmentId
   id: AppointmentId
@@ -155,28 +147,28 @@ items:
   nameWithType: ActivitySummaryItem.AppointmentId
   fullName: SuperOffice.CRM.Services.ActivitySummaryItem.AppointmentId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int AppointmentId { get; set; }
+    content: public virtual int AppointmentId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property AppointmentId As Integer
+    content.vb: Public Overridable Property AppointmentId As Integer
   overload: SuperOffice.CRM.Services.ActivitySummaryItem.AppointmentId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ActivitySummaryItem.DocumentId
   commentId: P:SuperOffice.CRM.Services.ActivitySummaryItem.DocumentId
   id: DocumentId
@@ -188,28 +180,28 @@ items:
   nameWithType: ActivitySummaryItem.DocumentId
   fullName: SuperOffice.CRM.Services.ActivitySummaryItem.DocumentId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Document id - 0 if not a document
-  example: []
+  summary: "\nDocument id - 0 if not a document \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int DocumentId { get; set; }
+    content: public virtual int DocumentId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property DocumentId As Integer
+    content.vb: Public Overridable Property DocumentId As Integer
   overload: SuperOffice.CRM.Services.ActivitySummaryItem.DocumentId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ActivitySummaryItem.Date
   commentId: P:SuperOffice.CRM.Services.ActivitySummaryItem.Date
   id: Date
@@ -221,28 +213,28 @@ items:
   nameWithType: ActivitySummaryItem.Date
   fullName: SuperOffice.CRM.Services.ActivitySummaryItem.Date
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Start/Document date
-  example: []
+  summary: "\nStart/Document date \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime Date { get; set; }
+    content: public virtual DateTime Date { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property [Date] As Date
+    content.vb: Public Overridable Property Date As DateTime
   overload: SuperOffice.CRM.Services.ActivitySummaryItem.Date*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ActivitySummaryItem.Description
   commentId: P:SuperOffice.CRM.Services.ActivitySummaryItem.Description
   id: Description
@@ -254,28 +246,28 @@ items:
   nameWithType: ActivitySummaryItem.Description
   fullName: SuperOffice.CRM.Services.ActivitySummaryItem.Description
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The appointment's textbox; document title
-  example: []
+  summary: "\nThe appointment&apos;s textbox; document title \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Description { get; set; }
+    content: public virtual string Description { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Description As String
+    content.vb: Public Overridable Property Description As String
   overload: SuperOffice.CRM.Services.ActivitySummaryItem.Description*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ActivitySummaryItem.Completed
   commentId: P:SuperOffice.CRM.Services.ActivitySummaryItem.Completed
   id: Completed
@@ -287,28 +279,28 @@ items:
   nameWithType: ActivitySummaryItem.Completed
   fullName: SuperOffice.CRM.Services.ActivitySummaryItem.Completed
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The Completed state. NotStarted(1) or Completed(3)
-  example: []
+  summary: "\nThe Completed state. NotStarted(1) or Completed(3) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual ActivityStatus Completed { get; set; }
+    content: public virtual ActivityStatus Completed { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.ActivityStatus
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Completed As ActivityStatus
+    content.vb: Public Overridable Property Completed As ActivityStatus
   overload: SuperOffice.CRM.Services.ActivitySummaryItem.Completed*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ActivitySummaryItem.Registered
   commentId: P:SuperOffice.CRM.Services.ActivitySummaryItem.Registered
   id: Registered
@@ -320,33 +312,38 @@ items:
   nameWithType: ActivitySummaryItem.Registered
   fullName: SuperOffice.CRM.Services.ActivitySummaryItem.Registered
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Registered date  in UTC.
-  example: []
+  summary: "\nRegistered date  in UTC.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime Registered { get; set; }
+    content: public virtual DateTime Registered { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Registered As Date
+    content.vb: Public Overridable Property Registered As DateTime
   overload: SuperOffice.CRM.Services.ActivitySummaryItem.Registered*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.AppointmentAgent
   commentId: T:SuperOffice.CRM.Services.AppointmentAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.AppointmentAgent.html
   name: AppointmentAgent
   nameWithType: AppointmentAgent
   fullName: SuperOffice.CRM.Services.AppointmentAgent
@@ -354,298 +351,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IAppointmentAgent.html
   name: IAppointmentAgent
   nameWithType: IAppointmentAgent
   fullName: SuperOffice.CRM.Services.IAppointmentAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ActivitySummaryItem.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ActivitySummaryItem.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.ActivitySummaryItem.html#SuperOffice_CRM_Services_ActivitySummaryItem__ctor
   name: ActivitySummaryItem
   nameWithType: ActivitySummaryItem.ActivitySummaryItem
   fullName: SuperOffice.CRM.Services.ActivitySummaryItem.ActivitySummaryItem
-  nameWithType.vb: ActivitySummaryItem.New
-  fullName.vb: SuperOffice.CRM.Services.ActivitySummaryItem.New
-  name.vb: New
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Services.ActivitySummaryItem.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ActivitySummaryItem.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.ActivitySummaryItem.html#SuperOffice_CRM_Services_ActivitySummaryItem_ToString
   name: ToString
   nameWithType: ActivitySummaryItem.ToString
   fullName: SuperOffice.CRM.Services.ActivitySummaryItem.ToString
@@ -653,17 +370,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ActivitySummaryItem.AppointmentId*
   commentId: Overload:SuperOffice.CRM.Services.ActivitySummaryItem.AppointmentId
   isExternal: true
-  href: SuperOffice.CRM.Services.ActivitySummaryItem.html#SuperOffice_CRM_Services_ActivitySummaryItem_AppointmentId
   name: AppointmentId
   nameWithType: ActivitySummaryItem.AppointmentId
   fullName: SuperOffice.CRM.Services.ActivitySummaryItem.AppointmentId
@@ -671,49 +389,35 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.ActivitySummaryItem.DocumentId*
   commentId: Overload:SuperOffice.CRM.Services.ActivitySummaryItem.DocumentId
   isExternal: true
-  href: SuperOffice.CRM.Services.ActivitySummaryItem.html#SuperOffice_CRM_Services_ActivitySummaryItem_DocumentId
   name: DocumentId
   nameWithType: ActivitySummaryItem.DocumentId
   fullName: SuperOffice.CRM.Services.ActivitySummaryItem.DocumentId
 - uid: SuperOffice.CRM.Services.ActivitySummaryItem.Date*
   commentId: Overload:SuperOffice.CRM.Services.ActivitySummaryItem.Date
   isExternal: true
-  href: SuperOffice.CRM.Services.ActivitySummaryItem.html#SuperOffice_CRM_Services_ActivitySummaryItem_Date
   name: Date
   nameWithType: ActivitySummaryItem.Date
   fullName: SuperOffice.CRM.Services.ActivitySummaryItem.Date
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.ActivitySummaryItem.Description*
   commentId: Overload:SuperOffice.CRM.Services.ActivitySummaryItem.Description
   isExternal: true
-  href: SuperOffice.CRM.Services.ActivitySummaryItem.html#SuperOffice_CRM_Services_ActivitySummaryItem_Description
   name: Description
   nameWithType: ActivitySummaryItem.Description
   fullName: SuperOffice.CRM.Services.ActivitySummaryItem.Description
 - uid: SuperOffice.CRM.Services.ActivitySummaryItem.Completed*
   commentId: Overload:SuperOffice.CRM.Services.ActivitySummaryItem.Completed
   isExternal: true
-  href: SuperOffice.CRM.Services.ActivitySummaryItem.html#SuperOffice_CRM_Services_ActivitySummaryItem_Completed
   name: Completed
   nameWithType: ActivitySummaryItem.Completed
   fullName: SuperOffice.CRM.Services.ActivitySummaryItem.Completed
@@ -725,7 +429,6 @@ references:
 - uid: SuperOffice.CRM.Services.ActivitySummaryItem.Registered*
   commentId: Overload:SuperOffice.CRM.Services.ActivitySummaryItem.Registered
   isExternal: true
-  href: SuperOffice.CRM.Services.ActivitySummaryItem.html#SuperOffice_CRM_Services_ActivitySummaryItem_Registered
   name: Registered
   nameWithType: ActivitySummaryItem.Registered
   fullName: SuperOffice.CRM.Services.ActivitySummaryItem.Registered

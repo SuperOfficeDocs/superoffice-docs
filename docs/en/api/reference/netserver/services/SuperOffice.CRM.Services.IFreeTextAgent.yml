@@ -23,28 +23,15 @@ items:
   nameWithType: IFreeTextAgent
   fullName: SuperOffice.CRM.Services.IFreeTextAgent
   type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Interface for the FreeText Agent
-
-    This agent can be used to manage the free text system
+  summary: "\nInterface for the FreeText Agent\nThis agent can be used to manage the free text system\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (FreeTextAgent agent = new FreeTextAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (FreeTextAgent agent = new FreeTextAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: >-
       [Agent("FreeText Agent", "Interface for the FreeText Agent. This agent can be used to manage the free text system")]
@@ -53,7 +40,8 @@ items:
     content.vb: >-
       <Agent("FreeText Agent", "Interface for the FreeText Agent. This agent can be used to manage the free text system")>
 
-      Public Interface IFreeTextAgent Inherits IAgent
+      Public Interface IFreeTextAgent
+          Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -62,6 +50,12 @@ items:
       value: FreeText Agent
     - type: System.String
       value: Interface for the FreeText Agent. This agent can be used to manage the free text system
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Services.IFreeTextAgent.GetStatus
   commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.GetStatus
   id: GetStatus
@@ -73,17 +67,19 @@ items:
   nameWithType: IFreeTextAgent.GetStatus()
   fullName: SuperOffice.CRM.Services.IFreeTextAgent.GetStatus()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns status for the freetext search words
-  example: []
+  summary: "\nReturns status for the freetext search words\n"
   syntax:
     content: FreeText GetStatus()
     return:
       type: SuperOffice.CRM.Services.FreeText
       description: The freetext status
-    content.vb: Function GetStatus() As FreeText
+    content.vb: Function GetStatus As FreeText
   overload: SuperOffice.CRM.Services.IFreeTextAgent.GetStatus*
 - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetEnabled(System.Boolean)
   commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.SetEnabled(System.Boolean)
@@ -92,15 +88,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetEnabled(bool)
-  nameWithType: IFreeTextAgent.SetEnabled(bool)
-  fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetEnabled(bool)
+  name: SetEnabled(Boolean)
+  nameWithType: IFreeTextAgent.SetEnabled(Boolean)
+  fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetEnabled(System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Sets freetext search to enabled (true) or disabled (false)
-  example: []
+  summary: "\nSets freetext search to enabled (true) or disabled (false)\n"
   syntax:
     content: void SetEnabled(bool enabled)
     parameters:
@@ -109,9 +107,6 @@ items:
       description: If enabled true, else false
     content.vb: Sub SetEnabled(enabled As Boolean)
   overload: SuperOffice.CRM.Services.IFreeTextAgent.SetEnabled*
-  nameWithType.vb: IFreeTextAgent.SetEnabled(Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IFreeTextAgent.SetEnabled(Boolean)
-  name.vb: SetEnabled(Boolean)
 - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetAutoEnableTravelAreas(System.Boolean)
   commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.SetAutoEnableTravelAreas(System.Boolean)
   id: SetAutoEnableTravelAreas(System.Boolean)
@@ -119,15 +114,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetAutoEnableTravelAreas(bool)
-  nameWithType: IFreeTextAgent.SetAutoEnableTravelAreas(bool)
-  fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetAutoEnableTravelAreas(bool)
+  name: SetAutoEnableTravelAreas(Boolean)
+  nameWithType: IFreeTextAgent.SetAutoEnableTravelAreas(Boolean)
+  fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetAutoEnableTravelAreas(System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Automatically enable freetext search for new travel areas? true or false
-  example: []
+  summary: "\nAutomatically enable freetext search for new travel areas? true or false\n"
   syntax:
     content: void SetAutoEnableTravelAreas(bool autoEnable)
     parameters:
@@ -136,9 +133,6 @@ items:
       description: If true, auto enable
     content.vb: Sub SetAutoEnableTravelAreas(autoEnable As Boolean)
   overload: SuperOffice.CRM.Services.IFreeTextAgent.SetAutoEnableTravelAreas*
-  nameWithType.vb: IFreeTextAgent.SetAutoEnableTravelAreas(Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IFreeTextAgent.SetAutoEnableTravelAreas(Boolean)
-  name.vb: SetAutoEnableTravelAreas(Boolean)
 - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperator(SuperOffice.Data.FreeTextOperator)
   commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperator(SuperOffice.Data.FreeTextOperator)
   id: SetSingleWordOperator(SuperOffice.Data.FreeTextOperator)
@@ -150,11 +144,13 @@ items:
   nameWithType: IFreeTextAgent.SetSingleWordOperator(FreeTextOperator)
   fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperator(SuperOffice.Data.FreeTextOperator)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Sets the operator used when matching single words
-  example: []
+  summary: "\nSets the operator used when matching single words\n"
   syntax:
     content: void SetSingleWordOperator(FreeTextOperator freeTextOperator)
     parameters:
@@ -174,11 +170,13 @@ items:
   nameWithType: IFreeTextAgent.SetMultiWordOperator(FreeTextOperator)
   fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetMultiWordOperator(SuperOffice.Data.FreeTextOperator)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Sets the operator used when matching multiple words
-  example: []
+  summary: "\nSets the operator used when matching multiple words\n"
   syntax:
     content: void SetMultiWordOperator(FreeTextOperator freeTextOperator)
     parameters:
@@ -198,17 +196,19 @@ items:
   nameWithType: IFreeTextAgent.GetStopWordList()
   fullName: SuperOffice.CRM.Services.IFreeTextAgent.GetStopWordList()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the list of stop words
-  example: []
+  summary: "\nReturns the list of stop words\n"
   syntax:
     content: string[] GetStopWordList()
     return:
       type: System.String[]
       description: The list of stop words
-    content.vb: Function GetStopWordList() As String()
+    content.vb: Function GetStopWordList As String()
   overload: SuperOffice.CRM.Services.IFreeTextAgent.GetStopWordList*
 - uid: SuperOffice.CRM.Services.IFreeTextAgent.AddWords(System.String)
   commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.AddWords(System.String)
@@ -217,15 +217,17 @@ items:
   langs:
   - csharp
   - vb
-  name: AddWords(string)
-  nameWithType: IFreeTextAgent.AddWords(string)
-  fullName: SuperOffice.CRM.Services.IFreeTextAgent.AddWords(string)
+  name: AddWords(String)
+  nameWithType: IFreeTextAgent.AddWords(String)
+  fullName: SuperOffice.CRM.Services.IFreeTextAgent.AddWords(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Adds the words in the string to the stop word list
-  example: []
+  summary: "\nAdds the words in the string to the stop word list\n"
   syntax:
     content: void AddWords(string stopWords)
     parameters:
@@ -234,9 +236,6 @@ items:
       description: The stop words to add
     content.vb: Sub AddWords(stopWords As String)
   overload: SuperOffice.CRM.Services.IFreeTextAgent.AddWords*
-  nameWithType.vb: IFreeTextAgent.AddWords(String)
-  fullName.vb: SuperOffice.CRM.Services.IFreeTextAgent.AddWords(String)
-  name.vb: AddWords(String)
 - uid: SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById(System.Int32[])
   commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById(System.Int32[])
   id: DeleteStopWordsById(System.Int32[])
@@ -244,15 +243,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteStopWordsById(int[])
-  nameWithType: IFreeTextAgent.DeleteStopWordsById(int[])
-  fullName: SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById(int[])
+  name: DeleteStopWordsById(Int32[])
+  nameWithType: IFreeTextAgent.DeleteStopWordsById(Int32[])
+  fullName: SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById(System.Int32[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Delete the stop words with these ids
-  example: []
+  summary: "\nDelete the stop words with these ids\n"
   syntax:
     content: void DeleteStopWordsById(int[] stopWordIds)
     parameters:
@@ -261,9 +262,9 @@ items:
       description: The ids of the stopwords to delete
     content.vb: Sub DeleteStopWordsById(stopWordIds As Integer())
   overload: SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById*
-  nameWithType.vb: IFreeTextAgent.DeleteStopWordsById(Integer())
-  fullName.vb: SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById(Integer())
-  name.vb: DeleteStopWordsById(Integer())
+  nameWithType.vb: IFreeTextAgent.DeleteStopWordsById(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById(System.Int32())
+  name.vb: DeleteStopWordsById(Int32())
 - uid: SuperOffice.CRM.Services.IFreeTextAgent.GetSuggestedStopWords(System.Int32)
   commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.GetSuggestedStopWords(System.Int32)
   id: GetSuggestedStopWords(System.Int32)
@@ -271,15 +272,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSuggestedStopWords(int)
-  nameWithType: IFreeTextAgent.GetSuggestedStopWords(int)
-  fullName: SuperOffice.CRM.Services.IFreeTextAgent.GetSuggestedStopWords(int)
+  name: GetSuggestedStopWords(Int32)
+  nameWithType: IFreeTextAgent.GetSuggestedStopWords(Int32)
+  fullName: SuperOffice.CRM.Services.IFreeTextAgent.GetSuggestedStopWords(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the top used words in the freetext index table, sorted as most used first
-  example: []
+  summary: "\nReturns the top used words in the freetext index table, sorted as most used first\n"
   syntax:
     content: MDOListItem[] GetSuggestedStopWords(int countWords)
     parameters:
@@ -291,9 +294,6 @@ items:
       description: The most used words
     content.vb: Function GetSuggestedStopWords(countWords As Integer) As MDOListItem()
   overload: SuperOffice.CRM.Services.IFreeTextAgent.GetSuggestedStopWords*
-  nameWithType.vb: IFreeTextAgent.GetSuggestedStopWords(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IFreeTextAgent.GetSuggestedStopWords(Integer)
-  name.vb: GetSuggestedStopWords(Integer)
 - uid: SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndex(System.Boolean)
   commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndex(System.Boolean)
   id: RegenerateIndex(System.Boolean)
@@ -301,15 +301,17 @@ items:
   langs:
   - csharp
   - vb
-  name: RegenerateIndex(bool)
-  nameWithType: IFreeTextAgent.RegenerateIndex(bool)
-  fullName: SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndex(bool)
+  name: RegenerateIndex(Boolean)
+  nameWithType: IFreeTextAgent.RegenerateIndex(Boolean)
+  fullName: SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndex(System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Wipe and regenerate the freetext index by scanning the database (freetext search will be unavailable while this operation runs
-  example: []
+  summary: "\nWipe and regenerate the freetext index by scanning the database (freetext search will be unavailable while this operation runs\n"
   syntax:
     content: BatchTaskInfo RegenerateIndex(bool runAsBatch)
     parameters:
@@ -321,9 +323,6 @@ items:
       description: Information about the batch task, if batch execution was requested. Otherwise null
     content.vb: Function RegenerateIndex(runAsBatch As Boolean) As BatchTaskInfo
   overload: SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndex*
-  nameWithType.vb: IFreeTextAgent.RegenerateIndex(Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndex(Boolean)
-  name.vb: RegenerateIndex(Boolean)
 - uid: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows(System.String,System.Int32[])
   commentId: M:SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows(System.String,System.Int32[])
   id: FreetextIndexRows(System.String,System.Int32[])
@@ -331,15 +330,17 @@ items:
   langs:
   - csharp
   - vb
-  name: FreetextIndexRows(string, int[])
-  nameWithType: IFreeTextAgent.FreetextIndexRows(string, int[])
-  fullName: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows(string, int[])
+  name: FreetextIndexRows(String, Int32[])
+  nameWithType: IFreeTextAgent.FreetextIndexRows(String, Int32[])
+  fullName: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows(System.String, System.Int32[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Update the freetext index for one or more rows from the same table
-  example: []
+  summary: "\nUpdate the freetext index for one or more rows from the same table\n"
   syntax:
     content: void FreetextIndexRows(string tableName, int[] iDs)
     parameters:
@@ -348,54 +349,22 @@ items:
       description: The name of the table the rows come from; this table should have at least one freetext-indexable field
     - id: iDs
       type: System.Int32[]
-      description: One or more primary keys, identifying records to be (re)indexed. It doesn't matter if they have been indexed before or not
+      description: One or more primary keys, identifying records to be (re)indexed. It doesn&apos;t matter if they have been indexed before or not
     content.vb: Sub FreetextIndexRows(tableName As String, iDs As Integer())
   overload: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows*
-  nameWithType.vb: IFreeTextAgent.FreetextIndexRows(String, Integer())
-  fullName.vb: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows(String, Integer())
-  name.vb: FreetextIndexRows(String, Integer())
+  nameWithType.vb: IFreeTextAgent.FreetextIndexRows(String, Int32())
+  fullName.vb: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows(System.String, System.Int32())
+  name.vb: FreetextIndexRows(String, Int32())
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.IFreeTextAgent.GetStatus*
   commentId: Overload:SuperOffice.CRM.Services.IFreeTextAgent.GetStatus
   isExternal: true
-  href: SuperOffice.CRM.Services.IFreeTextAgent.html#SuperOffice_CRM_Services_IFreeTextAgent_GetStatus
   name: GetStatus
   nameWithType: IFreeTextAgent.GetStatus
   fullName: SuperOffice.CRM.Services.IFreeTextAgent.GetStatus
@@ -403,14 +372,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.FreeText
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.FreeText.html
   name: FreeText
   nameWithType: FreeText
   fullName: SuperOffice.CRM.Services.FreeText
 - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetEnabled*
   commentId: Overload:SuperOffice.CRM.Services.IFreeTextAgent.SetEnabled
   isExternal: true
-  href: SuperOffice.CRM.Services.IFreeTextAgent.html#SuperOffice_CRM_Services_IFreeTextAgent_SetEnabled_System_Boolean_
   name: SetEnabled
   nameWithType: IFreeTextAgent.SetEnabled
   fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetEnabled
@@ -418,31 +385,24 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetAutoEnableTravelAreas*
   commentId: Overload:SuperOffice.CRM.Services.IFreeTextAgent.SetAutoEnableTravelAreas
   isExternal: true
-  href: SuperOffice.CRM.Services.IFreeTextAgent.html#SuperOffice_CRM_Services_IFreeTextAgent_SetAutoEnableTravelAreas_System_Boolean_
   name: SetAutoEnableTravelAreas
   nameWithType: IFreeTextAgent.SetAutoEnableTravelAreas
   fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetAutoEnableTravelAreas
 - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperator*
   commentId: Overload:SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperator
   isExternal: true
-  href: SuperOffice.CRM.Services.IFreeTextAgent.html#SuperOffice_CRM_Services_IFreeTextAgent_SetSingleWordOperator_SuperOffice_Data_FreeTextOperator_
   name: SetSingleWordOperator
   nameWithType: IFreeTextAgent.SetSingleWordOperator
   fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetSingleWordOperator
@@ -454,44 +414,44 @@ references:
 - uid: SuperOffice.CRM.Services.IFreeTextAgent.SetMultiWordOperator*
   commentId: Overload:SuperOffice.CRM.Services.IFreeTextAgent.SetMultiWordOperator
   isExternal: true
-  href: SuperOffice.CRM.Services.IFreeTextAgent.html#SuperOffice_CRM_Services_IFreeTextAgent_SetMultiWordOperator_SuperOffice_Data_FreeTextOperator_
   name: SetMultiWordOperator
   nameWithType: IFreeTextAgent.SetMultiWordOperator
   fullName: SuperOffice.CRM.Services.IFreeTextAgent.SetMultiWordOperator
 - uid: SuperOffice.CRM.Services.IFreeTextAgent.GetStopWordList*
   commentId: Overload:SuperOffice.CRM.Services.IFreeTextAgent.GetStopWordList
   isExternal: true
-  href: SuperOffice.CRM.Services.IFreeTextAgent.html#SuperOffice_CRM_Services_IFreeTextAgent_GetStopWordList
   name: GetStopWordList
   nameWithType: IFreeTextAgent.GetStopWordList
   fullName: SuperOffice.CRM.Services.IFreeTextAgent.GetStopWordList
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IFreeTextAgent.AddWords*
   commentId: Overload:SuperOffice.CRM.Services.IFreeTextAgent.AddWords
   isExternal: true
-  href: SuperOffice.CRM.Services.IFreeTextAgent.html#SuperOffice_CRM_Services_IFreeTextAgent_AddWords_System_String_
   name: AddWords
   nameWithType: IFreeTextAgent.AddWords
   fullName: SuperOffice.CRM.Services.IFreeTextAgent.AddWords
@@ -499,47 +459,44 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById*
   commentId: Overload:SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById
   isExternal: true
-  href: SuperOffice.CRM.Services.IFreeTextAgent.html#SuperOffice_CRM_Services_IFreeTextAgent_DeleteStopWordsById_System_Int32___
   name: DeleteStopWordsById
   nameWithType: IFreeTextAgent.DeleteStopWordsById
   fullName: SuperOffice.CRM.Services.IFreeTextAgent.DeleteStopWordsById
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IFreeTextAgent.GetSuggestedStopWords*
   commentId: Overload:SuperOffice.CRM.Services.IFreeTextAgent.GetSuggestedStopWords
   isExternal: true
-  href: SuperOffice.CRM.Services.IFreeTextAgent.html#SuperOffice_CRM_Services_IFreeTextAgent_GetSuggestedStopWords_System_Int32_
   name: GetSuggestedStopWords
   nameWithType: IFreeTextAgent.GetSuggestedStopWords
   fullName: SuperOffice.CRM.Services.IFreeTextAgent.GetSuggestedStopWords
@@ -547,16 +504,11 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.MDOListItem[]
   isExternal: true
-  href: SuperOffice.CRM.Services.MDOListItem.html
   name: MDOListItem[]
   nameWithType: MDOListItem[]
   fullName: SuperOffice.CRM.Services.MDOListItem[]
@@ -566,21 +518,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.MDOListItem
     name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
     isExternal: true
-    href: SuperOffice.CRM.Services.MDOListItem.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.MDOListItem
     name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
     isExternal: true
-    href: SuperOffice.CRM.Services.MDOListItem.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndex*
   commentId: Overload:SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndex
   isExternal: true
-  href: SuperOffice.CRM.Services.IFreeTextAgent.html#SuperOffice_CRM_Services_IFreeTextAgent_RegenerateIndex_System_Boolean_
   name: RegenerateIndex
   nameWithType: IFreeTextAgent.RegenerateIndex
   fullName: SuperOffice.CRM.Services.IFreeTextAgent.RegenerateIndex
@@ -588,14 +543,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.BatchTaskInfo
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.BatchTaskInfo.html
   name: BatchTaskInfo
   nameWithType: BatchTaskInfo
   fullName: SuperOffice.CRM.Services.BatchTaskInfo
 - uid: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows*
   commentId: Overload:SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows
   isExternal: true
-  href: SuperOffice.CRM.Services.IFreeTextAgent.html#SuperOffice_CRM_Services_IFreeTextAgent_FreetextIndexRows_System_String_System_Int32___
   name: FreetextIndexRows
   nameWithType: IFreeTextAgent.FreetextIndexRows
   fullName: SuperOffice.CRM.Services.IFreeTextAgent.FreetextIndexRows

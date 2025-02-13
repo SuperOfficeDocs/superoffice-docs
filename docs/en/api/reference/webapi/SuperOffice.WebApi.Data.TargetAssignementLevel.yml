@@ -9,36 +9,64 @@ items:
   - SuperOffice.WebApi.Data.TargetAssignementLevel.Company
   - SuperOffice.WebApi.Data.TargetAssignementLevel.Group
   - SuperOffice.WebApi.Data.TargetAssignementLevel.None
+  - SuperOffice.WebApi.Data.TargetAssignementLevel.value__
   langs:
   - csharp
   - vb
   name: TargetAssignementLevel
   nameWithType: TargetAssignementLevel
   fullName: SuperOffice.WebApi.Data.TargetAssignementLevel
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Target assignement levels
-
-    This Enum is used by:  target_dimension.assignment_level
-
-    This Enum consists of flag values that can be combined.
-  example: []
+  summary: "\nTarget assignement levels\nThis Enum is used by:  target_dimension.assignment_level\nThis Enum consists of flag values that can be combined.\n"
   syntax:
-    content: >-
-      [Flags]
-
-      public enum TargetAssignementLevel : short
+    content: 'public sealed class TargetAssignementLevel : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class TargetAssignementLevel
+          Inherits
 
-      Public Enum TargetAssignementLevel As Short
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.TargetAssignementLevel.value__
+  commentId: F:SuperOffice.WebApi.Data.TargetAssignementLevel.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.TargetAssignementLevel
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TargetAssignementLevel.value__
+  fullName: SuperOffice.WebApi.Data.TargetAssignementLevel.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TargetAssignementLevel.None
   commentId: F:SuperOffice.WebApi.Data.TargetAssignementLevel.None
   id: None
@@ -50,15 +78,24 @@ items:
   nameWithType: TargetAssignementLevel.None
   fullName: SuperOffice.WebApi.Data.TargetAssignementLevel.None
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: No level'
-  example: []
+  summary: "\n0: No level\n"
   syntax:
-    content: None = 0
+    content: public const TargetAssignementLevel None
     return:
       type: SuperOffice.WebApi.Data.TargetAssignementLevel
+    content.vb: Public Const None As TargetAssignementLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TargetAssignementLevel.Company
   commentId: F:SuperOffice.WebApi.Data.TargetAssignementLevel.Company
   id: Company
@@ -70,26 +107,24 @@ items:
   nameWithType: TargetAssignementLevel.Company
   fullName: SuperOffice.WebApi.Data.TargetAssignementLevel.Company
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: Company'
-  example: []
+  summary: "\n1: Company\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Company = 1
+    content: public const TargetAssignementLevel Company
     return:
       type: SuperOffice.WebApi.Data.TargetAssignementLevel
-    content.vb: >-
-      <EnumMember>
-
-      Company = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Company As TargetAssignementLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TargetAssignementLevel.Group
   commentId: F:SuperOffice.WebApi.Data.TargetAssignementLevel.Group
   id: Group
@@ -101,26 +136,24 @@ items:
   nameWithType: TargetAssignementLevel.Group
   fullName: SuperOffice.WebApi.Data.TargetAssignementLevel.Group
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: Group'
-  example: []
+  summary: "\n2: Group\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Group = 2
+    content: public const TargetAssignementLevel Group
     return:
       type: SuperOffice.WebApi.Data.TargetAssignementLevel
-    content.vb: >-
-      <EnumMember>
-
-      Group = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Group As TargetAssignementLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TargetAssignementLevel.Associate
   commentId: F:SuperOffice.WebApi.Data.TargetAssignementLevel.Associate
   id: Associate
@@ -132,69 +165,55 @@ items:
   nameWithType: TargetAssignementLevel.Associate
   fullName: SuperOffice.WebApi.Data.TargetAssignementLevel.Associate
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: Associate'
-  example: []
+  summary: "\n4: Associate\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Associate = 4
+    content: public const TargetAssignementLevel Associate
     return:
       type: SuperOffice.WebApi.Data.TargetAssignementLevel
-    content.vb: >-
-      <EnumMember>
-
-      Associate = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Associate As TargetAssignementLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.TargetAssignementLevel
   commentId: T:SuperOffice.WebApi.Data.TargetAssignementLevel
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetAssignementLevel.html
   name: TargetAssignementLevel
   nameWithType: TargetAssignementLevel
   fullName: SuperOffice.WebApi.Data.TargetAssignementLevel

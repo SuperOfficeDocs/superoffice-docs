@@ -22,27 +22,18 @@ items:
   nameWithType: AudienceConfigParameter
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    An Audience configuration parameter, used for handling Audience application or Web part settings.
-
-    <p></p>
-
-    Carrier object for AudienceConfigParameter.
-
-    Services for the AudienceConfigParameter Carrier is available from the <xref href="SuperOffice.CRM.Services.IAudienceAgent?text=Audience+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nAn Audience configuration parameter, used for handling Audience application or Web part settings.\n<p></p>\nCarrier object for AudienceConfigParameter.\nServices for the AudienceConfigParameter Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAudienceAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class AudienceConfigParameter : Carrier
+    content: 'public class AudienceConfigParameter : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class AudienceConfigParameter Inherits Carrier
+      Public Class AudienceConfigParameter
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.AudienceAgent
     commentId: T:SuperOffice.CRM.Services.AudienceAgent
@@ -50,14 +41,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IAudienceAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter.#ctor
   commentId: M:SuperOffice.CRM.Services.AudienceConfigParameter.#ctor
   id: '#ctor'
@@ -69,18 +58,21 @@ items:
   nameWithType: AudienceConfigParameter.AudienceConfigParameter()
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter.AudienceConfigParameter()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public AudienceConfigParameter()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.AudienceConfigParameter.#ctor*
-  nameWithType.vb: AudienceConfigParameter.New()
-  fullName.vb: SuperOffice.CRM.Services.AudienceConfigParameter.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter.ToString
   commentId: M:SuperOffice.CRM.Services.AudienceConfigParameter.ToString
   id: ToString
@@ -92,18 +84,26 @@ items:
   nameWithType: AudienceConfigParameter.ToString()
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.AudienceConfigParameter.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.AudienceConfigParameter.ToString(System.String)
   id: ToString(System.String)
@@ -111,18 +111,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: AudienceConfigParameter.ToString(string)
-  fullName: SuperOffice.CRM.Services.AudienceConfigParameter.ToString(string)
+  name: ToString(String)
+  nameWithType: AudienceConfigParameter.ToString(String)
+  fullName: SuperOffice.CRM.Services.AudienceConfigParameter.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -134,9 +133,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.AudienceConfigParameter.ToString*
-  nameWithType.vb: AudienceConfigParameter.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.AudienceConfigParameter.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter.AudienceLayoutId
   commentId: P:SuperOffice.CRM.Services.AudienceConfigParameter.AudienceLayoutId
   id: AudienceLayoutId
@@ -148,28 +148,28 @@ items:
   nameWithType: AudienceConfigParameter.AudienceLayoutId
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter.AudienceLayoutId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The id of the Audience layout this configuration setting belongs to
-  example: []
+  summary: "\nThe id of the Audience layout this configuration setting belongs to \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int AudienceLayoutId { get; set; }
+    content: public virtual int AudienceLayoutId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property AudienceLayoutId As Integer
+    content.vb: Public Overridable Property AudienceLayoutId As Integer
   overload: SuperOffice.CRM.Services.AudienceConfigParameter.AudienceLayoutId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter.Name
   commentId: P:SuperOffice.CRM.Services.AudienceConfigParameter.Name
   id: Name
@@ -181,28 +181,28 @@ items:
   nameWithType: AudienceConfigParameter.Name
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter.Name
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The name of the configuration parameter
-  example: []
+  summary: "\nThe name of the configuration parameter \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Name { get; set; }
+    content: public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Name As String
+    content.vb: Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.AudienceConfigParameter.Name*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter.Value
   commentId: P:SuperOffice.CRM.Services.AudienceConfigParameter.Value
   id: Value
@@ -214,28 +214,28 @@ items:
   nameWithType: AudienceConfigParameter.Value
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter.Value
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The value of the configuration parameter
-  example: []
+  summary: "\nThe value of the configuration parameter \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Value { get; set; }
+    content: public virtual string Value { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Value As String
+    content.vb: Public Overridable Property Value As String
   overload: SuperOffice.CRM.Services.AudienceConfigParameter.Value*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter.CreatedDate
   commentId: P:SuperOffice.CRM.Services.AudienceConfigParameter.CreatedDate
   id: CreatedDate
@@ -247,28 +247,28 @@ items:
   nameWithType: AudienceConfigParameter.CreatedDate
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter.CreatedDate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The date and time the configuration parameter was created  in UTC.
-  example: []
+  summary: "\nThe date and time the configuration parameter was created  in UTC.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime CreatedDate { get; set; }
+    content: public virtual DateTime CreatedDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CreatedDate As Date
+    content.vb: Public Overridable Property CreatedDate As DateTime
   overload: SuperOffice.CRM.Services.AudienceConfigParameter.CreatedDate*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter.UpdatedDate
   commentId: P:SuperOffice.CRM.Services.AudienceConfigParameter.UpdatedDate
   id: UpdatedDate
@@ -280,28 +280,28 @@ items:
   nameWithType: AudienceConfigParameter.UpdatedDate
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter.UpdatedDate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The date and time the configuration parameter was last updated  in UTC.
-  example: []
+  summary: "\nThe date and time the configuration parameter was last updated  in UTC.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime UpdatedDate { get; set; }
+    content: public virtual DateTime UpdatedDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property UpdatedDate As Date
+    content.vb: Public Overridable Property UpdatedDate As DateTime
   overload: SuperOffice.CRM.Services.AudienceConfigParameter.UpdatedDate*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter.CreatedBy
   commentId: P:SuperOffice.CRM.Services.AudienceConfigParameter.CreatedBy
   id: CreatedBy
@@ -313,28 +313,28 @@ items:
   nameWithType: AudienceConfigParameter.CreatedBy
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter.CreatedBy
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Name of the person that created the configuration parameter
-  example: []
+  summary: "\nName of the person that created the configuration parameter \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string CreatedBy { get; set; }
+    content: public virtual string CreatedBy { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CreatedBy As String
+    content.vb: Public Overridable Property CreatedBy As String
   overload: SuperOffice.CRM.Services.AudienceConfigParameter.CreatedBy*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter.UpdatedBy
   commentId: P:SuperOffice.CRM.Services.AudienceConfigParameter.UpdatedBy
   id: UpdatedBy
@@ -346,33 +346,38 @@ items:
   nameWithType: AudienceConfigParameter.UpdatedBy
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter.UpdatedBy
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Name of the person that last updated the configuration parameter
-  example: []
+  summary: "\nName of the person that last updated the configuration parameter \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string UpdatedBy { get; set; }
+    content: public virtual string UpdatedBy { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property UpdatedBy As String
+    content.vb: Public Overridable Property UpdatedBy As String
   overload: SuperOffice.CRM.Services.AudienceConfigParameter.UpdatedBy*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.AudienceAgent
   commentId: T:SuperOffice.CRM.Services.AudienceAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceAgent.html
   name: AudienceAgent
   nameWithType: AudienceAgent
   fullName: SuperOffice.CRM.Services.AudienceAgent
@@ -380,79 +385,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAudienceAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IAudienceAgent.html
   name: IAudienceAgent
   nameWithType: IAudienceAgent
   fullName: SuperOffice.CRM.Services.IAudienceAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.AudienceConfigParameter.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceConfigParameter.html#SuperOffice_CRM_Services_AudienceConfigParameter__ctor
   name: AudienceConfigParameter
   nameWithType: AudienceConfigParameter.AudienceConfigParameter
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter.AudienceConfigParameter
-  nameWithType.vb: AudienceConfigParameter.New
-  fullName.vb: SuperOffice.CRM.Services.AudienceConfigParameter.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter.ToString*
   commentId: Overload:SuperOffice.CRM.Services.AudienceConfigParameter.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceConfigParameter.html#SuperOffice_CRM_Services_AudienceConfigParameter_ToString
   name: ToString
   nameWithType: AudienceConfigParameter.ToString
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter.ToString
@@ -460,17 +404,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter.AudienceLayoutId*
   commentId: Overload:SuperOffice.CRM.Services.AudienceConfigParameter.AudienceLayoutId
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceConfigParameter.html#SuperOffice_CRM_Services_AudienceConfigParameter_AudienceLayoutId
   name: AudienceLayoutId
   nameWithType: AudienceConfigParameter.AudienceLayoutId
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter.AudienceLayoutId
@@ -478,63 +423,47 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter.Name*
   commentId: Overload:SuperOffice.CRM.Services.AudienceConfigParameter.Name
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceConfigParameter.html#SuperOffice_CRM_Services_AudienceConfigParameter_Name
   name: Name
   nameWithType: AudienceConfigParameter.Name
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter.Name
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter.Value*
   commentId: Overload:SuperOffice.CRM.Services.AudienceConfigParameter.Value
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceConfigParameter.html#SuperOffice_CRM_Services_AudienceConfigParameter_Value
   name: Value
   nameWithType: AudienceConfigParameter.Value
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter.Value
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter.CreatedDate*
   commentId: Overload:SuperOffice.CRM.Services.AudienceConfigParameter.CreatedDate
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceConfigParameter.html#SuperOffice_CRM_Services_AudienceConfigParameter_CreatedDate
   name: CreatedDate
   nameWithType: AudienceConfigParameter.CreatedDate
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter.CreatedDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter.UpdatedDate*
   commentId: Overload:SuperOffice.CRM.Services.AudienceConfigParameter.UpdatedDate
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceConfigParameter.html#SuperOffice_CRM_Services_AudienceConfigParameter_UpdatedDate
   name: UpdatedDate
   nameWithType: AudienceConfigParameter.UpdatedDate
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter.UpdatedDate
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter.CreatedBy*
   commentId: Overload:SuperOffice.CRM.Services.AudienceConfigParameter.CreatedBy
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceConfigParameter.html#SuperOffice_CRM_Services_AudienceConfigParameter_CreatedBy
   name: CreatedBy
   nameWithType: AudienceConfigParameter.CreatedBy
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter.CreatedBy
 - uid: SuperOffice.CRM.Services.AudienceConfigParameter.UpdatedBy*
   commentId: Overload:SuperOffice.CRM.Services.AudienceConfigParameter.UpdatedBy
   isExternal: true
-  href: SuperOffice.CRM.Services.AudienceConfigParameter.html#SuperOffice_CRM_Services_AudienceConfigParameter_UpdatedBy
   name: UpdatedBy
   nameWithType: AudienceConfigParameter.UpdatedBy
   fullName: SuperOffice.CRM.Services.AudienceConfigParameter.UpdatedBy

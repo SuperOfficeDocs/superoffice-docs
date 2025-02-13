@@ -19,6 +19,7 @@ items:
   - SuperOffice.WebApi.Data.GeneratorEncoding.Text
   - SuperOffice.WebApi.Data.GeneratorEncoding.Url
   - SuperOffice.WebApi.Data.GeneratorEncoding.UrlUnicode
+  - SuperOffice.WebApi.Data.GeneratorEncoding.value__
   - SuperOffice.WebApi.Data.GeneratorEncoding.Xml
   langs:
   - csharp
@@ -26,15 +27,57 @@ items:
   name: GeneratorEncoding
   nameWithType: GeneratorEncoding
   fullName: SuperOffice.WebApi.Data.GeneratorEncoding
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
-    content: public enum GeneratorEncoding
-    content.vb: Public Enum GeneratorEncoding
+    content: 'public sealed class GeneratorEncoding : Enum'
+    content.vb: >-
+      Public NotInheritable Class GeneratorEncoding
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.GeneratorEncoding.value__
+  commentId: F:SuperOffice.WebApi.Data.GeneratorEncoding.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.GeneratorEncoding
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: GeneratorEncoding.value__
+  fullName: SuperOffice.WebApi.Data.GeneratorEncoding.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.GeneratorEncoding.Text
   commentId: F:SuperOffice.WebApi.Data.GeneratorEncoding.Text
   id: Text
@@ -46,26 +89,24 @@ items:
   nameWithType: GeneratorEncoding.Text
   fullName: SuperOffice.WebApi.Data.GeneratorEncoding.Text
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: Plain text document.'
-  example: []
+  summary: "\n0: Plain text document.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Text = 0
+    content: public const GeneratorEncoding Text
     return:
       type: SuperOffice.WebApi.Data.GeneratorEncoding
-    content.vb: >-
-      <EnumMember>
-
-      Text = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Text As GeneratorEncoding
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.GeneratorEncoding.Html
   commentId: F:SuperOffice.WebApi.Data.GeneratorEncoding.Html
   id: Html
@@ -77,26 +118,24 @@ items:
   nameWithType: GeneratorEncoding.Html
   fullName: SuperOffice.WebApi.Data.GeneratorEncoding.Html
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: Html encoded document, it is not strictly parsed.'
-  example: []
+  summary: "\n1: Html encoded document, it is not strictly parsed.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Html = 1
+    content: public const GeneratorEncoding Html
     return:
       type: SuperOffice.WebApi.Data.GeneratorEncoding
-    content.vb: >-
-      <EnumMember>
-
-      Html = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Html As GeneratorEncoding
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.GeneratorEncoding.Xml
   commentId: F:SuperOffice.WebApi.Data.GeneratorEncoding.Xml
   id: Xml
@@ -108,26 +147,24 @@ items:
   nameWithType: GeneratorEncoding.Xml
   fullName: SuperOffice.WebApi.Data.GeneratorEncoding.Xml
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: XML Document, it is not strictly parsed'
-  example: []
+  summary: "\n2: XML Document, it is not strictly parsed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Xml = 2
+    content: public const GeneratorEncoding Xml
     return:
       type: SuperOffice.WebApi.Data.GeneratorEncoding
-    content.vb: >-
-      <EnumMember>
-
-      Xml = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Xml As GeneratorEncoding
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.GeneratorEncoding.MsWord
   commentId: F:SuperOffice.WebApi.Data.GeneratorEncoding.MsWord
   id: MsWord
@@ -139,26 +176,24 @@ items:
   nameWithType: GeneratorEncoding.MsWord
   fullName: SuperOffice.WebApi.Data.GeneratorEncoding.MsWord
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: Microsoft word document.'
-  example: []
+  summary: "\n3: Microsoft word document.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      MsWord = 3
+    content: public const GeneratorEncoding MsWord
     return:
       type: SuperOffice.WebApi.Data.GeneratorEncoding
-    content.vb: >-
-      <EnumMember>
-
-      MsWord = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const MsWord As GeneratorEncoding
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.GeneratorEncoding.MsExcel
   commentId: F:SuperOffice.WebApi.Data.GeneratorEncoding.MsExcel
   id: MsExcel
@@ -170,26 +205,24 @@ items:
   nameWithType: GeneratorEncoding.MsExcel
   fullName: SuperOffice.WebApi.Data.GeneratorEncoding.MsExcel
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: Microsoft Excel document.'
-  example: []
+  summary: "\n4: Microsoft Excel document.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      MsExcel = 4
+    content: public const GeneratorEncoding MsExcel
     return:
       type: SuperOffice.WebApi.Data.GeneratorEncoding
-    content.vb: >-
-      <EnumMember>
-
-      MsExcel = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const MsExcel As GeneratorEncoding
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.GeneratorEncoding.MsPowerpoint
   commentId: F:SuperOffice.WebApi.Data.GeneratorEncoding.MsPowerpoint
   id: MsPowerpoint
@@ -201,26 +234,24 @@ items:
   nameWithType: GeneratorEncoding.MsPowerpoint
   fullName: SuperOffice.WebApi.Data.GeneratorEncoding.MsPowerpoint
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '5: Microsoft Powerpoint document'
-  example: []
+  summary: "\n5: Microsoft Powerpoint document\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      MsPowerpoint = 5
+    content: public const GeneratorEncoding MsPowerpoint
     return:
       type: SuperOffice.WebApi.Data.GeneratorEncoding
-    content.vb: >-
-      <EnumMember>
-
-      MsPowerpoint = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const MsPowerpoint As GeneratorEncoding
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.GeneratorEncoding.MsOffice2007
   commentId: F:SuperOffice.WebApi.Data.GeneratorEncoding.MsOffice2007
   id: MsOffice2007
@@ -232,26 +263,24 @@ items:
   nameWithType: GeneratorEncoding.MsOffice2007
   fullName: SuperOffice.WebApi.Data.GeneratorEncoding.MsOffice2007
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '6: Microsoft office documents zipped (Office 2007)'
-  example: []
+  summary: "\n6: Microsoft office documents zipped (Office 2007)\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      MsOffice2007 = 6
+    content: public const GeneratorEncoding MsOffice2007
     return:
       type: SuperOffice.WebApi.Data.GeneratorEncoding
-    content.vb: >-
-      <EnumMember>
-
-      MsOffice2007 = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const MsOffice2007 As GeneratorEncoding
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.GeneratorEncoding.MsOffice2007Xml
   commentId: F:SuperOffice.WebApi.Data.GeneratorEncoding.MsOffice2007Xml
   id: MsOffice2007Xml
@@ -263,26 +292,24 @@ items:
   nameWithType: GeneratorEncoding.MsOffice2007Xml
   fullName: SuperOffice.WebApi.Data.GeneratorEncoding.MsOffice2007Xml
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '7: Microsoft office xml documents (content of zipped x files)'
-  example: []
+  summary: "\n7: Microsoft office xml documents (content of zipped x files)\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      MsOffice2007Xml = 7
+    content: public const GeneratorEncoding MsOffice2007Xml
     return:
       type: SuperOffice.WebApi.Data.GeneratorEncoding
-    content.vb: >-
-      <EnumMember>
-
-      MsOffice2007Xml = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const MsOffice2007Xml As GeneratorEncoding
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.GeneratorEncoding.Url
   commentId: F:SuperOffice.WebApi.Data.GeneratorEncoding.Url
   id: Url
@@ -294,26 +321,24 @@ items:
   nameWithType: GeneratorEncoding.Url
   fullName: SuperOffice.WebApi.Data.GeneratorEncoding.Url
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '8: The tags result are url-encoded (ansi), the source itself is treated as plain text.'
-  example: []
+  summary: "\n8: The tags result are url-encoded (ansi), the source itself is treated as plain text.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Url = 8
+    content: public const GeneratorEncoding Url
     return:
       type: SuperOffice.WebApi.Data.GeneratorEncoding
-    content.vb: >-
-      <EnumMember>
-
-      Url = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Url As GeneratorEncoding
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.GeneratorEncoding.UrlUnicode
   commentId: F:SuperOffice.WebApi.Data.GeneratorEncoding.UrlUnicode
   id: UrlUnicode
@@ -325,26 +350,24 @@ items:
   nameWithType: GeneratorEncoding.UrlUnicode
   fullName: SuperOffice.WebApi.Data.GeneratorEncoding.UrlUnicode
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '9: The tags result are url-encoded (unicode), the source itself is treated as plain text.'
-  example: []
+  summary: "\n9: The tags result are url-encoded (unicode), the source itself is treated as plain text.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UrlUnicode = 9
+    content: public const GeneratorEncoding UrlUnicode
     return:
       type: SuperOffice.WebApi.Data.GeneratorEncoding
-    content.vb: >-
-      <EnumMember>
-
-      UrlUnicode = 9
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UrlUnicode As GeneratorEncoding
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.GeneratorEncoding.Pdf
   commentId: F:SuperOffice.WebApi.Data.GeneratorEncoding.Pdf
   id: Pdf
@@ -356,26 +379,24 @@ items:
   nameWithType: GeneratorEncoding.Pdf
   fullName: SuperOffice.WebApi.Data.GeneratorEncoding.Pdf
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '10: Adobe pdf format'
-  example: []
+  summary: "\n10: Adobe pdf format\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Pdf = 10
+    content: public const GeneratorEncoding Pdf
     return:
       type: SuperOffice.WebApi.Data.GeneratorEncoding
-    content.vb: >-
-      <EnumMember>
-
-      Pdf = 10
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Pdf As GeneratorEncoding
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.GeneratorEncoding.Mime
   commentId: F:SuperOffice.WebApi.Data.GeneratorEncoding.Mime
   id: Mime
@@ -387,26 +408,24 @@ items:
   nameWithType: GeneratorEncoding.Mime
   fullName: SuperOffice.WebApi.Data.GeneratorEncoding.Mime
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '11: RFC822 Mime-content. Handles the actual mime part, but leaves a normal Text-generator to handle the actual content embedded within the MIME-layers.'
-  example: []
+  summary: "\n11: RFC822 Mime-content. Handles the actual mime part, but leaves a normal Text-generator to handle the actual content embedded within the MIME-layers.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Mime = 11
+    content: public const GeneratorEncoding Mime
     return:
       type: SuperOffice.WebApi.Data.GeneratorEncoding
-    content.vb: >-
-      <EnumMember>
-
-      Mime = 11
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Mime As GeneratorEncoding
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.GeneratorEncoding.OpenDocument
   commentId: F:SuperOffice.WebApi.Data.GeneratorEncoding.OpenDocument
   id: OpenDocument
@@ -418,26 +437,24 @@ items:
   nameWithType: GeneratorEncoding.OpenDocument
   fullName: SuperOffice.WebApi.Data.GeneratorEncoding.OpenDocument
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '12: OpenOffice/LibreOffice documents (zipped)'
-  example: []
+  summary: "\n12: OpenOffice/LibreOffice documents (zipped)\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OpenDocument = 12
+    content: public const GeneratorEncoding OpenDocument
     return:
       type: SuperOffice.WebApi.Data.GeneratorEncoding
-    content.vb: >-
-      <EnumMember>
-
-      OpenDocument = 12
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OpenDocument As GeneratorEncoding
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.GeneratorEncoding.OpenDocumentXml
   commentId: F:SuperOffice.WebApi.Data.GeneratorEncoding.OpenDocumentXml
   id: OpenDocumentXml
@@ -449,26 +466,24 @@ items:
   nameWithType: GeneratorEncoding.OpenDocumentXml
   fullName: SuperOffice.WebApi.Data.GeneratorEncoding.OpenDocumentXml
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '13: OpenOffice/LibreOffice documents (contents of zipped files)'
-  example: []
+  summary: "\n13: OpenOffice/LibreOffice documents (contents of zipped files)\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OpenDocumentXml = 13
+    content: public const GeneratorEncoding OpenDocumentXml
     return:
       type: SuperOffice.WebApi.Data.GeneratorEncoding
-    content.vb: >-
-      <EnumMember>
-
-      OpenDocumentXml = 13
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OpenDocumentXml As GeneratorEncoding
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.GeneratorEncoding.MsWord2007
   commentId: F:SuperOffice.WebApi.Data.GeneratorEncoding.MsWord2007
   id: MsWord2007
@@ -480,69 +495,55 @@ items:
   nameWithType: GeneratorEncoding.MsWord2007
   fullName: SuperOffice.WebApi.Data.GeneratorEncoding.MsWord2007
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '14: Microsoft Word 2007 document type document, using custom Aspose.Words based engine.'
-  example: []
+  summary: "\n14: Microsoft Word 2007 document type document, using custom Aspose.Words based engine.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      MsWord2007 = 14
+    content: public const GeneratorEncoding MsWord2007
     return:
       type: SuperOffice.WebApi.Data.GeneratorEncoding
-    content.vb: >-
-      <EnumMember>
-
-      MsWord2007 = 14
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const MsWord2007 As GeneratorEncoding
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.GeneratorEncoding
   commentId: T:SuperOffice.WebApi.Data.GeneratorEncoding
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.GeneratorEncoding.html
   name: GeneratorEncoding
   nameWithType: GeneratorEncoding
   fullName: SuperOffice.WebApi.Data.GeneratorEncoding

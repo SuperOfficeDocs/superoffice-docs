@@ -26,41 +26,33 @@ items:
   nameWithType: CurrencyRecordData
   fullName: SuperOffice.CRM.Rows.CurrencyRecordData
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
-
-    to a row from the Currency table.
-  remarks: >-
-    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.CurrencyRow" data-throw-if-not-resolved="false"></xref> object when
-
-    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
-
-    since they carry the corresponding <xref href="SuperOffice.CRM.Data.CurrencyTableInfo" data-throw-if-not-resolved="false"></xref> object, which
-
-    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
-  example: []
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the Currency table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.CurrencyRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.CurrencyTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class CurrencyRecordData
-    content.vb: Public Class CurrencyRecordData
+    content: 'public class CurrencyRecordData : Object'
+    content.vb: >-
+      Public Class CurrencyRecordData
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.CurrencyRecordData.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Rows.CurrencyRecordData.SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.CurrencyRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.CurrencyRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CurrencyRecordData)
   - SuperOffice.CRM.Rows.CurrencyRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.CurrencyRecordData.SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.CurrencyRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Rows.CurrencyRecordData.CurrencyId
   commentId: F:SuperOffice.CRM.Rows.CurrencyRecordData.CurrencyId
   id: CurrencyId
@@ -72,16 +64,22 @@ items:
   nameWithType: CurrencyRecordData.CurrencyId
   fullName: SuperOffice.CRM.Rows.CurrencyRecordData.CurrencyId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
     content: public int CurrencyId
     return:
       type: System.Int32
     content.vb: Public CurrencyId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.CurrencyRecordData.Name
   commentId: F:SuperOffice.CRM.Rows.CurrencyRecordData.Name
   id: Name
@@ -93,16 +91,22 @@ items:
   nameWithType: CurrencyRecordData.Name
   fullName: SuperOffice.CRM.Rows.CurrencyRecordData.Name
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The list item
-  example: []
+  summary: "\nThe list item \n"
   syntax:
     content: public string Name
     return:
       type: System.String
     content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.CurrencyRecordData.Rank
   commentId: F:SuperOffice.CRM.Rows.CurrencyRecordData.Rank
   id: Rank
@@ -114,16 +118,22 @@ items:
   nameWithType: CurrencyRecordData.Rank
   fullName: SuperOffice.CRM.Rows.CurrencyRecordData.Rank
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Rank order
-  example: []
+  summary: "\nRank order \n"
   syntax:
     content: public short Rank
     return:
       type: System.Int16
     content.vb: Public Rank As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.CurrencyRecordData.Tooltip
   commentId: F:SuperOffice.CRM.Rows.CurrencyRecordData.Tooltip
   id: Tooltip
@@ -135,16 +145,22 @@ items:
   nameWithType: CurrencyRecordData.Tooltip
   fullName: SuperOffice.CRM.Rows.CurrencyRecordData.Tooltip
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Tooltip or other description
-  example: []
+  summary: "\nTooltip or other description \n"
   syntax:
     content: public string Tooltip
     return:
       type: System.String
     content.vb: Public Tooltip As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.CurrencyRecordData.Deleted
   commentId: F:SuperOffice.CRM.Rows.CurrencyRecordData.Deleted
   id: Deleted
@@ -156,16 +172,22 @@ items:
   nameWithType: CurrencyRecordData.Deleted
   fullName: SuperOffice.CRM.Rows.CurrencyRecordData.Deleted
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists
-  example: []
+  summary: "\n0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists \n"
   syntax:
     content: public short Deleted
     return:
       type: System.Int16
     content.vb: Public Deleted As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.CurrencyRecordData.Rate
   commentId: F:SuperOffice.CRM.Rows.CurrencyRecordData.Rate
   id: Rate
@@ -177,16 +199,22 @@ items:
   nameWithType: CurrencyRecordData.Rate
   fullName: SuperOffice.CRM.Rows.CurrencyRecordData.Rate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Exchange rate
-  example: []
+  summary: "\nExchange rate \n"
   syntax:
     content: public double Rate
     return:
       type: System.Double
     content.vb: Public Rate As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.CurrencyRecordData.Units
   commentId: F:SuperOffice.CRM.Rows.CurrencyRecordData.Units
   id: Units
@@ -198,16 +226,22 @@ items:
   nameWithType: CurrencyRecordData.Units
   fullName: SuperOffice.CRM.Rows.CurrencyRecordData.Units
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Exchange unit scale (0.01, 0.1, 1, 10, 100 etc)
-  example: []
+  summary: "\nExchange unit scale (0.01, 0.1, 1, 10, 100 etc) \n"
   syntax:
     content: public double Units
     return:
       type: System.Double
     content.vb: Public Units As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.CurrencyRecordData.Registered
   commentId: F:SuperOffice.CRM.Rows.CurrencyRecordData.Registered
   id: Registered
@@ -219,16 +253,22 @@ items:
   nameWithType: CurrencyRecordData.Registered
   fullName: SuperOffice.CRM.Rows.CurrencyRecordData.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Registered when in UTC.
-  example: []
+  summary: "\nRegistered when in UTC.  \n"
   syntax:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As Date
+    content.vb: Public Registered As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.CurrencyRecordData.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Rows.CurrencyRecordData.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -240,16 +280,22 @@ items:
   nameWithType: CurrencyRecordData.RegisteredAssociateId
   fullName: SuperOffice.CRM.Rows.CurrencyRecordData.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Registered by whom
-  example: []
+  summary: "\nRegistered by whom \n"
   syntax:
     content: public int RegisteredAssociateId
     return:
       type: System.Int32
     content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.CurrencyRecordData.Updated
   commentId: F:SuperOffice.CRM.Rows.CurrencyRecordData.Updated
   id: Updated
@@ -261,16 +307,22 @@ items:
   nameWithType: CurrencyRecordData.Updated
   fullName: SuperOffice.CRM.Rows.CurrencyRecordData.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last updated when in UTC.
-  example: []
+  summary: "\nLast updated when in UTC.  \n"
   syntax:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As Date
+    content.vb: Public Updated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.CurrencyRecordData.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Rows.CurrencyRecordData.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -282,16 +334,22 @@ items:
   nameWithType: CurrencyRecordData.UpdatedAssociateId
   fullName: SuperOffice.CRM.Rows.CurrencyRecordData.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last updated by whom
-  example: []
+  summary: "\nLast updated by whom \n"
   syntax:
     content: public int UpdatedAssociateId
     return:
       type: System.Int32
     content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.CurrencyRecordData.UpdatedCount
   commentId: F:SuperOffice.CRM.Rows.CurrencyRecordData.UpdatedCount
   id: UpdatedCount
@@ -303,16 +361,22 @@ items:
   nameWithType: CurrencyRecordData.UpdatedCount
   fullName: SuperOffice.CRM.Rows.CurrencyRecordData.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Number of updates made to this record
-  example: []
+  summary: "\nNumber of updates made to this record \n"
   syntax:
     content: public short UpdatedCount
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.CurrencyRecordData.IsoCode
   commentId: F:SuperOffice.CRM.Rows.CurrencyRecordData.IsoCode
   id: IsoCode
@@ -324,16 +388,22 @@ items:
   nameWithType: CurrencyRecordData.IsoCode
   fullName: SuperOffice.CRM.Rows.CurrencyRecordData.IsoCode
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: ISO currency code, see http://www.xe.com/iso4217.php
-  example: []
+  summary: "\nISO currency code, see http://www.xe.com/iso4217.php \n"
   syntax:
     content: public string IsoCode
     return:
       type: System.String
     content.vb: Public IsoCode As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.CurrencyRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.CurrencyRecordData.#ctor
   id: '#ctor'
@@ -345,590 +415,220 @@ items:
   nameWithType: CurrencyRecordData.CurrencyRecordData()
   fullName: SuperOffice.CRM.Rows.CurrencyRecordData.CurrencyRecordData()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public CurrencyRecordData()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Rows.CurrencyRecordData.#ctor*
-  nameWithType.vb: CurrencyRecordData.New()
-  fullName.vb: SuperOffice.CRM.Rows.CurrencyRecordData.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.Rows.CurrencyRow
-  commentId: T:SuperOffice.CRM.Rows.CurrencyRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.CurrencyRow.html
-  name: CurrencyRow
-  nameWithType: CurrencyRow
-  fullName: SuperOffice.CRM.Rows.CurrencyRow
-- uid: SuperOffice.CRM.Data.CurrencyTableInfo
-  commentId: T:SuperOffice.CRM.Data.CurrencyTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.CurrencyTableInfo.html
-  name: CurrencyTableInfo
-  nameWithType: CurrencyTableInfo
-  fullName: SuperOffice.CRM.Data.CurrencyTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.CurrencyRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<CurrencyRecordData, To>(CurrencyRecordData)
-  nameWithType: EnumUtil.MapEnums<CurrencyRecordData, To>(CurrencyRecordData)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.CurrencyRecordData, To>(SuperOffice.CRM.Rows.CurrencyRecordData)
-  nameWithType.vb: EnumUtil.MapEnums(Of CurrencyRecordData, To)(CurrencyRecordData)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.CurrencyRecordData, To)(SuperOffice.CRM.Rows.CurrencyRecordData)
-  name.vb: MapEnums(Of CurrencyRecordData, To)(CurrencyRecordData)
+  name: MapEnums<CurrencyRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<CurrencyRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.CurrencyRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CurrencyRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.CurrencyRecordData, To)()
+  name.vb: MapEnums(Of CurrencyRecordData, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.CurrencyRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CurrencyRecordData, To>
+    nameWithType: EnumUtil.MapEnums<CurrencyRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.CurrencyRecordData, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
-    name: CurrencyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
-    name: CurrencyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.CurrencyRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CurrencyRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of CurrencyRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.CurrencyRecordData, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
-    name: CurrencyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
-    name: CurrencyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.CurrencyRecordData.SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
-  parent: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
-  href: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.html#SuperOffice_CRM_Rows_CurrencyRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_CurrencyRecordData_
-  name: ToInsert(CurrencyRecordData)
-  nameWithType: CurrencyRecordDataExtensions.ToInsert(CurrencyRecordData)
-  fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.html#SuperOffice_CRM_Rows_CurrencyRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_CurrencyRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
-    name: CurrencyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.html#SuperOffice_CRM_Rows_CurrencyRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_CurrencyRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
-    name: CurrencyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.CurrencyRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<CurrencyRecordData, To>(CurrencyRecordData)
-  nameWithType: Converters.MapEnums<CurrencyRecordData, To>(CurrencyRecordData)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.CurrencyRecordData, To>(SuperOffice.CRM.Rows.CurrencyRecordData)
-  nameWithType.vb: Converters.MapEnums(Of CurrencyRecordData, To)(CurrencyRecordData)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.CurrencyRecordData, To)(SuperOffice.CRM.Rows.CurrencyRecordData)
-  name.vb: MapEnums(Of CurrencyRecordData, To)(CurrencyRecordData)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.CurrencyRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
-    name: CurrencyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
-    name: CurrencyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.CurrencyRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
-    name: CurrencyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
-    name: CurrencyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.CurrencyRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CurrencyRecordData)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<CurrencyRecordData>(CurrencyRecordData, CurrencyRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<CurrencyRecordData>(CurrencyRecordData, CurrencyRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.CurrencyRecordData>(SuperOffice.CRM.Rows.CurrencyRecordData, SuperOffice.CRM.Rows.CurrencyRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CurrencyRecordData)(CurrencyRecordData, CurrencyRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.CurrencyRecordData)(SuperOffice.CRM.Rows.CurrencyRecordData, SuperOffice.CRM.Rows.CurrencyRecordData)
-  name.vb: AssignByReflection(Of CurrencyRecordData)(CurrencyRecordData, CurrencyRecordData)
+  name: AssignByReflection<CurrencyRecordData>(CurrencyRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<CurrencyRecordData>(CurrencyRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.CurrencyRecordData>(SuperOffice.CRM.Rows.CurrencyRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CurrencyRecordData)(CurrencyRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.CurrencyRecordData)(SuperOffice.CRM.Rows.CurrencyRecordData)
+  name.vb: AssignByReflection(Of CurrencyRecordData)(CurrencyRecordData)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CurrencyRecordData,SuperOffice.CRM.Rows.CurrencyRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<CurrencyRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<CurrencyRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.CurrencyRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
-    name: CurrencyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.CurrencyRecordData
     name: CurrencyRecordData
+    nameWithType: CurrencyRecordData
+    fullName: SuperOffice.CRM.Rows.CurrencyRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
-    name: CurrencyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CurrencyRecordData,SuperOffice.CRM.Rows.CurrencyRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of CurrencyRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of CurrencyRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.CurrencyRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.CurrencyRecordData
     name: CurrencyRecordData
+    nameWithType: CurrencyRecordData
+    fullName: SuperOffice.CRM.Rows.CurrencyRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
-    name: CurrencyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
-    name: CurrencyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.CurrencyRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<CurrencyRecordData>(CurrencyRecordData)
-  nameWithType: ObjectExtensions.GraphCopy<CurrencyRecordData>(CurrencyRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.CurrencyRecordData>(SuperOffice.CRM.Rows.CurrencyRecordData)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of CurrencyRecordData)(CurrencyRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.CurrencyRecordData)(SuperOffice.CRM.Rows.CurrencyRecordData)
-  name.vb: GraphCopy(Of CurrencyRecordData)(CurrencyRecordData)
+  name: GraphCopy<CurrencyRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<CurrencyRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.CurrencyRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CurrencyRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.CurrencyRecordData)()
+  name.vb: GraphCopy(Of CurrencyRecordData)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.CurrencyRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<CurrencyRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<CurrencyRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.CurrencyRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
-    name: CurrencyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
-    name: CurrencyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.CurrencyRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of CurrencyRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of CurrencyRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.CurrencyRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
-    name: CurrencyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
-    name: CurrencyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Data
-  commentId: N:SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Data
-  nameWithType: SuperOffice.CRM.Data
-  fullName: SuperOffice.CRM.Data
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CurrencyRecordData.SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
+  parent: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
+  name: ToInsert()
+  nameWithType: CurrencyRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert()
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: CurrencyRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: CurrencyRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CurrencyRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CurrencyRecordData, To>()
+  nameWithType: Converters.MapEnums<CurrencyRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.CurrencyRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of CurrencyRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.CurrencyRecordData, To)()
+  name.vb: MapEnums(Of CurrencyRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CurrencyRecordData, To>
+    nameWithType: Converters.MapEnums<CurrencyRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.CurrencyRecordData, To>
     isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CurrencyRecordData, To)
+    nameWithType: Converters.MapEnums(Of CurrencyRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.CurrencyRecordData, To)
     isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -937,130 +637,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
-  commentId: M:SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
-  isExternal: true
-  href: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.html#SuperOffice_CRM_Rows_CurrencyRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_CurrencyRecordData_
-  name: ToInsert(CurrencyRecordData)
-  nameWithType: CurrencyRecordDataExtensions.ToInsert(CurrencyRecordData)
-  fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.html#SuperOffice_CRM_Rows_CurrencyRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_CurrencyRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
-    name: CurrencyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.html#SuperOffice_CRM_Rows_CurrencyRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_CurrencyRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
-    name: CurrencyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.CurrencyRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions
-  commentId: T:SuperOffice.CRM.Rows.CurrencyRecordDataExtensions
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.html
-  name: CurrencyRecordDataExtensions
-  nameWithType: CurrencyRecordDataExtensions
-  fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1069,46 +682,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1117,154 +740,175 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
+  commentId: M:SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: ToInsert(CurrencyRecordData)
+  nameWithType: CurrencyRecordDataExtensions.ToInsert(CurrencyRecordData)
+  fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
+    name: ToInsert
+    nameWithType: CurrencyRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
+    name: CurrencyRecordData
+    nameWithType: CurrencyRecordData
+    fullName: SuperOffice.CRM.Rows.CurrencyRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.CurrencyRecordData)
+    name: ToInsert
+    nameWithType: CurrencyRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.CurrencyRecordData
+    name: CurrencyRecordData
+    nameWithType: CurrencyRecordData
+    fullName: SuperOffice.CRM.Rows.CurrencyRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.CurrencyRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: CurrencyRecordDataExtensions
+  nameWithType: CurrencyRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.CurrencyRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: System.Double
   commentId: T:System.Double
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.double
-  name: double
-  nameWithType: double
-  fullName: double
-  nameWithType.vb: Double
-  fullName.vb: Double
-  name.vb: Double
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Rows.CurrencyRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.CurrencyRecordData.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Rows.CurrencyRecordData.html#SuperOffice_CRM_Rows_CurrencyRecordData__ctor
   name: CurrencyRecordData
   nameWithType: CurrencyRecordData.CurrencyRecordData
   fullName: SuperOffice.CRM.Rows.CurrencyRecordData.CurrencyRecordData
-  nameWithType.vb: CurrencyRecordData.New
-  fullName.vb: SuperOffice.CRM.Rows.CurrencyRecordData.New
-  name.vb: New

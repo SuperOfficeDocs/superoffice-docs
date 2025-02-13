@@ -9,37 +9,67 @@ items:
   - SuperOffice.CRM.ArchiveLists.ProviderFlags.InhibitTooltips
   - SuperOffice.CRM.ArchiveLists.ProviderFlags.InhibitTwoPhase
   - SuperOffice.CRM.ArchiveLists.ProviderFlags.None
+  - SuperOffice.CRM.ArchiveLists.ProviderFlags.value__
   langs:
   - csharp
   - vb
   name: ProviderFlags
   nameWithType: ProviderFlags
   fullName: SuperOffice.CRM.ArchiveLists.ProviderFlags
-  type: Enum
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Flags that modify the behaviour of an Archive Provider, what it returns and how it runs
-  example: []
+  summary: "\nFlags that modify the behaviour of an Archive Provider, what it returns and how it runs\n"
   syntax:
-    content: >-
-      [Flags]
-
-      public enum ProviderFlags
+    content: 'public sealed class ProviderFlags : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class ProviderFlags
+          Inherits
 
-      Public Enum ProviderFlags
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.ProviderFlags.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.ProviderFlags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.CRM.ArchiveLists.ProviderFlags.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ProviderFlags)
-  - SuperOffice.CRM.ArchiveLists.ProviderFlags.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.String)
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.ProviderFlags.value__
+  commentId: F:SuperOffice.CRM.ArchiveLists.ProviderFlags.value__
+  id: value__
+  parent: SuperOffice.CRM.ArchiveLists.ProviderFlags
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ProviderFlags.value__
+  fullName: SuperOffice.CRM.ArchiveLists.ProviderFlags.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags.None
   commentId: F:SuperOffice.CRM.ArchiveLists.ProviderFlags.None
   id: None
@@ -51,15 +81,24 @@ items:
   nameWithType: ProviderFlags.None
   fullName: SuperOffice.CRM.ArchiveLists.ProviderFlags.None
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: This value represents the default, 'all flags off' state. Unless the client sets options explicitly, this is the state that will run.
-  example: []
+  summary: "\nThis value represents the default, &apos;all flags off&apos; state. Unless the client sets options explicitly, this is the state that will run.\n"
   syntax:
-    content: None = 0
+    content: public const ProviderFlags None
     return:
       type: SuperOffice.CRM.ArchiveLists.ProviderFlags
+    content.vb: Public Const None As ProviderFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags.InhibitDisplayValues
   commentId: F:SuperOffice.CRM.ArchiveLists.ProviderFlags.InhibitDisplayValues
   id: InhibitDisplayValues
@@ -71,20 +110,24 @@ items:
   nameWithType: ProviderFlags.InhibitDisplayValues
   fullName: SuperOffice.CRM.ArchiveLists.ProviderFlags.InhibitDisplayValues
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Do NOT generate display values; the <xref href="SuperOffice.CRM.ArchiveLists.ArchiveColumnData.DisplayValue" data-throw-if-not-resolved="false"></xref> field of the <xref href="SuperOffice.CRM.ArchiveLists.ArchiveColumnData" data-throw-if-not-resolved="false"></xref> will be blank or null.
-
-    This is a performance enhancement, as the code needed to generate the display value is usually skipped completely.
-
-    Note that due to the combination of base class/subclass implementation, not all parts of all providers will honour this property.
-  example: []
+  summary: "\nDo NOT generate display values; the <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveColumnData.DisplayValue\" data-throw-if-not-resolved=\"false\"></xref> field of the <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveColumnData\" data-throw-if-not-resolved=\"false\"></xref> will be blank or null.\nThis is a performance enhancement, as the code needed to generate the display value is usually skipped completely.\nNote that due to the combination of base class/subclass implementation, not all parts of all providers will honour this property.\n"
   syntax:
-    content: InhibitDisplayValues = 1
+    content: public const ProviderFlags InhibitDisplayValues
     return:
       type: SuperOffice.CRM.ArchiveLists.ProviderFlags
+    content.vb: Public Const InhibitDisplayValues As ProviderFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags.InhibitTooltips
   commentId: F:SuperOffice.CRM.ArchiveLists.ProviderFlags.InhibitTooltips
   id: InhibitTooltips
@@ -96,20 +139,24 @@ items:
   nameWithType: ProviderFlags.InhibitTooltips
   fullName: SuperOffice.CRM.ArchiveLists.ProviderFlags.InhibitTooltips
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Do NOT generate tooltips; the <xref href="SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TooltipHint" data-throw-if-not-resolved="false"></xref> field of the <xref href="SuperOffice.CRM.ArchiveLists.ArchiveColumnData" data-throw-if-not-resolved="false"></xref> will be blank or null.
-
-    This is a performance enhancement, as the code needed to generate the display value is usually skipped completely
-
-    Note that due to the combination of base class/subclass implementation, not all parts of all providers will honour this property.
-  example: []
+  summary: "\nDo NOT generate tooltips; the <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TooltipHint\" data-throw-if-not-resolved=\"false\"></xref> field of the <xref href=\"SuperOffice.CRM.ArchiveLists.ArchiveColumnData\" data-throw-if-not-resolved=\"false\"></xref> will be blank or null.\nThis is a performance enhancement, as the code needed to generate the display value is usually skipped completely\nNote that due to the combination of base class/subclass implementation, not all parts of all providers will honour this property.\n"
   syntax:
-    content: InhibitTooltips = 2
+    content: public const ProviderFlags InhibitTooltips
     return:
       type: SuperOffice.CRM.ArchiveLists.ProviderFlags
+    content.vb: Public Const InhibitTooltips As ProviderFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags.InhibitTwoPhase
   commentId: F:SuperOffice.CRM.ArchiveLists.ProviderFlags.InhibitTwoPhase
   id: InhibitTwoPhase
@@ -121,319 +168,115 @@ items:
   nameWithType: ProviderFlags.InhibitTwoPhase
   fullName: SuperOffice.CRM.ArchiveLists.ProviderFlags.InhibitTwoPhase
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Block two-phase processing, where large queries first generate a narrow result set consisting of primary keys,
-
-    followed by a wide result set based on those keys. If page size is set to Int32.MaxValue, two-phase processing is
-
-    also inhibited.
-  example: []
+  summary: "\nBlock two-phase processing, where large queries first generate a narrow result set consisting of primary keys,\nfollowed by a wide result set based on those keys. If page size is set to Int32.MaxValue, two-phase processing is\nalso inhibited.\n"
   syntax:
-    content: InhibitTwoPhase = 4
+    content: public const ProviderFlags InhibitTwoPhase
     return:
       type: SuperOffice.CRM.ArchiveLists.ProviderFlags
+    content.vb: Public Const InhibitTwoPhase As ProviderFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ProviderFlags, To>(ProviderFlags)
-  nameWithType: EnumUtil.MapEnums<ProviderFlags, To>(ProviderFlags)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ProviderFlags, To>(SuperOffice.CRM.ArchiveLists.ProviderFlags)
-  nameWithType.vb: EnumUtil.MapEnums(Of ProviderFlags, To)(ProviderFlags)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ProviderFlags, To)(SuperOffice.CRM.ArchiveLists.ProviderFlags)
-  name.vb: MapEnums(Of ProviderFlags, To)(ProviderFlags)
+  name: MapEnums<ProviderFlags, To>()
+  nameWithType: EnumUtil.MapEnums<ProviderFlags, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ProviderFlags, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ProviderFlags, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ProviderFlags, To)()
+  name.vb: MapEnums(Of ProviderFlags, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.ProviderFlags)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ProviderFlags, To>
+    nameWithType: EnumUtil.MapEnums<ProviderFlags, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ProviderFlags, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags
-    name: ProviderFlags
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProviderFlags.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags
-    name: ProviderFlags
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProviderFlags.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.ProviderFlags)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ProviderFlags, To)
+    nameWithType: EnumUtil.MapEnums(Of ProviderFlags, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ProviderFlags, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags
-    name: ProviderFlags
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProviderFlags.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags
-    name: ProviderFlags
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProviderFlags.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ProviderFlags, To>(ProviderFlags)
-  nameWithType: Converters.MapEnums<ProviderFlags, To>(ProviderFlags)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ProviderFlags, To>(SuperOffice.CRM.ArchiveLists.ProviderFlags)
-  nameWithType.vb: Converters.MapEnums(Of ProviderFlags, To)(ProviderFlags)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ProviderFlags, To)(SuperOffice.CRM.ArchiveLists.ProviderFlags)
-  name.vb: MapEnums(Of ProviderFlags, To)(ProviderFlags)
+  name: MapEnums<ProviderFlags, To>()
+  nameWithType: Converters.MapEnums<ProviderFlags, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ProviderFlags, To>()
+  nameWithType.vb: Converters.MapEnums(Of ProviderFlags, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ProviderFlags, To)()
+  name.vb: MapEnums(Of ProviderFlags, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.ProviderFlags)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ProviderFlags, To>
+    nameWithType: Converters.MapEnums<ProviderFlags, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ProviderFlags, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags
-    name: ProviderFlags
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProviderFlags.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags
-    name: ProviderFlags
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProviderFlags.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.ProviderFlags)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ProviderFlags, To)
+    nameWithType: Converters.MapEnums(Of ProviderFlags, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ProviderFlags, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags
-    name: ProviderFlags
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProviderFlags.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags
-    name: ProviderFlags
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProviderFlags.html
-  - name: )
-- uid: SuperOffice.CRM.ArchiveLists.ProviderFlags.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ProviderFlags)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ProviderFlags>(ProviderFlags, ProviderFlags)
-  nameWithType: ObjectExtensions.AssignByReflection<ProviderFlags>(ProviderFlags, ProviderFlags)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ProviderFlags>(SuperOffice.CRM.ArchiveLists.ProviderFlags, SuperOffice.CRM.ArchiveLists.ProviderFlags)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ProviderFlags)(ProviderFlags, ProviderFlags)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ProviderFlags)(SuperOffice.CRM.ArchiveLists.ProviderFlags, SuperOffice.CRM.ArchiveLists.ProviderFlags)
-  name.vb: AssignByReflection(Of ProviderFlags)(ProviderFlags, ProviderFlags)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ProviderFlags,SuperOffice.CRM.ArchiveLists.ProviderFlags)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags
-    name: ProviderFlags
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProviderFlags.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags
-    name: ProviderFlags
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProviderFlags.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags
-    name: ProviderFlags
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProviderFlags.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ProviderFlags,SuperOffice.CRM.ArchiveLists.ProviderFlags)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags
-    name: ProviderFlags
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProviderFlags.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags
-    name: ProviderFlags
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProviderFlags.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags
-    name: ProviderFlags
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProviderFlags.html
-  - name: )
-- uid: SuperOffice.CRM.ArchiveLists.ProviderFlags.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ProviderFlags>(ProviderFlags)
-  nameWithType: ObjectExtensions.GraphCopy<ProviderFlags>(ProviderFlags)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ProviderFlags>(SuperOffice.CRM.ArchiveLists.ProviderFlags)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ProviderFlags)(ProviderFlags)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ProviderFlags)(SuperOffice.CRM.ArchiveLists.ProviderFlags)
-  name.vb: GraphCopy(Of ProviderFlags)(ProviderFlags)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.ProviderFlags)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags
-    name: ProviderFlags
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProviderFlags.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags
-    name: ProviderFlags
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProviderFlags.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.ProviderFlags)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags
-    name: ProviderFlags
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProviderFlags.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags
-    name: ProviderFlags
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ProviderFlags.html
-  - name: )
-- uid: System.Enum.SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.String)
-  commentId: M:SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  parent: SuperOffice.CRM.RegistryExtensions
-  definition: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  name: GetRegistryRow(Enum, string)
-  nameWithType: RegistryExtensions.GetRegistryRow(Enum, string)
-  fullName: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, string)
-  nameWithType.vb: RegistryExtensions.GetRegistryRow(Enum, String)
-  fullName.vb: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, String)
-  name.vb: GetRegistryRow(Enum, String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-    name: GetRegistryRow
-    isExternal: true
-    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-    name: GetRegistryRow
-    isExternal: true
-    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -442,45 +285,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -489,292 +330,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  commentId: M:SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  isExternal: true
-  href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  name: GetRegistryRow(Enum, string)
-  nameWithType: RegistryExtensions.GetRegistryRow(Enum, string)
-  fullName: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, string)
-  nameWithType.vb: RegistryExtensions.GetRegistryRow(Enum, String)
-  fullName.vb: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, String)
-  name.vb: GetRegistryRow(Enum, String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-    name: GetRegistryRow
-    isExternal: true
-    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-    name: GetRegistryRow
-    isExternal: true
-    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.CRM.RegistryExtensions
-  commentId: T:SuperOffice.CRM.RegistryExtensions
-  parent: SuperOffice.CRM
-  isExternal: true
-  href: SuperOffice.CRM.RegistryExtensions.html
-  name: RegistryExtensions
-  nameWithType: RegistryExtensions
-  fullName: SuperOffice.CRM.RegistryExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-- uid: SuperOffice.CRM
-  commentId: N:SuperOffice.CRM
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM
-  nameWithType: SuperOffice.CRM
-  fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.ArchiveLists.ProviderFlags
   commentId: T:SuperOffice.CRM.ArchiveLists.ProviderFlags
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ProviderFlags.html
   name: ProviderFlags
   nameWithType: ProviderFlags
   fullName: SuperOffice.CRM.ArchiveLists.ProviderFlags
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.DisplayValue
-  commentId: P:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.DisplayValue
-  isExternal: true
-  name: DisplayValue
-  nameWithType: ArchiveColumnData.DisplayValue
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.DisplayValue
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
-  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnData
-  parent: SuperOffice.CRM.ArchiveLists
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.html
-  name: ArchiveColumnData
-  nameWithType: ArchiveColumnData
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
-- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TooltipHint
-  commentId: P:SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TooltipHint
-  isExternal: true
-  name: TooltipHint
-  nameWithType: ArchiveColumnData.TooltipHint
-  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData.TooltipHint

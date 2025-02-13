@@ -7,12 +7,12 @@ items:
   - SuperOffice.Threading.AsyncChunkedProcessedQueue`3
   - SuperOffice.Threading.AsyncContext
   - SuperOffice.Threading.AsyncContext`1
+  - SuperOffice.Threading.AsynchronousHandler`2
+  - SuperOffice.Threading.AsynchronousHandlerProcessor`1
+  - SuperOffice.Threading.AsyncOperation`1
   - SuperOffice.Threading.AsyncOperationFailure
   - SuperOffice.Threading.AsyncOperationStarting
   - SuperOffice.Threading.AsyncOperationTerminating
-  - SuperOffice.Threading.AsyncOperation`1
-  - SuperOffice.Threading.AsynchronousHandlerProcessor`1
-  - SuperOffice.Threading.AsynchronousHandler`2
   - SuperOffice.Threading.CleanupThreadState`2
   - SuperOffice.Threading.GetThreadState`1
   - SuperOffice.Threading.GlobalQueuedThreadBase`2
@@ -46,7 +46,6 @@ references:
 - uid: SuperOffice.Threading.AsyncChunkedProcessedQueue`3
   commentId: T:SuperOffice.Threading.AsyncChunkedProcessedQueue`3
   isExternal: true
-  href: SuperOffice.Threading.AsyncChunkedProcessedQueue-3.html
   name: AsyncChunkedProcessedQueue<TWorkItem, TChunkProcessor, TChunkHandler>
   nameWithType: AsyncChunkedProcessedQueue<TWorkItem, TChunkProcessor, TChunkHandler>
   fullName: SuperOffice.Threading.AsyncChunkedProcessedQueue<TWorkItem, TChunkProcessor, TChunkHandler>
@@ -56,37 +55,60 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsyncChunkedProcessedQueue`3
     name: AsyncChunkedProcessedQueue
+    nameWithType: AsyncChunkedProcessedQueue
+    fullName: SuperOffice.Threading.AsyncChunkedProcessedQueue
     isExternal: true
-    href: SuperOffice.Threading.AsyncChunkedProcessedQueue-3.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TWorkItem
-  - name: ','
-  - name: " "
+    nameWithType: TWorkItem
+    fullName: TWorkItem
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TChunkProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TChunkProcessor
+    fullName: TChunkProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TChunkHandler
+    nameWithType: TChunkHandler
+    fullName: TChunkHandler
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.AsyncChunkedProcessedQueue`3
     name: AsyncChunkedProcessedQueue
+    nameWithType: AsyncChunkedProcessedQueue
+    fullName: SuperOffice.Threading.AsyncChunkedProcessedQueue
     isExternal: true
-    href: SuperOffice.Threading.AsyncChunkedProcessedQueue-3.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TWorkItem
-  - name: ','
-  - name: " "
+    nameWithType: TWorkItem
+    fullName: TWorkItem
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TChunkProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TChunkProcessor
+    fullName: TChunkProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TChunkHandler
+    nameWithType: TChunkHandler
+    fullName: TChunkHandler
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
   commentId: T:SuperOffice.Threading.QueueAsyncChunkHandler`2
   isExternal: true
-  href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
   name: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>
   nameWithType: QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>
   fullName: SuperOffice.Threading.QueueAsyncChunkHandler<TWorkItem, TChunkProcessor>
@@ -96,31 +118,48 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
     name: QueueAsyncChunkHandler
+    nameWithType: QueueAsyncChunkHandler
+    fullName: SuperOffice.Threading.QueueAsyncChunkHandler
     isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TWorkItem
-  - name: ','
-  - name: " "
+    nameWithType: TWorkItem
+    fullName: TWorkItem
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TChunkProcessor
+    nameWithType: TChunkProcessor
+    fullName: TChunkProcessor
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.QueueAsyncChunkHandler`2
     name: QueueAsyncChunkHandler
+    nameWithType: QueueAsyncChunkHandler
+    fullName: SuperOffice.Threading.QueueAsyncChunkHandler
     isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkHandler-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TWorkItem
-  - name: ','
-  - name: " "
+    nameWithType: TWorkItem
+    fullName: TWorkItem
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TChunkProcessor
+    nameWithType: TChunkProcessor
+    fullName: TChunkProcessor
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.QueueAsyncChunkProcessor`1
   commentId: T:SuperOffice.Threading.QueueAsyncChunkProcessor`1
   isExternal: true
-  href: SuperOffice.Threading.QueueAsyncChunkProcessor-1.html
   name: QueueAsyncChunkProcessor<TWorkItem>
   nameWithType: QueueAsyncChunkProcessor<TWorkItem>
   fullName: SuperOffice.Threading.QueueAsyncChunkProcessor<TWorkItem>
@@ -130,25 +169,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.QueueAsyncChunkProcessor`1
     name: QueueAsyncChunkProcessor
+    nameWithType: QueueAsyncChunkProcessor
+    fullName: SuperOffice.Threading.QueueAsyncChunkProcessor
     isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkProcessor-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TWorkItem
+    nameWithType: TWorkItem
+    fullName: TWorkItem
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.QueueAsyncChunkProcessor`1
     name: QueueAsyncChunkProcessor
+    nameWithType: QueueAsyncChunkProcessor
+    fullName: SuperOffice.Threading.QueueAsyncChunkProcessor
     isExternal: true
-    href: SuperOffice.Threading.QueueAsyncChunkProcessor-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TWorkItem
+    nameWithType: TWorkItem
+    fullName: TWorkItem
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsyncOperation`1
   commentId: T:SuperOffice.Threading.AsyncOperation`1
   isExternal: true
-  href: SuperOffice.Threading.AsyncOperation-1.html
   name: AsyncOperation<TArgument>
   nameWithType: AsyncOperation<TArgument>
   fullName: SuperOffice.Threading.AsyncOperation<TArgument>
@@ -158,26 +208,37 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsyncOperation`1
     name: AsyncOperation
+    nameWithType: AsyncOperation
+    fullName: SuperOffice.Threading.AsyncOperation
     isExternal: true
-    href: SuperOffice.Threading.AsyncOperation-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TArgument
+    nameWithType: TArgument
+    fullName: TArgument
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.AsyncOperation`1
     name: AsyncOperation
+    nameWithType: AsyncOperation
+    fullName: SuperOffice.Threading.AsyncOperation
     isExternal: true
-    href: SuperOffice.Threading.AsyncOperation-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TArgument
+    nameWithType: TArgument
+    fullName: TArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsyncOperationStarting
   commentId: T:SuperOffice.Threading.AsyncOperationStarting
   parent: SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.Threading.AsyncOperationStarting.html
   name: AsyncOperationStarting
   nameWithType: AsyncOperationStarting
   fullName: SuperOffice.Threading.AsyncOperationStarting
@@ -185,7 +246,6 @@ references:
   commentId: T:SuperOffice.Threading.AsyncOperationFailure
   parent: SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.Threading.AsyncOperationFailure.html
   name: AsyncOperationFailure
   nameWithType: AsyncOperationFailure
   fullName: SuperOffice.Threading.AsyncOperationFailure
@@ -193,7 +253,6 @@ references:
   commentId: T:SuperOffice.Threading.AsyncOperationTerminating
   parent: SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.Threading.AsyncOperationTerminating.html
   name: AsyncOperationTerminating
   nameWithType: AsyncOperationTerminating
   fullName: SuperOffice.Threading.AsyncOperationTerminating
@@ -201,14 +260,12 @@ references:
   commentId: T:SuperOffice.Threading.AsyncContext
   parent: SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html
   name: AsyncContext
   nameWithType: AsyncContext
   fullName: SuperOffice.Threading.AsyncContext
 - uid: SuperOffice.Threading.AsyncContext`1
   commentId: T:SuperOffice.Threading.AsyncContext`1
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext-1.html
   name: AsyncContext<TArgument>
   nameWithType: AsyncContext<TArgument>
   fullName: SuperOffice.Threading.AsyncContext<TArgument>
@@ -218,25 +275,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsyncContext`1
     name: AsyncContext
+    nameWithType: AsyncContext
+    fullName: SuperOffice.Threading.AsyncContext
     isExternal: true
-    href: SuperOffice.Threading.AsyncContext-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TArgument
+    nameWithType: TArgument
+    fullName: TArgument
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.AsyncContext`1
     name: AsyncContext
+    nameWithType: AsyncContext
+    fullName: SuperOffice.Threading.AsyncContext
     isExternal: true
-    href: SuperOffice.Threading.AsyncContext-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TArgument
+    nameWithType: TArgument
+    fullName: TArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.GetThreadState`1
   commentId: T:SuperOffice.Threading.GetThreadState`1
   isExternal: true
-  href: SuperOffice.Threading.GetThreadState-1.html
   name: GetThreadState<TThreadState>
   nameWithType: GetThreadState<TThreadState>
   fullName: SuperOffice.Threading.GetThreadState<TThreadState>
@@ -246,25 +314,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.GetThreadState`1
     name: GetThreadState
+    nameWithType: GetThreadState
+    fullName: SuperOffice.Threading.GetThreadState
     isExternal: true
-    href: SuperOffice.Threading.GetThreadState-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TThreadState
+    nameWithType: TThreadState
+    fullName: TThreadState
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.GetThreadState`1
     name: GetThreadState
+    nameWithType: GetThreadState
+    fullName: SuperOffice.Threading.GetThreadState
     isExternal: true
-    href: SuperOffice.Threading.GetThreadState-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TThreadState
+    nameWithType: TThreadState
+    fullName: TThreadState
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.SetThreadState`2
   commentId: T:SuperOffice.Threading.SetThreadState`2
   isExternal: true
-  href: SuperOffice.Threading.SetThreadState-2.html
   name: SetThreadState<TThreadState, TThreadCleanupState>
   nameWithType: SetThreadState<TThreadState, TThreadCleanupState>
   fullName: SuperOffice.Threading.SetThreadState<TThreadState, TThreadCleanupState>
@@ -274,31 +353,48 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.SetThreadState`2
     name: SetThreadState
+    nameWithType: SetThreadState
+    fullName: SuperOffice.Threading.SetThreadState
     isExternal: true
-    href: SuperOffice.Threading.SetThreadState-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TThreadState
-  - name: ','
-  - name: " "
+    nameWithType: TThreadState
+    fullName: TThreadState
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TThreadCleanupState
+    nameWithType: TThreadCleanupState
+    fullName: TThreadCleanupState
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.SetThreadState`2
     name: SetThreadState
+    nameWithType: SetThreadState
+    fullName: SuperOffice.Threading.SetThreadState
     isExternal: true
-    href: SuperOffice.Threading.SetThreadState-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TThreadState
-  - name: ','
-  - name: " "
+    nameWithType: TThreadState
+    fullName: TThreadState
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TThreadCleanupState
+    nameWithType: TThreadCleanupState
+    fullName: TThreadCleanupState
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.CleanupThreadState`2
   commentId: T:SuperOffice.Threading.CleanupThreadState`2
   isExternal: true
-  href: SuperOffice.Threading.CleanupThreadState-2.html
   name: CleanupThreadState<TThreadState, TThreadCleanupState>
   nameWithType: CleanupThreadState<TThreadState, TThreadCleanupState>
   fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>
@@ -308,31 +404,48 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.CleanupThreadState`2
     name: CleanupThreadState
+    nameWithType: CleanupThreadState
+    fullName: SuperOffice.Threading.CleanupThreadState
     isExternal: true
-    href: SuperOffice.Threading.CleanupThreadState-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TThreadState
-  - name: ','
-  - name: " "
+    nameWithType: TThreadState
+    fullName: TThreadState
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TThreadCleanupState
+    nameWithType: TThreadCleanupState
+    fullName: TThreadCleanupState
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.CleanupThreadState`2
     name: CleanupThreadState
+    nameWithType: CleanupThreadState
+    fullName: SuperOffice.Threading.CleanupThreadState
     isExternal: true
-    href: SuperOffice.Threading.CleanupThreadState-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TThreadState
-  - name: ','
-  - name: " "
+    nameWithType: TThreadState
+    fullName: TThreadState
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TThreadCleanupState
+    nameWithType: TThreadCleanupState
+    fullName: TThreadCleanupState
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1
   commentId: T:SuperOffice.Threading.AsynchronousHandlerProcessor`1
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandlerProcessor-1.html
   name: AsynchronousHandlerProcessor<TAsynchronousArgument>
   nameWithType: AsynchronousHandlerProcessor<TAsynchronousArgument>
   fullName: SuperOffice.Threading.AsynchronousHandlerProcessor<TAsynchronousArgument>
@@ -342,25 +455,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1
     name: AsynchronousHandlerProcessor
+    nameWithType: AsynchronousHandlerProcessor
+    fullName: SuperOffice.Threading.AsynchronousHandlerProcessor
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandlerProcessor-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandlerProcessor`1
     name: AsynchronousHandlerProcessor
+    nameWithType: AsynchronousHandlerProcessor
+    fullName: SuperOffice.Threading.AsynchronousHandlerProcessor
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandlerProcessor-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsynchronousHandler`2
   commentId: T:SuperOffice.Threading.AsynchronousHandler`2
   isExternal: true
-  href: SuperOffice.Threading.AsynchronousHandler-2.html
   name: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   nameWithType: AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   fullName: SuperOffice.Threading.AsynchronousHandler<TAsynchronousHandlerProcessor, TAsynchronousArgument>
@@ -370,31 +494,48 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsynchronousHandler`2
     name: AsynchronousHandler
+    nameWithType: AsynchronousHandler
+    fullName: SuperOffice.Threading.AsynchronousHandler
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.AsynchronousHandler`2
     name: AsynchronousHandler
+    nameWithType: AsynchronousHandler
+    fullName: SuperOffice.Threading.AsynchronousHandler
     isExternal: true
-    href: SuperOffice.Threading.AsynchronousHandler-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.GlobalQueuedThreadBase`2
   commentId: T:SuperOffice.Threading.GlobalQueuedThreadBase`2
   isExternal: true
-  href: SuperOffice.Threading.GlobalQueuedThreadBase-2.html
   name: GlobalQueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   nameWithType: GlobalQueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   fullName: SuperOffice.Threading.GlobalQueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
@@ -404,31 +545,48 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.GlobalQueuedThreadBase`2
     name: GlobalQueuedThreadBase
+    nameWithType: GlobalQueuedThreadBase
+    fullName: SuperOffice.Threading.GlobalQueuedThreadBase
     isExternal: true
-    href: SuperOffice.Threading.GlobalQueuedThreadBase-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.GlobalQueuedThreadBase`2
     name: GlobalQueuedThreadBase
+    nameWithType: GlobalQueuedThreadBase
+    fullName: SuperOffice.Threading.GlobalQueuedThreadBase
     isExternal: true
-    href: SuperOffice.Threading.GlobalQueuedThreadBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.ParallelConsumerQueue`1
   commentId: T:SuperOffice.Threading.ParallelConsumerQueue`1
   isExternal: true
-  href: SuperOffice.Threading.ParallelConsumerQueue-1.html
   name: ParallelConsumerQueue<T>
   nameWithType: ParallelConsumerQueue<T>
   fullName: SuperOffice.Threading.ParallelConsumerQueue<T>
@@ -438,64 +596,70 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.ParallelConsumerQueue`1
     name: ParallelConsumerQueue
+    nameWithType: ParallelConsumerQueue
+    fullName: SuperOffice.Threading.ParallelConsumerQueue
     isExternal: true
-    href: SuperOffice.Threading.ParallelConsumerQueue-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.ParallelConsumerQueue`1
     name: ParallelConsumerQueue
+    nameWithType: ParallelConsumerQueue
+    fullName: SuperOffice.Threading.ParallelConsumerQueue
     isExternal: true
-    href: SuperOffice.Threading.ParallelConsumerQueue-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext
   commentId: T:SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext
   parent: SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.Threading.ParallelConsumerQueue-1.html
-  name: ParallelConsumerQueue<T>.ConsumerContext
-  nameWithType: ParallelConsumerQueue<T>.ConsumerContext
-  fullName: SuperOffice.Threading.ParallelConsumerQueue<T>.ConsumerContext
-  nameWithType.vb: ParallelConsumerQueue(Of T).ConsumerContext
-  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue(Of T).ConsumerContext
-  name.vb: ParallelConsumerQueue(Of T).ConsumerContext
+  name: ParallelConsumerQueue.ConsumerContext<>
+  nameWithType: ParallelConsumerQueue.ConsumerContext<>
+  fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext<>
+  nameWithType.vb: ParallelConsumerQueue.ConsumerContext(Of )
+  fullName.vb: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext(Of )
+  name.vb: ParallelConsumerQueue.ConsumerContext(Of )
   spec.csharp:
-  - uid: SuperOffice.Threading.ParallelConsumerQueue`1
-    name: ParallelConsumerQueue
+  - uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext
+    name: ParallelConsumerQueue.ConsumerContext
+    nameWithType: ParallelConsumerQueue.ConsumerContext
+    fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext
     isExternal: true
-    href: SuperOffice.Threading.ParallelConsumerQueue-1.html
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
   - name: '>'
-  - name: .
-  - uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext
-    name: ConsumerContext
-    isExternal: true
-    href: SuperOffice.Threading.ParallelConsumerQueue-1.ConsumerContext.html
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
-  - uid: SuperOffice.Threading.ParallelConsumerQueue`1
-    name: ParallelConsumerQueue
-    isExternal: true
-    href: SuperOffice.Threading.ParallelConsumerQueue-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: .
   - uid: SuperOffice.Threading.ParallelConsumerQueue`1.ConsumerContext
-    name: ConsumerContext
+    name: ParallelConsumerQueue.ConsumerContext
+    nameWithType: ParallelConsumerQueue.ConsumerContext
+    fullName: SuperOffice.Threading.ParallelConsumerQueue.ConsumerContext
     isExternal: true
-    href: SuperOffice.Threading.ParallelConsumerQueue-1.ConsumerContext.html
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.QueuedThreadBase`2
   commentId: T:SuperOffice.Threading.QueuedThreadBase`2
   isExternal: true
-  href: SuperOffice.Threading.QueuedThreadBase-2.html
   name: QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   nameWithType: QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   fullName: SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
@@ -505,91 +669,95 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.QueuedThreadBase`2
     name: QueuedThreadBase
+    nameWithType: QueuedThreadBase
+    fullName: SuperOffice.Threading.QueuedThreadBase
     isExternal: true
-    href: SuperOffice.Threading.QueuedThreadBase-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.QueuedThreadBase`2
     name: QueuedThreadBase
+    nameWithType: QueuedThreadBase
+    fullName: SuperOffice.Threading.QueuedThreadBase
     isExternal: true
-    href: SuperOffice.Threading.QueuedThreadBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.QueuedThreadBase`2.WorkInfo
   commentId: T:SuperOffice.Threading.QueuedThreadBase`2.WorkInfo
   parent: SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.Threading.QueuedThreadBase-2.html
-  name: QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo
-  nameWithType: QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo
-  fullName: SuperOffice.Threading.QueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>.WorkInfo
-  nameWithType.vb: QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo
-  fullName.vb: SuperOffice.Threading.QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo
-  name.vb: QueuedThreadBase(Of TAsynchronousHandlerProcessor, TAsynchronousArgument).WorkInfo
+  name: QueuedThreadBase.WorkInfo<>
+  nameWithType: QueuedThreadBase.WorkInfo<>
+  fullName: SuperOffice.Threading.QueuedThreadBase.WorkInfo<>
+  nameWithType.vb: QueuedThreadBase.WorkInfo(Of )
+  fullName.vb: SuperOffice.Threading.QueuedThreadBase.WorkInfo(Of )
+  name.vb: QueuedThreadBase.WorkInfo(Of )
   spec.csharp:
-  - uid: SuperOffice.Threading.QueuedThreadBase`2
-    name: QueuedThreadBase
+  - uid: SuperOffice.Threading.QueuedThreadBase`2.WorkInfo
+    name: QueuedThreadBase.WorkInfo
+    nameWithType: QueuedThreadBase.WorkInfo
+    fullName: SuperOffice.Threading.QueuedThreadBase.WorkInfo
     isExternal: true
-    href: SuperOffice.Threading.QueuedThreadBase-2.html
   - name: <
-  - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
-  - name: TAsynchronousArgument
+    nameWithType: <
+    fullName: <
   - name: '>'
-  - name: .
-  - uid: SuperOffice.Threading.QueuedThreadBase`2.WorkInfo
-    name: WorkInfo
-    isExternal: true
-    href: SuperOffice.Threading.QueuedThreadBase-2.WorkInfo.html
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
-  - uid: SuperOffice.Threading.QueuedThreadBase`2
-    name: QueuedThreadBase
-    isExternal: true
-    href: SuperOffice.Threading.QueuedThreadBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
-  - name: TAsynchronousArgument
-  - name: )
-  - name: .
   - uid: SuperOffice.Threading.QueuedThreadBase`2.WorkInfo
-    name: WorkInfo
+    name: QueuedThreadBase.WorkInfo
+    nameWithType: QueuedThreadBase.WorkInfo
+    fullName: SuperOffice.Threading.QueuedThreadBase.WorkInfo
     isExternal: true
-    href: SuperOffice.Threading.QueuedThreadBase-2.WorkInfo.html
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.SoBackgroundWorker
   commentId: T:SuperOffice.Threading.SoBackgroundWorker
   parent: SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.Threading.SoBackgroundWorker.html
   name: SoBackgroundWorker
   nameWithType: SoBackgroundWorker
   fullName: SuperOffice.Threading.SoBackgroundWorker
 - uid: SuperOffice.Threading.SoReaderWriterLock
   commentId: T:SuperOffice.Threading.SoReaderWriterLock
   isExternal: true
-  href: SuperOffice.Threading.SoReaderWriterLock.html
   name: SoReaderWriterLock
   nameWithType: SoReaderWriterLock
   fullName: SuperOffice.Threading.SoReaderWriterLock
 - uid: SuperOffice.Threading.ThreadManager
   commentId: T:SuperOffice.Threading.ThreadManager
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html
   name: ThreadManager
   nameWithType: ThreadManager
   fullName: SuperOffice.Threading.ThreadManager
@@ -597,117 +765,32 @@ references:
   commentId: T:SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper
   parent: SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html
   name: ThreadManager.ForceSingleThreadHelper
   nameWithType: ThreadManager.ForceSingleThreadHelper
   fullName: SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper
-  spec.csharp:
-  - uid: SuperOffice.Threading.ThreadManager
-    name: ThreadManager
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.html
-  - name: .
-  - uid: SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper
-    name: ForceSingleThreadHelper
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper.html
-  spec.vb:
-  - uid: SuperOffice.Threading.ThreadManager
-    name: ThreadManager
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.html
-  - name: .
-  - uid: SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper
-    name: ForceSingleThreadHelper
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper.html
 - uid: SuperOffice.Threading.ThreadManager.DontIgnoreRowSentryModifier
   commentId: T:SuperOffice.Threading.ThreadManager.DontIgnoreRowSentryModifier
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html
   name: ThreadManager.DontIgnoreRowSentryModifier
   nameWithType: ThreadManager.DontIgnoreRowSentryModifier
   fullName: SuperOffice.Threading.ThreadManager.DontIgnoreRowSentryModifier
-  spec.csharp:
-  - uid: SuperOffice.Threading.ThreadManager
-    name: ThreadManager
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.html
-  - name: .
-  - uid: SuperOffice.Threading.ThreadManager.DontIgnoreRowSentryModifier
-    name: DontIgnoreRowSentryModifier
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.DontIgnoreRowSentryModifier.html
-  spec.vb:
-  - uid: SuperOffice.Threading.ThreadManager
-    name: ThreadManager
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.html
-  - name: .
-  - uid: SuperOffice.Threading.ThreadManager.DontIgnoreRowSentryModifier
-    name: DontIgnoreRowSentryModifier
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.DontIgnoreRowSentryModifier.html
 - uid: SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier
   commentId: T:SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier
   parent: SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html
   name: ThreadManager.IgnoreRowSentryModifier
   nameWithType: ThreadManager.IgnoreRowSentryModifier
   fullName: SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier
-  spec.csharp:
-  - uid: SuperOffice.Threading.ThreadManager
-    name: ThreadManager
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.html
-  - name: .
-  - uid: SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier
-    name: IgnoreRowSentryModifier
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier.html
-  spec.vb:
-  - uid: SuperOffice.Threading.ThreadManager
-    name: ThreadManager
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.html
-  - name: .
-  - uid: SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier
-    name: IgnoreRowSentryModifier
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier.html
 - uid: SuperOffice.Threading.ThreadManager.IgnoreSentryModifier
   commentId: T:SuperOffice.Threading.ThreadManager.IgnoreSentryModifier
   parent: SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html
   name: ThreadManager.IgnoreSentryModifier
   nameWithType: ThreadManager.IgnoreSentryModifier
   fullName: SuperOffice.Threading.ThreadManager.IgnoreSentryModifier
-  spec.csharp:
-  - uid: SuperOffice.Threading.ThreadManager
-    name: ThreadManager
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.html
-  - name: .
-  - uid: SuperOffice.Threading.ThreadManager.IgnoreSentryModifier
-    name: IgnoreSentryModifier
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.IgnoreSentryModifier.html
-  spec.vb:
-  - uid: SuperOffice.Threading.ThreadManager
-    name: ThreadManager
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.html
-  - name: .
-  - uid: SuperOffice.Threading.ThreadManager.IgnoreSentryModifier
-    name: IgnoreSentryModifier
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.IgnoreSentryModifier.html
 - uid: SuperOffice.Threading.ThreadPerOperationBase`2
   commentId: T:SuperOffice.Threading.ThreadPerOperationBase`2
   isExternal: true
-  href: SuperOffice.Threading.ThreadPerOperationBase-2.html
   name: ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   nameWithType: ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   fullName: SuperOffice.Threading.ThreadPerOperationBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
@@ -717,31 +800,48 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.ThreadPerOperationBase`2
     name: ThreadPerOperationBase
+    nameWithType: ThreadPerOperationBase
+    fullName: SuperOffice.Threading.ThreadPerOperationBase
     isExternal: true
-    href: SuperOffice.Threading.ThreadPerOperationBase-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.ThreadPerOperationBase`2
     name: ThreadPerOperationBase
+    nameWithType: ThreadPerOperationBase
+    fullName: SuperOffice.Threading.ThreadPerOperationBase
     isExternal: true
-    href: SuperOffice.Threading.ThreadPerOperationBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.ThreadStaticQueuedThreadBase`2
   commentId: T:SuperOffice.Threading.ThreadStaticQueuedThreadBase`2
   isExternal: true
-  href: SuperOffice.Threading.ThreadStaticQueuedThreadBase-2.html
   name: ThreadStaticQueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   nameWithType: ThreadStaticQueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
   fullName: SuperOffice.Threading.ThreadStaticQueuedThreadBase<TAsynchronousHandlerProcessor, TAsynchronousArgument>
@@ -751,31 +851,48 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.ThreadStaticQueuedThreadBase`2
     name: ThreadStaticQueuedThreadBase
+    nameWithType: ThreadStaticQueuedThreadBase
+    fullName: SuperOffice.Threading.ThreadStaticQueuedThreadBase
     isExternal: true
-    href: SuperOffice.Threading.ThreadStaticQueuedThreadBase-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.ThreadStaticQueuedThreadBase`2
     name: ThreadStaticQueuedThreadBase
+    nameWithType: ThreadStaticQueuedThreadBase
+    fullName: SuperOffice.Threading.ThreadStaticQueuedThreadBase
     isExternal: true
-    href: SuperOffice.Threading.ThreadStaticQueuedThreadBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TAsynchronousHandlerProcessor
-  - name: ','
-  - name: " "
+    nameWithType: TAsynchronousHandlerProcessor
+    fullName: TAsynchronousHandlerProcessor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TAsynchronousArgument
+    nameWithType: TAsynchronousArgument
+    fullName: TAsynchronousArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.ThreadwiseKeyCache`1
   commentId: T:SuperOffice.Threading.ThreadwiseKeyCache`1
   isExternal: true
-  href: SuperOffice.Threading.ThreadwiseKeyCache-1.html
   name: ThreadwiseKeyCache<Item>
   nameWithType: ThreadwiseKeyCache<Item>
   fullName: SuperOffice.Threading.ThreadwiseKeyCache<Item>
@@ -785,45 +902,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.ThreadwiseKeyCache`1
     name: ThreadwiseKeyCache
+    nameWithType: ThreadwiseKeyCache
+    fullName: SuperOffice.Threading.ThreadwiseKeyCache
     isExternal: true
-    href: SuperOffice.Threading.ThreadwiseKeyCache-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: Item
+    nameWithType: Item
+    fullName: Item
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.ThreadwiseKeyCache`1
     name: ThreadwiseKeyCache
+    nameWithType: ThreadwiseKeyCache
+    fullName: SuperOffice.Threading.ThreadwiseKeyCache
     isExternal: true
-    href: SuperOffice.Threading.ThreadwiseKeyCache-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: Item
+    nameWithType: Item
+    fullName: Item
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading
   commentId: N:SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Threading
   nameWithType: SuperOffice.Threading
   fullName: SuperOffice.Threading
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Threading
-    name: Threading
-    isExternal: true
-    href: SuperOffice.Threading.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Threading
-    name: Threading
-    isExternal: true
-    href: SuperOffice.Threading.html

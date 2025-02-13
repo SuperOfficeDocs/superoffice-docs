@@ -16,17 +16,19 @@ items:
   nameWithType: OutgoingMailSession
   fullName: SuperOffice.CRM.Mail.OutgoingMailSession
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Mail
-  summary: >-
-    Class to deal with sessions for outgoing (i.e. SMTP) mail servers.  
-
-    Instantiate this class with <xref href="SuperOffice.CRM.Mail.SoMail.BeginSend" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nClass to deal with sessions for outgoing (i.e. SMTP) mail servers.  \nInstantiate this class with <xref href=\"SuperOffice.CRM.Mail.SoMail.BeginSend\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: 'public sealed class OutgoingMailSession : MailSession<ISoOutgoingMailInterface>, IDisposable'
-    content.vb: Public NotInheritable Class OutgoingMailSession Inherits MailSession(Of ISoOutgoingMailInterface) Implements IDisposable
+    content.vb: >-
+      Public NotInheritable Class OutgoingMailSession
+          Inherits MailSession(Of ISoOutgoingMailInterface)
+          Implements IDisposable
   inheritance:
   - System.Object
   - SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}
@@ -38,15 +40,19 @@ items:
   - SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.Server
   - SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.UserName
   - SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.UseSSL
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
+  - SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.Password
+  - SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.MailInterface
   extensionMethods:
   - SuperOffice.CRM.Mail.OutgoingMailSession.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Mail.OutgoingMailSession.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
 - uid: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogin(System.String,System.String,System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogin(System.String,System.String,System.String,System.Boolean)
   id: ServerLogin(System.String,System.String,System.String,System.Boolean)
@@ -54,15 +60,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ServerLogin(string, string, string, bool)
-  nameWithType: OutgoingMailSession.ServerLogin(string, string, string, bool)
-  fullName: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogin(string, string, string, bool)
+  name: ServerLogin(String, String, String, Boolean)
+  nameWithType: OutgoingMailSession.ServerLogin(String, String, String, Boolean)
+  fullName: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogin(System.String, System.String, System.String, System.Boolean)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Mail
-  summary: Log on to the mail server
-  example: []
+  summary: "\nLog on to the mail server\n"
   syntax:
     content: protected override ISoOutgoingMailInterface ServerLogin(string server, string userName, string password, bool useSSL)
     parameters:
@@ -84,9 +92,12 @@ items:
     content.vb: Protected Overrides Function ServerLogin(server As String, userName As String, password As String, useSSL As Boolean) As ISoOutgoingMailInterface
   overridden: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLogin(System.String,System.String,System.String,System.Boolean)
   overload: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogin*
-  nameWithType.vb: OutgoingMailSession.ServerLogin(String, String, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogin(String, String, String, Boolean)
-  name.vb: ServerLogin(String, String, String, Boolean)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogin(System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogin(System.String,System.String,System.String)
   id: ServerLogin(System.String,System.String,System.String)
@@ -94,15 +105,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ServerLogin(string, string, string)
-  nameWithType: OutgoingMailSession.ServerLogin(string, string, string)
-  fullName: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogin(string, string, string)
+  name: ServerLogin(String, String, String)
+  nameWithType: OutgoingMailSession.ServerLogin(String, String, String)
+  fullName: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogin(System.String, System.String, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Mail
-  summary: Log on to the mail server
-  example: []
+  summary: "\nLog on to the mail server\n"
   syntax:
     content: protected override ISoOutgoingMailInterface ServerLogin(string server, string userName, string password)
     parameters:
@@ -121,9 +134,12 @@ items:
     content.vb: Protected Overrides Function ServerLogin(server As String, userName As String, password As String) As ISoOutgoingMailInterface
   overridden: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLogin(System.String,System.String,System.String)
   overload: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogin*
-  nameWithType.vb: OutgoingMailSession.ServerLogin(String, String, String)
-  fullName.vb: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogin(String, String, String)
-  name.vb: ServerLogin(String, String, String)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogout
   commentId: M:SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogout
   id: ServerLogout
@@ -135,16 +151,24 @@ items:
   nameWithType: OutgoingMailSession.ServerLogout()
   fullName: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogout()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Mail
-  summary: Log out from the mail server.
-  example: []
+  summary: "\nLog out from the mail server.\n"
   syntax:
     content: protected override void ServerLogout()
-    content.vb: Protected Overrides Sub ServerLogout()
+    content.vb: Protected Overrides Sub ServerLogout
   overridden: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLogout
   overload: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogout*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.Mail.OutgoingMailSession.SendEMail(SuperOffice.CRM.Mail.MailItem)
   commentId: M:SuperOffice.CRM.Mail.OutgoingMailSession.SendEMail(SuperOffice.CRM.Mail.MailItem)
   id: SendEMail(SuperOffice.CRM.Mail.MailItem)
@@ -156,11 +180,13 @@ items:
   nameWithType: OutgoingMailSession.SendEMail(MailItem)
   fullName: SuperOffice.CRM.Mail.OutgoingMailSession.SendEMail(SuperOffice.CRM.Mail.MailItem)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Mail
-  summary: Send the provided e-mail to the server
-  example: []
+  summary: "\nSend the provided e-mail to the server\n"
   syntax:
     content: public MailItem SendEMail(MailItem email)
     parameters:
@@ -172,81 +198,28 @@ items:
       description: The sent e-mail updated with messageid etc.
     content.vb: Public Function SendEMail(email As MailItem) As MailItem
   overload: SuperOffice.CRM.Mail.OutgoingMailSession.SendEMail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.Mail.SoMail.BeginSend
-  commentId: M:SuperOffice.CRM.Mail.SoMail.BeginSend
-  isExternal: true
-  href: SuperOffice.CRM.Mail.SoMail.html#SuperOffice_CRM_Mail_SoMail_BeginSend
-  name: BeginSend()
-  nameWithType: SoMail.BeginSend()
-  fullName: SuperOffice.CRM.Mail.SoMail.BeginSend()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Mail.SoMail.BeginSend
-    name: BeginSend
-    isExternal: true
-    href: SuperOffice.CRM.Mail.SoMail.html#SuperOffice_CRM_Mail_SoMail_BeginSend
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Mail.SoMail.BeginSend
-    name: BeginSend
-    isExternal: true
-    href: SuperOffice.CRM.Mail.SoMail.html#SuperOffice_CRM_Mail_SoMail_BeginSend
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Mail
   commentId: N:SuperOffice.CRM.Mail
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Mail
   nameWithType: SuperOffice.CRM.Mail
   fullName: SuperOffice.CRM.Mail
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Mail
-    name: Mail
-    isExternal: true
-    href: SuperOffice.CRM.Mail.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Mail
-    name: Mail
-    isExternal: true
-    href: SuperOffice.CRM.Mail.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}
   commentId: T:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}
   parent: SuperOffice.CRM.Mail
   definition: SuperOffice.CRM.Mail.MailSession`1
-  href: SuperOffice.CRM.Mail.MailSession-1.html
   name: MailSession<ISoOutgoingMailInterface>
   nameWithType: MailSession<ISoOutgoingMailInterface>
   fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>
@@ -256,30 +229,39 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Mail.MailSession`1
     name: MailSession
+    nameWithType: MailSession
+    fullName: SuperOffice.CRM.Mail.MailSession
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Mail.ISoOutgoingMailInterface
     name: ISoOutgoingMailInterface
+    nameWithType: ISoOutgoingMailInterface
+    fullName: SuperOffice.CRM.Mail.ISoOutgoingMailInterface
     isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Mail.MailSession`1
     name: MailSession
+    nameWithType: MailSession
+    fullName: SuperOffice.CRM.Mail.MailSession
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Mail.ISoOutgoingMailInterface
     name: ISoOutgoingMailInterface
+    nameWithType: ISoOutgoingMailInterface
+    fullName: SuperOffice.CRM.Mail.ISoOutgoingMailInterface
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
@@ -287,55 +269,72 @@ references:
   commentId: M:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.Logout
   parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}
   definition: SuperOffice.CRM.Mail.MailSession`1.Logout
-  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_Logout
   name: Logout()
   nameWithType: MailSession<ISoOutgoingMailInterface>.Logout()
   fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>.Logout()
   nameWithType.vb: MailSession(Of ISoOutgoingMailInterface).Logout()
   fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoOutgoingMailInterface).Logout()
   spec.csharp:
-  - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.Logout
+  - uid: SuperOffice.CRM.Mail.MailSession`1.Logout
     name: Logout
+    nameWithType: MailSession<ISoOutgoingMailInterface>.Logout
+    fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>.Logout
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_Logout
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.Logout
+  - uid: SuperOffice.CRM.Mail.MailSession`1.Logout
     name: Logout
+    nameWithType: MailSession(Of ISoOutgoingMailInterface).Logout
+    fullName: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoOutgoingMailInterface).Logout
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_Logout
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.Dispose
   commentId: M:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.Dispose
   parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}
   definition: SuperOffice.CRM.Mail.MailSession`1.Dispose
-  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_Dispose
   name: Dispose()
   nameWithType: MailSession<ISoOutgoingMailInterface>.Dispose()
   fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>.Dispose()
   nameWithType.vb: MailSession(Of ISoOutgoingMailInterface).Dispose()
   fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoOutgoingMailInterface).Dispose()
   spec.csharp:
-  - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.Dispose
+  - uid: SuperOffice.CRM.Mail.MailSession`1.Dispose
     name: Dispose
+    nameWithType: MailSession<ISoOutgoingMailInterface>.Dispose
+    fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>.Dispose
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.Dispose
+  - uid: SuperOffice.CRM.Mail.MailSession`1.Dispose
     name: Dispose
+    nameWithType: MailSession(Of ISoOutgoingMailInterface).Dispose
+    fullName: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoOutgoingMailInterface).Dispose
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.Server
   commentId: P:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.Server
   parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}
   definition: SuperOffice.CRM.Mail.MailSession`1.Server
-  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_Server
   name: Server
   nameWithType: MailSession<ISoOutgoingMailInterface>.Server
   fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>.Server
@@ -345,7 +344,6 @@ references:
   commentId: P:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.UserName
   parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}
   definition: SuperOffice.CRM.Mail.MailSession`1.UserName
-  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_UserName
   name: UserName
   nameWithType: MailSession<ISoOutgoingMailInterface>.UserName
   fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>.UserName
@@ -355,324 +353,106 @@ references:
   commentId: P:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.UseSSL
   parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}
   definition: SuperOffice.CRM.Mail.MailSession`1.UseSSL
-  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_UseSSL
   name: UseSSL
   nameWithType: MailSession<ISoOutgoingMailInterface>.UseSSL
   fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>.UseSSL
   nameWithType.vb: MailSession(Of ISoOutgoingMailInterface).UseSSL
   fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoOutgoingMailInterface).UseSSL
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
+- uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.Password
+  commentId: P:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.Password
+  parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}
+  definition: SuperOffice.CRM.Mail.MailSession`1.Password
+  name: Password
+  nameWithType: MailSession<ISoOutgoingMailInterface>.Password
+  fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>.Password
+  nameWithType.vb: MailSession(Of ISoOutgoingMailInterface).Password
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoOutgoingMailInterface).Password
+- uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.MailInterface
+  commentId: P:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.MailInterface
+  parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}
+  definition: SuperOffice.CRM.Mail.MailSession`1.MailInterface
+  name: MailInterface
+  nameWithType: MailSession<ISoOutgoingMailInterface>.MailInterface
+  fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>.MailInterface
+  nameWithType.vb: MailSession(Of ISoOutgoingMailInterface).MailInterface
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoOutgoingMailInterface).MailInterface
 - uid: SuperOffice.CRM.Mail.OutgoingMailSession.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<OutgoingMailSession, To>(OutgoingMailSession)
-  nameWithType: EnumUtil.MapEnums<OutgoingMailSession, To>(OutgoingMailSession)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Mail.OutgoingMailSession, To>(SuperOffice.CRM.Mail.OutgoingMailSession)
-  nameWithType.vb: EnumUtil.MapEnums(Of OutgoingMailSession, To)(OutgoingMailSession)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Mail.OutgoingMailSession, To)(SuperOffice.CRM.Mail.OutgoingMailSession)
-  name.vb: MapEnums(Of OutgoingMailSession, To)(OutgoingMailSession)
+  name: MapEnums<OutgoingMailSession, To>()
+  nameWithType: EnumUtil.MapEnums<OutgoingMailSession, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Mail.OutgoingMailSession, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of OutgoingMailSession, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Mail.OutgoingMailSession, To)()
+  name.vb: MapEnums(Of OutgoingMailSession, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Mail.OutgoingMailSession)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<OutgoingMailSession, To>
+    nameWithType: EnumUtil.MapEnums<OutgoingMailSession, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Mail.OutgoingMailSession, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Mail.OutgoingMailSession
-    name: OutgoingMailSession
-    isExternal: true
-    href: SuperOffice.CRM.Mail.OutgoingMailSession.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Mail.OutgoingMailSession
-    name: OutgoingMailSession
-    isExternal: true
-    href: SuperOffice.CRM.Mail.OutgoingMailSession.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Mail.OutgoingMailSession)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of OutgoingMailSession, To)
+    nameWithType: EnumUtil.MapEnums(Of OutgoingMailSession, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Mail.OutgoingMailSession, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Mail.OutgoingMailSession
-    name: OutgoingMailSession
-    isExternal: true
-    href: SuperOffice.CRM.Mail.OutgoingMailSession.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Mail.OutgoingMailSession
-    name: OutgoingMailSession
-    isExternal: true
-    href: SuperOffice.CRM.Mail.OutgoingMailSession.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Mail.OutgoingMailSession.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<OutgoingMailSession, To>(OutgoingMailSession)
-  nameWithType: Converters.MapEnums<OutgoingMailSession, To>(OutgoingMailSession)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Mail.OutgoingMailSession, To>(SuperOffice.CRM.Mail.OutgoingMailSession)
-  nameWithType.vb: Converters.MapEnums(Of OutgoingMailSession, To)(OutgoingMailSession)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Mail.OutgoingMailSession, To)(SuperOffice.CRM.Mail.OutgoingMailSession)
-  name.vb: MapEnums(Of OutgoingMailSession, To)(OutgoingMailSession)
+  name: MapEnums<OutgoingMailSession, To>()
+  nameWithType: Converters.MapEnums<OutgoingMailSession, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Mail.OutgoingMailSession, To>()
+  nameWithType.vb: Converters.MapEnums(Of OutgoingMailSession, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Mail.OutgoingMailSession, To)()
+  name.vb: MapEnums(Of OutgoingMailSession, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Mail.OutgoingMailSession)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<OutgoingMailSession, To>
+    nameWithType: Converters.MapEnums<OutgoingMailSession, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Mail.OutgoingMailSession, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Mail.OutgoingMailSession
-    name: OutgoingMailSession
-    isExternal: true
-    href: SuperOffice.CRM.Mail.OutgoingMailSession.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Mail.OutgoingMailSession
-    name: OutgoingMailSession
-    isExternal: true
-    href: SuperOffice.CRM.Mail.OutgoingMailSession.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Mail.OutgoingMailSession)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of OutgoingMailSession, To)
+    nameWithType: Converters.MapEnums(Of OutgoingMailSession, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Mail.OutgoingMailSession, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Mail.OutgoingMailSession
-    name: OutgoingMailSession
-    isExternal: true
-    href: SuperOffice.CRM.Mail.OutgoingMailSession.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Mail.OutgoingMailSession
-    name: OutgoingMailSession
-    isExternal: true
-    href: SuperOffice.CRM.Mail.OutgoingMailSession.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Mail.MailSession`1
   commentId: T:SuperOffice.CRM.Mail.MailSession`1
   isExternal: true
-  href: SuperOffice.CRM.Mail.MailSession-1.html
   name: MailSession<TMailInterface>
   nameWithType: MailSession<TMailInterface>
   fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>
@@ -682,25 +462,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Mail.MailSession`1
     name: MailSession
+    nameWithType: MailSession
+    fullName: SuperOffice.CRM.Mail.MailSession
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TMailInterface
+    nameWithType: TMailInterface
+    fullName: TMailInterface
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Mail.MailSession`1
     name: MailSession
+    nameWithType: MailSession
+    fullName: SuperOffice.CRM.Mail.MailSession
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TMailInterface
+    nameWithType: TMailInterface
+    fullName: TMailInterface
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Mail.MailSession`1.Logout
   commentId: M:SuperOffice.CRM.Mail.MailSession`1.Logout
   isExternal: true
-  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_Logout
   name: Logout()
   nameWithType: MailSession<TMailInterface>.Logout()
   fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.Logout()
@@ -709,21 +500,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Mail.MailSession`1.Logout
     name: Logout
+    nameWithType: MailSession<TMailInterface>.Logout
+    fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.Logout
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_Logout
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Mail.MailSession`1.Logout
     name: Logout
+    nameWithType: MailSession(Of TMailInterface).Logout
+    fullName: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).Logout
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_Logout
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Mail.MailSession`1.Dispose
   commentId: M:SuperOffice.CRM.Mail.MailSession`1.Dispose
   isExternal: true
-  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_Dispose
   name: Dispose()
   nameWithType: MailSession<TMailInterface>.Dispose()
   fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.Dispose()
@@ -732,21 +532,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Mail.MailSession`1.Dispose
     name: Dispose
+    nameWithType: MailSession<TMailInterface>.Dispose
+    fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.Dispose
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Mail.MailSession`1.Dispose
     name: Dispose
+    nameWithType: MailSession(Of TMailInterface).Dispose
+    fullName: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).Dispose
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Mail.MailSession`1.Server
   commentId: P:SuperOffice.CRM.Mail.MailSession`1.Server
   isExternal: true
-  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_Server
   name: Server
   nameWithType: MailSession<TMailInterface>.Server
   fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.Server
@@ -755,7 +564,6 @@ references:
 - uid: SuperOffice.CRM.Mail.MailSession`1.UserName
   commentId: P:SuperOffice.CRM.Mail.MailSession`1.UserName
   isExternal: true
-  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_UserName
   name: UserName
   nameWithType: MailSession<TMailInterface>.UserName
   fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.UserName
@@ -764,16 +572,30 @@ references:
 - uid: SuperOffice.CRM.Mail.MailSession`1.UseSSL
   commentId: P:SuperOffice.CRM.Mail.MailSession`1.UseSSL
   isExternal: true
-  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_UseSSL
   name: UseSSL
   nameWithType: MailSession<TMailInterface>.UseSSL
   fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.UseSSL
   nameWithType.vb: MailSession(Of TMailInterface).UseSSL
   fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).UseSSL
+- uid: SuperOffice.CRM.Mail.MailSession`1.Password
+  commentId: P:SuperOffice.CRM.Mail.MailSession`1.Password
+  isExternal: true
+  name: Password
+  nameWithType: MailSession<TMailInterface>.Password
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.Password
+  nameWithType.vb: MailSession(Of TMailInterface).Password
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).Password
+- uid: SuperOffice.CRM.Mail.MailSession`1.MailInterface
+  commentId: P:SuperOffice.CRM.Mail.MailSession`1.MailInterface
+  isExternal: true
+  name: MailInterface
+  nameWithType: MailSession<TMailInterface>.MailInterface
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.MailInterface
+  nameWithType.vb: MailSession(Of TMailInterface).MailInterface
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).MailInterface
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -782,45 +604,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -829,152 +649,141 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLogin(System.String,System.String,System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLogin(System.String,System.String,System.String,System.Boolean)
   parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}
   definition: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String,System.Boolean)
-  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLogin_System_String_System_String_System_String_System_Boolean_
-  name: ServerLogin(string, string, string, bool)
-  nameWithType: MailSession<ISoOutgoingMailInterface>.ServerLogin(string, string, string, bool)
-  fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>.ServerLogin(string, string, string, bool)
+  name: ServerLogin(String, String, String, Boolean)
+  nameWithType: MailSession<ISoOutgoingMailInterface>.ServerLogin(String, String, String, Boolean)
+  fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>.ServerLogin(System.String, System.String, System.String, System.Boolean)
   nameWithType.vb: MailSession(Of ISoOutgoingMailInterface).ServerLogin(String, String, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoOutgoingMailInterface).ServerLogin(String, String, String, Boolean)
-  name.vb: ServerLogin(String, String, String, Boolean)
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoOutgoingMailInterface).ServerLogin(System.String, System.String, System.String, System.Boolean)
   spec.csharp:
-  - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLogin(System.String,System.String,System.String,System.Boolean)
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String,System.Boolean)
     name: ServerLogin
+    nameWithType: MailSession<ISoOutgoingMailInterface>.ServerLogin
+    fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>.ServerLogin
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLogin_System_String_System_String_System_String_System_Boolean_
   - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLogin(System.String,System.String,System.String,System.Boolean)
-    name: ServerLogin
-    isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLogin_System_String_System_String_System_String_System_Boolean_
-  - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String,System.Boolean)
+    name: ServerLogin
+    nameWithType: MailSession(Of ISoOutgoingMailInterface).ServerLogin
+    fullName: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoOutgoingMailInterface).ServerLogin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogin*
   commentId: Overload:SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogin
   isExternal: true
-  href: SuperOffice.CRM.Mail.OutgoingMailSession.html#SuperOffice_CRM_Mail_OutgoingMailSession_ServerLogin_System_String_System_String_System_String_System_Boolean_
   name: ServerLogin
   nameWithType: OutgoingMailSession.ServerLogin
   fullName: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogin
@@ -982,27 +791,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Mail.ISoOutgoingMailInterface
-  commentId: T:SuperOffice.CRM.Mail.ISoOutgoingMailInterface
-  parent: SuperOffice.CRM.Mail
   isExternal: true
   name: ISoOutgoingMailInterface
   nameWithType: ISoOutgoingMailInterface
@@ -1010,219 +809,284 @@ references:
 - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String,System.Boolean)
   isExternal: true
-  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLogin_System_String_System_String_System_String_System_Boolean_
-  name: ServerLogin(string, string, string, bool)
-  nameWithType: MailSession<TMailInterface>.ServerLogin(string, string, string, bool)
-  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLogin(string, string, string, bool)
+  name: ServerLogin(String, String, String, Boolean)
+  nameWithType: MailSession<TMailInterface>.ServerLogin(String, String, String, Boolean)
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLogin(System.String, System.String, System.String, System.Boolean)
   nameWithType.vb: MailSession(Of TMailInterface).ServerLogin(String, String, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLogin(String, String, String, Boolean)
-  name.vb: ServerLogin(String, String, String, Boolean)
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLogin(System.String, System.String, System.String, System.Boolean)
   spec.csharp:
   - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String,System.Boolean)
     name: ServerLogin
+    nameWithType: MailSession<TMailInterface>.ServerLogin
+    fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLogin
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLogin_System_String_System_String_System_String_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String,System.Boolean)
     name: ServerLogin
+    nameWithType: MailSession(Of TMailInterface).ServerLogin
+    fullName: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLogin
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLogin_System_String_System_String_System_String_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLogin(System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLogin(System.String,System.String,System.String)
   parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}
   definition: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String)
-  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLogin_System_String_System_String_System_String_
-  name: ServerLogin(string, string, string)
-  nameWithType: MailSession<ISoOutgoingMailInterface>.ServerLogin(string, string, string)
-  fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>.ServerLogin(string, string, string)
+  name: ServerLogin(String, String, String)
+  nameWithType: MailSession<ISoOutgoingMailInterface>.ServerLogin(String, String, String)
+  fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>.ServerLogin(System.String, System.String, System.String)
   nameWithType.vb: MailSession(Of ISoOutgoingMailInterface).ServerLogin(String, String, String)
-  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoOutgoingMailInterface).ServerLogin(String, String, String)
-  name.vb: ServerLogin(String, String, String)
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoOutgoingMailInterface).ServerLogin(System.String, System.String, System.String)
   spec.csharp:
-  - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLogin(System.String,System.String,System.String)
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String)
     name: ServerLogin
+    nameWithType: MailSession<ISoOutgoingMailInterface>.ServerLogin
+    fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>.ServerLogin
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLogin_System_String_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLogin(System.String,System.String,System.String)
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String)
     name: ServerLogin
+    nameWithType: MailSession(Of ISoOutgoingMailInterface).ServerLogin
+    fullName: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoOutgoingMailInterface).ServerLogin
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLogin_System_String_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String)
   isExternal: true
-  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLogin_System_String_System_String_System_String_
-  name: ServerLogin(string, string, string)
-  nameWithType: MailSession<TMailInterface>.ServerLogin(string, string, string)
-  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLogin(string, string, string)
+  name: ServerLogin(String, String, String)
+  nameWithType: MailSession<TMailInterface>.ServerLogin(String, String, String)
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLogin(System.String, System.String, System.String)
   nameWithType.vb: MailSession(Of TMailInterface).ServerLogin(String, String, String)
-  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLogin(String, String, String)
-  name.vb: ServerLogin(String, String, String)
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLogin(System.String, System.String, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String)
     name: ServerLogin
+    nameWithType: MailSession<TMailInterface>.ServerLogin
+    fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLogin
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLogin_System_String_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String)
     name: ServerLogin
+    nameWithType: MailSession(Of TMailInterface).ServerLogin
+    fullName: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLogin
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLogin_System_String_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLogout
   commentId: M:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLogout
   parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}
   definition: SuperOffice.CRM.Mail.MailSession`1.ServerLogout
-  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLogout
   name: ServerLogout()
   nameWithType: MailSession<ISoOutgoingMailInterface>.ServerLogout()
   fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>.ServerLogout()
   nameWithType.vb: MailSession(Of ISoOutgoingMailInterface).ServerLogout()
   fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoOutgoingMailInterface).ServerLogout()
   spec.csharp:
-  - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLogout
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogout
     name: ServerLogout
+    nameWithType: MailSession<ISoOutgoingMailInterface>.ServerLogout
+    fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoOutgoingMailInterface>.ServerLogout
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLogout
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoOutgoingMailInterface}.ServerLogout
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogout
     name: ServerLogout
+    nameWithType: MailSession(Of ISoOutgoingMailInterface).ServerLogout
+    fullName: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoOutgoingMailInterface).ServerLogout
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLogout
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogout*
   commentId: Overload:SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogout
   isExternal: true
-  href: SuperOffice.CRM.Mail.OutgoingMailSession.html#SuperOffice_CRM_Mail_OutgoingMailSession_ServerLogout
   name: ServerLogout
   nameWithType: OutgoingMailSession.ServerLogout
   fullName: SuperOffice.CRM.Mail.OutgoingMailSession.ServerLogout
 - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogout
   commentId: M:SuperOffice.CRM.Mail.MailSession`1.ServerLogout
   isExternal: true
-  href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLogout
   name: ServerLogout()
   nameWithType: MailSession<TMailInterface>.ServerLogout()
   fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLogout()
@@ -1231,27 +1095,34 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogout
     name: ServerLogout
+    nameWithType: MailSession<TMailInterface>.ServerLogout
+    fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLogout
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLogout
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogout
     name: ServerLogout
+    nameWithType: MailSession(Of TMailInterface).ServerLogout
+    fullName: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLogout
     isExternal: true
-    href: SuperOffice.CRM.Mail.MailSession-1.html#SuperOffice_CRM_Mail_MailSession_1_ServerLogout
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Mail.OutgoingMailSession.SendEMail*
   commentId: Overload:SuperOffice.CRM.Mail.OutgoingMailSession.SendEMail
   isExternal: true
-  href: SuperOffice.CRM.Mail.OutgoingMailSession.html#SuperOffice_CRM_Mail_OutgoingMailSession_SendEMail_SuperOffice_CRM_Mail_MailItem_
   name: SendEMail
   nameWithType: OutgoingMailSession.SendEMail
   fullName: SuperOffice.CRM.Mail.OutgoingMailSession.SendEMail
 - uid: SuperOffice.CRM.Mail.MailItem
-  commentId: T:SuperOffice.CRM.Mail.MailItem
-  parent: SuperOffice.CRM.Mail
   isExternal: true
   name: MailItem
   nameWithType: MailItem

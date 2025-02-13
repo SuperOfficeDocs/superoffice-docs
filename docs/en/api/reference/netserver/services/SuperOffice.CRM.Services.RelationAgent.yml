@@ -17,31 +17,21 @@ items:
   nameWithType: RelationAgent
   fullName: SuperOffice.CRM.Services.RelationAgent
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Facade for the Relation Agent
-
-    Contact/Person relations
+  summary: "\nFacade for the Relation Agent\nContact/Person relations\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (RelationAgent agent = new RelationAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (RelationAgent agent = new RelationAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: 'public class RelationAgent : AgentBase<IRelationAgent>, IDisposable, IRelationAgent, IAgent'
-    content.vb: Public Class RelationAgent Inherits AgentBase(Of IRelationAgent) Implements IDisposable, IRelationAgent, IAgent
+    content.vb: >-
+      Public Class RelationAgent
+          Inherits AgentBase(Of IRelationAgent)
+          Implements IDisposable, IRelationAgent, IAgent
   inheritance:
   - System.Object
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}
@@ -52,13 +42,12 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}.Dispose
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}.InnerAgent
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntity
   commentId: M:SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntity
   id: CreateDefaultContactRelationEntity
@@ -70,23 +59,26 @@ items:
   nameWithType: RelationAgent.CreateDefaultContactRelationEntity()
   fullName: SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntity()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ContactRelationEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nLoading default values into a new ContactRelationEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: public ContactRelationEntity CreateDefaultContactRelationEntity()
     return:
       type: SuperOffice.CRM.Services.ContactRelationEntity
       description: New ContactRelationEntity with default values
-    content.vb: Public Function CreateDefaultContactRelationEntity() As ContactRelationEntity
+    content.vb: Public Function CreateDefaultContactRelationEntity As ContactRelationEntity
   overload: SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntity*
   implements:
   - SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntity(System.Int32)
   commentId: M:SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntity(System.Int32)
   id: GetContactRelationEntity(System.Int32)
@@ -94,15 +86,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetContactRelationEntity(int)
-  nameWithType: RelationAgent.GetContactRelationEntity(int)
-  fullName: SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntity(int)
+  name: GetContactRelationEntity(Int32)
+  nameWithType: RelationAgent.GetContactRelationEntity(Int32)
+  fullName: SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntity(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Gets a ContactRelationEntity object.
-  example: []
+  summary: "\nGets a ContactRelationEntity object.                        \n"
   syntax:
     content: public ContactRelationEntity GetContactRelationEntity(int contactRelationEntityId)
     parameters:
@@ -116,9 +110,10 @@ items:
   overload: SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntity*
   implements:
   - SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(System.Int32)
-  nameWithType.vb: RelationAgent.GetContactRelationEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntity(Integer)
-  name.vb: GetContactRelationEntity(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.RelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
   commentId: M:SuperOffice.CRM.Services.RelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
   id: SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
@@ -130,11 +125,13 @@ items:
   nameWithType: RelationAgent.SaveContactRelation(ContactRelationEntity)
   fullName: SuperOffice.CRM.Services.RelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Creates a new or updates an existing contact relation.
-  example: []
+  summary: "\nCreates a new or updates an existing contact relation.\n"
   syntax:
     content: public ContactRelationEntity SaveContactRelation(ContactRelationEntity contactRelationEntity)
     parameters:
@@ -148,6 +145,10 @@ items:
   overload: SuperOffice.CRM.Services.RelationAgent.SaveContactRelation*
   implements:
   - SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.RelationAgent.DeleteContactRelation(System.Int32)
   commentId: M:SuperOffice.CRM.Services.RelationAgent.DeleteContactRelation(System.Int32)
   id: DeleteContactRelation(System.Int32)
@@ -155,15 +156,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteContactRelation(int)
-  nameWithType: RelationAgent.DeleteContactRelation(int)
-  fullName: SuperOffice.CRM.Services.RelationAgent.DeleteContactRelation(int)
+  name: DeleteContactRelation(Int32)
+  nameWithType: RelationAgent.DeleteContactRelation(Int32)
+  fullName: SuperOffice.CRM.Services.RelationAgent.DeleteContactRelation(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes the spesified contact relation.
-  example: []
+  summary: "\nDeletes the spesified contact relation.\n"
   syntax:
     content: public void DeleteContactRelation(int contactRelationEntityId)
     parameters:
@@ -174,9 +177,10 @@ items:
   overload: SuperOffice.CRM.Services.RelationAgent.DeleteContactRelation*
   implements:
   - SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation(System.Int32)
-  nameWithType.vb: RelationAgent.DeleteContactRelation(Integer)
-  fullName.vb: SuperOffice.CRM.Services.RelationAgent.DeleteContactRelation(Integer)
-  name.vb: DeleteContactRelation(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.RelationAgent.#ctor
   commentId: M:SuperOffice.CRM.Services.RelationAgent.#ctor
   id: '#ctor'
@@ -188,70 +192,31 @@ items:
   nameWithType: RelationAgent.RelationAgent()
   fullName: SuperOffice.CRM.Services.RelationAgent.RelationAgent()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public RelationAgent()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.RelationAgent.#ctor*
-  nameWithType.vb: RelationAgent.New()
-  fullName.vb: SuperOffice.CRM.Services.RelationAgent.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}
   commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}
   parent: SuperOffice.CRM.Services
   definition: SuperOffice.CRM.Services.AgentBase`1
-  href: SuperOffice.CRM.Services.AgentBase-1.html
   name: AgentBase<IRelationAgent>
   nameWithType: AgentBase<IRelationAgent>
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IRelationAgent>
@@ -261,32 +226,39 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.IRelationAgent
     name: IRelationAgent
+    nameWithType: IRelationAgent
+    fullName: SuperOffice.CRM.Services.IRelationAgent
     isExternal: true
-    href: SuperOffice.CRM.Services.IRelationAgent.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.IRelationAgent
     name: IRelationAgent
+    nameWithType: IRelationAgent
+    fullName: SuperOffice.CRM.Services.IRelationAgent
     isExternal: true
-    href: SuperOffice.CRM.Services.IRelationAgent.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
@@ -294,7 +266,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.IRelationAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IRelationAgent.html
   name: IRelationAgent
   nameWithType: IRelationAgent
   fullName: SuperOffice.CRM.Services.IRelationAgent
@@ -302,7 +273,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
@@ -310,266 +280,47 @@ references:
   commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}.Dispose
   parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}
   definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   name: Dispose()
   nameWithType: AgentBase<IRelationAgent>.Dispose()
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IRelationAgent>.Dispose()
   nameWithType.vb: AgentBase(Of IRelationAgent).Dispose()
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IRelationAgent).Dispose()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}.Dispose
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase<IRelationAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IRelationAgent>.Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}.Dispose
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase(Of IRelationAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IRelationAgent).Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}.InnerAgent
   commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}.InnerAgent
   parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IRelationAgent}
   definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_InnerAgent
   name: InnerAgent
   nameWithType: AgentBase<IRelationAgent>.InnerAgent
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IRelationAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of IRelationAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IRelationAgent).InnerAgent
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AgentBase`1
   commentId: T:SuperOffice.CRM.Services.AgentBase`1
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html
   name: AgentBase<TAgent>
   nameWithType: AgentBase<TAgent>
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
@@ -579,25 +330,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
   commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   name: Dispose()
   nameWithType: AgentBase<TAgent>.Dispose()
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
@@ -606,21 +368,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
   commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_InnerAgent
   name: InnerAgent
   nameWithType: AgentBase<TAgent>.InnerAgent
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
@@ -629,7 +400,6 @@ references:
 - uid: SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntity*
   commentId: Overload:SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.RelationAgent.html#SuperOffice_CRM_Services_RelationAgent_CreateDefaultContactRelationEntity
   name: CreateDefaultContactRelationEntity
   nameWithType: RelationAgent.CreateDefaultContactRelationEntity
   fullName: SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntity
@@ -637,36 +407,43 @@ references:
   commentId: M:SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
   parent: SuperOffice.CRM.Services.IRelationAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IRelationAgent.html#SuperOffice_CRM_Services_IRelationAgent_CreateDefaultContactRelationEntity
   name: CreateDefaultContactRelationEntity()
   nameWithType: IRelationAgent.CreateDefaultContactRelationEntity()
   fullName: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
     name: CreateDefaultContactRelationEntity
+    nameWithType: IRelationAgent.CreateDefaultContactRelationEntity
+    fullName: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IRelationAgent.html#SuperOffice_CRM_Services_IRelationAgent_CreateDefaultContactRelationEntity
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
     name: CreateDefaultContactRelationEntity
+    nameWithType: IRelationAgent.CreateDefaultContactRelationEntity
+    fullName: SuperOffice.CRM.Services.IRelationAgent.CreateDefaultContactRelationEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IRelationAgent.html#SuperOffice_CRM_Services_IRelationAgent_CreateDefaultContactRelationEntity
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.ContactRelationEntity
   commentId: T:SuperOffice.CRM.Services.ContactRelationEntity
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ContactRelationEntity.html
   name: ContactRelationEntity
   nameWithType: ContactRelationEntity
   fullName: SuperOffice.CRM.Services.ContactRelationEntity
 - uid: SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntity*
   commentId: Overload:SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntity
   isExternal: true
-  href: SuperOffice.CRM.Services.RelationAgent.html#SuperOffice_CRM_Services_RelationAgent_GetContactRelationEntity_System_Int32_
   name: GetContactRelationEntity
   nameWithType: RelationAgent.GetContactRelationEntity
   fullName: SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntity
@@ -674,50 +451,59 @@ references:
   commentId: M:SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(System.Int32)
   parent: SuperOffice.CRM.Services.IRelationAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IRelationAgent.html#SuperOffice_CRM_Services_IRelationAgent_GetContactRelationEntity_System_Int32_
-  name: GetContactRelationEntity(int)
-  nameWithType: IRelationAgent.GetContactRelationEntity(int)
-  fullName: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(int)
-  nameWithType.vb: IRelationAgent.GetContactRelationEntity(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(Integer)
-  name.vb: GetContactRelationEntity(Integer)
+  name: GetContactRelationEntity(Int32)
+  nameWithType: IRelationAgent.GetContactRelationEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(System.Int32)
     name: GetContactRelationEntity
+    nameWithType: IRelationAgent.GetContactRelationEntity
+    fullName: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IRelationAgent.html#SuperOffice_CRM_Services_IRelationAgent_GetContactRelationEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity(System.Int32)
     name: GetContactRelationEntity
+    nameWithType: IRelationAgent.GetContactRelationEntity
+    fullName: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.IRelationAgent.html#SuperOffice_CRM_Services_IRelationAgent_GetContactRelationEntity_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.RelationAgent.SaveContactRelation*
   commentId: Overload:SuperOffice.CRM.Services.RelationAgent.SaveContactRelation
   isExternal: true
-  href: SuperOffice.CRM.Services.RelationAgent.html#SuperOffice_CRM_Services_RelationAgent_SaveContactRelation_SuperOffice_CRM_Services_ContactRelationEntity_
   name: SaveContactRelation
   nameWithType: RelationAgent.SaveContactRelation
   fullName: SuperOffice.CRM.Services.RelationAgent.SaveContactRelation
@@ -725,36 +511,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
   parent: SuperOffice.CRM.Services.IRelationAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IRelationAgent.html#SuperOffice_CRM_Services_IRelationAgent_SaveContactRelation_SuperOffice_CRM_Services_ContactRelationEntity_
   name: SaveContactRelation(ContactRelationEntity)
   nameWithType: IRelationAgent.SaveContactRelation(ContactRelationEntity)
   fullName: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
     name: SaveContactRelation
+    nameWithType: IRelationAgent.SaveContactRelation
+    fullName: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation
     isExternal: true
-    href: SuperOffice.CRM.Services.IRelationAgent.html#SuperOffice_CRM_Services_IRelationAgent_SaveContactRelation_SuperOffice_CRM_Services_ContactRelationEntity_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.ContactRelationEntity
     name: ContactRelationEntity
+    nameWithType: ContactRelationEntity
+    fullName: SuperOffice.CRM.Services.ContactRelationEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.ContactRelationEntity.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation(SuperOffice.CRM.Services.ContactRelationEntity)
     name: SaveContactRelation
+    nameWithType: IRelationAgent.SaveContactRelation
+    fullName: SuperOffice.CRM.Services.IRelationAgent.SaveContactRelation
     isExternal: true
-    href: SuperOffice.CRM.Services.IRelationAgent.html#SuperOffice_CRM_Services_IRelationAgent_SaveContactRelation_SuperOffice_CRM_Services_ContactRelationEntity_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.ContactRelationEntity
     name: ContactRelationEntity
+    nameWithType: ContactRelationEntity
+    fullName: SuperOffice.CRM.Services.ContactRelationEntity
     isExternal: true
-    href: SuperOffice.CRM.Services.ContactRelationEntity.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.RelationAgent.DeleteContactRelation*
   commentId: Overload:SuperOffice.CRM.Services.RelationAgent.DeleteContactRelation
   isExternal: true
-  href: SuperOffice.CRM.Services.RelationAgent.html#SuperOffice_CRM_Services_RelationAgent_DeleteContactRelation_System_Int32_
   name: DeleteContactRelation
   nameWithType: RelationAgent.DeleteContactRelation
   fullName: SuperOffice.CRM.Services.RelationAgent.DeleteContactRelation
@@ -762,42 +558,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation(System.Int32)
   parent: SuperOffice.CRM.Services.IRelationAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IRelationAgent.html#SuperOffice_CRM_Services_IRelationAgent_DeleteContactRelation_System_Int32_
-  name: DeleteContactRelation(int)
-  nameWithType: IRelationAgent.DeleteContactRelation(int)
-  fullName: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation(int)
-  nameWithType.vb: IRelationAgent.DeleteContactRelation(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation(Integer)
-  name.vb: DeleteContactRelation(Integer)
+  name: DeleteContactRelation(Int32)
+  nameWithType: IRelationAgent.DeleteContactRelation(Int32)
+  fullName: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation(System.Int32)
     name: DeleteContactRelation
+    nameWithType: IRelationAgent.DeleteContactRelation
+    fullName: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation
     isExternal: true
-    href: SuperOffice.CRM.Services.IRelationAgent.html#SuperOffice_CRM_Services_IRelationAgent_DeleteContactRelation_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation(System.Int32)
     name: DeleteContactRelation
+    nameWithType: IRelationAgent.DeleteContactRelation
+    fullName: SuperOffice.CRM.Services.IRelationAgent.DeleteContactRelation
     isExternal: true
-    href: SuperOffice.CRM.Services.IRelationAgent.html#SuperOffice_CRM_Services_IRelationAgent_DeleteContactRelation_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.RelationAgent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.RelationAgent.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.RelationAgent.html#SuperOffice_CRM_Services_RelationAgent__ctor
   name: RelationAgent
   nameWithType: RelationAgent.RelationAgent
   fullName: SuperOffice.CRM.Services.RelationAgent.RelationAgent
-  nameWithType.vb: RelationAgent.New
-  fullName.vb: SuperOffice.CRM.Services.RelationAgent.New
-  name.vb: New

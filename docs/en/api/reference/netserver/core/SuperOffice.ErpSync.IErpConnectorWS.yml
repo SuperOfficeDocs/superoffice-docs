@@ -29,17 +29,25 @@ items:
   nameWithType: IErpConnectorWS
   fullName: SuperOffice.ErpSync.IErpConnectorWS
   type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: EIS Connector, WCF Interface declaration
-  example: []
+  summary: "\nEIS Connector, WCF Interface declaration\n"
   syntax:
     content: public interface IErpConnectorWS
     content.vb: Public Interface IErpConnectorWS
   extensionMethods:
   - SuperOffice.ErpSync.IErpConnectorWS.EnumUtil.MapEnums``2
   - SuperOffice.ErpSync.IErpConnectorWS.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.ErpSync.IErpConnectorWS.WSGetConfigData
   commentId: M:SuperOffice.ErpSync.IErpConnectorWS.WSGetConfigData
   id: WSGetConfigData
@@ -51,16 +59,18 @@ items:
   nameWithType: IErpConnectorWS.WSGetConfigData()
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSGetConfigData()
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Asks the connector what fields are needed to set up a new connection (e.g. database, username and password)
-  example: []
+  summary: "\nAsks the connector what fields are needed to set up a new connection (e.g. database, username and password)\n"
   syntax:
     content: FieldMetadataInfoArrayPluginResponseWS WSGetConfigData()
     return:
       type: SuperOffice.ErpSync.FieldMetadataInfoArrayPluginResponseWS
-    content.vb: Function WSGetConfigData() As FieldMetadataInfoArrayPluginResponseWS
+    content.vb: Function WSGetConfigData As FieldMetadataInfoArrayPluginResponseWS
   overload: SuperOffice.ErpSync.IErpConnectorWS.WSGetConfigData*
 - uid: SuperOffice.ErpSync.IErpConnectorWS.WSTestConfigData(SuperOffice.ErpSync.TestConfigDataRequestWS)
   commentId: M:SuperOffice.ErpSync.IErpConnectorWS.WSTestConfigData(SuperOffice.ErpSync.TestConfigDataRequestWS)
@@ -73,11 +83,13 @@ items:
   nameWithType: IErpConnectorWS.WSTestConfigData(TestConfigDataRequestWS)
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSTestConfigData(SuperOffice.ErpSync.TestConfigDataRequestWS)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Creates a new connection, or updates an existing one
-  example: []
+  summary: "\nCreates a new connection, or updates an existing one\n"
   syntax:
     content: ConnectorResultBaseWS WSTestConfigData(TestConfigDataRequestWS request)
     parameters:
@@ -98,11 +110,13 @@ items:
   nameWithType: IErpConnectorWS.WSSaveConnection(SaveConnectionRequestWS)
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSSaveConnection(SuperOffice.ErpSync.SaveConnectionRequestWS)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Creates a new connection, or updates an existing one
-  example: []
+  summary: "\nCreates a new connection, or updates an existing one\n"
   syntax:
     content: ConnectorResultBaseWS WSSaveConnection(SaveConnectionRequestWS request)
     parameters:
@@ -123,11 +137,13 @@ items:
   nameWithType: IErpConnectorWS.WSTestConnection(RequestBaseWS)
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSTestConnection(SuperOffice.ErpSync.RequestBaseWS)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Checks if the given connection ID is valid (is the connection up, is the configuration data correct, etc)
-  example: []
+  summary: "\nChecks if the given connection ID is valid (is the connection up, is the configuration data correct, etc)\n"
   syntax:
     content: ConnectorResultBaseWS WSTestConnection(RequestBaseWS request)
     parameters:
@@ -148,11 +164,13 @@ items:
   nameWithType: IErpConnectorWS.WSDeleteConnection(RequestBaseWS)
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSDeleteConnection(SuperOffice.ErpSync.RequestBaseWS)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Tells the Connector that a connection has been deleted from EIS, in case the Connector needs to know and take some action.
-  example: []
+  summary: "\nTells the Connector that a connection has been deleted from EIS, in case the Connector needs to know and take some action.\n"
   syntax:
     content: ConnectorResultBaseWS WSDeleteConnection(RequestBaseWS request)
     parameters:
@@ -160,7 +178,6 @@ items:
       type: SuperOffice.ErpSync.RequestBaseWS
     return:
       type: SuperOffice.ErpSync.ConnectorResultBaseWS
-      description: ''
     content.vb: Function WSDeleteConnection(request As RequestBaseWS) As ConnectorResultBaseWS
   overload: SuperOffice.ErpSync.IErpConnectorWS.WSDeleteConnection*
 - uid: SuperOffice.ErpSync.IErpConnectorWS.WSGetSupportedActorTypes(SuperOffice.ErpSync.RequestBaseWS)
@@ -174,11 +191,13 @@ items:
   nameWithType: IErpConnectorWS.WSGetSupportedActorTypes(RequestBaseWS)
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSGetSupportedActorTypes(SuperOffice.ErpSync.RequestBaseWS)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Gets the supported actor types for a given connection
-  example: []
+  summary: "\nGets the supported actor types for a given connection\n"
   syntax:
     content: StringArrayPluginResponseWS WSGetSupportedActorTypes(RequestBaseWS request)
     parameters:
@@ -199,11 +218,13 @@ items:
   nameWithType: IErpConnectorWS.WSGetSupportedActorTypeFields(GetSupportedActorTypeFieldsRequestWS)
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSGetSupportedActorTypeFields(SuperOffice.ErpSync.GetSupportedActorTypeFieldsRequestWS)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Gets a list of fields that are available for a given connection and a given actor type
-  example: []
+  summary: "\nGets a list of fields that are available for a given connection and a given actor type\n"
   syntax:
     content: FieldMetadataInfoArrayPluginResponseWS WSGetSupportedActorTypeFields(GetSupportedActorTypeFieldsRequestWS request)
     parameters:
@@ -224,11 +245,13 @@ items:
   nameWithType: IErpConnectorWS.WSGetActors(GetActorsRequestWS)
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSGetActors(SuperOffice.ErpSync.GetActorsRequestWS)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Retrieves actors based on primary key and actor type
-  example: []
+  summary: "\nRetrieves actors based on primary key and actor type\n"
   syntax:
     content: ActorArrayPluginResponseWS WSGetActors(GetActorsRequestWS request)
     parameters:
@@ -249,11 +272,13 @@ items:
   nameWithType: IErpConnectorWS.WSGetSearchableFields(GetSearchableFieldsRequestWS)
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSGetSearchableFields(SuperOffice.ErpSync.GetSearchableFieldsRequestWS)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Retrieves a list of searchable fields for a given actor type
-  example: []
+  summary: "\nRetrieves a list of searchable fields for a given actor type\n"
   syntax:
     content: StringArrayPluginResponseWS WSGetSearchableFields(GetSearchableFieldsRequestWS request)
     parameters:
@@ -274,11 +299,13 @@ items:
   nameWithType: IErpConnectorWS.WSSearchActorsAdvanced(SearchActorsAdvancedRequestWS)
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSSearchActorsAdvanced(SuperOffice.ErpSync.SearchActorsAdvancedRequestWS)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Searches for one or more actors given a search string
-  example: []
+  summary: "\nSearches for one or more actors given a search string\n"
   syntax:
     content: ActorArrayPluginResponseWS WSSearchActorsAdvanced(SearchActorsAdvancedRequestWS request)
     parameters:
@@ -299,11 +326,13 @@ items:
   nameWithType: IErpConnectorWS.WSSearchActors(SearchActorsRequestWS)
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSSearchActors(SuperOffice.ErpSync.SearchActorsRequestWS)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Searches for one or more actors given a search string
-  example: []
+  summary: "\nSearches for one or more actors given a search string\n"
   syntax:
     content: ActorArrayPluginResponseWS WSSearchActors(SearchActorsRequestWS request)
     parameters:
@@ -324,11 +353,13 @@ items:
   nameWithType: IErpConnectorWS.WSSearchActorByParent(SearchActorByParentRequestWS)
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSSearchActorByParent(SuperOffice.ErpSync.SearchActorByParentRequestWS)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Searches for one or more actors given a search string
-  example: []
+  summary: "\nSearches for one or more actors given a search string\n"
   syntax:
     content: ActorArrayPluginResponseWS WSSearchActorByParent(SearchActorByParentRequestWS request)
     parameters:
@@ -349,11 +380,13 @@ items:
   nameWithType: IErpConnectorWS.WSCreateActor(CreateActorRequestWS)
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSCreateActor(SuperOffice.ErpSync.CreateActorRequestWS)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Creates a new actor
-  example: []
+  summary: "\nCreates a new actor\n"
   syntax:
     content: ActorPluginResponseWS WSCreateActor(CreateActorRequestWS request)
     parameters:
@@ -374,11 +407,13 @@ items:
   nameWithType: IErpConnectorWS.WSSaveActors(SaveActorsRequestWS)
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSSaveActors(SuperOffice.ErpSync.SaveActorsRequestWS)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Saves (updates) existing actors
-  example: []
+  summary: "\nSaves (updates) existing actors\n"
   syntax:
     content: ActorArrayPluginResponseWS WSSaveActors(SaveActorsRequestWS request)
     parameters:
@@ -399,11 +434,13 @@ items:
   nameWithType: IErpConnectorWS.WSGetList(GetListRequestWS)
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSGetList(SuperOffice.ErpSync.GetListRequestWS)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Retrieves a list from the connector, using the name specified by the connector itself
-  example: []
+  summary: "\nRetrieves a list from the connector, using the name specified by the connector itself\n"
   syntax:
     content: ListItemArrayPluginResponseWS WSGetList(GetListRequestWS request)
     parameters:
@@ -424,11 +461,13 @@ items:
   nameWithType: IErpConnectorWS.WSGetListItems(GetListItemsRequestWS)
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSGetListItems(SuperOffice.ErpSync.GetListItemsRequestWS)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Retrieves one or more specific list items from the connector, using the list name specified by the connector itself
-  example: []
+  summary: "\nRetrieves one or more specific list items from the connector, using the list name specified by the connector itself\n"
   syntax:
     content: ListItemArrayPluginResponseWS WSGetListItems(GetListItemsRequestWS request)
     parameters:
@@ -449,11 +488,13 @@ items:
   nameWithType: IErpConnectorWS.WSGetActorsByTimestamp(GetActorsByTimestampRequestWS)
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSGetActorsByTimestamp(SuperOffice.ErpSync.GetActorsByTimestampRequestWS)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Retrieves all actors of a specified actor type updated on or after a given date and time.
-  example: []
+  summary: "\nRetrieves all actors of a specified actor type updated on or after a given date and time.\n"
   syntax:
     content: ActorArrayPluginResponseWS WSGetActorsByTimestamp(GetActorsByTimestampRequestWS request)
     parameters:
@@ -467,140 +508,80 @@ references:
 - uid: SuperOffice.ErpSync
   commentId: N:SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync
   nameWithType: SuperOffice.ErpSync
   fullName: SuperOffice.ErpSync
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
 - uid: SuperOffice.ErpSync.IErpConnectorWS.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<IErpConnectorWS, To>(IErpConnectorWS)
-  nameWithType: EnumUtil.MapEnums<IErpConnectorWS, To>(IErpConnectorWS)
-  fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.IErpConnectorWS, To>(SuperOffice.ErpSync.IErpConnectorWS)
-  nameWithType.vb: EnumUtil.MapEnums(Of IErpConnectorWS, To)(IErpConnectorWS)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.ErpSync.IErpConnectorWS, To)(SuperOffice.ErpSync.IErpConnectorWS)
-  name.vb: MapEnums(Of IErpConnectorWS, To)(IErpConnectorWS)
+  name: MapEnums<IErpConnectorWS, To>()
+  nameWithType: EnumUtil.MapEnums<IErpConnectorWS, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.IErpConnectorWS, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IErpConnectorWS, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.ErpSync.IErpConnectorWS, To)()
+  name.vb: MapEnums(Of IErpConnectorWS, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.ErpSync.IErpConnectorWS)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IErpConnectorWS, To>
+    nameWithType: EnumUtil.MapEnums<IErpConnectorWS, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.IErpConnectorWS, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.ErpSync.IErpConnectorWS
-    name: IErpConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.IErpConnectorWS.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.ErpSync.IErpConnectorWS
-    name: IErpConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.IErpConnectorWS.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.ErpSync.IErpConnectorWS)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IErpConnectorWS, To)
+    nameWithType: EnumUtil.MapEnums(Of IErpConnectorWS, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.ErpSync.IErpConnectorWS, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.ErpSync.IErpConnectorWS
-    name: IErpConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.IErpConnectorWS.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.ErpSync.IErpConnectorWS
-    name: IErpConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.IErpConnectorWS.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.IErpConnectorWS.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<IErpConnectorWS, To>(IErpConnectorWS)
-  nameWithType: Converters.MapEnums<IErpConnectorWS, To>(IErpConnectorWS)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.IErpConnectorWS, To>(SuperOffice.ErpSync.IErpConnectorWS)
-  nameWithType.vb: Converters.MapEnums(Of IErpConnectorWS, To)(IErpConnectorWS)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.IErpConnectorWS, To)(SuperOffice.ErpSync.IErpConnectorWS)
-  name.vb: MapEnums(Of IErpConnectorWS, To)(IErpConnectorWS)
+  name: MapEnums<IErpConnectorWS, To>()
+  nameWithType: Converters.MapEnums<IErpConnectorWS, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.IErpConnectorWS, To>()
+  nameWithType.vb: Converters.MapEnums(Of IErpConnectorWS, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.IErpConnectorWS, To)()
+  name.vb: MapEnums(Of IErpConnectorWS, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.ErpSync.IErpConnectorWS)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IErpConnectorWS, To>
+    nameWithType: Converters.MapEnums<IErpConnectorWS, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.IErpConnectorWS, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.ErpSync.IErpConnectorWS
-    name: IErpConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.IErpConnectorWS.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.ErpSync.IErpConnectorWS
-    name: IErpConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.IErpConnectorWS.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.ErpSync.IErpConnectorWS)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IErpConnectorWS, To)
+    nameWithType: Converters.MapEnums(Of IErpConnectorWS, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.IErpConnectorWS, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.ErpSync.IErpConnectorWS
-    name: IErpConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.IErpConnectorWS.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.ErpSync.IErpConnectorWS
-    name: IErpConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.IErpConnectorWS.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -609,45 +590,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -656,83 +635,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.ErpSync.IErpConnectorWS.WSGetConfigData*
   commentId: Overload:SuperOffice.ErpSync.IErpConnectorWS.WSGetConfigData
   isExternal: true
-  href: SuperOffice.ErpSync.IErpConnectorWS.html#SuperOffice_ErpSync_IErpConnectorWS_WSGetConfigData
   name: WSGetConfigData
   nameWithType: IErpConnectorWS.WSGetConfigData
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSGetConfigData
@@ -740,14 +686,12 @@ references:
   commentId: T:SuperOffice.ErpSync.FieldMetadataInfoArrayPluginResponseWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.FieldMetadataInfoArrayPluginResponseWS.html
   name: FieldMetadataInfoArrayPluginResponseWS
   nameWithType: FieldMetadataInfoArrayPluginResponseWS
   fullName: SuperOffice.ErpSync.FieldMetadataInfoArrayPluginResponseWS
 - uid: SuperOffice.ErpSync.IErpConnectorWS.WSTestConfigData*
   commentId: Overload:SuperOffice.ErpSync.IErpConnectorWS.WSTestConfigData
   isExternal: true
-  href: SuperOffice.ErpSync.IErpConnectorWS.html#SuperOffice_ErpSync_IErpConnectorWS_WSTestConfigData_SuperOffice_ErpSync_TestConfigDataRequestWS_
   name: WSTestConfigData
   nameWithType: IErpConnectorWS.WSTestConfigData
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSTestConfigData
@@ -755,7 +699,6 @@ references:
   commentId: T:SuperOffice.ErpSync.TestConfigDataRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.TestConfigDataRequestWS.html
   name: TestConfigDataRequestWS
   nameWithType: TestConfigDataRequestWS
   fullName: SuperOffice.ErpSync.TestConfigDataRequestWS
@@ -763,14 +706,12 @@ references:
   commentId: T:SuperOffice.ErpSync.ConnectorResultBaseWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorResultBaseWS.html
   name: ConnectorResultBaseWS
   nameWithType: ConnectorResultBaseWS
   fullName: SuperOffice.ErpSync.ConnectorResultBaseWS
 - uid: SuperOffice.ErpSync.IErpConnectorWS.WSSaveConnection*
   commentId: Overload:SuperOffice.ErpSync.IErpConnectorWS.WSSaveConnection
   isExternal: true
-  href: SuperOffice.ErpSync.IErpConnectorWS.html#SuperOffice_ErpSync_IErpConnectorWS_WSSaveConnection_SuperOffice_ErpSync_SaveConnectionRequestWS_
   name: WSSaveConnection
   nameWithType: IErpConnectorWS.WSSaveConnection
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSSaveConnection
@@ -778,14 +719,12 @@ references:
   commentId: T:SuperOffice.ErpSync.SaveConnectionRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.SaveConnectionRequestWS.html
   name: SaveConnectionRequestWS
   nameWithType: SaveConnectionRequestWS
   fullName: SuperOffice.ErpSync.SaveConnectionRequestWS
 - uid: SuperOffice.ErpSync.IErpConnectorWS.WSTestConnection*
   commentId: Overload:SuperOffice.ErpSync.IErpConnectorWS.WSTestConnection
   isExternal: true
-  href: SuperOffice.ErpSync.IErpConnectorWS.html#SuperOffice_ErpSync_IErpConnectorWS_WSTestConnection_SuperOffice_ErpSync_RequestBaseWS_
   name: WSTestConnection
   nameWithType: IErpConnectorWS.WSTestConnection
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSTestConnection
@@ -793,21 +732,18 @@ references:
   commentId: T:SuperOffice.ErpSync.RequestBaseWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.RequestBaseWS.html
   name: RequestBaseWS
   nameWithType: RequestBaseWS
   fullName: SuperOffice.ErpSync.RequestBaseWS
 - uid: SuperOffice.ErpSync.IErpConnectorWS.WSDeleteConnection*
   commentId: Overload:SuperOffice.ErpSync.IErpConnectorWS.WSDeleteConnection
   isExternal: true
-  href: SuperOffice.ErpSync.IErpConnectorWS.html#SuperOffice_ErpSync_IErpConnectorWS_WSDeleteConnection_SuperOffice_ErpSync_RequestBaseWS_
   name: WSDeleteConnection
   nameWithType: IErpConnectorWS.WSDeleteConnection
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSDeleteConnection
 - uid: SuperOffice.ErpSync.IErpConnectorWS.WSGetSupportedActorTypes*
   commentId: Overload:SuperOffice.ErpSync.IErpConnectorWS.WSGetSupportedActorTypes
   isExternal: true
-  href: SuperOffice.ErpSync.IErpConnectorWS.html#SuperOffice_ErpSync_IErpConnectorWS_WSGetSupportedActorTypes_SuperOffice_ErpSync_RequestBaseWS_
   name: WSGetSupportedActorTypes
   nameWithType: IErpConnectorWS.WSGetSupportedActorTypes
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSGetSupportedActorTypes
@@ -815,14 +751,12 @@ references:
   commentId: T:SuperOffice.ErpSync.StringArrayPluginResponseWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.StringArrayPluginResponseWS.html
   name: StringArrayPluginResponseWS
   nameWithType: StringArrayPluginResponseWS
   fullName: SuperOffice.ErpSync.StringArrayPluginResponseWS
 - uid: SuperOffice.ErpSync.IErpConnectorWS.WSGetSupportedActorTypeFields*
   commentId: Overload:SuperOffice.ErpSync.IErpConnectorWS.WSGetSupportedActorTypeFields
   isExternal: true
-  href: SuperOffice.ErpSync.IErpConnectorWS.html#SuperOffice_ErpSync_IErpConnectorWS_WSGetSupportedActorTypeFields_SuperOffice_ErpSync_GetSupportedActorTypeFieldsRequestWS_
   name: WSGetSupportedActorTypeFields
   nameWithType: IErpConnectorWS.WSGetSupportedActorTypeFields
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSGetSupportedActorTypeFields
@@ -830,14 +764,12 @@ references:
   commentId: T:SuperOffice.ErpSync.GetSupportedActorTypeFieldsRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.GetSupportedActorTypeFieldsRequestWS.html
   name: GetSupportedActorTypeFieldsRequestWS
   nameWithType: GetSupportedActorTypeFieldsRequestWS
   fullName: SuperOffice.ErpSync.GetSupportedActorTypeFieldsRequestWS
 - uid: SuperOffice.ErpSync.IErpConnectorWS.WSGetActors*
   commentId: Overload:SuperOffice.ErpSync.IErpConnectorWS.WSGetActors
   isExternal: true
-  href: SuperOffice.ErpSync.IErpConnectorWS.html#SuperOffice_ErpSync_IErpConnectorWS_WSGetActors_SuperOffice_ErpSync_GetActorsRequestWS_
   name: WSGetActors
   nameWithType: IErpConnectorWS.WSGetActors
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSGetActors
@@ -845,7 +777,6 @@ references:
   commentId: T:SuperOffice.ErpSync.GetActorsRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.GetActorsRequestWS.html
   name: GetActorsRequestWS
   nameWithType: GetActorsRequestWS
   fullName: SuperOffice.ErpSync.GetActorsRequestWS
@@ -853,14 +784,12 @@ references:
   commentId: T:SuperOffice.ErpSync.ActorArrayPluginResponseWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.ActorArrayPluginResponseWS.html
   name: ActorArrayPluginResponseWS
   nameWithType: ActorArrayPluginResponseWS
   fullName: SuperOffice.ErpSync.ActorArrayPluginResponseWS
 - uid: SuperOffice.ErpSync.IErpConnectorWS.WSGetSearchableFields*
   commentId: Overload:SuperOffice.ErpSync.IErpConnectorWS.WSGetSearchableFields
   isExternal: true
-  href: SuperOffice.ErpSync.IErpConnectorWS.html#SuperOffice_ErpSync_IErpConnectorWS_WSGetSearchableFields_SuperOffice_ErpSync_GetSearchableFieldsRequestWS_
   name: WSGetSearchableFields
   nameWithType: IErpConnectorWS.WSGetSearchableFields
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSGetSearchableFields
@@ -868,14 +797,12 @@ references:
   commentId: T:SuperOffice.ErpSync.GetSearchableFieldsRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.GetSearchableFieldsRequestWS.html
   name: GetSearchableFieldsRequestWS
   nameWithType: GetSearchableFieldsRequestWS
   fullName: SuperOffice.ErpSync.GetSearchableFieldsRequestWS
 - uid: SuperOffice.ErpSync.IErpConnectorWS.WSSearchActorsAdvanced*
   commentId: Overload:SuperOffice.ErpSync.IErpConnectorWS.WSSearchActorsAdvanced
   isExternal: true
-  href: SuperOffice.ErpSync.IErpConnectorWS.html#SuperOffice_ErpSync_IErpConnectorWS_WSSearchActorsAdvanced_SuperOffice_ErpSync_SearchActorsAdvancedRequestWS_
   name: WSSearchActorsAdvanced
   nameWithType: IErpConnectorWS.WSSearchActorsAdvanced
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSSearchActorsAdvanced
@@ -883,14 +810,12 @@ references:
   commentId: T:SuperOffice.ErpSync.SearchActorsAdvancedRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.SearchActorsAdvancedRequestWS.html
   name: SearchActorsAdvancedRequestWS
   nameWithType: SearchActorsAdvancedRequestWS
   fullName: SuperOffice.ErpSync.SearchActorsAdvancedRequestWS
 - uid: SuperOffice.ErpSync.IErpConnectorWS.WSSearchActors*
   commentId: Overload:SuperOffice.ErpSync.IErpConnectorWS.WSSearchActors
   isExternal: true
-  href: SuperOffice.ErpSync.IErpConnectorWS.html#SuperOffice_ErpSync_IErpConnectorWS_WSSearchActors_SuperOffice_ErpSync_SearchActorsRequestWS_
   name: WSSearchActors
   nameWithType: IErpConnectorWS.WSSearchActors
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSSearchActors
@@ -898,14 +823,12 @@ references:
   commentId: T:SuperOffice.ErpSync.SearchActorsRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.SearchActorsRequestWS.html
   name: SearchActorsRequestWS
   nameWithType: SearchActorsRequestWS
   fullName: SuperOffice.ErpSync.SearchActorsRequestWS
 - uid: SuperOffice.ErpSync.IErpConnectorWS.WSSearchActorByParent*
   commentId: Overload:SuperOffice.ErpSync.IErpConnectorWS.WSSearchActorByParent
   isExternal: true
-  href: SuperOffice.ErpSync.IErpConnectorWS.html#SuperOffice_ErpSync_IErpConnectorWS_WSSearchActorByParent_SuperOffice_ErpSync_SearchActorByParentRequestWS_
   name: WSSearchActorByParent
   nameWithType: IErpConnectorWS.WSSearchActorByParent
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSSearchActorByParent
@@ -913,14 +836,12 @@ references:
   commentId: T:SuperOffice.ErpSync.SearchActorByParentRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.SearchActorByParentRequestWS.html
   name: SearchActorByParentRequestWS
   nameWithType: SearchActorByParentRequestWS
   fullName: SuperOffice.ErpSync.SearchActorByParentRequestWS
 - uid: SuperOffice.ErpSync.IErpConnectorWS.WSCreateActor*
   commentId: Overload:SuperOffice.ErpSync.IErpConnectorWS.WSCreateActor
   isExternal: true
-  href: SuperOffice.ErpSync.IErpConnectorWS.html#SuperOffice_ErpSync_IErpConnectorWS_WSCreateActor_SuperOffice_ErpSync_CreateActorRequestWS_
   name: WSCreateActor
   nameWithType: IErpConnectorWS.WSCreateActor
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSCreateActor
@@ -928,7 +849,6 @@ references:
   commentId: T:SuperOffice.ErpSync.CreateActorRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.CreateActorRequestWS.html
   name: CreateActorRequestWS
   nameWithType: CreateActorRequestWS
   fullName: SuperOffice.ErpSync.CreateActorRequestWS
@@ -936,14 +856,12 @@ references:
   commentId: T:SuperOffice.ErpSync.ActorPluginResponseWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.ActorPluginResponseWS.html
   name: ActorPluginResponseWS
   nameWithType: ActorPluginResponseWS
   fullName: SuperOffice.ErpSync.ActorPluginResponseWS
 - uid: SuperOffice.ErpSync.IErpConnectorWS.WSSaveActors*
   commentId: Overload:SuperOffice.ErpSync.IErpConnectorWS.WSSaveActors
   isExternal: true
-  href: SuperOffice.ErpSync.IErpConnectorWS.html#SuperOffice_ErpSync_IErpConnectorWS_WSSaveActors_SuperOffice_ErpSync_SaveActorsRequestWS_
   name: WSSaveActors
   nameWithType: IErpConnectorWS.WSSaveActors
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSSaveActors
@@ -951,14 +869,12 @@ references:
   commentId: T:SuperOffice.ErpSync.SaveActorsRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.SaveActorsRequestWS.html
   name: SaveActorsRequestWS
   nameWithType: SaveActorsRequestWS
   fullName: SuperOffice.ErpSync.SaveActorsRequestWS
 - uid: SuperOffice.ErpSync.IErpConnectorWS.WSGetList*
   commentId: Overload:SuperOffice.ErpSync.IErpConnectorWS.WSGetList
   isExternal: true
-  href: SuperOffice.ErpSync.IErpConnectorWS.html#SuperOffice_ErpSync_IErpConnectorWS_WSGetList_SuperOffice_ErpSync_GetListRequestWS_
   name: WSGetList
   nameWithType: IErpConnectorWS.WSGetList
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSGetList
@@ -966,7 +882,6 @@ references:
   commentId: T:SuperOffice.ErpSync.GetListRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.GetListRequestWS.html
   name: GetListRequestWS
   nameWithType: GetListRequestWS
   fullName: SuperOffice.ErpSync.GetListRequestWS
@@ -974,14 +889,12 @@ references:
   commentId: T:SuperOffice.ErpSync.ListItemArrayPluginResponseWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.ListItemArrayPluginResponseWS.html
   name: ListItemArrayPluginResponseWS
   nameWithType: ListItemArrayPluginResponseWS
   fullName: SuperOffice.ErpSync.ListItemArrayPluginResponseWS
 - uid: SuperOffice.ErpSync.IErpConnectorWS.WSGetListItems*
   commentId: Overload:SuperOffice.ErpSync.IErpConnectorWS.WSGetListItems
   isExternal: true
-  href: SuperOffice.ErpSync.IErpConnectorWS.html#SuperOffice_ErpSync_IErpConnectorWS_WSGetListItems_SuperOffice_ErpSync_GetListItemsRequestWS_
   name: WSGetListItems
   nameWithType: IErpConnectorWS.WSGetListItems
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSGetListItems
@@ -989,14 +902,12 @@ references:
   commentId: T:SuperOffice.ErpSync.GetListItemsRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.GetListItemsRequestWS.html
   name: GetListItemsRequestWS
   nameWithType: GetListItemsRequestWS
   fullName: SuperOffice.ErpSync.GetListItemsRequestWS
 - uid: SuperOffice.ErpSync.IErpConnectorWS.WSGetActorsByTimestamp*
   commentId: Overload:SuperOffice.ErpSync.IErpConnectorWS.WSGetActorsByTimestamp
   isExternal: true
-  href: SuperOffice.ErpSync.IErpConnectorWS.html#SuperOffice_ErpSync_IErpConnectorWS_WSGetActorsByTimestamp_SuperOffice_ErpSync_GetActorsByTimestampRequestWS_
   name: WSGetActorsByTimestamp
   nameWithType: IErpConnectorWS.WSGetActorsByTimestamp
   fullName: SuperOffice.ErpSync.IErpConnectorWS.WSGetActorsByTimestamp
@@ -1004,7 +915,6 @@ references:
   commentId: T:SuperOffice.ErpSync.GetActorsByTimestampRequestWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.GetActorsByTimestampRequestWS.html
   name: GetActorsByTimestampRequestWS
   nameWithType: GetActorsByTimestampRequestWS
   fullName: SuperOffice.ErpSync.GetActorsByTimestampRequestWS

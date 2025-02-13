@@ -20,27 +20,18 @@ items:
   nameWithType: ErpConnectionListMapping
   fullName: SuperOffice.CRM.Services.ErpConnectionListMapping
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Information about a mapping between two lists between CRM and the ERP system.
-
-    <p></p>
-
-    Carrier object for ErpConnectionListMapping.
-
-    Services for the ErpConnectionListMapping Carrier is available from the <xref href="SuperOffice.CRM.Services.IErpSyncAgent?text=ErpSync+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nInformation about a mapping between two lists between CRM and the ERP system.\n<p></p>\nCarrier object for ErpConnectionListMapping.\nServices for the ErpConnectionListMapping Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IErpSyncAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class ErpConnectionListMapping : Carrier
+    content: 'public class ErpConnectionListMapping : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class ErpConnectionListMapping Inherits Carrier
+      Public Class ErpConnectionListMapping
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ErpSyncAgent
     commentId: T:SuperOffice.CRM.Services.ErpSyncAgent
@@ -48,14 +39,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.ErpConnectionListMapping.#ctor
   commentId: M:SuperOffice.CRM.Services.ErpConnectionListMapping.#ctor
   id: '#ctor'
@@ -67,18 +56,21 @@ items:
   nameWithType: ErpConnectionListMapping.ErpConnectionListMapping()
   fullName: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpConnectionListMapping()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public ErpConnectionListMapping()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.ErpConnectionListMapping.#ctor*
-  nameWithType.vb: ErpConnectionListMapping.New()
-  fullName.vb: SuperOffice.CRM.Services.ErpConnectionListMapping.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ErpConnectionListMapping.ToString
   commentId: M:SuperOffice.CRM.Services.ErpConnectionListMapping.ToString
   id: ToString
@@ -90,18 +82,26 @@ items:
   nameWithType: ErpConnectionListMapping.ToString()
   fullName: SuperOffice.CRM.Services.ErpConnectionListMapping.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.ErpConnectionListMapping.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.ErpConnectionListMapping.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ErpConnectionListMapping.ToString(System.String)
   id: ToString(System.String)
@@ -109,18 +109,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: ErpConnectionListMapping.ToString(string)
-  fullName: SuperOffice.CRM.Services.ErpConnectionListMapping.ToString(string)
+  name: ToString(String)
+  nameWithType: ErpConnectionListMapping.ToString(String)
+  fullName: SuperOffice.CRM.Services.ErpConnectionListMapping.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -132,9 +131,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ErpConnectionListMapping.ToString*
-  nameWithType.vb: ErpConnectionListMapping.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.ErpConnectionListMapping.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ErpConnectionListMapping.CrmList
   commentId: P:SuperOffice.CRM.Services.ErpConnectionListMapping.CrmList
   id: CrmList
@@ -146,28 +146,28 @@ items:
   nameWithType: ErpConnectionListMapping.CrmList
   fullName: SuperOffice.CRM.Services.ErpConnectionListMapping.CrmList
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The SuperOffice listItem
-  example: []
+  summary: "\nThe SuperOffice listItem \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual MDOListItem CrmList { get; set; }
+    content: public virtual MDOListItem CrmList { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.MDOListItem
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CrmList As MDOListItem
+    content.vb: Public Overridable Property CrmList As MDOListItem
   overload: SuperOffice.CRM.Services.ErpConnectionListMapping.CrmList*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpListName
   commentId: P:SuperOffice.CRM.Services.ErpConnectionListMapping.ErpListName
   id: ErpListName
@@ -179,28 +179,28 @@ items:
   nameWithType: ErpConnectionListMapping.ErpListName
   fullName: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpListName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The ERP list name, if the field has a list of values supplied by the ERP Connector
-  example: []
+  summary: "\nThe ERP list name, if the field has a list of values supplied by the ERP Connector \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ErpListName { get; set; }
+    content: public virtual string ErpListName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ErpListName As String
+    content.vb: Public Overridable Property ErpListName As String
   overload: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpListName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpCrmListItemMappings
   commentId: P:SuperOffice.CRM.Services.ErpConnectionListMapping.ErpCrmListItemMappings
   id: ErpCrmListItemMappings
@@ -212,28 +212,28 @@ items:
   nameWithType: ErpConnectionListMapping.ErpCrmListItemMappings
   fullName: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpCrmListItemMappings
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Array of all the list item mappings
-  example: []
+  summary: "\nArray of all the list item mappings \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual ErpCrmListItemMapping[] ErpCrmListItemMappings { get; set; }
+    content: public virtual ErpCrmListItemMapping[] ErpCrmListItemMappings { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.ErpCrmListItemMapping[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ErpCrmListItemMappings As ErpCrmListItemMapping()
+    content.vb: Public Overridable Property ErpCrmListItemMappings As ErpCrmListItemMapping()
   overload: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpCrmListItemMappings*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpActorTypeName
   commentId: P:SuperOffice.CRM.Services.ErpConnectionListMapping.ErpActorTypeName
   id: ErpActorTypeName
@@ -245,28 +245,28 @@ items:
   nameWithType: ErpConnectionListMapping.ErpActorTypeName
   fullName: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpActorTypeName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The actorType belonging to the ListMapping
-  example: []
+  summary: "\nThe actorType belonging to the ListMapping \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ErpActorTypeName { get; set; }
+    content: public virtual string ErpActorTypeName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ErpActorTypeName As String
+    content.vb: Public Overridable Property ErpActorTypeName As String
   overload: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpActorTypeName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpFieldId
   commentId: P:SuperOffice.CRM.Services.ErpConnectionListMapping.ErpFieldId
   id: ErpFieldId
@@ -278,33 +278,38 @@ items:
   nameWithType: ErpConnectionListMapping.ErpFieldId
   fullName: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpFieldId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The id of the field that is using the lists. Readonly
-  example: []
+  summary: "\nThe id of the field that is using the lists. Readonly \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ErpFieldId { get; set; }
+    content: public virtual int ErpFieldId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ErpFieldId As Integer
+    content.vb: Public Overridable Property ErpFieldId As Integer
   overload: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpFieldId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.ErpSyncAgent
   commentId: T:SuperOffice.CRM.Services.ErpSyncAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncAgent.html
   name: ErpSyncAgent
   nameWithType: ErpSyncAgent
   fullName: SuperOffice.CRM.Services.ErpSyncAgent
@@ -312,79 +317,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IErpSyncAgent.html
   name: IErpSyncAgent
   nameWithType: IErpSyncAgent
   fullName: SuperOffice.CRM.Services.IErpSyncAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ErpConnectionListMapping.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ErpConnectionListMapping.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpConnectionListMapping.html#SuperOffice_CRM_Services_ErpConnectionListMapping__ctor
   name: ErpConnectionListMapping
   nameWithType: ErpConnectionListMapping.ErpConnectionListMapping
   fullName: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpConnectionListMapping
-  nameWithType.vb: ErpConnectionListMapping.New
-  fullName.vb: SuperOffice.CRM.Services.ErpConnectionListMapping.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.ErpConnectionListMapping.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ErpConnectionListMapping.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpConnectionListMapping.html#SuperOffice_CRM_Services_ErpConnectionListMapping_ToString
   name: ToString
   nameWithType: ErpConnectionListMapping.ToString
   fullName: SuperOffice.CRM.Services.ErpConnectionListMapping.ToString
@@ -392,17 +336,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ErpConnectionListMapping.CrmList*
   commentId: Overload:SuperOffice.CRM.Services.ErpConnectionListMapping.CrmList
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpConnectionListMapping.html#SuperOffice_CRM_Services_ErpConnectionListMapping_CrmList
   name: CrmList
   nameWithType: ErpConnectionListMapping.CrmList
   fullName: SuperOffice.CRM.Services.ErpConnectionListMapping.CrmList
@@ -410,27 +355,23 @@ references:
   commentId: T:SuperOffice.CRM.Services.MDOListItem
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.MDOListItem.html
   name: MDOListItem
   nameWithType: MDOListItem
   fullName: SuperOffice.CRM.Services.MDOListItem
 - uid: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpListName*
   commentId: Overload:SuperOffice.CRM.Services.ErpConnectionListMapping.ErpListName
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpConnectionListMapping.html#SuperOffice_CRM_Services_ErpConnectionListMapping_ErpListName
   name: ErpListName
   nameWithType: ErpConnectionListMapping.ErpListName
   fullName: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpListName
 - uid: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpCrmListItemMappings*
   commentId: Overload:SuperOffice.CRM.Services.ErpConnectionListMapping.ErpCrmListItemMappings
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpConnectionListMapping.html#SuperOffice_CRM_Services_ErpConnectionListMapping_ErpCrmListItemMappings
   name: ErpCrmListItemMappings
   nameWithType: ErpConnectionListMapping.ErpCrmListItemMappings
   fullName: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpCrmListItemMappings
 - uid: SuperOffice.CRM.Services.ErpCrmListItemMapping[]
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpCrmListItemMapping.html
   name: ErpCrmListItemMapping[]
   nameWithType: ErpCrmListItemMapping[]
   fullName: SuperOffice.CRM.Services.ErpCrmListItemMapping[]
@@ -440,28 +381,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.ErpCrmListItemMapping
     name: ErpCrmListItemMapping
+    nameWithType: ErpCrmListItemMapping
+    fullName: SuperOffice.CRM.Services.ErpCrmListItemMapping
     isExternal: true
-    href: SuperOffice.CRM.Services.ErpCrmListItemMapping.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.ErpCrmListItemMapping
     name: ErpCrmListItemMapping
+    nameWithType: ErpCrmListItemMapping
+    fullName: SuperOffice.CRM.Services.ErpCrmListItemMapping
     isExternal: true
-    href: SuperOffice.CRM.Services.ErpCrmListItemMapping.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpActorTypeName*
   commentId: Overload:SuperOffice.CRM.Services.ErpConnectionListMapping.ErpActorTypeName
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpConnectionListMapping.html#SuperOffice_CRM_Services_ErpConnectionListMapping_ErpActorTypeName
   name: ErpActorTypeName
   nameWithType: ErpConnectionListMapping.ErpActorTypeName
   fullName: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpActorTypeName
 - uid: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpFieldId*
   commentId: Overload:SuperOffice.CRM.Services.ErpConnectionListMapping.ErpFieldId
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpConnectionListMapping.html#SuperOffice_CRM_Services_ErpConnectionListMapping_ErpFieldId
   name: ErpFieldId
   nameWithType: ErpConnectionListMapping.ErpFieldId
   fullName: SuperOffice.CRM.Services.ErpConnectionListMapping.ErpFieldId
@@ -469,10 +412,6 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

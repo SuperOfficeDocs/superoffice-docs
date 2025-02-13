@@ -48,37 +48,35 @@ items:
   nameWithType: SimpleDocumentInfo
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: >-
-    Plain-old-data implementation of <xref href="SuperOffice.CRM.IDocumentInfo" data-throw-if-not-resolved="false"></xref>, intended for situations
-
-    where the client knows everything and does not want the database to be involved
-
-    (for instance, when running on unsaved data)
-  example: []
+  summary: "\nPlain-old-data implementation of <xref href=\"SuperOffice.CRM.IDocumentInfo\" data-throw-if-not-resolved=\"false\"></xref>, intended for situations\nwhere the client knows everything and does not want the database to be involved\n(for instance, when running on unsaved data)\n"
   syntax:
-    content: 'public class SimpleDocumentInfo : IDocumentInfo2, IDocumentInfo'
-    content.vb: Public Class SimpleDocumentInfo Implements IDocumentInfo2, IDocumentInfo
+    content: 'public class SimpleDocumentInfo : Object, IDocumentInfo2, IDocumentInfo'
+    content.vb: >-
+      Public Class SimpleDocumentInfo
+          Inherits Object
+          Implements IDocumentInfo2, IDocumentInfo
   inheritance:
   - System.Object
   implements:
   - SuperOffice.CRM.IDocumentInfo2
   - SuperOffice.CRM.IDocumentInfo
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
   - SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedDecimal(System.String)
   commentId: M:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedDecimal(System.String)
   id: GetUserDefinedDecimal(System.String)
@@ -86,15 +84,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedDecimal(string)
-  nameWithType: SimpleDocumentInfo.GetUserDefinedDecimal(string)
-  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedDecimal(string)
+  name: GetUserDefinedDecimal(String)
+  nameWithType: SimpleDocumentInfo.GetUserDefinedDecimal(String)
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedDecimal(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: '<b>NOT SUPPORTED: </b>Get the decimal udef value based on the prog.id name of the udef field.'
-  example: []
+  summary: "\n<strong>NOT SUPPORTED: </strong>Get the decimal udef value based on the prog.id name of the udef field.\n"
   syntax:
     content: public double GetUserDefinedDecimal(string progId)
     parameters:
@@ -106,9 +106,10 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedDecimal*
   implements:
   - SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.String)
-  nameWithType.vb: SimpleDocumentInfo.GetUserDefinedDecimal(String)
-  fullName.vb: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedDecimal(String)
-  name.vb: GetUserDefinedDecimal(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedInt(System.String)
   commentId: M:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedInt(System.String)
   id: GetUserDefinedInt(System.String)
@@ -116,15 +117,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedInt(string)
-  nameWithType: SimpleDocumentInfo.GetUserDefinedInt(string)
-  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedInt(string)
+  name: GetUserDefinedInt(String)
+  nameWithType: SimpleDocumentInfo.GetUserDefinedInt(String)
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedInt(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: '<b>NOT SUPPORTED: </b>Get the int udef value based on the prog.id name of the udef field.'
-  example: []
+  summary: "\n<strong>NOT SUPPORTED: </strong>Get the int udef value based on the prog.id name of the udef field.\n"
   syntax:
     content: public int GetUserDefinedInt(string progId)
     parameters:
@@ -136,9 +139,10 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedInt*
   implements:
   - SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.String)
-  nameWithType.vb: SimpleDocumentInfo.GetUserDefinedInt(String)
-  fullName.vb: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedInt(String)
-  name.vb: GetUserDefinedInt(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedString(System.String)
   commentId: M:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedString(System.String)
   id: GetUserDefinedString(System.String)
@@ -146,15 +150,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedString(string)
-  nameWithType: SimpleDocumentInfo.GetUserDefinedString(string)
-  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedString(string)
+  name: GetUserDefinedString(String)
+  nameWithType: SimpleDocumentInfo.GetUserDefinedString(String)
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedString(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: '<b>NOT SUPPORTED: </b>Get the string udef value based on the prog.id name of the udef field.'
-  example: []
+  summary: "\n<strong>NOT SUPPORTED: </strong>Get the string udef value based on the prog.id name of the udef field.\n"
   syntax:
     content: public string GetUserDefinedString(string progId)
     parameters:
@@ -166,9 +172,10 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedString*
   implements:
   - SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.String)
-  nameWithType.vb: SimpleDocumentInfo.GetUserDefinedString(String)
-  fullName.vb: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedString(String)
-  name.vb: GetUserDefinedString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedDecimal(System.Int32)
   commentId: M:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedDecimal(System.Int32)
   id: GetUserDefinedDecimal(System.Int32)
@@ -176,15 +183,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedDecimal(int)
-  nameWithType: SimpleDocumentInfo.GetUserDefinedDecimal(int)
-  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedDecimal(int)
+  name: GetUserDefinedDecimal(Int32)
+  nameWithType: SimpleDocumentInfo.GetUserDefinedDecimal(Int32)
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedDecimal(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: User-defined field 1-10 of the decimal (.NET double) number type.
-  example: []
+  summary: "\nUser-defined field 1-10 of the decimal (.NET double) number type.\n"
   syntax:
     content: public string GetUserDefinedDecimal(int fieldNo)
     parameters:
@@ -198,9 +207,10 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedDecimal*
   implements:
   - SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.Int32)
-  nameWithType.vb: SimpleDocumentInfo.GetUserDefinedDecimal(Integer)
-  fullName.vb: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedDecimal(Integer)
-  name.vb: GetUserDefinedDecimal(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedInt(System.Int32)
   commentId: M:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedInt(System.Int32)
   id: GetUserDefinedInt(System.Int32)
@@ -208,15 +218,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedInt(int)
-  nameWithType: SimpleDocumentInfo.GetUserDefinedInt(int)
-  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedInt(int)
+  name: GetUserDefinedInt(Int32)
+  nameWithType: SimpleDocumentInfo.GetUserDefinedInt(Int32)
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedInt(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Get user-defined field 1-60 of the whole (.NET Int32) number type.
-  example: []
+  summary: "\nGet user-defined field 1-60 of the whole (.NET Int32) number type.\n"
   syntax:
     content: public string GetUserDefinedInt(int fieldNo)
     parameters:
@@ -230,9 +242,10 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedInt*
   implements:
   - SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.Int32)
-  nameWithType.vb: SimpleDocumentInfo.GetUserDefinedInt(Integer)
-  fullName.vb: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedInt(Integer)
-  name.vb: GetUserDefinedInt(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedString(System.Int32)
   commentId: M:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedString(System.Int32)
   id: GetUserDefinedString(System.Int32)
@@ -240,15 +253,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedString(int)
-  nameWithType: SimpleDocumentInfo.GetUserDefinedString(int)
-  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedString(int)
+  name: GetUserDefinedString(Int32)
+  nameWithType: SimpleDocumentInfo.GetUserDefinedString(Int32)
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedString(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Get user-defined field 1-49 of the text (.NET string) type.
-  example: []
+  summary: "\nGet user-defined field 1-49 of the text (.NET string) type.\n"
   syntax:
     content: public string GetUserDefinedString(int fieldNo)
     parameters:
@@ -262,9 +277,10 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedString*
   implements:
   - SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.Int32)
-  nameWithType.vb: SimpleDocumentInfo.GetUserDefinedString(Integer)
-  fullName.vb: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedString(Integer)
-  name.vb: GetUserDefinedString(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.#ctor
   commentId: M:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.#ctor
   id: '#ctor'
@@ -276,16 +292,20 @@ items:
   nameWithType: SimpleDocumentInfo.SimpleDocumentInfo()
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SimpleDocumentInfo()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
   syntax:
     content: public SimpleDocumentInfo()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.#ctor*
-  nameWithType.vb: SimpleDocumentInfo.New()
-  fullName.vb: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateId
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateId
   id: AssociateId
@@ -297,11 +317,12 @@ items:
   nameWithType: SimpleDocumentInfo.AssociateId
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Owner of the document
-  example: []
   syntax:
     content: public int AssociateId { get; set; }
     parameters: []
@@ -311,6 +332,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateId*
   implements:
   - SuperOffice.CRM.IDocumentInfo.AssociateId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateLoginName
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateLoginName
   id: AssociateLoginName
@@ -322,11 +349,12 @@ items:
   nameWithType: SimpleDocumentInfo.AssociateLoginName
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateLoginName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Login name of the document owner
-  example: []
   syntax:
     content: public string AssociateLoginName { get; set; }
     parameters: []
@@ -336,6 +364,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateLoginName*
   implements:
   - SuperOffice.CRM.IDocumentInfo.AssociateLoginName
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateFullName
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateFullName
   id: AssociateFullName
@@ -347,11 +381,12 @@ items:
   nameWithType: SimpleDocumentInfo.AssociateFullName
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateFullName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Full name of the document owner
-  example: []
   syntax:
     content: public string AssociateFullName { get; set; }
     parameters: []
@@ -361,6 +396,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateFullName*
   implements:
   - SuperOffice.CRM.IDocumentInfo.AssociateFullName
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AppointmentId
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AppointmentId
   id: AppointmentId
@@ -372,11 +413,12 @@ items:
   nameWithType: SimpleDocumentInfo.AppointmentId
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AppointmentId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Primary key of the appointment exteding the document record.  This is NOT the appointment the document is linked to.
-  example: []
   syntax:
     content: public int AppointmentId { get; set; }
     parameters: []
@@ -386,6 +428,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AppointmentId*
   implements:
   - SuperOffice.CRM.IDocumentInfo.AppointmentId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.DocumentId
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.DocumentId
   id: DocumentId
@@ -397,11 +445,12 @@ items:
   nameWithType: SimpleDocumentInfo.DocumentId
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.DocumentId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Primary key of the document record
-  example: []
   syntax:
     content: public int DocumentId { get; set; }
     parameters: []
@@ -411,6 +460,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.DocumentId*
   implements:
   - SuperOffice.CRM.IDocumentInfo.DocumentId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ContactId
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ContactId
   id: ContactId
@@ -422,11 +477,12 @@ items:
   nameWithType: SimpleDocumentInfo.ContactId
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ContactId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Primary key of the contact the document is related to
-  example: []
   syntax:
     content: public int ContactId { get; set; }
     parameters: []
@@ -436,6 +492,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ContactId*
   implements:
   - SuperOffice.CRM.IDocumentInfo.ContactId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PersonId
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PersonId
   id: PersonId
@@ -447,11 +509,12 @@ items:
   nameWithType: SimpleDocumentInfo.PersonId
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PersonId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Primary key of the person the document is related to
-  example: []
   syntax:
     content: public int PersonId { get; set; }
     parameters: []
@@ -461,6 +524,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PersonId*
   implements:
   - SuperOffice.CRM.IDocumentInfo.PersonId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ProjectId
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ProjectId
   id: ProjectId
@@ -472,11 +541,12 @@ items:
   nameWithType: SimpleDocumentInfo.ProjectId
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ProjectId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Primary key of the project the document is related to
-  example: []
   syntax:
     content: public int ProjectId { get; set; }
     parameters: []
@@ -486,6 +556,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ProjectId*
   implements:
   - SuperOffice.CRM.IDocumentInfo.ProjectId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ActiveDate
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ActiveDate
   id: ActiveDate
@@ -497,20 +573,27 @@ items:
   nameWithType: SimpleDocumentInfo.ActiveDate
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ActiveDate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Active date of the document.  <xref href="SuperOffice.CRM.IDocumentInfo.Registered" data-throw-if-not-resolved="false"></xref> is used in SO_ARC for calculating days
-  example: []
   syntax:
     content: public DateTime ActiveDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property ActiveDate As Date
+    content.vb: Public Property ActiveDate As DateTime
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ActiveDate*
   implements:
   - SuperOffice.CRM.IDocumentInfo.ActiveDate
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PublishStartDate
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PublishStartDate
   id: PublishStartDate
@@ -522,11 +605,12 @@ items:
   nameWithType: SimpleDocumentInfo.PublishStartDate
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PublishStartDate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Document, start date for publising.
-  example: []
   syntax:
     content: public string PublishStartDate { get; set; }
     parameters: []
@@ -536,6 +620,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PublishStartDate*
   implements:
   - SuperOffice.CRM.IDocumentInfo.PublishStartDate
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PublishEndDate
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PublishEndDate
   id: PublishEndDate
@@ -547,11 +637,12 @@ items:
   nameWithType: SimpleDocumentInfo.PublishEndDate
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PublishEndDate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Document, end date for publishing.
-  example: []
   syntax:
     content: public string PublishEndDate { get; set; }
     parameters: []
@@ -561,6 +652,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PublishEndDate*
   implements:
   - SuperOffice.CRM.IDocumentInfo.PublishEndDate
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Registered
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Registered
   id: Registered
@@ -572,20 +669,27 @@ items:
   nameWithType: SimpleDocumentInfo.Registered
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Registered
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: The time the document record is created.  This is used to calculate the path of the document in SO_ARC
-  example: []
   syntax:
     content: public DateTime Registered { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Property Registered As Date
+    content.vb: Public Property Registered As DateTime
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Registered*
   implements:
   - SuperOffice.CRM.IDocumentInfo.Registered
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Name
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Name
   id: Name
@@ -597,11 +701,12 @@ items:
   nameWithType: SimpleDocumentInfo.Name
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Name
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Get or set file name, without archive path, user or period prefixes
-  example: []
   syntax:
     content: public string Name { get; set; }
     parameters: []
@@ -611,6 +716,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Name*
   implements:
   - SuperOffice.CRM.IDocumentInfo.Name
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Header
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Header
   id: Header
@@ -622,11 +733,12 @@ items:
   nameWithType: SimpleDocumentInfo.Header
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Header
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Visible document name
-  example: []
   syntax:
     content: public string Header { get; set; }
     parameters: []
@@ -636,6 +748,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Header*
   implements:
   - SuperOffice.CRM.IDocumentInfo.Header
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Description
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Description
   id: Description
@@ -647,11 +765,12 @@ items:
   nameWithType: SimpleDocumentInfo.Description
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Description
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Description of the document
-  example: []
   syntax:
     content: public string Description { get; set; }
     parameters: []
@@ -661,6 +780,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Description*
   implements:
   - SuperOffice.CRM.IDocumentInfo.Description
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.OurRef
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.OurRef
   id: OurRef
@@ -672,11 +797,12 @@ items:
   nameWithType: SimpleDocumentInfo.OurRef
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.OurRef
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Our reference
-  example: []
   syntax:
     content: public string OurRef { get; set; }
     parameters: []
@@ -686,6 +812,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.OurRef*
   implements:
   - SuperOffice.CRM.IDocumentInfo.OurRef
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.YourRef
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.YourRef
   id: YourRef
@@ -697,11 +829,12 @@ items:
   nameWithType: SimpleDocumentInfo.YourRef
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.YourRef
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Your reference
-  example: []
   syntax:
     content: public string YourRef { get; set; }
     parameters: []
@@ -711,6 +844,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.YourRef*
   implements:
   - SuperOffice.CRM.IDocumentInfo.YourRef
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Salutation
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Salutation
   id: Salutation
@@ -722,11 +861,12 @@ items:
   nameWithType: SimpleDocumentInfo.Salutation
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Salutation
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Salutation as entered, or created automatically from the contact (Mr/Ms and last name).
-  example: []
   syntax:
     content: public string Salutation { get; set; }
     parameters: []
@@ -736,6 +876,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Salutation*
   implements:
   - SuperOffice.CRM.IDocumentInfo.Salutation
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Attention
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Attention
   id: Attention
@@ -747,11 +893,12 @@ items:
   nameWithType: SimpleDocumentInfo.Attention
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Attention
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Selected contact in the Document dialog or text that is specified in the Company field for a recipient of the document
-  example: []
   syntax:
     content: public string Attention { get; set; }
     parameters: []
@@ -761,6 +908,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Attention*
   implements:
   - SuperOffice.CRM.IDocumentInfo.Attention
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ArchiveProvider
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ArchiveProvider
   id: ArchiveProvider
@@ -772,11 +925,12 @@ items:
   nameWithType: SimpleDocumentInfo.ArchiveProvider
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ArchiveProvider
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Reference to archive provider and the Notes Link. Default = 0, this means SOArc plugin.
-  example: []
   syntax:
     content: public int ArchiveProvider { get; set; }
     parameters: []
@@ -786,6 +940,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ArchiveProvider*
   implements:
   - SuperOffice.CRM.IDocumentInfo.ArchiveProvider
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ExternalReference
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ExternalReference
   id: ExternalReference
@@ -797,11 +957,12 @@ items:
   nameWithType: SimpleDocumentInfo.ExternalReference
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ExternalReference
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Get or set external reference (notes ID, email ID, other ID used by the archive provider)
-  example: []
   syntax:
     content: public string ExternalReference { get; set; }
     parameters: []
@@ -811,6 +972,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ExternalReference*
   implements:
   - SuperOffice.CRM.IDocumentInfo.ExternalReference
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SerialNumber
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SerialNumber
   id: SerialNumber
@@ -822,11 +989,12 @@ items:
   nameWithType: SimpleDocumentInfo.SerialNumber
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SerialNumber
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Ascending serial number (different for every template)
-  example: []
   syntax:
     content: public string SerialNumber { get; set; }
     parameters: []
@@ -836,6 +1004,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SerialNumber*
   implements:
   - SuperOffice.CRM.IDocumentInfo.SerialNumber
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.LockSemantics
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.LockSemantics
   id: LockSemantics
@@ -847,11 +1021,12 @@ items:
   nameWithType: SimpleDocumentInfo.LockSemantics
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.LockSemantics
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Locking semantics requested/applied to a document
-  example: []
   syntax:
     content: public DocumentLockSemantics LockSemantics { get; set; }
     parameters: []
@@ -861,6 +1036,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.LockSemantics*
   implements:
   - SuperOffice.CRM.IDocumentInfo.LockSemantics
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.DocumentTemplateInfo
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.DocumentTemplateInfo
   id: DocumentTemplateInfo
@@ -872,11 +1053,12 @@ items:
   nameWithType: SimpleDocumentInfo.DocumentTemplateInfo
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.DocumentTemplateInfo
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Information about the document template
-  example: []
   syntax:
     content: public IDocumentTemplateInfo DocumentTemplateInfo { get; }
     parameters: []
@@ -886,6 +1068,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.DocumentTemplateInfo*
   implements:
   - SuperOffice.CRM.IDocumentInfo.DocumentTemplateInfo
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SuggestedDocumentId
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SuggestedDocumentId
   id: SuggestedDocumentId
@@ -897,11 +1085,12 @@ items:
   nameWithType: SimpleDocumentInfo.SuggestedDocumentId
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SuggestedDocumentId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: The documents SuggestedDocument ID. Return 0 if document is not part of a sale/project guide
-  example: []
   syntax:
     content: public int SuggestedDocumentId { get; set; }
     parameters: []
@@ -911,6 +1100,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SuggestedDocumentId*
   implements:
   - SuperOffice.CRM.IDocumentInfo2.SuggestedDocumentId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SimpleTmplInfo
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SimpleTmplInfo
   id: SimpleTmplInfo
@@ -922,11 +1117,13 @@ items:
   nameWithType: SimpleDocumentInfo.SimpleTmplInfo
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SimpleTmplInfo
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Concrete template info carrier, so it can be populated
-  example: []
+  summary: "\nConcrete template info carrier, so it can be populated\n"
   syntax:
     content: public SimpleDocumentTemplateInfo SimpleTmplInfo { get; set; }
     parameters: []
@@ -934,6 +1131,12 @@ items:
       type: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
     content.vb: Public Property SimpleTmplInfo As SimpleDocumentTemplateInfo
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SimpleTmplInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefDecimal
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefDecimal
   id: UdefDecimal
@@ -945,11 +1148,13 @@ items:
   nameWithType: SimpleDocumentInfo.UdefDecimal
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefDecimal
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Set the value of a user-defined DECIMAL field, identified by the field number (1-10)
-  example: []
+  summary: "\nSet the value of a user-defined DECIMAL field, identified by the field number (1-10)\n"
   syntax:
     content: public InfoUdefDict UdefDecimal { get; set; }
     parameters: []
@@ -957,6 +1162,12 @@ items:
       type: SuperOffice.CRM.Entities.Providers.InfoUdefDict
     content.vb: Public Property UdefDecimal As InfoUdefDict
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefDecimal*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefInt
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefInt
   id: UdefInt
@@ -968,11 +1179,13 @@ items:
   nameWithType: SimpleDocumentInfo.UdefInt
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefInt
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Set the value of a user-defined INT field, identified by the field number (1-60)
-  example: []
+  summary: "\nSet the value of a user-defined INT field, identified by the field number (1-60)\n"
   syntax:
     content: public InfoUdefDict UdefInt { get; set; }
     parameters: []
@@ -980,6 +1193,12 @@ items:
       type: SuperOffice.CRM.Entities.Providers.InfoUdefDict
     content.vb: Public Property UdefInt As InfoUdefDict
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefInt*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefString
   commentId: P:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefString
   id: UdefString
@@ -991,14 +1210,13 @@ items:
   nameWithType: SimpleDocumentInfo.UdefString
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefString
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: >-
-    Set the value of a user-defined STRING field, identified by the field number.
-
-    Number 1-40 are short strings, 41-49 are long strings
-  example: []
+  summary: "\nSet the value of a user-defined STRING field, identified by the field number.\nNumber 1-40 are short strings, 41-49 are long strings\n"
   syntax:
     content: public InfoUdefDict UdefString { get; set; }
     parameters: []
@@ -1006,550 +1224,201 @@ items:
       type: SuperOffice.CRM.Entities.Providers.InfoUdefDict
     content.vb: Public Property UdefString As InfoUdefDict
   overload: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefString*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.IDocumentInfo
-  commentId: T:SuperOffice.CRM.IDocumentInfo
-  parent: SuperOffice.CRM
-  isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html
-  name: IDocumentInfo
-  nameWithType: IDocumentInfo
-  fullName: SuperOffice.CRM.IDocumentInfo
 - uid: SuperOffice.CRM.Entities.Providers
   commentId: N:SuperOffice.CRM.Entities.Providers
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Entities.Providers
   nameWithType: SuperOffice.CRM.Entities.Providers
   fullName: SuperOffice.CRM.Entities.Providers
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities.Providers
-    name: Providers
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities.Providers
-    name: Providers
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.IDocumentInfo2
   commentId: T:SuperOffice.CRM.IDocumentInfo2
   parent: SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo2.html
   name: IDocumentInfo2
   nameWithType: IDocumentInfo2
   fullName: SuperOffice.CRM.IDocumentInfo2
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.CRM.IDocumentInfo
+  commentId: T:SuperOffice.CRM.IDocumentInfo
+  parent: SuperOffice.CRM
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: IDocumentInfo
+  nameWithType: IDocumentInfo
+  fullName: SuperOffice.CRM.IDocumentInfo
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<SimpleDocumentInfo, To>(SimpleDocumentInfo)
-  nameWithType: EnumUtil.MapEnums<SimpleDocumentInfo, To>(SimpleDocumentInfo)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo, To>(SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
-  nameWithType.vb: EnumUtil.MapEnums(Of SimpleDocumentInfo, To)(SimpleDocumentInfo)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo, To)(SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
-  name.vb: MapEnums(Of SimpleDocumentInfo, To)(SimpleDocumentInfo)
+  name: MapEnums<SimpleDocumentInfo, To>()
+  nameWithType: EnumUtil.MapEnums<SimpleDocumentInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SimpleDocumentInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo, To)()
+  name.vb: MapEnums(Of SimpleDocumentInfo, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SimpleDocumentInfo, To>
+    nameWithType: EnumUtil.MapEnums<SimpleDocumentInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
-    name: SimpleDocumentInfo
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
-    name: SimpleDocumentInfo
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SimpleDocumentInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of SimpleDocumentInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
-    name: SimpleDocumentInfo
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
-    name: SimpleDocumentInfo
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html
-  - name: )
-- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<SimpleDocumentInfo, To>(SimpleDocumentInfo)
-  nameWithType: Converters.MapEnums<SimpleDocumentInfo, To>(SimpleDocumentInfo)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo, To>(SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
-  nameWithType.vb: Converters.MapEnums(Of SimpleDocumentInfo, To)(SimpleDocumentInfo)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo, To)(SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
-  name.vb: MapEnums(Of SimpleDocumentInfo, To)(SimpleDocumentInfo)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
-    name: SimpleDocumentInfo
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
-    name: SimpleDocumentInfo
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
-    name: SimpleDocumentInfo
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
-    name: SimpleDocumentInfo
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<SimpleDocumentInfo>(SimpleDocumentInfo, SimpleDocumentInfo)
-  nameWithType: ObjectExtensions.AssignByReflection<SimpleDocumentInfo>(SimpleDocumentInfo, SimpleDocumentInfo)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo>(SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo, SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SimpleDocumentInfo)(SimpleDocumentInfo, SimpleDocumentInfo)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)(SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo, SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
-  name.vb: AssignByReflection(Of SimpleDocumentInfo)(SimpleDocumentInfo, SimpleDocumentInfo)
+  name: AssignByReflection<SimpleDocumentInfo>(SimpleDocumentInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<SimpleDocumentInfo>(SimpleDocumentInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo>(SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SimpleDocumentInfo)(SimpleDocumentInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)(SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
+  name.vb: AssignByReflection(Of SimpleDocumentInfo)(SimpleDocumentInfo)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo,SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SimpleDocumentInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<SimpleDocumentInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
-    name: SimpleDocumentInfo
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
     name: SimpleDocumentInfo
+    nameWithType: SimpleDocumentInfo
+    fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
     isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
-    name: SimpleDocumentInfo
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo,SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SimpleDocumentInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SimpleDocumentInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
     name: SimpleDocumentInfo
+    nameWithType: SimpleDocumentInfo
+    fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
     isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
-    name: SimpleDocumentInfo
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
-    name: SimpleDocumentInfo
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<SimpleDocumentInfo>(SimpleDocumentInfo)
-  nameWithType: ObjectExtensions.GraphCopy<SimpleDocumentInfo>(SimpleDocumentInfo)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo>(SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of SimpleDocumentInfo)(SimpleDocumentInfo)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)(SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
-  name.vb: GraphCopy(Of SimpleDocumentInfo)(SimpleDocumentInfo)
+  name: GraphCopy<SimpleDocumentInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<SimpleDocumentInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SimpleDocumentInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)()
+  name.vb: GraphCopy(Of SimpleDocumentInfo)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SimpleDocumentInfo>
+    nameWithType: ObjectExtensions.GraphCopy<SimpleDocumentInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
-    name: SimpleDocumentInfo
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
-    name: SimpleDocumentInfo
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SimpleDocumentInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of SimpleDocumentInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
-    name: SimpleDocumentInfo
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo
-    name: SimpleDocumentInfo
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html
-  - name: )
-- uid: SuperOffice.CRM
-  commentId: N:SuperOffice.CRM
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM
-  nameWithType: SuperOffice.CRM
-  fullName: SuperOffice.CRM
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SimpleDocumentInfo, To>()
+  nameWithType: Converters.MapEnums<SimpleDocumentInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of SimpleDocumentInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo, To)()
+  name.vb: MapEnums(Of SimpleDocumentInfo, To)()
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SimpleDocumentInfo, To>
+    nameWithType: Converters.MapEnums<SimpleDocumentInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SimpleDocumentInfo, To)
+    nameWithType: Converters.MapEnums(Of SimpleDocumentInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1558,93 +1427,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1653,46 +1472,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1701,96 +1530,95 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedDecimal*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedDecimal
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_GetUserDefinedDecimal_System_String_
   name: GetUserDefinedDecimal
   nameWithType: SimpleDocumentInfo.GetUserDefinedDecimal
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedDecimal
@@ -1798,61 +1626,60 @@ references:
   commentId: M:SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.String)
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_GetUserDefinedDecimal_System_String_
-  name: GetUserDefinedDecimal(string)
-  nameWithType: IDocumentInfo.GetUserDefinedDecimal(string)
-  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(string)
-  nameWithType.vb: IDocumentInfo.GetUserDefinedDecimal(String)
-  fullName.vb: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(String)
-  name.vb: GetUserDefinedDecimal(String)
+  name: GetUserDefinedDecimal(String)
+  nameWithType: IDocumentInfo.GetUserDefinedDecimal(String)
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.String)
     name: GetUserDefinedDecimal
+    nameWithType: IDocumentInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal
     isExternal: true
-    href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_GetUserDefinedDecimal_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.String)
     name: GetUserDefinedDecimal
+    nameWithType: IDocumentInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal
     isExternal: true
-    href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_GetUserDefinedDecimal_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Double
   commentId: T:System.Double
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.double
-  name: double
-  nameWithType: double
-  fullName: double
-  nameWithType.vb: Double
-  fullName.vb: Double
-  name.vb: Double
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedInt*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedInt
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_GetUserDefinedInt_System_String_
   name: GetUserDefinedInt
   nameWithType: SimpleDocumentInfo.GetUserDefinedInt
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedInt
@@ -1860,50 +1687,53 @@ references:
   commentId: M:SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.String)
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_GetUserDefinedInt_System_String_
-  name: GetUserDefinedInt(string)
-  nameWithType: IDocumentInfo.GetUserDefinedInt(string)
-  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(string)
-  nameWithType.vb: IDocumentInfo.GetUserDefinedInt(String)
-  fullName.vb: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(String)
-  name.vb: GetUserDefinedInt(String)
+  name: GetUserDefinedInt(String)
+  nameWithType: IDocumentInfo.GetUserDefinedInt(String)
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.String)
     name: GetUserDefinedInt
+    nameWithType: IDocumentInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt
     isExternal: true
-    href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_GetUserDefinedInt_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.String)
     name: GetUserDefinedInt
+    nameWithType: IDocumentInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt
     isExternal: true
-    href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_GetUserDefinedInt_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedString*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedString
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_GetUserDefinedString_System_String_
   name: GetUserDefinedString
   nameWithType: SimpleDocumentInfo.GetUserDefinedString
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.GetUserDefinedString
@@ -1911,148 +1741,175 @@ references:
   commentId: M:SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.String)
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_GetUserDefinedString_System_String_
-  name: GetUserDefinedString(string)
-  nameWithType: IDocumentInfo.GetUserDefinedString(string)
-  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(string)
-  nameWithType.vb: IDocumentInfo.GetUserDefinedString(String)
-  fullName.vb: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(String)
-  name.vb: GetUserDefinedString(String)
+  name: GetUserDefinedString(String)
+  nameWithType: IDocumentInfo.GetUserDefinedString(String)
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.String)
     name: GetUserDefinedString
+    nameWithType: IDocumentInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString
     isExternal: true
-    href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_GetUserDefinedString_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.String)
     name: GetUserDefinedString
+    nameWithType: IDocumentInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString
     isExternal: true
-    href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_GetUserDefinedString_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.Int32)
   commentId: M:SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.Int32)
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_GetUserDefinedDecimal_System_Int32_
-  name: GetUserDefinedDecimal(int)
-  nameWithType: IDocumentInfo.GetUserDefinedDecimal(int)
-  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(int)
-  nameWithType.vb: IDocumentInfo.GetUserDefinedDecimal(Integer)
-  fullName.vb: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(Integer)
-  name.vb: GetUserDefinedDecimal(Integer)
+  name: GetUserDefinedDecimal(Int32)
+  nameWithType: IDocumentInfo.GetUserDefinedDecimal(Int32)
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.Int32)
     name: GetUserDefinedDecimal
+    nameWithType: IDocumentInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal
     isExternal: true
-    href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_GetUserDefinedDecimal_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal(System.Int32)
     name: GetUserDefinedDecimal
+    nameWithType: IDocumentInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedDecimal
     isExternal: true
-    href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_GetUserDefinedDecimal_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.Int32)
   commentId: M:SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.Int32)
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_GetUserDefinedInt_System_Int32_
-  name: GetUserDefinedInt(int)
-  nameWithType: IDocumentInfo.GetUserDefinedInt(int)
-  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(int)
-  nameWithType.vb: IDocumentInfo.GetUserDefinedInt(Integer)
-  fullName.vb: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(Integer)
-  name.vb: GetUserDefinedInt(Integer)
+  name: GetUserDefinedInt(Int32)
+  nameWithType: IDocumentInfo.GetUserDefinedInt(Int32)
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.Int32)
     name: GetUserDefinedInt
+    nameWithType: IDocumentInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt
     isExternal: true
-    href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_GetUserDefinedInt_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt(System.Int32)
     name: GetUserDefinedInt
+    nameWithType: IDocumentInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedInt
     isExternal: true
-    href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_GetUserDefinedInt_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.Int32)
   commentId: M:SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.Int32)
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_GetUserDefinedString_System_Int32_
-  name: GetUserDefinedString(int)
-  nameWithType: IDocumentInfo.GetUserDefinedString(int)
-  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(int)
-  nameWithType.vb: IDocumentInfo.GetUserDefinedString(Integer)
-  fullName.vb: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(Integer)
-  name.vb: GetUserDefinedString(Integer)
+  name: GetUserDefinedString(Int32)
+  nameWithType: IDocumentInfo.GetUserDefinedString(Int32)
+  fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.Int32)
     name: GetUserDefinedString
+    nameWithType: IDocumentInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString
     isExternal: true
-    href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_GetUserDefinedString_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString(System.Int32)
     name: GetUserDefinedString
+    nameWithType: IDocumentInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.IDocumentInfo.GetUserDefinedString
     isExternal: true
-    href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_GetUserDefinedString_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.#ctor*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo__ctor
   name: SimpleDocumentInfo
   nameWithType: SimpleDocumentInfo.SimpleDocumentInfo
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SimpleDocumentInfo
-  nameWithType.vb: SimpleDocumentInfo.New
-  fullName.vb: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.New
-  name.vb: New
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateId*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateId
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_AssociateId
   name: AssociateId
   nameWithType: SimpleDocumentInfo.AssociateId
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateId
@@ -2060,14 +1917,12 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.AssociateId
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_AssociateId
   name: AssociateId
   nameWithType: IDocumentInfo.AssociateId
   fullName: SuperOffice.CRM.IDocumentInfo.AssociateId
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateLoginName*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateLoginName
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_AssociateLoginName
   name: AssociateLoginName
   nameWithType: SimpleDocumentInfo.AssociateLoginName
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateLoginName
@@ -2075,14 +1930,12 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.AssociateLoginName
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_AssociateLoginName
   name: AssociateLoginName
   nameWithType: IDocumentInfo.AssociateLoginName
   fullName: SuperOffice.CRM.IDocumentInfo.AssociateLoginName
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateFullName*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateFullName
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_AssociateFullName
   name: AssociateFullName
   nameWithType: SimpleDocumentInfo.AssociateFullName
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AssociateFullName
@@ -2090,14 +1943,12 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.AssociateFullName
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_AssociateFullName
   name: AssociateFullName
   nameWithType: IDocumentInfo.AssociateFullName
   fullName: SuperOffice.CRM.IDocumentInfo.AssociateFullName
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AppointmentId*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AppointmentId
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_AppointmentId
   name: AppointmentId
   nameWithType: SimpleDocumentInfo.AppointmentId
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.AppointmentId
@@ -2105,14 +1956,12 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.AppointmentId
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_AppointmentId
   name: AppointmentId
   nameWithType: IDocumentInfo.AppointmentId
   fullName: SuperOffice.CRM.IDocumentInfo.AppointmentId
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.DocumentId*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.DocumentId
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_DocumentId
   name: DocumentId
   nameWithType: SimpleDocumentInfo.DocumentId
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.DocumentId
@@ -2120,14 +1969,12 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.DocumentId
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_DocumentId
   name: DocumentId
   nameWithType: IDocumentInfo.DocumentId
   fullName: SuperOffice.CRM.IDocumentInfo.DocumentId
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ContactId*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ContactId
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_ContactId
   name: ContactId
   nameWithType: SimpleDocumentInfo.ContactId
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ContactId
@@ -2135,14 +1982,12 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.ContactId
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_ContactId
   name: ContactId
   nameWithType: IDocumentInfo.ContactId
   fullName: SuperOffice.CRM.IDocumentInfo.ContactId
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PersonId*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PersonId
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_PersonId
   name: PersonId
   nameWithType: SimpleDocumentInfo.PersonId
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PersonId
@@ -2150,14 +1995,12 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.PersonId
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_PersonId
   name: PersonId
   nameWithType: IDocumentInfo.PersonId
   fullName: SuperOffice.CRM.IDocumentInfo.PersonId
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ProjectId*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ProjectId
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_ProjectId
   name: ProjectId
   nameWithType: SimpleDocumentInfo.ProjectId
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ProjectId
@@ -2165,22 +2008,12 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.ProjectId
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_ProjectId
   name: ProjectId
   nameWithType: IDocumentInfo.ProjectId
   fullName: SuperOffice.CRM.IDocumentInfo.ProjectId
-- uid: SuperOffice.CRM.IDocumentInfo.Registered
-  commentId: P:SuperOffice.CRM.IDocumentInfo.Registered
-  parent: SuperOffice.CRM.IDocumentInfo
-  isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_Registered
-  name: Registered
-  nameWithType: IDocumentInfo.Registered
-  fullName: SuperOffice.CRM.IDocumentInfo.Registered
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ActiveDate*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ActiveDate
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_ActiveDate
   name: ActiveDate
   nameWithType: SimpleDocumentInfo.ActiveDate
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ActiveDate
@@ -2188,25 +2021,17 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.ActiveDate
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_ActiveDate
   name: ActiveDate
   nameWithType: IDocumentInfo.ActiveDate
   fullName: SuperOffice.CRM.IDocumentInfo.ActiveDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PublishStartDate*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PublishStartDate
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_PublishStartDate
   name: PublishStartDate
   nameWithType: SimpleDocumentInfo.PublishStartDate
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PublishStartDate
@@ -2214,14 +2039,12 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.PublishStartDate
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_PublishStartDate
   name: PublishStartDate
   nameWithType: IDocumentInfo.PublishStartDate
   fullName: SuperOffice.CRM.IDocumentInfo.PublishStartDate
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PublishEndDate*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PublishEndDate
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_PublishEndDate
   name: PublishEndDate
   nameWithType: SimpleDocumentInfo.PublishEndDate
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.PublishEndDate
@@ -2229,21 +2052,25 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.PublishEndDate
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_PublishEndDate
   name: PublishEndDate
   nameWithType: IDocumentInfo.PublishEndDate
   fullName: SuperOffice.CRM.IDocumentInfo.PublishEndDate
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Registered*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Registered
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_Registered
   name: Registered
   nameWithType: SimpleDocumentInfo.Registered
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Registered
+- uid: SuperOffice.CRM.IDocumentInfo.Registered
+  commentId: P:SuperOffice.CRM.IDocumentInfo.Registered
+  parent: SuperOffice.CRM.IDocumentInfo
+  isExternal: true
+  name: Registered
+  nameWithType: IDocumentInfo.Registered
+  fullName: SuperOffice.CRM.IDocumentInfo.Registered
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Name*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Name
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_Name
   name: Name
   nameWithType: SimpleDocumentInfo.Name
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Name
@@ -2251,14 +2078,12 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.Name
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_Name
   name: Name
   nameWithType: IDocumentInfo.Name
   fullName: SuperOffice.CRM.IDocumentInfo.Name
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Header*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Header
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_Header
   name: Header
   nameWithType: SimpleDocumentInfo.Header
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Header
@@ -2266,14 +2091,12 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.Header
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_Header
   name: Header
   nameWithType: IDocumentInfo.Header
   fullName: SuperOffice.CRM.IDocumentInfo.Header
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Description*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Description
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_Description
   name: Description
   nameWithType: SimpleDocumentInfo.Description
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Description
@@ -2281,14 +2104,12 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.Description
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_Description
   name: Description
   nameWithType: IDocumentInfo.Description
   fullName: SuperOffice.CRM.IDocumentInfo.Description
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.OurRef*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.OurRef
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_OurRef
   name: OurRef
   nameWithType: SimpleDocumentInfo.OurRef
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.OurRef
@@ -2296,14 +2117,12 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.OurRef
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_OurRef
   name: OurRef
   nameWithType: IDocumentInfo.OurRef
   fullName: SuperOffice.CRM.IDocumentInfo.OurRef
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.YourRef*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.YourRef
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_YourRef
   name: YourRef
   nameWithType: SimpleDocumentInfo.YourRef
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.YourRef
@@ -2311,14 +2130,12 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.YourRef
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_YourRef
   name: YourRef
   nameWithType: IDocumentInfo.YourRef
   fullName: SuperOffice.CRM.IDocumentInfo.YourRef
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Salutation*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Salutation
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_Salutation
   name: Salutation
   nameWithType: SimpleDocumentInfo.Salutation
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Salutation
@@ -2326,14 +2143,12 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.Salutation
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_Salutation
   name: Salutation
   nameWithType: IDocumentInfo.Salutation
   fullName: SuperOffice.CRM.IDocumentInfo.Salutation
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Attention*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Attention
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_Attention
   name: Attention
   nameWithType: SimpleDocumentInfo.Attention
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.Attention
@@ -2341,14 +2156,12 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.Attention
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_Attention
   name: Attention
   nameWithType: IDocumentInfo.Attention
   fullName: SuperOffice.CRM.IDocumentInfo.Attention
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ArchiveProvider*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ArchiveProvider
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_ArchiveProvider
   name: ArchiveProvider
   nameWithType: SimpleDocumentInfo.ArchiveProvider
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ArchiveProvider
@@ -2356,14 +2169,12 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.ArchiveProvider
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_ArchiveProvider
   name: ArchiveProvider
   nameWithType: IDocumentInfo.ArchiveProvider
   fullName: SuperOffice.CRM.IDocumentInfo.ArchiveProvider
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ExternalReference*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ExternalReference
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_ExternalReference
   name: ExternalReference
   nameWithType: SimpleDocumentInfo.ExternalReference
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.ExternalReference
@@ -2371,14 +2182,12 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.ExternalReference
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_ExternalReference
   name: ExternalReference
   nameWithType: IDocumentInfo.ExternalReference
   fullName: SuperOffice.CRM.IDocumentInfo.ExternalReference
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SerialNumber*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SerialNumber
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_SerialNumber
   name: SerialNumber
   nameWithType: SimpleDocumentInfo.SerialNumber
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SerialNumber
@@ -2386,14 +2195,12 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.SerialNumber
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_SerialNumber
   name: SerialNumber
   nameWithType: IDocumentInfo.SerialNumber
   fullName: SuperOffice.CRM.IDocumentInfo.SerialNumber
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.LockSemantics*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.LockSemantics
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_LockSemantics
   name: LockSemantics
   nameWithType: SimpleDocumentInfo.LockSemantics
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.LockSemantics
@@ -2401,7 +2208,6 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.LockSemantics
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_LockSemantics
   name: LockSemantics
   nameWithType: IDocumentInfo.LockSemantics
   fullName: SuperOffice.CRM.IDocumentInfo.LockSemantics
@@ -2409,51 +2215,18 @@ references:
   commentId: T:SuperOffice.CRM.Documents.DocumentLockSemantics
   parent: SuperOffice.CRM.Documents
   isExternal: true
-  href: SuperOffice.CRM.Documents.DocumentLockSemantics.html
   name: DocumentLockSemantics
   nameWithType: DocumentLockSemantics
   fullName: SuperOffice.CRM.Documents.DocumentLockSemantics
 - uid: SuperOffice.CRM.Documents
   commentId: N:SuperOffice.CRM.Documents
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Documents
   nameWithType: SuperOffice.CRM.Documents
   fullName: SuperOffice.CRM.Documents
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Documents
-    name: Documents
-    isExternal: true
-    href: SuperOffice.CRM.Documents.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Documents
-    name: Documents
-    isExternal: true
-    href: SuperOffice.CRM.Documents.html
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.DocumentTemplateInfo*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.DocumentTemplateInfo
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_DocumentTemplateInfo
   name: DocumentTemplateInfo
   nameWithType: SimpleDocumentInfo.DocumentTemplateInfo
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.DocumentTemplateInfo
@@ -2461,7 +2234,6 @@ references:
   commentId: P:SuperOffice.CRM.IDocumentInfo.DocumentTemplateInfo
   parent: SuperOffice.CRM.IDocumentInfo
   isExternal: true
-  href: SuperOffice.CRM.IDocumentInfo.html#SuperOffice_CRM_IDocumentInfo_DocumentTemplateInfo
   name: DocumentTemplateInfo
   nameWithType: IDocumentInfo.DocumentTemplateInfo
   fullName: SuperOffice.CRM.IDocumentInfo.DocumentTemplateInfo
@@ -2469,14 +2241,12 @@ references:
   commentId: T:SuperOffice.CRM.IDocumentTemplateInfo
   parent: SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.CRM.IDocumentTemplateInfo.html
   name: IDocumentTemplateInfo
   nameWithType: IDocumentTemplateInfo
   fullName: SuperOffice.CRM.IDocumentTemplateInfo
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SuggestedDocumentId*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SuggestedDocumentId
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_SuggestedDocumentId
   name: SuggestedDocumentId
   nameWithType: SimpleDocumentInfo.SuggestedDocumentId
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SuggestedDocumentId
@@ -2490,7 +2260,6 @@ references:
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SimpleTmplInfo*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SimpleTmplInfo
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_SimpleTmplInfo
   name: SimpleTmplInfo
   nameWithType: SimpleDocumentInfo.SimpleTmplInfo
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.SimpleTmplInfo
@@ -2498,14 +2267,12 @@ references:
   commentId: T:SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
   parent: SuperOffice.CRM.Entities.Providers
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo.html
   name: SimpleDocumentTemplateInfo
   nameWithType: SimpleDocumentTemplateInfo
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentTemplateInfo
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefDecimal*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefDecimal
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_UdefDecimal
   name: UdefDecimal
   nameWithType: SimpleDocumentInfo.UdefDecimal
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefDecimal
@@ -2513,21 +2280,18 @@ references:
   commentId: T:SuperOffice.CRM.Entities.Providers.InfoUdefDict
   parent: SuperOffice.CRM.Entities.Providers
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.InfoUdefDict.html
   name: InfoUdefDict
   nameWithType: InfoUdefDict
   fullName: SuperOffice.CRM.Entities.Providers.InfoUdefDict
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefInt*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefInt
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_UdefInt
   name: UdefInt
   nameWithType: SimpleDocumentInfo.UdefInt
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefInt
 - uid: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefString*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefString
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.html#SuperOffice_CRM_Entities_Providers_SimpleDocumentInfo_UdefString
   name: UdefString
   nameWithType: SimpleDocumentInfo.UdefString
   fullName: SuperOffice.CRM.Entities.Providers.SimpleDocumentInfo.UdefString

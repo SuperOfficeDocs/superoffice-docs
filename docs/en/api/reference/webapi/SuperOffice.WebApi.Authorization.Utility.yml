@@ -18,7 +18,6 @@ references:
 - uid: SuperOffice.WebApi.Authorization.Utility.UrlHelper
   commentId: T:SuperOffice.WebApi.Authorization.Utility.UrlHelper
   isExternal: true
-  href: SuperOffice.WebApi.Authorization.Utility.UrlHelper.html
   name: UrlHelper
   nameWithType: UrlHelper
   fullName: SuperOffice.WebApi.Authorization.Utility.UrlHelper

@@ -33,46 +33,35 @@ items:
   nameWithType: SoSystemInfoCarrier
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Information about the current system.
-  example: []
+  summary: "\nInformation about the current system.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class SoSystemInfoCarrier : Carrier
+    content: 'public class SoSystemInfoCarrier : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class SoSystemInfoCarrier Inherits Carrier
+      Public Class SoSystemInfoCarrier
+          Inherits Carrier
   inheritance:
   - System.Object
   - SuperOffice.CRM.Services.Carrier
   inheritedMembers:
   - SuperOffice.CRM.Services.Carrier.TableRight
   - SuperOffice.CRM.Services.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Services.SoSystemInfoCarrier.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Services.SoSystemInfoCarrier.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Services.SoSystemInfoCarrier.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.SoSystemInfoCarrier)
   - SuperOffice.CRM.Services.SoSystemInfoCarrier.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  - SuperOffice.CRM.Services.SoSystemInfoCarrier.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.#ctor
   commentId: M:SuperOffice.CRM.Services.SoSystemInfoCarrier.#ctor
   id: '#ctor'
@@ -84,16 +73,20 @@ items:
   nameWithType: SoSystemInfoCarrier.SoSystemInfoCarrier()
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.SoSystemInfoCarrier()
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public SoSystemInfoCarrier()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.#ctor*
-  nameWithType.vb: SoSystemInfoCarrier.New()
-  fullName.vb: SuperOffice.CRM.Services.SoSystemInfoCarrier.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.License
   commentId: P:SuperOffice.CRM.Services.SoSystemInfoCarrier.License
   id: License
@@ -105,28 +98,26 @@ items:
   nameWithType: SoSystemInfoCarrier.License
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.License
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: License issued by SuperOffice
-  example: []
+  summary: "\nLicense issued by SuperOffice\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public LicenseInfo License { get; set; }
+    content: public LicenseInfo License { get; set; }
     parameters: []
     return:
       type: SuperOffice.License.LicenseInfo
-    content.vb: >-
-      <DataMember>
-
-      Public Property License As LicenseInfo
+    content.vb: Public Property License As LicenseInfo
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.License*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.WarningEnglish
   commentId: P:SuperOffice.CRM.Services.SoSystemInfoCarrier.WarningEnglish
   id: WarningEnglish
@@ -138,28 +129,26 @@ items:
   nameWithType: SoSystemInfoCarrier.WarningEnglish
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.WarningEnglish
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Warning information to be displayed to the user in plain English
-  example: []
+  summary: "\nWarning information to be displayed to the user in plain English\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string WarningEnglish { get; set; }
+    content: public string WarningEnglish { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property WarningEnglish As String
+    content.vb: Public Property WarningEnglish As String
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.WarningEnglish*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.WarningResource
   commentId: P:SuperOffice.CRM.Services.SoSystemInfoCarrier.WarningResource
   id: WarningResource
@@ -171,28 +160,26 @@ items:
   nameWithType: SoSystemInfoCarrier.WarningResource
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.WarningResource
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Warning information to be displayed to the user in resource format.
-  example: []
+  summary: "\nWarning information to be displayed to the user in resource format.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string WarningResource { get; set; }
+    content: public string WarningResource { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property WarningResource As String
+    content.vb: Public Property WarningResource As String
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.WarningResource*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.BranchName
   commentId: P:SuperOffice.CRM.Services.SoSystemInfoCarrier.BranchName
   id: BranchName
@@ -204,28 +191,26 @@ items:
   nameWithType: SoSystemInfoCarrier.BranchName
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.BranchName
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Name of the branch the NetServer is built from.
-  example: []
+  summary: "\nName of the branch the NetServer is built from.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string BranchName { get; set; }
+    content: public string BranchName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property BranchName As String
+    content.vb: Public Property BranchName As String
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.BranchName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.BuildLabel
   commentId: P:SuperOffice.CRM.Services.SoSystemInfoCarrier.BuildLabel
   id: BuildLabel
@@ -237,28 +222,26 @@ items:
   nameWithType: SoSystemInfoCarrier.BuildLabel
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.BuildLabel
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Build label for NetServer.
-  example: []
+  summary: "\nBuild label for NetServer.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string BuildLabel { get; set; }
+    content: public string BuildLabel { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property BuildLabel As String
+    content.vb: Public Property BuildLabel As String
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.BuildLabel*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.AssemblyVersion
   commentId: P:SuperOffice.CRM.Services.SoSystemInfoCarrier.AssemblyVersion
   id: AssemblyVersion
@@ -270,28 +253,26 @@ items:
   nameWithType: SoSystemInfoCarrier.AssemblyVersion
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.AssemblyVersion
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: AssemblyVersion of NetServer
-  example: []
+  summary: "\nAssemblyVersion of NetServer\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string AssemblyVersion { get; set; }
+    content: public string AssemblyVersion { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property AssemblyVersion As String
+    content.vb: Public Property AssemblyVersion As String
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.AssemblyVersion*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.AccumulatedNextCheckDate
   commentId: P:SuperOffice.CRM.Services.SoSystemInfoCarrier.AccumulatedNextCheckDate
   id: AccumulatedNextCheckDate
@@ -303,28 +284,26 @@ items:
   nameWithType: SoSystemInfoCarrier.AccumulatedNextCheckDate
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.AccumulatedNextCheckDate
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: The next date a new check of the license is to be performed, incremented daily if the check did not result in a new license.
-  example: []
+  summary: "\nThe next date a new check of the license is to be performed, incremented daily if the check did not result in a new license.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public DateTime AccumulatedNextCheckDate { get; set; }
+    content: public DateTime AccumulatedNextCheckDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Property AccumulatedNextCheckDate As Date
+    content.vb: Public Property AccumulatedNextCheckDate As DateTime
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.AccumulatedNextCheckDate*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.FileVersion
   commentId: P:SuperOffice.CRM.Services.SoSystemInfoCarrier.FileVersion
   id: FileVersion
@@ -336,28 +315,26 @@ items:
   nameWithType: SoSystemInfoCarrier.FileVersion
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.FileVersion
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: FileVersion of NetServer.
-  example: []
+  summary: "\nFileVersion of NetServer.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string FileVersion { get; set; }
+    content: public string FileVersion { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property FileVersion As String
+    content.vb: Public Property FileVersion As String
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.FileVersion*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.Description
   commentId: P:SuperOffice.CRM.Services.SoSystemInfoCarrier.Description
   id: Description
@@ -369,28 +346,26 @@ items:
   nameWithType: SoSystemInfoCarrier.Description
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.Description
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Description of the NetServer version.
-  example: []
+  summary: "\nDescription of the NetServer version.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string Description { get; set; }
+    content: public string Description { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property Description As String
+    content.vb: Public Property Description As String
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.Description*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.DaysUntilNetServerExpiry
   commentId: P:SuperOffice.CRM.Services.SoSystemInfoCarrier.DaysUntilNetServerExpiry
   id: DaysUntilNetServerExpiry
@@ -402,39 +377,26 @@ items:
   nameWithType: SoSystemInfoCarrier.DaysUntilNetServerExpiry
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.DaysUntilNetServerExpiry
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Days until this version of NetServer expires
-  example: []
+  summary: "\nDays until this version of NetServer expires\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      [Obsolete("Netserver no longer expires", false)]
-
-      public int DaysUntilNetServerExpiry { get; set; }
+    content: public int DaysUntilNetServerExpiry { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      <Obsolete("Netserver no longer expires", False)>
-
-      Public Property DaysUntilNetServerExpiry As Integer
+    content.vb: Public Property DaysUntilNetServerExpiry As Integer
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.DaysUntilNetServerExpiry*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Netserver no longer expires
-    - type: System.Boolean
-      value: false
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.BuildType
   commentId: P:SuperOffice.CRM.Services.SoSystemInfoCarrier.BuildType
   id: BuildType
@@ -446,28 +408,26 @@ items:
   nameWithType: SoSystemInfoCarrier.BuildType
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.BuildType
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Type of build.
-  example: []
+  summary: "\nType of build.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public NetServerBuildType BuildType { get; set; }
+    content: public NetServerBuildType BuildType { get; set; }
     parameters: []
     return:
       type: SuperOffice.NetServerBuildType
-    content.vb: >-
-      <DataMember>
-
-      Public Property BuildType As NetServerBuildType
+    content.vb: Public Property BuildType As NetServerBuildType
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.BuildType*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseVersion
   commentId: P:SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseVersion
   id: DatabaseVersion
@@ -479,28 +439,26 @@ items:
   nameWithType: SoSystemInfoCarrier.DatabaseVersion
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseVersion
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Database version number
-  example: []
+  summary: "\nDatabase version number\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public int DatabaseVersion { get; set; }
+    content: public int DatabaseVersion { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Property DatabaseVersion As Integer
+    content.vb: Public Property DatabaseVersion As Integer
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseVersion*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.IsUnicode
   commentId: P:SuperOffice.CRM.Services.SoSystemInfoCarrier.IsUnicode
   id: IsUnicode
@@ -512,28 +470,26 @@ items:
   nameWithType: SoSystemInfoCarrier.IsUnicode
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.IsUnicode
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Is the database strings formatted as Unicode (i.e. NVARCHAR)
-  example: []
+  summary: "\nIs the database strings formatted as Unicode (i.e. NVARCHAR)\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public bool IsUnicode { get; set; }
+    content: public bool IsUnicode { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Property IsUnicode As Boolean
+    content.vb: Public Property IsUnicode As Boolean
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.IsUnicode*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.CompanyName
   commentId: P:SuperOffice.CRM.Services.SoSystemInfoCarrier.CompanyName
   id: CompanyName
@@ -545,28 +501,26 @@ items:
   nameWithType: SoSystemInfoCarrier.CompanyName
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.CompanyName
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: 'License Info: Company name associated with license.'
-  example: []
+  summary: "\nLicense Info: Company name associated with license.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string CompanyName { get; set; }
+    content: public string CompanyName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property CompanyName As String
+    content.vb: Public Property CompanyName As String
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.CompanyName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.CompanyId
   commentId: P:SuperOffice.CRM.Services.SoSystemInfoCarrier.CompanyId
   id: CompanyId
@@ -578,28 +532,26 @@ items:
   nameWithType: SoSystemInfoCarrier.CompanyId
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.CompanyId
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: 'License Info: Company name associated with license.'
-  example: []
+  summary: "\nLicense Info: Company name associated with license.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public int CompanyId { get; set; }
+    content: public int CompanyId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Property CompanyId As Integer
+    content.vb: Public Property CompanyId As Integer
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.CompanyId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseType
   commentId: P:SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseType
   id: DatabaseType
@@ -611,29 +563,27 @@ items:
   nameWithType: SoSystemInfoCarrier.DatabaseType
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseType
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Major name of database provider
-  example: []
+  summary: "\nMajor name of database provider\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string DatabaseType { get; set; }
+    content: public string DatabaseType { get; set; }
     parameters: []
     return:
       type: System.String
-      description: MSSQL | Oracle
-    content.vb: >-
-      <DataMember>
-
-      Public Property DatabaseType As String
+      description: "\nMSSQL | Oracle\n"
+    content.vb: Public Property DatabaseType As String
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseType*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseMinor
   commentId: P:SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseMinor
   id: DatabaseMinor
@@ -645,28 +595,26 @@ items:
   nameWithType: SoSystemInfoCarrier.DatabaseMinor
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseMinor
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Minor name of database provider
-  example: []
+  summary: "\nMinor name of database provider\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string DatabaseMinor { get; set; }
+    content: public string DatabaseMinor { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property DatabaseMinor As String
+    content.vb: Public Property DatabaseMinor As String
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseMinor*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseName
   commentId: P:SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseName
   id: DatabaseName
@@ -678,28 +626,26 @@ items:
   nameWithType: SoSystemInfoCarrier.DatabaseName
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseName
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Name of database
-  example: []
+  summary: "\nName of database\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string DatabaseName { get; set; }
+    content: public string DatabaseName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property DatabaseName As String
+    content.vb: Public Property DatabaseName As String
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.IsOnTravel
   commentId: P:SuperOffice.CRM.Services.SoSystemInfoCarrier.IsOnTravel
   id: IsOnTravel
@@ -711,28 +657,26 @@ items:
   nameWithType: SoSystemInfoCarrier.IsOnTravel
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.IsOnTravel
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Is the current database on travel.
-  example: []
+  summary: "\nIs the current database on travel.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public bool IsOnTravel { get; set; }
+    content: public bool IsOnTravel { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Property IsOnTravel As Boolean
+    content.vb: Public Property IsOnTravel As Boolean
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.IsOnTravel*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.IsSatellite
   commentId: P:SuperOffice.CRM.Services.SoSystemInfoCarrier.IsSatellite
   id: IsSatellite
@@ -744,82 +688,44 @@ items:
   nameWithType: SoSystemInfoCarrier.IsSatellite
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.IsSatellite
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Is the current database a Satellite
-  example: []
+  summary: "\nIs the current database a Satellite\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public bool IsSatellite { get; set; }
+    content: public bool IsSatellite { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Property IsSatellite As Boolean
+    content.vb: Public Property IsSatellite As Boolean
   overload: SuperOffice.CRM.Services.SoSystemInfoCarrier.IsSatellite*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Services.Carrier
   commentId: T:SuperOffice.CRM.Services.Carrier
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.CRM.Services.Carrier
@@ -827,7 +733,6 @@ references:
   commentId: P:SuperOffice.CRM.Services.Carrier.TableRight
   parent: SuperOffice.CRM.Services.Carrier
   isExternal: true
-  href: SuperOffice.CRM.Services.Carrier.html#SuperOffice_CRM_Services_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.CRM.Services.Carrier.TableRight
@@ -835,452 +740,164 @@ references:
   commentId: P:SuperOffice.CRM.Services.Carrier.FieldProperties
   parent: SuperOffice.CRM.Services.Carrier
   isExternal: true
-  href: SuperOffice.CRM.Services.Carrier.html#SuperOffice_CRM_Services_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.CRM.Services.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<SoSystemInfoCarrier, To>(SoSystemInfoCarrier)
-  nameWithType: EnumUtil.MapEnums<SoSystemInfoCarrier, To>(SoSystemInfoCarrier)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.SoSystemInfoCarrier, To>(SuperOffice.CRM.Services.SoSystemInfoCarrier)
-  nameWithType.vb: EnumUtil.MapEnums(Of SoSystemInfoCarrier, To)(SoSystemInfoCarrier)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.SoSystemInfoCarrier, To)(SuperOffice.CRM.Services.SoSystemInfoCarrier)
-  name.vb: MapEnums(Of SoSystemInfoCarrier, To)(SoSystemInfoCarrier)
+  name: MapEnums<SoSystemInfoCarrier, To>()
+  nameWithType: EnumUtil.MapEnums<SoSystemInfoCarrier, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.SoSystemInfoCarrier, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoSystemInfoCarrier, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.SoSystemInfoCarrier, To)()
+  name.vb: MapEnums(Of SoSystemInfoCarrier, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Services.SoSystemInfoCarrier)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoSystemInfoCarrier, To>
+    nameWithType: EnumUtil.MapEnums<SoSystemInfoCarrier, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.SoSystemInfoCarrier, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier
-    name: SoSystemInfoCarrier
-    isExternal: true
-    href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier
-    name: SoSystemInfoCarrier
-    isExternal: true
-    href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Services.SoSystemInfoCarrier)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoSystemInfoCarrier, To)
+    nameWithType: EnumUtil.MapEnums(Of SoSystemInfoCarrier, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.SoSystemInfoCarrier, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier
-    name: SoSystemInfoCarrier
-    isExternal: true
-    href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier
-    name: SoSystemInfoCarrier
-    isExternal: true
-    href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html
-  - name: )
-- uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<SoSystemInfoCarrier, To>(SoSystemInfoCarrier)
-  nameWithType: Converters.MapEnums<SoSystemInfoCarrier, To>(SoSystemInfoCarrier)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.SoSystemInfoCarrier, To>(SuperOffice.CRM.Services.SoSystemInfoCarrier)
-  nameWithType.vb: Converters.MapEnums(Of SoSystemInfoCarrier, To)(SoSystemInfoCarrier)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.SoSystemInfoCarrier, To)(SuperOffice.CRM.Services.SoSystemInfoCarrier)
-  name.vb: MapEnums(Of SoSystemInfoCarrier, To)(SoSystemInfoCarrier)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Services.SoSystemInfoCarrier)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier
-    name: SoSystemInfoCarrier
-    isExternal: true
-    href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier
-    name: SoSystemInfoCarrier
-    isExternal: true
-    href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Services.SoSystemInfoCarrier)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier
-    name: SoSystemInfoCarrier
-    isExternal: true
-    href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier
-    name: SoSystemInfoCarrier
-    isExternal: true
-    href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.SoSystemInfoCarrier)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<SoSystemInfoCarrier>(SoSystemInfoCarrier, SoSystemInfoCarrier)
-  nameWithType: ObjectExtensions.AssignByReflection<SoSystemInfoCarrier>(SoSystemInfoCarrier, SoSystemInfoCarrier)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.SoSystemInfoCarrier>(SuperOffice.CRM.Services.SoSystemInfoCarrier, SuperOffice.CRM.Services.SoSystemInfoCarrier)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoSystemInfoCarrier)(SoSystemInfoCarrier, SoSystemInfoCarrier)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.SoSystemInfoCarrier)(SuperOffice.CRM.Services.SoSystemInfoCarrier, SuperOffice.CRM.Services.SoSystemInfoCarrier)
-  name.vb: AssignByReflection(Of SoSystemInfoCarrier)(SoSystemInfoCarrier, SoSystemInfoCarrier)
+  name: AssignByReflection<SoSystemInfoCarrier>(SoSystemInfoCarrier)
+  nameWithType: ObjectExtensions.AssignByReflection<SoSystemInfoCarrier>(SoSystemInfoCarrier)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.SoSystemInfoCarrier>(SuperOffice.CRM.Services.SoSystemInfoCarrier)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoSystemInfoCarrier)(SoSystemInfoCarrier)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.SoSystemInfoCarrier)(SuperOffice.CRM.Services.SoSystemInfoCarrier)
+  name.vb: AssignByReflection(Of SoSystemInfoCarrier)(SoSystemInfoCarrier)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.SoSystemInfoCarrier,SuperOffice.CRM.Services.SoSystemInfoCarrier)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SoSystemInfoCarrier>
+    nameWithType: ObjectExtensions.AssignByReflection<SoSystemInfoCarrier>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.SoSystemInfoCarrier>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier
-    name: SoSystemInfoCarrier
-    isExternal: true
-    href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier
     name: SoSystemInfoCarrier
+    nameWithType: SoSystemInfoCarrier
+    fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier
     isExternal: true
-    href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier
-    name: SoSystemInfoCarrier
-    isExternal: true
-    href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.SoSystemInfoCarrier,SuperOffice.CRM.Services.SoSystemInfoCarrier)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SoSystemInfoCarrier)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SoSystemInfoCarrier)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.SoSystemInfoCarrier)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier
     name: SoSystemInfoCarrier
+    nameWithType: SoSystemInfoCarrier
+    fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier
     isExternal: true
-    href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier
-    name: SoSystemInfoCarrier
-    isExternal: true
-    href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier
-    name: SoSystemInfoCarrier
-    isExternal: true
-    href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<SoSystemInfoCarrier>(SoSystemInfoCarrier)
-  nameWithType: ObjectExtensions.GraphCopy<SoSystemInfoCarrier>(SoSystemInfoCarrier)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.SoSystemInfoCarrier>(SuperOffice.CRM.Services.SoSystemInfoCarrier)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoSystemInfoCarrier)(SoSystemInfoCarrier)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.SoSystemInfoCarrier)(SuperOffice.CRM.Services.SoSystemInfoCarrier)
-  name.vb: GraphCopy(Of SoSystemInfoCarrier)(SoSystemInfoCarrier)
+  name: GraphCopy<SoSystemInfoCarrier>()
+  nameWithType: ObjectExtensions.GraphCopy<SoSystemInfoCarrier>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.SoSystemInfoCarrier>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoSystemInfoCarrier)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.SoSystemInfoCarrier)()
+  name.vb: GraphCopy(Of SoSystemInfoCarrier)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Services.SoSystemInfoCarrier)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SoSystemInfoCarrier>
+    nameWithType: ObjectExtensions.GraphCopy<SoSystemInfoCarrier>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.SoSystemInfoCarrier>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier
-    name: SoSystemInfoCarrier
-    isExternal: true
-    href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier
-    name: SoSystemInfoCarrier
-    isExternal: true
-    href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Services.SoSystemInfoCarrier)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SoSystemInfoCarrier)
+    nameWithType: ObjectExtensions.GraphCopy(Of SoSystemInfoCarrier)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.SoSystemInfoCarrier)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier
-    name: SoSystemInfoCarrier
-    isExternal: true
-    href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoSystemInfoCarrier, To>()
+  nameWithType: Converters.MapEnums<SoSystemInfoCarrier, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.SoSystemInfoCarrier, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoSystemInfoCarrier, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.SoSystemInfoCarrier, To)()
+  name.vb: MapEnums(Of SoSystemInfoCarrier, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoSystemInfoCarrier, To>
+    nameWithType: Converters.MapEnums<SoSystemInfoCarrier, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.SoSystemInfoCarrier, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier
-    name: SoSystemInfoCarrier
-    isExternal: true
-    href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoSystemInfoCarrier, To)
+    nameWithType: Converters.MapEnums(Of SoSystemInfoCarrier, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.SoSystemInfoCarrier, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1289,93 +906,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1384,46 +951,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1432,147 +1009,112 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier__ctor
   name: SoSystemInfoCarrier
   nameWithType: SoSystemInfoCarrier.SoSystemInfoCarrier
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.SoSystemInfoCarrier
-  nameWithType.vb: SoSystemInfoCarrier.New
-  fullName.vb: SuperOffice.CRM.Services.SoSystemInfoCarrier.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.License*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.License
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier_License
   name: License
   nameWithType: SoSystemInfoCarrier.License
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.License
 - uid: SuperOffice.License.LicenseInfo
-  commentId: T:SuperOffice.License.LicenseInfo
-  parent: SuperOffice.License
   isExternal: true
   name: LicenseInfo
   nameWithType: LicenseInfo
   fullName: SuperOffice.License.LicenseInfo
-- uid: SuperOffice.License
-  commentId: N:SuperOffice.License
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.License
-  nameWithType: SuperOffice.License
-  fullName: SuperOffice.License
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.License
-    name: License
-    isExternal: true
-    href: SuperOffice.License.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.License
-    name: License
-    isExternal: true
-    href: SuperOffice.License.html
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.WarningEnglish*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.WarningEnglish
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier_WarningEnglish
   name: WarningEnglish
   nameWithType: SoSystemInfoCarrier.WarningEnglish
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.WarningEnglish
@@ -1580,77 +1122,59 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.WarningResource*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.WarningResource
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier_WarningResource
   name: WarningResource
   nameWithType: SoSystemInfoCarrier.WarningResource
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.WarningResource
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.BranchName*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.BranchName
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier_BranchName
   name: BranchName
   nameWithType: SoSystemInfoCarrier.BranchName
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.BranchName
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.BuildLabel*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.BuildLabel
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier_BuildLabel
   name: BuildLabel
   nameWithType: SoSystemInfoCarrier.BuildLabel
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.BuildLabel
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.AssemblyVersion*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.AssemblyVersion
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier_AssemblyVersion
   name: AssemblyVersion
   nameWithType: SoSystemInfoCarrier.AssemblyVersion
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.AssemblyVersion
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.AccumulatedNextCheckDate*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.AccumulatedNextCheckDate
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier_AccumulatedNextCheckDate
   name: AccumulatedNextCheckDate
   nameWithType: SoSystemInfoCarrier.AccumulatedNextCheckDate
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.AccumulatedNextCheckDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.FileVersion*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.FileVersion
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier_FileVersion
   name: FileVersion
   nameWithType: SoSystemInfoCarrier.FileVersion
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.FileVersion
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.Description*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.Description
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier_Description
   name: Description
   nameWithType: SoSystemInfoCarrier.Description
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.Description
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.DaysUntilNetServerExpiry*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.DaysUntilNetServerExpiry
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier_DaysUntilNetServerExpiry
   name: DaysUntilNetServerExpiry
   nameWithType: SoSystemInfoCarrier.DaysUntilNetServerExpiry
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.DaysUntilNetServerExpiry
@@ -1658,17 +1182,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.BuildType*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.BuildType
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier_BuildType
   name: BuildType
   nameWithType: SoSystemInfoCarrier.BuildType
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.BuildType
@@ -1676,28 +1195,24 @@ references:
   commentId: T:SuperOffice.NetServerBuildType
   parent: SuperOffice
   isExternal: true
-  href: SuperOffice.NetServerBuildType.html
   name: NetServerBuildType
   nameWithType: NetServerBuildType
   fullName: SuperOffice.NetServerBuildType
 - uid: SuperOffice
   commentId: N:SuperOffice
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice
   nameWithType: SuperOffice
   fullName: SuperOffice
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseVersion*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseVersion
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier_DatabaseVersion
   name: DatabaseVersion
   nameWithType: SoSystemInfoCarrier.DatabaseVersion
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseVersion
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.IsUnicode*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.IsUnicode
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier_IsUnicode
   name: IsUnicode
   nameWithType: SoSystemInfoCarrier.IsUnicode
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.IsUnicode
@@ -1705,59 +1220,48 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.CompanyName*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.CompanyName
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier_CompanyName
   name: CompanyName
   nameWithType: SoSystemInfoCarrier.CompanyName
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.CompanyName
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.CompanyId*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.CompanyId
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier_CompanyId
   name: CompanyId
   nameWithType: SoSystemInfoCarrier.CompanyId
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.CompanyId
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseType*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseType
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier_DatabaseType
   name: DatabaseType
   nameWithType: SoSystemInfoCarrier.DatabaseType
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseType
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseMinor*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseMinor
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier_DatabaseMinor
   name: DatabaseMinor
   nameWithType: SoSystemInfoCarrier.DatabaseMinor
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseMinor
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseName*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseName
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier_DatabaseName
   name: DatabaseName
   nameWithType: SoSystemInfoCarrier.DatabaseName
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.DatabaseName
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.IsOnTravel*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.IsOnTravel
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier_IsOnTravel
   name: IsOnTravel
   nameWithType: SoSystemInfoCarrier.IsOnTravel
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.IsOnTravel
 - uid: SuperOffice.CRM.Services.SoSystemInfoCarrier.IsSatellite*
   commentId: Overload:SuperOffice.CRM.Services.SoSystemInfoCarrier.IsSatellite
   isExternal: true
-  href: SuperOffice.CRM.Services.SoSystemInfoCarrier.html#SuperOffice_CRM_Services_SoSystemInfoCarrier_IsSatellite
   name: IsSatellite
   nameWithType: SoSystemInfoCarrier.IsSatellite
   fullName: SuperOffice.CRM.Services.SoSystemInfoCarrier.IsSatellite

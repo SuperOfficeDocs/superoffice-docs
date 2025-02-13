@@ -34,22 +34,26 @@ items:
   nameWithType: SoClaimTypes
   fullName: SuperOffice.Security.Claims.SoClaimTypes
   type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
   syntax:
-    content: public static class SoClaimTypes
-    content.vb: Public Module SoClaimTypes
+    content: 'public static class SoClaimTypes : Object'
+    content.vb: >-
+      Public Module SoClaimTypes
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.Security.Claims.SoClaimTypes.AssociateId
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.AssociateId
   id: AssociateId
@@ -61,16 +65,24 @@ items:
   nameWithType: SoClaimTypes.AssociateId
   fullName: SuperOffice.Security.Claims.SoClaimTypes.AssociateId
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
-  summary: Primary key of the associate in the database
-  example: []
+  summary: "\nPrimary key of the associate in the database\n"
   syntax:
     content: public const string AssociateId = "http://schemes.superoffice.net/identity/associateid"
     return:
       type: System.String
     content.vb: Public Const AssociateId As String = "http://schemes.superoffice.net/identity/associateid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.ContextIdentifier
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.ContextIdentifier
   id: ContextIdentifier
@@ -82,16 +94,24 @@ items:
   nameWithType: SoClaimTypes.ContextIdentifier
   fullName: SuperOffice.Security.Claims.SoClaimTypes.ContextIdentifier
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
-  summary: Context identifier for the user
-  example: []
+  summary: "\nContext identifier for the user\n"
   syntax:
     content: public const string ContextIdentifier = "http://schemes.superoffice.net/identity/ctx"
     return:
       type: System.String
     content.vb: Public Const ContextIdentifier As String = "http://schemes.superoffice.net/identity/ctx"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.ImpersonatingAssociateId
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.ImpersonatingAssociateId
   id: ImpersonatingAssociateId
@@ -103,16 +123,24 @@ items:
   nameWithType: SoClaimTypes.ImpersonatingAssociateId
   fullName: SuperOffice.Security.Claims.SoClaimTypes.ImpersonatingAssociateId
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
-  summary: Associate id of the user impersonating another associate
-  example: []
+  summary: "\nAssociate id of the user impersonating another associate\n"
   syntax:
     content: public const string ImpersonatingAssociateId = "http://schemes.superoffice.net/identity/impersonating_associateid"
     return:
       type: System.String
     content.vb: Public Const ImpersonatingAssociateId As String = "http://schemes.superoffice.net/identity/impersonating_associateid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.Password
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.Password
   id: Password
@@ -124,16 +152,24 @@ items:
   nameWithType: SoClaimTypes.Password
   fullName: SuperOffice.Security.Claims.SoClaimTypes.Password
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
-  summary: Sensitive, should only be used during the authentication process
-  example: []
+  summary: "\nSensitive, should only be used during the authentication process\n"
   syntax:
     content: public const string Password = "http://schemes.superoffice.net/identity/password"
     return:
       type: System.String
     content.vb: Public Const Password As String = "http://schemes.superoffice.net/identity/password"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.PersonId
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.PersonId
   id: PersonId
@@ -145,16 +181,24 @@ items:
   nameWithType: SoClaimTypes.PersonId
   fullName: SuperOffice.Security.Claims.SoClaimTypes.PersonId
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
-  summary: Primary key of the resolved person in the database
-  example: []
+  summary: "\nPrimary key of the resolved person in the database\n"
   syntax:
     content: public const string PersonId = "http://schemes.superoffice.net/identity/personid"
     return:
       type: System.String
     content.vb: Public Const PersonId As String = "http://schemes.superoffice.net/identity/personid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.Ticket
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.Ticket
   id: Ticket
@@ -166,16 +210,24 @@ items:
   nameWithType: SoClaimTypes.Ticket
   fullName: SuperOffice.Security.Claims.SoClaimTypes.Ticket
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
-  summary: SuperOffice NetServer authentication ticket.  Value starts with '7T:'.
-  example: []
+  summary: "\nSuperOffice NetServer authentication ticket.  Value starts with &apos;7T:&apos;.\n"
   syntax:
     content: public const string Ticket = "http://schemes.superoffice.net/identity/ticket"
     return:
       type: System.String
     content.vb: Public Const Ticket As String = "http://schemes.superoffice.net/identity/ticket"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.So8TAccessToken
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.So8TAccessToken
   id: So8TAccessToken
@@ -187,16 +239,24 @@ items:
   nameWithType: SoClaimTypes.So8TAccessToken
   fullName: SuperOffice.Security.Claims.SoClaimTypes.So8TAccessToken
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
-  summary: SuperOffice NetServer Access Token.  Value starts with '8T:'.
-  example: []
+  summary: "\nSuperOffice NetServer Access Token.  Value starts with &apos;8T:&apos;.\n"
   syntax:
     content: public const string So8TAccessToken = "http://schemes.superoffice.net/identity/8t_access_token"
     return:
       type: System.String
     content.vb: Public Const So8TAccessToken As String = "http://schemes.superoffice.net/identity/8t_access_token"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.UserName
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.UserName
   id: UserName
@@ -208,16 +268,24 @@ items:
   nameWithType: SoClaimTypes.UserName
   fullName: SuperOffice.Security.Claims.SoClaimTypes.UserName
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
-  summary: User name as provided by the end user in login dialog.  Can be resolved to Associate.Name or Associate.UserName
-  example: []
+  summary: "\nUser name as provided by the end user in login dialog.  Can be resolved to Associate.Name or Associate.UserName\n"
   syntax:
     content: public const string UserName = "http://schemes.superoffice.net/identity/user_name"
     return:
       type: System.String
     content.vb: Public Const UserName As String = "http://schemes.superoffice.net/identity/user_name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.ClientId
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.ClientId
   id: ClientId
@@ -229,6 +297,9 @@ items:
   nameWithType: SoClaimTypes.ClientId
   fullName: SuperOffice.Security.Claims.SoClaimTypes.ClientId
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -237,6 +308,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const ClientId As String = "http://schemes.superoffice.net/identity/client_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.ClientSecret
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.ClientSecret
   id: ClientSecret
@@ -248,6 +325,9 @@ items:
   nameWithType: SoClaimTypes.ClientSecret
   fullName: SuperOffice.Security.Claims.SoClaimTypes.ClientSecret
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -256,6 +336,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const ClientSecret As String = "http://schemes.superoffice.net/identity/client_secret"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.So8TAccessTokenNonce
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.So8TAccessTokenNonce
   id: So8TAccessTokenNonce
@@ -267,6 +353,9 @@ items:
   nameWithType: SoClaimTypes.So8TAccessTokenNonce
   fullName: SuperOffice.Security.Claims.SoClaimTypes.So8TAccessTokenNonce
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -275,6 +364,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const So8TAccessTokenNonce As String = "http://schemes.superoffice.net/identity/8t_access_token_nonce"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.Origin
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.Origin
   id: Origin
@@ -286,17 +381,25 @@ items:
   nameWithType: SoClaimTypes.Origin
   fullName: SuperOffice.Security.Claims.SoClaimTypes.Origin
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
-  summary: IP address of the user logging in.
-  remarks: Origin is obtained from the X-Forwarded-For http header or the http requests' user host address
-  example: []
+  summary: "\nIP address of the user logging in.  \n"
+  remarks: "\nOrigin is obtained from the X-Forwarded-For http header or the http requests&apos; user host address\n"
   syntax:
     content: public const string Origin = "http://schemes.superoffice.net/identity/origin"
     return:
       type: System.String
     content.vb: Public Const Origin As String = "http://schemes.superoffice.net/identity/origin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.Sub
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.Sub
   id: Sub
@@ -308,6 +411,9 @@ items:
   nameWithType: SoClaimTypes.Sub
   fullName: SuperOffice.Security.Claims.SoClaimTypes.Sub
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -316,6 +422,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Sub As String = "sub"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.CentralSuperId
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.CentralSuperId
   id: CentralSuperId
@@ -327,6 +439,9 @@ items:
   nameWithType: SoClaimTypes.CentralSuperId
   fullName: SuperOffice.Security.Claims.SoClaimTypes.CentralSuperId
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -335,6 +450,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const CentralSuperId As String = "http://schemes.superoffice.net/identity/csid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.SoUpn
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.SoUpn
   id: SoUpn
@@ -346,6 +467,9 @@ items:
   nameWithType: SoClaimTypes.SoUpn
   fullName: SuperOffice.Security.Claims.SoClaimTypes.SoUpn
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -354,6 +478,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const SoUpn As String = "http://schemes.superoffice.net/identity/upn"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.CentralSuperIdUserCandidateIdentifier
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.CentralSuperIdUserCandidateIdentifier
   id: CentralSuperIdUserCandidateIdentifier
@@ -365,6 +495,9 @@ items:
   nameWithType: SoClaimTypes.CentralSuperIdUserCandidateIdentifier
   fullName: SuperOffice.Security.Claims.SoClaimTypes.CentralSuperIdUserCandidateIdentifier
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -373,6 +506,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const CentralSuperIdUserCandidateIdentifier As String = "http://schemes.superoffice.net/identity/csid-usercandidateidentifier"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.Issuer
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.Issuer
   id: Issuer
@@ -384,6 +523,9 @@ items:
   nameWithType: SoClaimTypes.Issuer
   fullName: SuperOffice.Security.Claims.SoClaimTypes.Issuer
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -392,6 +534,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Issuer As String = "iss"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.Subject
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.Subject
   id: Subject
@@ -403,6 +551,9 @@ items:
   nameWithType: SoClaimTypes.Subject
   fullName: SuperOffice.Security.Claims.SoClaimTypes.Subject
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -411,6 +562,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Subject As String = "sub"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.Audience
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.Audience
   id: Audience
@@ -422,6 +579,9 @@ items:
   nameWithType: SoClaimTypes.Audience
   fullName: SuperOffice.Security.Claims.SoClaimTypes.Audience
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -430,6 +590,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Audience As String = "aud"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.ExpirationTime
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.ExpirationTime
   id: ExpirationTime
@@ -441,6 +607,9 @@ items:
   nameWithType: SoClaimTypes.ExpirationTime
   fullName: SuperOffice.Security.Claims.SoClaimTypes.ExpirationTime
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -449,6 +618,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const ExpirationTime As String = "exp"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.NotBefore
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.NotBefore
   id: NotBefore
@@ -460,6 +635,9 @@ items:
   nameWithType: SoClaimTypes.NotBefore
   fullName: SuperOffice.Security.Claims.SoClaimTypes.NotBefore
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -468,6 +646,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const NotBefore As String = "nbf"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Claims.SoClaimTypes.IssuedAt
   commentId: F:SuperOffice.Security.Claims.SoClaimTypes.IssuedAt
   id: IssuedAt
@@ -479,6 +663,9 @@ items:
   nameWithType: SoClaimTypes.IssuedAt
   fullName: SuperOffice.Security.Claims.SoClaimTypes.IssuedAt
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.Security.Claims
@@ -487,278 +674,29 @@ items:
     return:
       type: System.String
     content.vb: Public Const IssuedAt As String = "iat"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Security.Claims
   commentId: N:SuperOffice.Security.Claims
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Security.Claims
   nameWithType: SuperOffice.Security.Claims
   fullName: SuperOffice.Security.Claims
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
-  - name: .
-  - uid: SuperOffice.Security.Claims
-    name: Claims
-    isExternal: true
-    href: SuperOffice.Security.Claims.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
-  - name: .
-  - uid: SuperOffice.Security.Claims
-    name: Claims
-    isExternal: true
-    href: SuperOffice.Security.Claims.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -766,10 +704,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

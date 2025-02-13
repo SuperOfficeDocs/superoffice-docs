@@ -19,22 +19,26 @@ items:
   nameWithType: CustomObjectHelper
   fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.CustomObject
   syntax:
-    content: public static class CustomObjectHelper
-    content.vb: Public Module CustomObjectHelper
+    content: 'public static class CustomObjectHelper : Object'
+    content.vb: >-
+      Public Module CustomObjectHelper
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveRelationField(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveRelationField(SuperOffice.Data.Dictionary.SoField)
   id: ResolveRelationField(SuperOffice.Data.Dictionary.SoField)
@@ -46,6 +50,9 @@ items:
   nameWithType: CustomObjectHelper.ResolveRelationField(SoField)
   fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveRelationField(SuperOffice.Data.Dictionary.SoField)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.CustomObject
@@ -58,6 +65,12 @@ items:
       type: System.String
     content.vb: Public Shared Function ResolveRelationField(f As SoField) As String
   overload: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveRelationField*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveProviderName(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveProviderName(SuperOffice.Data.Dictionary.SoField)
   id: ResolveProviderName(SuperOffice.Data.Dictionary.SoField)
@@ -69,6 +82,9 @@ items:
   nameWithType: CustomObjectHelper.ResolveProviderName(SoField)
   fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveProviderName(SuperOffice.Data.Dictionary.SoField)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.CustomObject
@@ -81,6 +97,12 @@ items:
       type: System.String
     content.vb: Public Shared Function ResolveProviderName(field As SoField) As String
   overload: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveProviderName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.MapSoTableToEntityType(SuperOffice.Data.Dictionary.SoTable)
   commentId: M:SuperOffice.CRM.CustomObject.CustomObjectHelper.MapSoTableToEntityType(SuperOffice.Data.Dictionary.SoTable)
   id: MapSoTableToEntityType(SuperOffice.Data.Dictionary.SoTable)
@@ -92,6 +114,9 @@ items:
   nameWithType: CustomObjectHelper.MapSoTableToEntityType(SoTable)
   fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.MapSoTableToEntityType(SuperOffice.Data.Dictionary.SoTable)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.CustomObject
@@ -104,6 +129,12 @@ items:
       type: System.String
     content.vb: Public Shared Function MapSoTableToEntityType(relationTable As SoTable) As String
   overload: SuperOffice.CRM.CustomObject.CustomObjectHelper.MapSoTableToEntityType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveIcon(System.String)
   commentId: M:SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveIcon(System.String)
   id: ResolveIcon(System.String)
@@ -111,10 +142,13 @@ items:
   langs:
   - csharp
   - vb
-  name: ResolveIcon(string)
-  nameWithType: CustomObjectHelper.ResolveIcon(string)
-  fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveIcon(string)
+  name: ResolveIcon(String)
+  nameWithType: CustomObjectHelper.ResolveIcon(String)
+  fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveIcon(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.CustomObject
@@ -127,9 +161,12 @@ items:
       type: System.String
     content.vb: Public Shared Function ResolveIcon(tableName As String) As String
   overload: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveIcon*
-  nameWithType.vb: CustomObjectHelper.ResolveIcon(String)
-  fullName.vb: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveIcon(String)
-  name.vb: ResolveIcon(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveDisplayFieldName(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveDisplayFieldName(SuperOffice.Data.Dictionary.SoField)
   id: ResolveDisplayFieldName(SuperOffice.Data.Dictionary.SoField)
@@ -141,6 +178,9 @@ items:
   nameWithType: CustomObjectHelper.ResolveDisplayFieldName(SoField)
   fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveDisplayFieldName(SuperOffice.Data.Dictionary.SoField)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.CustomObject
@@ -153,6 +193,12 @@ items:
       type: System.String
     content.vb: Public Shared Function ResolveDisplayFieldName(field As SoField) As String
   overload: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveDisplayFieldName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.ForwardOrReverseJoin(SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.CRM.CustomObject.CustomObjectHelper.ForwardOrReverseJoin(SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.Dictionary.SoField)
   id: ForwardOrReverseJoin(SuperOffice.CRM.ArchiveLists.ArchiveSelect,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.Dictionary.SoField)
@@ -164,6 +210,9 @@ items:
   nameWithType: CustomObjectHelper.ForwardOrReverseJoin(ArchiveSelect, TableInfo, TableInfo, SoField)
   fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.ForwardOrReverseJoin(SuperOffice.CRM.ArchiveLists.ArchiveSelect, SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.Dictionary.SoField)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.CustomObject
@@ -178,8 +227,14 @@ items:
       type: SuperOffice.Data.SQL.TableInfo
     - id: relationField
       type: SuperOffice.Data.Dictionary.SoField
-    content.vb: Public Shared Sub ForwardOrReverseJoin([select] As ArchiveSelect, tableToExtend As TableInfo, targetTable As TableInfo, relationField As SoField)
+    content.vb: Public Shared Sub ForwardOrReverseJoin(select As ArchiveSelect, tableToExtend As TableInfo, targetTable As TableInfo, relationField As SoField)
   overload: SuperOffice.CRM.CustomObject.CustomObjectHelper.ForwardOrReverseJoin*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.ShouldHideIdField(System.String)
   commentId: M:SuperOffice.CRM.CustomObject.CustomObjectHelper.ShouldHideIdField(System.String)
   id: ShouldHideIdField(System.String)
@@ -187,304 +242,54 @@ items:
   langs:
   - csharp
   - vb
-  name: ShouldHideIdField(string)
-  nameWithType: CustomObjectHelper.ShouldHideIdField(string)
-  fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.ShouldHideIdField(string)
+  name: ShouldHideIdField(String)
+  nameWithType: CustomObjectHelper.ShouldHideIdField(String)
+  fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.ShouldHideIdField(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.CustomObject
   syntax:
-    content: public static (bool hideRestriction, bool hideDisplay) ShouldHideIdField(string customObject)
+    content: public static ValueTuple<bool, bool> ShouldHideIdField(string customObject)
     parameters:
     - id: customObject
       type: System.String
     return:
       type: System.ValueTuple{System.Boolean,System.Boolean}
-    content.vb: Public Shared Function ShouldHideIdField(customObject As String) As (hideRestriction As Boolean, hideDisplay As Boolean)
+    content.vb: Public Shared Function ShouldHideIdField(customObject As String) As ValueTuple(Of Boolean, Boolean)
   overload: SuperOffice.CRM.CustomObject.CustomObjectHelper.ShouldHideIdField*
-  nameWithType.vb: CustomObjectHelper.ShouldHideIdField(String)
-  fullName.vb: SuperOffice.CRM.CustomObject.CustomObjectHelper.ShouldHideIdField(String)
-  name.vb: ShouldHideIdField(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.CRM.CustomObject
   commentId: N:SuperOffice.CRM.CustomObject
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.CustomObject
   nameWithType: SuperOffice.CRM.CustomObject
   fullName: SuperOffice.CRM.CustomObject
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.CustomObject
-    name: CustomObject
-    isExternal: true
-    href: SuperOffice.CRM.CustomObject.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.CustomObject
-    name: CustomObject
-    isExternal: true
-    href: SuperOffice.CRM.CustomObject.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveRelationField*
   commentId: Overload:SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveRelationField
   isExternal: true
-  href: SuperOffice.CRM.CustomObject.CustomObjectHelper.html#SuperOffice_CRM_CustomObject_CustomObjectHelper_ResolveRelationField_SuperOffice_Data_Dictionary_SoField_
   name: ResolveRelationField
   nameWithType: CustomObjectHelper.ResolveRelationField
   fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveRelationField
@@ -492,7 +297,6 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoField
   parent: SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoField.html
   name: SoField
   nameWithType: SoField
   fullName: SuperOffice.Data.Dictionary.SoField
@@ -500,61 +304,24 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
 - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveProviderName*
   commentId: Overload:SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveProviderName
   isExternal: true
-  href: SuperOffice.CRM.CustomObject.CustomObjectHelper.html#SuperOffice_CRM_CustomObject_CustomObjectHelper_ResolveProviderName_SuperOffice_Data_Dictionary_SoField_
   name: ResolveProviderName
   nameWithType: CustomObjectHelper.ResolveProviderName
   fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveProviderName
 - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.MapSoTableToEntityType*
   commentId: Overload:SuperOffice.CRM.CustomObject.CustomObjectHelper.MapSoTableToEntityType
   isExternal: true
-  href: SuperOffice.CRM.CustomObject.CustomObjectHelper.html#SuperOffice_CRM_CustomObject_CustomObjectHelper_MapSoTableToEntityType_SuperOffice_Data_Dictionary_SoTable_
   name: MapSoTableToEntityType
   nameWithType: CustomObjectHelper.MapSoTableToEntityType
   fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.MapSoTableToEntityType
@@ -562,28 +329,24 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
 - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveIcon*
   commentId: Overload:SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveIcon
   isExternal: true
-  href: SuperOffice.CRM.CustomObject.CustomObjectHelper.html#SuperOffice_CRM_CustomObject_CustomObjectHelper_ResolveIcon_System_String_
   name: ResolveIcon
   nameWithType: CustomObjectHelper.ResolveIcon
   fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveIcon
 - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveDisplayFieldName*
   commentId: Overload:SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveDisplayFieldName
   isExternal: true
-  href: SuperOffice.CRM.CustomObject.CustomObjectHelper.html#SuperOffice_CRM_CustomObject_CustomObjectHelper_ResolveDisplayFieldName_SuperOffice_Data_Dictionary_SoField_
   name: ResolveDisplayFieldName
   nameWithType: CustomObjectHelper.ResolveDisplayFieldName
   fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.ResolveDisplayFieldName
 - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.ForwardOrReverseJoin*
   commentId: Overload:SuperOffice.CRM.CustomObject.CustomObjectHelper.ForwardOrReverseJoin
   isExternal: true
-  href: SuperOffice.CRM.CustomObject.CustomObjectHelper.html#SuperOffice_CRM_CustomObject_CustomObjectHelper_ForwardOrReverseJoin_SuperOffice_CRM_ArchiveLists_ArchiveSelect_SuperOffice_Data_SQL_TableInfo_SuperOffice_Data_SQL_TableInfo_SuperOffice_Data_Dictionary_SoField_
   name: ForwardOrReverseJoin
   nameWithType: CustomObjectHelper.ForwardOrReverseJoin
   fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.ForwardOrReverseJoin
@@ -591,7 +354,6 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveSelect
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveSelect.html
   name: ArchiveSelect
   nameWithType: ArchiveSelect
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveSelect
@@ -599,168 +361,133 @@ references:
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: SuperOffice.CRM.CustomObject.CustomObjectHelper.ShouldHideIdField*
   commentId: Overload:SuperOffice.CRM.CustomObject.CustomObjectHelper.ShouldHideIdField
   isExternal: true
-  href: SuperOffice.CRM.CustomObject.CustomObjectHelper.html#SuperOffice_CRM_CustomObject_CustomObjectHelper_ShouldHideIdField_System_String_
   name: ShouldHideIdField
   nameWithType: CustomObjectHelper.ShouldHideIdField
   fullName: SuperOffice.CRM.CustomObject.CustomObjectHelper.ShouldHideIdField
 - uid: System.ValueTuple{System.Boolean,System.Boolean}
-  commentId: T:System.ValueTuple{System.Boolean,System.Boolean}
-  parent: System
+  commentId: '!:System.ValueTuple{System.Boolean,System.Boolean}'
   definition: System.ValueTuple`2
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: (bool hideRestriction, bool hideDisplay)
-  nameWithType: (bool hideRestriction, bool hideDisplay)
-  fullName: (bool hideRestriction, bool hideDisplay)
-  nameWithType.vb: (hideRestriction As Boolean, hideDisplay As Boolean)
-  fullName.vb: (hideRestriction As Boolean, hideDisplay As Boolean)
-  name.vb: (hideRestriction As Boolean, hideDisplay As Boolean)
+  name: ValueTuple<Boolean, Boolean>
+  nameWithType: ValueTuple<Boolean, Boolean>
+  fullName: System.ValueTuple<System.Boolean, System.Boolean>
+  nameWithType.vb: ValueTuple(Of Boolean, Boolean)
+  fullName.vb: System.ValueTuple(Of System.Boolean, System.Boolean)
+  name.vb: ValueTuple(Of Boolean, Boolean)
   spec.csharp:
-  - name: (
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: " "
-  - uid: System.ValueTuple{System.Boolean,System.Boolean}.hideRestriction
-    name: hideRestriction
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.boolean-.hiderestriction
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: " "
-  - uid: System.ValueTuple{System.Boolean,System.Boolean}.hideDisplay
-    name: hideDisplay
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.boolean-.hidedisplay
-  - name: )
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
-  - name: (
-  - uid: System.ValueTuple{System.Boolean,System.Boolean}.hideRestriction
-    name: hideRestriction
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.boolean-.hiderestriction
-  - name: " "
-  - name: As
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
-  - uid: System.ValueTuple{System.Boolean,System.Boolean}.hideDisplay
-    name: hideDisplay
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.boolean,system.boolean-.hidedisplay
-  - name: " "
-  - name: As
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.ValueTuple`2
-  commentId: T:System.ValueTuple`2
-  name: (T1, T2)
-  nameWithType: (T1, T2)
-  fullName: (T1, T2)
+  isExternal: true
+  name: ValueTuple<, >
+  nameWithType: ValueTuple<, >
+  fullName: System.ValueTuple<, >
+  nameWithType.vb: ValueTuple(Of , )
+  fullName.vb: System.ValueTuple(Of , )
+  name.vb: ValueTuple(Of , )
   spec.csharp:
-  - name: (
-  - name: T1
-  - name: ','
-  - name: " "
-  - name: T2
-  - name: )
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
-  - name: (
-  - name: T1
-  - name: ','
-  - name: " "
-  - name: T2
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )

@@ -9,24 +9,64 @@ items:
   - SuperOffice.WebApi.Data.DocTmplInvitationType.Changed
   - SuperOffice.WebApi.Data.DocTmplInvitationType.New
   - SuperOffice.WebApi.Data.DocTmplInvitationType.None
+  - SuperOffice.WebApi.Data.DocTmplInvitationType.value__
   langs:
   - csharp
   - vb
   name: DocTmplInvitationType
   nameWithType: DocTmplInvitationType
   fullName: SuperOffice.WebApi.Data.DocTmplInvitationType
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Is this document template some kind of appointment document, and if so what
-
-    This Enum is used by:  DocTmpl.invitationDocType
-  example: []
+  summary: "\nIs this document template some kind of appointment document, and if so what\nThis Enum is used by:  DocTmpl.invitationDocType\n"
   syntax:
-    content: 'public enum DocTmplInvitationType : short'
-    content.vb: Public Enum DocTmplInvitationType As Short
+    content: 'public sealed class DocTmplInvitationType : Enum'
+    content.vb: >-
+      Public NotInheritable Class DocTmplInvitationType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.DocTmplInvitationType.value__
+  commentId: F:SuperOffice.WebApi.Data.DocTmplInvitationType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.DocTmplInvitationType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DocTmplInvitationType.value__
+  fullName: SuperOffice.WebApi.Data.DocTmplInvitationType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.DocTmplInvitationType.None
   commentId: F:SuperOffice.WebApi.Data.DocTmplInvitationType.None
   id: None
@@ -38,26 +78,24 @@ items:
   nameWithType: DocTmplInvitationType.None
   fullName: SuperOffice.WebApi.Data.DocTmplInvitationType.None
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: None - Not an appointment type'
-  example: []
+  summary: "\n0: None - Not an appointment type\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const DocTmplInvitationType None
     return:
       type: SuperOffice.WebApi.Data.DocTmplInvitationType
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As DocTmplInvitationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.DocTmplInvitationType.New
   commentId: F:SuperOffice.WebApi.Data.DocTmplInvitationType.New
   id: New
@@ -69,26 +107,24 @@ items:
   nameWithType: DocTmplInvitationType.New
   fullName: SuperOffice.WebApi.Data.DocTmplInvitationType.New
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: 1 - New appointment'
-  example: []
+  summary: "\n1: 1 - New appointment\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      New = 1
+    content: public const DocTmplInvitationType New
     return:
       type: SuperOffice.WebApi.Data.DocTmplInvitationType
-    content.vb: >-
-      <EnumMember>
-
-      New = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const New As DocTmplInvitationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.DocTmplInvitationType.Changed
   commentId: F:SuperOffice.WebApi.Data.DocTmplInvitationType.Changed
   id: Changed
@@ -100,26 +136,24 @@ items:
   nameWithType: DocTmplInvitationType.Changed
   fullName: SuperOffice.WebApi.Data.DocTmplInvitationType.Changed
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: 2 - Changed appointment'
-  example: []
+  summary: "\n2: 2 - Changed appointment\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Changed = 2
+    content: public const DocTmplInvitationType Changed
     return:
       type: SuperOffice.WebApi.Data.DocTmplInvitationType
-    content.vb: >-
-      <EnumMember>
-
-      Changed = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Changed As DocTmplInvitationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.DocTmplInvitationType.Cancelled
   commentId: F:SuperOffice.WebApi.Data.DocTmplInvitationType.Cancelled
   id: Cancelled
@@ -131,69 +165,55 @@ items:
   nameWithType: DocTmplInvitationType.Cancelled
   fullName: SuperOffice.WebApi.Data.DocTmplInvitationType.Cancelled
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: 3 - Cancelled appointment'
-  example: []
+  summary: "\n3: 3 - Cancelled appointment\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Cancelled = 3
+    content: public const DocTmplInvitationType Cancelled
     return:
       type: SuperOffice.WebApi.Data.DocTmplInvitationType
-    content.vb: >-
-      <EnumMember>
-
-      Cancelled = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Cancelled As DocTmplInvitationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.DocTmplInvitationType
   commentId: T:SuperOffice.WebApi.Data.DocTmplInvitationType
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.DocTmplInvitationType.html
   name: DocTmplInvitationType
   nameWithType: DocTmplInvitationType
   fullName: SuperOffice.WebApi.Data.DocTmplInvitationType

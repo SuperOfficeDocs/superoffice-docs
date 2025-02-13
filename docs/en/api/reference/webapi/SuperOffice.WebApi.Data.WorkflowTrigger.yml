@@ -18,25 +18,20 @@ items:
   nameWithType: WorkflowTrigger
   fullName: SuperOffice.WebApi.Data.WorkflowTrigger
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for WorkflowTrigger.
-
-    Workflow trigger carrier
+  summary: "\nCarrier object for WorkflowTrigger.\nWorkflow trigger carrier    \n"
   example:
-  - >-
-    Get WorkflowTrigger 123 using the WebApi client:
-
-    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
-
-    var agent = new WorkflowAgent(configuration);
-
-    var workflowTrigger = agent.GetWorkflowTrigger( 123 );</code></pre>
+  - "\nGet WorkflowTrigger 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new WorkflowAgent(configuration);\nvar workflowTrigger = agent.GetWorkflowTrigger( 123 );</code></pre>\n"
   syntax:
     content: 'public class WorkflowTrigger : Carrier'
-    content.vb: Public Class WorkflowTrigger Inherits Carrier
+    content.vb: >-
+      Public Class WorkflowTrigger
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.WorkflowAgent
     commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
@@ -46,13 +41,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.WorkflowTrigger.#ctor
   commentId: M:SuperOffice.WebApi.Data.WorkflowTrigger.#ctor
   id: '#ctor'
@@ -64,18 +58,21 @@ items:
   nameWithType: WorkflowTrigger.WorkflowTrigger()
   fullName: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowTrigger()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public WorkflowTrigger()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.WorkflowTrigger.#ctor*
-  nameWithType.vb: WorkflowTrigger.New()
-  fullName.vb: SuperOffice.WebApi.Data.WorkflowTrigger.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowTriggerId
   commentId: P:SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowTriggerId
   id: WorkflowTriggerId
@@ -87,11 +84,13 @@ items:
   nameWithType: WorkflowTrigger.WorkflowTriggerId
   fullName: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowTriggerId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int WorkflowTriggerId { get; set; }
     parameters: []
@@ -99,6 +98,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property WorkflowTriggerId As Integer
   overload: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowTriggerId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowId
   commentId: P:SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowId
   id: WorkflowId
@@ -110,11 +117,13 @@ items:
   nameWithType: WorkflowTrigger.WorkflowId
   fullName: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The flow this trigger belongs to
-  example: []
+  summary: "\nThe flow this trigger belongs to\n"
   syntax:
     content: public virtual int WorkflowId { get; set; }
     parameters: []
@@ -122,6 +131,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property WorkflowId As Integer
   overload: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
   commentId: P:SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
   id: TriggerType_String
@@ -133,36 +150,29 @@ items:
   nameWithType: WorkflowTrigger.TriggerType_String
   fullName: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The workflow trigger type
-
-    Raw string enum value.
-  example: []
+  summary: "\nThe workflow trigger type\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("TriggerType")]
-
-      public string TriggerType_String { get; set; }
+    content: public string TriggerType_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("TriggerType")>
-
-      Public Property TriggerType_String As String
+    content.vb: Public Property TriggerType_String As String
   overload: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
     commentId: P:SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: TriggerType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
   commentId: P:SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
   id: TriggerType
@@ -174,34 +184,29 @@ items:
   nameWithType: WorkflowTrigger.TriggerType
   fullName: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The workflow trigger type
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nThe workflow trigger type\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public WorkflowTriggerType? TriggerType { get; set; }
+    content: public Nullable<WorkflowTriggerType> TriggerType { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.WorkflowTriggerType}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property TriggerType As WorkflowTriggerType?
+    content.vb: Public Property TriggerType As Nullable(Of WorkflowTriggerType)
   overload: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType*
   seealso:
   - linkId: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
     commentId: P:SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.WorkflowTrigger.RestrictionGroups
   commentId: P:SuperOffice.WebApi.Data.WorkflowTrigger.RestrictionGroups
   id: RestrictionGroups
@@ -213,11 +218,13 @@ items:
   nameWithType: WorkflowTrigger.RestrictionGroups
   fullName: SuperOffice.WebApi.Data.WorkflowTrigger.RestrictionGroups
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The restrictions (can be multiple groups) that make up the Workflow trigger criteria
-  example: []
+  summary: "\nThe restrictions (can be multiple groups) that make up the Workflow trigger criteria\n"
   syntax:
     content: public virtual ArchiveRestrictionGroup[] RestrictionGroups { get; set; }
     parameters: []
@@ -225,67 +232,32 @@ items:
       type: SuperOffice.WebApi.Data.ArchiveRestrictionGroup[]
     content.vb: Public Overridable Property RestrictionGroups As ArchiveRestrictionGroup()
   overload: SuperOffice.WebApi.Data.WorkflowTrigger.RestrictionGroups*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.WorkflowAgent
-  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.WorkflowAgent.html
-  name: WorkflowAgent
-  nameWithType: WorkflowAgent
-  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -293,7 +265,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -301,250 +272,30 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.WorkflowAgent
+  commentId: T:SuperOffice.WebApi.Agents.WorkflowAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.WebApi.Agents.WorkflowAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.WorkflowTrigger.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowTrigger.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowTrigger.html#SuperOffice_WebApi_Data_WorkflowTrigger__ctor
   name: WorkflowTrigger
   nameWithType: WorkflowTrigger.WorkflowTrigger
   fullName: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowTrigger
-  nameWithType.vb: WorkflowTrigger.New
-  fullName.vb: SuperOffice.WebApi.Data.WorkflowTrigger.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowTriggerId*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowTriggerId
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowTrigger.html#SuperOffice_WebApi_Data_WorkflowTrigger_WorkflowTriggerId
   name: WorkflowTriggerId
   nameWithType: WorkflowTrigger.WorkflowTriggerId
   fullName: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowTriggerId
@@ -552,117 +303,129 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowId*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowId
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowTrigger.html#SuperOffice_WebApi_Data_WorkflowTrigger_WorkflowId
   name: WorkflowId
   nameWithType: WorkflowTrigger.WorkflowId
   fullName: SuperOffice.WebApi.Data.WorkflowTrigger.WorkflowId
-- uid: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
-  commentId: P:SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowTrigger.html#SuperOffice_WebApi_Data_WorkflowTrigger_TriggerType
-  name: TriggerType
-  nameWithType: WorkflowTrigger.TriggerType
-  fullName: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
 - uid: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowTrigger.html#SuperOffice_WebApi_Data_WorkflowTrigger_TriggerType_String
   name: TriggerType_String
   nameWithType: WorkflowTrigger.TriggerType_String
   fullName: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
+- uid: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
+  commentId: P:SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
+  isExternal: true
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
-  commentId: P:SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
-  isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowTrigger.html#SuperOffice_WebApi_Data_WorkflowTrigger_TriggerType_String
-  name: TriggerType_String
-  nameWithType: WorkflowTrigger.TriggerType_String
-  fullName: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowTrigger.html#SuperOffice_WebApi_Data_WorkflowTrigger_TriggerType
   name: TriggerType
   nameWithType: WorkflowTrigger.TriggerType
   fullName: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType
-- uid: System.Nullable{SuperOffice.WebApi.Data.WorkflowTriggerType}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.WorkflowTriggerType}
-  parent: System
-  definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.WorkflowTriggerType.html
-  name: WorkflowTriggerType?
-  nameWithType: WorkflowTriggerType?
-  fullName: SuperOffice.WebApi.Data.WorkflowTriggerType?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.WorkflowTriggerType
-    name: WorkflowTriggerType
-    isExternal: true
-    href: SuperOffice.WebApi.Data.WorkflowTriggerType.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.WorkflowTriggerType
-    name: WorkflowTriggerType
-    isExternal: true
-    href: SuperOffice.WebApi.Data.WorkflowTriggerType.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
+- uid: SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
+  commentId: P:SuperOffice.WebApi.Data.WorkflowTrigger.TriggerType_String
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+- uid: System.Nullable{SuperOffice.WebApi.Data.WorkflowTriggerType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.WorkflowTriggerType}'
+  definition: System.Nullable`1
+  name: Nullable<WorkflowTriggerType>
+  nameWithType: Nullable<WorkflowTriggerType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.WorkflowTriggerType>
+  nameWithType.vb: Nullable(Of WorkflowTriggerType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.WorkflowTriggerType)
+  name.vb: Nullable(Of WorkflowTriggerType)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.WorkflowTriggerType
+    name: WorkflowTriggerType
+    nameWithType: WorkflowTriggerType
+    fullName: SuperOffice.WebApi.Data.WorkflowTriggerType
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.WorkflowTriggerType
+    name: WorkflowTriggerType
+    nameWithType: WorkflowTriggerType
+    fullName: SuperOffice.WebApi.Data.WorkflowTriggerType
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.WorkflowTrigger.RestrictionGroups*
   commentId: Overload:SuperOffice.WebApi.Data.WorkflowTrigger.RestrictionGroups
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowTrigger.html#SuperOffice_WebApi_Data_WorkflowTrigger_RestrictionGroups
   name: RestrictionGroups
   nameWithType: WorkflowTrigger.RestrictionGroups
   fullName: SuperOffice.WebApi.Data.WorkflowTrigger.RestrictionGroups
 - uid: SuperOffice.WebApi.Data.ArchiveRestrictionGroup[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.ArchiveRestrictionGroup.html
   name: ArchiveRestrictionGroup[]
   nameWithType: ArchiveRestrictionGroup[]
   fullName: SuperOffice.WebApi.Data.ArchiveRestrictionGroup[]
@@ -672,14 +435,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
     name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
     isExternal: true
-    href: SuperOffice.WebApi.Data.ArchiveRestrictionGroup.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
     name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionGroup
     isExternal: true
-    href: SuperOffice.WebApi.Data.ArchiveRestrictionGroup.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -15,48 +15,38 @@ items:
   name: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>
   nameWithType: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>
   fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>
-  type: Delegate
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: >-
-    Delegate for the <xref href="SuperOffice.Util.CollectionOps.CreateDictionaryFromArray%60%602(%60%601%5b%5d%2cSuperOffice.Util.CollectionOps.GetKeyFromValueItem%7b%60%600%2c%60%601%7d)" data-throw-if-not-resolved="false"></xref> methods, whose task is to extract whatever is the
-
-    key from the given item
-  example: []
+  summary: "\nDelegate for the <xref href=\"SuperOffice.Util.CollectionOps.CreateDictionaryFromArray%60%602(%60%601%5b%5d%2cSuperOffice.Util.CollectionOps.GetKeyFromValueItem%7b%60%600%2c%60%601%7d)\" data-throw-if-not-resolved=\"false\"></xref> methods, whose task is to extract whatever is the\nkey from the given item\n"
   syntax:
-    content: >-
-      [Obsolete("This delegate is obsolete and will be removed in a future version.", false)]
-
-      public delegate KeyType CollectionOps.GetKeyFromValueItem<KeyType, ValueType>(ValueType item)
-    parameters:
-    - id: item
-      type: '{ValueType}'
-      description: Item to extract key from
+    content: 'public sealed class GetKeyFromValueItem<KeyType, ValueType> : MulticastDelegate'
     typeParameters:
     - id: KeyType
       description: Type to return as key
     - id: ValueType
       description: Value type, same as the incoming item type
-    return:
-      type: '{KeyType}'
-      description: Item of type KeyType
     content.vb: >-
-      <Obsolete("This delegate is obsolete and will be removed in a future version.", False)>
-
-      Public Delegate Function CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)(item As ValueType) As KeyType
+      Public NotInheritable Class GetKeyFromValueItem(Of KeyType, ValueType)
+          Inherits MulticastDelegate
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.EnumUtil.MapEnums``2
   - SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: This delegate is obsolete and will be removed in a future version.
-    - type: System.Boolean
-      value: false
   nameWithType.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
   fullName.vb: SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)
   name.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType)
 - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.#ctor(System.Object,System.IntPtr)
@@ -66,25 +56,31 @@ items:
   langs:
   - csharp
   - vb
-  name: GetKeyFromValueItem(object, IntPtr)
-  nameWithType: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.GetKeyFromValueItem(object, IntPtr)
-  fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.GetKeyFromValueItem(object, System.IntPtr)
+  name: GetKeyFromValueItem(Object, IntPtr)
+  nameWithType: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.GetKeyFromValueItem(Object, IntPtr)
+  fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.GetKeyFromValueItem(System.Object, System.IntPtr)
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: public GetKeyFromValueItem(object @object, IntPtr method)
+    content: public GetKeyFromValueItem(object object, IntPtr method)
     parameters:
     - id: object
       type: System.Object
     - id: method
       type: System.IntPtr
-    content.vb: Public Sub New([object] As Object, method As IntPtr)
+    content.vb: Public Sub New(object As Object, method As IntPtr)
   overload: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.#ctor*
-  nameWithType.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).New(Object, IntPtr)
-  fullName.vb: SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).New(Object, System.IntPtr)
-  name.vb: New(Object, IntPtr)
+  nameWithType.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).GetKeyFromValueItem(Object, IntPtr)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).GetKeyFromValueItem(System.Object, System.IntPtr)
 - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.Invoke(`1)
   commentId: M:SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.Invoke(`1)
   id: Invoke(`1)
@@ -96,6 +92,9 @@ items:
   nameWithType: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.Invoke(ValueType)
   fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.Invoke(ValueType)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -109,6 +108,12 @@ items:
     content.vb: Public Overridable Function Invoke(item As ValueType) As KeyType
   overload: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.Invoke*
   nameWithType.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).Invoke(ValueType)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
   fullName.vb: SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).Invoke(ValueType)
 - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.BeginInvoke(`1,System.AsyncCallback,System.Object)
   commentId: M:SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.BeginInvoke(`1,System.AsyncCallback,System.Object)
@@ -117,15 +122,18 @@ items:
   langs:
   - csharp
   - vb
-  name: BeginInvoke(ValueType, AsyncCallback, object)
-  nameWithType: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.BeginInvoke(ValueType, AsyncCallback, object)
-  fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.BeginInvoke(ValueType, System.AsyncCallback, object)
+  name: BeginInvoke(ValueType, AsyncCallback, Object)
+  nameWithType: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.BeginInvoke(ValueType, AsyncCallback, Object)
+  fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.BeginInvoke(ValueType, System.AsyncCallback, System.Object)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
   syntax:
-    content: public virtual IAsyncResult BeginInvoke(ValueType item, AsyncCallback callback, object @object)
+    content: public virtual IAsyncResult BeginInvoke(ValueType item, AsyncCallback callback, object object)
     parameters:
     - id: item
       type: '{ValueType}'
@@ -135,11 +143,16 @@ items:
       type: System.Object
     return:
       type: System.IAsyncResult
-    content.vb: Public Overridable Function BeginInvoke(item As ValueType, callback As AsyncCallback, [object] As Object) As IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(item As ValueType, callback As AsyncCallback, object As Object) As IAsyncResult
   overload: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.BeginInvoke*
   nameWithType.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).BeginInvoke(ValueType, AsyncCallback, Object)
-  fullName.vb: SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).BeginInvoke(ValueType, System.AsyncCallback, Object)
-  name.vb: BeginInvoke(ValueType, AsyncCallback, Object)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).BeginInvoke(ValueType, System.AsyncCallback, System.Object)
 - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.EndInvoke(System.IAsyncResult)
   commentId: M:SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.EndInvoke(System.IAsyncResult)
   id: EndInvoke(System.IAsyncResult)
@@ -151,6 +164,9 @@ items:
   nameWithType: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.EndInvoke(IAsyncResult)
   fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.EndInvoke(System.IAsyncResult)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -164,267 +180,221 @@ items:
     content.vb: Public Overridable Function EndInvoke(result As IAsyncResult) As KeyType
   overload: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.EndInvoke*
   nameWithType.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).EndInvoke(IAsyncResult)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
   fullName.vb: SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).EndInvoke(System.IAsyncResult)
 references:
-- uid: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray``2(``1[],SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1})
-  commentId: M:SuperOffice.Util.CollectionOps.CreateDictionaryFromArray``2(``1[],SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1})
-  isExternal: true
-  href: SuperOffice.Util.CollectionOps.html#SuperOffice_Util_CollectionOps_CreateDictionaryFromArray__2___1___SuperOffice_Util_CollectionOps_GetKeyFromValueItem___0___1__
-  name: CreateDictionaryFromArray<KeyType, ValueType>(ValueType[], GetKeyFromValueItem<KeyType, ValueType>)
-  nameWithType: CollectionOps.CreateDictionaryFromArray<KeyType, ValueType>(ValueType[], CollectionOps.GetKeyFromValueItem<KeyType, ValueType>)
-  fullName: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray<KeyType, ValueType>(ValueType[], SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>)
-  nameWithType.vb: CollectionOps.CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
-  fullName.vb: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
-  name.vb: CreateDictionaryFromArray(Of KeyType, ValueType)(ValueType(), GetKeyFromValueItem(Of KeyType, ValueType))
-  spec.csharp:
-  - uid: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray``2(``1[],SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1})
-    name: CreateDictionaryFromArray
-    isExternal: true
-    href: SuperOffice.Util.CollectionOps.html#SuperOffice_Util_CollectionOps_CreateDictionaryFromArray__2___1___SuperOffice_Util_CollectionOps_GetKeyFromValueItem___0___1__
-  - name: <
-  - name: KeyType
-  - name: ','
-  - name: " "
-  - name: ValueType
-  - name: '>'
-  - name: (
-  - name: ValueType
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
-    name: GetKeyFromValueItem
-    isExternal: true
-    href: SuperOffice.Util.CollectionOps.GetKeyFromValueItem-2.html
-  - name: <
-  - name: KeyType
-  - name: ','
-  - name: " "
-  - name: ValueType
-  - name: '>'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.CollectionOps.CreateDictionaryFromArray``2(``1[],SuperOffice.Util.CollectionOps.GetKeyFromValueItem{``0,``1})
-    name: CreateDictionaryFromArray
-    isExternal: true
-    href: SuperOffice.Util.CollectionOps.html#SuperOffice_Util_CollectionOps_CreateDictionaryFromArray__2___1___SuperOffice_Util_CollectionOps_GetKeyFromValueItem___0___1__
-  - name: (
-  - name: Of
-  - name: " "
-  - name: KeyType
-  - name: ','
-  - name: " "
-  - name: ValueType
-  - name: )
-  - name: (
-  - name: ValueType
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
-    name: GetKeyFromValueItem
-    isExternal: true
-    href: SuperOffice.Util.CollectionOps.GetKeyFromValueItem-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: KeyType
-  - name: ','
-  - name: " "
-  - name: ValueType
-  - name: )
-  - name: )
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<GetKeyFromValueItem<KeyType, ValueType>, To>(GetKeyFromValueItem<KeyType, ValueType>)
-  nameWithType: EnumUtil.MapEnums<CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, To>(CollectionOps.GetKeyFromValueItem<KeyType, ValueType>)
-  fullName: EnumUtil.MapEnums<SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, To>(SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>)
-  nameWithType.vb: EnumUtil.MapEnums(Of CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), To)(CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), To)(SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
-  name.vb: MapEnums(Of GetKeyFromValueItem(Of KeyType, ValueType), To)(GetKeyFromValueItem(Of KeyType, ValueType))
+  name: MapEnums<CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, To>()
+  nameWithType: EnumUtil.MapEnums<CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), To)()
+  name.vb: MapEnums(Of CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.CollectionOps.GetKeyFromValueItem{`0,`1})
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, To>
+    nameWithType: EnumUtil.MapEnums<CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
-    name: GetKeyFromValueItem
-    isExternal: true
-    href: SuperOffice.Util.CollectionOps.GetKeyFromValueItem-2.html
-  - name: <
-  - name: KeyType
-  - name: ','
-  - name: " "
-  - name: ValueType
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
-    name: GetKeyFromValueItem
-    isExternal: true
-    href: SuperOffice.Util.CollectionOps.GetKeyFromValueItem-2.html
-  - name: <
-  - name: KeyType
-  - name: ','
-  - name: " "
-  - name: ValueType
-  - name: '>'
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.CollectionOps.GetKeyFromValueItem{`0,`1})
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), To)
+    nameWithType: EnumUtil.MapEnums(Of CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
-    name: GetKeyFromValueItem
-    isExternal: true
-    href: SuperOffice.Util.CollectionOps.GetKeyFromValueItem-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: KeyType
-  - name: ','
-  - name: " "
-  - name: ValueType
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
-    name: GetKeyFromValueItem
-    isExternal: true
-    href: SuperOffice.Util.CollectionOps.GetKeyFromValueItem-2.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: KeyType
-  - name: ','
-  - name: " "
-  - name: ValueType
-  - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<GetKeyFromValueItem<KeyType, ValueType>, To>(GetKeyFromValueItem<KeyType, ValueType>)
-  nameWithType: Converters.MapEnums<CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, To>(CollectionOps.GetKeyFromValueItem<KeyType, ValueType>)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, To>(SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>)
-  nameWithType.vb: Converters.MapEnums(Of CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), To)(CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), To)(SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType))
-  name.vb: MapEnums(Of GetKeyFromValueItem(Of KeyType, ValueType), To)(GetKeyFromValueItem(Of KeyType, ValueType))
+  name: MapEnums<CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, To>()
+  nameWithType: Converters.MapEnums<CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, To>()
+  nameWithType.vb: Converters.MapEnums(Of CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), To)()
+  name.vb: MapEnums(Of CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.CollectionOps.GetKeyFromValueItem{`0,`1})
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, To>
+    nameWithType: Converters.MapEnums<CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
-    name: GetKeyFromValueItem
-    isExternal: true
-    href: SuperOffice.Util.CollectionOps.GetKeyFromValueItem-2.html
-  - name: <
-  - name: KeyType
-  - name: ','
-  - name: " "
-  - name: ValueType
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
-    name: GetKeyFromValueItem
-    isExternal: true
-    href: SuperOffice.Util.CollectionOps.GetKeyFromValueItem-2.html
-  - name: <
-  - name: KeyType
-  - name: ','
-  - name: " "
-  - name: ValueType
-  - name: '>'
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.CollectionOps.GetKeyFromValueItem{`0,`1})
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), To)
+    nameWithType: Converters.MapEnums(Of CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType), To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
-    name: GetKeyFromValueItem
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.Util.CollectionOps.GetKeyFromValueItem-2.html
   - name: (
-  - name: Of
-  - name: " "
-  - name: KeyType
-  - name: ','
-  - name: " "
-  - name: ValueType
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2
-    name: GetKeyFromValueItem
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.Util.CollectionOps.GetKeyFromValueItem-2.html
   - name: (
-  - name: Of
-  - name: " "
-  - name: KeyType
-  - name: ','
-  - name: " "
-  - name: ValueType
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.#ctor*
+  commentId: Overload:SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.#ctor
+  isExternal: true
+  name: GetKeyFromValueItem
+  nameWithType: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.GetKeyFromValueItem
+  fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.GetKeyFromValueItem
+  nameWithType.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).GetKeyFromValueItem
+  fullName.vb: SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).GetKeyFromValueItem
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.Invoke*
+  commentId: Overload:SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.Invoke
+  fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.Invoke
+  nameWithType.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).Invoke
+  fullName.vb: SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).Invoke
 - uid: '{ValueType}'
   commentId: '!:ValueType'
   definition: ValueType
@@ -437,101 +407,6 @@ references:
   name: KeyType
   nameWithType: KeyType
   fullName: KeyType
-- uid: EnumUtil.MapEnums``2(``0)
-  commentId: M:EnumUtil.MapEnums``2(``0)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: EnumUtil.MapEnums<From, To>(From)
-  fullName: EnumUtil.MapEnums<From, To>(From)
-  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
-  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: EnumUtil
-  commentId: T:EnumUtil
-  isExternal: true
-  href: EnumUtil.html
-  name: EnumUtil
-  nameWithType: EnumUtil
-  fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: ValueType
   name: ValueType
   nameWithType: ValueType
@@ -540,117 +415,27 @@ references:
   name: KeyType
   nameWithType: KeyType
   fullName: KeyType
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.#ctor*
-  commentId: Overload:SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.#ctor
-  isExternal: true
-  href: SuperOffice.Util.CollectionOps.GetKeyFromValueItem-2.html#SuperOffice_Util_CollectionOps_GetKeyFromValueItem_2__ctor_System_Object_System_IntPtr_
-  name: GetKeyFromValueItem
-  nameWithType: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.GetKeyFromValueItem
-  fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.GetKeyFromValueItem
-  nameWithType.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).New
-  fullName.vb: SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).New
-  name.vb: New
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.IntPtr
-  commentId: T:System.IntPtr
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.intptr
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.Invoke*
-  commentId: Overload:SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.Invoke
-  isExternal: true
-  href: SuperOffice.Util.CollectionOps.GetKeyFromValueItem-2.html#SuperOffice_Util_CollectionOps_GetKeyFromValueItem_2_Invoke__1_
-  name: Invoke
-  nameWithType: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.Invoke
-  fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.Invoke
-  nameWithType.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).Invoke
-  fullName.vb: SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).Invoke
 - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.BeginInvoke*
   commentId: Overload:SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.BeginInvoke
   isExternal: true
-  href: SuperOffice.Util.CollectionOps.GetKeyFromValueItem-2.html#SuperOffice_Util_CollectionOps_GetKeyFromValueItem_2_BeginInvoke__1_System_AsyncCallback_System_Object_
   name: BeginInvoke
   nameWithType: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.BeginInvoke
   fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.BeginInvoke
   nameWithType.vb: CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).BeginInvoke
   fullName.vb: SuperOffice.Util.CollectionOps.GetKeyFromValueItem(Of KeyType, ValueType).BeginInvoke
 - uid: System.AsyncCallback
-  commentId: T:System.AsyncCallback
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.asynccallback
   name: AsyncCallback
   nameWithType: AsyncCallback
   fullName: System.AsyncCallback
 - uid: System.IAsyncResult
-  commentId: T:System.IAsyncResult
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.iasyncresult
   name: IAsyncResult
   nameWithType: IAsyncResult
   fullName: System.IAsyncResult
 - uid: SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.EndInvoke*
   commentId: Overload:SuperOffice.Util.CollectionOps.GetKeyFromValueItem`2.EndInvoke
   isExternal: true
-  href: SuperOffice.Util.CollectionOps.GetKeyFromValueItem-2.html#SuperOffice_Util_CollectionOps_GetKeyFromValueItem_2_EndInvoke_System_IAsyncResult_
   name: EndInvoke
   nameWithType: CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.EndInvoke
   fullName: SuperOffice.Util.CollectionOps.GetKeyFromValueItem<KeyType, ValueType>.EndInvoke

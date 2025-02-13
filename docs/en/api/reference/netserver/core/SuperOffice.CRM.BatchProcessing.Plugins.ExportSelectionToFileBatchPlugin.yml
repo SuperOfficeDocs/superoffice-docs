@@ -16,6 +16,9 @@ items:
   nameWithType: ExportSelectionToFileBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
   type: Class
+  source:
+    path: SoBatchProcessing
+    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing.Plugins
@@ -23,11 +26,13 @@ items:
     content: >-
       [BatchTask("ExportSelectionToFileBatchPlugin", ManualCleanup = true)]
 
-      public class ExportSelectionToFileBatchPlugin : BatchTaskBase, IBatchTask
+      public class ExportSelectionToFileBatchPlugin : BatchTaskBase, IBatchTask, IPlugin
     content.vb: >-
       <BatchTask("ExportSelectionToFileBatchPlugin", ManualCleanup:=True)>
 
-      Public Class ExportSelectionToFileBatchPlugin Inherits BatchTaskBase Implements IBatchTask
+      Public Class ExportSelectionToFileBatchPlugin
+          Inherits BatchTaskBase
+          Implements IBatchTask, IPlugin
   inheritance:
   - System.Object
   - SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
@@ -50,18 +55,11 @@ items:
   - SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Context
   - SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Result
   - SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.State
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
   - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
   - type: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute
     ctor: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.#ctor(System.String)
@@ -72,6 +70,12 @@ items:
     - name: ManualCleanup
       type: System.Boolean
       value: true
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.PluginName
   commentId: F:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.PluginName
   id: PluginName
@@ -83,6 +87,9 @@ items:
   nameWithType: ExportSelectionToFileBatchPlugin.PluginName
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.PluginName
   type: Field
+  source:
+    path: SoBatchProcessing
+    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing.Plugins
@@ -91,6 +98,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const PluginName As String = "ExportSelectionToFileBatchPlugin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.Run(System.String,System.String)
   commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.Run(System.String,System.String)
   id: Run(System.String,System.String)
@@ -98,34 +111,34 @@ items:
   langs:
   - csharp
   - vb
-  name: Run(string, string)
-  nameWithType: ExportSelectionToFileBatchPlugin.Run(string, string)
-  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.Run(string, string)
+  name: Run(String, String)
+  nameWithType: ExportSelectionToFileBatchPlugin.Run(String, String)
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.Run(System.String, System.String)
   type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing.Plugins
-  summary: Run the task.
-  remarks: Call <xref href="SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SetResult(System.String)" data-throw-if-not-resolved="false"></xref> as needed.
-  example: []
   syntax:
     content: protected override bool Run(string name, string context)
     parameters:
     - id: name
       type: System.String
-      description: Name of the task.
     - id: context
       type: System.String
-      description: Context for the task.
     return:
       type: System.Boolean
-      description: True if the task succeeded.
     content.vb: Protected Overrides Function Run(name As String, context As String) As Boolean
   overridden: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Run(System.String,System.String)
   overload: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.Run*
-  nameWithType.vb: ExportSelectionToFileBatchPlugin.Run(String, String)
-  fullName.vb: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.Run(String, String)
-  name.vb: Run(String, String)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.ExportSelectionMembersEnumerator(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.String)
   commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.ExportSelectionMembersEnumerator(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.String)
   id: ExportSelectionMembersEnumerator(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.String)
@@ -133,24 +146,24 @@ items:
   langs:
   - csharp
   - vb
-  name: ExportSelectionMembersEnumerator(int, string, string, int, bool, string)
-  nameWithType: ExportSelectionToFileBatchPlugin.ExportSelectionMembersEnumerator(int, string, string, int, bool, string)
-  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.ExportSelectionMembersEnumerator(int, string, string, int, bool, string)
+  name: ExportSelectionMembersEnumerator(Int32, String, String, Int32, Boolean, String)
+  nameWithType: ExportSelectionToFileBatchPlugin.ExportSelectionMembersEnumerator(Int32, String, String, Int32, Boolean, String)
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.ExportSelectionMembersEnumerator(System.Int32, System.String, System.String, System.Int32, System.Boolean, System.String)
   type: Method
+  source:
+    path: SoBatchProcessing
+    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing.Plugins
-  summary: Iterate through the selection members and yield every line back to the caller.
-  example: []
+  summary: "\nIterate through the selection members and yield every line back to the caller.\n"
   syntax:
     content: public IEnumerable<string> ExportSelectionMembersEnumerator(int selectionId, string templateName, string cultureName, int targetTableNumber, bool useContacts, string orderBy = null)
     parameters:
     - id: selectionId
       type: System.Int32
-      description: ''
     - id: templateName
       type: System.String
-      description: ''
     - id: cultureName
       type: System.String
       description: Not in use
@@ -162,12 +175,12 @@ items:
       type: System.String
     return:
       type: System.Collections.Generic.IEnumerable{System.String}
-      description: ''
     content.vb: Public Function ExportSelectionMembersEnumerator(selectionId As Integer, templateName As String, cultureName As String, targetTableNumber As Integer, useContacts As Boolean, orderBy As String = Nothing) As IEnumerable(Of String)
   overload: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.ExportSelectionMembersEnumerator*
-  nameWithType.vb: ExportSelectionToFileBatchPlugin.ExportSelectionMembersEnumerator(Integer, String, String, Integer, Boolean, String)
-  fullName.vb: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.ExportSelectionMembersEnumerator(Integer, String, String, Integer, Boolean, String)
-  name.vb: ExportSelectionMembersEnumerator(Integer, String, String, Integer, Boolean, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.#ctor
   commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.#ctor
   id: '#ctor'
@@ -179,80 +192,38 @@ items:
   nameWithType: ExportSelectionToFileBatchPlugin.ExportSelectionToFileBatchPlugin()
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.ExportSelectionToFileBatchPlugin()
   type: Constructor
+  source:
+    path: SoBatchProcessing
+    isExternal: true
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing.Plugins
   syntax:
     content: public ExportSelectionToFileBatchPlugin()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.#ctor*
-  nameWithType.vb: ExportSelectionToFileBatchPlugin.New()
-  fullName.vb: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.BatchProcessing.Plugins
   commentId: N:SuperOffice.CRM.BatchProcessing.Plugins
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.BatchProcessing.Plugins
   nameWithType: SuperOffice.CRM.BatchProcessing.Plugins
   fullName: SuperOffice.CRM.BatchProcessing.Plugins
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BatchProcessing
-    name: BatchProcessing
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.html
-  - name: .
-  - uid: SuperOffice.CRM.BatchProcessing.Plugins
-    name: Plugins
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Plugins.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BatchProcessing
-    name: BatchProcessing
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.html
-  - name: .
-  - uid: SuperOffice.CRM.BatchProcessing.Plugins
-    name: Plugins
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Plugins.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
   commentId: T:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
   parent: SuperOffice.CRM.BatchProcessing.Tasks
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html
   name: BatchTaskBase
   nameWithType: BatchTaskBase
   fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
@@ -260,7 +231,6 @@ references:
   commentId: T:SuperOffice.CRM.BatchProcessing.IBatchTask
   parent: SuperOffice.CRM.BatchProcessing
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.IBatchTask.html
   name: IBatchTask
   nameWithType: IBatchTask
   fullName: SuperOffice.CRM.BatchProcessing.IBatchTask
@@ -268,7 +238,6 @@ references:
   commentId: F:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase._isEnding
   parent: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase__isEnding
   name: _isEnding
   nameWithType: BatchTaskBase._isEnding
   fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase._isEnding
@@ -276,7 +245,6 @@ references:
   commentId: F:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase._statusUpdateInterval
   parent: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase__statusUpdateInterval
   name: _statusUpdateInterval
   nameWithType: BatchTaskBase._statusUpdateInterval
   fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase._statusUpdateInterval
@@ -284,358 +252,464 @@ references:
   commentId: M:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.StartTask(System.Int32,System.String,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
   parent: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_StartTask_System_Int32_System_String_System_String_SuperOffice_CRM_BatchProcessing_BatchTaskStatusChanged_
-  name: StartTask(int, string, string, BatchTaskStatusChanged)
-  nameWithType: BatchTaskBase.StartTask(int, string, string, BatchTaskStatusChanged)
-  fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.StartTask(int, string, string, SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
-  nameWithType.vb: BatchTaskBase.StartTask(Integer, String, String, BatchTaskStatusChanged)
-  fullName.vb: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.StartTask(Integer, String, String, SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
-  name.vb: StartTask(Integer, String, String, BatchTaskStatusChanged)
+  name: StartTask(Int32, String, String, BatchTaskStatusChanged)
+  nameWithType: BatchTaskBase.StartTask(Int32, String, String, BatchTaskStatusChanged)
+  fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.StartTask(System.Int32, System.String, System.String, SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
   spec.csharp:
   - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.StartTask(System.Int32,System.String,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
     name: StartTask
+    nameWithType: BatchTaskBase.StartTask
+    fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.StartTask
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_StartTask_System_Int32_System_String_System_String_SuperOffice_CRM_BatchProcessing_BatchTaskStatusChanged_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
     name: BatchTaskStatusChanged
+    nameWithType: BatchTaskStatusChanged
+    fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.StartTask(System.Int32,System.String,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
     name: StartTask
+    nameWithType: BatchTaskBase.StartTask
+    fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.StartTask
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_StartTask_System_Int32_System_String_System_String_SuperOffice_CRM_BatchProcessing_BatchTaskStatusChanged_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
     name: BatchTaskStatusChanged
+    nameWithType: BatchTaskStatusChanged
+    fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.StartTask(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
   commentId: M:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.StartTask(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
   parent: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_StartTask_SuperOffice_CRM_Services_BatchTaskInfo_System_String_SuperOffice_CRM_BatchProcessing_BatchTaskStatusChanged_
-  name: StartTask(BatchTaskInfo, string, BatchTaskStatusChanged)
-  nameWithType: BatchTaskBase.StartTask(BatchTaskInfo, string, BatchTaskStatusChanged)
-  fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.StartTask(SuperOffice.CRM.Services.BatchTaskInfo, string, SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
-  nameWithType.vb: BatchTaskBase.StartTask(BatchTaskInfo, String, BatchTaskStatusChanged)
-  fullName.vb: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.StartTask(SuperOffice.CRM.Services.BatchTaskInfo, String, SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
-  name.vb: StartTask(BatchTaskInfo, String, BatchTaskStatusChanged)
+  name: StartTask(BatchTaskInfo, String, BatchTaskStatusChanged)
+  nameWithType: BatchTaskBase.StartTask(BatchTaskInfo, String, BatchTaskStatusChanged)
+  fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.StartTask(SuperOffice.CRM.Services.BatchTaskInfo, System.String, SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
   spec.csharp:
   - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.StartTask(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
     name: StartTask
+    nameWithType: BatchTaskBase.StartTask
+    fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.StartTask
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_StartTask_SuperOffice_CRM_Services_BatchTaskInfo_System_String_SuperOffice_CRM_BatchProcessing_BatchTaskStatusChanged_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.BatchTaskInfo
     name: BatchTaskInfo
+    nameWithType: BatchTaskInfo
+    fullName: SuperOffice.CRM.Services.BatchTaskInfo
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
     name: BatchTaskStatusChanged
+    nameWithType: BatchTaskStatusChanged
+    fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.StartTask(SuperOffice.CRM.Services.BatchTaskInfo,System.String,SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged)
     name: StartTask
+    nameWithType: BatchTaskBase.StartTask
+    fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.StartTask
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_StartTask_SuperOffice_CRM_Services_BatchTaskInfo_System_String_SuperOffice_CRM_BatchProcessing_BatchTaskStatusChanged_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.BatchTaskInfo
     name: BatchTaskInfo
+    nameWithType: BatchTaskInfo
+    fullName: SuperOffice.CRM.Services.BatchTaskInfo
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
     name: BatchTaskStatusChanged
+    nameWithType: BatchTaskStatusChanged
+    fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.GetTaskInfo
   commentId: M:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.GetTaskInfo
   parent: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_GetTaskInfo
   name: GetTaskInfo()
   nameWithType: BatchTaskBase.GetTaskInfo()
   fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.GetTaskInfo()
   spec.csharp:
   - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.GetTaskInfo
     name: GetTaskInfo
+    nameWithType: BatchTaskBase.GetTaskInfo
+    fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.GetTaskInfo
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_GetTaskInfo
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.GetTaskInfo
     name: GetTaskInfo
+    nameWithType: BatchTaskBase.GetTaskInfo
+    fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.GetTaskInfo
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_GetTaskInfo
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.EndTask
   commentId: M:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.EndTask
   parent: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_EndTask
   name: EndTask()
   nameWithType: BatchTaskBase.EndTask()
   fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.EndTask()
   spec.csharp:
   - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.EndTask
     name: EndTask
+    nameWithType: BatchTaskBase.EndTask
+    fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.EndTask
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_EndTask
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.EndTask
     name: EndTask
+    nameWithType: BatchTaskBase.EndTask
+    fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.EndTask
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_EndTask
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.ProgressCallback(System.Int32,System.Int32,System.Boolean@)
   commentId: M:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.ProgressCallback(System.Int32,System.Int32,System.Boolean@)
   parent: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_ProgressCallback_System_Int32_System_Int32_System_Boolean__
-  name: ProgressCallback(int, int, ref bool)
-  nameWithType: BatchTaskBase.ProgressCallback(int, int, ref bool)
-  fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.ProgressCallback(int, int, ref bool)
-  nameWithType.vb: BatchTaskBase.ProgressCallback(Integer, Integer, Boolean)
-  fullName.vb: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.ProgressCallback(Integer, Integer, Boolean)
-  name.vb: ProgressCallback(Integer, Integer, Boolean)
+  name: ProgressCallback(Int32, Int32, Boolean)
+  nameWithType: BatchTaskBase.ProgressCallback(Int32, Int32, Boolean)
+  fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.ProgressCallback(System.Int32, System.Int32, System.Boolean)
   spec.csharp:
   - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.ProgressCallback(System.Int32,System.Int32,System.Boolean@)
     name: ProgressCallback
+    nameWithType: BatchTaskBase.ProgressCallback
+    fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.ProgressCallback
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_ProgressCallback_System_Int32_System_Int32_System_Boolean__
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - name: ref
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.ProgressCallback(System.Int32,System.Int32,System.Boolean@)
     name: ProgressCallback
+    nameWithType: BatchTaskBase.ProgressCallback
+    fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.ProgressCallback
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_ProgressCallback_System_Int32_System_Int32_System_Boolean__
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SetResult(System.String)
   commentId: M:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SetResult(System.String)
   parent: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_SetResult_System_String_
-  name: SetResult(string)
-  nameWithType: BatchTaskBase.SetResult(string)
-  fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SetResult(string)
-  nameWithType.vb: BatchTaskBase.SetResult(String)
-  fullName.vb: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SetResult(String)
-  name.vb: SetResult(String)
+  name: SetResult(String)
+  nameWithType: BatchTaskBase.SetResult(String)
+  fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SetResult(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SetResult(System.String)
     name: SetResult
+    nameWithType: BatchTaskBase.SetResult
+    fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SetResult
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_SetResult_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SetResult(System.String)
     name: SetResult
+    nameWithType: BatchTaskBase.SetResult
+    fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SetResult
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_SetResult_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SaveStreamToBlob(System.IO.Stream,System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SaveStreamToBlob(System.IO.Stream,System.String,System.String,System.String)
   parent: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_SaveStreamToBlob_System_IO_Stream_System_String_System_String_System_String_
-  name: SaveStreamToBlob(Stream, string, string, string)
-  nameWithType: BatchTaskBase.SaveStreamToBlob(Stream, string, string, string)
-  fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SaveStreamToBlob(System.IO.Stream, string, string, string)
-  nameWithType.vb: BatchTaskBase.SaveStreamToBlob(Stream, String, String, String)
-  fullName.vb: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SaveStreamToBlob(System.IO.Stream, String, String, String)
-  name.vb: SaveStreamToBlob(Stream, String, String, String)
+  name: SaveStreamToBlob(Stream, String, String, String)
+  nameWithType: BatchTaskBase.SaveStreamToBlob(Stream, String, String, String)
+  fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SaveStreamToBlob(System.IO.Stream, System.String, System.String, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SaveStreamToBlob(System.IO.Stream,System.String,System.String,System.String)
     name: SaveStreamToBlob
+    nameWithType: BatchTaskBase.SaveStreamToBlob
+    fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SaveStreamToBlob
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_SaveStreamToBlob_System_IO_Stream_System_String_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.IO.Stream
     name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SaveStreamToBlob(System.IO.Stream,System.String,System.String,System.String)
     name: SaveStreamToBlob
+    nameWithType: BatchTaskBase.SaveStreamToBlob
+    fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SaveStreamToBlob
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_SaveStreamToBlob_System_IO_Stream_System_String_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.IO.Stream
     name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io.stream
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.EnsureUdefs
   commentId: M:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.EnsureUdefs
   parent: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_EnsureUdefs
   name: EnsureUdefs()
   nameWithType: BatchTaskBase.EnsureUdefs()
   fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.EnsureUdefs()
   spec.csharp:
   - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.EnsureUdefs
     name: EnsureUdefs
+    nameWithType: BatchTaskBase.EnsureUdefs
+    fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.EnsureUdefs
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_EnsureUdefs
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.EnsureUdefs
     name: EnsureUdefs
+    nameWithType: BatchTaskBase.EnsureUdefs
+    fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.EnsureUdefs
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_EnsureUdefs
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Id
   commentId: P:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Id
   parent: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_Id
   name: Id
   nameWithType: BatchTaskBase.Id
   fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Id
@@ -643,7 +717,6 @@ references:
   commentId: P:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.BatchTaskInfo
   parent: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_BatchTaskInfo
   name: BatchTaskInfo
   nameWithType: BatchTaskBase.BatchTaskInfo
   fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.BatchTaskInfo
@@ -651,7 +724,6 @@ references:
   commentId: P:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Name
   parent: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_Name
   name: Name
   nameWithType: BatchTaskBase.Name
   fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Name
@@ -659,7 +731,6 @@ references:
   commentId: P:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Context
   parent: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_Context
   name: Context
   nameWithType: BatchTaskBase.Context
   fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Context
@@ -667,7 +738,6 @@ references:
   commentId: P:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Result
   parent: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_Result
   name: Result
   nameWithType: BatchTaskBase.Result
   fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Result
@@ -675,536 +745,176 @@ references:
   commentId: P:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.State
   parent: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_State
   name: State
   nameWithType: BatchTaskBase.State
   fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.State
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ExportSelectionToFileBatchPlugin, To>(ExportSelectionToFileBatchPlugin)
-  nameWithType: EnumUtil.MapEnums<ExportSelectionToFileBatchPlugin, To>(ExportSelectionToFileBatchPlugin)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin, To>(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
-  nameWithType.vb: EnumUtil.MapEnums(Of ExportSelectionToFileBatchPlugin, To)(ExportSelectionToFileBatchPlugin)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin, To)(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
-  name.vb: MapEnums(Of ExportSelectionToFileBatchPlugin, To)(ExportSelectionToFileBatchPlugin)
+  name: MapEnums<ExportSelectionToFileBatchPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<ExportSelectionToFileBatchPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ExportSelectionToFileBatchPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin, To)()
+  name.vb: MapEnums(Of ExportSelectionToFileBatchPlugin, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ExportSelectionToFileBatchPlugin, To>
+    nameWithType: EnumUtil.MapEnums<ExportSelectionToFileBatchPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
-    name: ExportSelectionToFileBatchPlugin
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
-    name: ExportSelectionToFileBatchPlugin
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ExportSelectionToFileBatchPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of ExportSelectionToFileBatchPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
-    name: ExportSelectionToFileBatchPlugin
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
-    name: ExportSelectionToFileBatchPlugin
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html
-  - name: )
-- uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ExportSelectionToFileBatchPlugin, To>(ExportSelectionToFileBatchPlugin)
-  nameWithType: Converters.MapEnums<ExportSelectionToFileBatchPlugin, To>(ExportSelectionToFileBatchPlugin)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin, To>(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
-  nameWithType.vb: Converters.MapEnums(Of ExportSelectionToFileBatchPlugin, To)(ExportSelectionToFileBatchPlugin)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin, To)(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
-  name.vb: MapEnums(Of ExportSelectionToFileBatchPlugin, To)(ExportSelectionToFileBatchPlugin)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
-    name: ExportSelectionToFileBatchPlugin
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
-    name: ExportSelectionToFileBatchPlugin
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
-    name: ExportSelectionToFileBatchPlugin
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
-    name: ExportSelectionToFileBatchPlugin
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ExportSelectionToFileBatchPlugin>(ExportSelectionToFileBatchPlugin, ExportSelectionToFileBatchPlugin)
-  nameWithType: ObjectExtensions.AssignByReflection<ExportSelectionToFileBatchPlugin>(ExportSelectionToFileBatchPlugin, ExportSelectionToFileBatchPlugin)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin>(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin, SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ExportSelectionToFileBatchPlugin)(ExportSelectionToFileBatchPlugin, ExportSelectionToFileBatchPlugin)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin, SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
-  name.vb: AssignByReflection(Of ExportSelectionToFileBatchPlugin)(ExportSelectionToFileBatchPlugin, ExportSelectionToFileBatchPlugin)
+  name: AssignByReflection<ExportSelectionToFileBatchPlugin>(ExportSelectionToFileBatchPlugin)
+  nameWithType: ObjectExtensions.AssignByReflection<ExportSelectionToFileBatchPlugin>(ExportSelectionToFileBatchPlugin)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin>(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ExportSelectionToFileBatchPlugin)(ExportSelectionToFileBatchPlugin)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
+  name.vb: AssignByReflection(Of ExportSelectionToFileBatchPlugin)(ExportSelectionToFileBatchPlugin)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin,SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ExportSelectionToFileBatchPlugin>
+    nameWithType: ObjectExtensions.AssignByReflection<ExportSelectionToFileBatchPlugin>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
-    name: ExportSelectionToFileBatchPlugin
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
     name: ExportSelectionToFileBatchPlugin
+    nameWithType: ExportSelectionToFileBatchPlugin
+    fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
-    name: ExportSelectionToFileBatchPlugin
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin,SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ExportSelectionToFileBatchPlugin)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ExportSelectionToFileBatchPlugin)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
     name: ExportSelectionToFileBatchPlugin
+    nameWithType: ExportSelectionToFileBatchPlugin
+    fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
-    name: ExportSelectionToFileBatchPlugin
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
-    name: ExportSelectionToFileBatchPlugin
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ExportSelectionToFileBatchPlugin>(ExportSelectionToFileBatchPlugin)
-  nameWithType: ObjectExtensions.GraphCopy<ExportSelectionToFileBatchPlugin>(ExportSelectionToFileBatchPlugin)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin>(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ExportSelectionToFileBatchPlugin)(ExportSelectionToFileBatchPlugin)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
-  name.vb: GraphCopy(Of ExportSelectionToFileBatchPlugin)(ExportSelectionToFileBatchPlugin)
+  name: GraphCopy<ExportSelectionToFileBatchPlugin>()
+  nameWithType: ObjectExtensions.GraphCopy<ExportSelectionToFileBatchPlugin>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ExportSelectionToFileBatchPlugin)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)()
+  name.vb: GraphCopy(Of ExportSelectionToFileBatchPlugin)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ExportSelectionToFileBatchPlugin>
+    nameWithType: ObjectExtensions.GraphCopy<ExportSelectionToFileBatchPlugin>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
-    name: ExportSelectionToFileBatchPlugin
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
-    name: ExportSelectionToFileBatchPlugin
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ExportSelectionToFileBatchPlugin)
+    nameWithType: ObjectExtensions.GraphCopy(Of ExportSelectionToFileBatchPlugin)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
-    name: ExportSelectionToFileBatchPlugin
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ExportSelectionToFileBatchPlugin, To>()
+  nameWithType: Converters.MapEnums<ExportSelectionToFileBatchPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of ExportSelectionToFileBatchPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin, To)()
+  name.vb: MapEnums(Of ExportSelectionToFileBatchPlugin, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ExportSelectionToFileBatchPlugin, To>
+    nameWithType: Converters.MapEnums<ExportSelectionToFileBatchPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
-    name: ExportSelectionToFileBatchPlugin
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ExportSelectionToFileBatchPlugin, To)
+    nameWithType: Converters.MapEnums(Of ExportSelectionToFileBatchPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.BatchProcessing.Tasks
   commentId: N:SuperOffice.CRM.BatchProcessing.Tasks
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.BatchProcessing.Tasks
   nameWithType: SuperOffice.CRM.BatchProcessing.Tasks
   fullName: SuperOffice.CRM.BatchProcessing.Tasks
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BatchProcessing
-    name: BatchProcessing
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.html
-  - name: .
-  - uid: SuperOffice.CRM.BatchProcessing.Tasks
-    name: Tasks
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BatchProcessing
-    name: BatchProcessing
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.html
-  - name: .
-  - uid: SuperOffice.CRM.BatchProcessing.Tasks
-    name: Tasks
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.html
 - uid: SuperOffice.CRM.BatchProcessing
   commentId: N:SuperOffice.CRM.BatchProcessing
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.BatchProcessing
   nameWithType: SuperOffice.CRM.BatchProcessing
   fullName: SuperOffice.CRM.BatchProcessing
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BatchProcessing
-    name: BatchProcessing
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BatchProcessing
-    name: BatchProcessing
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1213,93 +923,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1308,46 +968,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1356,152 +1026,159 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Run(System.String,System.String)
   commentId: M:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Run(System.String,System.String)
   parent: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_Run_System_String_System_String_
-  name: Run(string, string)
-  nameWithType: BatchTaskBase.Run(string, string)
-  fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Run(string, string)
-  nameWithType.vb: BatchTaskBase.Run(String, String)
-  fullName.vb: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Run(String, String)
-  name.vb: Run(String, String)
+  name: Run(String, String)
+  nameWithType: BatchTaskBase.Run(String, String)
+  fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Run(System.String, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Run(System.String,System.String)
     name: Run
+    nameWithType: BatchTaskBase.Run
+    fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Run
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_Run_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Run(System.String,System.String)
     name: Run
+    nameWithType: BatchTaskBase.Run
+    fullName: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.Run
     isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.html#SuperOffice_CRM_BatchProcessing_Tasks_BatchTaskBase_Run_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.Run*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.Run
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html#SuperOffice_CRM_BatchProcessing_Plugins_ExportSelectionToFileBatchPlugin_Run_System_String_System_String_
   name: Run
   nameWithType: ExportSelectionToFileBatchPlugin.Run
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.Run
@@ -1509,17 +1186,12 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.ExportSelectionMembersEnumerator*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.ExportSelectionMembersEnumerator
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html#SuperOffice_CRM_BatchProcessing_Plugins_ExportSelectionToFileBatchPlugin_ExportSelectionMembersEnumerator_System_Int32_System_String_System_String_System_Int32_System_Boolean_System_String_
   name: ExportSelectionMembersEnumerator
   nameWithType: ExportSelectionToFileBatchPlugin.ExportSelectionMembersEnumerator
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.ExportSelectionMembersEnumerator
@@ -1527,120 +1199,93 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.Collections.Generic.IEnumerable{System.String}
-  commentId: T:System.Collections.Generic.IEnumerable{System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{System.String}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<string>
-  nameWithType: IEnumerable<string>
-  fullName: System.Collections.Generic.IEnumerable<string>
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
   nameWithType.vb: IEnumerable(Of String)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
   name.vb: IEnumerable(Of String)
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+    nameWithType: <
+    fullName: <
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
-  spec.csharp:
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: <
-  - name: T
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
-  - uid: System
-    name: System
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
-  - uid: System
-    name: System
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.#ctor*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.#ctor
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html#SuperOffice_CRM_BatchProcessing_Plugins_ExportSelectionToFileBatchPlugin__ctor
   name: ExportSelectionToFileBatchPlugin
   nameWithType: ExportSelectionToFileBatchPlugin.ExportSelectionToFileBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.ExportSelectionToFileBatchPlugin
-  nameWithType.vb: ExportSelectionToFileBatchPlugin.New
-  fullName.vb: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.New
-  name.vb: New

@@ -18,26 +18,29 @@ items:
   nameWithType: ISystemWebhookPlugin
   fullName: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin
   type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Webhooks
-  summary: >-
-    Webhook plugin - there is only one of these per system (as determined by the plugin priority). 
-
-    The plugin handles broadcasting the HTTP hooks to subscribing systems, and saving and storing the 
-
-    plugin info.
-
-    Plugins must be marked with the <xref href="SuperOffice.CRM.Webhooks.CustomWebhookPluginAttribute" data-throw-if-not-resolved="false"></xref> to be found by the class factory.
-  example: []
+  summary: "\nWebhook plugin - there is only one of these per system (as determined by the plugin priority). \nThe plugin handles broadcasting the HTTP hooks to subscribing systems, and saving and storing the \nplugin info.\nPlugins must be marked with the <xref href=\"SuperOffice.CRM.Webhooks.CustomWebhookPluginAttribute\" data-throw-if-not-resolved=\"false\"></xref> to be found by the class factory.\n"
   syntax:
-    content: 'public interface ISystemWebhookPlugin : ICustomWebhookPlugin'
-    content.vb: Public Interface ISystemWebhookPlugin Inherits ICustomWebhookPlugin
+    content: 'public interface ISystemWebhookPlugin : ICustomWebhookPlugin, IPlugin'
+    content.vb: >-
+      Public Interface ISystemWebhookPlugin
+          Inherits ICustomWebhookPlugin, IPlugin
   inheritedMembers:
   - SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload)
   extensionMethods:
   - SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetAllWebhooks(System.String,System.String,System.String,System.Nullable{SuperOffice.CRM.Webhooks.WebhookState})
   commentId: M:SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetAllWebhooks(System.String,System.String,System.String,System.Nullable{SuperOffice.CRM.Webhooks.WebhookState})
   id: GetAllWebhooks(System.String,System.String,System.String,System.Nullable{SuperOffice.CRM.Webhooks.WebhookState})
@@ -45,17 +48,19 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAllWebhooks(string, string, string, WebhookState?)
-  nameWithType: ISystemWebhookPlugin.GetAllWebhooks(string, string, string, WebhookState?)
-  fullName: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetAllWebhooks(string, string, string, SuperOffice.CRM.Webhooks.WebhookState?)
+  name: GetAllWebhooks(String, String, String, Nullable<WebhookState>)
+  nameWithType: ISystemWebhookPlugin.GetAllWebhooks(String, String, String, Nullable<WebhookState>)
+  fullName: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetAllWebhooks(System.String, System.String, System.String, System.Nullable<SuperOffice.CRM.Webhooks.WebhookState>)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Webhooks
-  summary: Return all the stored webhooks.
-  example: []
+  summary: "\nReturn all the stored webhooks.\n"
   syntax:
-    content: IEnumerable<Webhook> GetAllWebhooks(string name = null, string eventName = null, string appToken = null, WebhookState? state = null)
+    content: IEnumerable<Webhook> GetAllWebhooks(string name = null, string eventName = null, string appToken = null, Nullable<WebhookState> state = null)
     parameters:
     - id: name
       type: System.String
@@ -72,11 +77,11 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook}
       description: List of webhooks (that are listening to eventName)
-    content.vb: Function GetAllWebhooks(name As String = Nothing, eventName As String = Nothing, appToken As String = Nothing, state As WebhookState? = Nothing) As IEnumerable(Of Webhook)
+    content.vb: Function GetAllWebhooks(name As String = Nothing, eventName As String = Nothing, appToken As String = Nothing, state As Nullable(Of WebhookState) = Nothing) As IEnumerable(Of Webhook)
   overload: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetAllWebhooks*
-  nameWithType.vb: ISystemWebhookPlugin.GetAllWebhooks(String, String, String, WebhookState?)
-  fullName.vb: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetAllWebhooks(String, String, String, SuperOffice.CRM.Webhooks.WebhookState?)
-  name.vb: GetAllWebhooks(String, String, String, WebhookState?)
+  nameWithType.vb: ISystemWebhookPlugin.GetAllWebhooks(String, String, String, Nullable(Of WebhookState))
+  fullName.vb: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetAllWebhooks(System.String, System.String, System.String, System.Nullable(Of SuperOffice.CRM.Webhooks.WebhookState))
+  name.vb: GetAllWebhooks(String, String, String, Nullable(Of WebhookState))
 - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetWebhook(System.Int32)
   commentId: M:SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetWebhook(System.Int32)
   id: GetWebhook(System.Int32)
@@ -84,15 +89,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetWebhook(int)
-  nameWithType: ISystemWebhookPlugin.GetWebhook(int)
-  fullName: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetWebhook(int)
+  name: GetWebhook(Int32)
+  nameWithType: ISystemWebhookPlugin.GetWebhook(Int32)
+  fullName: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetWebhook(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Webhooks
-  summary: Get a single webhook by id
-  example: []
+  summary: "\nGet a single webhook by id\n"
   syntax:
     content: Webhook GetWebhook(int id)
     parameters:
@@ -104,9 +111,6 @@ items:
       description: The given webhook, or NULL if no found
     content.vb: Function GetWebhook(id As Integer) As Webhook
   overload: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetWebhook*
-  nameWithType.vb: ISystemWebhookPlugin.GetWebhook(Integer)
-  fullName.vb: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetWebhook(Integer)
-  name.vb: GetWebhook(Integer)
 - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SaveWebhook(SuperOffice.CRM.Webhooks.Webhook)
   commentId: M:SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SaveWebhook(SuperOffice.CRM.Webhooks.Webhook)
   id: SaveWebhook(SuperOffice.CRM.Webhooks.Webhook)
@@ -118,11 +122,13 @@ items:
   nameWithType: ISystemWebhookPlugin.SaveWebhook(Webhook)
   fullName: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SaveWebhook(SuperOffice.CRM.Webhooks.Webhook)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Webhooks
-  summary: Store/Create a webhook.
-  example: []
+  summary: "\nStore/Create a webhook.\n"
   syntax:
     content: Webhook SaveWebhook(Webhook webhook)
     parameters:
@@ -141,26 +147,24 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteWebhook(int)
-  nameWithType: ISystemWebhookPlugin.DeleteWebhook(int)
-  fullName: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.DeleteWebhook(int)
+  name: DeleteWebhook(Int32)
+  nameWithType: ISystemWebhookPlugin.DeleteWebhook(Int32)
+  fullName: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.DeleteWebhook(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Webhooks
-  summary: Remove a given webhook from storage.
-  example: []
+  summary: "\nRemove a given webhook from storage.\n"
   syntax:
     content: void DeleteWebhook(int id)
     parameters:
     - id: id
       type: System.Int32
-      description: ''
     content.vb: Sub DeleteWebhook(id As Integer)
   overload: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.DeleteWebhook*
-  nameWithType.vb: ISystemWebhookPlugin.DeleteWebhook(Integer)
-  fullName.vb: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.DeleteWebhook(Integer)
-  name.vb: DeleteWebhook(Integer)
 - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.TestWebhook(SuperOffice.CRM.Webhooks.Webhook)
   commentId: M:SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.TestWebhook(SuperOffice.CRM.Webhooks.Webhook)
   id: TestWebhook(SuperOffice.CRM.Webhooks.Webhook)
@@ -172,11 +176,13 @@ items:
   nameWithType: ISystemWebhookPlugin.TestWebhook(Webhook)
   fullName: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.TestWebhook(SuperOffice.CRM.Webhooks.Webhook)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Webhooks
-  summary: Test invoke a webhook with a PING event to see if it works.
-  example: []
+  summary: "\nTest invoke a webhook with a PING event to see if it works.\n"
   syntax:
     content: WebhookResponse TestWebhook(Webhook webhook)
     parameters:
@@ -195,15 +201,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetLastError(int)
-  nameWithType: ISystemWebhookPlugin.GetLastError(int)
-  fullName: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetLastError(int)
+  name: GetLastError(Int32)
+  nameWithType: ISystemWebhookPlugin.GetLastError(Int32)
+  fullName: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetLastError(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Webhooks
-  summary: Return most recent error message received from webhook target.
-  example: []
+  summary: "\nReturn most recent error message received from webhook target.\n"
   syntax:
     content: string GetLastError(int webhookId)
     parameters:
@@ -215,215 +223,148 @@ items:
       description: String containing most recent error message received from webhook target.
     content.vb: Function GetLastError(webhookId As Integer) As String
   overload: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetLastError*
-  nameWithType.vb: ISystemWebhookPlugin.GetLastError(Integer)
-  fullName.vb: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetLastError(Integer)
-  name.vb: GetLastError(Integer)
 references:
-- uid: SuperOffice.CRM.Webhooks.CustomWebhookPluginAttribute
-  commentId: T:SuperOffice.CRM.Webhooks.CustomWebhookPluginAttribute
-  parent: SuperOffice.CRM.Webhooks
-  isExternal: true
-  href: SuperOffice.CRM.Webhooks.CustomWebhookPluginAttribute.html
-  name: CustomWebhookPluginAttribute
-  nameWithType: CustomWebhookPluginAttribute
-  fullName: SuperOffice.CRM.Webhooks.CustomWebhookPluginAttribute
 - uid: SuperOffice.CRM.Webhooks
   commentId: N:SuperOffice.CRM.Webhooks
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Webhooks
   nameWithType: SuperOffice.CRM.Webhooks
   fullName: SuperOffice.CRM.Webhooks
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Webhooks
-    name: Webhooks
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Webhooks
-    name: Webhooks
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.html
 - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload)
   commentId: M:SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload)
   parent: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.html#SuperOffice_CRM_Webhooks_ICustomWebhookPlugin_Notify_SuperOffice_CRM_Webhooks_Webhook_SuperOffice_CRM_Webhooks_WebhookPayload_
   name: Notify(Webhook, WebhookPayload)
   nameWithType: ICustomWebhookPlugin.Notify(Webhook, WebhookPayload)
   fullName: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify(SuperOffice.CRM.Webhooks.Webhook, SuperOffice.CRM.Webhooks.WebhookPayload)
   spec.csharp:
   - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload)
     name: Notify
+    nameWithType: ICustomWebhookPlugin.Notify
+    fullName: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify
     isExternal: true
-    href: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.html#SuperOffice_CRM_Webhooks_ICustomWebhookPlugin_Notify_SuperOffice_CRM_Webhooks_Webhook_SuperOffice_CRM_Webhooks_WebhookPayload_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Webhooks.Webhook
     name: Webhook
+    nameWithType: Webhook
+    fullName: SuperOffice.CRM.Webhooks.Webhook
     isExternal: true
-    href: SuperOffice.CRM.Webhooks.Webhook.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Webhooks.WebhookPayload
     name: WebhookPayload
+    nameWithType: WebhookPayload
+    fullName: SuperOffice.CRM.Webhooks.WebhookPayload
     isExternal: true
-    href: SuperOffice.CRM.Webhooks.WebhookPayload.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload)
     name: Notify
+    nameWithType: ICustomWebhookPlugin.Notify
+    fullName: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.Notify
     isExternal: true
-    href: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.html#SuperOffice_CRM_Webhooks_ICustomWebhookPlugin_Notify_SuperOffice_CRM_Webhooks_Webhook_SuperOffice_CRM_Webhooks_WebhookPayload_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Webhooks.Webhook
     name: Webhook
+    nameWithType: Webhook
+    fullName: SuperOffice.CRM.Webhooks.Webhook
     isExternal: true
-    href: SuperOffice.CRM.Webhooks.Webhook.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Webhooks.WebhookPayload
     name: WebhookPayload
+    nameWithType: WebhookPayload
+    fullName: SuperOffice.CRM.Webhooks.WebhookPayload
     isExternal: true
-    href: SuperOffice.CRM.Webhooks.WebhookPayload.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ISystemWebhookPlugin, To>(ISystemWebhookPlugin)
-  nameWithType: EnumUtil.MapEnums<ISystemWebhookPlugin, To>(ISystemWebhookPlugin)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Webhooks.ISystemWebhookPlugin, To>(SuperOffice.CRM.Webhooks.ISystemWebhookPlugin)
-  nameWithType.vb: EnumUtil.MapEnums(Of ISystemWebhookPlugin, To)(ISystemWebhookPlugin)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Webhooks.ISystemWebhookPlugin, To)(SuperOffice.CRM.Webhooks.ISystemWebhookPlugin)
-  name.vb: MapEnums(Of ISystemWebhookPlugin, To)(ISystemWebhookPlugin)
+  name: MapEnums<ISystemWebhookPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<ISystemWebhookPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Webhooks.ISystemWebhookPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISystemWebhookPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Webhooks.ISystemWebhookPlugin, To)()
+  name.vb: MapEnums(Of ISystemWebhookPlugin, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Webhooks.ISystemWebhookPlugin)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISystemWebhookPlugin, To>
+    nameWithType: EnumUtil.MapEnums<ISystemWebhookPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Webhooks.ISystemWebhookPlugin, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin
-    name: ISystemWebhookPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin
-    name: ISystemWebhookPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Webhooks.ISystemWebhookPlugin)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISystemWebhookPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of ISystemWebhookPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Webhooks.ISystemWebhookPlugin, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin
-    name: ISystemWebhookPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin
-    name: ISystemWebhookPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ISystemWebhookPlugin, To>(ISystemWebhookPlugin)
-  nameWithType: Converters.MapEnums<ISystemWebhookPlugin, To>(ISystemWebhookPlugin)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Webhooks.ISystemWebhookPlugin, To>(SuperOffice.CRM.Webhooks.ISystemWebhookPlugin)
-  nameWithType.vb: Converters.MapEnums(Of ISystemWebhookPlugin, To)(ISystemWebhookPlugin)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Webhooks.ISystemWebhookPlugin, To)(SuperOffice.CRM.Webhooks.ISystemWebhookPlugin)
-  name.vb: MapEnums(Of ISystemWebhookPlugin, To)(ISystemWebhookPlugin)
+  name: MapEnums<ISystemWebhookPlugin, To>()
+  nameWithType: Converters.MapEnums<ISystemWebhookPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Webhooks.ISystemWebhookPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISystemWebhookPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Webhooks.ISystemWebhookPlugin, To)()
+  name.vb: MapEnums(Of ISystemWebhookPlugin, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Webhooks.ISystemWebhookPlugin)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISystemWebhookPlugin, To>
+    nameWithType: Converters.MapEnums<ISystemWebhookPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Webhooks.ISystemWebhookPlugin, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin
-    name: ISystemWebhookPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin
-    name: ISystemWebhookPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Webhooks.ISystemWebhookPlugin)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISystemWebhookPlugin, To)
+    nameWithType: Converters.MapEnums(Of ISystemWebhookPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Webhooks.ISystemWebhookPlugin, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin
-    name: ISystemWebhookPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin
-    name: ISystemWebhookPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
   commentId: T:SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
   parent: SuperOffice.CRM.Webhooks
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin.html
   name: ICustomWebhookPlugin
   nameWithType: ICustomWebhookPlugin
   fullName: SuperOffice.CRM.Webhooks.ICustomWebhookPlugin
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -432,45 +373,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -479,83 +418,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetAllWebhooks*
   commentId: Overload:SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetAllWebhooks
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.html#SuperOffice_CRM_Webhooks_ISystemWebhookPlugin_GetAllWebhooks_System_String_System_String_System_String_System_Nullable_SuperOffice_CRM_Webhooks_WebhookState__
   name: GetAllWebhooks
   nameWithType: ISystemWebhookPlugin.GetAllWebhooks
   fullName: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetAllWebhooks
@@ -563,38 +469,55 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Nullable{SuperOffice.CRM.Webhooks.WebhookState}
-  commentId: T:System.Nullable{SuperOffice.CRM.Webhooks.WebhookState}
-  parent: System
+  commentId: '!:System.Nullable{SuperOffice.CRM.Webhooks.WebhookState}'
   definition: System.Nullable`1
-  href: SuperOffice.CRM.Webhooks.WebhookState.html
-  name: WebhookState?
-  nameWithType: WebhookState?
-  fullName: SuperOffice.CRM.Webhooks.WebhookState?
+  name: Nullable<WebhookState>
+  nameWithType: Nullable<WebhookState>
+  fullName: System.Nullable<SuperOffice.CRM.Webhooks.WebhookState>
+  nameWithType.vb: Nullable(Of WebhookState)
+  fullName.vb: System.Nullable(Of SuperOffice.CRM.Webhooks.WebhookState)
+  name.vb: Nullable(Of WebhookState)
   spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Webhooks.WebhookState
     name: WebhookState
+    nameWithType: WebhookState
+    fullName: SuperOffice.CRM.Webhooks.WebhookState
     isExternal: true
-    href: SuperOffice.CRM.Webhooks.WebhookState.html
-  - name: '?'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Webhooks.WebhookState
     name: WebhookState
+    nameWithType: WebhookState
+    fullName: SuperOffice.CRM.Webhooks.WebhookState
     isExternal: true
-    href: SuperOffice.CRM.Webhooks.WebhookState.html
-  - name: '?'
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Webhooks.Webhook}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<Webhook>
   nameWithType: IEnumerable<Webhook>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Webhooks.Webhook>
@@ -604,131 +527,122 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Webhooks.Webhook
     name: Webhook
+    nameWithType: Webhook
+    fullName: SuperOffice.CRM.Webhooks.Webhook
     isExternal: true
-    href: SuperOffice.CRM.Webhooks.Webhook.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Webhooks.Webhook
     name: Webhook
+    nameWithType: Webhook
+    fullName: SuperOffice.CRM.Webhooks.Webhook
     isExternal: true
-    href: SuperOffice.CRM.Webhooks.Webhook.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Nullable`1
-  commentId: T:System.Nullable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetWebhook*
   commentId: Overload:SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetWebhook
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.html#SuperOffice_CRM_Webhooks_ISystemWebhookPlugin_GetWebhook_System_Int32_
   name: GetWebhook
   nameWithType: ISystemWebhookPlugin.GetWebhook
   fullName: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetWebhook
@@ -736,39 +650,31 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Webhooks.Webhook
   commentId: T:SuperOffice.CRM.Webhooks.Webhook
   parent: SuperOffice.CRM.Webhooks
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.Webhook.html
   name: Webhook
   nameWithType: Webhook
   fullName: SuperOffice.CRM.Webhooks.Webhook
 - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SaveWebhook*
   commentId: Overload:SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SaveWebhook
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.html#SuperOffice_CRM_Webhooks_ISystemWebhookPlugin_SaveWebhook_SuperOffice_CRM_Webhooks_Webhook_
   name: SaveWebhook
   nameWithType: ISystemWebhookPlugin.SaveWebhook
   fullName: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.SaveWebhook
 - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.DeleteWebhook*
   commentId: Overload:SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.DeleteWebhook
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.html#SuperOffice_CRM_Webhooks_ISystemWebhookPlugin_DeleteWebhook_System_Int32_
   name: DeleteWebhook
   nameWithType: ISystemWebhookPlugin.DeleteWebhook
   fullName: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.DeleteWebhook
 - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.TestWebhook*
   commentId: Overload:SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.TestWebhook
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.html#SuperOffice_CRM_Webhooks_ISystemWebhookPlugin_TestWebhook_SuperOffice_CRM_Webhooks_Webhook_
   name: TestWebhook
   nameWithType: ISystemWebhookPlugin.TestWebhook
   fullName: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.TestWebhook
@@ -776,14 +682,12 @@ references:
   commentId: T:SuperOffice.CRM.Webhooks.WebhookResponse
   parent: SuperOffice.CRM.Webhooks
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.WebhookResponse.html
   name: WebhookResponse
   nameWithType: WebhookResponse
   fullName: SuperOffice.CRM.Webhooks.WebhookResponse
 - uid: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetLastError*
   commentId: Overload:SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetLastError
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.html#SuperOffice_CRM_Webhooks_ISystemWebhookPlugin_GetLastError_System_Int32_
   name: GetLastError
   nameWithType: ISystemWebhookPlugin.GetLastError
   fullName: SuperOffice.CRM.Webhooks.ISystemWebhookPlugin.GetLastError

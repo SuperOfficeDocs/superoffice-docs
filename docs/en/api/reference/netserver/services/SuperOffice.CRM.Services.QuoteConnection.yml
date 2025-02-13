@@ -12,8 +12,8 @@ items:
   - SuperOffice.CRM.Services.QuoteConnection.Deleted
   - SuperOffice.CRM.Services.QuoteConnection.DisplayDescription
   - SuperOffice.CRM.Services.QuoteConnection.DisplayName
-  - SuperOffice.CRM.Services.QuoteConnection.ERPName
   - SuperOffice.CRM.Services.QuoteConnection.ErpConnectionId
+  - SuperOffice.CRM.Services.QuoteConnection.ERPName
   - SuperOffice.CRM.Services.QuoteConnection.ExtraData
   - SuperOffice.CRM.Services.QuoteConnection.InitializeResponse
   - SuperOffice.CRM.Services.QuoteConnection.IsAvailable
@@ -30,27 +30,18 @@ items:
   nameWithType: QuoteConnection
   fullName: SuperOffice.CRM.Services.QuoteConnection
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Information about a connection to the ERP system.
-
-    <p></p>
-
-    Carrier object for QuoteConnection.
-
-    Services for the QuoteConnection Carrier is available from the <xref href="SuperOffice.CRM.Services.IQuoteAgent?text=Quote+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nInformation about a connection to the ERP system.\n<p></p>\nCarrier object for QuoteConnection.\nServices for the QuoteConnection Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IQuoteAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class QuoteConnection : Carrier
+    content: 'public class QuoteConnection : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class QuoteConnection Inherits Carrier
+      Public Class QuoteConnection
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.QuoteAgent
     commentId: T:SuperOffice.CRM.Services.QuoteAgent
@@ -58,14 +49,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.QuoteConnection.#ctor
   commentId: M:SuperOffice.CRM.Services.QuoteConnection.#ctor
   id: '#ctor'
@@ -77,18 +66,21 @@ items:
   nameWithType: QuoteConnection.QuoteConnection()
   fullName: SuperOffice.CRM.Services.QuoteConnection.QuoteConnection()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public QuoteConnection()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.QuoteConnection.#ctor*
-  nameWithType.vb: QuoteConnection.New()
-  fullName.vb: SuperOffice.CRM.Services.QuoteConnection.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.QuoteConnection.ToString
   commentId: M:SuperOffice.CRM.Services.QuoteConnection.ToString
   id: ToString
@@ -100,18 +92,26 @@ items:
   nameWithType: QuoteConnection.ToString()
   fullName: SuperOffice.CRM.Services.QuoteConnection.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.QuoteConnection.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.QuoteConnection.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.QuoteConnection.ToString(System.String)
   id: ToString(System.String)
@@ -119,18 +119,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: QuoteConnection.ToString(string)
-  fullName: SuperOffice.CRM.Services.QuoteConnection.ToString(string)
+  name: ToString(String)
+  nameWithType: QuoteConnection.ToString(String)
+  fullName: SuperOffice.CRM.Services.QuoteConnection.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -142,9 +141,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.QuoteConnection.ToString*
-  nameWithType.vb: QuoteConnection.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.QuoteConnection.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.QuoteConnection.QuoteConnectionId
   commentId: P:SuperOffice.CRM.Services.QuoteConnection.QuoteConnectionId
   id: QuoteConnectionId
@@ -156,28 +156,28 @@ items:
   nameWithType: QuoteConnection.QuoteConnectionId
   fullName: SuperOffice.CRM.Services.QuoteConnection.QuoteConnectionId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int QuoteConnectionId { get; set; }
+    content: public virtual int QuoteConnectionId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property QuoteConnectionId As Integer
+    content.vb: Public Overridable Property QuoteConnectionId As Integer
   overload: SuperOffice.CRM.Services.QuoteConnection.QuoteConnectionId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteConnection.ERPName
   commentId: P:SuperOffice.CRM.Services.QuoteConnection.ERPName
   id: ERPName
@@ -189,28 +189,28 @@ items:
   nameWithType: QuoteConnection.ERPName
   fullName: SuperOffice.CRM.Services.QuoteConnection.ERPName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Name of the ERP system (programmatic).
-  example: []
+  summary: "\nName of the ERP system (programmatic). \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ERPName { get; set; }
+    content: public virtual string ERPName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ERPName As String
+    content.vb: Public Overridable Property ERPName As String
   overload: SuperOffice.CRM.Services.QuoteConnection.ERPName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteConnection.DisplayName
   commentId: P:SuperOffice.CRM.Services.QuoteConnection.DisplayName
   id: DisplayName
@@ -222,28 +222,28 @@ items:
   nameWithType: QuoteConnection.DisplayName
   fullName: SuperOffice.CRM.Services.QuoteConnection.DisplayName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Connection name shown to user; multi-language support. The name of the connector to display in a list so that the users can choose between them. Typically the name of the client, with maybe the ERP system in parenthesis.
-  example: []
+  summary: "\nConnection name shown to user; multi-language support. The name of the connector to display in a list so that the users can choose between them. Typically the name of the client, with maybe the ERP system in parenthesis. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string DisplayName { get; set; }
+    content: public virtual string DisplayName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property DisplayName As String
+    content.vb: Public Overridable Property DisplayName As String
   overload: SuperOffice.CRM.Services.QuoteConnection.DisplayName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteConnection.DisplayDescription
   commentId: P:SuperOffice.CRM.Services.QuoteConnection.DisplayDescription
   id: DisplayDescription
@@ -255,28 +255,28 @@ items:
   nameWithType: QuoteConnection.DisplayDescription
   fullName: SuperOffice.CRM.Services.QuoteConnection.DisplayDescription
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Tooltip/description shown to user; multi-language support. Any other info available that would make an uncertain user chose the right connector. Typically, used for tooltip.
-  example: []
+  summary: "\nTooltip/description shown to user; multi-language support. Any other info available that would make an uncertain user chose the right connector. Typically, used for tooltip. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string DisplayDescription { get; set; }
+    content: public virtual string DisplayDescription { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property DisplayDescription As String
+    content.vb: Public Overridable Property DisplayDescription As String
   overload: SuperOffice.CRM.Services.QuoteConnection.DisplayDescription*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteConnection.Rank
   commentId: P:SuperOffice.CRM.Services.QuoteConnection.Rank
   id: Rank
@@ -288,28 +288,28 @@ items:
   nameWithType: QuoteConnection.Rank
   fullName: SuperOffice.CRM.Services.QuoteConnection.Rank
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Rank order
-  example: []
+  summary: "\nRank order  \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int Rank { get; set; }
+    content: public virtual int Rank { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Rank As Integer
+    content.vb: Public Overridable Property Rank As Integer
   overload: SuperOffice.CRM.Services.QuoteConnection.Rank*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteConnection.ConnectorName
   commentId: P:SuperOffice.CRM.Services.QuoteConnection.ConnectorName
   id: ConnectorName
@@ -321,28 +321,28 @@ items:
   nameWithType: QuoteConnection.ConnectorName
   fullName: SuperOffice.CRM.Services.QuoteConnection.ConnectorName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Programmatic name of the Connector plugin that implements this kind of connection
-  example: []
+  summary: "\nProgrammatic name of the Connector plugin that implements this kind of connection \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ConnectorName { get; set; }
+    content: public virtual string ConnectorName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ConnectorName As String
+    content.vb: Public Overridable Property ConnectorName As String
   overload: SuperOffice.CRM.Services.QuoteConnection.ConnectorName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteConnection.ErpConnectionId
   commentId: P:SuperOffice.CRM.Services.QuoteConnection.ErpConnectionId
   id: ErpConnectionId
@@ -354,28 +354,28 @@ items:
   nameWithType: QuoteConnection.ErpConnectionId
   fullName: SuperOffice.CRM.Services.QuoteConnection.ErpConnectionId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The ERP Connection that this Quote connection is an extension of
-  example: []
+  summary: "\nThe ERP Connection that this Quote connection is an extension of \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ErpConnectionId { get; set; }
+    content: public virtual int ErpConnectionId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ErpConnectionId As Integer
+    content.vb: Public Overridable Property ErpConnectionId As Integer
   overload: SuperOffice.CRM.Services.QuoteConnection.ErpConnectionId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteConnection.ExtraData
   commentId: P:SuperOffice.CRM.Services.QuoteConnection.ExtraData
   id: ExtraData
@@ -387,28 +387,28 @@ items:
   nameWithType: QuoteConnection.ExtraData
   fullName: SuperOffice.CRM.Services.QuoteConnection.ExtraData
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Optional extra data, in XML format, for configuring the connector. Connector-specific!
-  example: []
+  summary: "\nOptional extra data, in XML format, for configuring the connector. Connector-specific! \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ExtraData { get; set; }
+    content: public virtual string ExtraData { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ExtraData As String
+    content.vb: Public Overridable Property ExtraData As String
   overload: SuperOffice.CRM.Services.QuoteConnection.ExtraData*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteConnection.IsAvailable
   commentId: P:SuperOffice.CRM.Services.QuoteConnection.IsAvailable
   id: IsAvailable
@@ -420,28 +420,28 @@ items:
   nameWithType: QuoteConnection.IsAvailable
   fullName: SuperOffice.CRM.Services.QuoteConnection.IsAvailable
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Whether or not the specified connection is available. Typically, without network access the availability is false.
-  example: []
+  summary: "\nWhether or not the specified connection is available. Typically, without network access the availability is false. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool IsAvailable { get; set; }
+    content: public virtual bool IsAvailable { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property IsAvailable As Boolean
+    content.vb: Public Overridable Property IsAvailable As Boolean
   overload: SuperOffice.CRM.Services.QuoteConnection.IsAvailable*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteConnection.InitializeResponse
   commentId: P:SuperOffice.CRM.Services.QuoteConnection.InitializeResponse
   id: InitializeResponse
@@ -453,28 +453,28 @@ items:
   nameWithType: QuoteConnection.InitializeResponse
   fullName: SuperOffice.CRM.Services.QuoteConnection.InitializeResponse
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Status and Error message when the system called the connector Initialize method. Null if the connector has not been initialized yet.
-  example: []
+  summary: "\nStatus and Error message when the system called the connector Initialize method. Null if the connector has not been initialized yet. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual PluginResponse InitializeResponse { get; set; }
+    content: public virtual PluginResponse InitializeResponse { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.PluginResponse
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property InitializeResponse As PluginResponse
+    content.vb: Public Overridable Property InitializeResponse As PluginResponse
   overload: SuperOffice.CRM.Services.QuoteConnection.InitializeResponse*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteConnection.PriceLists
   commentId: P:SuperOffice.CRM.Services.QuoteConnection.PriceLists
   id: PriceLists
@@ -486,28 +486,28 @@ items:
   nameWithType: QuoteConnection.PriceLists
   fullName: SuperOffice.CRM.Services.QuoteConnection.PriceLists
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The PriceLists that this connection offers.
-  example: []
+  summary: "\nThe PriceLists that this connection offers. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual PriceList[] PriceLists { get; set; }
+    content: public virtual PriceList[] PriceLists { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.PriceList[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PriceLists As PriceList()
+    content.vb: Public Overridable Property PriceLists As PriceList()
   overload: SuperOffice.CRM.Services.QuoteConnection.PriceLists*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteConnection.AllAccess
   commentId: P:SuperOffice.CRM.Services.QuoteConnection.AllAccess
   id: AllAccess
@@ -519,28 +519,28 @@ items:
   nameWithType: QuoteConnection.AllAccess
   fullName: SuperOffice.CRM.Services.QuoteConnection.AllAccess
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Is this connection accessible to everyone?  If not, then the QuoteConnectionAccess table tells us who can access it.
-  example: []
+  summary: "\nIs this connection accessible to everyone?  If not, then the QuoteConnectionAccess table tells us who can access it. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool AllAccess { get; set; }
+    content: public virtual bool AllAccess { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property AllAccess As Boolean
+    content.vb: Public Overridable Property AllAccess As Boolean
   overload: SuperOffice.CRM.Services.QuoteConnection.AllAccess*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteConnection.Deleted
   commentId: P:SuperOffice.CRM.Services.QuoteConnection.Deleted
   id: Deleted
@@ -552,28 +552,28 @@ items:
   nameWithType: QuoteConnection.Deleted
   fullName: SuperOffice.CRM.Services.QuoteConnection.Deleted
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: If set, then this is a row that has been 'deleted'; we do not physically delete rows to avoid disaster.
-  example: []
+  summary: "\nIf set, then this is a row that has been &apos;deleted&apos;; we do not physically delete rows to avoid disaster. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool Deleted { get; set; }
+    content: public virtual bool Deleted { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Deleted As Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
   overload: SuperOffice.CRM.Services.QuoteConnection.Deleted*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteConnection.UserGroupAccessIds
   commentId: P:SuperOffice.CRM.Services.QuoteConnection.UserGroupAccessIds
   id: UserGroupAccessIds
@@ -585,28 +585,28 @@ items:
   nameWithType: QuoteConnection.UserGroupAccessIds
   fullName: SuperOffice.CRM.Services.QuoteConnection.UserGroupAccessIds
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Array of ids containing usergroups that will have access to this connection.
-  example: []
+  summary: "\nArray of ids containing usergroups that will have access to this connection. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int[] UserGroupAccessIds { get; set; }
+    content: public virtual int[] UserGroupAccessIds { get; set; }
     parameters: []
     return:
       type: System.Int32[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property UserGroupAccessIds As Integer()
+    content.vb: Public Overridable Property UserGroupAccessIds As Integer()
   overload: SuperOffice.CRM.Services.QuoteConnection.UserGroupAccessIds*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteConnection.AssociateAccessIds
   commentId: P:SuperOffice.CRM.Services.QuoteConnection.AssociateAccessIds
   id: AssociateAccessIds
@@ -618,33 +618,38 @@ items:
   nameWithType: QuoteConnection.AssociateAccessIds
   fullName: SuperOffice.CRM.Services.QuoteConnection.AssociateAccessIds
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Array of ids containing associates that will have access to this connection.
-  example: []
+  summary: "\nArray of ids containing associates that will have access to this connection. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int[] AssociateAccessIds { get; set; }
+    content: public virtual int[] AssociateAccessIds { get; set; }
     parameters: []
     return:
       type: System.Int32[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property AssociateAccessIds As Integer()
+    content.vb: Public Overridable Property AssociateAccessIds As Integer()
   overload: SuperOffice.CRM.Services.QuoteConnection.AssociateAccessIds*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.QuoteAgent
   commentId: T:SuperOffice.CRM.Services.QuoteAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteAgent.html
   name: QuoteAgent
   nameWithType: QuoteAgent
   fullName: SuperOffice.CRM.Services.QuoteAgent
@@ -652,79 +657,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IQuoteAgent.html
   name: IQuoteAgent
   nameWithType: IQuoteAgent
   fullName: SuperOffice.CRM.Services.IQuoteAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.QuoteConnection.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.QuoteConnection.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteConnection.html#SuperOffice_CRM_Services_QuoteConnection__ctor
   name: QuoteConnection
   nameWithType: QuoteConnection.QuoteConnection
   fullName: SuperOffice.CRM.Services.QuoteConnection.QuoteConnection
-  nameWithType.vb: QuoteConnection.New
-  fullName.vb: SuperOffice.CRM.Services.QuoteConnection.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.QuoteConnection.ToString*
   commentId: Overload:SuperOffice.CRM.Services.QuoteConnection.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteConnection.html#SuperOffice_CRM_Services_QuoteConnection_ToString
   name: ToString
   nameWithType: QuoteConnection.ToString
   fullName: SuperOffice.CRM.Services.QuoteConnection.ToString
@@ -732,17 +676,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.QuoteConnection.QuoteConnectionId*
   commentId: Overload:SuperOffice.CRM.Services.QuoteConnection.QuoteConnectionId
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteConnection.html#SuperOffice_CRM_Services_QuoteConnection_QuoteConnectionId
   name: QuoteConnectionId
   nameWithType: QuoteConnection.QuoteConnectionId
   fullName: SuperOffice.CRM.Services.QuoteConnection.QuoteConnectionId
@@ -750,66 +695,54 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.QuoteConnection.ERPName*
   commentId: Overload:SuperOffice.CRM.Services.QuoteConnection.ERPName
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteConnection.html#SuperOffice_CRM_Services_QuoteConnection_ERPName
   name: ERPName
   nameWithType: QuoteConnection.ERPName
   fullName: SuperOffice.CRM.Services.QuoteConnection.ERPName
 - uid: SuperOffice.CRM.Services.QuoteConnection.DisplayName*
   commentId: Overload:SuperOffice.CRM.Services.QuoteConnection.DisplayName
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteConnection.html#SuperOffice_CRM_Services_QuoteConnection_DisplayName
   name: DisplayName
   nameWithType: QuoteConnection.DisplayName
   fullName: SuperOffice.CRM.Services.QuoteConnection.DisplayName
 - uid: SuperOffice.CRM.Services.QuoteConnection.DisplayDescription*
   commentId: Overload:SuperOffice.CRM.Services.QuoteConnection.DisplayDescription
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteConnection.html#SuperOffice_CRM_Services_QuoteConnection_DisplayDescription
   name: DisplayDescription
   nameWithType: QuoteConnection.DisplayDescription
   fullName: SuperOffice.CRM.Services.QuoteConnection.DisplayDescription
 - uid: SuperOffice.CRM.Services.QuoteConnection.Rank*
   commentId: Overload:SuperOffice.CRM.Services.QuoteConnection.Rank
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteConnection.html#SuperOffice_CRM_Services_QuoteConnection_Rank
   name: Rank
   nameWithType: QuoteConnection.Rank
   fullName: SuperOffice.CRM.Services.QuoteConnection.Rank
 - uid: SuperOffice.CRM.Services.QuoteConnection.ConnectorName*
   commentId: Overload:SuperOffice.CRM.Services.QuoteConnection.ConnectorName
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteConnection.html#SuperOffice_CRM_Services_QuoteConnection_ConnectorName
   name: ConnectorName
   nameWithType: QuoteConnection.ConnectorName
   fullName: SuperOffice.CRM.Services.QuoteConnection.ConnectorName
 - uid: SuperOffice.CRM.Services.QuoteConnection.ErpConnectionId*
   commentId: Overload:SuperOffice.CRM.Services.QuoteConnection.ErpConnectionId
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteConnection.html#SuperOffice_CRM_Services_QuoteConnection_ErpConnectionId
   name: ErpConnectionId
   nameWithType: QuoteConnection.ErpConnectionId
   fullName: SuperOffice.CRM.Services.QuoteConnection.ErpConnectionId
 - uid: SuperOffice.CRM.Services.QuoteConnection.ExtraData*
   commentId: Overload:SuperOffice.CRM.Services.QuoteConnection.ExtraData
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteConnection.html#SuperOffice_CRM_Services_QuoteConnection_ExtraData
   name: ExtraData
   nameWithType: QuoteConnection.ExtraData
   fullName: SuperOffice.CRM.Services.QuoteConnection.ExtraData
 - uid: SuperOffice.CRM.Services.QuoteConnection.IsAvailable*
   commentId: Overload:SuperOffice.CRM.Services.QuoteConnection.IsAvailable
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteConnection.html#SuperOffice_CRM_Services_QuoteConnection_IsAvailable
   name: IsAvailable
   nameWithType: QuoteConnection.IsAvailable
   fullName: SuperOffice.CRM.Services.QuoteConnection.IsAvailable
@@ -817,17 +750,12 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.QuoteConnection.InitializeResponse*
   commentId: Overload:SuperOffice.CRM.Services.QuoteConnection.InitializeResponse
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteConnection.html#SuperOffice_CRM_Services_QuoteConnection_InitializeResponse
   name: InitializeResponse
   nameWithType: QuoteConnection.InitializeResponse
   fullName: SuperOffice.CRM.Services.QuoteConnection.InitializeResponse
@@ -835,20 +763,17 @@ references:
   commentId: T:SuperOffice.CRM.Services.PluginResponse
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.PluginResponse.html
   name: PluginResponse
   nameWithType: PluginResponse
   fullName: SuperOffice.CRM.Services.PluginResponse
 - uid: SuperOffice.CRM.Services.QuoteConnection.PriceLists*
   commentId: Overload:SuperOffice.CRM.Services.QuoteConnection.PriceLists
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteConnection.html#SuperOffice_CRM_Services_QuoteConnection_PriceLists
   name: PriceLists
   nameWithType: QuoteConnection.PriceLists
   fullName: SuperOffice.CRM.Services.QuoteConnection.PriceLists
 - uid: SuperOffice.CRM.Services.PriceList[]
   isExternal: true
-  href: SuperOffice.CRM.Services.PriceList.html
   name: PriceList[]
   nameWithType: PriceList[]
   fullName: SuperOffice.CRM.Services.PriceList[]
@@ -858,65 +783,68 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.PriceList
     name: PriceList
+    nameWithType: PriceList
+    fullName: SuperOffice.CRM.Services.PriceList
     isExternal: true
-    href: SuperOffice.CRM.Services.PriceList.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.PriceList
     name: PriceList
+    nameWithType: PriceList
+    fullName: SuperOffice.CRM.Services.PriceList
     isExternal: true
-    href: SuperOffice.CRM.Services.PriceList.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.QuoteConnection.AllAccess*
   commentId: Overload:SuperOffice.CRM.Services.QuoteConnection.AllAccess
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteConnection.html#SuperOffice_CRM_Services_QuoteConnection_AllAccess
   name: AllAccess
   nameWithType: QuoteConnection.AllAccess
   fullName: SuperOffice.CRM.Services.QuoteConnection.AllAccess
 - uid: SuperOffice.CRM.Services.QuoteConnection.Deleted*
   commentId: Overload:SuperOffice.CRM.Services.QuoteConnection.Deleted
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteConnection.html#SuperOffice_CRM_Services_QuoteConnection_Deleted
   name: Deleted
   nameWithType: QuoteConnection.Deleted
   fullName: SuperOffice.CRM.Services.QuoteConnection.Deleted
 - uid: SuperOffice.CRM.Services.QuoteConnection.UserGroupAccessIds*
   commentId: Overload:SuperOffice.CRM.Services.QuoteConnection.UserGroupAccessIds
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteConnection.html#SuperOffice_CRM_Services_QuoteConnection_UserGroupAccessIds
   name: UserGroupAccessIds
   nameWithType: QuoteConnection.UserGroupAccessIds
   fullName: SuperOffice.CRM.Services.QuoteConnection.UserGroupAccessIds
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.QuoteConnection.AssociateAccessIds*
   commentId: Overload:SuperOffice.CRM.Services.QuoteConnection.AssociateAccessIds
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteConnection.html#SuperOffice_CRM_Services_QuoteConnection_AssociateAccessIds
   name: AssociateAccessIds
   nameWithType: QuoteConnection.AssociateAccessIds
   fullName: SuperOffice.CRM.Services.QuoteConnection.AssociateAccessIds

@@ -19,44 +19,67 @@ items:
   - SuperOffice.Data.TicketBaseStatus.PostponedSpecific
   - SuperOffice.Data.TicketBaseStatus.PostponedWeek
   - SuperOffice.Data.TicketBaseStatus.Unknown
+  - SuperOffice.Data.TicketBaseStatus.value__
   langs:
   - csharp
   - vb
   name: TicketBaseStatus
   nameWithType: TicketBaseStatus
   fullName: SuperOffice.Data.TicketBaseStatus
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: >-
-    Status of a ticket/request
-
-    This Enum is used by:  ticket.status; ticket_status.status
-  example: []
+  summary: "\nStatus of a ticket/request\nThis Enum is used by:  ticket.status; ticket_status.status\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum TicketBaseStatus : short
+    content: 'public sealed class TicketBaseStatus : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class TicketBaseStatus
+          Inherits
 
-      Public Enum TicketBaseStatus As Short
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.TicketBaseStatus.EnumUtil.MapEnums``2
   - SuperOffice.Data.TicketBaseStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.TicketBaseStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketBaseStatus)
-  - SuperOffice.Data.TicketBaseStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.TicketBaseStatus.value__
+  commentId: F:SuperOffice.Data.TicketBaseStatus.value__
+  id: value__
+  parent: SuperOffice.Data.TicketBaseStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketBaseStatus.value__
+  fullName: SuperOffice.Data.TicketBaseStatus.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.TicketBaseStatus.Unknown
   commentId: F:SuperOffice.Data.TicketBaseStatus.Unknown
   id: Unknown
@@ -68,26 +91,24 @@ items:
   nameWithType: TicketBaseStatus.Unknown
   fullName: SuperOffice.Data.TicketBaseStatus.Unknown
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: Unknown / uninitialized'
-  example: []
+  summary: "\n0: Unknown / uninitialized\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Unknown = 0
+    content: public const TicketBaseStatus Unknown
     return:
       type: SuperOffice.Data.TicketBaseStatus
-    content.vb: >-
-      <EnumMember>
-
-      Unknown = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Unknown As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketBaseStatus.Active
   commentId: F:SuperOffice.Data.TicketBaseStatus.Active
   id: Active
@@ -99,26 +120,24 @@ items:
   nameWithType: TicketBaseStatus.Active
   fullName: SuperOffice.Data.TicketBaseStatus.Active
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Request is currently active'
-  example: []
+  summary: "\n1: Request is currently active\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Active = 1
+    content: public const TicketBaseStatus Active
     return:
       type: SuperOffice.Data.TicketBaseStatus
-    content.vb: >-
-      <EnumMember>
-
-      Active = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Active As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketBaseStatus.Closed
   commentId: F:SuperOffice.Data.TicketBaseStatus.Closed
   id: Closed
@@ -130,26 +149,24 @@ items:
   nameWithType: TicketBaseStatus.Closed
   fullName: SuperOffice.Data.TicketBaseStatus.Closed
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: Request has been closed'
-  example: []
+  summary: "\n2: Request has been closed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Closed = 2
+    content: public const TicketBaseStatus Closed
     return:
       type: SuperOffice.Data.TicketBaseStatus
-    content.vb: >-
-      <EnumMember>
-
-      Closed = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Closed As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketBaseStatus.Postponed
   commentId: F:SuperOffice.Data.TicketBaseStatus.Postponed
   id: Postponed
@@ -161,26 +178,24 @@ items:
   nameWithType: TicketBaseStatus.Postponed
   fullName: SuperOffice.Data.TicketBaseStatus.Postponed
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '3: Request has been postponed'
-  example: []
+  summary: "\n3: Request has been postponed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Postponed = 3
+    content: public const TicketBaseStatus Postponed
     return:
       type: SuperOffice.Data.TicketBaseStatus
-    content.vb: >-
-      <EnumMember>
-
-      Postponed = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Postponed As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketBaseStatus.Deleted
   commentId: F:SuperOffice.Data.TicketBaseStatus.Deleted
   id: Deleted
@@ -192,26 +207,24 @@ items:
   nameWithType: TicketBaseStatus.Deleted
   fullName: SuperOffice.Data.TicketBaseStatus.Deleted
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '4: Request has been deleted'
-  example: []
+  summary: "\n4: Request has been deleted\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Deleted = 4
+    content: public const TicketBaseStatus Deleted
     return:
       type: SuperOffice.Data.TicketBaseStatus
-    content.vb: >-
-      <EnumMember>
-
-      Deleted = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Deleted As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketBaseStatus.Merged
   commentId: F:SuperOffice.Data.TicketBaseStatus.Merged
   id: Merged
@@ -223,26 +236,24 @@ items:
   nameWithType: TicketBaseStatus.Merged
   fullName: SuperOffice.Data.TicketBaseStatus.Merged
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '5: Request has been merged with another request'
-  example: []
+  summary: "\n5: Request has been merged with another request\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Merged = 5
+    content: public const TicketBaseStatus Merged
     return:
       type: SuperOffice.Data.TicketBaseStatus
-    content.vb: >-
-      <EnumMember>
-
-      Merged = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Merged As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketBaseStatus.PostponedSpecific
   commentId: F:SuperOffice.Data.TicketBaseStatus.PostponedSpecific
   id: PostponedSpecific
@@ -254,26 +265,24 @@ items:
   nameWithType: TicketBaseStatus.PostponedSpecific
   fullName: SuperOffice.Data.TicketBaseStatus.PostponedSpecific
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1001: Should only be used for UI, when saved to DB it will be converted to Postponed'
-  example: []
+  summary: "\n1001: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PostponedSpecific = 1001
+    content: public const TicketBaseStatus PostponedSpecific
     return:
       type: SuperOffice.Data.TicketBaseStatus
-    content.vb: >-
-      <EnumMember>
-
-      PostponedSpecific = 1001
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PostponedSpecific As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketBaseStatus.Postponed1Hour
   commentId: F:SuperOffice.Data.TicketBaseStatus.Postponed1Hour
   id: Postponed1Hour
@@ -285,26 +294,24 @@ items:
   nameWithType: TicketBaseStatus.Postponed1Hour
   fullName: SuperOffice.Data.TicketBaseStatus.Postponed1Hour
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1002: Should only be used for UI, when saved to DB it will be converted to Postponed'
-  example: []
+  summary: "\n1002: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Postponed1Hour = 1002
+    content: public const TicketBaseStatus Postponed1Hour
     return:
       type: SuperOffice.Data.TicketBaseStatus
-    content.vb: >-
-      <EnumMember>
-
-      Postponed1Hour = 1002
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Postponed1Hour As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketBaseStatus.Postponed2Hours
   commentId: F:SuperOffice.Data.TicketBaseStatus.Postponed2Hours
   id: Postponed2Hours
@@ -316,26 +323,24 @@ items:
   nameWithType: TicketBaseStatus.Postponed2Hours
   fullName: SuperOffice.Data.TicketBaseStatus.Postponed2Hours
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1003: Should only be used for UI, when saved to DB it will be converted to Postponed'
-  example: []
+  summary: "\n1003: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Postponed2Hours = 1003
+    content: public const TicketBaseStatus Postponed2Hours
     return:
       type: SuperOffice.Data.TicketBaseStatus
-    content.vb: >-
-      <EnumMember>
-
-      Postponed2Hours = 1003
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Postponed2Hours As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketBaseStatus.Postponed3Hours
   commentId: F:SuperOffice.Data.TicketBaseStatus.Postponed3Hours
   id: Postponed3Hours
@@ -347,26 +352,24 @@ items:
   nameWithType: TicketBaseStatus.Postponed3Hours
   fullName: SuperOffice.Data.TicketBaseStatus.Postponed3Hours
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1004: Should only be used for UI, when saved to DB it will be converted to Postponed'
-  example: []
+  summary: "\n1004: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Postponed3Hours = 1004
+    content: public const TicketBaseStatus Postponed3Hours
     return:
       type: SuperOffice.Data.TicketBaseStatus
-    content.vb: >-
-      <EnumMember>
-
-      Postponed3Hours = 1004
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Postponed3Hours As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketBaseStatus.Postponed4Hours
   commentId: F:SuperOffice.Data.TicketBaseStatus.Postponed4Hours
   id: Postponed4Hours
@@ -378,26 +381,24 @@ items:
   nameWithType: TicketBaseStatus.Postponed4Hours
   fullName: SuperOffice.Data.TicketBaseStatus.Postponed4Hours
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1005: Should only be used for UI, when saved to DB it will be converted to Postponed'
-  example: []
+  summary: "\n1005: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Postponed4Hours = 1005
+    content: public const TicketBaseStatus Postponed4Hours
     return:
       type: SuperOffice.Data.TicketBaseStatus
-    content.vb: >-
-      <EnumMember>
-
-      Postponed4Hours = 1005
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Postponed4Hours As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketBaseStatus.PostponedDay
   commentId: F:SuperOffice.Data.TicketBaseStatus.PostponedDay
   id: PostponedDay
@@ -409,26 +410,24 @@ items:
   nameWithType: TicketBaseStatus.PostponedDay
   fullName: SuperOffice.Data.TicketBaseStatus.PostponedDay
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1006: Should only be used for UI, when saved to DB it will be converted to Postponed'
-  example: []
+  summary: "\n1006: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PostponedDay = 1006
+    content: public const TicketBaseStatus PostponedDay
     return:
       type: SuperOffice.Data.TicketBaseStatus
-    content.vb: >-
-      <EnumMember>
-
-      PostponedDay = 1006
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PostponedDay As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketBaseStatus.PostponedWeek
   commentId: F:SuperOffice.Data.TicketBaseStatus.PostponedWeek
   id: PostponedWeek
@@ -440,26 +439,24 @@ items:
   nameWithType: TicketBaseStatus.PostponedWeek
   fullName: SuperOffice.Data.TicketBaseStatus.PostponedWeek
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1007: Should only be used for UI, when saved to DB it will be converted to Postponed'
-  example: []
+  summary: "\n1007: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PostponedWeek = 1007
+    content: public const TicketBaseStatus PostponedWeek
     return:
       type: SuperOffice.Data.TicketBaseStatus
-    content.vb: >-
-      <EnumMember>
-
-      PostponedWeek = 1007
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PostponedWeek As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketBaseStatus.PostponedMonth
   commentId: F:SuperOffice.Data.TicketBaseStatus.PostponedMonth
   id: PostponedMonth
@@ -471,300 +468,115 @@ items:
   nameWithType: TicketBaseStatus.PostponedMonth
   fullName: SuperOffice.Data.TicketBaseStatus.PostponedMonth
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1008: Should only be used for UI, when saved to DB it will be converted to Postponed'
-  example: []
+  summary: "\n1008: Should only be used for UI, when saved to DB it will be converted to Postponed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PostponedMonth = 1008
+    content: public const TicketBaseStatus PostponedMonth
     return:
       type: SuperOffice.Data.TicketBaseStatus
-    content.vb: >-
-      <EnumMember>
-
-      PostponedMonth = 1008
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PostponedMonth As TicketBaseStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.TicketBaseStatus.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<TicketBaseStatus, To>(TicketBaseStatus)
-  nameWithType: EnumUtil.MapEnums<TicketBaseStatus, To>(TicketBaseStatus)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketBaseStatus, To>(SuperOffice.Data.TicketBaseStatus)
-  nameWithType.vb: EnumUtil.MapEnums(Of TicketBaseStatus, To)(TicketBaseStatus)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TicketBaseStatus, To)(SuperOffice.Data.TicketBaseStatus)
-  name.vb: MapEnums(Of TicketBaseStatus, To)(TicketBaseStatus)
+  name: MapEnums<TicketBaseStatus, To>()
+  nameWithType: EnumUtil.MapEnums<TicketBaseStatus, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketBaseStatus, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketBaseStatus, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TicketBaseStatus, To)()
+  name.vb: MapEnums(Of TicketBaseStatus, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.TicketBaseStatus)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TicketBaseStatus, To>
+    nameWithType: EnumUtil.MapEnums<TicketBaseStatus, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketBaseStatus, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.TicketBaseStatus
-    name: TicketBaseStatus
-    isExternal: true
-    href: SuperOffice.Data.TicketBaseStatus.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.TicketBaseStatus
-    name: TicketBaseStatus
-    isExternal: true
-    href: SuperOffice.Data.TicketBaseStatus.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.TicketBaseStatus)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TicketBaseStatus, To)
+    nameWithType: EnumUtil.MapEnums(Of TicketBaseStatus, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TicketBaseStatus, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TicketBaseStatus
-    name: TicketBaseStatus
-    isExternal: true
-    href: SuperOffice.Data.TicketBaseStatus.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.TicketBaseStatus
-    name: TicketBaseStatus
-    isExternal: true
-    href: SuperOffice.Data.TicketBaseStatus.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.TicketBaseStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<TicketBaseStatus, To>(TicketBaseStatus)
-  nameWithType: Converters.MapEnums<TicketBaseStatus, To>(TicketBaseStatus)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketBaseStatus, To>(SuperOffice.Data.TicketBaseStatus)
-  nameWithType.vb: Converters.MapEnums(Of TicketBaseStatus, To)(TicketBaseStatus)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketBaseStatus, To)(SuperOffice.Data.TicketBaseStatus)
-  name.vb: MapEnums(Of TicketBaseStatus, To)(TicketBaseStatus)
+  name: MapEnums<TicketBaseStatus, To>()
+  nameWithType: Converters.MapEnums<TicketBaseStatus, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketBaseStatus, To>()
+  nameWithType.vb: Converters.MapEnums(Of TicketBaseStatus, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketBaseStatus, To)()
+  name.vb: MapEnums(Of TicketBaseStatus, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.TicketBaseStatus)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TicketBaseStatus, To>
+    nameWithType: Converters.MapEnums<TicketBaseStatus, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketBaseStatus, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.TicketBaseStatus
-    name: TicketBaseStatus
-    isExternal: true
-    href: SuperOffice.Data.TicketBaseStatus.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.TicketBaseStatus
-    name: TicketBaseStatus
-    isExternal: true
-    href: SuperOffice.Data.TicketBaseStatus.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.TicketBaseStatus)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TicketBaseStatus, To)
+    nameWithType: Converters.MapEnums(Of TicketBaseStatus, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketBaseStatus, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TicketBaseStatus
-    name: TicketBaseStatus
-    isExternal: true
-    href: SuperOffice.Data.TicketBaseStatus.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.TicketBaseStatus
-    name: TicketBaseStatus
-    isExternal: true
-    href: SuperOffice.Data.TicketBaseStatus.html
-  - name: )
-- uid: SuperOffice.Data.TicketBaseStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketBaseStatus)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<TicketBaseStatus>(TicketBaseStatus, TicketBaseStatus)
-  nameWithType: ObjectExtensions.AssignByReflection<TicketBaseStatus>(TicketBaseStatus, TicketBaseStatus)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TicketBaseStatus>(SuperOffice.Data.TicketBaseStatus, SuperOffice.Data.TicketBaseStatus)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TicketBaseStatus)(TicketBaseStatus, TicketBaseStatus)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TicketBaseStatus)(SuperOffice.Data.TicketBaseStatus, SuperOffice.Data.TicketBaseStatus)
-  name.vb: AssignByReflection(Of TicketBaseStatus)(TicketBaseStatus, TicketBaseStatus)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketBaseStatus,SuperOffice.Data.TicketBaseStatus)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.TicketBaseStatus
-    name: TicketBaseStatus
-    isExternal: true
-    href: SuperOffice.Data.TicketBaseStatus.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.TicketBaseStatus
-    name: TicketBaseStatus
-    isExternal: true
-    href: SuperOffice.Data.TicketBaseStatus.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.TicketBaseStatus
-    name: TicketBaseStatus
-    isExternal: true
-    href: SuperOffice.Data.TicketBaseStatus.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketBaseStatus,SuperOffice.Data.TicketBaseStatus)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TicketBaseStatus
-    name: TicketBaseStatus
-    isExternal: true
-    href: SuperOffice.Data.TicketBaseStatus.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.TicketBaseStatus
-    name: TicketBaseStatus
-    isExternal: true
-    href: SuperOffice.Data.TicketBaseStatus.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.TicketBaseStatus
-    name: TicketBaseStatus
-    isExternal: true
-    href: SuperOffice.Data.TicketBaseStatus.html
-  - name: )
-- uid: SuperOffice.Data.TicketBaseStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<TicketBaseStatus>(TicketBaseStatus)
-  nameWithType: ObjectExtensions.GraphCopy<TicketBaseStatus>(TicketBaseStatus)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TicketBaseStatus>(SuperOffice.Data.TicketBaseStatus)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of TicketBaseStatus)(TicketBaseStatus)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TicketBaseStatus)(SuperOffice.Data.TicketBaseStatus)
-  name.vb: GraphCopy(Of TicketBaseStatus)(TicketBaseStatus)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.TicketBaseStatus)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.TicketBaseStatus
-    name: TicketBaseStatus
-    isExternal: true
-    href: SuperOffice.Data.TicketBaseStatus.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.TicketBaseStatus
-    name: TicketBaseStatus
-    isExternal: true
-    href: SuperOffice.Data.TicketBaseStatus.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.TicketBaseStatus)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TicketBaseStatus
-    name: TicketBaseStatus
-    isExternal: true
-    href: SuperOffice.Data.TicketBaseStatus.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.TicketBaseStatus
-    name: TicketBaseStatus
-    isExternal: true
-    href: SuperOffice.Data.TicketBaseStatus.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -773,45 +585,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -820,222 +630,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.TicketBaseStatus
   commentId: T:SuperOffice.Data.TicketBaseStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketBaseStatus.html
   name: TicketBaseStatus
   nameWithType: TicketBaseStatus
   fullName: SuperOffice.Data.TicketBaseStatus

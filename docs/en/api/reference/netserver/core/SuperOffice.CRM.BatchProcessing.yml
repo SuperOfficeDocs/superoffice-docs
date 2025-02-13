@@ -27,14 +27,12 @@ references:
 - uid: SuperOffice.CRM.BatchProcessing.BatchProcessor
   commentId: T:SuperOffice.CRM.BatchProcessing.BatchProcessor
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.BatchProcessor.html
   name: BatchProcessor
   nameWithType: BatchProcessor
   fullName: SuperOffice.CRM.BatchProcessing.BatchProcessor
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskFacade
   commentId: T:SuperOffice.CRM.BatchProcessing.BatchTaskFacade
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.BatchTaskFacade.html
   name: BatchTaskFacade
   nameWithType: BatchTaskFacade
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskFacade
@@ -42,7 +40,6 @@ references:
   commentId: T:SuperOffice.CRM.BatchProcessing.BatchTaskFactory
   parent: SuperOffice.CRM.BatchProcessing
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.BatchTaskFactory.html
   name: BatchTaskFactory
   nameWithType: BatchTaskFactory
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskFactory
@@ -50,28 +47,24 @@ references:
   commentId: T:SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer
   parent: SuperOffice.CRM.BatchProcessing
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer.html
   name: IBatchTaskInitializer
   nameWithType: IBatchTaskInitializer
   fullName: SuperOffice.CRM.BatchProcessing.IBatchTaskInitializer
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskUtility
   commentId: T:SuperOffice.CRM.BatchProcessing.BatchTaskUtility
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.BatchTaskUtility.html
   name: BatchTaskUtility
   nameWithType: BatchTaskUtility
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskUtility
 - uid: SuperOffice.CRM.BatchProcessing.BatchData
   commentId: T:SuperOffice.CRM.BatchProcessing.BatchData
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.BatchData.html
   name: BatchData
   nameWithType: BatchData
   fullName: SuperOffice.CRM.BatchProcessing.BatchData
 - uid: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer
   commentId: T:SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer.html
   name: DefaultBatchTaskInitializer
   nameWithType: DefaultBatchTaskInitializer
   fullName: SuperOffice.CRM.BatchProcessing.DefaultBatchTaskInitializer
@@ -79,7 +72,6 @@ references:
   commentId: T:SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
   parent: SuperOffice.CRM.BatchProcessing
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged.html
   name: BatchTaskStatusChanged
   nameWithType: BatchTaskStatusChanged
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskStatusChanged
@@ -87,7 +79,6 @@ references:
   commentId: T:SuperOffice.CRM.BatchProcessing.IBatchTask
   parent: SuperOffice.CRM.BatchProcessing
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.IBatchTask.html
   name: IBatchTask
   nameWithType: IBatchTask
   fullName: SuperOffice.CRM.BatchProcessing.IBatchTask
@@ -95,44 +86,12 @@ references:
   commentId: T:SuperOffice.CRM.BatchProcessing.BatchTaskAttribute
   parent: SuperOffice.CRM.BatchProcessing
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute.html
   name: BatchTaskAttribute
   nameWithType: BatchTaskAttribute
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskAttribute
 - uid: SuperOffice.CRM.BatchProcessing
   commentId: N:SuperOffice.CRM.BatchProcessing
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.BatchProcessing
   nameWithType: SuperOffice.CRM.BatchProcessing
   fullName: SuperOffice.CRM.BatchProcessing
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BatchProcessing
-    name: BatchProcessing
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BatchProcessing
-    name: BatchProcessing
-    isExternal: true
-    href: SuperOffice.CRM.BatchProcessing.html

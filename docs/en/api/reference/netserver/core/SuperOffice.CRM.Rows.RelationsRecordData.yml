@@ -13,10 +13,10 @@ items:
   - SuperOffice.CRM.Rows.RelationsRecordData.GroupIdx
   - SuperOffice.CRM.Rows.RelationsRecordData.Registered
   - SuperOffice.CRM.Rows.RelationsRecordData.RegisteredAssociateId
-  - SuperOffice.CRM.Rows.RelationsRecordData.RelFlags
   - SuperOffice.CRM.Rows.RelationsRecordData.RelationId
   - SuperOffice.CRM.Rows.RelationsRecordData.Relcomment
   - SuperOffice.CRM.Rows.RelationsRecordData.ReldefId
+  - SuperOffice.CRM.Rows.RelationsRecordData.RelFlags
   - SuperOffice.CRM.Rows.RelationsRecordData.Reversed
   - SuperOffice.CRM.Rows.RelationsRecordData.SourceRecord
   - SuperOffice.CRM.Rows.RelationsRecordData.SourceTable
@@ -31,41 +31,33 @@ items:
   nameWithType: RelationsRecordData
   fullName: SuperOffice.CRM.Rows.RelationsRecordData
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
-
-    to a row from the relations table.
-  remarks: >-
-    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.RelationsRow" data-throw-if-not-resolved="false"></xref> object when
-
-    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
-
-    since they carry the corresponding <xref href="SuperOffice.CRM.Data.RelationsTableInfo" data-throw-if-not-resolved="false"></xref> object, which
-
-    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
-  example: []
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the relations table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.RelationsRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.RelationsTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class RelationsRecordData
-    content.vb: Public Class RelationsRecordData
+    content: 'public class RelationsRecordData : Object'
+    content.vb: >-
+      Public Class RelationsRecordData
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.RelationsRecordData.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Rows.RelationsRecordData.SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.RelationsRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.RelationsRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.RelationsRecordData)
   - SuperOffice.CRM.Rows.RelationsRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.RelationsRecordData.SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.RelationsRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.RelationId
   commentId: F:SuperOffice.CRM.Rows.RelationsRecordData.RelationId
   id: RelationId
@@ -77,16 +69,22 @@ items:
   nameWithType: RelationsRecordData.RelationId
   fullName: SuperOffice.CRM.Rows.RelationsRecordData.RelationId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
     content: public int RelationId
     return:
       type: System.Int32
     content.vb: Public RelationId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.ReldefId
   commentId: F:SuperOffice.CRM.Rows.RelationsRecordData.ReldefId
   id: ReldefId
@@ -98,16 +96,22 @@ items:
   nameWithType: RelationsRecordData.ReldefId
   fullName: SuperOffice.CRM.Rows.RelationsRecordData.ReldefId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Reference to definition
-  example: []
+  summary: "\nReference to definition \n"
   syntax:
     content: public int ReldefId
     return:
       type: System.Int32
     content.vb: Public ReldefId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.SourceTable
   commentId: F:SuperOffice.CRM.Rows.RelationsRecordData.SourceTable
   id: SourceTable
@@ -119,16 +123,22 @@ items:
   nameWithType: RelationsRecordData.SourceTable
   fullName: SuperOffice.CRM.Rows.RelationsRecordData.SourceTable
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Actual source table
-  example: []
+  summary: "\nActual source table \n"
   syntax:
     content: public short SourceTable
     return:
       type: System.Int16
     content.vb: Public SourceTable As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.SourceRecord
   commentId: F:SuperOffice.CRM.Rows.RelationsRecordData.SourceRecord
   id: SourceRecord
@@ -140,16 +150,22 @@ items:
   nameWithType: RelationsRecordData.SourceRecord
   fullName: SuperOffice.CRM.Rows.RelationsRecordData.SourceRecord
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Actual source record
-  example: []
+  summary: "\nActual source record \n"
   syntax:
     content: public int SourceRecord
     return:
       type: System.Int32
     content.vb: Public SourceRecord As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.DestinationTable
   commentId: F:SuperOffice.CRM.Rows.RelationsRecordData.DestinationTable
   id: DestinationTable
@@ -161,16 +177,22 @@ items:
   nameWithType: RelationsRecordData.DestinationTable
   fullName: SuperOffice.CRM.Rows.RelationsRecordData.DestinationTable
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Actual target table
-  example: []
+  summary: "\nActual target table \n"
   syntax:
     content: public short DestinationTable
     return:
       type: System.Int16
     content.vb: Public DestinationTable As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.DestinationRecord
   commentId: F:SuperOffice.CRM.Rows.RelationsRecordData.DestinationRecord
   id: DestinationRecord
@@ -182,16 +204,22 @@ items:
   nameWithType: RelationsRecordData.DestinationRecord
   fullName: SuperOffice.CRM.Rows.RelationsRecordData.DestinationRecord
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Actual target record
-  example: []
+  summary: "\nActual target record \n"
   syntax:
     content: public int DestinationRecord
     return:
       type: System.Int32
     content.vb: Public DestinationRecord As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.Relcomment
   commentId: F:SuperOffice.CRM.Rows.RelationsRecordData.Relcomment
   id: Relcomment
@@ -203,16 +231,22 @@ items:
   nameWithType: RelationsRecordData.Relcomment
   fullName: SuperOffice.CRM.Rows.RelationsRecordData.Relcomment
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Comment for relation
-  example: []
+  summary: "\nComment for relation \n"
   syntax:
     content: public string Relcomment
     return:
       type: System.String
     content.vb: Public Relcomment As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.Reversed
   commentId: F:SuperOffice.CRM.Rows.RelationsRecordData.Reversed
   id: Reversed
@@ -224,16 +258,22 @@ items:
   nameWithType: RelationsRecordData.Reversed
   fullName: SuperOffice.CRM.Rows.RelationsRecordData.Reversed
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Is direction reversed relative to definition
-  example: []
+  summary: "\nIs direction reversed relative to definition \n"
   syntax:
     content: public short Reversed
     return:
       type: System.Int16
     content.vb: Public Reversed As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.GroupIdx
   commentId: F:SuperOffice.CRM.Rows.RelationsRecordData.GroupIdx
   id: GroupIdx
@@ -245,16 +285,22 @@ items:
   nameWithType: RelationsRecordData.GroupIdx
   fullName: SuperOffice.CRM.Rows.RelationsRecordData.GroupIdx
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: User group owning this relation
-  example: []
+  summary: "\nUser group owning this relation \n"
   syntax:
     content: public int GroupIdx
     return:
       type: System.Int32
     content.vb: Public GroupIdx As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.StartDate
   commentId: F:SuperOffice.CRM.Rows.RelationsRecordData.StartDate
   id: StartDate
@@ -266,16 +312,22 @@ items:
   nameWithType: RelationsRecordData.StartDate
   fullName: SuperOffice.CRM.Rows.RelationsRecordData.StartDate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Start date of validity
-  example: []
+  summary: "\nStart date of validity \n"
   syntax:
     content: public DateTime StartDate
     return:
       type: System.DateTime
-    content.vb: Public StartDate As Date
+    content.vb: Public StartDate As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.EndDate
   commentId: F:SuperOffice.CRM.Rows.RelationsRecordData.EndDate
   id: EndDate
@@ -287,16 +339,22 @@ items:
   nameWithType: RelationsRecordData.EndDate
   fullName: SuperOffice.CRM.Rows.RelationsRecordData.EndDate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: End date of validity
-  example: []
+  summary: "\nEnd date of validity \n"
   syntax:
     content: public DateTime EndDate
     return:
       type: System.DateTime
-    content.vb: Public EndDate As Date
+    content.vb: Public EndDate As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.RelFlags
   commentId: F:SuperOffice.CRM.Rows.RelationsRecordData.RelFlags
   id: RelFlags
@@ -308,16 +366,22 @@ items:
   nameWithType: RelationsRecordData.RelFlags
   fullName: SuperOffice.CRM.Rows.RelationsRecordData.RelFlags
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Relation flags, meaning as yet unspecified
-  example: []
+  summary: "\nRelation flags, meaning as yet unspecified \n"
   syntax:
     content: public uint RelFlags
     return:
       type: System.UInt32
     content.vb: Public RelFlags As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.Registered
   commentId: F:SuperOffice.CRM.Rows.RelationsRecordData.Registered
   id: Registered
@@ -329,16 +393,22 @@ items:
   nameWithType: RelationsRecordData.Registered
   fullName: SuperOffice.CRM.Rows.RelationsRecordData.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Registered when in UTC.
-  example: []
+  summary: "\nRegistered when in UTC.  \n"
   syntax:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As Date
+    content.vb: Public Registered As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Rows.RelationsRecordData.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -350,16 +420,22 @@ items:
   nameWithType: RelationsRecordData.RegisteredAssociateId
   fullName: SuperOffice.CRM.Rows.RelationsRecordData.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Registered by whom
-  example: []
+  summary: "\nRegistered by whom \n"
   syntax:
     content: public int RegisteredAssociateId
     return:
       type: System.Int32
     content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.Updated
   commentId: F:SuperOffice.CRM.Rows.RelationsRecordData.Updated
   id: Updated
@@ -371,16 +447,22 @@ items:
   nameWithType: RelationsRecordData.Updated
   fullName: SuperOffice.CRM.Rows.RelationsRecordData.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last updated when in UTC.
-  example: []
+  summary: "\nLast updated when in UTC.  \n"
   syntax:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As Date
+    content.vb: Public Updated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Rows.RelationsRecordData.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -392,16 +474,22 @@ items:
   nameWithType: RelationsRecordData.UpdatedAssociateId
   fullName: SuperOffice.CRM.Rows.RelationsRecordData.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last updated by whom
-  example: []
+  summary: "\nLast updated by whom \n"
   syntax:
     content: public int UpdatedAssociateId
     return:
       type: System.Int32
     content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.UpdatedCount
   commentId: F:SuperOffice.CRM.Rows.RelationsRecordData.UpdatedCount
   id: UpdatedCount
@@ -413,16 +501,22 @@ items:
   nameWithType: RelationsRecordData.UpdatedCount
   fullName: SuperOffice.CRM.Rows.RelationsRecordData.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Number of updates made to this record
-  example: []
+  summary: "\nNumber of updates made to this record \n"
   syntax:
     content: public short UpdatedCount
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.AssociateId
   commentId: F:SuperOffice.CRM.Rows.RelationsRecordData.AssociateId
   id: AssociateId
@@ -434,16 +528,22 @@ items:
   nameWithType: RelationsRecordData.AssociateId
   fullName: SuperOffice.CRM.Rows.RelationsRecordData.AssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Owner of this relation record
-  example: []
+  summary: "\nOwner of this relation record \n"
   syntax:
     content: public int AssociateId
     return:
       type: System.Int32
     content.vb: Public AssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.RelationsRecordData.#ctor
   id: '#ctor'
@@ -455,590 +555,220 @@ items:
   nameWithType: RelationsRecordData.RelationsRecordData()
   fullName: SuperOffice.CRM.Rows.RelationsRecordData.RelationsRecordData()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public RelationsRecordData()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Rows.RelationsRecordData.#ctor*
-  nameWithType.vb: RelationsRecordData.New()
-  fullName.vb: SuperOffice.CRM.Rows.RelationsRecordData.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.Rows.RelationsRow
-  commentId: T:SuperOffice.CRM.Rows.RelationsRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.RelationsRow.html
-  name: RelationsRow
-  nameWithType: RelationsRow
-  fullName: SuperOffice.CRM.Rows.RelationsRow
-- uid: SuperOffice.CRM.Data.RelationsTableInfo
-  commentId: T:SuperOffice.CRM.Data.RelationsTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.RelationsTableInfo.html
-  name: RelationsTableInfo
-  nameWithType: RelationsTableInfo
-  fullName: SuperOffice.CRM.Data.RelationsTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<RelationsRecordData, To>(RelationsRecordData)
-  nameWithType: EnumUtil.MapEnums<RelationsRecordData, To>(RelationsRecordData)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.RelationsRecordData, To>(SuperOffice.CRM.Rows.RelationsRecordData)
-  nameWithType.vb: EnumUtil.MapEnums(Of RelationsRecordData, To)(RelationsRecordData)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.RelationsRecordData, To)(SuperOffice.CRM.Rows.RelationsRecordData)
-  name.vb: MapEnums(Of RelationsRecordData, To)(RelationsRecordData)
+  name: MapEnums<RelationsRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<RelationsRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.RelationsRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of RelationsRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.RelationsRecordData, To)()
+  name.vb: MapEnums(Of RelationsRecordData, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.RelationsRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<RelationsRecordData, To>
+    nameWithType: EnumUtil.MapEnums<RelationsRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.RelationsRecordData, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.RelationsRecordData
-    name: RelationsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.RelationsRecordData
-    name: RelationsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.RelationsRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of RelationsRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of RelationsRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.RelationsRecordData, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.RelationsRecordData
-    name: RelationsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.RelationsRecordData
-    name: RelationsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.RelationsRecordData.SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RelationsRecordData)
-  parent: SuperOffice.CRM.Rows.RelationsRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RelationsRecordData)
-  href: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.html#SuperOffice_CRM_Rows_RelationsRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_RelationsRecordData_
-  name: ToInsert(RelationsRecordData)
-  nameWithType: RelationsRecordDataExtensions.ToInsert(RelationsRecordData)
-  fullName: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RelationsRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RelationsRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.html#SuperOffice_CRM_Rows_RelationsRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_RelationsRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.RelationsRecordData
-    name: RelationsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RelationsRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.html#SuperOffice_CRM_Rows_RelationsRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_RelationsRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.RelationsRecordData
-    name: RelationsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.RelationsRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<RelationsRecordData, To>(RelationsRecordData)
-  nameWithType: Converters.MapEnums<RelationsRecordData, To>(RelationsRecordData)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.RelationsRecordData, To>(SuperOffice.CRM.Rows.RelationsRecordData)
-  nameWithType.vb: Converters.MapEnums(Of RelationsRecordData, To)(RelationsRecordData)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.RelationsRecordData, To)(SuperOffice.CRM.Rows.RelationsRecordData)
-  name.vb: MapEnums(Of RelationsRecordData, To)(RelationsRecordData)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.RelationsRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.RelationsRecordData
-    name: RelationsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Rows.RelationsRecordData
-    name: RelationsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.RelationsRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.RelationsRecordData
-    name: RelationsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.RelationsRecordData
-    name: RelationsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.RelationsRecordData)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<RelationsRecordData>(RelationsRecordData, RelationsRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<RelationsRecordData>(RelationsRecordData, RelationsRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.RelationsRecordData>(SuperOffice.CRM.Rows.RelationsRecordData, SuperOffice.CRM.Rows.RelationsRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RelationsRecordData)(RelationsRecordData, RelationsRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.RelationsRecordData)(SuperOffice.CRM.Rows.RelationsRecordData, SuperOffice.CRM.Rows.RelationsRecordData)
-  name.vb: AssignByReflection(Of RelationsRecordData)(RelationsRecordData, RelationsRecordData)
+  name: AssignByReflection<RelationsRecordData>(RelationsRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<RelationsRecordData>(RelationsRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.RelationsRecordData>(SuperOffice.CRM.Rows.RelationsRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RelationsRecordData)(RelationsRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.RelationsRecordData)(SuperOffice.CRM.Rows.RelationsRecordData)
+  name.vb: AssignByReflection(Of RelationsRecordData)(RelationsRecordData)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.RelationsRecordData,SuperOffice.CRM.Rows.RelationsRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<RelationsRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<RelationsRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.RelationsRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.RelationsRecordData
-    name: RelationsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.RelationsRecordData
     name: RelationsRecordData
+    nameWithType: RelationsRecordData
+    fullName: SuperOffice.CRM.Rows.RelationsRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.RelationsRecordData
-    name: RelationsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.RelationsRecordData,SuperOffice.CRM.Rows.RelationsRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of RelationsRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of RelationsRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.RelationsRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.RelationsRecordData
     name: RelationsRecordData
+    nameWithType: RelationsRecordData
+    fullName: SuperOffice.CRM.Rows.RelationsRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.RelationsRecordData
-    name: RelationsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.RelationsRecordData
-    name: RelationsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<RelationsRecordData>(RelationsRecordData)
-  nameWithType: ObjectExtensions.GraphCopy<RelationsRecordData>(RelationsRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.RelationsRecordData>(SuperOffice.CRM.Rows.RelationsRecordData)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of RelationsRecordData)(RelationsRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.RelationsRecordData)(SuperOffice.CRM.Rows.RelationsRecordData)
-  name.vb: GraphCopy(Of RelationsRecordData)(RelationsRecordData)
+  name: GraphCopy<RelationsRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<RelationsRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.RelationsRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of RelationsRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.RelationsRecordData)()
+  name.vb: GraphCopy(Of RelationsRecordData)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.RelationsRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<RelationsRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<RelationsRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.RelationsRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.RelationsRecordData
-    name: RelationsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.RelationsRecordData
-    name: RelationsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.RelationsRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of RelationsRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of RelationsRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.RelationsRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.RelationsRecordData
-    name: RelationsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.RelationsRecordData
-    name: RelationsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Data
-  commentId: N:SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Data
-  nameWithType: SuperOffice.CRM.Data
-  fullName: SuperOffice.CRM.Data
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.RelationsRecordData.SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RelationsRecordData)
+  parent: SuperOffice.CRM.Rows.RelationsRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RelationsRecordData)
+  name: ToInsert()
+  nameWithType: RelationsRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert()
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: RelationsRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: RelationsRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.RelationsRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<RelationsRecordData, To>()
+  nameWithType: Converters.MapEnums<RelationsRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.RelationsRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of RelationsRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.RelationsRecordData, To)()
+  name.vb: MapEnums(Of RelationsRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<RelationsRecordData, To>
+    nameWithType: Converters.MapEnums<RelationsRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.RelationsRecordData, To>
     isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of RelationsRecordData, To)
+    nameWithType: Converters.MapEnums(Of RelationsRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.RelationsRecordData, To)
     isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1047,130 +777,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RelationsRecordData)
-  commentId: M:SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RelationsRecordData)
-  isExternal: true
-  href: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.html#SuperOffice_CRM_Rows_RelationsRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_RelationsRecordData_
-  name: ToInsert(RelationsRecordData)
-  nameWithType: RelationsRecordDataExtensions.ToInsert(RelationsRecordData)
-  fullName: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RelationsRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RelationsRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.html#SuperOffice_CRM_Rows_RelationsRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_RelationsRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.RelationsRecordData
-    name: RelationsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RelationsRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.html#SuperOffice_CRM_Rows_RelationsRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_RelationsRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.RelationsRecordData
-    name: RelationsRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RelationsRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.RelationsRecordDataExtensions
-  commentId: T:SuperOffice.CRM.Rows.RelationsRecordDataExtensions
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.html
-  name: RelationsRecordDataExtensions
-  nameWithType: RelationsRecordDataExtensions
-  fullName: SuperOffice.CRM.Rows.RelationsRecordDataExtensions
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1179,46 +822,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1227,154 +880,175 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RelationsRecordData)
+  commentId: M:SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RelationsRecordData)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: ToInsert(RelationsRecordData)
+  nameWithType: RelationsRecordDataExtensions.ToInsert(RelationsRecordData)
+  fullName: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RelationsRecordData)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RelationsRecordData)
+    name: ToInsert
+    nameWithType: RelationsRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.RelationsRecordData
+    name: RelationsRecordData
+    nameWithType: RelationsRecordData
+    fullName: SuperOffice.CRM.Rows.RelationsRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RelationsRecordData)
+    name: ToInsert
+    nameWithType: RelationsRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.RelationsRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.RelationsRecordData
+    name: RelationsRecordData
+    nameWithType: RelationsRecordData
+    fullName: SuperOffice.CRM.Rows.RelationsRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.RelationsRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.RelationsRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: RelationsRecordDataExtensions
+  nameWithType: RelationsRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.RelationsRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: System.UInt32
   commentId: T:System.UInt32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.uint32
-  name: uint
-  nameWithType: uint
-  fullName: uint
-  nameWithType.vb: UInteger
-  fullName.vb: UInteger
-  name.vb: UInteger
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
 - uid: SuperOffice.CRM.Rows.RelationsRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.RelationsRecordData.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Rows.RelationsRecordData.html#SuperOffice_CRM_Rows_RelationsRecordData__ctor
   name: RelationsRecordData
   nameWithType: RelationsRecordData.RelationsRecordData
   fullName: SuperOffice.CRM.Rows.RelationsRecordData.RelationsRecordData
-  nameWithType.vb: RelationsRecordData.New
-  fullName.vb: SuperOffice.CRM.Rows.RelationsRecordData.New
-  name.vb: New

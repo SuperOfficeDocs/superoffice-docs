@@ -23,26 +23,31 @@ items:
   nameWithType: ServiceLogContext
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   syntax:
-    content: 'public class ServiceLogContext : IDisposable'
-    content.vb: Public Class ServiceLogContext Implements IDisposable
+    content: 'public class ServiceLogContext : Object, IDisposable'
+    content.vb: >-
+      Public Class ServiceLogContext
+          Inherits Object
+          Implements IDisposable
   inheritance:
   - System.Object
   implements:
   - System.IDisposable
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Services.Implementation.ServiceLogContext.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Services.Implementation.ServiceLogContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.ToString
   commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogContext.ToString
   id: ToString
@@ -54,17 +59,24 @@ items:
   nameWithType: ServiceLogContext.ToString()
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.ToString()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
-  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.Implementation.ServiceLogContext.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCrashInformation
   commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCrashInformation
   id: GetCrashInformation
@@ -76,6 +88,9 @@ items:
   nameWithType: ServiceLogContext.GetCrashInformation()
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCrashInformation()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -83,8 +98,12 @@ items:
     content: public string GetCrashInformation()
     return:
       type: System.String
-    content.vb: Public Function GetCrashInformation() As String
+    content.vb: Public Function GetCrashInformation As String
   overload: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCrashInformation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetEnvironmentInfo
   commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetEnvironmentInfo
   id: GetEnvironmentInfo
@@ -96,6 +115,9 @@ items:
   nameWithType: ServiceLogContext.GetEnvironmentInfo()
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetEnvironmentInfo()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -103,8 +125,14 @@ items:
     content: public static string GetEnvironmentInfo()
     return:
       type: System.String
-    content.vb: Public Shared Function GetEnvironmentInfo() As String
+    content.vb: Public Shared Function GetEnvironmentInfo As String
   overload: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetEnvironmentInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetSimplifiedParametersForLogging
   commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetSimplifiedParametersForLogging
   id: GetSimplifiedParametersForLogging
@@ -116,15 +144,24 @@ items:
   nameWithType: ServiceLogContext.GetSimplifiedParametersForLogging()
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetSimplifiedParametersForLogging()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
   syntax:
-    content: public static List<(string, string)> GetSimplifiedParametersForLogging()
+    content: public static List<ValueTuple<string, string>> GetSimplifiedParametersForLogging()
     return:
       type: System.Collections.Generic.List{System.ValueTuple{System.String,System.String}}
-    content.vb: Public Shared Function GetSimplifiedParametersForLogging() As List(Of (String, String))
+    content.vb: Public Shared Function GetSimplifiedParametersForLogging As List(Of ValueTuple(Of String, String))
   overload: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetSimplifiedParametersForLogging*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetReturnValue(System.Object)
   commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetReturnValue(System.Object)
   id: SetReturnValue(System.Object)
@@ -132,10 +169,13 @@ items:
   langs:
   - csharp
   - vb
-  name: SetReturnValue(object)
-  nameWithType: ServiceLogContext.SetReturnValue(object)
-  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetReturnValue(object)
+  name: SetReturnValue(Object)
+  nameWithType: ServiceLogContext.SetReturnValue(Object)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetReturnValue(System.Object)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -146,9 +186,10 @@ items:
       type: System.Object
     content.vb: Public Sub SetReturnValue(returnValue As Object)
   overload: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetReturnValue*
-  nameWithType.vb: ServiceLogContext.SetReturnValue(Object)
-  fullName.vb: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetReturnValue(Object)
-  name.vb: SetReturnValue(Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadCreation(System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadCreation(System.Int32,System.Int32)
   id: TrackThreadCreation(System.Int32,System.Int32)
@@ -156,10 +197,13 @@ items:
   langs:
   - csharp
   - vb
-  name: TrackThreadCreation(int, int)
-  nameWithType: ServiceLogContext.TrackThreadCreation(int, int)
-  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadCreation(int, int)
+  name: TrackThreadCreation(Int32, Int32)
+  nameWithType: ServiceLogContext.TrackThreadCreation(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadCreation(System.Int32, System.Int32)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -172,9 +216,12 @@ items:
       type: System.Int32
     content.vb: Public Shared Sub TrackThreadCreation(parentThreadId As Integer, childThreadId As Integer)
   overload: SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadCreation*
-  nameWithType.vb: ServiceLogContext.TrackThreadCreation(Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadCreation(Integer, Integer)
-  name.vb: TrackThreadCreation(Integer, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadDeletion(System.Int32)
   commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadDeletion(System.Int32)
   id: TrackThreadDeletion(System.Int32)
@@ -182,10 +229,13 @@ items:
   langs:
   - csharp
   - vb
-  name: TrackThreadDeletion(int)
-  nameWithType: ServiceLogContext.TrackThreadDeletion(int)
-  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadDeletion(int)
+  name: TrackThreadDeletion(Int32)
+  nameWithType: ServiceLogContext.TrackThreadDeletion(Int32)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadDeletion(System.Int32)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -196,9 +246,12 @@ items:
       type: System.Int32
     content.vb: Public Shared Sub TrackThreadDeletion(dyingThreadId As Integer)
   overload: SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadDeletion*
-  nameWithType.vb: ServiceLogContext.TrackThreadDeletion(Integer)
-  fullName.vb: SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadDeletion(Integer)
-  name.vb: TrackThreadDeletion(Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetShorthandInfo
   commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetShorthandInfo
   id: GetShorthandInfo
@@ -210,6 +263,9 @@ items:
   nameWithType: ServiceLogContext.GetShorthandInfo()
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetShorthandInfo()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -217,8 +273,14 @@ items:
     content: public static string GetShorthandInfo()
     return:
       type: System.String
-    content.vb: Public Shared Function GetShorthandInfo() As String
+    content.vb: Public Shared Function GetShorthandInfo As String
   overload: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetShorthandInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCurrentState
   commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCurrentState
   id: GetCurrentState
@@ -230,18 +292,25 @@ items:
   nameWithType: ServiceLogContext.GetCurrentState()
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCurrentState()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
-  summary: Return information about the currently executing services. Do not refactor to use IEnumerable/yield as we need to keep the lock time minimal.
-  example: []
+  summary: "\nReturn information about the currently executing services. Do not refactor to use IEnumerable/yield as we need to keep the lock time minimal.\n"
   syntax:
     content: public static ServiceLogData[] GetCurrentState()
     return:
       type: SuperOffice.CRM.Services.Implementation.ServiceLogData[]
-      description: ''
-    content.vb: Public Shared Function GetCurrentState() As ServiceLogData()
+    content.vb: Public Shared Function GetCurrentState As ServiceLogData()
   overload: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCurrentState*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetDbStatistics(System.Int32,System.Int32,System.Int32)
   commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetDbStatistics(System.Int32,System.Int32,System.Int32)
   id: SetDbStatistics(System.Int32,System.Int32,System.Int32)
@@ -249,10 +318,13 @@ items:
   langs:
   - csharp
   - vb
-  name: SetDbStatistics(int, int, int)
-  nameWithType: ServiceLogContext.SetDbStatistics(int, int, int)
-  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetDbStatistics(int, int, int)
+  name: SetDbStatistics(Int32, Int32, Int32)
+  nameWithType: ServiceLogContext.SetDbStatistics(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetDbStatistics(System.Int32, System.Int32, System.Int32)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
@@ -267,9 +339,12 @@ items:
       type: System.Int32
     content.vb: Public Shared Sub SetDbStatistics(managedThreadId As Integer, dbOps As Integer, dbRows As Integer)
   overload: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetDbStatistics*
-  nameWithType.vb: ServiceLogContext.SetDbStatistics(Integer, Integer, Integer)
-  fullName.vb: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetDbStatistics(Integer, Integer, Integer)
-  name.vb: SetDbStatistics(Integer, Integer, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.Dispose
   commentId: M:SuperOffice.CRM.Services.Implementation.ServiceLogContext.Dispose
   id: Dispose
@@ -281,395 +356,116 @@ items:
   nameWithType: ServiceLogContext.Dispose()
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.Dispose()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services.Implementation
-  example: []
   syntax:
     content: public void Dispose()
-    content.vb: Public Sub Dispose()
+    content.vb: Public Sub Dispose
   overload: SuperOffice.CRM.Services.Implementation.ServiceLogContext.Dispose*
-  implements:
-  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Services.Implementation
   commentId: N:SuperOffice.CRM.Services.Implementation
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services.Implementation
   nameWithType: SuperOffice.CRM.Services.Implementation
   fullName: SuperOffice.CRM.Services.Implementation
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  - name: .
-  - uid: SuperOffice.CRM.Services.Implementation
-    name: Implementation
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  - name: .
-  - uid: SuperOffice.CRM.Services.Implementation
-    name: Implementation
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ServiceLogContext, To>(ServiceLogContext)
-  nameWithType: EnumUtil.MapEnums<ServiceLogContext, To>(ServiceLogContext)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceLogContext, To>(SuperOffice.CRM.Services.Implementation.ServiceLogContext)
-  nameWithType.vb: EnumUtil.MapEnums(Of ServiceLogContext, To)(ServiceLogContext)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceLogContext, To)(SuperOffice.CRM.Services.Implementation.ServiceLogContext)
-  name.vb: MapEnums(Of ServiceLogContext, To)(ServiceLogContext)
+  name: MapEnums<ServiceLogContext, To>()
+  nameWithType: EnumUtil.MapEnums<ServiceLogContext, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceLogContext, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ServiceLogContext, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceLogContext, To)()
+  name.vb: MapEnums(Of ServiceLogContext, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Services.Implementation.ServiceLogContext)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ServiceLogContext, To>
+    nameWithType: EnumUtil.MapEnums<ServiceLogContext, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceLogContext, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext
-    name: ServiceLogContext
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogContext.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext
-    name: ServiceLogContext
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogContext.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Services.Implementation.ServiceLogContext)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ServiceLogContext, To)
+    nameWithType: EnumUtil.MapEnums(Of ServiceLogContext, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceLogContext, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext
-    name: ServiceLogContext
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogContext.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext
-    name: ServiceLogContext
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogContext.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ServiceLogContext, To>(ServiceLogContext)
-  nameWithType: Converters.MapEnums<ServiceLogContext, To>(ServiceLogContext)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceLogContext, To>(SuperOffice.CRM.Services.Implementation.ServiceLogContext)
-  nameWithType.vb: Converters.MapEnums(Of ServiceLogContext, To)(ServiceLogContext)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceLogContext, To)(SuperOffice.CRM.Services.Implementation.ServiceLogContext)
-  name.vb: MapEnums(Of ServiceLogContext, To)(ServiceLogContext)
+  name: MapEnums<ServiceLogContext, To>()
+  nameWithType: Converters.MapEnums<ServiceLogContext, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceLogContext, To>()
+  nameWithType.vb: Converters.MapEnums(Of ServiceLogContext, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceLogContext, To)()
+  name.vb: MapEnums(Of ServiceLogContext, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Services.Implementation.ServiceLogContext)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ServiceLogContext, To>
+    nameWithType: Converters.MapEnums<ServiceLogContext, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceLogContext, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext
-    name: ServiceLogContext
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogContext.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext
-    name: ServiceLogContext
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogContext.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Services.Implementation.ServiceLogContext)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ServiceLogContext, To)
+    nameWithType: Converters.MapEnums(Of ServiceLogContext, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceLogContext, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext
-    name: ServiceLogContext
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogContext.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext
-    name: ServiceLogContext
-    isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogContext.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -678,45 +474,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -725,107 +519,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.ToString*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogContext.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.ServiceLogContext.html#SuperOffice_CRM_Services_Implementation_ServiceLogContext_ToString
   name: ToString
   nameWithType: ServiceLogContext.ToString
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.ToString
@@ -833,161 +570,155 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCrashInformation*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCrashInformation
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.ServiceLogContext.html#SuperOffice_CRM_Services_Implementation_ServiceLogContext_GetCrashInformation
   name: GetCrashInformation
   nameWithType: ServiceLogContext.GetCrashInformation
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCrashInformation
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetEnvironmentInfo*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetEnvironmentInfo
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.ServiceLogContext.html#SuperOffice_CRM_Services_Implementation_ServiceLogContext_GetEnvironmentInfo
   name: GetEnvironmentInfo
   nameWithType: ServiceLogContext.GetEnvironmentInfo
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetEnvironmentInfo
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetSimplifiedParametersForLogging*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetSimplifiedParametersForLogging
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.ServiceLogContext.html#SuperOffice_CRM_Services_Implementation_ServiceLogContext_GetSimplifiedParametersForLogging
   name: GetSimplifiedParametersForLogging
   nameWithType: ServiceLogContext.GetSimplifiedParametersForLogging
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetSimplifiedParametersForLogging
 - uid: System.Collections.Generic.List{System.ValueTuple{System.String,System.String}}
-  commentId: T:System.Collections.Generic.List{System.ValueTuple{System.String,System.String}}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{System.ValueTuple{System.String,System.String}}'
   definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<(string, string)>
-  nameWithType: List<(string, string)>
-  fullName: System.Collections.Generic.List<(string, string)>
-  nameWithType.vb: List(Of (String, String))
-  fullName.vb: System.Collections.Generic.List(Of (String, String))
-  name.vb: List(Of (String, String))
+  name: List<ValueTuple<String, String>>
+  nameWithType: List<ValueTuple<String, String>>
+  fullName: System.Collections.Generic.List<System.ValueTuple<System.String, System.String>>
+  nameWithType.vb: List(Of ValueTuple(Of String, String))
+  fullName.vb: System.Collections.Generic.List(Of System.ValueTuple(Of System.String, System.String))
+  name.vb: List(Of ValueTuple(Of String, String))
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - name: (
-  - uid: System.String
-    name: string
+    nameWithType: <
+    fullName: <
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: (
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetReturnValue*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetReturnValue
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.ServiceLogContext.html#SuperOffice_CRM_Services_Implementation_ServiceLogContext_SetReturnValue_System_Object_
   name: SetReturnValue
   nameWithType: ServiceLogContext.SetReturnValue
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetReturnValue
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadCreation*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadCreation
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.ServiceLogContext.html#SuperOffice_CRM_Services_Implementation_ServiceLogContext_TrackThreadCreation_System_Int32_System_Int32_
   name: TrackThreadCreation
   nameWithType: ServiceLogContext.TrackThreadCreation
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadCreation
@@ -995,37 +726,29 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadDeletion*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadDeletion
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.ServiceLogContext.html#SuperOffice_CRM_Services_Implementation_ServiceLogContext_TrackThreadDeletion_System_Int32_
   name: TrackThreadDeletion
   nameWithType: ServiceLogContext.TrackThreadDeletion
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.TrackThreadDeletion
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetShorthandInfo*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetShorthandInfo
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.ServiceLogContext.html#SuperOffice_CRM_Services_Implementation_ServiceLogContext_GetShorthandInfo
   name: GetShorthandInfo
   nameWithType: ServiceLogContext.GetShorthandInfo
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetShorthandInfo
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCurrentState*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCurrentState
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.ServiceLogContext.html#SuperOffice_CRM_Services_Implementation_ServiceLogContext_GetCurrentState
   name: GetCurrentState
   nameWithType: ServiceLogContext.GetCurrentState
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.GetCurrentState
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData[]
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
   name: ServiceLogData[]
   nameWithType: ServiceLogData[]
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData[]
@@ -1035,50 +758,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
     name: ServiceLogData
+    nameWithType: ServiceLogData
+    fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData
     isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.Implementation.ServiceLogData
     name: ServiceLogData
+    nameWithType: ServiceLogData
+    fullName: SuperOffice.CRM.Services.Implementation.ServiceLogData
     isExternal: true
-    href: SuperOffice.CRM.Services.Implementation.ServiceLogData.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetDbStatistics*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetDbStatistics
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.ServiceLogContext.html#SuperOffice_CRM_Services_Implementation_ServiceLogContext_SetDbStatistics_System_Int32_System_Int32_System_Int32_
   name: SetDbStatistics
   nameWithType: ServiceLogContext.SetDbStatistics
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.SetDbStatistics
 - uid: SuperOffice.CRM.Services.Implementation.ServiceLogContext.Dispose*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceLogContext.Dispose
   isExternal: true
-  href: SuperOffice.CRM.Services.Implementation.ServiceLogContext.html#SuperOffice_CRM_Services_Implementation_ServiceLogContext_Dispose
   name: Dispose
   nameWithType: ServiceLogContext.Dispose
   fullName: SuperOffice.CRM.Services.Implementation.ServiceLogContext.Dispose
-- uid: System.IDisposable.Dispose
-  commentId: M:System.IDisposable.Dispose
-  parent: System.IDisposable
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  name: Dispose()
-  nameWithType: IDisposable.Dispose()
-  fullName: System.IDisposable.Dispose()
-  spec.csharp:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )

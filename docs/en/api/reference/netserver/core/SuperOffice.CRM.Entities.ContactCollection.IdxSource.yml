@@ -14,14 +14,19 @@ items:
   nameWithType: ContactCollection.IdxSource
   fullName: SuperOffice.CRM.Entities.ContactCollection.IdxSource
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: Class representing index 'IDXContSource'.
-  example: []
+  summary: "\nClass representing index &apos;IDXContSource&apos;.\n"
   syntax:
-    content: 'public sealed class ContactCollection.IdxSource : ContactCollection.ContactCollectionIdx<ContactRows.IdxSource>, ISentryIgnorable'
-    content.vb: Public NotInheritable Class ContactCollection.IdxSource Inherits ContactCollection.ContactCollectionIdx(Of ContactRows.IdxSource) Implements ISentryIgnorable
+    content: 'public sealed class IdxSource : ContactCollection.ContactCollectionIdx<ContactRows.IdxSource>, ISentryIgnorable'
+    content.vb: >-
+      Public NotInheritable Class IdxSource
+          Inherits ContactCollection.ContactCollectionIdx(Of ContactRows.IdxSource)
+          Implements ISentryIgnorable
   inheritance:
   - System.Object
   - SuperOffice.CRM.Entities.EntityIdxBase
@@ -31,16 +36,17 @@ items:
   - SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx{SuperOffice.CRM.Rows.ContactRows.IdxSource}
   implements:
   - SuperOffice.CRM.Security.ISentryIgnorable
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
   extensionMethods:
   - SuperOffice.CRM.Entities.ContactCollection.IdxSource.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.ContactCollection.IdxSource.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
 - uid: SuperOffice.CRM.Entities.ContactCollection.IdxSource.#ctor(System.Int16)
   commentId: M:SuperOffice.CRM.Entities.ContactCollection.IdxSource.#ctor(System.Int16)
   id: '#ctor(System.Int16)'
@@ -48,18 +54,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxSource(short)
-  nameWithType: ContactCollection.IdxSource.IdxSource(short)
-  fullName: SuperOffice.CRM.Entities.ContactCollection.IdxSource.IdxSource(short)
+  name: IdxSource(Int16)
+  nameWithType: ContactCollection.IdxSource.IdxSource(Int16)
+  fullName: SuperOffice.CRM.Entities.ContactCollection.IdxSource.IdxSource(System.Int16)
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: >-
-    Constructor for class ContactCollection.IdxSource
-
-    This class represents index 'IDXContSource'.
-  example: []
+  summary: "\nConstructor for class ContactCollection.IdxSource\nThis class represents index &apos;IDXContSource&apos;.\n"
   syntax:
     content: public IdxSource(short source)
     parameters:
@@ -68,9 +73,10 @@ items:
       description: How did we get this contact? For future integration needs
     content.vb: Public Sub New(source As Short)
   overload: SuperOffice.CRM.Entities.ContactCollection.IdxSource.#ctor*
-  nameWithType.vb: ContactCollection.IdxSource.New(Short)
-  fullName.vb: SuperOffice.CRM.Entities.ContactCollection.IdxSource.New(Short)
-  name.vb: New(Short)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.ContactCollection.IdxSource.Source
   commentId: P:SuperOffice.CRM.Entities.ContactCollection.IdxSource.Source
   id: Source
@@ -82,11 +88,13 @@ items:
   nameWithType: ContactCollection.IdxSource.Source
   fullName: SuperOffice.CRM.Entities.ContactCollection.IdxSource.Source
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities
-  summary: How did we get this contact? For future integration needs
-  example: []
+  summary: "\nHow did we get this contact? For future integration needs\n"
   syntax:
     content: public short Source { get; set; }
     parameters: []
@@ -94,60 +102,30 @@ items:
       type: System.Int16
     content.vb: Public Property Source As Short
   overload: SuperOffice.CRM.Entities.ContactCollection.IdxSource.Source*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Entities
   commentId: N:SuperOffice.CRM.Entities
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Entities
   nameWithType: SuperOffice.CRM.Entities
   fullName: SuperOffice.CRM.Entities
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Entities.EntityIdxBase
   commentId: T:SuperOffice.CRM.Entities.EntityIdxBase
   parent: SuperOffice.CRM.Entities
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityIdxBase.html
   name: EntityIdxBase
   nameWithType: EntityIdxBase
   fullName: SuperOffice.CRM.Entities.EntityIdxBase
@@ -155,7 +133,6 @@ references:
   commentId: T:SuperOffice.CRM.Entities.EntityIdxBase{SuperOffice.CRM.Data.ContactTableInfo,SuperOffice.CRM.Rows.ContactRow.ContactRowIdxBase}
   parent: SuperOffice.CRM.Entities
   definition: SuperOffice.CRM.Entities.EntityIdxBase`2
-  href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
   name: EntityIdxBase<ContactTableInfo, ContactRow.ContactRowIdxBase>
   nameWithType: EntityIdxBase<ContactTableInfo, ContactRow.ContactRowIdxBase>
   fullName: SuperOffice.CRM.Entities.EntityIdxBase<SuperOffice.CRM.Data.ContactTableInfo, SuperOffice.CRM.Rows.ContactRow.ContactRowIdxBase>
@@ -165,110 +142,71 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
     name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
     isExternal: true
-    href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.ContactTableInfo
     name: ContactTableInfo
+    nameWithType: ContactTableInfo
+    fullName: SuperOffice.CRM.Data.ContactTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.ContactTableInfo.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.ContactRow
-    name: ContactRow
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ContactRow.html
-  - name: .
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Rows.ContactRow.ContactRowIdxBase
-    name: ContactRowIdxBase
+    name: ContactRow.ContactRowIdxBase
+    nameWithType: ContactRow.ContactRowIdxBase
+    fullName: SuperOffice.CRM.Rows.ContactRow.ContactRowIdxBase
     isExternal: true
-    href: SuperOffice.CRM.Rows.ContactRow.ContactRowIdxBase.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
     name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
     isExternal: true
-    href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.ContactTableInfo
     name: ContactTableInfo
+    nameWithType: ContactTableInfo
+    fullName: SuperOffice.CRM.Data.ContactTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.ContactTableInfo.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.ContactRow
-    name: ContactRow
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ContactRow.html
-  - name: .
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.CRM.Rows.ContactRow.ContactRowIdxBase
-    name: ContactRowIdxBase
+    name: ContactRow.ContactRowIdxBase
+    nameWithType: ContactRow.ContactRowIdxBase
+    fullName: SuperOffice.CRM.Rows.ContactRow.ContactRowIdxBase
     isExternal: true
-    href: SuperOffice.CRM.Rows.ContactRow.ContactRowIdxBase.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.Contact.ContactIdxBase
   commentId: T:SuperOffice.CRM.Entities.Contact.ContactIdxBase
   parent: SuperOffice.CRM.Entities
   isExternal: true
-  href: SuperOffice.CRM.Entities.Contact.html
   name: Contact.ContactIdxBase
   nameWithType: Contact.ContactIdxBase
   fullName: SuperOffice.CRM.Entities.Contact.ContactIdxBase
-  spec.csharp:
-  - uid: SuperOffice.CRM.Entities.Contact
-    name: Contact
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Contact.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities.Contact.ContactIdxBase
-    name: ContactIdxBase
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Contact.ContactIdxBase.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Entities.Contact
-    name: Contact
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Contact.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities.Contact.ContactIdxBase
-    name: ContactIdxBase
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Contact.ContactIdxBase.html
 - uid: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx
   commentId: T:SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx
   parent: SuperOffice.CRM.Entities
   isExternal: true
-  href: SuperOffice.CRM.Entities.ContactCollection.html
   name: ContactCollection.ContactCollectionIdx
   nameWithType: ContactCollection.ContactCollectionIdx
   fullName: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx
-  spec.csharp:
-  - uid: SuperOffice.CRM.Entities.ContactCollection
-    name: ContactCollection
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ContactCollection.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx
-    name: ContactCollectionIdx
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Entities.ContactCollection
-    name: ContactCollection
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ContactCollection.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx
-    name: ContactCollectionIdx
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx.html
 - uid: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx{SuperOffice.CRM.Rows.ContactRows.IdxSource}
   commentId: T:SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx{SuperOffice.CRM.Rows.ContactRows.IdxSource}
   parent: SuperOffice.CRM.Entities
   definition: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx`1
-  href: SuperOffice.CRM.Entities.ContactCollection.html
   name: ContactCollection.ContactCollectionIdx<ContactRows.IdxSource>
   nameWithType: ContactCollection.ContactCollectionIdx<ContactRows.IdxSource>
   fullName: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx<SuperOffice.CRM.Rows.ContactRows.IdxSource>
@@ -276,369 +214,123 @@ references:
   fullName.vb: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx(Of SuperOffice.CRM.Rows.ContactRows.IdxSource)
   name.vb: ContactCollection.ContactCollectionIdx(Of ContactRows.IdxSource)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.ContactCollection
-    name: ContactCollection
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ContactCollection.html
-  - name: .
   - uid: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx`1
-    name: ContactCollectionIdx
+    name: ContactCollection.ContactCollectionIdx
+    nameWithType: ContactCollection.ContactCollectionIdx
+    fullName: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx
     isExternal: true
-    href: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx-1.html
   - name: <
-  - uid: SuperOffice.CRM.Rows.ContactRows
-    name: ContactRows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ContactRows.html
-  - name: .
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Rows.ContactRows.IdxSource
-    name: IdxSource
+    name: ContactRows.IdxSource
+    nameWithType: ContactRows.IdxSource
+    fullName: SuperOffice.CRM.Rows.ContactRows.IdxSource
     isExternal: true
-    href: SuperOffice.CRM.Rows.ContactRows.IdxSource.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.ContactCollection
-    name: ContactCollection
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ContactCollection.html
-  - name: .
   - uid: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx`1
-    name: ContactCollectionIdx
+    name: ContactCollection.ContactCollectionIdx
+    nameWithType: ContactCollection.ContactCollectionIdx
+    fullName: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx
     isExternal: true
-    href: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.ContactRows
-    name: ContactRows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ContactRows.html
-  - name: .
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Rows.ContactRows.IdxSource
-    name: IdxSource
+    name: ContactRows.IdxSource
+    nameWithType: ContactRows.IdxSource
+    fullName: SuperOffice.CRM.Rows.ContactRows.IdxSource
     isExternal: true
-    href: SuperOffice.CRM.Rows.ContactRows.IdxSource.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Security.ISentryIgnorable
   commentId: T:SuperOffice.CRM.Security.ISentryIgnorable
   parent: SuperOffice.CRM.Security
   isExternal: true
-  href: SuperOffice.CRM.Security.ISentryIgnorable.html
   name: ISentryIgnorable
   nameWithType: ISentryIgnorable
   fullName: SuperOffice.CRM.Security.ISentryIgnorable
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Entities.ContactCollection.IdxSource.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<IdxSource, To>(IdxSource)
-  nameWithType: EnumUtil.MapEnums<ContactCollection.IdxSource, To>(ContactCollection.IdxSource)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.ContactCollection.IdxSource, To>(SuperOffice.CRM.Entities.ContactCollection.IdxSource)
-  nameWithType.vb: EnumUtil.MapEnums(Of ContactCollection.IdxSource, To)(ContactCollection.IdxSource)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.ContactCollection.IdxSource, To)(SuperOffice.CRM.Entities.ContactCollection.IdxSource)
-  name.vb: MapEnums(Of IdxSource, To)(IdxSource)
+  name: MapEnums<ContactCollection.IdxSource, To>()
+  nameWithType: EnumUtil.MapEnums<ContactCollection.IdxSource, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.ContactCollection.IdxSource, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ContactCollection.IdxSource, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.ContactCollection.IdxSource, To)()
+  name.vb: MapEnums(Of ContactCollection.IdxSource, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.ContactCollection.IdxSource)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ContactCollection.IdxSource, To>
+    nameWithType: EnumUtil.MapEnums<ContactCollection.IdxSource, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.ContactCollection.IdxSource, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Entities.ContactCollection.IdxSource
-    name: IdxSource
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ContactCollection.IdxSource.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Entities.ContactCollection.IdxSource
-    name: IdxSource
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ContactCollection.IdxSource.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.ContactCollection.IdxSource)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ContactCollection.IdxSource, To)
+    nameWithType: EnumUtil.MapEnums(Of ContactCollection.IdxSource, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.ContactCollection.IdxSource, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Entities.ContactCollection.IdxSource
-    name: IdxSource
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ContactCollection.IdxSource.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Entities.ContactCollection.IdxSource
-    name: IdxSource
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ContactCollection.IdxSource.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.ContactCollection.IdxSource.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<IdxSource, To>(IdxSource)
-  nameWithType: Converters.MapEnums<ContactCollection.IdxSource, To>(ContactCollection.IdxSource)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.ContactCollection.IdxSource, To>(SuperOffice.CRM.Entities.ContactCollection.IdxSource)
-  nameWithType.vb: Converters.MapEnums(Of ContactCollection.IdxSource, To)(ContactCollection.IdxSource)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.ContactCollection.IdxSource, To)(SuperOffice.CRM.Entities.ContactCollection.IdxSource)
-  name.vb: MapEnums(Of IdxSource, To)(IdxSource)
+  name: MapEnums<ContactCollection.IdxSource, To>()
+  nameWithType: Converters.MapEnums<ContactCollection.IdxSource, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.ContactCollection.IdxSource, To>()
+  nameWithType.vb: Converters.MapEnums(Of ContactCollection.IdxSource, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.ContactCollection.IdxSource, To)()
+  name.vb: MapEnums(Of ContactCollection.IdxSource, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.ContactCollection.IdxSource)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ContactCollection.IdxSource, To>
+    nameWithType: Converters.MapEnums<ContactCollection.IdxSource, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.ContactCollection.IdxSource, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Entities.ContactCollection.IdxSource
-    name: IdxSource
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ContactCollection.IdxSource.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Entities.ContactCollection.IdxSource
-    name: IdxSource
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ContactCollection.IdxSource.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.ContactCollection.IdxSource)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ContactCollection.IdxSource, To)
+    nameWithType: Converters.MapEnums(Of ContactCollection.IdxSource, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.ContactCollection.IdxSource, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Entities.ContactCollection.IdxSource
-    name: IdxSource
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ContactCollection.IdxSource.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Entities.ContactCollection.IdxSource
-    name: IdxSource
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ContactCollection.IdxSource.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
   commentId: T:SuperOffice.CRM.Entities.EntityIdxBase`2
   isExternal: true
-  href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
   name: EntityIdxBase<TTableInfo, TIdx>
   nameWithType: EntityIdxBase<TTableInfo, TIdx>
   fullName: SuperOffice.CRM.Entities.EntityIdxBase<TTableInfo, TIdx>
@@ -648,31 +340,48 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
     name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
     isExternal: true
-    href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TTableInfo
-  - name: ','
-  - name: " "
+    nameWithType: TTableInfo
+    fullName: TTableInfo
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Entities.EntityIdxBase`2
     name: EntityIdxBase
+    nameWithType: EntityIdxBase
+    fullName: SuperOffice.CRM.Entities.EntityIdxBase
     isExternal: true
-    href: SuperOffice.CRM.Entities.EntityIdxBase-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TTableInfo
-  - name: ','
-  - name: " "
+    nameWithType: TTableInfo
+    fullName: TTableInfo
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx`1
   commentId: T:SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx`1
   isExternal: true
-  href: SuperOffice.CRM.Entities.ContactCollection.html
   name: ContactCollection.ContactCollectionIdx<TIdx>
   nameWithType: ContactCollection.ContactCollectionIdx<TIdx>
   fullName: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx<TIdx>
@@ -680,74 +389,44 @@ references:
   fullName.vb: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx(Of TIdx)
   name.vb: ContactCollection.ContactCollectionIdx(Of TIdx)
   spec.csharp:
-  - uid: SuperOffice.CRM.Entities.ContactCollection
-    name: ContactCollection
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ContactCollection.html
-  - name: .
   - uid: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx`1
-    name: ContactCollectionIdx
+    name: ContactCollection.ContactCollectionIdx
+    nameWithType: ContactCollection.ContactCollectionIdx
+    fullName: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx
     isExternal: true
-    href: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
-  - uid: SuperOffice.CRM.Entities.ContactCollection
-    name: ContactCollection
-    isExternal: true
-    href: SuperOffice.CRM.Entities.ContactCollection.html
-  - name: .
   - uid: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx`1
-    name: ContactCollectionIdx
+    name: ContactCollection.ContactCollectionIdx
+    nameWithType: ContactCollection.ContactCollectionIdx
+    fullName: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx
     isExternal: true
-    href: SuperOffice.CRM.Entities.ContactCollection.ContactCollectionIdx-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TIdx
+    nameWithType: TIdx
+    fullName: TIdx
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Security
   nameWithType: SuperOffice.CRM.Security
   fullName: SuperOffice.CRM.Security
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.CRM.Security.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.CRM.Security.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -756,45 +435,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -803,104 +480,63 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Entities.ContactCollection.IdxSource.#ctor*
   commentId: Overload:SuperOffice.CRM.Entities.ContactCollection.IdxSource.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Entities.ContactCollection.IdxSource.html#SuperOffice_CRM_Entities_ContactCollection_IdxSource__ctor_System_Int16_
   name: IdxSource
   nameWithType: ContactCollection.IdxSource.IdxSource
   fullName: SuperOffice.CRM.Entities.ContactCollection.IdxSource.IdxSource
-  nameWithType.vb: ContactCollection.IdxSource.New
-  fullName.vb: SuperOffice.CRM.Entities.ContactCollection.IdxSource.New
-  name.vb: New
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Entities.ContactCollection.IdxSource.Source*
   commentId: Overload:SuperOffice.CRM.Entities.ContactCollection.IdxSource.Source
   isExternal: true
-  href: SuperOffice.CRM.Entities.ContactCollection.IdxSource.html#SuperOffice_CRM_Entities_ContactCollection_IdxSource_Source
   name: Source
   nameWithType: ContactCollection.IdxSource.Source
   fullName: SuperOffice.CRM.Entities.ContactCollection.IdxSource.Source

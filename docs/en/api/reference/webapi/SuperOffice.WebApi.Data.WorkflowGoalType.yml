@@ -16,24 +16,64 @@ items:
   - SuperOffice.WebApi.Data.WorkflowGoalType.RequestCreated
   - SuperOffice.WebApi.Data.WorkflowGoalType.SaleCreatedOnCompany
   - SuperOffice.WebApi.Data.WorkflowGoalType.SaleCreatedOnPerson
+  - SuperOffice.WebApi.Data.WorkflowGoalType.value__
   langs:
   - csharp
   - vb
   name: WorkflowGoalType
   nameWithType: WorkflowGoalType
   fullName: SuperOffice.WebApi.Data.WorkflowGoalType
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Workflow Goal Type
-
-    This Enum is used by:  workflow_goal.goal_type
-  example: []
+  summary: "\nWorkflow Goal Type\nThis Enum is used by:  workflow_goal.goal_type\n"
   syntax:
-    content: 'public enum WorkflowGoalType : short'
-    content.vb: Public Enum WorkflowGoalType As Short
+    content: 'public sealed class WorkflowGoalType : Enum'
+    content.vb: >-
+      Public NotInheritable Class WorkflowGoalType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowGoalType.value__
+  commentId: F:SuperOffice.WebApi.Data.WorkflowGoalType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.WorkflowGoalType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowGoalType.value__
+  fullName: SuperOffice.WebApi.Data.WorkflowGoalType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.WorkflowGoalType.None
   commentId: F:SuperOffice.WebApi.Data.WorkflowGoalType.None
   id: None
@@ -45,26 +85,24 @@ items:
   nameWithType: WorkflowGoalType.None
   fullName: SuperOffice.WebApi.Data.WorkflowGoalType.None
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: None'
-  example: []
+  summary: "\n0: None\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const WorkflowGoalType None
     return:
       type: SuperOffice.WebApi.Data.WorkflowGoalType
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowGoalType.PersonUpdated
   commentId: F:SuperOffice.WebApi.Data.WorkflowGoalType.PersonUpdated
   id: PersonUpdated
@@ -76,26 +114,24 @@ items:
   nameWithType: WorkflowGoalType.PersonUpdated
   fullName: SuperOffice.WebApi.Data.WorkflowGoalType.PersonUpdated
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: PersonUpdated'
-  example: []
+  summary: "\n1: PersonUpdated\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PersonUpdated = 1
+    content: public const WorkflowGoalType PersonUpdated
     return:
       type: SuperOffice.WebApi.Data.WorkflowGoalType
-    content.vb: >-
-      <EnumMember>
-
-      PersonUpdated = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PersonUpdated As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowGoalType.SaleCreatedOnPerson
   commentId: F:SuperOffice.WebApi.Data.WorkflowGoalType.SaleCreatedOnPerson
   id: SaleCreatedOnPerson
@@ -107,26 +143,24 @@ items:
   nameWithType: WorkflowGoalType.SaleCreatedOnPerson
   fullName: SuperOffice.WebApi.Data.WorkflowGoalType.SaleCreatedOnPerson
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: SaleCreatedOnPerson'
-  example: []
+  summary: "\n2: SaleCreatedOnPerson\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SaleCreatedOnPerson = 2
+    content: public const WorkflowGoalType SaleCreatedOnPerson
     return:
       type: SuperOffice.WebApi.Data.WorkflowGoalType
-    content.vb: >-
-      <EnumMember>
-
-      SaleCreatedOnPerson = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SaleCreatedOnPerson As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowGoalType.SaleCreatedOnCompany
   commentId: F:SuperOffice.WebApi.Data.WorkflowGoalType.SaleCreatedOnCompany
   id: SaleCreatedOnCompany
@@ -138,26 +172,24 @@ items:
   nameWithType: WorkflowGoalType.SaleCreatedOnCompany
   fullName: SuperOffice.WebApi.Data.WorkflowGoalType.SaleCreatedOnCompany
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: SaleCreatedOnCompany'
-  example: []
+  summary: "\n3: SaleCreatedOnCompany\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SaleCreatedOnCompany = 3
+    content: public const WorkflowGoalType SaleCreatedOnCompany
     return:
       type: SuperOffice.WebApi.Data.WorkflowGoalType
-    content.vb: >-
-      <EnumMember>
-
-      SaleCreatedOnCompany = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SaleCreatedOnCompany As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowGoalType.AppointmentCreated
   commentId: F:SuperOffice.WebApi.Data.WorkflowGoalType.AppointmentCreated
   id: AppointmentCreated
@@ -169,26 +201,24 @@ items:
   nameWithType: WorkflowGoalType.AppointmentCreated
   fullName: SuperOffice.WebApi.Data.WorkflowGoalType.AppointmentCreated
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: AppointmentCreated'
-  example: []
+  summary: "\n4: AppointmentCreated\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AppointmentCreated = 4
+    content: public const WorkflowGoalType AppointmentCreated
     return:
       type: SuperOffice.WebApi.Data.WorkflowGoalType
-    content.vb: >-
-      <EnumMember>
-
-      AppointmentCreated = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AppointmentCreated As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowGoalType.AddedToProject
   commentId: F:SuperOffice.WebApi.Data.WorkflowGoalType.AddedToProject
   id: AddedToProject
@@ -200,26 +230,24 @@ items:
   nameWithType: WorkflowGoalType.AddedToProject
   fullName: SuperOffice.WebApi.Data.WorkflowGoalType.AddedToProject
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '5: AddedToProject'
-  example: []
+  summary: "\n5: AddedToProject\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AddedToProject = 5
+    content: public const WorkflowGoalType AddedToProject
     return:
       type: SuperOffice.WebApi.Data.WorkflowGoalType
-    content.vb: >-
-      <EnumMember>
-
-      AddedToProject = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AddedToProject As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowGoalType.AddedToSelection
   commentId: F:SuperOffice.WebApi.Data.WorkflowGoalType.AddedToSelection
   id: AddedToSelection
@@ -231,26 +259,24 @@ items:
   nameWithType: WorkflowGoalType.AddedToSelection
   fullName: SuperOffice.WebApi.Data.WorkflowGoalType.AddedToSelection
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '6: AddedToSelection'
-  example: []
+  summary: "\n6: AddedToSelection\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AddedToSelection = 6
+    content: public const WorkflowGoalType AddedToSelection
     return:
       type: SuperOffice.WebApi.Data.WorkflowGoalType
-    content.vb: >-
-      <EnumMember>
-
-      AddedToSelection = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AddedToSelection As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowGoalType.FormSubmitted
   commentId: F:SuperOffice.WebApi.Data.WorkflowGoalType.FormSubmitted
   id: FormSubmitted
@@ -262,26 +288,24 @@ items:
   nameWithType: WorkflowGoalType.FormSubmitted
   fullName: SuperOffice.WebApi.Data.WorkflowGoalType.FormSubmitted
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '7: FormSubmitted'
-  example: []
+  summary: "\n7: FormSubmitted\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      FormSubmitted = 7
+    content: public const WorkflowGoalType FormSubmitted
     return:
       type: SuperOffice.WebApi.Data.WorkflowGoalType
-    content.vb: >-
-      <EnumMember>
-
-      FormSubmitted = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const FormSubmitted As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowGoalType.HadChat
   commentId: F:SuperOffice.WebApi.Data.WorkflowGoalType.HadChat
   id: HadChat
@@ -293,26 +317,24 @@ items:
   nameWithType: WorkflowGoalType.HadChat
   fullName: SuperOffice.WebApi.Data.WorkflowGoalType.HadChat
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '8: HadChat'
-  example: []
+  summary: "\n8: HadChat\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      HadChat = 8
+    content: public const WorkflowGoalType HadChat
     return:
       type: SuperOffice.WebApi.Data.WorkflowGoalType
-    content.vb: >-
-      <EnumMember>
-
-      HadChat = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const HadChat As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowGoalType.LinkClicked
   commentId: F:SuperOffice.WebApi.Data.WorkflowGoalType.LinkClicked
   id: LinkClicked
@@ -324,26 +346,24 @@ items:
   nameWithType: WorkflowGoalType.LinkClicked
   fullName: SuperOffice.WebApi.Data.WorkflowGoalType.LinkClicked
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '9: LinkClicked'
-  example: []
+  summary: "\n9: LinkClicked\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      LinkClicked = 9
+    content: public const WorkflowGoalType LinkClicked
     return:
       type: SuperOffice.WebApi.Data.WorkflowGoalType
-    content.vb: >-
-      <EnumMember>
-
-      LinkClicked = 9
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const LinkClicked As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowGoalType.RequestCreated
   commentId: F:SuperOffice.WebApi.Data.WorkflowGoalType.RequestCreated
   id: RequestCreated
@@ -355,69 +375,55 @@ items:
   nameWithType: WorkflowGoalType.RequestCreated
   fullName: SuperOffice.WebApi.Data.WorkflowGoalType.RequestCreated
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '10: RequestCreated'
-  example: []
+  summary: "\n10: RequestCreated\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      RequestCreated = 10
+    content: public const WorkflowGoalType RequestCreated
     return:
       type: SuperOffice.WebApi.Data.WorkflowGoalType
-    content.vb: >-
-      <EnumMember>
-
-      RequestCreated = 10
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const RequestCreated As WorkflowGoalType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.WorkflowGoalType
   commentId: T:SuperOffice.WebApi.Data.WorkflowGoalType
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowGoalType.html
   name: WorkflowGoalType
   nameWithType: WorkflowGoalType
   fullName: SuperOffice.WebApi.Data.WorkflowGoalType

@@ -16,14 +16,22 @@ items:
   nameWithType: IPublishedCarrier
   fullName: SuperOffice.CRM.Services.IPublishedCarrier
   type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Interface implemented by carriers having Published fields
-  example: []
+  summary: "\nInterface implemented by carriers having Published fields\n"
   syntax:
     content: public interface IPublishedCarrier
     content.vb: Public Interface IPublishedCarrier
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Services.IPublishedCarrier.PublishEventDate
   commentId: P:SuperOffice.CRM.Services.IPublishedCarrier.PublishEventDate
   id: PublishEventDate
@@ -35,18 +43,23 @@ items:
   nameWithType: IPublishedCarrier.PublishEventDate
   fullName: SuperOffice.CRM.Services.IPublishedCarrier.PublishEventDate
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Publication event date
-  example: []
+  summary: "\nPublication event date\n"
   syntax:
     content: DateTime PublishEventDate { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Property PublishEventDate As Date
+    content.vb: Property PublishEventDate As DateTime
   overload: SuperOffice.CRM.Services.IPublishedCarrier.PublishEventDate*
+  modifiers.csharp:
+  - get
+  - set
 - uid: SuperOffice.CRM.Services.IPublishedCarrier.PublishTo
   commentId: P:SuperOffice.CRM.Services.IPublishedCarrier.PublishTo
   id: PublishTo
@@ -58,18 +71,23 @@ items:
   nameWithType: IPublishedCarrier.PublishTo
   fullName: SuperOffice.CRM.Services.IPublishedCarrier.PublishTo
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Publication valid to (inclusive)
-  example: []
+  summary: "\nPublication valid to (inclusive)\n"
   syntax:
     content: DateTime PublishTo { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Property PublishTo As Date
+    content.vb: Property PublishTo As DateTime
   overload: SuperOffice.CRM.Services.IPublishedCarrier.PublishTo*
+  modifiers.csharp:
+  - get
+  - set
 - uid: SuperOffice.CRM.Services.IPublishedCarrier.PublishFrom
   commentId: P:SuperOffice.CRM.Services.IPublishedCarrier.PublishFrom
   id: PublishFrom
@@ -81,18 +99,23 @@ items:
   nameWithType: IPublishedCarrier.PublishFrom
   fullName: SuperOffice.CRM.Services.IPublishedCarrier.PublishFrom
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Publication valid from (inclusive)
-  example: []
+  summary: "\nPublication valid from (inclusive)\n"
   syntax:
     content: DateTime PublishFrom { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Property PublishFrom As Date
+    content.vb: Property PublishFrom As DateTime
   overload: SuperOffice.CRM.Services.IPublishedCarrier.PublishFrom*
+  modifiers.csharp:
+  - get
+  - set
 - uid: SuperOffice.CRM.Services.IPublishedCarrier.IsPublished
   commentId: P:SuperOffice.CRM.Services.IPublishedCarrier.IsPublished
   id: IsPublished
@@ -104,11 +127,13 @@ items:
   nameWithType: IPublishedCarrier.IsPublished
   fullName: SuperOffice.CRM.Services.IPublishedCarrier.IsPublished
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Publication is published
-  example: []
+  summary: "\nPublication is published\n"
   syntax:
     content: bool IsPublished { get; set; }
     parameters: []
@@ -116,87 +141,42 @@ items:
       type: System.Boolean
     content.vb: Property IsPublished As Boolean
   overload: SuperOffice.CRM.Services.IPublishedCarrier.IsPublished*
+  modifiers.csharp:
+  - get
+  - set
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.IPublishedCarrier.PublishEventDate*
   commentId: Overload:SuperOffice.CRM.Services.IPublishedCarrier.PublishEventDate
   isExternal: true
-  href: SuperOffice.CRM.Services.IPublishedCarrier.html#SuperOffice_CRM_Services_IPublishedCarrier_PublishEventDate
   name: PublishEventDate
   nameWithType: IPublishedCarrier.PublishEventDate
   fullName: SuperOffice.CRM.Services.IPublishedCarrier.PublishEventDate
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.IPublishedCarrier.PublishTo*
   commentId: Overload:SuperOffice.CRM.Services.IPublishedCarrier.PublishTo
   isExternal: true
-  href: SuperOffice.CRM.Services.IPublishedCarrier.html#SuperOffice_CRM_Services_IPublishedCarrier_PublishTo
   name: PublishTo
   nameWithType: IPublishedCarrier.PublishTo
   fullName: SuperOffice.CRM.Services.IPublishedCarrier.PublishTo
 - uid: SuperOffice.CRM.Services.IPublishedCarrier.PublishFrom*
   commentId: Overload:SuperOffice.CRM.Services.IPublishedCarrier.PublishFrom
   isExternal: true
-  href: SuperOffice.CRM.Services.IPublishedCarrier.html#SuperOffice_CRM_Services_IPublishedCarrier_PublishFrom
   name: PublishFrom
   nameWithType: IPublishedCarrier.PublishFrom
   fullName: SuperOffice.CRM.Services.IPublishedCarrier.PublishFrom
 - uid: SuperOffice.CRM.Services.IPublishedCarrier.IsPublished*
   commentId: Overload:SuperOffice.CRM.Services.IPublishedCarrier.IsPublished
   isExternal: true
-  href: SuperOffice.CRM.Services.IPublishedCarrier.html#SuperOffice_CRM_Services_IPublishedCarrier_IsPublished
   name: IsPublished
   nameWithType: IPublishedCarrier.IsPublished
   fullName: SuperOffice.CRM.Services.IPublishedCarrier.IsPublished
@@ -204,10 +184,12 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

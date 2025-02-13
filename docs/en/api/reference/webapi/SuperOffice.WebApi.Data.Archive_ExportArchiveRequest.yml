@@ -22,23 +22,25 @@ items:
   nameWithType: Archive_ExportArchiveRequest
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
-    content: public class Archive_ExportArchiveRequest
-    content.vb: Public Class Archive_ExportArchiveRequest
+    content: 'public class Archive_ExportArchiveRequest : Object'
+    content.vb: >-
+      Public Class Archive_ExportArchiveRequest
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.#ctor
   commentId: M:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.#ctor
   id: '#ctor'
@@ -50,16 +52,20 @@ items:
   nameWithType: Archive_ExportArchiveRequest.Archive_ExportArchiveRequest()
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Archive_ExportArchiveRequest()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
   syntax:
     content: public Archive_ExportArchiveRequest()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.#ctor*
-  nameWithType.vb: Archive_ExportArchiveRequest.New()
-  fullName.vb: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ProviderName
   commentId: P:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ProviderName
   id: ProviderName
@@ -71,10 +77,12 @@ items:
   nameWithType: Archive_ExportArchiveRequest.ProviderName
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ProviderName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string ProviderName { get; set; }
     parameters: []
@@ -82,6 +90,12 @@ items:
       type: System.String
     content.vb: Public Property ProviderName As String
   overload: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Context
   commentId: P:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Context
   id: Context
@@ -93,10 +107,12 @@ items:
   nameWithType: Archive_ExportArchiveRequest.Context
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Context
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string Context { get; set; }
     parameters: []
@@ -104,6 +120,12 @@ items:
       type: System.String
     content.vb: Public Property Context As String
   overload: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Context*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.DesiredEntities
   commentId: P:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.DesiredEntities
   id: DesiredEntities
@@ -115,10 +137,12 @@ items:
   nameWithType: Archive_ExportArchiveRequest.DesiredEntities
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.DesiredEntities
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string[] DesiredEntities { get; set; }
     parameters: []
@@ -126,6 +150,12 @@ items:
       type: System.String[]
     content.vb: Public Property DesiredEntities As String()
   overload: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.DesiredEntities*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Columns
   commentId: P:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Columns
   id: Columns
@@ -137,10 +167,12 @@ items:
   nameWithType: Archive_ExportArchiveRequest.Columns
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Columns
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string[] Columns { get; set; }
     parameters: []
@@ -148,6 +180,12 @@ items:
       type: System.String[]
     content.vb: Public Property Columns As String()
   overload: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Columns*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SortOrder
   commentId: P:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SortOrder
   id: SortOrder
@@ -159,10 +197,12 @@ items:
   nameWithType: Archive_ExportArchiveRequest.SortOrder
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SortOrder
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public ArchiveOrderByInfo[] SortOrder { get; set; }
     parameters: []
@@ -170,6 +210,12 @@ items:
       type: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
     content.vb: Public Property SortOrder As ArchiveOrderByInfo()
   overload: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SortOrder*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Restrictions
   commentId: P:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Restrictions
   id: Restrictions
@@ -181,10 +227,12 @@ items:
   nameWithType: Archive_ExportArchiveRequest.Restrictions
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Restrictions
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public ArchiveRestrictionInfo[] Restrictions { get; set; }
     parameters: []
@@ -192,6 +240,12 @@ items:
       type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
     content.vb: Public Property Restrictions As ArchiveRestrictionInfo()
   overload: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Restrictions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ExportType
   commentId: P:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ExportType
   id: ExportType
@@ -203,10 +257,12 @@ items:
   nameWithType: Archive_ExportArchiveRequest.ExportType
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ExportType
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string ExportType { get; set; }
     parameters: []
@@ -214,6 +270,12 @@ items:
       type: System.String
     content.vb: Public Property ExportType As String
   overload: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ExportType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SelectedRowIds
   commentId: P:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SelectedRowIds
   id: SelectedRowIds
@@ -225,10 +287,12 @@ items:
   nameWithType: Archive_ExportArchiveRequest.SelectedRowIds
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SelectedRowIds
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public string[] SelectedRowIds { get; set; }
     parameters: []
@@ -236,6 +300,12 @@ items:
       type: System.String[]
     content.vb: Public Property SelectedRowIds As String()
   overload: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SelectedRowIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.EstimatedRowCount
   commentId: P:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.EstimatedRowCount
   id: EstimatedRowCount
@@ -247,10 +317,12 @@ items:
   nameWithType: Archive_ExportArchiveRequest.EstimatedRowCount
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.EstimatedRowCount
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  example: []
   syntax:
     content: public int EstimatedRowCount { get; set; }
     parameters: []
@@ -258,295 +330,41 @@ items:
       type: System.Int32
     content.vb: Public Property EstimatedRowCount As Integer
   overload: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.EstimatedRowCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.html#SuperOffice_WebApi_Data_Archive_ExportArchiveRequest__ctor
   name: Archive_ExportArchiveRequest
   nameWithType: Archive_ExportArchiveRequest.Archive_ExportArchiveRequest
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Archive_ExportArchiveRequest
-  nameWithType.vb: Archive_ExportArchiveRequest.New
-  fullName.vb: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ProviderName*
   commentId: Overload:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ProviderName
   isExternal: true
-  href: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.html#SuperOffice_WebApi_Data_Archive_ExportArchiveRequest_ProviderName
   name: ProviderName
   nameWithType: Archive_ExportArchiveRequest.ProviderName
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ProviderName
@@ -554,67 +372,61 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Context*
   commentId: Overload:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Context
   isExternal: true
-  href: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.html#SuperOffice_WebApi_Data_Archive_ExportArchiveRequest_Context
   name: Context
   nameWithType: Archive_ExportArchiveRequest.Context
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Context
 - uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.DesiredEntities*
   commentId: Overload:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.DesiredEntities
   isExternal: true
-  href: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.html#SuperOffice_WebApi_Data_Archive_ExportArchiveRequest_DesiredEntities
   name: DesiredEntities
   nameWithType: Archive_ExportArchiveRequest.DesiredEntities
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.DesiredEntities
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Columns*
   commentId: Overload:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Columns
   isExternal: true
-  href: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.html#SuperOffice_WebApi_Data_Archive_ExportArchiveRequest_Columns
   name: Columns
   nameWithType: Archive_ExportArchiveRequest.Columns
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Columns
 - uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SortOrder*
   commentId: Overload:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SortOrder
   isExternal: true
-  href: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.html#SuperOffice_WebApi_Data_Archive_ExportArchiveRequest_SortOrder
   name: SortOrder
   nameWithType: Archive_ExportArchiveRequest.SortOrder
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SortOrder
 - uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.ArchiveOrderByInfo.html
   name: ArchiveOrderByInfo[]
   nameWithType: ArchiveOrderByInfo[]
   fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo[]
@@ -624,27 +436,29 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo
     name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo
     isExternal: true
-    href: SuperOffice.WebApi.Data.ArchiveOrderByInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.ArchiveOrderByInfo
     name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveOrderByInfo
     isExternal: true
-    href: SuperOffice.WebApi.Data.ArchiveOrderByInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Restrictions*
   commentId: Overload:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Restrictions
   isExternal: true
-  href: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.html#SuperOffice_WebApi_Data_Archive_ExportArchiveRequest_Restrictions
   name: Restrictions
   nameWithType: Archive_ExportArchiveRequest.Restrictions
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.Restrictions
 - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.html
   name: ArchiveRestrictionInfo[]
   nameWithType: ArchiveRestrictionInfo[]
   fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
@@ -654,35 +468,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
     isExternal: true
-    href: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
     isExternal: true
-    href: SuperOffice.WebApi.Data.ArchiveRestrictionInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ExportType*
   commentId: Overload:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ExportType
   isExternal: true
-  href: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.html#SuperOffice_WebApi_Data_Archive_ExportArchiveRequest_ExportType
   name: ExportType
   nameWithType: Archive_ExportArchiveRequest.ExportType
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.ExportType
 - uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SelectedRowIds*
   commentId: Overload:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SelectedRowIds
   isExternal: true
-  href: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.html#SuperOffice_WebApi_Data_Archive_ExportArchiveRequest_SelectedRowIds
   name: SelectedRowIds
   nameWithType: Archive_ExportArchiveRequest.SelectedRowIds
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.SelectedRowIds
 - uid: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.EstimatedRowCount*
   commentId: Overload:SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.EstimatedRowCount
   isExternal: true
-  href: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.html#SuperOffice_WebApi_Data_Archive_ExportArchiveRequest_EstimatedRowCount
   name: EstimatedRowCount
   nameWithType: Archive_ExportArchiveRequest.EstimatedRowCount
   fullName: SuperOffice.WebApi.Data.Archive_ExportArchiveRequest.EstimatedRowCount
@@ -690,10 +505,6 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

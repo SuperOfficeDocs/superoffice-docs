@@ -13,21 +13,31 @@ items:
   nameWithType: AsyncContext<TArgument>
   fullName: SuperOffice.Threading.AsyncContext<TArgument>
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Implementation of abstract class <xref href="SuperOffice.Threading.AsyncContext" data-throw-if-not-resolved="false"></xref>, isolating the use of template arguments.
-  example: []
+  summary: "\nImplementation of abstract class <xref href=\"SuperOffice.Threading.AsyncContext\" data-throw-if-not-resolved=\"false\"></xref>, isolating the use of template arguments.\n"
   syntax:
     content: 'public sealed class AsyncContext<TArgument> : AsyncContext'
     typeParameters:
     - id: TArgument
-      description: Type of argument passed to the AsyncOperation.
-    content.vb: Public NotInheritable Class AsyncContext(Of TArgument) Inherits AsyncContext
+      description: Type of argument passed to the <see cref="!:AsyncOperation"></see>.
+    content.vb: >-
+      Public NotInheritable Class AsyncContext(Of TArgument)
+          Inherits AsyncContext
   inheritance:
   - System.Object
   - SuperOffice.Threading.AsyncContext
   inheritedMembers:
+  - SuperOffice.Threading.AsyncContext.add_OperationStartingEvent(SuperOffice.Threading.AsyncOperationStarting)
+  - SuperOffice.Threading.AsyncContext.remove_OperationStartingEvent(SuperOffice.Threading.AsyncOperationStarting)
+  - SuperOffice.Threading.AsyncContext.add_OperationFailureEvent(SuperOffice.Threading.AsyncOperationFailure)
+  - SuperOffice.Threading.AsyncContext.remove_OperationFailureEvent(SuperOffice.Threading.AsyncOperationFailure)
+  - SuperOffice.Threading.AsyncContext.add_OperationTerminatingEvent(SuperOffice.Threading.AsyncOperationTerminating)
+  - SuperOffice.Threading.AsyncContext.remove_OperationTerminatingEvent(SuperOffice.Threading.AsyncOperationTerminating)
   - SuperOffice.Threading.AsyncContext.Start
   - SuperOffice.Threading.AsyncContext.Thread
   - SuperOffice.Threading.AsyncContext.HasError
@@ -43,16 +53,18 @@ items:
   - SuperOffice.Threading.AsyncContext.OperationStartingEvent
   - SuperOffice.Threading.AsyncContext.OperationFailureEvent
   - SuperOffice.Threading.AsyncContext.OperationTerminatingEvent
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
   extensionMethods:
   - SuperOffice.Threading.AsyncContext`1.EnumUtil.MapEnums``2
   - SuperOffice.Threading.AsyncContext`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   nameWithType.vb: AsyncContext(Of TArgument)
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
   fullName.vb: SuperOffice.Threading.AsyncContext(Of TArgument)
   name.vb: AsyncContext(Of TArgument)
 - uid: SuperOffice.Threading.AsyncContext`1.ExecuteAsyncOperation
@@ -66,92 +78,328 @@ items:
   nameWithType: AsyncContext<TArgument>.ExecuteAsyncOperation()
   fullName: SuperOffice.Threading.AsyncContext<TArgument>.ExecuteAsyncOperation()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Execute the async operation.
-  example: []
+  summary: "\nExecute the async operation.\n"
   syntax:
     content: protected override void ExecuteAsyncOperation()
-    content.vb: Protected Overrides Sub ExecuteAsyncOperation()
+    content.vb: Protected Overrides Sub ExecuteAsyncOperation
   overridden: SuperOffice.Threading.AsyncContext.ExecuteAsyncOperation
   overload: SuperOffice.Threading.AsyncContext`1.ExecuteAsyncOperation*
   nameWithType.vb: AsyncContext(Of TArgument).ExecuteAsyncOperation()
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
   fullName.vb: SuperOffice.Threading.AsyncContext(Of TArgument).ExecuteAsyncOperation()
 references:
-- uid: SuperOffice.Threading.AsyncContext
-  commentId: T:SuperOffice.Threading.AsyncContext
-  parent: SuperOffice.Threading
-  isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html
-  name: AsyncContext
-  nameWithType: AsyncContext
-  fullName: SuperOffice.Threading.AsyncContext
 - uid: SuperOffice.Threading
   commentId: N:SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Threading
   nameWithType: SuperOffice.Threading
   fullName: SuperOffice.Threading
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Threading
-    name: Threading
-    isExternal: true
-    href: SuperOffice.Threading.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Threading
-    name: Threading
-    isExternal: true
-    href: SuperOffice.Threading.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Threading.AsyncContext
+  commentId: T:SuperOffice.Threading.AsyncContext
+  parent: SuperOffice.Threading
+  isExternal: true
+  name: AsyncContext
+  nameWithType: AsyncContext
+  fullName: SuperOffice.Threading.AsyncContext
+- uid: SuperOffice.Threading.AsyncContext.add_OperationStartingEvent(SuperOffice.Threading.AsyncOperationStarting)
+  commentId: M:SuperOffice.Threading.AsyncContext.add_OperationStartingEvent(SuperOffice.Threading.AsyncOperationStarting)
+  parent: SuperOffice.Threading.AsyncContext
+  isExternal: true
+  name: add_OperationStartingEvent(AsyncOperationStarting)
+  nameWithType: AsyncContext.add_OperationStartingEvent(AsyncOperationStarting)
+  fullName: SuperOffice.Threading.AsyncContext.add_OperationStartingEvent(SuperOffice.Threading.AsyncOperationStarting)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncContext.add_OperationStartingEvent(SuperOffice.Threading.AsyncOperationStarting)
+    name: add_OperationStartingEvent
+    nameWithType: AsyncContext.add_OperationStartingEvent
+    fullName: SuperOffice.Threading.AsyncContext.add_OperationStartingEvent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.AsyncOperationStarting
+    name: AsyncOperationStarting
+    nameWithType: AsyncOperationStarting
+    fullName: SuperOffice.Threading.AsyncOperationStarting
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncContext.add_OperationStartingEvent(SuperOffice.Threading.AsyncOperationStarting)
+    name: add_OperationStartingEvent
+    nameWithType: AsyncContext.add_OperationStartingEvent
+    fullName: SuperOffice.Threading.AsyncContext.add_OperationStartingEvent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.AsyncOperationStarting
+    name: AsyncOperationStarting
+    nameWithType: AsyncOperationStarting
+    fullName: SuperOffice.Threading.AsyncOperationStarting
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsyncContext.remove_OperationStartingEvent(SuperOffice.Threading.AsyncOperationStarting)
+  commentId: M:SuperOffice.Threading.AsyncContext.remove_OperationStartingEvent(SuperOffice.Threading.AsyncOperationStarting)
+  parent: SuperOffice.Threading.AsyncContext
+  isExternal: true
+  name: remove_OperationStartingEvent(AsyncOperationStarting)
+  nameWithType: AsyncContext.remove_OperationStartingEvent(AsyncOperationStarting)
+  fullName: SuperOffice.Threading.AsyncContext.remove_OperationStartingEvent(SuperOffice.Threading.AsyncOperationStarting)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncContext.remove_OperationStartingEvent(SuperOffice.Threading.AsyncOperationStarting)
+    name: remove_OperationStartingEvent
+    nameWithType: AsyncContext.remove_OperationStartingEvent
+    fullName: SuperOffice.Threading.AsyncContext.remove_OperationStartingEvent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.AsyncOperationStarting
+    name: AsyncOperationStarting
+    nameWithType: AsyncOperationStarting
+    fullName: SuperOffice.Threading.AsyncOperationStarting
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncContext.remove_OperationStartingEvent(SuperOffice.Threading.AsyncOperationStarting)
+    name: remove_OperationStartingEvent
+    nameWithType: AsyncContext.remove_OperationStartingEvent
+    fullName: SuperOffice.Threading.AsyncContext.remove_OperationStartingEvent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.AsyncOperationStarting
+    name: AsyncOperationStarting
+    nameWithType: AsyncOperationStarting
+    fullName: SuperOffice.Threading.AsyncOperationStarting
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsyncContext.add_OperationFailureEvent(SuperOffice.Threading.AsyncOperationFailure)
+  commentId: M:SuperOffice.Threading.AsyncContext.add_OperationFailureEvent(SuperOffice.Threading.AsyncOperationFailure)
+  parent: SuperOffice.Threading.AsyncContext
+  isExternal: true
+  name: add_OperationFailureEvent(AsyncOperationFailure)
+  nameWithType: AsyncContext.add_OperationFailureEvent(AsyncOperationFailure)
+  fullName: SuperOffice.Threading.AsyncContext.add_OperationFailureEvent(SuperOffice.Threading.AsyncOperationFailure)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncContext.add_OperationFailureEvent(SuperOffice.Threading.AsyncOperationFailure)
+    name: add_OperationFailureEvent
+    nameWithType: AsyncContext.add_OperationFailureEvent
+    fullName: SuperOffice.Threading.AsyncContext.add_OperationFailureEvent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.AsyncOperationFailure
+    name: AsyncOperationFailure
+    nameWithType: AsyncOperationFailure
+    fullName: SuperOffice.Threading.AsyncOperationFailure
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncContext.add_OperationFailureEvent(SuperOffice.Threading.AsyncOperationFailure)
+    name: add_OperationFailureEvent
+    nameWithType: AsyncContext.add_OperationFailureEvent
+    fullName: SuperOffice.Threading.AsyncContext.add_OperationFailureEvent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.AsyncOperationFailure
+    name: AsyncOperationFailure
+    nameWithType: AsyncOperationFailure
+    fullName: SuperOffice.Threading.AsyncOperationFailure
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsyncContext.remove_OperationFailureEvent(SuperOffice.Threading.AsyncOperationFailure)
+  commentId: M:SuperOffice.Threading.AsyncContext.remove_OperationFailureEvent(SuperOffice.Threading.AsyncOperationFailure)
+  parent: SuperOffice.Threading.AsyncContext
+  isExternal: true
+  name: remove_OperationFailureEvent(AsyncOperationFailure)
+  nameWithType: AsyncContext.remove_OperationFailureEvent(AsyncOperationFailure)
+  fullName: SuperOffice.Threading.AsyncContext.remove_OperationFailureEvent(SuperOffice.Threading.AsyncOperationFailure)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncContext.remove_OperationFailureEvent(SuperOffice.Threading.AsyncOperationFailure)
+    name: remove_OperationFailureEvent
+    nameWithType: AsyncContext.remove_OperationFailureEvent
+    fullName: SuperOffice.Threading.AsyncContext.remove_OperationFailureEvent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.AsyncOperationFailure
+    name: AsyncOperationFailure
+    nameWithType: AsyncOperationFailure
+    fullName: SuperOffice.Threading.AsyncOperationFailure
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncContext.remove_OperationFailureEvent(SuperOffice.Threading.AsyncOperationFailure)
+    name: remove_OperationFailureEvent
+    nameWithType: AsyncContext.remove_OperationFailureEvent
+    fullName: SuperOffice.Threading.AsyncContext.remove_OperationFailureEvent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.AsyncOperationFailure
+    name: AsyncOperationFailure
+    nameWithType: AsyncOperationFailure
+    fullName: SuperOffice.Threading.AsyncOperationFailure
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsyncContext.add_OperationTerminatingEvent(SuperOffice.Threading.AsyncOperationTerminating)
+  commentId: M:SuperOffice.Threading.AsyncContext.add_OperationTerminatingEvent(SuperOffice.Threading.AsyncOperationTerminating)
+  parent: SuperOffice.Threading.AsyncContext
+  isExternal: true
+  name: add_OperationTerminatingEvent(AsyncOperationTerminating)
+  nameWithType: AsyncContext.add_OperationTerminatingEvent(AsyncOperationTerminating)
+  fullName: SuperOffice.Threading.AsyncContext.add_OperationTerminatingEvent(SuperOffice.Threading.AsyncOperationTerminating)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncContext.add_OperationTerminatingEvent(SuperOffice.Threading.AsyncOperationTerminating)
+    name: add_OperationTerminatingEvent
+    nameWithType: AsyncContext.add_OperationTerminatingEvent
+    fullName: SuperOffice.Threading.AsyncContext.add_OperationTerminatingEvent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.AsyncOperationTerminating
+    name: AsyncOperationTerminating
+    nameWithType: AsyncOperationTerminating
+    fullName: SuperOffice.Threading.AsyncOperationTerminating
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncContext.add_OperationTerminatingEvent(SuperOffice.Threading.AsyncOperationTerminating)
+    name: add_OperationTerminatingEvent
+    nameWithType: AsyncContext.add_OperationTerminatingEvent
+    fullName: SuperOffice.Threading.AsyncContext.add_OperationTerminatingEvent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.AsyncOperationTerminating
+    name: AsyncOperationTerminating
+    nameWithType: AsyncOperationTerminating
+    fullName: SuperOffice.Threading.AsyncOperationTerminating
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Threading.AsyncContext.remove_OperationTerminatingEvent(SuperOffice.Threading.AsyncOperationTerminating)
+  commentId: M:SuperOffice.Threading.AsyncContext.remove_OperationTerminatingEvent(SuperOffice.Threading.AsyncOperationTerminating)
+  parent: SuperOffice.Threading.AsyncContext
+  isExternal: true
+  name: remove_OperationTerminatingEvent(AsyncOperationTerminating)
+  nameWithType: AsyncContext.remove_OperationTerminatingEvent(AsyncOperationTerminating)
+  fullName: SuperOffice.Threading.AsyncContext.remove_OperationTerminatingEvent(SuperOffice.Threading.AsyncOperationTerminating)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncContext.remove_OperationTerminatingEvent(SuperOffice.Threading.AsyncOperationTerminating)
+    name: remove_OperationTerminatingEvent
+    nameWithType: AsyncContext.remove_OperationTerminatingEvent
+    fullName: SuperOffice.Threading.AsyncContext.remove_OperationTerminatingEvent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.AsyncOperationTerminating
+    name: AsyncOperationTerminating
+    nameWithType: AsyncOperationTerminating
+    fullName: SuperOffice.Threading.AsyncOperationTerminating
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncContext.remove_OperationTerminatingEvent(SuperOffice.Threading.AsyncOperationTerminating)
+    name: remove_OperationTerminatingEvent
+    nameWithType: AsyncContext.remove_OperationTerminatingEvent
+    fullName: SuperOffice.Threading.AsyncContext.remove_OperationTerminatingEvent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Threading.AsyncOperationTerminating
+    name: AsyncOperationTerminating
+    nameWithType: AsyncOperationTerminating
+    fullName: SuperOffice.Threading.AsyncOperationTerminating
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsyncContext.Start
   commentId: M:SuperOffice.Threading.AsyncContext.Start
   parent: SuperOffice.Threading.AsyncContext
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html#SuperOffice_Threading_AsyncContext_Start
   name: Start()
   nameWithType: AsyncContext.Start()
   fullName: SuperOffice.Threading.AsyncContext.Start()
   spec.csharp:
   - uid: SuperOffice.Threading.AsyncContext.Start
     name: Start
+    nameWithType: AsyncContext.Start
+    fullName: SuperOffice.Threading.AsyncContext.Start
     isExternal: true
-    href: SuperOffice.Threading.AsyncContext.html#SuperOffice_Threading_AsyncContext_Start
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Threading.AsyncContext.Start
     name: Start
+    nameWithType: AsyncContext.Start
+    fullName: SuperOffice.Threading.AsyncContext.Start
     isExternal: true
-    href: SuperOffice.Threading.AsyncContext.html#SuperOffice_Threading_AsyncContext_Start
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsyncContext.Thread
   commentId: P:SuperOffice.Threading.AsyncContext.Thread
   parent: SuperOffice.Threading.AsyncContext
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html#SuperOffice_Threading_AsyncContext_Thread
   name: Thread
   nameWithType: AsyncContext.Thread
   fullName: SuperOffice.Threading.AsyncContext.Thread
@@ -159,7 +407,6 @@ references:
   commentId: P:SuperOffice.Threading.AsyncContext.HasError
   parent: SuperOffice.Threading.AsyncContext
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html#SuperOffice_Threading_AsyncContext_HasError
   name: HasError
   nameWithType: AsyncContext.HasError
   fullName: SuperOffice.Threading.AsyncContext.HasError
@@ -167,7 +414,6 @@ references:
   commentId: P:SuperOffice.Threading.AsyncContext.Error
   parent: SuperOffice.Threading.AsyncContext
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html#SuperOffice_Threading_AsyncContext_Error
   name: Error
   nameWithType: AsyncContext.Error
   fullName: SuperOffice.Threading.AsyncContext.Error
@@ -175,7 +421,6 @@ references:
   commentId: P:SuperOffice.Threading.AsyncContext.BreakOnError
   parent: SuperOffice.Threading.AsyncContext
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html#SuperOffice_Threading_AsyncContext_BreakOnError
   name: BreakOnError
   nameWithType: AsyncContext.BreakOnError
   fullName: SuperOffice.Threading.AsyncContext.BreakOnError
@@ -183,7 +428,6 @@ references:
   commentId: P:SuperOffice.Threading.AsyncContext.DisableTimeLogging
   parent: SuperOffice.Threading.AsyncContext
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html#SuperOffice_Threading_AsyncContext_DisableTimeLogging
   name: DisableTimeLogging
   nameWithType: AsyncContext.DisableTimeLogging
   fullName: SuperOffice.Threading.AsyncContext.DisableTimeLogging
@@ -191,7 +435,6 @@ references:
   commentId: P:SuperOffice.Threading.AsyncContext.ThreadName
   parent: SuperOffice.Threading.AsyncContext
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html#SuperOffice_Threading_AsyncContext_ThreadName
   name: ThreadName
   nameWithType: AsyncContext.ThreadName
   fullName: SuperOffice.Threading.AsyncContext.ThreadName
@@ -199,7 +442,6 @@ references:
   commentId: P:SuperOffice.Threading.AsyncContext.ManagedThreadId
   parent: SuperOffice.Threading.AsyncContext
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html#SuperOffice_Threading_AsyncContext_ManagedThreadId
   name: ManagedThreadId
   nameWithType: AsyncContext.ManagedThreadId
   fullName: SuperOffice.Threading.AsyncContext.ManagedThreadId
@@ -207,7 +449,6 @@ references:
   commentId: P:SuperOffice.Threading.AsyncContext.ManagedParentThreadId
   parent: SuperOffice.Threading.AsyncContext
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html#SuperOffice_Threading_AsyncContext_ManagedParentThreadId
   name: ManagedParentThreadId
   nameWithType: AsyncContext.ManagedParentThreadId
   fullName: SuperOffice.Threading.AsyncContext.ManagedParentThreadId
@@ -215,7 +456,6 @@ references:
   commentId: P:SuperOffice.Threading.AsyncContext.ContextIdentifier
   parent: SuperOffice.Threading.AsyncContext
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html#SuperOffice_Threading_AsyncContext_ContextIdentifier
   name: ContextIdentifier
   nameWithType: AsyncContext.ContextIdentifier
   fullName: SuperOffice.Threading.AsyncContext.ContextIdentifier
@@ -223,7 +463,6 @@ references:
   commentId: P:SuperOffice.Threading.AsyncContext.CurrentContext
   parent: SuperOffice.Threading.AsyncContext
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html#SuperOffice_Threading_AsyncContext_CurrentContext
   name: CurrentContext
   nameWithType: AsyncContext.CurrentContext
   fullName: SuperOffice.Threading.AsyncContext.CurrentContext
@@ -231,7 +470,6 @@ references:
   commentId: P:SuperOffice.Threading.AsyncContext.TerminationEvent
   parent: SuperOffice.Threading.AsyncContext
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html#SuperOffice_Threading_AsyncContext_TerminationEvent
   name: TerminationEvent
   nameWithType: AsyncContext.TerminationEvent
   fullName: SuperOffice.Threading.AsyncContext.TerminationEvent
@@ -239,7 +477,6 @@ references:
   commentId: E:SuperOffice.Threading.AsyncContext.OperationStartingEvent
   parent: SuperOffice.Threading.AsyncContext
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html#SuperOffice_Threading_AsyncContext_OperationStartingEvent
   name: OperationStartingEvent
   nameWithType: AsyncContext.OperationStartingEvent
   fullName: SuperOffice.Threading.AsyncContext.OperationStartingEvent
@@ -247,7 +484,6 @@ references:
   commentId: E:SuperOffice.Threading.AsyncContext.OperationFailureEvent
   parent: SuperOffice.Threading.AsyncContext
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html#SuperOffice_Threading_AsyncContext_OperationFailureEvent
   name: OperationFailureEvent
   nameWithType: AsyncContext.OperationFailureEvent
   fullName: SuperOffice.Threading.AsyncContext.OperationFailureEvent
@@ -255,354 +491,86 @@ references:
   commentId: E:SuperOffice.Threading.AsyncContext.OperationTerminatingEvent
   parent: SuperOffice.Threading.AsyncContext
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html#SuperOffice_Threading_AsyncContext_OperationTerminatingEvent
   name: OperationTerminatingEvent
   nameWithType: AsyncContext.OperationTerminatingEvent
   fullName: SuperOffice.Threading.AsyncContext.OperationTerminatingEvent
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
 - uid: SuperOffice.Threading.AsyncContext`1.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<AsyncContext<TArgument>, To>(AsyncContext<TArgument>)
-  nameWithType: EnumUtil.MapEnums<AsyncContext<TArgument>, To>(AsyncContext<TArgument>)
-  fullName: EnumUtil.MapEnums<SuperOffice.Threading.AsyncContext<TArgument>, To>(SuperOffice.Threading.AsyncContext<TArgument>)
-  nameWithType.vb: EnumUtil.MapEnums(Of AsyncContext(Of TArgument), To)(AsyncContext(Of TArgument))
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.AsyncContext(Of TArgument), To)(SuperOffice.Threading.AsyncContext(Of TArgument))
-  name.vb: MapEnums(Of AsyncContext(Of TArgument), To)(AsyncContext(Of TArgument))
+  name: MapEnums<AsyncContext<TArgument>, To>()
+  nameWithType: EnumUtil.MapEnums<AsyncContext<TArgument>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Threading.AsyncContext<TArgument>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AsyncContext(Of TArgument), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Threading.AsyncContext(Of TArgument), To)()
+  name.vb: MapEnums(Of AsyncContext(Of TArgument), To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Threading.AsyncContext{`0})
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AsyncContext<TArgument>, To>
+    nameWithType: EnumUtil.MapEnums<AsyncContext<TArgument>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Threading.AsyncContext<TArgument>, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Threading.AsyncContext`1
-    name: AsyncContext
-    isExternal: true
-    href: SuperOffice.Threading.AsyncContext-1.html
-  - name: <
-  - name: TArgument
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Threading.AsyncContext`1
-    name: AsyncContext
-    isExternal: true
-    href: SuperOffice.Threading.AsyncContext-1.html
-  - name: <
-  - name: TArgument
-  - name: '>'
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Threading.AsyncContext{`0})
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AsyncContext(Of TArgument), To)
+    nameWithType: EnumUtil.MapEnums(Of AsyncContext(Of TArgument), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Threading.AsyncContext(Of TArgument), To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Threading.AsyncContext`1
-    name: AsyncContext
-    isExternal: true
-    href: SuperOffice.Threading.AsyncContext-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TArgument
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Threading.AsyncContext`1
-    name: AsyncContext
-    isExternal: true
-    href: SuperOffice.Threading.AsyncContext-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TArgument
-  - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsyncContext`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<AsyncContext<TArgument>, To>(AsyncContext<TArgument>)
-  nameWithType: Converters.MapEnums<AsyncContext<TArgument>, To>(AsyncContext<TArgument>)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.AsyncContext<TArgument>, To>(SuperOffice.Threading.AsyncContext<TArgument>)
-  nameWithType.vb: Converters.MapEnums(Of AsyncContext(Of TArgument), To)(AsyncContext(Of TArgument))
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.AsyncContext(Of TArgument), To)(SuperOffice.Threading.AsyncContext(Of TArgument))
-  name.vb: MapEnums(Of AsyncContext(Of TArgument), To)(AsyncContext(Of TArgument))
+  name: MapEnums<AsyncContext<TArgument>, To>()
+  nameWithType: Converters.MapEnums<AsyncContext<TArgument>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.AsyncContext<TArgument>, To>()
+  nameWithType.vb: Converters.MapEnums(Of AsyncContext(Of TArgument), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.AsyncContext(Of TArgument), To)()
+  name.vb: MapEnums(Of AsyncContext(Of TArgument), To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Threading.AsyncContext{`0})
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AsyncContext<TArgument>, To>
+    nameWithType: Converters.MapEnums<AsyncContext<TArgument>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Threading.AsyncContext<TArgument>, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Threading.AsyncContext`1
-    name: AsyncContext
-    isExternal: true
-    href: SuperOffice.Threading.AsyncContext-1.html
-  - name: <
-  - name: TArgument
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Threading.AsyncContext`1
-    name: AsyncContext
-    isExternal: true
-    href: SuperOffice.Threading.AsyncContext-1.html
-  - name: <
-  - name: TArgument
-  - name: '>'
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Threading.AsyncContext{`0})
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AsyncContext(Of TArgument), To)
+    nameWithType: Converters.MapEnums(Of AsyncContext(Of TArgument), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Threading.AsyncContext(Of TArgument), To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Threading.AsyncContext`1
-    name: AsyncContext
-    isExternal: true
-    href: SuperOffice.Threading.AsyncContext-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TArgument
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Threading.AsyncContext`1
-    name: AsyncContext
-    isExternal: true
-    href: SuperOffice.Threading.AsyncContext-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TArgument
-  - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -611,45 +579,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -658,105 +624,81 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Threading.AsyncContext.ExecuteAsyncOperation
   commentId: M:SuperOffice.Threading.AsyncContext.ExecuteAsyncOperation
   parent: SuperOffice.Threading.AsyncContext
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html#SuperOffice_Threading_AsyncContext_ExecuteAsyncOperation
   name: ExecuteAsyncOperation()
   nameWithType: AsyncContext.ExecuteAsyncOperation()
   fullName: SuperOffice.Threading.AsyncContext.ExecuteAsyncOperation()
   spec.csharp:
   - uid: SuperOffice.Threading.AsyncContext.ExecuteAsyncOperation
     name: ExecuteAsyncOperation
+    nameWithType: AsyncContext.ExecuteAsyncOperation
+    fullName: SuperOffice.Threading.AsyncContext.ExecuteAsyncOperation
     isExternal: true
-    href: SuperOffice.Threading.AsyncContext.html#SuperOffice_Threading_AsyncContext_ExecuteAsyncOperation
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Threading.AsyncContext.ExecuteAsyncOperation
     name: ExecuteAsyncOperation
+    nameWithType: AsyncContext.ExecuteAsyncOperation
+    fullName: SuperOffice.Threading.AsyncContext.ExecuteAsyncOperation
     isExternal: true
-    href: SuperOffice.Threading.AsyncContext.html#SuperOffice_Threading_AsyncContext_ExecuteAsyncOperation
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.AsyncContext`1.ExecuteAsyncOperation*
   commentId: Overload:SuperOffice.Threading.AsyncContext`1.ExecuteAsyncOperation
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext-1.html#SuperOffice_Threading_AsyncContext_1_ExecuteAsyncOperation
   name: ExecuteAsyncOperation
   nameWithType: AsyncContext<TArgument>.ExecuteAsyncOperation
   fullName: SuperOffice.Threading.AsyncContext<TArgument>.ExecuteAsyncOperation

@@ -11,34 +11,64 @@ items:
   - SuperOffice.WebApi.Data.AssociateSourceType.History
   - SuperOffice.WebApi.Data.AssociateSourceType.UndefinedValue8
   - SuperOffice.WebApi.Data.AssociateSourceType.Unknown
+  - SuperOffice.WebApi.Data.AssociateSourceType.value__
   langs:
   - csharp
   - vb
   name: AssociateSourceType
   nameWithType: AssociateSourceType
   fullName: SuperOffice.WebApi.Data.AssociateSourceType
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Describes what source the associates should be retrieved from. 
-
-    This Enum consists of flag values that can be combined.
-  example: []
+  summary: "\nDescribes what source the associates should be retrieved from. \nThis Enum consists of flag values that can be combined.\n"
   syntax:
-    content: >-
-      [Flags]
-
-      public enum AssociateSourceType
+    content: 'public sealed class AssociateSourceType : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class AssociateSourceType
+          Inherits
 
-      Public Enum AssociateSourceType
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.AssociateSourceType.value__
+  commentId: F:SuperOffice.WebApi.Data.AssociateSourceType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.AssociateSourceType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: AssociateSourceType.value__
+  fullName: SuperOffice.WebApi.Data.AssociateSourceType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.AssociateSourceType.Unknown
   commentId: F:SuperOffice.WebApi.Data.AssociateSourceType.Unknown
   id: Unknown
@@ -50,15 +80,24 @@ items:
   nameWithType: AssociateSourceType.Unknown
   fullName: SuperOffice.WebApi.Data.AssociateSourceType.Unknown
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: Unknown - used when initializing'
-  example: []
+  summary: "\n0: Unknown - used when initializing\n"
   syntax:
-    content: Unknown = 0
+    content: public const AssociateSourceType Unknown
     return:
       type: SuperOffice.WebApi.Data.AssociateSourceType
+    content.vb: Public Const Unknown As AssociateSourceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.AssociateSourceType.History
   commentId: F:SuperOffice.WebApi.Data.AssociateSourceType.History
   id: History
@@ -70,26 +109,24 @@ items:
   nameWithType: AssociateSourceType.History
   fullName: SuperOffice.WebApi.Data.AssociateSourceType.History
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: Associate is retrieved from the history list'
-  example: []
+  summary: "\n1: Associate is retrieved from the history list\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      History = 1
+    content: public const AssociateSourceType History
     return:
       type: SuperOffice.WebApi.Data.AssociateSourceType
-    content.vb: >-
-      <EnumMember>
-
-      History = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const History As AssociateSourceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.AssociateSourceType.DiaryViewList
   commentId: F:SuperOffice.WebApi.Data.AssociateSourceType.DiaryViewList
   id: DiaryViewList
@@ -101,26 +138,24 @@ items:
   nameWithType: AssociateSourceType.DiaryViewList
   fullName: SuperOffice.WebApi.Data.AssociateSourceType.DiaryViewList
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: Associate is retrieved from the diary view list'
-  example: []
+  summary: "\n2: Associate is retrieved from the diary view list\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      DiaryViewList = 2
+    content: public const AssociateSourceType DiaryViewList
     return:
       type: SuperOffice.WebApi.Data.AssociateSourceType
-    content.vb: >-
-      <EnumMember>
-
-      DiaryViewList = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const DiaryViewList As AssociateSourceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.AssociateSourceType.Department
   commentId: F:SuperOffice.WebApi.Data.AssociateSourceType.Department
   id: Department
@@ -132,26 +167,24 @@ items:
   nameWithType: AssociateSourceType.Department
   fullName: SuperOffice.WebApi.Data.AssociateSourceType.Department
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: Associate is retrieved from the department (usergroup) list'
-  example: []
+  summary: "\n4: Associate is retrieved from the department (usergroup) list\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Department = 4
+    content: public const AssociateSourceType Department
     return:
       type: SuperOffice.WebApi.Data.AssociateSourceType
-    content.vb: >-
-      <EnumMember>
-
-      Department = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Department As AssociateSourceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.AssociateSourceType.All
   commentId: F:SuperOffice.WebApi.Data.AssociateSourceType.All
   id: All
@@ -163,16 +196,24 @@ items:
   nameWithType: AssociateSourceType.All
   fullName: SuperOffice.WebApi.Data.AssociateSourceType.All
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "7: Enumeration generated from the wsdl doesn't handle the [Flags] attribute (bit enumeration)"
-  example: []
+  summary: "\n7: Enumeration generated from the wsdl doesn&apos;t handle the [Flags] attribute (bit enumeration)\n"
   syntax:
-    content: All = History | DiaryViewList | Department
+    content: public const AssociateSourceType All
     return:
       type: SuperOffice.WebApi.Data.AssociateSourceType
-    content.vb: All = History Or DiaryViewList Or Department
+    content.vb: Public Const All As AssociateSourceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.AssociateSourceType.UndefinedValue8
   commentId: F:SuperOffice.WebApi.Data.AssociateSourceType.UndefinedValue8
   id: UndefinedValue8
@@ -184,69 +225,55 @@ items:
   nameWithType: AssociateSourceType.UndefinedValue8
   fullName: SuperOffice.WebApi.Data.AssociateSourceType.UndefinedValue8
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '8: Undefined and generated value 8'
-  example: []
+  summary: "\n8: Undefined and generated value 8\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UndefinedValue8 = 8
+    content: public const AssociateSourceType UndefinedValue8
     return:
       type: SuperOffice.WebApi.Data.AssociateSourceType
-    content.vb: >-
-      <EnumMember>
-
-      UndefinedValue8 = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UndefinedValue8 As AssociateSourceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.AssociateSourceType
   commentId: T:SuperOffice.WebApi.Data.AssociateSourceType
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.AssociateSourceType.html
   name: AssociateSourceType
   nameWithType: AssociateSourceType
   fullName: SuperOffice.WebApi.Data.AssociateSourceType

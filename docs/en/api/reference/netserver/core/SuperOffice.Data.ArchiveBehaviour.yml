@@ -8,42 +8,67 @@ items:
   - SuperOffice.Data.ArchiveBehaviour.InArchives
   - SuperOffice.Data.ArchiveBehaviour.MultiSelectInArchives
   - SuperOffice.Data.ArchiveBehaviour.None
+  - SuperOffice.Data.ArchiveBehaviour.value__
   langs:
   - csharp
   - vb
   name: ArchiveBehaviour
   nameWithType: ArchiveBehaviour
   fullName: SuperOffice.Data.ArchiveBehaviour
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: >-
-    Behaviour in archives
-
-    This Enum is used by:  TaskMenu.archiveBehaviour
-
-    This Enum consists of flag values that can be combined.
-  example: []
+  summary: "\nBehaviour in archives\nThis Enum is used by:  TaskMenu.archiveBehaviour\nThis Enum consists of flag values that can be combined.\n"
   syntax:
-    content: >-
-      [Flags]
-
-      public enum ArchiveBehaviour : short
+    content: 'public sealed class ArchiveBehaviour : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class ArchiveBehaviour
+          Inherits
 
-      Public Enum ArchiveBehaviour As Short
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.ArchiveBehaviour.EnumUtil.MapEnums``2
   - SuperOffice.Data.ArchiveBehaviour.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.ArchiveBehaviour.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ArchiveBehaviour)
-  - SuperOffice.Data.ArchiveBehaviour.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.ArchiveBehaviour.value__
+  commentId: F:SuperOffice.Data.ArchiveBehaviour.value__
+  id: value__
+  parent: SuperOffice.Data.ArchiveBehaviour
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ArchiveBehaviour.value__
+  fullName: SuperOffice.Data.ArchiveBehaviour.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.ArchiveBehaviour.None
   commentId: F:SuperOffice.Data.ArchiveBehaviour.None
   id: None
@@ -55,15 +80,24 @@ items:
   nameWithType: ArchiveBehaviour.None
   fullName: SuperOffice.Data.ArchiveBehaviour.None
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: None'
-  example: []
+  summary: "\n0: None\n"
   syntax:
-    content: None = 0
+    content: public const ArchiveBehaviour None
     return:
       type: SuperOffice.Data.ArchiveBehaviour
+    content.vb: Public Const None As ArchiveBehaviour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ArchiveBehaviour.InArchives
   commentId: F:SuperOffice.Data.ArchiveBehaviour.InArchives
   id: InArchives
@@ -75,15 +109,24 @@ items:
   nameWithType: ArchiveBehaviour.InArchives
   fullName: SuperOffice.Data.ArchiveBehaviour.InArchives
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: RightClick in archives'
-  example: []
+  summary: "\n1: RightClick in archives\n"
   syntax:
-    content: InArchives = 1
+    content: public const ArchiveBehaviour InArchives
     return:
       type: SuperOffice.Data.ArchiveBehaviour
+    content.vb: Public Const InArchives As ArchiveBehaviour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ArchiveBehaviour.MultiSelectInArchives
   commentId: F:SuperOffice.Data.ArchiveBehaviour.MultiSelectInArchives
   id: MultiSelectInArchives
@@ -95,289 +138,115 @@ items:
   nameWithType: ArchiveBehaviour.MultiSelectInArchives
   fullName: SuperOffice.Data.ArchiveBehaviour.MultiSelectInArchives
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: RightClick with multiselect in archives'
-  example: []
+  summary: "\n2: RightClick with multiselect in archives\n"
   syntax:
-    content: MultiSelectInArchives = 2
+    content: public const ArchiveBehaviour MultiSelectInArchives
     return:
       type: SuperOffice.Data.ArchiveBehaviour
+    content.vb: Public Const MultiSelectInArchives As ArchiveBehaviour
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.ArchiveBehaviour.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ArchiveBehaviour, To>(ArchiveBehaviour)
-  nameWithType: EnumUtil.MapEnums<ArchiveBehaviour, To>(ArchiveBehaviour)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.ArchiveBehaviour, To>(SuperOffice.Data.ArchiveBehaviour)
-  nameWithType.vb: EnumUtil.MapEnums(Of ArchiveBehaviour, To)(ArchiveBehaviour)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ArchiveBehaviour, To)(SuperOffice.Data.ArchiveBehaviour)
-  name.vb: MapEnums(Of ArchiveBehaviour, To)(ArchiveBehaviour)
+  name: MapEnums<ArchiveBehaviour, To>()
+  nameWithType: EnumUtil.MapEnums<ArchiveBehaviour, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ArchiveBehaviour, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ArchiveBehaviour, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ArchiveBehaviour, To)()
+  name.vb: MapEnums(Of ArchiveBehaviour, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ArchiveBehaviour)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ArchiveBehaviour, To>
+    nameWithType: EnumUtil.MapEnums<ArchiveBehaviour, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ArchiveBehaviour, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.ArchiveBehaviour
-    name: ArchiveBehaviour
-    isExternal: true
-    href: SuperOffice.Data.ArchiveBehaviour.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.ArchiveBehaviour
-    name: ArchiveBehaviour
-    isExternal: true
-    href: SuperOffice.Data.ArchiveBehaviour.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ArchiveBehaviour)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ArchiveBehaviour, To)
+    nameWithType: EnumUtil.MapEnums(Of ArchiveBehaviour, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ArchiveBehaviour, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ArchiveBehaviour
-    name: ArchiveBehaviour
-    isExternal: true
-    href: SuperOffice.Data.ArchiveBehaviour.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.ArchiveBehaviour
-    name: ArchiveBehaviour
-    isExternal: true
-    href: SuperOffice.Data.ArchiveBehaviour.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.ArchiveBehaviour.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ArchiveBehaviour, To>(ArchiveBehaviour)
-  nameWithType: Converters.MapEnums<ArchiveBehaviour, To>(ArchiveBehaviour)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ArchiveBehaviour, To>(SuperOffice.Data.ArchiveBehaviour)
-  nameWithType.vb: Converters.MapEnums(Of ArchiveBehaviour, To)(ArchiveBehaviour)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ArchiveBehaviour, To)(SuperOffice.Data.ArchiveBehaviour)
-  name.vb: MapEnums(Of ArchiveBehaviour, To)(ArchiveBehaviour)
+  name: MapEnums<ArchiveBehaviour, To>()
+  nameWithType: Converters.MapEnums<ArchiveBehaviour, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ArchiveBehaviour, To>()
+  nameWithType.vb: Converters.MapEnums(Of ArchiveBehaviour, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ArchiveBehaviour, To)()
+  name.vb: MapEnums(Of ArchiveBehaviour, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ArchiveBehaviour)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ArchiveBehaviour, To>
+    nameWithType: Converters.MapEnums<ArchiveBehaviour, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ArchiveBehaviour, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.ArchiveBehaviour
-    name: ArchiveBehaviour
-    isExternal: true
-    href: SuperOffice.Data.ArchiveBehaviour.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.ArchiveBehaviour
-    name: ArchiveBehaviour
-    isExternal: true
-    href: SuperOffice.Data.ArchiveBehaviour.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ArchiveBehaviour)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ArchiveBehaviour, To)
+    nameWithType: Converters.MapEnums(Of ArchiveBehaviour, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ArchiveBehaviour, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ArchiveBehaviour
-    name: ArchiveBehaviour
-    isExternal: true
-    href: SuperOffice.Data.ArchiveBehaviour.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.ArchiveBehaviour
-    name: ArchiveBehaviour
-    isExternal: true
-    href: SuperOffice.Data.ArchiveBehaviour.html
-  - name: )
-- uid: SuperOffice.Data.ArchiveBehaviour.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ArchiveBehaviour)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ArchiveBehaviour>(ArchiveBehaviour, ArchiveBehaviour)
-  nameWithType: ObjectExtensions.AssignByReflection<ArchiveBehaviour>(ArchiveBehaviour, ArchiveBehaviour)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ArchiveBehaviour>(SuperOffice.Data.ArchiveBehaviour, SuperOffice.Data.ArchiveBehaviour)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ArchiveBehaviour)(ArchiveBehaviour, ArchiveBehaviour)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ArchiveBehaviour)(SuperOffice.Data.ArchiveBehaviour, SuperOffice.Data.ArchiveBehaviour)
-  name.vb: AssignByReflection(Of ArchiveBehaviour)(ArchiveBehaviour, ArchiveBehaviour)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ArchiveBehaviour,SuperOffice.Data.ArchiveBehaviour)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.ArchiveBehaviour
-    name: ArchiveBehaviour
-    isExternal: true
-    href: SuperOffice.Data.ArchiveBehaviour.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.ArchiveBehaviour
-    name: ArchiveBehaviour
-    isExternal: true
-    href: SuperOffice.Data.ArchiveBehaviour.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.ArchiveBehaviour
-    name: ArchiveBehaviour
-    isExternal: true
-    href: SuperOffice.Data.ArchiveBehaviour.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ArchiveBehaviour,SuperOffice.Data.ArchiveBehaviour)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ArchiveBehaviour
-    name: ArchiveBehaviour
-    isExternal: true
-    href: SuperOffice.Data.ArchiveBehaviour.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.ArchiveBehaviour
-    name: ArchiveBehaviour
-    isExternal: true
-    href: SuperOffice.Data.ArchiveBehaviour.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.ArchiveBehaviour
-    name: ArchiveBehaviour
-    isExternal: true
-    href: SuperOffice.Data.ArchiveBehaviour.html
-  - name: )
-- uid: SuperOffice.Data.ArchiveBehaviour.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ArchiveBehaviour>(ArchiveBehaviour)
-  nameWithType: ObjectExtensions.GraphCopy<ArchiveBehaviour>(ArchiveBehaviour)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ArchiveBehaviour>(SuperOffice.Data.ArchiveBehaviour)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ArchiveBehaviour)(ArchiveBehaviour)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ArchiveBehaviour)(SuperOffice.Data.ArchiveBehaviour)
-  name.vb: GraphCopy(Of ArchiveBehaviour)(ArchiveBehaviour)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ArchiveBehaviour)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.ArchiveBehaviour
-    name: ArchiveBehaviour
-    isExternal: true
-    href: SuperOffice.Data.ArchiveBehaviour.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.ArchiveBehaviour
-    name: ArchiveBehaviour
-    isExternal: true
-    href: SuperOffice.Data.ArchiveBehaviour.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ArchiveBehaviour)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ArchiveBehaviour
-    name: ArchiveBehaviour
-    isExternal: true
-    href: SuperOffice.Data.ArchiveBehaviour.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.ArchiveBehaviour
-    name: ArchiveBehaviour
-    isExternal: true
-    href: SuperOffice.Data.ArchiveBehaviour.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -386,45 +255,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -433,222 +300,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.ArchiveBehaviour
   commentId: T:SuperOffice.Data.ArchiveBehaviour
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ArchiveBehaviour.html
   name: ArchiveBehaviour
   nameWithType: ArchiveBehaviour
   fullName: SuperOffice.Data.ArchiveBehaviour

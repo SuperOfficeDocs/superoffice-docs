@@ -11,44 +11,67 @@ items:
   - SuperOffice.Data.FormSubmissionStatus.Processed
   - SuperOffice.Data.FormSubmissionStatus.Submitted
   - SuperOffice.Data.FormSubmissionStatus.Unknown
+  - SuperOffice.Data.FormSubmissionStatus.value__
   langs:
   - csharp
   - vb
   name: FormSubmissionStatus
   nameWithType: FormSubmissionStatus
   fullName: SuperOffice.Data.FormSubmissionStatus
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: >-
-    What is the status of this submission
-
-    This Enum is used by:  form_submission.status
-  example: []
+  summary: "\nWhat is the status of this submission\nThis Enum is used by:  form_submission.status\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum FormSubmissionStatus : short
+    content: 'public sealed class FormSubmissionStatus : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class FormSubmissionStatus
+          Inherits
 
-      Public Enum FormSubmissionStatus As Short
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.FormSubmissionStatus.EnumUtil.MapEnums``2
   - SuperOffice.Data.FormSubmissionStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.FormSubmissionStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.FormSubmissionStatus)
-  - SuperOffice.Data.FormSubmissionStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.FormSubmissionStatus.value__
+  commentId: F:SuperOffice.Data.FormSubmissionStatus.value__
+  id: value__
+  parent: SuperOffice.Data.FormSubmissionStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: FormSubmissionStatus.value__
+  fullName: SuperOffice.Data.FormSubmissionStatus.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.FormSubmissionStatus.Unknown
   commentId: F:SuperOffice.Data.FormSubmissionStatus.Unknown
   id: Unknown
@@ -60,26 +83,24 @@ items:
   nameWithType: FormSubmissionStatus.Unknown
   fullName: SuperOffice.Data.FormSubmissionStatus.Unknown
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: Unknown status'
-  example: []
+  summary: "\n0: Unknown status\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Unknown = 0
+    content: public const FormSubmissionStatus Unknown
     return:
       type: SuperOffice.Data.FormSubmissionStatus
-    content.vb: >-
-      <EnumMember>
-
-      Unknown = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Unknown As FormSubmissionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.FormSubmissionStatus.InProgress
   commentId: F:SuperOffice.Data.FormSubmissionStatus.InProgress
   id: InProgress
@@ -91,26 +112,24 @@ items:
   nameWithType: FormSubmissionStatus.InProgress
   fullName: SuperOffice.Data.FormSubmissionStatus.InProgress
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: In progress, the customer has started filling out fields but has not yet submitted'
-  example: []
+  summary: "\n1: In progress, the customer has started filling out fields but has not yet submitted\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      InProgress = 1
+    content: public const FormSubmissionStatus InProgress
     return:
       type: SuperOffice.Data.FormSubmissionStatus
-    content.vb: >-
-      <EnumMember>
-
-      InProgress = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const InProgress As FormSubmissionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.FormSubmissionStatus.EmailVerification
   commentId: F:SuperOffice.Data.FormSubmissionStatus.EmailVerification
   id: EmailVerification
@@ -122,26 +141,24 @@ items:
   nameWithType: FormSubmissionStatus.EmailVerification
   fullName: SuperOffice.Data.FormSubmissionStatus.EmailVerification
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: EmailVerification, the customer has submitted but we are waiting for click from sent email'
-  example: []
+  summary: "\n2: EmailVerification, the customer has submitted but we are waiting for click from sent email\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      EmailVerification = 2
+    content: public const FormSubmissionStatus EmailVerification
     return:
       type: SuperOffice.Data.FormSubmissionStatus
-    content.vb: >-
-      <EnumMember>
-
-      EmailVerification = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const EmailVerification As FormSubmissionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.FormSubmissionStatus.Submitted
   commentId: F:SuperOffice.Data.FormSubmissionStatus.Submitted
   id: Submitted
@@ -153,26 +170,24 @@ items:
   nameWithType: FormSubmissionStatus.Submitted
   fullName: SuperOffice.Data.FormSubmissionStatus.Submitted
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '3: Submitted, the form is submitted but has not yet been executed'
-  example: []
+  summary: "\n3: Submitted, the form is submitted but has not yet been executed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Submitted = 3
+    content: public const FormSubmissionStatus Submitted
     return:
       type: SuperOffice.Data.FormSubmissionStatus
-    content.vb: >-
-      <EnumMember>
-
-      Submitted = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Submitted As FormSubmissionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.FormSubmissionStatus.Processed
   commentId: F:SuperOffice.Data.FormSubmissionStatus.Processed
   id: Processed
@@ -184,26 +199,24 @@ items:
   nameWithType: FormSubmissionStatus.Processed
   fullName: SuperOffice.Data.FormSubmissionStatus.Processed
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '4: Processed, the actions of the form have been executed'
-  example: []
+  summary: "\n4: Processed, the actions of the form have been executed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Processed = 4
+    content: public const FormSubmissionStatus Processed
     return:
       type: SuperOffice.Data.FormSubmissionStatus
-    content.vb: >-
-      <EnumMember>
-
-      Processed = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Processed As FormSubmissionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.FormSubmissionStatus.Failed
   commentId: F:SuperOffice.Data.FormSubmissionStatus.Failed
   id: Failed
@@ -215,300 +228,115 @@ items:
   nameWithType: FormSubmissionStatus.Failed
   fullName: SuperOffice.Data.FormSubmissionStatus.Failed
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '5: Failed, there was an error when processing the form'
-  example: []
+  summary: "\n5: Failed, there was an error when processing the form\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Failed = 5
+    content: public const FormSubmissionStatus Failed
     return:
       type: SuperOffice.Data.FormSubmissionStatus
-    content.vb: >-
-      <EnumMember>
-
-      Failed = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Failed As FormSubmissionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.FormSubmissionStatus.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<FormSubmissionStatus, To>(FormSubmissionStatus)
-  nameWithType: EnumUtil.MapEnums<FormSubmissionStatus, To>(FormSubmissionStatus)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.FormSubmissionStatus, To>(SuperOffice.Data.FormSubmissionStatus)
-  nameWithType.vb: EnumUtil.MapEnums(Of FormSubmissionStatus, To)(FormSubmissionStatus)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.FormSubmissionStatus, To)(SuperOffice.Data.FormSubmissionStatus)
-  name.vb: MapEnums(Of FormSubmissionStatus, To)(FormSubmissionStatus)
+  name: MapEnums<FormSubmissionStatus, To>()
+  nameWithType: EnumUtil.MapEnums<FormSubmissionStatus, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.FormSubmissionStatus, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of FormSubmissionStatus, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.FormSubmissionStatus, To)()
+  name.vb: MapEnums(Of FormSubmissionStatus, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.FormSubmissionStatus)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<FormSubmissionStatus, To>
+    nameWithType: EnumUtil.MapEnums<FormSubmissionStatus, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.FormSubmissionStatus, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    isExternal: true
-    href: SuperOffice.Data.FormSubmissionStatus.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    isExternal: true
-    href: SuperOffice.Data.FormSubmissionStatus.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.FormSubmissionStatus)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of FormSubmissionStatus, To)
+    nameWithType: EnumUtil.MapEnums(Of FormSubmissionStatus, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.FormSubmissionStatus, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    isExternal: true
-    href: SuperOffice.Data.FormSubmissionStatus.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    isExternal: true
-    href: SuperOffice.Data.FormSubmissionStatus.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.FormSubmissionStatus.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<FormSubmissionStatus, To>(FormSubmissionStatus)
-  nameWithType: Converters.MapEnums<FormSubmissionStatus, To>(FormSubmissionStatus)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.FormSubmissionStatus, To>(SuperOffice.Data.FormSubmissionStatus)
-  nameWithType.vb: Converters.MapEnums(Of FormSubmissionStatus, To)(FormSubmissionStatus)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.FormSubmissionStatus, To)(SuperOffice.Data.FormSubmissionStatus)
-  name.vb: MapEnums(Of FormSubmissionStatus, To)(FormSubmissionStatus)
+  name: MapEnums<FormSubmissionStatus, To>()
+  nameWithType: Converters.MapEnums<FormSubmissionStatus, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.FormSubmissionStatus, To>()
+  nameWithType.vb: Converters.MapEnums(Of FormSubmissionStatus, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.FormSubmissionStatus, To)()
+  name.vb: MapEnums(Of FormSubmissionStatus, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.FormSubmissionStatus)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<FormSubmissionStatus, To>
+    nameWithType: Converters.MapEnums<FormSubmissionStatus, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.FormSubmissionStatus, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    isExternal: true
-    href: SuperOffice.Data.FormSubmissionStatus.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    isExternal: true
-    href: SuperOffice.Data.FormSubmissionStatus.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.FormSubmissionStatus)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of FormSubmissionStatus, To)
+    nameWithType: Converters.MapEnums(Of FormSubmissionStatus, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.FormSubmissionStatus, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    isExternal: true
-    href: SuperOffice.Data.FormSubmissionStatus.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    isExternal: true
-    href: SuperOffice.Data.FormSubmissionStatus.html
-  - name: )
-- uid: SuperOffice.Data.FormSubmissionStatus.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.FormSubmissionStatus)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<FormSubmissionStatus>(FormSubmissionStatus, FormSubmissionStatus)
-  nameWithType: ObjectExtensions.AssignByReflection<FormSubmissionStatus>(FormSubmissionStatus, FormSubmissionStatus)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.FormSubmissionStatus>(SuperOffice.Data.FormSubmissionStatus, SuperOffice.Data.FormSubmissionStatus)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FormSubmissionStatus)(FormSubmissionStatus, FormSubmissionStatus)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.FormSubmissionStatus)(SuperOffice.Data.FormSubmissionStatus, SuperOffice.Data.FormSubmissionStatus)
-  name.vb: AssignByReflection(Of FormSubmissionStatus)(FormSubmissionStatus, FormSubmissionStatus)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.FormSubmissionStatus,SuperOffice.Data.FormSubmissionStatus)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    isExternal: true
-    href: SuperOffice.Data.FormSubmissionStatus.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    isExternal: true
-    href: SuperOffice.Data.FormSubmissionStatus.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    isExternal: true
-    href: SuperOffice.Data.FormSubmissionStatus.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.FormSubmissionStatus,SuperOffice.Data.FormSubmissionStatus)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    isExternal: true
-    href: SuperOffice.Data.FormSubmissionStatus.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    isExternal: true
-    href: SuperOffice.Data.FormSubmissionStatus.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    isExternal: true
-    href: SuperOffice.Data.FormSubmissionStatus.html
-  - name: )
-- uid: SuperOffice.Data.FormSubmissionStatus.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<FormSubmissionStatus>(FormSubmissionStatus)
-  nameWithType: ObjectExtensions.GraphCopy<FormSubmissionStatus>(FormSubmissionStatus)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.FormSubmissionStatus>(SuperOffice.Data.FormSubmissionStatus)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of FormSubmissionStatus)(FormSubmissionStatus)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.FormSubmissionStatus)(SuperOffice.Data.FormSubmissionStatus)
-  name.vb: GraphCopy(Of FormSubmissionStatus)(FormSubmissionStatus)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.FormSubmissionStatus)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    isExternal: true
-    href: SuperOffice.Data.FormSubmissionStatus.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    isExternal: true
-    href: SuperOffice.Data.FormSubmissionStatus.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.FormSubmissionStatus)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    isExternal: true
-    href: SuperOffice.Data.FormSubmissionStatus.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.FormSubmissionStatus
-    name: FormSubmissionStatus
-    isExternal: true
-    href: SuperOffice.Data.FormSubmissionStatus.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -517,45 +345,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -564,222 +390,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.FormSubmissionStatus
   commentId: T:SuperOffice.Data.FormSubmissionStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.FormSubmissionStatus.html
   name: FormSubmissionStatus
   nameWithType: FormSubmissionStatus
   fullName: SuperOffice.Data.FormSubmissionStatus

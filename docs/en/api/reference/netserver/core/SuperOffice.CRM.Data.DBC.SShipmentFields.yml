@@ -32,7 +32,6 @@ items:
   - SuperOffice.CRM.Data.DBC.SShipmentFields.Registered
   - SuperOffice.CRM.Data.DBC.SShipmentFields.RegisteredAssociateId
   - SuperOffice.CRM.Data.DBC.SShipmentFields.ReplyAddr
-  - SuperOffice.CRM.Data.DBC.SShipmentFields.SShipmentId
   - SuperOffice.CRM.Data.DBC.SShipmentFields.SelectionId
   - SuperOffice.CRM.Data.DBC.SShipmentFields.SendRate
   - SuperOffice.CRM.Data.DBC.SShipmentFields.SentNum
@@ -42,6 +41,7 @@ items:
   - SuperOffice.CRM.Data.DBC.SShipmentFields.SoftbounceNum
   - SuperOffice.CRM.Data.DBC.SShipmentFields.SoftbounceRate
   - SuperOffice.CRM.Data.DBC.SShipmentFields.Sorting
+  - SuperOffice.CRM.Data.DBC.SShipmentFields.SShipmentId
   - SuperOffice.CRM.Data.DBC.SShipmentFields.StartDate
   - SuperOffice.CRM.Data.DBC.SShipmentFields.Status
   - SuperOffice.CRM.Data.DBC.SShipmentFields.TicketCategory
@@ -58,24 +58,27 @@ items:
   nameWithType: DBC.SShipmentFields
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Fields for SShipment, Contains info about one shipment. The addresses are stored in s_shipment_addr
-  example: []
+  summary: "\nFields for SShipment, Contains info about one shipment. The addresses are stored in s_shipment_addr\n"
   syntax:
-    content: public static class DBC.SShipmentFields
-    content.vb: Public Module DBC.SShipmentFields
+    content: 'public static class SShipmentFields : Object'
+    content.vb: >-
+      Public Module SShipmentFields
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.SShipmentId
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.SShipmentId
   id: SShipmentId
@@ -87,16 +90,24 @@ items:
   nameWithType: DBC.SShipmentFields.SShipmentId
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.SShipmentId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.SShipmentId: Primary key'
-  example: []
+  summary: "\nSShipment.SShipmentId: Primary key\n"
   syntax:
     content: public const string SShipmentId = "id"
     return:
       type: System.String
     content.vb: Public Const SShipmentId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.Description
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.Description
   id: Description
@@ -108,16 +119,24 @@ items:
   nameWithType: DBC.SShipmentFields.Description
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.Description
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.Description: Describes the shipment'
-  example: []
+  summary: "\nSShipment.Description: Describes the shipment\n"
   syntax:
     content: public const string Description = "description"
     return:
       type: System.String
     content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.MessageId
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.MessageId
   id: MessageId
@@ -129,16 +148,24 @@ items:
   nameWithType: DBC.SShipmentFields.MessageId
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.MessageId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.MessageId: The id of the message that is sent in this shipment'
-  example: []
+  summary: "\nSShipment.MessageId: The id of the message that is sent in this shipment\n"
   syntax:
     content: public const string MessageId = "message_id"
     return:
       type: System.String
     content.vb: Public Const MessageId As String = "message_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.StartDate
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.StartDate
   id: StartDate
@@ -150,16 +177,24 @@ items:
   nameWithType: DBC.SShipmentFields.StartDate
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.StartDate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.StartDate: The date and time when to start this shipment'
-  example: []
+  summary: "\nSShipment.StartDate: The date and time when to start this shipment\n"
   syntax:
     content: public const string StartDate = "start_date"
     return:
       type: System.String
     content.vb: Public Const StartDate As String = "start_date"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.EndDate
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.EndDate
   id: EndDate
@@ -171,16 +206,24 @@ items:
   nameWithType: DBC.SShipmentFields.EndDate
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.EndDate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.EndDate: Is set when this shipment is ended'
-  example: []
+  summary: "\nSShipment.EndDate: Is set when this shipment is ended\n"
   syntax:
     content: public const string EndDate = "end_date"
     return:
       type: System.String
     content.vb: Public Const EndDate As String = "end_date"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.FromAddr
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.FromAddr
   id: FromAddr
@@ -192,16 +235,24 @@ items:
   nameWithType: DBC.SShipmentFields.FromAddr
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.FromAddr
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.FromAddr: Email address to put in the From header of the messages'
-  example: []
+  summary: "\nSShipment.FromAddr: Email address to put in the From header of the messages\n"
   syntax:
     content: public const string FromAddr = "from_addr"
     return:
       type: System.String
     content.vb: Public Const FromAddr As String = "from_addr"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.ReplyAddr
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.ReplyAddr
   id: ReplyAddr
@@ -213,16 +264,24 @@ items:
   nameWithType: DBC.SShipmentFields.ReplyAddr
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.ReplyAddr
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.ReplyAddr: Email address to put in the Reply To: header of the messages'
-  example: []
+  summary: "\nSShipment.ReplyAddr: Email address to put in the Reply To: header of the messages\n"
   syntax:
     content: public const string ReplyAddr = "reply_addr"
     return:
       type: System.String
     content.vb: Public Const ReplyAddr As String = "reply_addr"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.EnvelopeFrom
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.EnvelopeFrom
   id: EnvelopeFrom
@@ -234,16 +293,24 @@ items:
   nameWithType: DBC.SShipmentFields.EnvelopeFrom
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.EnvelopeFrom
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.EnvelopeFrom: Email address for the MTA envelope (where bounces are returned)'
-  example: []
+  summary: "\nSShipment.EnvelopeFrom: Email address for the MTA envelope (where bounces are returned)\n"
   syntax:
     content: public const string EnvelopeFrom = "envelope_from"
     return:
       type: System.String
     content.vb: Public Const EnvelopeFrom As String = "envelope_from"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.SmtpServ
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.SmtpServ
   id: SmtpServ
@@ -255,16 +322,24 @@ items:
   nameWithType: DBC.SShipmentFields.SmtpServ
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.SmtpServ
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.SmtpServ: The server to use for this shipment.'
-  example: []
+  summary: "\nSShipment.SmtpServ: The server to use for this shipment.\n"
   syntax:
     content: public const string SmtpServ = "smtp_serv"
     return:
       type: System.String
     content.vb: Public Const SmtpServ As String = "smtp_serv"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.SmtpPort
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.SmtpPort
   id: SmtpPort
@@ -276,16 +351,24 @@ items:
   nameWithType: DBC.SShipmentFields.SmtpPort
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.SmtpPort
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.SmtpPort: The port of the SMTP server to use for this shipment.'
-  example: []
+  summary: "\nSShipment.SmtpPort: The port of the SMTP server to use for this shipment.\n"
   syntax:
     content: public const string SmtpPort = "smtp_port"
     return:
       type: System.String
     content.vb: Public Const SmtpPort As String = "smtp_port"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.SendRate
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.SendRate
   id: SendRate
@@ -297,16 +380,24 @@ items:
   nameWithType: DBC.SShipmentFields.SendRate
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.SendRate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.SendRate: Maximum number of messages sent per minute.'
-  example: []
+  summary: "\nSShipment.SendRate: Maximum number of messages sent per minute. \n"
   syntax:
     content: public const string SendRate = "send_rate"
     return:
       type: System.String
     content.vb: Public Const SendRate As String = "send_rate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.Status
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.Status
   id: Status
@@ -318,16 +409,24 @@ items:
   nameWithType: DBC.SShipmentFields.Status
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.Status
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.Status: Sending/stopped/failed etc.'
-  example: []
+  summary: "\nSShipment.Status: Sending/stopped/failed etc.\n"
   syntax:
     content: public const string Status = "status"
     return:
       type: System.String
     content.vb: Public Const Status As String = "status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.Recipients
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.Recipients
   id: Recipients
@@ -339,16 +438,24 @@ items:
   nameWithType: DBC.SShipmentFields.Recipients
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.Recipients
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.Recipients: The total number of recipients to send message to.'
-  example: []
+  summary: "\nSShipment.Recipients: The total number of recipients to send message to.\n"
   syntax:
     content: public const string Recipients = "recipients"
     return:
       type: System.String
     content.vb: Public Const Recipients As String = "recipients"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.ActualRate
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.ActualRate
   id: ActualRate
@@ -360,16 +467,24 @@ items:
   nameWithType: DBC.SShipmentFields.ActualRate
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.ActualRate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.ActualRate: The actual rate of messages per minute. can be lower than send_rate'
-  example: []
+  summary: "\nSShipment.ActualRate: The actual rate of messages per minute. can be lower than send_rate\n"
   syntax:
     content: public const string ActualRate = "actual_rate"
     return:
       type: System.String
     content.vb: Public Const ActualRate As String = "actual_rate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.ActualTime
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.ActualTime
   id: ActualTime
@@ -381,16 +496,24 @@ items:
   nameWithType: DBC.SShipmentFields.ActualTime
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.ActualTime
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.ActualTime: The time of the last checkpoint'
-  example: []
+  summary: "\nSShipment.ActualTime: The time of the last checkpoint\n"
   syntax:
     content: public const string ActualTime = "actual_time"
     return:
       type: System.String
     content.vb: Public Const ActualTime As String = "actual_time"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.ActualCount
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.ActualCount
   id: ActualCount
@@ -402,16 +525,24 @@ items:
   nameWithType: DBC.SShipmentFields.ActualCount
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.ActualCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.ActualCount: Number of emails sent at the last checkpoint'
-  example: []
+  summary: "\nSShipment.ActualCount: Number of emails sent at the last checkpoint\n"
   syntax:
     content: public const string ActualCount = "actual_count"
     return:
       type: System.String
     content.vb: Public Const ActualCount As String = "actual_count"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.CurrentSender
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.CurrentSender
   id: CurrentSender
@@ -423,16 +554,24 @@ items:
   nameWithType: DBC.SShipmentFields.CurrentSender
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.CurrentSender
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.CurrentSender: Timestamp to identify which ejsender that owns this shipment'
-  example: []
+  summary: "\nSShipment.CurrentSender: Timestamp to identify which ejsender that owns this shipment\n"
   syntax:
     content: public const string CurrentSender = "current_sender"
     return:
       type: System.String
     content.vb: Public Const CurrentSender As String = "current_sender"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.TicketOwner
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.TicketOwner
   id: TicketOwner
@@ -444,16 +583,24 @@ items:
   nameWithType: DBC.SShipmentFields.TicketOwner
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.TicketOwner
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.TicketOwner: The owner of the ticket if any is created while sending out a shipment. -1 if no ticket should be automatically delegated, 1 if the ticket is unassigned, &gt;1 for all others'
-  example: []
+  summary: "\nSShipment.TicketOwner: The owner of the ticket if any is created while sending out a shipment. -1 if no ticket should be automatically delegated, 1 if the ticket is unassigned, >1 for all others\n"
   syntax:
     content: public const string TicketOwner = "ticket_owner"
     return:
       type: System.String
     content.vb: Public Const TicketOwner As String = "ticket_owner"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.TicketCategory
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.TicketCategory
   id: TicketCategory
@@ -465,16 +612,24 @@ items:
   nameWithType: DBC.SShipmentFields.TicketCategory
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.TicketCategory
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.TicketCategory: The category of tickets created while sending out if any. -1 if no ticket should be created'
-  example: []
+  summary: "\nSShipment.TicketCategory: The category of tickets created while sending out if any. -1 if no ticket should be created\n"
   syntax:
     content: public const string TicketCategory = "ticket_category"
     return:
       type: System.String
     content.vb: Public Const TicketCategory As String = "ticket_category"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.Flags
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.Flags
   id: Flags
@@ -486,16 +641,24 @@ items:
   nameWithType: DBC.SShipmentFields.Flags
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.Flags
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.Flags: Various flags for a shipment'
-  example: []
+  summary: "\nSShipment.Flags: Various flags for a shipment\n"
   syntax:
     content: public const string Flags = "flags"
     return:
       type: System.String
     content.vb: Public Const Flags As String = "flags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.FolderId
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.FolderId
   id: FolderId
@@ -507,16 +670,24 @@ items:
   nameWithType: DBC.SShipmentFields.FolderId
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.FolderId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.FolderId: The folder which this shipment belongs to. -1 indicates that the shipment is on the root'
-  example: []
+  summary: "\nSShipment.FolderId: The folder which this shipment belongs to. -1 indicates that the shipment is on the root\n"
   syntax:
     content: public const string FolderId = "folder_id"
     return:
       type: System.String
     content.vb: Public Const FolderId As String = "folder_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.Configuration
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.Configuration
   id: Configuration
@@ -528,16 +699,24 @@ items:
   nameWithType: DBC.SShipmentFields.Configuration
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.Configuration
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.Configuration: This field indicates what kind of shipment this is.'
-  example: []
+  summary: "\nSShipment.Configuration: This field indicates what kind of shipment this is.\n"
   syntax:
     content: public const string Configuration = "configuration"
     return:
       type: System.String
     content.vb: Public Const Configuration As String = "configuration"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.SelectionId
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.SelectionId
   id: SelectionId
@@ -549,16 +728,24 @@ items:
   nameWithType: DBC.SShipmentFields.SelectionId
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.SelectionId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.SelectionId: Set if this shipment should be related to a Selection'
-  example: []
+  summary: "\nSShipment.SelectionId: Set if this shipment should be related to a Selection\n"
   syntax:
     content: public const string SelectionId = "selection_id"
     return:
       type: System.String
     content.vb: Public Const SelectionId As String = "selection_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.ProjectId
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.ProjectId
   id: ProjectId
@@ -570,16 +757,24 @@ items:
   nameWithType: DBC.SShipmentFields.ProjectId
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.ProjectId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.ProjectId: Set if this shipment should be related to a Project'
-  example: []
+  summary: "\nSShipment.ProjectId: Set if this shipment should be related to a Project\n"
   syntax:
     content: public const string ProjectId = "project_id"
     return:
       type: System.String
     content.vb: Public Const ProjectId As String = "project_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.GeneratedDocumentId
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.GeneratedDocumentId
   id: GeneratedDocumentId
@@ -591,16 +786,24 @@ items:
   nameWithType: DBC.SShipmentFields.GeneratedDocumentId
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.GeneratedDocumentId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.GeneratedDocumentId: ID of the merged document that is the result of the shipment'
-  example: []
+  summary: "\nSShipment.GeneratedDocumentId: ID of the merged document that is the result of the shipment\n"
   syntax:
     content: public const string GeneratedDocumentId = "generated_document_id"
     return:
       type: System.String
     content.vb: Public Const GeneratedDocumentId As String = "generated_document_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.Registered
   id: Registered
@@ -612,16 +815,24 @@ items:
   nameWithType: DBC.SShipmentFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.Registered: Registered when'
-  example: []
+  summary: "\nSShipment.Registered: Registered when\n"
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -633,16 +844,24 @@ items:
   nameWithType: DBC.SShipmentFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.RegisteredAssociateId: Registered by whom'
-  example: []
+  summary: "\nSShipment.RegisteredAssociateId: Registered by whom\n"
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.Updated
   id: Updated
@@ -654,16 +873,24 @@ items:
   nameWithType: DBC.SShipmentFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.Updated: Last updated when'
-  example: []
+  summary: "\nSShipment.Updated: Last updated when\n"
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -675,16 +902,24 @@ items:
   nameWithType: DBC.SShipmentFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.UpdatedAssociateId: Last updated by whom'
-  example: []
+  summary: "\nSShipment.UpdatedAssociateId: Last updated by whom\n"
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.UpdatedCount
   id: UpdatedCount
@@ -696,16 +931,24 @@ items:
   nameWithType: DBC.SShipmentFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.UpdatedCount: Number of updates made to this record'
-  example: []
+  summary: "\nSShipment.UpdatedCount: Number of updates made to this record\n"
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.ActivePane
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.ActivePane
   id: ActivePane
@@ -717,16 +960,24 @@ items:
   nameWithType: DBC.SShipmentFields.ActivePane
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.ActivePane
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.ActivePane: The currently active pane in the mailing wizard'
-  example: []
+  summary: "\nSShipment.ActivePane: The currently active pane in the mailing wizard\n"
   syntax:
     content: public const string ActivePane = "active_pane"
     return:
       type: System.String
     content.vb: Public Const ActivePane As String = "active_pane"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.Sorting
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.Sorting
   id: Sorting
@@ -738,16 +989,24 @@ items:
   nameWithType: DBC.SShipmentFields.Sorting
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.Sorting
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.Sorting: Which sorting should be used on the document mailing recipient list, used when generating PDF'
-  example: []
+  summary: "\nSShipment.Sorting: Which sorting should be used on the document mailing recipient list, used when generating PDF\n"
   syntax:
     content: public const string Sorting = "sorting"
     return:
       type: System.String
     content.vb: Public Const Sorting As String = "sorting"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.DeliveredNum
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.DeliveredNum
   id: DeliveredNum
@@ -759,16 +1018,24 @@ items:
   nameWithType: DBC.SShipmentFields.DeliveredNum
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.DeliveredNum
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.DeliveredNum: Number of mails sent minus bounces'
-  example: []
+  summary: "\nSShipment.DeliveredNum: Number of mails sent minus bounces\n"
   syntax:
     content: public const string DeliveredNum = "delivered_num"
     return:
       type: System.String
     content.vb: Public Const DeliveredNum As String = "delivered_num"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.OpenNum
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.OpenNum
   id: OpenNum
@@ -780,16 +1047,24 @@ items:
   nameWithType: DBC.SShipmentFields.OpenNum
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.OpenNum
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.OpenNum: Number of opened emails count'
-  example: []
+  summary: "\nSShipment.OpenNum: Number of opened emails count\n"
   syntax:
     content: public const string OpenNum = "open_num"
     return:
       type: System.String
     content.vb: Public Const OpenNum As String = "open_num"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.OpenRate
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.OpenRate
   id: OpenRate
@@ -801,16 +1076,24 @@ items:
   nameWithType: DBC.SShipmentFields.OpenRate
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.OpenRate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.OpenRate: Open rate % (open_num / delivered_num)'
-  example: []
+  summary: "\nSShipment.OpenRate: Open rate % (open_num / delivered_num)\n"
   syntax:
     content: public const string OpenRate = "open_rate"
     return:
       type: System.String
     content.vb: Public Const OpenRate As String = "open_rate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.ClickNum
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.ClickNum
   id: ClickNum
@@ -822,16 +1105,24 @@ items:
   nameWithType: DBC.SShipmentFields.ClickNum
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.ClickNum
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.ClickNum: Number of links clicked'
-  example: []
+  summary: "\nSShipment.ClickNum: Number of links clicked\n"
   syntax:
     content: public const string ClickNum = "click_num"
     return:
       type: System.String
     content.vb: Public Const ClickNum As String = "click_num"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.ClickRate
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.ClickRate
   id: ClickRate
@@ -843,16 +1134,24 @@ items:
   nameWithType: DBC.SShipmentFields.ClickRate
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.ClickRate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.ClickRate: Click rate % (click_num / delivered_num)'
-  example: []
+  summary: "\nSShipment.ClickRate: Click rate % (click_num / delivered_num)\n"
   syntax:
     content: public const string ClickRate = "click_rate"
     return:
       type: System.String
     content.vb: Public Const ClickRate As String = "click_rate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.HardbounceNum
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.HardbounceNum
   id: HardbounceNum
@@ -864,16 +1163,24 @@ items:
   nameWithType: DBC.SShipmentFields.HardbounceNum
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.HardbounceNum
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.HardbounceNum: Number of hard bounces'
-  example: []
+  summary: "\nSShipment.HardbounceNum: Number of hard bounces\n"
   syntax:
     content: public const string HardbounceNum = "hardbounce_num"
     return:
       type: System.String
     content.vb: Public Const HardbounceNum As String = "hardbounce_num"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.HardbounceRate
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.HardbounceRate
   id: HardbounceRate
@@ -885,16 +1192,24 @@ items:
   nameWithType: DBC.SShipmentFields.HardbounceRate
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.HardbounceRate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.HardbounceRate: Hard bounce rate % (hardbounce_num / number_transmitted)'
-  example: []
+  summary: "\nSShipment.HardbounceRate: Hard bounce rate % (hardbounce_num / number_transmitted)\n"
   syntax:
     content: public const string HardbounceRate = "hardbounce_rate"
     return:
       type: System.String
     content.vb: Public Const HardbounceRate As String = "hardbounce_rate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.SoftbounceNum
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.SoftbounceNum
   id: SoftbounceNum
@@ -906,16 +1221,24 @@ items:
   nameWithType: DBC.SShipmentFields.SoftbounceNum
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.SoftbounceNum
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.SoftbounceNum: Number of soft bounces'
-  example: []
+  summary: "\nSShipment.SoftbounceNum: Number of soft bounces\n"
   syntax:
     content: public const string SoftbounceNum = "softbounce_num"
     return:
       type: System.String
     content.vb: Public Const SoftbounceNum As String = "softbounce_num"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.SoftbounceRate
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.SoftbounceRate
   id: SoftbounceRate
@@ -927,16 +1250,24 @@ items:
   nameWithType: DBC.SShipmentFields.SoftbounceRate
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.SoftbounceRate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.SoftbounceRate: Soft bounce rate % (softbounce_num / number_transmitted)'
-  example: []
+  summary: "\nSShipment.SoftbounceRate: Soft bounce rate % (softbounce_num / number_transmitted)\n"
   syntax:
     content: public const string SoftbounceRate = "softbounce_rate"
     return:
       type: System.String
     content.vb: Public Const SoftbounceRate As String = "softbounce_rate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.TotalbounceNum
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.TotalbounceNum
   id: TotalbounceNum
@@ -948,16 +1279,24 @@ items:
   nameWithType: DBC.SShipmentFields.TotalbounceNum
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.TotalbounceNum
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.TotalbounceNum: Total number of bounces'
-  example: []
+  summary: "\nSShipment.TotalbounceNum: Total number of bounces\n"
   syntax:
     content: public const string TotalbounceNum = "totalbounce_num"
     return:
       type: System.String
     content.vb: Public Const TotalbounceNum As String = "totalbounce_num"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.TotalbounceRate
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.TotalbounceRate
   id: TotalbounceRate
@@ -969,16 +1308,24 @@ items:
   nameWithType: DBC.SShipmentFields.TotalbounceRate
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.TotalbounceRate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.TotalbounceRate: Total bounce rate % (totalbounce_num / number_transmitted)'
-  example: []
+  summary: "\nSShipment.TotalbounceRate: Total bounce rate % (totalbounce_num / number_transmitted)\n"
   syntax:
     content: public const string TotalbounceRate = "totalbounce_rate"
     return:
       type: System.String
     content.vb: Public Const TotalbounceRate As String = "totalbounce_rate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.AreStatisticsDirty
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.AreStatisticsDirty
   id: AreStatisticsDirty
@@ -990,16 +1337,24 @@ items:
   nameWithType: DBC.SShipmentFields.AreStatisticsDirty
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.AreStatisticsDirty
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.AreStatisticsDirty: Indicates if shipment needs statistics calculation, set by code that changes the shipment or receives clicks/opens'
-  example: []
+  summary: "\nSShipment.AreStatisticsDirty: Indicates if shipment needs statistics calculation, set by code that changes the shipment or receives clicks/opens\n"
   syntax:
     content: public const string AreStatisticsDirty = "are_statistics_dirty"
     return:
       type: System.String
     content.vb: Public Const AreStatisticsDirty As String = "are_statistics_dirty"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.SentNum
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.SentNum
   id: SentNum
@@ -1011,16 +1366,24 @@ items:
   nameWithType: DBC.SShipmentFields.SentNum
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.SentNum
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.SentNum: Number of mails sent'
-  example: []
+  summary: "\nSShipment.SentNum: Number of mails sent\n"
   syntax:
     content: public const string SentNum = "sent_num"
     return:
       type: System.String
     content.vb: Public Const SentNum As String = "sent_num"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.SShipmentFields.ShipmenttypeId
   commentId: F:SuperOffice.CRM.Data.DBC.SShipmentFields.ShipmenttypeId
   id: ShipmenttypeId
@@ -1032,288 +1395,41 @@ items:
   nameWithType: DBC.SShipmentFields.ShipmenttypeId
   fullName: SuperOffice.CRM.Data.DBC.SShipmentFields.ShipmenttypeId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'SShipment.ShipmenttypeId: Id of subscriptionType that this shipment has, so we may check for reservations'
-  example: []
+  summary: "\nSShipment.ShipmenttypeId: Id of subscriptionType that this shipment has, so we may check for reservations\n"
   syntax:
     content: public const string ShipmenttypeId = "shipmenttype_id"
     return:
       type: System.String
     content.vb: Public Const ShipmenttypeId As String = "shipmenttype_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -1321,10 +1437,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -40,7 +40,6 @@ items:
   - SuperOffice.CRM.Entities.Providers.ContactInfoProvider.OurContact
   - SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Phone
   - SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PhoneId
-  - SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostCode
   - SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCity
   - SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCityFull
   - SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCounty
@@ -52,6 +51,7 @@ items:
   - SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressState
   - SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressZip
   - SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressZipCity
+  - SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostCode
   - SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressCity
   - SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressCityFull
   - SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine1
@@ -72,34 +72,20 @@ items:
   nameWithType: ContactInfoProvider
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Implementation of <xref href="SuperOffice.CRM.IContactInfo" data-throw-if-not-resolved="false"></xref>; create through factory (see remarks)
-  remarks: >-
-    To create an instance of ContactInfoProvider, use 
-
-    <pre><code class="lang-csharp">var info = ClassFactory.Create&lt;IContactInfo&gt;(cont);</code></pre>
-
-    where cont is a <xref href="SuperOffice.CRM.Entities.Contact" data-throw-if-not-resolved="false"></xref>, to use an
-
-    already-loaded entity object (that may also contain unsaved data);
-
-    or where cont is an int that is a contactId, which will cause database fetches. 
-
-    The factory methods at the bottom of this class will handle both cases.
-
-    <p></p>
-
-    If you are in the Cpp world, or otherwise have unsaved data that you would
-
-    want to use without incurring the overhead of an entity object, instantiate
-
-    a <xref href="SuperOffice.CRM.Entities.Providers.SimpleContactInfo" data-throw-if-not-resolved="false"></xref> instead, fully populate it, and pass that to the factory.
-  example: []
+  summary: "\nImplementation of <xref href=\"SuperOffice.CRM.IContactInfo\" data-throw-if-not-resolved=\"false\"></xref>; create through factory (see remarks)\n"
+  remarks: "\nTo create an instance of ContactInfoProvider, use \n<pre><code>var info = ClassFactory.Create&lt;IContactInfo>(cont);</code></pre>\nwhere cont is a <xref href=\"SuperOffice.CRM.Entities.Contact\" data-throw-if-not-resolved=\"false\"></xref>, to use an\nalready-loaded entity object (that may also contain unsaved data);\nor where cont is an int that is a contactId, which will cause database fetches. \nThe factory methods at the bottom of this class will handle both cases.\n<p></p>\nIf you are in the Cpp world, or otherwise have unsaved data that you would\nwant to use without incurring the overhead of an entity object, instantiate\na <xref href=\"SuperOffice.CRM.Entities.Providers.SimpleContactInfo\" data-throw-if-not-resolved=\"false\"></xref> instead, fully populate it, and pass that to the factory.\n"
   syntax:
     content: 'public class ContactInfoProvider : ContactPersonInfoProviderBase, IContactInfo3, IContactInfo2, IContactInfo'
-    content.vb: Public Class ContactInfoProvider Inherits ContactPersonInfoProviderBase Implements IContactInfo3, IContactInfo2, IContactInfo
+    content.vb: >-
+      Public Class ContactInfoProvider
+          Inherits ContactPersonInfoProviderBase
+          Implements IContactInfo3, IContactInfo2, IContactInfo
   inheritance:
   - System.Object
   - SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase
@@ -111,16 +97,15 @@ items:
   - SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.Initialize
   - SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.GetFormattedNumber(SuperOffice.CRM.Rows.CountryRow,System.String)
   - SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.HomeCountryId
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Entities.Providers.ContactInfoProvider.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Entities.Providers.ContactInfoProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetInternationalAddress(System.Int32)
   commentId: M:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetInternationalAddress(System.Int32)
   id: GetInternationalAddress(System.Int32)
@@ -128,44 +113,31 @@ items:
   langs:
   - csharp
   - vb
-  name: GetInternationalAddress(int)
-  nameWithType: ContactInfoProvider.GetInternationalAddress(int)
-  fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetInternationalAddress(int)
+  name: GetInternationalAddress(Int32)
+  nameWithType: ContactInfoProvider.GetInternationalAddress(Int32)
+  fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetInternationalAddress(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Get a line from the international address
-  example: []
   syntax:
-    content: >-
-      [Obsolete("FAD international addresses are handled through a separate system, see FadTags.cs", true)]
-
-      public string GetInternationalAddress(int fieldNo)
+    content: public string GetInternationalAddress(int fieldNo)
     parameters:
     - id: fieldNo
       type: System.Int32
     return:
       type: System.String
-      description: ''
-    content.vb: >-
-      <Obsolete("FAD international addresses are handled through a separate system, see FadTags.cs", True)>
-
-      Public Function GetInternationalAddress(fieldNo As Integer) As String
+    content.vb: Public Function GetInternationalAddress(fieldNo As Integer) As String
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetInternationalAddress*
   implements:
   - SuperOffice.CRM.IContactInfo.GetInternationalAddress(System.Int32)
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: FAD international addresses are handled through a separate system, see FadTags.cs
-    - type: System.Boolean
-      value: true
-  nameWithType.vb: ContactInfoProvider.GetInternationalAddress(Integer)
-  fullName.vb: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetInternationalAddress(Integer)
-  name.vb: GetInternationalAddress(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedDecimal(System.Int32)
   commentId: M:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedDecimal(System.Int32)
   id: GetUserDefinedDecimal(System.Int32)
@@ -173,15 +145,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedDecimal(int)
-  nameWithType: ContactInfoProvider.GetUserDefinedDecimal(int)
-  fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedDecimal(int)
+  name: GetUserDefinedDecimal(Int32)
+  nameWithType: ContactInfoProvider.GetUserDefinedDecimal(Int32)
+  fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedDecimal(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Return a user defined value of type decimal
-  example: []
+  summary: "\nReturn a user defined value of type decimal\n"
   syntax:
     content: public string GetUserDefinedDecimal(int fieldNo)
     parameters:
@@ -195,9 +169,10 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedDecimal*
   implements:
   - SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.Int32)
-  nameWithType.vb: ContactInfoProvider.GetUserDefinedDecimal(Integer)
-  fullName.vb: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedDecimal(Integer)
-  name.vb: GetUserDefinedDecimal(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedInt(System.Int32)
   commentId: M:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedInt(System.Int32)
   id: GetUserDefinedInt(System.Int32)
@@ -205,15 +180,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedInt(int)
-  nameWithType: ContactInfoProvider.GetUserDefinedInt(int)
-  fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedInt(int)
+  name: GetUserDefinedInt(Int32)
+  nameWithType: ContactInfoProvider.GetUserDefinedInt(Int32)
+  fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedInt(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Return a user defined value of type int
-  example: []
+  summary: "\nReturn a user defined value of type int\n"
   syntax:
     content: public string GetUserDefinedInt(int fieldNo)
     parameters:
@@ -227,9 +204,10 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedInt*
   implements:
   - SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.Int32)
-  nameWithType.vb: ContactInfoProvider.GetUserDefinedInt(Integer)
-  fullName.vb: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedInt(Integer)
-  name.vb: GetUserDefinedInt(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedString(System.Int32)
   commentId: M:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedString(System.Int32)
   id: GetUserDefinedString(System.Int32)
@@ -237,15 +215,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedString(int)
-  nameWithType: ContactInfoProvider.GetUserDefinedString(int)
-  fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedString(int)
+  name: GetUserDefinedString(Int32)
+  nameWithType: ContactInfoProvider.GetUserDefinedString(Int32)
+  fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedString(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Return a user defined value of type string
-  example: []
+  summary: "\nReturn a user defined value of type string\n"
   syntax:
     content: public string GetUserDefinedString(int fieldNo)
     parameters:
@@ -259,9 +239,10 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedString*
   implements:
   - SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.Int32)
-  nameWithType.vb: ContactInfoProvider.GetUserDefinedString(Integer)
-  fullName.vb: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedString(Integer)
-  name.vb: GetUserDefinedString(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedDecimal(System.String)
   commentId: M:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedDecimal(System.String)
   id: GetUserDefinedDecimal(System.String)
@@ -269,15 +250,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedDecimal(string)
-  nameWithType: ContactInfoProvider.GetUserDefinedDecimal(string)
-  fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedDecimal(string)
+  name: GetUserDefinedDecimal(String)
+  nameWithType: ContactInfoProvider.GetUserDefinedDecimal(String)
+  fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedDecimal(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Get the decimal udef value based on the prog.id name of the udef field.
-  example: []
+  summary: "\nGet the decimal udef value based on the prog.id name of the udef field.\n"
   syntax:
     content: public double GetUserDefinedDecimal(string progId)
     parameters:
@@ -291,9 +274,10 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedDecimal*
   implements:
   - SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.String)
-  nameWithType.vb: ContactInfoProvider.GetUserDefinedDecimal(String)
-  fullName.vb: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedDecimal(String)
-  name.vb: GetUserDefinedDecimal(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedInt(System.String)
   commentId: M:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedInt(System.String)
   id: GetUserDefinedInt(System.String)
@@ -301,15 +285,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedInt(string)
-  nameWithType: ContactInfoProvider.GetUserDefinedInt(string)
-  fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedInt(string)
+  name: GetUserDefinedInt(String)
+  nameWithType: ContactInfoProvider.GetUserDefinedInt(String)
+  fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedInt(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Get the int udef value based on the prog.id name of the udef field.
-  example: []
+  summary: "\nGet the int udef value based on the prog.id name of the udef field.\n"
   syntax:
     content: public int GetUserDefinedInt(string progId)
     parameters:
@@ -323,9 +309,10 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedInt*
   implements:
   - SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.String)
-  nameWithType.vb: ContactInfoProvider.GetUserDefinedInt(String)
-  fullName.vb: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedInt(String)
-  name.vb: GetUserDefinedInt(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedString(System.String)
   commentId: M:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedString(System.String)
   id: GetUserDefinedString(System.String)
@@ -333,15 +320,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetUserDefinedString(string)
-  nameWithType: ContactInfoProvider.GetUserDefinedString(string)
-  fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedString(string)
+  name: GetUserDefinedString(String)
+  nameWithType: ContactInfoProvider.GetUserDefinedString(String)
+  fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedString(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Get the string udef value based on the prog.id name of the udef field.
-  example: []
+  summary: "\nGet the string udef value based on the prog.id name of the udef field.\n"
   syntax:
     content: public string GetUserDefinedString(string progId)
     parameters:
@@ -355,9 +344,10 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedString*
   implements:
   - SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.String)
-  nameWithType.vb: ContactInfoProvider.GetUserDefinedString(String)
-  fullName.vb: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedString(String)
-  name.vb: GetUserDefinedString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Contact
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Contact
   id: Contact
@@ -369,6 +359,9 @@ items:
   nameWithType: ContactInfoProvider.Contact
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Contact
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
@@ -379,6 +372,12 @@ items:
       type: SuperOffice.CRM.Entities.Contact
     content.vb: Public ReadOnly Property Contact As Contact
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Contact*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.ContactId
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.ContactId
   id: ContactId
@@ -390,11 +389,12 @@ items:
   nameWithType: ContactInfoProvider.ContactId
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.ContactId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Primary key of the contact
-  example: []
   syntax:
     content: public int ContactId { get; }
     parameters: []
@@ -404,6 +404,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.ContactId*
   implements:
   - SuperOffice.CRM.IContactInfo.ContactId
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Name
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Name
   id: Name
@@ -415,11 +421,12 @@ items:
   nameWithType: ContactInfoProvider.Name
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Name
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Company name
-  example: []
   syntax:
     content: public string Name { get; }
     parameters: []
@@ -429,6 +436,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Name*
   implements:
   - SuperOffice.CRM.IContactInfo.Name
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Department
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Department
   id: Department
@@ -440,11 +453,12 @@ items:
   nameWithType: ContactInfoProvider.Department
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Department
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Department
-  example: []
   syntax:
     content: public string Department { get; }
     parameters: []
@@ -454,6 +468,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Department*
   implements:
   - SuperOffice.CRM.IContactInfo.Department
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.OrganisationNumber
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.OrganisationNumber
   id: OrganisationNumber
@@ -465,11 +485,12 @@ items:
   nameWithType: ContactInfoProvider.OrganisationNumber
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.OrganisationNumber
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Organisation number
-  example: []
   syntax:
     content: public string OrganisationNumber { get; }
     parameters: []
@@ -479,6 +500,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.OrganisationNumber*
   implements:
   - SuperOffice.CRM.IContactInfo.OrganisationNumber
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PhoneId
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PhoneId
   id: PhoneId
@@ -490,11 +517,12 @@ items:
   nameWithType: ContactInfoProvider.PhoneId
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PhoneId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Phone Id
-  example: []
   syntax:
     content: public int PhoneId { get; }
     parameters: []
@@ -504,6 +532,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PhoneId*
   implements:
   - SuperOffice.CRM.IContactInfo.PhoneId
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Phone
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Phone
   id: Phone
@@ -515,11 +549,12 @@ items:
   nameWithType: ContactInfoProvider.Phone
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Phone
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Phone
-  example: []
   syntax:
     content: public string Phone { get; }
     parameters: []
@@ -529,6 +564,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Phone*
   implements:
   - SuperOffice.CRM.IContactInfo.Phone
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.FaxId
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.FaxId
   id: FaxId
@@ -540,11 +581,12 @@ items:
   nameWithType: ContactInfoProvider.FaxId
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.FaxId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Fax id
-  example: []
   syntax:
     content: public int FaxId { get; }
     parameters: []
@@ -554,6 +596,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.FaxId*
   implements:
   - SuperOffice.CRM.IContactInfo.FaxId
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Fax
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Fax
   id: Fax
@@ -565,11 +613,12 @@ items:
   nameWithType: ContactInfoProvider.Fax
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Fax
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Fax
-  example: []
   syntax:
     content: public string Fax { get; }
     parameters: []
@@ -579,6 +628,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Fax*
   implements:
   - SuperOffice.CRM.IContactInfo.Fax
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.FaxStripped
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.FaxStripped
   id: FaxStripped
@@ -590,11 +645,12 @@ items:
   nameWithType: ContactInfoProvider.FaxStripped
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.FaxStripped
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Fax. Any non digit characters are stripped.
-  example: []
   syntax:
     content: public string FaxStripped { get; }
     parameters: []
@@ -604,6 +660,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.FaxStripped*
   implements:
   - SuperOffice.CRM.IContactInfo.FaxStripped
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.EMailId
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.EMailId
   id: EMailId
@@ -615,11 +677,12 @@ items:
   nameWithType: ContactInfoProvider.EMailId
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.EMailId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Primary e-mail address id.
-  example: []
   syntax:
     content: public int EMailId { get; }
     parameters: []
@@ -629,6 +692,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.EMailId*
   implements:
   - SuperOffice.CRM.IContactInfo.EMailId
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.EMail
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.EMail
   id: EMail
@@ -640,11 +709,12 @@ items:
   nameWithType: ContactInfoProvider.EMail
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.EMail
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Primary e-mail address.
-  example: []
   syntax:
     content: public string EMail { get; }
     parameters: []
@@ -654,6 +724,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.EMail*
   implements:
   - SuperOffice.CRM.IContactInfo.EMail
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.WebId
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.WebId
   id: WebId
@@ -665,11 +741,12 @@ items:
   nameWithType: ContactInfoProvider.WebId
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.WebId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Primary web address id
-  example: []
   syntax:
     content: public int WebId { get; }
     parameters: []
@@ -679,6 +756,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.WebId*
   implements:
   - SuperOffice.CRM.IContactInfo.WebId
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Web
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Web
   id: Web
@@ -690,11 +773,12 @@ items:
   nameWithType: ContactInfoProvider.Web
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Web
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Primary web address.
-  example: []
   syntax:
     content: public string Web { get; }
     parameters: []
@@ -704,6 +788,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Web*
   implements:
   - SuperOffice.CRM.IContactInfo.Web
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Number
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Number
   id: Number
@@ -715,11 +805,12 @@ items:
   nameWithType: ContactInfoProvider.Number
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Number
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Number
-  example: []
   syntax:
     content: public string Number { get; }
     parameters: []
@@ -729,6 +820,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Number*
   implements:
   - SuperOffice.CRM.IContactInfo.Number
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.AddressLine1
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.AddressLine1
   id: AddressLine1
@@ -740,11 +837,12 @@ items:
   nameWithType: ContactInfoProvider.AddressLine1
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.AddressLine1
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Postal address line 1. If this is empty, street address line 1
-  example: []
   syntax:
     content: public string AddressLine1 { get; }
     parameters: []
@@ -754,6 +852,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.AddressLine1*
   implements:
   - SuperOffice.CRM.IContactInfo.AddressLine1
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine1
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine1
   id: PostalAddressLine1
@@ -765,11 +869,12 @@ items:
   nameWithType: ContactInfoProvider.PostalAddressLine1
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine1
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Postal Address, line 1
-  example: []
   syntax:
     content: public string PostalAddressLine1 { get; }
     parameters: []
@@ -779,6 +884,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine1*
   implements:
   - SuperOffice.CRM.IContactInfo.PostalAddressLine1
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine2
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine2
   id: PostalAddressLine2
@@ -790,11 +901,12 @@ items:
   nameWithType: ContactInfoProvider.PostalAddressLine2
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine2
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Postal Address, line 2
-  example: []
   syntax:
     content: public string PostalAddressLine2 { get; }
     parameters: []
@@ -804,6 +916,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine2*
   implements:
   - SuperOffice.CRM.IContactInfo.PostalAddressLine2
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine3
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine3
   id: PostalAddressLine3
@@ -815,11 +933,12 @@ items:
   nameWithType: ContactInfoProvider.PostalAddressLine3
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine3
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Postal Address, line 3
-  example: []
   syntax:
     content: public string PostalAddressLine3 { get; }
     parameters: []
@@ -829,6 +948,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine3*
   implements:
   - SuperOffice.CRM.IContactInfo.PostalAddressLine3
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCity
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCity
   id: PostalAddressCity
@@ -840,11 +965,12 @@ items:
   nameWithType: ContactInfoProvider.PostalAddressCity
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCity
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Postal town
-  example: []
   syntax:
     content: public string PostalAddressCity { get; }
     parameters: []
@@ -854,6 +980,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCity*
   implements:
   - SuperOffice.CRM.IContactInfo.PostalAddressCity
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCityFull
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCityFull
   id: PostalAddressCityFull
@@ -865,11 +997,12 @@ items:
   nameWithType: ContactInfoProvider.PostalAddressCityFull
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCityFull
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Postal town, state/province and zipcode (for American, Canadian and Australian addresses, e.g. Bedford, MA 01730)
-  example: []
   syntax:
     content: public string PostalAddressCityFull { get; }
     parameters: []
@@ -879,6 +1012,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCityFull*
   implements:
   - SuperOffice.CRM.IContactInfo.PostalAddressCityFull
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressZip
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressZip
   id: PostalAddressZip
@@ -890,11 +1029,12 @@ items:
   nameWithType: ContactInfoProvider.PostalAddressZip
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressZip
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Postcode. (See also aucs.)
-  example: []
   syntax:
     content: public string PostalAddressZip { get; }
     parameters: []
@@ -904,6 +1044,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressZip*
   implements:
   - SuperOffice.CRM.IContactInfo.PostalAddressZip
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressZipCity
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressZipCity
   id: PostalAddressZipCity
@@ -915,11 +1061,12 @@ items:
   nameWithType: ContactInfoProvider.PostalAddressZipCity
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressZipCity
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Postcode and postal town (e.g. 0572 OSLO)
-  example: []
   syntax:
     content: public string PostalAddressZipCity { get; }
     parameters: []
@@ -929,6 +1076,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressZipCity*
   implements:
   - SuperOffice.CRM.IContactInfo.PostalAddressZipCity
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressState
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressState
   id: PostalAddressState
@@ -940,11 +1093,12 @@ items:
   nameWithType: ContactInfoProvider.PostalAddressState
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressState
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: State/province (for American, Canadian and Australian addresses). (See also aucs.)
-  example: []
   syntax:
     content: public string PostalAddressState { get; }
     parameters: []
@@ -954,6 +1108,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressState*
   implements:
   - SuperOffice.CRM.IContactInfo.PostalAddressState
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCounty
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCounty
   id: PostalAddressCounty
@@ -965,11 +1125,12 @@ items:
   nameWithType: ContactInfoProvider.PostalAddressCounty
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCounty
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: County (for UK addresses)
-  example: []
   syntax:
     content: public string PostalAddressCounty { get; }
     parameters: []
@@ -979,6 +1140,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCounty*
   implements:
   - SuperOffice.CRM.IContactInfo.PostalAddressCounty
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressPrefix
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressPrefix
   id: PostalAddressPrefix
@@ -990,11 +1157,12 @@ items:
   nameWithType: ContactInfoProvider.PostalAddressPrefix
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressPrefix
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Postcode prefix
-  example: []
   syntax:
     content: public string PostalAddressPrefix { get; }
     parameters: []
@@ -1004,6 +1172,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressPrefix*
   implements:
   - SuperOffice.CRM.IContactInfo.PostalAddressPrefix
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.ZipCity
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.ZipCity
   id: ZipCity
@@ -1015,6 +1189,9 @@ items:
   nameWithType: ContactInfoProvider.ZipCity
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.ZipCity
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
@@ -1025,6 +1202,12 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property ZipCity As String
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.ZipCity*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountyZipUK
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountyZipUK
   id: CountyZipUK
@@ -1036,11 +1219,12 @@ items:
   nameWithType: ContactInfoProvider.CountyZipUK
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountyZipUK
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: County and postcode (for UK addresses)
-  example: []
   syntax:
     content: public string CountyZipUK { get; }
     parameters: []
@@ -1050,6 +1234,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountyZipUK*
   implements:
   - SuperOffice.CRM.IContactInfo.CountyZipUK
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine1
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine1
   id: StreetAddressLine1
@@ -1061,11 +1251,12 @@ items:
   nameWithType: ContactInfoProvider.StreetAddressLine1
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine1
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Street Address, line 1
-  example: []
   syntax:
     content: public string StreetAddressLine1 { get; }
     parameters: []
@@ -1075,6 +1266,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine1*
   implements:
   - SuperOffice.CRM.IContactInfo.StreetAddressLine1
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine2
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine2
   id: StreetAddressLine2
@@ -1086,11 +1283,12 @@ items:
   nameWithType: ContactInfoProvider.StreetAddressLine2
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine2
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Street Address, line 2
-  example: []
   syntax:
     content: public string StreetAddressLine2 { get; }
     parameters: []
@@ -1100,6 +1298,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine2*
   implements:
   - SuperOffice.CRM.IContactInfo.StreetAddressLine2
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine3
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine3
   id: StreetAddressLine3
@@ -1111,11 +1315,12 @@ items:
   nameWithType: ContactInfoProvider.StreetAddressLine3
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine3
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Street Address, line 3
-  example: []
   syntax:
     content: public string StreetAddressLine3 { get; }
     parameters: []
@@ -1125,6 +1330,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine3*
   implements:
   - SuperOffice.CRM.IContactInfo.StreetAddressLine3
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressCity
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressCity
   id: StreetAddressCity
@@ -1136,11 +1347,12 @@ items:
   nameWithType: ContactInfoProvider.StreetAddressCity
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressCity
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Street town
-  example: []
   syntax:
     content: public string StreetAddressCity { get; }
     parameters: []
@@ -1150,6 +1362,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressCity*
   implements:
   - SuperOffice.CRM.IContactInfo.StreetAddressCity
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressCityFull
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressCityFull
   id: StreetAddressCityFull
@@ -1161,11 +1379,12 @@ items:
   nameWithType: ContactInfoProvider.StreetAddressCityFull
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressCityFull
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Streetaddress town, state/province and zipcode (for American, Canadian and Australian addresses, e.g. Bedford, MA 01730)
-  example: []
   syntax:
     content: public string StreetAddressCityFull { get; }
     parameters: []
@@ -1175,6 +1394,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressCityFull*
   implements:
   - SuperOffice.CRM.IContactInfo.StreetAddressCityFull
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressZip
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressZip
   id: StreetAddressZip
@@ -1186,11 +1411,12 @@ items:
   nameWithType: ContactInfoProvider.StreetAddressZip
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressZip
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Postcode. (See also aucs.)
-  example: []
   syntax:
     content: public string StreetAddressZip { get; }
     parameters: []
@@ -1200,6 +1426,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressZip*
   implements:
   - SuperOffice.CRM.IContactInfo.StreetAddressZip
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine1And3
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine1And3
   id: PostalAddressLine1And3
@@ -1211,11 +1443,12 @@ items:
   nameWithType: ContactInfoProvider.PostalAddressLine1And3
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine1And3
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: First address line, including Mail Stop (for American addresses).
-  example: []
   syntax:
     content: public string PostalAddressLine1And3 { get; }
     parameters: []
@@ -1225,6 +1458,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine1And3*
   implements:
   - SuperOffice.CRM.IContactInfo.PostalAddressLine1And3
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressZipGerman
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressZipGerman
   id: StreetAddressZipGerman
@@ -1236,11 +1475,12 @@ items:
   nameWithType: ContactInfoProvider.StreetAddressZipGerman
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressZipGerman
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Postcode for street address (for German addresses)
-  example: []
   syntax:
     content: public string StreetAddressZipGerman { get; }
     parameters: []
@@ -1250,6 +1490,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressZipGerman*
   implements:
   - SuperOffice.CRM.IContactInfo.StreetAddressZipGerman
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.LineFeedGermany
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.LineFeedGermany
   id: LineFeedGermany
@@ -1261,11 +1507,12 @@ items:
   nameWithType: ContactInfoProvider.LineFeedGermany
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.LineFeedGermany
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Line feed for internal post in Germany
-  example: []
   syntax:
     content: public string LineFeedGermany { get; }
     parameters: []
@@ -1275,6 +1522,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.LineFeedGermany*
   implements:
   - SuperOffice.CRM.IContactInfo.LineFeedGermany
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.LineFeedAustraliaUK
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.LineFeedAustraliaUK
   id: LineFeedAustraliaUK
@@ -1286,11 +1539,12 @@ items:
   nameWithType: ContactInfoProvider.LineFeedAustraliaUK
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.LineFeedAustraliaUK
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Line feed for Australian and UK treatment of counties and postcodes
-  example: []
   syntax:
     content: public string LineFeedAustraliaUK { get; }
     parameters: []
@@ -1300,6 +1554,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.LineFeedAustraliaUK*
   implements:
   - SuperOffice.CRM.IContactInfo.LineFeedAustraliaUK
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressState
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressState
   id: StreetAddressState
@@ -1311,11 +1571,12 @@ items:
   nameWithType: ContactInfoProvider.StreetAddressState
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressState
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: State/province (for American, Canadian and Australian addresses). (See also aucs.)
-  example: []
   syntax:
     content: public string StreetAddressState { get; }
     parameters: []
@@ -1325,6 +1586,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressState*
   implements:
   - SuperOffice.CRM.IContactInfo.StreetAddressState
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.County
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.County
   id: County
@@ -1336,11 +1603,12 @@ items:
   nameWithType: ContactInfoProvider.County
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.County
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: County
-  example: []
   syntax:
     content: public string County { get; }
     parameters: []
@@ -1350,6 +1618,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.County*
   implements:
   - SuperOffice.CRM.IContactInfo.County
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Code
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Code
   id: Code
@@ -1361,11 +1635,12 @@ items:
   nameWithType: ContactInfoProvider.Code
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Code
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Code
-  example: []
   syntax:
     content: public string Code { get; }
     parameters: []
@@ -1375,6 +1650,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Code*
   implements:
   - SuperOffice.CRM.IContactInfo.Code
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryCode
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryCode
   id: CountryCode
@@ -1386,11 +1667,12 @@ items:
   nameWithType: ContactInfoProvider.CountryCode
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryCode
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Country code
-  example: []
   syntax:
     content: public string CountryCode { get; }
     parameters: []
@@ -1400,6 +1682,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryCode*
   implements:
   - SuperOffice.CRM.IContactInfo.CountryCode
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Country
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Country
   id: Country
@@ -1411,11 +1699,12 @@ items:
   nameWithType: ContactInfoProvider.Country
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Country
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Country
-  example: []
   syntax:
     content: public string Country { get; }
     parameters: []
@@ -1425,6 +1714,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Country*
   implements:
   - SuperOffice.CRM.IContactInfo.Country
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Country2
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Country2
   id: Country2
@@ -1436,11 +1731,12 @@ items:
   nameWithType: ContactInfoProvider.Country2
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Country2
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Country if different from the sender's country
-  example: []
   syntax:
     content: public string Country2 { get; }
     parameters: []
@@ -1450,6 +1746,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Country2*
   implements:
   - SuperOffice.CRM.IContactInfo.Country2
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryId
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryId
   id: CountryId
@@ -1461,11 +1763,12 @@ items:
   nameWithType: ContactInfoProvider.CountryId
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Country ID from database
-  example: []
   syntax:
     content: public int CountryId { get; }
     parameters: []
@@ -1475,6 +1778,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryId*
   implements:
   - SuperOffice.CRM.IContactInfo.CountryId
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryEnglish
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryEnglish
   id: CountryEnglish
@@ -1486,11 +1795,12 @@ items:
   nameWithType: ContactInfoProvider.CountryEnglish
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryEnglish
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: English name of country
-  example: []
   syntax:
     content: public string CountryEnglish { get; }
     parameters: []
@@ -1500,6 +1810,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryEnglish*
   implements:
   - SuperOffice.CRM.IContactInfo.CountryEnglish
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostCode
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostCode
   id: PostCode
@@ -1511,11 +1827,13 @@ items:
   nameWithType: ContactInfoProvider.PostCode
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostCode
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Postcode.  For German addresses, don't add zip prefix
-  example: []
+  summary: "\nPostcode.  For German addresses, don&apos;t add zip prefix\n"
   syntax:
     content: public string PostCode { get; }
     parameters: []
@@ -1525,6 +1843,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostCode*
   implements:
   - SuperOffice.CRM.IContactInfo.PostCode
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.OurContact
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.OurContact
   id: OurContact
@@ -1536,11 +1860,12 @@ items:
   nameWithType: ContactInfoProvider.OurContact
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.OurContact
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Our contact
-  example: []
   syntax:
     content: public string OurContact { get; }
     parameters: []
@@ -1550,6 +1875,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.OurContact*
   implements:
   - SuperOffice.CRM.IContactInfo.OurContact
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Category
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Category
   id: Category
@@ -1561,11 +1892,12 @@ items:
   nameWithType: ContactInfoProvider.Category
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Category
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Category
-  example: []
   syntax:
     content: public string Category { get; }
     parameters: []
@@ -1575,6 +1907,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Category*
   implements:
   - SuperOffice.CRM.IContactInfo.Category
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Business
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Business
   id: Business
@@ -1586,11 +1924,12 @@ items:
   nameWithType: ContactInfoProvider.Business
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Business
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Business
-  example: []
   syntax:
     content: public string Business { get; }
     parameters: []
@@ -1600,6 +1939,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Business*
   implements:
   - SuperOffice.CRM.IContactInfo.Business
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.SupportPersonId
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.SupportPersonId
   id: SupportPersonId
@@ -1611,11 +1956,12 @@ items:
   nameWithType: ContactInfoProvider.SupportPersonId
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.SupportPersonId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Contact's support person ID
-  example: []
   syntax:
     content: public int SupportPersonId { get; }
     parameters: []
@@ -1625,6 +1971,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.SupportPersonId*
   implements:
   - SuperOffice.CRM.IContactInfo2.SupportPersonId
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.SupportPersonName
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.SupportPersonName
   id: SupportPersonName
@@ -1636,11 +1988,12 @@ items:
   nameWithType: ContactInfoProvider.SupportPersonName
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.SupportPersonName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: Contact's support person - Full name
-  example: []
   syntax:
     content: public string SupportPersonName { get; }
     parameters: []
@@ -1650,6 +2003,12 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.SupportPersonName*
   implements:
   - SuperOffice.CRM.IContactInfo2.SupportPersonName
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CustomFields
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CustomFields
   id: CustomFields
@@ -1661,11 +2020,13 @@ items:
   nameWithType: ContactInfoProvider.CustomFields
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CustomFields
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Entities.Providers
-  summary: 'UDef fields and extra field values encoded as strings: "x_foo" = "[I:123]", "SuperOffice:1" = "[F:34.56]"'
-  example: []
+  summary: "\nUDef fields and extra field values encoded as strings: &quot;x_foo&quot; = &quot;[I:123]&quot;, &quot;SuperOffice:1&quot; = &quot;[F:34.56]&quot;\n"
   syntax:
     content: public Dictionary<string, string> CustomFields { get; }
     parameters: []
@@ -1675,94 +2036,30 @@ items:
   overload: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CustomFields*
   implements:
   - SuperOffice.CRM.IContactInfo3.CustomFields
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
-- uid: SuperOffice.CRM.IContactInfo
-  commentId: T:SuperOffice.CRM.IContactInfo
-  parent: SuperOffice.CRM
-  isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html
-  name: IContactInfo
-  nameWithType: IContactInfo
-  fullName: SuperOffice.CRM.IContactInfo
-- uid: SuperOffice.CRM.Entities.Contact
-  commentId: T:SuperOffice.CRM.Entities.Contact
-  parent: SuperOffice.CRM.Entities
-  isExternal: true
-  href: SuperOffice.CRM.Entities.Contact.html
-  name: Contact
-  nameWithType: Contact
-  fullName: SuperOffice.CRM.Entities.Contact
-- uid: SuperOffice.CRM.Entities.Providers.SimpleContactInfo
-  commentId: T:SuperOffice.CRM.Entities.Providers.SimpleContactInfo
-  parent: SuperOffice.CRM.Entities.Providers
-  isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.SimpleContactInfo.html
-  name: SimpleContactInfo
-  nameWithType: SimpleContactInfo
-  fullName: SuperOffice.CRM.Entities.Providers.SimpleContactInfo
 - uid: SuperOffice.CRM.Entities.Providers
   commentId: N:SuperOffice.CRM.Entities.Providers
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Entities.Providers
   nameWithType: SuperOffice.CRM.Entities.Providers
   fullName: SuperOffice.CRM.Entities.Providers
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities.Providers
-    name: Providers
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities.Providers
-    name: Providers
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase
   commentId: T:SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase
   parent: SuperOffice.CRM.Entities.Providers
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.html
   name: ContactPersonInfoProviderBase
   nameWithType: ContactPersonInfoProviderBase
   fullName: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase
@@ -1770,7 +2067,6 @@ references:
   commentId: T:SuperOffice.CRM.IContactInfo3
   parent: SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo3.html
   name: IContactInfo3
   nameWithType: IContactInfo3
   fullName: SuperOffice.CRM.IContactInfo3
@@ -1778,485 +2074,194 @@ references:
   commentId: T:SuperOffice.CRM.IContactInfo2
   parent: SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo2.html
   name: IContactInfo2
   nameWithType: IContactInfo2
   fullName: SuperOffice.CRM.IContactInfo2
+- uid: SuperOffice.CRM.IContactInfo
+  commentId: T:SuperOffice.CRM.IContactInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: IContactInfo
+  nameWithType: IContactInfo
+  fullName: SuperOffice.CRM.IContactInfo
 - uid: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.Initialize
   commentId: M:SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.Initialize
   parent: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.html#SuperOffice_CRM_Entities_Providers_ContactPersonInfoProviderBase_Initialize
   name: Initialize()
   nameWithType: ContactPersonInfoProviderBase.Initialize()
   fullName: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.Initialize()
   spec.csharp:
   - uid: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.Initialize
     name: Initialize
+    nameWithType: ContactPersonInfoProviderBase.Initialize
+    fullName: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.Initialize
     isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.html#SuperOffice_CRM_Entities_Providers_ContactPersonInfoProviderBase_Initialize
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.Initialize
     name: Initialize
+    nameWithType: ContactPersonInfoProviderBase.Initialize
+    fullName: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.Initialize
     isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.html#SuperOffice_CRM_Entities_Providers_ContactPersonInfoProviderBase_Initialize
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.GetFormattedNumber(SuperOffice.CRM.Rows.CountryRow,System.String)
   commentId: M:SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.GetFormattedNumber(SuperOffice.CRM.Rows.CountryRow,System.String)
   parent: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.html#SuperOffice_CRM_Entities_Providers_ContactPersonInfoProviderBase_GetFormattedNumber_SuperOffice_CRM_Rows_CountryRow_System_String_
-  name: GetFormattedNumber(CountryRow, string)
-  nameWithType: ContactPersonInfoProviderBase.GetFormattedNumber(CountryRow, string)
-  fullName: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.GetFormattedNumber(SuperOffice.CRM.Rows.CountryRow, string)
-  nameWithType.vb: ContactPersonInfoProviderBase.GetFormattedNumber(CountryRow, String)
-  fullName.vb: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.GetFormattedNumber(SuperOffice.CRM.Rows.CountryRow, String)
-  name.vb: GetFormattedNumber(CountryRow, String)
+  name: GetFormattedNumber(CountryRow, String)
+  nameWithType: ContactPersonInfoProviderBase.GetFormattedNumber(CountryRow, String)
+  fullName: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.GetFormattedNumber(SuperOffice.CRM.Rows.CountryRow, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.GetFormattedNumber(SuperOffice.CRM.Rows.CountryRow,System.String)
     name: GetFormattedNumber
+    nameWithType: ContactPersonInfoProviderBase.GetFormattedNumber
+    fullName: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.GetFormattedNumber
     isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.html#SuperOffice_CRM_Entities_Providers_ContactPersonInfoProviderBase_GetFormattedNumber_SuperOffice_CRM_Rows_CountryRow_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.CountryRow
     name: CountryRow
+    nameWithType: CountryRow
+    fullName: SuperOffice.CRM.Rows.CountryRow
     isExternal: true
-    href: SuperOffice.CRM.Rows.CountryRow.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.GetFormattedNumber(SuperOffice.CRM.Rows.CountryRow,System.String)
     name: GetFormattedNumber
+    nameWithType: ContactPersonInfoProviderBase.GetFormattedNumber
+    fullName: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.GetFormattedNumber
     isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.html#SuperOffice_CRM_Entities_Providers_ContactPersonInfoProviderBase_GetFormattedNumber_SuperOffice_CRM_Rows_CountryRow_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.CountryRow
     name: CountryRow
+    nameWithType: CountryRow
+    fullName: SuperOffice.CRM.Rows.CountryRow
     isExternal: true
-    href: SuperOffice.CRM.Rows.CountryRow.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.HomeCountryId
   commentId: P:SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.HomeCountryId
   parent: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.html#SuperOffice_CRM_Entities_Providers_ContactPersonInfoProviderBase_HomeCountryId
   name: HomeCountryId
   nameWithType: ContactPersonInfoProviderBase.HomeCountryId
   fullName: SuperOffice.CRM.Entities.Providers.ContactPersonInfoProviderBase.HomeCountryId
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ContactInfoProvider, To>(ContactInfoProvider)
-  nameWithType: EnumUtil.MapEnums<ContactInfoProvider, To>(ContactInfoProvider)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Providers.ContactInfoProvider, To>(SuperOffice.CRM.Entities.Providers.ContactInfoProvider)
-  nameWithType.vb: EnumUtil.MapEnums(Of ContactInfoProvider, To)(ContactInfoProvider)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Providers.ContactInfoProvider, To)(SuperOffice.CRM.Entities.Providers.ContactInfoProvider)
-  name.vb: MapEnums(Of ContactInfoProvider, To)(ContactInfoProvider)
+  name: MapEnums<ContactInfoProvider, To>()
+  nameWithType: EnumUtil.MapEnums<ContactInfoProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Providers.ContactInfoProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ContactInfoProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Providers.ContactInfoProvider, To)()
+  name.vb: MapEnums(Of ContactInfoProvider, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.Providers.ContactInfoProvider)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ContactInfoProvider, To>
+    nameWithType: EnumUtil.MapEnums<ContactInfoProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Providers.ContactInfoProvider, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider
-    name: ContactInfoProvider
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider
-    name: ContactInfoProvider
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Entities.Providers.ContactInfoProvider)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ContactInfoProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of ContactInfoProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Providers.ContactInfoProvider, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider
-    name: ContactInfoProvider
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider
-    name: ContactInfoProvider
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ContactInfoProvider, To>(ContactInfoProvider)
-  nameWithType: Converters.MapEnums<ContactInfoProvider, To>(ContactInfoProvider)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Providers.ContactInfoProvider, To>(SuperOffice.CRM.Entities.Providers.ContactInfoProvider)
-  nameWithType.vb: Converters.MapEnums(Of ContactInfoProvider, To)(ContactInfoProvider)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Providers.ContactInfoProvider, To)(SuperOffice.CRM.Entities.Providers.ContactInfoProvider)
-  name.vb: MapEnums(Of ContactInfoProvider, To)(ContactInfoProvider)
+  name: MapEnums<ContactInfoProvider, To>()
+  nameWithType: Converters.MapEnums<ContactInfoProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Providers.ContactInfoProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of ContactInfoProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Providers.ContactInfoProvider, To)()
+  name.vb: MapEnums(Of ContactInfoProvider, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.Providers.ContactInfoProvider)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ContactInfoProvider, To>
+    nameWithType: Converters.MapEnums<ContactInfoProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Providers.ContactInfoProvider, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider
-    name: ContactInfoProvider
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider
-    name: ContactInfoProvider
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Entities.Providers.ContactInfoProvider)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ContactInfoProvider, To)
+    nameWithType: Converters.MapEnums(Of ContactInfoProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Providers.ContactInfoProvider, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider
-    name: ContactInfoProvider
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider
-    name: ContactInfoProvider
-    isExternal: true
-    href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html
-  - name: )
-- uid: SuperOffice.CRM
-  commentId: N:SuperOffice.CRM
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM
-  nameWithType: SuperOffice.CRM
-  fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-- uid: SuperOffice.CRM.Entities
-  commentId: N:SuperOffice.CRM.Entities
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Entities
-  nameWithType: SuperOffice.CRM.Entities
-  fullName: SuperOffice.CRM.Entities
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Entities
-    name: Entities
-    isExternal: true
-    href: SuperOffice.CRM.Entities.html
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -2265,45 +2270,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -2312,83 +2315,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetInternationalAddress*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetInternationalAddress
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_GetInternationalAddress_System_Int32_
   name: GetInternationalAddress
   nameWithType: ContactInfoProvider.GetInternationalAddress
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetInternationalAddress
@@ -2396,61 +2366,60 @@ references:
   commentId: M:SuperOffice.CRM.IContactInfo.GetInternationalAddress(System.Int32)
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetInternationalAddress_System_Int32_
-  name: GetInternationalAddress(int)
-  nameWithType: IContactInfo.GetInternationalAddress(int)
-  fullName: SuperOffice.CRM.IContactInfo.GetInternationalAddress(int)
-  nameWithType.vb: IContactInfo.GetInternationalAddress(Integer)
-  fullName.vb: SuperOffice.CRM.IContactInfo.GetInternationalAddress(Integer)
-  name.vb: GetInternationalAddress(Integer)
+  name: GetInternationalAddress(Int32)
+  nameWithType: IContactInfo.GetInternationalAddress(Int32)
+  fullName: SuperOffice.CRM.IContactInfo.GetInternationalAddress(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.IContactInfo.GetInternationalAddress(System.Int32)
     name: GetInternationalAddress
+    nameWithType: IContactInfo.GetInternationalAddress
+    fullName: SuperOffice.CRM.IContactInfo.GetInternationalAddress
     isExternal: true
-    href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetInternationalAddress_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IContactInfo.GetInternationalAddress(System.Int32)
     name: GetInternationalAddress
+    nameWithType: IContactInfo.GetInternationalAddress
+    fullName: SuperOffice.CRM.IContactInfo.GetInternationalAddress
     isExternal: true
-    href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetInternationalAddress_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedDecimal*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedDecimal
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_GetUserDefinedDecimal_System_Int32_
   name: GetUserDefinedDecimal
   nameWithType: ContactInfoProvider.GetUserDefinedDecimal
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedDecimal
@@ -2458,39 +2427,46 @@ references:
   commentId: M:SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.Int32)
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetUserDefinedDecimal_System_Int32_
-  name: GetUserDefinedDecimal(int)
-  nameWithType: IContactInfo.GetUserDefinedDecimal(int)
-  fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(int)
-  nameWithType.vb: IContactInfo.GetUserDefinedDecimal(Integer)
-  fullName.vb: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(Integer)
-  name.vb: GetUserDefinedDecimal(Integer)
+  name: GetUserDefinedDecimal(Int32)
+  nameWithType: IContactInfo.GetUserDefinedDecimal(Int32)
+  fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.Int32)
     name: GetUserDefinedDecimal
+    nameWithType: IContactInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal
     isExternal: true
-    href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetUserDefinedDecimal_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.Int32)
     name: GetUserDefinedDecimal
+    nameWithType: IContactInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal
     isExternal: true
-    href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetUserDefinedDecimal_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedInt*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedInt
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_GetUserDefinedInt_System_Int32_
   name: GetUserDefinedInt
   nameWithType: ContactInfoProvider.GetUserDefinedInt
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedInt
@@ -2498,39 +2474,46 @@ references:
   commentId: M:SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.Int32)
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetUserDefinedInt_System_Int32_
-  name: GetUserDefinedInt(int)
-  nameWithType: IContactInfo.GetUserDefinedInt(int)
-  fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedInt(int)
-  nameWithType.vb: IContactInfo.GetUserDefinedInt(Integer)
-  fullName.vb: SuperOffice.CRM.IContactInfo.GetUserDefinedInt(Integer)
-  name.vb: GetUserDefinedInt(Integer)
+  name: GetUserDefinedInt(Int32)
+  nameWithType: IContactInfo.GetUserDefinedInt(Int32)
+  fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.Int32)
     name: GetUserDefinedInt
+    nameWithType: IContactInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedInt
     isExternal: true
-    href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetUserDefinedInt_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.Int32)
     name: GetUserDefinedInt
+    nameWithType: IContactInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedInt
     isExternal: true
-    href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetUserDefinedInt_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedString*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedString
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_GetUserDefinedString_System_Int32_
   name: GetUserDefinedString
   nameWithType: ContactInfoProvider.GetUserDefinedString
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.GetUserDefinedString
@@ -2538,156 +2521,195 @@ references:
   commentId: M:SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.Int32)
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetUserDefinedString_System_Int32_
-  name: GetUserDefinedString(int)
-  nameWithType: IContactInfo.GetUserDefinedString(int)
-  fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedString(int)
-  nameWithType.vb: IContactInfo.GetUserDefinedString(Integer)
-  fullName.vb: SuperOffice.CRM.IContactInfo.GetUserDefinedString(Integer)
-  name.vb: GetUserDefinedString(Integer)
+  name: GetUserDefinedString(Int32)
+  nameWithType: IContactInfo.GetUserDefinedString(Int32)
+  fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.Int32)
     name: GetUserDefinedString
+    nameWithType: IContactInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedString
     isExternal: true
-    href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetUserDefinedString_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.Int32)
     name: GetUserDefinedString
+    nameWithType: IContactInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedString
     isExternal: true
-    href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetUserDefinedString_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.String)
   commentId: M:SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.String)
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetUserDefinedDecimal_System_String_
-  name: GetUserDefinedDecimal(string)
-  nameWithType: IContactInfo.GetUserDefinedDecimal(string)
-  fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(string)
-  nameWithType.vb: IContactInfo.GetUserDefinedDecimal(String)
-  fullName.vb: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(String)
-  name.vb: GetUserDefinedDecimal(String)
+  name: GetUserDefinedDecimal(String)
+  nameWithType: IContactInfo.GetUserDefinedDecimal(String)
+  fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.String)
     name: GetUserDefinedDecimal
+    nameWithType: IContactInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal
     isExternal: true
-    href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetUserDefinedDecimal_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal(System.String)
     name: GetUserDefinedDecimal
+    nameWithType: IContactInfo.GetUserDefinedDecimal
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedDecimal
     isExternal: true
-    href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetUserDefinedDecimal_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Double
   commentId: T:System.Double
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.double
-  name: double
-  nameWithType: double
-  fullName: double
-  nameWithType.vb: Double
-  fullName.vb: Double
-  name.vb: Double
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
 - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.String)
   commentId: M:SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.String)
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetUserDefinedInt_System_String_
-  name: GetUserDefinedInt(string)
-  nameWithType: IContactInfo.GetUserDefinedInt(string)
-  fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedInt(string)
-  nameWithType.vb: IContactInfo.GetUserDefinedInt(String)
-  fullName.vb: SuperOffice.CRM.IContactInfo.GetUserDefinedInt(String)
-  name.vb: GetUserDefinedInt(String)
+  name: GetUserDefinedInt(String)
+  nameWithType: IContactInfo.GetUserDefinedInt(String)
+  fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.String)
     name: GetUserDefinedInt
+    nameWithType: IContactInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedInt
     isExternal: true
-    href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetUserDefinedInt_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedInt(System.String)
     name: GetUserDefinedInt
+    nameWithType: IContactInfo.GetUserDefinedInt
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedInt
     isExternal: true
-    href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetUserDefinedInt_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.String)
   commentId: M:SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.String)
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetUserDefinedString_System_String_
-  name: GetUserDefinedString(string)
-  nameWithType: IContactInfo.GetUserDefinedString(string)
-  fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedString(string)
-  nameWithType.vb: IContactInfo.GetUserDefinedString(String)
-  fullName.vb: SuperOffice.CRM.IContactInfo.GetUserDefinedString(String)
-  name.vb: GetUserDefinedString(String)
+  name: GetUserDefinedString(String)
+  nameWithType: IContactInfo.GetUserDefinedString(String)
+  fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.String)
     name: GetUserDefinedString
+    nameWithType: IContactInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedString
     isExternal: true
-    href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetUserDefinedString_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.IContactInfo.GetUserDefinedString(System.String)
     name: GetUserDefinedString
+    nameWithType: IContactInfo.GetUserDefinedString
+    fullName: SuperOffice.CRM.IContactInfo.GetUserDefinedString
     isExternal: true
-    href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_GetUserDefinedString_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Contact*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Contact
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_Contact
   name: Contact
   nameWithType: ContactInfoProvider.Contact
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Contact
+- uid: SuperOffice.CRM.Entities.Contact
+  commentId: T:SuperOffice.CRM.Entities.Contact
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Contact
+  nameWithType: Contact
+  fullName: SuperOffice.CRM.Entities.Contact
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.ContactId*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.ContactId
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_ContactId
   name: ContactId
   nameWithType: ContactInfoProvider.ContactId
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.ContactId
@@ -2695,14 +2717,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.ContactId
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_ContactId
   name: ContactId
   nameWithType: IContactInfo.ContactId
   fullName: SuperOffice.CRM.IContactInfo.ContactId
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Name*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Name
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_Name
   name: Name
   nameWithType: ContactInfoProvider.Name
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Name
@@ -2710,14 +2730,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.Name
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_Name
   name: Name
   nameWithType: IContactInfo.Name
   fullName: SuperOffice.CRM.IContactInfo.Name
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Department*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Department
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_Department
   name: Department
   nameWithType: ContactInfoProvider.Department
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Department
@@ -2725,14 +2743,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.Department
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_Department
   name: Department
   nameWithType: IContactInfo.Department
   fullName: SuperOffice.CRM.IContactInfo.Department
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.OrganisationNumber*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.OrganisationNumber
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_OrganisationNumber
   name: OrganisationNumber
   nameWithType: ContactInfoProvider.OrganisationNumber
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.OrganisationNumber
@@ -2740,14 +2756,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.OrganisationNumber
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_OrganisationNumber
   name: OrganisationNumber
   nameWithType: IContactInfo.OrganisationNumber
   fullName: SuperOffice.CRM.IContactInfo.OrganisationNumber
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PhoneId*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PhoneId
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_PhoneId
   name: PhoneId
   nameWithType: ContactInfoProvider.PhoneId
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PhoneId
@@ -2755,14 +2769,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.PhoneId
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_PhoneId
   name: PhoneId
   nameWithType: IContactInfo.PhoneId
   fullName: SuperOffice.CRM.IContactInfo.PhoneId
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Phone*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Phone
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_Phone
   name: Phone
   nameWithType: ContactInfoProvider.Phone
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Phone
@@ -2770,14 +2782,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.Phone
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_Phone
   name: Phone
   nameWithType: IContactInfo.Phone
   fullName: SuperOffice.CRM.IContactInfo.Phone
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.FaxId*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.FaxId
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_FaxId
   name: FaxId
   nameWithType: ContactInfoProvider.FaxId
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.FaxId
@@ -2785,14 +2795,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.FaxId
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_FaxId
   name: FaxId
   nameWithType: IContactInfo.FaxId
   fullName: SuperOffice.CRM.IContactInfo.FaxId
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Fax*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Fax
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_Fax
   name: Fax
   nameWithType: ContactInfoProvider.Fax
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Fax
@@ -2800,14 +2808,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.Fax
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_Fax
   name: Fax
   nameWithType: IContactInfo.Fax
   fullName: SuperOffice.CRM.IContactInfo.Fax
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.FaxStripped*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.FaxStripped
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_FaxStripped
   name: FaxStripped
   nameWithType: ContactInfoProvider.FaxStripped
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.FaxStripped
@@ -2815,14 +2821,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.FaxStripped
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_FaxStripped
   name: FaxStripped
   nameWithType: IContactInfo.FaxStripped
   fullName: SuperOffice.CRM.IContactInfo.FaxStripped
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.EMailId*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.EMailId
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_EMailId
   name: EMailId
   nameWithType: ContactInfoProvider.EMailId
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.EMailId
@@ -2830,14 +2834,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.EMailId
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_EMailId
   name: EMailId
   nameWithType: IContactInfo.EMailId
   fullName: SuperOffice.CRM.IContactInfo.EMailId
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.EMail*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.EMail
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_EMail
   name: EMail
   nameWithType: ContactInfoProvider.EMail
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.EMail
@@ -2845,14 +2847,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.EMail
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_EMail
   name: EMail
   nameWithType: IContactInfo.EMail
   fullName: SuperOffice.CRM.IContactInfo.EMail
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.WebId*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.WebId
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_WebId
   name: WebId
   nameWithType: ContactInfoProvider.WebId
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.WebId
@@ -2860,14 +2860,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.WebId
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_WebId
   name: WebId
   nameWithType: IContactInfo.WebId
   fullName: SuperOffice.CRM.IContactInfo.WebId
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Web*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Web
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_Web
   name: Web
   nameWithType: ContactInfoProvider.Web
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Web
@@ -2875,14 +2873,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.Web
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_Web
   name: Web
   nameWithType: IContactInfo.Web
   fullName: SuperOffice.CRM.IContactInfo.Web
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Number*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Number
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_Number
   name: Number
   nameWithType: ContactInfoProvider.Number
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Number
@@ -2890,14 +2886,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.Number
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_Number
   name: Number
   nameWithType: IContactInfo.Number
   fullName: SuperOffice.CRM.IContactInfo.Number
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.AddressLine1*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.AddressLine1
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_AddressLine1
   name: AddressLine1
   nameWithType: ContactInfoProvider.AddressLine1
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.AddressLine1
@@ -2905,14 +2899,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.AddressLine1
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_AddressLine1
   name: AddressLine1
   nameWithType: IContactInfo.AddressLine1
   fullName: SuperOffice.CRM.IContactInfo.AddressLine1
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine1*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine1
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_PostalAddressLine1
   name: PostalAddressLine1
   nameWithType: ContactInfoProvider.PostalAddressLine1
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine1
@@ -2920,14 +2912,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressLine1
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_PostalAddressLine1
   name: PostalAddressLine1
   nameWithType: IContactInfo.PostalAddressLine1
   fullName: SuperOffice.CRM.IContactInfo.PostalAddressLine1
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine2*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine2
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_PostalAddressLine2
   name: PostalAddressLine2
   nameWithType: ContactInfoProvider.PostalAddressLine2
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine2
@@ -2935,14 +2925,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressLine2
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_PostalAddressLine2
   name: PostalAddressLine2
   nameWithType: IContactInfo.PostalAddressLine2
   fullName: SuperOffice.CRM.IContactInfo.PostalAddressLine2
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine3*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine3
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_PostalAddressLine3
   name: PostalAddressLine3
   nameWithType: ContactInfoProvider.PostalAddressLine3
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine3
@@ -2950,14 +2938,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressLine3
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_PostalAddressLine3
   name: PostalAddressLine3
   nameWithType: IContactInfo.PostalAddressLine3
   fullName: SuperOffice.CRM.IContactInfo.PostalAddressLine3
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCity*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCity
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_PostalAddressCity
   name: PostalAddressCity
   nameWithType: ContactInfoProvider.PostalAddressCity
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCity
@@ -2965,14 +2951,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressCity
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_PostalAddressCity
   name: PostalAddressCity
   nameWithType: IContactInfo.PostalAddressCity
   fullName: SuperOffice.CRM.IContactInfo.PostalAddressCity
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCityFull*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCityFull
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_PostalAddressCityFull
   name: PostalAddressCityFull
   nameWithType: ContactInfoProvider.PostalAddressCityFull
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCityFull
@@ -2980,14 +2964,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressCityFull
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_PostalAddressCityFull
   name: PostalAddressCityFull
   nameWithType: IContactInfo.PostalAddressCityFull
   fullName: SuperOffice.CRM.IContactInfo.PostalAddressCityFull
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressZip*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressZip
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_PostalAddressZip
   name: PostalAddressZip
   nameWithType: ContactInfoProvider.PostalAddressZip
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressZip
@@ -2995,14 +2977,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressZip
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_PostalAddressZip
   name: PostalAddressZip
   nameWithType: IContactInfo.PostalAddressZip
   fullName: SuperOffice.CRM.IContactInfo.PostalAddressZip
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressZipCity*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressZipCity
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_PostalAddressZipCity
   name: PostalAddressZipCity
   nameWithType: ContactInfoProvider.PostalAddressZipCity
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressZipCity
@@ -3010,14 +2990,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressZipCity
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_PostalAddressZipCity
   name: PostalAddressZipCity
   nameWithType: IContactInfo.PostalAddressZipCity
   fullName: SuperOffice.CRM.IContactInfo.PostalAddressZipCity
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressState*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressState
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_PostalAddressState
   name: PostalAddressState
   nameWithType: ContactInfoProvider.PostalAddressState
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressState
@@ -3025,14 +3003,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressState
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_PostalAddressState
   name: PostalAddressState
   nameWithType: IContactInfo.PostalAddressState
   fullName: SuperOffice.CRM.IContactInfo.PostalAddressState
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCounty*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCounty
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_PostalAddressCounty
   name: PostalAddressCounty
   nameWithType: ContactInfoProvider.PostalAddressCounty
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressCounty
@@ -3040,14 +3016,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressCounty
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_PostalAddressCounty
   name: PostalAddressCounty
   nameWithType: IContactInfo.PostalAddressCounty
   fullName: SuperOffice.CRM.IContactInfo.PostalAddressCounty
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressPrefix*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressPrefix
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_PostalAddressPrefix
   name: PostalAddressPrefix
   nameWithType: ContactInfoProvider.PostalAddressPrefix
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressPrefix
@@ -3055,21 +3029,18 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressPrefix
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_PostalAddressPrefix
   name: PostalAddressPrefix
   nameWithType: IContactInfo.PostalAddressPrefix
   fullName: SuperOffice.CRM.IContactInfo.PostalAddressPrefix
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.ZipCity*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.ZipCity
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_ZipCity
   name: ZipCity
   nameWithType: ContactInfoProvider.ZipCity
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.ZipCity
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountyZipUK*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountyZipUK
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_CountyZipUK
   name: CountyZipUK
   nameWithType: ContactInfoProvider.CountyZipUK
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountyZipUK
@@ -3077,14 +3048,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.CountyZipUK
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_CountyZipUK
   name: CountyZipUK
   nameWithType: IContactInfo.CountyZipUK
   fullName: SuperOffice.CRM.IContactInfo.CountyZipUK
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine1*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine1
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_StreetAddressLine1
   name: StreetAddressLine1
   nameWithType: ContactInfoProvider.StreetAddressLine1
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine1
@@ -3092,14 +3061,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.StreetAddressLine1
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_StreetAddressLine1
   name: StreetAddressLine1
   nameWithType: IContactInfo.StreetAddressLine1
   fullName: SuperOffice.CRM.IContactInfo.StreetAddressLine1
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine2*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine2
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_StreetAddressLine2
   name: StreetAddressLine2
   nameWithType: ContactInfoProvider.StreetAddressLine2
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine2
@@ -3107,14 +3074,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.StreetAddressLine2
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_StreetAddressLine2
   name: StreetAddressLine2
   nameWithType: IContactInfo.StreetAddressLine2
   fullName: SuperOffice.CRM.IContactInfo.StreetAddressLine2
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine3*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine3
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_StreetAddressLine3
   name: StreetAddressLine3
   nameWithType: ContactInfoProvider.StreetAddressLine3
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressLine3
@@ -3122,14 +3087,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.StreetAddressLine3
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_StreetAddressLine3
   name: StreetAddressLine3
   nameWithType: IContactInfo.StreetAddressLine3
   fullName: SuperOffice.CRM.IContactInfo.StreetAddressLine3
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressCity*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressCity
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_StreetAddressCity
   name: StreetAddressCity
   nameWithType: ContactInfoProvider.StreetAddressCity
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressCity
@@ -3137,14 +3100,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.StreetAddressCity
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_StreetAddressCity
   name: StreetAddressCity
   nameWithType: IContactInfo.StreetAddressCity
   fullName: SuperOffice.CRM.IContactInfo.StreetAddressCity
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressCityFull*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressCityFull
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_StreetAddressCityFull
   name: StreetAddressCityFull
   nameWithType: ContactInfoProvider.StreetAddressCityFull
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressCityFull
@@ -3152,14 +3113,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.StreetAddressCityFull
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_StreetAddressCityFull
   name: StreetAddressCityFull
   nameWithType: IContactInfo.StreetAddressCityFull
   fullName: SuperOffice.CRM.IContactInfo.StreetAddressCityFull
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressZip*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressZip
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_StreetAddressZip
   name: StreetAddressZip
   nameWithType: ContactInfoProvider.StreetAddressZip
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressZip
@@ -3167,14 +3126,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.StreetAddressZip
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_StreetAddressZip
   name: StreetAddressZip
   nameWithType: IContactInfo.StreetAddressZip
   fullName: SuperOffice.CRM.IContactInfo.StreetAddressZip
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine1And3*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine1And3
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_PostalAddressLine1And3
   name: PostalAddressLine1And3
   nameWithType: ContactInfoProvider.PostalAddressLine1And3
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostalAddressLine1And3
@@ -3182,14 +3139,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.PostalAddressLine1And3
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_PostalAddressLine1And3
   name: PostalAddressLine1And3
   nameWithType: IContactInfo.PostalAddressLine1And3
   fullName: SuperOffice.CRM.IContactInfo.PostalAddressLine1And3
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressZipGerman*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressZipGerman
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_StreetAddressZipGerman
   name: StreetAddressZipGerman
   nameWithType: ContactInfoProvider.StreetAddressZipGerman
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressZipGerman
@@ -3197,14 +3152,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.StreetAddressZipGerman
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_StreetAddressZipGerman
   name: StreetAddressZipGerman
   nameWithType: IContactInfo.StreetAddressZipGerman
   fullName: SuperOffice.CRM.IContactInfo.StreetAddressZipGerman
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.LineFeedGermany*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.LineFeedGermany
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_LineFeedGermany
   name: LineFeedGermany
   nameWithType: ContactInfoProvider.LineFeedGermany
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.LineFeedGermany
@@ -3212,14 +3165,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.LineFeedGermany
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_LineFeedGermany
   name: LineFeedGermany
   nameWithType: IContactInfo.LineFeedGermany
   fullName: SuperOffice.CRM.IContactInfo.LineFeedGermany
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.LineFeedAustraliaUK*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.LineFeedAustraliaUK
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_LineFeedAustraliaUK
   name: LineFeedAustraliaUK
   nameWithType: ContactInfoProvider.LineFeedAustraliaUK
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.LineFeedAustraliaUK
@@ -3227,14 +3178,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.LineFeedAustraliaUK
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_LineFeedAustraliaUK
   name: LineFeedAustraliaUK
   nameWithType: IContactInfo.LineFeedAustraliaUK
   fullName: SuperOffice.CRM.IContactInfo.LineFeedAustraliaUK
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressState*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressState
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_StreetAddressState
   name: StreetAddressState
   nameWithType: ContactInfoProvider.StreetAddressState
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.StreetAddressState
@@ -3242,14 +3191,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.StreetAddressState
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_StreetAddressState
   name: StreetAddressState
   nameWithType: IContactInfo.StreetAddressState
   fullName: SuperOffice.CRM.IContactInfo.StreetAddressState
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.County*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.County
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_County
   name: County
   nameWithType: ContactInfoProvider.County
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.County
@@ -3257,14 +3204,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.County
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_County
   name: County
   nameWithType: IContactInfo.County
   fullName: SuperOffice.CRM.IContactInfo.County
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Code*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Code
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_Code
   name: Code
   nameWithType: ContactInfoProvider.Code
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Code
@@ -3272,14 +3217,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.Code
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_Code
   name: Code
   nameWithType: IContactInfo.Code
   fullName: SuperOffice.CRM.IContactInfo.Code
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryCode*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryCode
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_CountryCode
   name: CountryCode
   nameWithType: ContactInfoProvider.CountryCode
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryCode
@@ -3287,14 +3230,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.CountryCode
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_CountryCode
   name: CountryCode
   nameWithType: IContactInfo.CountryCode
   fullName: SuperOffice.CRM.IContactInfo.CountryCode
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Country*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Country
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_Country
   name: Country
   nameWithType: ContactInfoProvider.Country
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Country
@@ -3302,14 +3243,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.Country
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_Country
   name: Country
   nameWithType: IContactInfo.Country
   fullName: SuperOffice.CRM.IContactInfo.Country
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Country2*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Country2
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_Country2
   name: Country2
   nameWithType: ContactInfoProvider.Country2
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Country2
@@ -3317,14 +3256,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.Country2
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_Country2
   name: Country2
   nameWithType: IContactInfo.Country2
   fullName: SuperOffice.CRM.IContactInfo.Country2
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryId*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryId
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_CountryId
   name: CountryId
   nameWithType: ContactInfoProvider.CountryId
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryId
@@ -3332,14 +3269,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.CountryId
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_CountryId
   name: CountryId
   nameWithType: IContactInfo.CountryId
   fullName: SuperOffice.CRM.IContactInfo.CountryId
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryEnglish*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryEnglish
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_CountryEnglish
   name: CountryEnglish
   nameWithType: ContactInfoProvider.CountryEnglish
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CountryEnglish
@@ -3347,14 +3282,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.CountryEnglish
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_CountryEnglish
   name: CountryEnglish
   nameWithType: IContactInfo.CountryEnglish
   fullName: SuperOffice.CRM.IContactInfo.CountryEnglish
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostCode*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostCode
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_PostCode
   name: PostCode
   nameWithType: ContactInfoProvider.PostCode
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.PostCode
@@ -3362,14 +3295,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.PostCode
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_PostCode
   name: PostCode
   nameWithType: IContactInfo.PostCode
   fullName: SuperOffice.CRM.IContactInfo.PostCode
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.OurContact*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.OurContact
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_OurContact
   name: OurContact
   nameWithType: ContactInfoProvider.OurContact
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.OurContact
@@ -3377,14 +3308,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.OurContact
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_OurContact
   name: OurContact
   nameWithType: IContactInfo.OurContact
   fullName: SuperOffice.CRM.IContactInfo.OurContact
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Category*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Category
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_Category
   name: Category
   nameWithType: ContactInfoProvider.Category
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Category
@@ -3392,14 +3321,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.Category
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_Category
   name: Category
   nameWithType: IContactInfo.Category
   fullName: SuperOffice.CRM.IContactInfo.Category
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Business*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Business
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_Business
   name: Business
   nameWithType: ContactInfoProvider.Business
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.Business
@@ -3407,14 +3334,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo.Business
   parent: SuperOffice.CRM.IContactInfo
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo.html#SuperOffice_CRM_IContactInfo_Business
   name: Business
   nameWithType: IContactInfo.Business
   fullName: SuperOffice.CRM.IContactInfo.Business
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.SupportPersonId*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.SupportPersonId
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_SupportPersonId
   name: SupportPersonId
   nameWithType: ContactInfoProvider.SupportPersonId
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.SupportPersonId
@@ -3422,14 +3347,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo2.SupportPersonId
   parent: SuperOffice.CRM.IContactInfo2
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo2.html#SuperOffice_CRM_IContactInfo2_SupportPersonId
   name: SupportPersonId
   nameWithType: IContactInfo2.SupportPersonId
   fullName: SuperOffice.CRM.IContactInfo2.SupportPersonId
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.SupportPersonName*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.SupportPersonName
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_SupportPersonName
   name: SupportPersonName
   nameWithType: ContactInfoProvider.SupportPersonName
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.SupportPersonName
@@ -3437,14 +3360,12 @@ references:
   commentId: P:SuperOffice.CRM.IContactInfo2.SupportPersonName
   parent: SuperOffice.CRM.IContactInfo2
   isExternal: true
-  href: SuperOffice.CRM.IContactInfo2.html#SuperOffice_CRM_IContactInfo2_SupportPersonName
   name: SupportPersonName
   nameWithType: IContactInfo2.SupportPersonName
   fullName: SuperOffice.CRM.IContactInfo2.SupportPersonName
 - uid: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CustomFields*
   commentId: Overload:SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CustomFields
   isExternal: true
-  href: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.html#SuperOffice_CRM_Entities_Providers_ContactInfoProvider_CustomFields
   name: CustomFields
   nameWithType: ContactInfoProvider.CustomFields
   fullName: SuperOffice.CRM.Entities.Providers.ContactInfoProvider.CustomFields
@@ -3456,120 +3377,111 @@ references:
   nameWithType: IContactInfo3.CustomFields
   fullName: SuperOffice.CRM.IContactInfo3.CustomFields
 - uid: System.Collections.Generic.Dictionary{System.String,System.String}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{System.String,System.String}'
   definition: System.Collections.Generic.Dictionary`2
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<string, string>
-  nameWithType: Dictionary<string, string>
-  fullName: System.Collections.Generic.Dictionary<string, string>
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
   nameWithType.vb: Dictionary(Of String, String)
-  fullName.vb: System.Collections.Generic.Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
   name.vb: Dictionary(Of String, String)
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )

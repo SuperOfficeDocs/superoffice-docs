@@ -21,35 +21,26 @@ items:
   nameWithType: RecipientStatistics
   fullName: SuperOffice.CRM.Services.RecipientStatistics
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Class representing a RecipientStatistics carrier used for counting attributes on selection members.
-
-    <p></p>
-
-    Carrier object for RecipientStatistics.
-  example: []
+  summary: "\nClass representing a RecipientStatistics carrier used for counting attributes on selection members.\n<p></p>\nCarrier object for RecipientStatistics.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class RecipientStatistics : Carrier
+    content: 'public class RecipientStatistics : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class RecipientStatistics Inherits Carrier
+      Public Class RecipientStatistics
+          Inherits Carrier
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.RecipientStatistics.#ctor
   commentId: M:SuperOffice.CRM.Services.RecipientStatistics.#ctor
   id: '#ctor'
@@ -61,18 +52,21 @@ items:
   nameWithType: RecipientStatistics.RecipientStatistics()
   fullName: SuperOffice.CRM.Services.RecipientStatistics.RecipientStatistics()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public RecipientStatistics()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.RecipientStatistics.#ctor*
-  nameWithType.vb: RecipientStatistics.New()
-  fullName.vb: SuperOffice.CRM.Services.RecipientStatistics.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.RecipientStatistics.ToString
   commentId: M:SuperOffice.CRM.Services.RecipientStatistics.ToString
   id: ToString
@@ -84,18 +78,26 @@ items:
   nameWithType: RecipientStatistics.ToString()
   fullName: SuperOffice.CRM.Services.RecipientStatistics.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.RecipientStatistics.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.RecipientStatistics.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.RecipientStatistics.ToString(System.String)
   id: ToString(System.String)
@@ -103,18 +105,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: RecipientStatistics.ToString(string)
-  fullName: SuperOffice.CRM.Services.RecipientStatistics.ToString(string)
+  name: ToString(String)
+  nameWithType: RecipientStatistics.ToString(String)
+  fullName: SuperOffice.CRM.Services.RecipientStatistics.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -126,9 +127,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.RecipientStatistics.ToString*
-  nameWithType.vb: RecipientStatistics.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.RecipientStatistics.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.RecipientStatistics.Total
   commentId: P:SuperOffice.CRM.Services.RecipientStatistics.Total
   id: Total
@@ -140,28 +142,28 @@ items:
   nameWithType: RecipientStatistics.Total
   fullName: SuperOffice.CRM.Services.RecipientStatistics.Total
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Total number of members.
-  example: []
+  summary: "\nTotal number of members. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int Total { get; set; }
+    content: public virtual int Total { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Total As Integer
+    content.vb: Public Overridable Property Total As Integer
   overload: SuperOffice.CRM.Services.RecipientStatistics.Total*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.RecipientStatistics.ValidPostalAddresses
   commentId: P:SuperOffice.CRM.Services.RecipientStatistics.ValidPostalAddresses
   id: ValidPostalAddresses
@@ -173,28 +175,28 @@ items:
   nameWithType: RecipientStatistics.ValidPostalAddresses
   fullName: SuperOffice.CRM.Services.RecipientStatistics.ValidPostalAddresses
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Number of members with a valid postal address.
-  example: []
+  summary: "\nNumber of members with a valid postal address. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ValidPostalAddresses { get; set; }
+    content: public virtual int ValidPostalAddresses { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ValidPostalAddresses As Integer
+    content.vb: Public Overridable Property ValidPostalAddresses As Integer
   overload: SuperOffice.CRM.Services.RecipientStatistics.ValidPostalAddresses*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.RecipientStatistics.ValidEmailAddresses
   commentId: P:SuperOffice.CRM.Services.RecipientStatistics.ValidEmailAddresses
   id: ValidEmailAddresses
@@ -206,28 +208,28 @@ items:
   nameWithType: RecipientStatistics.ValidEmailAddresses
   fullName: SuperOffice.CRM.Services.RecipientStatistics.ValidEmailAddresses
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Number of members with a valid email address.
-  example: []
+  summary: "\nNumber of members with a valid email address. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ValidEmailAddresses { get; set; }
+    content: public virtual int ValidEmailAddresses { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ValidEmailAddresses As Integer
+    content.vb: Public Overridable Property ValidEmailAddresses As Integer
   overload: SuperOffice.CRM.Services.RecipientStatistics.ValidEmailAddresses*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.RecipientStatistics.ValidFaxNumbers
   commentId: P:SuperOffice.CRM.Services.RecipientStatistics.ValidFaxNumbers
   id: ValidFaxNumbers
@@ -239,28 +241,28 @@ items:
   nameWithType: RecipientStatistics.ValidFaxNumbers
   fullName: SuperOffice.CRM.Services.RecipientStatistics.ValidFaxNumbers
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Number of members with a valid fax number.
-  example: []
+  summary: "\nNumber of members with a valid fax number. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ValidFaxNumbers { get; set; }
+    content: public virtual int ValidFaxNumbers { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ValidFaxNumbers As Integer
+    content.vb: Public Overridable Property ValidFaxNumbers As Integer
   overload: SuperOffice.CRM.Services.RecipientStatistics.ValidFaxNumbers*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.RecipientStatistics.NoAddresses
   commentId: P:SuperOffice.CRM.Services.RecipientStatistics.NoAddresses
   id: NoAddresses
@@ -272,28 +274,28 @@ items:
   nameWithType: RecipientStatistics.NoAddresses
   fullName: SuperOffice.CRM.Services.RecipientStatistics.NoAddresses
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Number of members with an invalid address.
-  example: []
+  summary: "\nNumber of members with an invalid address. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int NoAddresses { get; set; }
+    content: public virtual int NoAddresses { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property NoAddresses As Integer
+    content.vb: Public Overridable Property NoAddresses As Integer
   overload: SuperOffice.CRM.Services.RecipientStatistics.NoAddresses*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.RecipientStatistics.NoFaxOrEmails
   commentId: P:SuperOffice.CRM.Services.RecipientStatistics.NoFaxOrEmails
   id: NoFaxOrEmails
@@ -305,98 +307,44 @@ items:
   nameWithType: RecipientStatistics.NoFaxOrEmails
   fullName: SuperOffice.CRM.Services.RecipientStatistics.NoFaxOrEmails
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Number of members with no fax or email address.
-  example: []
+  summary: "\nNumber of members with no fax or email address. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int NoFaxOrEmails { get; set; }
+    content: public virtual int NoFaxOrEmails { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property NoFaxOrEmails As Integer
+    content.vb: Public Overridable Property NoFaxOrEmails As Integer
   overload: SuperOffice.CRM.Services.RecipientStatistics.NoFaxOrEmails*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.RecipientStatistics.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.RecipientStatistics.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.RecipientStatistics.html#SuperOffice_CRM_Services_RecipientStatistics__ctor
   name: RecipientStatistics
   nameWithType: RecipientStatistics.RecipientStatistics
   fullName: SuperOffice.CRM.Services.RecipientStatistics.RecipientStatistics
-  nameWithType.vb: RecipientStatistics.New
-  fullName.vb: SuperOffice.CRM.Services.RecipientStatistics.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.RecipientStatistics.ToString*
   commentId: Overload:SuperOffice.CRM.Services.RecipientStatistics.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.RecipientStatistics.html#SuperOffice_CRM_Services_RecipientStatistics_ToString
   name: ToString
   nameWithType: RecipientStatistics.ToString
   fullName: SuperOffice.CRM.Services.RecipientStatistics.ToString
@@ -404,17 +352,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.RecipientStatistics.Total*
   commentId: Overload:SuperOffice.CRM.Services.RecipientStatistics.Total
   isExternal: true
-  href: SuperOffice.CRM.Services.RecipientStatistics.html#SuperOffice_CRM_Services_RecipientStatistics_Total
   name: Total
   nameWithType: RecipientStatistics.Total
   fullName: SuperOffice.CRM.Services.RecipientStatistics.Total
@@ -422,45 +371,36 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.RecipientStatistics.ValidPostalAddresses*
   commentId: Overload:SuperOffice.CRM.Services.RecipientStatistics.ValidPostalAddresses
   isExternal: true
-  href: SuperOffice.CRM.Services.RecipientStatistics.html#SuperOffice_CRM_Services_RecipientStatistics_ValidPostalAddresses
   name: ValidPostalAddresses
   nameWithType: RecipientStatistics.ValidPostalAddresses
   fullName: SuperOffice.CRM.Services.RecipientStatistics.ValidPostalAddresses
 - uid: SuperOffice.CRM.Services.RecipientStatistics.ValidEmailAddresses*
   commentId: Overload:SuperOffice.CRM.Services.RecipientStatistics.ValidEmailAddresses
   isExternal: true
-  href: SuperOffice.CRM.Services.RecipientStatistics.html#SuperOffice_CRM_Services_RecipientStatistics_ValidEmailAddresses
   name: ValidEmailAddresses
   nameWithType: RecipientStatistics.ValidEmailAddresses
   fullName: SuperOffice.CRM.Services.RecipientStatistics.ValidEmailAddresses
 - uid: SuperOffice.CRM.Services.RecipientStatistics.ValidFaxNumbers*
   commentId: Overload:SuperOffice.CRM.Services.RecipientStatistics.ValidFaxNumbers
   isExternal: true
-  href: SuperOffice.CRM.Services.RecipientStatistics.html#SuperOffice_CRM_Services_RecipientStatistics_ValidFaxNumbers
   name: ValidFaxNumbers
   nameWithType: RecipientStatistics.ValidFaxNumbers
   fullName: SuperOffice.CRM.Services.RecipientStatistics.ValidFaxNumbers
 - uid: SuperOffice.CRM.Services.RecipientStatistics.NoAddresses*
   commentId: Overload:SuperOffice.CRM.Services.RecipientStatistics.NoAddresses
   isExternal: true
-  href: SuperOffice.CRM.Services.RecipientStatistics.html#SuperOffice_CRM_Services_RecipientStatistics_NoAddresses
   name: NoAddresses
   nameWithType: RecipientStatistics.NoAddresses
   fullName: SuperOffice.CRM.Services.RecipientStatistics.NoAddresses
 - uid: SuperOffice.CRM.Services.RecipientStatistics.NoFaxOrEmails*
   commentId: Overload:SuperOffice.CRM.Services.RecipientStatistics.NoFaxOrEmails
   isExternal: true
-  href: SuperOffice.CRM.Services.RecipientStatistics.html#SuperOffice_CRM_Services_RecipientStatistics_NoFaxOrEmails
   name: NoFaxOrEmails
   nameWithType: RecipientStatistics.NoFaxOrEmails
   fullName: SuperOffice.CRM.Services.RecipientStatistics.NoFaxOrEmails

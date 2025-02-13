@@ -43,7 +43,6 @@ references:
 - uid: SuperOffice.Exceptions.DirectInvokeAjaxServiceException
   commentId: T:SuperOffice.Exceptions.DirectInvokeAjaxServiceException
   isExternal: true
-  href: SuperOffice.Exceptions.DirectInvokeAjaxServiceException.html
   name: DirectInvokeAjaxServiceException
   nameWithType: DirectInvokeAjaxServiceException
   fullName: SuperOffice.Exceptions.DirectInvokeAjaxServiceException
@@ -51,35 +50,30 @@ references:
   commentId: T:SuperOffice.Exceptions.ExceptionHelper
   parent: SuperOffice.Exceptions
   isExternal: true
-  href: SuperOffice.Exceptions.ExceptionHelper.html
   name: ExceptionHelper
   nameWithType: ExceptionHelper
   fullName: SuperOffice.Exceptions.ExceptionHelper
 - uid: SuperOffice.Exceptions.PerformanceMonitoring
   commentId: T:SuperOffice.Exceptions.PerformanceMonitoring
   isExternal: true
-  href: SuperOffice.Exceptions.PerformanceMonitoring.html
   name: PerformanceMonitoring
   nameWithType: PerformanceMonitoring
   fullName: SuperOffice.Exceptions.PerformanceMonitoring
 - uid: SuperOffice.Exceptions.SoConsentException
   commentId: T:SuperOffice.Exceptions.SoConsentException
   isExternal: true
-  href: SuperOffice.Exceptions.SoConsentException.html
   name: SoConsentException
   nameWithType: SoConsentException
   fullName: SuperOffice.Exceptions.SoConsentException
 - uid: SuperOffice.Exceptions.SoDbAccessException
   commentId: T:SuperOffice.Exceptions.SoDbAccessException
   isExternal: true
-  href: SuperOffice.Exceptions.SoDbAccessException.html
   name: SoDbAccessException
   nameWithType: SoDbAccessException
   fullName: SuperOffice.Exceptions.SoDbAccessException
 - uid: SuperOffice.Exceptions.SoDuplicateException
   commentId: T:SuperOffice.Exceptions.SoDuplicateException
   isExternal: true
-  href: SuperOffice.Exceptions.SoDuplicateException.html
   name: SoDuplicateException
   nameWithType: SoDuplicateException
   fullName: SuperOffice.Exceptions.SoDuplicateException
@@ -87,7 +81,6 @@ references:
   commentId: T:SuperOffice.Exceptions.SoException
   parent: SuperOffice.Exceptions
   isExternal: true
-  href: SuperOffice.Exceptions.SoException.html
   name: SoException
   nameWithType: SoException
   fullName: SuperOffice.Exceptions.SoException
@@ -95,7 +88,6 @@ references:
   commentId: T:SuperOffice.Exceptions.SoExceptionInfoParameters
   parent: SuperOffice.Exceptions
   isExternal: true
-  href: SuperOffice.Exceptions.SoExceptionInfoParameters.html
   name: SoExceptionInfoParameters
   nameWithType: SoExceptionInfoParameters
   fullName: SuperOffice.Exceptions.SoExceptionInfoParameters
@@ -103,153 +95,114 @@ references:
   commentId: T:SuperOffice.Exceptions.SoExceptionInfo
   parent: SuperOffice.Exceptions
   isExternal: true
-  href: SuperOffice.Exceptions.SoExceptionInfo.html
   name: SoExceptionInfo
   nameWithType: SoExceptionInfo
   fullName: SuperOffice.Exceptions.SoExceptionInfo
 - uid: SuperOffice.Exceptions.SoHttpResponseException
   commentId: T:SuperOffice.Exceptions.SoHttpResponseException
   isExternal: true
-  href: SuperOffice.Exceptions.SoHttpResponseException.html
   name: SoHttpResponseException
   nameWithType: SoHttpResponseException
   fullName: SuperOffice.Exceptions.SoHttpResponseException
 - uid: SuperOffice.Exceptions.SoIllegalOperationException
   commentId: T:SuperOffice.Exceptions.SoIllegalOperationException
   isExternal: true
-  href: SuperOffice.Exceptions.SoIllegalOperationException.html
   name: SoIllegalOperationException
   nameWithType: SoIllegalOperationException
   fullName: SuperOffice.Exceptions.SoIllegalOperationException
 - uid: SuperOffice.Exceptions.SoIllegalXmlException
   commentId: T:SuperOffice.Exceptions.SoIllegalXmlException
   isExternal: true
-  href: SuperOffice.Exceptions.SoIllegalXmlException.html
   name: SoIllegalXmlException
   nameWithType: SoIllegalXmlException
   fullName: SuperOffice.Exceptions.SoIllegalXmlException
 - uid: SuperOffice.Exceptions.SoInvalidArgumentException
   commentId: T:SuperOffice.Exceptions.SoInvalidArgumentException
   isExternal: true
-  href: SuperOffice.Exceptions.SoInvalidArgumentException.html
   name: SoInvalidArgumentException
   nameWithType: SoInvalidArgumentException
   fullName: SuperOffice.Exceptions.SoInvalidArgumentException
 - uid: SuperOffice.Exceptions.SoInvalidCharacterException
   commentId: T:SuperOffice.Exceptions.SoInvalidCharacterException
   isExternal: true
-  href: SuperOffice.Exceptions.SoInvalidCharacterException.html
   name: SoInvalidCharacterException
   nameWithType: SoInvalidCharacterException
   fullName: SuperOffice.Exceptions.SoInvalidCharacterException
 - uid: SuperOffice.Exceptions.SoInvalidPasswordException
   commentId: T:SuperOffice.Exceptions.SoInvalidPasswordException
   isExternal: true
-  href: SuperOffice.Exceptions.SoInvalidPasswordException.html
   name: SoInvalidPasswordException
   nameWithType: SoInvalidPasswordException
   fullName: SuperOffice.Exceptions.SoInvalidPasswordException
 - uid: SuperOffice.Exceptions.SoInvalidSignatureException
   commentId: T:SuperOffice.Exceptions.SoInvalidSignatureException
   isExternal: true
-  href: SuperOffice.Exceptions.SoInvalidSignatureException.html
   name: SoInvalidSignatureException
   nameWithType: SoInvalidSignatureException
   fullName: SuperOffice.Exceptions.SoInvalidSignatureException
 - uid: SuperOffice.Exceptions.SoLicenseException
   commentId: T:SuperOffice.Exceptions.SoLicenseException
   isExternal: true
-  href: SuperOffice.Exceptions.SoLicenseException.html
   name: SoLicenseException
   nameWithType: SoLicenseException
   fullName: SuperOffice.Exceptions.SoLicenseException
 - uid: SuperOffice.Exceptions.SoMassOperationException
   commentId: T:SuperOffice.Exceptions.SoMassOperationException
   isExternal: true
-  href: SuperOffice.Exceptions.SoMassOperationException.html
   name: SoMassOperationException
   nameWithType: SoMassOperationException
   fullName: SuperOffice.Exceptions.SoMassOperationException
 - uid: SuperOffice.Exceptions.SoNotFoundException
   commentId: T:SuperOffice.Exceptions.SoNotFoundException
   isExternal: true
-  href: SuperOffice.Exceptions.SoNotFoundException.html
   name: SoNotFoundException
   nameWithType: SoNotFoundException
   fullName: SuperOffice.Exceptions.SoNotFoundException
 - uid: SuperOffice.Exceptions.SoNotImplementedException
   commentId: T:SuperOffice.Exceptions.SoNotImplementedException
   isExternal: true
-  href: SuperOffice.Exceptions.SoNotImplementedException.html
   name: SoNotImplementedException
   nameWithType: SoNotImplementedException
   fullName: SuperOffice.Exceptions.SoNotImplementedException
 - uid: SuperOffice.Exceptions.SoNotSupportedException
   commentId: T:SuperOffice.Exceptions.SoNotSupportedException
   isExternal: true
-  href: SuperOffice.Exceptions.SoNotSupportedException.html
   name: SoNotSupportedException
   nameWithType: SoNotSupportedException
   fullName: SuperOffice.Exceptions.SoNotSupportedException
 - uid: SuperOffice.Exceptions.SoSentryException
   commentId: T:SuperOffice.Exceptions.SoSentryException
   isExternal: true
-  href: SuperOffice.Exceptions.SoSentryException.html
   name: SoSentryException
   nameWithType: SoSentryException
   fullName: SuperOffice.Exceptions.SoSentryException
 - uid: SuperOffice.Exceptions.SoServerException
   commentId: T:SuperOffice.Exceptions.SoServerException
   isExternal: true
-  href: SuperOffice.Exceptions.SoServerException.html
   name: SoServerException
   nameWithType: SoServerException
   fullName: SuperOffice.Exceptions.SoServerException
 - uid: SuperOffice.Exceptions.SoSessionException
   commentId: T:SuperOffice.Exceptions.SoSessionException
   isExternal: true
-  href: SuperOffice.Exceptions.SoSessionException.html
   name: SoSessionException
   nameWithType: SoSessionException
   fullName: SuperOffice.Exceptions.SoSessionException
 - uid: SuperOffice.Exceptions.SoValidationException
   commentId: T:SuperOffice.Exceptions.SoValidationException
   isExternal: true
-  href: SuperOffice.Exceptions.SoValidationException.html
   name: SoValidationException
   nameWithType: SoValidationException
   fullName: SuperOffice.Exceptions.SoValidationException
 - uid: SuperOffice.Exceptions.SoFileNotFoundException
   commentId: T:SuperOffice.Exceptions.SoFileNotFoundException
   isExternal: true
-  href: SuperOffice.Exceptions.SoFileNotFoundException.html
   name: SoFileNotFoundException
   nameWithType: SoFileNotFoundException
   fullName: SuperOffice.Exceptions.SoFileNotFoundException
 - uid: SuperOffice.Exceptions
   commentId: N:SuperOffice.Exceptions
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Exceptions
   nameWithType: SuperOffice.Exceptions
   fullName: SuperOffice.Exceptions
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Exceptions
-    name: Exceptions
-    isExternal: true
-    href: SuperOffice.Exceptions.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Exceptions
-    name: Exceptions
-    isExternal: true
-    href: SuperOffice.Exceptions.html

@@ -18,24 +18,27 @@ items:
   nameWithType: DateTimeOperators
   fullName: SuperOffice.ErpSync.DateTimeOperators
   type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Supported operators for datetime fields through advanced search
-  example: []
+  summary: "\nSupported operators for datetime fields through advanced search\n"
   syntax:
-    content: public static class DateTimeOperators
-    content.vb: Public Module DateTimeOperators
+    content: 'public static class DateTimeOperators : Object'
+    content.vb: >-
+      Public Module DateTimeOperators
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.ErpSync.DateTimeOperators.EQUALS
   commentId: F:SuperOffice.ErpSync.DateTimeOperators.EQUALS
   id: EQUALS
@@ -47,16 +50,24 @@ items:
   nameWithType: DateTimeOperators.EQUALS
   fullName: SuperOffice.ErpSync.DateTimeOperators.EQUALS
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: "\"Equals\" operator. Connector should be the one to determine whether or not to compare just dates, just times or both date and time."
-  example: []
+  summary: "\n&quot;Equals&quot; operator. Connector should be the one to determine whether or not to compare just dates, just times or both date and time.\n"
   syntax:
     content: public const string EQUALS = "="
     return:
       type: System.String
     content.vb: Public Const EQUALS As String = "="
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.ErpSync.DateTimeOperators.BEFORE
   commentId: F:SuperOffice.ErpSync.DateTimeOperators.BEFORE
   id: BEFORE
@@ -68,16 +79,24 @@ items:
   nameWithType: DateTimeOperators.BEFORE
   fullName: SuperOffice.ErpSync.DateTimeOperators.BEFORE
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: "\"Before\" operator. Connector should be the one to determine whether or not to compare just dates, just times or both date and time."
-  example: []
+  summary: "\n&quot;Before&quot; operator. Connector should be the one to determine whether or not to compare just dates, just times or both date and time.\n"
   syntax:
     content: public const string BEFORE = "before"
     return:
       type: System.String
     content.vb: Public Const BEFORE As String = "before"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.ErpSync.DateTimeOperators.AFTER
   commentId: F:SuperOffice.ErpSync.DateTimeOperators.AFTER
   id: AFTER
@@ -89,16 +108,24 @@ items:
   nameWithType: DateTimeOperators.AFTER
   fullName: SuperOffice.ErpSync.DateTimeOperators.AFTER
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: "\"After\" operator. Connector should be the one to determine whether or not to compare just dates, just times or both date and time."
-  example: []
+  summary: "\n&quot;After&quot; operator. Connector should be the one to determine whether or not to compare just dates, just times or both date and time.\n"
   syntax:
     content: public const string AFTER = "after"
     return:
       type: System.String
     content.vb: Public Const AFTER As String = "after"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.ErpSync.DateTimeOperators.BEFORE_OR_EQUAL
   commentId: F:SuperOffice.ErpSync.DateTimeOperators.BEFORE_OR_EQUAL
   id: BEFORE_OR_EQUAL
@@ -110,16 +137,24 @@ items:
   nameWithType: DateTimeOperators.BEFORE_OR_EQUAL
   fullName: SuperOffice.ErpSync.DateTimeOperators.BEFORE_OR_EQUAL
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: "\"Before or equal\" operator. Connector should be the one to determine whether or not to compare just dates, just times or both date and time."
-  example: []
+  summary: "\n&quot;Before or equal&quot; operator. Connector should be the one to determine whether or not to compare just dates, just times or both date and time.\n"
   syntax:
     content: public const string BEFORE_OR_EQUAL = "beforeOrEqual"
     return:
       type: System.String
     content.vb: Public Const BEFORE_OR_EQUAL As String = "beforeOrEqual"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.ErpSync.DateTimeOperators.AFTER_OR_EQUAL
   commentId: F:SuperOffice.ErpSync.DateTimeOperators.AFTER_OR_EQUAL
   id: AFTER_OR_EQUAL
@@ -131,16 +166,24 @@ items:
   nameWithType: DateTimeOperators.AFTER_OR_EQUAL
   fullName: SuperOffice.ErpSync.DateTimeOperators.AFTER_OR_EQUAL
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: "\"After or equal\" operator. Connector should be the one to determine whether or not to compare just dates, just times or both date and time."
-  example: []
+  summary: "\n&quot;After or equal&quot; operator. Connector should be the one to determine whether or not to compare just dates, just times or both date and time.\n"
   syntax:
     content: public const string AFTER_OR_EQUAL = "afterOrEqual"
     return:
       type: System.String
     content.vb: Public Const AFTER_OR_EQUAL As String = "afterOrEqual"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.ErpSync.DateTimeOperators.BETWEEN
   commentId: F:SuperOffice.ErpSync.DateTimeOperators.BETWEEN
   id: BETWEEN
@@ -152,278 +195,41 @@ items:
   nameWithType: DateTimeOperators.BETWEEN
   fullName: SuperOffice.ErpSync.DateTimeOperators.BETWEEN
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: "\"Between\" operator. Connector should be the one to determine whether or not to compare just dates, just times or both date and time. Search values will be presented in the desired order."
-  example: []
+  summary: "\n&quot;Between&quot; operator. Connector should be the one to determine whether or not to compare just dates, just times or both date and time. Search values will be presented in the desired order.\n"
   syntax:
     content: public const string BETWEEN = "between"
     return:
       type: System.String
     content.vb: Public Const BETWEEN As String = "between"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.ErpSync
   commentId: N:SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync
   nameWithType: SuperOffice.ErpSync
   fullName: SuperOffice.ErpSync
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -431,10 +237,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

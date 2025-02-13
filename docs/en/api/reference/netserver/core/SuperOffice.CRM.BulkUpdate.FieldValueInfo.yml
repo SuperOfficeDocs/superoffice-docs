@@ -24,8 +24,8 @@ items:
   - SuperOffice.CRM.BulkUpdate.FieldValueInfo.KeyType
   - SuperOffice.CRM.BulkUpdate.FieldValueInfo.Mandatory
   - SuperOffice.CRM.BulkUpdate.FieldValueInfo.OperationInfos
-  - SuperOffice.CRM.BulkUpdate.FieldValueInfo.ValueType
   - SuperOffice.CRM.BulkUpdate.FieldValueInfo.Values
+  - SuperOffice.CRM.BulkUpdate.FieldValueInfo.ValueType
   langs:
   - csharp
   - vb
@@ -33,27 +33,31 @@ items:
   nameWithType: FieldValueInfo
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: 'public class FieldValueInfo : ICloneable'
-    content.vb: Public Class FieldValueInfo Implements ICloneable
+    content: 'public class FieldValueInfo : Object, ICloneable'
+    content.vb: >-
+      Public Class FieldValueInfo
+          Inherits Object
+          Implements ICloneable
   inheritance:
   - System.Object
   implements:
   - System.ICloneable
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.BulkUpdate.FieldValueInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.BulkUpdate.FieldValueInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.CanSupportMultiUse
   commentId: F:SuperOffice.CRM.BulkUpdate.FieldValueInfo.CanSupportMultiUse
   id: CanSupportMultiUse
@@ -65,6 +69,9 @@ items:
   nameWithType: FieldValueInfo.CanSupportMultiUse
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.CanSupportMultiUse
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -73,6 +80,10 @@ items:
     return:
       type: System.Boolean
     content.vb: Public CanSupportMultiUse As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.DefaultShowInGui
   commentId: F:SuperOffice.CRM.BulkUpdate.FieldValueInfo.DefaultShowInGui
   id: DefaultShowInGui
@@ -84,6 +95,9 @@ items:
   nameWithType: FieldValueInfo.DefaultShowInGui
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.DefaultShowInGui
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -92,6 +106,10 @@ items:
     return:
       type: System.Boolean
     content.vb: Public DefaultShowInGui As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.DefaultShowInSelector
   commentId: F:SuperOffice.CRM.BulkUpdate.FieldValueInfo.DefaultShowInSelector
   id: DefaultShowInSelector
@@ -103,6 +121,9 @@ items:
   nameWithType: FieldValueInfo.DefaultShowInSelector
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.DefaultShowInSelector
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -111,6 +132,10 @@ items:
     return:
       type: System.Boolean
     content.vb: Public DefaultShowInSelector As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.IsActive
   commentId: F:SuperOffice.CRM.BulkUpdate.FieldValueInfo.IsActive
   id: IsActive
@@ -122,6 +147,9 @@ items:
   nameWithType: FieldValueInfo.IsActive
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.IsActive
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -130,6 +158,10 @@ items:
     return:
       type: System.Boolean
     content.vb: Public IsActive As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.KeyType
   commentId: F:SuperOffice.CRM.BulkUpdate.FieldValueInfo.KeyType
   id: KeyType
@@ -141,6 +173,9 @@ items:
   nameWithType: FieldValueInfo.KeyType
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.KeyType
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -149,6 +184,10 @@ items:
     return:
       type: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType
     content.vb: Public KeyType As FieldValueInfo.EKeyType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.Key
   commentId: F:SuperOffice.CRM.BulkUpdate.FieldValueInfo.Key
   id: Key
@@ -160,6 +199,9 @@ items:
   nameWithType: FieldValueInfo.Key
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.Key
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -168,6 +210,10 @@ items:
     return:
       type: System.String
     content.vb: Public Key As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.ValueType
   commentId: F:SuperOffice.CRM.BulkUpdate.FieldValueInfo.ValueType
   id: ValueType
@@ -179,6 +225,9 @@ items:
   nameWithType: FieldValueInfo.ValueType
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.ValueType
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -187,6 +236,10 @@ items:
     return:
       type: System.String
     content.vb: Public ValueType As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.Mandatory
   commentId: F:SuperOffice.CRM.BulkUpdate.FieldValueInfo.Mandatory
   id: Mandatory
@@ -198,6 +251,9 @@ items:
   nameWithType: FieldValueInfo.Mandatory
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.Mandatory
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -206,6 +262,10 @@ items:
     return:
       type: System.Boolean
     content.vb: Public Mandatory As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EncodedDisplayName
   commentId: F:SuperOffice.CRM.BulkUpdate.FieldValueInfo.EncodedDisplayName
   id: EncodedDisplayName
@@ -217,6 +277,9 @@ items:
   nameWithType: FieldValueInfo.EncodedDisplayName
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EncodedDisplayName
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -225,6 +288,10 @@ items:
     return:
       type: System.String
     content.vb: Public EncodedDisplayName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EncodedDisplayDescription
   commentId: F:SuperOffice.CRM.BulkUpdate.FieldValueInfo.EncodedDisplayDescription
   id: EncodedDisplayDescription
@@ -236,6 +303,9 @@ items:
   nameWithType: FieldValueInfo.EncodedDisplayDescription
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EncodedDisplayDescription
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -244,6 +314,10 @@ items:
     return:
       type: System.String
     content.vb: Public EncodedDisplayDescription As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.IconHint
   commentId: F:SuperOffice.CRM.BulkUpdate.FieldValueInfo.IconHint
   id: IconHint
@@ -255,6 +329,9 @@ items:
   nameWithType: FieldValueInfo.IconHint
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.IconHint
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -263,6 +340,10 @@ items:
     return:
       type: System.String
     content.vb: Public IconHint As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.ControlInfos
   commentId: F:SuperOffice.CRM.BulkUpdate.FieldValueInfo.ControlInfos
   id: ControlInfos
@@ -274,6 +355,9 @@ items:
   nameWithType: FieldValueInfo.ControlInfos
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.ControlInfos
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -282,6 +366,10 @@ items:
     return:
       type: SuperOffice.CRM.BulkUpdate.ControlInfo[]
     content.vb: Public ControlInfos As ControlInfo()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EncodedDataCaption
   commentId: F:SuperOffice.CRM.BulkUpdate.FieldValueInfo.EncodedDataCaption
   id: EncodedDataCaption
@@ -293,6 +381,9 @@ items:
   nameWithType: FieldValueInfo.EncodedDataCaption
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EncodedDataCaption
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -301,6 +392,10 @@ items:
     return:
       type: System.String
     content.vb: Public EncodedDataCaption As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EncodedDataCaptionDescription
   commentId: F:SuperOffice.CRM.BulkUpdate.FieldValueInfo.EncodedDataCaptionDescription
   id: EncodedDataCaptionDescription
@@ -312,6 +407,9 @@ items:
   nameWithType: FieldValueInfo.EncodedDataCaptionDescription
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EncodedDataCaptionDescription
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -320,6 +418,10 @@ items:
     return:
       type: System.String
     content.vb: Public EncodedDataCaptionDescription As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.CurrentOperationType
   commentId: F:SuperOffice.CRM.BulkUpdate.FieldValueInfo.CurrentOperationType
   id: CurrentOperationType
@@ -331,6 +433,9 @@ items:
   nameWithType: FieldValueInfo.CurrentOperationType
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.CurrentOperationType
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -339,6 +444,10 @@ items:
     return:
       type: System.String
     content.vb: Public CurrentOperationType As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.OperationInfos
   commentId: F:SuperOffice.CRM.BulkUpdate.FieldValueInfo.OperationInfos
   id: OperationInfos
@@ -350,6 +459,9 @@ items:
   nameWithType: FieldValueInfo.OperationInfos
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.OperationInfos
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -358,6 +470,10 @@ items:
     return:
       type: SuperOffice.CRM.BulkUpdate.OperationInfo[]
     content.vb: Public OperationInfos As OperationInfo()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.Values
   commentId: F:SuperOffice.CRM.BulkUpdate.FieldValueInfo.Values
   id: Values
@@ -369,6 +485,9 @@ items:
   nameWithType: FieldValueInfo.Values
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.Values
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -377,6 +496,10 @@ items:
     return:
       type: System.String[]
     content.vb: Public Values As String()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.IsModified
   commentId: M:SuperOffice.CRM.BulkUpdate.FieldValueInfo.IsModified
   id: IsModified
@@ -388,6 +511,9 @@ items:
   nameWithType: FieldValueInfo.IsModified()
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.IsModified()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -395,8 +521,12 @@ items:
     content: public bool IsModified()
     return:
       type: System.Boolean
-    content.vb: Public Function IsModified() As Boolean
+    content.vb: Public Function IsModified As Boolean
   overload: SuperOffice.CRM.BulkUpdate.FieldValueInfo.IsModified*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.#ctor(SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType)
   commentId: M:SuperOffice.CRM.BulkUpdate.FieldValueInfo.#ctor(SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType)
   id: '#ctor(SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType)'
@@ -404,23 +534,27 @@ items:
   langs:
   - csharp
   - vb
-  name: FieldValueInfo(EKeyType)
+  name: FieldValueInfo(FieldValueInfo.EKeyType)
   nameWithType: FieldValueInfo.FieldValueInfo(FieldValueInfo.EKeyType)
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.FieldValueInfo(SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType)
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public FieldValueInfo(FieldValueInfo.EKeyType keyType = EKeyType.kStandard)
+    content: public FieldValueInfo(FieldValueInfo.EKeyType keyType)
     parameters:
     - id: keyType
       type: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType
-    content.vb: Public Sub New(keyType As FieldValueInfo.EKeyType = EKeyType.kStandard)
+    content.vb: Public Sub New(keyType As FieldValueInfo.EKeyType)
   overload: SuperOffice.CRM.BulkUpdate.FieldValueInfo.#ctor*
-  nameWithType.vb: FieldValueInfo.New(FieldValueInfo.EKeyType)
-  fullName.vb: SuperOffice.CRM.BulkUpdate.FieldValueInfo.New(SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType)
-  name.vb: New(EKeyType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.#ctor(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
   commentId: M:SuperOffice.CRM.BulkUpdate.FieldValueInfo.#ctor(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
   id: '#ctor(SuperOffice.CRM.BulkUpdate.FieldValueInfo)'
@@ -432,6 +566,9 @@ items:
   nameWithType: FieldValueInfo.FieldValueInfo(FieldValueInfo)
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.FieldValueInfo(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -442,9 +579,10 @@ items:
       type: SuperOffice.CRM.BulkUpdate.FieldValueInfo
     content.vb: Protected Sub New(rhs As FieldValueInfo)
   overload: SuperOffice.CRM.BulkUpdate.FieldValueInfo.#ctor*
-  nameWithType.vb: FieldValueInfo.New(FieldValueInfo)
-  fullName.vb: SuperOffice.CRM.BulkUpdate.FieldValueInfo.New(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
-  name.vb: New(FieldValueInfo)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.Clone
   commentId: M:SuperOffice.CRM.BulkUpdate.FieldValueInfo.Clone
   id: Clone
@@ -456,411 +594,118 @@ items:
   nameWithType: FieldValueInfo.Clone()
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.Clone()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
-  example: []
   syntax:
     content: public object Clone()
     return:
       type: System.Object
-    content.vb: Public Function Clone() As Object
+    content.vb: Public Function Clone As Object
   overload: SuperOffice.CRM.BulkUpdate.FieldValueInfo.Clone*
-  implements:
-  - System.ICloneable.Clone
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.BulkUpdate
   commentId: N:SuperOffice.CRM.BulkUpdate
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.BulkUpdate
   nameWithType: SuperOffice.CRM.BulkUpdate
   fullName: SuperOffice.CRM.BulkUpdate
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate
-    name: BulkUpdate
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate
-    name: BulkUpdate
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<FieldValueInfo, To>(FieldValueInfo)
-  nameWithType: EnumUtil.MapEnums<FieldValueInfo, To>(FieldValueInfo)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.BulkUpdate.FieldValueInfo, To>(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
-  nameWithType.vb: EnumUtil.MapEnums(Of FieldValueInfo, To)(FieldValueInfo)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.BulkUpdate.FieldValueInfo, To)(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
-  name.vb: MapEnums(Of FieldValueInfo, To)(FieldValueInfo)
+  name: MapEnums<FieldValueInfo, To>()
+  nameWithType: EnumUtil.MapEnums<FieldValueInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.BulkUpdate.FieldValueInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of FieldValueInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.BulkUpdate.FieldValueInfo, To)()
+  name.vb: MapEnums(Of FieldValueInfo, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<FieldValueInfo, To>
+    nameWithType: EnumUtil.MapEnums<FieldValueInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.BulkUpdate.FieldValueInfo, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
-    name: FieldValueInfo
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
-    name: FieldValueInfo
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of FieldValueInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of FieldValueInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.BulkUpdate.FieldValueInfo, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
-    name: FieldValueInfo
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
-    name: FieldValueInfo
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<FieldValueInfo, To>(FieldValueInfo)
-  nameWithType: Converters.MapEnums<FieldValueInfo, To>(FieldValueInfo)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BulkUpdate.FieldValueInfo, To>(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
-  nameWithType.vb: Converters.MapEnums(Of FieldValueInfo, To)(FieldValueInfo)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BulkUpdate.FieldValueInfo, To)(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
-  name.vb: MapEnums(Of FieldValueInfo, To)(FieldValueInfo)
+  name: MapEnums<FieldValueInfo, To>()
+  nameWithType: Converters.MapEnums<FieldValueInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BulkUpdate.FieldValueInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of FieldValueInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BulkUpdate.FieldValueInfo, To)()
+  name.vb: MapEnums(Of FieldValueInfo, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<FieldValueInfo, To>
+    nameWithType: Converters.MapEnums<FieldValueInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.BulkUpdate.FieldValueInfo, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
-    name: FieldValueInfo
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
-    name: FieldValueInfo
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.BulkUpdate.FieldValueInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of FieldValueInfo, To)
+    nameWithType: Converters.MapEnums(Of FieldValueInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.BulkUpdate.FieldValueInfo, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
-    name: FieldValueInfo
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
-    name: FieldValueInfo
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -869,45 +714,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -916,132 +759,70 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType
   commentId: T:SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType
   parent: SuperOffice.CRM.BulkUpdate
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
   name: FieldValueInfo.EKeyType
   nameWithType: FieldValueInfo.EKeyType
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
-    name: FieldValueInfo
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType
-    name: EKeyType
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
-    name: FieldValueInfo
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType
-    name: EKeyType
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.BulkUpdate.ControlInfo[]
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.ControlInfo.html
   name: ControlInfo[]
   nameWithType: ControlInfo[]
   fullName: SuperOffice.CRM.BulkUpdate.ControlInfo[]
@@ -1051,20 +832,23 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.BulkUpdate.ControlInfo
     name: ControlInfo
+    nameWithType: ControlInfo
+    fullName: SuperOffice.CRM.BulkUpdate.ControlInfo
     isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.ControlInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.BulkUpdate.ControlInfo
     name: ControlInfo
+    nameWithType: ControlInfo
+    fullName: SuperOffice.CRM.BulkUpdate.ControlInfo
     isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.ControlInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.BulkUpdate.OperationInfo[]
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.OperationInfo.html
   name: OperationInfo[]
   nameWithType: OperationInfo[]
   fullName: SuperOffice.CRM.BulkUpdate.OperationInfo[]
@@ -1074,91 +858,69 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.BulkUpdate.OperationInfo
     name: OperationInfo
+    nameWithType: OperationInfo
+    fullName: SuperOffice.CRM.BulkUpdate.OperationInfo
     isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.OperationInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.BulkUpdate.OperationInfo
     name: OperationInfo
+    nameWithType: OperationInfo
+    fullName: SuperOffice.CRM.BulkUpdate.OperationInfo
     isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.OperationInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.IsModified*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.FieldValueInfo.IsModified
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html#SuperOffice_CRM_BulkUpdate_FieldValueInfo_IsModified
   name: IsModified
   nameWithType: FieldValueInfo.IsModified
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.IsModified
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.#ctor*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.FieldValueInfo.#ctor
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html#SuperOffice_CRM_BulkUpdate_FieldValueInfo__ctor_SuperOffice_CRM_BulkUpdate_FieldValueInfo_EKeyType_
   name: FieldValueInfo
   nameWithType: FieldValueInfo.FieldValueInfo
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.FieldValueInfo
-  nameWithType.vb: FieldValueInfo.New
-  fullName.vb: SuperOffice.CRM.BulkUpdate.FieldValueInfo.New
-  name.vb: New
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
   commentId: T:SuperOffice.CRM.BulkUpdate.FieldValueInfo
   parent: SuperOffice.CRM.BulkUpdate
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
   name: FieldValueInfo
   nameWithType: FieldValueInfo
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo
 - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.Clone*
   commentId: Overload:SuperOffice.CRM.BulkUpdate.FieldValueInfo.Clone
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html#SuperOffice_CRM_BulkUpdate_FieldValueInfo_Clone
   name: Clone
   nameWithType: FieldValueInfo.Clone
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.Clone
-- uid: System.ICloneable.Clone
-  commentId: M:System.ICloneable.Clone
-  parent: System.ICloneable
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icloneable.clone
-  name: Clone()
-  nameWithType: ICloneable.Clone()
-  fullName: System.ICloneable.Clone()
-  spec.csharp:
-  - uid: System.ICloneable.Clone
-    name: Clone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icloneable.clone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.ICloneable.Clone
-    name: Clone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icloneable.clone
-  - name: (
-  - name: )

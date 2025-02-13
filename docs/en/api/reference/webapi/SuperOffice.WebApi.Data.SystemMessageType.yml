@@ -9,6 +9,7 @@ items:
   - SuperOffice.WebApi.Data.SystemMessageType.Info
   - SuperOffice.WebApi.Data.SystemMessageType.UndefinedValue4
   - SuperOffice.WebApi.Data.SystemMessageType.Unspecified
+  - SuperOffice.WebApi.Data.SystemMessageType.value__
   - SuperOffice.WebApi.Data.SystemMessageType.Warning
   langs:
   - csharp
@@ -16,30 +17,57 @@ items:
   name: SystemMessageType
   nameWithType: SystemMessageType
   fullName: SuperOffice.WebApi.Data.SystemMessageType
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    System Message Type
-
-    This Enum is used by:  Message.type
-
-    This Enum consists of flag values that can be combined.
-  example: []
+  summary: "\nSystem Message Type\nThis Enum is used by:  Message.type\nThis Enum consists of flag values that can be combined.\n"
   syntax:
-    content: >-
-      [Flags]
-
-      public enum SystemMessageType : short
+    content: 'public sealed class SystemMessageType : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class SystemMessageType
+          Inherits
 
-      Public Enum SystemMessageType As Short
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.SystemMessageType.value__
+  commentId: F:SuperOffice.WebApi.Data.SystemMessageType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.SystemMessageType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: SystemMessageType.value__
+  fullName: SuperOffice.WebApi.Data.SystemMessageType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.SystemMessageType.Unspecified
   commentId: F:SuperOffice.WebApi.Data.SystemMessageType.Unspecified
   id: Unspecified
@@ -51,15 +79,24 @@ items:
   nameWithType: SystemMessageType.Unspecified
   fullName: SuperOffice.WebApi.Data.SystemMessageType.Unspecified
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: System message type is unspecified.'
-  example: []
+  summary: "\n0: System message type is unspecified.\n"
   syntax:
-    content: Unspecified = 0
+    content: public const SystemMessageType Unspecified
     return:
       type: SuperOffice.WebApi.Data.SystemMessageType
+    content.vb: Public Const Unspecified As SystemMessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.SystemMessageType.Info
   commentId: F:SuperOffice.WebApi.Data.SystemMessageType.Info
   id: Info
@@ -71,26 +108,24 @@ items:
   nameWithType: SystemMessageType.Info
   fullName: SuperOffice.WebApi.Data.SystemMessageType.Info
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: There is information that the user should be made aware of.'
-  example: []
+  summary: "\n1: There is information that the user should be made aware of.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Info = 1
+    content: public const SystemMessageType Info
     return:
       type: SuperOffice.WebApi.Data.SystemMessageType
-    content.vb: >-
-      <EnumMember>
-
-      Info = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Info As SystemMessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.SystemMessageType.Warning
   commentId: F:SuperOffice.WebApi.Data.SystemMessageType.Warning
   id: Warning
@@ -102,26 +137,24 @@ items:
   nameWithType: SystemMessageType.Warning
   fullName: SuperOffice.WebApi.Data.SystemMessageType.Warning
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: There is a problem that the user must be made aware of.'
-  example: []
+  summary: "\n2: There is a problem that the user must be made aware of.\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Warning = 2
+    content: public const SystemMessageType Warning
     return:
       type: SuperOffice.WebApi.Data.SystemMessageType
-    content.vb: >-
-      <EnumMember>
-
-      Warning = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Warning As SystemMessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.SystemMessageType.Error
   commentId: F:SuperOffice.WebApi.Data.SystemMessageType.Error
   id: Error
@@ -133,16 +166,24 @@ items:
   nameWithType: SystemMessageType.Error
   fullName: SuperOffice.WebApi.Data.SystemMessageType.Error
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: There is a problem that the system will not be able to get around.'
-  example: []
+  summary: "\n3: There is a problem that the system will not be able to get around.\n"
   syntax:
-    content: Error = Info | Warning
+    content: public const SystemMessageType Error
     return:
       type: SuperOffice.WebApi.Data.SystemMessageType
-    content.vb: Error = Info Or Warning
+    content.vb: Public Const Error As SystemMessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.SystemMessageType.UndefinedValue4
   commentId: F:SuperOffice.WebApi.Data.SystemMessageType.UndefinedValue4
   id: UndefinedValue4
@@ -154,69 +195,55 @@ items:
   nameWithType: SystemMessageType.UndefinedValue4
   fullName: SuperOffice.WebApi.Data.SystemMessageType.UndefinedValue4
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: Undefined and generated value 4'
-  example: []
+  summary: "\n4: Undefined and generated value 4\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UndefinedValue4 = 4
+    content: public const SystemMessageType UndefinedValue4
     return:
       type: SuperOffice.WebApi.Data.SystemMessageType
-    content.vb: >-
-      <EnumMember>
-
-      UndefinedValue4 = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UndefinedValue4 As SystemMessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.SystemMessageType
   commentId: T:SuperOffice.WebApi.Data.SystemMessageType
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.SystemMessageType.html
   name: SystemMessageType
   nameWithType: SystemMessageType
   fullName: SuperOffice.WebApi.Data.SystemMessageType

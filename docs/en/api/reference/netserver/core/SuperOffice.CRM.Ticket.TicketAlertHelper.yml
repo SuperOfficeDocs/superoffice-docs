@@ -16,27 +16,30 @@ items:
   nameWithType: TicketAlertHelper
   fullName: SuperOffice.CRM.Ticket.TicketAlertHelper
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
   syntax:
-    content: public class TicketAlertHelper
-    content.vb: Public Class TicketAlertHelper
+    content: 'public class TicketAlertHelper : Object'
+    content.vb: >-
+      Public Class TicketAlertHelper
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Ticket.TicketAlertHelper.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Ticket.TicketAlertHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Ticket.TicketAlertHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Ticket.TicketAlertHelper)
   - SuperOffice.CRM.Ticket.TicketAlertHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Ticket.TicketAlertHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeout(System.Int32,System.Int16,System.Int32)
   commentId: M:SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeout(System.Int32,System.Int16,System.Int32)
   id: ComputeAlertTimeout(System.Int32,System.Int16,System.Int32)
@@ -44,15 +47,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ComputeAlertTimeout(int, short, int)
-  nameWithType: TicketAlertHelper.ComputeAlertTimeout(int, short, int)
-  fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeout(int, short, int)
+  name: ComputeAlertTimeout(Int32, Int16, Int32)
+  nameWithType: TicketAlertHelper.ComputeAlertTimeout(Int32, Int16, Int32)
+  fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeout(System.Int32, System.Int16, System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
-  summary: Calculates alert timeout based on ticket priority
-  example: []
+  summary: "\nCalculates alert timeout based on ticket priority\n"
   syntax:
     content: public DateTime ComputeAlertTimeout(int priority, short alertLevel, int alertStop)
     parameters:
@@ -68,11 +73,12 @@ items:
     return:
       type: System.DateTime
       description: Calculated AlertTimeout
-    content.vb: Public Function ComputeAlertTimeout(priority As Integer, alertLevel As Short, alertStop As Integer) As Date
+    content.vb: Public Function ComputeAlertTimeout(priority As Integer, alertLevel As Short, alertStop As Integer) As DateTime
   overload: SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeout*
-  nameWithType.vb: TicketAlertHelper.ComputeAlertTimeout(Integer, Short, Integer)
-  fullName.vb: SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeout(Integer, Short, Integer)
-  name.vb: ComputeAlertTimeout(Integer, Short, Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalating(SuperOffice.Data.TicketPriorityEscalateAction,SuperOffice.CRM.Rows.TicketRow)
   commentId: M:SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalating(SuperOffice.Data.TicketPriorityEscalateAction,SuperOffice.CRM.Rows.TicketRow)
   id: CheckEscalating(SuperOffice.Data.TicketPriorityEscalateAction,SuperOffice.CRM.Rows.TicketRow)
@@ -84,16 +90,13 @@ items:
   nameWithType: TicketAlertHelper.CheckEscalating(TicketPriorityEscalateAction, TicketRow)
   fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalating(SuperOffice.Data.TicketPriorityEscalateAction, SuperOffice.CRM.Rows.TicketRow)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
-  summary: >-
-    Checks and changes alert level, alert timeout
-
-    This method will check if the ticket should change its alert level based on the priority and action.
-
-    If it is to change, the alert level and alert timeout for the ticket will be updated.
-  example: []
+  summary: "\nChecks and changes alert level, alert timeout\nThis method will check if the ticket should change its alert level based on the priority and action.\nIf it is to change, the alert level and alert timeout for the ticket will be updated.\n"
   syntax:
     content: public void CheckEscalating(TicketPriorityEscalateAction action, TicketRow ticketRow)
     parameters:
@@ -102,9 +105,13 @@ items:
       description: The action, which can be read, changed owner or new info
     - id: ticketRow
       type: SuperOffice.CRM.Rows.TicketRow
-      description: Ticket's row object to check escalation for
+      description: Ticket&apos;s row object to check escalation for
     content.vb: Public Sub CheckEscalating(action As TicketPriorityEscalateAction, ticketRow As TicketRow)
   overload: SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalating*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalation(SuperOffice.CRM.Rows.TicketRow)
   commentId: M:SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalation(SuperOffice.CRM.Rows.TicketRow)
   id: StopEscalation(SuperOffice.CRM.Rows.TicketRow)
@@ -116,22 +123,25 @@ items:
   nameWithType: TicketAlertHelper.StopEscalation(TicketRow)
   fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalation(SuperOffice.CRM.Rows.TicketRow)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
-  summary: >-
-    Stops ticket escalation by reseting alert timeout
-
-    This method recalculates alert stop and resets alert timeout.
-  example: []
+  summary: "\nStops ticket escalation by reseting alert timeout\nThis method recalculates alert stop and resets alert timeout.\n"
   syntax:
     content: public void StopEscalation(TicketRow ticketRow)
     parameters:
     - id: ticketRow
       type: SuperOffice.CRM.Rows.TicketRow
-      description: Ticket's row object to stop escalation for
+      description: Ticket&apos;s row object to stop escalation for
     content.vb: Public Sub StopEscalation(ticketRow As TicketRow)
   overload: SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Ticket.TicketAlertHelper.#ctor
   commentId: M:SuperOffice.CRM.Ticket.TicketAlertHelper.#ctor
   id: '#ctor'
@@ -143,507 +153,189 @@ items:
   nameWithType: TicketAlertHelper.TicketAlertHelper()
   fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.TicketAlertHelper()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Ticket
   syntax:
     content: public TicketAlertHelper()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Ticket.TicketAlertHelper.#ctor*
-  nameWithType.vb: TicketAlertHelper.New()
-  fullName.vb: SuperOffice.CRM.Ticket.TicketAlertHelper.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Ticket
   commentId: N:SuperOffice.CRM.Ticket
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Ticket
   nameWithType: SuperOffice.CRM.Ticket
   fullName: SuperOffice.CRM.Ticket
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Ticket
-    name: Ticket
-    isExternal: true
-    href: SuperOffice.CRM.Ticket.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Ticket
-    name: Ticket
-    isExternal: true
-    href: SuperOffice.CRM.Ticket.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Ticket.TicketAlertHelper.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<TicketAlertHelper, To>(TicketAlertHelper)
-  nameWithType: EnumUtil.MapEnums<TicketAlertHelper, To>(TicketAlertHelper)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Ticket.TicketAlertHelper, To>(SuperOffice.CRM.Ticket.TicketAlertHelper)
-  nameWithType.vb: EnumUtil.MapEnums(Of TicketAlertHelper, To)(TicketAlertHelper)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Ticket.TicketAlertHelper, To)(SuperOffice.CRM.Ticket.TicketAlertHelper)
-  name.vb: MapEnums(Of TicketAlertHelper, To)(TicketAlertHelper)
+  name: MapEnums<TicketAlertHelper, To>()
+  nameWithType: EnumUtil.MapEnums<TicketAlertHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Ticket.TicketAlertHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketAlertHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Ticket.TicketAlertHelper, To)()
+  name.vb: MapEnums(Of TicketAlertHelper, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Ticket.TicketAlertHelper)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TicketAlertHelper, To>
+    nameWithType: EnumUtil.MapEnums<TicketAlertHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Ticket.TicketAlertHelper, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
-    name: TicketAlertHelper
-    isExternal: true
-    href: SuperOffice.CRM.Ticket.TicketAlertHelper.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
-    name: TicketAlertHelper
-    isExternal: true
-    href: SuperOffice.CRM.Ticket.TicketAlertHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Ticket.TicketAlertHelper)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TicketAlertHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of TicketAlertHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Ticket.TicketAlertHelper, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
-    name: TicketAlertHelper
-    isExternal: true
-    href: SuperOffice.CRM.Ticket.TicketAlertHelper.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
-    name: TicketAlertHelper
-    isExternal: true
-    href: SuperOffice.CRM.Ticket.TicketAlertHelper.html
-  - name: )
-- uid: SuperOffice.CRM.Ticket.TicketAlertHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<TicketAlertHelper, To>(TicketAlertHelper)
-  nameWithType: Converters.MapEnums<TicketAlertHelper, To>(TicketAlertHelper)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Ticket.TicketAlertHelper, To>(SuperOffice.CRM.Ticket.TicketAlertHelper)
-  nameWithType.vb: Converters.MapEnums(Of TicketAlertHelper, To)(TicketAlertHelper)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Ticket.TicketAlertHelper, To)(SuperOffice.CRM.Ticket.TicketAlertHelper)
-  name.vb: MapEnums(Of TicketAlertHelper, To)(TicketAlertHelper)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Ticket.TicketAlertHelper)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
-    name: TicketAlertHelper
-    isExternal: true
-    href: SuperOffice.CRM.Ticket.TicketAlertHelper.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
-    name: TicketAlertHelper
-    isExternal: true
-    href: SuperOffice.CRM.Ticket.TicketAlertHelper.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Ticket.TicketAlertHelper)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
-    name: TicketAlertHelper
-    isExternal: true
-    href: SuperOffice.CRM.Ticket.TicketAlertHelper.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
-    name: TicketAlertHelper
-    isExternal: true
-    href: SuperOffice.CRM.Ticket.TicketAlertHelper.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Ticket.TicketAlertHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Ticket.TicketAlertHelper)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<TicketAlertHelper>(TicketAlertHelper, TicketAlertHelper)
-  nameWithType: ObjectExtensions.AssignByReflection<TicketAlertHelper>(TicketAlertHelper, TicketAlertHelper)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Ticket.TicketAlertHelper>(SuperOffice.CRM.Ticket.TicketAlertHelper, SuperOffice.CRM.Ticket.TicketAlertHelper)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TicketAlertHelper)(TicketAlertHelper, TicketAlertHelper)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Ticket.TicketAlertHelper)(SuperOffice.CRM.Ticket.TicketAlertHelper, SuperOffice.CRM.Ticket.TicketAlertHelper)
-  name.vb: AssignByReflection(Of TicketAlertHelper)(TicketAlertHelper, TicketAlertHelper)
+  name: AssignByReflection<TicketAlertHelper>(TicketAlertHelper)
+  nameWithType: ObjectExtensions.AssignByReflection<TicketAlertHelper>(TicketAlertHelper)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Ticket.TicketAlertHelper>(SuperOffice.CRM.Ticket.TicketAlertHelper)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TicketAlertHelper)(TicketAlertHelper)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Ticket.TicketAlertHelper)(SuperOffice.CRM.Ticket.TicketAlertHelper)
+  name.vb: AssignByReflection(Of TicketAlertHelper)(TicketAlertHelper)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Ticket.TicketAlertHelper,SuperOffice.CRM.Ticket.TicketAlertHelper)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TicketAlertHelper>
+    nameWithType: ObjectExtensions.AssignByReflection<TicketAlertHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Ticket.TicketAlertHelper>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
-    name: TicketAlertHelper
-    isExternal: true
-    href: SuperOffice.CRM.Ticket.TicketAlertHelper.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
     name: TicketAlertHelper
+    nameWithType: TicketAlertHelper
+    fullName: SuperOffice.CRM.Ticket.TicketAlertHelper
     isExternal: true
-    href: SuperOffice.CRM.Ticket.TicketAlertHelper.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
-    name: TicketAlertHelper
-    isExternal: true
-    href: SuperOffice.CRM.Ticket.TicketAlertHelper.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Ticket.TicketAlertHelper,SuperOffice.CRM.Ticket.TicketAlertHelper)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TicketAlertHelper)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TicketAlertHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Ticket.TicketAlertHelper)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
     name: TicketAlertHelper
+    nameWithType: TicketAlertHelper
+    fullName: SuperOffice.CRM.Ticket.TicketAlertHelper
     isExternal: true
-    href: SuperOffice.CRM.Ticket.TicketAlertHelper.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
-    name: TicketAlertHelper
-    isExternal: true
-    href: SuperOffice.CRM.Ticket.TicketAlertHelper.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
-    name: TicketAlertHelper
-    isExternal: true
-    href: SuperOffice.CRM.Ticket.TicketAlertHelper.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Ticket.TicketAlertHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<TicketAlertHelper>(TicketAlertHelper)
-  nameWithType: ObjectExtensions.GraphCopy<TicketAlertHelper>(TicketAlertHelper)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Ticket.TicketAlertHelper>(SuperOffice.CRM.Ticket.TicketAlertHelper)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of TicketAlertHelper)(TicketAlertHelper)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Ticket.TicketAlertHelper)(SuperOffice.CRM.Ticket.TicketAlertHelper)
-  name.vb: GraphCopy(Of TicketAlertHelper)(TicketAlertHelper)
+  name: GraphCopy<TicketAlertHelper>()
+  nameWithType: ObjectExtensions.GraphCopy<TicketAlertHelper>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Ticket.TicketAlertHelper>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TicketAlertHelper)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Ticket.TicketAlertHelper)()
+  name.vb: GraphCopy(Of TicketAlertHelper)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Ticket.TicketAlertHelper)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TicketAlertHelper>
+    nameWithType: ObjectExtensions.GraphCopy<TicketAlertHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Ticket.TicketAlertHelper>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
-    name: TicketAlertHelper
-    isExternal: true
-    href: SuperOffice.CRM.Ticket.TicketAlertHelper.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
-    name: TicketAlertHelper
-    isExternal: true
-    href: SuperOffice.CRM.Ticket.TicketAlertHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Ticket.TicketAlertHelper)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TicketAlertHelper)
+    nameWithType: ObjectExtensions.GraphCopy(Of TicketAlertHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Ticket.TicketAlertHelper)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
-    name: TicketAlertHelper
-    isExternal: true
-    href: SuperOffice.CRM.Ticket.TicketAlertHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Ticket.TicketAlertHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TicketAlertHelper, To>()
+  nameWithType: Converters.MapEnums<TicketAlertHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Ticket.TicketAlertHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of TicketAlertHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Ticket.TicketAlertHelper, To)()
+  name.vb: MapEnums(Of TicketAlertHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TicketAlertHelper, To>
+    nameWithType: Converters.MapEnums<TicketAlertHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Ticket.TicketAlertHelper, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.Ticket.TicketAlertHelper
-    name: TicketAlertHelper
-    isExternal: true
-    href: SuperOffice.CRM.Ticket.TicketAlertHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TicketAlertHelper, To)
+    nameWithType: Converters.MapEnums(Of TicketAlertHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Ticket.TicketAlertHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -652,93 +344,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -747,46 +389,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -795,96 +447,95 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeout*
   commentId: Overload:SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeout
   isExternal: true
-  href: SuperOffice.CRM.Ticket.TicketAlertHelper.html#SuperOffice_CRM_Ticket_TicketAlertHelper_ComputeAlertTimeout_System_Int32_System_Int16_System_Int32_
   name: ComputeAlertTimeout
   nameWithType: TicketAlertHelper.ComputeAlertTimeout
   fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.ComputeAlertTimeout
@@ -892,39 +543,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalating*
   commentId: Overload:SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalating
   isExternal: true
-  href: SuperOffice.CRM.Ticket.TicketAlertHelper.html#SuperOffice_CRM_Ticket_TicketAlertHelper_CheckEscalating_SuperOffice_Data_TicketPriorityEscalateAction_SuperOffice_CRM_Rows_TicketRow_
   name: CheckEscalating
   nameWithType: TicketAlertHelper.CheckEscalating
   fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.CheckEscalating
@@ -932,7 +568,6 @@ references:
   commentId: T:SuperOffice.Data.TicketPriorityEscalateAction
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketPriorityEscalateAction.html
   name: TicketPriorityEscalateAction
   nameWithType: TicketPriorityEscalateAction
   fullName: SuperOffice.Data.TicketPriorityEscalateAction
@@ -940,88 +575,30 @@ references:
   commentId: T:SuperOffice.CRM.Rows.TicketRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.TicketRow.html
   name: TicketRow
   nameWithType: TicketRow
   fullName: SuperOffice.CRM.Rows.TicketRow
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalation*
   commentId: Overload:SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalation
   isExternal: true
-  href: SuperOffice.CRM.Ticket.TicketAlertHelper.html#SuperOffice_CRM_Ticket_TicketAlertHelper_StopEscalation_SuperOffice_CRM_Rows_TicketRow_
   name: StopEscalation
   nameWithType: TicketAlertHelper.StopEscalation
   fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.StopEscalation
 - uid: SuperOffice.CRM.Ticket.TicketAlertHelper.#ctor*
   commentId: Overload:SuperOffice.CRM.Ticket.TicketAlertHelper.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Ticket.TicketAlertHelper.html#SuperOffice_CRM_Ticket_TicketAlertHelper__ctor
   name: TicketAlertHelper
   nameWithType: TicketAlertHelper.TicketAlertHelper
   fullName: SuperOffice.CRM.Ticket.TicketAlertHelper.TicketAlertHelper
-  nameWithType.vb: TicketAlertHelper.New
-  fullName.vb: SuperOffice.CRM.Ticket.TicketAlertHelper.New
-  name.vb: New

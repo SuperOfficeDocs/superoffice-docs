@@ -8,8 +8,8 @@ items:
   - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.AllDayRedDay
   - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.AllDaySaturday
   - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.AllDayWorking
-  - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartAfterWork
   - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartAfternoon
+  - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartAfterWork
   - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartBeforeWork
   - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartLong
   - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartMorning
@@ -22,27 +22,67 @@ items:
   - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.MultiDayFixedDays
   - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.MultiDayOffDay
   - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.MultiDayWorking
+  - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.value__
   langs:
   - csharp
   - vb
   name: NextAvailableTimeHelper.AppointmentTimeType
   nameWithType: NextAvailableTimeHelper.AppointmentTimeType
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-  type: Enum
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util
-  summary: Type of appointment
-  example: []
+  summary: "\nType of appointment\n"
   syntax:
-    content: public enum NextAvailableTimeHelper.AppointmentTimeType
-    content.vb: Public Enum NextAvailableTimeHelper.AppointmentTimeType
+    content: 'public sealed class AppointmentTimeType : Enum'
+    content.vb: >-
+      Public NotInheritable Class AppointmentTimeType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType)
-  - SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.String)
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.value__
+  commentId: F:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.value__
+  id: value__
+  parent: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: NextAvailableTimeHelper.AppointmentTimeType.value__
+  fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.value__
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data.Util
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.AllDaySaturday
   commentId: F:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.AllDaySaturday
   id: AllDaySaturday
@@ -54,15 +94,24 @@ items:
   nameWithType: NextAvailableTimeHelper.AppointmentTimeType.AllDaySaturday
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.AllDaySaturday
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util
-  summary: All day on a Saturday.
-  example: []
+  summary: "\nAll day on a Saturday.\n"
   syntax:
-    content: AllDaySaturday = 0
+    content: public const NextAvailableTimeHelper.AppointmentTimeType AllDaySaturday
     return:
       type: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+    content.vb: Public Const AllDaySaturday As NextAvailableTimeHelper.AppointmentTimeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.AllDayWorking
   commentId: F:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.AllDayWorking
   id: AllDayWorking
@@ -74,15 +123,24 @@ items:
   nameWithType: NextAvailableTimeHelper.AppointmentTimeType.AllDayWorking
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.AllDayWorking
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util
-  summary: All day on a working day.
-  example: []
+  summary: "\nAll day on a working day.\n"
   syntax:
-    content: AllDayWorking = 1
+    content: public const NextAvailableTimeHelper.AppointmentTimeType AllDayWorking
     return:
       type: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+    content.vb: Public Const AllDayWorking As NextAvailableTimeHelper.AppointmentTimeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.AllDayRedDay
   commentId: F:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.AllDayRedDay
   id: AllDayRedDay
@@ -94,15 +152,24 @@ items:
   nameWithType: NextAvailableTimeHelper.AppointmentTimeType.AllDayRedDay
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.AllDayRedDay
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util
-  summary: All day on a Sunday/Red day
-  example: []
+  summary: "\nAll day on a Sunday/Red day \n"
   syntax:
-    content: AllDayRedDay = 2
+    content: public const NextAvailableTimeHelper.AppointmentTimeType AllDayRedDay
     return:
       type: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+    content.vb: Public Const AllDayRedDay As NextAvailableTimeHelper.AppointmentTimeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.MultiDayWorking
   commentId: F:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.MultiDayWorking
   id: MultiDayWorking
@@ -114,15 +181,24 @@ items:
   nameWithType: NextAvailableTimeHelper.AppointmentTimeType.MultiDayWorking
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.MultiDayWorking
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util
-  summary: Lasting several days, but only working days
-  example: []
+  summary: "\nLasting several days, but only working days\n"
   syntax:
-    content: MultiDayWorking = 3
+    content: public const NextAvailableTimeHelper.AppointmentTimeType MultiDayWorking
     return:
       type: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+    content.vb: Public Const MultiDayWorking As NextAvailableTimeHelper.AppointmentTimeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.MultiDayOffDay
   commentId: F:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.MultiDayOffDay
   id: MultiDayOffDay
@@ -134,15 +210,24 @@ items:
   nameWithType: NextAvailableTimeHelper.AppointmentTimeType.MultiDayOffDay
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.MultiDayOffDay
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util
-  summary: Lasting several days, but only off days.
-  example: []
+  summary: "\nLasting several days, but only off days.\n"
   syntax:
-    content: MultiDayOffDay = 4
+    content: public const NextAvailableTimeHelper.AppointmentTimeType MultiDayOffDay
     return:
       type: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+    content.vb: Public Const MultiDayOffDay As NextAvailableTimeHelper.AppointmentTimeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.MultiDayFixedDays
   commentId: F:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.MultiDayFixedDays
   id: MultiDayFixedDays
@@ -154,15 +239,24 @@ items:
   nameWithType: NextAvailableTimeHelper.AppointmentTimeType.MultiDayFixedDays
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.MultiDayFixedDays
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util
-  summary: Lasting several days including both work and off days.
-  example: []
+  summary: "\nLasting several days including both work and off days.\n"
   syntax:
-    content: MultiDayFixedDays = 5
+    content: public const NextAvailableTimeHelper.AppointmentTimeType MultiDayFixedDays
     return:
       type: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+    content.vb: Public Const MultiDayFixedDays As NextAvailableTimeHelper.AppointmentTimeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartRedDay
   commentId: F:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartRedDay
   id: DayPartRedDay
@@ -174,15 +268,24 @@ items:
   nameWithType: NextAvailableTimeHelper.AppointmentTimeType.DayPartRedDay
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartRedDay
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util
-  summary: A day part on a Sunday/Red day
-  example: []
+  summary: "\nA day part on a Sunday/Red day\n"
   syntax:
-    content: DayPartRedDay = 6
+    content: public const NextAvailableTimeHelper.AppointmentTimeType DayPartRedDay
     return:
       type: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+    content.vb: Public Const DayPartRedDay As NextAvailableTimeHelper.AppointmentTimeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartSaturday
   commentId: F:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartSaturday
   id: DayPartSaturday
@@ -194,15 +297,24 @@ items:
   nameWithType: NextAvailableTimeHelper.AppointmentTimeType.DayPartSaturday
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartSaturday
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util
-  summary: A day part on a Saturday
-  example: []
+  summary: "\nA day part on a Saturday\n"
   syntax:
-    content: DayPartSaturday = 7
+    content: public const NextAvailableTimeHelper.AppointmentTimeType DayPartSaturday
     return:
       type: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+    content.vb: Public Const DayPartSaturday As NextAvailableTimeHelper.AppointmentTimeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartBeforeWork
   commentId: F:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartBeforeWork
   id: DayPartBeforeWork
@@ -214,15 +326,24 @@ items:
   nameWithType: NextAvailableTimeHelper.AppointmentTimeType.DayPartBeforeWork
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartBeforeWork
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util
-  summary: Part of day, but before the working day starts.
-  example: []
+  summary: "\nPart of day, but before the working day starts.\n"
   syntax:
-    content: DayPartBeforeWork = 8
+    content: public const NextAvailableTimeHelper.AppointmentTimeType DayPartBeforeWork
     return:
       type: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+    content.vb: Public Const DayPartBeforeWork As NextAvailableTimeHelper.AppointmentTimeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartAfterWork
   commentId: F:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartAfterWork
   id: DayPartAfterWork
@@ -234,15 +355,24 @@ items:
   nameWithType: NextAvailableTimeHelper.AppointmentTimeType.DayPartAfterWork
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartAfterWork
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util
-  summary: Part of day but after the working day ends.
-  example: []
+  summary: "\nPart of day but after the working day ends.\n"
   syntax:
-    content: DayPartAfterWork = 9
+    content: public const NextAvailableTimeHelper.AppointmentTimeType DayPartAfterWork
     return:
       type: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+    content.vb: Public Const DayPartAfterWork As NextAvailableTimeHelper.AppointmentTimeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartStretchedBefore
   commentId: F:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartStretchedBefore
   id: DayPartStretchedBefore
@@ -254,15 +384,24 @@ items:
   nameWithType: NextAvailableTimeHelper.AppointmentTimeType.DayPartStretchedBefore
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartStretchedBefore
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util
-  summary: Starts before working hours but lasts into working hours.
-  example: []
+  summary: "\nStarts before working hours but lasts into working hours.\n"
   syntax:
-    content: DayPartStretchedBefore = 10
+    content: public const NextAvailableTimeHelper.AppointmentTimeType DayPartStretchedBefore
     return:
       type: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+    content.vb: Public Const DayPartStretchedBefore As NextAvailableTimeHelper.AppointmentTimeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartWithDinner
   commentId: F:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartWithDinner
   id: DayPartWithDinner
@@ -274,15 +413,24 @@ items:
   nameWithType: NextAvailableTimeHelper.AppointmentTimeType.DayPartWithDinner
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartWithDinner
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util
-  summary: Starts during working hours but stretched more than two hours after working day ends.
-  example: []
+  summary: "\nStarts during working hours but stretched more than two hours after working day ends.\n"
   syntax:
-    content: DayPartWithDinner = 11
+    content: public const NextAvailableTimeHelper.AppointmentTimeType DayPartWithDinner
     return:
       type: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+    content.vb: Public Const DayPartWithDinner As NextAvailableTimeHelper.AppointmentTimeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartStretchedAfter
   commentId: F:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartStretchedAfter
   id: DayPartStretchedAfter
@@ -294,15 +442,24 @@ items:
   nameWithType: NextAvailableTimeHelper.AppointmentTimeType.DayPartStretchedAfter
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartStretchedAfter
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util
-  summary: Starts during working hours but ends after.
-  example: []
+  summary: "\nStarts during working hours but ends after. \n"
   syntax:
-    content: DayPartStretchedAfter = 12
+    content: public const NextAvailableTimeHelper.AppointmentTimeType DayPartStretchedAfter
     return:
       type: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+    content.vb: Public Const DayPartStretchedAfter As NextAvailableTimeHelper.AppointmentTimeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartWithLunch
   commentId: F:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartWithLunch
   id: DayPartWithLunch
@@ -314,15 +471,24 @@ items:
   nameWithType: NextAvailableTimeHelper.AppointmentTimeType.DayPartWithLunch
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartWithLunch
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util
-  summary: Meeting during the working hours where lunch is included
-  example: []
+  summary: "\nMeeting during the working hours where lunch is included\n"
   syntax:
-    content: DayPartWithLunch = 13
+    content: public const NextAvailableTimeHelper.AppointmentTimeType DayPartWithLunch
     return:
       type: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+    content.vb: Public Const DayPartWithLunch As NextAvailableTimeHelper.AppointmentTimeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartMorning
   commentId: F:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartMorning
   id: DayPartMorning
@@ -334,15 +500,24 @@ items:
   nameWithType: NextAvailableTimeHelper.AppointmentTimeType.DayPartMorning
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartMorning
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util
-  summary: Meeting starting after working hours starts and completes before lunch
-  example: []
+  summary: "\nMeeting starting after working hours starts and completes before lunch\n"
   syntax:
-    content: DayPartMorning = 14
+    content: public const NextAvailableTimeHelper.AppointmentTimeType DayPartMorning
     return:
       type: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+    content.vb: Public Const DayPartMorning As NextAvailableTimeHelper.AppointmentTimeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartAfternoon
   commentId: F:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartAfternoon
   id: DayPartAfternoon
@@ -354,15 +529,24 @@ items:
   nameWithType: NextAvailableTimeHelper.AppointmentTimeType.DayPartAfternoon
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartAfternoon
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util
-  summary: Meeting starts after lunch and completes before end of the working day.
-  example: []
+  summary: "\nMeeting starts after lunch and completes before end of the working day.\n"
   syntax:
-    content: DayPartAfternoon = 15
+    content: public const NextAvailableTimeHelper.AppointmentTimeType DayPartAfternoon
     return:
       type: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+    content.vb: Public Const DayPartAfternoon As NextAvailableTimeHelper.AppointmentTimeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartLong
   commentId: F:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartLong
   id: DayPartLong
@@ -374,324 +558,115 @@ items:
   nameWithType: NextAvailableTimeHelper.AppointmentTimeType.DayPartLong
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.DayPartLong
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util
-  summary: All other day meetings
-  example: []
+  summary: "\nAll other day meetings\n"
   syntax:
-    content: DayPartLong = 16
+    content: public const NextAvailableTimeHelper.AppointmentTimeType DayPartLong
     return:
       type: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
+    content.vb: Public Const DayPartLong As NextAvailableTimeHelper.AppointmentTimeType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Data.Util
   commentId: N:SuperOffice.CRM.Data.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data.Util
   nameWithType: SuperOffice.CRM.Data.Util
   fullName: SuperOffice.CRM.Data.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<AppointmentTimeType, To>(AppointmentTimeType)
-  nameWithType: EnumUtil.MapEnums<NextAvailableTimeHelper.AppointmentTimeType, To>(NextAvailableTimeHelper.AppointmentTimeType)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType, To>(SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType)
-  nameWithType.vb: EnumUtil.MapEnums(Of NextAvailableTimeHelper.AppointmentTimeType, To)(NextAvailableTimeHelper.AppointmentTimeType)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType, To)(SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType)
-  name.vb: MapEnums(Of AppointmentTimeType, To)(AppointmentTimeType)
+  name: MapEnums<NextAvailableTimeHelper.AppointmentTimeType, To>()
+  nameWithType: EnumUtil.MapEnums<NextAvailableTimeHelper.AppointmentTimeType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of NextAvailableTimeHelper.AppointmentTimeType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType, To)()
+  name.vb: MapEnums(Of NextAvailableTimeHelper.AppointmentTimeType, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<NextAvailableTimeHelper.AppointmentTimeType, To>
+    nameWithType: EnumUtil.MapEnums<NextAvailableTimeHelper.AppointmentTimeType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-    name: AppointmentTimeType
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-    name: AppointmentTimeType
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of NextAvailableTimeHelper.AppointmentTimeType, To)
+    nameWithType: EnumUtil.MapEnums(Of NextAvailableTimeHelper.AppointmentTimeType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-    name: AppointmentTimeType
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-    name: AppointmentTimeType
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<AppointmentTimeType, To>(AppointmentTimeType)
-  nameWithType: Converters.MapEnums<NextAvailableTimeHelper.AppointmentTimeType, To>(NextAvailableTimeHelper.AppointmentTimeType)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType, To>(SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType)
-  nameWithType.vb: Converters.MapEnums(Of NextAvailableTimeHelper.AppointmentTimeType, To)(NextAvailableTimeHelper.AppointmentTimeType)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType, To)(SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType)
-  name.vb: MapEnums(Of AppointmentTimeType, To)(AppointmentTimeType)
+  name: MapEnums<NextAvailableTimeHelper.AppointmentTimeType, To>()
+  nameWithType: Converters.MapEnums<NextAvailableTimeHelper.AppointmentTimeType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType, To>()
+  nameWithType.vb: Converters.MapEnums(Of NextAvailableTimeHelper.AppointmentTimeType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType, To)()
+  name.vb: MapEnums(Of NextAvailableTimeHelper.AppointmentTimeType, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<NextAvailableTimeHelper.AppointmentTimeType, To>
+    nameWithType: Converters.MapEnums<NextAvailableTimeHelper.AppointmentTimeType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-    name: AppointmentTimeType
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-    name: AppointmentTimeType
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of NextAvailableTimeHelper.AppointmentTimeType, To)
+    nameWithType: Converters.MapEnums(Of NextAvailableTimeHelper.AppointmentTimeType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-    name: AppointmentTimeType
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-    name: AppointmentTimeType
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
-  - name: )
-- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<AppointmentTimeType>(AppointmentTimeType, AppointmentTimeType)
-  nameWithType: ObjectExtensions.AssignByReflection<NextAvailableTimeHelper.AppointmentTimeType>(NextAvailableTimeHelper.AppointmentTimeType, NextAvailableTimeHelper.AppointmentTimeType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType>(SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType, SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of NextAvailableTimeHelper.AppointmentTimeType)(NextAvailableTimeHelper.AppointmentTimeType, NextAvailableTimeHelper.AppointmentTimeType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType)(SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType, SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType)
-  name.vb: AssignByReflection(Of AppointmentTimeType)(AppointmentTimeType, AppointmentTimeType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType,SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-    name: AppointmentTimeType
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-    name: AppointmentTimeType
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-    name: AppointmentTimeType
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType,SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-    name: AppointmentTimeType
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-    name: AppointmentTimeType
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-    name: AppointmentTimeType
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
-  - name: )
-- uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<AppointmentTimeType>(AppointmentTimeType)
-  nameWithType: ObjectExtensions.GraphCopy<NextAvailableTimeHelper.AppointmentTimeType>(NextAvailableTimeHelper.AppointmentTimeType)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType>(SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of NextAvailableTimeHelper.AppointmentTimeType)(NextAvailableTimeHelper.AppointmentTimeType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType)(SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType)
-  name.vb: GraphCopy(Of AppointmentTimeType)(AppointmentTimeType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-    name: AppointmentTimeType
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-    name: AppointmentTimeType
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-    name: AppointmentTimeType
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-    name: AppointmentTimeType
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
-  - name: )
-- uid: System.Enum.SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.String)
-  commentId: M:SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  parent: SuperOffice.CRM.RegistryExtensions
-  definition: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  name: GetRegistryRow(Enum, string)
-  nameWithType: RegistryExtensions.GetRegistryRow(Enum, string)
-  fullName: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, string)
-  nameWithType.vb: RegistryExtensions.GetRegistryRow(Enum, String)
-  fullName.vb: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, String)
-  name.vb: GetRegistryRow(Enum, String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-    name: GetRegistryRow
-    isExternal: true
-    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-    name: GetRegistryRow
-    isExternal: true
-    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -700,45 +675,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -747,292 +720,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  commentId: M:SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-  isExternal: true
-  href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  name: GetRegistryRow(Enum, string)
-  nameWithType: RegistryExtensions.GetRegistryRow(Enum, string)
-  fullName: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, string)
-  nameWithType.vb: RegistryExtensions.GetRegistryRow(Enum, String)
-  fullName.vb: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum, String)
-  name.vb: GetRegistryRow(Enum, String)
-  spec.csharp:
-  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-    name: GetRegistryRow
-    isExternal: true
-    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.RegistryExtensions.GetRegistryRow(System.Enum,System.String)
-    name: GetRegistryRow
-    isExternal: true
-    href: SuperOffice.CRM.RegistryExtensions.html#SuperOffice_CRM_RegistryExtensions_GetRegistryRow_System_Enum_System_String_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: SuperOffice.CRM.RegistryExtensions
-  commentId: T:SuperOffice.CRM.RegistryExtensions
-  parent: SuperOffice.CRM
-  isExternal: true
-  href: SuperOffice.CRM.RegistryExtensions.html
-  name: RegistryExtensions
-  nameWithType: RegistryExtensions
-  fullName: SuperOffice.CRM.RegistryExtensions
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-- uid: SuperOffice.CRM
-  commentId: N:SuperOffice.CRM
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM
-  nameWithType: SuperOffice.CRM
-  fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
   commentId: T:SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
   parent: SuperOffice.CRM.Data.Util
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.html
   name: NextAvailableTimeHelper.AppointmentTimeType
   nameWithType: NextAvailableTimeHelper.AppointmentTimeType
   fullName: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-  spec.csharp:
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper
-    name: NextAvailableTimeHelper
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-    name: AppointmentTimeType
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html
-  spec.vb:
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper
-    name: NextAvailableTimeHelper
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType
-    name: AppointmentTimeType
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.NextAvailableTimeHelper.AppointmentTimeType.html

@@ -5,6 +5,9 @@ items:
   id: ThreadManager
   parent: SuperOffice.Threading
   children:
+  - SuperOffice.Threading.ThreadManager._maxSimultaneousThreads
+  - SuperOffice.Threading.ThreadManager._threadOverflows
+  - SuperOffice.Threading.ThreadManager._threadOverflowsForced
   - SuperOffice.Threading.ThreadManager.BeginIgnoreRowSentry
   - SuperOffice.Threading.ThreadManager.BeginIgnoreSentry
   - SuperOffice.Threading.ThreadManager.BeginPreventParallelism
@@ -17,8 +20,8 @@ items:
   - SuperOffice.Threading.ThreadManager.RegisterAsyncContextProvider``2(SuperOffice.Threading.GetThreadState{``0},SuperOffice.Threading.SetThreadState{``0,``1},SuperOffice.Threading.CleanupThreadState{``0,``1})
   - SuperOffice.Threading.ThreadManager.RunningThreadCount
   - SuperOffice.Threading.ThreadManager.SingleThreadMode
-  - SuperOffice.Threading.ThreadManager.SpawnThreadOrExecuteSync``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String)
   - SuperOffice.Threading.ThreadManager.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean,System.Boolean,System.Boolean)
+  - SuperOffice.Threading.ThreadManager.SpawnThreadOrExecuteSync``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String)
   - SuperOffice.Threading.ThreadManager.StartNew(System.Action,System.Boolean)
   - SuperOffice.Threading.ThreadManager.StartNew(System.Action,System.String,System.Boolean)
   - SuperOffice.Threading.ThreadManager.StartNew``1(``0,System.Action{``0},System.Boolean)
@@ -28,9 +31,6 @@ items:
   - SuperOffice.Threading.ThreadManager.WaitForAllOperationsToComplete(System.Int32,System.Boolean)
   - SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(SuperOffice.Threading.AsyncContext[])
   - SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(System.Int32,SuperOffice.Threading.AsyncContext[])
-  - SuperOffice.Threading.ThreadManager._maxSimultaneousThreads
-  - SuperOffice.Threading.ThreadManager._threadOverflows
-  - SuperOffice.Threading.ThreadManager._threadOverflowsForced
   langs:
   - csharp
   - vb
@@ -38,28 +38,28 @@ items:
   nameWithType: ThreadManager
   fullName: SuperOffice.Threading.ThreadManager
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Thread handler for asynchronous operations
-  remarks: >-
-    Use SpawnThread&lt;TArgument&gt;(AsyncOperation&lt;TArgument&gt;,TArgument) to start a new thread in the same 
-
-    <xref href="SuperOffice.SoContext" data-throw-if-not-resolved="false"></xref> as the current thread.
-  example: []
+  summary: "\nThread handler for asynchronous operations\n"
+  remarks: "\nUse <see cref=\"!:SpawnThread&lt;TArgument>(AsyncOperation&lt;TArgument>,TArgument)\"></see> to start a new thread in the same \n<xref href=\"SuperOffice.SoContext\" data-throw-if-not-resolved=\"false\"></xref> as the current thread.\n"
   syntax:
-    content: public static class ThreadManager
-    content.vb: Public Module ThreadManager
+    content: 'public static class ThreadManager : Object'
+    content.vb: >-
+      Public Module ThreadManager
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.Threading.ThreadManager._threadOverflows
   commentId: F:SuperOffice.Threading.ThreadManager._threadOverflows
   id: _threadOverflows
@@ -71,6 +71,9 @@ items:
   nameWithType: ThreadManager._threadOverflows
   fullName: SuperOffice.Threading.ThreadManager._threadOverflows
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
@@ -79,6 +82,12 @@ items:
     return:
       type: System.Int32
     content.vb: Public Shared _threadOverflows As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Threading.ThreadManager._threadOverflowsForced
   commentId: F:SuperOffice.Threading.ThreadManager._threadOverflowsForced
   id: _threadOverflowsForced
@@ -90,6 +99,9 @@ items:
   nameWithType: ThreadManager._threadOverflowsForced
   fullName: SuperOffice.Threading.ThreadManager._threadOverflowsForced
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
@@ -98,6 +110,12 @@ items:
     return:
       type: System.Int32
     content.vb: Public Shared _threadOverflowsForced As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Threading.ThreadManager._maxSimultaneousThreads
   commentId: F:SuperOffice.Threading.ThreadManager._maxSimultaneousThreads
   id: _maxSimultaneousThreads
@@ -109,6 +127,9 @@ items:
   nameWithType: ThreadManager._maxSimultaneousThreads
   fullName: SuperOffice.Threading.ThreadManager._maxSimultaneousThreads
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
@@ -117,6 +138,12 @@ items:
     return:
       type: System.Int32
     content.vb: Public Shared _maxSimultaneousThreads As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Threading.ThreadManager.RegisterAsyncContextProvider``2(SuperOffice.Threading.GetThreadState{``0},SuperOffice.Threading.SetThreadState{``0,``1},SuperOffice.Threading.CleanupThreadState{``0,``1})
   commentId: M:SuperOffice.Threading.ThreadManager.RegisterAsyncContextProvider``2(SuperOffice.Threading.GetThreadState{``0},SuperOffice.Threading.SetThreadState{``0,``1},SuperOffice.Threading.CleanupThreadState{``0,``1})
   id: RegisterAsyncContextProvider``2(SuperOffice.Threading.GetThreadState{``0},SuperOffice.Threading.SetThreadState{``0,``1},SuperOffice.Threading.CleanupThreadState{``0,``1})
@@ -128,11 +155,13 @@ items:
   nameWithType: ThreadManager.RegisterAsyncContextProvider<TThreadState, TThreadCleanupState>(GetThreadState<TThreadState>, SetThreadState<TThreadState, TThreadCleanupState>, CleanupThreadState<TThreadState, TThreadCleanupState>)
   fullName: SuperOffice.Threading.ThreadManager.RegisterAsyncContextProvider<TThreadState, TThreadCleanupState>(SuperOffice.Threading.GetThreadState<TThreadState>, SuperOffice.Threading.SetThreadState<TThreadState, TThreadCleanupState>, SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Register methods for passing state from calling thread to created threads.
-  example: []
+  summary: "\nRegister methods for passing state from calling thread to created threads.\n"
   syntax:
     content: public static void RegisterAsyncContextProvider<TThreadState, TThreadCleanupState>(GetThreadState<TThreadState> getThreadState, SetThreadState<TThreadState, TThreadCleanupState> setThreadState, CleanupThreadState<TThreadState, TThreadCleanupState> cleanupThreadState)
     parameters:
@@ -153,6 +182,12 @@ items:
     content.vb: Public Shared Sub RegisterAsyncContextProvider(Of TThreadState, TThreadCleanupState)(getThreadState As GetThreadState(Of TThreadState), setThreadState As SetThreadState(Of TThreadState, TThreadCleanupState), cleanupThreadState As CleanupThreadState(Of TThreadState, TThreadCleanupState))
   overload: SuperOffice.Threading.ThreadManager.RegisterAsyncContextProvider*
   nameWithType.vb: ThreadManager.RegisterAsyncContextProvider(Of TThreadState, TThreadCleanupState)(GetThreadState(Of TThreadState), SetThreadState(Of TThreadState, TThreadCleanupState), CleanupThreadState(Of TThreadState, TThreadCleanupState))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
   fullName.vb: SuperOffice.Threading.ThreadManager.RegisterAsyncContextProvider(Of TThreadState, TThreadCleanupState)(SuperOffice.Threading.GetThreadState(Of TThreadState), SuperOffice.Threading.SetThreadState(Of TThreadState, TThreadCleanupState), SuperOffice.Threading.CleanupThreadState(Of TThreadState, TThreadCleanupState))
   name.vb: RegisterAsyncContextProvider(Of TThreadState, TThreadCleanupState)(GetThreadState(Of TThreadState), SetThreadState(Of TThreadState, TThreadCleanupState), CleanupThreadState(Of TThreadState, TThreadCleanupState))
 - uid: SuperOffice.Threading.ThreadManager.BeginPreventParallelism
@@ -166,33 +201,26 @@ items:
   nameWithType: ThreadManager.BeginPreventParallelism()
   fullName: SuperOffice.Threading.ThreadManager.BeginPreventParallelism()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: >-
-    Temporary enter a state where all parallel operations started from 
-
-    the current thread is executed syncroniously.  Call using a <code>using (ThreadManager.BeginPreventParallelism()){...}</code> constrinction.
-  example: []
+  summary: "\nTemporary enter a state where all parallel operations started from \nthe current thread is executed syncroniously.  Call using a <code>using (ThreadManager.BeginPreventParallelism()){...}</code> constrinction.\n"
   syntax:
-    content: >-
-      [Obsolete("Incompatible with async/await and not in much use. Planned for removal.")]
-
-      public static ThreadManager.ForceSingleThreadHelper BeginPreventParallelism()
+    content: public static ThreadManager.ForceSingleThreadHelper BeginPreventParallelism()
     return:
       type: SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper
       description: Disposable object.
-    content.vb: >-
-      <Obsolete("Incompatible with async/await and not in much use. Planned for removal.")>
-
-      Public Shared Function BeginPreventParallelism() As ThreadManager.ForceSingleThreadHelper
+    content.vb: Public Shared Function BeginPreventParallelism As ThreadManager.ForceSingleThreadHelper
   overload: SuperOffice.Threading.ThreadManager.BeginPreventParallelism*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Incompatible with async/await and not in much use. Planned for removal.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Threading.ThreadManager.IgnoreRowSentry
   commentId: M:SuperOffice.Threading.ThreadManager.IgnoreRowSentry
   id: IgnoreRowSentry
@@ -204,30 +232,25 @@ items:
   nameWithType: ThreadManager.IgnoreRowSentry()
   fullName: SuperOffice.Threading.ThreadManager.IgnoreRowSentry()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Thread-static, principal-independent "should row sentry be ignored if possible"
-  example: []
+  summary: "\nThread-static, principal-independent &quot;should row sentry be ignored if possible&quot;\n"
   syntax:
-    content: >-
-      [Obsolete("Incompatible with async/await. Use SuperOffice.CRM.Security.Sentry.IgnoreRowSentry() instead.")]
-
-      public static bool IgnoreRowSentry()
+    content: public static bool IgnoreRowSentry()
     return:
       type: System.Boolean
-      description: ''
-    content.vb: >-
-      <Obsolete("Incompatible with async/await. Use SuperOffice.CRM.Security.Sentry.IgnoreRowSentry() instead.")>
-
-      Public Shared Function IgnoreRowSentry() As Boolean
+    content.vb: Public Shared Function IgnoreRowSentry As Boolean
   overload: SuperOffice.Threading.ThreadManager.IgnoreRowSentry*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Incompatible with async/await. Use SuperOffice.CRM.Security.Sentry.IgnoreRowSentry() instead.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Threading.ThreadManager.BeginIgnoreRowSentry
   commentId: M:SuperOffice.Threading.ThreadManager.BeginIgnoreRowSentry
   id: BeginIgnoreRowSentry
@@ -239,27 +262,24 @@ items:
   nameWithType: ThreadManager.BeginIgnoreRowSentry()
   fullName: SuperOffice.Threading.ThreadManager.BeginIgnoreRowSentry()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
   syntax:
-    content: >-
-      [Obsolete("Incompatible with async/await. Use SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry() instead.")]
-
-      public static ThreadManager.IgnoreRowSentryModifier BeginIgnoreRowSentry()
+    content: public static ThreadManager.IgnoreRowSentryModifier BeginIgnoreRowSentry()
     return:
       type: SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier
-    content.vb: >-
-      <Obsolete("Incompatible with async/await. Use SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry() instead.")>
-
-      Public Shared Function BeginIgnoreRowSentry() As ThreadManager.IgnoreRowSentryModifier
+    content.vb: Public Shared Function BeginIgnoreRowSentry As ThreadManager.IgnoreRowSentryModifier
   overload: SuperOffice.Threading.ThreadManager.BeginIgnoreRowSentry*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Incompatible with async/await. Use SuperOffice.CRM.Security.Sentry.BeginIgnoreRowSentry() instead.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Threading.ThreadManager.IgnoreSentry
   commentId: M:SuperOffice.Threading.ThreadManager.IgnoreSentry
   id: IgnoreSentry
@@ -271,30 +291,25 @@ items:
   nameWithType: ThreadManager.IgnoreSentry()
   fullName: SuperOffice.Threading.ThreadManager.IgnoreSentry()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Thread-static, principal-independent "should sentry be ignored"
-  example: []
+  summary: "\nThread-static, principal-independent &quot;should sentry be ignored&quot;\n"
   syntax:
-    content: >-
-      [Obsolete("Incompatible with async/await. Use SuperOffice.CRM.Security.Sentry.IgnoreSentry() instead.")]
-
-      public static bool IgnoreSentry()
+    content: public static bool IgnoreSentry()
     return:
       type: System.Boolean
-      description: ''
-    content.vb: >-
-      <Obsolete("Incompatible with async/await. Use SuperOffice.CRM.Security.Sentry.IgnoreSentry() instead.")>
-
-      Public Shared Function IgnoreSentry() As Boolean
+    content.vb: Public Shared Function IgnoreSentry As Boolean
   overload: SuperOffice.Threading.ThreadManager.IgnoreSentry*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Incompatible with async/await. Use SuperOffice.CRM.Security.Sentry.IgnoreSentry() instead.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Threading.ThreadManager.BeginIgnoreSentry
   commentId: M:SuperOffice.Threading.ThreadManager.BeginIgnoreSentry
   id: BeginIgnoreSentry
@@ -306,27 +321,24 @@ items:
   nameWithType: ThreadManager.BeginIgnoreSentry()
   fullName: SuperOffice.Threading.ThreadManager.BeginIgnoreSentry()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
   syntax:
-    content: >-
-      [Obsolete("Incompatible with async/await. Use SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry() instead.")]
-
-      public static ThreadManager.IgnoreSentryModifier BeginIgnoreSentry()
+    content: public static ThreadManager.IgnoreSentryModifier BeginIgnoreSentry()
     return:
       type: SuperOffice.Threading.ThreadManager.IgnoreSentryModifier
-    content.vb: >-
-      <Obsolete("Incompatible with async/await. Use SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry() instead.")>
-
-      Public Shared Function BeginIgnoreSentry() As ThreadManager.IgnoreSentryModifier
+    content.vb: Public Shared Function BeginIgnoreSentry As ThreadManager.IgnoreSentryModifier
   overload: SuperOffice.Threading.ThreadManager.BeginIgnoreSentry*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Incompatible with async/await. Use SuperOffice.CRM.Security.Sentry.BeginIgnoreSentry() instead.
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Threading.ThreadManager.Invoke(System.Action[])
   commentId: M:SuperOffice.Threading.ThreadManager.Invoke(System.Action[])
   id: Invoke(System.Action[])
@@ -334,37 +346,18 @@ items:
   langs:
   - csharp
   - vb
-  name: Invoke(params Action[])
-  nameWithType: ThreadManager.Invoke(params Action[])
-  fullName: SuperOffice.Threading.ThreadManager.Invoke(params System.Action[])
+  name: Invoke(Action[])
+  nameWithType: ThreadManager.Invoke(Action[])
+  fullName: SuperOffice.Threading.ThreadManager.Invoke(System.Action[])
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Invoke the given actions in parallel, and return when they're all done
-  remarks: >-
-    No synchronization logic is performed between actions, so they have to either be independent
-
-    or synchronized on their own.
-
-    <p></p>
-
-    Early-out logic handles cases of null, 0, or 1 items in the Action array. If single-thread
-
-    mode is active, actions are called in sequence (in array order).
-
-    <p></p>
-
-    Fully concurrent execution is <b>NOT</b> guaranteed - throttling, thread count limits,
-
-    single-thread mode or other factors (such as hardware!) will influence actual execution
-
-    order and concurrency.
-
-    <p></p>
-
-    The method returns when all actions have been performed.
-  example: []
+  summary: "\nInvoke the given actions in parallel, and return when they&apos;re all done\n"
+  remarks: "\nNo synchronization logic is performed between actions, so they have to either be independent\nor synchronized on their own.\n<p></p>\nEarly-out logic handles cases of null, 0, or 1 items in the Action array. If single-thread\nmode is active, actions are called in sequence (in array order).\n<p></p>\nFully concurrent execution is <strong>NOT</strong> guaranteed - throttling, thread count limits,\nsingle-thread mode or other factors (such as hardware!) will influence actual execution\norder and concurrency.\n<p></p>\nThe method returns when all actions have been performed.\n"
   syntax:
     content: public static void Invoke(params Action[] actions)
     parameters:
@@ -373,9 +366,15 @@ items:
       description: Array of actions to be performed in parallell
     content.vb: Public Shared Sub Invoke(ParamArray actions As Action())
   overload: SuperOffice.Threading.ThreadManager.Invoke*
-  nameWithType.vb: ThreadManager.Invoke(ParamArray Action())
-  fullName.vb: SuperOffice.Threading.ThreadManager.Invoke(ParamArray System.Action())
-  name.vb: Invoke(ParamArray Action())
+  nameWithType.vb: ThreadManager.Invoke(Action())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Threading.ThreadManager.Invoke(System.Action())
+  name.vb: Invoke(Action())
 - uid: SuperOffice.Threading.ThreadManager.StartNew(System.Action,System.String,System.Boolean)
   commentId: M:SuperOffice.Threading.ThreadManager.StartNew(System.Action,System.String,System.Boolean)
   id: StartNew(System.Action,System.String,System.Boolean)
@@ -383,18 +382,17 @@ items:
   langs:
   - csharp
   - vb
-  name: StartNew(Action, string, bool)
-  nameWithType: ThreadManager.StartNew(Action, string, bool)
-  fullName: SuperOffice.Threading.ThreadManager.StartNew(System.Action, string, bool)
+  name: StartNew(Action, String, Boolean)
+  nameWithType: ThreadManager.StartNew(Action, String, Boolean)
+  fullName: SuperOffice.Threading.ThreadManager.StartNew(System.Action, System.String, System.Boolean)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: >-
-    Start the given Action in a new thread, and return the corresponding AsynContext so 
-
-    the client can wait for it to complete
-  example: []
+  summary: "\nStart the given Action in a new thread, and return the corresponding AsynContext so \nthe client can wait for it to complete\n"
   syntax:
     content: public static AsyncContext StartNew(Action action, string threadName, bool forceNewThreadCreation = false)
     parameters:
@@ -411,9 +409,12 @@ items:
       description: Async context you can wait for at some later point
     content.vb: Public Shared Function StartNew(action As Action, threadName As String, forceNewThreadCreation As Boolean = False) As AsyncContext
   overload: SuperOffice.Threading.ThreadManager.StartNew*
-  nameWithType.vb: ThreadManager.StartNew(Action, String, Boolean)
-  fullName.vb: SuperOffice.Threading.ThreadManager.StartNew(System.Action, String, Boolean)
-  name.vb: StartNew(Action, String, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Threading.ThreadManager.StartNew(System.Action,System.Boolean)
   commentId: M:SuperOffice.Threading.ThreadManager.StartNew(System.Action,System.Boolean)
   id: StartNew(System.Action,System.Boolean)
@@ -421,18 +422,17 @@ items:
   langs:
   - csharp
   - vb
-  name: StartNew(Action, bool)
-  nameWithType: ThreadManager.StartNew(Action, bool)
-  fullName: SuperOffice.Threading.ThreadManager.StartNew(System.Action, bool)
+  name: StartNew(Action, Boolean)
+  nameWithType: ThreadManager.StartNew(Action, Boolean)
+  fullName: SuperOffice.Threading.ThreadManager.StartNew(System.Action, System.Boolean)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: >-
-    Start the given Action in a new thread, and return the corresponding AsynContext so 
-
-    the client can wait for it to complete
-  example: []
+  summary: "\nStart the given Action in a new thread, and return the corresponding AsynContext so \nthe client can wait for it to complete\n"
   syntax:
     content: public static AsyncContext StartNew(Action action, bool forceNewThreadCreation = false)
     parameters:
@@ -446,9 +446,12 @@ items:
       description: Async context you can wait for at some later point
     content.vb: Public Shared Function StartNew(action As Action, forceNewThreadCreation As Boolean = False) As AsyncContext
   overload: SuperOffice.Threading.ThreadManager.StartNew*
-  nameWithType.vb: ThreadManager.StartNew(Action, Boolean)
-  fullName.vb: SuperOffice.Threading.ThreadManager.StartNew(System.Action, Boolean)
-  name.vb: StartNew(Action, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Threading.ThreadManager.StartNew``1(``0,System.Action{``0},System.String,System.Boolean)
   commentId: M:SuperOffice.Threading.ThreadManager.StartNew``1(``0,System.Action{``0},System.String,System.Boolean)
   id: StartNew``1(``0,System.Action{``0},System.String,System.Boolean)
@@ -456,18 +459,17 @@ items:
   langs:
   - csharp
   - vb
-  name: StartNew<T>(T, Action<T>, string, bool)
-  nameWithType: ThreadManager.StartNew<T>(T, Action<T>, string, bool)
-  fullName: SuperOffice.Threading.ThreadManager.StartNew<T>(T, System.Action<T>, string, bool)
+  name: StartNew<T>(T, Action<T>, String, Boolean)
+  nameWithType: ThreadManager.StartNew<T>(T, Action<T>, String, Boolean)
+  fullName: SuperOffice.Threading.ThreadManager.StartNew<T>(T, System.Action<T>, System.String, System.Boolean)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: >-
-    Start the given Action in a new thread, and return the corresponding AsynContext so 
-
-    the client can wait for it to complete
-  example: []
+  summary: "\nStart the given Action in a new thread, and return the corresponding AsynContext so \nthe client can wait for it to complete\n"
   syntax:
     content: public static AsyncContext StartNew<T>(T argument, Action<T> action, string threadName, bool forceNewThreadCreation = false)
     parameters:
@@ -490,7 +492,13 @@ items:
     content.vb: Public Shared Function StartNew(Of T)(argument As T, action As Action(Of T), threadName As String, forceNewThreadCreation As Boolean = False) As AsyncContext
   overload: SuperOffice.Threading.ThreadManager.StartNew*
   nameWithType.vb: ThreadManager.StartNew(Of T)(T, Action(Of T), String, Boolean)
-  fullName.vb: SuperOffice.Threading.ThreadManager.StartNew(Of T)(T, System.Action(Of T), String, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Threading.ThreadManager.StartNew(Of T)(T, System.Action(Of T), System.String, System.Boolean)
   name.vb: StartNew(Of T)(T, Action(Of T), String, Boolean)
 - uid: SuperOffice.Threading.ThreadManager.StartNew``1(``0,System.Action{``0},System.Boolean)
   commentId: M:SuperOffice.Threading.ThreadManager.StartNew``1(``0,System.Action{``0},System.Boolean)
@@ -499,18 +507,17 @@ items:
   langs:
   - csharp
   - vb
-  name: StartNew<T>(T, Action<T>, bool)
-  nameWithType: ThreadManager.StartNew<T>(T, Action<T>, bool)
-  fullName: SuperOffice.Threading.ThreadManager.StartNew<T>(T, System.Action<T>, bool)
+  name: StartNew<T>(T, Action<T>, Boolean)
+  nameWithType: ThreadManager.StartNew<T>(T, Action<T>, Boolean)
+  fullName: SuperOffice.Threading.ThreadManager.StartNew<T>(T, System.Action<T>, System.Boolean)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: >-
-    Start the given Action in a new thread, and return the corresponding AsynContext so 
-
-    the client can wait for it to complete
-  example: []
+  summary: "\nStart the given Action in a new thread, and return the corresponding AsynContext so \nthe client can wait for it to complete\n"
   syntax:
     content: public static AsyncContext StartNew<T>(T argument, Action<T> action, bool forceNewThreadCreation = false)
     parameters:
@@ -530,7 +537,13 @@ items:
     content.vb: Public Shared Function StartNew(Of T)(argument As T, action As Action(Of T), forceNewThreadCreation As Boolean = False) As AsyncContext
   overload: SuperOffice.Threading.ThreadManager.StartNew*
   nameWithType.vb: ThreadManager.StartNew(Of T)(T, Action(Of T), Boolean)
-  fullName.vb: SuperOffice.Threading.ThreadManager.StartNew(Of T)(T, System.Action(Of T), Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Threading.ThreadManager.StartNew(Of T)(T, System.Action(Of T), System.Boolean)
   name.vb: StartNew(Of T)(T, Action(Of T), Boolean)
 - uid: SuperOffice.Threading.ThreadManager.SpawnThreadOrExecuteSync``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String)
   commentId: M:SuperOffice.Threading.ThreadManager.SpawnThreadOrExecuteSync``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String)
@@ -539,49 +552,20 @@ items:
   langs:
   - csharp
   - vb
-  name: SpawnThreadOrExecuteSync<TArgument>(AsyncOperation<TArgument>, TArgument, string)
-  nameWithType: ThreadManager.SpawnThreadOrExecuteSync<TArgument>(AsyncOperation<TArgument>, TArgument, string)
-  fullName: SuperOffice.Threading.ThreadManager.SpawnThreadOrExecuteSync<TArgument>(SuperOffice.Threading.AsyncOperation<TArgument>, TArgument, string)
+  name: SpawnThreadOrExecuteSync<TArgument>(AsyncOperation<TArgument>, TArgument, String)
+  nameWithType: ThreadManager.SpawnThreadOrExecuteSync<TArgument>(AsyncOperation<TArgument>, TArgument, String)
+  fullName: SuperOffice.Threading.ThreadManager.SpawnThreadOrExecuteSync<TArgument>(SuperOffice.Threading.AsyncOperation<TArgument>, TArgument, System.String)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: >-
-    Spawn a new thread in the same <xref href="SuperOffice.SoContext" data-throw-if-not-resolved="false"></xref> as the currently executed thread,
-
-    or if blocked execute code in current thread.
-
-
-    This method is aimed to be used in critical functions where you want parellism and speed when possible,
-
-    but cannot afford to be blocked by an empty threadpool.
-  remarks: >-
-    If the number of threads currently executing in parallel is less then the currently 
-
-    configured maximum allowed threads for parallel execution, a thread is spawned.  If 
-
-    the number of threads exceeds this limitation, the current thread is blocked until 
-
-    the number of threads currently executing in parallel is less then the currently 
-
-    configured maximum allowed threads for parallel execution.
-
-    <p>Maximum parallel connections are read from the SuperOffice.Configuration.ConfigFile.Threading.MaxParellelThreads
-
-    property of the configuration file</p>
+  summary: "\nSpawn a new thread in the same <xref href=\"SuperOffice.SoContext\" data-throw-if-not-resolved=\"false\"></xref> as the currently executed thread,\nor if blocked execute code in current thread.\n\nThis method is aimed to be used in critical functions where you want parellism and speed when possible,\nbut cannot afford to be blocked by an empty threadpool.\n"
+  remarks: "\nIf the number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution, a thread is spawned.  If \nthe number of threads exceeds this limitation, the current thread is blocked until \nthe number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution.\n<p>Maximum parallel connections are read from the <see cref=\"!:SuperOffice.Configuration.ConfigFile.Threading.MaxParellelThreads\"></see>\nproperty of the configuration file</p>\n"
   example:
-  - >-
-    The method implementing the asynchronous operation needs to implement the delegate AsyncOperation:
-
-    <pre><code class="lang-csharp">private void MyAsyncOperation(AsyncContext context, object argument)
-
-    {
-    	// Do some stuff...
-    }</code></pre>
-
-    The argument passed to the method is an optional argument selected when spawning off the asynchronous task:
-
-    <pre><code class="lang-csharp">AsyncContext ctx = ThreadManager.SpawnThreadOrExecuteSync(new AsyncOperation(MyAsyncOperation), argument);</code></pre>
+  - "\nThe method implementing the asynchronous operation needs to implement the delegate <see cref=\"!:AsyncOperation\"></see>:\n<pre><code>private void MyAsyncOperation(AsyncContext context, object argument)\n{\n	// Do some stuff...\n}</code></pre>\nThe argument passed to the method is an optional argument selected when spawning off the asynchronous task:\n<pre><code>AsyncContext ctx = ThreadManager.SpawnThreadOrExecuteSync(new AsyncOperation(MyAsyncOperation), argument);</code></pre>\n"
   syntax:
     content: public static AsyncContext SpawnThreadOrExecuteSync<TArgument>(AsyncOperation<TArgument> asyncOperation, TArgument argument, string threadName)
     parameters:
@@ -602,7 +586,13 @@ items:
     content.vb: Public Shared Function SpawnThreadOrExecuteSync(Of TArgument)(asyncOperation As AsyncOperation(Of TArgument), argument As TArgument, threadName As String) As AsyncContext
   overload: SuperOffice.Threading.ThreadManager.SpawnThreadOrExecuteSync*
   nameWithType.vb: ThreadManager.SpawnThreadOrExecuteSync(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String)
-  fullName.vb: SuperOffice.Threading.ThreadManager.SpawnThreadOrExecuteSync(Of TArgument)(SuperOffice.Threading.AsyncOperation(Of TArgument), TArgument, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Threading.ThreadManager.SpawnThreadOrExecuteSync(Of TArgument)(SuperOffice.Threading.AsyncOperation(Of TArgument), TArgument, System.String)
   name.vb: SpawnThreadOrExecuteSync(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String)
 - uid: SuperOffice.Threading.ThreadManager.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean,System.Boolean,System.Boolean)
   commentId: M:SuperOffice.Threading.ThreadManager.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean,System.Boolean,System.Boolean)
@@ -611,37 +601,20 @@ items:
   langs:
   - csharp
   - vb
-  name: SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, string, bool, bool, bool)
-  nameWithType: ThreadManager.SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, string, bool, bool, bool)
-  fullName: SuperOffice.Threading.ThreadManager.SpawnThread<TArgument>(SuperOffice.Threading.AsyncOperation<TArgument>, TArgument, string, bool, bool, bool)
+  name: SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, String, Boolean, Boolean, Boolean)
+  nameWithType: ThreadManager.SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, String, Boolean, Boolean, Boolean)
+  fullName: SuperOffice.Threading.ThreadManager.SpawnThread<TArgument>(SuperOffice.Threading.AsyncOperation<TArgument>, TArgument, System.String, System.Boolean, System.Boolean, System.Boolean)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Spawn a new thread in the same <xref href="SuperOffice.SoContext" data-throw-if-not-resolved="false"></xref> as the currently executed thread.
-  remarks: >-
-    If the number of threads currently executing in parallel is less then the currently 
-
-    configured maximum allowed threads for parallel execution, a thread is spawned.  If 
-
-    the number of threads exceeds this limitation, the operation will be performed synchronously on the current thread.
-
-    <p>Maximum parallel connections are read from the SuperOffice.Configuration.ConfigFile.Threading.MaxParellelThreads
-
-    property of the configuration file</p>
+  summary: "\nSpawn a new thread in the same <xref href=\"SuperOffice.SoContext\" data-throw-if-not-resolved=\"false\"></xref> as the currently executed thread.\n"
+  remarks: "\nIf the number of threads currently executing in parallel is less then the currently \nconfigured maximum allowed threads for parallel execution, a thread is spawned.  If \nthe number of threads exceeds this limitation, the operation will be performed synchronously on the current thread.\n<p>Maximum parallel connections are read from the <see cref=\"!:SuperOffice.Configuration.ConfigFile.Threading.MaxParellelThreads\"></see>\nproperty of the configuration file</p>\n"
   example:
-  - >-
-    The method implementing the asynchronous operation needs to implement the delegate AsyncOperation:
-
-    <pre><code class="lang-csharp">private void MyAsyncOperation(AsyncContext context, object argument)
-
-    {
-    	// Do some stuff...
-    }</code></pre>
-
-    The argument passed to the method is an optional argument selected when spawning off the asynchronous task:
-
-    <pre><code class="lang-csharp">AsyncContext ctx = ThreadManager.SpawnThread(new AsyncOperation(MyAsyncOperation), argument);</code></pre>
+  - "\nThe method implementing the asynchronous operation needs to implement the delegate <see cref=\"!:AsyncOperation\"></see>:\n<pre><code>private void MyAsyncOperation(AsyncContext context, object argument)\n{\n	// Do some stuff...\n}</code></pre>\nThe argument passed to the method is an optional argument selected when spawning off the asynchronous task:\n<pre><code>AsyncContext ctx = ThreadManager.SpawnThread(new AsyncOperation(MyAsyncOperation), argument);</code></pre>\n"
   syntax:
     content: public static AsyncContext SpawnThread<TArgument>(AsyncOperation<TArgument> asyncOperation, TArgument argument, string threadName = null, bool breakOnError = true, bool disableTimeLogging = false, bool forceNewThreadEvenIfAtMax = false)
     parameters:
@@ -670,7 +643,13 @@ items:
     content.vb: Public Shared Function SpawnThread(Of TArgument)(asyncOperation As AsyncOperation(Of TArgument), argument As TArgument, threadName As String = Nothing, breakOnError As Boolean = True, disableTimeLogging As Boolean = False, forceNewThreadEvenIfAtMax As Boolean = False) As AsyncContext
   overload: SuperOffice.Threading.ThreadManager.SpawnThread*
   nameWithType.vb: ThreadManager.SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String, Boolean, Boolean, Boolean)
-  fullName.vb: SuperOffice.Threading.ThreadManager.SpawnThread(Of TArgument)(SuperOffice.Threading.AsyncOperation(Of TArgument), TArgument, String, Boolean, Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Threading.ThreadManager.SpawnThread(Of TArgument)(SuperOffice.Threading.AsyncOperation(Of TArgument), TArgument, System.String, System.Boolean, System.Boolean, System.Boolean)
   name.vb: SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String, Boolean, Boolean, Boolean)
 - uid: SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(System.Int32,SuperOffice.Threading.AsyncContext[])
   commentId: M:SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(System.Int32,SuperOffice.Threading.AsyncContext[])
@@ -679,15 +658,17 @@ items:
   langs:
   - csharp
   - vb
-  name: WaitForOperationsToComplete(int, params AsyncContext[])
-  nameWithType: ThreadManager.WaitForOperationsToComplete(int, params AsyncContext[])
-  fullName: SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(int, params SuperOffice.Threading.AsyncContext[])
+  name: WaitForOperationsToComplete(Int32, AsyncContext[])
+  nameWithType: ThreadManager.WaitForOperationsToComplete(Int32, AsyncContext[])
+  fullName: SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(System.Int32, SuperOffice.Threading.AsyncContext[])
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Use this method to wait for all of the given threads to complete, with a timeout
-  example: []
+  summary: "\nUse this method to wait for all of the given threads to complete, with a timeout\n"
   syntax:
     content: public static bool WaitForOperationsToComplete(int timeout, params AsyncContext[] contexts)
     parameters:
@@ -702,9 +683,15 @@ items:
       description: True if all operations had time to complete; false if the timeout triggered
     content.vb: Public Shared Function WaitForOperationsToComplete(timeout As Integer, ParamArray contexts As AsyncContext()) As Boolean
   overload: SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete*
-  nameWithType.vb: ThreadManager.WaitForOperationsToComplete(Integer, ParamArray AsyncContext())
-  fullName.vb: SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(Integer, ParamArray SuperOffice.Threading.AsyncContext())
-  name.vb: WaitForOperationsToComplete(Integer, ParamArray AsyncContext())
+  nameWithType.vb: ThreadManager.WaitForOperationsToComplete(Int32, AsyncContext())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(System.Int32, SuperOffice.Threading.AsyncContext())
+  name.vb: WaitForOperationsToComplete(Int32, AsyncContext())
 - uid: SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(SuperOffice.Threading.AsyncContext[])
   commentId: M:SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(SuperOffice.Threading.AsyncContext[])
   id: WaitForOperationsToComplete(SuperOffice.Threading.AsyncContext[])
@@ -712,18 +699,17 @@ items:
   langs:
   - csharp
   - vb
-  name: WaitForOperationsToComplete(params AsyncContext[])
-  nameWithType: ThreadManager.WaitForOperationsToComplete(params AsyncContext[])
-  fullName: SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(params SuperOffice.Threading.AsyncContext[])
+  name: WaitForOperationsToComplete(AsyncContext[])
+  nameWithType: ThreadManager.WaitForOperationsToComplete(AsyncContext[])
+  fullName: SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(SuperOffice.Threading.AsyncContext[])
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: >-
-    Use this method to wait for all of the given threads to complete; this
-
-    overload will wait forever.
-  example: []
+  summary: "\nUse this method to wait for all of the given threads to complete; this\noverload will wait forever.\n"
   syntax:
     content: public static bool WaitForOperationsToComplete(params AsyncContext[] contexts)
     parameters:
@@ -735,9 +721,15 @@ items:
       description: True if all operations had time to complete; false if the timeout triggered
     content.vb: Public Shared Function WaitForOperationsToComplete(ParamArray contexts As AsyncContext()) As Boolean
   overload: SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete*
-  nameWithType.vb: ThreadManager.WaitForOperationsToComplete(ParamArray AsyncContext())
-  fullName.vb: SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(ParamArray SuperOffice.Threading.AsyncContext())
-  name.vb: WaitForOperationsToComplete(ParamArray AsyncContext())
+  nameWithType.vb: ThreadManager.WaitForOperationsToComplete(AsyncContext())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete(SuperOffice.Threading.AsyncContext())
+  name.vb: WaitForOperationsToComplete(AsyncContext())
 - uid: SuperOffice.Threading.ThreadManager.WaitForAllOperationsToComplete
   commentId: M:SuperOffice.Threading.ThreadManager.WaitForAllOperationsToComplete
   id: WaitForAllOperationsToComplete
@@ -749,15 +741,23 @@ items:
   nameWithType: ThreadManager.WaitForAllOperationsToComplete()
   fullName: SuperOffice.Threading.ThreadManager.WaitForAllOperationsToComplete()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Wait until all asynchronous operations have completed. This includes n-th generation child threads.
-  example: []
+  summary: "\nWait until all asynchronous operations have completed. This includes n-th generation child threads.\n"
   syntax:
     content: public static void WaitForAllOperationsToComplete()
-    content.vb: Public Shared Sub WaitForAllOperationsToComplete()
+    content.vb: Public Shared Sub WaitForAllOperationsToComplete
   overload: SuperOffice.Threading.ThreadManager.WaitForAllOperationsToComplete*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Threading.ThreadManager.WaitForAllOperationsInDatabaseContextToComplete
   commentId: M:SuperOffice.Threading.ThreadManager.WaitForAllOperationsInDatabaseContextToComplete
   id: WaitForAllOperationsInDatabaseContextToComplete
@@ -769,15 +769,23 @@ items:
   nameWithType: ThreadManager.WaitForAllOperationsInDatabaseContextToComplete()
   fullName: SuperOffice.Threading.ThreadManager.WaitForAllOperationsInDatabaseContextToComplete()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Wait until all asynchronous operations in hte current database context have completed. This includes n-th generation child threads.
-  example: []
+  summary: "\nWait until all asynchronous operations in hte current database context have completed. This includes n-th generation child threads.\n"
   syntax:
     content: public static void WaitForAllOperationsInDatabaseContextToComplete()
-    content.vb: Public Shared Sub WaitForAllOperationsInDatabaseContextToComplete()
+    content.vb: Public Shared Sub WaitForAllOperationsInDatabaseContextToComplete
   overload: SuperOffice.Threading.ThreadManager.WaitForAllOperationsInDatabaseContextToComplete*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Threading.ThreadManager.WaitForAllOperationsToComplete(System.Int32,System.Boolean)
   commentId: M:SuperOffice.Threading.ThreadManager.WaitForAllOperationsToComplete(System.Int32,System.Boolean)
   id: WaitForAllOperationsToComplete(System.Int32,System.Boolean)
@@ -785,18 +793,17 @@ items:
   langs:
   - csharp
   - vb
-  name: WaitForAllOperationsToComplete(int, bool)
-  nameWithType: ThreadManager.WaitForAllOperationsToComplete(int, bool)
-  fullName: SuperOffice.Threading.ThreadManager.WaitForAllOperationsToComplete(int, bool)
+  name: WaitForAllOperationsToComplete(Int32, Boolean)
+  nameWithType: ThreadManager.WaitForAllOperationsToComplete(Int32, Boolean)
+  fullName: SuperOffice.Threading.ThreadManager.WaitForAllOperationsToComplete(System.Int32, System.Boolean)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: >-
-    Wait until all asynchronous operations in the current database context have completed, or the time limit (ms) runs out. This includes n-th
-
-    generation child threads
-  example: []
+  summary: "\nWait until all asynchronous operations in the current database context have completed, or the time limit (ms) runs out. This includes n-th\ngeneration child threads\n"
   syntax:
     content: public static bool WaitForAllOperationsToComplete(int timeLimit, bool inCurrentDatabaseContextOnly = false)
     parameters:
@@ -811,9 +818,12 @@ items:
       description: true if all operations finished before the timeout hit
     content.vb: Public Shared Function WaitForAllOperationsToComplete(timeLimit As Integer, inCurrentDatabaseContextOnly As Boolean = False) As Boolean
   overload: SuperOffice.Threading.ThreadManager.WaitForAllOperationsToComplete*
-  nameWithType.vb: ThreadManager.WaitForAllOperationsToComplete(Integer, Boolean)
-  fullName.vb: SuperOffice.Threading.ThreadManager.WaitForAllOperationsToComplete(Integer, Boolean)
-  name.vb: WaitForAllOperationsToComplete(Integer, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.Threading.ThreadManager.RunningThreadCount
   commentId: P:SuperOffice.Threading.ThreadManager.RunningThreadCount
   id: RunningThreadCount
@@ -825,6 +835,9 @@ items:
   nameWithType: ThreadManager.RunningThreadCount
   fullName: SuperOffice.Threading.ThreadManager.RunningThreadCount
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
@@ -835,6 +848,14 @@ items:
       type: System.Int32
     content.vb: Public Shared ReadOnly Property RunningThreadCount As Integer
   overload: SuperOffice.Threading.ThreadManager.RunningThreadCount*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.Threading.ThreadManager.MaxThreads
   commentId: P:SuperOffice.Threading.ThreadManager.MaxThreads
   id: MaxThreads
@@ -846,11 +867,13 @@ items:
   nameWithType: ThreadManager.MaxThreads
   fullName: SuperOffice.Threading.ThreadManager.MaxThreads
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Maximum parallel operations permitted to run simultaneously.  (-1 is infinite)
-  example: []
+  summary: "\nMaximum parallel operations permitted to run simultaneously.  (-1 is infinite)\n"
   syntax:
     content: public static int MaxThreads { get; }
     parameters: []
@@ -858,6 +881,14 @@ items:
       type: System.Int32
     content.vb: Public Shared ReadOnly Property MaxThreads As Integer
   overload: SuperOffice.Threading.ThreadManager.MaxThreads*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.Threading.ThreadManager.SingleThreadMode
   commentId: P:SuperOffice.Threading.ThreadManager.SingleThreadMode
   id: SingleThreadMode
@@ -869,11 +900,13 @@ items:
   nameWithType: ThreadManager.SingleThreadMode
   fullName: SuperOffice.Threading.ThreadManager.SingleThreadMode
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Are we running in single-thread mode?  If true, then all calls to Spawn will execute in-line; and all calls to Wait will return immediately
-  example: []
+  summary: "\nAre we running in single-thread mode?  If true, then all calls to Spawn will execute in-line; and all calls to Wait will return immediately\n"
   syntax:
     content: public static bool SingleThreadMode { get; }
     parameters: []
@@ -881,6 +914,14 @@ items:
       type: System.Boolean
     content.vb: Public Shared ReadOnly Property SingleThreadMode As Boolean
   overload: SuperOffice.Threading.ThreadManager.SingleThreadMode*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.Threading.ThreadManager.HasReachedMaxThreads
   commentId: P:SuperOffice.Threading.ThreadManager.HasReachedMaxThreads
   id: HasReachedMaxThreads
@@ -892,19 +933,13 @@ items:
   nameWithType: ThreadManager.HasReachedMaxThreads
   fullName: SuperOffice.Threading.ThreadManager.HasReachedMaxThreads
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: >-
-    Gets whether the ThreadManager has started more than <xref href="SuperOffice.Threading.ThreadManager.MaxThreads" data-throw-if-not-resolved="false"></xref> threads
-
-    which has yet to complete.
-
-
-    If true, spawning new threads via <xref href="SuperOffice.Threading.ThreadManager.SpawnThread%60%601(SuperOffice.Threading.AsyncOperation%7b%60%600%7d%2c%60%600%2cSystem.String%2cSystem.Boolean%2cSystem.Boolean%2cSystem.Boolean)" data-throw-if-not-resolved="false"></xref>
-
-    will block.
-  example: []
+  summary: "\nGets whether the ThreadManager has started more than <xref href=\"SuperOffice.Threading.ThreadManager.MaxThreads\" data-throw-if-not-resolved=\"false\"></xref> threads\nwhich has yet to complete.\n\nIf true, spawning new threads via <xref href=\"SuperOffice.Threading.ThreadManager.SpawnThread%60%601(SuperOffice.Threading.AsyncOperation%7b%60%600%7d%2c%60%600%2cSystem.String%2cSystem.Boolean%2cSystem.Boolean%2cSystem.Boolean)\" data-throw-if-not-resolved=\"false\"></xref>\nwill block.\n"
   syntax:
     content: public static bool HasReachedMaxThreads { get; }
     parameters: []
@@ -912,6 +947,14 @@ items:
       type: System.Boolean
     content.vb: Public Shared ReadOnly Property HasReachedMaxThreads As Boolean
   overload: SuperOffice.Threading.ThreadManager.HasReachedMaxThreads*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.Threading.ThreadManager.IsWorkerThread
   commentId: P:SuperOffice.Threading.ThreadManager.IsWorkerThread
   id: IsWorkerThread
@@ -923,12 +966,14 @@ items:
   nameWithType: ThreadManager.IsWorkerThread
   fullName: SuperOffice.Threading.ThreadManager.IsWorkerThread
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Threading
-  summary: Is this thread executed by the <xref href="SuperOffice.Threading.ThreadManager" data-throw-if-not-resolved="false"></xref>.
-  remarks: This can be used by a
-  example: []
+  summary: "\nIs this thread executed by the <xref href=\"SuperOffice.Threading.ThreadManager\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  remarks: "\nThis can be used by a\n"
   syntax:
     content: public static bool IsWorkerThread { get; }
     parameters: []
@@ -936,275 +981,31 @@ items:
       type: System.Boolean
     content.vb: Public Shared ReadOnly Property IsWorkerThread As Boolean
   overload: SuperOffice.Threading.ThreadManager.IsWorkerThread*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 references:
-- uid: SuperOffice.SoContext
-  commentId: T:SuperOffice.SoContext
-  isExternal: true
-  href: SuperOffice.SoContext.html
-  name: SoContext
-  nameWithType: SoContext
-  fullName: SuperOffice.SoContext
 - uid: SuperOffice.Threading
   commentId: N:SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Threading
   nameWithType: SuperOffice.Threading
   fullName: SuperOffice.Threading
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Threading
-    name: Threading
-    isExternal: true
-    href: SuperOffice.Threading.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Threading
-    name: Threading
-    isExternal: true
-    href: SuperOffice.Threading.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -1212,17 +1013,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Threading.ThreadManager.RegisterAsyncContextProvider*
   commentId: Overload:SuperOffice.Threading.ThreadManager.RegisterAsyncContextProvider
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_RegisterAsyncContextProvider__2_SuperOffice_Threading_GetThreadState___0__SuperOffice_Threading_SetThreadState___0___1__SuperOffice_Threading_CleanupThreadState___0___1__
   name: RegisterAsyncContextProvider
   nameWithType: ThreadManager.RegisterAsyncContextProvider
   fullName: SuperOffice.Threading.ThreadManager.RegisterAsyncContextProvider
@@ -1230,7 +1026,6 @@ references:
   commentId: T:SuperOffice.Threading.GetThreadState{``0}
   parent: SuperOffice.Threading
   definition: SuperOffice.Threading.GetThreadState`1
-  href: SuperOffice.Threading.GetThreadState-1.html
   name: GetThreadState<TThreadState>
   nameWithType: GetThreadState<TThreadState>
   fullName: SuperOffice.Threading.GetThreadState<TThreadState>
@@ -1240,26 +1035,37 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.GetThreadState`1
     name: GetThreadState
+    nameWithType: GetThreadState
+    fullName: SuperOffice.Threading.GetThreadState
     isExternal: true
-    href: SuperOffice.Threading.GetThreadState-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TThreadState
+    nameWithType: TThreadState
+    fullName: TThreadState
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.GetThreadState`1
     name: GetThreadState
+    nameWithType: GetThreadState
+    fullName: SuperOffice.Threading.GetThreadState
     isExternal: true
-    href: SuperOffice.Threading.GetThreadState-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TThreadState
+    nameWithType: TThreadState
+    fullName: TThreadState
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.SetThreadState{{TThreadState},{TThreadCleanupState}}
   commentId: T:SuperOffice.Threading.SetThreadState{``0,``1}
   parent: SuperOffice.Threading
   definition: SuperOffice.Threading.SetThreadState`2
-  href: SuperOffice.Threading.SetThreadState-2.html
   name: SetThreadState<TThreadState, TThreadCleanupState>
   nameWithType: SetThreadState<TThreadState, TThreadCleanupState>
   fullName: SuperOffice.Threading.SetThreadState<TThreadState, TThreadCleanupState>
@@ -1269,32 +1075,49 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.SetThreadState`2
     name: SetThreadState
+    nameWithType: SetThreadState
+    fullName: SuperOffice.Threading.SetThreadState
     isExternal: true
-    href: SuperOffice.Threading.SetThreadState-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TThreadState
-  - name: ','
-  - name: " "
+    nameWithType: TThreadState
+    fullName: TThreadState
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TThreadCleanupState
+    nameWithType: TThreadCleanupState
+    fullName: TThreadCleanupState
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.SetThreadState`2
     name: SetThreadState
+    nameWithType: SetThreadState
+    fullName: SuperOffice.Threading.SetThreadState
     isExternal: true
-    href: SuperOffice.Threading.SetThreadState-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TThreadState
-  - name: ','
-  - name: " "
+    nameWithType: TThreadState
+    fullName: TThreadState
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TThreadCleanupState
+    nameWithType: TThreadCleanupState
+    fullName: TThreadCleanupState
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.CleanupThreadState{{TThreadState},{TThreadCleanupState}}
   commentId: T:SuperOffice.Threading.CleanupThreadState{``0,``1}
   parent: SuperOffice.Threading
   definition: SuperOffice.Threading.CleanupThreadState`2
-  href: SuperOffice.Threading.CleanupThreadState-2.html
   name: CleanupThreadState<TThreadState, TThreadCleanupState>
   nameWithType: CleanupThreadState<TThreadState, TThreadCleanupState>
   fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>
@@ -1304,31 +1127,48 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.CleanupThreadState`2
     name: CleanupThreadState
+    nameWithType: CleanupThreadState
+    fullName: SuperOffice.Threading.CleanupThreadState
     isExternal: true
-    href: SuperOffice.Threading.CleanupThreadState-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TThreadState
-  - name: ','
-  - name: " "
+    nameWithType: TThreadState
+    fullName: TThreadState
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TThreadCleanupState
+    nameWithType: TThreadCleanupState
+    fullName: TThreadCleanupState
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.CleanupThreadState`2
     name: CleanupThreadState
+    nameWithType: CleanupThreadState
+    fullName: SuperOffice.Threading.CleanupThreadState
     isExternal: true
-    href: SuperOffice.Threading.CleanupThreadState-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TThreadState
-  - name: ','
-  - name: " "
+    nameWithType: TThreadState
+    fullName: TThreadState
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TThreadCleanupState
+    nameWithType: TThreadCleanupState
+    fullName: TThreadCleanupState
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.GetThreadState`1
   commentId: T:SuperOffice.Threading.GetThreadState`1
   isExternal: true
-  href: SuperOffice.Threading.GetThreadState-1.html
   name: GetThreadState<TThreadState>
   nameWithType: GetThreadState<TThreadState>
   fullName: SuperOffice.Threading.GetThreadState<TThreadState>
@@ -1338,25 +1178,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.GetThreadState`1
     name: GetThreadState
+    nameWithType: GetThreadState
+    fullName: SuperOffice.Threading.GetThreadState
     isExternal: true
-    href: SuperOffice.Threading.GetThreadState-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TThreadState
+    nameWithType: TThreadState
+    fullName: TThreadState
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.GetThreadState`1
     name: GetThreadState
+    nameWithType: GetThreadState
+    fullName: SuperOffice.Threading.GetThreadState
     isExternal: true
-    href: SuperOffice.Threading.GetThreadState-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TThreadState
+    nameWithType: TThreadState
+    fullName: TThreadState
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.SetThreadState`2
   commentId: T:SuperOffice.Threading.SetThreadState`2
   isExternal: true
-  href: SuperOffice.Threading.SetThreadState-2.html
   name: SetThreadState<TThreadState, TThreadCleanupState>
   nameWithType: SetThreadState<TThreadState, TThreadCleanupState>
   fullName: SuperOffice.Threading.SetThreadState<TThreadState, TThreadCleanupState>
@@ -1366,31 +1217,48 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.SetThreadState`2
     name: SetThreadState
+    nameWithType: SetThreadState
+    fullName: SuperOffice.Threading.SetThreadState
     isExternal: true
-    href: SuperOffice.Threading.SetThreadState-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TThreadState
-  - name: ','
-  - name: " "
+    nameWithType: TThreadState
+    fullName: TThreadState
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TThreadCleanupState
+    nameWithType: TThreadCleanupState
+    fullName: TThreadCleanupState
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.SetThreadState`2
     name: SetThreadState
+    nameWithType: SetThreadState
+    fullName: SuperOffice.Threading.SetThreadState
     isExternal: true
-    href: SuperOffice.Threading.SetThreadState-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TThreadState
-  - name: ','
-  - name: " "
+    nameWithType: TThreadState
+    fullName: TThreadState
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TThreadCleanupState
+    nameWithType: TThreadCleanupState
+    fullName: TThreadCleanupState
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.CleanupThreadState`2
   commentId: T:SuperOffice.Threading.CleanupThreadState`2
   isExternal: true
-  href: SuperOffice.Threading.CleanupThreadState-2.html
   name: CleanupThreadState<TThreadState, TThreadCleanupState>
   nameWithType: CleanupThreadState<TThreadState, TThreadCleanupState>
   fullName: SuperOffice.Threading.CleanupThreadState<TThreadState, TThreadCleanupState>
@@ -1400,31 +1268,48 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.CleanupThreadState`2
     name: CleanupThreadState
+    nameWithType: CleanupThreadState
+    fullName: SuperOffice.Threading.CleanupThreadState
     isExternal: true
-    href: SuperOffice.Threading.CleanupThreadState-2.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TThreadState
-  - name: ','
-  - name: " "
+    nameWithType: TThreadState
+    fullName: TThreadState
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TThreadCleanupState
+    nameWithType: TThreadCleanupState
+    fullName: TThreadCleanupState
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.CleanupThreadState`2
     name: CleanupThreadState
+    nameWithType: CleanupThreadState
+    fullName: SuperOffice.Threading.CleanupThreadState
     isExternal: true
-    href: SuperOffice.Threading.CleanupThreadState-2.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TThreadState
-  - name: ','
-  - name: " "
+    nameWithType: TThreadState
+    fullName: TThreadState
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: TThreadCleanupState
+    nameWithType: TThreadCleanupState
+    fullName: TThreadCleanupState
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.ThreadManager.BeginPreventParallelism*
   commentId: Overload:SuperOffice.Threading.ThreadManager.BeginPreventParallelism
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_BeginPreventParallelism
   name: BeginPreventParallelism
   nameWithType: ThreadManager.BeginPreventParallelism
   fullName: SuperOffice.Threading.ThreadManager.BeginPreventParallelism
@@ -1432,34 +1317,12 @@ references:
   commentId: T:SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper
   parent: SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html
   name: ThreadManager.ForceSingleThreadHelper
   nameWithType: ThreadManager.ForceSingleThreadHelper
   fullName: SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper
-  spec.csharp:
-  - uid: SuperOffice.Threading.ThreadManager
-    name: ThreadManager
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.html
-  - name: .
-  - uid: SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper
-    name: ForceSingleThreadHelper
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper.html
-  spec.vb:
-  - uid: SuperOffice.Threading.ThreadManager
-    name: ThreadManager
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.html
-  - name: .
-  - uid: SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper
-    name: ForceSingleThreadHelper
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.ForceSingleThreadHelper.html
 - uid: SuperOffice.Threading.ThreadManager.IgnoreRowSentry*
   commentId: Overload:SuperOffice.Threading.ThreadManager.IgnoreRowSentry
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_IgnoreRowSentry
   name: IgnoreRowSentry
   nameWithType: ThreadManager.IgnoreRowSentry
   fullName: SuperOffice.Threading.ThreadManager.IgnoreRowSentry
@@ -1467,17 +1330,12 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.Threading.ThreadManager.BeginIgnoreRowSentry*
   commentId: Overload:SuperOffice.Threading.ThreadManager.BeginIgnoreRowSentry
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_BeginIgnoreRowSentry
   name: BeginIgnoreRowSentry
   nameWithType: ThreadManager.BeginIgnoreRowSentry
   fullName: SuperOffice.Threading.ThreadManager.BeginIgnoreRowSentry
@@ -1485,41 +1343,18 @@ references:
   commentId: T:SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier
   parent: SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html
   name: ThreadManager.IgnoreRowSentryModifier
   nameWithType: ThreadManager.IgnoreRowSentryModifier
   fullName: SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier
-  spec.csharp:
-  - uid: SuperOffice.Threading.ThreadManager
-    name: ThreadManager
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.html
-  - name: .
-  - uid: SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier
-    name: IgnoreRowSentryModifier
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier.html
-  spec.vb:
-  - uid: SuperOffice.Threading.ThreadManager
-    name: ThreadManager
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.html
-  - name: .
-  - uid: SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier
-    name: IgnoreRowSentryModifier
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.IgnoreRowSentryModifier.html
 - uid: SuperOffice.Threading.ThreadManager.IgnoreSentry*
   commentId: Overload:SuperOffice.Threading.ThreadManager.IgnoreSentry
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_IgnoreSentry
   name: IgnoreSentry
   nameWithType: ThreadManager.IgnoreSentry
   fullName: SuperOffice.Threading.ThreadManager.IgnoreSentry
 - uid: SuperOffice.Threading.ThreadManager.BeginIgnoreSentry*
   commentId: Overload:SuperOffice.Threading.ThreadManager.BeginIgnoreSentry
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_BeginIgnoreSentry
   name: BeginIgnoreSentry
   nameWithType: ThreadManager.BeginIgnoreSentry
   fullName: SuperOffice.Threading.ThreadManager.BeginIgnoreSentry
@@ -1527,40 +1362,17 @@ references:
   commentId: T:SuperOffice.Threading.ThreadManager.IgnoreSentryModifier
   parent: SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html
   name: ThreadManager.IgnoreSentryModifier
   nameWithType: ThreadManager.IgnoreSentryModifier
   fullName: SuperOffice.Threading.ThreadManager.IgnoreSentryModifier
-  spec.csharp:
-  - uid: SuperOffice.Threading.ThreadManager
-    name: ThreadManager
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.html
-  - name: .
-  - uid: SuperOffice.Threading.ThreadManager.IgnoreSentryModifier
-    name: IgnoreSentryModifier
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.IgnoreSentryModifier.html
-  spec.vb:
-  - uid: SuperOffice.Threading.ThreadManager
-    name: ThreadManager
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.html
-  - name: .
-  - uid: SuperOffice.Threading.ThreadManager.IgnoreSentryModifier
-    name: IgnoreSentryModifier
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.IgnoreSentryModifier.html
 - uid: SuperOffice.Threading.ThreadManager.Invoke*
   commentId: Overload:SuperOffice.Threading.ThreadManager.Invoke
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_Invoke_System_Action___
   name: Invoke
   nameWithType: ThreadManager.Invoke
   fullName: SuperOffice.Threading.ThreadManager.Invoke
 - uid: System.Action[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.action
   name: Action[]
   nameWithType: Action[]
   fullName: System.Action[]
@@ -1570,29 +1382,29 @@ references:
   spec.csharp:
   - uid: System.Action
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Action
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.Threading.ThreadManager.StartNew*
   commentId: Overload:SuperOffice.Threading.ThreadManager.StartNew
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_StartNew_System_Action_System_String_System_Boolean_
   name: StartNew
   nameWithType: ThreadManager.StartNew
   fullName: SuperOffice.Threading.ThreadManager.StartNew
 - uid: System.Action
-  commentId: T:System.Action
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.action
   name: Action
   nameWithType: Action
   fullName: System.Action
@@ -1600,18 +1412,13 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Threading.AsyncContext
   commentId: T:SuperOffice.Threading.AsyncContext
   parent: SuperOffice.Threading
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html
   name: AsyncContext
   nameWithType: AsyncContext
   fullName: SuperOffice.Threading.AsyncContext
@@ -1622,10 +1429,8 @@ references:
   nameWithType: T
   fullName: T
 - uid: System.Action{{T}}
-  commentId: T:System.Action{`0}
-  parent: System
+  commentId: '!:System.Action{`0}'
   definition: System.Action`1
-  href: https://learn.microsoft.com/dotnet/api/system.action-1
   name: Action<T>
   nameWithType: Action<T>
   fullName: System.Action<T>
@@ -1635,57 +1440,78 @@ references:
   spec.csharp:
   - uid: System.Action`1
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
   - name: <
+    nameWithType: <
+    fullName: <
   - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Action`1
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: T
   name: T
   nameWithType: T
   fullName: T
 - uid: System.Action`1
-  commentId: T:System.Action`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.action-1
-  name: Action<T>
-  nameWithType: Action<T>
-  fullName: System.Action<T>
-  nameWithType.vb: Action(Of T)
-  fullName.vb: System.Action(Of T)
-  name.vb: Action(Of T)
+  name: Action<>
+  nameWithType: Action<>
+  fullName: System.Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: System.Action(Of )
+  name.vb: Action(Of )
   spec.csharp:
   - uid: System.Action`1
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Action`1
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Threading.ThreadManager.SpawnThreadOrExecuteSync*
   commentId: Overload:SuperOffice.Threading.ThreadManager.SpawnThreadOrExecuteSync
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_SpawnThreadOrExecuteSync__1_SuperOffice_Threading_AsyncOperation___0____0_System_String_
   name: SpawnThreadOrExecuteSync
   nameWithType: ThreadManager.SpawnThreadOrExecuteSync
   fullName: SuperOffice.Threading.ThreadManager.SpawnThreadOrExecuteSync
@@ -1693,7 +1519,6 @@ references:
   commentId: T:SuperOffice.Threading.AsyncOperation{``0}
   parent: SuperOffice.Threading
   definition: SuperOffice.Threading.AsyncOperation`1
-  href: SuperOffice.Threading.AsyncOperation-1.html
   name: AsyncOperation<TArgument>
   nameWithType: AsyncOperation<TArgument>
   fullName: SuperOffice.Threading.AsyncOperation<TArgument>
@@ -1703,21 +1528,33 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsyncOperation`1
     name: AsyncOperation
+    nameWithType: AsyncOperation
+    fullName: SuperOffice.Threading.AsyncOperation
     isExternal: true
-    href: SuperOffice.Threading.AsyncOperation-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TArgument
+    nameWithType: TArgument
+    fullName: TArgument
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.AsyncOperation`1
     name: AsyncOperation
+    nameWithType: AsyncOperation
+    fullName: SuperOffice.Threading.AsyncOperation
     isExternal: true
-    href: SuperOffice.Threading.AsyncOperation-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TArgument
+    nameWithType: TArgument
+    fullName: TArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: '{TArgument}'
   commentId: '!:TArgument'
   definition: TArgument
@@ -1727,7 +1564,6 @@ references:
 - uid: SuperOffice.Threading.AsyncOperation`1
   commentId: T:SuperOffice.Threading.AsyncOperation`1
   isExternal: true
-  href: SuperOffice.Threading.AsyncOperation-1.html
   name: AsyncOperation<TArgument>
   nameWithType: AsyncOperation<TArgument>
   fullName: SuperOffice.Threading.AsyncOperation<TArgument>
@@ -1737,21 +1573,33 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsyncOperation`1
     name: AsyncOperation
+    nameWithType: AsyncOperation
+    fullName: SuperOffice.Threading.AsyncOperation
     isExternal: true
-    href: SuperOffice.Threading.AsyncOperation-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TArgument
+    nameWithType: TArgument
+    fullName: TArgument
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Threading.AsyncOperation`1
     name: AsyncOperation
+    nameWithType: AsyncOperation
+    fullName: SuperOffice.Threading.AsyncOperation
     isExternal: true
-    href: SuperOffice.Threading.AsyncOperation-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TArgument
+    nameWithType: TArgument
+    fullName: TArgument
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: TArgument
   name: TArgument
   nameWithType: TArgument
@@ -1759,20 +1607,17 @@ references:
 - uid: SuperOffice.Threading.ThreadManager.SpawnThread*
   commentId: Overload:SuperOffice.Threading.ThreadManager.SpawnThread
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_SpawnThread__1_SuperOffice_Threading_AsyncOperation___0____0_System_String_System_Boolean_System_Boolean_System_Boolean_
   name: SpawnThread
   nameWithType: ThreadManager.SpawnThread
   fullName: SuperOffice.Threading.ThreadManager.SpawnThread
 - uid: SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete*
   commentId: Overload:SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_WaitForOperationsToComplete_System_Int32_SuperOffice_Threading_AsyncContext___
   name: WaitForOperationsToComplete
   nameWithType: ThreadManager.WaitForOperationsToComplete
   fullName: SuperOffice.Threading.ThreadManager.WaitForOperationsToComplete
 - uid: SuperOffice.Threading.AsyncContext[]
   isExternal: true
-  href: SuperOffice.Threading.AsyncContext.html
   name: AsyncContext[]
   nameWithType: AsyncContext[]
   fullName: SuperOffice.Threading.AsyncContext[]
@@ -1782,179 +1627,60 @@ references:
   spec.csharp:
   - uid: SuperOffice.Threading.AsyncContext
     name: AsyncContext
+    nameWithType: AsyncContext
+    fullName: SuperOffice.Threading.AsyncContext
     isExternal: true
-    href: SuperOffice.Threading.AsyncContext.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.Threading.AsyncContext
     name: AsyncContext
+    nameWithType: AsyncContext
+    fullName: SuperOffice.Threading.AsyncContext
     isExternal: true
-    href: SuperOffice.Threading.AsyncContext.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.Threading.ThreadManager.WaitForAllOperationsToComplete*
   commentId: Overload:SuperOffice.Threading.ThreadManager.WaitForAllOperationsToComplete
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_WaitForAllOperationsToComplete
   name: WaitForAllOperationsToComplete
   nameWithType: ThreadManager.WaitForAllOperationsToComplete
   fullName: SuperOffice.Threading.ThreadManager.WaitForAllOperationsToComplete
 - uid: SuperOffice.Threading.ThreadManager.WaitForAllOperationsInDatabaseContextToComplete*
   commentId: Overload:SuperOffice.Threading.ThreadManager.WaitForAllOperationsInDatabaseContextToComplete
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_WaitForAllOperationsInDatabaseContextToComplete
   name: WaitForAllOperationsInDatabaseContextToComplete
   nameWithType: ThreadManager.WaitForAllOperationsInDatabaseContextToComplete
   fullName: SuperOffice.Threading.ThreadManager.WaitForAllOperationsInDatabaseContextToComplete
 - uid: SuperOffice.Threading.ThreadManager.RunningThreadCount*
   commentId: Overload:SuperOffice.Threading.ThreadManager.RunningThreadCount
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_RunningThreadCount
   name: RunningThreadCount
   nameWithType: ThreadManager.RunningThreadCount
   fullName: SuperOffice.Threading.ThreadManager.RunningThreadCount
 - uid: SuperOffice.Threading.ThreadManager.MaxThreads*
   commentId: Overload:SuperOffice.Threading.ThreadManager.MaxThreads
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_MaxThreads
   name: MaxThreads
   nameWithType: ThreadManager.MaxThreads
   fullName: SuperOffice.Threading.ThreadManager.MaxThreads
 - uid: SuperOffice.Threading.ThreadManager.SingleThreadMode*
   commentId: Overload:SuperOffice.Threading.ThreadManager.SingleThreadMode
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_SingleThreadMode
   name: SingleThreadMode
   nameWithType: ThreadManager.SingleThreadMode
   fullName: SuperOffice.Threading.ThreadManager.SingleThreadMode
-- uid: SuperOffice.Threading.ThreadManager.MaxThreads
-  commentId: P:SuperOffice.Threading.ThreadManager.MaxThreads
-  isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_MaxThreads
-  name: MaxThreads
-  nameWithType: ThreadManager.MaxThreads
-  fullName: SuperOffice.Threading.ThreadManager.MaxThreads
-- uid: SuperOffice.Threading.ThreadManager.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean,System.Boolean,System.Boolean)
-  commentId: M:SuperOffice.Threading.ThreadManager.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean,System.Boolean,System.Boolean)
-  isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_SpawnThread__1_SuperOffice_Threading_AsyncOperation___0____0_System_String_System_Boolean_System_Boolean_System_Boolean_
-  name: SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, string, bool, bool, bool)
-  nameWithType: ThreadManager.SpawnThread<TArgument>(AsyncOperation<TArgument>, TArgument, string, bool, bool, bool)
-  fullName: SuperOffice.Threading.ThreadManager.SpawnThread<TArgument>(SuperOffice.Threading.AsyncOperation<TArgument>, TArgument, string, bool, bool, bool)
-  nameWithType.vb: ThreadManager.SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String, Boolean, Boolean, Boolean)
-  fullName.vb: SuperOffice.Threading.ThreadManager.SpawnThread(Of TArgument)(SuperOffice.Threading.AsyncOperation(Of TArgument), TArgument, String, Boolean, Boolean, Boolean)
-  name.vb: SpawnThread(Of TArgument)(AsyncOperation(Of TArgument), TArgument, String, Boolean, Boolean, Boolean)
-  spec.csharp:
-  - uid: SuperOffice.Threading.ThreadManager.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean,System.Boolean,System.Boolean)
-    name: SpawnThread
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_SpawnThread__1_SuperOffice_Threading_AsyncOperation___0____0_System_String_System_Boolean_System_Boolean_System_Boolean_
-  - name: <
-  - name: TArgument
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    isExternal: true
-    href: SuperOffice.Threading.AsyncOperation-1.html
-  - name: <
-  - name: TArgument
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: TArgument
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Threading.ThreadManager.SpawnThread``1(SuperOffice.Threading.AsyncOperation{``0},``0,System.String,System.Boolean,System.Boolean,System.Boolean)
-    name: SpawnThread
-    isExternal: true
-    href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_SpawnThread__1_SuperOffice_Threading_AsyncOperation___0____0_System_String_System_Boolean_System_Boolean_System_Boolean_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TArgument
-  - name: )
-  - name: (
-  - uid: SuperOffice.Threading.AsyncOperation`1
-    name: AsyncOperation
-    isExternal: true
-    href: SuperOffice.Threading.AsyncOperation-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TArgument
-  - name: )
-  - name: ','
-  - name: " "
-  - name: TArgument
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: Boolean
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
 - uid: SuperOffice.Threading.ThreadManager.HasReachedMaxThreads*
   commentId: Overload:SuperOffice.Threading.ThreadManager.HasReachedMaxThreads
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_HasReachedMaxThreads
   name: HasReachedMaxThreads
   nameWithType: ThreadManager.HasReachedMaxThreads
   fullName: SuperOffice.Threading.ThreadManager.HasReachedMaxThreads
-- uid: SuperOffice.Threading.ThreadManager
-  commentId: T:SuperOffice.Threading.ThreadManager
-  isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html
-  name: ThreadManager
-  nameWithType: ThreadManager
-  fullName: SuperOffice.Threading.ThreadManager
 - uid: SuperOffice.Threading.ThreadManager.IsWorkerThread*
   commentId: Overload:SuperOffice.Threading.ThreadManager.IsWorkerThread
   isExternal: true
-  href: SuperOffice.Threading.ThreadManager.html#SuperOffice_Threading_ThreadManager_IsWorkerThread
   name: IsWorkerThread
   nameWithType: ThreadManager.IsWorkerThread
   fullName: SuperOffice.Threading.ThreadManager.IsWorkerThread

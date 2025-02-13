@@ -20,41 +20,33 @@ items:
   nameWithType: AttachmentLocationRecordData
   fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordData
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
-
-    to a row from the attachment_location table.
-  remarks: >-
-    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.AttachmentLocationRow" data-throw-if-not-resolved="false"></xref> object when
-
-    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
-
-    since they carry the corresponding <xref href="SuperOffice.CRM.Data.AttachmentLocationTableInfo" data-throw-if-not-resolved="false"></xref> object, which
-
-    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
-  example: []
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the attachment_location table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.AttachmentLocationRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.AttachmentLocationTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class AttachmentLocationRecordData
-    content.vb: Public Class AttachmentLocationRecordData
+    content: 'public class AttachmentLocationRecordData : Object'
+    content.vb: >-
+      Public Class AttachmentLocationRecordData
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.AttachmentLocationRecordData.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Rows.AttachmentLocationRecordData.SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.AttachmentLocationRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.AttachmentLocationRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
   - SuperOffice.CRM.Rows.AttachmentLocationRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.AttachmentLocationRecordData.SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.AttachmentLocationRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData.AttachmentLocationId
   commentId: F:SuperOffice.CRM.Rows.AttachmentLocationRecordData.AttachmentLocationId
   id: AttachmentLocationId
@@ -66,16 +58,22 @@ items:
   nameWithType: AttachmentLocationRecordData.AttachmentLocationId
   fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordData.AttachmentLocationId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
     content: public int AttachmentLocationId
     return:
       type: System.Int32
     content.vb: Public AttachmentLocationId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData.Path
   commentId: F:SuperOffice.CRM.Rows.AttachmentLocationRecordData.Path
   id: Path
@@ -87,16 +85,22 @@ items:
   nameWithType: AttachmentLocationRecordData.Path
   fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordData.Path
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The path for this location
-  example: []
+  summary: "\nThe path for this location \n"
   syntax:
     content: public string Path
     return:
       type: System.String
     content.vb: Public Path As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData.Registered
   commentId: F:SuperOffice.CRM.Rows.AttachmentLocationRecordData.Registered
   id: Registered
@@ -108,16 +112,22 @@ items:
   nameWithType: AttachmentLocationRecordData.Registered
   fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordData.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Registered when in UTC.
-  example: []
+  summary: "\nRegistered when in UTC.  \n"
   syntax:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As Date
+    content.vb: Public Registered As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Rows.AttachmentLocationRecordData.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -129,16 +139,22 @@ items:
   nameWithType: AttachmentLocationRecordData.RegisteredAssociateId
   fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordData.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Registered by whom
-  example: []
+  summary: "\nRegistered by whom \n"
   syntax:
     content: public int RegisteredAssociateId
     return:
       type: System.Int32
     content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData.Updated
   commentId: F:SuperOffice.CRM.Rows.AttachmentLocationRecordData.Updated
   id: Updated
@@ -150,16 +166,22 @@ items:
   nameWithType: AttachmentLocationRecordData.Updated
   fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordData.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last updated when in UTC.
-  example: []
+  summary: "\nLast updated when in UTC.  \n"
   syntax:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As Date
+    content.vb: Public Updated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Rows.AttachmentLocationRecordData.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -171,16 +193,22 @@ items:
   nameWithType: AttachmentLocationRecordData.UpdatedAssociateId
   fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordData.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last updated by whom
-  example: []
+  summary: "\nLast updated by whom \n"
   syntax:
     content: public int UpdatedAssociateId
     return:
       type: System.Int32
     content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData.UpdatedCount
   commentId: F:SuperOffice.CRM.Rows.AttachmentLocationRecordData.UpdatedCount
   id: UpdatedCount
@@ -192,16 +220,22 @@ items:
   nameWithType: AttachmentLocationRecordData.UpdatedCount
   fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordData.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Number of updates made to this record
-  example: []
+  summary: "\nNumber of updates made to this record \n"
   syntax:
     content: public short UpdatedCount
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.AttachmentLocationRecordData.#ctor
   id: '#ctor'
@@ -213,590 +247,220 @@ items:
   nameWithType: AttachmentLocationRecordData.AttachmentLocationRecordData()
   fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordData.AttachmentLocationRecordData()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public AttachmentLocationRecordData()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Rows.AttachmentLocationRecordData.#ctor*
-  nameWithType.vb: AttachmentLocationRecordData.New()
-  fullName.vb: SuperOffice.CRM.Rows.AttachmentLocationRecordData.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.Rows.AttachmentLocationRow
-  commentId: T:SuperOffice.CRM.Rows.AttachmentLocationRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.AttachmentLocationRow.html
-  name: AttachmentLocationRow
-  nameWithType: AttachmentLocationRow
-  fullName: SuperOffice.CRM.Rows.AttachmentLocationRow
-- uid: SuperOffice.CRM.Data.AttachmentLocationTableInfo
-  commentId: T:SuperOffice.CRM.Data.AttachmentLocationTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.AttachmentLocationTableInfo.html
-  name: AttachmentLocationTableInfo
-  nameWithType: AttachmentLocationTableInfo
-  fullName: SuperOffice.CRM.Data.AttachmentLocationTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<AttachmentLocationRecordData, To>(AttachmentLocationRecordData)
-  nameWithType: EnumUtil.MapEnums<AttachmentLocationRecordData, To>(AttachmentLocationRecordData)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.AttachmentLocationRecordData, To>(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-  nameWithType.vb: EnumUtil.MapEnums(Of AttachmentLocationRecordData, To)(AttachmentLocationRecordData)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.AttachmentLocationRecordData, To)(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-  name.vb: MapEnums(Of AttachmentLocationRecordData, To)(AttachmentLocationRecordData)
+  name: MapEnums<AttachmentLocationRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<AttachmentLocationRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.AttachmentLocationRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AttachmentLocationRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.AttachmentLocationRecordData, To)()
+  name.vb: MapEnums(Of AttachmentLocationRecordData, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AttachmentLocationRecordData, To>
+    nameWithType: EnumUtil.MapEnums<AttachmentLocationRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.AttachmentLocationRecordData, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
-    name: AttachmentLocationRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
-    name: AttachmentLocationRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AttachmentLocationRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of AttachmentLocationRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.AttachmentLocationRecordData, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
-    name: AttachmentLocationRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
-    name: AttachmentLocationRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData.SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-  parent: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-  href: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.html#SuperOffice_CRM_Rows_AttachmentLocationRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_AttachmentLocationRecordData_
-  name: ToInsert(AttachmentLocationRecordData)
-  nameWithType: AttachmentLocationRecordDataExtensions.ToInsert(AttachmentLocationRecordData)
-  fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.html#SuperOffice_CRM_Rows_AttachmentLocationRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_AttachmentLocationRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
-    name: AttachmentLocationRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.html#SuperOffice_CRM_Rows_AttachmentLocationRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_AttachmentLocationRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
-    name: AttachmentLocationRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<AttachmentLocationRecordData, To>(AttachmentLocationRecordData)
-  nameWithType: Converters.MapEnums<AttachmentLocationRecordData, To>(AttachmentLocationRecordData)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.AttachmentLocationRecordData, To>(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-  nameWithType.vb: Converters.MapEnums(Of AttachmentLocationRecordData, To)(AttachmentLocationRecordData)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.AttachmentLocationRecordData, To)(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-  name.vb: MapEnums(Of AttachmentLocationRecordData, To)(AttachmentLocationRecordData)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
-    name: AttachmentLocationRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
-    name: AttachmentLocationRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
-    name: AttachmentLocationRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
-    name: AttachmentLocationRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<AttachmentLocationRecordData>(AttachmentLocationRecordData, AttachmentLocationRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<AttachmentLocationRecordData>(AttachmentLocationRecordData, AttachmentLocationRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.AttachmentLocationRecordData>(SuperOffice.CRM.Rows.AttachmentLocationRecordData, SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AttachmentLocationRecordData)(AttachmentLocationRecordData, AttachmentLocationRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.AttachmentLocationRecordData)(SuperOffice.CRM.Rows.AttachmentLocationRecordData, SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-  name.vb: AssignByReflection(Of AttachmentLocationRecordData)(AttachmentLocationRecordData, AttachmentLocationRecordData)
+  name: AssignByReflection<AttachmentLocationRecordData>(AttachmentLocationRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<AttachmentLocationRecordData>(AttachmentLocationRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.AttachmentLocationRecordData>(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AttachmentLocationRecordData)(AttachmentLocationRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.AttachmentLocationRecordData)(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
+  name.vb: AssignByReflection(Of AttachmentLocationRecordData)(AttachmentLocationRecordData)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.AttachmentLocationRecordData,SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<AttachmentLocationRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<AttachmentLocationRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.AttachmentLocationRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
-    name: AttachmentLocationRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
     name: AttachmentLocationRecordData
+    nameWithType: AttachmentLocationRecordData
+    fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
-    name: AttachmentLocationRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.AttachmentLocationRecordData,SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of AttachmentLocationRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of AttachmentLocationRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.AttachmentLocationRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
     name: AttachmentLocationRecordData
+    nameWithType: AttachmentLocationRecordData
+    fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
-    name: AttachmentLocationRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
-    name: AttachmentLocationRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<AttachmentLocationRecordData>(AttachmentLocationRecordData)
-  nameWithType: ObjectExtensions.GraphCopy<AttachmentLocationRecordData>(AttachmentLocationRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.AttachmentLocationRecordData>(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of AttachmentLocationRecordData)(AttachmentLocationRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.AttachmentLocationRecordData)(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-  name.vb: GraphCopy(Of AttachmentLocationRecordData)(AttachmentLocationRecordData)
+  name: GraphCopy<AttachmentLocationRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<AttachmentLocationRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.AttachmentLocationRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of AttachmentLocationRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.AttachmentLocationRecordData)()
+  name.vb: GraphCopy(Of AttachmentLocationRecordData)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<AttachmentLocationRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<AttachmentLocationRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.AttachmentLocationRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
-    name: AttachmentLocationRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
-    name: AttachmentLocationRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of AttachmentLocationRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of AttachmentLocationRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.AttachmentLocationRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
-    name: AttachmentLocationRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
-    name: AttachmentLocationRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Data
-  commentId: N:SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Data
-  nameWithType: SuperOffice.CRM.Data
-  fullName: SuperOffice.CRM.Data
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData.SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
+  parent: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
+  name: ToInsert()
+  nameWithType: AttachmentLocationRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert()
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: AttachmentLocationRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: AttachmentLocationRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AttachmentLocationRecordData, To>()
+  nameWithType: Converters.MapEnums<AttachmentLocationRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.AttachmentLocationRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of AttachmentLocationRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.AttachmentLocationRecordData, To)()
+  name.vb: MapEnums(Of AttachmentLocationRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AttachmentLocationRecordData, To>
+    nameWithType: Converters.MapEnums<AttachmentLocationRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.AttachmentLocationRecordData, To>
     isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AttachmentLocationRecordData, To)
+    nameWithType: Converters.MapEnums(Of AttachmentLocationRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.AttachmentLocationRecordData, To)
     isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -805,130 +469,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-  commentId: M:SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-  isExternal: true
-  href: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.html#SuperOffice_CRM_Rows_AttachmentLocationRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_AttachmentLocationRecordData_
-  name: ToInsert(AttachmentLocationRecordData)
-  nameWithType: AttachmentLocationRecordDataExtensions.ToInsert(AttachmentLocationRecordData)
-  fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.html#SuperOffice_CRM_Rows_AttachmentLocationRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_AttachmentLocationRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
-    name: AttachmentLocationRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.html#SuperOffice_CRM_Rows_AttachmentLocationRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_AttachmentLocationRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
-    name: AttachmentLocationRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions
-  commentId: T:SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.html
-  name: AttachmentLocationRecordDataExtensions
-  nameWithType: AttachmentLocationRecordDataExtensions
-  fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -937,46 +514,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -985,143 +572,168 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
+  commentId: M:SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: ToInsert(AttachmentLocationRecordData)
+  nameWithType: AttachmentLocationRecordDataExtensions.ToInsert(AttachmentLocationRecordData)
+  fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
+    name: ToInsert
+    nameWithType: AttachmentLocationRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
+    name: AttachmentLocationRecordData
+    nameWithType: AttachmentLocationRecordData
+    fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AttachmentLocationRecordData)
+    name: ToInsert
+    nameWithType: AttachmentLocationRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData
+    name: AttachmentLocationRecordData
+    nameWithType: AttachmentLocationRecordData
+    fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: AttachmentLocationRecordDataExtensions
+  nameWithType: AttachmentLocationRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Rows.AttachmentLocationRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.AttachmentLocationRecordData.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Rows.AttachmentLocationRecordData.html#SuperOffice_CRM_Rows_AttachmentLocationRecordData__ctor
   name: AttachmentLocationRecordData
   nameWithType: AttachmentLocationRecordData.AttachmentLocationRecordData
   fullName: SuperOffice.CRM.Rows.AttachmentLocationRecordData.AttachmentLocationRecordData
-  nameWithType.vb: AttachmentLocationRecordData.New
-  fullName.vb: SuperOffice.CRM.Rows.AttachmentLocationRecordData.New
-  name.vb: New

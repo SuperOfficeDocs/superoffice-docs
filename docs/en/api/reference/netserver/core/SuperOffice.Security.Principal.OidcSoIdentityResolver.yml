@@ -16,6 +16,9 @@ items:
   nameWithType: OidcSoIdentityResolver
   fullName: SuperOffice.Security.Principal.OidcSoIdentityResolver
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Security.Principal
@@ -23,28 +26,22 @@ items:
     content: >-
       [SoIdentityResolver("OidcSoIdentityResolver", 2500)]
 
-      public class OidcSoIdentityResolver : ISoIdentityResolver
+      public class OidcSoIdentityResolver : Object, ISoIdentityResolver, IPlugin
     content.vb: >-
       <SoIdentityResolver("OidcSoIdentityResolver", 2500)>
 
-      Public Class OidcSoIdentityResolver Implements ISoIdentityResolver
+      Public Class OidcSoIdentityResolver
+          Inherits Object
+          Implements ISoIdentityResolver, IPlugin
   inheritance:
   - System.Object
   implements:
   - SuperOffice.Security.ISoIdentityResolver
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Security.Principal.OidcSoIdentityResolver.EnumUtil.MapEnums``2
-  - SuperOffice.Security.Principal.OidcSoIdentityResolver.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Security.Principal.OidcSoIdentityResolver.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.OidcSoIdentityResolver)
   - SuperOffice.Security.Principal.OidcSoIdentityResolver.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Security.Principal.OidcSoIdentityResolver.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
   - type: SuperOffice.Security.SoIdentityResolverAttribute
     ctor: SuperOffice.Security.SoIdentityResolverAttribute.#ctor(System.String,System.Int32)
@@ -53,6 +50,12 @@ items:
       value: OidcSoIdentityResolver
     - type: System.Int32
       value: 2500
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver.Name
   commentId: F:SuperOffice.Security.Principal.OidcSoIdentityResolver.Name
   id: Name
@@ -64,6 +67,9 @@ items:
   nameWithType: OidcSoIdentityResolver.Name
   fullName: SuperOffice.Security.Principal.OidcSoIdentityResolver.Name
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Security.Principal
@@ -72,6 +78,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Name As String = "OidcSoIdentityResolver"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver.DbCredentialType
   commentId: F:SuperOffice.Security.Principal.OidcSoIdentityResolver.DbCredentialType
   id: DbCredentialType
@@ -83,6 +95,9 @@ items:
   nameWithType: OidcSoIdentityResolver.DbCredentialType
   fullName: SuperOffice.Security.Principal.OidcSoIdentityResolver.DbCredentialType
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Security.Principal
@@ -91,6 +106,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const DbCredentialType As String = "CentralSuperIdCredential"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
   commentId: M:SuperOffice.Security.Principal.OidcSoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
   id: ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
@@ -98,14 +119,16 @@ items:
   langs:
   - csharp
   - vb
-  name: ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, out string)
-  nameWithType: OidcSoIdentityResolver.ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, out string)
-  fullName: SuperOffice.Security.Principal.OidcSoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, SuperOffice.Data.SoConnection, out string)
+  name: ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, out String)
+  nameWithType: OidcSoIdentityResolver.ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, out String)
+  fullName: SuperOffice.Security.Principal.OidcSoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, SuperOffice.Data.SoConnection, out System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Security.Principal
-  example: []
   syntax:
     content: public ISoIdentity ResolveIdentity(IEnumerable<ClaimsIdentity> identities, SoConnection dbConnection, out string reason)
     parameters:
@@ -117,13 +140,17 @@ items:
       type: System.String
     return:
       type: SuperOffice.Security.Principal.ISoIdentity
-    content.vb: Public Function ResolveIdentity(identities As IEnumerable(Of ClaimsIdentity), dbConnection As SoConnection, reason As String) As ISoIdentity
+    content.vb: Public Function ResolveIdentity(identities As IEnumerable(Of ClaimsIdentity), dbConnection As SoConnection, ByRef reason As String) As ISoIdentity
   overload: SuperOffice.Security.Principal.OidcSoIdentityResolver.ResolveIdentity*
   implements:
   - SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
-  nameWithType.vb: OidcSoIdentityResolver.ResolveIdentity(IEnumerable(Of ClaimsIdentity), SoConnection, String)
-  fullName.vb: SuperOffice.Security.Principal.OidcSoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), SuperOffice.Data.SoConnection, String)
-  name.vb: ResolveIdentity(IEnumerable(Of ClaimsIdentity), SoConnection, String)
+  nameWithType.vb: OidcSoIdentityResolver.ResolveIdentity(IEnumerable(Of ClaimsIdentity), SoConnection, ByRef String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Security.Principal.OidcSoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), SuperOffice.Data.SoConnection, ByRef System.String)
+  name.vb: ResolveIdentity(IEnumerable(Of ClaimsIdentity), SoConnection, ByRef String)
 - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver.#ctor
   commentId: M:SuperOffice.Security.Principal.OidcSoIdentityResolver.#ctor
   id: '#ctor'
@@ -135,542 +162,202 @@ items:
   nameWithType: OidcSoIdentityResolver.OidcSoIdentityResolver()
   fullName: SuperOffice.Security.Principal.OidcSoIdentityResolver.OidcSoIdentityResolver()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Security.Principal
   syntax:
     content: public OidcSoIdentityResolver()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.Security.Principal.OidcSoIdentityResolver.#ctor*
-  nameWithType.vb: OidcSoIdentityResolver.New()
-  fullName.vb: SuperOffice.Security.Principal.OidcSoIdentityResolver.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.Security.Principal
   commentId: N:SuperOffice.Security.Principal
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Security.Principal
   nameWithType: SuperOffice.Security.Principal
   fullName: SuperOffice.Security.Principal
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
-  - name: .
-  - uid: SuperOffice.Security.Principal
-    name: Principal
-    isExternal: true
-    href: SuperOffice.Security.Principal.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
-  - name: .
-  - uid: SuperOffice.Security.Principal
-    name: Principal
-    isExternal: true
-    href: SuperOffice.Security.Principal.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Security.ISoIdentityResolver
   commentId: T:SuperOffice.Security.ISoIdentityResolver
   parent: SuperOffice.Security
   isExternal: true
-  href: SuperOffice.Security.ISoIdentityResolver.html
   name: ISoIdentityResolver
   nameWithType: ISoIdentityResolver
   fullName: SuperOffice.Security.ISoIdentityResolver
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<OidcSoIdentityResolver, To>(OidcSoIdentityResolver)
-  nameWithType: EnumUtil.MapEnums<OidcSoIdentityResolver, To>(OidcSoIdentityResolver)
-  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.OidcSoIdentityResolver, To>(SuperOffice.Security.Principal.OidcSoIdentityResolver)
-  nameWithType.vb: EnumUtil.MapEnums(Of OidcSoIdentityResolver, To)(OidcSoIdentityResolver)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.OidcSoIdentityResolver, To)(SuperOffice.Security.Principal.OidcSoIdentityResolver)
-  name.vb: MapEnums(Of OidcSoIdentityResolver, To)(OidcSoIdentityResolver)
+  name: MapEnums<OidcSoIdentityResolver, To>()
+  nameWithType: EnumUtil.MapEnums<OidcSoIdentityResolver, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.OidcSoIdentityResolver, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of OidcSoIdentityResolver, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.OidcSoIdentityResolver, To)()
+  name.vb: MapEnums(Of OidcSoIdentityResolver, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Principal.OidcSoIdentityResolver)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<OidcSoIdentityResolver, To>
+    nameWithType: EnumUtil.MapEnums<OidcSoIdentityResolver, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.OidcSoIdentityResolver, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver
-    name: OidcSoIdentityResolver
-    isExternal: true
-    href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver
-    name: OidcSoIdentityResolver
-    isExternal: true
-    href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Security.Principal.OidcSoIdentityResolver)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of OidcSoIdentityResolver, To)
+    nameWithType: EnumUtil.MapEnums(Of OidcSoIdentityResolver, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.OidcSoIdentityResolver, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver
-    name: OidcSoIdentityResolver
-    isExternal: true
-    href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver
-    name: OidcSoIdentityResolver
-    isExternal: true
-    href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html
-  - name: )
-- uid: SuperOffice.Security.Principal.OidcSoIdentityResolver.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<OidcSoIdentityResolver, To>(OidcSoIdentityResolver)
-  nameWithType: Converters.MapEnums<OidcSoIdentityResolver, To>(OidcSoIdentityResolver)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.OidcSoIdentityResolver, To>(SuperOffice.Security.Principal.OidcSoIdentityResolver)
-  nameWithType.vb: Converters.MapEnums(Of OidcSoIdentityResolver, To)(OidcSoIdentityResolver)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.OidcSoIdentityResolver, To)(SuperOffice.Security.Principal.OidcSoIdentityResolver)
-  name.vb: MapEnums(Of OidcSoIdentityResolver, To)(OidcSoIdentityResolver)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Principal.OidcSoIdentityResolver)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver
-    name: OidcSoIdentityResolver
-    isExternal: true
-    href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver
-    name: OidcSoIdentityResolver
-    isExternal: true
-    href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Security.Principal.OidcSoIdentityResolver)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver
-    name: OidcSoIdentityResolver
-    isExternal: true
-    href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver
-    name: OidcSoIdentityResolver
-    isExternal: true
-    href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.OidcSoIdentityResolver)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<OidcSoIdentityResolver>(OidcSoIdentityResolver, OidcSoIdentityResolver)
-  nameWithType: ObjectExtensions.AssignByReflection<OidcSoIdentityResolver>(OidcSoIdentityResolver, OidcSoIdentityResolver)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Principal.OidcSoIdentityResolver>(SuperOffice.Security.Principal.OidcSoIdentityResolver, SuperOffice.Security.Principal.OidcSoIdentityResolver)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of OidcSoIdentityResolver)(OidcSoIdentityResolver, OidcSoIdentityResolver)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Principal.OidcSoIdentityResolver)(SuperOffice.Security.Principal.OidcSoIdentityResolver, SuperOffice.Security.Principal.OidcSoIdentityResolver)
-  name.vb: AssignByReflection(Of OidcSoIdentityResolver)(OidcSoIdentityResolver, OidcSoIdentityResolver)
+  name: AssignByReflection<OidcSoIdentityResolver>(OidcSoIdentityResolver)
+  nameWithType: ObjectExtensions.AssignByReflection<OidcSoIdentityResolver>(OidcSoIdentityResolver)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Principal.OidcSoIdentityResolver>(SuperOffice.Security.Principal.OidcSoIdentityResolver)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of OidcSoIdentityResolver)(OidcSoIdentityResolver)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Principal.OidcSoIdentityResolver)(SuperOffice.Security.Principal.OidcSoIdentityResolver)
+  name.vb: AssignByReflection(Of OidcSoIdentityResolver)(OidcSoIdentityResolver)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.OidcSoIdentityResolver,SuperOffice.Security.Principal.OidcSoIdentityResolver)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<OidcSoIdentityResolver>
+    nameWithType: ObjectExtensions.AssignByReflection<OidcSoIdentityResolver>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Principal.OidcSoIdentityResolver>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver
-    name: OidcSoIdentityResolver
-    isExternal: true
-    href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver
     name: OidcSoIdentityResolver
+    nameWithType: OidcSoIdentityResolver
+    fullName: SuperOffice.Security.Principal.OidcSoIdentityResolver
     isExternal: true
-    href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver
-    name: OidcSoIdentityResolver
-    isExternal: true
-    href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Principal.OidcSoIdentityResolver,SuperOffice.Security.Principal.OidcSoIdentityResolver)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of OidcSoIdentityResolver)
+    nameWithType: ObjectExtensions.AssignByReflection(Of OidcSoIdentityResolver)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Principal.OidcSoIdentityResolver)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver
     name: OidcSoIdentityResolver
+    nameWithType: OidcSoIdentityResolver
+    fullName: SuperOffice.Security.Principal.OidcSoIdentityResolver
     isExternal: true
-    href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html
   - name: )
-  - name: (
-  - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver
-    name: OidcSoIdentityResolver
-    isExternal: true
-    href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver
-    name: OidcSoIdentityResolver
-    isExternal: true
-    href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<OidcSoIdentityResolver>(OidcSoIdentityResolver)
-  nameWithType: ObjectExtensions.GraphCopy<OidcSoIdentityResolver>(OidcSoIdentityResolver)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Principal.OidcSoIdentityResolver>(SuperOffice.Security.Principal.OidcSoIdentityResolver)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of OidcSoIdentityResolver)(OidcSoIdentityResolver)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Principal.OidcSoIdentityResolver)(SuperOffice.Security.Principal.OidcSoIdentityResolver)
-  name.vb: GraphCopy(Of OidcSoIdentityResolver)(OidcSoIdentityResolver)
+  name: GraphCopy<OidcSoIdentityResolver>()
+  nameWithType: ObjectExtensions.GraphCopy<OidcSoIdentityResolver>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Principal.OidcSoIdentityResolver>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of OidcSoIdentityResolver)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Principal.OidcSoIdentityResolver)()
+  name.vb: GraphCopy(Of OidcSoIdentityResolver)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Security.Principal.OidcSoIdentityResolver)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<OidcSoIdentityResolver>
+    nameWithType: ObjectExtensions.GraphCopy<OidcSoIdentityResolver>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Principal.OidcSoIdentityResolver>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver
-    name: OidcSoIdentityResolver
-    isExternal: true
-    href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver
-    name: OidcSoIdentityResolver
-    isExternal: true
-    href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Security.Principal.OidcSoIdentityResolver)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of OidcSoIdentityResolver)
+    nameWithType: ObjectExtensions.GraphCopy(Of OidcSoIdentityResolver)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Principal.OidcSoIdentityResolver)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver
-    name: OidcSoIdentityResolver
-    isExternal: true
-    href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.OidcSoIdentityResolver.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<OidcSoIdentityResolver, To>()
+  nameWithType: Converters.MapEnums<OidcSoIdentityResolver, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.OidcSoIdentityResolver, To>()
+  nameWithType.vb: Converters.MapEnums(Of OidcSoIdentityResolver, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.OidcSoIdentityResolver, To)()
+  name.vb: MapEnums(Of OidcSoIdentityResolver, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<OidcSoIdentityResolver, To>
+    nameWithType: Converters.MapEnums<OidcSoIdentityResolver, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.OidcSoIdentityResolver, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver
-    name: OidcSoIdentityResolver
-    isExternal: true
-    href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of OidcSoIdentityResolver, To)
+    nameWithType: Converters.MapEnums(Of OidcSoIdentityResolver, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.OidcSoIdentityResolver, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Security
   commentId: N:SuperOffice.Security
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Security
   nameWithType: SuperOffice.Security
   fullName: SuperOffice.Security
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Security
-    name: Security
-    isExternal: true
-    href: SuperOffice.Security.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -679,93 +366,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -774,46 +411,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -822,107 +469,102 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver.ResolveIdentity*
   commentId: Overload:SuperOffice.Security.Principal.OidcSoIdentityResolver.ResolveIdentity
   isExternal: true
-  href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html#SuperOffice_Security_Principal_OidcSoIdentityResolver_ResolveIdentity_System_Collections_Generic_IEnumerable_System_Security_Claims_ClaimsIdentity__SuperOffice_Data_SoConnection_System_String__
   name: ResolveIdentity
   nameWithType: OidcSoIdentityResolver.ResolveIdentity
   fullName: SuperOffice.Security.Principal.OidcSoIdentityResolver.ResolveIdentity
@@ -930,80 +572,103 @@ references:
   commentId: M:SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
   parent: SuperOffice.Security.ISoIdentityResolver
   isExternal: true
-  href: SuperOffice.Security.ISoIdentityResolver.html#SuperOffice_Security_ISoIdentityResolver_ResolveIdentity_System_Collections_Generic_IEnumerable_System_Security_Claims_ClaimsIdentity__SuperOffice_Data_SoConnection_System_String__
-  name: ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, out string)
-  nameWithType: ISoIdentityResolver.ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, out string)
-  fullName: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, SuperOffice.Data.SoConnection, out string)
+  name: ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, String)
+  nameWithType: ISoIdentityResolver.ResolveIdentity(IEnumerable<ClaimsIdentity>, SoConnection, String)
+  fullName: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>, SuperOffice.Data.SoConnection, System.String)
   nameWithType.vb: ISoIdentityResolver.ResolveIdentity(IEnumerable(Of ClaimsIdentity), SoConnection, String)
-  fullName.vb: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), SuperOffice.Data.SoConnection, String)
+  fullName.vb: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable(Of System.Security.Claims.ClaimsIdentity), SuperOffice.Data.SoConnection, System.String)
   name.vb: ResolveIdentity(IEnumerable(Of ClaimsIdentity), SoConnection, String)
   spec.csharp:
   - uid: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
     name: ResolveIdentity
+    nameWithType: ISoIdentityResolver.ResolveIdentity
+    fullName: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity
     isExternal: true
-    href: SuperOffice.Security.ISoIdentityResolver.html#SuperOffice_Security_ISoIdentityResolver_ResolveIdentity_System_Collections_Generic_IEnumerable_System_Security_Claims_ClaimsIdentity__SuperOffice_Data_SoConnection_System_String__
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Security.Claims.ClaimsIdentity
     name: ClaimsIdentity
+    nameWithType: ClaimsIdentity
+    fullName: System.Security.Claims.ClaimsIdentity
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
   - name: '>'
-  - name: ','
-  - name: " "
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.SoConnection
     name: SoConnection
+    nameWithType: SoConnection
+    fullName: SuperOffice.Data.SoConnection
     isExternal: true
-    href: SuperOffice.Data.SoConnection.html
-  - name: ','
-  - name: " "
-  - name: out
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity(System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity},SuperOffice.Data.SoConnection,System.String@)
     name: ResolveIdentity
+    nameWithType: ISoIdentityResolver.ResolveIdentity
+    fullName: SuperOffice.Security.ISoIdentityResolver.ResolveIdentity
     isExternal: true
-    href: SuperOffice.Security.ISoIdentityResolver.html#SuperOffice_Security_ISoIdentityResolver_ResolveIdentity_System_Collections_Generic_IEnumerable_System_Security_Claims_ClaimsIdentity__SuperOffice_Data_SoConnection_System_String__
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Security.Claims.ClaimsIdentity
     name: ClaimsIdentity
+    nameWithType: ClaimsIdentity
+    fullName: System.Security.Claims.ClaimsIdentity
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
   - name: )
-  - name: ','
-  - name: " "
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.SoConnection
     name: SoConnection
+    nameWithType: SoConnection
+    fullName: SuperOffice.Data.SoConnection
     isExternal: true
-    href: SuperOffice.Data.SoConnection.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
-  commentId: T:System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{System.Security.Claims.ClaimsIdentity}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<ClaimsIdentity>
   nameWithType: IEnumerable<ClaimsIdentity>
   fullName: System.Collections.Generic.IEnumerable<System.Security.Claims.ClaimsIdentity>
@@ -1013,32 +678,41 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.Security.Claims.ClaimsIdentity
     name: ClaimsIdentity
+    nameWithType: ClaimsIdentity
+    fullName: System.Security.Claims.ClaimsIdentity
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.Security.Claims.ClaimsIdentity
     name: ClaimsIdentity
+    nameWithType: ClaimsIdentity
+    fullName: System.Security.Claims.ClaimsIdentity
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.security.claims.claimsidentity
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SoConnection
   commentId: T:SuperOffice.Data.SoConnection
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SoConnection.html
   name: SoConnection
   nameWithType: SoConnection
   fullName: SuperOffice.Data.SoConnection
@@ -1046,109 +720,56 @@ references:
   commentId: T:SuperOffice.Security.Principal.ISoIdentity
   parent: SuperOffice.Security.Principal
   isExternal: true
-  href: SuperOffice.Security.Principal.ISoIdentity.html
   name: ISoIdentity
   nameWithType: ISoIdentity
   fullName: SuperOffice.Security.Principal.ISoIdentity
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.Security.Principal.OidcSoIdentityResolver.#ctor*
   commentId: Overload:SuperOffice.Security.Principal.OidcSoIdentityResolver.#ctor
   isExternal: true
-  href: SuperOffice.Security.Principal.OidcSoIdentityResolver.html#SuperOffice_Security_Principal_OidcSoIdentityResolver__ctor
   name: OidcSoIdentityResolver
   nameWithType: OidcSoIdentityResolver.OidcSoIdentityResolver
   fullName: SuperOffice.Security.Principal.OidcSoIdentityResolver.OidcSoIdentityResolver
-  nameWithType.vb: OidcSoIdentityResolver.New
-  fullName.vb: SuperOffice.Security.Principal.OidcSoIdentityResolver.New
-  name.vb: New

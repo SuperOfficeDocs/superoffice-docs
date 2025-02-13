@@ -11,44 +11,67 @@ items:
   - SuperOffice.Data.AppointmentCautionWarning.NotNotifiedByEmail
   - SuperOffice.Data.AppointmentCautionWarning.OK
   - SuperOffice.Data.AppointmentCautionWarning.RecurrencePatternNotSupported
+  - SuperOffice.Data.AppointmentCautionWarning.value__
   langs:
   - csharp
   - vb
   name: AppointmentCautionWarning
   nameWithType: AppointmentCautionWarning
   fullName: SuperOffice.Data.AppointmentCautionWarning
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: >-
-    Appointment and invitation synchronization info
-
-    This Enum is used by:  appointment.cautionWarning
-  example: []
+  summary: "\nAppointment and invitation synchronization info\nThis Enum is used by:  appointment.cautionWarning\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum AppointmentCautionWarning : short
+    content: 'public sealed class AppointmentCautionWarning : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class AppointmentCautionWarning
+          Inherits
 
-      Public Enum AppointmentCautionWarning As Short
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.AppointmentCautionWarning.EnumUtil.MapEnums``2
   - SuperOffice.Data.AppointmentCautionWarning.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.AppointmentCautionWarning.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.AppointmentCautionWarning)
-  - SuperOffice.Data.AppointmentCautionWarning.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.AppointmentCautionWarning.value__
+  commentId: F:SuperOffice.Data.AppointmentCautionWarning.value__
+  id: value__
+  parent: SuperOffice.Data.AppointmentCautionWarning
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: AppointmentCautionWarning.value__
+  fullName: SuperOffice.Data.AppointmentCautionWarning.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.AppointmentCautionWarning.OK
   commentId: F:SuperOffice.Data.AppointmentCautionWarning.OK
   id: OK
@@ -60,26 +83,24 @@ items:
   nameWithType: AppointmentCautionWarning.OK
   fullName: SuperOffice.Data.AppointmentCautionWarning.OK
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: OK - no special warnings'
-  example: []
+  summary: "\n0: OK - no special warnings\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OK = 0
+    content: public const AppointmentCautionWarning OK
     return:
       type: SuperOffice.Data.AppointmentCautionWarning
-    content.vb: >-
-      <EnumMember>
-
-      OK = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OK As AppointmentCautionWarning
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.AppointmentCautionWarning.NotInSync
   commentId: F:SuperOffice.Data.AppointmentCautionWarning.NotInSync
   id: NotInSync
@@ -91,26 +112,24 @@ items:
   nameWithType: AppointmentCautionWarning.NotInSync
   fullName: SuperOffice.Data.AppointmentCautionWarning.NotInSync
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Possibly not in sync with external systems'
-  example: []
+  summary: "\n1: Possibly not in sync with external systems\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      NotInSync = 1
+    content: public const AppointmentCautionWarning NotInSync
     return:
       type: SuperOffice.Data.AppointmentCautionWarning
-    content.vb: >-
-      <EnumMember>
-
-      NotInSync = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const NotInSync As AppointmentCautionWarning
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.AppointmentCautionWarning.NotNotifiedByEmail
   commentId: F:SuperOffice.Data.AppointmentCautionWarning.NotNotifiedByEmail
   id: NotNotifiedByEmail
@@ -122,26 +141,24 @@ items:
   nameWithType: AppointmentCautionWarning.NotNotifiedByEmail
   fullName: SuperOffice.Data.AppointmentCautionWarning.NotNotifiedByEmail
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: Updated without sending email notifications'
-  example: []
+  summary: "\n2: Updated without sending email notifications\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      NotNotifiedByEmail = 2
+    content: public const AppointmentCautionWarning NotNotifiedByEmail
     return:
       type: SuperOffice.Data.AppointmentCautionWarning
-    content.vb: >-
-      <EnumMember>
-
-      NotNotifiedByEmail = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const NotNotifiedByEmail As AppointmentCautionWarning
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.AppointmentCautionWarning.RecurrencePatternNotSupported
   commentId: F:SuperOffice.Data.AppointmentCautionWarning.RecurrencePatternNotSupported
   id: RecurrencePatternNotSupported
@@ -153,26 +170,24 @@ items:
   nameWithType: AppointmentCautionWarning.RecurrencePatternNotSupported
   fullName: SuperOffice.Data.AppointmentCautionWarning.RecurrencePatternNotSupported
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '3: This recurrence pattern might not be supported in the external participants calendars'
-  example: []
+  summary: "\n3: This recurrence pattern might not be supported in the external participants calendars\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      RecurrencePatternNotSupported = 3
+    content: public const AppointmentCautionWarning RecurrencePatternNotSupported
     return:
       type: SuperOffice.Data.AppointmentCautionWarning
-    content.vb: >-
-      <EnumMember>
-
-      RecurrencePatternNotSupported = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const RecurrencePatternNotSupported As AppointmentCautionWarning
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.AppointmentCautionWarning.IncomingRecurrenceChangeNotSupported
   commentId: F:SuperOffice.Data.AppointmentCautionWarning.IncomingRecurrenceChangeNotSupported
   id: IncomingRecurrenceChangeNotSupported
@@ -184,26 +199,24 @@ items:
   nameWithType: AppointmentCautionWarning.IncomingRecurrenceChangeNotSupported
   fullName: SuperOffice.Data.AppointmentCautionWarning.IncomingRecurrenceChangeNotSupported
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '4: A requested change to a recurrence appointment was not supported'
-  example: []
+  summary: "\n4: A requested change to a recurrence appointment was not supported\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      IncomingRecurrenceChangeNotSupported = 4
+    content: public const AppointmentCautionWarning IncomingRecurrenceChangeNotSupported
     return:
       type: SuperOffice.Data.AppointmentCautionWarning
-    content.vb: >-
-      <EnumMember>
-
-      IncomingRecurrenceChangeNotSupported = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const IncomingRecurrenceChangeNotSupported As AppointmentCautionWarning
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.AppointmentCautionWarning.ExternalParticipantsDateTimeMismatch
   commentId: F:SuperOffice.Data.AppointmentCautionWarning.ExternalParticipantsDateTimeMismatch
   id: ExternalParticipantsDateTimeMismatch
@@ -215,300 +228,115 @@ items:
   nameWithType: AppointmentCautionWarning.ExternalParticipantsDateTimeMismatch
   fullName: SuperOffice.Data.AppointmentCautionWarning.ExternalParticipantsDateTimeMismatch
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '5: Time and date may be wrong for external participants due to unsupported changes'
-  example: []
+  summary: "\n5: Time and date may be wrong for external participants due to unsupported changes\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ExternalParticipantsDateTimeMismatch = 5
+    content: public const AppointmentCautionWarning ExternalParticipantsDateTimeMismatch
     return:
       type: SuperOffice.Data.AppointmentCautionWarning
-    content.vb: >-
-      <EnumMember>
-
-      ExternalParticipantsDateTimeMismatch = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ExternalParticipantsDateTimeMismatch As AppointmentCautionWarning
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.AppointmentCautionWarning.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<AppointmentCautionWarning, To>(AppointmentCautionWarning)
-  nameWithType: EnumUtil.MapEnums<AppointmentCautionWarning, To>(AppointmentCautionWarning)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.AppointmentCautionWarning, To>(SuperOffice.Data.AppointmentCautionWarning)
-  nameWithType.vb: EnumUtil.MapEnums(Of AppointmentCautionWarning, To)(AppointmentCautionWarning)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.AppointmentCautionWarning, To)(SuperOffice.Data.AppointmentCautionWarning)
-  name.vb: MapEnums(Of AppointmentCautionWarning, To)(AppointmentCautionWarning)
+  name: MapEnums<AppointmentCautionWarning, To>()
+  nameWithType: EnumUtil.MapEnums<AppointmentCautionWarning, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.AppointmentCautionWarning, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AppointmentCautionWarning, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.AppointmentCautionWarning, To)()
+  name.vb: MapEnums(Of AppointmentCautionWarning, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.AppointmentCautionWarning)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AppointmentCautionWarning, To>
+    nameWithType: EnumUtil.MapEnums<AppointmentCautionWarning, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.AppointmentCautionWarning, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.AppointmentCautionWarning
-    name: AppointmentCautionWarning
-    isExternal: true
-    href: SuperOffice.Data.AppointmentCautionWarning.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.AppointmentCautionWarning
-    name: AppointmentCautionWarning
-    isExternal: true
-    href: SuperOffice.Data.AppointmentCautionWarning.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.AppointmentCautionWarning)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AppointmentCautionWarning, To)
+    nameWithType: EnumUtil.MapEnums(Of AppointmentCautionWarning, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.AppointmentCautionWarning, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.AppointmentCautionWarning
-    name: AppointmentCautionWarning
-    isExternal: true
-    href: SuperOffice.Data.AppointmentCautionWarning.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.AppointmentCautionWarning
-    name: AppointmentCautionWarning
-    isExternal: true
-    href: SuperOffice.Data.AppointmentCautionWarning.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.AppointmentCautionWarning.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<AppointmentCautionWarning, To>(AppointmentCautionWarning)
-  nameWithType: Converters.MapEnums<AppointmentCautionWarning, To>(AppointmentCautionWarning)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.AppointmentCautionWarning, To>(SuperOffice.Data.AppointmentCautionWarning)
-  nameWithType.vb: Converters.MapEnums(Of AppointmentCautionWarning, To)(AppointmentCautionWarning)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.AppointmentCautionWarning, To)(SuperOffice.Data.AppointmentCautionWarning)
-  name.vb: MapEnums(Of AppointmentCautionWarning, To)(AppointmentCautionWarning)
+  name: MapEnums<AppointmentCautionWarning, To>()
+  nameWithType: Converters.MapEnums<AppointmentCautionWarning, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.AppointmentCautionWarning, To>()
+  nameWithType.vb: Converters.MapEnums(Of AppointmentCautionWarning, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.AppointmentCautionWarning, To)()
+  name.vb: MapEnums(Of AppointmentCautionWarning, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.AppointmentCautionWarning)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AppointmentCautionWarning, To>
+    nameWithType: Converters.MapEnums<AppointmentCautionWarning, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.AppointmentCautionWarning, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.AppointmentCautionWarning
-    name: AppointmentCautionWarning
-    isExternal: true
-    href: SuperOffice.Data.AppointmentCautionWarning.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.AppointmentCautionWarning
-    name: AppointmentCautionWarning
-    isExternal: true
-    href: SuperOffice.Data.AppointmentCautionWarning.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.AppointmentCautionWarning)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AppointmentCautionWarning, To)
+    nameWithType: Converters.MapEnums(Of AppointmentCautionWarning, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.AppointmentCautionWarning, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.AppointmentCautionWarning
-    name: AppointmentCautionWarning
-    isExternal: true
-    href: SuperOffice.Data.AppointmentCautionWarning.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.AppointmentCautionWarning
-    name: AppointmentCautionWarning
-    isExternal: true
-    href: SuperOffice.Data.AppointmentCautionWarning.html
-  - name: )
-- uid: SuperOffice.Data.AppointmentCautionWarning.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.AppointmentCautionWarning)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<AppointmentCautionWarning>(AppointmentCautionWarning, AppointmentCautionWarning)
-  nameWithType: ObjectExtensions.AssignByReflection<AppointmentCautionWarning>(AppointmentCautionWarning, AppointmentCautionWarning)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.AppointmentCautionWarning>(SuperOffice.Data.AppointmentCautionWarning, SuperOffice.Data.AppointmentCautionWarning)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AppointmentCautionWarning)(AppointmentCautionWarning, AppointmentCautionWarning)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.AppointmentCautionWarning)(SuperOffice.Data.AppointmentCautionWarning, SuperOffice.Data.AppointmentCautionWarning)
-  name.vb: AssignByReflection(Of AppointmentCautionWarning)(AppointmentCautionWarning, AppointmentCautionWarning)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.AppointmentCautionWarning,SuperOffice.Data.AppointmentCautionWarning)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.AppointmentCautionWarning
-    name: AppointmentCautionWarning
-    isExternal: true
-    href: SuperOffice.Data.AppointmentCautionWarning.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.AppointmentCautionWarning
-    name: AppointmentCautionWarning
-    isExternal: true
-    href: SuperOffice.Data.AppointmentCautionWarning.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.AppointmentCautionWarning
-    name: AppointmentCautionWarning
-    isExternal: true
-    href: SuperOffice.Data.AppointmentCautionWarning.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.AppointmentCautionWarning,SuperOffice.Data.AppointmentCautionWarning)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.AppointmentCautionWarning
-    name: AppointmentCautionWarning
-    isExternal: true
-    href: SuperOffice.Data.AppointmentCautionWarning.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.AppointmentCautionWarning
-    name: AppointmentCautionWarning
-    isExternal: true
-    href: SuperOffice.Data.AppointmentCautionWarning.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.AppointmentCautionWarning
-    name: AppointmentCautionWarning
-    isExternal: true
-    href: SuperOffice.Data.AppointmentCautionWarning.html
-  - name: )
-- uid: SuperOffice.Data.AppointmentCautionWarning.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<AppointmentCautionWarning>(AppointmentCautionWarning)
-  nameWithType: ObjectExtensions.GraphCopy<AppointmentCautionWarning>(AppointmentCautionWarning)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.AppointmentCautionWarning>(SuperOffice.Data.AppointmentCautionWarning)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of AppointmentCautionWarning)(AppointmentCautionWarning)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.AppointmentCautionWarning)(SuperOffice.Data.AppointmentCautionWarning)
-  name.vb: GraphCopy(Of AppointmentCautionWarning)(AppointmentCautionWarning)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.AppointmentCautionWarning)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.AppointmentCautionWarning
-    name: AppointmentCautionWarning
-    isExternal: true
-    href: SuperOffice.Data.AppointmentCautionWarning.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.AppointmentCautionWarning
-    name: AppointmentCautionWarning
-    isExternal: true
-    href: SuperOffice.Data.AppointmentCautionWarning.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.AppointmentCautionWarning)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.AppointmentCautionWarning
-    name: AppointmentCautionWarning
-    isExternal: true
-    href: SuperOffice.Data.AppointmentCautionWarning.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.AppointmentCautionWarning
-    name: AppointmentCautionWarning
-    isExternal: true
-    href: SuperOffice.Data.AppointmentCautionWarning.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -517,45 +345,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -564,222 +390,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.AppointmentCautionWarning
   commentId: T:SuperOffice.Data.AppointmentCautionWarning
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.AppointmentCautionWarning.html
   name: AppointmentCautionWarning
   nameWithType: AppointmentCautionWarning
   fullName: SuperOffice.Data.AppointmentCautionWarning

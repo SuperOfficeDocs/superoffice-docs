@@ -18,7 +18,6 @@ references:
 - uid: SuperOffice.CRM.ArchiveLists.Configuration_data_handling.ArchiveRowProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.Configuration_data_handling.ArchiveRowProvider
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Configuration_data_handling.ArchiveRowProvider.html
   name: ArchiveRowProvider
   nameWithType: ArchiveRowProvider
   fullName: SuperOffice.CRM.ArchiveLists.Configuration_data_handling.ArchiveRowProvider

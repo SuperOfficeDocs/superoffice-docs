@@ -15,14 +15,19 @@ items:
   nameWithType: SatelliteModuleLicenseLink
   fullName: SuperOffice.License.SatelliteModuleLicenseLink
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.License
-  summary: Wrapper for LicenseSatLinkRow supporting to assign and un-assign module licenses to satellites
-  example: []
+  summary: "\nWrapper for <see cref=\"!:LicenseSatLinkRow\"></see> supporting to assign and un-assign module licenses to satellites\n"
   syntax:
     content: 'public class SatelliteModuleLicenseLink : ModuleLicenseLinkBase<LicenseSatlLinkRow>, INestedPersist'
-    content.vb: Public Class SatelliteModuleLicenseLink Inherits ModuleLicenseLinkBase(Of LicenseSatlLinkRow) Implements INestedPersist
+    content.vb: >-
+      Public Class SatelliteModuleLicenseLink
+          Inherits ModuleLicenseLinkBase(Of LicenseSatlLinkRow)
+          Implements INestedPersist
   inheritance:
   - System.Object
   - SuperOffice.Data.NestedPersist
@@ -52,18 +57,28 @@ items:
   - SuperOffice.Data.NestedPersist._isSaving
   - SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
   - SuperOffice.Data.NestedPersist.Save
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  - SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  - SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
   - SuperOffice.Data.NestedPersist.IsSaving
   - SuperOffice.Data.NestedPersist.OnElementSaved
   - SuperOffice.Data.NestedPersist.OnElementIdUpdate
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.License.SatelliteModuleLicenseLink.EnumUtil.MapEnums``2
   - SuperOffice.License.SatelliteModuleLicenseLink.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.License.SatelliteModuleLicenseLink.#ctor(SuperOffice.CRM.Rows.ModuleLicenseRow)
   commentId: M:SuperOffice.License.SatelliteModuleLicenseLink.#ctor(SuperOffice.CRM.Rows.ModuleLicenseRow)
   id: '#ctor(SuperOffice.CRM.Rows.ModuleLicenseRow)'
@@ -75,11 +90,13 @@ items:
   nameWithType: SatelliteModuleLicenseLink.SatelliteModuleLicenseLink(ModuleLicenseRow)
   fullName: SuperOffice.License.SatelliteModuleLicenseLink.SatelliteModuleLicenseLink(SuperOffice.CRM.Rows.ModuleLicenseRow)
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.License
-  summary: Default constructor.
-  example: []
+  summary: "\nDefault constructor.\n"
   syntax:
     content: public SatelliteModuleLicenseLink(ModuleLicenseRow license)
     parameters:
@@ -88,9 +105,10 @@ items:
       description: Module that can be linked (i.e. assigned) to a satellite.
     content.vb: Public Sub New(license As ModuleLicenseRow)
   overload: SuperOffice.License.SatelliteModuleLicenseLink.#ctor*
-  nameWithType.vb: SatelliteModuleLicenseLink.New(ModuleLicenseRow)
-  fullName.vb: SuperOffice.License.SatelliteModuleLicenseLink.New(SuperOffice.CRM.Rows.ModuleLicenseRow)
-  name.vb: New(ModuleLicenseRow)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.License.SatelliteModuleLicenseLink.SetParentId(System.Int32)
   commentId: M:SuperOffice.License.SatelliteModuleLicenseLink.SetParentId(System.Int32)
   id: SetParentId(System.Int32)
@@ -98,27 +116,31 @@ items:
   langs:
   - csharp
   - vb
-  name: SetParentId(int)
-  nameWithType: SatelliteModuleLicenseLink.SetParentId(int)
-  fullName: SuperOffice.License.SatelliteModuleLicenseLink.SetParentId(int)
+  name: SetParentId(Int32)
+  nameWithType: SatelliteModuleLicenseLink.SetParentId(Int32)
+  fullName: SuperOffice.License.SatelliteModuleLicenseLink.SetParentId(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.License
-  summary: Set the parent
-  example: []
+  summary: "\nSet the parent \n"
   syntax:
     content: protected override void SetParentId(int parentId)
     parameters:
     - id: parentId
       type: System.Int32
-      description: ''
     content.vb: Protected Overrides Sub SetParentId(parentId As Integer)
   overridden: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.SetParentId(System.Int32)
   overload: SuperOffice.License.SatelliteModuleLicenseLink.SetParentId*
-  nameWithType.vb: SatelliteModuleLicenseLink.SetParentId(Integer)
-  fullName.vb: SuperOffice.License.SatelliteModuleLicenseLink.SetParentId(Integer)
-  name.vb: SetParentId(Integer)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.License.SatelliteModuleLicenseLink.Assigned
   commentId: P:SuperOffice.License.SatelliteModuleLicenseLink.Assigned
   id: Assigned
@@ -130,11 +152,13 @@ items:
   nameWithType: SatelliteModuleLicenseLink.Assigned
   fullName: SuperOffice.License.SatelliteModuleLicenseLink.Assigned
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.License
-  summary: Assign a module license to a satellite.
-  example: []
+  summary: "\nAssign a module license to a satellite.\n"
   syntax:
     content: public override bool Assigned { get; set; }
     parameters: []
@@ -143,50 +167,32 @@ items:
     content.vb: Public Overrides Property Assigned As Boolean
   overridden: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.Assigned
   overload: SuperOffice.License.SatelliteModuleLicenseLink.Assigned*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
 references:
 - uid: SuperOffice.License
   commentId: N:SuperOffice.License
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.License
   nameWithType: SuperOffice.License
   fullName: SuperOffice.License
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.License
-    name: License
-    isExternal: true
-    href: SuperOffice.License.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.License
-    name: License
-    isExternal: true
-    href: SuperOffice.License.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.NestedPersist
   commentId: T:SuperOffice.Data.NestedPersist
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html
   name: NestedPersist
   nameWithType: NestedPersist
   fullName: SuperOffice.Data.NestedPersist
@@ -194,7 +200,6 @@ references:
   commentId: T:SuperOffice.Data.NestedPersistFacade
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.NestedPersistFacade.html
   name: NestedPersistFacade
   nameWithType: NestedPersistFacade
   fullName: SuperOffice.Data.NestedPersistFacade
@@ -202,7 +207,6 @@ references:
   commentId: T:SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}
   parent: SuperOffice.License
   definition: SuperOffice.License.ModuleLicenseLinkBase`1
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html
   name: ModuleLicenseLinkBase<LicenseSatlLinkRow>
   nameWithType: ModuleLicenseLinkBase<LicenseSatlLinkRow>
   fullName: SuperOffice.License.ModuleLicenseLinkBase<SuperOffice.CRM.Rows.LicenseSatlLinkRow>
@@ -212,32 +216,41 @@ references:
   spec.csharp:
   - uid: SuperOffice.License.ModuleLicenseLinkBase`1
     name: ModuleLicenseLinkBase
+    nameWithType: ModuleLicenseLinkBase
+    fullName: SuperOffice.License.ModuleLicenseLinkBase
     isExternal: true
-    href: SuperOffice.License.ModuleLicenseLinkBase-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Rows.LicenseSatlLinkRow
     name: LicenseSatlLinkRow
+    nameWithType: LicenseSatlLinkRow
+    fullName: SuperOffice.CRM.Rows.LicenseSatlLinkRow
     isExternal: true
-    href: SuperOffice.CRM.Rows.LicenseSatlLinkRow.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.License.ModuleLicenseLinkBase`1
     name: ModuleLicenseLinkBase
+    nameWithType: ModuleLicenseLinkBase
+    fullName: SuperOffice.License.ModuleLicenseLinkBase
     isExternal: true
-    href: SuperOffice.License.ModuleLicenseLinkBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Rows.LicenseSatlLinkRow
     name: LicenseSatlLinkRow
+    nameWithType: LicenseSatlLinkRow
+    fullName: SuperOffice.CRM.Rows.LicenseSatlLinkRow
     isExternal: true
-    href: SuperOffice.CRM.Rows.LicenseSatlLinkRow.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.INestedPersist
   commentId: T:SuperOffice.Data.INestedPersist
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.INestedPersist.html
   name: INestedPersist
   nameWithType: INestedPersist
   fullName: SuperOffice.Data.INestedPersist
@@ -245,55 +258,72 @@ references:
   commentId: M:SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.ToString
   parent: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}
   definition: SuperOffice.License.ModuleLicenseLinkBase`1.ToString
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_ToString
   name: ToString()
   nameWithType: ModuleLicenseLinkBase<LicenseSatlLinkRow>.ToString()
   fullName: SuperOffice.License.ModuleLicenseLinkBase<SuperOffice.CRM.Rows.LicenseSatlLinkRow>.ToString()
   nameWithType.vb: ModuleLicenseLinkBase(Of LicenseSatlLinkRow).ToString()
   fullName.vb: SuperOffice.License.ModuleLicenseLinkBase(Of SuperOffice.CRM.Rows.LicenseSatlLinkRow).ToString()
   spec.csharp:
-  - uid: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.ToString
+  - uid: SuperOffice.License.ModuleLicenseLinkBase`1.ToString
     name: ToString
+    nameWithType: ModuleLicenseLinkBase<LicenseSatlLinkRow>.ToString
+    fullName: SuperOffice.License.ModuleLicenseLinkBase<SuperOffice.CRM.Rows.LicenseSatlLinkRow>.ToString
     isExternal: true
-    href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.ToString
+  - uid: SuperOffice.License.ModuleLicenseLinkBase`1.ToString
     name: ToString
+    nameWithType: ModuleLicenseLinkBase(Of LicenseSatlLinkRow).ToString
+    fullName: SuperOffice.License.ModuleLicenseLinkBase(Of SuperOffice.CRM.Rows.LicenseSatlLinkRow).ToString
     isExternal: true
-    href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.GetFacadingItems
   commentId: M:SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.GetFacadingItems
   parent: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}
   definition: SuperOffice.License.ModuleLicenseLinkBase`1.GetFacadingItems
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_GetFacadingItems
   name: GetFacadingItems()
   nameWithType: ModuleLicenseLinkBase<LicenseSatlLinkRow>.GetFacadingItems()
   fullName: SuperOffice.License.ModuleLicenseLinkBase<SuperOffice.CRM.Rows.LicenseSatlLinkRow>.GetFacadingItems()
   nameWithType.vb: ModuleLicenseLinkBase(Of LicenseSatlLinkRow).GetFacadingItems()
   fullName.vb: SuperOffice.License.ModuleLicenseLinkBase(Of SuperOffice.CRM.Rows.LicenseSatlLinkRow).GetFacadingItems()
   spec.csharp:
-  - uid: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.GetFacadingItems
+  - uid: SuperOffice.License.ModuleLicenseLinkBase`1.GetFacadingItems
     name: GetFacadingItems
+    nameWithType: ModuleLicenseLinkBase<LicenseSatlLinkRow>.GetFacadingItems
+    fullName: SuperOffice.License.ModuleLicenseLinkBase<SuperOffice.CRM.Rows.LicenseSatlLinkRow>.GetFacadingItems
     isExternal: true
-    href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_GetFacadingItems
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.GetFacadingItems
+  - uid: SuperOffice.License.ModuleLicenseLinkBase`1.GetFacadingItems
     name: GetFacadingItems
+    nameWithType: ModuleLicenseLinkBase(Of LicenseSatlLinkRow).GetFacadingItems
+    fullName: SuperOffice.License.ModuleLicenseLinkBase(Of SuperOffice.CRM.Rows.LicenseSatlLinkRow).GetFacadingItems
     isExternal: true
-    href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_GetFacadingItems
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.InUse
   commentId: P:SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.InUse
   parent: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}
   definition: SuperOffice.License.ModuleLicenseLinkBase`1.InUse
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_InUse
   name: InUse
   nameWithType: ModuleLicenseLinkBase<LicenseSatlLinkRow>.InUse
   fullName: SuperOffice.License.ModuleLicenseLinkBase<SuperOffice.CRM.Rows.LicenseSatlLinkRow>.InUse
@@ -303,7 +333,6 @@ references:
   commentId: P:SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.License
   parent: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}
   definition: SuperOffice.License.ModuleLicenseLinkBase`1.License
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_License
   name: License
   nameWithType: ModuleLicenseLinkBase<LicenseSatlLinkRow>.License
   fullName: SuperOffice.License.ModuleLicenseLinkBase<SuperOffice.CRM.Rows.LicenseSatlLinkRow>.License
@@ -313,7 +342,6 @@ references:
   commentId: P:SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.Link
   parent: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}
   definition: SuperOffice.License.ModuleLicenseLinkBase`1.Link
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_Link
   name: Link
   nameWithType: ModuleLicenseLinkBase<LicenseSatlLinkRow>.Link
   fullName: SuperOffice.License.ModuleLicenseLinkBase<SuperOffice.CRM.Rows.LicenseSatlLinkRow>.Link
@@ -323,7 +351,6 @@ references:
   commentId: P:SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.PrerequisiteModuleName
   parent: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}
   definition: SuperOffice.License.ModuleLicenseLinkBase`1.PrerequisiteModuleName
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_PrerequisiteModuleName
   name: PrerequisiteModuleName
   nameWithType: ModuleLicenseLinkBase<LicenseSatlLinkRow>.PrerequisiteModuleName
   fullName: SuperOffice.License.ModuleLicenseLinkBase<SuperOffice.CRM.Rows.LicenseSatlLinkRow>.PrerequisiteModuleName
@@ -333,7 +360,6 @@ references:
   commentId: P:SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.CanAssign
   parent: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}
   definition: SuperOffice.License.ModuleLicenseLinkBase`1.CanAssign
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_CanAssign
   name: CanAssign
   nameWithType: ModuleLicenseLinkBase<LicenseSatlLinkRow>.CanAssign
   fullName: SuperOffice.License.ModuleLicenseLinkBase<SuperOffice.CRM.Rows.LicenseSatlLinkRow>.CanAssign
@@ -343,7 +369,6 @@ references:
   commentId: P:SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.SortOrder
   parent: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}
   definition: SuperOffice.License.ModuleLicenseLinkBase`1.SortOrder
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_SortOrder
   name: SortOrder
   nameWithType: ModuleLicenseLinkBase<LicenseSatlLinkRow>.SortOrder
   fullName: SuperOffice.License.ModuleLicenseLinkBase<SuperOffice.CRM.Rows.LicenseSatlLinkRow>.SortOrder
@@ -353,7 +378,6 @@ references:
   commentId: P:SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.IsDirty
   parent: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}
   definition: SuperOffice.License.ModuleLicenseLinkBase`1.IsDirty
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_IsDirty
   name: IsDirty
   nameWithType: ModuleLicenseLinkBase<LicenseSatlLinkRow>.IsDirty
   fullName: SuperOffice.License.ModuleLicenseLinkBase<SuperOffice.CRM.Rows.LicenseSatlLinkRow>.IsDirty
@@ -363,7 +387,6 @@ references:
   commentId: P:SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.IsDeleted
   parent: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}
   definition: SuperOffice.License.ModuleLicenseLinkBase`1.IsDeleted
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_IsDeleted
   name: IsDeleted
   nameWithType: ModuleLicenseLinkBase<LicenseSatlLinkRow>.IsDeleted
   fullName: SuperOffice.License.ModuleLicenseLinkBase<SuperOffice.CRM.Rows.LicenseSatlLinkRow>.IsDeleted
@@ -373,7 +396,6 @@ references:
   commentId: P:SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.IsMarkedForDelete
   parent: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}
   definition: SuperOffice.License.ModuleLicenseLinkBase`1.IsMarkedForDelete
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_IsMarkedForDelete
   name: IsMarkedForDelete
   nameWithType: ModuleLicenseLinkBase<LicenseSatlLinkRow>.IsMarkedForDelete
   fullName: SuperOffice.License.ModuleLicenseLinkBase<SuperOffice.CRM.Rows.LicenseSatlLinkRow>.IsMarkedForDelete
@@ -383,174 +405,232 @@ references:
   commentId: M:SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnPreIdUpdate
   name: OnPreIdUpdate()
   nameWithType: NestedPersistFacade.OnPreIdUpdate()
   fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate()
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
     name: OnPreIdUpdate
+    nameWithType: NestedPersistFacade.OnPreIdUpdate
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnPreIdUpdate
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
     name: OnPreIdUpdate
+    nameWithType: NestedPersistFacade.OnPreIdUpdate
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPreIdUpdate
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnPreIdUpdate
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
   commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnPrimaryKeyRequest_SuperOffice_Data_PKContainer_
   name: OnPrimaryKeyRequest(PKContainer)
   nameWithType: NestedPersistFacade.OnPrimaryKeyRequest(PKContainer)
   fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
     name: OnPrimaryKeyRequest
+    nameWithType: NestedPersistFacade.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnPrimaryKeyRequest_SuperOffice_Data_PKContainer_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.PKContainer
     name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
     isExternal: true
-    href: SuperOffice.Data.PKContainer.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
     name: OnPrimaryKeyRequest
+    nameWithType: NestedPersistFacade.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyRequest
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnPrimaryKeyRequest_SuperOffice_Data_PKContainer_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.PKContainer
     name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
     isExternal: true
-    href: SuperOffice.Data.PKContainer.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
   commentId: M:SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnPrimaryKeyUpdate_SuperOffice_Data_PKContainer_
   name: OnPrimaryKeyUpdate(PKContainer)
   nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate(PKContainer)
   fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
     name: OnPrimaryKeyUpdate
+    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnPrimaryKeyUpdate_SuperOffice_Data_PKContainer_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.PKContainer
     name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
     isExternal: true
-    href: SuperOffice.Data.PKContainer.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
     name: OnPrimaryKeyUpdate
+    nameWithType: NestedPersistFacade.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.NestedPersistFacade.OnPrimaryKeyUpdate
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnPrimaryKeyUpdate_SuperOffice_Data_PKContainer_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.PKContainer
     name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
     isExternal: true
-    href: SuperOffice.Data.PKContainer.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
   commentId: M:SuperOffice.Data.NestedPersistFacade.OnIdUpdate
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnIdUpdate
   name: OnIdUpdate()
   nameWithType: NestedPersistFacade.OnIdUpdate()
   fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate()
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
     name: OnIdUpdate
+    nameWithType: NestedPersistFacade.OnIdUpdate
+    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnIdUpdate
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
     name: OnIdUpdate
+    nameWithType: NestedPersistFacade.OnIdUpdate
+    fullName: SuperOffice.Data.NestedPersistFacade.OnIdUpdate
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnIdUpdate
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
   commentId: M:SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnSave_SuperOffice_Data_SQL_BatchSave_
   name: OnSave(BatchSave)
   nameWithType: NestedPersistFacade.OnSave(BatchSave)
   fullName: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
     name: OnSave
+    nameWithType: NestedPersistFacade.OnSave
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSave
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnSave_SuperOffice_Data_SQL_BatchSave_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.BatchSave
     name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
     isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersistFacade.OnSave(SuperOffice.Data.SQL.BatchSave)
     name: OnSave
+    nameWithType: NestedPersistFacade.OnSave
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSave
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnSave_SuperOffice_Data_SQL_BatchSave_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.BatchSave
     name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
     isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
   commentId: M:SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
   parent: SuperOffice.Data.NestedPersistFacade
   isExternal: true
-  href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnSaved_System_Boolean_
-  name: OnSaved(bool)
-  nameWithType: NestedPersistFacade.OnSaved(bool)
-  fullName: SuperOffice.Data.NestedPersistFacade.OnSaved(bool)
-  nameWithType.vb: NestedPersistFacade.OnSaved(Boolean)
-  fullName.vb: SuperOffice.Data.NestedPersistFacade.OnSaved(Boolean)
-  name.vb: OnSaved(Boolean)
+  name: OnSaved(Boolean)
+  nameWithType: NestedPersistFacade.OnSaved(Boolean)
+  fullName: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
     name: OnSaved
+    nameWithType: NestedPersistFacade.OnSaved
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSaved
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnSaved_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersistFacade.OnSaved(System.Boolean)
     name: OnSaved
+    nameWithType: NestedPersistFacade.OnSaved
+    fullName: SuperOffice.Data.NestedPersistFacade.OnSaved
     isExternal: true
-    href: SuperOffice.Data.NestedPersistFacade.html#SuperOffice_Data_NestedPersistFacade_OnSaved_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersist._saveOwner
   commentId: F:SuperOffice.Data.NestedPersist._saveOwner
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist__saveOwner
   name: _saveOwner
   nameWithType: NestedPersist._saveOwner
   fullName: SuperOffice.Data.NestedPersist._saveOwner
@@ -558,7 +638,6 @@ references:
   commentId: F:SuperOffice.Data.NestedPersist._isSaving
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist__isSaving
   name: _isSaving
   nameWithType: NestedPersist._isSaving
   fullName: SuperOffice.Data.NestedPersist._isSaving
@@ -566,59 +645,480 @@ references:
   commentId: M:SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_SetSaveOwner_SuperOffice_Data_INestedPersist_
   name: SetSaveOwner(INestedPersist)
   nameWithType: NestedPersist.SetSaveOwner(INestedPersist)
   fullName: SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
     name: SetSaveOwner
+    nameWithType: NestedPersist.SetSaveOwner
+    fullName: SuperOffice.Data.NestedPersist.SetSaveOwner
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_SetSaveOwner_SuperOffice_Data_INestedPersist_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.INestedPersist
     name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
     isExternal: true
-    href: SuperOffice.Data.INestedPersist.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
     name: SetSaveOwner
+    nameWithType: NestedPersist.SetSaveOwner
+    fullName: SuperOffice.Data.NestedPersist.SetSaveOwner
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_SetSaveOwner_SuperOffice_Data_INestedPersist_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.INestedPersist
     name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
     isExternal: true
-    href: SuperOffice.Data.INestedPersist.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersist.Save
   commentId: M:SuperOffice.Data.NestedPersist.Save
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_Save
   name: Save()
   nameWithType: NestedPersist.Save()
   fullName: SuperOffice.Data.NestedPersist.Save()
   spec.csharp:
   - uid: SuperOffice.Data.NestedPersist.Save
     name: Save
+    nameWithType: NestedPersist.Save
+    fullName: SuperOffice.Data.NestedPersist.Save
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_Save
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.NestedPersist.Save
     name: Save
+    nameWithType: NestedPersist.Save
+    fullName: SuperOffice.Data.NestedPersist.Save
     isExternal: true
-    href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_Save
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnPreIdUpdate()
+  nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+    name: INestedPersist.OnPreIdUpdate
+    nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+    name: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyRequest
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyUpdate
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnIdUpdate()
+  nameWithType: NestedPersist.INestedPersist.OnIdUpdate()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
+  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdate()
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+    name: INestedPersist.OnIdUpdate
+    nameWithType: NestedPersist.INestedPersist.OnIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+    name: SuperOffice.Data.INestedPersist.OnIdUpdate
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnSave(BatchSave)
+  nameWithType: NestedPersist.INestedPersist.OnSave(BatchSave)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSave(BatchSave)
+  name.vb: SuperOffice.Data.INestedPersist.OnSave(BatchSave)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+    name: INestedPersist.OnSave
+    nameWithType: NestedPersist.INestedPersist.OnSave
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+    name: SuperOffice.Data.INestedPersist.OnSave
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnSaved(Boolean)
+  nameWithType: NestedPersist.INestedPersist.OnSaved(Boolean)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(Boolean)
+  name.vb: SuperOffice.Data.INestedPersist.OnSaved(Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+    name: INestedPersist.OnSaved
+    nameWithType: NestedPersist.INestedPersist.OnSaved
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+    name: SuperOffice.Data.INestedPersist.OnSaved
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: add_OnElementSaved(OnSaved)
+  nameWithType: NestedPersist.add_OnElementSaved(OnSaved)
+  fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: NestedPersist.add_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: add_OnElementSaved
+    nameWithType: NestedPersist.add_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  commentId: M:SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: remove_OnElementSaved(OnSaved)
+  nameWithType: NestedPersist.remove_OnElementSaved(OnSaved)
+  fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: NestedPersist.remove_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementSaved(SuperOffice.Data.OnSaved)
+    name: remove_OnElementSaved
+    nameWithType: NestedPersist.remove_OnElementSaved
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnSaved
+    name: OnSaved
+    nameWithType: OnSaved
+    fullName: SuperOffice.Data.OnSaved
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: add_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: NestedPersist.add_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: NestedPersist.add_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: add_OnElementIdUpdate
+    nameWithType: NestedPersist.add_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.add_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  commentId: M:SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: remove_OnElementIdUpdate(OnIdUpdate)
+  nameWithType: NestedPersist.remove_OnElementIdUpdate(OnIdUpdate)
+  fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: NestedPersist.remove_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate(SuperOffice.Data.OnIdUpdate)
+    name: remove_OnElementIdUpdate
+    nameWithType: NestedPersist.remove_OnElementIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.remove_OnElementIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: OnIdUpdate
+    fullName: SuperOffice.Data.OnIdUpdate
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NestedPersist.IsSaving
   commentId: P:SuperOffice.Data.NestedPersist.IsSaving
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_IsSaving
   name: IsSaving
   nameWithType: NestedPersist.IsSaving
   fullName: SuperOffice.Data.NestedPersist.IsSaving
@@ -626,7 +1126,6 @@ references:
   commentId: E:SuperOffice.Data.NestedPersist.OnElementSaved
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnElementSaved
   name: OnElementSaved
   nameWithType: NestedPersist.OnElementSaved
   fullName: SuperOffice.Data.NestedPersist.OnElementSaved
@@ -634,349 +1133,92 @@ references:
   commentId: E:SuperOffice.Data.NestedPersist.OnElementIdUpdate
   parent: SuperOffice.Data.NestedPersist
   isExternal: true
-  href: SuperOffice.Data.NestedPersist.html#SuperOffice_Data_NestedPersist_OnElementIdUpdate
   name: OnElementIdUpdate
   nameWithType: NestedPersist.OnElementIdUpdate
   fullName: SuperOffice.Data.NestedPersist.OnElementIdUpdate
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.License.SatelliteModuleLicenseLink.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<SatelliteModuleLicenseLink, To>(SatelliteModuleLicenseLink)
-  nameWithType: EnumUtil.MapEnums<SatelliteModuleLicenseLink, To>(SatelliteModuleLicenseLink)
-  fullName: EnumUtil.MapEnums<SuperOffice.License.SatelliteModuleLicenseLink, To>(SuperOffice.License.SatelliteModuleLicenseLink)
-  nameWithType.vb: EnumUtil.MapEnums(Of SatelliteModuleLicenseLink, To)(SatelliteModuleLicenseLink)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.License.SatelliteModuleLicenseLink, To)(SuperOffice.License.SatelliteModuleLicenseLink)
-  name.vb: MapEnums(Of SatelliteModuleLicenseLink, To)(SatelliteModuleLicenseLink)
+  name: MapEnums<SatelliteModuleLicenseLink, To>()
+  nameWithType: EnumUtil.MapEnums<SatelliteModuleLicenseLink, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.License.SatelliteModuleLicenseLink, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SatelliteModuleLicenseLink, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.License.SatelliteModuleLicenseLink, To)()
+  name.vb: MapEnums(Of SatelliteModuleLicenseLink, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.License.SatelliteModuleLicenseLink)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SatelliteModuleLicenseLink, To>
+    nameWithType: EnumUtil.MapEnums<SatelliteModuleLicenseLink, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.License.SatelliteModuleLicenseLink, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.License.SatelliteModuleLicenseLink
-    name: SatelliteModuleLicenseLink
-    isExternal: true
-    href: SuperOffice.License.SatelliteModuleLicenseLink.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.License.SatelliteModuleLicenseLink
-    name: SatelliteModuleLicenseLink
-    isExternal: true
-    href: SuperOffice.License.SatelliteModuleLicenseLink.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.License.SatelliteModuleLicenseLink)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SatelliteModuleLicenseLink, To)
+    nameWithType: EnumUtil.MapEnums(Of SatelliteModuleLicenseLink, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.License.SatelliteModuleLicenseLink, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.SatelliteModuleLicenseLink
-    name: SatelliteModuleLicenseLink
-    isExternal: true
-    href: SuperOffice.License.SatelliteModuleLicenseLink.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.License.SatelliteModuleLicenseLink
-    name: SatelliteModuleLicenseLink
-    isExternal: true
-    href: SuperOffice.License.SatelliteModuleLicenseLink.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.SatelliteModuleLicenseLink.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<SatelliteModuleLicenseLink, To>(SatelliteModuleLicenseLink)
-  nameWithType: Converters.MapEnums<SatelliteModuleLicenseLink, To>(SatelliteModuleLicenseLink)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.SatelliteModuleLicenseLink, To>(SuperOffice.License.SatelliteModuleLicenseLink)
-  nameWithType.vb: Converters.MapEnums(Of SatelliteModuleLicenseLink, To)(SatelliteModuleLicenseLink)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.SatelliteModuleLicenseLink, To)(SuperOffice.License.SatelliteModuleLicenseLink)
-  name.vb: MapEnums(Of SatelliteModuleLicenseLink, To)(SatelliteModuleLicenseLink)
+  name: MapEnums<SatelliteModuleLicenseLink, To>()
+  nameWithType: Converters.MapEnums<SatelliteModuleLicenseLink, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.SatelliteModuleLicenseLink, To>()
+  nameWithType.vb: Converters.MapEnums(Of SatelliteModuleLicenseLink, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.SatelliteModuleLicenseLink, To)()
+  name.vb: MapEnums(Of SatelliteModuleLicenseLink, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.License.SatelliteModuleLicenseLink)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SatelliteModuleLicenseLink, To>
+    nameWithType: Converters.MapEnums<SatelliteModuleLicenseLink, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.License.SatelliteModuleLicenseLink, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.License.SatelliteModuleLicenseLink
-    name: SatelliteModuleLicenseLink
-    isExternal: true
-    href: SuperOffice.License.SatelliteModuleLicenseLink.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.License.SatelliteModuleLicenseLink
-    name: SatelliteModuleLicenseLink
-    isExternal: true
-    href: SuperOffice.License.SatelliteModuleLicenseLink.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.License.SatelliteModuleLicenseLink)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SatelliteModuleLicenseLink, To)
+    nameWithType: Converters.MapEnums(Of SatelliteModuleLicenseLink, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.License.SatelliteModuleLicenseLink, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.License.SatelliteModuleLicenseLink
-    name: SatelliteModuleLicenseLink
-    isExternal: true
-    href: SuperOffice.License.SatelliteModuleLicenseLink.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.License.SatelliteModuleLicenseLink
-    name: SatelliteModuleLicenseLink
-    isExternal: true
-    href: SuperOffice.License.SatelliteModuleLicenseLink.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.License.ModuleLicenseLinkBase`1
   commentId: T:SuperOffice.License.ModuleLicenseLinkBase`1
   isExternal: true
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html
   name: ModuleLicenseLinkBase<TLinkRow>
   nameWithType: ModuleLicenseLinkBase<TLinkRow>
   fullName: SuperOffice.License.ModuleLicenseLinkBase<TLinkRow>
@@ -986,25 +1228,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.License.ModuleLicenseLinkBase`1
     name: ModuleLicenseLinkBase
+    nameWithType: ModuleLicenseLinkBase
+    fullName: SuperOffice.License.ModuleLicenseLinkBase
     isExternal: true
-    href: SuperOffice.License.ModuleLicenseLinkBase-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TLinkRow
+    nameWithType: TLinkRow
+    fullName: TLinkRow
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.License.ModuleLicenseLinkBase`1
     name: ModuleLicenseLinkBase
+    nameWithType: ModuleLicenseLinkBase
+    fullName: SuperOffice.License.ModuleLicenseLinkBase
     isExternal: true
-    href: SuperOffice.License.ModuleLicenseLinkBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TLinkRow
+    nameWithType: TLinkRow
+    fullName: TLinkRow
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.ModuleLicenseLinkBase`1.ToString
   commentId: M:SuperOffice.License.ModuleLicenseLinkBase`1.ToString
   isExternal: true
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_ToString
   name: ToString()
   nameWithType: ModuleLicenseLinkBase<TLinkRow>.ToString()
   fullName: SuperOffice.License.ModuleLicenseLinkBase<TLinkRow>.ToString()
@@ -1013,21 +1266,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.License.ModuleLicenseLinkBase`1.ToString
     name: ToString
+    nameWithType: ModuleLicenseLinkBase<TLinkRow>.ToString
+    fullName: SuperOffice.License.ModuleLicenseLinkBase<TLinkRow>.ToString
     isExternal: true
-    href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.ModuleLicenseLinkBase`1.ToString
     name: ToString
+    nameWithType: ModuleLicenseLinkBase(Of TLinkRow).ToString
+    fullName: SuperOffice.License.ModuleLicenseLinkBase(Of TLinkRow).ToString
     isExternal: true
-    href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.ModuleLicenseLinkBase`1.GetFacadingItems
   commentId: M:SuperOffice.License.ModuleLicenseLinkBase`1.GetFacadingItems
   isExternal: true
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_GetFacadingItems
   name: GetFacadingItems()
   nameWithType: ModuleLicenseLinkBase<TLinkRow>.GetFacadingItems()
   fullName: SuperOffice.License.ModuleLicenseLinkBase<TLinkRow>.GetFacadingItems()
@@ -1036,21 +1298,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.License.ModuleLicenseLinkBase`1.GetFacadingItems
     name: GetFacadingItems
+    nameWithType: ModuleLicenseLinkBase<TLinkRow>.GetFacadingItems
+    fullName: SuperOffice.License.ModuleLicenseLinkBase<TLinkRow>.GetFacadingItems
     isExternal: true
-    href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_GetFacadingItems
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.ModuleLicenseLinkBase`1.GetFacadingItems
     name: GetFacadingItems
+    nameWithType: ModuleLicenseLinkBase(Of TLinkRow).GetFacadingItems
+    fullName: SuperOffice.License.ModuleLicenseLinkBase(Of TLinkRow).GetFacadingItems
     isExternal: true
-    href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_GetFacadingItems
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.ModuleLicenseLinkBase`1.InUse
   commentId: P:SuperOffice.License.ModuleLicenseLinkBase`1.InUse
   isExternal: true
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_InUse
   name: InUse
   nameWithType: ModuleLicenseLinkBase<TLinkRow>.InUse
   fullName: SuperOffice.License.ModuleLicenseLinkBase<TLinkRow>.InUse
@@ -1059,7 +1330,6 @@ references:
 - uid: SuperOffice.License.ModuleLicenseLinkBase`1.License
   commentId: P:SuperOffice.License.ModuleLicenseLinkBase`1.License
   isExternal: true
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_License
   name: License
   nameWithType: ModuleLicenseLinkBase<TLinkRow>.License
   fullName: SuperOffice.License.ModuleLicenseLinkBase<TLinkRow>.License
@@ -1068,7 +1338,6 @@ references:
 - uid: SuperOffice.License.ModuleLicenseLinkBase`1.Link
   commentId: P:SuperOffice.License.ModuleLicenseLinkBase`1.Link
   isExternal: true
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_Link
   name: Link
   nameWithType: ModuleLicenseLinkBase<TLinkRow>.Link
   fullName: SuperOffice.License.ModuleLicenseLinkBase<TLinkRow>.Link
@@ -1077,7 +1346,6 @@ references:
 - uid: SuperOffice.License.ModuleLicenseLinkBase`1.PrerequisiteModuleName
   commentId: P:SuperOffice.License.ModuleLicenseLinkBase`1.PrerequisiteModuleName
   isExternal: true
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_PrerequisiteModuleName
   name: PrerequisiteModuleName
   nameWithType: ModuleLicenseLinkBase<TLinkRow>.PrerequisiteModuleName
   fullName: SuperOffice.License.ModuleLicenseLinkBase<TLinkRow>.PrerequisiteModuleName
@@ -1086,7 +1354,6 @@ references:
 - uid: SuperOffice.License.ModuleLicenseLinkBase`1.CanAssign
   commentId: P:SuperOffice.License.ModuleLicenseLinkBase`1.CanAssign
   isExternal: true
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_CanAssign
   name: CanAssign
   nameWithType: ModuleLicenseLinkBase<TLinkRow>.CanAssign
   fullName: SuperOffice.License.ModuleLicenseLinkBase<TLinkRow>.CanAssign
@@ -1095,7 +1362,6 @@ references:
 - uid: SuperOffice.License.ModuleLicenseLinkBase`1.SortOrder
   commentId: P:SuperOffice.License.ModuleLicenseLinkBase`1.SortOrder
   isExternal: true
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_SortOrder
   name: SortOrder
   nameWithType: ModuleLicenseLinkBase<TLinkRow>.SortOrder
   fullName: SuperOffice.License.ModuleLicenseLinkBase<TLinkRow>.SortOrder
@@ -1104,7 +1370,6 @@ references:
 - uid: SuperOffice.License.ModuleLicenseLinkBase`1.IsDirty
   commentId: P:SuperOffice.License.ModuleLicenseLinkBase`1.IsDirty
   isExternal: true
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_IsDirty
   name: IsDirty
   nameWithType: ModuleLicenseLinkBase<TLinkRow>.IsDirty
   fullName: SuperOffice.License.ModuleLicenseLinkBase<TLinkRow>.IsDirty
@@ -1113,7 +1378,6 @@ references:
 - uid: SuperOffice.License.ModuleLicenseLinkBase`1.IsDeleted
   commentId: P:SuperOffice.License.ModuleLicenseLinkBase`1.IsDeleted
   isExternal: true
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_IsDeleted
   name: IsDeleted
   nameWithType: ModuleLicenseLinkBase<TLinkRow>.IsDeleted
   fullName: SuperOffice.License.ModuleLicenseLinkBase<TLinkRow>.IsDeleted
@@ -1122,7 +1386,6 @@ references:
 - uid: SuperOffice.License.ModuleLicenseLinkBase`1.IsMarkedForDelete
   commentId: P:SuperOffice.License.ModuleLicenseLinkBase`1.IsMarkedForDelete
   isExternal: true
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_IsMarkedForDelete
   name: IsMarkedForDelete
   nameWithType: ModuleLicenseLinkBase<TLinkRow>.IsMarkedForDelete
   fullName: SuperOffice.License.ModuleLicenseLinkBase<TLinkRow>.IsMarkedForDelete
@@ -1131,7 +1394,6 @@ references:
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1140,45 +1402,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1187,171 +1447,112 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.License.SatelliteModuleLicenseLink.#ctor*
   commentId: Overload:SuperOffice.License.SatelliteModuleLicenseLink.#ctor
   isExternal: true
-  href: SuperOffice.License.SatelliteModuleLicenseLink.html#SuperOffice_License_SatelliteModuleLicenseLink__ctor_SuperOffice_CRM_Rows_ModuleLicenseRow_
   name: SatelliteModuleLicenseLink
   nameWithType: SatelliteModuleLicenseLink.SatelliteModuleLicenseLink
   fullName: SuperOffice.License.SatelliteModuleLicenseLink.SatelliteModuleLicenseLink
-  nameWithType.vb: SatelliteModuleLicenseLink.New
-  fullName.vb: SuperOffice.License.SatelliteModuleLicenseLink.New
-  name.vb: New
 - uid: SuperOffice.CRM.Rows.ModuleLicenseRow
   commentId: T:SuperOffice.CRM.Rows.ModuleLicenseRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.ModuleLicenseRow.html
   name: ModuleLicenseRow
   nameWithType: ModuleLicenseRow
   fullName: SuperOffice.CRM.Rows.ModuleLicenseRow
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.SetParentId(System.Int32)
   commentId: M:SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.SetParentId(System.Int32)
   parent: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}
   definition: SuperOffice.License.ModuleLicenseLinkBase`1.SetParentId(System.Int32)
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_SetParentId_System_Int32_
-  name: SetParentId(int)
-  nameWithType: ModuleLicenseLinkBase<LicenseSatlLinkRow>.SetParentId(int)
-  fullName: SuperOffice.License.ModuleLicenseLinkBase<SuperOffice.CRM.Rows.LicenseSatlLinkRow>.SetParentId(int)
-  nameWithType.vb: ModuleLicenseLinkBase(Of LicenseSatlLinkRow).SetParentId(Integer)
-  fullName.vb: SuperOffice.License.ModuleLicenseLinkBase(Of SuperOffice.CRM.Rows.LicenseSatlLinkRow).SetParentId(Integer)
-  name.vb: SetParentId(Integer)
+  name: SetParentId(Int32)
+  nameWithType: ModuleLicenseLinkBase<LicenseSatlLinkRow>.SetParentId(Int32)
+  fullName: SuperOffice.License.ModuleLicenseLinkBase<SuperOffice.CRM.Rows.LicenseSatlLinkRow>.SetParentId(System.Int32)
+  nameWithType.vb: ModuleLicenseLinkBase(Of LicenseSatlLinkRow).SetParentId(Int32)
+  fullName.vb: SuperOffice.License.ModuleLicenseLinkBase(Of SuperOffice.CRM.Rows.LicenseSatlLinkRow).SetParentId(System.Int32)
   spec.csharp:
-  - uid: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.SetParentId(System.Int32)
+  - uid: SuperOffice.License.ModuleLicenseLinkBase`1.SetParentId(System.Int32)
     name: SetParentId
+    nameWithType: ModuleLicenseLinkBase<LicenseSatlLinkRow>.SetParentId
+    fullName: SuperOffice.License.ModuleLicenseLinkBase<SuperOffice.CRM.Rows.LicenseSatlLinkRow>.SetParentId
     isExternal: true
-    href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_SetParentId_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.SetParentId(System.Int32)
+  - uid: SuperOffice.License.ModuleLicenseLinkBase`1.SetParentId(System.Int32)
     name: SetParentId
+    nameWithType: ModuleLicenseLinkBase(Of LicenseSatlLinkRow).SetParentId
+    fullName: SuperOffice.License.ModuleLicenseLinkBase(Of SuperOffice.CRM.Rows.LicenseSatlLinkRow).SetParentId
     isExternal: true
-    href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_SetParentId_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.SatelliteModuleLicenseLink.SetParentId*
   commentId: Overload:SuperOffice.License.SatelliteModuleLicenseLink.SetParentId
   isExternal: true
-  href: SuperOffice.License.SatelliteModuleLicenseLink.html#SuperOffice_License_SatelliteModuleLicenseLink_SetParentId_System_Int32_
   name: SetParentId
   nameWithType: SatelliteModuleLicenseLink.SetParentId
   fullName: SuperOffice.License.SatelliteModuleLicenseLink.SetParentId
@@ -1359,50 +1560,55 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.License.ModuleLicenseLinkBase`1.SetParentId(System.Int32)
   commentId: M:SuperOffice.License.ModuleLicenseLinkBase`1.SetParentId(System.Int32)
   isExternal: true
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_SetParentId_System_Int32_
-  name: SetParentId(int)
-  nameWithType: ModuleLicenseLinkBase<TLinkRow>.SetParentId(int)
-  fullName: SuperOffice.License.ModuleLicenseLinkBase<TLinkRow>.SetParentId(int)
-  nameWithType.vb: ModuleLicenseLinkBase(Of TLinkRow).SetParentId(Integer)
-  fullName.vb: SuperOffice.License.ModuleLicenseLinkBase(Of TLinkRow).SetParentId(Integer)
-  name.vb: SetParentId(Integer)
+  name: SetParentId(Int32)
+  nameWithType: ModuleLicenseLinkBase<TLinkRow>.SetParentId(Int32)
+  fullName: SuperOffice.License.ModuleLicenseLinkBase<TLinkRow>.SetParentId(System.Int32)
+  nameWithType.vb: ModuleLicenseLinkBase(Of TLinkRow).SetParentId(Int32)
+  fullName.vb: SuperOffice.License.ModuleLicenseLinkBase(Of TLinkRow).SetParentId(System.Int32)
   spec.csharp:
   - uid: SuperOffice.License.ModuleLicenseLinkBase`1.SetParentId(System.Int32)
     name: SetParentId
+    nameWithType: ModuleLicenseLinkBase<TLinkRow>.SetParentId
+    fullName: SuperOffice.License.ModuleLicenseLinkBase<TLinkRow>.SetParentId
     isExternal: true
-    href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_SetParentId_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.License.ModuleLicenseLinkBase`1.SetParentId(System.Int32)
     name: SetParentId
+    nameWithType: ModuleLicenseLinkBase(Of TLinkRow).SetParentId
+    fullName: SuperOffice.License.ModuleLicenseLinkBase(Of TLinkRow).SetParentId
     isExternal: true
-    href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_SetParentId_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.Assigned
   commentId: P:SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}.Assigned
   parent: SuperOffice.License.ModuleLicenseLinkBase{SuperOffice.CRM.Rows.LicenseSatlLinkRow}
   definition: SuperOffice.License.ModuleLicenseLinkBase`1.Assigned
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_Assigned
   name: Assigned
   nameWithType: ModuleLicenseLinkBase<LicenseSatlLinkRow>.Assigned
   fullName: SuperOffice.License.ModuleLicenseLinkBase<SuperOffice.CRM.Rows.LicenseSatlLinkRow>.Assigned
@@ -1411,7 +1617,6 @@ references:
 - uid: SuperOffice.License.SatelliteModuleLicenseLink.Assigned*
   commentId: Overload:SuperOffice.License.SatelliteModuleLicenseLink.Assigned
   isExternal: true
-  href: SuperOffice.License.SatelliteModuleLicenseLink.html#SuperOffice_License_SatelliteModuleLicenseLink_Assigned
   name: Assigned
   nameWithType: SatelliteModuleLicenseLink.Assigned
   fullName: SuperOffice.License.SatelliteModuleLicenseLink.Assigned
@@ -1419,17 +1624,12 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.License.ModuleLicenseLinkBase`1.Assigned
   commentId: P:SuperOffice.License.ModuleLicenseLinkBase`1.Assigned
   isExternal: true
-  href: SuperOffice.License.ModuleLicenseLinkBase-1.html#SuperOffice_License_ModuleLicenseLinkBase_1_Assigned
   name: Assigned
   nameWithType: ModuleLicenseLinkBase<TLinkRow>.Assigned
   fullName: SuperOffice.License.ModuleLicenseLinkBase<TLinkRow>.Assigned

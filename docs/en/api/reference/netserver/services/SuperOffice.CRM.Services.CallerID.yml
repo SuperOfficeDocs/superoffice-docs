@@ -22,27 +22,18 @@ items:
   nameWithType: CallerID
   fullName: SuperOffice.CRM.Services.CallerID
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Describes a caller ID for Mobile to lookup phone calls. Can be for a person, or for a company, in which case the personId field will be 0
-
-    <p></p>
-
-    Carrier object for CallerID.
-
-    Services for the CallerID Carrier is available from the <xref href="SuperOffice.CRM.Services.IPocketAgent?text=Pocket+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nDescribes a caller ID for Mobile to lookup phone calls. Can be for a person, or for a company, in which case the personId field will be 0\n<p></p>\nCarrier object for CallerID.\nServices for the CallerID Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IPocketAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class CallerID
+    content: 'public class CallerID : Object'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
       Public Class CallerID
+          Inherits Object
   seealso:
   - linkId: SuperOffice.CRM.Services.PocketAgent
     commentId: T:SuperOffice.CRM.Services.PocketAgent
@@ -50,21 +41,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IPocketAgent
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.CallerID.#ctor
   commentId: M:SuperOffice.CRM.Services.CallerID.#ctor
   id: '#ctor'
@@ -76,18 +58,21 @@ items:
   nameWithType: CallerID.CallerID()
   fullName: SuperOffice.CRM.Services.CallerID.CallerID()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public CallerID()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.CallerID.#ctor*
-  nameWithType.vb: CallerID.New()
-  fullName.vb: SuperOffice.CRM.Services.CallerID.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.CallerID.ToString
   commentId: M:SuperOffice.CRM.Services.CallerID.ToString
   id: ToString
@@ -99,19 +84,26 @@ items:
   nameWithType: CallerID.ToString()
   fullName: SuperOffice.CRM.Services.CallerID.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.CallerID.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.CallerID.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.CallerID.ToString(System.String)
   id: ToString(System.String)
@@ -119,18 +111,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: CallerID.ToString(string)
-  fullName: SuperOffice.CRM.Services.CallerID.ToString(string)
+  name: ToString(String)
+  nameWithType: CallerID.ToString(String)
+  fullName: SuperOffice.CRM.Services.CallerID.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -142,9 +133,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.CallerID.ToString*
-  nameWithType.vb: CallerID.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.CallerID.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.CallerID.PhoneNumber
   commentId: P:SuperOffice.CRM.Services.CallerID.PhoneNumber
   id: PhoneNumber
@@ -156,28 +148,28 @@ items:
   nameWithType: CallerID.PhoneNumber
   fullName: SuperOffice.CRM.Services.CallerID.PhoneNumber
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Phone number, as a long instead of a string, to avoid parsing all the phonenumbers in Mobile CRM
-  example: []
+  summary: "\nPhone number, as a long instead of a string, to avoid parsing all the phonenumbers in Mobile CRM \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual long PhoneNumber { get; set; }
+    content: public virtual long PhoneNumber { get; set; }
     parameters: []
     return:
       type: System.Int64
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PhoneNumber As Long
+    content.vb: Public Overridable Property PhoneNumber As Long
   overload: SuperOffice.CRM.Services.CallerID.PhoneNumber*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.CallerID.DialInPrefix
   commentId: P:SuperOffice.CRM.Services.CallerID.DialInPrefix
   id: DialInPrefix
@@ -189,28 +181,28 @@ items:
   nameWithType: CallerID.DialInPrefix
   fullName: SuperOffice.CRM.Services.CallerID.DialInPrefix
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Prefix for dialing into the country from outside (country code), empty if PhoneNumber already contains the country code
-  example: []
+  summary: "\nPrefix for dialing into the country from outside (country code), empty if PhoneNumber already contains the country code \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual short DialInPrefix { get; set; }
+    content: public virtual short DialInPrefix { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property DialInPrefix As Short
+    content.vb: Public Overridable Property DialInPrefix As Short
   overload: SuperOffice.CRM.Services.CallerID.DialInPrefix*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.CallerID.PersonId
   commentId: P:SuperOffice.CRM.Services.CallerID.PersonId
   id: PersonId
@@ -222,28 +214,28 @@ items:
   nameWithType: CallerID.PersonId
   fullName: SuperOffice.CRM.Services.CallerID.PersonId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int PersonId { get; set; }
+    content: public virtual int PersonId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PersonId As Integer
+    content.vb: Public Overridable Property PersonId As Integer
   overload: SuperOffice.CRM.Services.CallerID.PersonId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.CallerID.PersonName
   commentId: P:SuperOffice.CRM.Services.CallerID.PersonName
   id: PersonName
@@ -255,28 +247,28 @@ items:
   nameWithType: CallerID.PersonName
   fullName: SuperOffice.CRM.Services.CallerID.PersonName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Full name of the person
-  example: []
+  summary: "\nFull name of the person \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string PersonName { get; set; }
+    content: public virtual string PersonName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PersonName As String
+    content.vb: Public Overridable Property PersonName As String
   overload: SuperOffice.CRM.Services.CallerID.PersonName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.CallerID.Mrmrs
   commentId: P:SuperOffice.CRM.Services.CallerID.Mrmrs
   id: Mrmrs
@@ -288,28 +280,28 @@ items:
   nameWithType: CallerID.Mrmrs
   fullName: SuperOffice.CRM.Services.CallerID.Mrmrs
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: e.g. Mrs   sex_title
-  example: []
+  summary: "\ne.g. Mrs   sex_title \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Mrmrs { get; set; }
+    content: public virtual string Mrmrs { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Mrmrs As String
+    content.vb: Public Overridable Property Mrmrs As String
   overload: SuperOffice.CRM.Services.CallerID.Mrmrs*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.CallerID.ContactId
   commentId: P:SuperOffice.CRM.Services.CallerID.ContactId
   id: ContactId
@@ -321,28 +313,28 @@ items:
   nameWithType: CallerID.ContactId
   fullName: SuperOffice.CRM.Services.CallerID.ContactId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ContactId { get; set; }
+    content: public virtual int ContactId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ContactId As Integer
+    content.vb: Public Overridable Property ContactId As Integer
   overload: SuperOffice.CRM.Services.CallerID.ContactId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.CallerID.ContactName
   commentId: P:SuperOffice.CRM.Services.CallerID.ContactName
   id: ContactName
@@ -354,33 +346,38 @@ items:
   nameWithType: CallerID.ContactName
   fullName: SuperOffice.CRM.Services.CallerID.ContactName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Contact name
-  example: []
+  summary: "\nContact name \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ContactName { get; set; }
+    content: public virtual string ContactName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ContactName As String
+    content.vb: Public Overridable Property ContactName As String
   overload: SuperOffice.CRM.Services.CallerID.ContactName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.PocketAgent
   commentId: T:SuperOffice.CRM.Services.PocketAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.PocketAgent.html
   name: PocketAgent
   nameWithType: PocketAgent
   fullName: SuperOffice.CRM.Services.PocketAgent
@@ -388,298 +385,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IPocketAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IPocketAgent.html
   name: IPocketAgent
   nameWithType: IPocketAgent
   fullName: SuperOffice.CRM.Services.IPocketAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.CallerID.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.CallerID.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.CallerID.html#SuperOffice_CRM_Services_CallerID__ctor
   name: CallerID
   nameWithType: CallerID.CallerID
   fullName: SuperOffice.CRM.Services.CallerID.CallerID
-  nameWithType.vb: CallerID.New
-  fullName.vb: SuperOffice.CRM.Services.CallerID.New
-  name.vb: New
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Services.CallerID.ToString*
   commentId: Overload:SuperOffice.CRM.Services.CallerID.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.CallerID.html#SuperOffice_CRM_Services_CallerID_ToString
   name: ToString
   nameWithType: CallerID.ToString
   fullName: SuperOffice.CRM.Services.CallerID.ToString
@@ -687,17 +404,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.CallerID.PhoneNumber*
   commentId: Overload:SuperOffice.CRM.Services.CallerID.PhoneNumber
   isExternal: true
-  href: SuperOffice.CRM.Services.CallerID.html#SuperOffice_CRM_Services_CallerID_PhoneNumber
   name: PhoneNumber
   nameWithType: CallerID.PhoneNumber
   fullName: SuperOffice.CRM.Services.CallerID.PhoneNumber
@@ -705,17 +423,12 @@ references:
   commentId: T:System.Int64
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int64
-  name: long
-  nameWithType: long
-  fullName: long
-  nameWithType.vb: Long
-  fullName.vb: Long
-  name.vb: Long
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
 - uid: SuperOffice.CRM.Services.CallerID.DialInPrefix*
   commentId: Overload:SuperOffice.CRM.Services.CallerID.DialInPrefix
   isExternal: true
-  href: SuperOffice.CRM.Services.CallerID.html#SuperOffice_CRM_Services_CallerID_DialInPrefix
   name: DialInPrefix
   nameWithType: CallerID.DialInPrefix
   fullName: SuperOffice.CRM.Services.CallerID.DialInPrefix
@@ -723,17 +436,12 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Services.CallerID.PersonId*
   commentId: Overload:SuperOffice.CRM.Services.CallerID.PersonId
   isExternal: true
-  href: SuperOffice.CRM.Services.CallerID.html#SuperOffice_CRM_Services_CallerID_PersonId
   name: PersonId
   nameWithType: CallerID.PersonId
   fullName: SuperOffice.CRM.Services.CallerID.PersonId
@@ -741,38 +449,30 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.CallerID.PersonName*
   commentId: Overload:SuperOffice.CRM.Services.CallerID.PersonName
   isExternal: true
-  href: SuperOffice.CRM.Services.CallerID.html#SuperOffice_CRM_Services_CallerID_PersonName
   name: PersonName
   nameWithType: CallerID.PersonName
   fullName: SuperOffice.CRM.Services.CallerID.PersonName
 - uid: SuperOffice.CRM.Services.CallerID.Mrmrs*
   commentId: Overload:SuperOffice.CRM.Services.CallerID.Mrmrs
   isExternal: true
-  href: SuperOffice.CRM.Services.CallerID.html#SuperOffice_CRM_Services_CallerID_Mrmrs
   name: Mrmrs
   nameWithType: CallerID.Mrmrs
   fullName: SuperOffice.CRM.Services.CallerID.Mrmrs
 - uid: SuperOffice.CRM.Services.CallerID.ContactId*
   commentId: Overload:SuperOffice.CRM.Services.CallerID.ContactId
   isExternal: true
-  href: SuperOffice.CRM.Services.CallerID.html#SuperOffice_CRM_Services_CallerID_ContactId
   name: ContactId
   nameWithType: CallerID.ContactId
   fullName: SuperOffice.CRM.Services.CallerID.ContactId
 - uid: SuperOffice.CRM.Services.CallerID.ContactName*
   commentId: Overload:SuperOffice.CRM.Services.CallerID.ContactName
   isExternal: true
-  href: SuperOffice.CRM.Services.CallerID.html#SuperOffice_CRM_Services_CallerID_ContactName
   name: ContactName
   nameWithType: CallerID.ContactName
   fullName: SuperOffice.CRM.Services.CallerID.ContactName

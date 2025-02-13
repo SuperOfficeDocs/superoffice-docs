@@ -19,54 +19,12 @@ references:
   commentId: T:SuperOffice.Plugins.CRM.Documents.IAssociateRename
   parent: SuperOffice.Plugins.CRM.Documents
   isExternal: true
-  href: SuperOffice.Plugins.CRM.Documents.IAssociateRename.html
   name: IAssociateRename
   nameWithType: IAssociateRename
   fullName: SuperOffice.Plugins.CRM.Documents.IAssociateRename
 - uid: SuperOffice.Plugins.CRM.Documents
   commentId: N:SuperOffice.Plugins.CRM.Documents
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Plugins.CRM.Documents
   nameWithType: SuperOffice.Plugins.CRM.Documents
   fullName: SuperOffice.Plugins.CRM.Documents
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Plugins
-    name: Plugins
-    isExternal: true
-    href: SuperOffice.Plugins.html
-  - name: .
-  - uid: SuperOffice.Plugins.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.Plugins.CRM.html
-  - name: .
-  - uid: SuperOffice.Plugins.CRM.Documents
-    name: Documents
-    isExternal: true
-    href: SuperOffice.Plugins.CRM.Documents.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Plugins
-    name: Plugins
-    isExternal: true
-    href: SuperOffice.Plugins.html
-  - name: .
-  - uid: SuperOffice.Plugins.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.Plugins.CRM.html
-  - name: .
-  - uid: SuperOffice.Plugins.CRM.Documents
-    name: Documents
-    isExternal: true
-    href: SuperOffice.Plugins.CRM.Documents.html

@@ -9,24 +9,64 @@ items:
   - SuperOffice.WebApi.Data.TicketStatusTimeCounter.Internally
   - SuperOffice.WebApi.Data.TicketStatusTimeCounter.None
   - SuperOffice.WebApi.Data.TicketStatusTimeCounter.Queue
+  - SuperOffice.WebApi.Data.TicketStatusTimeCounter.value__
   langs:
   - csharp
   - vb
   name: TicketStatusTimeCounter
   nameWithType: TicketStatusTimeCounter
   fullName: SuperOffice.WebApi.Data.TicketStatusTimeCounter
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Which field in ticket we count time spent on
-
-    This Enum is used by:  ticket_status.time_counter
-  example: []
+  summary: "\nWhich field in ticket we count time spent on\nThis Enum is used by:  ticket_status.time_counter\n"
   syntax:
-    content: 'public enum TicketStatusTimeCounter : short'
-    content.vb: Public Enum TicketStatusTimeCounter As Short
+    content: 'public sealed class TicketStatusTimeCounter : Enum'
+    content.vb: >-
+      Public NotInheritable Class TicketStatusTimeCounter
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.TicketStatusTimeCounter.value__
+  commentId: F:SuperOffice.WebApi.Data.TicketStatusTimeCounter.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.TicketStatusTimeCounter
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketStatusTimeCounter.value__
+  fullName: SuperOffice.WebApi.Data.TicketStatusTimeCounter.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TicketStatusTimeCounter.None
   commentId: F:SuperOffice.WebApi.Data.TicketStatusTimeCounter.None
   id: None
@@ -38,26 +78,24 @@ items:
   nameWithType: TicketStatusTimeCounter.None
   fullName: SuperOffice.WebApi.Data.TicketStatusTimeCounter.None
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: Not counted'
-  example: []
+  summary: "\n0: Not counted\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const TicketStatusTimeCounter None
     return:
       type: SuperOffice.WebApi.Data.TicketStatusTimeCounter
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As TicketStatusTimeCounter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TicketStatusTimeCounter.Internally
   commentId: F:SuperOffice.WebApi.Data.TicketStatusTimeCounter.Internally
   id: Internally
@@ -69,26 +107,24 @@ items:
   nameWithType: TicketStatusTimeCounter.Internally
   fullName: SuperOffice.WebApi.Data.TicketStatusTimeCounter.Internally
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: Time is counted in the _internally field'
-  example: []
+  summary: "\n1: Time is counted in the _internally field\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Internally = 1
+    content: public const TicketStatusTimeCounter Internally
     return:
       type: SuperOffice.WebApi.Data.TicketStatusTimeCounter
-    content.vb: >-
-      <EnumMember>
-
-      Internally = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Internally As TicketStatusTimeCounter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TicketStatusTimeCounter.Externally
   commentId: F:SuperOffice.WebApi.Data.TicketStatusTimeCounter.Externally
   id: Externally
@@ -100,26 +136,24 @@ items:
   nameWithType: TicketStatusTimeCounter.Externally
   fullName: SuperOffice.WebApi.Data.TicketStatusTimeCounter.Externally
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: Time is counted in the _externally field'
-  example: []
+  summary: "\n2: Time is counted in the _externally field\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Externally = 2
+    content: public const TicketStatusTimeCounter Externally
     return:
       type: SuperOffice.WebApi.Data.TicketStatusTimeCounter
-    content.vb: >-
-      <EnumMember>
-
-      Externally = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Externally As TicketStatusTimeCounter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TicketStatusTimeCounter.Queue
   commentId: F:SuperOffice.WebApi.Data.TicketStatusTimeCounter.Queue
   id: Queue
@@ -131,69 +165,55 @@ items:
   nameWithType: TicketStatusTimeCounter.Queue
   fullName: SuperOffice.WebApi.Data.TicketStatusTimeCounter.Queue
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: Time is counted in the _queue field'
-  example: []
+  summary: "\n3: Time is counted in the _queue field\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Queue = 3
+    content: public const TicketStatusTimeCounter Queue
     return:
       type: SuperOffice.WebApi.Data.TicketStatusTimeCounter
-    content.vb: >-
-      <EnumMember>
-
-      Queue = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Queue As TicketStatusTimeCounter
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.TicketStatusTimeCounter
   commentId: T:SuperOffice.WebApi.Data.TicketStatusTimeCounter
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.TicketStatusTimeCounter.html
   name: TicketStatusTimeCounter
   nameWithType: TicketStatusTimeCounter
   fullName: SuperOffice.WebApi.Data.TicketStatusTimeCounter

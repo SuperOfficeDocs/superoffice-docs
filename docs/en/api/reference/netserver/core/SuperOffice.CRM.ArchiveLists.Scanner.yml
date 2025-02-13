@@ -27,27 +27,30 @@ items:
   nameWithType: Scanner
   fullName: SuperOffice.CRM.ArchiveLists.Scanner
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: public class Scanner
-    content.vb: Public Class Scanner
+    content: 'public class Scanner : Object'
+    content.vb: >-
+      Public Class Scanner
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.Scanner.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.ArchiveLists.Scanner.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.Scanner.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.Scanner)
   - SuperOffice.CRM.ArchiveLists.Scanner.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.Scanner.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.Input
   commentId: F:SuperOffice.CRM.ArchiveLists.Scanner.Input
   id: Input
@@ -59,6 +62,9 @@ items:
   nameWithType: Scanner.Input
   fullName: SuperOffice.CRM.ArchiveLists.Scanner.Input
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -67,6 +73,10 @@ items:
     return:
       type: System.String
     content.vb: Public Input As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.StartPos
   commentId: F:SuperOffice.CRM.ArchiveLists.Scanner.StartPos
   id: StartPos
@@ -78,6 +88,9 @@ items:
   nameWithType: Scanner.StartPos
   fullName: SuperOffice.CRM.ArchiveLists.Scanner.StartPos
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -86,6 +99,10 @@ items:
     return:
       type: System.Int32
     content.vb: Public StartPos As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.EndPos
   commentId: F:SuperOffice.CRM.ArchiveLists.Scanner.EndPos
   id: EndPos
@@ -97,6 +114,9 @@ items:
   nameWithType: Scanner.EndPos
   fullName: SuperOffice.CRM.ArchiveLists.Scanner.EndPos
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -105,6 +125,10 @@ items:
     return:
       type: System.Int32
     content.vb: Public EndPos As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.CurrentFile
   commentId: F:SuperOffice.CRM.ArchiveLists.Scanner.CurrentFile
   id: CurrentFile
@@ -116,6 +140,9 @@ items:
   nameWithType: Scanner.CurrentFile
   fullName: SuperOffice.CRM.ArchiveLists.Scanner.CurrentFile
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -124,6 +151,10 @@ items:
     return:
       type: System.String
     content.vb: Public CurrentFile As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.CurrentLine
   commentId: F:SuperOffice.CRM.ArchiveLists.Scanner.CurrentLine
   id: CurrentLine
@@ -135,6 +166,9 @@ items:
   nameWithType: Scanner.CurrentLine
   fullName: SuperOffice.CRM.ArchiveLists.Scanner.CurrentLine
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -143,6 +177,10 @@ items:
     return:
       type: System.Int32
     content.vb: Public CurrentLine As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.CurrentColumn
   commentId: F:SuperOffice.CRM.ArchiveLists.Scanner.CurrentColumn
   id: CurrentColumn
@@ -154,6 +192,9 @@ items:
   nameWithType: Scanner.CurrentColumn
   fullName: SuperOffice.CRM.ArchiveLists.Scanner.CurrentColumn
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -162,6 +203,10 @@ items:
     return:
       type: System.Int32
     content.vb: Public CurrentColumn As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.CurrentPosition
   commentId: F:SuperOffice.CRM.ArchiveLists.Scanner.CurrentPosition
   id: CurrentPosition
@@ -173,6 +218,9 @@ items:
   nameWithType: Scanner.CurrentPosition
   fullName: SuperOffice.CRM.ArchiveLists.Scanner.CurrentPosition
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -181,6 +229,10 @@ items:
     return:
       type: System.Int32
     content.vb: Public CurrentPosition As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.Skipped
   commentId: F:SuperOffice.CRM.ArchiveLists.Scanner.Skipped
   id: Skipped
@@ -192,6 +244,9 @@ items:
   nameWithType: Scanner.Skipped
   fullName: SuperOffice.CRM.ArchiveLists.Scanner.Skipped
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -200,6 +255,10 @@ items:
     return:
       type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.Token}
     content.vb: Public Skipped As List(Of Token)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.Patterns
   commentId: F:SuperOffice.CRM.ArchiveLists.Scanner.Patterns
   id: Patterns
@@ -211,6 +270,9 @@ items:
   nameWithType: Scanner.Patterns
   fullName: SuperOffice.CRM.ArchiveLists.Scanner.Patterns
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -219,6 +281,10 @@ items:
     return:
       type: System.Collections.Generic.Dictionary{SuperOffice.CRM.ArchiveLists.TokenType,System.Text.RegularExpressions.Regex}
     content.vb: Public Patterns As Dictionary(Of TokenType, Regex)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.Scanner.#ctor
   id: '#ctor'
@@ -230,16 +296,20 @@ items:
   nameWithType: Scanner.Scanner()
   fullName: SuperOffice.CRM.ArchiveLists.Scanner.Scanner()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
     content: public Scanner()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.ArchiveLists.Scanner.#ctor*
-  nameWithType.vb: Scanner.New()
-  fullName.vb: SuperOffice.CRM.ArchiveLists.Scanner.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.Init(System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.Scanner.Init(System.String)
   id: Init(System.String)
@@ -247,10 +317,13 @@ items:
   langs:
   - csharp
   - vb
-  name: Init(string)
-  nameWithType: Scanner.Init(string)
-  fullName: SuperOffice.CRM.ArchiveLists.Scanner.Init(string)
+  name: Init(String)
+  nameWithType: Scanner.Init(String)
+  fullName: SuperOffice.CRM.ArchiveLists.Scanner.Init(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -261,9 +334,10 @@ items:
       type: System.String
     content.vb: Public Sub Init(input As String)
   overload: SuperOffice.CRM.ArchiveLists.Scanner.Init*
-  nameWithType.vb: Scanner.Init(String)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.Scanner.Init(String)
-  name.vb: Init(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.Init(System.String,System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.Scanner.Init(System.String,System.String)
   id: Init(System.String,System.String)
@@ -271,10 +345,13 @@ items:
   langs:
   - csharp
   - vb
-  name: Init(string, string)
-  nameWithType: Scanner.Init(string, string)
-  fullName: SuperOffice.CRM.ArchiveLists.Scanner.Init(string, string)
+  name: Init(String, String)
+  nameWithType: Scanner.Init(String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.Scanner.Init(System.String, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -287,9 +364,10 @@ items:
       type: System.String
     content.vb: Public Sub Init(input As String, fileName As String)
   overload: SuperOffice.CRM.ArchiveLists.Scanner.Init*
-  nameWithType.vb: Scanner.Init(String, String)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.Scanner.Init(String, String)
-  name.vb: Init(String, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.GetToken(SuperOffice.CRM.ArchiveLists.TokenType)
   commentId: M:SuperOffice.CRM.ArchiveLists.Scanner.GetToken(SuperOffice.CRM.ArchiveLists.TokenType)
   id: GetToken(SuperOffice.CRM.ArchiveLists.TokenType)
@@ -301,6 +379,9 @@ items:
   nameWithType: Scanner.GetToken(TokenType)
   fullName: SuperOffice.CRM.ArchiveLists.Scanner.GetToken(SuperOffice.CRM.ArchiveLists.TokenType)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -313,6 +394,10 @@ items:
       type: SuperOffice.CRM.ArchiveLists.Token
     content.vb: Public Function GetToken(type As TokenType) As Token
   overload: SuperOffice.CRM.ArchiveLists.Scanner.GetToken*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.Scan(SuperOffice.CRM.ArchiveLists.TokenType[])
   commentId: M:SuperOffice.CRM.ArchiveLists.Scanner.Scan(SuperOffice.CRM.ArchiveLists.TokenType[])
   id: Scan(SuperOffice.CRM.ArchiveLists.TokenType[])
@@ -320,18 +405,17 @@ items:
   langs:
   - csharp
   - vb
-  name: Scan(params TokenType[])
-  nameWithType: Scanner.Scan(params TokenType[])
-  fullName: SuperOffice.CRM.ArchiveLists.Scanner.Scan(params SuperOffice.CRM.ArchiveLists.TokenType[])
+  name: Scan(TokenType[])
+  nameWithType: Scanner.Scan(TokenType[])
+  fullName: SuperOffice.CRM.ArchiveLists.Scanner.Scan(SuperOffice.CRM.ArchiveLists.TokenType[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    executes a lookahead of the next token
-
-    and will advance the scan on the input string
-  example: []
+  summary: "\nexecutes a lookahead of the next token\nand will advance the scan on the input string\n"
   syntax:
     content: public Token Scan(params TokenType[] expectedtokens)
     parameters:
@@ -339,12 +423,15 @@ items:
       type: SuperOffice.CRM.ArchiveLists.TokenType[]
     return:
       type: SuperOffice.CRM.ArchiveLists.Token
-      description: ''
     content.vb: Public Function Scan(ParamArray expectedtokens As TokenType()) As Token
   overload: SuperOffice.CRM.ArchiveLists.Scanner.Scan*
-  nameWithType.vb: Scanner.Scan(ParamArray TokenType())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.Scanner.Scan(ParamArray SuperOffice.CRM.ArchiveLists.TokenType())
-  name.vb: Scan(ParamArray TokenType())
+  nameWithType.vb: Scanner.Scan(TokenType())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Scanner.Scan(SuperOffice.CRM.ArchiveLists.TokenType())
+  name.vb: Scan(TokenType())
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.LookAhead(SuperOffice.CRM.ArchiveLists.TokenType[])
   commentId: M:SuperOffice.CRM.ArchiveLists.Scanner.LookAhead(SuperOffice.CRM.ArchiveLists.TokenType[])
   id: LookAhead(SuperOffice.CRM.ArchiveLists.TokenType[])
@@ -352,15 +439,17 @@ items:
   langs:
   - csharp
   - vb
-  name: LookAhead(params TokenType[])
-  nameWithType: Scanner.LookAhead(params TokenType[])
-  fullName: SuperOffice.CRM.ArchiveLists.Scanner.LookAhead(params SuperOffice.CRM.ArchiveLists.TokenType[])
+  name: LookAhead(TokenType[])
+  nameWithType: Scanner.LookAhead(TokenType[])
+  fullName: SuperOffice.CRM.ArchiveLists.Scanner.LookAhead(SuperOffice.CRM.ArchiveLists.TokenType[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: returns token with longest best match
-  example: []
+  summary: "\nreturns token with longest best match\n"
   syntax:
     content: public Token LookAhead(params TokenType[] expectedtokens)
     parameters:
@@ -368,503 +457,184 @@ items:
       type: SuperOffice.CRM.ArchiveLists.TokenType[]
     return:
       type: SuperOffice.CRM.ArchiveLists.Token
-      description: ''
     content.vb: Public Function LookAhead(ParamArray expectedtokens As TokenType()) As Token
   overload: SuperOffice.CRM.ArchiveLists.Scanner.LookAhead*
-  nameWithType.vb: Scanner.LookAhead(ParamArray TokenType())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.Scanner.LookAhead(ParamArray SuperOffice.CRM.ArchiveLists.TokenType())
-  name.vb: LookAhead(ParamArray TokenType())
+  nameWithType.vb: Scanner.LookAhead(TokenType())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Scanner.LookAhead(SuperOffice.CRM.ArchiveLists.TokenType())
+  name.vb: LookAhead(TokenType())
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<Scanner, To>(Scanner)
-  nameWithType: EnumUtil.MapEnums<Scanner, To>(Scanner)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Scanner, To>(SuperOffice.CRM.ArchiveLists.Scanner)
-  nameWithType.vb: EnumUtil.MapEnums(Of Scanner, To)(Scanner)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Scanner, To)(SuperOffice.CRM.ArchiveLists.Scanner)
-  name.vb: MapEnums(Of Scanner, To)(Scanner)
+  name: MapEnums<Scanner, To>()
+  nameWithType: EnumUtil.MapEnums<Scanner, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Scanner, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of Scanner, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Scanner, To)()
+  name.vb: MapEnums(Of Scanner, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.Scanner)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<Scanner, To>
+    nameWithType: EnumUtil.MapEnums<Scanner, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Scanner, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.Scanner
-    name: Scanner
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Scanner.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.Scanner
-    name: Scanner
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Scanner.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.Scanner)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of Scanner, To)
+    nameWithType: EnumUtil.MapEnums(Of Scanner, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Scanner, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.Scanner
-    name: Scanner
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Scanner.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.Scanner
-    name: Scanner
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Scanner.html
-  - name: )
-- uid: SuperOffice.CRM.ArchiveLists.Scanner.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<Scanner, To>(Scanner)
-  nameWithType: Converters.MapEnums<Scanner, To>(Scanner)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Scanner, To>(SuperOffice.CRM.ArchiveLists.Scanner)
-  nameWithType.vb: Converters.MapEnums(Of Scanner, To)(Scanner)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Scanner, To)(SuperOffice.CRM.ArchiveLists.Scanner)
-  name.vb: MapEnums(Of Scanner, To)(Scanner)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.Scanner)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.Scanner
-    name: Scanner
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Scanner.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.Scanner
-    name: Scanner
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Scanner.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.Scanner)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.Scanner
-    name: Scanner
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Scanner.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.Scanner
-    name: Scanner
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Scanner.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.Scanner)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<Scanner>(Scanner, Scanner)
-  nameWithType: ObjectExtensions.AssignByReflection<Scanner>(Scanner, Scanner)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.Scanner>(SuperOffice.CRM.ArchiveLists.Scanner, SuperOffice.CRM.ArchiveLists.Scanner)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of Scanner)(Scanner, Scanner)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.Scanner)(SuperOffice.CRM.ArchiveLists.Scanner, SuperOffice.CRM.ArchiveLists.Scanner)
-  name.vb: AssignByReflection(Of Scanner)(Scanner, Scanner)
+  name: AssignByReflection<Scanner>(Scanner)
+  nameWithType: ObjectExtensions.AssignByReflection<Scanner>(Scanner)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.Scanner>(SuperOffice.CRM.ArchiveLists.Scanner)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of Scanner)(Scanner)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.Scanner)(SuperOffice.CRM.ArchiveLists.Scanner)
+  name.vb: AssignByReflection(Of Scanner)(Scanner)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.Scanner,SuperOffice.CRM.ArchiveLists.Scanner)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<Scanner>
+    nameWithType: ObjectExtensions.AssignByReflection<Scanner>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.Scanner>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.Scanner
-    name: Scanner
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Scanner.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.ArchiveLists.Scanner
     name: Scanner
+    nameWithType: Scanner
+    fullName: SuperOffice.CRM.ArchiveLists.Scanner
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Scanner.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.Scanner
-    name: Scanner
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Scanner.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.Scanner,SuperOffice.CRM.ArchiveLists.Scanner)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of Scanner)
+    nameWithType: ObjectExtensions.AssignByReflection(Of Scanner)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.Scanner)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.ArchiveLists.Scanner
     name: Scanner
+    nameWithType: Scanner
+    fullName: SuperOffice.CRM.ArchiveLists.Scanner
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Scanner.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.Scanner
-    name: Scanner
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Scanner.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.Scanner
-    name: Scanner
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Scanner.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<Scanner>(Scanner)
-  nameWithType: ObjectExtensions.GraphCopy<Scanner>(Scanner)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.Scanner>(SuperOffice.CRM.ArchiveLists.Scanner)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of Scanner)(Scanner)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.Scanner)(SuperOffice.CRM.ArchiveLists.Scanner)
-  name.vb: GraphCopy(Of Scanner)(Scanner)
+  name: GraphCopy<Scanner>()
+  nameWithType: ObjectExtensions.GraphCopy<Scanner>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.Scanner>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of Scanner)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.Scanner)()
+  name.vb: GraphCopy(Of Scanner)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.Scanner)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<Scanner>
+    nameWithType: ObjectExtensions.GraphCopy<Scanner>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.Scanner>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.Scanner
-    name: Scanner
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Scanner.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.Scanner
-    name: Scanner
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Scanner.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.Scanner)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of Scanner)
+    nameWithType: ObjectExtensions.GraphCopy(Of Scanner)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.Scanner)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.Scanner
-    name: Scanner
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Scanner.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Scanner.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<Scanner, To>()
+  nameWithType: Converters.MapEnums<Scanner, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Scanner, To>()
+  nameWithType.vb: Converters.MapEnums(Of Scanner, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Scanner, To)()
+  name.vb: MapEnums(Of Scanner, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<Scanner, To>
+    nameWithType: Converters.MapEnums<Scanner, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Scanner, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.Scanner
-    name: Scanner
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Scanner.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of Scanner, To)
+    nameWithType: Converters.MapEnums(Of Scanner, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Scanner, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -873,93 +643,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -968,46 +688,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1016,119 +746,109 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.Token}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.Token}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.Token}'
   definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<Token>
   nameWithType: List<Token>
   fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.Token>
@@ -1138,97 +858,78 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.ArchiveLists.Token
     name: Token
+    nameWithType: Token
+    fullName: SuperOffice.CRM.ArchiveLists.Token
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Token.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.ArchiveLists.Token
     name: Token
+    nameWithType: Token
+    fullName: SuperOffice.CRM.ArchiveLists.Token
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Token.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.Dictionary{SuperOffice.CRM.ArchiveLists.TokenType,System.Text.RegularExpressions.Regex}
-  commentId: T:System.Collections.Generic.Dictionary{SuperOffice.CRM.ArchiveLists.TokenType,System.Text.RegularExpressions.Regex}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.Dictionary{SuperOffice.CRM.ArchiveLists.TokenType,System.Text.RegularExpressions.Regex}'
   definition: System.Collections.Generic.Dictionary`2
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   name: Dictionary<TokenType, Regex>
   nameWithType: Dictionary<TokenType, Regex>
   fullName: System.Collections.Generic.Dictionary<SuperOffice.CRM.ArchiveLists.TokenType, System.Text.RegularExpressions.Regex>
@@ -1238,94 +939,118 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.ArchiveLists.TokenType
     name: TokenType
+    nameWithType: TokenType
+    fullName: SuperOffice.CRM.ArchiveLists.TokenType
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TokenType.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Text.RegularExpressions.Regex
     name: Regex
+    nameWithType: Regex
+    fullName: System.Text.RegularExpressions.Regex
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions.regex
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.ArchiveLists.TokenType
     name: TokenType
+    nameWithType: TokenType
+    fullName: SuperOffice.CRM.ArchiveLists.TokenType
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TokenType.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Text.RegularExpressions.Regex
     name: Regex
+    nameWithType: Regex
+    fullName: System.Text.RegularExpressions.Regex
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.text.regularexpressions.regex
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: System.Collections.Generic.Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: System.Collections.Generic.Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
   - name: <
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.Dictionary`2
     name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.#ctor*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.Scanner.#ctor
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Scanner.html#SuperOffice_CRM_ArchiveLists_Scanner__ctor
   name: Scanner
   nameWithType: Scanner.Scanner
   fullName: SuperOffice.CRM.ArchiveLists.Scanner.Scanner
-  nameWithType.vb: Scanner.New
-  fullName.vb: SuperOffice.CRM.ArchiveLists.Scanner.New
-  name.vb: New
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.Init*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.Scanner.Init
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Scanner.html#SuperOffice_CRM_ArchiveLists_Scanner_Init_System_String_
   name: Init
   nameWithType: Scanner.Init
   fullName: SuperOffice.CRM.ArchiveLists.Scanner.Init
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.GetToken*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.Scanner.GetToken
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Scanner.html#SuperOffice_CRM_ArchiveLists_Scanner_GetToken_SuperOffice_CRM_ArchiveLists_TokenType_
   name: GetToken
   nameWithType: Scanner.GetToken
   fullName: SuperOffice.CRM.ArchiveLists.Scanner.GetToken
@@ -1333,7 +1058,6 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.TokenType
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.TokenType.html
   name: TokenType
   nameWithType: TokenType
   fullName: SuperOffice.CRM.ArchiveLists.TokenType
@@ -1341,20 +1065,17 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.Token
   parent: SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Token.html
   name: Token
   nameWithType: Token
   fullName: SuperOffice.CRM.ArchiveLists.Token
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.Scan*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.Scanner.Scan
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Scanner.html#SuperOffice_CRM_ArchiveLists_Scanner_Scan_SuperOffice_CRM_ArchiveLists_TokenType___
   name: Scan
   nameWithType: Scanner.Scan
   fullName: SuperOffice.CRM.ArchiveLists.Scanner.Scan
 - uid: SuperOffice.CRM.ArchiveLists.TokenType[]
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.TokenType.html
   name: TokenType[]
   nameWithType: TokenType[]
   fullName: SuperOffice.CRM.ArchiveLists.TokenType[]
@@ -1364,21 +1085,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.TokenType
     name: TokenType
+    nameWithType: TokenType
+    fullName: SuperOffice.CRM.ArchiveLists.TokenType
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TokenType.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.TokenType
     name: TokenType
+    nameWithType: TokenType
+    fullName: SuperOffice.CRM.ArchiveLists.TokenType
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.TokenType.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.ArchiveLists.Scanner.LookAhead*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.Scanner.LookAhead
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Scanner.html#SuperOffice_CRM_ArchiveLists_Scanner_LookAhead_SuperOffice_CRM_ArchiveLists_TokenType___
   name: LookAhead
   nameWithType: Scanner.LookAhead
   fullName: SuperOffice.CRM.ArchiveLists.Scanner.LookAhead

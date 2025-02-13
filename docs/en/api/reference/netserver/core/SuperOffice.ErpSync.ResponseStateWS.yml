@@ -8,6 +8,7 @@ items:
   - SuperOffice.ErpSync.ResponseStateWS.Error
   - SuperOffice.ErpSync.ResponseStateWS.Ok
   - SuperOffice.ErpSync.ResponseStateWS.OkWithInfo
+  - SuperOffice.ErpSync.ResponseStateWS.value__
   - SuperOffice.ErpSync.ResponseStateWS.Warning
   langs:
   - csharp
@@ -15,34 +16,60 @@ items:
   name: ResponseStateWS
   nameWithType: ResponseStateWS
   fullName: SuperOffice.ErpSync.ResponseStateWS
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: State enum for a response, describes the possible states from totally Ok to Error that an action can return
-  example: []
+  summary: "\nState enum for a response, describes the possible states from totally Ok to Error that an action can return\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/EIS/Connector/1.0")]
-
-      public enum ResponseStateWS
+    content: 'public sealed class ResponseStateWS : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/EIS/Connector/1.0")>
+      Public NotInheritable Class ResponseStateWS
+          Inherits
 
-      Public Enum ResponseStateWS
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.ErpSync.ResponseStateWS.EnumUtil.MapEnums``2
   - SuperOffice.ErpSync.ResponseStateWS.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.ErpSync.ResponseStateWS.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.ResponseStateWS)
-  - SuperOffice.ErpSync.ResponseStateWS.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/EIS/Connector/1.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.ErpSync.ResponseStateWS.value__
+  commentId: F:SuperOffice.ErpSync.ResponseStateWS.value__
+  id: value__
+  parent: SuperOffice.ErpSync.ResponseStateWS
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ResponseStateWS.value__
+  fullName: SuperOffice.ErpSync.ResponseStateWS.value__
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.ErpSync.ResponseStateWS.Ok
   commentId: F:SuperOffice.ErpSync.ResponseStateWS.Ok
   id: Ok
@@ -54,26 +81,24 @@ items:
   nameWithType: ResponseStateWS.Ok
   fullName: SuperOffice.ErpSync.ResponseStateWS.Ok
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: The operation completed normally - nothing to see here
-  example: []
+  summary: "\nThe operation completed normally - nothing to see here\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ok = 0
+    content: public const ResponseStateWS Ok
     return:
       type: SuperOffice.ErpSync.ResponseStateWS
-    content.vb: >-
-      <EnumMember>
-
-      Ok = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ok As ResponseStateWS
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.ErpSync.ResponseStateWS.OkWithInfo
   commentId: F:SuperOffice.ErpSync.ResponseStateWS.OkWithInfo
   id: OkWithInfo
@@ -85,26 +110,24 @@ items:
   nameWithType: ResponseStateWS.OkWithInfo
   fullName: SuperOffice.ErpSync.ResponseStateWS.OkWithInfo
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: The operation completed, but there is some information that should be shown or logged
-  example: []
+  summary: "\nThe operation completed, but there is some information that should be shown or logged\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OkWithInfo = 1
+    content: public const ResponseStateWS OkWithInfo
     return:
       type: SuperOffice.ErpSync.ResponseStateWS
-    content.vb: >-
-      <EnumMember>
-
-      OkWithInfo = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OkWithInfo As ResponseStateWS
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.ErpSync.ResponseStateWS.Warning
   commentId: F:SuperOffice.ErpSync.ResponseStateWS.Warning
   id: Warning
@@ -116,26 +139,24 @@ items:
   nameWithType: ResponseStateWS.Warning
   fullName: SuperOffice.ErpSync.ResponseStateWS.Warning
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: The operation completed, possibly in a degraded fashion. The user should be warned
-  example: []
+  summary: "\nThe operation completed, possibly in a degraded fashion. The user should be warned\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Warning = 2
+    content: public const ResponseStateWS Warning
     return:
       type: SuperOffice.ErpSync.ResponseStateWS
-    content.vb: >-
-      <EnumMember>
-
-      Warning = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Warning As ResponseStateWS
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.ErpSync.ResponseStateWS.Error
   commentId: F:SuperOffice.ErpSync.ResponseStateWS.Error
   id: Error
@@ -147,270 +168,115 @@ items:
   nameWithType: ResponseStateWS.Error
   fullName: SuperOffice.ErpSync.ResponseStateWS.Error
   type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: The operation did not complete. The user should be told of the error
-  example: []
+  summary: "\nThe operation did not complete. The user should be told of the error\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Error = 3
+    content: public const ResponseStateWS Error
     return:
       type: SuperOffice.ErpSync.ResponseStateWS
-    content.vb: >-
-      <EnumMember>
-
-      Error = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Error As ResponseStateWS
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.ErpSync
   commentId: N:SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync
   nameWithType: SuperOffice.ErpSync
   fullName: SuperOffice.ErpSync
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.ErpSync.ResponseStateWS.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ResponseStateWS, To>(ResponseStateWS)
-  nameWithType: EnumUtil.MapEnums<ResponseStateWS, To>(ResponseStateWS)
-  fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.ResponseStateWS, To>(SuperOffice.ErpSync.ResponseStateWS)
-  nameWithType.vb: EnumUtil.MapEnums(Of ResponseStateWS, To)(ResponseStateWS)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.ErpSync.ResponseStateWS, To)(SuperOffice.ErpSync.ResponseStateWS)
-  name.vb: MapEnums(Of ResponseStateWS, To)(ResponseStateWS)
+  name: MapEnums<ResponseStateWS, To>()
+  nameWithType: EnumUtil.MapEnums<ResponseStateWS, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.ResponseStateWS, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ResponseStateWS, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.ErpSync.ResponseStateWS, To)()
+  name.vb: MapEnums(Of ResponseStateWS, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.ErpSync.ResponseStateWS)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ResponseStateWS, To>
+    nameWithType: EnumUtil.MapEnums<ResponseStateWS, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.ResponseStateWS, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.ErpSync.ResponseStateWS
-    name: ResponseStateWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ResponseStateWS.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.ErpSync.ResponseStateWS
-    name: ResponseStateWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ResponseStateWS.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.ErpSync.ResponseStateWS)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ResponseStateWS, To)
+    nameWithType: EnumUtil.MapEnums(Of ResponseStateWS, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.ErpSync.ResponseStateWS, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.ErpSync.ResponseStateWS
-    name: ResponseStateWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ResponseStateWS.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.ErpSync.ResponseStateWS
-    name: ResponseStateWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ResponseStateWS.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ResponseStateWS.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ResponseStateWS, To>(ResponseStateWS)
-  nameWithType: Converters.MapEnums<ResponseStateWS, To>(ResponseStateWS)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.ResponseStateWS, To>(SuperOffice.ErpSync.ResponseStateWS)
-  nameWithType.vb: Converters.MapEnums(Of ResponseStateWS, To)(ResponseStateWS)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.ResponseStateWS, To)(SuperOffice.ErpSync.ResponseStateWS)
-  name.vb: MapEnums(Of ResponseStateWS, To)(ResponseStateWS)
+  name: MapEnums<ResponseStateWS, To>()
+  nameWithType: Converters.MapEnums<ResponseStateWS, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.ResponseStateWS, To>()
+  nameWithType.vb: Converters.MapEnums(Of ResponseStateWS, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.ResponseStateWS, To)()
+  name.vb: MapEnums(Of ResponseStateWS, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.ErpSync.ResponseStateWS)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ResponseStateWS, To>
+    nameWithType: Converters.MapEnums<ResponseStateWS, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.ResponseStateWS, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.ErpSync.ResponseStateWS
-    name: ResponseStateWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ResponseStateWS.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.ErpSync.ResponseStateWS
-    name: ResponseStateWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ResponseStateWS.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.ErpSync.ResponseStateWS)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ResponseStateWS, To)
+    nameWithType: Converters.MapEnums(Of ResponseStateWS, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.ResponseStateWS, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.ErpSync.ResponseStateWS
-    name: ResponseStateWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ResponseStateWS.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.ErpSync.ResponseStateWS
-    name: ResponseStateWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ResponseStateWS.html
-  - name: )
-- uid: SuperOffice.ErpSync.ResponseStateWS.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.ResponseStateWS)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ResponseStateWS>(ResponseStateWS, ResponseStateWS)
-  nameWithType: ObjectExtensions.AssignByReflection<ResponseStateWS>(ResponseStateWS, ResponseStateWS)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.ErpSync.ResponseStateWS>(SuperOffice.ErpSync.ResponseStateWS, SuperOffice.ErpSync.ResponseStateWS)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ResponseStateWS)(ResponseStateWS, ResponseStateWS)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.ErpSync.ResponseStateWS)(SuperOffice.ErpSync.ResponseStateWS, SuperOffice.ErpSync.ResponseStateWS)
-  name.vb: AssignByReflection(Of ResponseStateWS)(ResponseStateWS, ResponseStateWS)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.ResponseStateWS,SuperOffice.ErpSync.ResponseStateWS)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.ErpSync.ResponseStateWS
-    name: ResponseStateWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ResponseStateWS.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.ErpSync.ResponseStateWS
-    name: ResponseStateWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ResponseStateWS.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.ErpSync.ResponseStateWS
-    name: ResponseStateWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ResponseStateWS.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.ErpSync.ResponseStateWS,SuperOffice.ErpSync.ResponseStateWS)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.ErpSync.ResponseStateWS
-    name: ResponseStateWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ResponseStateWS.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.ErpSync.ResponseStateWS
-    name: ResponseStateWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ResponseStateWS.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.ErpSync.ResponseStateWS
-    name: ResponseStateWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ResponseStateWS.html
-  - name: )
-- uid: SuperOffice.ErpSync.ResponseStateWS.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ResponseStateWS>(ResponseStateWS)
-  nameWithType: ObjectExtensions.GraphCopy<ResponseStateWS>(ResponseStateWS)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.ErpSync.ResponseStateWS>(SuperOffice.ErpSync.ResponseStateWS)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ResponseStateWS)(ResponseStateWS)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.ErpSync.ResponseStateWS)(SuperOffice.ErpSync.ResponseStateWS)
-  name.vb: GraphCopy(Of ResponseStateWS)(ResponseStateWS)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.ErpSync.ResponseStateWS)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.ErpSync.ResponseStateWS
-    name: ResponseStateWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ResponseStateWS.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.ErpSync.ResponseStateWS
-    name: ResponseStateWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ResponseStateWS.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.ErpSync.ResponseStateWS)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.ErpSync.ResponseStateWS
-    name: ResponseStateWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ResponseStateWS.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.ErpSync.ResponseStateWS
-    name: ResponseStateWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ResponseStateWS.html
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -419,45 +285,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -466,193 +330,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.ErpSync.ResponseStateWS
   commentId: T:SuperOffice.ErpSync.ResponseStateWS
   parent: SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.ErpSync.ResponseStateWS.html
   name: ResponseStateWS
   nameWithType: ResponseStateWS
   fullName: SuperOffice.ErpSync.ResponseStateWS

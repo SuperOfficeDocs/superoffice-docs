@@ -11,19 +11,19 @@ items:
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DictionaryTableNumber
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DiscountAmount
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DiscountPercent
+  - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.EarningAmount
+  - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.EarningPercent
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPDiscountAmount
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPDiscountPercent
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPQuoteAlternativeKey
-  - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.EarningAmount
-  - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.EarningPercent
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField1
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField2
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField3
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField4
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField5
+  - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_Quote_AcceptedQuoteAlternativeId
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_QuoteLine_QuoteAlternativeId
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_QuoteVersion_LikelyQuoteAlternativeId
-  - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_Quote_AcceptedQuoteAlternativeId
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Name
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteAlternativeId
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteVersionId
@@ -49,21 +49,14 @@ items:
   nameWithType: QuoteAlternativeTableInfo
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "Table 'QuoteAlternative': Quote Version is made up of one or more Alternatives. One of 1..n possible alternatives in a Quote Version. The reason we have alternatives is that a quote can say to a customer, “we can solve you problem in two (or more) different ways, with different technology and sideeffects (and price)”. An Alternative may have discounts on the total amount. The Alternative tracks whether the user on the order level entered the Discount , Earning amount or the TotalPrice fields so that the discount and earning and total can be re-calculated correctly when Quote Lines are added or changed."
-  remarks: >-
-    An instance of this class represents one instance of this table in an SQL statement. In most
-
-    cases each table appears only once in a SELECT, but in cases where you need to self-join, or
-
-    there are multiple occurrences for other reasons (typically additional restrictions in the joins),
-
-    then you will need multiple instances. <br />
-
-    Instances of this class are created by calling TablesInfo.GetQuoteAlternativeInfo().
-  example: []
+  summary: "\nTable &apos;QuoteAlternative&apos;: Quote Version is made up of one or more Alternatives. One of 1..n possible alternatives in a Quote Version. The reason we have alternatives is that a quote can say to a customer, “we can solve you problem in two (or more) different ways, with different technology and sideeffects (and price)”. An Alternative may have discounts on the total amount. The Alternative tracks whether the user on the order level entered the Discount , Earning amount or the TotalPrice fields so that the discount and earning and total can be re-calculated correctly when Quote Lines are added or changed.\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetQuoteAlternativeInfo()\"></see>.\n"
   syntax:
     content: >-
       [DatabaseTable("QuoteAlternative")]
@@ -72,7 +65,9 @@ items:
     content.vb: >-
       <DatabaseTable("QuoteAlternative")>
 
-      Public Class QuoteAlternativeTableInfo Inherits TableInfo Implements ICloneable
+      Public Class QuoteAlternativeTableInfo
+          Inherits TableInfo
+          Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.Data.SQL.TableInfo
@@ -93,12 +88,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.QuoteAlternativeTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -108,6 +97,12 @@ items:
     arguments:
     - type: System.String
       value: QuoteAlternative
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DictionaryTableName
   commentId: F:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DictionaryTableName
   id: DictionaryTableName
@@ -119,16 +114,24 @@ items:
   nameWithType: QuoteAlternativeTableInfo.DictionaryTableName
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DictionaryTableName
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Conceptual name of table QuoteAlternative in the database dictionary: QuoteAlternative'
-  example: []
+  summary: "\nConceptual name of table QuoteAlternative in the database dictionary: QuoteAlternative\n"
   syntax:
     content: public const string DictionaryTableName = "QuoteAlternative"
     return:
       type: System.String
     content.vb: Public Const DictionaryTableName As String = "QuoteAlternative"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -140,14 +143,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DictionaryTableNumber
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Table number for table QuoteAlternative in the database dictionary; potentially changes between databases, but
-
-    always the same over the lifetime of any single database
-  example: []
+  summary: "\nTable number for table QuoteAlternative in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
   syntax:
     content: public int DictionaryTableNumber { get; }
     parameters: []
@@ -155,6 +157,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RuntimeDefinition
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RuntimeDefinition
   id: RuntimeDefinition
@@ -166,32 +174,28 @@ items:
   nameWithType: QuoteAlternativeTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RuntimeDefinition
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Definition of the table as described in the deployed runtime dictionary
-  example: []
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Definition
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Definition
   id: Definition
@@ -203,11 +207,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.Definition
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Definition
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Definition of the table as described in the deployed runtime dictionary
-  example: []
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
     content: public override SoTable Definition { get; }
     parameters: []
@@ -216,6 +222,14 @@ items:
     content.vb: Public Overrides ReadOnly Property Definition As SoTable
   overridden: SuperOffice.Data.SQL.TableInfo.Definition
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteAlternativeId
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteAlternativeId
   id: QuoteAlternativeId
@@ -227,14 +241,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.QuoteAlternativeId
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteAlternativeId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'quotealternative_id' in table 'QuoteAlternative': Dictionary type PK, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Primary key
-  example: []
+  summary: "\nField &apos;quotealternative_id&apos; in table &apos;QuoteAlternative&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
   syntax:
     content: public Int32FieldInfo QuoteAlternativeId { get; }
     parameters: []
@@ -242,6 +255,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property QuoteAlternativeId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteAlternativeId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPQuoteAlternativeKey
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPQuoteAlternativeKey
   id: ERPQuoteAlternativeKey
@@ -253,14 +272,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.ERPQuoteAlternativeKey
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPQuoteAlternativeKey
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'ERPQuoteAlternativeKey' in table 'QuoteAlternative': Dictionary type String[255], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Key that identifies this alternative in the ERP system, if it exists there.
-  example: []
+  summary: "\nField &apos;ERPQuoteAlternativeKey&apos; in table &apos;QuoteAlternative&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nKey that identifies this alternative in the ERP system, if it exists there.\n"
   syntax:
     content: public StringFieldInfo ERPQuoteAlternativeKey { get; }
     parameters: []
@@ -268,6 +286,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property ERPQuoteAlternativeKey As StringFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPQuoteAlternativeKey*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteVersionId
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteVersionId
   id: QuoteVersionId
@@ -279,14 +303,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.QuoteVersionId
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteVersionId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'QuoteVersionId' in table 'QuoteAlternative': Dictionary type FK, target: QuoteVersion, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The version that owns this alternative (the chain is Sale 1-&gt;1 Quote 1-&gt;+ QuoteVersion 1-&gt;+ QuoteAlternative.
-  example: []
+  summary: "\nField &apos;QuoteVersionId&apos; in table &apos;QuoteAlternative&apos;: Dictionary type FK, target: QuoteVersion, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe version that owns this alternative (the chain is Sale 1->1 Quote 1->+ QuoteVersion 1->+ QuoteAlternative.\n"
   syntax:
     content: public Int32FieldInfo QuoteVersionId { get; }
     parameters: []
@@ -294,6 +317,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property QuoteVersionId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteVersionId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Name
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Name
   id: Name
@@ -305,14 +334,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.Name
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Name
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'Name' in table 'QuoteAlternative': Dictionary type String[60], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Name of Alternative. Shown in tab in user interface, intentionally kept short
-  example: []
+  summary: "\nField &apos;Name&apos; in table &apos;QuoteAlternative&apos;: Dictionary type String[60], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nName of Alternative. Shown in tab in user interface, intentionally kept short\n"
   syntax:
     content: public StringFieldInfo Name { get; }
     parameters: []
@@ -320,6 +348,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Name As StringFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Description
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Description
   id: Description
@@ -331,14 +365,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.Description
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Description
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'Description' in table 'QuoteAlternative': Dictionary type String[2048], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The tool-tip to use in the user interface (on the tab, for instance).
-  example: []
+  summary: "\nField &apos;Description&apos; in table &apos;QuoteAlternative&apos;: Dictionary type String[2048], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe tool-tip to use in the user interface (on the tab, for instance).\n"
   syntax:
     content: public StringFieldInfo Description { get; }
     parameters: []
@@ -346,6 +379,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Description As StringFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Description*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Status
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Status
   id: Status
@@ -357,14 +396,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.Status
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Status
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'Status' in table 'QuoteAlternative': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.QuoteStatus" data-throw-if-not-resolved="false"></xref><p></p>
-
-    If there was a problem with for instance calculation, this field is set to warning or error.
-  example: []
+  summary: "\nField &apos;Status&apos; in table &apos;QuoteAlternative&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.QuoteStatus\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIf there was a problem with for instance calculation, this field is set to warning or error.\n"
   syntax:
     content: public QuoteStatusFieldInfo Status { get; }
     parameters: []
@@ -372,6 +410,12 @@ items:
       type: SuperOffice.Data.SQL.QuoteStatusFieldInfo
     content.vb: Public ReadOnly Property Status As QuoteStatusFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Status*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Reason
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Reason
   id: Reason
@@ -383,14 +427,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.Reason
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Reason
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'Reason' in table 'QuoteAlternative': Dictionary type String[2048], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    If there was a problem, this field contains a localized explanation of the problem and possible steps to fix it that the user can be shown.
-  example: []
+  summary: "\nField &apos;Reason&apos; in table &apos;QuoteAlternative&apos;: Dictionary type String[2048], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nIf there was a problem, this field contains a localized explanation of the problem and possible steps to fix it that the user can be shown.\n"
   syntax:
     content: public StringFieldInfo Reason { get; }
     parameters: []
@@ -398,6 +441,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property Reason As StringFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Reason*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPDiscountPercent
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPDiscountPercent
   id: ERPDiscountPercent
@@ -409,14 +458,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.ERPDiscountPercent
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPDiscountPercent
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'ERPDiscountPercent' in table 'QuoteAlternative': Dictionary type Double, .NET type: <xref href="System.Double" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The discount the system calculates based on customer /amount / whatever. Can be overridden by the sales rep in the field ‘DiscountPercent’ or ‘DiscountAmount’. Both the two ‘ERPDiscountPercent’ and ‘ERPDiscountAmount’ shall be filled out. If UserValueOverride is 'None', then the ERPDiscountAmount shall be copied into DiscountAmount and ERPDiscountPercent into DiscountPercent. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.
-  example: []
+  summary: "\nField &apos;ERPDiscountPercent&apos; in table &apos;QuoteAlternative&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe discount the system calculates based on customer /amount / whatever. Can be overridden by the sales rep in the field ‘DiscountPercent’ or ‘DiscountAmount’. Both the two ‘ERPDiscountPercent’ and ‘ERPDiscountAmount’ shall be filled out. If UserValueOverride is &apos;None&apos;, then the ERPDiscountAmount shall be copied into DiscountAmount and ERPDiscountPercent into DiscountPercent. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.\n"
   syntax:
     content: public DoubleFieldInfo ERPDiscountPercent { get; }
     parameters: []
@@ -424,6 +472,12 @@ items:
       type: SuperOffice.Data.SQL.DoubleFieldInfo
     content.vb: Public ReadOnly Property ERPDiscountPercent As DoubleFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPDiscountPercent*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPDiscountAmount
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPDiscountAmount
   id: ERPDiscountAmount
@@ -435,14 +489,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.ERPDiscountAmount
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPDiscountAmount
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'ERPDiscountAmount' in table 'QuoteAlternative': Dictionary type Double, .NET type: <xref href="System.Double" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The discount the system calculates based on customer /amount / whatever. Can be overridden by the user in the field ‘DiscountPercent’ or ‘DiscountAmount’. Both the two ‘ERPDiscountPercent’ and ‘ERPDiscountAmount’ shall be filled out. If UserValueOverride is 'None', then the ERPDiscountAmount shall be copied into DiscountAmount and ERPDiscountPercent into DiscountPercent.
-  example: []
+  summary: "\nField &apos;ERPDiscountAmount&apos; in table &apos;QuoteAlternative&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe discount the system calculates based on customer /amount / whatever. Can be overridden by the user in the field ‘DiscountPercent’ or ‘DiscountAmount’. Both the two ‘ERPDiscountPercent’ and ‘ERPDiscountAmount’ shall be filled out. If UserValueOverride is &apos;None&apos;, then the ERPDiscountAmount shall be copied into DiscountAmount and ERPDiscountPercent into DiscountPercent.\n"
   syntax:
     content: public DoubleFieldInfo ERPDiscountAmount { get; }
     parameters: []
@@ -450,6 +503,12 @@ items:
       type: SuperOffice.Data.SQL.DoubleFieldInfo
     content.vb: Public ReadOnly Property ERPDiscountAmount As DoubleFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPDiscountAmount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DiscountPercent
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DiscountPercent
   id: DiscountPercent
@@ -461,14 +520,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.DiscountPercent
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DiscountPercent
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'DiscountPercent' in table 'QuoteAlternative': Dictionary type Double, .NET type: <xref href="System.Double" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The discount the sales rep specifies, in percent. Both the two ‘DiscountPercent’ and ‘DiscountAmount’ shall be filled out, but the UserValueOverride field must be set to the field the user actually changed. If this field is filled out by the user, it overrides the discount suggested by the connector. If the user has not filled any values, the system will copy the ERP discount percent value into this field. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.
-  example: []
+  summary: "\nField &apos;DiscountPercent&apos; in table &apos;QuoteAlternative&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe discount the sales rep specifies, in percent. Both the two ‘DiscountPercent’ and ‘DiscountAmount’ shall be filled out, but the UserValueOverride field must be set to the field the user actually changed. If this field is filled out by the user, it overrides the discount suggested by the connector. If the user has not filled any values, the system will copy the ERP discount percent value into this field. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.\n"
   syntax:
     content: public DoubleFieldInfo DiscountPercent { get; }
     parameters: []
@@ -476,6 +534,12 @@ items:
       type: SuperOffice.Data.SQL.DoubleFieldInfo
     content.vb: Public ReadOnly Property DiscountPercent As DoubleFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DiscountPercent*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DiscountAmount
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DiscountAmount
   id: DiscountAmount
@@ -487,14 +551,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.DiscountAmount
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DiscountAmount
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'DiscountAmount' in table 'QuoteAlternative': Dictionary type Double, .NET type: <xref href="System.Double" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The discount the sales rep specifies, in whatever currency the sale is in. Both the two ‘DiscountPercent’ and ‘DiscountAmount’ shall be filled out, but the UserValueOverride field must be set to the field the user actually changed. If this field is filled out by the user, it overrides the discount suggested by the connector. If the user has not filled any values, the system will copy the ERP discount amount value into this field.
-  example: []
+  summary: "\nField &apos;DiscountAmount&apos; in table &apos;QuoteAlternative&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe discount the sales rep specifies, in whatever currency the sale is in. Both the two ‘DiscountPercent’ and ‘DiscountAmount’ shall be filled out, but the UserValueOverride field must be set to the field the user actually changed. If this field is filled out by the user, it overrides the discount suggested by the connector. If the user has not filled any values, the system will copy the ERP discount amount value into this field.\n"
   syntax:
     content: public DoubleFieldInfo DiscountAmount { get; }
     parameters: []
@@ -502,6 +565,12 @@ items:
       type: SuperOffice.Data.SQL.DoubleFieldInfo
     content.vb: Public ReadOnly Property DiscountAmount As DoubleFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DiscountAmount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UserValueOverride
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UserValueOverride
   id: UserValueOverride
@@ -513,14 +582,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.UserValueOverride
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UserValueOverride
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'UserValueOverride' in table 'QuoteAlternative': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.ValueOverride" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Has the pre-calculated (from ERP) price information been overridden, and how. If the user has filled out the discountpercentage field, then the UserValueOverride field is set to OverridePercent. (The DiscountAmount, EarningPercent, EarningAmount and TotalPrice fields are calculated based on the discountPercent.)
-  example: []
+  summary: "\nField &apos;UserValueOverride&apos; in table &apos;QuoteAlternative&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.ValueOverride\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nHas the pre-calculated (from ERP) price information been overridden, and how. If the user has filled out the discountpercentage field, then the UserValueOverride field is set to OverridePercent. (The DiscountAmount, EarningPercent, EarningAmount and TotalPrice fields are calculated based on the discountPercent.)\n"
   syntax:
     content: public ValueOverrideFieldInfo UserValueOverride { get; }
     parameters: []
@@ -528,6 +596,12 @@ items:
       type: SuperOffice.Data.SQL.ValueOverrideFieldInfo
     content.vb: Public ReadOnly Property UserValueOverride As ValueOverrideFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UserValueOverride*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.VATInfo
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.VATInfo
   id: VATInfo
@@ -539,14 +613,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.VATInfo
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.VATInfo
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'VATInfo' in table 'QuoteAlternative': Dictionary type String[255], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Extra info about VAT that the connector might insert. This field has no business logic in the CRM code, but is available as a merge field in the quote documents.
-  example: []
+  summary: "\nField &apos;VATInfo&apos; in table &apos;QuoteAlternative&apos;: Dictionary type String[255], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nExtra info about VAT that the connector might insert. This field has no business logic in the CRM code, but is available as a merge field in the quote documents.\n"
   syntax:
     content: public StringFieldInfo VATInfo { get; }
     parameters: []
@@ -554,6 +627,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property VATInfo As StringFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.VATInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.VAT
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.VAT
   id: VAT
@@ -565,14 +644,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.VAT
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.VAT
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'VAT' in table 'QuoteAlternative': Dictionary type Double, .NET type: <xref href="System.Double" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Tax/VAT - THIS IS AN AMOUNT, available as a merge field in the quote document. The SuperOffice quote connector will calculate this field based on the vat PERCENTAGES on the individual lines; other connectors may implement other algorithms at will.
-  example: []
+  summary: "\nField &apos;VAT&apos; in table &apos;QuoteAlternative&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTax/VAT - THIS IS AN AMOUNT, available as a merge field in the quote document. The SuperOffice quote connector will calculate this field based on the vat PERCENTAGES on the individual lines; other connectors may implement other algorithms at will.\n"
   syntax:
     content: public DoubleFieldInfo VAT { get; }
     parameters: []
@@ -580,6 +658,12 @@ items:
       type: SuperOffice.Data.SQL.DoubleFieldInfo
     content.vb: Public ReadOnly Property VAT As DoubleFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.VAT*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.EarningPercent
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.EarningPercent
   id: EarningPercent
@@ -591,14 +675,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.EarningPercent
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.EarningPercent
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'EarningPercent' in table 'QuoteAlternative': Dictionary type Double, .NET type: <xref href="System.Double" data-throw-if-not-resolved="false"></xref><p></p>
-
-    The earning on this alternative, in percent of total. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.
-  example: []
+  summary: "\nField &apos;EarningPercent&apos; in table &apos;QuoteAlternative&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nThe earning on this alternative, in percent of total. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.\n"
   syntax:
     content: public DoubleFieldInfo EarningPercent { get; }
     parameters: []
@@ -606,6 +689,12 @@ items:
       type: SuperOffice.Data.SQL.DoubleFieldInfo
     content.vb: Public ReadOnly Property EarningPercent As DoubleFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.EarningPercent*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.EarningAmount
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.EarningAmount
   id: EarningAmount
@@ -617,14 +706,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.EarningAmount
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.EarningAmount
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'EarningAmount' in table 'QuoteAlternative': Dictionary type Double, .NET type: <xref href="System.Double" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Earning on this alternative, as an absolute amount
-  example: []
+  summary: "\nField &apos;EarningAmount&apos; in table &apos;QuoteAlternative&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nEarning on this alternative, as an absolute amount\n"
   syntax:
     content: public DoubleFieldInfo EarningAmount { get; }
     parameters: []
@@ -632,6 +720,12 @@ items:
       type: SuperOffice.Data.SQL.DoubleFieldInfo
     content.vb: Public ReadOnly Property EarningAmount As DoubleFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.EarningAmount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.TotalPrice
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.TotalPrice
   id: TotalPrice
@@ -643,14 +737,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.TotalPrice
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.TotalPrice
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'TotalPrice' in table 'QuoteAlternative': Dictionary type Double, .NET type: <xref href="System.Double" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Sum of the QuoteLines.TotalPrice - AlternativeDiscount or QuoteLines.TotalCost + Earning based on what, if anything, the user has entered last. Shall be calculated by the connector.
-  example: []
+  summary: "\nField &apos;TotalPrice&apos; in table &apos;QuoteAlternative&apos;: Dictionary type Double, .NET type: <xref href=\"System.Double\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSum of the QuoteLines.TotalPrice - AlternativeDiscount or QuoteLines.TotalCost + Earning based on what, if anything, the user has entered last. Shall be calculated by the connector.\n"
   syntax:
     content: public DoubleFieldInfo TotalPrice { get; }
     parameters: []
@@ -658,6 +751,12 @@ items:
       type: SuperOffice.Data.SQL.DoubleFieldInfo
     content.vb: Public ReadOnly Property TotalPrice As DoubleFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.TotalPrice*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField1
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField1
   id: ExtraField1
@@ -669,14 +768,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.ExtraField1
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField1
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'extraField1' in table 'QuoteAlternative': Dictionary type String[1024], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Optional information added by Quote Connector; usable in the quote document merge process
-  example: []
+  summary: "\nField &apos;extraField1&apos; in table &apos;QuoteAlternative&apos;: Dictionary type String[1024], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional information added by Quote Connector; usable in the quote document merge process\n"
   syntax:
     content: public StringFieldInfo ExtraField1 { get; }
     parameters: []
@@ -684,6 +782,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property ExtraField1 As StringFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField1*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField2
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField2
   id: ExtraField2
@@ -695,14 +799,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.ExtraField2
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField2
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'extraField2' in table 'QuoteAlternative': Dictionary type String[1024], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Optional information added by Quote Connector; usable in the quote document merge process
-  example: []
+  summary: "\nField &apos;extraField2&apos; in table &apos;QuoteAlternative&apos;: Dictionary type String[1024], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional information added by Quote Connector; usable in the quote document merge process\n"
   syntax:
     content: public StringFieldInfo ExtraField2 { get; }
     parameters: []
@@ -710,6 +813,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property ExtraField2 As StringFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField2*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField3
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField3
   id: ExtraField3
@@ -721,14 +830,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.ExtraField3
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField3
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'extraField3' in table 'QuoteAlternative': Dictionary type String[1024], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Optional information added by Quote Connector; usable in the quote document merge process
-  example: []
+  summary: "\nField &apos;extraField3&apos; in table &apos;QuoteAlternative&apos;: Dictionary type String[1024], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional information added by Quote Connector; usable in the quote document merge process\n"
   syntax:
     content: public StringFieldInfo ExtraField3 { get; }
     parameters: []
@@ -736,6 +844,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property ExtraField3 As StringFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField3*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField4
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField4
   id: ExtraField4
@@ -747,14 +861,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.ExtraField4
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField4
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'extraField4' in table 'QuoteAlternative': Dictionary type String[1024], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Optional information added by Quote Connector; usable in the quote document merge process
-  example: []
+  summary: "\nField &apos;extraField4&apos; in table &apos;QuoteAlternative&apos;: Dictionary type String[1024], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional information added by Quote Connector; usable in the quote document merge process\n"
   syntax:
     content: public StringFieldInfo ExtraField4 { get; }
     parameters: []
@@ -762,6 +875,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property ExtraField4 As StringFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField4*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField5
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField5
   id: ExtraField5
@@ -773,14 +892,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.ExtraField5
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField5
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'extraField5' in table 'QuoteAlternative': Dictionary type String[1024], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Optional information added by Quote Connector; usable in the quote document merge process
-  example: []
+  summary: "\nField &apos;extraField5&apos; in table &apos;QuoteAlternative&apos;: Dictionary type String[1024], .NET type: <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nOptional information added by Quote Connector; usable in the quote document merge process\n"
   syntax:
     content: public StringFieldInfo ExtraField5 { get; }
     parameters: []
@@ -788,6 +906,12 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property ExtraField5 As StringFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField5*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Registered
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Registered
   id: Registered
@@ -799,14 +923,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.Registered
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Registered
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'registered' in table 'QuoteAlternative': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Registered when
-  example: []
+  summary: "\nField &apos;registered&apos; in table &apos;QuoteAlternative&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered when\n"
   syntax:
     content: public DateTimeFieldInfo Registered { get; }
     parameters: []
@@ -814,6 +937,12 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Registered*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -825,14 +954,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RegisteredAssociateId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'registered_associate_id' in table 'QuoteAlternative': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Registered by whom
-  example: []
+  summary: "\nField &apos;registered_associate_id&apos; in table &apos;QuoteAlternative&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRegistered by whom\n"
   syntax:
     content: public Int32FieldInfo RegisteredAssociateId { get; }
     parameters: []
@@ -840,6 +968,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Updated
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Updated
   id: Updated
@@ -851,14 +985,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.Updated
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Updated
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'updated' in table 'QuoteAlternative': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Last updated when
-  example: []
+  summary: "\nField &apos;updated&apos; in table &apos;QuoteAlternative&apos;: Dictionary type UtcDateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated when\n"
   syntax:
     content: public DateTimeFieldInfo Updated { get; }
     parameters: []
@@ -866,6 +999,12 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Updated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedAssociateId
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -877,14 +1016,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedAssociateId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'updated_associate_id' in table 'QuoteAlternative': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Last updated by whom
-  example: []
+  summary: "\nField &apos;updated_associate_id&apos; in table &apos;QuoteAlternative&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nLast updated by whom\n"
   syntax:
     content: public Int32FieldInfo UpdatedAssociateId { get; }
     parameters: []
@@ -892,6 +1030,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedCount
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedCount
   id: UpdatedCount
@@ -903,14 +1047,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedCount
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'updatedCount' in table 'QuoteAlternative': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Number of updates made to this record
-  example: []
+  summary: "\nField &apos;updatedCount&apos; in table &apos;QuoteAlternative&apos;: Dictionary type UShort, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nNumber of updates made to this record\n"
   syntax:
     content: public UInt16FieldInfo UpdatedCount { get; }
     parameters: []
@@ -918,6 +1061,12 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteVersionId_InnerJoin_QuoteVersion
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteVersionId_InnerJoin_QuoteVersion
   id: QuoteVersionId_InnerJoin_QuoteVersion
@@ -929,11 +1078,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.QuoteVersionId_InnerJoin_QuoteVersion
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteVersionId_InnerJoin_QuoteVersion
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key QuoteVersionId in this table, to its target table <xref href="SuperOffice.CRM.Data.QuoteVersionTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key QuoteVersionId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.QuoteVersionTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<QuoteVersionTableInfo> QuoteVersionId_InnerJoin_QuoteVersion { get; }
     parameters: []
@@ -941,6 +1092,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.QuoteVersionTableInfo}
     content.vb: Public ReadOnly Property QuoteVersionId_InnerJoin_QuoteVersion As TargetedInnerJoin(Of QuoteVersionTableInfo)
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteVersionId_InnerJoin_QuoteVersion*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RegisteredAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RegisteredAssociateId_InnerJoin_Associate
   id: RegisteredAssociateId_InnerJoin_Associate
@@ -952,11 +1109,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.RegisteredAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RegisteredAssociateId_InnerJoin_Associate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
     parameters: []
@@ -964,6 +1123,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedAssociateId_InnerJoin_Associate
   id: UpdatedAssociateId_InnerJoin_Associate
@@ -975,11 +1140,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.UpdatedAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedAssociateId_InnerJoin_Associate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
     parameters: []
@@ -987,6 +1154,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_Quote_AcceptedQuoteAlternativeId
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_Quote_AcceptedQuoteAlternativeId
   id: LeftOuterJoin_Quote_AcceptedQuoteAlternativeId
@@ -998,11 +1171,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.LeftOuterJoin_Quote_AcceptedQuoteAlternativeId
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_Quote_AcceptedQuoteAlternativeId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key QuoteAlternativeId on this table, to Quote.<xref href="SuperOffice.CRM.Data.QuoteTableInfo.AcceptedQuoteAlternativeId" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key QuoteAlternativeId on this table, to Quote.<xref href=\"SuperOffice.CRM.Data.QuoteTableInfo.AcceptedQuoteAlternativeId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<QuoteTableInfo> LeftOuterJoin_Quote_AcceptedQuoteAlternativeId { get; }
     parameters: []
@@ -1010,6 +1185,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Quote_AcceptedQuoteAlternativeId As TargetedLeftOuterJoin(Of QuoteTableInfo)
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_Quote_AcceptedQuoteAlternativeId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_QuoteVersion_LikelyQuoteAlternativeId
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_QuoteVersion_LikelyQuoteAlternativeId
   id: LeftOuterJoin_QuoteVersion_LikelyQuoteAlternativeId
@@ -1021,11 +1202,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.LeftOuterJoin_QuoteVersion_LikelyQuoteAlternativeId
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_QuoteVersion_LikelyQuoteAlternativeId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key QuoteAlternativeId on this table, to QuoteVersion.<xref href="SuperOffice.CRM.Data.QuoteVersionTableInfo.LikelyQuoteAlternativeId" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key QuoteAlternativeId on this table, to QuoteVersion.<xref href=\"SuperOffice.CRM.Data.QuoteVersionTableInfo.LikelyQuoteAlternativeId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<QuoteVersionTableInfo> LeftOuterJoin_QuoteVersion_LikelyQuoteAlternativeId { get; }
     parameters: []
@@ -1033,6 +1216,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteVersionTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_QuoteVersion_LikelyQuoteAlternativeId As TargetedLeftOuterJoin(Of QuoteVersionTableInfo)
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_QuoteVersion_LikelyQuoteAlternativeId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_QuoteLine_QuoteAlternativeId
   commentId: P:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_QuoteLine_QuoteAlternativeId
   id: LeftOuterJoin_QuoteLine_QuoteAlternativeId
@@ -1044,11 +1233,13 @@ items:
   nameWithType: QuoteAlternativeTableInfo.LeftOuterJoin_QuoteLine_QuoteAlternativeId
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_QuoteLine_QuoteAlternativeId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key QuoteAlternativeId on this table, to QuoteLine.<xref href="SuperOffice.CRM.Data.QuoteLineTableInfo.QuoteAlternativeId" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key QuoteAlternativeId on this table, to QuoteLine.<xref href=\"SuperOffice.CRM.Data.QuoteLineTableInfo.QuoteAlternativeId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<QuoteLineTableInfo> LeftOuterJoin_QuoteLine_QuoteAlternativeId { get; }
     parameters: []
@@ -1056,68 +1247,35 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteLineTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_QuoteLine_QuoteAlternativeId As TargetedLeftOuterJoin(Of QuoteLineTableInfo)
   overload: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_QuoteLine_QuoteAlternativeId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SQL.TableInfo
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
@@ -1125,185 +1283,241 @@ references:
   commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   name: ToString()
   nameWithType: TableInfo.ToString()
   fullName: SuperOffice.Data.SQL.TableInfo.ToString()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
-  name: RegisterFields(params FieldInfo[])
-  nameWithType: TableInfo.RegisterFields(params FieldInfo[])
-  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(params SuperOffice.Data.SQL.FieldInfo[])
-  nameWithType.vb: TableInfo.RegisterFields(ParamArray FieldInfo())
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(ParamArray SuperOffice.Data.SQL.FieldInfo())
-  name.vb: RegisterFields(ParamArray FieldInfo())
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-  - name: params
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-  - name: ParamArray
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   name: FieldInfoFromSoField(SoField)
   nameWithType: TableInfo.FieldInfoFromSoField(SoField)
   fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.Clone
   commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   name: Clone()
   nameWithType: TableInfo.Clone()
   fullName: SuperOffice.Data.SQL.TableInfo.Clone()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   name: IsSameTable(TableInfo)
   nameWithType: TableInfo.IsSameTable(TableInfo)
   fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
-  name: FindField(string)
-  nameWithType: TableInfo.FindField(string)
-  fullName: SuperOffice.Data.SQL.TableInfo.FindField(string)
-  nameWithType.vb: TableInfo.FindField(String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.FindField(String)
-  name.vb: FindField(String)
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.ProtAll
   commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
   name: ProtAll
   nameWithType: TableInfo.ProtAll
   fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
@@ -1311,7 +1525,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_HashCheckFields
   name: HashCheckFields
   nameWithType: TableInfo.HashCheckFields
   fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
@@ -1319,7 +1532,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_TableName
   name: TableName
   nameWithType: TableInfo.TableName
   fullName: SuperOffice.Data.SQL.TableInfo.TableName
@@ -1327,7 +1539,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_DbName
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
@@ -1335,7 +1546,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
   name: IsDictionaryTable
   nameWithType: TableInfo.IsDictionaryTable
   fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
@@ -1343,7 +1553,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_All
   name: All
   nameWithType: TableInfo.All
   fullName: SuperOffice.Data.SQL.TableInfo.All
@@ -1351,389 +1560,136 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: this[string]
-  nameWithType: TableInfo.this[string]
-  fullName: SuperOffice.Data.SQL.TableInfo.this[string]
-  nameWithType.vb: TableInfo.this[](String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.this[](String)
-  name.vb: this[](String)
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
   spec.csharp:
-  - name: this
-  - name: '['
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ']'
-  spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-    name: this[]
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Item_System_String_
-  - name: (
+  - name: '['
+    nameWithType: '['
+    fullName: '['
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_PrimaryKeyField
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<QuoteAlternativeTableInfo, To>(QuoteAlternativeTableInfo)
-  nameWithType: EnumUtil.MapEnums<QuoteAlternativeTableInfo, To>(QuoteAlternativeTableInfo)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.QuoteAlternativeTableInfo, To>(SuperOffice.CRM.Data.QuoteAlternativeTableInfo)
-  nameWithType.vb: EnumUtil.MapEnums(Of QuoteAlternativeTableInfo, To)(QuoteAlternativeTableInfo)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.QuoteAlternativeTableInfo, To)(SuperOffice.CRM.Data.QuoteAlternativeTableInfo)
-  name.vb: MapEnums(Of QuoteAlternativeTableInfo, To)(QuoteAlternativeTableInfo)
+  name: MapEnums<QuoteAlternativeTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<QuoteAlternativeTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.QuoteAlternativeTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of QuoteAlternativeTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.QuoteAlternativeTableInfo, To)()
+  name.vb: MapEnums(Of QuoteAlternativeTableInfo, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.QuoteAlternativeTableInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<QuoteAlternativeTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<QuoteAlternativeTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.QuoteAlternativeTableInfo, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo
-    name: QuoteAlternativeTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo
-    name: QuoteAlternativeTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.QuoteAlternativeTableInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of QuoteAlternativeTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of QuoteAlternativeTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.QuoteAlternativeTableInfo, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo
-    name: QuoteAlternativeTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo
-    name: QuoteAlternativeTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<QuoteAlternativeTableInfo, To>(QuoteAlternativeTableInfo)
-  nameWithType: Converters.MapEnums<QuoteAlternativeTableInfo, To>(QuoteAlternativeTableInfo)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.QuoteAlternativeTableInfo, To>(SuperOffice.CRM.Data.QuoteAlternativeTableInfo)
-  nameWithType.vb: Converters.MapEnums(Of QuoteAlternativeTableInfo, To)(QuoteAlternativeTableInfo)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.QuoteAlternativeTableInfo, To)(SuperOffice.CRM.Data.QuoteAlternativeTableInfo)
-  name.vb: MapEnums(Of QuoteAlternativeTableInfo, To)(QuoteAlternativeTableInfo)
+  name: MapEnums<QuoteAlternativeTableInfo, To>()
+  nameWithType: Converters.MapEnums<QuoteAlternativeTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.QuoteAlternativeTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of QuoteAlternativeTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.QuoteAlternativeTableInfo, To)()
+  name.vb: MapEnums(Of QuoteAlternativeTableInfo, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.QuoteAlternativeTableInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<QuoteAlternativeTableInfo, To>
+    nameWithType: Converters.MapEnums<QuoteAlternativeTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.QuoteAlternativeTableInfo, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo
-    name: QuoteAlternativeTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo
-    name: QuoteAlternativeTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.QuoteAlternativeTableInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of QuoteAlternativeTableInfo, To)
+    nameWithType: Converters.MapEnums(Of QuoteAlternativeTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.QuoteAlternativeTableInfo, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo
-    name: QuoteAlternativeTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo
-    name: QuoteAlternativeTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1742,45 +1698,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1789,94 +1743,57 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DictionaryTableNumber*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DictionaryTableNumber
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_DictionaryTableNumber
   name: DictionaryTableNumber
   nameWithType: QuoteAlternativeTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DictionaryTableNumber
@@ -1884,17 +1801,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RuntimeDefinition*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RuntimeDefinition
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_RuntimeDefinition
   name: RuntimeDefinition
   nameWithType: QuoteAlternativeTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RuntimeDefinition
@@ -1902,66 +1814,31 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
 - uid: SuperOffice.Data.SQL.TableInfo.Definition
   commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Definition
   name: Definition
   nameWithType: TableInfo.Definition
   fullName: SuperOffice.Data.SQL.TableInfo.Definition
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Definition*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Definition
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_Definition
   name: Definition
   nameWithType: QuoteAlternativeTableInfo.Definition
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Definition
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteAlternativeId*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteAlternativeId
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_QuoteAlternativeId
   name: QuoteAlternativeId
   nameWithType: QuoteAlternativeTableInfo.QuoteAlternativeId
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteAlternativeId
@@ -1969,14 +1846,12 @@ references:
   commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Int32FieldInfo.html
   name: Int32FieldInfo
   nameWithType: Int32FieldInfo
   fullName: SuperOffice.Data.SQL.Int32FieldInfo
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPQuoteAlternativeKey*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPQuoteAlternativeKey
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_ERPQuoteAlternativeKey
   name: ERPQuoteAlternativeKey
   nameWithType: QuoteAlternativeTableInfo.ERPQuoteAlternativeKey
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPQuoteAlternativeKey
@@ -1984,43 +1859,30 @@ references:
   commentId: T:SuperOffice.Data.SQL.StringFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.StringFieldInfo.html
   name: StringFieldInfo
   nameWithType: StringFieldInfo
   fullName: SuperOffice.Data.SQL.StringFieldInfo
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteVersionId*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteVersionId
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_QuoteVersionId
   name: QuoteVersionId
   nameWithType: QuoteAlternativeTableInfo.QuoteVersionId
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteVersionId
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Name*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Name
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_Name
   name: Name
   nameWithType: QuoteAlternativeTableInfo.Name
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Name
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Description*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Description
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_Description
   name: Description
   nameWithType: QuoteAlternativeTableInfo.Description
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Description
-- uid: SuperOffice.Data.QuoteStatus
-  commentId: T:SuperOffice.Data.QuoteStatus
-  parent: SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.Data.QuoteStatus.html
-  name: QuoteStatus
-  nameWithType: QuoteStatus
-  fullName: SuperOffice.Data.QuoteStatus
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Status*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Status
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_Status
   name: Status
   nameWithType: QuoteAlternativeTableInfo.Status
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Status
@@ -2028,59 +1890,18 @@ references:
   commentId: T:SuperOffice.Data.SQL.QuoteStatusFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.QuoteStatusFieldInfo.html
   name: QuoteStatusFieldInfo
   nameWithType: QuoteStatusFieldInfo
   fullName: SuperOffice.Data.SQL.QuoteStatusFieldInfo
-- uid: SuperOffice.Data
-  commentId: N:SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Data
-  nameWithType: SuperOffice.Data
-  fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Reason*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Reason
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_Reason
   name: Reason
   nameWithType: QuoteAlternativeTableInfo.Reason
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Reason
-- uid: System.Double
-  commentId: T:System.Double
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.double
-  name: double
-  nameWithType: double
-  fullName: double
-  nameWithType.vb: Double
-  fullName.vb: Double
-  name.vb: Double
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPDiscountPercent*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPDiscountPercent
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_ERPDiscountPercent
   name: ERPDiscountPercent
   nameWithType: QuoteAlternativeTableInfo.ERPDiscountPercent
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPDiscountPercent
@@ -2088,43 +1909,30 @@ references:
   commentId: T:SuperOffice.Data.SQL.DoubleFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.DoubleFieldInfo.html
   name: DoubleFieldInfo
   nameWithType: DoubleFieldInfo
   fullName: SuperOffice.Data.SQL.DoubleFieldInfo
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPDiscountAmount*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPDiscountAmount
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_ERPDiscountAmount
   name: ERPDiscountAmount
   nameWithType: QuoteAlternativeTableInfo.ERPDiscountAmount
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ERPDiscountAmount
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DiscountPercent*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DiscountPercent
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_DiscountPercent
   name: DiscountPercent
   nameWithType: QuoteAlternativeTableInfo.DiscountPercent
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DiscountPercent
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DiscountAmount*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DiscountAmount
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_DiscountAmount
   name: DiscountAmount
   nameWithType: QuoteAlternativeTableInfo.DiscountAmount
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.DiscountAmount
-- uid: SuperOffice.Data.ValueOverride
-  commentId: T:SuperOffice.Data.ValueOverride
-  parent: SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.Data.ValueOverride.html
-  name: ValueOverride
-  nameWithType: ValueOverride
-  fullName: SuperOffice.Data.ValueOverride
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UserValueOverride*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UserValueOverride
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_UserValueOverride
   name: UserValueOverride
   nameWithType: QuoteAlternativeTableInfo.UserValueOverride
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UserValueOverride
@@ -2132,95 +1940,72 @@ references:
   commentId: T:SuperOffice.Data.SQL.ValueOverrideFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.ValueOverrideFieldInfo.html
   name: ValueOverrideFieldInfo
   nameWithType: ValueOverrideFieldInfo
   fullName: SuperOffice.Data.SQL.ValueOverrideFieldInfo
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.VATInfo*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.VATInfo
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_VATInfo
   name: VATInfo
   nameWithType: QuoteAlternativeTableInfo.VATInfo
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.VATInfo
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.VAT*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.VAT
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_VAT
   name: VAT
   nameWithType: QuoteAlternativeTableInfo.VAT
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.VAT
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.EarningPercent*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.EarningPercent
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_EarningPercent
   name: EarningPercent
   nameWithType: QuoteAlternativeTableInfo.EarningPercent
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.EarningPercent
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.EarningAmount*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.EarningAmount
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_EarningAmount
   name: EarningAmount
   nameWithType: QuoteAlternativeTableInfo.EarningAmount
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.EarningAmount
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.TotalPrice*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.TotalPrice
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_TotalPrice
   name: TotalPrice
   nameWithType: QuoteAlternativeTableInfo.TotalPrice
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.TotalPrice
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField1*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField1
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_ExtraField1
   name: ExtraField1
   nameWithType: QuoteAlternativeTableInfo.ExtraField1
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField1
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField2*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField2
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_ExtraField2
   name: ExtraField2
   nameWithType: QuoteAlternativeTableInfo.ExtraField2
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField2
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField3*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField3
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_ExtraField3
   name: ExtraField3
   nameWithType: QuoteAlternativeTableInfo.ExtraField3
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField3
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField4*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField4
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_ExtraField4
   name: ExtraField4
   nameWithType: QuoteAlternativeTableInfo.ExtraField4
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField4
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField5*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField5
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_ExtraField5
   name: ExtraField5
   nameWithType: QuoteAlternativeTableInfo.ExtraField5
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.ExtraField5
-- uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Registered*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Registered
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_Registered
   name: Registered
   nameWithType: QuoteAlternativeTableInfo.Registered
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Registered
@@ -2228,46 +2013,30 @@ references:
   commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.DateTimeFieldInfo.html
   name: DateTimeFieldInfo
   nameWithType: DateTimeFieldInfo
   fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RegisteredAssociateId*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RegisteredAssociateId
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_RegisteredAssociateId
   name: RegisteredAssociateId
   nameWithType: QuoteAlternativeTableInfo.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RegisteredAssociateId
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Updated*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Updated
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_Updated
   name: Updated
   nameWithType: QuoteAlternativeTableInfo.Updated
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.Updated
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedAssociateId*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedAssociateId
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_UpdatedAssociateId
   name: UpdatedAssociateId
   nameWithType: QuoteAlternativeTableInfo.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedAssociateId
-- uid: System.Int16
-  commentId: T:System.Int16
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedCount*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedCount
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_UpdatedCount
   name: UpdatedCount
   nameWithType: QuoteAlternativeTableInfo.UpdatedCount
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedCount
@@ -2275,22 +2044,12 @@ references:
   commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.UInt16FieldInfo.html
   name: UInt16FieldInfo
   nameWithType: UInt16FieldInfo
   fullName: SuperOffice.Data.SQL.UInt16FieldInfo
-- uid: SuperOffice.CRM.Data.QuoteVersionTableInfo
-  commentId: T:SuperOffice.CRM.Data.QuoteVersionTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.QuoteVersionTableInfo.html
-  name: QuoteVersionTableInfo
-  nameWithType: QuoteVersionTableInfo
-  fullName: SuperOffice.CRM.Data.QuoteVersionTableInfo
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteVersionId_InnerJoin_QuoteVersion*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteVersionId_InnerJoin_QuoteVersion
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_QuoteVersionId_InnerJoin_QuoteVersion
   name: QuoteVersionId_InnerJoin_QuoteVersion
   nameWithType: QuoteAlternativeTableInfo.QuoteVersionId_InnerJoin_QuoteVersion
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.QuoteVersionId_InnerJoin_QuoteVersion
@@ -2298,7 +2057,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.QuoteVersionTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<QuoteVersionTableInfo>
   nameWithType: TargetedInnerJoin<QuoteVersionTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.QuoteVersionTableInfo>
@@ -2308,31 +2066,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.QuoteVersionTableInfo
     name: QuoteVersionTableInfo
+    nameWithType: QuoteVersionTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteVersionTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.QuoteVersionTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.QuoteVersionTableInfo
     name: QuoteVersionTableInfo
+    nameWithType: QuoteVersionTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteVersionTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.QuoteVersionTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
   isExternal: true
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<TargetTableInfo>
   nameWithType: TargetedInnerJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
@@ -2342,33 +2109,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: )
-- uid: SuperOffice.CRM.Data.AssociateTableInfo
-  commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.AssociateTableInfo.html
-  name: AssociateTableInfo
-  nameWithType: AssociateTableInfo
-  fullName: SuperOffice.CRM.Data.AssociateTableInfo
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RegisteredAssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RegisteredAssociateId_InnerJoin_Associate
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_RegisteredAssociateId_InnerJoin_Associate
   name: RegisteredAssociateId_InnerJoin_Associate
   nameWithType: QuoteAlternativeTableInfo.RegisteredAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.RegisteredAssociateId_InnerJoin_Associate
@@ -2376,7 +2146,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<AssociateTableInfo>
   nameWithType: TargetedInnerJoin<AssociateTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
@@ -2386,45 +2155,46 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.AssociateTableInfo
     name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.AssociateTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.AssociateTableInfo
     name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.AssociateTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedAssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedAssociateId_InnerJoin_Associate
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_UpdatedAssociateId_InnerJoin_Associate
   name: UpdatedAssociateId_InnerJoin_Associate
   nameWithType: QuoteAlternativeTableInfo.UpdatedAssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.UpdatedAssociateId_InnerJoin_Associate
-- uid: SuperOffice.CRM.Data.QuoteTableInfo.AcceptedQuoteAlternativeId
-  commentId: P:SuperOffice.CRM.Data.QuoteTableInfo.AcceptedQuoteAlternativeId
-  isExternal: true
-  href: SuperOffice.CRM.Data.QuoteTableInfo.html#SuperOffice_CRM_Data_QuoteTableInfo_AcceptedQuoteAlternativeId
-  name: AcceptedQuoteAlternativeId
-  nameWithType: QuoteTableInfo.AcceptedQuoteAlternativeId
-  fullName: SuperOffice.CRM.Data.QuoteTableInfo.AcceptedQuoteAlternativeId
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_Quote_AcceptedQuoteAlternativeId*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_Quote_AcceptedQuoteAlternativeId
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_LeftOuterJoin_Quote_AcceptedQuoteAlternativeId
   name: LeftOuterJoin_Quote_AcceptedQuoteAlternativeId
   nameWithType: QuoteAlternativeTableInfo.LeftOuterJoin_Quote_AcceptedQuoteAlternativeId
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_Quote_AcceptedQuoteAlternativeId
@@ -2432,7 +2202,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<QuoteTableInfo>
   nameWithType: TargetedLeftOuterJoin<QuoteTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.QuoteTableInfo>
@@ -2442,31 +2211,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.QuoteTableInfo
     name: QuoteTableInfo
+    nameWithType: QuoteTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.QuoteTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.QuoteTableInfo
     name: QuoteTableInfo
+    nameWithType: QuoteTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.QuoteTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   isExternal: true
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TargetTableInfo>
   nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
@@ -2476,32 +2254,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: )
-- uid: SuperOffice.CRM.Data.QuoteVersionTableInfo.LikelyQuoteAlternativeId
-  commentId: P:SuperOffice.CRM.Data.QuoteVersionTableInfo.LikelyQuoteAlternativeId
-  isExternal: true
-  href: SuperOffice.CRM.Data.QuoteVersionTableInfo.html#SuperOffice_CRM_Data_QuoteVersionTableInfo_LikelyQuoteAlternativeId
-  name: LikelyQuoteAlternativeId
-  nameWithType: QuoteVersionTableInfo.LikelyQuoteAlternativeId
-  fullName: SuperOffice.CRM.Data.QuoteVersionTableInfo.LikelyQuoteAlternativeId
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_QuoteVersion_LikelyQuoteAlternativeId*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_QuoteVersion_LikelyQuoteAlternativeId
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_LeftOuterJoin_QuoteVersion_LikelyQuoteAlternativeId
   name: LeftOuterJoin_QuoteVersion_LikelyQuoteAlternativeId
   nameWithType: QuoteAlternativeTableInfo.LeftOuterJoin_QuoteVersion_LikelyQuoteAlternativeId
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_QuoteVersion_LikelyQuoteAlternativeId
@@ -2509,7 +2291,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteVersionTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<QuoteVersionTableInfo>
   nameWithType: TargetedLeftOuterJoin<QuoteVersionTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.QuoteVersionTableInfo>
@@ -2519,38 +2300,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.QuoteVersionTableInfo
     name: QuoteVersionTableInfo
+    nameWithType: QuoteVersionTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteVersionTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.QuoteVersionTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.QuoteVersionTableInfo
     name: QuoteVersionTableInfo
+    nameWithType: QuoteVersionTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteVersionTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.QuoteVersionTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Data.QuoteLineTableInfo.QuoteAlternativeId
-  commentId: P:SuperOffice.CRM.Data.QuoteLineTableInfo.QuoteAlternativeId
-  isExternal: true
-  href: SuperOffice.CRM.Data.QuoteLineTableInfo.html#SuperOffice_CRM_Data_QuoteLineTableInfo_QuoteAlternativeId
-  name: QuoteAlternativeId
-  nameWithType: QuoteLineTableInfo.QuoteAlternativeId
-  fullName: SuperOffice.CRM.Data.QuoteLineTableInfo.QuoteAlternativeId
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_QuoteLine_QuoteAlternativeId*
   commentId: Overload:SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_QuoteLine_QuoteAlternativeId
   isExternal: true
-  href: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.html#SuperOffice_CRM_Data_QuoteAlternativeTableInfo_LeftOuterJoin_QuoteLine_QuoteAlternativeId
   name: LeftOuterJoin_QuoteLine_QuoteAlternativeId
   nameWithType: QuoteAlternativeTableInfo.LeftOuterJoin_QuoteLine_QuoteAlternativeId
   fullName: SuperOffice.CRM.Data.QuoteAlternativeTableInfo.LeftOuterJoin_QuoteLine_QuoteAlternativeId
@@ -2558,7 +2341,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.QuoteLineTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<QuoteLineTableInfo>
   nameWithType: TargetedLeftOuterJoin<QuoteLineTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.QuoteLineTableInfo>
@@ -2568,24 +2350,34 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.QuoteLineTableInfo
     name: QuoteLineTableInfo
+    nameWithType: QuoteLineTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteLineTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.QuoteLineTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.QuoteLineTableInfo
     name: QuoteLineTableInfo
+    nameWithType: QuoteLineTableInfo
+    fullName: SuperOffice.CRM.Data.QuoteLineTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.QuoteLineTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )

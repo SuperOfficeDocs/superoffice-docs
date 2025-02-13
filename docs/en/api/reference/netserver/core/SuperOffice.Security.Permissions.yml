@@ -18,7 +18,6 @@ references:
 - uid: SuperOffice.Security.Permissions.SoStrongName
   commentId: T:SuperOffice.Security.Permissions.SoStrongName
   isExternal: true
-  href: SuperOffice.Security.Permissions.SoStrongName.html
   name: SoStrongName
   nameWithType: SoStrongName
   fullName: SuperOffice.Security.Permissions.SoStrongName

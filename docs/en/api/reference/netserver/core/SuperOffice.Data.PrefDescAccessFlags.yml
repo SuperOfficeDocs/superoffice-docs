@@ -5,47 +5,72 @@ items:
   id: PrefDescAccessFlags
   parent: SuperOffice.Data
   children:
+  - SuperOffice.Data.PrefDescAccessFlags.adminGUI
   - SuperOffice.Data.PrefDescAccessFlags.CRMGUI
   - SuperOffice.Data.PrefDescAccessFlags.Level0
   - SuperOffice.Data.PrefDescAccessFlags.Unknown
+  - SuperOffice.Data.PrefDescAccessFlags.value__
   - SuperOffice.Data.PrefDescAccessFlags.WizardMode
-  - SuperOffice.Data.PrefDescAccessFlags.adminGUI
   langs:
   - csharp
   - vb
   name: PrefDescAccessFlags
   nameWithType: PrefDescAccessFlags
   fullName: SuperOffice.Data.PrefDescAccessFlags
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: >-
-    Value for field 'accessflags' in table 'prefdesc'.
-
-    This Enum is used by:  PrefDesc.accessFlags
-
-    This Enum consists of flag values that can be combined.
-  example: []
+  summary: "\nValue for field &apos;accessflags&apos; in table &apos;prefdesc&apos;.\nThis Enum is used by:  PrefDesc.accessFlags\nThis Enum consists of flag values that can be combined.\n"
   syntax:
-    content: >-
-      [Flags]
-
-      public enum PrefDescAccessFlags : short
+    content: 'public sealed class PrefDescAccessFlags : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class PrefDescAccessFlags
+          Inherits
 
-      Public Enum PrefDescAccessFlags As Short
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.PrefDescAccessFlags.EnumUtil.MapEnums``2
   - SuperOffice.Data.PrefDescAccessFlags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.PrefDescAccessFlags.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.PrefDescAccessFlags)
-  - SuperOffice.Data.PrefDescAccessFlags.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.PrefDescAccessFlags.value__
+  commentId: F:SuperOffice.Data.PrefDescAccessFlags.value__
+  id: value__
+  parent: SuperOffice.Data.PrefDescAccessFlags
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: PrefDescAccessFlags.value__
+  fullName: SuperOffice.Data.PrefDescAccessFlags.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.PrefDescAccessFlags.Unknown
   commentId: F:SuperOffice.Data.PrefDescAccessFlags.Unknown
   id: Unknown
@@ -57,15 +82,24 @@ items:
   nameWithType: PrefDescAccessFlags.Unknown
   fullName: SuperOffice.Data.PrefDescAccessFlags.Unknown
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: Unknown - used when initializing'
-  example: []
+  summary: "\n0: Unknown - used when initializing\n"
   syntax:
-    content: Unknown = 0
+    content: public const PrefDescAccessFlags Unknown
     return:
       type: SuperOffice.Data.PrefDescAccessFlags
+    content.vb: Public Const Unknown As PrefDescAccessFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.PrefDescAccessFlags.WizardMode
   commentId: F:SuperOffice.Data.PrefDescAccessFlags.WizardMode
   id: WizardMode
@@ -77,15 +111,24 @@ items:
   nameWithType: PrefDescAccessFlags.WizardMode
   fullName: SuperOffice.Data.PrefDescAccessFlags.WizardMode
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Wizard mode is password-protected and only accessible to SuperOffice personnel.'
-  example: []
+  summary: "\n1: Wizard mode is password-protected and only accessible to SuperOffice personnel.\n"
   syntax:
-    content: WizardMode = 1
+    content: public const PrefDescAccessFlags WizardMode
     return:
       type: SuperOffice.Data.PrefDescAccessFlags
+    content.vb: Public Const WizardMode As PrefDescAccessFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.PrefDescAccessFlags.Level0
   commentId: F:SuperOffice.Data.PrefDescAccessFlags.Level0
   id: Level0
@@ -97,15 +140,24 @@ items:
   nameWithType: PrefDescAccessFlags.Level0
   fullName: SuperOffice.Data.PrefDescAccessFlags.Level0
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: Preference settable only by CRM5 superuser'
-  example: []
+  summary: "\n2: Preference settable only by CRM5 superuser\n"
   syntax:
-    content: Level0 = 2
+    content: public const PrefDescAccessFlags Level0
     return:
       type: SuperOffice.Data.PrefDescAccessFlags
+    content.vb: Public Const Level0 As PrefDescAccessFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.PrefDescAccessFlags.adminGUI
   commentId: F:SuperOffice.Data.PrefDescAccessFlags.adminGUI
   id: adminGUI
@@ -117,15 +169,24 @@ items:
   nameWithType: PrefDescAccessFlags.adminGUI
   fullName: SuperOffice.Data.PrefDescAccessFlags.adminGUI
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '4: Show preference in SOADMIN GUI'
-  example: []
+  summary: "\n4: Show preference in SOADMIN GUI\n"
   syntax:
-    content: adminGUI = 4
+    content: public const PrefDescAccessFlags adminGUI
     return:
       type: SuperOffice.Data.PrefDescAccessFlags
+    content.vb: Public Const adminGUI As PrefDescAccessFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.PrefDescAccessFlags.CRMGUI
   commentId: F:SuperOffice.Data.PrefDescAccessFlags.CRMGUI
   id: CRMGUI
@@ -137,289 +198,115 @@ items:
   nameWithType: PrefDescAccessFlags.CRMGUI
   fullName: SuperOffice.Data.PrefDescAccessFlags.CRMGUI
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '8: Show preference in CRM5 GUI'
-  example: []
+  summary: "\n8: Show preference in CRM5 GUI\n"
   syntax:
-    content: CRMGUI = 8
+    content: public const PrefDescAccessFlags CRMGUI
     return:
       type: SuperOffice.Data.PrefDescAccessFlags
+    content.vb: Public Const CRMGUI As PrefDescAccessFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.PrefDescAccessFlags.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<PrefDescAccessFlags, To>(PrefDescAccessFlags)
-  nameWithType: EnumUtil.MapEnums<PrefDescAccessFlags, To>(PrefDescAccessFlags)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.PrefDescAccessFlags, To>(SuperOffice.Data.PrefDescAccessFlags)
-  nameWithType.vb: EnumUtil.MapEnums(Of PrefDescAccessFlags, To)(PrefDescAccessFlags)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.PrefDescAccessFlags, To)(SuperOffice.Data.PrefDescAccessFlags)
-  name.vb: MapEnums(Of PrefDescAccessFlags, To)(PrefDescAccessFlags)
+  name: MapEnums<PrefDescAccessFlags, To>()
+  nameWithType: EnumUtil.MapEnums<PrefDescAccessFlags, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.PrefDescAccessFlags, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of PrefDescAccessFlags, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.PrefDescAccessFlags, To)()
+  name.vb: MapEnums(Of PrefDescAccessFlags, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.PrefDescAccessFlags)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<PrefDescAccessFlags, To>
+    nameWithType: EnumUtil.MapEnums<PrefDescAccessFlags, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.PrefDescAccessFlags, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.PrefDescAccessFlags
-    name: PrefDescAccessFlags
-    isExternal: true
-    href: SuperOffice.Data.PrefDescAccessFlags.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.PrefDescAccessFlags
-    name: PrefDescAccessFlags
-    isExternal: true
-    href: SuperOffice.Data.PrefDescAccessFlags.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.PrefDescAccessFlags)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of PrefDescAccessFlags, To)
+    nameWithType: EnumUtil.MapEnums(Of PrefDescAccessFlags, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.PrefDescAccessFlags, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.PrefDescAccessFlags
-    name: PrefDescAccessFlags
-    isExternal: true
-    href: SuperOffice.Data.PrefDescAccessFlags.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.PrefDescAccessFlags
-    name: PrefDescAccessFlags
-    isExternal: true
-    href: SuperOffice.Data.PrefDescAccessFlags.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.PrefDescAccessFlags.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<PrefDescAccessFlags, To>(PrefDescAccessFlags)
-  nameWithType: Converters.MapEnums<PrefDescAccessFlags, To>(PrefDescAccessFlags)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.PrefDescAccessFlags, To>(SuperOffice.Data.PrefDescAccessFlags)
-  nameWithType.vb: Converters.MapEnums(Of PrefDescAccessFlags, To)(PrefDescAccessFlags)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.PrefDescAccessFlags, To)(SuperOffice.Data.PrefDescAccessFlags)
-  name.vb: MapEnums(Of PrefDescAccessFlags, To)(PrefDescAccessFlags)
+  name: MapEnums<PrefDescAccessFlags, To>()
+  nameWithType: Converters.MapEnums<PrefDescAccessFlags, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.PrefDescAccessFlags, To>()
+  nameWithType.vb: Converters.MapEnums(Of PrefDescAccessFlags, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.PrefDescAccessFlags, To)()
+  name.vb: MapEnums(Of PrefDescAccessFlags, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.PrefDescAccessFlags)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<PrefDescAccessFlags, To>
+    nameWithType: Converters.MapEnums<PrefDescAccessFlags, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.PrefDescAccessFlags, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.PrefDescAccessFlags
-    name: PrefDescAccessFlags
-    isExternal: true
-    href: SuperOffice.Data.PrefDescAccessFlags.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.PrefDescAccessFlags
-    name: PrefDescAccessFlags
-    isExternal: true
-    href: SuperOffice.Data.PrefDescAccessFlags.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.PrefDescAccessFlags)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of PrefDescAccessFlags, To)
+    nameWithType: Converters.MapEnums(Of PrefDescAccessFlags, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.PrefDescAccessFlags, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.PrefDescAccessFlags
-    name: PrefDescAccessFlags
-    isExternal: true
-    href: SuperOffice.Data.PrefDescAccessFlags.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.PrefDescAccessFlags
-    name: PrefDescAccessFlags
-    isExternal: true
-    href: SuperOffice.Data.PrefDescAccessFlags.html
-  - name: )
-- uid: SuperOffice.Data.PrefDescAccessFlags.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.PrefDescAccessFlags)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<PrefDescAccessFlags>(PrefDescAccessFlags, PrefDescAccessFlags)
-  nameWithType: ObjectExtensions.AssignByReflection<PrefDescAccessFlags>(PrefDescAccessFlags, PrefDescAccessFlags)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.PrefDescAccessFlags>(SuperOffice.Data.PrefDescAccessFlags, SuperOffice.Data.PrefDescAccessFlags)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of PrefDescAccessFlags)(PrefDescAccessFlags, PrefDescAccessFlags)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.PrefDescAccessFlags)(SuperOffice.Data.PrefDescAccessFlags, SuperOffice.Data.PrefDescAccessFlags)
-  name.vb: AssignByReflection(Of PrefDescAccessFlags)(PrefDescAccessFlags, PrefDescAccessFlags)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.PrefDescAccessFlags,SuperOffice.Data.PrefDescAccessFlags)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.PrefDescAccessFlags
-    name: PrefDescAccessFlags
-    isExternal: true
-    href: SuperOffice.Data.PrefDescAccessFlags.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.PrefDescAccessFlags
-    name: PrefDescAccessFlags
-    isExternal: true
-    href: SuperOffice.Data.PrefDescAccessFlags.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.PrefDescAccessFlags
-    name: PrefDescAccessFlags
-    isExternal: true
-    href: SuperOffice.Data.PrefDescAccessFlags.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.PrefDescAccessFlags,SuperOffice.Data.PrefDescAccessFlags)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.PrefDescAccessFlags
-    name: PrefDescAccessFlags
-    isExternal: true
-    href: SuperOffice.Data.PrefDescAccessFlags.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.PrefDescAccessFlags
-    name: PrefDescAccessFlags
-    isExternal: true
-    href: SuperOffice.Data.PrefDescAccessFlags.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.PrefDescAccessFlags
-    name: PrefDescAccessFlags
-    isExternal: true
-    href: SuperOffice.Data.PrefDescAccessFlags.html
-  - name: )
-- uid: SuperOffice.Data.PrefDescAccessFlags.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<PrefDescAccessFlags>(PrefDescAccessFlags)
-  nameWithType: ObjectExtensions.GraphCopy<PrefDescAccessFlags>(PrefDescAccessFlags)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.PrefDescAccessFlags>(SuperOffice.Data.PrefDescAccessFlags)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of PrefDescAccessFlags)(PrefDescAccessFlags)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.PrefDescAccessFlags)(SuperOffice.Data.PrefDescAccessFlags)
-  name.vb: GraphCopy(Of PrefDescAccessFlags)(PrefDescAccessFlags)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.PrefDescAccessFlags)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.PrefDescAccessFlags
-    name: PrefDescAccessFlags
-    isExternal: true
-    href: SuperOffice.Data.PrefDescAccessFlags.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.PrefDescAccessFlags
-    name: PrefDescAccessFlags
-    isExternal: true
-    href: SuperOffice.Data.PrefDescAccessFlags.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.PrefDescAccessFlags)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.PrefDescAccessFlags
-    name: PrefDescAccessFlags
-    isExternal: true
-    href: SuperOffice.Data.PrefDescAccessFlags.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.PrefDescAccessFlags
-    name: PrefDescAccessFlags
-    isExternal: true
-    href: SuperOffice.Data.PrefDescAccessFlags.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -428,45 +315,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -475,222 +360,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.PrefDescAccessFlags
   commentId: T:SuperOffice.Data.PrefDescAccessFlags
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.PrefDescAccessFlags.html
   name: PrefDescAccessFlags
   nameWithType: PrefDescAccessFlags
   fullName: SuperOffice.Data.PrefDescAccessFlags

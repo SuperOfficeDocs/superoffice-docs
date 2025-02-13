@@ -12,21 +12,64 @@ items:
   - SuperOffice.WebApi.Data.EjUserStatus.StatusReadOnly
   - SuperOffice.WebApi.Data.EjUserStatus.StatusSpm
   - SuperOffice.WebApi.Data.EjUserStatus.StatusSystem
+  - SuperOffice.WebApi.Data.EjUserStatus.value__
   langs:
   - csharp
   - vb
   name: EjUserStatus
   nameWithType: EjUserStatus
   fullName: SuperOffice.WebApi.Data.EjUserStatus
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
-    content: public enum EjUserStatus
-    content.vb: Public Enum EjUserStatus
+    content: 'public sealed class EjUserStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class EjUserStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.EjUserStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.EjUserStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.EjUserStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: EjUserStatus.value__
+  fullName: SuperOffice.WebApi.Data.EjUserStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.EjUserStatus.StatusNone
   commentId: F:SuperOffice.WebApi.Data.EjUserStatus.StatusNone
   id: StatusNone
@@ -38,26 +81,24 @@ items:
   nameWithType: EjUserStatus.StatusNone
   fullName: SuperOffice.WebApi.Data.EjUserStatus.StatusNone
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0:'
-  example: []
+  summary: "\n0: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      StatusNone = 0
+    content: public const EjUserStatus StatusNone
     return:
       type: SuperOffice.WebApi.Data.EjUserStatus
-    content.vb: >-
-      <EnumMember>
-
-      StatusNone = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const StatusNone As EjUserStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.EjUserStatus.StatusNormal
   commentId: F:SuperOffice.WebApi.Data.EjUserStatus.StatusNormal
   id: StatusNormal
@@ -69,26 +110,24 @@ items:
   nameWithType: EjUserStatus.StatusNormal
   fullName: SuperOffice.WebApi.Data.EjUserStatus.StatusNormal
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1:'
-  example: []
+  summary: "\n1: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      StatusNormal = 1
+    content: public const EjUserStatus StatusNormal
     return:
       type: SuperOffice.WebApi.Data.EjUserStatus
-    content.vb: >-
-      <EnumMember>
-
-      StatusNormal = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const StatusNormal As EjUserStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.EjUserStatus.StatusNotAvailable
   commentId: F:SuperOffice.WebApi.Data.EjUserStatus.StatusNotAvailable
   id: StatusNotAvailable
@@ -100,26 +139,24 @@ items:
   nameWithType: EjUserStatus.StatusNotAvailable
   fullName: SuperOffice.WebApi.Data.EjUserStatus.StatusNotAvailable
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2:'
-  example: []
+  summary: "\n2: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      StatusNotAvailable = 2
+    content: public const EjUserStatus StatusNotAvailable
     return:
       type: SuperOffice.WebApi.Data.EjUserStatus
-    content.vb: >-
-      <EnumMember>
-
-      StatusNotAvailable = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const StatusNotAvailable As EjUserStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.EjUserStatus.StatusDeleted
   commentId: F:SuperOffice.WebApi.Data.EjUserStatus.StatusDeleted
   id: StatusDeleted
@@ -131,26 +168,24 @@ items:
   nameWithType: EjUserStatus.StatusDeleted
   fullName: SuperOffice.WebApi.Data.EjUserStatus.StatusDeleted
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3:'
-  example: []
+  summary: "\n3: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      StatusDeleted = 3
+    content: public const EjUserStatus StatusDeleted
     return:
       type: SuperOffice.WebApi.Data.EjUserStatus
-    content.vb: >-
-      <EnumMember>
-
-      StatusDeleted = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const StatusDeleted As EjUserStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.EjUserStatus.StatusReadOnly
   commentId: F:SuperOffice.WebApi.Data.EjUserStatus.StatusReadOnly
   id: StatusReadOnly
@@ -162,26 +197,24 @@ items:
   nameWithType: EjUserStatus.StatusReadOnly
   fullName: SuperOffice.WebApi.Data.EjUserStatus.StatusReadOnly
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4:'
-  example: []
+  summary: "\n4: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      StatusReadOnly = 4
+    content: public const EjUserStatus StatusReadOnly
     return:
       type: SuperOffice.WebApi.Data.EjUserStatus
-    content.vb: >-
-      <EnumMember>
-
-      StatusReadOnly = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const StatusReadOnly As EjUserStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.EjUserStatus.StatusSpm
   commentId: F:SuperOffice.WebApi.Data.EjUserStatus.StatusSpm
   id: StatusSpm
@@ -193,26 +226,24 @@ items:
   nameWithType: EjUserStatus.StatusSpm
   fullName: SuperOffice.WebApi.Data.EjUserStatus.StatusSpm
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '5:'
-  example: []
+  summary: "\n5: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      StatusSpm = 5
+    content: public const EjUserStatus StatusSpm
     return:
       type: SuperOffice.WebApi.Data.EjUserStatus
-    content.vb: >-
-      <EnumMember>
-
-      StatusSpm = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const StatusSpm As EjUserStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.EjUserStatus.StatusSystem
   commentId: F:SuperOffice.WebApi.Data.EjUserStatus.StatusSystem
   id: StatusSystem
@@ -224,69 +255,55 @@ items:
   nameWithType: EjUserStatus.StatusSystem
   fullName: SuperOffice.WebApi.Data.EjUserStatus.StatusSystem
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '127:'
-  example: []
+  summary: "\n127: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      StatusSystem = 127
+    content: public const EjUserStatus StatusSystem
     return:
       type: SuperOffice.WebApi.Data.EjUserStatus
-    content.vb: >-
-      <EnumMember>
-
-      StatusSystem = 127
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const StatusSystem As EjUserStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.EjUserStatus
   commentId: T:SuperOffice.WebApi.Data.EjUserStatus
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.EjUserStatus.html
   name: EjUserStatus
   nameWithType: EjUserStatus
   fullName: SuperOffice.WebApi.Data.EjUserStatus

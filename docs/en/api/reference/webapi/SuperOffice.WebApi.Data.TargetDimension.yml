@@ -25,25 +25,20 @@ items:
   nameWithType: TargetDimension
   fullName: SuperOffice.WebApi.Data.TargetDimension
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for TargetDimension.
-
-    Target Dimension carrier
+  summary: "\nCarrier object for TargetDimension.\nTarget Dimension carrier    \n"
   example:
-  - >-
-    Get TargetDimension 123 using the WebApi client:
-
-    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
-
-    var agent = new TargetsAgent(configuration);
-
-    var targetDimension = agent.GetTargetDimension( 123 );</code></pre>
+  - "\nGet TargetDimension 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new TargetsAgent(configuration);\nvar targetDimension = agent.GetTargetDimension( 123 );</code></pre>\n"
   syntax:
     content: 'public class TargetDimension : Carrier'
-    content.vb: Public Class TargetDimension Inherits Carrier
+    content.vb: >-
+      Public Class TargetDimension
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.TargetsAgent
     commentId: T:SuperOffice.WebApi.Agents.TargetsAgent
@@ -53,13 +48,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.TargetDimension.#ctor
   commentId: M:SuperOffice.WebApi.Data.TargetDimension.#ctor
   id: '#ctor'
@@ -71,18 +65,21 @@ items:
   nameWithType: TargetDimension.TargetDimension()
   fullName: SuperOffice.WebApi.Data.TargetDimension.TargetDimension()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public TargetDimension()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.TargetDimension.#ctor*
-  nameWithType.vb: TargetDimension.New()
-  fullName.vb: SuperOffice.WebApi.Data.TargetDimension.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TargetDimension.TargetDimensionId
   commentId: P:SuperOffice.WebApi.Data.TargetDimension.TargetDimensionId
   id: TargetDimensionId
@@ -94,11 +91,13 @@ items:
   nameWithType: TargetDimension.TargetDimensionId
   fullName: SuperOffice.WebApi.Data.TargetDimension.TargetDimensionId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int TargetDimensionId { get; set; }
     parameters: []
@@ -106,6 +105,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property TargetDimensionId As Integer
   overload: SuperOffice.WebApi.Data.TargetDimension.TargetDimensionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel_String
   commentId: P:SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel_String
   id: AssignmentLevel_String
@@ -117,36 +124,29 @@ items:
   nameWithType: TargetDimension.AssignmentLevel_String
   fullName: SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    What level this dimension can be assigned to (Company, Group, Associate)
-
-    Raw string enum value.
-  example: []
+  summary: "\nWhat level this dimension can be assigned to (Company, Group, Associate)\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("AssignmentLevel")]
-
-      public string AssignmentLevel_String { get; set; }
+    content: public string AssignmentLevel_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("AssignmentLevel")>
-
-      Public Property AssignmentLevel_String As String
+    content.vb: Public Property AssignmentLevel_String As String
   overload: SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel
     commentId: P:SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: AssignmentLevel
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel
   commentId: P:SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel
   id: AssignmentLevel
@@ -158,34 +158,29 @@ items:
   nameWithType: TargetDimension.AssignmentLevel
   fullName: SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    What level this dimension can be assigned to (Company, Group, Associate)
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nWhat level this dimension can be assigned to (Company, Group, Associate)\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public TargetAssignementLevel? AssignmentLevel { get; set; }
+    content: public Nullable<TargetAssignementLevel> AssignmentLevel { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.TargetAssignementLevel}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property AssignmentLevel As TargetAssignementLevel?
+    content.vb: Public Property AssignmentLevel As Nullable(Of TargetAssignementLevel)
   overload: SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel_String
     commentId: P:SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TargetDimension.EntityType_String
   commentId: P:SuperOffice.WebApi.Data.TargetDimension.EntityType_String
   id: EntityType_String
@@ -197,36 +192,29 @@ items:
   nameWithType: TargetDimension.EntityType_String
   fullName: SuperOffice.WebApi.Data.TargetDimension.EntityType_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Entity type for this set of targets (Sale, Project, Selection, Appointment...)
-
-    Raw string enum value.
-  example: []
+  summary: "\nEntity type for this set of targets (Sale, Project, Selection, Appointment...)\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("EntityType")]
-
-      public string EntityType_String { get; set; }
+    content: public string EntityType_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("EntityType")>
-
-      Public Property EntityType_String As String
+    content.vb: Public Property EntityType_String As String
   overload: SuperOffice.WebApi.Data.TargetDimension.EntityType_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TargetDimension.EntityType
     commentId: P:SuperOffice.WebApi.Data.TargetDimension.EntityType
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: EntityType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TargetDimension.EntityType
   commentId: P:SuperOffice.WebApi.Data.TargetDimension.EntityType
   id: EntityType
@@ -238,34 +226,29 @@ items:
   nameWithType: TargetDimension.EntityType
   fullName: SuperOffice.WebApi.Data.TargetDimension.EntityType
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Entity type for this set of targets (Sale, Project, Selection, Appointment...)
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nEntity type for this set of targets (Sale, Project, Selection, Appointment...)\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public TargetEntityType? EntityType { get; set; }
+    content: public Nullable<TargetEntityType> EntityType { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.TargetEntityType}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property EntityType As TargetEntityType?
+    content.vb: Public Property EntityType As Nullable(Of TargetEntityType)
   overload: SuperOffice.WebApi.Data.TargetDimension.EntityType*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TargetDimension.EntityType_String
     commentId: P:SuperOffice.WebApi.Data.TargetDimension.EntityType_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit_String
   commentId: P:SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit_String
   id: MeasurementUnit_String
@@ -277,36 +260,29 @@ items:
   nameWithType: TargetDimension.MeasurementUnit_String
   fullName: SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    What to measure (Amount, Count, Profit...
-
-    Raw string enum value.
-  example: []
+  summary: "\nWhat to measure (Amount, Count, Profit...\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("MeasurementUnit")]
-
-      public string MeasurementUnit_String { get; set; }
+    content: public string MeasurementUnit_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("MeasurementUnit")>
-
-      Public Property MeasurementUnit_String As String
+    content.vb: Public Property MeasurementUnit_String As String
   overload: SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit
     commentId: P:SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: MeasurementUnit
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit
   commentId: P:SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit
   id: MeasurementUnit
@@ -318,34 +294,29 @@ items:
   nameWithType: TargetDimension.MeasurementUnit
   fullName: SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    What to measure (Amount, Count, Profit...
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nWhat to measure (Amount, Count, Profit...\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public TargetMeasurementUnit? MeasurementUnit { get; set; }
+    content: public Nullable<TargetMeasurementUnit> MeasurementUnit { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.TargetMeasurementUnit}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property MeasurementUnit As TargetMeasurementUnit?
+    content.vb: Public Property MeasurementUnit As Nullable(Of TargetMeasurementUnit)
   overload: SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit_String
     commentId: P:SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TargetDimension.DimensionListField
   commentId: P:SuperOffice.WebApi.Data.TargetDimension.DimensionListField
   id: DimensionListField
@@ -357,11 +328,13 @@ items:
   nameWithType: TargetDimension.DimensionListField
   fullName: SuperOffice.WebApi.Data.TargetDimension.DimensionListField
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: 'List that defines the dimensions for this target matrix (ex: Sale type, source, partner, business, udef or extrafield lists...)'
-  example: []
+  summary: "\nList that defines the dimensions for this target matrix (ex: Sale type, source, partner, business, udef or extrafield lists...)\n"
   syntax:
     content: public virtual string DimensionListField { get; set; }
     parameters: []
@@ -369,6 +342,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property DimensionListField As String
   overload: SuperOffice.WebApi.Data.TargetDimension.DimensionListField*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.TargetDimension.DimensionListName
   commentId: P:SuperOffice.WebApi.Data.TargetDimension.DimensionListName
   id: DimensionListName
@@ -380,11 +361,13 @@ items:
   nameWithType: TargetDimension.DimensionListName
   fullName: SuperOffice.WebApi.Data.TargetDimension.DimensionListName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: List name (can be used by list provider system to get list items)
-  example: []
+  summary: "\nList name (can be used by list provider system to get list items)\n"
   syntax:
     content: public virtual string DimensionListName { get; set; }
     parameters: []
@@ -392,6 +375,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property DimensionListName As String
   overload: SuperOffice.WebApi.Data.TargetDimension.DimensionListName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.TargetDimension.DimensionListId
   commentId: P:SuperOffice.WebApi.Data.TargetDimension.DimensionListId
   id: DimensionListId
@@ -403,11 +394,13 @@ items:
   nameWithType: TargetDimension.DimensionListId
   fullName: SuperOffice.WebApi.Data.TargetDimension.DimensionListId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: List id (can be used by list provider system to get list items)
-  example: []
+  summary: "\nList id (can be used by list provider system to get list items)\n"
   syntax:
     content: public virtual int DimensionListId { get; set; }
     parameters: []
@@ -415,6 +408,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property DimensionListId As Integer
   overload: SuperOffice.WebApi.Data.TargetDimension.DimensionListId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.TargetDimension.DimensionListLabel
   commentId: P:SuperOffice.WebApi.Data.TargetDimension.DimensionListLabel
   id: DimensionListLabel
@@ -426,11 +427,13 @@ items:
   nameWithType: TargetDimension.DimensionListLabel
   fullName: SuperOffice.WebApi.Data.TargetDimension.DimensionListLabel
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: list label (list column name)
-  example: []
+  summary: "\nlist label (list column name)\n"
   syntax:
     content: public virtual string DimensionListLabel { get; set; }
     parameters: []
@@ -438,6 +441,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property DimensionListLabel As String
   overload: SuperOffice.WebApi.Data.TargetDimension.DimensionListLabel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.TargetDimension.SelectedDimensions
   commentId: P:SuperOffice.WebApi.Data.TargetDimension.SelectedDimensions
   id: SelectedDimensions
@@ -449,11 +460,13 @@ items:
   nameWithType: TargetDimension.SelectedDimensions
   fullName: SuperOffice.WebApi.Data.TargetDimension.SelectedDimensions
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: id's of the selected/wanted dimensions (what sale types or udef list lines that should be target dimensions)
-  example: []
+  summary: "\nid&apos;s of the selected/wanted dimensions (what sale types or udef list lines that should be target dimensions)\n"
   syntax:
     content: public virtual int[] SelectedDimensions { get; set; }
     parameters: []
@@ -461,67 +474,32 @@ items:
       type: System.Int32[]
     content.vb: Public Overridable Property SelectedDimensions As Integer()
   overload: SuperOffice.WebApi.Data.TargetDimension.SelectedDimensions*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.TargetsAgent
-  commentId: T:SuperOffice.WebApi.Agents.TargetsAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.TargetsAgent.html
-  name: TargetsAgent
-  nameWithType: TargetsAgent
-  fullName: SuperOffice.WebApi.Agents.TargetsAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -529,7 +507,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -537,250 +514,30 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.TargetsAgent
+  commentId: T:SuperOffice.WebApi.Agents.TargetsAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: TargetsAgent
+  nameWithType: TargetsAgent
+  fullName: SuperOffice.WebApi.Agents.TargetsAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.TargetDimension.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.TargetDimension.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetDimension.html#SuperOffice_WebApi_Data_TargetDimension__ctor
   name: TargetDimension
   nameWithType: TargetDimension.TargetDimension
   fullName: SuperOffice.WebApi.Data.TargetDimension.TargetDimension
-  nameWithType.vb: TargetDimension.New
-  fullName.vb: SuperOffice.WebApi.Data.TargetDimension.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.TargetDimension.TargetDimensionId*
   commentId: Overload:SuperOffice.WebApi.Data.TargetDimension.TargetDimensionId
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetDimension.html#SuperOffice_WebApi_Data_TargetDimension_TargetDimensionId
   name: TargetDimensionId
   nameWithType: TargetDimension.TargetDimensionId
   fullName: SuperOffice.WebApi.Data.TargetDimension.TargetDimensionId
@@ -788,251 +545,290 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel
-  commentId: P:SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel
-  isExternal: true
-  href: SuperOffice.WebApi.Data.TargetDimension.html#SuperOffice_WebApi_Data_TargetDimension_AssignmentLevel
-  name: AssignmentLevel
-  nameWithType: TargetDimension.AssignmentLevel
-  fullName: SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel_String*
   commentId: Overload:SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetDimension.html#SuperOffice_WebApi_Data_TargetDimension_AssignmentLevel_String
   name: AssignmentLevel_String
   nameWithType: TargetDimension.AssignmentLevel_String
   fullName: SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel_String
+- uid: SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel
+  commentId: P:SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel
+  isExternal: true
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel_String
-  commentId: P:SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel_String
-  isExternal: true
-  href: SuperOffice.WebApi.Data.TargetDimension.html#SuperOffice_WebApi_Data_TargetDimension_AssignmentLevel_String
-  name: AssignmentLevel_String
-  nameWithType: TargetDimension.AssignmentLevel_String
-  fullName: SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel_String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel*
   commentId: Overload:SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetDimension.html#SuperOffice_WebApi_Data_TargetDimension_AssignmentLevel
   name: AssignmentLevel
   nameWithType: TargetDimension.AssignmentLevel
   fullName: SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel
+- uid: SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel_String
+  commentId: P:SuperOffice.WebApi.Data.TargetDimension.AssignmentLevel_String
+  isExternal: true
 - uid: System.Nullable{SuperOffice.WebApi.Data.TargetAssignementLevel}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.TargetAssignementLevel}
-  parent: System
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.TargetAssignementLevel}'
   definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.TargetAssignementLevel.html
-  name: TargetAssignementLevel?
-  nameWithType: TargetAssignementLevel?
-  fullName: SuperOffice.WebApi.Data.TargetAssignementLevel?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.TargetAssignementLevel
-    name: TargetAssignementLevel
-    isExternal: true
-    href: SuperOffice.WebApi.Data.TargetAssignementLevel.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.TargetAssignementLevel
-    name: TargetAssignementLevel
-    isExternal: true
-    href: SuperOffice.WebApi.Data.TargetAssignementLevel.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+  name: Nullable<TargetAssignementLevel>
+  nameWithType: Nullable<TargetAssignementLevel>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.TargetAssignementLevel>
+  nameWithType.vb: Nullable(Of TargetAssignementLevel)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.TargetAssignementLevel)
+  name.vb: Nullable(Of TargetAssignementLevel)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TargetAssignementLevel
+    name: TargetAssignementLevel
+    nameWithType: TargetAssignementLevel
+    fullName: SuperOffice.WebApi.Data.TargetAssignementLevel
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TargetAssignementLevel
+    name: TargetAssignementLevel
+    nameWithType: TargetAssignementLevel
+    fullName: SuperOffice.WebApi.Data.TargetAssignementLevel
+    isExternal: true
   - name: )
-- uid: SuperOffice.WebApi.Data.TargetDimension.EntityType
-  commentId: P:SuperOffice.WebApi.Data.TargetDimension.EntityType
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetDimension.html#SuperOffice_WebApi_Data_TargetDimension_EntityType
-  name: EntityType
-  nameWithType: TargetDimension.EntityType
-  fullName: SuperOffice.WebApi.Data.TargetDimension.EntityType
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.TargetDimension.EntityType_String*
   commentId: Overload:SuperOffice.WebApi.Data.TargetDimension.EntityType_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetDimension.html#SuperOffice_WebApi_Data_TargetDimension_EntityType_String
   name: EntityType_String
   nameWithType: TargetDimension.EntityType_String
   fullName: SuperOffice.WebApi.Data.TargetDimension.EntityType_String
-- uid: SuperOffice.WebApi.Data.TargetDimension.EntityType_String
-  commentId: P:SuperOffice.WebApi.Data.TargetDimension.EntityType_String
+- uid: SuperOffice.WebApi.Data.TargetDimension.EntityType
+  commentId: P:SuperOffice.WebApi.Data.TargetDimension.EntityType
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetDimension.html#SuperOffice_WebApi_Data_TargetDimension_EntityType_String
-  name: EntityType_String
-  nameWithType: TargetDimension.EntityType_String
-  fullName: SuperOffice.WebApi.Data.TargetDimension.EntityType_String
 - uid: SuperOffice.WebApi.Data.TargetDimension.EntityType*
   commentId: Overload:SuperOffice.WebApi.Data.TargetDimension.EntityType
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetDimension.html#SuperOffice_WebApi_Data_TargetDimension_EntityType
   name: EntityType
   nameWithType: TargetDimension.EntityType
   fullName: SuperOffice.WebApi.Data.TargetDimension.EntityType
-- uid: System.Nullable{SuperOffice.WebApi.Data.TargetEntityType}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.TargetEntityType}
-  parent: System
-  definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.TargetEntityType.html
-  name: TargetEntityType?
-  nameWithType: TargetEntityType?
-  fullName: SuperOffice.WebApi.Data.TargetEntityType?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.TargetEntityType
-    name: TargetEntityType
-    isExternal: true
-    href: SuperOffice.WebApi.Data.TargetEntityType.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.TargetEntityType
-    name: TargetEntityType
-    isExternal: true
-    href: SuperOffice.WebApi.Data.TargetEntityType.html
-  - name: '?'
-- uid: SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit
-  commentId: P:SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit
+- uid: SuperOffice.WebApi.Data.TargetDimension.EntityType_String
+  commentId: P:SuperOffice.WebApi.Data.TargetDimension.EntityType_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetDimension.html#SuperOffice_WebApi_Data_TargetDimension_MeasurementUnit
-  name: MeasurementUnit
-  nameWithType: TargetDimension.MeasurementUnit
-  fullName: SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit
+- uid: System.Nullable{SuperOffice.WebApi.Data.TargetEntityType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.TargetEntityType}'
+  definition: System.Nullable`1
+  name: Nullable<TargetEntityType>
+  nameWithType: Nullable<TargetEntityType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.TargetEntityType>
+  nameWithType.vb: Nullable(Of TargetEntityType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.TargetEntityType)
+  name.vb: Nullable(Of TargetEntityType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TargetEntityType
+    name: TargetEntityType
+    nameWithType: TargetEntityType
+    fullName: SuperOffice.WebApi.Data.TargetEntityType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TargetEntityType
+    name: TargetEntityType
+    nameWithType: TargetEntityType
+    fullName: SuperOffice.WebApi.Data.TargetEntityType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit_String*
   commentId: Overload:SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetDimension.html#SuperOffice_WebApi_Data_TargetDimension_MeasurementUnit_String
   name: MeasurementUnit_String
   nameWithType: TargetDimension.MeasurementUnit_String
   fullName: SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit_String
-- uid: SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit_String
-  commentId: P:SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit_String
+- uid: SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit
+  commentId: P:SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetDimension.html#SuperOffice_WebApi_Data_TargetDimension_MeasurementUnit_String
-  name: MeasurementUnit_String
-  nameWithType: TargetDimension.MeasurementUnit_String
-  fullName: SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit_String
 - uid: SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit*
   commentId: Overload:SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetDimension.html#SuperOffice_WebApi_Data_TargetDimension_MeasurementUnit
   name: MeasurementUnit
   nameWithType: TargetDimension.MeasurementUnit
   fullName: SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit
+- uid: SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit_String
+  commentId: P:SuperOffice.WebApi.Data.TargetDimension.MeasurementUnit_String
+  isExternal: true
 - uid: System.Nullable{SuperOffice.WebApi.Data.TargetMeasurementUnit}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.TargetMeasurementUnit}
-  parent: System
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.TargetMeasurementUnit}'
   definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.TargetMeasurementUnit.html
-  name: TargetMeasurementUnit?
-  nameWithType: TargetMeasurementUnit?
-  fullName: SuperOffice.WebApi.Data.TargetMeasurementUnit?
+  name: Nullable<TargetMeasurementUnit>
+  nameWithType: Nullable<TargetMeasurementUnit>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.TargetMeasurementUnit>
+  nameWithType.vb: Nullable(Of TargetMeasurementUnit)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.TargetMeasurementUnit)
+  name.vb: Nullable(Of TargetMeasurementUnit)
   spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.TargetMeasurementUnit
     name: TargetMeasurementUnit
+    nameWithType: TargetMeasurementUnit
+    fullName: SuperOffice.WebApi.Data.TargetMeasurementUnit
     isExternal: true
-    href: SuperOffice.WebApi.Data.TargetMeasurementUnit.html
-  - name: '?'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.TargetMeasurementUnit
     name: TargetMeasurementUnit
+    nameWithType: TargetMeasurementUnit
+    fullName: SuperOffice.WebApi.Data.TargetMeasurementUnit
     isExternal: true
-    href: SuperOffice.WebApi.Data.TargetMeasurementUnit.html
-  - name: '?'
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.TargetDimension.DimensionListField*
   commentId: Overload:SuperOffice.WebApi.Data.TargetDimension.DimensionListField
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetDimension.html#SuperOffice_WebApi_Data_TargetDimension_DimensionListField
   name: DimensionListField
   nameWithType: TargetDimension.DimensionListField
   fullName: SuperOffice.WebApi.Data.TargetDimension.DimensionListField
 - uid: SuperOffice.WebApi.Data.TargetDimension.DimensionListName*
   commentId: Overload:SuperOffice.WebApi.Data.TargetDimension.DimensionListName
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetDimension.html#SuperOffice_WebApi_Data_TargetDimension_DimensionListName
   name: DimensionListName
   nameWithType: TargetDimension.DimensionListName
   fullName: SuperOffice.WebApi.Data.TargetDimension.DimensionListName
 - uid: SuperOffice.WebApi.Data.TargetDimension.DimensionListId*
   commentId: Overload:SuperOffice.WebApi.Data.TargetDimension.DimensionListId
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetDimension.html#SuperOffice_WebApi_Data_TargetDimension_DimensionListId
   name: DimensionListId
   nameWithType: TargetDimension.DimensionListId
   fullName: SuperOffice.WebApi.Data.TargetDimension.DimensionListId
 - uid: SuperOffice.WebApi.Data.TargetDimension.DimensionListLabel*
   commentId: Overload:SuperOffice.WebApi.Data.TargetDimension.DimensionListLabel
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetDimension.html#SuperOffice_WebApi_Data_TargetDimension_DimensionListLabel
   name: DimensionListLabel
   nameWithType: TargetDimension.DimensionListLabel
   fullName: SuperOffice.WebApi.Data.TargetDimension.DimensionListLabel
 - uid: SuperOffice.WebApi.Data.TargetDimension.SelectedDimensions*
   commentId: Overload:SuperOffice.WebApi.Data.TargetDimension.SelectedDimensions
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetDimension.html#SuperOffice_WebApi_Data_TargetDimension_SelectedDimensions
   name: SelectedDimensions
   nameWithType: TargetDimension.SelectedDimensions
   fullName: SuperOffice.WebApi.Data.TargetDimension.SelectedDimensions
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

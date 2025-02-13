@@ -43,22 +43,26 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
   syntax:
-    content: public static class BulkUpdateSystem.ContactFieldValueKeys
-    content.vb: Public Module BulkUpdateSystem.ContactFieldValueKeys
+    content: 'public static class ContactFieldValueKeys : Object'
+    content.vb: >-
+      Public Module ContactFieldValueKeys
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Category
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Category
   id: Category
@@ -70,6 +74,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.Category
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Category
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -78,6 +85,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Category As String = "category"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Business
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Business
   id: Business
@@ -89,6 +102,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.Business
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Business
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -97,6 +113,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Business As String = "business"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.AssociateId
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.AssociateId
   id: AssociateId
@@ -108,6 +130,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.AssociateId
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.AssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -116,6 +141,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const AssociateId As String = "associateId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Number2
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Number2
   id: Number2
@@ -127,6 +158,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.Number2
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Number2
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -135,6 +169,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Number2 As String = "number2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Number1
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Number1
   id: Number1
@@ -146,6 +186,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.Number1
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Number1
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -154,6 +197,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Number1 As String = "number1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Stopped
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Stopped
   id: Stopped
@@ -165,6 +214,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.Stopped
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Stopped
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -173,6 +225,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Stopped As String = "stopped"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.ContactNoMail
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.ContactNoMail
   id: ContactNoMail
@@ -184,6 +242,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.ContactNoMail
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.ContactNoMail
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -192,6 +253,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const ContactNoMail As String = "contactNoMail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.OrgNr
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.OrgNr
   id: OrgNr
@@ -203,6 +270,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.OrgNr
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.OrgNr
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -211,6 +281,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const OrgNr As String = "orgNr"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Name
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Name
   id: Name
@@ -222,6 +298,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.Name
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Name
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -230,6 +309,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Department
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Department
   id: Department
@@ -241,6 +326,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.Department
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Department
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -249,6 +337,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Department As String = "department"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.ContactCountry
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.ContactCountry
   id: ContactCountry
@@ -260,6 +354,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.ContactCountry
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.ContactCountry
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -268,6 +365,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const ContactCountry As String = "contactCountry"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Url
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Url
   id: Url
@@ -279,6 +382,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.Url
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Url
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -287,6 +393,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Url As String = "url"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.EMail
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.EMail
   id: EMail
@@ -298,6 +410,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.EMail
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.EMail
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -306,6 +421,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const EMail As String = "e-mail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Phone
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Phone
   id: Phone
@@ -317,6 +438,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.Phone
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Phone
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -325,6 +449,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Phone As String = "phone"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Fax
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Fax
   id: Fax
@@ -336,6 +466,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.Fax
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.Fax
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -344,6 +477,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Fax As String = "fax"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress1
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress1
   id: StreetAddressAddress1
@@ -355,6 +494,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress1
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress1
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -363,6 +505,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const StreetAddressAddress1 As String = "streetAddress/address1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress2
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress2
   id: StreetAddressAddress2
@@ -374,6 +522,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress2
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress2
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -382,6 +533,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const StreetAddressAddress2 As String = "streetAddress/address2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress3
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress3
   id: StreetAddressAddress3
@@ -393,6 +550,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress3
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressAddress3
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -401,6 +561,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const StreetAddressAddress3 As String = "streetAddress/address3"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressZipCode
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressZipCode
   id: StreetAddressZipCode
@@ -412,6 +578,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.StreetAddressZipCode
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressZipCode
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -420,6 +589,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const StreetAddressZipCode As String = "streetAddress/zipCode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressZipCity
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressZipCity
   id: StreetAddressZipCity
@@ -431,6 +606,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.StreetAddressZipCity
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressZipCity
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -439,6 +617,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const StreetAddressZipCity As String = "streetAddress/zipCity"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressState
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressState
   id: StreetAddressState
@@ -450,6 +634,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.StreetAddressState
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressState
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -458,6 +645,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const StreetAddressState As String = "streetAddress/state"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressCounty
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressCounty
   id: StreetAddressCounty
@@ -469,6 +662,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.StreetAddressCounty
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.StreetAddressCounty
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -477,6 +673,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const StreetAddressCounty As String = "streetAddress/county"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress1
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress1
   id: PostalAddressAddress1
@@ -488,6 +690,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress1
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress1
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -496,6 +701,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const PostalAddressAddress1 As String = "postalAddress/address1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress2
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress2
   id: PostalAddressAddress2
@@ -507,6 +718,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress2
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress2
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -515,6 +729,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const PostalAddressAddress2 As String = "postalAddress/address2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress3
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress3
   id: PostalAddressAddress3
@@ -526,6 +746,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress3
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressAddress3
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -534,6 +757,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const PostalAddressAddress3 As String = "postalAddress/address3"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressZipCode
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressZipCode
   id: PostalAddressZipCode
@@ -545,6 +774,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.PostalAddressZipCode
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressZipCode
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -553,6 +785,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const PostalAddressZipCode As String = "postalAddress/zipCode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressZipCity
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressZipCity
   id: PostalAddressZipCity
@@ -564,6 +802,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.PostalAddressZipCity
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressZipCity
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -572,6 +813,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const PostalAddressZipCity As String = "postalAddress/zipCity"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressState
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressState
   id: PostalAddressState
@@ -583,6 +830,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.PostalAddressState
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressState
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -591,6 +841,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const PostalAddressState As String = "postalAddress/state"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressCounty
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressCounty
   id: PostalAddressCounty
@@ -602,6 +858,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.PostalAddressCounty
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.PostalAddressCounty
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -610,6 +869,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const PostalAddressCounty As String = "postalAddress/county"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.AddInterests
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.AddInterests
   id: AddInterests
@@ -621,6 +886,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.AddInterests
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.AddInterests
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -629,6 +897,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const AddInterests As String = "addInterests"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.RemoveInterest
   commentId: F:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.RemoveInterest
   id: RemoveInterest
@@ -640,6 +914,9 @@ items:
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys.RemoveInterest
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.RemoveInterest
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.BulkUpdate
@@ -648,278 +925,29 @@ items:
     return:
       type: System.String
     content.vb: Public Const RemoveInterest As String = "removeInterest"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.BulkUpdate
   commentId: N:SuperOffice.CRM.BulkUpdate
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.BulkUpdate
   nameWithType: SuperOffice.CRM.BulkUpdate
   fullName: SuperOffice.CRM.BulkUpdate
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate
-    name: BulkUpdate
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate
-    name: BulkUpdate
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -927,10 +955,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

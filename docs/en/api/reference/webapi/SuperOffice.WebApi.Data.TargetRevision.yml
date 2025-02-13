@@ -18,17 +18,18 @@ items:
   nameWithType: TargetRevision
   fullName: SuperOffice.WebApi.Data.TargetRevision
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for TargetRevision.
-
-    Target revision carrier
-  example: []
+  summary: "\nCarrier object for TargetRevision.\nTarget revision carrier    \n"
   syntax:
     content: 'public class TargetRevision : Carrier'
-    content.vb: Public Class TargetRevision Inherits Carrier
+    content.vb: >-
+      Public Class TargetRevision
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.TargetsAgent
     commentId: T:SuperOffice.WebApi.Agents.TargetsAgent
@@ -38,13 +39,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.TargetRevision.#ctor
   commentId: M:SuperOffice.WebApi.Data.TargetRevision.#ctor
   id: '#ctor'
@@ -56,18 +56,21 @@ items:
   nameWithType: TargetRevision.TargetRevision()
   fullName: SuperOffice.WebApi.Data.TargetRevision.TargetRevision()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public TargetRevision()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.TargetRevision.#ctor*
-  nameWithType.vb: TargetRevision.New()
-  fullName.vb: SuperOffice.WebApi.Data.TargetRevision.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
   commentId: P:SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
   id: LogEvent_String
@@ -79,36 +82,29 @@ items:
   nameWithType: TargetRevision.LogEvent_String
   fullName: SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Log event class (create, edit, delete, lock, unlock...
-
-    Raw string enum value.
-  example: []
+  summary: "\nLog event class (create, edit, delete, lock, unlock...\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("LogEvent")]
-
-      public string LogEvent_String { get; set; }
+    content: public string LogEvent_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("LogEvent")>
-
-      Public Property LogEvent_String As String
+    content.vb: Public Property LogEvent_String As String
   overload: SuperOffice.WebApi.Data.TargetRevision.LogEvent_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TargetRevision.LogEvent
     commentId: P:SuperOffice.WebApi.Data.TargetRevision.LogEvent
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: LogEvent
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TargetRevision.LogEvent
   commentId: P:SuperOffice.WebApi.Data.TargetRevision.LogEvent
   id: LogEvent
@@ -120,34 +116,29 @@ items:
   nameWithType: TargetRevision.LogEvent
   fullName: SuperOffice.WebApi.Data.TargetRevision.LogEvent
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Log event class (create, edit, delete, lock, unlock...
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nLog event class (create, edit, delete, lock, unlock...\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public LogEvent? LogEvent { get; set; }
+    content: public Nullable<LogEvent> LogEvent { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.LogEvent}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property LogEvent As LogEvent?
+    content.vb: Public Property LogEvent As Nullable(Of LogEvent)
   overload: SuperOffice.WebApi.Data.TargetRevision.LogEvent*
   seealso:
   - linkId: SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
     commentId: P:SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TargetRevision.Who
   commentId: P:SuperOffice.WebApi.Data.TargetRevision.Who
   id: Who
@@ -159,11 +150,13 @@ items:
   nameWithType: TargetRevision.Who
   fullName: SuperOffice.WebApi.Data.TargetRevision.Who
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Who made the change
-  example: []
+  summary: "\nWho made the change\n"
   syntax:
     content: public virtual Associate Who { get; set; }
     parameters: []
@@ -171,6 +164,14 @@ items:
       type: SuperOffice.WebApi.Data.Associate
     content.vb: Public Overridable Property Who As Associate
   overload: SuperOffice.WebApi.Data.TargetRevision.Who*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.TargetRevision.When
   commentId: P:SuperOffice.WebApi.Data.TargetRevision.When
   id: When
@@ -182,18 +183,28 @@ items:
   nameWithType: TargetRevision.When
   fullName: SuperOffice.WebApi.Data.TargetRevision.When
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Registered when
-  example: []
+  summary: "\nRegistered when\n"
   syntax:
     content: public virtual DateTime When { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property [When] As Date
+    content.vb: Public Overridable Property When As DateTime
   overload: SuperOffice.WebApi.Data.TargetRevision.When*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.TargetRevision.Changes
   commentId: P:SuperOffice.WebApi.Data.TargetRevision.Changes
   id: Changes
@@ -205,11 +216,13 @@ items:
   nameWithType: TargetRevision.Changes
   fullName: SuperOffice.WebApi.Data.TargetRevision.Changes
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Collection of changes
-  example: []
+  summary: "\nCollection of changes\n"
   syntax:
     content: public virtual TargetChange[] Changes { get; set; }
     parameters: []
@@ -217,67 +230,32 @@ items:
       type: SuperOffice.WebApi.Data.TargetChange[]
     content.vb: Public Overridable Property Changes As TargetChange()
   overload: SuperOffice.WebApi.Data.TargetRevision.Changes*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.TargetsAgent
-  commentId: T:SuperOffice.WebApi.Agents.TargetsAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.TargetsAgent.html
-  name: TargetsAgent
-  nameWithType: TargetsAgent
-  fullName: SuperOffice.WebApi.Agents.TargetsAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -285,7 +263,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -293,337 +270,136 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.TargetsAgent
+  commentId: T:SuperOffice.WebApi.Agents.TargetsAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: TargetsAgent
+  nameWithType: TargetsAgent
+  fullName: SuperOffice.WebApi.Agents.TargetsAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.TargetRevision.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.TargetRevision.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetRevision.html#SuperOffice_WebApi_Data_TargetRevision__ctor
   name: TargetRevision
   nameWithType: TargetRevision.TargetRevision
   fullName: SuperOffice.WebApi.Data.TargetRevision.TargetRevision
-  nameWithType.vb: TargetRevision.New
-  fullName.vb: SuperOffice.WebApi.Data.TargetRevision.New
-  name.vb: New
-- uid: SuperOffice.WebApi.Data.TargetRevision.LogEvent
-  commentId: P:SuperOffice.WebApi.Data.TargetRevision.LogEvent
-  isExternal: true
-  href: SuperOffice.WebApi.Data.TargetRevision.html#SuperOffice_WebApi_Data_TargetRevision_LogEvent
-  name: LogEvent
-  nameWithType: TargetRevision.LogEvent
-  fullName: SuperOffice.WebApi.Data.TargetRevision.LogEvent
 - uid: SuperOffice.WebApi.Data.TargetRevision.LogEvent_String*
   commentId: Overload:SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetRevision.html#SuperOffice_WebApi_Data_TargetRevision_LogEvent_String
   name: LogEvent_String
   nameWithType: TargetRevision.LogEvent_String
   fullName: SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
+- uid: SuperOffice.WebApi.Data.TargetRevision.LogEvent
+  commentId: P:SuperOffice.WebApi.Data.TargetRevision.LogEvent
+  isExternal: true
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
-  commentId: P:SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
-  isExternal: true
-  href: SuperOffice.WebApi.Data.TargetRevision.html#SuperOffice_WebApi_Data_TargetRevision_LogEvent_String
-  name: LogEvent_String
-  nameWithType: TargetRevision.LogEvent_String
-  fullName: SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.TargetRevision.LogEvent*
   commentId: Overload:SuperOffice.WebApi.Data.TargetRevision.LogEvent
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetRevision.html#SuperOffice_WebApi_Data_TargetRevision_LogEvent
   name: LogEvent
   nameWithType: TargetRevision.LogEvent
   fullName: SuperOffice.WebApi.Data.TargetRevision.LogEvent
-- uid: System.Nullable{SuperOffice.WebApi.Data.LogEvent}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.LogEvent}
-  parent: System
-  definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.LogEvent.html
-  name: LogEvent?
-  nameWithType: LogEvent?
-  fullName: SuperOffice.WebApi.Data.LogEvent?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.LogEvent
-    name: LogEvent
-    isExternal: true
-    href: SuperOffice.WebApi.Data.LogEvent.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.LogEvent
-    name: LogEvent
-    isExternal: true
-    href: SuperOffice.WebApi.Data.LogEvent.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
+- uid: SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
+  commentId: P:SuperOffice.WebApi.Data.TargetRevision.LogEvent_String
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+- uid: System.Nullable{SuperOffice.WebApi.Data.LogEvent}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.LogEvent}'
+  definition: System.Nullable`1
+  name: Nullable<LogEvent>
+  nameWithType: Nullable<LogEvent>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.LogEvent>
+  nameWithType.vb: Nullable(Of LogEvent)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.LogEvent)
+  name.vb: Nullable(Of LogEvent)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.LogEvent
+    name: LogEvent
+    nameWithType: LogEvent
+    fullName: SuperOffice.WebApi.Data.LogEvent
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.LogEvent
+    name: LogEvent
+    nameWithType: LogEvent
+    fullName: SuperOffice.WebApi.Data.LogEvent
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.TargetRevision.Who*
   commentId: Overload:SuperOffice.WebApi.Data.TargetRevision.Who
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetRevision.html#SuperOffice_WebApi_Data_TargetRevision_Who
   name: Who
   nameWithType: TargetRevision.Who
   fullName: SuperOffice.WebApi.Data.TargetRevision.Who
@@ -631,38 +407,28 @@ references:
   commentId: T:SuperOffice.WebApi.Data.Associate
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Associate.html
   name: Associate
   nameWithType: Associate
   fullName: SuperOffice.WebApi.Data.Associate
 - uid: SuperOffice.WebApi.Data.TargetRevision.When*
   commentId: Overload:SuperOffice.WebApi.Data.TargetRevision.When
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetRevision.html#SuperOffice_WebApi_Data_TargetRevision_When
   name: When
   nameWithType: TargetRevision.When
   fullName: SuperOffice.WebApi.Data.TargetRevision.When
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.WebApi.Data.TargetRevision.Changes*
   commentId: Overload:SuperOffice.WebApi.Data.TargetRevision.Changes
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetRevision.html#SuperOffice_WebApi_Data_TargetRevision_Changes
   name: Changes
   nameWithType: TargetRevision.Changes
   fullName: SuperOffice.WebApi.Data.TargetRevision.Changes
 - uid: SuperOffice.WebApi.Data.TargetChange[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.TargetChange.html
   name: TargetChange[]
   nameWithType: TargetChange[]
   fullName: SuperOffice.WebApi.Data.TargetChange[]
@@ -672,14 +438,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.TargetChange
     name: TargetChange
+    nameWithType: TargetChange
+    fullName: SuperOffice.WebApi.Data.TargetChange
     isExternal: true
-    href: SuperOffice.WebApi.Data.TargetChange.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.TargetChange
     name: TargetChange
+    nameWithType: TargetChange
+    fullName: SuperOffice.WebApi.Data.TargetChange
     isExternal: true
-    href: SuperOffice.WebApi.Data.TargetChange.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

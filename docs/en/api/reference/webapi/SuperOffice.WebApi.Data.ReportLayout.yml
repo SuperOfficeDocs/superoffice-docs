@@ -14,21 +14,64 @@ items:
   - SuperOffice.WebApi.Data.ReportLayout.List
   - SuperOffice.WebApi.Data.ReportLayout.Text
   - SuperOffice.WebApi.Data.ReportLayout.Unknown
+  - SuperOffice.WebApi.Data.ReportLayout.value__
   langs:
   - csharp
   - vb
   name: ReportLayout
   nameWithType: ReportLayout
   fullName: SuperOffice.WebApi.Data.ReportLayout
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
-    content: public enum ReportLayout
-    content.vb: Public Enum ReportLayout
+    content: 'public sealed class ReportLayout : Enum'
+    content.vb: >-
+      Public NotInheritable Class ReportLayout
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.ReportLayout.value__
+  commentId: F:SuperOffice.WebApi.Data.ReportLayout.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.ReportLayout
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ReportLayout.value__
+  fullName: SuperOffice.WebApi.Data.ReportLayout.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ReportLayout.Unknown
   commentId: F:SuperOffice.WebApi.Data.ReportLayout.Unknown
   id: Unknown
@@ -40,26 +83,24 @@ items:
   nameWithType: ReportLayout.Unknown
   fullName: SuperOffice.WebApi.Data.ReportLayout.Unknown
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0:'
-  example: []
+  summary: "\n0: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Unknown = 0
+    content: public const ReportLayout Unknown
     return:
       type: SuperOffice.WebApi.Data.ReportLayout
-    content.vb: >-
-      <EnumMember>
-
-      Unknown = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Unknown As ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ReportLayout.List
   commentId: F:SuperOffice.WebApi.Data.ReportLayout.List
   id: List
@@ -71,26 +112,24 @@ items:
   nameWithType: ReportLayout.List
   fullName: SuperOffice.WebApi.Data.ReportLayout.List
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1:'
-  example: []
+  summary: "\n1: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      List = 1
+    content: public const ReportLayout List
     return:
       type: SuperOffice.WebApi.Data.ReportLayout
-    content.vb: >-
-      <EnumMember>
-
-      List = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const List As ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ReportLayout.Label
   commentId: F:SuperOffice.WebApi.Data.ReportLayout.Label
   id: Label
@@ -102,26 +141,24 @@ items:
   nameWithType: ReportLayout.Label
   fullName: SuperOffice.WebApi.Data.ReportLayout.Label
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2:'
-  example: []
+  summary: "\n2: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Label = 2
+    content: public const ReportLayout Label
     return:
       type: SuperOffice.WebApi.Data.ReportLayout
-    content.vb: >-
-      <EnumMember>
-
-      Label = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Label As ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ReportLayout.GroupList
   commentId: F:SuperOffice.WebApi.Data.ReportLayout.GroupList
   id: GroupList
@@ -133,26 +170,24 @@ items:
   nameWithType: ReportLayout.GroupList
   fullName: SuperOffice.WebApi.Data.ReportLayout.GroupList
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3:'
-  example: []
+  summary: "\n3: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      GroupList = 3
+    content: public const ReportLayout GroupList
     return:
       type: SuperOffice.WebApi.Data.ReportLayout
-    content.vb: >-
-      <EnumMember>
-
-      GroupList = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const GroupList As ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ReportLayout.CrossTable
   commentId: F:SuperOffice.WebApi.Data.ReportLayout.CrossTable
   id: CrossTable
@@ -164,26 +199,24 @@ items:
   nameWithType: ReportLayout.CrossTable
   fullName: SuperOffice.WebApi.Data.ReportLayout.CrossTable
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4:'
-  example: []
+  summary: "\n4: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      CrossTable = 4
+    content: public const ReportLayout CrossTable
     return:
       type: SuperOffice.WebApi.Data.ReportLayout
-    content.vb: >-
-      <EnumMember>
-
-      CrossTable = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const CrossTable As ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ReportLayout.CalendarWeek5
   commentId: F:SuperOffice.WebApi.Data.ReportLayout.CalendarWeek5
   id: CalendarWeek5
@@ -195,26 +228,24 @@ items:
   nameWithType: ReportLayout.CalendarWeek5
   fullName: SuperOffice.WebApi.Data.ReportLayout.CalendarWeek5
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '5:'
-  example: []
+  summary: "\n5: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      CalendarWeek5 = 5
+    content: public const ReportLayout CalendarWeek5
     return:
       type: SuperOffice.WebApi.Data.ReportLayout
-    content.vb: >-
-      <EnumMember>
-
-      CalendarWeek5 = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const CalendarWeek5 As ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ReportLayout.CalendarWeek7
   commentId: F:SuperOffice.WebApi.Data.ReportLayout.CalendarWeek7
   id: CalendarWeek7
@@ -226,26 +257,24 @@ items:
   nameWithType: ReportLayout.CalendarWeek7
   fullName: SuperOffice.WebApi.Data.ReportLayout.CalendarWeek7
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '6:'
-  example: []
+  summary: "\n6: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      CalendarWeek7 = 6
+    content: public const ReportLayout CalendarWeek7
     return:
       type: SuperOffice.WebApi.Data.ReportLayout
-    content.vb: >-
-      <EnumMember>
-
-      CalendarWeek7 = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const CalendarWeek7 As ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ReportLayout.CalendarMonth
   commentId: F:SuperOffice.WebApi.Data.ReportLayout.CalendarMonth
   id: CalendarMonth
@@ -257,26 +286,24 @@ items:
   nameWithType: ReportLayout.CalendarMonth
   fullName: SuperOffice.WebApi.Data.ReportLayout.CalendarMonth
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '7:'
-  example: []
+  summary: "\n7: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      CalendarMonth = 7
+    content: public const ReportLayout CalendarMonth
     return:
       type: SuperOffice.WebApi.Data.ReportLayout
-    content.vb: >-
-      <EnumMember>
-
-      CalendarMonth = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const CalendarMonth As ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.ReportLayout.Text
   commentId: F:SuperOffice.WebApi.Data.ReportLayout.Text
   id: Text
@@ -288,69 +315,55 @@ items:
   nameWithType: ReportLayout.Text
   fullName: SuperOffice.WebApi.Data.ReportLayout.Text
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '8:'
-  example: []
+  summary: "\n8: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Text = 8
+    content: public const ReportLayout Text
     return:
       type: SuperOffice.WebApi.Data.ReportLayout
-    content.vb: >-
-      <EnumMember>
-
-      Text = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Text As ReportLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.ReportLayout
   commentId: T:SuperOffice.WebApi.Data.ReportLayout
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.ReportLayout.html
   name: ReportLayout
   nameWithType: ReportLayout
   fullName: SuperOffice.WebApi.Data.ReportLayout

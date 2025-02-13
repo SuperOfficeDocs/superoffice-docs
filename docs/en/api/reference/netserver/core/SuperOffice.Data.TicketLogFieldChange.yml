@@ -58,8 +58,8 @@ items:
   - SuperOffice.Data.TicketLogFieldChange.RealTimeToClose
   - SuperOffice.Data.TicketLogFieldChange.RealTimeToReply
   - SuperOffice.Data.TicketLogFieldChange.RepliedAt
-  - SuperOffice.Data.TicketLogFieldChange.SLevel
   - SuperOffice.Data.TicketLogFieldChange.SaleId
+  - SuperOffice.Data.TicketLogFieldChange.SLevel
   - SuperOffice.Data.TicketLogFieldChange.Status
   - SuperOffice.Data.TicketLogFieldChange.Tags
   - SuperOffice.Data.TicketLogFieldChange.TicketStatus
@@ -70,41 +70,67 @@ items:
   - SuperOffice.Data.TicketLogFieldChange.TimeToClose
   - SuperOffice.Data.TicketLogFieldChange.TimeToReply
   - SuperOffice.Data.TicketLogFieldChange.Title
+  - SuperOffice.Data.TicketLogFieldChange.value__
   langs:
   - csharp
   - vb
   name: TicketLogFieldChange
   nameWithType: TicketLogFieldChange
   fullName: SuperOffice.Data.TicketLogFieldChange
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: Value representing a ticket field or a ticket message field that changed
-  example: []
+  summary: "\nValue representing a ticket field or a ticket message field that changed\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum TicketLogFieldChange
+    content: 'public sealed class TicketLogFieldChange : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class TicketLogFieldChange
+          Inherits
 
-      Public Enum TicketLogFieldChange
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.TicketLogFieldChange.EnumUtil.MapEnums``2
   - SuperOffice.Data.TicketLogFieldChange.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.TicketLogFieldChange.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketLogFieldChange)
-  - SuperOffice.Data.TicketLogFieldChange.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.TicketLogFieldChange.value__
+  commentId: F:SuperOffice.Data.TicketLogFieldChange.value__
+  id: value__
+  parent: SuperOffice.Data.TicketLogFieldChange
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketLogFieldChange.value__
+  fullName: SuperOffice.Data.TicketLogFieldChange.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.TicketLogFieldChange.CreatedAt
   commentId: F:SuperOffice.Data.TicketLogFieldChange.CreatedAt
   id: CreatedAt
@@ -116,26 +142,24 @@ items:
   nameWithType: TicketLogFieldChange.CreatedAt
   fullName: SuperOffice.Data.TicketLogFieldChange.CreatedAt
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: CreatedAt changed'
-  example: []
+  summary: "\n1: CreatedAt changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      CreatedAt = 1
+    content: public const TicketLogFieldChange CreatedAt
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      CreatedAt = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const CreatedAt As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Title
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Title
   id: Title
@@ -147,26 +171,24 @@ items:
   nameWithType: TicketLogFieldChange.Title
   fullName: SuperOffice.Data.TicketLogFieldChange.Title
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: Title changed'
-  example: []
+  summary: "\n2: Title changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Title = 2
+    content: public const TicketLogFieldChange Title
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Title = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Title As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.LastChanged
   commentId: F:SuperOffice.Data.TicketLogFieldChange.LastChanged
   id: LastChanged
@@ -178,26 +200,24 @@ items:
   nameWithType: TicketLogFieldChange.LastChanged
   fullName: SuperOffice.Data.TicketLogFieldChange.LastChanged
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '3: LastChanged changed'
-  example: []
+  summary: "\n3: LastChanged changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      LastChanged = 3
+    content: public const TicketLogFieldChange LastChanged
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      LastChanged = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const LastChanged As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.ReadByOwner
   commentId: F:SuperOffice.Data.TicketLogFieldChange.ReadByOwner
   id: ReadByOwner
@@ -209,26 +229,24 @@ items:
   nameWithType: TicketLogFieldChange.ReadByOwner
   fullName: SuperOffice.Data.TicketLogFieldChange.ReadByOwner
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '4: ReadByOwner changed'
-  example: []
+  summary: "\n4: ReadByOwner changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ReadByOwner = 4
+    content: public const TicketLogFieldChange ReadByOwner
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      ReadByOwner = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ReadByOwner As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.ReadByCustomer
   commentId: F:SuperOffice.Data.TicketLogFieldChange.ReadByCustomer
   id: ReadByCustomer
@@ -240,26 +258,24 @@ items:
   nameWithType: TicketLogFieldChange.ReadByCustomer
   fullName: SuperOffice.Data.TicketLogFieldChange.ReadByCustomer
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '5: ReadByCustomer changed'
-  example: []
+  summary: "\n5: ReadByCustomer changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ReadByCustomer = 5
+    content: public const TicketLogFieldChange ReadByCustomer
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      ReadByCustomer = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ReadByCustomer As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.ClosedAt
   commentId: F:SuperOffice.Data.TicketLogFieldChange.ClosedAt
   id: ClosedAt
@@ -271,26 +287,24 @@ items:
   nameWithType: TicketLogFieldChange.ClosedAt
   fullName: SuperOffice.Data.TicketLogFieldChange.ClosedAt
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '6: ClosedAt changed'
-  example: []
+  summary: "\n6: ClosedAt changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ClosedAt = 6
+    content: public const TicketLogFieldChange ClosedAt
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      ClosedAt = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ClosedAt As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.TimeToClose
   commentId: F:SuperOffice.Data.TicketLogFieldChange.TimeToClose
   id: TimeToClose
@@ -302,26 +316,24 @@ items:
   nameWithType: TicketLogFieldChange.TimeToClose
   fullName: SuperOffice.Data.TicketLogFieldChange.TimeToClose
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '7: TimeToClose changed'
-  example: []
+  summary: "\n7: TimeToClose changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      TimeToClose = 7
+    content: public const TicketLogFieldChange TimeToClose
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      TimeToClose = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const TimeToClose As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.RealTimeToClose
   commentId: F:SuperOffice.Data.TicketLogFieldChange.RealTimeToClose
   id: RealTimeToClose
@@ -333,26 +345,24 @@ items:
   nameWithType: TicketLogFieldChange.RealTimeToClose
   fullName: SuperOffice.Data.TicketLogFieldChange.RealTimeToClose
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '8: RealTimeToClose changed'
-  example: []
+  summary: "\n8: RealTimeToClose changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      RealTimeToClose = 8
+    content: public const TicketLogFieldChange RealTimeToClose
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      RealTimeToClose = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const RealTimeToClose As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.TimeToReply
   commentId: F:SuperOffice.Data.TicketLogFieldChange.TimeToReply
   id: TimeToReply
@@ -364,26 +374,24 @@ items:
   nameWithType: TicketLogFieldChange.TimeToReply
   fullName: SuperOffice.Data.TicketLogFieldChange.TimeToReply
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '9: TimeToReply changed'
-  example: []
+  summary: "\n9: TimeToReply changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      TimeToReply = 9
+    content: public const TicketLogFieldChange TimeToReply
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      TimeToReply = 9
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const TimeToReply As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.RealTimeToReply
   commentId: F:SuperOffice.Data.TicketLogFieldChange.RealTimeToReply
   id: RealTimeToReply
@@ -395,26 +403,24 @@ items:
   nameWithType: TicketLogFieldChange.RealTimeToReply
   fullName: SuperOffice.Data.TicketLogFieldChange.RealTimeToReply
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10: RealTimeToReply changed'
-  example: []
+  summary: "\n10: RealTimeToReply changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      RealTimeToReply = 10
+    content: public const TicketLogFieldChange RealTimeToReply
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      RealTimeToReply = 10
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const RealTimeToReply As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Author
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Author
   id: Author
@@ -426,26 +432,24 @@ items:
   nameWithType: TicketLogFieldChange.Author
   fullName: SuperOffice.Data.TicketLogFieldChange.Author
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '11: Author changed'
-  example: []
+  summary: "\n11: Author changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Author = 11
+    content: public const TicketLogFieldChange Author
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Author = 11
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Author As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.CreatedBy
   commentId: F:SuperOffice.Data.TicketLogFieldChange.CreatedBy
   id: CreatedBy
@@ -457,26 +461,24 @@ items:
   nameWithType: TicketLogFieldChange.CreatedBy
   fullName: SuperOffice.Data.TicketLogFieldChange.CreatedBy
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '12: CreatedBy changed'
-  example: []
+  summary: "\n12: CreatedBy changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      CreatedBy = 12
+    content: public const TicketLogFieldChange CreatedBy
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      CreatedBy = 12
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const CreatedBy As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.AlertLevel
   commentId: F:SuperOffice.Data.TicketLogFieldChange.AlertLevel
   id: AlertLevel
@@ -488,26 +490,24 @@ items:
   nameWithType: TicketLogFieldChange.AlertLevel
   fullName: SuperOffice.Data.TicketLogFieldChange.AlertLevel
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '13: AlertLevel changed'
-  example: []
+  summary: "\n13: AlertLevel changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AlertLevel = 13
+    content: public const TicketLogFieldChange AlertLevel
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      AlertLevel = 13
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AlertLevel As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.AlertTimeout
   commentId: F:SuperOffice.Data.TicketLogFieldChange.AlertTimeout
   id: AlertTimeout
@@ -519,26 +519,24 @@ items:
   nameWithType: TicketLogFieldChange.AlertTimeout
   fullName: SuperOffice.Data.TicketLogFieldChange.AlertTimeout
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '14: AlertTimeout changed'
-  example: []
+  summary: "\n14: AlertTimeout changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AlertTimeout = 14
+    content: public const TicketLogFieldChange AlertTimeout
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      AlertTimeout = 14
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AlertTimeout As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.ConnectId
   commentId: F:SuperOffice.Data.TicketLogFieldChange.ConnectId
   id: ConnectId
@@ -550,26 +548,24 @@ items:
   nameWithType: TicketLogFieldChange.ConnectId
   fullName: SuperOffice.Data.TicketLogFieldChange.ConnectId
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '15: ConnectId changed'
-  example: []
+  summary: "\n15: ConnectId changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ConnectId = 15
+    content: public const TicketLogFieldChange ConnectId
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      ConnectId = 15
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ConnectId As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.FilterId
   commentId: F:SuperOffice.Data.TicketLogFieldChange.FilterId
   id: FilterId
@@ -581,26 +577,24 @@ items:
   nameWithType: TicketLogFieldChange.FilterId
   fullName: SuperOffice.Data.TicketLogFieldChange.FilterId
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '16: FilterId changed'
-  example: []
+  summary: "\n16: FilterId changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      FilterId = 16
+    content: public const TicketLogFieldChange FilterId
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      FilterId = 16
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const FilterId As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.ReadStatus
   commentId: F:SuperOffice.Data.TicketLogFieldChange.ReadStatus
   id: ReadStatus
@@ -612,26 +606,24 @@ items:
   nameWithType: TicketLogFieldChange.ReadStatus
   fullName: SuperOffice.Data.TicketLogFieldChange.ReadStatus
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '17: ReadStatus changed'
-  example: []
+  summary: "\n17: ReadStatus changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ReadStatus = 17
+    content: public const TicketLogFieldChange ReadStatus
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      ReadStatus = 17
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ReadStatus As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.HasAttachment
   commentId: F:SuperOffice.Data.TicketLogFieldChange.HasAttachment
   id: HasAttachment
@@ -643,26 +635,24 @@ items:
   nameWithType: TicketLogFieldChange.HasAttachment
   fullName: SuperOffice.Data.TicketLogFieldChange.HasAttachment
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '18: HasAttachment changed'
-  example: []
+  summary: "\n18: HasAttachment changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      HasAttachment = 18
+    content: public const TicketLogFieldChange HasAttachment
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      HasAttachment = 18
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const HasAttachment As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.DisplayFilter
   commentId: F:SuperOffice.Data.TicketLogFieldChange.DisplayFilter
   id: DisplayFilter
@@ -674,26 +664,24 @@ items:
   nameWithType: TicketLogFieldChange.DisplayFilter
   fullName: SuperOffice.Data.TicketLogFieldChange.DisplayFilter
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '19: DisplayFilter changed'
-  example: []
+  summary: "\n19: DisplayFilter changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      DisplayFilter = 19
+    content: public const TicketLogFieldChange DisplayFilter
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      DisplayFilter = 19
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const DisplayFilter As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.AlertStop
   commentId: F:SuperOffice.Data.TicketLogFieldChange.AlertStop
   id: AlertStop
@@ -705,26 +693,24 @@ items:
   nameWithType: TicketLogFieldChange.AlertStop
   fullName: SuperOffice.Data.TicketLogFieldChange.AlertStop
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '20: AlertStop changed'
-  example: []
+  summary: "\n20: AlertStop changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AlertStop = 20
+    content: public const TicketLogFieldChange AlertStop
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      AlertStop = 20
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AlertStop As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.RepliedAt
   commentId: F:SuperOffice.Data.TicketLogFieldChange.RepliedAt
   id: RepliedAt
@@ -736,26 +722,24 @@ items:
   nameWithType: TicketLogFieldChange.RepliedAt
   fullName: SuperOffice.Data.TicketLogFieldChange.RepliedAt
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '21: RepliedAt changed'
-  example: []
+  summary: "\n21: RepliedAt changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      RepliedAt = 21
+    content: public const TicketLogFieldChange RepliedAt
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      RepliedAt = 21
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const RepliedAt As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.SLevel
   commentId: F:SuperOffice.Data.TicketLogFieldChange.SLevel
   id: SLevel
@@ -767,26 +751,24 @@ items:
   nameWithType: TicketLogFieldChange.SLevel
   fullName: SuperOffice.Data.TicketLogFieldChange.SLevel
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '22: SLevel changed'
-  example: []
+  summary: "\n22: SLevel changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SLevel = 22
+    content: public const TicketLogFieldChange SLevel
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      SLevel = 22
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SLevel As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Category
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Category
   id: Category
@@ -798,26 +780,24 @@ items:
   nameWithType: TicketLogFieldChange.Category
   fullName: SuperOffice.Data.TicketLogFieldChange.Category
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '23: Category changed'
-  example: []
+  summary: "\n23: Category changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Category = 23
+    content: public const TicketLogFieldChange Category
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Category = 23
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Category As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Priority
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Priority
   id: Priority
@@ -829,26 +809,24 @@ items:
   nameWithType: TicketLogFieldChange.Priority
   fullName: SuperOffice.Data.TicketLogFieldChange.Priority
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '24: Priority changed'
-  example: []
+  summary: "\n24: Priority changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Priority = 24
+    content: public const TicketLogFieldChange Priority
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Priority = 24
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Priority As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.CustId
   commentId: F:SuperOffice.Data.TicketLogFieldChange.CustId
   id: CustId
@@ -860,26 +838,24 @@ items:
   nameWithType: TicketLogFieldChange.CustId
   fullName: SuperOffice.Data.TicketLogFieldChange.CustId
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '25: CustId changed'
-  example: []
+  summary: "\n25: CustId changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      CustId = 25
+    content: public const TicketLogFieldChange CustId
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      CustId = 25
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const CustId As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Status
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Status
   id: Status
@@ -891,26 +867,24 @@ items:
   nameWithType: TicketLogFieldChange.Status
   fullName: SuperOffice.Data.TicketLogFieldChange.Status
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '26: Status changed'
-  example: []
+  summary: "\n26: Status changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Status = 26
+    content: public const TicketLogFieldChange Status
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Status = 26
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Status As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.FirstReadByUser
   commentId: F:SuperOffice.Data.TicketLogFieldChange.FirstReadByUser
   id: FirstReadByUser
@@ -922,26 +896,24 @@ items:
   nameWithType: TicketLogFieldChange.FirstReadByUser
   fullName: SuperOffice.Data.TicketLogFieldChange.FirstReadByUser
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '27: FirstReadByUser changed'
-  example: []
+  summary: "\n27: FirstReadByUser changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      FirstReadByUser = 27
+    content: public const TicketLogFieldChange FirstReadByUser
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      FirstReadByUser = 27
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const FirstReadByUser As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Activate
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Activate
   id: Activate
@@ -953,26 +925,24 @@ items:
   nameWithType: TicketLogFieldChange.Activate
   fullName: SuperOffice.Data.TicketLogFieldChange.Activate
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '28: Activate changed'
-  example: []
+  summary: "\n28: Activate changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Activate = 28
+    content: public const TicketLogFieldChange Activate
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Activate = 28
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Activate As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.OwnedBy
   commentId: F:SuperOffice.Data.TicketLogFieldChange.OwnedBy
   id: OwnedBy
@@ -984,26 +954,24 @@ items:
   nameWithType: TicketLogFieldChange.OwnedBy
   fullName: SuperOffice.Data.TicketLogFieldChange.OwnedBy
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '29: OwnedBy changed'
-  example: []
+  summary: "\n29: OwnedBy changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OwnedBy = 29
+    content: public const TicketLogFieldChange OwnedBy
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      OwnedBy = 29
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OwnedBy As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.AgentId
   commentId: F:SuperOffice.Data.TicketLogFieldChange.AgentId
   id: AgentId
@@ -1015,26 +983,24 @@ items:
   nameWithType: TicketLogFieldChange.AgentId
   fullName: SuperOffice.Data.TicketLogFieldChange.AgentId
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '30: AgentId changed'
-  example: []
+  summary: "\n30: AgentId changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AgentId = 30
+    content: public const TicketLogFieldChange AgentId
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      AgentId = 30
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AgentId As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.DbiKey
   commentId: F:SuperOffice.Data.TicketLogFieldChange.DbiKey
   id: DbiKey
@@ -1046,26 +1012,24 @@ items:
   nameWithType: TicketLogFieldChange.DbiKey
   fullName: SuperOffice.Data.TicketLogFieldChange.DbiKey
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '31: DbiKey changed'
-  example: []
+  summary: "\n31: DbiKey changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      DbiKey = 31
+    content: public const TicketLogFieldChange DbiKey
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      DbiKey = 31
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const DbiKey As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.DbiLastSyncronized
   commentId: F:SuperOffice.Data.TicketLogFieldChange.DbiLastSyncronized
   id: DbiLastSyncronized
@@ -1077,26 +1041,24 @@ items:
   nameWithType: TicketLogFieldChange.DbiLastSyncronized
   fullName: SuperOffice.Data.TicketLogFieldChange.DbiLastSyncronized
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '32: DbiLastSyncronized changed'
-  example: []
+  summary: "\n32: DbiLastSyncronized changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      DbiLastSyncronized = 32
+    content: public const TicketLogFieldChange DbiLastSyncronized
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      DbiLastSyncronized = 32
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const DbiLastSyncronized As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.ExtraField
   commentId: F:SuperOffice.Data.TicketLogFieldChange.ExtraField
   id: ExtraField
@@ -1108,26 +1070,24 @@ items:
   nameWithType: TicketLogFieldChange.ExtraField
   fullName: SuperOffice.Data.TicketLogFieldChange.ExtraField
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '33: ExtraField changed'
-  example: []
+  summary: "\n33: ExtraField changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ExtraField = 33
+    content: public const TicketLogFieldChange ExtraField
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      ExtraField = 33
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ExtraField As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.FirstReadByOwner
   commentId: F:SuperOffice.Data.TicketLogFieldChange.FirstReadByOwner
   id: FirstReadByOwner
@@ -1139,26 +1099,24 @@ items:
   nameWithType: TicketLogFieldChange.FirstReadByOwner
   fullName: SuperOffice.Data.TicketLogFieldChange.FirstReadByOwner
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '34: FirstReadByOwner changed'
-  example: []
+  summary: "\n34: FirstReadByOwner changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      FirstReadByOwner = 34
+    content: public const TicketLogFieldChange FirstReadByOwner
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      FirstReadByOwner = 34
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const FirstReadByOwner As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.TicketStatus
   commentId: F:SuperOffice.Data.TicketLogFieldChange.TicketStatus
   id: TicketStatus
@@ -1170,26 +1128,24 @@ items:
   nameWithType: TicketLogFieldChange.TicketStatus
   fullName: SuperOffice.Data.TicketLogFieldChange.TicketStatus
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '35: TicketStatus changed'
-  example: []
+  summary: "\n35: TicketStatus changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      TicketStatus = 35
+    content: public const TicketLogFieldChange TicketStatus
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      TicketStatus = 35
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const TicketStatus As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Deadline
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Deadline
   id: Deadline
@@ -1201,26 +1157,24 @@ items:
   nameWithType: TicketLogFieldChange.Deadline
   fullName: SuperOffice.Data.TicketLogFieldChange.Deadline
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '36: Deadline changed'
-  example: []
+  summary: "\n36: Deadline changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Deadline = 36
+    content: public const TicketLogFieldChange Deadline
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Deadline = 36
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Deadline As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.FilterAddress
   commentId: F:SuperOffice.Data.TicketLogFieldChange.FilterAddress
   id: FilterAddress
@@ -1232,26 +1186,24 @@ items:
   nameWithType: TicketLogFieldChange.FilterAddress
   fullName: SuperOffice.Data.TicketLogFieldChange.FilterAddress
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '37: FilterAddress changed'
-  example: []
+  summary: "\n37: FilterAddress changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      FilterAddress = 37
+    content: public const TicketLogFieldChange FilterAddress
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      FilterAddress = 37
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const FilterAddress As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.TimeSpentInternally
   commentId: F:SuperOffice.Data.TicketLogFieldChange.TimeSpentInternally
   id: TimeSpentInternally
@@ -1263,26 +1215,24 @@ items:
   nameWithType: TicketLogFieldChange.TimeSpentInternally
   fullName: SuperOffice.Data.TicketLogFieldChange.TimeSpentInternally
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '38: TimeSpentInternally changed'
-  example: []
+  summary: "\n38: TimeSpentInternally changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      TimeSpentInternally = 38
+    content: public const TicketLogFieldChange TimeSpentInternally
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      TimeSpentInternally = 38
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const TimeSpentInternally As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.TimeSpentExternally
   commentId: F:SuperOffice.Data.TicketLogFieldChange.TimeSpentExternally
   id: TimeSpentExternally
@@ -1294,26 +1244,24 @@ items:
   nameWithType: TicketLogFieldChange.TimeSpentExternally
   fullName: SuperOffice.Data.TicketLogFieldChange.TimeSpentExternally
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '39: TimeSpentExternally changed'
-  example: []
+  summary: "\n39: TimeSpentExternally changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      TimeSpentExternally = 39
+    content: public const TicketLogFieldChange TimeSpentExternally
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      TimeSpentExternally = 39
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const TimeSpentExternally As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.TimeSpentQueue
   commentId: F:SuperOffice.Data.TicketLogFieldChange.TimeSpentQueue
   id: TimeSpentQueue
@@ -1325,26 +1273,24 @@ items:
   nameWithType: TicketLogFieldChange.TimeSpentQueue
   fullName: SuperOffice.Data.TicketLogFieldChange.TimeSpentQueue
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '40: TimeSpentQueue changed'
-  example: []
+  summary: "\n40: TimeSpentQueue changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      TimeSpentQueue = 40
+    content: public const TicketLogFieldChange TimeSpentQueue
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      TimeSpentQueue = 40
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const TimeSpentQueue As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.RealTimeSpentInternally
   commentId: F:SuperOffice.Data.TicketLogFieldChange.RealTimeSpentInternally
   id: RealTimeSpentInternally
@@ -1356,26 +1302,24 @@ items:
   nameWithType: TicketLogFieldChange.RealTimeSpentInternally
   fullName: SuperOffice.Data.TicketLogFieldChange.RealTimeSpentInternally
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '41: RealTimeSpentInternally changed'
-  example: []
+  summary: "\n41: RealTimeSpentInternally changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      RealTimeSpentInternally = 41
+    content: public const TicketLogFieldChange RealTimeSpentInternally
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      RealTimeSpentInternally = 41
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const RealTimeSpentInternally As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.RealTimeSpentExternally
   commentId: F:SuperOffice.Data.TicketLogFieldChange.RealTimeSpentExternally
   id: RealTimeSpentExternally
@@ -1387,26 +1331,24 @@ items:
   nameWithType: TicketLogFieldChange.RealTimeSpentExternally
   fullName: SuperOffice.Data.TicketLogFieldChange.RealTimeSpentExternally
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '42: RealTimeSpentExternally changed'
-  example: []
+  summary: "\n42: RealTimeSpentExternally changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      RealTimeSpentExternally = 42
+    content: public const TicketLogFieldChange RealTimeSpentExternally
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      RealTimeSpentExternally = 42
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const RealTimeSpentExternally As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.RealTimeSpentQueue
   commentId: F:SuperOffice.Data.TicketLogFieldChange.RealTimeSpentQueue
   id: RealTimeSpentQueue
@@ -1418,26 +1360,24 @@ items:
   nameWithType: TicketLogFieldChange.RealTimeSpentQueue
   fullName: SuperOffice.Data.TicketLogFieldChange.RealTimeSpentQueue
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '43: RealTimeSpentQueue changed'
-  example: []
+  summary: "\n43: RealTimeSpentQueue changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      RealTimeSpentQueue = 43
+    content: public const TicketLogFieldChange RealTimeSpentQueue
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      RealTimeSpentQueue = 43
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const RealTimeSpentQueue As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.NumReplies
   commentId: F:SuperOffice.Data.TicketLogFieldChange.NumReplies
   id: NumReplies
@@ -1449,26 +1389,24 @@ items:
   nameWithType: TicketLogFieldChange.NumReplies
   fullName: SuperOffice.Data.TicketLogFieldChange.NumReplies
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '44: NumReplies changed'
-  example: []
+  summary: "\n44: NumReplies changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      NumReplies = 44
+    content: public const TicketLogFieldChange NumReplies
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      NumReplies = 44
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const NumReplies As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.NumMessages
   commentId: F:SuperOffice.Data.TicketLogFieldChange.NumMessages
   id: NumMessages
@@ -1480,26 +1418,24 @@ items:
   nameWithType: TicketLogFieldChange.NumMessages
   fullName: SuperOffice.Data.TicketLogFieldChange.NumMessages
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '45: NumMessages changed'
-  example: []
+  summary: "\n45: NumMessages changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      NumMessages = 45
+    content: public const TicketLogFieldChange NumMessages
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      NumMessages = 45
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const NumMessages As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Tags
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Tags
   id: Tags
@@ -1511,26 +1447,24 @@ items:
   nameWithType: TicketLogFieldChange.Tags
   fullName: SuperOffice.Data.TicketLogFieldChange.Tags
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '46: Tags changed'
-  example: []
+  summary: "\n46: Tags changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Tags = 46
+    content: public const TicketLogFieldChange Tags
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Tags = 46
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Tags As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.SaleId
   commentId: F:SuperOffice.Data.TicketLogFieldChange.SaleId
   id: SaleId
@@ -1542,26 +1476,24 @@ items:
   nameWithType: TicketLogFieldChange.SaleId
   fullName: SuperOffice.Data.TicketLogFieldChange.SaleId
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '47: SaleId changed'
-  example: []
+  summary: "\n47: SaleId changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SaleId = 47
+    content: public const TicketLogFieldChange SaleId
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      SaleId = 47
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SaleId As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.ProjectId
   commentId: F:SuperOffice.Data.TicketLogFieldChange.ProjectId
   id: ProjectId
@@ -1573,26 +1505,24 @@ items:
   nameWithType: TicketLogFieldChange.ProjectId
   fullName: SuperOffice.Data.TicketLogFieldChange.ProjectId
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '48: ProjectId changed'
-  example: []
+  summary: "\n48: ProjectId changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      ProjectId = 48
+    content: public const TicketLogFieldChange ProjectId
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      ProjectId = 48
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const ProjectId As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.TicketType
   commentId: F:SuperOffice.Data.TicketLogFieldChange.TicketType
   id: TicketType
@@ -1604,26 +1534,24 @@ items:
   nameWithType: TicketLogFieldChange.TicketType
   fullName: SuperOffice.Data.TicketLogFieldChange.TicketType
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '49: TicketType changed'
-  example: []
+  summary: "\n49: TicketType changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      TicketType = 49
+    content: public const TicketLogFieldChange TicketType
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      TicketType = 49
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const TicketType As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Message_TicketId
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_TicketId
   id: Message_TicketId
@@ -1635,26 +1563,24 @@ items:
   nameWithType: TicketLogFieldChange.Message_TicketId
   fullName: SuperOffice.Data.TicketLogFieldChange.Message_TicketId
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10001: Message TicketId changed'
-  example: []
+  summary: "\n10001: Message TicketId changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_TicketId = 10001
+    content: public const TicketLogFieldChange Message_TicketId
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Message_TicketId = 10001
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_TicketId As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Message_CreatedAt
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_CreatedAt
   id: Message_CreatedAt
@@ -1666,26 +1592,24 @@ items:
   nameWithType: TicketLogFieldChange.Message_CreatedAt
   fullName: SuperOffice.Data.TicketLogFieldChange.Message_CreatedAt
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10002: Message CreatedAt changed'
-  example: []
+  summary: "\n10002: Message CreatedAt changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_CreatedAt = 10002
+    content: public const TicketLogFieldChange Message_CreatedAt
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Message_CreatedAt = 10002
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_CreatedAt As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Message_CreatedBy
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_CreatedBy
   id: Message_CreatedBy
@@ -1697,26 +1621,24 @@ items:
   nameWithType: TicketLogFieldChange.Message_CreatedBy
   fullName: SuperOffice.Data.TicketLogFieldChange.Message_CreatedBy
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10003: Message CreatedBy changed'
-  example: []
+  summary: "\n10003: Message CreatedBy changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_CreatedBy = 10003
+    content: public const TicketLogFieldChange Message_CreatedBy
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Message_CreatedBy = 10003
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_CreatedBy As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Message_Author
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_Author
   id: Message_Author
@@ -1728,26 +1650,24 @@ items:
   nameWithType: TicketLogFieldChange.Message_Author
   fullName: SuperOffice.Data.TicketLogFieldChange.Message_Author
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10004: Message Author changed'
-  example: []
+  summary: "\n10004: Message Author changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_Author = 10004
+    content: public const TicketLogFieldChange Message_Author
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Message_Author = 10004
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_Author As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Message_SLevel
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_SLevel
   id: Message_SLevel
@@ -1759,26 +1679,24 @@ items:
   nameWithType: TicketLogFieldChange.Message_SLevel
   fullName: SuperOffice.Data.TicketLogFieldChange.Message_SLevel
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10005: Message SLevel changed'
-  example: []
+  summary: "\n10005: Message SLevel changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_SLevel = 10005
+    content: public const TicketLogFieldChange Message_SLevel
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Message_SLevel = 10005
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_SLevel As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Message_Type
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_Type
   id: Message_Type
@@ -1790,26 +1708,24 @@ items:
   nameWithType: TicketLogFieldChange.Message_Type
   fullName: SuperOffice.Data.TicketLogFieldChange.Message_Type
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10006: Message Type changed'
-  example: []
+  summary: "\n10006: Message Type changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_Type = 10006
+    content: public const TicketLogFieldChange Message_Type
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Message_Type = 10006
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_Type As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Message_MessageId
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_MessageId
   id: Message_MessageId
@@ -1821,26 +1737,24 @@ items:
   nameWithType: TicketLogFieldChange.Message_MessageId
   fullName: SuperOffice.Data.TicketLogFieldChange.Message_MessageId
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10007: Message MessageId changed'
-  example: []
+  summary: "\n10007: Message MessageId changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_MessageId = 10007
+    content: public const TicketLogFieldChange Message_MessageId
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Message_MessageId = 10007
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_MessageId As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Message_TimeSpent
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_TimeSpent
   id: Message_TimeSpent
@@ -1852,26 +1766,24 @@ items:
   nameWithType: TicketLogFieldChange.Message_TimeSpent
   fullName: SuperOffice.Data.TicketLogFieldChange.Message_TimeSpent
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10008: Message TimeSpent changed'
-  example: []
+  summary: "\n10008: Message TimeSpent changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_TimeSpent = 10008
+    content: public const TicketLogFieldChange Message_TimeSpent
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Message_TimeSpent = 10008
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_TimeSpent As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Message_Body
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_Body
   id: Message_Body
@@ -1883,26 +1795,24 @@ items:
   nameWithType: TicketLogFieldChange.Message_Body
   fullName: SuperOffice.Data.TicketLogFieldChange.Message_Body
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10009: Message Body changed'
-  example: []
+  summary: "\n10009: Message Body changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_Body = 10009
+    content: public const TicketLogFieldChange Message_Body
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Message_Body = 10009
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_Body As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Message_BodyHtml
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_BodyHtml
   id: Message_BodyHtml
@@ -1914,26 +1824,24 @@ items:
   nameWithType: TicketLogFieldChange.Message_BodyHtml
   fullName: SuperOffice.Data.TicketLogFieldChange.Message_BodyHtml
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10010: Message BodyHtml changed'
-  example: []
+  summary: "\n10010: Message BodyHtml changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_BodyHtml = 10010
+    content: public const TicketLogFieldChange Message_BodyHtml
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Message_BodyHtml = 10010
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_BodyHtml As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Message_EmailHeader
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_EmailHeader
   id: Message_EmailHeader
@@ -1945,26 +1853,24 @@ items:
   nameWithType: TicketLogFieldChange.Message_EmailHeader
   fullName: SuperOffice.Data.TicketLogFieldChange.Message_EmailHeader
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10011: Message EmailHeader changed'
-  example: []
+  summary: "\n10011: Message EmailHeader changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_EmailHeader = 10011
+    content: public const TicketLogFieldChange Message_EmailHeader
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Message_EmailHeader = 10011
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_EmailHeader As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Message_ExtraField
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_ExtraField
   id: Message_ExtraField
@@ -1976,26 +1882,24 @@ items:
   nameWithType: TicketLogFieldChange.Message_ExtraField
   fullName: SuperOffice.Data.TicketLogFieldChange.Message_ExtraField
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10012: Message ExtraField changed'
-  example: []
+  summary: "\n10012: Message ExtraField changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_ExtraField = 10012
+    content: public const TicketLogFieldChange Message_ExtraField
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Message_ExtraField = 10012
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_ExtraField As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Message_MailSorter
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_MailSorter
   id: Message_MailSorter
@@ -2007,26 +1911,24 @@ items:
   nameWithType: TicketLogFieldChange.Message_MailSorter
   fullName: SuperOffice.Data.TicketLogFieldChange.Message_MailSorter
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10013: Message MailSorter changed'
-  example: []
+  summary: "\n10013: Message MailSorter changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_MailSorter = 10013
+    content: public const TicketLogFieldChange Message_MailSorter
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Message_MailSorter = 10013
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_MailSorter As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Message_MessageCategory
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_MessageCategory
   id: Message_MessageCategory
@@ -2038,26 +1940,24 @@ items:
   nameWithType: TicketLogFieldChange.Message_MessageCategory
   fullName: SuperOffice.Data.TicketLogFieldChange.Message_MessageCategory
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10014: Message MessageCategory changed'
-  example: []
+  summary: "\n10014: Message MessageCategory changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_MessageCategory = 10014
+    content: public const TicketLogFieldChange Message_MessageCategory
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Message_MessageCategory = 10014
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_MessageCategory As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Message_CustomerId
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_CustomerId
   id: Message_CustomerId
@@ -2069,26 +1969,24 @@ items:
   nameWithType: TicketLogFieldChange.Message_CustomerId
   fullName: SuperOffice.Data.TicketLogFieldChange.Message_CustomerId
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10015: Message CustomerId changed'
-  example: []
+  summary: "\n10015: Message CustomerId changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_CustomerId = 10015
+    content: public const TicketLogFieldChange Message_CustomerId
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Message_CustomerId = 10015
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_CustomerId As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogFieldChange.Message_DebugInfo
   commentId: F:SuperOffice.Data.TicketLogFieldChange.Message_DebugInfo
   id: Message_DebugInfo
@@ -2100,300 +1998,115 @@ items:
   nameWithType: TicketLogFieldChange.Message_DebugInfo
   fullName: SuperOffice.Data.TicketLogFieldChange.Message_DebugInfo
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10016: Message DebugInfo changed'
-  example: []
+  summary: "\n10016: Message DebugInfo changed\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_DebugInfo = 10016
+    content: public const TicketLogFieldChange Message_DebugInfo
     return:
       type: SuperOffice.Data.TicketLogFieldChange
-    content.vb: >-
-      <EnumMember>
-
-      Message_DebugInfo = 10016
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_DebugInfo As TicketLogFieldChange
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.TicketLogFieldChange.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<TicketLogFieldChange, To>(TicketLogFieldChange)
-  nameWithType: EnumUtil.MapEnums<TicketLogFieldChange, To>(TicketLogFieldChange)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketLogFieldChange, To>(SuperOffice.Data.TicketLogFieldChange)
-  nameWithType.vb: EnumUtil.MapEnums(Of TicketLogFieldChange, To)(TicketLogFieldChange)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TicketLogFieldChange, To)(SuperOffice.Data.TicketLogFieldChange)
-  name.vb: MapEnums(Of TicketLogFieldChange, To)(TicketLogFieldChange)
+  name: MapEnums<TicketLogFieldChange, To>()
+  nameWithType: EnumUtil.MapEnums<TicketLogFieldChange, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketLogFieldChange, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketLogFieldChange, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TicketLogFieldChange, To)()
+  name.vb: MapEnums(Of TicketLogFieldChange, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.TicketLogFieldChange)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TicketLogFieldChange, To>
+    nameWithType: EnumUtil.MapEnums<TicketLogFieldChange, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketLogFieldChange, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.TicketLogFieldChange
-    name: TicketLogFieldChange
-    isExternal: true
-    href: SuperOffice.Data.TicketLogFieldChange.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.TicketLogFieldChange
-    name: TicketLogFieldChange
-    isExternal: true
-    href: SuperOffice.Data.TicketLogFieldChange.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.TicketLogFieldChange)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TicketLogFieldChange, To)
+    nameWithType: EnumUtil.MapEnums(Of TicketLogFieldChange, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TicketLogFieldChange, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TicketLogFieldChange
-    name: TicketLogFieldChange
-    isExternal: true
-    href: SuperOffice.Data.TicketLogFieldChange.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.TicketLogFieldChange
-    name: TicketLogFieldChange
-    isExternal: true
-    href: SuperOffice.Data.TicketLogFieldChange.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.TicketLogFieldChange.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<TicketLogFieldChange, To>(TicketLogFieldChange)
-  nameWithType: Converters.MapEnums<TicketLogFieldChange, To>(TicketLogFieldChange)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketLogFieldChange, To>(SuperOffice.Data.TicketLogFieldChange)
-  nameWithType.vb: Converters.MapEnums(Of TicketLogFieldChange, To)(TicketLogFieldChange)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketLogFieldChange, To)(SuperOffice.Data.TicketLogFieldChange)
-  name.vb: MapEnums(Of TicketLogFieldChange, To)(TicketLogFieldChange)
+  name: MapEnums<TicketLogFieldChange, To>()
+  nameWithType: Converters.MapEnums<TicketLogFieldChange, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketLogFieldChange, To>()
+  nameWithType.vb: Converters.MapEnums(Of TicketLogFieldChange, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketLogFieldChange, To)()
+  name.vb: MapEnums(Of TicketLogFieldChange, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.TicketLogFieldChange)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TicketLogFieldChange, To>
+    nameWithType: Converters.MapEnums<TicketLogFieldChange, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketLogFieldChange, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.TicketLogFieldChange
-    name: TicketLogFieldChange
-    isExternal: true
-    href: SuperOffice.Data.TicketLogFieldChange.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.TicketLogFieldChange
-    name: TicketLogFieldChange
-    isExternal: true
-    href: SuperOffice.Data.TicketLogFieldChange.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.TicketLogFieldChange)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TicketLogFieldChange, To)
+    nameWithType: Converters.MapEnums(Of TicketLogFieldChange, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketLogFieldChange, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TicketLogFieldChange
-    name: TicketLogFieldChange
-    isExternal: true
-    href: SuperOffice.Data.TicketLogFieldChange.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.TicketLogFieldChange
-    name: TicketLogFieldChange
-    isExternal: true
-    href: SuperOffice.Data.TicketLogFieldChange.html
-  - name: )
-- uid: SuperOffice.Data.TicketLogFieldChange.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketLogFieldChange)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<TicketLogFieldChange>(TicketLogFieldChange, TicketLogFieldChange)
-  nameWithType: ObjectExtensions.AssignByReflection<TicketLogFieldChange>(TicketLogFieldChange, TicketLogFieldChange)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TicketLogFieldChange>(SuperOffice.Data.TicketLogFieldChange, SuperOffice.Data.TicketLogFieldChange)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TicketLogFieldChange)(TicketLogFieldChange, TicketLogFieldChange)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TicketLogFieldChange)(SuperOffice.Data.TicketLogFieldChange, SuperOffice.Data.TicketLogFieldChange)
-  name.vb: AssignByReflection(Of TicketLogFieldChange)(TicketLogFieldChange, TicketLogFieldChange)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketLogFieldChange,SuperOffice.Data.TicketLogFieldChange)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.TicketLogFieldChange
-    name: TicketLogFieldChange
-    isExternal: true
-    href: SuperOffice.Data.TicketLogFieldChange.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.TicketLogFieldChange
-    name: TicketLogFieldChange
-    isExternal: true
-    href: SuperOffice.Data.TicketLogFieldChange.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.TicketLogFieldChange
-    name: TicketLogFieldChange
-    isExternal: true
-    href: SuperOffice.Data.TicketLogFieldChange.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketLogFieldChange,SuperOffice.Data.TicketLogFieldChange)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TicketLogFieldChange
-    name: TicketLogFieldChange
-    isExternal: true
-    href: SuperOffice.Data.TicketLogFieldChange.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.TicketLogFieldChange
-    name: TicketLogFieldChange
-    isExternal: true
-    href: SuperOffice.Data.TicketLogFieldChange.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.TicketLogFieldChange
-    name: TicketLogFieldChange
-    isExternal: true
-    href: SuperOffice.Data.TicketLogFieldChange.html
-  - name: )
-- uid: SuperOffice.Data.TicketLogFieldChange.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<TicketLogFieldChange>(TicketLogFieldChange)
-  nameWithType: ObjectExtensions.GraphCopy<TicketLogFieldChange>(TicketLogFieldChange)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TicketLogFieldChange>(SuperOffice.Data.TicketLogFieldChange)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of TicketLogFieldChange)(TicketLogFieldChange)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TicketLogFieldChange)(SuperOffice.Data.TicketLogFieldChange)
-  name.vb: GraphCopy(Of TicketLogFieldChange)(TicketLogFieldChange)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.TicketLogFieldChange)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.TicketLogFieldChange
-    name: TicketLogFieldChange
-    isExternal: true
-    href: SuperOffice.Data.TicketLogFieldChange.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.TicketLogFieldChange
-    name: TicketLogFieldChange
-    isExternal: true
-    href: SuperOffice.Data.TicketLogFieldChange.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.TicketLogFieldChange)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TicketLogFieldChange
-    name: TicketLogFieldChange
-    isExternal: true
-    href: SuperOffice.Data.TicketLogFieldChange.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.TicketLogFieldChange
-    name: TicketLogFieldChange
-    isExternal: true
-    href: SuperOffice.Data.TicketLogFieldChange.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -2402,45 +2115,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -2449,222 +2160,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.TicketLogFieldChange
   commentId: T:SuperOffice.Data.TicketLogFieldChange
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketLogFieldChange.html
   name: TicketLogFieldChange
   nameWithType: TicketLogFieldChange
   fullName: SuperOffice.Data.TicketLogFieldChange

@@ -8,6 +8,7 @@ items:
   - SuperOffice.Data.SQL.MathematicalExpression.#ctor(SuperOffice.Data.FieldDataType,System.Int32)
   - SuperOffice.Data.SQL.MathematicalExpression.#ctor(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
   - SuperOffice.Data.SQL.MathematicalExpression.#ctor(SuperOffice.Data.SQL.Argument[])
+  - SuperOffice.Data.SQL.MathematicalExpression._args
   - SuperOffice.Data.SQL.MathematicalExpression.Arguments
   - SuperOffice.Data.SQL.MathematicalExpression.GetMainField
   - SuperOffice.Data.SQL.MathematicalExpression.Left
@@ -16,7 +17,6 @@ items:
   - SuperOffice.Data.SQL.MathematicalExpression.ValidateArgumentCollection
   - SuperOffice.Data.SQL.MathematicalExpression.ValidateFieldInfoParameter(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Parameter)
   - SuperOffice.Data.SQL.MathematicalExpression.ValidateParameterArgumentsForZeroValue(SuperOffice.Data.SQL.Parameter,SuperOffice.Data.SQL.Parameter)
-  - SuperOffice.Data.SQL.MathematicalExpression._args
   langs:
   - csharp
   - vb
@@ -24,14 +24,19 @@ items:
   nameWithType: MathematicalExpression
   fullName: SuperOffice.Data.SQL.MathematicalExpression
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: The base-class for all mathematical expressions.
-  example: []
+  summary: "\nThe base-class for all mathematical expressions.\n"
   syntax:
     content: 'public abstract class MathematicalExpression : Argument, ICloneable'
-    content.vb: Public MustInherit Class MathematicalExpression Inherits Argument Implements ICloneable
+    content.vb: >-
+      Public MustInherit Class MathematicalExpression
+          Inherits Argument
+          Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.Data.SQL.QueryElement
@@ -71,15 +76,17 @@ items:
   - SuperOffice.Data.SQL.Argument.DataType
   - SuperOffice.Data.SQL.Argument.Size
   - SuperOffice.Data.SQL.QueryElement.Clone
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Data.SQL.MathematicalExpression.EnumUtil.MapEnums``2
   - SuperOffice.Data.SQL.MathematicalExpression.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
 - uid: SuperOffice.Data.SQL.MathematicalExpression._args
   commentId: F:SuperOffice.Data.SQL.MathematicalExpression._args
   id: _args
@@ -91,21 +98,22 @@ items:
   nameWithType: MathematicalExpression._args
   fullName: SuperOffice.Data.SQL.MathematicalExpression._args
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: >-
-    If Mathematical operation have several in-parameters,  
-
-    an array of arguments is used to hold the parameters instead
-
-    of the left and right class-variables.
-  example: []
+  summary: "\nIf Mathematical operation have several in-parameters,  \nan array of arguments is used to hold the parameters instead\nof the left and right class-variables.\n"
   syntax:
     content: protected Argument[] _args
     return:
       type: SuperOffice.Data.SQL.Argument[]
     content.vb: Protected _args As Argument()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.Data.SQL.MathematicalExpression.#ctor(SuperOffice.Data.FieldDataType,System.Int32)
   commentId: M:SuperOffice.Data.SQL.MathematicalExpression.#ctor(SuperOffice.Data.FieldDataType,System.Int32)
   id: '#ctor(SuperOffice.Data.FieldDataType,System.Int32)'
@@ -113,18 +121,17 @@ items:
   langs:
   - csharp
   - vb
-  name: MathematicalExpression(FieldDataType, int)
-  nameWithType: MathematicalExpression.MathematicalExpression(FieldDataType, int)
-  fullName: SuperOffice.Data.SQL.MathematicalExpression.MathematicalExpression(SuperOffice.Data.FieldDataType, int)
+  name: MathematicalExpression(FieldDataType, Int32)
+  nameWithType: MathematicalExpression.MathematicalExpression(FieldDataType, Int32)
+  fullName: SuperOffice.Data.SQL.MathematicalExpression.MathematicalExpression(SuperOffice.Data.FieldDataType, System.Int32)
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: >-
-    Initializes a new instance of the <xref href="SuperOffice.Data.SQL.MathematicalExpression" data-throw-if-not-resolved="false"></xref> class, and takes
-
-    datatype and length as in-parameters.
-  example: []
+  summary: "\nInitializes a new instance of the <xref href=\"SuperOffice.Data.SQL.MathematicalExpression\" data-throw-if-not-resolved=\"false\"></xref> class, and takes\ndatatype and length as in-parameters.\n"
   syntax:
     content: public MathematicalExpression(FieldDataType dataType, int length)
     parameters:
@@ -136,9 +143,10 @@ items:
       description: The length.
     content.vb: Public Sub New(dataType As FieldDataType, length As Integer)
   overload: SuperOffice.Data.SQL.MathematicalExpression.#ctor*
-  nameWithType.vb: MathematicalExpression.New(FieldDataType, Integer)
-  fullName.vb: SuperOffice.Data.SQL.MathematicalExpression.New(SuperOffice.Data.FieldDataType, Integer)
-  name.vb: New(FieldDataType, Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.MathematicalExpression.#ctor(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.MathematicalExpression.#ctor(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
   id: '#ctor(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)'
@@ -150,15 +158,14 @@ items:
   nameWithType: MathematicalExpression.MathematicalExpression(Argument, Argument)
   fullName: SuperOffice.Data.SQL.MathematicalExpression.MathematicalExpression(SuperOffice.Data.SQL.Argument, SuperOffice.Data.SQL.Argument)
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: >-
-    Initializes a new instance of the <xref href="SuperOffice.Data.SQL.MathematicalExpression" data-throw-if-not-resolved="false"></xref> class, and takes 
-
-    left and right as in-parameters.
-  remarks: Will validate that the incoming parameters are not null.
-  example: []
+  summary: "\nInitializes a new instance of the <xref href=\"SuperOffice.Data.SQL.MathematicalExpression\" data-throw-if-not-resolved=\"false\"></xref> class, and takes \nleft and right as in-parameters.\n"
+  remarks: "\nWill validate that the incoming parameters are not null.\n"
   syntax:
     content: public MathematicalExpression(Argument left, Argument right)
     parameters:
@@ -170,9 +177,10 @@ items:
       description: The right-hand-side of the operation.
     content.vb: Public Sub New(left As Argument, right As Argument)
   overload: SuperOffice.Data.SQL.MathematicalExpression.#ctor*
-  nameWithType.vb: MathematicalExpression.New(Argument, Argument)
-  fullName.vb: SuperOffice.Data.SQL.MathematicalExpression.New(SuperOffice.Data.SQL.Argument, SuperOffice.Data.SQL.Argument)
-  name.vb: New(Argument, Argument)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.MathematicalExpression.#ctor(SuperOffice.Data.SQL.Argument[])
   commentId: M:SuperOffice.Data.SQL.MathematicalExpression.#ctor(SuperOffice.Data.SQL.Argument[])
   id: '#ctor(SuperOffice.Data.SQL.Argument[])'
@@ -180,26 +188,31 @@ items:
   langs:
   - csharp
   - vb
-  name: MathematicalExpression(params Argument[])
-  nameWithType: MathematicalExpression.MathematicalExpression(params Argument[])
-  fullName: SuperOffice.Data.SQL.MathematicalExpression.MathematicalExpression(params SuperOffice.Data.SQL.Argument[])
+  name: MathematicalExpression(Argument[])
+  nameWithType: MathematicalExpression.MathematicalExpression(Argument[])
+  fullName: SuperOffice.Data.SQL.MathematicalExpression.MathematicalExpression(SuperOffice.Data.SQL.Argument[])
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Default constructor.
-  example: []
+  summary: "\nDefault constructor.\n"
   syntax:
     content: public MathematicalExpression(params Argument[] arguments)
     parameters:
     - id: arguments
       type: SuperOffice.Data.SQL.Argument[]
-      description: ''
     content.vb: Public Sub New(ParamArray arguments As Argument())
   overload: SuperOffice.Data.SQL.MathematicalExpression.#ctor*
-  nameWithType.vb: MathematicalExpression.New(ParamArray Argument())
-  fullName.vb: SuperOffice.Data.SQL.MathematicalExpression.New(ParamArray SuperOffice.Data.SQL.Argument())
-  name.vb: New(ParamArray Argument())
+  nameWithType.vb: MathematicalExpression.MathematicalExpression(Argument())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.MathematicalExpression.MathematicalExpression(SuperOffice.Data.SQL.Argument())
+  name.vb: MathematicalExpression(Argument())
 - uid: SuperOffice.Data.SQL.MathematicalExpression.ValidateFieldInfoParameter(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Parameter)
   commentId: M:SuperOffice.Data.SQL.MathematicalExpression.ValidateFieldInfoParameter(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Parameter)
   id: ValidateFieldInfoParameter(SuperOffice.Data.SQL.FieldInfo,SuperOffice.Data.SQL.Parameter)
@@ -211,15 +224,14 @@ items:
   nameWithType: MathematicalExpression.ValidateFieldInfoParameter(FieldInfo, Parameter)
   fullName: SuperOffice.Data.SQL.MathematicalExpression.ValidateFieldInfoParameter(SuperOffice.Data.SQL.FieldInfo, SuperOffice.Data.SQL.Parameter)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: >-
-    ValidateFieldInfoParameter validates that the operation can be done on a FieldInfo and 
-
-    a Parameter.
-  remarks: Validates that the Parameters is not 0 (zero).
-  example: []
+  summary: "\nValidateFieldInfoParameter validates that the operation can be done on a FieldInfo and \na Parameter.\n"
+  remarks: "\nValidates that the Parameters is not 0 (zero).\n"
   syntax:
     content: protected virtual void ValidateFieldInfoParameter(FieldInfo left, Parameter right)
     parameters:
@@ -231,6 +243,12 @@ items:
       description: The right-hand-side of the operation.
     content.vb: Protected Overridable Sub ValidateFieldInfoParameter(left As FieldInfo, right As Parameter)
   overload: SuperOffice.Data.SQL.MathematicalExpression.ValidateFieldInfoParameter*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
 - uid: SuperOffice.Data.SQL.MathematicalExpression.ValidateParameterArgumentsForZeroValue(SuperOffice.Data.SQL.Parameter,SuperOffice.Data.SQL.Parameter)
   commentId: M:SuperOffice.Data.SQL.MathematicalExpression.ValidateParameterArgumentsForZeroValue(SuperOffice.Data.SQL.Parameter,SuperOffice.Data.SQL.Parameter)
   id: ValidateParameterArgumentsForZeroValue(SuperOffice.Data.SQL.Parameter,SuperOffice.Data.SQL.Parameter)
@@ -242,12 +260,14 @@ items:
   nameWithType: MathematicalExpression.ValidateParameterArgumentsForZeroValue(Parameter, Parameter)
   fullName: SuperOffice.Data.SQL.MathematicalExpression.ValidateParameterArgumentsForZeroValue(SuperOffice.Data.SQL.Parameter, SuperOffice.Data.SQL.Parameter)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: ValidateParameterArguments validates that the operation can be done on two Parameters.
-  remarks: Validates that the value of both sides is not 0 (zero).
-  example: []
+  summary: "\nValidateParameterArguments validates that the operation can be done on two Parameters.\n"
+  remarks: "\nValidates that the value of both sides is not 0 (zero).\n"
   syntax:
     content: protected virtual void ValidateParameterArgumentsForZeroValue(Parameter left, Parameter right)
     parameters:
@@ -259,6 +279,12 @@ items:
       description: The right-hand-side of the operation.
     content.vb: Protected Overridable Sub ValidateParameterArgumentsForZeroValue(left As Parameter, right As Parameter)
   overload: SuperOffice.Data.SQL.MathematicalExpression.ValidateParameterArgumentsForZeroValue*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
 - uid: SuperOffice.Data.SQL.MathematicalExpression.ValidateArgumentCollection
   commentId: M:SuperOffice.Data.SQL.MathematicalExpression.ValidateArgumentCollection
   id: ValidateArgumentCollection
@@ -270,21 +296,24 @@ items:
   nameWithType: MathematicalExpression.ValidateArgumentCollection()
   fullName: SuperOffice.Data.SQL.MathematicalExpression.ValidateArgumentCollection()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Validates the class' argument-collection.
-  remarks: >-
-    The validation is common for <xref href="SuperOffice.Data.SQL.Subtract" data-throw-if-not-resolved="false"></xref>, <xref href="SuperOffice.Data.SQL.Multiply" data-throw-if-not-resolved="false"></xref> and
-
-    <xref href="SuperOffice.Data.SQL.Divide" data-throw-if-not-resolved="false"></xref>. <xref href="SuperOffice.Data.SQL.Add" data-throw-if-not-resolved="false"></xref> needs to validate the collection itselves because of the
-
-    functions possibility to do an add-operation on strings.
-  example: []
+  summary: "\nValidates the class&apos; argument-collection.\n"
+  remarks: "\nThe validation is common for <xref href=\"SuperOffice.Data.SQL.Subtract\" data-throw-if-not-resolved=\"false\"></xref>, <xref href=\"SuperOffice.Data.SQL.Multiply\" data-throw-if-not-resolved=\"false\"></xref> and\n<xref href=\"SuperOffice.Data.SQL.Divide\" data-throw-if-not-resolved=\"false\"></xref>. <xref href=\"SuperOffice.Data.SQL.Add\" data-throw-if-not-resolved=\"false\"></xref> needs to validate the collection itselves because of the\nfunctions possibility to do an add-operation on strings.\n"
   syntax:
     content: protected virtual void ValidateArgumentCollection()
-    content.vb: Protected Overridable Sub ValidateArgumentCollection()
+    content.vb: Protected Overridable Sub ValidateArgumentCollection
   overload: SuperOffice.Data.SQL.MathematicalExpression.ValidateArgumentCollection*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
 - uid: SuperOffice.Data.SQL.MathematicalExpression.ToString
   commentId: M:SuperOffice.Data.SQL.MathematicalExpression.ToString
   id: ToString
@@ -296,19 +325,26 @@ items:
   nameWithType: MathematicalExpression.ToString()
   fullName: SuperOffice.Data.SQL.MathematicalExpression.ToString()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: String output.
-  example: []
+  summary: "\nString output.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: a MATHOP b
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.Data.SQL.MathematicalExpression.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.Data.SQL.MathematicalExpression.GetMainField
   commentId: M:SuperOffice.Data.SQL.MathematicalExpression.GetMainField
   id: GetMainField
@@ -320,19 +356,27 @@ items:
   nameWithType: MathematicalExpression.GetMainField()
   fullName: SuperOffice.Data.SQL.MathematicalExpression.GetMainField()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Information about a database field.
-  example: []
+  summary: "\nInformation about a database field.\n"
   syntax:
     content: public override FieldInfo GetMainField()
     return:
       type: SuperOffice.Data.SQL.FieldInfo
       description: Information about the database field
-    content.vb: Public Overrides Function GetMainField() As FieldInfo
+    content.vb: Public Overrides Function GetMainField As FieldInfo
   overridden: SuperOffice.Data.SQL.Argument.GetMainField
   overload: SuperOffice.Data.SQL.MathematicalExpression.GetMainField*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.Data.SQL.MathematicalExpression.Left
   commentId: P:SuperOffice.Data.SQL.MathematicalExpression.Left
   id: Left
@@ -344,11 +388,13 @@ items:
   nameWithType: MathematicalExpression.Left
   fullName: SuperOffice.Data.SQL.MathematicalExpression.Left
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: The left hand side of the operation.
-  example: []
+  summary: "\nThe left hand side of the operation.\n"
   syntax:
     content: public Argument Left { get; set; }
     parameters: []
@@ -356,6 +402,12 @@ items:
       type: SuperOffice.Data.SQL.Argument
     content.vb: Public Property Left As Argument
   overload: SuperOffice.Data.SQL.MathematicalExpression.Left*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.MathematicalExpression.Right
   commentId: P:SuperOffice.Data.SQL.MathematicalExpression.Right
   id: Right
@@ -367,11 +419,13 @@ items:
   nameWithType: MathematicalExpression.Right
   fullName: SuperOffice.Data.SQL.MathematicalExpression.Right
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: The right hand side of the operation.
-  example: []
+  summary: "\nThe right hand side of the operation.\n"
   syntax:
     content: public Argument Right { get; set; }
     parameters: []
@@ -379,6 +433,12 @@ items:
       type: SuperOffice.Data.SQL.Argument
     content.vb: Public Property Right As Argument
   overload: SuperOffice.Data.SQL.MathematicalExpression.Right*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.MathematicalExpression.Arguments
   commentId: P:SuperOffice.Data.SQL.MathematicalExpression.Arguments
   id: Arguments
@@ -390,11 +450,13 @@ items:
   nameWithType: MathematicalExpression.Arguments
   fullName: SuperOffice.Data.SQL.MathematicalExpression.Arguments
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Get method for the argument collection.
-  example: []
+  summary: "\nGet method for the argument collection.\n"
   syntax:
     content: public Argument[] Arguments { get; }
     parameters: []
@@ -402,60 +464,30 @@ items:
       type: SuperOffice.Data.SQL.Argument[]
     content.vb: Public ReadOnly Property Arguments As Argument()
   overload: SuperOffice.Data.SQL.MathematicalExpression.Arguments*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SQL.QueryElement
   commentId: T:SuperOffice.Data.SQL.QueryElement
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.QueryElement.html
   name: QueryElement
   nameWithType: QueryElement
   fullName: SuperOffice.Data.SQL.QueryElement
@@ -463,15 +495,11 @@ references:
   commentId: T:SuperOffice.Data.SQL.Argument
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html
   name: Argument
   nameWithType: Argument
   fullName: SuperOffice.Data.SQL.Argument
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
@@ -479,654 +507,851 @@ references:
   commentId: M:SuperOffice.Data.SQL.Argument.Equal(SuperOffice.Data.SQL.Argument)
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_Equal_SuperOffice_Data_SQL_Argument_
   name: Equal(Argument)
   nameWithType: Argument.Equal(Argument)
   fullName: SuperOffice.Data.SQL.Argument.Equal(SuperOffice.Data.SQL.Argument)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.Equal(SuperOffice.Data.SQL.Argument)
     name: Equal
+    nameWithType: Argument.Equal
+    fullName: SuperOffice.Data.SQL.Argument.Equal
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_Equal_SuperOffice_Data_SQL_Argument_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.Equal(SuperOffice.Data.SQL.Argument)
     name: Equal
+    nameWithType: Argument.Equal
+    fullName: SuperOffice.Data.SQL.Argument.Equal
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_Equal_SuperOffice_Data_SQL_Argument_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.UnEqual(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.Argument.UnEqual(SuperOffice.Data.SQL.Argument)
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_UnEqual_SuperOffice_Data_SQL_Argument_
   name: UnEqual(Argument)
   nameWithType: Argument.UnEqual(Argument)
   fullName: SuperOffice.Data.SQL.Argument.UnEqual(SuperOffice.Data.SQL.Argument)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.UnEqual(SuperOffice.Data.SQL.Argument)
     name: UnEqual
+    nameWithType: Argument.UnEqual
+    fullName: SuperOffice.Data.SQL.Argument.UnEqual
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_UnEqual_SuperOffice_Data_SQL_Argument_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.UnEqual(SuperOffice.Data.SQL.Argument)
     name: UnEqual
+    nameWithType: Argument.UnEqual
+    fullName: SuperOffice.Data.SQL.Argument.UnEqual
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_UnEqual_SuperOffice_Data_SQL_Argument_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.LessThan(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.Argument.LessThan(SuperOffice.Data.SQL.Argument)
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_LessThan_SuperOffice_Data_SQL_Argument_
   name: LessThan(Argument)
   nameWithType: Argument.LessThan(Argument)
   fullName: SuperOffice.Data.SQL.Argument.LessThan(SuperOffice.Data.SQL.Argument)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.LessThan(SuperOffice.Data.SQL.Argument)
     name: LessThan
+    nameWithType: Argument.LessThan
+    fullName: SuperOffice.Data.SQL.Argument.LessThan
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_LessThan_SuperOffice_Data_SQL_Argument_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.LessThan(SuperOffice.Data.SQL.Argument)
     name: LessThan
+    nameWithType: Argument.LessThan
+    fullName: SuperOffice.Data.SQL.Argument.LessThan
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_LessThan_SuperOffice_Data_SQL_Argument_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.LessThanOrEqual(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.Argument.LessThanOrEqual(SuperOffice.Data.SQL.Argument)
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_LessThanOrEqual_SuperOffice_Data_SQL_Argument_
   name: LessThanOrEqual(Argument)
   nameWithType: Argument.LessThanOrEqual(Argument)
   fullName: SuperOffice.Data.SQL.Argument.LessThanOrEqual(SuperOffice.Data.SQL.Argument)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.LessThanOrEqual(SuperOffice.Data.SQL.Argument)
     name: LessThanOrEqual
+    nameWithType: Argument.LessThanOrEqual
+    fullName: SuperOffice.Data.SQL.Argument.LessThanOrEqual
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_LessThanOrEqual_SuperOffice_Data_SQL_Argument_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.LessThanOrEqual(SuperOffice.Data.SQL.Argument)
     name: LessThanOrEqual
+    nameWithType: Argument.LessThanOrEqual
+    fullName: SuperOffice.Data.SQL.Argument.LessThanOrEqual
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_LessThanOrEqual_SuperOffice_Data_SQL_Argument_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.GreaterThan(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.Argument.GreaterThan(SuperOffice.Data.SQL.Argument)
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GreaterThan_SuperOffice_Data_SQL_Argument_
   name: GreaterThan(Argument)
   nameWithType: Argument.GreaterThan(Argument)
   fullName: SuperOffice.Data.SQL.Argument.GreaterThan(SuperOffice.Data.SQL.Argument)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.GreaterThan(SuperOffice.Data.SQL.Argument)
     name: GreaterThan
+    nameWithType: Argument.GreaterThan
+    fullName: SuperOffice.Data.SQL.Argument.GreaterThan
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GreaterThan_SuperOffice_Data_SQL_Argument_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.GreaterThan(SuperOffice.Data.SQL.Argument)
     name: GreaterThan
+    nameWithType: Argument.GreaterThan
+    fullName: SuperOffice.Data.SQL.Argument.GreaterThan
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GreaterThan_SuperOffice_Data_SQL_Argument_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.GreaterThanOrEqual(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.Argument.GreaterThanOrEqual(SuperOffice.Data.SQL.Argument)
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GreaterThanOrEqual_SuperOffice_Data_SQL_Argument_
   name: GreaterThanOrEqual(Argument)
   nameWithType: Argument.GreaterThanOrEqual(Argument)
   fullName: SuperOffice.Data.SQL.Argument.GreaterThanOrEqual(SuperOffice.Data.SQL.Argument)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.GreaterThanOrEqual(SuperOffice.Data.SQL.Argument)
     name: GreaterThanOrEqual
+    nameWithType: Argument.GreaterThanOrEqual
+    fullName: SuperOffice.Data.SQL.Argument.GreaterThanOrEqual
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GreaterThanOrEqual_SuperOffice_Data_SQL_Argument_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.GreaterThanOrEqual(SuperOffice.Data.SQL.Argument)
     name: GreaterThanOrEqual
+    nameWithType: Argument.GreaterThanOrEqual
+    fullName: SuperOffice.Data.SQL.Argument.GreaterThanOrEqual
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GreaterThanOrEqual_SuperOffice_Data_SQL_Argument_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.Like(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.Argument.Like(SuperOffice.Data.SQL.Argument)
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_Like_SuperOffice_Data_SQL_Argument_
   name: Like(Argument)
   nameWithType: Argument.Like(Argument)
   fullName: SuperOffice.Data.SQL.Argument.Like(SuperOffice.Data.SQL.Argument)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.Like(SuperOffice.Data.SQL.Argument)
     name: Like
+    nameWithType: Argument.Like
+    fullName: SuperOffice.Data.SQL.Argument.Like
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_Like_SuperOffice_Data_SQL_Argument_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.Like(SuperOffice.Data.SQL.Argument)
     name: Like
+    nameWithType: Argument.Like
+    fullName: SuperOffice.Data.SQL.Argument.Like
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_Like_SuperOffice_Data_SQL_Argument_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.Like(System.String)
   commentId: M:SuperOffice.Data.SQL.Argument.Like(System.String)
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_Like_System_String_
-  name: Like(string)
-  nameWithType: Argument.Like(string)
-  fullName: SuperOffice.Data.SQL.Argument.Like(string)
-  nameWithType.vb: Argument.Like(String)
-  fullName.vb: SuperOffice.Data.SQL.Argument.Like(String)
-  name.vb: Like(String)
+  name: Like(String)
+  nameWithType: Argument.Like(String)
+  fullName: SuperOffice.Data.SQL.Argument.Like(System.String)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.Like(System.String)
     name: Like
+    nameWithType: Argument.Like
+    fullName: SuperOffice.Data.SQL.Argument.Like
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_Like_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.Like(System.String)
     name: Like
+    nameWithType: Argument.Like
+    fullName: SuperOffice.Data.SQL.Argument.Like
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_Like_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.NotLike(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.Argument.NotLike(SuperOffice.Data.SQL.Argument)
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_NotLike_SuperOffice_Data_SQL_Argument_
   name: NotLike(Argument)
   nameWithType: Argument.NotLike(Argument)
   fullName: SuperOffice.Data.SQL.Argument.NotLike(SuperOffice.Data.SQL.Argument)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.NotLike(SuperOffice.Data.SQL.Argument)
     name: NotLike
+    nameWithType: Argument.NotLike
+    fullName: SuperOffice.Data.SQL.Argument.NotLike
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_NotLike_SuperOffice_Data_SQL_Argument_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.NotLike(SuperOffice.Data.SQL.Argument)
     name: NotLike
+    nameWithType: Argument.NotLike
+    fullName: SuperOffice.Data.SQL.Argument.NotLike
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_NotLike_SuperOffice_Data_SQL_Argument_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.NotBetween(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.Argument.NotBetween(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_NotBetween_SuperOffice_Data_SQL_Argument_SuperOffice_Data_SQL_Argument_
   name: NotBetween(Argument, Argument)
   nameWithType: Argument.NotBetween(Argument, Argument)
   fullName: SuperOffice.Data.SQL.Argument.NotBetween(SuperOffice.Data.SQL.Argument, SuperOffice.Data.SQL.Argument)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.NotBetween(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
     name: NotBetween
+    nameWithType: Argument.NotBetween
+    fullName: SuperOffice.Data.SQL.Argument.NotBetween
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_NotBetween_SuperOffice_Data_SQL_Argument_SuperOffice_Data_SQL_Argument_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.NotBetween(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
     name: NotBetween
+    nameWithType: Argument.NotBetween
+    fullName: SuperOffice.Data.SQL.Argument.NotBetween
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_NotBetween_SuperOffice_Data_SQL_Argument_SuperOffice_Data_SQL_Argument_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.Between(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.Argument.Between(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_Between_SuperOffice_Data_SQL_Argument_SuperOffice_Data_SQL_Argument_
   name: Between(Argument, Argument)
   nameWithType: Argument.Between(Argument, Argument)
   fullName: SuperOffice.Data.SQL.Argument.Between(SuperOffice.Data.SQL.Argument, SuperOffice.Data.SQL.Argument)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.Between(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
     name: Between
+    nameWithType: Argument.Between
+    fullName: SuperOffice.Data.SQL.Argument.Between
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_Between_SuperOffice_Data_SQL_Argument_SuperOffice_Data_SQL_Argument_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.Between(SuperOffice.Data.SQL.Argument,SuperOffice.Data.SQL.Argument)
     name: Between
+    nameWithType: Argument.Between
+    fullName: SuperOffice.Data.SQL.Argument.Between
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_Between_SuperOffice_Data_SQL_Argument_SuperOffice_Data_SQL_Argument_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.In(SuperOffice.Data.SQL.Argument[])
   commentId: M:SuperOffice.Data.SQL.Argument.In(SuperOffice.Data.SQL.Argument[])
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_In_SuperOffice_Data_SQL_Argument___
-  name: In(params Argument[])
-  nameWithType: Argument.In(params Argument[])
-  fullName: SuperOffice.Data.SQL.Argument.In(params SuperOffice.Data.SQL.Argument[])
-  nameWithType.vb: Argument.In(ParamArray Argument())
-  fullName.vb: SuperOffice.Data.SQL.Argument.In(ParamArray SuperOffice.Data.SQL.Argument())
-  name.vb: In(ParamArray Argument())
+  name: In(Argument[])
+  nameWithType: Argument.In(Argument[])
+  fullName: SuperOffice.Data.SQL.Argument.In(SuperOffice.Data.SQL.Argument[])
+  nameWithType.vb: Argument.In(Argument())
+  fullName.vb: SuperOffice.Data.SQL.Argument.In(SuperOffice.Data.SQL.Argument())
+  name.vb: In(Argument())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.In(SuperOffice.Data.SQL.Argument[])
     name: In
+    nameWithType: Argument.In
+    fullName: SuperOffice.Data.SQL.Argument.In
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_In_SuperOffice_Data_SQL_Argument___
   - name: (
-  - name: params
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.In(SuperOffice.Data.SQL.Argument[])
     name: In
+    nameWithType: Argument.In
+    fullName: SuperOffice.Data.SQL.Argument.In
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_In_SuperOffice_Data_SQL_Argument___
   - name: (
-  - name: ParamArray
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.HasAny(SuperOffice.Data.SQL.Argument[])
   commentId: M:SuperOffice.Data.SQL.Argument.HasAny(SuperOffice.Data.SQL.Argument[])
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_HasAny_SuperOffice_Data_SQL_Argument___
-  name: HasAny(params Argument[])
-  nameWithType: Argument.HasAny(params Argument[])
-  fullName: SuperOffice.Data.SQL.Argument.HasAny(params SuperOffice.Data.SQL.Argument[])
-  nameWithType.vb: Argument.HasAny(ParamArray Argument())
-  fullName.vb: SuperOffice.Data.SQL.Argument.HasAny(ParamArray SuperOffice.Data.SQL.Argument())
-  name.vb: HasAny(ParamArray Argument())
+  name: HasAny(Argument[])
+  nameWithType: Argument.HasAny(Argument[])
+  fullName: SuperOffice.Data.SQL.Argument.HasAny(SuperOffice.Data.SQL.Argument[])
+  nameWithType.vb: Argument.HasAny(Argument())
+  fullName.vb: SuperOffice.Data.SQL.Argument.HasAny(SuperOffice.Data.SQL.Argument())
+  name.vb: HasAny(Argument())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.HasAny(SuperOffice.Data.SQL.Argument[])
     name: HasAny
+    nameWithType: Argument.HasAny
+    fullName: SuperOffice.Data.SQL.Argument.HasAny
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_HasAny_SuperOffice_Data_SQL_Argument___
   - name: (
-  - name: params
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.HasAny(SuperOffice.Data.SQL.Argument[])
     name: HasAny
+    nameWithType: Argument.HasAny
+    fullName: SuperOffice.Data.SQL.Argument.HasAny
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_HasAny_SuperOffice_Data_SQL_Argument___
   - name: (
-  - name: ParamArray
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.HasAll(SuperOffice.Data.SQL.Argument[])
   commentId: M:SuperOffice.Data.SQL.Argument.HasAll(SuperOffice.Data.SQL.Argument[])
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_HasAll_SuperOffice_Data_SQL_Argument___
-  name: HasAll(params Argument[])
-  nameWithType: Argument.HasAll(params Argument[])
-  fullName: SuperOffice.Data.SQL.Argument.HasAll(params SuperOffice.Data.SQL.Argument[])
-  nameWithType.vb: Argument.HasAll(ParamArray Argument())
-  fullName.vb: SuperOffice.Data.SQL.Argument.HasAll(ParamArray SuperOffice.Data.SQL.Argument())
-  name.vb: HasAll(ParamArray Argument())
+  name: HasAll(Argument[])
+  nameWithType: Argument.HasAll(Argument[])
+  fullName: SuperOffice.Data.SQL.Argument.HasAll(SuperOffice.Data.SQL.Argument[])
+  nameWithType.vb: Argument.HasAll(Argument())
+  fullName.vb: SuperOffice.Data.SQL.Argument.HasAll(SuperOffice.Data.SQL.Argument())
+  name.vb: HasAll(Argument())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.HasAll(SuperOffice.Data.SQL.Argument[])
     name: HasAll
+    nameWithType: Argument.HasAll
+    fullName: SuperOffice.Data.SQL.Argument.HasAll
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_HasAll_SuperOffice_Data_SQL_Argument___
   - name: (
-  - name: params
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.HasAll(SuperOffice.Data.SQL.Argument[])
     name: HasAll
+    nameWithType: Argument.HasAll
+    fullName: SuperOffice.Data.SQL.Argument.HasAll
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_HasAll_SuperOffice_Data_SQL_Argument___
   - name: (
-  - name: ParamArray
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.MissingAny(SuperOffice.Data.SQL.Argument[])
   commentId: M:SuperOffice.Data.SQL.Argument.MissingAny(SuperOffice.Data.SQL.Argument[])
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_MissingAny_SuperOffice_Data_SQL_Argument___
-  name: MissingAny(params Argument[])
-  nameWithType: Argument.MissingAny(params Argument[])
-  fullName: SuperOffice.Data.SQL.Argument.MissingAny(params SuperOffice.Data.SQL.Argument[])
-  nameWithType.vb: Argument.MissingAny(ParamArray Argument())
-  fullName.vb: SuperOffice.Data.SQL.Argument.MissingAny(ParamArray SuperOffice.Data.SQL.Argument())
-  name.vb: MissingAny(ParamArray Argument())
+  name: MissingAny(Argument[])
+  nameWithType: Argument.MissingAny(Argument[])
+  fullName: SuperOffice.Data.SQL.Argument.MissingAny(SuperOffice.Data.SQL.Argument[])
+  nameWithType.vb: Argument.MissingAny(Argument())
+  fullName.vb: SuperOffice.Data.SQL.Argument.MissingAny(SuperOffice.Data.SQL.Argument())
+  name.vb: MissingAny(Argument())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.MissingAny(SuperOffice.Data.SQL.Argument[])
     name: MissingAny
+    nameWithType: Argument.MissingAny
+    fullName: SuperOffice.Data.SQL.Argument.MissingAny
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_MissingAny_SuperOffice_Data_SQL_Argument___
   - name: (
-  - name: params
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.MissingAny(SuperOffice.Data.SQL.Argument[])
     name: MissingAny
+    nameWithType: Argument.MissingAny
+    fullName: SuperOffice.Data.SQL.Argument.MissingAny
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_MissingAny_SuperOffice_Data_SQL_Argument___
   - name: (
-  - name: ParamArray
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.MissingAll(SuperOffice.Data.SQL.Argument[])
   commentId: M:SuperOffice.Data.SQL.Argument.MissingAll(SuperOffice.Data.SQL.Argument[])
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_MissingAll_SuperOffice_Data_SQL_Argument___
-  name: MissingAll(params Argument[])
-  nameWithType: Argument.MissingAll(params Argument[])
-  fullName: SuperOffice.Data.SQL.Argument.MissingAll(params SuperOffice.Data.SQL.Argument[])
-  nameWithType.vb: Argument.MissingAll(ParamArray Argument())
-  fullName.vb: SuperOffice.Data.SQL.Argument.MissingAll(ParamArray SuperOffice.Data.SQL.Argument())
-  name.vb: MissingAll(ParamArray Argument())
+  name: MissingAll(Argument[])
+  nameWithType: Argument.MissingAll(Argument[])
+  fullName: SuperOffice.Data.SQL.Argument.MissingAll(SuperOffice.Data.SQL.Argument[])
+  nameWithType.vb: Argument.MissingAll(Argument())
+  fullName.vb: SuperOffice.Data.SQL.Argument.MissingAll(SuperOffice.Data.SQL.Argument())
+  name.vb: MissingAll(Argument())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.MissingAll(SuperOffice.Data.SQL.Argument[])
     name: MissingAll
+    nameWithType: Argument.MissingAll
+    fullName: SuperOffice.Data.SQL.Argument.MissingAll
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_MissingAll_SuperOffice_Data_SQL_Argument___
   - name: (
-  - name: params
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.MissingAll(SuperOffice.Data.SQL.Argument[])
     name: MissingAll
+    nameWithType: Argument.MissingAll
+    fullName: SuperOffice.Data.SQL.Argument.MissingAll
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_MissingAll_SuperOffice_Data_SQL_Argument___
   - name: (
-  - name: ParamArray
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.IsNull
   commentId: M:SuperOffice.Data.SQL.Argument.IsNull
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_IsNull
   name: IsNull()
   nameWithType: Argument.IsNull()
   fullName: SuperOffice.Data.SQL.Argument.IsNull()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.IsNull
     name: IsNull
+    nameWithType: Argument.IsNull
+    fullName: SuperOffice.Data.SQL.Argument.IsNull
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_IsNull
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.IsNull
     name: IsNull
+    nameWithType: Argument.IsNull
+    fullName: SuperOffice.Data.SQL.Argument.IsNull
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_IsNull
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.IsNotNull
   commentId: M:SuperOffice.Data.SQL.Argument.IsNotNull
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_IsNotNull
   name: IsNotNull()
   nameWithType: Argument.IsNotNull()
   fullName: SuperOffice.Data.SQL.Argument.IsNotNull()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.IsNotNull
     name: IsNotNull
+    nameWithType: Argument.IsNotNull
+    fullName: SuperOffice.Data.SQL.Argument.IsNotNull
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_IsNotNull
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.IsNotNull
     name: IsNotNull
+    nameWithType: Argument.IsNotNull
+    fullName: SuperOffice.Data.SQL.Argument.IsNotNull
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_IsNotNull
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.NotIn(SuperOffice.Data.SQL.Argument[])
   commentId: M:SuperOffice.Data.SQL.Argument.NotIn(SuperOffice.Data.SQL.Argument[])
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_NotIn_SuperOffice_Data_SQL_Argument___
-  name: NotIn(params Argument[])
-  nameWithType: Argument.NotIn(params Argument[])
-  fullName: SuperOffice.Data.SQL.Argument.NotIn(params SuperOffice.Data.SQL.Argument[])
-  nameWithType.vb: Argument.NotIn(ParamArray Argument())
-  fullName.vb: SuperOffice.Data.SQL.Argument.NotIn(ParamArray SuperOffice.Data.SQL.Argument())
-  name.vb: NotIn(ParamArray Argument())
+  name: NotIn(Argument[])
+  nameWithType: Argument.NotIn(Argument[])
+  fullName: SuperOffice.Data.SQL.Argument.NotIn(SuperOffice.Data.SQL.Argument[])
+  nameWithType.vb: Argument.NotIn(Argument())
+  fullName.vb: SuperOffice.Data.SQL.Argument.NotIn(SuperOffice.Data.SQL.Argument())
+  name.vb: NotIn(Argument())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.NotIn(SuperOffice.Data.SQL.Argument[])
     name: NotIn
+    nameWithType: Argument.NotIn
+    fullName: SuperOffice.Data.SQL.Argument.NotIn
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_NotIn_SuperOffice_Data_SQL_Argument___
   - name: (
-  - name: params
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.NotIn(SuperOffice.Data.SQL.Argument[])
     name: NotIn
+    nameWithType: Argument.NotIn
+    fullName: SuperOffice.Data.SQL.Argument.NotIn
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_NotIn_SuperOffice_Data_SQL_Argument___
   - name: (
-  - name: ParamArray
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1({T}[])
   commentId: M:SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[])
   parent: SuperOffice.Data.SQL.Argument
   definition: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[])
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_ToArgumentArray__1___0___
   name: ToArgumentArray<T>(T[])
   nameWithType: Argument.ToArgumentArray<T>(T[])
   fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray<T>(T[])
@@ -1135,110 +1360,137 @@ references:
   name.vb: ToArgumentArray(Of T)(T())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[])
-    name: ToArgumentArray
+    name: ToArgumentArray<T>
+    nameWithType: Argument.ToArgumentArray<T>
+    fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray<T>
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_ToArgumentArray__1___0___
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: '['
-  - name: ']'
+    nameWithType: T
+    fullName: T
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[])
-    name: ToArgumentArray
+    name: ToArgumentArray(Of T)
+    nameWithType: Argument.ToArgumentArray(Of T)
+    fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray(Of T)
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_ToArgumentArray__1___0___
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: (
-  - name: T
-  - name: (
-  - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1({T}[],System.Boolean)
   commentId: M:SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[],System.Boolean)
   parent: SuperOffice.Data.SQL.Argument
   definition: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[],System.Boolean)
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_ToArgumentArray__1___0___System_Boolean_
-  name: ToArgumentArray<T>(T[], bool)
-  nameWithType: Argument.ToArgumentArray<T>(T[], bool)
-  fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray<T>(T[], bool)
+  name: ToArgumentArray<T>(T[], Boolean)
+  nameWithType: Argument.ToArgumentArray<T>(T[], Boolean)
+  fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray<T>(T[], System.Boolean)
   nameWithType.vb: Argument.ToArgumentArray(Of T)(T(), Boolean)
-  fullName.vb: SuperOffice.Data.SQL.Argument.ToArgumentArray(Of T)(T(), Boolean)
+  fullName.vb: SuperOffice.Data.SQL.Argument.ToArgumentArray(Of T)(T(), System.Boolean)
   name.vb: ToArgumentArray(Of T)(T(), Boolean)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[],System.Boolean)
-    name: ToArgumentArray
+    name: ToArgumentArray<T>
+    nameWithType: Argument.ToArgumentArray<T>
+    fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray<T>
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_ToArgumentArray__1___0___System_Boolean_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[],System.Boolean)
-    name: ToArgumentArray
-    isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_ToArgumentArray__1___0___System_Boolean_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[],System.Boolean)
+    name: ToArgumentArray(Of T)
+    nameWithType: Argument.ToArgumentArray(Of T)
+    fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.GetSubElements
   commentId: M:SuperOffice.Data.SQL.Argument.GetSubElements
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GetSubElements
   name: GetSubElements()
   nameWithType: Argument.GetSubElements()
   fullName: SuperOffice.Data.SQL.Argument.GetSubElements()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.GetSubElements
     name: GetSubElements
+    nameWithType: Argument.GetSubElements
+    fullName: SuperOffice.Data.SQL.Argument.GetSubElements
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GetSubElements
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.GetSubElements
     name: GetSubElements
+    nameWithType: Argument.GetSubElements
+    fullName: SuperOffice.Data.SQL.Argument.GetSubElements
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GetSubElements
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.Alias
   commentId: P:SuperOffice.Data.SQL.Argument.Alias
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_Alias
   name: Alias
   nameWithType: Argument.Alias
   fullName: SuperOffice.Data.SQL.Argument.Alias
@@ -1246,7 +1498,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.Argument.DataType
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_DataType
   name: DataType
   nameWithType: Argument.DataType
   fullName: SuperOffice.Data.SQL.Argument.DataType
@@ -1254,7 +1505,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.Argument.Size
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_Size
   name: Size
   nameWithType: Argument.Size
   fullName: SuperOffice.Data.SQL.Argument.Size
@@ -1262,336 +1512,110 @@ references:
   commentId: M:SuperOffice.Data.SQL.QueryElement.Clone
   parent: SuperOffice.Data.SQL.QueryElement
   isExternal: true
-  href: SuperOffice.Data.SQL.QueryElement.html#SuperOffice_Data_SQL_QueryElement_Clone
   name: Clone()
   nameWithType: QueryElement.Clone()
   fullName: SuperOffice.Data.SQL.QueryElement.Clone()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.QueryElement.Clone
     name: Clone
+    nameWithType: QueryElement.Clone
+    fullName: SuperOffice.Data.SQL.QueryElement.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.QueryElement.html#SuperOffice_Data_SQL_QueryElement_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.QueryElement.Clone
     name: Clone
+    nameWithType: QueryElement.Clone
+    fullName: SuperOffice.Data.SQL.QueryElement.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.QueryElement.html#SuperOffice_Data_SQL_QueryElement_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.MathematicalExpression.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<MathematicalExpression, To>(MathematicalExpression)
-  nameWithType: EnumUtil.MapEnums<MathematicalExpression, To>(MathematicalExpression)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.MathematicalExpression, To>(SuperOffice.Data.SQL.MathematicalExpression)
-  nameWithType.vb: EnumUtil.MapEnums(Of MathematicalExpression, To)(MathematicalExpression)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.MathematicalExpression, To)(SuperOffice.Data.SQL.MathematicalExpression)
-  name.vb: MapEnums(Of MathematicalExpression, To)(MathematicalExpression)
+  name: MapEnums<MathematicalExpression, To>()
+  nameWithType: EnumUtil.MapEnums<MathematicalExpression, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.MathematicalExpression, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of MathematicalExpression, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.MathematicalExpression, To)()
+  name.vb: MapEnums(Of MathematicalExpression, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SQL.MathematicalExpression)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<MathematicalExpression, To>
+    nameWithType: EnumUtil.MapEnums<MathematicalExpression, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.MathematicalExpression, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.SQL.MathematicalExpression
-    name: MathematicalExpression
-    isExternal: true
-    href: SuperOffice.Data.SQL.MathematicalExpression.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.SQL.MathematicalExpression
-    name: MathematicalExpression
-    isExternal: true
-    href: SuperOffice.Data.SQL.MathematicalExpression.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SQL.MathematicalExpression)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of MathematicalExpression, To)
+    nameWithType: EnumUtil.MapEnums(Of MathematicalExpression, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.MathematicalExpression, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SQL.MathematicalExpression
-    name: MathematicalExpression
-    isExternal: true
-    href: SuperOffice.Data.SQL.MathematicalExpression.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.SQL.MathematicalExpression
-    name: MathematicalExpression
-    isExternal: true
-    href: SuperOffice.Data.SQL.MathematicalExpression.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.MathematicalExpression.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<MathematicalExpression, To>(MathematicalExpression)
-  nameWithType: Converters.MapEnums<MathematicalExpression, To>(MathematicalExpression)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.MathematicalExpression, To>(SuperOffice.Data.SQL.MathematicalExpression)
-  nameWithType.vb: Converters.MapEnums(Of MathematicalExpression, To)(MathematicalExpression)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.MathematicalExpression, To)(SuperOffice.Data.SQL.MathematicalExpression)
-  name.vb: MapEnums(Of MathematicalExpression, To)(MathematicalExpression)
+  name: MapEnums<MathematicalExpression, To>()
+  nameWithType: Converters.MapEnums<MathematicalExpression, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.MathematicalExpression, To>()
+  nameWithType.vb: Converters.MapEnums(Of MathematicalExpression, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.MathematicalExpression, To)()
+  name.vb: MapEnums(Of MathematicalExpression, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SQL.MathematicalExpression)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<MathematicalExpression, To>
+    nameWithType: Converters.MapEnums<MathematicalExpression, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.MathematicalExpression, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.SQL.MathematicalExpression
-    name: MathematicalExpression
-    isExternal: true
-    href: SuperOffice.Data.SQL.MathematicalExpression.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.SQL.MathematicalExpression
-    name: MathematicalExpression
-    isExternal: true
-    href: SuperOffice.Data.SQL.MathematicalExpression.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SQL.MathematicalExpression)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of MathematicalExpression, To)
+    nameWithType: Converters.MapEnums(Of MathematicalExpression, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.MathematicalExpression, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SQL.MathematicalExpression
-    name: MathematicalExpression
-    isExternal: true
-    href: SuperOffice.Data.SQL.MathematicalExpression.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.SQL.MathematicalExpression
-    name: MathematicalExpression
-    isExternal: true
-    href: SuperOffice.Data.SQL.MathematicalExpression.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[])
   commentId: M:SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[])
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_ToArgumentArray__1___0___
   name: ToArgumentArray<T>(T[])
   nameWithType: Argument.ToArgumentArray<T>(T[])
   fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray<T>(T[])
@@ -1600,86 +1624,104 @@ references:
   name.vb: ToArgumentArray(Of T)(T())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[])
-    name: ToArgumentArray
+    name: ToArgumentArray<T>
+    nameWithType: Argument.ToArgumentArray<T>
+    fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray<T>
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_ToArgumentArray__1___0___
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: '['
-  - name: ']'
+    nameWithType: T
+    fullName: T
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[])
-    name: ToArgumentArray
+    name: ToArgumentArray(Of T)
+    nameWithType: Argument.ToArgumentArray(Of T)
+    fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray(Of T)
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_ToArgumentArray__1___0___
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: (
-  - name: T
-  - name: (
-  - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[],System.Boolean)
   commentId: M:SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[],System.Boolean)
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_ToArgumentArray__1___0___System_Boolean_
-  name: ToArgumentArray<T>(T[], bool)
-  nameWithType: Argument.ToArgumentArray<T>(T[], bool)
-  fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray<T>(T[], bool)
+  name: ToArgumentArray<T>(T[], Boolean)
+  nameWithType: Argument.ToArgumentArray<T>(T[], Boolean)
+  fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray<T>(T[], System.Boolean)
   nameWithType.vb: Argument.ToArgumentArray(Of T)(T(), Boolean)
-  fullName.vb: SuperOffice.Data.SQL.Argument.ToArgumentArray(Of T)(T(), Boolean)
+  fullName.vb: SuperOffice.Data.SQL.Argument.ToArgumentArray(Of T)(T(), System.Boolean)
   name.vb: ToArgumentArray(Of T)(T(), Boolean)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[],System.Boolean)
-    name: ToArgumentArray
+    name: ToArgumentArray<T>
+    nameWithType: Argument.ToArgumentArray<T>
+    fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray<T>
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_ToArgumentArray__1___0___System_Boolean_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[],System.Boolean)
-    name: ToArgumentArray
-    isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_ToArgumentArray__1___0___System_Boolean_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.Argument.ToArgumentArray``1(``0[],System.Boolean)
+    name: ToArgumentArray(Of T)
+    nameWithType: Argument.ToArgumentArray(Of T)
+    fullName: SuperOffice.Data.SQL.Argument.ToArgumentArray(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1688,45 +1730,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1735,82 +1775,49 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Data.SQL.Argument[]
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html
   name: Argument[]
   nameWithType: Argument[]
   fullName: SuperOffice.Data.SQL.Argument[]
@@ -1820,40 +1827,31 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: (
-  - name: )
-- uid: SuperOffice.Data.SQL.MathematicalExpression
-  commentId: T:SuperOffice.Data.SQL.MathematicalExpression
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.MathematicalExpression.html
-  name: MathematicalExpression
-  nameWithType: MathematicalExpression
-  fullName: SuperOffice.Data.SQL.MathematicalExpression
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.Data.SQL.MathematicalExpression.#ctor*
   commentId: Overload:SuperOffice.Data.SQL.MathematicalExpression.#ctor
   isExternal: true
-  href: SuperOffice.Data.SQL.MathematicalExpression.html#SuperOffice_Data_SQL_MathematicalExpression__ctor_SuperOffice_Data_FieldDataType_System_Int32_
   name: MathematicalExpression
   nameWithType: MathematicalExpression.MathematicalExpression
   fullName: SuperOffice.Data.SQL.MathematicalExpression.MathematicalExpression
-  nameWithType.vb: MathematicalExpression.New
-  fullName.vb: SuperOffice.Data.SQL.MathematicalExpression.New
-  name.vb: New
 - uid: SuperOffice.Data.FieldDataType
   commentId: T:SuperOffice.Data.FieldDataType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.FieldDataType.html
   name: FieldDataType
   nameWithType: FieldDataType
   fullName: SuperOffice.Data.FieldDataType
@@ -1861,44 +1859,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.SQL.MathematicalExpression.ValidateFieldInfoParameter*
   commentId: Overload:SuperOffice.Data.SQL.MathematicalExpression.ValidateFieldInfoParameter
   isExternal: true
-  href: SuperOffice.Data.SQL.MathematicalExpression.html#SuperOffice_Data_SQL_MathematicalExpression_ValidateFieldInfoParameter_SuperOffice_Data_SQL_FieldInfo_SuperOffice_Data_SQL_Parameter_
   name: ValidateFieldInfoParameter
   nameWithType: MathematicalExpression.ValidateFieldInfoParameter
   fullName: SuperOffice.Data.SQL.MathematicalExpression.ValidateFieldInfoParameter
@@ -1906,7 +1878,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.FieldInfo.html
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
@@ -1914,84 +1885,24 @@ references:
   commentId: T:SuperOffice.Data.SQL.Parameter
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Parameter.html
   name: Parameter
   nameWithType: Parameter
   fullName: SuperOffice.Data.SQL.Parameter
 - uid: SuperOffice.Data.SQL.MathematicalExpression.ValidateParameterArgumentsForZeroValue*
   commentId: Overload:SuperOffice.Data.SQL.MathematicalExpression.ValidateParameterArgumentsForZeroValue
   isExternal: true
-  href: SuperOffice.Data.SQL.MathematicalExpression.html#SuperOffice_Data_SQL_MathematicalExpression_ValidateParameterArgumentsForZeroValue_SuperOffice_Data_SQL_Parameter_SuperOffice_Data_SQL_Parameter_
   name: ValidateParameterArgumentsForZeroValue
   nameWithType: MathematicalExpression.ValidateParameterArgumentsForZeroValue
   fullName: SuperOffice.Data.SQL.MathematicalExpression.ValidateParameterArgumentsForZeroValue
-- uid: SuperOffice.Data.SQL.Subtract
-  commentId: T:SuperOffice.Data.SQL.Subtract
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.Subtract.html
-  name: Subtract
-  nameWithType: Subtract
-  fullName: SuperOffice.Data.SQL.Subtract
-- uid: SuperOffice.Data.SQL.Multiply
-  commentId: T:SuperOffice.Data.SQL.Multiply
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.Multiply.html
-  name: Multiply
-  nameWithType: Multiply
-  fullName: SuperOffice.Data.SQL.Multiply
-- uid: SuperOffice.Data.SQL.Divide
-  commentId: T:SuperOffice.Data.SQL.Divide
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.Divide.html
-  name: Divide
-  nameWithType: Divide
-  fullName: SuperOffice.Data.SQL.Divide
-- uid: SuperOffice.Data.SQL.Add
-  commentId: T:SuperOffice.Data.SQL.Add
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.Add.html
-  name: Add
-  nameWithType: Add
-  fullName: SuperOffice.Data.SQL.Add
 - uid: SuperOffice.Data.SQL.MathematicalExpression.ValidateArgumentCollection*
   commentId: Overload:SuperOffice.Data.SQL.MathematicalExpression.ValidateArgumentCollection
   isExternal: true
-  href: SuperOffice.Data.SQL.MathematicalExpression.html#SuperOffice_Data_SQL_MathematicalExpression_ValidateArgumentCollection
   name: ValidateArgumentCollection
   nameWithType: MathematicalExpression.ValidateArgumentCollection
   fullName: SuperOffice.Data.SQL.MathematicalExpression.ValidateArgumentCollection
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: SuperOffice.Data.SQL.MathematicalExpression.ToString*
   commentId: Overload:SuperOffice.Data.SQL.MathematicalExpression.ToString
   isExternal: true
-  href: SuperOffice.Data.SQL.MathematicalExpression.html#SuperOffice_Data_SQL_MathematicalExpression_ToString
   name: ToString
   nameWithType: MathematicalExpression.ToString
   fullName: SuperOffice.Data.SQL.MathematicalExpression.ToString
@@ -1999,60 +1910,61 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Data.SQL.Argument.GetMainField
   commentId: M:SuperOffice.Data.SQL.Argument.GetMainField
   parent: SuperOffice.Data.SQL.Argument
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GetMainField
   name: GetMainField()
   nameWithType: Argument.GetMainField()
   fullName: SuperOffice.Data.SQL.Argument.GetMainField()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument.GetMainField
     name: GetMainField
+    nameWithType: Argument.GetMainField
+    fullName: SuperOffice.Data.SQL.Argument.GetMainField
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GetMainField
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument.GetMainField
     name: GetMainField
+    nameWithType: Argument.GetMainField
+    fullName: SuperOffice.Data.SQL.Argument.GetMainField
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html#SuperOffice_Data_SQL_Argument_GetMainField
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.MathematicalExpression.GetMainField*
   commentId: Overload:SuperOffice.Data.SQL.MathematicalExpression.GetMainField
   isExternal: true
-  href: SuperOffice.Data.SQL.MathematicalExpression.html#SuperOffice_Data_SQL_MathematicalExpression_GetMainField
   name: GetMainField
   nameWithType: MathematicalExpression.GetMainField
   fullName: SuperOffice.Data.SQL.MathematicalExpression.GetMainField
 - uid: SuperOffice.Data.SQL.MathematicalExpression.Left*
   commentId: Overload:SuperOffice.Data.SQL.MathematicalExpression.Left
   isExternal: true
-  href: SuperOffice.Data.SQL.MathematicalExpression.html#SuperOffice_Data_SQL_MathematicalExpression_Left
   name: Left
   nameWithType: MathematicalExpression.Left
   fullName: SuperOffice.Data.SQL.MathematicalExpression.Left
 - uid: SuperOffice.Data.SQL.MathematicalExpression.Right*
   commentId: Overload:SuperOffice.Data.SQL.MathematicalExpression.Right
   isExternal: true
-  href: SuperOffice.Data.SQL.MathematicalExpression.html#SuperOffice_Data_SQL_MathematicalExpression_Right
   name: Right
   nameWithType: MathematicalExpression.Right
   fullName: SuperOffice.Data.SQL.MathematicalExpression.Right
 - uid: SuperOffice.Data.SQL.MathematicalExpression.Arguments*
   commentId: Overload:SuperOffice.Data.SQL.MathematicalExpression.Arguments
   isExternal: true
-  href: SuperOffice.Data.SQL.MathematicalExpression.html#SuperOffice_Data_SQL_MathematicalExpression_Arguments
   name: Arguments
   nameWithType: MathematicalExpression.Arguments
   fullName: SuperOffice.Data.SQL.MathematicalExpression.Arguments

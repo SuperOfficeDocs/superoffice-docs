@@ -13,17 +13,27 @@ items:
   nameWithType: IErpConnectoUrlResolverPlugin
   fullName: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
   type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Interface that must be implemented by plugins for resolving erp sync client urls
-  example: []
+  summary: "\nInterface that must be implemented by plugins for resolving erp sync client urls\n"
   syntax:
-    content: public interface IErpConnectoUrlResolverPlugin
-    content.vb: Public Interface IErpConnectoUrlResolverPlugin
+    content: 'public interface IErpConnectoUrlResolverPlugin : IPlugin'
+    content.vb: >-
+      Public Interface IErpConnectoUrlResolverPlugin
+          Inherits IPlugin
   extensionMethods:
   - SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.EnumUtil.MapEnums``2
   - SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrl(System.String,SuperOffice.CRM.IConfiguration)
   commentId: M:SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrl(System.String,SuperOffice.CRM.IConfiguration)
   id: ResolveUrl(System.String,SuperOffice.CRM.IConfiguration)
@@ -31,170 +41,106 @@ items:
   langs:
   - csharp
   - vb
-  name: ResolveUrl(string, IConfiguration)
-  nameWithType: IErpConnectoUrlResolverPlugin.ResolveUrl(string, IConfiguration)
-  fullName: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrl(string, SuperOffice.CRM.IConfiguration)
+  name: ResolveUrl(String, IConfiguration)
+  nameWithType: IErpConnectoUrlResolverPlugin.ResolveUrl(String, IConfiguration)
+  fullName: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrl(System.String, SuperOffice.CRM.IConfiguration)
   type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
   assemblies:
   - SuperOffice.Plugins
   namespace: SuperOffice.ErpSync
-  summary: Resolve the actual url to use.
-  example: []
+  summary: "\nResolve the actual url to use.\n"
   syntax:
     content: string ResolveUrl(string targetUrl, IConfiguration config)
     parameters:
     - id: targetUrl
       type: System.String
-      description: ''
     - id: config
       type: SuperOffice.CRM.IConfiguration
-      description: ''
     return:
       type: System.String
-      description: ''
     content.vb: Function ResolveUrl(targetUrl As String, config As IConfiguration) As String
   overload: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrl*
-  nameWithType.vb: IErpConnectoUrlResolverPlugin.ResolveUrl(String, IConfiguration)
-  fullName.vb: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrl(String, SuperOffice.CRM.IConfiguration)
-  name.vb: ResolveUrl(String, IConfiguration)
 references:
 - uid: SuperOffice.ErpSync
   commentId: N:SuperOffice.ErpSync
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync
   nameWithType: SuperOffice.ErpSync
   fullName: SuperOffice.ErpSync
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
 - uid: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<IErpConnectoUrlResolverPlugin, To>(IErpConnectoUrlResolverPlugin)
-  nameWithType: EnumUtil.MapEnums<IErpConnectoUrlResolverPlugin, To>(IErpConnectoUrlResolverPlugin)
-  fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin, To>(SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin)
-  nameWithType.vb: EnumUtil.MapEnums(Of IErpConnectoUrlResolverPlugin, To)(IErpConnectoUrlResolverPlugin)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin, To)(SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin)
-  name.vb: MapEnums(Of IErpConnectoUrlResolverPlugin, To)(IErpConnectoUrlResolverPlugin)
+  name: MapEnums<IErpConnectoUrlResolverPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<IErpConnectoUrlResolverPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IErpConnectoUrlResolverPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin, To)()
+  name.vb: MapEnums(Of IErpConnectoUrlResolverPlugin, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IErpConnectoUrlResolverPlugin, To>
+    nameWithType: EnumUtil.MapEnums<IErpConnectoUrlResolverPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
-    name: IErpConnectoUrlResolverPlugin
-    isExternal: true
-    href: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
-    name: IErpConnectoUrlResolverPlugin
-    isExternal: true
-    href: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IErpConnectoUrlResolverPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of IErpConnectoUrlResolverPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
-    name: IErpConnectoUrlResolverPlugin
-    isExternal: true
-    href: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
-    name: IErpConnectoUrlResolverPlugin
-    isExternal: true
-    href: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<IErpConnectoUrlResolverPlugin, To>(IErpConnectoUrlResolverPlugin)
-  nameWithType: Converters.MapEnums<IErpConnectoUrlResolverPlugin, To>(IErpConnectoUrlResolverPlugin)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin, To>(SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin)
-  nameWithType.vb: Converters.MapEnums(Of IErpConnectoUrlResolverPlugin, To)(IErpConnectoUrlResolverPlugin)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin, To)(SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin)
-  name.vb: MapEnums(Of IErpConnectoUrlResolverPlugin, To)(IErpConnectoUrlResolverPlugin)
+  name: MapEnums<IErpConnectoUrlResolverPlugin, To>()
+  nameWithType: Converters.MapEnums<IErpConnectoUrlResolverPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of IErpConnectoUrlResolverPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin, To)()
+  name.vb: MapEnums(Of IErpConnectoUrlResolverPlugin, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IErpConnectoUrlResolverPlugin, To>
+    nameWithType: Converters.MapEnums<IErpConnectoUrlResolverPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
-    name: IErpConnectoUrlResolverPlugin
-    isExternal: true
-    href: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
-    name: IErpConnectoUrlResolverPlugin
-    isExternal: true
-    href: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IErpConnectoUrlResolverPlugin, To)
+    nameWithType: Converters.MapEnums(Of IErpConnectoUrlResolverPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
-    name: IErpConnectoUrlResolverPlugin
-    isExternal: true
-    href: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin
-    name: IErpConnectoUrlResolverPlugin
-    isExternal: true
-    href: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -203,45 +149,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -250,83 +194,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrl*
   commentId: Overload:SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrl
   isExternal: true
-  href: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.html#SuperOffice_ErpSync_IErpConnectoUrlResolverPlugin_ResolveUrl_System_String_SuperOffice_CRM_IConfiguration_
   name: ResolveUrl
   nameWithType: IErpConnectoUrlResolverPlugin.ResolveUrl
   fullName: SuperOffice.ErpSync.IErpConnectoUrlResolverPlugin.ResolveUrl
@@ -334,52 +245,25 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.IConfiguration
   commentId: T:SuperOffice.CRM.IConfiguration
   parent: SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.CRM.IConfiguration.html
   name: IConfiguration
   nameWithType: IConfiguration
   fullName: SuperOffice.CRM.IConfiguration
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html

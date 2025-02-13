@@ -18,27 +18,18 @@ items:
   nameWithType: CategorizationModelDetails
   fullName: SuperOffice.CRM.Services.CategorizationModelDetails
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Details about a categorization model in HugoAI
-
-    <p></p>
-
-    Carrier object for CategorizationModelDetails.
-
-    Services for the CategorizationModelDetails Carrier is available from the <xref href="SuperOffice.CRM.Services.IAIAgent?text=AI+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nDetails about a categorization model in HugoAI\n<p></p>\nCarrier object for CategorizationModelDetails.\nServices for the CategorizationModelDetails Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IAIAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class CategorizationModelDetails : Carrier
+    content: 'public class CategorizationModelDetails : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class CategorizationModelDetails Inherits Carrier
+      Public Class CategorizationModelDetails
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.AIAgent
     commentId: T:SuperOffice.CRM.Services.AIAgent
@@ -46,14 +37,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IAIAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.CategorizationModelDetails.#ctor
   commentId: M:SuperOffice.CRM.Services.CategorizationModelDetails.#ctor
   id: '#ctor'
@@ -65,18 +54,21 @@ items:
   nameWithType: CategorizationModelDetails.CategorizationModelDetails()
   fullName: SuperOffice.CRM.Services.CategorizationModelDetails.CategorizationModelDetails()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public CategorizationModelDetails()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.CategorizationModelDetails.#ctor*
-  nameWithType.vb: CategorizationModelDetails.New()
-  fullName.vb: SuperOffice.CRM.Services.CategorizationModelDetails.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.CategorizationModelDetails.ToString
   commentId: M:SuperOffice.CRM.Services.CategorizationModelDetails.ToString
   id: ToString
@@ -88,18 +80,26 @@ items:
   nameWithType: CategorizationModelDetails.ToString()
   fullName: SuperOffice.CRM.Services.CategorizationModelDetails.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.CategorizationModelDetails.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.CategorizationModelDetails.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.CategorizationModelDetails.ToString(System.String)
   id: ToString(System.String)
@@ -107,18 +107,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: CategorizationModelDetails.ToString(string)
-  fullName: SuperOffice.CRM.Services.CategorizationModelDetails.ToString(string)
+  name: ToString(String)
+  nameWithType: CategorizationModelDetails.ToString(String)
+  fullName: SuperOffice.CRM.Services.CategorizationModelDetails.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -130,9 +129,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.CategorizationModelDetails.ToString*
-  nameWithType.vb: CategorizationModelDetails.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.CategorizationModelDetails.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.CategorizationModelDetails.ModelBuiltDateTime
   commentId: P:SuperOffice.CRM.Services.CategorizationModelDetails.ModelBuiltDateTime
   id: ModelBuiltDateTime
@@ -144,28 +144,28 @@ items:
   nameWithType: CategorizationModelDetails.ModelBuiltDateTime
   fullName: SuperOffice.CRM.Services.CategorizationModelDetails.ModelBuiltDateTime
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Time the training finished
-  example: []
+  summary: "\nTime the training finished \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime ModelBuiltDateTime { get; set; }
+    content: public virtual DateTime ModelBuiltDateTime { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ModelBuiltDateTime As Date
+    content.vb: Public Overridable Property ModelBuiltDateTime As DateTime
   overload: SuperOffice.CRM.Services.CategorizationModelDetails.ModelBuiltDateTime*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.CategorizationModelDetails.Accuracy
   commentId: P:SuperOffice.CRM.Services.CategorizationModelDetails.Accuracy
   id: Accuracy
@@ -177,28 +177,28 @@ items:
   nameWithType: CategorizationModelDetails.Accuracy
   fullName: SuperOffice.CRM.Services.CategorizationModelDetails.Accuracy
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Accuracy of the trained model
-  example: []
+  summary: "\nAccuracy of the trained model \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual double Accuracy { get; set; }
+    content: public virtual double Accuracy { get; set; }
     parameters: []
     return:
       type: System.Double
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Accuracy As Double
+    content.vb: Public Overridable Property Accuracy As Double
   overload: SuperOffice.CRM.Services.CategorizationModelDetails.Accuracy*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.CategorizationModelDetails.TicketCountForTraining
   commentId: P:SuperOffice.CRM.Services.CategorizationModelDetails.TicketCountForTraining
   id: TicketCountForTraining
@@ -210,33 +210,38 @@ items:
   nameWithType: CategorizationModelDetails.TicketCountForTraining
   fullName: SuperOffice.CRM.Services.CategorizationModelDetails.TicketCountForTraining
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Number of tickets used to train the model
-  example: []
+  summary: "\nNumber of tickets used to train the model \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int TicketCountForTraining { get; set; }
+    content: public virtual int TicketCountForTraining { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property TicketCountForTraining As Integer
+    content.vb: Public Overridable Property TicketCountForTraining As Integer
   overload: SuperOffice.CRM.Services.CategorizationModelDetails.TicketCountForTraining*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.AIAgent
   commentId: T:SuperOffice.CRM.Services.AIAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.AIAgent.html
   name: AIAgent
   nameWithType: AIAgent
   fullName: SuperOffice.CRM.Services.AIAgent
@@ -244,79 +249,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAIAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IAIAgent.html
   name: IAIAgent
   nameWithType: IAIAgent
   fullName: SuperOffice.CRM.Services.IAIAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.CategorizationModelDetails.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.CategorizationModelDetails.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.CategorizationModelDetails.html#SuperOffice_CRM_Services_CategorizationModelDetails__ctor
   name: CategorizationModelDetails
   nameWithType: CategorizationModelDetails.CategorizationModelDetails
   fullName: SuperOffice.CRM.Services.CategorizationModelDetails.CategorizationModelDetails
-  nameWithType.vb: CategorizationModelDetails.New
-  fullName.vb: SuperOffice.CRM.Services.CategorizationModelDetails.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.CategorizationModelDetails.ToString*
   commentId: Overload:SuperOffice.CRM.Services.CategorizationModelDetails.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.CategorizationModelDetails.html#SuperOffice_CRM_Services_CategorizationModelDetails_ToString
   name: ToString
   nameWithType: CategorizationModelDetails.ToString
   fullName: SuperOffice.CRM.Services.CategorizationModelDetails.ToString
@@ -324,35 +268,29 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.CategorizationModelDetails.ModelBuiltDateTime*
   commentId: Overload:SuperOffice.CRM.Services.CategorizationModelDetails.ModelBuiltDateTime
   isExternal: true
-  href: SuperOffice.CRM.Services.CategorizationModelDetails.html#SuperOffice_CRM_Services_CategorizationModelDetails_ModelBuiltDateTime
   name: ModelBuiltDateTime
   nameWithType: CategorizationModelDetails.ModelBuiltDateTime
   fullName: SuperOffice.CRM.Services.CategorizationModelDetails.ModelBuiltDateTime
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.CategorizationModelDetails.Accuracy*
   commentId: Overload:SuperOffice.CRM.Services.CategorizationModelDetails.Accuracy
   isExternal: true
-  href: SuperOffice.CRM.Services.CategorizationModelDetails.html#SuperOffice_CRM_Services_CategorizationModelDetails_Accuracy
   name: Accuracy
   nameWithType: CategorizationModelDetails.Accuracy
   fullName: SuperOffice.CRM.Services.CategorizationModelDetails.Accuracy
@@ -360,17 +298,12 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.double
-  name: double
-  nameWithType: double
-  fullName: double
-  nameWithType.vb: Double
-  fullName.vb: Double
-  name.vb: Double
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
 - uid: SuperOffice.CRM.Services.CategorizationModelDetails.TicketCountForTraining*
   commentId: Overload:SuperOffice.CRM.Services.CategorizationModelDetails.TicketCountForTraining
   isExternal: true
-  href: SuperOffice.CRM.Services.CategorizationModelDetails.html#SuperOffice_CRM_Services_CategorizationModelDetails_TicketCountForTraining
   name: TicketCountForTraining
   nameWithType: CategorizationModelDetails.TicketCountForTraining
   fullName: SuperOffice.CRM.Services.CategorizationModelDetails.TicketCountForTraining
@@ -378,10 +311,6 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

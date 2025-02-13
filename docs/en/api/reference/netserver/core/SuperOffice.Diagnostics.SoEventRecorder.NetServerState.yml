@@ -39,10 +39,7 @@ items:
     content: 'public sealed class NetServerState : Enum'
     content.vb: >-
       Public NotInheritable Class NetServerState
-
           Inherits
-
-
 
            Enum
   inheritance:

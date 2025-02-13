@@ -17,22 +17,26 @@ items:
   nameWithType: ProjectGuideUtility
   fullName: SuperOffice.CRM.ProjectGuideUtility
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
   syntax:
-    content: public static class ProjectGuideUtility
-    content.vb: Public Module ProjectGuideUtility
+    content: 'public static class ProjectGuideUtility : Object'
+    content.vb: >-
+      Public Module ProjectGuideUtility
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate(System.Int32)
   commentId: M:SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate(System.Int32)
   id: CalculateNextMilestoneDate(System.Int32)
@@ -40,10 +44,13 @@ items:
   langs:
   - csharp
   - vb
-  name: CalculateNextMilestoneDate(int)
-  nameWithType: ProjectGuideUtility.CalculateNextMilestoneDate(int)
-  fullName: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate(int)
+  name: CalculateNextMilestoneDate(Int32)
+  nameWithType: ProjectGuideUtility.CalculateNextMilestoneDate(Int32)
+  fullName: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -56,9 +63,12 @@ items:
       type: SuperOffice.CRM.NextDateInfo
     content.vb: Public Shared Function CalculateNextMilestoneDate(projectId As Integer) As NextDateInfo
   overload: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate*
-  nameWithType.vb: ProjectGuideUtility.CalculateNextMilestoneDate(Integer)
-  fullName.vb: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate(Integer)
-  name.vb: CalculateNextMilestoneDate(Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate(System.Int32)
   commentId: M:SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate(System.Int32)
   id: GetNextMilestoneDate(System.Int32)
@@ -66,10 +76,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetNextMilestoneDate(int)
-  nameWithType: ProjectGuideUtility.GetNextMilestoneDate(int)
-  fullName: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate(int)
+  name: GetNextMilestoneDate(Int32)
+  nameWithType: ProjectGuideUtility.GetNextMilestoneDate(Int32)
+  fullName: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -82,9 +95,12 @@ items:
       type: SuperOffice.CRM.NextDateInfo
     content.vb: Public Shared Function GetNextMilestoneDate(projectId As Integer) As NextDateInfo
   overload: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate*
-  nameWithType.vb: ProjectGuideUtility.GetNextMilestoneDate(Integer)
-  fullName.vb: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate(Integer)
-  name.vb: GetNextMilestoneDate(Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
   commentId: M:SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
   id: BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
@@ -96,6 +112,9 @@ items:
   nameWithType: ProjectGuideUtility.BatchUpdateNextMilestone(ProgressEstimateCallback, ProgressStepCallback)
   fullName: SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -108,6 +127,12 @@ items:
       type: SuperOffice.CRM.ProgressStepCallback
     content.vb: Public Shared Sub BatchUpdateNextMilestone(estimateCB As ProgressEstimateCallback, stepCB As ProgressStepCallback)
   overload: SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
   commentId: M:SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
   id: OfferAutoNextStageOnApppointmentCompleted(System.Int32)
@@ -115,10 +140,13 @@ items:
   langs:
   - csharp
   - vb
-  name: OfferAutoNextStageOnApppointmentCompleted(int)
-  nameWithType: ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted(int)
-  fullName: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted(int)
+  name: OfferAutoNextStageOnApppointmentCompleted(Int32)
+  nameWithType: ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted(Int32)
+  fullName: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -131,9 +159,12 @@ items:
       type: System.Boolean
     content.vb: Public Shared Function OfferAutoNextStageOnApppointmentCompleted(appointmentId As Integer) As Boolean
   overload: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted*
-  nameWithType.vb: ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted(Integer)
-  fullName.vb: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted(Integer)
-  name.vb: OfferAutoNextStageOnApppointmentCompleted(Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus(System.Int32,System.Boolean)
   commentId: M:SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus(System.Int32,System.Boolean)
   id: GetNextProjectStatus(System.Int32,System.Boolean)
@@ -141,10 +172,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetNextProjectStatus(int, bool)
-  nameWithType: ProjectGuideUtility.GetNextProjectStatus(int, bool)
-  fullName: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus(int, bool)
+  name: GetNextProjectStatus(Int32, Boolean)
+  nameWithType: ProjectGuideUtility.GetNextProjectStatus(Int32, Boolean)
+  fullName: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus(System.Int32, System.Boolean)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM
@@ -159,278 +193,35 @@ items:
       type: System.Int32
     content.vb: Public Shared Function GetNextProjectStatus(projectId As Integer, includeCurrentStatus As Boolean) As Integer
   overload: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus*
-  nameWithType.vb: ProjectGuideUtility.GetNextProjectStatus(Integer, Boolean)
-  fullName.vb: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus(Integer, Boolean)
-  name.vb: GetNextProjectStatus(Integer, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate*
   commentId: Overload:SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate
   isExternal: true
-  href: SuperOffice.CRM.ProjectGuideUtility.html#SuperOffice_CRM_ProjectGuideUtility_CalculateNextMilestoneDate_System_Int32_
   name: CalculateNextMilestoneDate
   nameWithType: ProjectGuideUtility.CalculateNextMilestoneDate
   fullName: SuperOffice.CRM.ProjectGuideUtility.CalculateNextMilestoneDate
@@ -438,32 +229,25 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.NextDateInfo
   commentId: T:SuperOffice.CRM.NextDateInfo
   parent: SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.CRM.NextDateInfo.html
   name: NextDateInfo
   nameWithType: NextDateInfo
   fullName: SuperOffice.CRM.NextDateInfo
 - uid: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate*
   commentId: Overload:SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate
   isExternal: true
-  href: SuperOffice.CRM.ProjectGuideUtility.html#SuperOffice_CRM_ProjectGuideUtility_GetNextMilestoneDate_System_Int32_
   name: GetNextMilestoneDate
   nameWithType: ProjectGuideUtility.GetNextMilestoneDate
   fullName: SuperOffice.CRM.ProjectGuideUtility.GetNextMilestoneDate
 - uid: SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone*
   commentId: Overload:SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone
   isExternal: true
-  href: SuperOffice.CRM.ProjectGuideUtility.html#SuperOffice_CRM_ProjectGuideUtility_BatchUpdateNextMilestone_SuperOffice_CRM_ProgressEstimateCallback_SuperOffice_CRM_ProgressStepCallback_
   name: BatchUpdateNextMilestone
   nameWithType: ProjectGuideUtility.BatchUpdateNextMilestone
   fullName: SuperOffice.CRM.ProjectGuideUtility.BatchUpdateNextMilestone
@@ -471,7 +255,6 @@ references:
   commentId: T:SuperOffice.CRM.ProgressEstimateCallback
   parent: SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.CRM.ProgressEstimateCallback.html
   name: ProgressEstimateCallback
   nameWithType: ProgressEstimateCallback
   fullName: SuperOffice.CRM.ProgressEstimateCallback
@@ -479,14 +262,12 @@ references:
   commentId: T:SuperOffice.CRM.ProgressStepCallback
   parent: SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.CRM.ProgressStepCallback.html
   name: ProgressStepCallback
   nameWithType: ProgressStepCallback
   fullName: SuperOffice.CRM.ProgressStepCallback
 - uid: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted*
   commentId: Overload:SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted
   isExternal: true
-  href: SuperOffice.CRM.ProjectGuideUtility.html#SuperOffice_CRM_ProjectGuideUtility_OfferAutoNextStageOnApppointmentCompleted_System_Int32_
   name: OfferAutoNextStageOnApppointmentCompleted
   nameWithType: ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted
   fullName: SuperOffice.CRM.ProjectGuideUtility.OfferAutoNextStageOnApppointmentCompleted
@@ -494,17 +275,12 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus*
   commentId: Overload:SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus
   isExternal: true
-  href: SuperOffice.CRM.ProjectGuideUtility.html#SuperOffice_CRM_ProjectGuideUtility_GetNextProjectStatus_System_Int32_System_Boolean_
   name: GetNextProjectStatus
   nameWithType: ProjectGuideUtility.GetNextProjectStatus
   fullName: SuperOffice.CRM.ProjectGuideUtility.GetNextProjectStatus

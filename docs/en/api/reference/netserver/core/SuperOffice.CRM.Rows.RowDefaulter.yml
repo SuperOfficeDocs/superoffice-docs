@@ -45,38 +45,34 @@ items:
   nameWithType: RowDefaulter
   fullName: SuperOffice.CRM.Rows.RowDefaulter
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Defaulter for HDB row objects.
-  remarks: >-
-    This defaulter does not know anything about relations, hence the 
-
-    contacts country is not applied on the person and the appointment's 
-
-    text is not set on hte related text object.
+  summary: "\nDefaulter for HDB row objects.  \n"
+  remarks: "\nThis defaulter does not know anything about relations, hence the \ncontacts country is not applied on the person and the appointment&apos;s \ntext is not set on hte related text object.\n"
   example:
-  - >-
-    Takes a HDB Row object and set default values..
-
-    <pre><code class="lang-csharp">ContactRow row; // Some row
-
-    RowDefaulter.SetDefaults(row);</code></pre>
+  - "\nTakes a HDB Row object and set default values..\n<pre><code>ContactRow row; // Some row\nRowDefaulter.SetDefaults(row);</code></pre>\n"
   syntax:
-    content: public sealed class RowDefaulter
-    content.vb: Public NotInheritable Class RowDefaulter
+    content: 'public sealed class RowDefaulter : Object'
+    content.vb: >-
+      Public NotInheritable Class RowDefaulter
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
   extensionMethods:
   - SuperOffice.CRM.Rows.RowDefaulter.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Rows.RowDefaulter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TableRowBase)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TableRowBase)
   id: SetDefaults(SuperOffice.CRM.Rows.TableRowBase)
@@ -88,11 +84,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(TableRowBase)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TableRowBase)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a row.  This default implementation does nothing.
-  example: []
+  summary: "\nSet default values for a row.  This default implementation does nothing.\n"
   syntax:
     content: public static void SetDefaults(TableRowBase row)
     parameters:
@@ -101,6 +99,12 @@ items:
       description: The row to set default values on.
     content.vb: Public Shared Sub SetDefaults(row As TableRowBase)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.DefaulterStrategy)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.DefaulterStrategy)
   id: SetDefaults(SuperOffice.CRM.Rows.TableRowBase,SuperOffice.CRM.Rows.DefaulterStrategy)
@@ -112,11 +116,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(TableRowBase, DefaulterStrategy)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TableRowBase, SuperOffice.CRM.Rows.DefaulterStrategy)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a row.  This default implementation does nothing.
-  example: []
+  summary: "\nSet default values for a row.  This default implementation does nothing.\n"
   syntax:
     content: public static void SetDefaults(TableRowBase row, DefaulterStrategy strategy)
     parameters:
@@ -128,6 +134,12 @@ items:
       description: Strategy used when appliying default values.
     content.vb: Public Shared Sub SetDefaults(row As TableRowBase, strategy As DefaulterStrategy)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketPriorityRow)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketPriorityRow)
   id: SetDefaults(SuperOffice.CRM.Rows.TicketPriorityRow)
@@ -139,11 +151,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(TicketPriorityRow)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketPriorityRow)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a TicketPriorityRow
-  example: []
+  summary: "\nSet default values for a TicketPriorityRow\n"
   syntax:
     content: public static void SetDefaults(TicketPriorityRow row)
     parameters:
@@ -152,6 +166,12 @@ items:
       description: The row to set default values on.
     content.vb: Public Shared Sub SetDefaults(row As TicketPriorityRow)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketPriorityRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketPriorityRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   id: SetDefaults(SuperOffice.CRM.Rows.TicketPriorityRow,SuperOffice.CRM.Rows.DefaulterStrategy)
@@ -163,14 +183,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(TicketPriorityRow, DefaulterStrategy)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketPriorityRow, SuperOffice.CRM.Rows.DefaulterStrategy)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    Set default values for a TicketPriorityRow.
-
-    Implementation correctly sets all default values, like sortOrder, start/stop dates, etc.
-  example: []
+  summary: "\nSet default values for a TicketPriorityRow.\nImplementation correctly sets all default values, like sortOrder, start/stop dates, etc.\n"
   syntax:
     content: public static void SetDefaults(TicketPriorityRow row, DefaulterStrategy strategy)
     parameters:
@@ -182,6 +201,12 @@ items:
       description: Strategy used when appliying default values.
     content.vb: Public Shared Sub SetDefaults(row As TicketPriorityRow, strategy As DefaulterStrategy)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow)
   id: SetDefaults(SuperOffice.CRM.Rows.AppointmentRow)
@@ -193,11 +218,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(AppointmentRow)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.AppointmentRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(AppointmentRow row)
     parameters:
@@ -206,6 +233,12 @@ items:
       description: The row to set default values on.
     content.vb: Public Shared Sub SetDefaults(row As AppointmentRow)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   id: SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.CRM.Rows.DefaulterStrategy)
@@ -217,11 +250,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(AppointmentRow, DefaulterStrategy)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.CRM.Rows.DefaulterStrategy)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.AppointmentRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(AppointmentRow row, DefaulterStrategy strategy)
     parameters:
@@ -233,6 +268,12 @@ items:
       description: Strategy used when appliying default values.
     content.vb: Public Shared Sub SetDefaults(row As AppointmentRow, strategy As DefaulterStrategy)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType)
   id: SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType)
@@ -244,14 +285,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(AppointmentRow, TaskType)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.Data.TaskType)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    Set default values for a <xref href="SuperOffice.CRM.Rows.AppointmentRow" data-throw-if-not-resolved="false"></xref> object.
-
-    Overwrites existing values
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object.\nOverwrites existing values\n"
   syntax:
     content: public static void SetDefaults(AppointmentRow row, TaskType type)
     parameters:
@@ -263,6 +303,12 @@ items:
       description: The type of appointment
     content.vb: Public Shared Sub SetDefaults(row As AppointmentRow, type As TaskType)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy)
   id: SetDefaults(SuperOffice.CRM.Rows.AppointmentRow,SuperOffice.Data.TaskType,SuperOffice.CRM.Rows.DefaulterStrategy)
@@ -274,14 +320,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(AppointmentRow, TaskType, DefaulterStrategy)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.AppointmentRow, SuperOffice.Data.TaskType, SuperOffice.CRM.Rows.DefaulterStrategy)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    Set default values for a <xref href="SuperOffice.CRM.Rows.AppointmentRow" data-throw-if-not-resolved="false"></xref> object.
-
-    Overwrites existing values
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.AppointmentRow\" data-throw-if-not-resolved=\"false\"></xref> object.\nOverwrites existing values\n"
   syntax:
     content: public static void SetDefaults(AppointmentRow row, TaskType type, DefaulterStrategy strategy)
     parameters:
@@ -296,6 +341,12 @@ items:
       description: Strategy used when appliying default values.
     content.vb: Public Shared Sub SetDefaults(row As AppointmentRow, type As TaskType, strategy As DefaulterStrategy)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ContactRow)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ContactRow)
   id: SetDefaults(SuperOffice.CRM.Rows.ContactRow)
@@ -307,11 +358,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(ContactRow)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ContactRow)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.ContactRows" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.ContactRows\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(ContactRow row)
     parameters:
@@ -320,6 +373,12 @@ items:
       description: The row to set default values on.
     content.vb: Public Shared Sub SetDefaults(row As ContactRow)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   id: SetDefaults(SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy)
@@ -331,11 +390,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(ContactRow, DefaulterStrategy)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ContactRow, SuperOffice.CRM.Rows.DefaulterStrategy)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.ContactRows" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.ContactRows\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(ContactRow row, DefaulterStrategy strategy)
     parameters:
@@ -347,6 +408,12 @@ items:
       description: Strategy used when appliying default values.
     content.vb: Public Shared Sub SetDefaults(row As ContactRow, strategy As DefaulterStrategy)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow)
   id: SetDefaults(SuperOffice.CRM.Rows.PersonRow)
@@ -358,11 +425,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(PersonRow)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.PersonRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.PersonRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(PersonRow row)
     parameters:
@@ -371,6 +440,12 @@ items:
       description: The row to set default values on.
     content.vb: Public Shared Sub SetDefaults(row As PersonRow)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   id: SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.DefaulterStrategy)
@@ -382,11 +457,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(PersonRow, DefaulterStrategy)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow, SuperOffice.CRM.Rows.DefaulterStrategy)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.PersonRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.PersonRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(PersonRow row, DefaulterStrategy strategy)
     parameters:
@@ -398,6 +475,12 @@ items:
       description: Strategy used when appliying default values.
     content.vb: Public Shared Sub SetDefaults(row As PersonRow, strategy As DefaulterStrategy)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,System.Int32)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,System.Int32)
   id: SetDefaults(SuperOffice.CRM.Rows.PersonRow,System.Int32)
@@ -405,15 +488,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetDefaults(PersonRow, int)
-  nameWithType: RowDefaulter.SetDefaults(PersonRow, int)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow, int)
+  name: SetDefaults(PersonRow, Int32)
+  nameWithType: RowDefaulter.SetDefaults(PersonRow, Int32)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow, System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.PersonRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.PersonRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(PersonRow row, int contactId)
     parameters:
@@ -424,9 +509,12 @@ items:
       type: System.Int32
     content.vb: Public Shared Sub SetDefaults(row As PersonRow, contactId As Integer)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  nameWithType.vb: RowDefaulter.SetDefaults(PersonRow, Integer)
-  fullName.vb: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow, Integer)
-  name.vb: SetDefaults(PersonRow, Integer)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy)
   id: SetDefaults(SuperOffice.CRM.Rows.PersonRow,System.Int32,SuperOffice.CRM.Rows.DefaulterStrategy)
@@ -434,15 +522,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetDefaults(PersonRow, int, DefaulterStrategy)
-  nameWithType: RowDefaulter.SetDefaults(PersonRow, int, DefaulterStrategy)
-  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow, int, SuperOffice.CRM.Rows.DefaulterStrategy)
+  name: SetDefaults(PersonRow, Int32, DefaulterStrategy)
+  nameWithType: RowDefaulter.SetDefaults(PersonRow, Int32, DefaulterStrategy)
+  fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow, System.Int32, SuperOffice.CRM.Rows.DefaulterStrategy)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.PersonRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.PersonRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(PersonRow row, int contactId, DefaulterStrategy strategy)
     parameters:
@@ -456,9 +546,12 @@ items:
       description: Strategy used when appliying default values.
     content.vb: Public Shared Sub SetDefaults(row As PersonRow, contactId As Integer, strategy As DefaulterStrategy)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
-  nameWithType.vb: RowDefaulter.SetDefaults(PersonRow, Integer, DefaulterStrategy)
-  fullName.vb: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow, Integer, SuperOffice.CRM.Rows.DefaulterStrategy)
-  name.vb: SetDefaults(PersonRow, Integer, DefaulterStrategy)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketStatusRow)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketStatusRow)
   id: SetDefaults(SuperOffice.CRM.Rows.TicketStatusRow)
@@ -470,11 +563,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(TicketStatusRow)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketStatusRow)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.TicketStatusRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.TicketStatusRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(TicketStatusRow row)
     parameters:
@@ -483,6 +578,12 @@ items:
       description: The row to set default values on.
     content.vb: Public Shared Sub SetDefaults(row As TicketStatusRow)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketStatusRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketStatusRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   id: SetDefaults(SuperOffice.CRM.Rows.TicketStatusRow,SuperOffice.CRM.Rows.DefaulterStrategy)
@@ -494,11 +595,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(TicketStatusRow, DefaulterStrategy)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketStatusRow, SuperOffice.CRM.Rows.DefaulterStrategy)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.TicketStatusRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.TicketStatusRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(TicketStatusRow row, DefaulterStrategy strategy)
     parameters:
@@ -510,6 +613,12 @@ items:
       description: Strategy used when appliying default values.
     content.vb: Public Shared Sub SetDefaults(row As TicketStatusRow, strategy As DefaulterStrategy)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketTypeRow)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketTypeRow)
   id: SetDefaults(SuperOffice.CRM.Rows.TicketTypeRow)
@@ -521,11 +630,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(TicketTypeRow)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketTypeRow)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.TicketTypeRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.TicketTypeRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(TicketTypeRow row)
     parameters:
@@ -534,6 +645,12 @@ items:
       description: The row to set default values on.
     content.vb: Public Shared Sub SetDefaults(row As TicketTypeRow)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketTypeRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketTypeRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   id: SetDefaults(SuperOffice.CRM.Rows.TicketTypeRow,SuperOffice.CRM.Rows.DefaulterStrategy)
@@ -545,11 +662,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(TicketTypeRow, DefaulterStrategy)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.TicketTypeRow, SuperOffice.CRM.Rows.DefaulterStrategy)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.TicketTypeRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.TicketTypeRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(TicketTypeRow row, DefaulterStrategy strategy)
     parameters:
@@ -561,6 +680,12 @@ items:
       description: Strategy used when appliying default values.
     content.vb: Public Shared Sub SetDefaults(row As TicketTypeRow, strategy As DefaulterStrategy)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.EjCategoryRow)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.EjCategoryRow)
   id: SetDefaults(SuperOffice.CRM.Rows.EjCategoryRow)
@@ -572,11 +697,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(EjCategoryRow)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.EjCategoryRow)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.EjCategoryRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.EjCategoryRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(EjCategoryRow row)
     parameters:
@@ -585,6 +712,12 @@ items:
       description: The row to set default values on.
     content.vb: Public Shared Sub SetDefaults(row As EjCategoryRow)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.EjCategoryRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.EjCategoryRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   id: SetDefaults(SuperOffice.CRM.Rows.EjCategoryRow,SuperOffice.CRM.Rows.DefaulterStrategy)
@@ -596,11 +729,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(EjCategoryRow, DefaulterStrategy)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.EjCategoryRow, SuperOffice.CRM.Rows.DefaulterStrategy)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.EjCategoryRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.EjCategoryRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(EjCategoryRow row, DefaulterStrategy strategy)
     parameters:
@@ -612,6 +747,12 @@ items:
       description: Strategy used when appliying default values.
     content.vb: Public Shared Sub SetDefaults(row As EjCategoryRow, strategy As DefaulterStrategy)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow)
   id: SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow)
@@ -623,11 +764,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(PersonRow, ContactRow)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow, SuperOffice.CRM.Rows.ContactRow)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.PersonRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.PersonRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(PersonRow row, ContactRow contact)
     parameters:
@@ -639,6 +782,12 @@ items:
       description: The contact row that contains default data.
     content.vb: Public Shared Sub SetDefaults(row As PersonRow, contact As ContactRow)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   id: SetDefaults(SuperOffice.CRM.Rows.PersonRow,SuperOffice.CRM.Rows.ContactRow,SuperOffice.CRM.Rows.DefaulterStrategy)
@@ -650,11 +799,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(PersonRow, ContactRow, DefaulterStrategy)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.PersonRow, SuperOffice.CRM.Rows.ContactRow, SuperOffice.CRM.Rows.DefaulterStrategy)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.PersonRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.PersonRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(PersonRow row, ContactRow contact, DefaulterStrategy strategy)
     parameters:
@@ -669,6 +820,12 @@ items:
       description: Strategy used when appliying default values.
     content.vb: Public Shared Sub SetDefaults(row As PersonRow, contact As ContactRow, strategy As DefaulterStrategy)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ProjectRow)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ProjectRow)
   id: SetDefaults(SuperOffice.CRM.Rows.ProjectRow)
@@ -680,11 +837,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(ProjectRow)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ProjectRow)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.ProjectRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.ProjectRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(ProjectRow row)
     parameters:
@@ -693,6 +852,12 @@ items:
       description: The row to set default values on.
     content.vb: Public Shared Sub SetDefaults(row As ProjectRow)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ProjectRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ProjectRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   id: SetDefaults(SuperOffice.CRM.Rows.ProjectRow,SuperOffice.CRM.Rows.DefaulterStrategy)
@@ -704,11 +869,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(ProjectRow, DefaulterStrategy)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.ProjectRow, SuperOffice.CRM.Rows.DefaulterStrategy)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.ProjectRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.ProjectRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(ProjectRow row, DefaulterStrategy strategy)
     parameters:
@@ -720,6 +887,12 @@ items:
       description: Strategy used when appliying default values.
     content.vb: Public Shared Sub SetDefaults(row As ProjectRow, strategy As DefaulterStrategy)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SaleRow)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SaleRow)
   id: SetDefaults(SuperOffice.CRM.Rows.SaleRow)
@@ -731,11 +904,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(SaleRow)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SaleRow)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.SaleRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.SaleRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(SaleRow row)
     parameters:
@@ -744,6 +919,12 @@ items:
       description: The row to set default values on.
     content.vb: Public Shared Sub SetDefaults(row As SaleRow)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SaleRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SaleRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   id: SetDefaults(SuperOffice.CRM.Rows.SaleRow,SuperOffice.CRM.Rows.DefaulterStrategy)
@@ -755,11 +936,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(SaleRow, DefaulterStrategy)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SaleRow, SuperOffice.CRM.Rows.DefaulterStrategy)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.SaleRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.SaleRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(SaleRow row, DefaulterStrategy strategy)
     parameters:
@@ -771,6 +954,12 @@ items:
       description: Strategy used when appliying default values.
     content.vb: Public Shared Sub SetDefaults(row As SaleRow, strategy As DefaulterStrategy)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SelectionRow)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SelectionRow)
   id: SetDefaults(SuperOffice.CRM.Rows.SelectionRow)
@@ -782,11 +971,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(SelectionRow)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SelectionRow)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.SelectionRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.SelectionRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(SelectionRow row)
     parameters:
@@ -795,6 +986,12 @@ items:
       description: The row to set default values on.
     content.vb: Public Shared Sub SetDefaults(row As SelectionRow)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SelectionRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SelectionRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   id: SetDefaults(SuperOffice.CRM.Rows.SelectionRow,SuperOffice.CRM.Rows.DefaulterStrategy)
@@ -806,11 +1003,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(SelectionRow, DefaulterStrategy)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.SelectionRow, SuperOffice.CRM.Rows.DefaulterStrategy)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.SelectionRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.SelectionRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(SelectionRow row, DefaulterStrategy strategy)
     parameters:
@@ -822,6 +1021,12 @@ items:
       description: Strategy used when appliying default values.
     content.vb: Public Shared Sub SetDefaults(row As SelectionRow, strategy As DefaulterStrategy)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.DocumentRow)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.DocumentRow)
   id: SetDefaults(SuperOffice.CRM.Rows.DocumentRow)
@@ -833,11 +1038,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(DocumentRow)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.DocumentRow)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.DocumentRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.DocumentRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(DocumentRow row)
     parameters:
@@ -846,6 +1053,12 @@ items:
       description: The row to set default values on.
     content.vb: Public Shared Sub SetDefaults(row As DocumentRow)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.DocumentRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.DocumentRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   id: SetDefaults(SuperOffice.CRM.Rows.DocumentRow,SuperOffice.CRM.Rows.DefaulterStrategy)
@@ -857,11 +1070,13 @@ items:
   nameWithType: RowDefaulter.SetDefaults(DocumentRow, DefaulterStrategy)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.DocumentRow, SuperOffice.CRM.Rows.DefaulterStrategy)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Set default values for a <xref href="SuperOffice.CRM.Rows.DocumentRow" data-throw-if-not-resolved="false"></xref> object.
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.DocumentRow\" data-throw-if-not-resolved=\"false\"></xref> object.\n"
   syntax:
     content: public static void SetDefaults(DocumentRow row, DefaulterStrategy strategy)
     parameters:
@@ -873,6 +1088,12 @@ items:
       description: Strategy used when appliying default values.
     content.vb: Public Shared Sub SetDefaults(row As DocumentRow, strategy As DefaulterStrategy)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.RelationsRow)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.RelationsRow)
   id: SetDefaults(SuperOffice.CRM.Rows.RelationsRow)
@@ -884,19 +1105,26 @@ items:
   nameWithType: RowDefaulter.SetDefaults(RelationsRow)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.RelationsRow)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: 'Set default values for a <xref href="SuperOffice.CRM.Rows.RelationsRow" data-throw-if-not-resolved="false"></xref> object: associate id, group id, end date'
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.RelationsRow\" data-throw-if-not-resolved=\"false\"></xref> object: associate id, group id, end date\n"
   syntax:
     content: public static void SetDefaults(RelationsRow row)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.RelationsRow
-      description: ''
     content.vb: Public Shared Sub SetDefaults(row As RelationsRow)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.RelationsRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.RelationsRow,SuperOffice.CRM.Rows.DefaulterStrategy)
   id: SetDefaults(SuperOffice.CRM.Rows.RelationsRow,SuperOffice.CRM.Rows.DefaulterStrategy)
@@ -908,22 +1136,29 @@ items:
   nameWithType: RowDefaulter.SetDefaults(RelationsRow, DefaulterStrategy)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults(SuperOffice.CRM.Rows.RelationsRow, SuperOffice.CRM.Rows.DefaulterStrategy)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: 'Set default values for a <xref href="SuperOffice.CRM.Rows.RelationsRow" data-throw-if-not-resolved="false"></xref> object: associate id, group id, end date'
-  example: []
+  summary: "\nSet default values for a <xref href=\"SuperOffice.CRM.Rows.RelationsRow\" data-throw-if-not-resolved=\"false\"></xref> object: associate id, group id, end date\n"
   syntax:
     content: public static void SetDefaults(RelationsRow row, DefaulterStrategy strategy)
     parameters:
     - id: row
       type: SuperOffice.CRM.Rows.RelationsRow
-      description: ''
     - id: strategy
       type: SuperOffice.CRM.Rows.DefaulterStrategy
       description: Strategy used when appliying default values.
     content.vb: Public Shared Sub SetDefaults(row As RelationsRow, strategy As DefaulterStrategy)
   overload: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValue(SuperOffice.CRM.Rows.MDOType)
   commentId: M:SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValue(SuperOffice.CRM.Rows.MDOType)
   id: GetDefaultMDOValue(SuperOffice.CRM.Rows.MDOType)
@@ -935,11 +1170,13 @@ items:
   nameWithType: RowDefaulter.GetDefaultMDOValue(MDOType)
   fullName: SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValue(SuperOffice.CRM.Rows.MDOType)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Get default value for an MDO List.
-  example: []
+  summary: "\nGet default value for an MDO List.\n"
   syntax:
     content: public static int GetDefaultMDOValue(MDOType mdoType)
     parameters:
@@ -951,367 +1188,103 @@ items:
       description: Default value for the MDO list.
     content.vb: Public Shared Function GetDefaultMDOValue(mdoType As MDOType) As Integer
   overload: SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.RowDefaulter.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<RowDefaulter, To>(RowDefaulter)
-  nameWithType: EnumUtil.MapEnums<RowDefaulter, To>(RowDefaulter)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.RowDefaulter, To>(SuperOffice.CRM.Rows.RowDefaulter)
-  nameWithType.vb: EnumUtil.MapEnums(Of RowDefaulter, To)(RowDefaulter)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.RowDefaulter, To)(SuperOffice.CRM.Rows.RowDefaulter)
-  name.vb: MapEnums(Of RowDefaulter, To)(RowDefaulter)
+  name: MapEnums<RowDefaulter, To>()
+  nameWithType: EnumUtil.MapEnums<RowDefaulter, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.RowDefaulter, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of RowDefaulter, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.RowDefaulter, To)()
+  name.vb: MapEnums(Of RowDefaulter, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.RowDefaulter)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<RowDefaulter, To>
+    nameWithType: EnumUtil.MapEnums<RowDefaulter, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.RowDefaulter, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.RowDefaulter
-    name: RowDefaulter
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowDefaulter.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.RowDefaulter
-    name: RowDefaulter
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowDefaulter.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.RowDefaulter)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of RowDefaulter, To)
+    nameWithType: EnumUtil.MapEnums(Of RowDefaulter, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.RowDefaulter, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.RowDefaulter
-    name: RowDefaulter
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowDefaulter.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.RowDefaulter
-    name: RowDefaulter
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowDefaulter.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<RowDefaulter, To>(RowDefaulter)
-  nameWithType: Converters.MapEnums<RowDefaulter, To>(RowDefaulter)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.RowDefaulter, To>(SuperOffice.CRM.Rows.RowDefaulter)
-  nameWithType.vb: Converters.MapEnums(Of RowDefaulter, To)(RowDefaulter)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.RowDefaulter, To)(SuperOffice.CRM.Rows.RowDefaulter)
-  name.vb: MapEnums(Of RowDefaulter, To)(RowDefaulter)
+  name: MapEnums<RowDefaulter, To>()
+  nameWithType: Converters.MapEnums<RowDefaulter, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.RowDefaulter, To>()
+  nameWithType.vb: Converters.MapEnums(Of RowDefaulter, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.RowDefaulter, To)()
+  name.vb: MapEnums(Of RowDefaulter, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.RowDefaulter)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<RowDefaulter, To>
+    nameWithType: Converters.MapEnums<RowDefaulter, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.RowDefaulter, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.RowDefaulter
-    name: RowDefaulter
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowDefaulter.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.RowDefaulter
-    name: RowDefaulter
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowDefaulter.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.RowDefaulter)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of RowDefaulter, To)
+    nameWithType: Converters.MapEnums(Of RowDefaulter, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.RowDefaulter, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.RowDefaulter
-    name: RowDefaulter
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowDefaulter.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.RowDefaulter
-    name: RowDefaulter
-    isExternal: true
-    href: SuperOffice.CRM.Rows.RowDefaulter.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1320,45 +1293,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1367,83 +1338,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults*
   commentId: Overload:SuperOffice.CRM.Rows.RowDefaulter.SetDefaults
   isExternal: true
-  href: SuperOffice.CRM.Rows.RowDefaulter.html#SuperOffice_CRM_Rows_RowDefaulter_SetDefaults_SuperOffice_CRM_Rows_TableRowBase_
   name: SetDefaults
   nameWithType: RowDefaulter.SetDefaults
   fullName: SuperOffice.CRM.Rows.RowDefaulter.SetDefaults
@@ -1451,7 +1389,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.TableRowBase
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.TableRowBase.html
   name: TableRowBase
   nameWithType: TableRowBase
   fullName: SuperOffice.CRM.Rows.TableRowBase
@@ -1459,7 +1396,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.DefaulterStrategy
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.DefaulterStrategy.html
   name: DefaulterStrategy
   nameWithType: DefaulterStrategy
   fullName: SuperOffice.CRM.Rows.DefaulterStrategy
@@ -1467,7 +1403,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.TicketPriorityRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.TicketPriorityRow.html
   name: TicketPriorityRow
   nameWithType: TicketPriorityRow
   fullName: SuperOffice.CRM.Rows.TicketPriorityRow
@@ -1475,7 +1410,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.AppointmentRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.AppointmentRow.html
   name: AppointmentRow
   nameWithType: AppointmentRow
   fullName: SuperOffice.CRM.Rows.AppointmentRow
@@ -1483,50 +1417,19 @@ references:
   commentId: T:SuperOffice.Data.TaskType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TaskType.html
   name: TaskType
   nameWithType: TaskType
   fullName: SuperOffice.Data.TaskType
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-- uid: SuperOffice.CRM.Rows.ContactRows
-  commentId: T:SuperOffice.CRM.Rows.ContactRows
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.ContactRows.html
-  name: ContactRows
-  nameWithType: ContactRows
-  fullName: SuperOffice.CRM.Rows.ContactRows
 - uid: SuperOffice.CRM.Rows.ContactRow
   commentId: T:SuperOffice.CRM.Rows.ContactRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.ContactRow.html
   name: ContactRow
   nameWithType: ContactRow
   fullName: SuperOffice.CRM.Rows.ContactRow
@@ -1534,7 +1437,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.PersonRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.PersonRow.html
   name: PersonRow
   nameWithType: PersonRow
   fullName: SuperOffice.CRM.Rows.PersonRow
@@ -1542,18 +1444,13 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Rows.TicketStatusRow
   commentId: T:SuperOffice.CRM.Rows.TicketStatusRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.TicketStatusRow.html
   name: TicketStatusRow
   nameWithType: TicketStatusRow
   fullName: SuperOffice.CRM.Rows.TicketStatusRow
@@ -1561,7 +1458,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.TicketTypeRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.TicketTypeRow.html
   name: TicketTypeRow
   nameWithType: TicketTypeRow
   fullName: SuperOffice.CRM.Rows.TicketTypeRow
@@ -1569,7 +1465,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.EjCategoryRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.EjCategoryRow.html
   name: EjCategoryRow
   nameWithType: EjCategoryRow
   fullName: SuperOffice.CRM.Rows.EjCategoryRow
@@ -1577,7 +1472,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.ProjectRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.ProjectRow.html
   name: ProjectRow
   nameWithType: ProjectRow
   fullName: SuperOffice.CRM.Rows.ProjectRow
@@ -1585,7 +1479,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.SaleRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.SaleRow.html
   name: SaleRow
   nameWithType: SaleRow
   fullName: SuperOffice.CRM.Rows.SaleRow
@@ -1593,7 +1486,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.SelectionRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.SelectionRow.html
   name: SelectionRow
   nameWithType: SelectionRow
   fullName: SuperOffice.CRM.Rows.SelectionRow
@@ -1601,7 +1493,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.DocumentRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.DocumentRow.html
   name: DocumentRow
   nameWithType: DocumentRow
   fullName: SuperOffice.CRM.Rows.DocumentRow
@@ -1609,14 +1500,12 @@ references:
   commentId: T:SuperOffice.CRM.Rows.RelationsRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.RelationsRow.html
   name: RelationsRow
   nameWithType: RelationsRow
   fullName: SuperOffice.CRM.Rows.RelationsRow
 - uid: SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValue*
   commentId: Overload:SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValue
   isExternal: true
-  href: SuperOffice.CRM.Rows.RowDefaulter.html#SuperOffice_CRM_Rows_RowDefaulter_GetDefaultMDOValue_SuperOffice_CRM_Rows_MDOType_
   name: GetDefaultMDOValue
   nameWithType: RowDefaulter.GetDefaultMDOValue
   fullName: SuperOffice.CRM.Rows.RowDefaulter.GetDefaultMDOValue
@@ -1624,7 +1513,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.MDOType
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.MDOType.html
   name: MDOType
   nameWithType: MDOType
   fullName: SuperOffice.CRM.Rows.MDOType

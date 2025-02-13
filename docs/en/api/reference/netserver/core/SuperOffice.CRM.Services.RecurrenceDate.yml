@@ -14,10 +14,10 @@ items:
   - SuperOffice.CRM.Services.RecurrenceDate.Equals(System.Object)
   - SuperOffice.CRM.Services.RecurrenceDate.GetHashCode
   - SuperOffice.CRM.Services.RecurrenceDate.IsConflict
-  - SuperOffice.CRM.Services.RecurrenceDate.ToString
-  - SuperOffice.CRM.Services.RecurrenceDate.Tooltip
   - SuperOffice.CRM.Services.RecurrenceDate.op_Equality(SuperOffice.CRM.Services.RecurrenceDate,SuperOffice.CRM.Services.RecurrenceDate)
   - SuperOffice.CRM.Services.RecurrenceDate.op_Inequality(SuperOffice.CRM.Services.RecurrenceDate,SuperOffice.CRM.Services.RecurrenceDate)
+  - SuperOffice.CRM.Services.RecurrenceDate.Tooltip
+  - SuperOffice.CRM.Services.RecurrenceDate.ToString
   langs:
   - csharp
   - vb
@@ -25,43 +25,35 @@ items:
   nameWithType: RecurrenceDate
   fullName: SuperOffice.CRM.Services.RecurrenceDate
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Class representing a Date for recurrence.
-  example: []
+  summary: "\nClass representing a Date for recurrence.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class RecurrenceDate : IEquatable<RecurrenceDate>, IComparable<RecurrenceDate>
+    content: 'public class RecurrenceDate : Object, IEquatable<RecurrenceDate>, IComparable<RecurrenceDate>'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class RecurrenceDate Implements IEquatable(Of RecurrenceDate), IComparable(Of RecurrenceDate)
+      Public Class RecurrenceDate
+          Inherits Object
+          Implements IEquatable(Of RecurrenceDate), IComparable(Of RecurrenceDate)
   inheritance:
   - System.Object
   implements:
   - System.IEquatable{SuperOffice.CRM.Services.RecurrenceDate}
   - System.IComparable{SuperOffice.CRM.Services.RecurrenceDate}
-  inheritedMembers:
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Services.RecurrenceDate.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Services.RecurrenceDate.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Services.RecurrenceDate.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.RecurrenceDate)
   - SuperOffice.CRM.Services.RecurrenceDate.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  - SuperOffice.CRM.Services.RecurrenceDate.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.RecurrenceDate.#ctor
   commentId: M:SuperOffice.CRM.Services.RecurrenceDate.#ctor
   id: '#ctor'
@@ -73,16 +65,20 @@ items:
   nameWithType: RecurrenceDate.RecurrenceDate()
   fullName: SuperOffice.CRM.Services.RecurrenceDate.RecurrenceDate()
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public RecurrenceDate()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.RecurrenceDate.#ctor*
-  nameWithType.vb: RecurrenceDate.New()
-  fullName.vb: SuperOffice.CRM.Services.RecurrenceDate.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.RecurrenceDate.ToString
   commentId: M:SuperOffice.CRM.Services.RecurrenceDate.ToString
   id: ToString
@@ -94,17 +90,24 @@ items:
   nameWithType: RecurrenceDate.ToString()
   fullName: SuperOffice.CRM.Services.RecurrenceDate.ToString()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.RecurrenceDate.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.RecurrenceDate.op_Equality(SuperOffice.CRM.Services.RecurrenceDate,SuperOffice.CRM.Services.RecurrenceDate)
   commentId: M:SuperOffice.CRM.Services.RecurrenceDate.op_Equality(SuperOffice.CRM.Services.RecurrenceDate,SuperOffice.CRM.Services.RecurrenceDate)
   id: op_Equality(SuperOffice.CRM.Services.RecurrenceDate,SuperOffice.CRM.Services.RecurrenceDate)
@@ -112,15 +115,17 @@ items:
   langs:
   - csharp
   - vb
-  name: operator ==(RecurrenceDate, RecurrenceDate)
-  nameWithType: RecurrenceDate.operator ==(RecurrenceDate, RecurrenceDate)
-  fullName: SuperOffice.CRM.Services.RecurrenceDate.operator ==(SuperOffice.CRM.Services.RecurrenceDate, SuperOffice.CRM.Services.RecurrenceDate)
+  name: Equality(RecurrenceDate, RecurrenceDate)
+  nameWithType: RecurrenceDate.Equality(RecurrenceDate, RecurrenceDate)
+  fullName: SuperOffice.CRM.Services.RecurrenceDate.Equality(SuperOffice.CRM.Services.RecurrenceDate, SuperOffice.CRM.Services.RecurrenceDate)
   type: Operator
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Determine if a is equal to b.
-  example: []
+  summary: "\nDetermine if a is equal to b.\n"
   syntax:
     content: public static bool operator ==(RecurrenceDate a, RecurrenceDate b)
     parameters:
@@ -135,9 +140,12 @@ items:
       description: True if the objects are equal.
     content.vb: Public Shared Operator =(a As RecurrenceDate, b As RecurrenceDate) As Boolean
   overload: SuperOffice.CRM.Services.RecurrenceDate.op_Equality*
-  nameWithType.vb: RecurrenceDate.=(RecurrenceDate, RecurrenceDate)
-  fullName.vb: SuperOffice.CRM.Services.RecurrenceDate.=(SuperOffice.CRM.Services.RecurrenceDate, SuperOffice.CRM.Services.RecurrenceDate)
-  name.vb: =(RecurrenceDate, RecurrenceDate)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Services.RecurrenceDate.op_Inequality(SuperOffice.CRM.Services.RecurrenceDate,SuperOffice.CRM.Services.RecurrenceDate)
   commentId: M:SuperOffice.CRM.Services.RecurrenceDate.op_Inequality(SuperOffice.CRM.Services.RecurrenceDate,SuperOffice.CRM.Services.RecurrenceDate)
   id: op_Inequality(SuperOffice.CRM.Services.RecurrenceDate,SuperOffice.CRM.Services.RecurrenceDate)
@@ -145,15 +153,17 @@ items:
   langs:
   - csharp
   - vb
-  name: operator !=(RecurrenceDate, RecurrenceDate)
-  nameWithType: RecurrenceDate.operator !=(RecurrenceDate, RecurrenceDate)
-  fullName: SuperOffice.CRM.Services.RecurrenceDate.operator !=(SuperOffice.CRM.Services.RecurrenceDate, SuperOffice.CRM.Services.RecurrenceDate)
+  name: Inequality(RecurrenceDate, RecurrenceDate)
+  nameWithType: RecurrenceDate.Inequality(RecurrenceDate, RecurrenceDate)
+  fullName: SuperOffice.CRM.Services.RecurrenceDate.Inequality(SuperOffice.CRM.Services.RecurrenceDate, SuperOffice.CRM.Services.RecurrenceDate)
   type: Operator
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Determine if the objects are not equal.
-  example: []
+  summary: "\nDetermine if the objects are not equal.\n"
   syntax:
     content: public static bool operator !=(RecurrenceDate a, RecurrenceDate b)
     parameters:
@@ -168,9 +178,12 @@ items:
       description: True, if the objects differ.
     content.vb: Public Shared Operator <>(a As RecurrenceDate, b As RecurrenceDate) As Boolean
   overload: SuperOffice.CRM.Services.RecurrenceDate.op_Inequality*
-  nameWithType.vb: RecurrenceDate.<>(RecurrenceDate, RecurrenceDate)
-  fullName.vb: SuperOffice.CRM.Services.RecurrenceDate.<>(SuperOffice.CRM.Services.RecurrenceDate, SuperOffice.CRM.Services.RecurrenceDate)
-  name.vb: <>(RecurrenceDate, RecurrenceDate)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Services.RecurrenceDate.Equals(System.Object)
   commentId: M:SuperOffice.CRM.Services.RecurrenceDate.Equals(System.Object)
   id: Equals(System.Object)
@@ -178,15 +191,17 @@ items:
   langs:
   - csharp
   - vb
-  name: Equals(object)
-  nameWithType: RecurrenceDate.Equals(object)
-  fullName: SuperOffice.CRM.Services.RecurrenceDate.Equals(object)
+  name: Equals(Object)
+  nameWithType: RecurrenceDate.Equals(Object)
+  fullName: SuperOffice.CRM.Services.RecurrenceDate.Equals(System.Object)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Check if the two objects are the equal.
-  example: []
+  summary: "\nCheck if the two objects are the equal.\n"
   syntax:
     content: public override bool Equals(object obj)
     parameters:
@@ -197,11 +212,13 @@ items:
       type: System.Boolean
       description: True, if the objects are equal.
     content.vb: Public Overrides Function Equals(obj As Object) As Boolean
-  overridden: System.Object.Equals(System.Object)
   overload: SuperOffice.CRM.Services.RecurrenceDate.Equals*
-  nameWithType.vb: RecurrenceDate.Equals(Object)
-  fullName.vb: SuperOffice.CRM.Services.RecurrenceDate.Equals(Object)
-  name.vb: Equals(Object)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.RecurrenceDate.GetHashCode
   commentId: M:SuperOffice.CRM.Services.RecurrenceDate.GetHashCode
   id: GetHashCode
@@ -213,19 +230,25 @@ items:
   nameWithType: RecurrenceDate.GetHashCode()
   fullName: SuperOffice.CRM.Services.RecurrenceDate.GetHashCode()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public override int GetHashCode()
     return:
       type: System.Int32
-      description: ''
-    content.vb: Public Overrides Function GetHashCode() As Integer
-  overridden: System.Object.GetHashCode
+    content.vb: Public Overrides Function GetHashCode As Integer
   overload: SuperOffice.CRM.Services.RecurrenceDate.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.RecurrenceDate.Equals(SuperOffice.CRM.Services.RecurrenceDate)
   commentId: M:SuperOffice.CRM.Services.RecurrenceDate.Equals(SuperOffice.CRM.Services.RecurrenceDate)
   id: Equals(SuperOffice.CRM.Services.RecurrenceDate)
@@ -237,24 +260,26 @@ items:
   nameWithType: RecurrenceDate.Equals(RecurrenceDate)
   fullName: SuperOffice.CRM.Services.RecurrenceDate.Equals(SuperOffice.CRM.Services.RecurrenceDate)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: public bool Equals(RecurrenceDate other)
     parameters:
     - id: other
       type: SuperOffice.CRM.Services.RecurrenceDate
-      description: ''
     return:
       type: System.Boolean
-      description: ''
     content.vb: Public Function Equals(other As RecurrenceDate) As Boolean
   overload: SuperOffice.CRM.Services.RecurrenceDate.Equals*
-  implements:
-  - System.IEquatable{SuperOffice.CRM.Services.RecurrenceDate}.Equals(SuperOffice.CRM.Services.RecurrenceDate)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.RecurrenceDate.CompareTo(SuperOffice.CRM.Services.RecurrenceDate)
   commentId: M:SuperOffice.CRM.Services.RecurrenceDate.CompareTo(SuperOffice.CRM.Services.RecurrenceDate)
   id: CompareTo(SuperOffice.CRM.Services.RecurrenceDate)
@@ -266,10 +291,12 @@ items:
   nameWithType: RecurrenceDate.CompareTo(RecurrenceDate)
   fullName: SuperOffice.CRM.Services.RecurrenceDate.CompareTo(SuperOffice.CRM.Services.RecurrenceDate)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  example: []
   syntax:
     content: public int CompareTo(RecurrenceDate other)
     parameters:
@@ -279,8 +306,10 @@ items:
       type: System.Int32
     content.vb: Public Function CompareTo(other As RecurrenceDate) As Integer
   overload: SuperOffice.CRM.Services.RecurrenceDate.CompareTo*
-  implements:
-  - System.IComparable{SuperOffice.CRM.Services.RecurrenceDate}.CompareTo(SuperOffice.CRM.Services.RecurrenceDate)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.RecurrenceDate.Date
   commentId: P:SuperOffice.CRM.Services.RecurrenceDate.Date
   id: Date
@@ -292,28 +321,36 @@ items:
   nameWithType: RecurrenceDate.Date
   fullName: SuperOffice.CRM.Services.RecurrenceDate.Date
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Date of the recurrence.
-  example: []
+  summary: "\nDate of the recurrence.\n"
   syntax:
     content: >-
-      [DataMember]
+      [TimeZoneHint]
 
       public DateTime Date { get; set; }
     parameters: []
     return:
       type: System.DateTime
     content.vb: >-
-      <DataMember>
+      <TimeZoneHint>
 
-      Public Property [Date] As Date
+      Public Property Date As DateTime
   overload: SuperOffice.CRM.Services.RecurrenceDate.Date*
   attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+  - type: SoCore.Shared.CRM.Services.TimeZoneHintAttribute
+    ctor: SoCore.Shared.CRM.Services.TimeZoneHintAttribute.#ctor(SoCore.Shared.CRM.Services.TimeZoneInterpretation,SoCore.Shared.CRM.Services.TimeZoneDiaryAdjustment)
     arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.RecurrenceDate.IsConflict
   commentId: P:SuperOffice.CRM.Services.RecurrenceDate.IsConflict
   id: IsConflict
@@ -325,28 +362,26 @@ items:
   nameWithType: RecurrenceDate.IsConflict
   fullName: SuperOffice.CRM.Services.RecurrenceDate.IsConflict
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Is there a conflict for this occurrence.
-  example: []
+  summary: "\nIs there a conflict for this occurrence.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public bool IsConflict { get; set; }
+    content: public bool IsConflict { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Property IsConflict As Boolean
+    content.vb: Public Property IsConflict As Boolean
   overload: SuperOffice.CRM.Services.RecurrenceDate.IsConflict*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.RecurrenceDate.Description
   commentId: P:SuperOffice.CRM.Services.RecurrenceDate.Description
   id: Description
@@ -358,28 +393,26 @@ items:
   nameWithType: RecurrenceDate.Description
   fullName: SuperOffice.CRM.Services.RecurrenceDate.Description
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Conflict or day (e.g. red, blue, etc. letter-day) name.
-  example: []
+  summary: "\nConflict or day (e.g. red, blue, etc. letter-day) name.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string Description { get; set; }
+    content: public string Description { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property Description As String
+    content.vb: Public Property Description As String
   overload: SuperOffice.CRM.Services.RecurrenceDate.Description*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.RecurrenceDate.DescriptionStyleHint
   commentId: P:SuperOffice.CRM.Services.RecurrenceDate.DescriptionStyleHint
   id: DescriptionStyleHint
@@ -391,28 +424,26 @@ items:
   nameWithType: RecurrenceDate.DescriptionStyleHint
   fullName: SuperOffice.CRM.Services.RecurrenceDate.DescriptionStyleHint
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Style hint for the description (i.e. red for red-letter-days)
-  example: []
+  summary: "\nStyle hint for the description (i.e. red for red-letter-days)\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string DescriptionStyleHint { get; set; }
+    content: public string DescriptionStyleHint { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property DescriptionStyleHint As String
+    content.vb: Public Property DescriptionStyleHint As String
   overload: SuperOffice.CRM.Services.RecurrenceDate.DescriptionStyleHint*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.RecurrenceDate.Tooltip
   commentId: P:SuperOffice.CRM.Services.RecurrenceDate.Tooltip
   id: Tooltip
@@ -424,82 +455,43 @@ items:
   nameWithType: RecurrenceDate.Tooltip
   fullName: SuperOffice.CRM.Services.RecurrenceDate.Tooltip
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.Services
-  summary: Description of conflict or other things happening this day.
-  example: []
+  summary: "\nDescription of conflict or other things happening this day.\n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public string Tooltip { get; set; }
+    content: public string Tooltip { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Property Tooltip As String
+    content.vb: Public Property Tooltip As String
   overload: SuperOffice.CRM.Services.RecurrenceDate.Tooltip*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceDate}
-  commentId: T:System.IEquatable{SuperOffice.CRM.Services.RecurrenceDate}
-  parent: System
+  commentId: '!:System.IEquatable{SuperOffice.CRM.Services.RecurrenceDate}'
   definition: System.IEquatable`1
-  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
   name: IEquatable<RecurrenceDate>
   nameWithType: IEquatable<RecurrenceDate>
   fullName: System.IEquatable<SuperOffice.CRM.Services.RecurrenceDate>
@@ -509,32 +501,40 @@ references:
   spec.csharp:
   - uid: System.IEquatable`1
     name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.RecurrenceDate
     name: RecurrenceDate
+    nameWithType: RecurrenceDate
+    fullName: SuperOffice.CRM.Services.RecurrenceDate
     isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.IEquatable`1
     name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.RecurrenceDate
     name: RecurrenceDate
+    nameWithType: RecurrenceDate
+    fullName: SuperOffice.CRM.Services.RecurrenceDate
     isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.IComparable{SuperOffice.CRM.Services.RecurrenceDate}
-  commentId: T:System.IComparable{SuperOffice.CRM.Services.RecurrenceDate}
-  parent: System
+  commentId: '!:System.IComparable{SuperOffice.CRM.Services.RecurrenceDate}'
   definition: System.IComparable`1
-  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
   name: IComparable<RecurrenceDate>
   nameWithType: IComparable<RecurrenceDate>
   fullName: System.IComparable<SuperOffice.CRM.Services.RecurrenceDate>
@@ -544,444 +544,268 @@ references:
   spec.csharp:
   - uid: System.IComparable`1
     name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.RecurrenceDate
     name: RecurrenceDate
+    nameWithType: RecurrenceDate
+    fullName: SuperOffice.CRM.Services.RecurrenceDate
     isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.IComparable`1
     name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.RecurrenceDate
     name: RecurrenceDate
+    nameWithType: RecurrenceDate
+    fullName: SuperOffice.CRM.Services.RecurrenceDate
     isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
   - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.RecurrenceDate.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<RecurrenceDate, To>(RecurrenceDate)
-  nameWithType: EnumUtil.MapEnums<RecurrenceDate, To>(RecurrenceDate)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.RecurrenceDate, To>(SuperOffice.CRM.Services.RecurrenceDate)
-  nameWithType.vb: EnumUtil.MapEnums(Of RecurrenceDate, To)(RecurrenceDate)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.RecurrenceDate, To)(SuperOffice.CRM.Services.RecurrenceDate)
-  name.vb: MapEnums(Of RecurrenceDate, To)(RecurrenceDate)
+  name: MapEnums<RecurrenceDate, To>()
+  nameWithType: EnumUtil.MapEnums<RecurrenceDate, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.RecurrenceDate, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of RecurrenceDate, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.RecurrenceDate, To)()
+  name.vb: MapEnums(Of RecurrenceDate, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Services.RecurrenceDate)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<RecurrenceDate, To>
+    nameWithType: EnumUtil.MapEnums<RecurrenceDate, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.RecurrenceDate, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Services.RecurrenceDate
-    name: RecurrenceDate
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Services.RecurrenceDate
-    name: RecurrenceDate
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Services.RecurrenceDate)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of RecurrenceDate, To)
+    nameWithType: EnumUtil.MapEnums(Of RecurrenceDate, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.RecurrenceDate, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.RecurrenceDate
-    name: RecurrenceDate
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Services.RecurrenceDate
-    name: RecurrenceDate
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
-  - name: )
-- uid: SuperOffice.CRM.Services.RecurrenceDate.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<RecurrenceDate, To>(RecurrenceDate)
-  nameWithType: Converters.MapEnums<RecurrenceDate, To>(RecurrenceDate)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.RecurrenceDate, To>(SuperOffice.CRM.Services.RecurrenceDate)
-  nameWithType.vb: Converters.MapEnums(Of RecurrenceDate, To)(RecurrenceDate)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.RecurrenceDate, To)(SuperOffice.CRM.Services.RecurrenceDate)
-  name.vb: MapEnums(Of RecurrenceDate, To)(RecurrenceDate)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Services.RecurrenceDate)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Services.RecurrenceDate
-    name: RecurrenceDate
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Services.RecurrenceDate
-    name: RecurrenceDate
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Services.RecurrenceDate)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.RecurrenceDate
-    name: RecurrenceDate
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Services.RecurrenceDate
-    name: RecurrenceDate
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.RecurrenceDate.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.RecurrenceDate)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<RecurrenceDate>(RecurrenceDate, RecurrenceDate)
-  nameWithType: ObjectExtensions.AssignByReflection<RecurrenceDate>(RecurrenceDate, RecurrenceDate)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.RecurrenceDate>(SuperOffice.CRM.Services.RecurrenceDate, SuperOffice.CRM.Services.RecurrenceDate)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RecurrenceDate)(RecurrenceDate, RecurrenceDate)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.RecurrenceDate)(SuperOffice.CRM.Services.RecurrenceDate, SuperOffice.CRM.Services.RecurrenceDate)
-  name.vb: AssignByReflection(Of RecurrenceDate)(RecurrenceDate, RecurrenceDate)
+  name: AssignByReflection<RecurrenceDate>(RecurrenceDate)
+  nameWithType: ObjectExtensions.AssignByReflection<RecurrenceDate>(RecurrenceDate)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.RecurrenceDate>(SuperOffice.CRM.Services.RecurrenceDate)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RecurrenceDate)(RecurrenceDate)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.RecurrenceDate)(SuperOffice.CRM.Services.RecurrenceDate)
+  name.vb: AssignByReflection(Of RecurrenceDate)(RecurrenceDate)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.RecurrenceDate,SuperOffice.CRM.Services.RecurrenceDate)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<RecurrenceDate>
+    nameWithType: ObjectExtensions.AssignByReflection<RecurrenceDate>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Services.RecurrenceDate>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Services.RecurrenceDate
-    name: RecurrenceDate
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.RecurrenceDate
     name: RecurrenceDate
+    nameWithType: RecurrenceDate
+    fullName: SuperOffice.CRM.Services.RecurrenceDate
     isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Services.RecurrenceDate
-    name: RecurrenceDate
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Services.RecurrenceDate,SuperOffice.CRM.Services.RecurrenceDate)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of RecurrenceDate)
+    nameWithType: ObjectExtensions.AssignByReflection(Of RecurrenceDate)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Services.RecurrenceDate)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.RecurrenceDate
     name: RecurrenceDate
+    nameWithType: RecurrenceDate
+    fullName: SuperOffice.CRM.Services.RecurrenceDate
     isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Services.RecurrenceDate
-    name: RecurrenceDate
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Services.RecurrenceDate
-    name: RecurrenceDate
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.RecurrenceDate.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<RecurrenceDate>(RecurrenceDate)
-  nameWithType: ObjectExtensions.GraphCopy<RecurrenceDate>(RecurrenceDate)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.RecurrenceDate>(SuperOffice.CRM.Services.RecurrenceDate)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of RecurrenceDate)(RecurrenceDate)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.RecurrenceDate)(SuperOffice.CRM.Services.RecurrenceDate)
-  name.vb: GraphCopy(Of RecurrenceDate)(RecurrenceDate)
+  name: GraphCopy<RecurrenceDate>()
+  nameWithType: ObjectExtensions.GraphCopy<RecurrenceDate>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.RecurrenceDate>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of RecurrenceDate)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.RecurrenceDate)()
+  name.vb: GraphCopy(Of RecurrenceDate)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Services.RecurrenceDate)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<RecurrenceDate>
+    nameWithType: ObjectExtensions.GraphCopy<RecurrenceDate>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Services.RecurrenceDate>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Services.RecurrenceDate
-    name: RecurrenceDate
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Services.RecurrenceDate
-    name: RecurrenceDate
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Services.RecurrenceDate)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of RecurrenceDate)
+    nameWithType: ObjectExtensions.GraphCopy(Of RecurrenceDate)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Services.RecurrenceDate)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.RecurrenceDate
-    name: RecurrenceDate
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.RecurrenceDate.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<RecurrenceDate, To>()
+  nameWithType: Converters.MapEnums<RecurrenceDate, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.RecurrenceDate, To>()
+  nameWithType.vb: Converters.MapEnums(Of RecurrenceDate, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.RecurrenceDate, To)()
+  name.vb: MapEnums(Of RecurrenceDate, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<RecurrenceDate, To>
+    nameWithType: Converters.MapEnums<RecurrenceDate, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.RecurrenceDate, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.Services.RecurrenceDate
-    name: RecurrenceDate
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of RecurrenceDate, To)
+    nameWithType: Converters.MapEnums(Of RecurrenceDate, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.RecurrenceDate, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: System.IEquatable`1
-  commentId: T:System.IEquatable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
-  name: IEquatable<T>
-  nameWithType: IEquatable<T>
-  fullName: System.IEquatable<T>
-  nameWithType.vb: IEquatable(Of T)
-  fullName.vb: System.IEquatable(Of T)
-  name.vb: IEquatable(Of T)
+  name: IEquatable<>
+  nameWithType: IEquatable<>
+  fullName: System.IEquatable<>
+  nameWithType.vb: IEquatable(Of )
+  fullName.vb: System.IEquatable(Of )
+  name.vb: IEquatable(Of )
   spec.csharp:
   - uid: System.IEquatable`1
     name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.IEquatable`1
     name: IEquatable
+    nameWithType: IEquatable
+    fullName: System.IEquatable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.IComparable`1
-  commentId: T:System.IComparable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
-  name: IComparable<T>
-  nameWithType: IComparable<T>
-  fullName: System.IComparable<T>
-  nameWithType.vb: IComparable(Of T)
-  fullName.vb: System.IComparable(Of T)
-  name.vb: IComparable(Of T)
+  name: IComparable<>
+  nameWithType: IComparable<>
+  fullName: System.IComparable<>
+  nameWithType.vb: IComparable(Of )
+  fullName.vb: System.IComparable(Of )
+  name.vb: IComparable(Of )
   spec.csharp:
   - uid: System.IComparable`1
     name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.IComparable`1
     name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -990,93 +814,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1085,46 +859,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1133,130 +917,101 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.CRM.Services.RecurrenceDate.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceDate.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceDate.html#SuperOffice_CRM_Services_RecurrenceDate__ctor
   name: RecurrenceDate
   nameWithType: RecurrenceDate.RecurrenceDate
   fullName: SuperOffice.CRM.Services.RecurrenceDate.RecurrenceDate
-  nameWithType.vb: RecurrenceDate.New
-  fullName.vb: SuperOffice.CRM.Services.RecurrenceDate.New
-  name.vb: New
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Services.RecurrenceDate.ToString*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceDate.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceDate.html#SuperOffice_CRM_Services_RecurrenceDate_ToString
   name: ToString
   nameWithType: RecurrenceDate.ToString
   fullName: SuperOffice.CRM.Services.RecurrenceDate.ToString
@@ -1264,35 +1019,19 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.RecurrenceDate.op_Equality*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceDate.op_Equality
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceDate.html#SuperOffice_CRM_Services_RecurrenceDate_op_Equality_SuperOffice_CRM_Services_RecurrenceDate_SuperOffice_CRM_Services_RecurrenceDate_
-  name: operator ==
-  nameWithType: RecurrenceDate.operator ==
-  fullName: SuperOffice.CRM.Services.RecurrenceDate.operator ==
-  nameWithType.vb: RecurrenceDate.=
-  fullName.vb: SuperOffice.CRM.Services.RecurrenceDate.=
-  name.vb: =
-  spec.csharp:
-  - name: operator
-  - name: " "
-  - uid: SuperOffice.CRM.Services.RecurrenceDate.op_Equality*
-    name: ==
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html#SuperOffice_CRM_Services_RecurrenceDate_op_Equality_SuperOffice_CRM_Services_RecurrenceDate_SuperOffice_CRM_Services_RecurrenceDate_
+  name: Equality
+  nameWithType: RecurrenceDate.Equality
+  fullName: SuperOffice.CRM.Services.RecurrenceDate.Equality
 - uid: SuperOffice.CRM.Services.RecurrenceDate
   commentId: T:SuperOffice.CRM.Services.RecurrenceDate
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceDate.html
   name: RecurrenceDate
   nameWithType: RecurrenceDate
   fullName: SuperOffice.CRM.Services.RecurrenceDate
@@ -1300,98 +1039,24 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.RecurrenceDate.op_Inequality*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceDate.op_Inequality
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceDate.html#SuperOffice_CRM_Services_RecurrenceDate_op_Inequality_SuperOffice_CRM_Services_RecurrenceDate_SuperOffice_CRM_Services_RecurrenceDate_
-  name: operator !=
-  nameWithType: RecurrenceDate.operator !=
-  fullName: SuperOffice.CRM.Services.RecurrenceDate.operator !=
-  nameWithType.vb: RecurrenceDate.<>
-  fullName.vb: SuperOffice.CRM.Services.RecurrenceDate.<>
-  name.vb: <>
-  spec.csharp:
-  - name: operator
-  - name: " "
-  - uid: SuperOffice.CRM.Services.RecurrenceDate.op_Inequality*
-    name: '!='
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html#SuperOffice_CRM_Services_RecurrenceDate_op_Inequality_SuperOffice_CRM_Services_RecurrenceDate_SuperOffice_CRM_Services_RecurrenceDate_
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
+  name: Inequality
+  nameWithType: RecurrenceDate.Inequality
+  fullName: SuperOffice.CRM.Services.RecurrenceDate.Inequality
 - uid: SuperOffice.CRM.Services.RecurrenceDate.Equals*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceDate.Equals
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceDate.html#SuperOffice_CRM_Services_RecurrenceDate_Equals_System_Object_
   name: Equals
   nameWithType: RecurrenceDate.Equals
   fullName: SuperOffice.CRM.Services.RecurrenceDate.Equals
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Services.RecurrenceDate.GetHashCode*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceDate.GetHashCode
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceDate.html#SuperOffice_CRM_Services_RecurrenceDate_GetHashCode
   name: GetHashCode
   nameWithType: RecurrenceDate.GetHashCode
   fullName: SuperOffice.CRM.Services.RecurrenceDate.GetHashCode
@@ -1399,177 +1064,47 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceDate}.Equals(SuperOffice.CRM.Services.RecurrenceDate)
-  commentId: M:System.IEquatable{SuperOffice.CRM.Services.RecurrenceDate}.Equals(SuperOffice.CRM.Services.RecurrenceDate)
-  parent: System.IEquatable{SuperOffice.CRM.Services.RecurrenceDate}
-  definition: System.IEquatable`1.Equals(`0)
-  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
-  name: Equals(RecurrenceDate)
-  nameWithType: IEquatable<RecurrenceDate>.Equals(RecurrenceDate)
-  fullName: System.IEquatable<SuperOffice.CRM.Services.RecurrenceDate>.Equals(SuperOffice.CRM.Services.RecurrenceDate)
-  nameWithType.vb: IEquatable(Of RecurrenceDate).Equals(RecurrenceDate)
-  fullName.vb: System.IEquatable(Of SuperOffice.CRM.Services.RecurrenceDate).Equals(SuperOffice.CRM.Services.RecurrenceDate)
-  spec.csharp:
-  - uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceDate}.Equals(SuperOffice.CRM.Services.RecurrenceDate)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
-  - name: (
-  - uid: SuperOffice.CRM.Services.RecurrenceDate
-    name: RecurrenceDate
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
-  - name: )
-  spec.vb:
-  - uid: System.IEquatable{SuperOffice.CRM.Services.RecurrenceDate}.Equals(SuperOffice.CRM.Services.RecurrenceDate)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
-  - name: (
-  - uid: SuperOffice.CRM.Services.RecurrenceDate
-    name: RecurrenceDate
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
-  - name: )
-- uid: System.IEquatable`1.Equals(`0)
-  commentId: M:System.IEquatable`1.Equals(`0)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
-  name: Equals(T)
-  nameWithType: IEquatable<T>.Equals(T)
-  fullName: System.IEquatable<T>.Equals(T)
-  nameWithType.vb: IEquatable(Of T).Equals(T)
-  fullName.vb: System.IEquatable(Of T).Equals(T)
-  spec.csharp:
-  - uid: System.IEquatable`1.Equals(`0)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: System.IEquatable`1.Equals(`0)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1.equals
-  - name: (
-  - name: T
-  - name: )
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.RecurrenceDate.CompareTo*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceDate.CompareTo
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceDate.html#SuperOffice_CRM_Services_RecurrenceDate_CompareTo_SuperOffice_CRM_Services_RecurrenceDate_
   name: CompareTo
   nameWithType: RecurrenceDate.CompareTo
   fullName: SuperOffice.CRM.Services.RecurrenceDate.CompareTo
-- uid: System.IComparable{SuperOffice.CRM.Services.RecurrenceDate}.CompareTo(SuperOffice.CRM.Services.RecurrenceDate)
-  commentId: M:System.IComparable{SuperOffice.CRM.Services.RecurrenceDate}.CompareTo(SuperOffice.CRM.Services.RecurrenceDate)
-  parent: System.IComparable{SuperOffice.CRM.Services.RecurrenceDate}
-  definition: System.IComparable`1.CompareTo(`0)
-  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
-  name: CompareTo(RecurrenceDate)
-  nameWithType: IComparable<RecurrenceDate>.CompareTo(RecurrenceDate)
-  fullName: System.IComparable<SuperOffice.CRM.Services.RecurrenceDate>.CompareTo(SuperOffice.CRM.Services.RecurrenceDate)
-  nameWithType.vb: IComparable(Of RecurrenceDate).CompareTo(RecurrenceDate)
-  fullName.vb: System.IComparable(Of SuperOffice.CRM.Services.RecurrenceDate).CompareTo(SuperOffice.CRM.Services.RecurrenceDate)
-  spec.csharp:
-  - uid: System.IComparable{SuperOffice.CRM.Services.RecurrenceDate}.CompareTo(SuperOffice.CRM.Services.RecurrenceDate)
-    name: CompareTo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
-  - name: (
-  - uid: SuperOffice.CRM.Services.RecurrenceDate
-    name: RecurrenceDate
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
-  - name: )
-  spec.vb:
-  - uid: System.IComparable{SuperOffice.CRM.Services.RecurrenceDate}.CompareTo(SuperOffice.CRM.Services.RecurrenceDate)
-    name: CompareTo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
-  - name: (
-  - uid: SuperOffice.CRM.Services.RecurrenceDate
-    name: RecurrenceDate
-    isExternal: true
-    href: SuperOffice.CRM.Services.RecurrenceDate.html
-  - name: )
-- uid: System.IComparable`1.CompareTo(`0)
-  commentId: M:System.IComparable`1.CompareTo(`0)
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
-  name: CompareTo(T)
-  nameWithType: IComparable<T>.CompareTo(T)
-  fullName: System.IComparable<T>.CompareTo(T)
-  nameWithType.vb: IComparable(Of T).CompareTo(T)
-  fullName.vb: System.IComparable(Of T).CompareTo(T)
-  spec.csharp:
-  - uid: System.IComparable`1.CompareTo(`0)
-    name: CompareTo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: System.IComparable`1.CompareTo(`0)
-    name: CompareTo
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.icomparable-1.compareto
-  - name: (
-  - name: T
-  - name: )
 - uid: SuperOffice.CRM.Services.RecurrenceDate.Date*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceDate.Date
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceDate.html#SuperOffice_CRM_Services_RecurrenceDate_Date
   name: Date
   nameWithType: RecurrenceDate.Date
   fullName: SuperOffice.CRM.Services.RecurrenceDate.Date
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.RecurrenceDate.IsConflict*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceDate.IsConflict
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceDate.html#SuperOffice_CRM_Services_RecurrenceDate_IsConflict
   name: IsConflict
   nameWithType: RecurrenceDate.IsConflict
   fullName: SuperOffice.CRM.Services.RecurrenceDate.IsConflict
 - uid: SuperOffice.CRM.Services.RecurrenceDate.Description*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceDate.Description
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceDate.html#SuperOffice_CRM_Services_RecurrenceDate_Description
   name: Description
   nameWithType: RecurrenceDate.Description
   fullName: SuperOffice.CRM.Services.RecurrenceDate.Description
 - uid: SuperOffice.CRM.Services.RecurrenceDate.DescriptionStyleHint*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceDate.DescriptionStyleHint
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceDate.html#SuperOffice_CRM_Services_RecurrenceDate_DescriptionStyleHint
   name: DescriptionStyleHint
   nameWithType: RecurrenceDate.DescriptionStyleHint
   fullName: SuperOffice.CRM.Services.RecurrenceDate.DescriptionStyleHint
 - uid: SuperOffice.CRM.Services.RecurrenceDate.Tooltip*
   commentId: Overload:SuperOffice.CRM.Services.RecurrenceDate.Tooltip
   isExternal: true
-  href: SuperOffice.CRM.Services.RecurrenceDate.html#SuperOffice_CRM_Services_RecurrenceDate_Tooltip
   name: Tooltip
   nameWithType: RecurrenceDate.Tooltip
   fullName: SuperOffice.CRM.Services.RecurrenceDate.Tooltip

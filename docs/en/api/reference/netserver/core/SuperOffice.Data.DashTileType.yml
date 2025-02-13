@@ -17,6 +17,7 @@ items:
   - SuperOffice.Data.DashTileType.List
   - SuperOffice.Data.DashTileType.None
   - SuperOffice.Data.DashTileType.Pie
+  - SuperOffice.Data.DashTileType.value__
   - SuperOffice.Data.DashTileType.WebPanel
   langs:
   - csharp
@@ -24,38 +25,60 @@ items:
   name: DashTileType
   nameWithType: DashTileType
   fullName: SuperOffice.Data.DashTileType
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: >-
-    Dashboard tile chart type (V2)
-
-    This Enum is used by:  dashboard_tile_definition.tile_type
-  example: []
+  summary: "\nDashboard tile chart type (V2)\nThis Enum is used by:  dashboard_tile_definition.tile_type\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum DashTileType : short
+    content: 'public sealed class DashTileType : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class DashTileType
+          Inherits
 
-      Public Enum DashTileType As Short
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.DashTileType.EnumUtil.MapEnums``2
   - SuperOffice.Data.DashTileType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.DashTileType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DashTileType)
-  - SuperOffice.Data.DashTileType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.DashTileType.value__
+  commentId: F:SuperOffice.Data.DashTileType.value__
+  id: value__
+  parent: SuperOffice.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DashTileType.value__
+  fullName: SuperOffice.Data.DashTileType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.DashTileType.None
   commentId: F:SuperOffice.Data.DashTileType.None
   id: None
@@ -67,26 +90,24 @@ items:
   nameWithType: DashTileType.None
   fullName: SuperOffice.Data.DashTileType.None
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: None'
-  example: []
+  summary: "\n0: None\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const DashTileType None
     return:
       type: SuperOffice.Data.DashTileType
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.DashTileType.Pie
   commentId: F:SuperOffice.Data.DashTileType.Pie
   id: Pie
@@ -98,26 +119,24 @@ items:
   nameWithType: DashTileType.Pie
   fullName: SuperOffice.Data.DashTileType.Pie
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Pie'
-  example: []
+  summary: "\n1: Pie\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Pie = 1
+    content: public const DashTileType Pie
     return:
       type: SuperOffice.Data.DashTileType
-    content.vb: >-
-      <EnumMember>
-
-      Pie = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Pie As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.DashTileType.List
   commentId: F:SuperOffice.Data.DashTileType.List
   id: List
@@ -129,26 +148,24 @@ items:
   nameWithType: DashTileType.List
   fullName: SuperOffice.Data.DashTileType.List
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: List'
-  example: []
+  summary: "\n2: List\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      List = 2
+    content: public const DashTileType List
     return:
       type: SuperOffice.Data.DashTileType
-    content.vb: >-
-      <EnumMember>
-
-      List = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const List As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.DashTileType.BigNum
   commentId: F:SuperOffice.Data.DashTileType.BigNum
   id: BigNum
@@ -160,26 +177,24 @@ items:
   nameWithType: DashTileType.BigNum
   fullName: SuperOffice.Data.DashTileType.BigNum
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '3: BigNum'
-  example: []
+  summary: "\n3: BigNum\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      BigNum = 3
+    content: public const DashTileType BigNum
     return:
       type: SuperOffice.Data.DashTileType
-    content.vb: >-
-      <EnumMember>
-
-      BigNum = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const BigNum As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.DashTileType.Bar
   commentId: F:SuperOffice.Data.DashTileType.Bar
   id: Bar
@@ -191,26 +206,24 @@ items:
   nameWithType: DashTileType.Bar
   fullName: SuperOffice.Data.DashTileType.Bar
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '4: Bar'
-  example: []
+  summary: "\n4: Bar\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Bar = 4
+    content: public const DashTileType Bar
     return:
       type: SuperOffice.Data.DashTileType
-    content.vb: >-
-      <EnumMember>
-
-      Bar = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Bar As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.DashTileType.Line
   commentId: F:SuperOffice.Data.DashTileType.Line
   id: Line
@@ -222,26 +235,24 @@ items:
   nameWithType: DashTileType.Line
   fullName: SuperOffice.Data.DashTileType.Line
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '5: Line'
-  example: []
+  summary: "\n5: Line\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Line = 5
+    content: public const DashTileType Line
     return:
       type: SuperOffice.Data.DashTileType
-    content.vb: >-
-      <EnumMember>
-
-      Line = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Line As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.DashTileType.Area
   commentId: F:SuperOffice.Data.DashTileType.Area
   id: Area
@@ -253,26 +264,24 @@ items:
   nameWithType: DashTileType.Area
   fullName: SuperOffice.Data.DashTileType.Area
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '6: Area'
-  example: []
+  summary: "\n6: Area\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Area = 6
+    content: public const DashTileType Area
     return:
       type: SuperOffice.Data.DashTileType
-    content.vb: >-
-      <EnumMember>
-
-      Area = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Area As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.DashTileType.Column
   commentId: F:SuperOffice.Data.DashTileType.Column
   id: Column
@@ -284,26 +293,24 @@ items:
   nameWithType: DashTileType.Column
   fullName: SuperOffice.Data.DashTileType.Column
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '7: Column'
-  example: []
+  summary: "\n7: Column\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Column = 7
+    content: public const DashTileType Column
     return:
       type: SuperOffice.Data.DashTileType
-    content.vb: >-
-      <EnumMember>
-
-      Column = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Column As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.DashTileType.CombinedBarLine
   commentId: F:SuperOffice.Data.DashTileType.CombinedBarLine
   id: CombinedBarLine
@@ -315,26 +322,24 @@ items:
   nameWithType: DashTileType.CombinedBarLine
   fullName: SuperOffice.Data.DashTileType.CombinedBarLine
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '8: CombinedBarLine'
-  example: []
+  summary: "\n8: CombinedBarLine\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      CombinedBarLine = 8
+    content: public const DashTileType CombinedBarLine
     return:
       type: SuperOffice.Data.DashTileType
-    content.vb: >-
-      <EnumMember>
-
-      CombinedBarLine = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const CombinedBarLine As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.DashTileType.CombinedColumnLine
   commentId: F:SuperOffice.Data.DashTileType.CombinedColumnLine
   id: CombinedColumnLine
@@ -346,26 +351,24 @@ items:
   nameWithType: DashTileType.CombinedColumnLine
   fullName: SuperOffice.Data.DashTileType.CombinedColumnLine
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '9: CombinedColumnLine'
-  example: []
+  summary: "\n9: CombinedColumnLine\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      CombinedColumnLine = 9
+    content: public const DashTileType CombinedColumnLine
     return:
       type: SuperOffice.Data.DashTileType
-    content.vb: >-
-      <EnumMember>
-
-      CombinedColumnLine = 9
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const CombinedColumnLine As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.DashTileType.WebPanel
   commentId: F:SuperOffice.Data.DashTileType.WebPanel
   id: WebPanel
@@ -377,26 +380,24 @@ items:
   nameWithType: DashTileType.WebPanel
   fullName: SuperOffice.Data.DashTileType.WebPanel
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10: WebPanel'
-  example: []
+  summary: "\n10: WebPanel\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      WebPanel = 10
+    content: public const DashTileType WebPanel
     return:
       type: SuperOffice.Data.DashTileType
-    content.vb: >-
-      <EnumMember>
-
-      WebPanel = 10
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const WebPanel As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.DashTileType.HTML
   commentId: F:SuperOffice.Data.DashTileType.HTML
   id: HTML
@@ -408,26 +409,24 @@ items:
   nameWithType: DashTileType.HTML
   fullName: SuperOffice.Data.DashTileType.HTML
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '11: HTML'
-  example: []
+  summary: "\n11: HTML\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      HTML = 11
+    content: public const DashTileType HTML
     return:
       type: SuperOffice.Data.DashTileType
-    content.vb: >-
-      <EnumMember>
-
-      HTML = 11
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const HTML As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.DashTileType.Gauge
   commentId: F:SuperOffice.Data.DashTileType.Gauge
   id: Gauge
@@ -439,300 +438,115 @@ items:
   nameWithType: DashTileType.Gauge
   fullName: SuperOffice.Data.DashTileType.Gauge
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '12: Gauge'
-  example: []
+  summary: "\n12: Gauge\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Gauge = 12
+    content: public const DashTileType Gauge
     return:
       type: SuperOffice.Data.DashTileType
-    content.vb: >-
-      <EnumMember>
-
-      Gauge = 12
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Gauge As DashTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.DashTileType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<DashTileType, To>(DashTileType)
-  nameWithType: EnumUtil.MapEnums<DashTileType, To>(DashTileType)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.DashTileType, To>(SuperOffice.Data.DashTileType)
-  nameWithType.vb: EnumUtil.MapEnums(Of DashTileType, To)(DashTileType)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.DashTileType, To)(SuperOffice.Data.DashTileType)
-  name.vb: MapEnums(Of DashTileType, To)(DashTileType)
+  name: MapEnums<DashTileType, To>()
+  nameWithType: EnumUtil.MapEnums<DashTileType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.DashTileType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DashTileType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.DashTileType, To)()
+  name.vb: MapEnums(Of DashTileType, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.DashTileType)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DashTileType, To>
+    nameWithType: EnumUtil.MapEnums<DashTileType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.DashTileType, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    isExternal: true
-    href: SuperOffice.Data.DashTileType.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    isExternal: true
-    href: SuperOffice.Data.DashTileType.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.DashTileType)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DashTileType, To)
+    nameWithType: EnumUtil.MapEnums(Of DashTileType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.DashTileType, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    isExternal: true
-    href: SuperOffice.Data.DashTileType.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    isExternal: true
-    href: SuperOffice.Data.DashTileType.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.DashTileType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<DashTileType, To>(DashTileType)
-  nameWithType: Converters.MapEnums<DashTileType, To>(DashTileType)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.DashTileType, To>(SuperOffice.Data.DashTileType)
-  nameWithType.vb: Converters.MapEnums(Of DashTileType, To)(DashTileType)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.DashTileType, To)(SuperOffice.Data.DashTileType)
-  name.vb: MapEnums(Of DashTileType, To)(DashTileType)
+  name: MapEnums<DashTileType, To>()
+  nameWithType: Converters.MapEnums<DashTileType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.DashTileType, To>()
+  nameWithType.vb: Converters.MapEnums(Of DashTileType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.DashTileType, To)()
+  name.vb: MapEnums(Of DashTileType, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.DashTileType)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DashTileType, To>
+    nameWithType: Converters.MapEnums<DashTileType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.DashTileType, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    isExternal: true
-    href: SuperOffice.Data.DashTileType.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    isExternal: true
-    href: SuperOffice.Data.DashTileType.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.DashTileType)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DashTileType, To)
+    nameWithType: Converters.MapEnums(Of DashTileType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.DashTileType, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    isExternal: true
-    href: SuperOffice.Data.DashTileType.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    isExternal: true
-    href: SuperOffice.Data.DashTileType.html
-  - name: )
-- uid: SuperOffice.Data.DashTileType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DashTileType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<DashTileType>(DashTileType, DashTileType)
-  nameWithType: ObjectExtensions.AssignByReflection<DashTileType>(DashTileType, DashTileType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.DashTileType>(SuperOffice.Data.DashTileType, SuperOffice.Data.DashTileType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DashTileType)(DashTileType, DashTileType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.DashTileType)(SuperOffice.Data.DashTileType, SuperOffice.Data.DashTileType)
-  name.vb: AssignByReflection(Of DashTileType)(DashTileType, DashTileType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DashTileType,SuperOffice.Data.DashTileType)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    isExternal: true
-    href: SuperOffice.Data.DashTileType.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    isExternal: true
-    href: SuperOffice.Data.DashTileType.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    isExternal: true
-    href: SuperOffice.Data.DashTileType.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.DashTileType,SuperOffice.Data.DashTileType)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    isExternal: true
-    href: SuperOffice.Data.DashTileType.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    isExternal: true
-    href: SuperOffice.Data.DashTileType.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    isExternal: true
-    href: SuperOffice.Data.DashTileType.html
-  - name: )
-- uid: SuperOffice.Data.DashTileType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<DashTileType>(DashTileType)
-  nameWithType: ObjectExtensions.GraphCopy<DashTileType>(DashTileType)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.DashTileType>(SuperOffice.Data.DashTileType)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of DashTileType)(DashTileType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.DashTileType)(SuperOffice.Data.DashTileType)
-  name.vb: GraphCopy(Of DashTileType)(DashTileType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.DashTileType)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    isExternal: true
-    href: SuperOffice.Data.DashTileType.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    isExternal: true
-    href: SuperOffice.Data.DashTileType.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.DashTileType)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    isExternal: true
-    href: SuperOffice.Data.DashTileType.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.DashTileType
-    name: DashTileType
-    isExternal: true
-    href: SuperOffice.Data.DashTileType.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -741,45 +555,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -788,222 +600,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.DashTileType
   commentId: T:SuperOffice.Data.DashTileType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.DashTileType.html
   name: DashTileType
   nameWithType: DashTileType
   fullName: SuperOffice.Data.DashTileType

@@ -8,44 +8,67 @@ items:
   - SuperOffice.Data.TicketMessageCategory.Bounce
   - SuperOffice.Data.TicketMessageCategory.Message
   - SuperOffice.Data.TicketMessageCategory.OutboxFailed
+  - SuperOffice.Data.TicketMessageCategory.value__
   langs:
   - csharp
   - vb
   name: TicketMessageCategory
   nameWithType: TicketMessageCategory
   fullName: SuperOffice.Data.TicketMessageCategory
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: >-
-    Classification of ticket messages
-
-    This Enum is used by:  ej_message.message_category
-  example: []
+  summary: "\nClassification of ticket messages\nThis Enum is used by:  ej_message.message_category\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum TicketMessageCategory : short
+    content: 'public sealed class TicketMessageCategory : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class TicketMessageCategory
+          Inherits
 
-      Public Enum TicketMessageCategory As Short
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.TicketMessageCategory.EnumUtil.MapEnums``2
   - SuperOffice.Data.TicketMessageCategory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.TicketMessageCategory.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketMessageCategory)
-  - SuperOffice.Data.TicketMessageCategory.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.TicketMessageCategory.value__
+  commentId: F:SuperOffice.Data.TicketMessageCategory.value__
+  id: value__
+  parent: SuperOffice.Data.TicketMessageCategory
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketMessageCategory.value__
+  fullName: SuperOffice.Data.TicketMessageCategory.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.TicketMessageCategory.Message
   commentId: F:SuperOffice.Data.TicketMessageCategory.Message
   id: Message
@@ -57,26 +80,24 @@ items:
   nameWithType: TicketMessageCategory.Message
   fullName: SuperOffice.Data.TicketMessageCategory.Message
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: A normal message'
-  example: []
+  summary: "\n0: A normal message\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message = 0
+    content: public const TicketMessageCategory Message
     return:
       type: SuperOffice.Data.TicketMessageCategory
-    content.vb: >-
-      <EnumMember>
-
-      Message = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message As TicketMessageCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketMessageCategory.Bounce
   commentId: F:SuperOffice.Data.TicketMessageCategory.Bounce
   id: Bounce
@@ -88,26 +109,24 @@ items:
   nameWithType: TicketMessageCategory.Bounce
   fullName: SuperOffice.Data.TicketMessageCategory.Bounce
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Email bounce'
-  example: []
+  summary: "\n1: Email bounce\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Bounce = 1
+    content: public const TicketMessageCategory Bounce
     return:
       type: SuperOffice.Data.TicketMessageCategory
-    content.vb: >-
-      <EnumMember>
-
-      Bounce = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Bounce As TicketMessageCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketMessageCategory.OutboxFailed
   commentId: F:SuperOffice.Data.TicketMessageCategory.OutboxFailed
   id: OutboxFailed
@@ -119,300 +138,115 @@ items:
   nameWithType: TicketMessageCategory.OutboxFailed
   fullName: SuperOffice.Data.TicketMessageCategory.OutboxFailed
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: This message is the error message returned by the sending system (for example a mail server)'
-  example: []
+  summary: "\n2: This message is the error message returned by the sending system (for example a mail server)\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OutboxFailed = 2
+    content: public const TicketMessageCategory OutboxFailed
     return:
       type: SuperOffice.Data.TicketMessageCategory
-    content.vb: >-
-      <EnumMember>
-
-      OutboxFailed = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OutboxFailed As TicketMessageCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.TicketMessageCategory.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<TicketMessageCategory, To>(TicketMessageCategory)
-  nameWithType: EnumUtil.MapEnums<TicketMessageCategory, To>(TicketMessageCategory)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketMessageCategory, To>(SuperOffice.Data.TicketMessageCategory)
-  nameWithType.vb: EnumUtil.MapEnums(Of TicketMessageCategory, To)(TicketMessageCategory)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TicketMessageCategory, To)(SuperOffice.Data.TicketMessageCategory)
-  name.vb: MapEnums(Of TicketMessageCategory, To)(TicketMessageCategory)
+  name: MapEnums<TicketMessageCategory, To>()
+  nameWithType: EnumUtil.MapEnums<TicketMessageCategory, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketMessageCategory, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketMessageCategory, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TicketMessageCategory, To)()
+  name.vb: MapEnums(Of TicketMessageCategory, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.TicketMessageCategory)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TicketMessageCategory, To>
+    nameWithType: EnumUtil.MapEnums<TicketMessageCategory, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketMessageCategory, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.TicketMessageCategory
-    name: TicketMessageCategory
-    isExternal: true
-    href: SuperOffice.Data.TicketMessageCategory.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.TicketMessageCategory
-    name: TicketMessageCategory
-    isExternal: true
-    href: SuperOffice.Data.TicketMessageCategory.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.TicketMessageCategory)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TicketMessageCategory, To)
+    nameWithType: EnumUtil.MapEnums(Of TicketMessageCategory, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TicketMessageCategory, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TicketMessageCategory
-    name: TicketMessageCategory
-    isExternal: true
-    href: SuperOffice.Data.TicketMessageCategory.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.TicketMessageCategory
-    name: TicketMessageCategory
-    isExternal: true
-    href: SuperOffice.Data.TicketMessageCategory.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.TicketMessageCategory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<TicketMessageCategory, To>(TicketMessageCategory)
-  nameWithType: Converters.MapEnums<TicketMessageCategory, To>(TicketMessageCategory)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketMessageCategory, To>(SuperOffice.Data.TicketMessageCategory)
-  nameWithType.vb: Converters.MapEnums(Of TicketMessageCategory, To)(TicketMessageCategory)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketMessageCategory, To)(SuperOffice.Data.TicketMessageCategory)
-  name.vb: MapEnums(Of TicketMessageCategory, To)(TicketMessageCategory)
+  name: MapEnums<TicketMessageCategory, To>()
+  nameWithType: Converters.MapEnums<TicketMessageCategory, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketMessageCategory, To>()
+  nameWithType.vb: Converters.MapEnums(Of TicketMessageCategory, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketMessageCategory, To)()
+  name.vb: MapEnums(Of TicketMessageCategory, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.TicketMessageCategory)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TicketMessageCategory, To>
+    nameWithType: Converters.MapEnums<TicketMessageCategory, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketMessageCategory, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.TicketMessageCategory
-    name: TicketMessageCategory
-    isExternal: true
-    href: SuperOffice.Data.TicketMessageCategory.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.TicketMessageCategory
-    name: TicketMessageCategory
-    isExternal: true
-    href: SuperOffice.Data.TicketMessageCategory.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.TicketMessageCategory)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TicketMessageCategory, To)
+    nameWithType: Converters.MapEnums(Of TicketMessageCategory, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketMessageCategory, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TicketMessageCategory
-    name: TicketMessageCategory
-    isExternal: true
-    href: SuperOffice.Data.TicketMessageCategory.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.TicketMessageCategory
-    name: TicketMessageCategory
-    isExternal: true
-    href: SuperOffice.Data.TicketMessageCategory.html
-  - name: )
-- uid: SuperOffice.Data.TicketMessageCategory.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketMessageCategory)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<TicketMessageCategory>(TicketMessageCategory, TicketMessageCategory)
-  nameWithType: ObjectExtensions.AssignByReflection<TicketMessageCategory>(TicketMessageCategory, TicketMessageCategory)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TicketMessageCategory>(SuperOffice.Data.TicketMessageCategory, SuperOffice.Data.TicketMessageCategory)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TicketMessageCategory)(TicketMessageCategory, TicketMessageCategory)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TicketMessageCategory)(SuperOffice.Data.TicketMessageCategory, SuperOffice.Data.TicketMessageCategory)
-  name.vb: AssignByReflection(Of TicketMessageCategory)(TicketMessageCategory, TicketMessageCategory)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketMessageCategory,SuperOffice.Data.TicketMessageCategory)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.TicketMessageCategory
-    name: TicketMessageCategory
-    isExternal: true
-    href: SuperOffice.Data.TicketMessageCategory.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.TicketMessageCategory
-    name: TicketMessageCategory
-    isExternal: true
-    href: SuperOffice.Data.TicketMessageCategory.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.TicketMessageCategory
-    name: TicketMessageCategory
-    isExternal: true
-    href: SuperOffice.Data.TicketMessageCategory.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketMessageCategory,SuperOffice.Data.TicketMessageCategory)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TicketMessageCategory
-    name: TicketMessageCategory
-    isExternal: true
-    href: SuperOffice.Data.TicketMessageCategory.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.TicketMessageCategory
-    name: TicketMessageCategory
-    isExternal: true
-    href: SuperOffice.Data.TicketMessageCategory.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.TicketMessageCategory
-    name: TicketMessageCategory
-    isExternal: true
-    href: SuperOffice.Data.TicketMessageCategory.html
-  - name: )
-- uid: SuperOffice.Data.TicketMessageCategory.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<TicketMessageCategory>(TicketMessageCategory)
-  nameWithType: ObjectExtensions.GraphCopy<TicketMessageCategory>(TicketMessageCategory)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TicketMessageCategory>(SuperOffice.Data.TicketMessageCategory)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of TicketMessageCategory)(TicketMessageCategory)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TicketMessageCategory)(SuperOffice.Data.TicketMessageCategory)
-  name.vb: GraphCopy(Of TicketMessageCategory)(TicketMessageCategory)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.TicketMessageCategory)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.TicketMessageCategory
-    name: TicketMessageCategory
-    isExternal: true
-    href: SuperOffice.Data.TicketMessageCategory.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.TicketMessageCategory
-    name: TicketMessageCategory
-    isExternal: true
-    href: SuperOffice.Data.TicketMessageCategory.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.TicketMessageCategory)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TicketMessageCategory
-    name: TicketMessageCategory
-    isExternal: true
-    href: SuperOffice.Data.TicketMessageCategory.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.TicketMessageCategory
-    name: TicketMessageCategory
-    isExternal: true
-    href: SuperOffice.Data.TicketMessageCategory.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -421,45 +255,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -468,222 +300,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.TicketMessageCategory
   commentId: T:SuperOffice.Data.TicketMessageCategory
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketMessageCategory.html
   name: TicketMessageCategory
   nameWithType: TicketMessageCategory
   fullName: SuperOffice.Data.TicketMessageCategory

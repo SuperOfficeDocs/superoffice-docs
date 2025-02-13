@@ -20,28 +20,15 @@ items:
   nameWithType: IBulkUpdateAgent
   fullName: SuperOffice.CRM.Services.IBulkUpdateAgent
   type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Interface for the BulkUpdate Agent
-
-    Agent used for bulk update methods
+  summary: "\nInterface for the BulkUpdate Agent\nAgent used for bulk update methods\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (BulkUpdateAgent agent = new BulkUpdateAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (BulkUpdateAgent agent = new BulkUpdateAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: >-
       [Agent("BulkUpdate Agent", "Interface for the BulkUpdate Agent. Agent used for bulk update methods")]
@@ -50,7 +37,8 @@ items:
     content.vb: >-
       <Agent("BulkUpdate Agent", "Interface for the BulkUpdate Agent. Agent used for bulk update methods")>
 
-      Public Interface IBulkUpdateAgent Inherits IAgent
+      Public Interface IBulkUpdateAgent
+          Inherits IAgent
   attributes:
   - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
     ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
@@ -59,6 +47,12 @@ items:
       value: BulkUpdate Agent
     - type: System.String
       value: Interface for the BulkUpdate Agent. Agent used for bulk update methods
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields(System.String)
   commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields(System.String)
   id: GetAvailableFields(System.String)
@@ -66,15 +60,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAvailableFields(string)
-  nameWithType: IBulkUpdateAgent.GetAvailableFields(string)
-  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields(string)
+  name: GetAvailableFields(String)
+  nameWithType: IBulkUpdateAgent.GetAvailableFields(String)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get all available fields for a given tablename/entity
-  example: []
+  summary: "\nGet all available fields for a given tablename/entity\n"
   syntax:
     content: FieldValueInfo[] GetAvailableFields(string tablename)
     parameters:
@@ -86,9 +82,6 @@ items:
       description: Returns array of the available fields for the given entity
     content.vb: Function GetAvailableFields(tablename As String) As FieldValueInfo()
   overload: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields*
-  nameWithType.vb: IBulkUpdateAgent.GetAvailableFields(String)
-  fullName.vb: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields(String)
-  name.vb: GetAvailableFields(String)
 - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields(System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields(System.String,System.String)
   id: GetStoredFields(System.String,System.String)
@@ -96,15 +89,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetStoredFields(string, string)
-  nameWithType: IBulkUpdateAgent.GetStoredFields(string, string)
-  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields(string, string)
+  name: GetStoredFields(String, String)
+  nameWithType: IBulkUpdateAgent.GetStoredFields(String, String)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields(System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get all stored fields for a given tablename/entity and context
-  example: []
+  summary: "\nGet all stored fields for a given tablename/entity and context\n"
   syntax:
     content: FieldValueInfo[] GetStoredFields(string tablename, string context)
     parameters:
@@ -119,9 +114,6 @@ items:
       description: Returns array of the stored or default fields for the given entity
     content.vb: Function GetStoredFields(tablename As String, context As String) As FieldValueInfo()
   overload: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields*
-  nameWithType.vb: IBulkUpdateAgent.GetStoredFields(String, String)
-  fullName.vb: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields(String, String)
-  name.vb: GetStoredFields(String, String)
 - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
   commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
   id: ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.Int32,System.Boolean)
@@ -129,15 +121,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ExecuteBySelectionId(FieldValueInfo[], string, string, int, bool)
-  nameWithType: IBulkUpdateAgent.ExecuteBySelectionId(FieldValueInfo[], string, string, int, bool)
-  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[], string, string, int, bool)
+  name: ExecuteBySelectionId(FieldValueInfo[], String, String, Int32, Boolean)
+  nameWithType: IBulkUpdateAgent.ExecuteBySelectionId(FieldValueInfo[], String, String, Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo[], System.String, System.String, System.Int32, System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Do the batchupdate on this selection
-  example: []
+  summary: "\nDo the batchupdate on this selection\n"
   syntax:
     content: int ExecuteBySelectionId(FieldValueInfo[] fieldValueInfos, string tableName, string context, int selectionId, bool isShadow)
     parameters:
@@ -161,9 +155,9 @@ items:
       description: Return batchtaskinfoid
     content.vb: Function ExecuteBySelectionId(fieldValueInfos As FieldValueInfo(), tableName As String, context As String, selectionId As Integer, isShadow As Boolean) As Integer
   overload: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId*
-  nameWithType.vb: IBulkUpdateAgent.ExecuteBySelectionId(FieldValueInfo(), String, String, Integer, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo(), String, String, Integer, Boolean)
-  name.vb: ExecuteBySelectionId(FieldValueInfo(), String, String, Integer, Boolean)
+  nameWithType.vb: IBulkUpdateAgent.ExecuteBySelectionId(FieldValueInfo(), String, String, Int32, Boolean)
+  fullName.vb: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId(SuperOffice.CRM.Services.FieldValueInfo(), System.String, System.String, System.Int32, System.Boolean)
+  name.vb: ExecuteBySelectionId(FieldValueInfo(), String, String, Int32, Boolean)
 - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
   id: ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[],System.String,System.String,System.String)
@@ -171,15 +165,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ExecuteByEntityIds(FieldValueInfo[], string, string, string)
-  nameWithType: IBulkUpdateAgent.ExecuteByEntityIds(FieldValueInfo[], string, string, string)
-  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[], string, string, string)
+  name: ExecuteByEntityIds(FieldValueInfo[], String, String, String)
+  nameWithType: IBulkUpdateAgent.ExecuteByEntityIds(FieldValueInfo[], String, String, String)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo[], System.String, System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Do the batchupdate on selected
-  example: []
+  summary: "\nDo the batchupdate on selected\n"
   syntax:
     content: int ExecuteByEntityIds(FieldValueInfo[] fieldValueInfos, string tableName, string context, string ids)
     parameters:
@@ -201,7 +197,7 @@ items:
     content.vb: Function ExecuteByEntityIds(fieldValueInfos As FieldValueInfo(), tableName As String, context As String, ids As String) As Integer
   overload: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds*
   nameWithType.vb: IBulkUpdateAgent.ExecuteByEntityIds(FieldValueInfo(), String, String, String)
-  fullName.vb: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo(), String, String, String)
+  fullName.vb: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds(SuperOffice.CRM.Services.FieldValueInfo(), System.String, System.String, System.String)
   name.vb: ExecuteByEntityIds(FieldValueInfo(), String, String, String)
 - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson
   commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson
@@ -214,17 +210,19 @@ items:
   nameWithType: IBulkUpdateAgent.GetJobResultsFromStorageAsJson()
   fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get result of the batchupdate job
-  example: []
+  summary: "\nGet result of the batchupdate job\n"
   syntax:
     content: string[] GetJobResultsFromStorageAsJson()
     return:
       type: System.String[]
       description: Result of job as json
-    content.vb: Function GetJobResultsFromStorageAsJson() As String()
+    content.vb: Function GetJobResultsFromStorageAsJson As String()
   overload: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson*
 - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields(System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields(System.String,System.String)
@@ -233,15 +231,17 @@ items:
   langs:
   - csharp
   - vb
-  name: RemoveStoredFields(string, string)
-  nameWithType: IBulkUpdateAgent.RemoveStoredFields(string, string)
-  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields(string, string)
+  name: RemoveStoredFields(String, String)
+  nameWithType: IBulkUpdateAgent.RemoveStoredFields(String, String)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields(System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Remove the stored settings of the bulk update for this table from this context
-  example: []
+  summary: "\nRemove the stored settings of the bulk update for this table from this context\n"
   syntax:
     content: bool RemoveStoredFields(string tableName, string context)
     parameters:
@@ -253,12 +253,8 @@ items:
       description: Where is the function called from that we will remove the settings from
     return:
       type: System.Boolean
-      description: ''
     content.vb: Function RemoveStoredFields(tableName As String, context As String) As Boolean
   overload: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields*
-  nameWithType.vb: IBulkUpdateAgent.RemoveStoredFields(String, String)
-  fullName.vb: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields(String, String)
-  name.vb: RemoveStoredFields(String, String)
 - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
   commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
   id: RemoveStoredFieldsAndGetDefaultFields(System.String,System.String)
@@ -266,15 +262,17 @@ items:
   langs:
   - csharp
   - vb
-  name: RemoveStoredFieldsAndGetDefaultFields(string, string)
-  nameWithType: IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(string, string)
-  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(string, string)
+  name: RemoveStoredFieldsAndGetDefaultFields(String, String)
+  nameWithType: IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(String, String)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(System.String, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Remove the stored settings of the bulk update for this table from this context, to get the default settings instead
-  example: []
+  summary: "\nRemove the stored settings of the bulk update for this table from this context, to get the default settings instead\n"
   syntax:
     content: FieldValueInfo[] RemoveStoredFieldsAndGetDefaultFields(string tableName, string context)
     parameters:
@@ -289,9 +287,6 @@ items:
       description: Returns array of the available fields for the given tablename
     content.vb: Function RemoveStoredFieldsAndGetDefaultFields(tableName As String, context As String) As FieldValueInfo()
   overload: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields*
-  nameWithType.vb: IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(String, String)
-  fullName.vb: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(String, String)
-  name.vb: RemoveStoredFieldsAndGetDefaultFields(String, String)
 - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
   id: GetJobResultAsJsonFromBinaryObjectId(System.String,System.Int32)
@@ -299,15 +294,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetJobResultAsJsonFromBinaryObjectId(string, int)
-  nameWithType: IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(string, int)
-  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(string, int)
+  name: GetJobResultAsJsonFromBinaryObjectId(String, Int32)
+  nameWithType: IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(String, Int32)
+  fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get result of the batchupdate job
-  example: []
+  summary: "\nGet result of the batchupdate job\n"
   syntax:
     content: string GetJobResultAsJsonFromBinaryObjectId(string tableName, int binaryObjectId)
     parameters:
@@ -322,51 +319,16 @@ items:
       description: Result of job as json
     content.vb: Function GetJobResultAsJsonFromBinaryObjectId(tableName As String, binaryObjectId As Integer) As String
   overload: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId*
-  nameWithType.vb: IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(String, Integer)
-  name.vb: GetJobResultAsJsonFromBinaryObjectId(String, Integer)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields*
   commentId: Overload:SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields
   isExternal: true
-  href: SuperOffice.CRM.Services.IBulkUpdateAgent.html#SuperOffice_CRM_Services_IBulkUpdateAgent_GetAvailableFields_System_String_
   name: GetAvailableFields
   nameWithType: IBulkUpdateAgent.GetAvailableFields
   fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetAvailableFields
@@ -374,16 +336,11 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Services.FieldValueInfo[]
   isExternal: true
-  href: SuperOffice.CRM.Services.FieldValueInfo.html
   name: FieldValueInfo[]
   nameWithType: FieldValueInfo[]
   fullName: SuperOffice.CRM.Services.FieldValueInfo[]
@@ -393,35 +350,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.FieldValueInfo
     name: FieldValueInfo
+    nameWithType: FieldValueInfo
+    fullName: SuperOffice.CRM.Services.FieldValueInfo
     isExternal: true
-    href: SuperOffice.CRM.Services.FieldValueInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.FieldValueInfo
     name: FieldValueInfo
+    nameWithType: FieldValueInfo
+    fullName: SuperOffice.CRM.Services.FieldValueInfo
     isExternal: true
-    href: SuperOffice.CRM.Services.FieldValueInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields*
   commentId: Overload:SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields
   isExternal: true
-  href: SuperOffice.CRM.Services.IBulkUpdateAgent.html#SuperOffice_CRM_Services_IBulkUpdateAgent_GetStoredFields_System_String_System_String_
   name: GetStoredFields
   nameWithType: IBulkUpdateAgent.GetStoredFields
   fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetStoredFields
 - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId*
   commentId: Overload:SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId
   isExternal: true
-  href: SuperOffice.CRM.Services.IBulkUpdateAgent.html#SuperOffice_CRM_Services_IBulkUpdateAgent_ExecuteBySelectionId_SuperOffice_CRM_Services_FieldValueInfo___System_String_System_String_System_Int32_System_Boolean_
   name: ExecuteBySelectionId
   nameWithType: IBulkUpdateAgent.ExecuteBySelectionId
   fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteBySelectionId
@@ -429,79 +387,69 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds*
   commentId: Overload:SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds
   isExternal: true
-  href: SuperOffice.CRM.Services.IBulkUpdateAgent.html#SuperOffice_CRM_Services_IBulkUpdateAgent_ExecuteByEntityIds_SuperOffice_CRM_Services_FieldValueInfo___System_String_System_String_System_String_
   name: ExecuteByEntityIds
   nameWithType: IBulkUpdateAgent.ExecuteByEntityIds
   fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.ExecuteByEntityIds
 - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson*
   commentId: Overload:SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson
   isExternal: true
-  href: SuperOffice.CRM.Services.IBulkUpdateAgent.html#SuperOffice_CRM_Services_IBulkUpdateAgent_GetJobResultsFromStorageAsJson
   name: GetJobResultsFromStorageAsJson
   nameWithType: IBulkUpdateAgent.GetJobResultsFromStorageAsJson
   fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultsFromStorageAsJson
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields*
   commentId: Overload:SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields
   isExternal: true
-  href: SuperOffice.CRM.Services.IBulkUpdateAgent.html#SuperOffice_CRM_Services_IBulkUpdateAgent_RemoveStoredFields_System_String_System_String_
   name: RemoveStoredFields
   nameWithType: IBulkUpdateAgent.RemoveStoredFields
   fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFields
 - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields*
   commentId: Overload:SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
   isExternal: true
-  href: SuperOffice.CRM.Services.IBulkUpdateAgent.html#SuperOffice_CRM_Services_IBulkUpdateAgent_RemoveStoredFieldsAndGetDefaultFields_System_String_System_String_
   name: RemoveStoredFieldsAndGetDefaultFields
   nameWithType: IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
   fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
 - uid: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId*
   commentId: Overload:SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
   isExternal: true
-  href: SuperOffice.CRM.Services.IBulkUpdateAgent.html#SuperOffice_CRM_Services_IBulkUpdateAgent_GetJobResultAsJsonFromBinaryObjectId_System_String_System_Int32_
   name: GetJobResultAsJsonFromBinaryObjectId
   nameWithType: IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
   fullName: SuperOffice.CRM.Services.IBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId

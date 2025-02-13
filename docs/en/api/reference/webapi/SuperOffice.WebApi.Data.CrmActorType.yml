@@ -10,24 +10,64 @@ items:
   - SuperOffice.WebApi.Data.CrmActorType.Project
   - SuperOffice.WebApi.Data.CrmActorType.Sale
   - SuperOffice.WebApi.Data.CrmActorType.Unknown
+  - SuperOffice.WebApi.Data.CrmActorType.value__
   langs:
   - csharp
   - vb
   name: CrmActorType
   nameWithType: CrmActorType
   fullName: SuperOffice.WebApi.Data.CrmActorType
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Actor type within the CRM, system, a subset of the SuperOffice Entity types
-
-    This Enum is used by:  ErpConnectionActorType.ActorTypeCrm
-  example: []
+  summary: "\nActor type within the CRM, system, a subset of the SuperOffice Entity types\nThis Enum is used by:  ErpConnectionActorType.ActorTypeCrm\n"
   syntax:
-    content: 'public enum CrmActorType : short'
-    content.vb: Public Enum CrmActorType As Short
+    content: 'public sealed class CrmActorType : Enum'
+    content.vb: >-
+      Public NotInheritable Class CrmActorType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.CrmActorType.value__
+  commentId: F:SuperOffice.WebApi.Data.CrmActorType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.CrmActorType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: CrmActorType.value__
+  fullName: SuperOffice.WebApi.Data.CrmActorType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.CrmActorType.Unknown
   commentId: F:SuperOffice.WebApi.Data.CrmActorType.Unknown
   id: Unknown
@@ -39,26 +79,24 @@ items:
   nameWithType: CrmActorType.Unknown
   fullName: SuperOffice.WebApi.Data.CrmActorType.Unknown
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: Unknown - used when initializing'
-  example: []
+  summary: "\n0: Unknown - used when initializing\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Unknown = 0
+    content: public const CrmActorType Unknown
     return:
       type: SuperOffice.WebApi.Data.CrmActorType
-    content.vb: >-
-      <EnumMember>
-
-      Unknown = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Unknown As CrmActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.CrmActorType.Contact
   commentId: F:SuperOffice.WebApi.Data.CrmActorType.Contact
   id: Contact
@@ -70,26 +108,24 @@ items:
   nameWithType: CrmActorType.Contact
   fullName: SuperOffice.WebApi.Data.CrmActorType.Contact
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: Crm Customer'
-  example: []
+  summary: "\n1: Crm Customer\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Contact = 1
+    content: public const CrmActorType Contact
     return:
       type: SuperOffice.WebApi.Data.CrmActorType
-    content.vb: >-
-      <EnumMember>
-
-      Contact = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Contact As CrmActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.CrmActorType.Person
   commentId: F:SuperOffice.WebApi.Data.CrmActorType.Person
   id: Person
@@ -101,26 +137,24 @@ items:
   nameWithType: CrmActorType.Person
   fullName: SuperOffice.WebApi.Data.CrmActorType.Person
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: Person'
-  example: []
+  summary: "\n2: Person\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Person = 2
+    content: public const CrmActorType Person
     return:
       type: SuperOffice.WebApi.Data.CrmActorType
-    content.vb: >-
-      <EnumMember>
-
-      Person = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Person As CrmActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.CrmActorType.Project
   commentId: F:SuperOffice.WebApi.Data.CrmActorType.Project
   id: Project
@@ -132,26 +166,24 @@ items:
   nameWithType: CrmActorType.Project
   fullName: SuperOffice.WebApi.Data.CrmActorType.Project
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: Project'
-  example: []
+  summary: "\n3: Project\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Project = 3
+    content: public const CrmActorType Project
     return:
       type: SuperOffice.WebApi.Data.CrmActorType
-    content.vb: >-
-      <EnumMember>
-
-      Project = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Project As CrmActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.CrmActorType.Sale
   commentId: F:SuperOffice.WebApi.Data.CrmActorType.Sale
   id: Sale
@@ -163,69 +195,55 @@ items:
   nameWithType: CrmActorType.Sale
   fullName: SuperOffice.WebApi.Data.CrmActorType.Sale
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: Sale'
-  example: []
+  summary: "\n4: Sale\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Sale = 4
+    content: public const CrmActorType Sale
     return:
       type: SuperOffice.WebApi.Data.CrmActorType
-    content.vb: >-
-      <EnumMember>
-
-      Sale = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Sale As CrmActorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.CrmActorType
   commentId: T:SuperOffice.WebApi.Data.CrmActorType
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.CrmActorType.html
   name: CrmActorType
   nameWithType: CrmActorType
   fullName: SuperOffice.WebApi.Data.CrmActorType

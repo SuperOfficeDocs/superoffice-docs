@@ -7,9 +7,9 @@ items:
   children:
   - SuperOffice.WebApi.Data.ContactActivity.#ctor
   - SuperOffice.WebApi.Data.ContactActivity.Action
+  - SuperOffice.WebApi.Data.ContactActivity.Action_String
   - SuperOffice.WebApi.Data.ContactActivity.ActionId
   - SuperOffice.WebApi.Data.ContactActivity.ActionTime
-  - SuperOffice.WebApi.Data.ContactActivity.Action_String
   - SuperOffice.WebApi.Data.ContactActivity.ActivityPersonId
   - SuperOffice.WebApi.Data.ContactActivity.ActivityPersonName
   - SuperOffice.WebApi.Data.ContactActivity.AssociateFullName
@@ -28,14 +28,18 @@ items:
   nameWithType: ContactActivity
   fullName: SuperOffice.WebApi.Data.ContactActivity
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Carrier object for ContactActivity.
-  example: []
+  summary: "\nCarrier object for ContactActivity.\n\n"
   syntax:
     content: 'public class ContactActivity : Carrier'
-    content.vb: Public Class ContactActivity Inherits Carrier
+    content.vb: >-
+      Public Class ContactActivity
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.ContactAgent
     commentId: T:SuperOffice.WebApi.Agents.ContactAgent
@@ -45,13 +49,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.ContactActivity.#ctor
   commentId: M:SuperOffice.WebApi.Data.ContactActivity.#ctor
   id: '#ctor'
@@ -63,18 +66,21 @@ items:
   nameWithType: ContactActivity.ContactActivity()
   fullName: SuperOffice.WebApi.Data.ContactActivity.ContactActivity()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public ContactActivity()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.ContactActivity.#ctor*
-  nameWithType.vb: ContactActivity.New()
-  fullName.vb: SuperOffice.WebApi.Data.ContactActivity.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ContactActivity.ContactId
   commentId: P:SuperOffice.WebApi.Data.ContactActivity.ContactId
   id: ContactId
@@ -86,11 +92,13 @@ items:
   nameWithType: ContactActivity.ContactId
   fullName: SuperOffice.WebApi.Data.ContactActivity.ContactId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int ContactId { get; set; }
     parameters: []
@@ -98,6 +106,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ContactId As Integer
   overload: SuperOffice.WebApi.Data.ContactActivity.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ContactActivity.Department
   commentId: P:SuperOffice.WebApi.Data.ContactActivity.Department
   id: Department
@@ -109,11 +125,13 @@ items:
   nameWithType: ContactActivity.Department
   fullName: SuperOffice.WebApi.Data.ContactActivity.Department
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Department
-  example: []
+  summary: "\nDepartment\n"
   syntax:
     content: public virtual string Department { get; set; }
     parameters: []
@@ -121,6 +139,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Department As String
   overload: SuperOffice.WebApi.Data.ContactActivity.Department*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ContactActivity.OrgNr
   commentId: P:SuperOffice.WebApi.Data.ContactActivity.OrgNr
   id: OrgNr
@@ -132,11 +158,13 @@ items:
   nameWithType: ContactActivity.OrgNr
   fullName: SuperOffice.WebApi.Data.ContactActivity.OrgNr
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: VAT number or similar
-  example: []
+  summary: "\nVAT number or similar\n"
   syntax:
     content: public virtual string OrgNr { get; set; }
     parameters: []
@@ -144,6 +172,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property OrgNr As String
   overload: SuperOffice.WebApi.Data.ContactActivity.OrgNr*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ContactActivity.Name
   commentId: P:SuperOffice.WebApi.Data.ContactActivity.Name
   id: Name
@@ -155,11 +191,13 @@ items:
   nameWithType: ContactActivity.Name
   fullName: SuperOffice.WebApi.Data.ContactActivity.Name
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Contact name
-  example: []
+  summary: "\nContact name\n"
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -167,6 +205,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.ContactActivity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ContactActivity.URL
   commentId: P:SuperOffice.WebApi.Data.ContactActivity.URL
   id: URL
@@ -178,11 +224,13 @@ items:
   nameWithType: ContactActivity.URL
   fullName: SuperOffice.WebApi.Data.ContactActivity.URL
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: URL address
-  example: []
+  summary: "\nURL address\n"
   syntax:
     content: public virtual string URL { get; set; }
     parameters: []
@@ -190,6 +238,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property URL As String
   overload: SuperOffice.WebApi.Data.ContactActivity.URL*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ContactActivity.AssociateFullName
   commentId: P:SuperOffice.WebApi.Data.ContactActivity.AssociateFullName
   id: AssociateFullName
@@ -201,11 +257,13 @@ items:
   nameWithType: ContactActivity.AssociateFullName
   fullName: SuperOffice.WebApi.Data.ContactActivity.AssociateFullName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The contact's owner
-  example: []
+  summary: "\nThe contact&apos;s owner\n"
   syntax:
     content: public virtual string AssociateFullName { get; set; }
     parameters: []
@@ -213,6 +271,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property AssociateFullName As String
   overload: SuperOffice.WebApi.Data.ContactActivity.AssociateFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ContactActivity.Action_String
   commentId: P:SuperOffice.WebApi.Data.ContactActivity.Action_String
   id: Action_String
@@ -224,36 +290,29 @@ items:
   nameWithType: ContactActivity.Action_String
   fullName: SuperOffice.WebApi.Data.ContactActivity.Action_String
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The activity that has occured on this contact.
-
-    Raw string enum value.
-  example: []
+  summary: "\nThe activity that has occured on this contact.\nRaw string enum value.\n"
   syntax:
-    content: >-
-      [JsonProperty("Action")]
-
-      public string Action_String { get; set; }
+    content: public string Action_String { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <JsonProperty("Action")>
-
-      Public Property Action_String As String
+    content.vb: Public Property Action_String As String
   overload: SuperOffice.WebApi.Data.ContactActivity.Action_String*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ContactActivity.Action
     commentId: P:SuperOffice.WebApi.Data.ContactActivity.Action
-  attributes:
-  - type: Newtonsoft.Json.JsonPropertyAttribute
-    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Action
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ContactActivity.Action
   commentId: P:SuperOffice.WebApi.Data.ContactActivity.Action
   id: Action
@@ -265,34 +324,29 @@ items:
   nameWithType: ContactActivity.Action
   fullName: SuperOffice.WebApi.Data.ContactActivity.Action
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    The activity that has occured on this contact.
-
-    NULL if unknown enum value.
-  example: []
+  summary: "\nThe activity that has occured on this contact.\nNULL if unknown enum value.\n"
   syntax:
-    content: >-
-      [JsonIgnore]
-
-      public ContactAction? Action { get; set; }
+    content: public Nullable<ContactAction> Action { get; set; }
     parameters: []
     return:
       type: System.Nullable{SuperOffice.WebApi.Data.ContactAction}
-    content.vb: >-
-      <JsonIgnore>
-
-      Public Property Action As ContactAction?
+    content.vb: Public Property Action As Nullable(Of ContactAction)
   overload: SuperOffice.WebApi.Data.ContactActivity.Action*
   seealso:
   - linkId: SuperOffice.WebApi.Data.ContactActivity.Action_String
     commentId: P:SuperOffice.WebApi.Data.ContactActivity.Action_String
-  attributes:
-  - type: Newtonsoft.Json.JsonIgnoreAttribute
-    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.ContactActivity.ActionTime
   commentId: P:SuperOffice.WebApi.Data.ContactActivity.ActionTime
   id: ActionTime
@@ -304,18 +358,28 @@ items:
   nameWithType: ContactActivity.ActionTime
   fullName: SuperOffice.WebApi.Data.ContactActivity.ActionTime
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The time of the activity. If more than one activity has occured on the contact, the last activity time is shown.
-  example: []
+  summary: "\nThe time of the activity. If more than one activity has occured on the contact, the last activity time is shown.\n"
   syntax:
     content: public virtual DateTime ActionTime { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable Property ActionTime As Date
+    content.vb: Public Overridable Property ActionTime As DateTime
   overload: SuperOffice.WebApi.Data.ContactActivity.ActionTime*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ContactActivity.Category
   commentId: P:SuperOffice.WebApi.Data.ContactActivity.Category
   id: Category
@@ -327,11 +391,13 @@ items:
   nameWithType: ContactActivity.Category
   fullName: SuperOffice.WebApi.Data.ContactActivity.Category
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The contact category.
-  example: []
+  summary: "\nThe contact category.\n"
   syntax:
     content: public virtual string Category { get; set; }
     parameters: []
@@ -339,6 +405,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Category As String
   overload: SuperOffice.WebApi.Data.ContactActivity.Category*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ContactActivity.ActivityPersonName
   commentId: P:SuperOffice.WebApi.Data.ContactActivity.ActivityPersonName
   id: ActivityPersonName
@@ -350,11 +424,13 @@ items:
   nameWithType: ContactActivity.ActivityPersonName
   fullName: SuperOffice.WebApi.Data.ContactActivity.ActivityPersonName
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The person that carried out the activity on the contact.
-  example: []
+  summary: "\nThe person that carried out the activity on the contact.\n"
   syntax:
     content: public virtual string ActivityPersonName { get; set; }
     parameters: []
@@ -362,6 +438,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ActivityPersonName As String
   overload: SuperOffice.WebApi.Data.ContactActivity.ActivityPersonName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ContactActivity.ActionId
   commentId: P:SuperOffice.WebApi.Data.ContactActivity.ActionId
   id: ActionId
@@ -373,11 +457,13 @@ items:
   nameWithType: ContactActivity.ActionId
   fullName: SuperOffice.WebApi.Data.ContactActivity.ActionId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Id of the last element an activity was found on. I.e. AppointmentId, ContactId, or PersonId
-  example: []
+  summary: "\nId of the last element an activity was found on. I.e. AppointmentId, ContactId, or PersonId\n"
   syntax:
     content: public virtual int ActionId { get; set; }
     parameters: []
@@ -385,6 +471,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ActionId As Integer
   overload: SuperOffice.WebApi.Data.ContactActivity.ActionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ContactActivity.PersonId
   commentId: P:SuperOffice.WebApi.Data.ContactActivity.PersonId
   id: PersonId
@@ -396,11 +490,13 @@ items:
   nameWithType: ContactActivity.PersonId
   fullName: SuperOffice.WebApi.Data.ContactActivity.PersonId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The person id
-  example: []
+  summary: "\nThe person id\n"
   syntax:
     content: public virtual int PersonId { get; set; }
     parameters: []
@@ -408,6 +504,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property PersonId As Integer
   overload: SuperOffice.WebApi.Data.ContactActivity.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ContactActivity.ActivityPersonId
   commentId: P:SuperOffice.WebApi.Data.ContactActivity.ActivityPersonId
   id: ActivityPersonId
@@ -419,11 +523,13 @@ items:
   nameWithType: ContactActivity.ActivityPersonId
   fullName: SuperOffice.WebApi.Data.ContactActivity.ActivityPersonId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Id of the person causing the activity.
-  example: []
+  summary: "\nId of the person causing the activity.\n"
   syntax:
     content: public virtual int ActivityPersonId { get; set; }
     parameters: []
@@ -431,6 +537,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ActivityPersonId As Integer
   overload: SuperOffice.WebApi.Data.ContactActivity.ActivityPersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.ContactActivity.AssociateId
   commentId: P:SuperOffice.WebApi.Data.ContactActivity.AssociateId
   id: AssociateId
@@ -442,11 +556,13 @@ items:
   nameWithType: ContactActivity.AssociateId
   fullName: SuperOffice.WebApi.Data.ContactActivity.AssociateId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Our contact
-  example: []
+  summary: "\nOur contact\n"
   syntax:
     content: public virtual int AssociateId { get; set; }
     parameters: []
@@ -454,67 +570,32 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property AssociateId As Integer
   overload: SuperOffice.WebApi.Data.ContactActivity.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.ContactAgent
-  commentId: T:SuperOffice.WebApi.Agents.ContactAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.ContactAgent.html
-  name: ContactAgent
-  nameWithType: ContactAgent
-  fullName: SuperOffice.WebApi.Agents.ContactAgent
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -522,7 +603,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -530,250 +610,30 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.ContactAgent
+  commentId: T:SuperOffice.WebApi.Agents.ContactAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: ContactAgent
+  nameWithType: ContactAgent
+  fullName: SuperOffice.WebApi.Agents.ContactAgent
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.ContactActivity.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.ContactActivity.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.ContactActivity.html#SuperOffice_WebApi_Data_ContactActivity__ctor
   name: ContactActivity
   nameWithType: ContactActivity.ContactActivity
   fullName: SuperOffice.WebApi.Data.ContactActivity.ContactActivity
-  nameWithType.vb: ContactActivity.New
-  fullName.vb: SuperOffice.WebApi.Data.ContactActivity.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.ContactActivity.ContactId*
   commentId: Overload:SuperOffice.WebApi.Data.ContactActivity.ContactId
   isExternal: true
-  href: SuperOffice.WebApi.Data.ContactActivity.html#SuperOffice_WebApi_Data_ContactActivity_ContactId
   name: ContactId
   nameWithType: ContactActivity.ContactId
   fullName: SuperOffice.WebApi.Data.ContactActivity.ContactId
@@ -781,17 +641,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.ContactActivity.Department*
   commentId: Overload:SuperOffice.WebApi.Data.ContactActivity.Department
   isExternal: true
-  href: SuperOffice.WebApi.Data.ContactActivity.html#SuperOffice_WebApi_Data_ContactActivity_Department
   name: Department
   nameWithType: ContactActivity.Department
   fullName: SuperOffice.WebApi.Data.ContactActivity.Department
@@ -799,174 +654,176 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.ContactActivity.OrgNr*
   commentId: Overload:SuperOffice.WebApi.Data.ContactActivity.OrgNr
   isExternal: true
-  href: SuperOffice.WebApi.Data.ContactActivity.html#SuperOffice_WebApi_Data_ContactActivity_OrgNr
   name: OrgNr
   nameWithType: ContactActivity.OrgNr
   fullName: SuperOffice.WebApi.Data.ContactActivity.OrgNr
 - uid: SuperOffice.WebApi.Data.ContactActivity.Name*
   commentId: Overload:SuperOffice.WebApi.Data.ContactActivity.Name
   isExternal: true
-  href: SuperOffice.WebApi.Data.ContactActivity.html#SuperOffice_WebApi_Data_ContactActivity_Name
   name: Name
   nameWithType: ContactActivity.Name
   fullName: SuperOffice.WebApi.Data.ContactActivity.Name
 - uid: SuperOffice.WebApi.Data.ContactActivity.URL*
   commentId: Overload:SuperOffice.WebApi.Data.ContactActivity.URL
   isExternal: true
-  href: SuperOffice.WebApi.Data.ContactActivity.html#SuperOffice_WebApi_Data_ContactActivity_URL
   name: URL
   nameWithType: ContactActivity.URL
   fullName: SuperOffice.WebApi.Data.ContactActivity.URL
 - uid: SuperOffice.WebApi.Data.ContactActivity.AssociateFullName*
   commentId: Overload:SuperOffice.WebApi.Data.ContactActivity.AssociateFullName
   isExternal: true
-  href: SuperOffice.WebApi.Data.ContactActivity.html#SuperOffice_WebApi_Data_ContactActivity_AssociateFullName
   name: AssociateFullName
   nameWithType: ContactActivity.AssociateFullName
   fullName: SuperOffice.WebApi.Data.ContactActivity.AssociateFullName
-- uid: SuperOffice.WebApi.Data.ContactActivity.Action
-  commentId: P:SuperOffice.WebApi.Data.ContactActivity.Action
-  isExternal: true
-  href: SuperOffice.WebApi.Data.ContactActivity.html#SuperOffice_WebApi_Data_ContactActivity_Action
-  name: Action
-  nameWithType: ContactActivity.Action
-  fullName: SuperOffice.WebApi.Data.ContactActivity.Action
 - uid: SuperOffice.WebApi.Data.ContactActivity.Action_String*
   commentId: Overload:SuperOffice.WebApi.Data.ContactActivity.Action_String
   isExternal: true
-  href: SuperOffice.WebApi.Data.ContactActivity.html#SuperOffice_WebApi_Data_ContactActivity_Action_String
   name: Action_String
   nameWithType: ContactActivity.Action_String
   fullName: SuperOffice.WebApi.Data.ContactActivity.Action_String
-- uid: SuperOffice.WebApi.Data.ContactActivity.Action_String
-  commentId: P:SuperOffice.WebApi.Data.ContactActivity.Action_String
+- uid: SuperOffice.WebApi.Data.ContactActivity.Action
+  commentId: P:SuperOffice.WebApi.Data.ContactActivity.Action
   isExternal: true
-  href: SuperOffice.WebApi.Data.ContactActivity.html#SuperOffice_WebApi_Data_ContactActivity_Action_String
-  name: Action_String
-  nameWithType: ContactActivity.Action_String
-  fullName: SuperOffice.WebApi.Data.ContactActivity.Action_String
 - uid: SuperOffice.WebApi.Data.ContactActivity.Action*
   commentId: Overload:SuperOffice.WebApi.Data.ContactActivity.Action
   isExternal: true
-  href: SuperOffice.WebApi.Data.ContactActivity.html#SuperOffice_WebApi_Data_ContactActivity_Action
   name: Action
   nameWithType: ContactActivity.Action
   fullName: SuperOffice.WebApi.Data.ContactActivity.Action
-- uid: System.Nullable{SuperOffice.WebApi.Data.ContactAction}
-  commentId: T:System.Nullable{SuperOffice.WebApi.Data.ContactAction}
-  parent: System
-  definition: System.Nullable`1
-  href: SuperOffice.WebApi.Data.ContactAction.html
-  name: ContactAction?
-  nameWithType: ContactAction?
-  fullName: SuperOffice.WebApi.Data.ContactAction?
-  spec.csharp:
-  - uid: SuperOffice.WebApi.Data.ContactAction
-    name: ContactAction
-    isExternal: true
-    href: SuperOffice.WebApi.Data.ContactAction.html
-  - name: '?'
-  spec.vb:
-  - uid: SuperOffice.WebApi.Data.ContactAction
-    name: ContactAction
-    isExternal: true
-    href: SuperOffice.WebApi.Data.ContactAction.html
-  - name: '?'
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
+- uid: SuperOffice.WebApi.Data.ContactActivity.Action_String
+  commentId: P:SuperOffice.WebApi.Data.ContactActivity.Action_String
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
+- uid: System.Nullable{SuperOffice.WebApi.Data.ContactAction}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ContactAction}'
+  definition: System.Nullable`1
+  name: Nullable<ContactAction>
+  nameWithType: Nullable<ContactAction>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ContactAction>
+  nameWithType.vb: Nullable(Of ContactAction)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ContactAction)
+  name.vb: Nullable(Of ContactAction)
   spec.csharp:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ContactAction
+    name: ContactAction
+    nameWithType: ContactAction
+    fullName: SuperOffice.WebApi.Data.ContactAction
+    isExternal: true
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Nullable`1
     name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ContactAction
+    name: ContactAction
+    nameWithType: ContactAction
+    fullName: SuperOffice.WebApi.Data.ContactAction
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Data.ContactActivity.ActionTime*
   commentId: Overload:SuperOffice.WebApi.Data.ContactActivity.ActionTime
   isExternal: true
-  href: SuperOffice.WebApi.Data.ContactActivity.html#SuperOffice_WebApi_Data_ContactActivity_ActionTime
   name: ActionTime
   nameWithType: ContactActivity.ActionTime
   fullName: SuperOffice.WebApi.Data.ContactActivity.ActionTime
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.WebApi.Data.ContactActivity.Category*
   commentId: Overload:SuperOffice.WebApi.Data.ContactActivity.Category
   isExternal: true
-  href: SuperOffice.WebApi.Data.ContactActivity.html#SuperOffice_WebApi_Data_ContactActivity_Category
   name: Category
   nameWithType: ContactActivity.Category
   fullName: SuperOffice.WebApi.Data.ContactActivity.Category
 - uid: SuperOffice.WebApi.Data.ContactActivity.ActivityPersonName*
   commentId: Overload:SuperOffice.WebApi.Data.ContactActivity.ActivityPersonName
   isExternal: true
-  href: SuperOffice.WebApi.Data.ContactActivity.html#SuperOffice_WebApi_Data_ContactActivity_ActivityPersonName
   name: ActivityPersonName
   nameWithType: ContactActivity.ActivityPersonName
   fullName: SuperOffice.WebApi.Data.ContactActivity.ActivityPersonName
 - uid: SuperOffice.WebApi.Data.ContactActivity.ActionId*
   commentId: Overload:SuperOffice.WebApi.Data.ContactActivity.ActionId
   isExternal: true
-  href: SuperOffice.WebApi.Data.ContactActivity.html#SuperOffice_WebApi_Data_ContactActivity_ActionId
   name: ActionId
   nameWithType: ContactActivity.ActionId
   fullName: SuperOffice.WebApi.Data.ContactActivity.ActionId
 - uid: SuperOffice.WebApi.Data.ContactActivity.PersonId*
   commentId: Overload:SuperOffice.WebApi.Data.ContactActivity.PersonId
   isExternal: true
-  href: SuperOffice.WebApi.Data.ContactActivity.html#SuperOffice_WebApi_Data_ContactActivity_PersonId
   name: PersonId
   nameWithType: ContactActivity.PersonId
   fullName: SuperOffice.WebApi.Data.ContactActivity.PersonId
 - uid: SuperOffice.WebApi.Data.ContactActivity.ActivityPersonId*
   commentId: Overload:SuperOffice.WebApi.Data.ContactActivity.ActivityPersonId
   isExternal: true
-  href: SuperOffice.WebApi.Data.ContactActivity.html#SuperOffice_WebApi_Data_ContactActivity_ActivityPersonId
   name: ActivityPersonId
   nameWithType: ContactActivity.ActivityPersonId
   fullName: SuperOffice.WebApi.Data.ContactActivity.ActivityPersonId
 - uid: SuperOffice.WebApi.Data.ContactActivity.AssociateId*
   commentId: Overload:SuperOffice.WebApi.Data.ContactActivity.AssociateId
   isExternal: true
-  href: SuperOffice.WebApi.Data.ContactActivity.html#SuperOffice_WebApi_Data_ContactActivity_AssociateId
   name: AssociateId
   nameWithType: ContactActivity.AssociateId
   fullName: SuperOffice.WebApi.Data.ContactActivity.AssociateId

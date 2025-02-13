@@ -5,8 +5,8 @@ items:
   id: TenantState
   parent: SuperOffice.WebApi.Data
   children:
-  - SuperOffice.WebApi.Data.TenantState.DeleteFailed
   - SuperOffice.WebApi.Data.TenantState.Deleted
+  - SuperOffice.WebApi.Data.TenantState.DeleteFailed
   - SuperOffice.WebApi.Data.TenantState.Deleting
   - SuperOffice.WebApi.Data.TenantState.MigrationPending
   - SuperOffice.WebApi.Data.TenantState.OfflineMaintenance
@@ -16,21 +16,64 @@ items:
   - SuperOffice.WebApi.Data.TenantState.Running
   - SuperOffice.WebApi.Data.TenantState.Suspended
   - SuperOffice.WebApi.Data.TenantState.Unknown
+  - SuperOffice.WebApi.Data.TenantState.value__
   langs:
   - csharp
   - vb
   name: TenantState
   nameWithType: TenantState
   fullName: SuperOffice.WebApi.Data.TenantState
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Is the Online Tenant running, or down for maintenance?
-  example: []
+  summary: "\nIs the Online Tenant running, or down for maintenance?\n"
   syntax:
-    content: public enum TenantState
-    content.vb: Public Enum TenantState
+    content: 'public sealed class TenantState : Enum'
+    content.vb: >-
+      Public NotInheritable Class TenantState
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.TenantState.value__
+  commentId: F:SuperOffice.WebApi.Data.TenantState.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.TenantState
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TenantState.value__
+  fullName: SuperOffice.WebApi.Data.TenantState.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TenantState.Unknown
   commentId: F:SuperOffice.WebApi.Data.TenantState.Unknown
   id: Unknown
@@ -42,15 +85,24 @@ items:
   nameWithType: TenantState.Unknown
   fullName: SuperOffice.WebApi.Data.TenantState.Unknown
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Customer is unknown, or there is something wrong with the environment.
-  example: []
+  summary: "\nCustomer is unknown, or there is something wrong with the environment.  \n"
   syntax:
-    content: Unknown = 0
+    content: public const TenantState Unknown
     return:
       type: SuperOffice.WebApi.Data.TenantState
+    content.vb: Public Const Unknown As TenantState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TenantState.Provisioning
   commentId: F:SuperOffice.WebApi.Data.TenantState.Provisioning
   id: Provisioning
@@ -62,15 +114,24 @@ items:
   nameWithType: TenantState.Provisioning
   fullName: SuperOffice.WebApi.Data.TenantState.Provisioning
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: We are in the state of provisioning the customer.  Should be ready in a short time.
-  example: []
+  summary: "\nWe are in the state of provisioning the customer.  Should be ready in a short time.\n"
   syntax:
-    content: Provisioning = 1
+    content: public const TenantState Provisioning
     return:
       type: SuperOffice.WebApi.Data.TenantState
+    content.vb: Public Const Provisioning As TenantState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TenantState.Running
   commentId: F:SuperOffice.WebApi.Data.TenantState.Running
   id: Running
@@ -82,15 +143,24 @@ items:
   nameWithType: TenantState.Running
   fullName: SuperOffice.WebApi.Data.TenantState.Running
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Customer is running. All is good.
-  example: []
+  summary: "\nCustomer is running. All is good.\n"
   syntax:
-    content: Running = 2
+    content: public const TenantState Running
     return:
       type: SuperOffice.WebApi.Data.TenantState
+    content.vb: Public Const Running As TenantState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TenantState.Deleted
   commentId: F:SuperOffice.WebApi.Data.TenantState.Deleted
   id: Deleted
@@ -102,15 +172,24 @@ items:
   nameWithType: TenantState.Deleted
   fullName: SuperOffice.WebApi.Data.TenantState.Deleted
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Customer has been deleted, forget all about it.
-  example: []
+  summary: "\nCustomer has been deleted, forget all about it.\n"
   syntax:
-    content: Deleted = 3
+    content: public const TenantState Deleted
     return:
       type: SuperOffice.WebApi.Data.TenantState
+    content.vb: Public Const Deleted As TenantState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TenantState.Suspended
   commentId: F:SuperOffice.WebApi.Data.TenantState.Suspended
   id: Suspended
@@ -122,18 +201,24 @@ items:
   nameWithType: TenantState.Suspended
   fullName: SuperOffice.WebApi.Data.TenantState.Suspended
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Customer is in termination.  API’s are not available, and the customer can still take action to reactivate his subscription.  
-
-    Resuming a customer in termination typically occurs by manual activation by the sales team.
-  example: []
+  summary: "\nCustomer is in termination.  API’s are not available, and the customer can still take action to reactivate his subscription.  \nResuming a customer in termination typically occurs by manual activation by the sales team.\n"
   syntax:
-    content: Suspended = 4
+    content: public const TenantState Suspended
     return:
       type: SuperOffice.WebApi.Data.TenantState
+    content.vb: Public Const Suspended As TenantState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TenantState.OnlineMaintenance
   commentId: F:SuperOffice.WebApi.Data.TenantState.OnlineMaintenance
   id: OnlineMaintenance
@@ -145,18 +230,24 @@ items:
   nameWithType: TenantState.OnlineMaintenance
   fullName: SuperOffice.WebApi.Data.TenantState.OnlineMaintenance
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    We are performing background tasks, but nothing preventing customer for performing normal operations.  
-
-    API is available.  Background tasks might take some time before they start.
-  example: []
+  summary: "\nWe are performing background tasks, but nothing preventing customer for performing normal operations.  \nAPI is available.  Background tasks might take some time before they start.\n"
   syntax:
-    content: OnlineMaintenance = 5
+    content: public const TenantState OnlineMaintenance
     return:
       type: SuperOffice.WebApi.Data.TenantState
+    content.vb: Public Const OnlineMaintenance As TenantState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TenantState.OfflineMaintenance
   commentId: F:SuperOffice.WebApi.Data.TenantState.OfflineMaintenance
   id: OfflineMaintenance
@@ -168,18 +259,24 @@ items:
   nameWithType: TenantState.OfflineMaintenance
   fullName: SuperOffice.WebApi.Data.TenantState.OfflineMaintenance
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Customer is offline for maintenance.  This typically happens during upgrade.  
-
-    It usually take minutes for the customer to be online again.  API’s are not available.
-  example: []
+  summary: "\nCustomer is offline for maintenance.  This typically happens during upgrade.  \nIt usually take minutes for the customer to be online again.  API’s are not available.\n"
   syntax:
-    content: OfflineMaintenance = 6
+    content: public const TenantState OfflineMaintenance
     return:
       type: SuperOffice.WebApi.Data.TenantState
+    content.vb: Public Const OfflineMaintenance As TenantState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TenantState.ProvisioningFailed
   commentId: F:SuperOffice.WebApi.Data.TenantState.ProvisioningFailed
   id: ProvisioningFailed
@@ -191,15 +288,24 @@ items:
   nameWithType: TenantState.ProvisioningFailed
   fullName: SuperOffice.WebApi.Data.TenantState.ProvisioningFailed
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Provisioning has failed. Tenant is not available.
-  example: []
+  summary: "\nProvisioning has failed. Tenant is not available.\n"
   syntax:
-    content: ProvisioningFailed = 8
+    content: public const TenantState ProvisioningFailed
     return:
       type: SuperOffice.WebApi.Data.TenantState
+    content.vb: Public Const ProvisioningFailed As TenantState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TenantState.Deleting
   commentId: F:SuperOffice.WebApi.Data.TenantState.Deleting
   id: Deleting
@@ -211,15 +317,24 @@ items:
   nameWithType: TenantState.Deleting
   fullName: SuperOffice.WebApi.Data.TenantState.Deleting
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: We are in the process of deleting the customer.  Expect the customer to be deleted shortly.
-  example: []
+  summary: "\nWe are in the process of deleting the customer.  Expect the customer to be deleted shortly.\n"
   syntax:
-    content: Deleting = 10
+    content: public const TenantState Deleting
     return:
       type: SuperOffice.WebApi.Data.TenantState
+    content.vb: Public Const Deleting As TenantState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TenantState.DeleteFailed
   commentId: F:SuperOffice.WebApi.Data.TenantState.DeleteFailed
   id: DeleteFailed
@@ -231,15 +346,24 @@ items:
   nameWithType: TenantState.DeleteFailed
   fullName: SuperOffice.WebApi.Data.TenantState.DeleteFailed
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Deleting the customer failed.  Expect the customer to be deleted in a while.
-  example: []
+  summary: "\nDeleting the customer failed.  Expect the customer to be deleted in a while.\n"
   syntax:
-    content: DeleteFailed = 11
+    content: public const TenantState DeleteFailed
     return:
       type: SuperOffice.WebApi.Data.TenantState
+    content.vb: Public Const DeleteFailed As TenantState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TenantState.MigrationPending
   commentId: F:SuperOffice.WebApi.Data.TenantState.MigrationPending
   id: MigrationPending
@@ -251,63 +375,55 @@ items:
   nameWithType: TenantState.MigrationPending
   fullName: SuperOffice.WebApi.Data.TenantState.MigrationPending
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    This is a migration from on-site to online that has not yet completed.  
-
-    Expect the customer to be Running at a later time. 
-
-    Customers are often in state MigrationPending for days or weeks.
-  example: []
+  summary: "\nThis is a migration from on-site to online that has not yet completed.  \nExpect the customer to be Running at a later time. \nCustomers are often in state MigrationPending for days or weeks.\n"
   syntax:
-    content: MigrationPending = 12
+    content: public const TenantState MigrationPending
     return:
       type: SuperOffice.WebApi.Data.TenantState
+    content.vb: Public Const MigrationPending As TenantState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.TenantState
   commentId: T:SuperOffice.WebApi.Data.TenantState
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.TenantState.html
   name: TenantState
   nameWithType: TenantState
   fullName: SuperOffice.WebApi.Data.TenantState

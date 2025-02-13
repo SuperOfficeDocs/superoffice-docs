@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+  commentId: T:SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+  id: TicketPriorityEscalateAction
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionChangedOwner
+  - SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionChangedPriority
+  - SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionClosed
+  - SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionNew
+  - SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionNewInfo
+  - SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionRead
+  - SuperOffice.WebApi.Data.TicketPriorityEscalateAction.value__
+  langs:
+  - csharp
+  - vb
+  name: TicketPriorityEscalateAction
+  nameWithType: TicketPriorityEscalateAction
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe different types of escalate actions that can be set\n"
+  syntax:
+    content: 'public sealed class TicketPriorityEscalateAction : Enum'
+    content.vb: >-
+      Public NotInheritable Class TicketPriorityEscalateAction
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.value__
+  commentId: F:SuperOffice.WebApi.Data.TicketPriorityEscalateAction.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketPriorityEscalateAction.value__
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionRead
+  commentId: F:SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionRead
+  id: ActionRead
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+  langs:
+  - csharp
+  - vb
+  name: ActionRead
+  nameWithType: TicketPriorityEscalateAction.ActionRead
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionRead
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Triggers escalation on ticket read\n"
+  syntax:
+    content: public const TicketPriorityEscalateAction ActionRead
+    return:
+      type: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+    content.vb: Public Const ActionRead As TicketPriorityEscalateAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionChangedOwner
+  commentId: F:SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionChangedOwner
+  id: ActionChangedOwner
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+  langs:
+  - csharp
+  - vb
+  name: ActionChangedOwner
+  nameWithType: TicketPriorityEscalateAction.ActionChangedOwner
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionChangedOwner
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Triggers escalation on ticket owner change\n"
+  syntax:
+    content: public const TicketPriorityEscalateAction ActionChangedOwner
+    return:
+      type: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+    content.vb: Public Const ActionChangedOwner As TicketPriorityEscalateAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionNewInfo
+  commentId: F:SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionNewInfo
+  id: ActionNewInfo
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+  langs:
+  - csharp
+  - vb
+  name: ActionNewInfo
+  nameWithType: TicketPriorityEscalateAction.ActionNewInfo
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionNewInfo
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Triggers escalation on ticket update\n"
+  syntax:
+    content: public const TicketPriorityEscalateAction ActionNewInfo
+    return:
+      type: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+    content.vb: Public Const ActionNewInfo As TicketPriorityEscalateAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionClosed
+  commentId: F:SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionClosed
+  id: ActionClosed
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+  langs:
+  - csharp
+  - vb
+  name: ActionClosed
+  nameWithType: TicketPriorityEscalateAction.ActionClosed
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionClosed
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Triggers escalation on ticket close\n"
+  syntax:
+    content: public const TicketPriorityEscalateAction ActionClosed
+    return:
+      type: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+    content.vb: Public Const ActionClosed As TicketPriorityEscalateAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionChangedPriority
+  commentId: F:SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionChangedPriority
+  id: ActionChangedPriority
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+  langs:
+  - csharp
+  - vb
+  name: ActionChangedPriority
+  nameWithType: TicketPriorityEscalateAction.ActionChangedPriority
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionChangedPriority
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Triggers escalation on ticket priority change\n"
+  syntax:
+    content: public const TicketPriorityEscalateAction ActionChangedPriority
+    return:
+      type: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+    content.vb: Public Const ActionChangedPriority As TicketPriorityEscalateAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionNew
+  commentId: F:SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionNew
+  id: ActionNew
+  parent: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+  langs:
+  - csharp
+  - vb
+  name: ActionNew
+  nameWithType: TicketPriorityEscalateAction.ActionNew
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateAction.ActionNew
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Triggers escalation on ticket creation\n"
+  syntax:
+    content: public const TicketPriorityEscalateAction ActionNew
+    return:
+      type: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+    content.vb: Public Const ActionNew As TicketPriorityEscalateAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+  commentId: T:SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketPriorityEscalateAction
+  nameWithType: TicketPriorityEscalateAction
+  fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateAction

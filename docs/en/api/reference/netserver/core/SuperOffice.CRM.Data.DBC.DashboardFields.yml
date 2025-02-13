@@ -30,24 +30,27 @@ items:
   nameWithType: DBC.DashboardFields
   fullName: SuperOffice.CRM.Data.DBC.DashboardFields
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Fields for Dashboard, Describes a dashboard
-  example: []
+  summary: "\nFields for Dashboard, Describes a dashboard\n"
   syntax:
-    content: public static class DBC.DashboardFields
-    content.vb: Public Module DBC.DashboardFields
+    content: 'public static class DashboardFields : Object'
+    content.vb: >-
+      Public Module DashboardFields
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Data.DBC.DashboardFields.DashboardId
   commentId: F:SuperOffice.CRM.Data.DBC.DashboardFields.DashboardId
   id: DashboardId
@@ -59,16 +62,24 @@ items:
   nameWithType: DBC.DashboardFields.DashboardId
   fullName: SuperOffice.CRM.Data.DBC.DashboardFields.DashboardId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Dashboard.DashboardId: Primary key'
-  example: []
+  summary: "\nDashboard.DashboardId: Primary key\n"
   syntax:
     content: public const string DashboardId = "dashboard_id"
     return:
       type: System.String
     content.vb: Public Const DashboardId As String = "dashboard_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DashboardFields.AssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.DashboardFields.AssociateId
   id: AssociateId
@@ -80,16 +91,24 @@ items:
   nameWithType: DBC.DashboardFields.AssociateId
   fullName: SuperOffice.CRM.Data.DBC.DashboardFields.AssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Dashboard.AssociateId: Associate who owns this dashboard'
-  example: []
+  summary: "\nDashboard.AssociateId: Associate who owns this dashboard\n"
   syntax:
     content: public const string AssociateId = "associate_id"
     return:
       type: System.String
     content.vb: Public Const AssociateId As String = "associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DashboardFields.Name
   commentId: F:SuperOffice.CRM.Data.DBC.DashboardFields.Name
   id: Name
@@ -101,16 +120,24 @@ items:
   nameWithType: DBC.DashboardFields.Name
   fullName: SuperOffice.CRM.Data.DBC.DashboardFields.Name
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Dashboard.Name: The name of this dashboard'
-  example: []
+  summary: "\nDashboard.Name: The name of this dashboard\n"
   syntax:
     content: public const string Name = "name"
     return:
       type: System.String
     content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DashboardFields.Description
   commentId: F:SuperOffice.CRM.Data.DBC.DashboardFields.Description
   id: Description
@@ -122,16 +149,24 @@ items:
   nameWithType: DBC.DashboardFields.Description
   fullName: SuperOffice.CRM.Data.DBC.DashboardFields.Description
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Dashboard.Description: Detailed description'
-  example: []
+  summary: "\nDashboard.Description: Detailed description\n"
   syntax:
     content: public const string Description = "description"
     return:
       type: System.String
     content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DashboardFields.DashboardThemeId
   commentId: F:SuperOffice.CRM.Data.DBC.DashboardFields.DashboardThemeId
   id: DashboardThemeId
@@ -143,16 +178,24 @@ items:
   nameWithType: DBC.DashboardFields.DashboardThemeId
   fullName: SuperOffice.CRM.Data.DBC.DashboardFields.DashboardThemeId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Dashboard.DashboardThemeId: The theme belongs to set of slyle rules for the dashboard'
-  example: []
+  summary: "\nDashboard.DashboardThemeId: The theme belongs to set of slyle rules for the dashboard\n"
   syntax:
     content: public const string DashboardThemeId = "dashboard_theme_id"
     return:
       type: System.String
     content.vb: Public Const DashboardThemeId As String = "dashboard_theme_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DashboardFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.DashboardFields.Registered
   id: Registered
@@ -164,16 +207,24 @@ items:
   nameWithType: DBC.DashboardFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.DashboardFields.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Dashboard.Registered: Registered when'
-  example: []
+  summary: "\nDashboard.Registered: Registered when\n"
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DashboardFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.DashboardFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -185,16 +236,24 @@ items:
   nameWithType: DBC.DashboardFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.DashboardFields.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Dashboard.RegisteredAssociateId: Registered by whom'
-  example: []
+  summary: "\nDashboard.RegisteredAssociateId: Registered by whom\n"
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DashboardFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.DashboardFields.Updated
   id: Updated
@@ -206,16 +265,24 @@ items:
   nameWithType: DBC.DashboardFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.DashboardFields.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Dashboard.Updated: Last updated when'
-  example: []
+  summary: "\nDashboard.Updated: Last updated when\n"
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DashboardFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.DashboardFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -227,16 +294,24 @@ items:
   nameWithType: DBC.DashboardFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.DashboardFields.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Dashboard.UpdatedAssociateId: Last updated by whom'
-  example: []
+  summary: "\nDashboard.UpdatedAssociateId: Last updated by whom\n"
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DashboardFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.DashboardFields.UpdatedCount
   id: UpdatedCount
@@ -248,16 +323,24 @@ items:
   nameWithType: DBC.DashboardFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.DashboardFields.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Dashboard.UpdatedCount: Number of updates made to this record'
-  example: []
+  summary: "\nDashboard.UpdatedCount: Number of updates made to this record\n"
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DashboardFields.VisibleForAll
   commentId: F:SuperOffice.CRM.Data.DBC.DashboardFields.VisibleForAll
   id: VisibleForAll
@@ -269,16 +352,24 @@ items:
   nameWithType: DBC.DashboardFields.VisibleForAll
   fullName: SuperOffice.CRM.Data.DBC.DashboardFields.VisibleForAll
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Dashboard.VisibleForAll: True if visible for all'
-  example: []
+  summary: "\nDashboard.VisibleForAll: True if visible for all\n"
   syntax:
     content: public const string VisibleForAll = "visible_for_all"
     return:
       type: System.String
     content.vb: Public Const VisibleForAll As String = "visible_for_all"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DashboardFields.VisibleForAssociates
   commentId: F:SuperOffice.CRM.Data.DBC.DashboardFields.VisibleForAssociates
   id: VisibleForAssociates
@@ -290,16 +381,24 @@ items:
   nameWithType: DBC.DashboardFields.VisibleForAssociates
   fullName: SuperOffice.CRM.Data.DBC.DashboardFields.VisibleForAssociates
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Dashboard.VisibleForAssociates: Array of references to the visible for associates'
-  example: []
+  summary: "\nDashboard.VisibleForAssociates: Array of references to the visible for associates\n"
   syntax:
     content: public const string VisibleForAssociates = "visible_for_associates"
     return:
       type: System.String
     content.vb: Public Const VisibleForAssociates As String = "visible_for_associates"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DashboardFields.VisibleForGroups
   commentId: F:SuperOffice.CRM.Data.DBC.DashboardFields.VisibleForGroups
   id: VisibleForGroups
@@ -311,16 +410,24 @@ items:
   nameWithType: DBC.DashboardFields.VisibleForGroups
   fullName: SuperOffice.CRM.Data.DBC.DashboardFields.VisibleForGroups
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Dashboard.VisibleForGroups: Array of references to the visible for groups'
-  example: []
+  summary: "\nDashboard.VisibleForGroups: Array of references to the visible for groups\n"
   syntax:
     content: public const string VisibleForGroups = "visible_for_groups"
     return:
       type: System.String
     content.vb: Public Const VisibleForGroups As String = "visible_for_groups"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DashboardFields.PinForAll
   commentId: F:SuperOffice.CRM.Data.DBC.DashboardFields.PinForAll
   id: PinForAll
@@ -332,16 +439,24 @@ items:
   nameWithType: DBC.DashboardFields.PinForAll
   fullName: SuperOffice.CRM.Data.DBC.DashboardFields.PinForAll
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Dashboard.PinForAll: True if pinned for all'
-  example: []
+  summary: "\nDashboard.PinForAll: True if pinned for all\n"
   syntax:
     content: public const string PinForAll = "pin_for_all"
     return:
       type: System.String
     content.vb: Public Const PinForAll As String = "pin_for_all"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DashboardFields.PinForAssociates
   commentId: F:SuperOffice.CRM.Data.DBC.DashboardFields.PinForAssociates
   id: PinForAssociates
@@ -353,16 +468,24 @@ items:
   nameWithType: DBC.DashboardFields.PinForAssociates
   fullName: SuperOffice.CRM.Data.DBC.DashboardFields.PinForAssociates
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Dashboard.PinForAssociates: Array of references to the pinned associates'
-  example: []
+  summary: "\nDashboard.PinForAssociates: Array of references to the pinned associates\n"
   syntax:
     content: public const string PinForAssociates = "pin_for_associates"
     return:
       type: System.String
     content.vb: Public Const PinForAssociates As String = "pin_for_associates"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DashboardFields.PinForGroups
   commentId: F:SuperOffice.CRM.Data.DBC.DashboardFields.PinForGroups
   id: PinForGroups
@@ -374,16 +497,24 @@ items:
   nameWithType: DBC.DashboardFields.PinForGroups
   fullName: SuperOffice.CRM.Data.DBC.DashboardFields.PinForGroups
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Dashboard.PinForGroups: Array of references to the pinned groups'
-  example: []
+  summary: "\nDashboard.PinForGroups: Array of references to the pinned groups\n"
   syntax:
     content: public const string PinForGroups = "pin_for_groups"
     return:
       type: System.String
     content.vb: Public Const PinForGroups As String = "pin_for_groups"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DashboardFields.Columns
   commentId: F:SuperOffice.CRM.Data.DBC.DashboardFields.Columns
   id: Columns
@@ -395,16 +526,24 @@ items:
   nameWithType: DBC.DashboardFields.Columns
   fullName: SuperOffice.CRM.Data.DBC.DashboardFields.Columns
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Dashboard.Columns: How many columns there will be in the dashboard.'
-  example: []
+  summary: "\nDashboard.Columns: How many columns there will be in the dashboard.\n"
   syntax:
     content: public const string Columns = "columns"
     return:
       type: System.String
     content.vb: Public Const Columns As String = "columns"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DashboardFields.Guid
   commentId: F:SuperOffice.CRM.Data.DBC.DashboardFields.Guid
   id: Guid
@@ -416,288 +555,41 @@ items:
   nameWithType: DBC.DashboardFields.Guid
   fullName: SuperOffice.CRM.Data.DBC.DashboardFields.Guid
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Dashboard.Guid: GUID identifying a default dashboard from SuperOffice'
-  example: []
+  summary: "\nDashboard.Guid: GUID identifying a default dashboard from SuperOffice\n"
   syntax:
     content: public const string Guid = "guid"
     return:
       type: System.String
     content.vb: Public Const Guid As String = "guid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -705,10 +597,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

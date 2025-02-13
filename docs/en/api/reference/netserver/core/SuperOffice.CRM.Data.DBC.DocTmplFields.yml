@@ -44,24 +44,27 @@ items:
   nameWithType: DBC.DocTmplFields
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Fields for DocTmpl, DocTmpl list table. Describes templates available for writing new documents.
-  example: []
+  summary: "\nFields for DocTmpl, DocTmpl list table. Describes templates available for writing new documents.\n"
   syntax:
-    content: public static class DBC.DocTmplFields
-    content.vb: Public Module DBC.DocTmplFields
+    content: 'public static class DocTmplFields : Object'
+    content.vb: >-
+      Public Module DocTmplFields
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.DocTmplId
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.DocTmplId
   id: DocTmplId
@@ -73,16 +76,24 @@ items:
   nameWithType: DBC.DocTmplFields.DocTmplId
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.DocTmplId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.DocTmplId: Primary key'
-  example: []
+  summary: "\nDocTmpl.DocTmplId: Primary key\n"
   syntax:
     content: public const string DocTmplId = "DocTmpl_id"
     return:
       type: System.String
     content.vb: Public Const DocTmplId As String = "DocTmpl_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.Name
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.Name
   id: Name
@@ -94,16 +105,24 @@ items:
   nameWithType: DBC.DocTmplFields.Name
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.Name
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.Name: The list item'
-  example: []
+  summary: "\nDocTmpl.Name: The list item\n"
   syntax:
     content: public const string Name = "name"
     return:
       type: System.String
     content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.Rank
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.Rank
   id: Rank
@@ -115,16 +134,24 @@ items:
   nameWithType: DBC.DocTmplFields.Rank
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.Rank
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.Rank: Rank order'
-  example: []
+  summary: "\nDocTmpl.Rank: Rank order\n"
   syntax:
     content: public const string Rank = "rank"
     return:
       type: System.String
     content.vb: Public Const Rank As String = "rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.Tooltip
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.Tooltip
   id: Tooltip
@@ -136,16 +163,24 @@ items:
   nameWithType: DBC.DocTmplFields.Tooltip
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.Tooltip
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.Tooltip: Tooltip or other description'
-  example: []
+  summary: "\nDocTmpl.Tooltip: Tooltip or other description\n"
   syntax:
     content: public const string Tooltip = "tooltip"
     return:
       type: System.String
     content.vb: Public Const Tooltip As String = "tooltip"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.Deleted
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.Deleted
   id: Deleted
@@ -157,16 +192,24 @@ items:
   nameWithType: DBC.DocTmplFields.Deleted
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.Deleted
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "DocTmpl.Deleted: 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists"
-  example: []
+  summary: "\nDocTmpl.Deleted: 0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
   syntax:
     content: public const string Deleted = "deleted"
     return:
       type: System.String
     content.vb: Public Const Deleted As String = "deleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.Filename
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.Filename
   id: Filename
@@ -178,16 +221,24 @@ items:
   nameWithType: DBC.DocTmplFields.Filename
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.Filename
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.Filename: Relative to TemplatePath in SOARC. Plugin specific extref in other doc archives. i.e. Google document URL or Notes id.'
-  example: []
+  summary: "\nDocTmpl.Filename: Relative to TemplatePath in SOARC. Plugin specific extref in other doc archives. i.e. Google document URL or Notes id.\n"
   syntax:
     content: public const string Filename = "filename"
     return:
       type: System.String
     content.vb: Public Const Filename As String = "filename"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.AutoeventId
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.AutoeventId
   id: AutoeventId
@@ -199,16 +250,24 @@ items:
   nameWithType: DBC.DocTmplFields.AutoeventId
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.AutoeventId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.AutoeventId: Document plugin id - where the documents generated from this template are to be stored. Copied to the document.archiveProvider when document is created.'
-  example: []
+  summary: "\nDocTmpl.AutoeventId: Document plugin id - where the documents generated from this template are to be stored. Copied to the document.archiveProvider when document is created.\n"
   syntax:
     content: public const string AutoeventId = "autoevent_id"
     return:
       type: System.String
     content.vb: Public Const AutoeventId As String = "autoevent_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.RecordType
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.RecordType
   id: RecordType
@@ -220,16 +279,24 @@ items:
   nameWithType: DBC.DocTmplFields.RecordType
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.RecordType
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.RecordType: 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes'
-  example: []
+  summary: "\nDocTmpl.RecordType: 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes\n"
   syntax:
     content: public const string RecordType = "record_type"
     return:
       type: System.String
     content.vb: Public Const RecordType As String = "record_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.Direction
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.Direction
   id: Direction
@@ -241,16 +308,24 @@ items:
   nameWithType: DBC.DocTmplFields.Direction
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.Direction
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.Direction: 1 = incoming, 2 = outgoing, see EAppntDirection'
-  example: []
+  summary: "\nDocTmpl.Direction: 1 = incoming, 2 = outgoing, see EAppntDirection\n"
   syntax:
     content: public const string Direction = "direction"
     return:
       type: System.String
     content.vb: Public Const Direction As String = "direction"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.SaveInDb
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.SaveInDb
   id: SaveInDb
@@ -262,16 +337,24 @@ items:
   nameWithType: DBC.DocTmplFields.SaveInDb
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.SaveInDb
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.SaveInDb: 1 = save document records in DB; otherwise not.'
-  example: []
+  summary: "\nDocTmpl.SaveInDb: 1 = save document records in DB; otherwise not.\n"
   syntax:
     content: public const string SaveInDb = "saveInDb"
     return:
       type: System.String
     content.vb: Public Const SaveInDb As String = "saveInDb"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.DefaultOref
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.DefaultOref
   id: DefaultOref
@@ -283,16 +366,24 @@ items:
   nameWithType: DBC.DocTmplFields.DefaultOref
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.DefaultOref
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.DefaultOref: Processed via tag substitution to give document reference'
-  example: []
+  summary: "\nDocTmpl.DefaultOref: Processed via tag substitution to give document reference\n"
   syntax:
     content: public const string DefaultOref = "default_oref"
     return:
       type: System.String
     content.vb: Public Const DefaultOref As String = "default_oref"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.RegkeyOpen
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.RegkeyOpen
   id: RegkeyOpen
@@ -304,16 +395,24 @@ items:
   nameWithType: DBC.DocTmplFields.RegkeyOpen
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.RegkeyOpen
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.RegkeyOpen: Registry key to use for Open, if blank, we simply ask Windows to do the operation for us'
-  example: []
+  summary: "\nDocTmpl.RegkeyOpen: Registry key to use for Open, if blank, we simply ask Windows to do the operation for us\n"
   syntax:
     content: public const string RegkeyOpen = "regkey_open"
     return:
       type: System.String
     content.vb: Public Const RegkeyOpen As String = "regkey_open"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.RegkeyEdit
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.RegkeyEdit
   id: RegkeyEdit
@@ -325,16 +424,24 @@ items:
   nameWithType: DBC.DocTmplFields.RegkeyEdit
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.RegkeyEdit
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.RegkeyEdit: Registry key to use for Edit; if blank, we simply ask Windows to do the operation for us'
-  example: []
+  summary: "\nDocTmpl.RegkeyEdit: Registry key to use for Edit; if blank, we simply ask Windows to do the operation for us\n"
   syntax:
     content: public const string RegkeyEdit = "regkey_edit"
     return:
       type: System.String
     content.vb: Public Const RegkeyEdit As String = "regkey_edit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.RegkeyPrint
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.RegkeyPrint
   id: RegkeyPrint
@@ -346,16 +453,24 @@ items:
   nameWithType: DBC.DocTmplFields.RegkeyPrint
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.RegkeyPrint
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.RegkeyPrint: Registry key to use for Print; if blank, we simply ask Windows to do the operation for us'
-  example: []
+  summary: "\nDocTmpl.RegkeyPrint: Registry key to use for Print; if blank, we simply ask Windows to do the operation for us\n"
   syntax:
     content: public const string RegkeyPrint = "regkey_print"
     return:
       type: System.String
     content.vb: Public Const RegkeyPrint As String = "regkey_print"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.Accelerator
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.Accelerator
   id: Accelerator
@@ -367,16 +482,24 @@ items:
   nameWithType: DBC.DocTmplFields.Accelerator
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.Accelerator
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.Accelerator: Accelerator key code for this template'
-  example: []
+  summary: "\nDocTmpl.Accelerator: Accelerator key code for this template\n"
   syntax:
     content: public const string Accelerator = "accelerator"
     return:
       type: System.String
     content.vb: Public Const Accelerator As String = "accelerator"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.Registered
   id: Registered
@@ -388,16 +511,24 @@ items:
   nameWithType: DBC.DocTmplFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.Registered: Registered when'
-  example: []
+  summary: "\nDocTmpl.Registered: Registered when\n"
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -409,16 +540,24 @@ items:
   nameWithType: DBC.DocTmplFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.RegisteredAssociateId: Registered by whom'
-  example: []
+  summary: "\nDocTmpl.RegisteredAssociateId: Registered by whom\n"
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.Updated
   id: Updated
@@ -430,16 +569,24 @@ items:
   nameWithType: DBC.DocTmplFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.Updated: Last updated when'
-  example: []
+  summary: "\nDocTmpl.Updated: Last updated when\n"
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -451,16 +598,24 @@ items:
   nameWithType: DBC.DocTmplFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.UpdatedAssociateId: Last updated by whom'
-  example: []
+  summary: "\nDocTmpl.UpdatedAssociateId: Last updated by whom\n"
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.UpdatedCount
   id: UpdatedCount
@@ -472,16 +627,24 @@ items:
   nameWithType: DBC.DocTmplFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.UpdatedCount: Number of updates made to this record'
-  example: []
+  summary: "\nDocTmpl.UpdatedCount: Number of updates made to this record\n"
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.DefaultPublishType
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.DefaultPublishType
   id: DefaultPublishType
@@ -493,16 +656,24 @@ items:
   nameWithType: DBC.DocTmplFields.DefaultPublishType
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.DefaultPublishType
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.DefaultPublishType: Should documents based on this template be published=true? Default state of publish flag on documents.'
-  example: []
+  summary: "\nDocTmpl.DefaultPublishType: Should documents based on this template be published=true? Default state of publish flag on documents.\n"
   syntax:
     content: public const string DefaultPublishType = "defaultPublishType"
     return:
       type: System.String
     content.vb: Public Const DefaultPublishType As String = "defaultPublishType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.IntentId
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.IntentId
   id: IntentId
@@ -514,16 +685,24 @@ items:
   nameWithType: DBC.DocTmplFields.IntentId
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.IntentId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.IntentId: What is the intention of this document (used by SAINT)'
-  example: []
+  summary: "\nDocTmpl.IntentId: What is the intention of this document (used by SAINT)\n"
   syntax:
     content: public const string IntentId = "intentId"
     return:
       type: System.String
     content.vb: Public Const IntentId As String = "intentId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.MimeType
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.MimeType
   id: MimeType
@@ -535,16 +714,24 @@ items:
   nameWithType: DBC.DocTmplFields.MimeType
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.MimeType
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.MimeType: The MIME type, for Web/Browser use of documents of this type'
-  example: []
+  summary: "\nDocTmpl.MimeType: The MIME type, for Web/Browser use of documents of this type\n"
   syntax:
     content: public const string MimeType = "mimeType"
     return:
       type: System.String
     content.vb: Public Const MimeType As String = "mimeType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.LoadTemplateFromPlugin
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.LoadTemplateFromPlugin
   id: LoadTemplateFromPlugin
@@ -556,16 +743,24 @@ items:
   nameWithType: DBC.DocTmplFields.LoadTemplateFromPlugin
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.LoadTemplateFromPlugin
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.LoadTemplateFromPlugin: If nonzero, then this is the ID of the document plugin that should supply the template document file, instead of the default so_arc/template'
-  example: []
+  summary: "\nDocTmpl.LoadTemplateFromPlugin: If nonzero, then this is the ID of the document plugin that should supply the template document file, instead of the default so_arc/template\n"
   syntax:
     content: public const string LoadTemplateFromPlugin = "loadTemplateFromPlugin"
     return:
       type: System.String
     content.vb: Public Const LoadTemplateFromPlugin As String = "loadTemplateFromPlugin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.QuoteDocType
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.QuoteDocType
   id: QuoteDocType
@@ -577,16 +772,24 @@ items:
   nameWithType: DBC.DocTmplFields.QuoteDocType
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.QuoteDocType
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.QuoteDocType: The role this document plays in the Quote system, if any'
-  example: []
+  summary: "\nDocTmpl.QuoteDocType: The role this document plays in the Quote system, if any\n"
   syntax:
     content: public const string QuoteDocType = "quoteDocType"
     return:
       type: System.String
     content.vb: Public Const QuoteDocType As String = "quoteDocType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.PrivacyDocType
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.PrivacyDocType
   id: PrivacyDocType
@@ -598,16 +801,24 @@ items:
   nameWithType: DBC.DocTmplFields.PrivacyDocType
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.PrivacyDocType
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.PrivacyDocType: Indicator that this document template has a functional role, related to privacy/GDPR'
-  example: []
+  summary: "\nDocTmpl.PrivacyDocType: Indicator that this document template has a functional role, related to privacy/GDPR\n"
   syntax:
     content: public const string PrivacyDocType = "privacyDocType"
     return:
       type: System.String
     content.vb: Public Const PrivacyDocType As String = "privacyDocType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.EmailSubject
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.EmailSubject
   id: EmailSubject
@@ -619,16 +830,24 @@ items:
   nameWithType: DBC.DocTmplFields.EmailSubject
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.EmailSubject
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.EmailSubject: Subject line for document templates that represent an email; template tags are accepted in this item'
-  example: []
+  summary: "\nDocTmpl.EmailSubject: Subject line for document templates that represent an email; template tags are accepted in this item\n"
   syntax:
     content: public const string EmailSubject = "emailSubject"
     return:
       type: System.String
     content.vb: Public Const EmailSubject As String = "emailSubject"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.IncludeSignature
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.IncludeSignature
   id: IncludeSignature
@@ -640,16 +859,24 @@ items:
   nameWithType: DBC.DocTmplFields.IncludeSignature
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.IncludeSignature
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.IncludeSignature: If True, signature (mail.htm) should be added at bottom of template when used'
-  example: []
+  summary: "\nDocTmpl.IncludeSignature: If True, signature (mail.htm) should be added at bottom of template when used\n"
   syntax:
     content: public const string IncludeSignature = "includeSignature"
     return:
       type: System.String
     content.vb: Public Const IncludeSignature As String = "includeSignature"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.ShowCurrents
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.ShowCurrents
   id: ShowCurrents
@@ -661,16 +888,24 @@ items:
   nameWithType: DBC.DocTmplFields.ShowCurrents
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.ShowCurrents
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.ShowCurrents: If True, A dialog or sidebar will be shown for changing current values on Contact, Person'
-  example: []
+  summary: "\nDocTmpl.ShowCurrents: If True, A dialog or sidebar will be shown for changing current values on Contact, Person  \n"
   syntax:
     content: public const string ShowCurrents = "showCurrents"
     return:
       type: System.String
     content.vb: Public Const ShowCurrents As String = "showCurrents"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.SenderEmailMode
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.SenderEmailMode
   id: SenderEmailMode
@@ -682,16 +917,24 @@ items:
   nameWithType: DBC.DocTmplFields.SenderEmailMode
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.SenderEmailMode
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.SenderEmailMode: Type of sender email setting. Always use senderEmailAddress = 0, Use Our contact = 1, Use Support Associate = 2'
-  example: []
+  summary: "\nDocTmpl.SenderEmailMode: Type of sender email setting. Always use senderEmailAddress = 0, Use Our contact = 1, Use Support Associate = 2\n"
   syntax:
     content: public const string SenderEmailMode = "senderEmailMode"
     return:
       type: System.String
     content.vb: Public Const SenderEmailMode As String = "senderEmailMode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.SenderEmailAddress
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.SenderEmailAddress
   id: SenderEmailAddress
@@ -703,16 +946,24 @@ items:
   nameWithType: DBC.DocTmplFields.SenderEmailAddress
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.SenderEmailAddress
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.SenderEmailAddress: The email address to use in from field'
-  example: []
+  summary: "\nDocTmpl.SenderEmailAddress: The email address to use in from field\n"
   syntax:
     content: public const string SenderEmailAddress = "senderEmailAddress"
     return:
       type: System.String
     content.vb: Public Const SenderEmailAddress As String = "senderEmailAddress"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.DocTmplFields.InvitationDocType
   commentId: F:SuperOffice.CRM.Data.DBC.DocTmplFields.InvitationDocType
   id: InvitationDocType
@@ -724,288 +975,41 @@ items:
   nameWithType: DBC.DocTmplFields.InvitationDocType
   fullName: SuperOffice.CRM.Data.DBC.DocTmplFields.InvitationDocType
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'DocTmpl.InvitationDocType: Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3'
-  example: []
+  summary: "\nDocTmpl.InvitationDocType: Type for sending email meeting invitation. Not an invitation type template = 0, New = 1, Changed = 2, Cancelled = 3\n"
   syntax:
     content: public const string InvitationDocType = "invitationDocType"
     return:
       type: System.String
     content.vb: Public Const InvitationDocType As String = "invitationDocType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -1013,10 +1017,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

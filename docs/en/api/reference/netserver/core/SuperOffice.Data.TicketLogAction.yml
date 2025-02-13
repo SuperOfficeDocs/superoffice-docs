@@ -5,11 +5,11 @@ items:
   id: TicketLogAction
   parent: SuperOffice.Data
   children:
+  - SuperOffice.Data.TicketLogAction.Message_AddedDebugInfo
   - SuperOffice.Data.TicketLogAction.Message_AddMassMessage
   - SuperOffice.Data.TicketLogAction.Message_AddMessage
   - SuperOffice.Data.TicketLogAction.Message_AddMessageFromCustomer
   - SuperOffice.Data.TicketLogAction.Message_AddMessageFromSoap
-  - SuperOffice.Data.TicketLogAction.Message_AddedDebugInfo
   - SuperOffice.Data.TicketLogAction.Message_BounceMessage
   - SuperOffice.Data.TicketLogAction.Message_Continue
   - SuperOffice.Data.TicketLogAction.Message_CustomDescription
@@ -79,44 +79,67 @@ items:
   - SuperOffice.Data.TicketLogAction.Ticket_Unknown
   - SuperOffice.Data.TicketLogAction.Ticket_UserDeletedOwneraction
   - SuperOffice.Data.TicketLogAction.Ticket_UserTakesOwnership
+  - SuperOffice.Data.TicketLogAction.value__
   langs:
   - csharp
   - vb
   name: TicketLogAction
   nameWithType: TicketLogAction
   fullName: SuperOffice.Data.TicketLogAction
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: >-
-    Value representing action that caused a ticket to change
-
-    This Enum is used by:  ticket_log_action.log_action
-  example: []
+  summary: "\nValue representing action that caused a ticket to change\nThis Enum is used by:  ticket_log_action.log_action\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum TicketLogAction
+    content: 'public sealed class TicketLogAction : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class TicketLogAction
+          Inherits
 
-      Public Enum TicketLogAction
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.TicketLogAction.EnumUtil.MapEnums``2
   - SuperOffice.Data.TicketLogAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.TicketLogAction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketLogAction)
-  - SuperOffice.Data.TicketLogAction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.TicketLogAction.value__
+  commentId: F:SuperOffice.Data.TicketLogAction.value__
+  id: value__
+  parent: SuperOffice.Data.TicketLogAction
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketLogAction.value__
+  fullName: SuperOffice.Data.TicketLogAction.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.TicketLogAction.No_Logging
   commentId: F:SuperOffice.Data.TicketLogAction.No_Logging
   id: No_Logging
@@ -128,26 +151,24 @@ items:
   nameWithType: TicketLogAction.No_Logging
   fullName: SuperOffice.Data.TicketLogAction.No_Logging
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: No_Logging'
-  example: []
+  summary: "\n0: No_Logging\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      No_Logging = 0
+    content: public const TicketLogAction No_Logging
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      No_Logging = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const No_Logging As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_Unknown
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_Unknown
   id: Ticket_Unknown
@@ -159,26 +180,24 @@ items:
   nameWithType: TicketLogAction.Ticket_Unknown
   fullName: SuperOffice.Data.TicketLogAction.Ticket_Unknown
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Ticket_Unknown action'
-  example: []
+  summary: "\n1: Ticket_Unknown action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_Unknown = 1
+    content: public const TicketLogAction Ticket_Unknown
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_Unknown = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_Unknown As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_CustomDescription
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_CustomDescription
   id: Ticket_CustomDescription
@@ -190,26 +209,24 @@ items:
   nameWithType: TicketLogAction.Ticket_CustomDescription
   fullName: SuperOffice.Data.TicketLogAction.Ticket_CustomDescription
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: Ticket_CustomDescription action'
-  example: []
+  summary: "\n2: Ticket_CustomDescription action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_CustomDescription = 2
+    content: public const TicketLogAction Ticket_CustomDescription
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_CustomDescription = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_CustomDescription As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_ImportTicketFromEmail
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_ImportTicketFromEmail
   id: Ticket_ImportTicketFromEmail
@@ -221,26 +238,24 @@ items:
   nameWithType: TicketLogAction.Ticket_ImportTicketFromEmail
   fullName: SuperOffice.Data.TicketLogAction.Ticket_ImportTicketFromEmail
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '4: Ticket_ImportTicketFromEmail action'
-  example: []
+  summary: "\n4: Ticket_ImportTicketFromEmail action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_ImportTicketFromEmail = 4
+    content: public const TicketLogAction Ticket_ImportTicketFromEmail
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_ImportTicketFromEmail = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_ImportTicketFromEmail As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_ImportMailNewTicket
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_ImportMailNewTicket
   id: Ticket_ImportMailNewTicket
@@ -252,26 +267,24 @@ items:
   nameWithType: TicketLogAction.Ticket_ImportMailNewTicket
   fullName: SuperOffice.Data.TicketLogAction.Ticket_ImportMailNewTicket
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '5: Ticket_ImportMailNewTicket action'
-  example: []
+  summary: "\n5: Ticket_ImportMailNewTicket action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_ImportMailNewTicket = 5
+    content: public const TicketLogAction Ticket_ImportMailNewTicket
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_ImportMailNewTicket = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_ImportMailNewTicket As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_ImportMailExistingTicket
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_ImportMailExistingTicket
   id: Ticket_ImportMailExistingTicket
@@ -283,26 +296,24 @@ items:
   nameWithType: TicketLogAction.Ticket_ImportMailExistingTicket
   fullName: SuperOffice.Data.TicketLogAction.Ticket_ImportMailExistingTicket
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '6: Ticket_ImportMailExistingTicket action'
-  example: []
+  summary: "\n6: Ticket_ImportMailExistingTicket action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_ImportMailExistingTicket = 6
+    content: public const TicketLogAction Ticket_ImportMailExistingTicket
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_ImportMailExistingTicket = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_ImportMailExistingTicket As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_AttachmentConnectedToTicket
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_AttachmentConnectedToTicket
   id: Ticket_AttachmentConnectedToTicket
@@ -314,26 +325,24 @@ items:
   nameWithType: TicketLogAction.Ticket_AttachmentConnectedToTicket
   fullName: SuperOffice.Data.TicketLogAction.Ticket_AttachmentConnectedToTicket
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '7: Ticket_AttachmentConnectedToTicket action'
-  example: []
+  summary: "\n7: Ticket_AttachmentConnectedToTicket action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_AttachmentConnectedToTicket = 7
+    content: public const TicketLogAction Ticket_AttachmentConnectedToTicket
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_AttachmentConnectedToTicket = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_AttachmentConnectedToTicket As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_TicketActivated
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_TicketActivated
   id: Ticket_TicketActivated
@@ -345,26 +354,24 @@ items:
   nameWithType: TicketLogAction.Ticket_TicketActivated
   fullName: SuperOffice.Data.TicketLogAction.Ticket_TicketActivated
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '8: Ticket_TicketActivated action'
-  example: []
+  summary: "\n8: Ticket_TicketActivated action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_TicketActivated = 8
+    content: public const TicketLogAction Ticket_TicketActivated
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_TicketActivated = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_TicketActivated As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_TicketEscalated
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_TicketEscalated
   id: Ticket_TicketEscalated
@@ -376,26 +383,24 @@ items:
   nameWithType: TicketLogAction.Ticket_TicketEscalated
   fullName: SuperOffice.Data.TicketLogAction.Ticket_TicketEscalated
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '9: Ticket_TicketEscalated action'
-  example: []
+  summary: "\n9: Ticket_TicketEscalated action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_TicketEscalated = 9
+    content: public const TicketLogAction Ticket_TicketEscalated
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_TicketEscalated = 9
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_TicketEscalated As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_ConnectTwoTickets
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_ConnectTwoTickets
   id: Ticket_ConnectTwoTickets
@@ -407,26 +412,24 @@ items:
   nameWithType: TicketLogAction.Ticket_ConnectTwoTickets
   fullName: SuperOffice.Data.TicketLogAction.Ticket_ConnectTwoTickets
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10: Ticket_ConnectTwoTickets action'
-  example: []
+  summary: "\n10: Ticket_ConnectTwoTickets action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_ConnectTwoTickets = 10
+    content: public const TicketLogAction Ticket_ConnectTwoTickets
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_ConnectTwoTickets = 10
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_ConnectTwoTickets As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_MessageAddedToTicket
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_MessageAddedToTicket
   id: Ticket_MessageAddedToTicket
@@ -438,26 +441,24 @@ items:
   nameWithType: TicketLogAction.Ticket_MessageAddedToTicket
   fullName: SuperOffice.Data.TicketLogAction.Ticket_MessageAddedToTicket
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '11: Ticket_MessageAddedToTicket action'
-  example: []
+  summary: "\n11: Ticket_MessageAddedToTicket action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_MessageAddedToTicket = 11
+    content: public const TicketLogAction Ticket_MessageAddedToTicket
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_MessageAddedToTicket = 11
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_MessageAddedToTicket As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_SendingSpmMessage
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_SendingSpmMessage
   id: Ticket_SendingSpmMessage
@@ -469,26 +470,24 @@ items:
   nameWithType: TicketLogAction.Ticket_SendingSpmMessage
   fullName: SuperOffice.Data.TicketLogAction.Ticket_SendingSpmMessage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '12: Ticket_SendingSpmMessage action'
-  example: []
+  summary: "\n12: Ticket_SendingSpmMessage action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_SendingSpmMessage = 12
+    content: public const TicketLogAction Ticket_SendingSpmMessage
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_SendingSpmMessage = 12
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_SendingSpmMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_SavedFromEjScript
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_SavedFromEjScript
   id: Ticket_SavedFromEjScript
@@ -500,26 +499,24 @@ items:
   nameWithType: TicketLogAction.Ticket_SavedFromEjScript
   fullName: SuperOffice.Data.TicketLogAction.Ticket_SavedFromEjScript
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '13: Ticket_SavedFromEjScript action'
-  example: []
+  summary: "\n13: Ticket_SavedFromEjScript action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_SavedFromEjScript = 13
+    content: public const TicketLogAction Ticket_SavedFromEjScript
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_SavedFromEjScript = 13
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_SavedFromEjScript As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_TicketEscalatedFromEjScript
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_TicketEscalatedFromEjScript
   id: Ticket_TicketEscalatedFromEjScript
@@ -531,26 +528,24 @@ items:
   nameWithType: TicketLogAction.Ticket_TicketEscalatedFromEjScript
   fullName: SuperOffice.Data.TicketLogAction.Ticket_TicketEscalatedFromEjScript
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '14: Ticket_TicketEscalatedFromEjScript action'
-  example: []
+  summary: "\n14: Ticket_TicketEscalatedFromEjScript action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_TicketEscalatedFromEjScript = 14
+    content: public const TicketLogAction Ticket_TicketEscalatedFromEjScript
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_TicketEscalatedFromEjScript = 14
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_TicketEscalatedFromEjScript As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_SetValuesFromSoap
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_SetValuesFromSoap
   id: Ticket_SetValuesFromSoap
@@ -562,26 +557,24 @@ items:
   nameWithType: TicketLogAction.Ticket_SetValuesFromSoap
   fullName: SuperOffice.Data.TicketLogAction.Ticket_SetValuesFromSoap
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '15: Ticket_SetValuesFromSoap action'
-  example: []
+  summary: "\n15: Ticket_SetValuesFromSoap action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_SetValuesFromSoap = 15
+    content: public const TicketLogAction Ticket_SetValuesFromSoap
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_SetValuesFromSoap = 15
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_SetValuesFromSoap As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_AddMessageFromSoap
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_AddMessageFromSoap
   id: Ticket_AddMessageFromSoap
@@ -593,26 +586,24 @@ items:
   nameWithType: TicketLogAction.Ticket_AddMessageFromSoap
   fullName: SuperOffice.Data.TicketLogAction.Ticket_AddMessageFromSoap
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '16: Ticket_AddMessageFromSoap action'
-  example: []
+  summary: "\n16: Ticket_AddMessageFromSoap action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_AddMessageFromSoap = 16
+    content: public const TicketLogAction Ticket_AddMessageFromSoap
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_AddMessageFromSoap = 16
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_AddMessageFromSoap As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromSoap
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromSoap
   id: Ticket_NewTicketFromSoap
@@ -624,26 +615,24 @@ items:
   nameWithType: TicketLogAction.Ticket_NewTicketFromSoap
   fullName: SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromSoap
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '17: Ticket_NewTicketFromSoap action'
-  example: []
+  summary: "\n17: Ticket_NewTicketFromSoap action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_NewTicketFromSoap = 17
+    content: public const TicketLogAction Ticket_NewTicketFromSoap
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_NewTicketFromSoap = 17
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_NewTicketFromSoap As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_AddMessage
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_AddMessage
   id: Ticket_AddMessage
@@ -655,26 +644,24 @@ items:
   nameWithType: TicketLogAction.Ticket_AddMessage
   fullName: SuperOffice.Data.TicketLogAction.Ticket_AddMessage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '18: Ticket_AddMessage action'
-  example: []
+  summary: "\n18: Ticket_AddMessage action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_AddMessage = 18
+    content: public const TicketLogAction Ticket_AddMessage
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_AddMessage = 18
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_AddMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_NewTicket
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_NewTicket
   id: Ticket_NewTicket
@@ -686,26 +673,24 @@ items:
   nameWithType: TicketLogAction.Ticket_NewTicket
   fullName: SuperOffice.Data.TicketLogAction.Ticket_NewTicket
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '19: Ticket_NewTicket action'
-  example: []
+  summary: "\n19: Ticket_NewTicket action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_NewTicket = 19
+    content: public const TicketLogAction Ticket_NewTicket
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_NewTicket = 19
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_NewTicket As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_UserTakesOwnership
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_UserTakesOwnership
   id: Ticket_UserTakesOwnership
@@ -717,26 +702,24 @@ items:
   nameWithType: TicketLogAction.Ticket_UserTakesOwnership
   fullName: SuperOffice.Data.TicketLogAction.Ticket_UserTakesOwnership
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '20: Ticket_UserTakesOwnership action'
-  example: []
+  summary: "\n20: Ticket_UserTakesOwnership action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_UserTakesOwnership = 20
+    content: public const TicketLogAction Ticket_UserTakesOwnership
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_UserTakesOwnership = 20
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_UserTakesOwnership As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_ChangeStatus
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_ChangeStatus
   id: Ticket_ChangeStatus
@@ -748,26 +731,24 @@ items:
   nameWithType: TicketLogAction.Ticket_ChangeStatus
   fullName: SuperOffice.Data.TicketLogAction.Ticket_ChangeStatus
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '21: Ticket_ChangeStatus action'
-  example: []
+  summary: "\n21: Ticket_ChangeStatus action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_ChangeStatus = 21
+    content: public const TicketLogAction Ticket_ChangeStatus
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_ChangeStatus = 21
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_ChangeStatus As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_ChangeSecurityStatus
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_ChangeSecurityStatus
   id: Ticket_ChangeSecurityStatus
@@ -779,26 +760,24 @@ items:
   nameWithType: TicketLogAction.Ticket_ChangeSecurityStatus
   fullName: SuperOffice.Data.TicketLogAction.Ticket_ChangeSecurityStatus
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '22: Ticket_ChangeSecurityStatus action'
-  example: []
+  summary: "\n22: Ticket_ChangeSecurityStatus action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_ChangeSecurityStatus = 22
+    content: public const TicketLogAction Ticket_ChangeSecurityStatus
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_ChangeSecurityStatus = 22
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_ChangeSecurityStatus As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraDateTime
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraDateTime
   id: Ticket_QuickSetExtraDateTime
@@ -810,26 +789,24 @@ items:
   nameWithType: TicketLogAction.Ticket_QuickSetExtraDateTime
   fullName: SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraDateTime
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '23: Ticket_QuickSetExtraDateTime action'
-  example: []
+  summary: "\n23: Ticket_QuickSetExtraDateTime action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_QuickSetExtraDateTime = 23
+    content: public const TicketLogAction Ticket_QuickSetExtraDateTime
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_QuickSetExtraDateTime = 23
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_QuickSetExtraDateTime As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraDate
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraDate
   id: Ticket_QuickSetExtraDate
@@ -841,26 +818,24 @@ items:
   nameWithType: TicketLogAction.Ticket_QuickSetExtraDate
   fullName: SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraDate
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '24: Ticket_QuickSetExtraDate action'
-  example: []
+  summary: "\n24: Ticket_QuickSetExtraDate action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_QuickSetExtraDate = 24
+    content: public const TicketLogAction Ticket_QuickSetExtraDate
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_QuickSetExtraDate = 24
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_QuickSetExtraDate As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraTime
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraTime
   id: Ticket_QuickSetExtraTime
@@ -872,26 +847,24 @@ items:
   nameWithType: TicketLogAction.Ticket_QuickSetExtraTime
   fullName: SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraTime
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '25: Ticket_QuickSetExtraTime action'
-  example: []
+  summary: "\n25: Ticket_QuickSetExtraTime action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_QuickSetExtraTime = 25
+    content: public const TicketLogAction Ticket_QuickSetExtraTime
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_QuickSetExtraTime = 25
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_QuickSetExtraTime As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraField
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraField
   id: Ticket_QuickSetExtraField
@@ -903,26 +876,24 @@ items:
   nameWithType: TicketLogAction.Ticket_QuickSetExtraField
   fullName: SuperOffice.Data.TicketLogAction.Ticket_QuickSetExtraField
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '26: Ticket_QuickSetExtraField action'
-  example: []
+  summary: "\n26: Ticket_QuickSetExtraField action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_QuickSetExtraField = 26
+    content: public const TicketLogAction Ticket_QuickSetExtraField
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_QuickSetExtraField = 26
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_QuickSetExtraField As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_SwapExtraField
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_SwapExtraField
   id: Ticket_SwapExtraField
@@ -934,26 +905,24 @@ items:
   nameWithType: TicketLogAction.Ticket_SwapExtraField
   fullName: SuperOffice.Data.TicketLogAction.Ticket_SwapExtraField
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '27: Ticket_SwapExtraField action'
-  example: []
+  summary: "\n27: Ticket_SwapExtraField action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_SwapExtraField = 27
+    content: public const TicketLogAction Ticket_SwapExtraField
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_SwapExtraField = 27
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_SwapExtraField As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_ReadByUser
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_ReadByUser
   id: Ticket_ReadByUser
@@ -965,26 +934,24 @@ items:
   nameWithType: TicketLogAction.Ticket_ReadByUser
   fullName: SuperOffice.Data.TicketLogAction.Ticket_ReadByUser
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '28: Ticket_ReadByUser action'
-  example: []
+  summary: "\n28: Ticket_ReadByUser action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_ReadByUser = 28
+    content: public const TicketLogAction Ticket_ReadByUser
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_ReadByUser = 28
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_ReadByUser As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_BatchOperation
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_BatchOperation
   id: Ticket_BatchOperation
@@ -996,26 +963,24 @@ items:
   nameWithType: TicketLogAction.Ticket_BatchOperation
   fullName: SuperOffice.Data.TicketLogAction.Ticket_BatchOperation
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '29: Ticket_BatchOperation action'
-  example: []
+  summary: "\n29: Ticket_BatchOperation action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_BatchOperation = 29
+    content: public const TicketLogAction Ticket_BatchOperation
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_BatchOperation = 29
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_BatchOperation As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_BatchMarkAsRead
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_BatchMarkAsRead
   id: Ticket_BatchMarkAsRead
@@ -1027,26 +992,24 @@ items:
   nameWithType: TicketLogAction.Ticket_BatchMarkAsRead
   fullName: SuperOffice.Data.TicketLogAction.Ticket_BatchMarkAsRead
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '30: Ticket_BatchMarkAsRead action'
-  example: []
+  summary: "\n30: Ticket_BatchMarkAsRead action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_BatchMarkAsRead = 30
+    content: public const TicketLogAction Ticket_BatchMarkAsRead
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_BatchMarkAsRead = 30
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_BatchMarkAsRead As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_BatchMarkAsUnread
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_BatchMarkAsUnread
   id: Ticket_BatchMarkAsUnread
@@ -1058,26 +1021,24 @@ items:
   nameWithType: TicketLogAction.Ticket_BatchMarkAsUnread
   fullName: SuperOffice.Data.TicketLogAction.Ticket_BatchMarkAsUnread
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '31: Ticket_BatchMarkAsUnread action'
-  example: []
+  summary: "\n31: Ticket_BatchMarkAsUnread action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_BatchMarkAsUnread = 31
+    content: public const TicketLogAction Ticket_BatchMarkAsUnread
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_BatchMarkAsUnread = 31
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_BatchMarkAsUnread As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_BatchCloseTicket
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_BatchCloseTicket
   id: Ticket_BatchCloseTicket
@@ -1089,26 +1050,24 @@ items:
   nameWithType: TicketLogAction.Ticket_BatchCloseTicket
   fullName: SuperOffice.Data.TicketLogAction.Ticket_BatchCloseTicket
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '32: Ticket_BatchCloseTicket action'
-  example: []
+  summary: "\n32: Ticket_BatchCloseTicket action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_BatchCloseTicket = 32
+    content: public const TicketLogAction Ticket_BatchCloseTicket
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_BatchCloseTicket = 32
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_BatchCloseTicket As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_EditTicket
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_EditTicket
   id: Ticket_EditTicket
@@ -1120,26 +1079,24 @@ items:
   nameWithType: TicketLogAction.Ticket_EditTicket
   fullName: SuperOffice.Data.TicketLogAction.Ticket_EditTicket
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '33: Ticket_EditTicket action'
-  example: []
+  summary: "\n33: Ticket_EditTicket action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_EditTicket = 33
+    content: public const TicketLogAction Ticket_EditTicket
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_EditTicket = 33
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_EditTicket As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_DeleteTicket
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_DeleteTicket
   id: Ticket_DeleteTicket
@@ -1151,26 +1108,24 @@ items:
   nameWithType: TicketLogAction.Ticket_DeleteTicket
   fullName: SuperOffice.Data.TicketLogAction.Ticket_DeleteTicket
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '34: Ticket_DeleteTicket action'
-  example: []
+  summary: "\n34: Ticket_DeleteTicket action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_DeleteTicket = 34
+    content: public const TicketLogAction Ticket_DeleteTicket
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_DeleteTicket = 34
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_DeleteTicket As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_JoinTickets
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_JoinTickets
   id: Ticket_JoinTickets
@@ -1182,26 +1137,24 @@ items:
   nameWithType: TicketLogAction.Ticket_JoinTickets
   fullName: SuperOffice.Data.TicketLogAction.Ticket_JoinTickets
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '35: Ticket_JoinTickets action'
-  example: []
+  summary: "\n35: Ticket_JoinTickets action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_JoinTickets = 35
+    content: public const TicketLogAction Ticket_JoinTickets
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_JoinTickets = 35
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_JoinTickets As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_EditMessage
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_EditMessage
   id: Ticket_EditMessage
@@ -1213,26 +1166,24 @@ items:
   nameWithType: TicketLogAction.Ticket_EditMessage
   fullName: SuperOffice.Data.TicketLogAction.Ticket_EditMessage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '36: Ticket_EditMessage action'
-  example: []
+  summary: "\n36: Ticket_EditMessage action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_EditMessage = 36
+    content: public const TicketLogAction Ticket_EditMessage
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_EditMessage = 36
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_EditMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_CloseTicketAfterForward
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_CloseTicketAfterForward
   id: Ticket_CloseTicketAfterForward
@@ -1244,26 +1195,24 @@ items:
   nameWithType: TicketLogAction.Ticket_CloseTicketAfterForward
   fullName: SuperOffice.Data.TicketLogAction.Ticket_CloseTicketAfterForward
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '37: Ticket_CloseTicketAfterForward action'
-  example: []
+  summary: "\n37: Ticket_CloseTicketAfterForward action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_CloseTicketAfterForward = 37
+    content: public const TicketLogAction Ticket_CloseTicketAfterForward
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_CloseTicketAfterForward = 37
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_CloseTicketAfterForward As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_CloseAfterMassMessage
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_CloseAfterMassMessage
   id: Ticket_CloseAfterMassMessage
@@ -1275,26 +1224,24 @@ items:
   nameWithType: TicketLogAction.Ticket_CloseAfterMassMessage
   fullName: SuperOffice.Data.TicketLogAction.Ticket_CloseAfterMassMessage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '38: Ticket_CloseAfterMassMessage action'
-  example: []
+  summary: "\n38: Ticket_CloseAfterMassMessage action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_CloseAfterMassMessage = 38
+    content: public const TicketLogAction Ticket_CloseAfterMassMessage
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_CloseAfterMassMessage = 38
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_CloseAfterMassMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_CloseTicketFromSoap
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_CloseTicketFromSoap
   id: Ticket_CloseTicketFromSoap
@@ -1306,26 +1253,24 @@ items:
   nameWithType: TicketLogAction.Ticket_CloseTicketFromSoap
   fullName: SuperOffice.Data.TicketLogAction.Ticket_CloseTicketFromSoap
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '39: Ticket_CloseTicketFromSoap action'
-  example: []
+  summary: "\n39: Ticket_CloseTicketFromSoap action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_CloseTicketFromSoap = 39
+    content: public const TicketLogAction Ticket_CloseTicketFromSoap
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_CloseTicketFromSoap = 39
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_CloseTicketFromSoap As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_ReadTicketFromSoap
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_ReadTicketFromSoap
   id: Ticket_ReadTicketFromSoap
@@ -1337,26 +1282,24 @@ items:
   nameWithType: TicketLogAction.Ticket_ReadTicketFromSoap
   fullName: SuperOffice.Data.TicketLogAction.Ticket_ReadTicketFromSoap
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '40: Ticket_ReadTicketFromSoap action'
-  example: []
+  summary: "\n40: Ticket_ReadTicketFromSoap action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_ReadTicketFromSoap = 40
+    content: public const TicketLogAction Ticket_ReadTicketFromSoap
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_ReadTicketFromSoap = 40
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_ReadTicketFromSoap As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_UserDeletedOwneraction
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_UserDeletedOwneraction
   id: Ticket_UserDeletedOwneraction
@@ -1368,26 +1311,24 @@ items:
   nameWithType: TicketLogAction.Ticket_UserDeletedOwneraction
   fullName: SuperOffice.Data.TicketLogAction.Ticket_UserDeletedOwneraction
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '41: Ticket_UserDeletedOwneraction action'
-  example: []
+  summary: "\n41: Ticket_UserDeletedOwneraction action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_UserDeletedOwneraction = 41
+    content: public const TicketLogAction Ticket_UserDeletedOwneraction
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_UserDeletedOwneraction = 41
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_UserDeletedOwneraction As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromSpecialForm
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromSpecialForm
   id: Ticket_NewTicketFromSpecialForm
@@ -1399,26 +1340,24 @@ items:
   nameWithType: TicketLogAction.Ticket_NewTicketFromSpecialForm
   fullName: SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromSpecialForm
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '42: Ticket_NewTicketFromSpecialForm action'
-  example: []
+  summary: "\n42: Ticket_NewTicketFromSpecialForm action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_NewTicketFromSpecialForm = 42
+    content: public const TicketLogAction Ticket_NewTicketFromSpecialForm
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_NewTicketFromSpecialForm = 42
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_NewTicketFromSpecialForm As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_TicketClosedByFAQ
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_TicketClosedByFAQ
   id: Ticket_TicketClosedByFAQ
@@ -1430,26 +1369,24 @@ items:
   nameWithType: TicketLogAction.Ticket_TicketClosedByFAQ
   fullName: SuperOffice.Data.TicketLogAction.Ticket_TicketClosedByFAQ
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '43: Ticket_TicketClosedByFAQ action'
-  example: []
+  summary: "\n43: Ticket_TicketClosedByFAQ action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_TicketClosedByFAQ = 43
+    content: public const TicketLogAction Ticket_TicketClosedByFAQ
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_TicketClosedByFAQ = 43
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_TicketClosedByFAQ As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromCustomer
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromCustomer
   id: Ticket_NewTicketFromCustomer
@@ -1461,26 +1398,24 @@ items:
   nameWithType: TicketLogAction.Ticket_NewTicketFromCustomer
   fullName: SuperOffice.Data.TicketLogAction.Ticket_NewTicketFromCustomer
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '44: Ticket_NewTicketFromCustomer action'
-  example: []
+  summary: "\n44: Ticket_NewTicketFromCustomer action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_NewTicketFromCustomer = 44
+    content: public const TicketLogAction Ticket_NewTicketFromCustomer
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_NewTicketFromCustomer = 44
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_NewTicketFromCustomer As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_AddMessageFromCustomer
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_AddMessageFromCustomer
   id: Ticket_AddMessageFromCustomer
@@ -1492,26 +1427,24 @@ items:
   nameWithType: TicketLogAction.Ticket_AddMessageFromCustomer
   fullName: SuperOffice.Data.TicketLogAction.Ticket_AddMessageFromCustomer
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '45: Ticket_AddMessageFromCustomer action'
-  example: []
+  summary: "\n45: Ticket_AddMessageFromCustomer action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_AddMessageFromCustomer = 45
+    content: public const TicketLogAction Ticket_AddMessageFromCustomer
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_AddMessageFromCustomer = 45
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_AddMessageFromCustomer As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_ReadByCustomer
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_ReadByCustomer
   id: Ticket_ReadByCustomer
@@ -1523,26 +1456,24 @@ items:
   nameWithType: TicketLogAction.Ticket_ReadByCustomer
   fullName: SuperOffice.Data.TicketLogAction.Ticket_ReadByCustomer
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '46: Ticket_ReadByCustomer action'
-  example: []
+  summary: "\n46: Ticket_ReadByCustomer action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_ReadByCustomer = 46
+    content: public const TicketLogAction Ticket_ReadByCustomer
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_ReadByCustomer = 46
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_ReadByCustomer As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_SetRepliedAtByMassMessage
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_SetRepliedAtByMassMessage
   id: Ticket_SetRepliedAtByMassMessage
@@ -1554,26 +1485,24 @@ items:
   nameWithType: TicketLogAction.Ticket_SetRepliedAtByMassMessage
   fullName: SuperOffice.Data.TicketLogAction.Ticket_SetRepliedAtByMassMessage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '47: Ticket_SetRepliedAtByMassMessage action'
-  example: []
+  summary: "\n47: Ticket_SetRepliedAtByMassMessage action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_SetRepliedAtByMassMessage = 47
+    content: public const TicketLogAction Ticket_SetRepliedAtByMassMessage
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_SetRepliedAtByMassMessage = 47
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_SetRepliedAtByMassMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_TicketActivatedByBounce
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_TicketActivatedByBounce
   id: Ticket_TicketActivatedByBounce
@@ -1585,26 +1514,24 @@ items:
   nameWithType: TicketLogAction.Ticket_TicketActivatedByBounce
   fullName: SuperOffice.Data.TicketLogAction.Ticket_TicketActivatedByBounce
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '48: Ticket_TicketActivatedByBounce action'
-  example: []
+  summary: "\n48: Ticket_TicketActivatedByBounce action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_TicketActivatedByBounce = 48
+    content: public const TicketLogAction Ticket_TicketActivatedByBounce
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_TicketActivatedByBounce = 48
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_TicketActivatedByBounce As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Ticket_AutoCategorized
   commentId: F:SuperOffice.Data.TicketLogAction.Ticket_AutoCategorized
   id: Ticket_AutoCategorized
@@ -1616,26 +1543,24 @@ items:
   nameWithType: TicketLogAction.Ticket_AutoCategorized
   fullName: SuperOffice.Data.TicketLogAction.Ticket_AutoCategorized
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '49: Ticket_AutoCategorized action'
-  example: []
+  summary: "\n49: Ticket_AutoCategorized action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Ticket_AutoCategorized = 49
+    content: public const TicketLogAction Ticket_AutoCategorized
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Ticket_AutoCategorized = 49
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Ticket_AutoCategorized As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_Unknown
   commentId: F:SuperOffice.Data.TicketLogAction.Message_Unknown
   id: Message_Unknown
@@ -1647,26 +1572,24 @@ items:
   nameWithType: TicketLogAction.Message_Unknown
   fullName: SuperOffice.Data.TicketLogAction.Message_Unknown
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10001: Message_Unknown action'
-  example: []
+  summary: "\n10001: Message_Unknown action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_Unknown = 10001
+    content: public const TicketLogAction Message_Unknown
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_Unknown = 10001
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_Unknown As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_CustomDescription
   commentId: F:SuperOffice.Data.TicketLogAction.Message_CustomDescription
   id: Message_CustomDescription
@@ -1678,26 +1601,24 @@ items:
   nameWithType: TicketLogAction.Message_CustomDescription
   fullName: SuperOffice.Data.TicketLogAction.Message_CustomDescription
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10002: Message_CustomDescription action'
-  example: []
+  summary: "\n10002: Message_CustomDescription action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_CustomDescription = 10002
+    content: public const TicketLogAction Message_CustomDescription
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_CustomDescription = 10002
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_CustomDescription As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_Continue
   commentId: F:SuperOffice.Data.TicketLogAction.Message_Continue
   id: Message_Continue
@@ -1709,26 +1630,24 @@ items:
   nameWithType: TicketLogAction.Message_Continue
   fullName: SuperOffice.Data.TicketLogAction.Message_Continue
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10003: Message_Continue action'
-  example: []
+  summary: "\n10003: Message_Continue action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_Continue = 10003
+    content: public const TicketLogAction Message_Continue
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_Continue = 10003
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_Continue As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_ImportTicketFromEmail
   commentId: F:SuperOffice.Data.TicketLogAction.Message_ImportTicketFromEmail
   id: Message_ImportTicketFromEmail
@@ -1740,26 +1659,24 @@ items:
   nameWithType: TicketLogAction.Message_ImportTicketFromEmail
   fullName: SuperOffice.Data.TicketLogAction.Message_ImportTicketFromEmail
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10004: Message_ImportTicketFromEmail action'
-  example: []
+  summary: "\n10004: Message_ImportTicketFromEmail action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_ImportTicketFromEmail = 10004
+    content: public const TicketLogAction Message_ImportTicketFromEmail
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_ImportTicketFromEmail = 10004
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_ImportTicketFromEmail As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_ImportMailAddMessage
   commentId: F:SuperOffice.Data.TicketLogAction.Message_ImportMailAddMessage
   id: Message_ImportMailAddMessage
@@ -1771,26 +1688,24 @@ items:
   nameWithType: TicketLogAction.Message_ImportMailAddMessage
   fullName: SuperOffice.Data.TicketLogAction.Message_ImportMailAddMessage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10005: Message_ImportMailAddMessage action'
-  example: []
+  summary: "\n10005: Message_ImportMailAddMessage action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_ImportMailAddMessage = 10005
+    content: public const TicketLogAction Message_ImportMailAddMessage
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_ImportMailAddMessage = 10005
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_ImportMailAddMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_AddedDebugInfo
   commentId: F:SuperOffice.Data.TicketLogAction.Message_AddedDebugInfo
   id: Message_AddedDebugInfo
@@ -1802,26 +1717,24 @@ items:
   nameWithType: TicketLogAction.Message_AddedDebugInfo
   fullName: SuperOffice.Data.TicketLogAction.Message_AddedDebugInfo
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10006: Message_AddedDebugInfo action'
-  example: []
+  summary: "\n10006: Message_AddedDebugInfo action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_AddedDebugInfo = 10006
+    content: public const TicketLogAction Message_AddedDebugInfo
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_AddedDebugInfo = 10006
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_AddedDebugInfo As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_SendingReplyTemplate
   commentId: F:SuperOffice.Data.TicketLogAction.Message_SendingReplyTemplate
   id: Message_SendingReplyTemplate
@@ -1833,26 +1746,24 @@ items:
   nameWithType: TicketLogAction.Message_SendingReplyTemplate
   fullName: SuperOffice.Data.TicketLogAction.Message_SendingReplyTemplate
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10007: Message_SendingReplyTemplate action'
-  example: []
+  summary: "\n10007: Message_SendingReplyTemplate action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_SendingReplyTemplate = 10007
+    content: public const TicketLogAction Message_SendingReplyTemplate
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_SendingReplyTemplate = 10007
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_SendingReplyTemplate As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_SendingSMS
   commentId: F:SuperOffice.Data.TicketLogAction.Message_SendingSMS
   id: Message_SendingSMS
@@ -1864,26 +1775,24 @@ items:
   nameWithType: TicketLogAction.Message_SendingSMS
   fullName: SuperOffice.Data.TicketLogAction.Message_SendingSMS
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10008: Message_SendingSMS action'
-  example: []
+  summary: "\n10008: Message_SendingSMS action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_SendingSMS = 10008
+    content: public const TicketLogAction Message_SendingSMS
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_SendingSMS = 10008
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_SendingSMS As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_SendingSpmMessage
   commentId: F:SuperOffice.Data.TicketLogAction.Message_SendingSpmMessage
   id: Message_SendingSpmMessage
@@ -1895,26 +1804,24 @@ items:
   nameWithType: TicketLogAction.Message_SendingSpmMessage
   fullName: SuperOffice.Data.TicketLogAction.Message_SendingSpmMessage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10009: Message_SendingSpmMessage action'
-  example: []
+  summary: "\n10009: Message_SendingSpmMessage action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_SendingSpmMessage = 10009
+    content: public const TicketLogAction Message_SendingSpmMessage
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_SendingSpmMessage = 10009
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_SendingSpmMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_SavedFromEjScript
   commentId: F:SuperOffice.Data.TicketLogAction.Message_SavedFromEjScript
   id: Message_SavedFromEjScript
@@ -1926,26 +1833,24 @@ items:
   nameWithType: TicketLogAction.Message_SavedFromEjScript
   fullName: SuperOffice.Data.TicketLogAction.Message_SavedFromEjScript
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10010: Message_SavedFromEjScript action'
-  example: []
+  summary: "\n10010: Message_SavedFromEjScript action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_SavedFromEjScript = 10010
+    content: public const TicketLogAction Message_SavedFromEjScript
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_SavedFromEjScript = 10010
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_SavedFromEjScript As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_AddMessageFromSoap
   commentId: F:SuperOffice.Data.TicketLogAction.Message_AddMessageFromSoap
   id: Message_AddMessageFromSoap
@@ -1957,26 +1862,24 @@ items:
   nameWithType: TicketLogAction.Message_AddMessageFromSoap
   fullName: SuperOffice.Data.TicketLogAction.Message_AddMessageFromSoap
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10011: Message_AddMessageFromSoap action'
-  example: []
+  summary: "\n10011: Message_AddMessageFromSoap action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_AddMessageFromSoap = 10011
+    content: public const TicketLogAction Message_AddMessageFromSoap
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_AddMessageFromSoap = 10011
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_AddMessageFromSoap As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_AddMessage
   commentId: F:SuperOffice.Data.TicketLogAction.Message_AddMessage
   id: Message_AddMessage
@@ -1988,26 +1891,24 @@ items:
   nameWithType: TicketLogAction.Message_AddMessage
   fullName: SuperOffice.Data.TicketLogAction.Message_AddMessage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10012: Message_AddMessage action'
-  example: []
+  summary: "\n10012: Message_AddMessage action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_AddMessage = 10012
+    content: public const TicketLogAction Message_AddMessage
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_AddMessage = 10012
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_AddMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_NewTicket
   commentId: F:SuperOffice.Data.TicketLogAction.Message_NewTicket
   id: Message_NewTicket
@@ -2019,26 +1920,24 @@ items:
   nameWithType: TicketLogAction.Message_NewTicket
   fullName: SuperOffice.Data.TicketLogAction.Message_NewTicket
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10013: Message_NewTicket action'
-  example: []
+  summary: "\n10013: Message_NewTicket action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_NewTicket = 10013
+    content: public const TicketLogAction Message_NewTicket
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_NewTicket = 10013
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_NewTicket As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_EditTicket
   commentId: F:SuperOffice.Data.TicketLogAction.Message_EditTicket
   id: Message_EditTicket
@@ -2050,26 +1949,24 @@ items:
   nameWithType: TicketLogAction.Message_EditTicket
   fullName: SuperOffice.Data.TicketLogAction.Message_EditTicket
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10014: Message_EditTicket action'
-  example: []
+  summary: "\n10014: Message_EditTicket action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_EditTicket = 10014
+    content: public const TicketLogAction Message_EditTicket
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_EditTicket = 10014
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_EditTicket As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_EditMessage
   commentId: F:SuperOffice.Data.TicketLogAction.Message_EditMessage
   id: Message_EditMessage
@@ -2081,26 +1978,24 @@ items:
   nameWithType: TicketLogAction.Message_EditMessage
   fullName: SuperOffice.Data.TicketLogAction.Message_EditMessage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10015: Message_EditMessage action'
-  example: []
+  summary: "\n10015: Message_EditMessage action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_EditMessage = 10015
+    content: public const TicketLogAction Message_EditMessage
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_EditMessage = 10015
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_EditMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_ForwardMessage
   commentId: F:SuperOffice.Data.TicketLogAction.Message_ForwardMessage
   id: Message_ForwardMessage
@@ -2112,26 +2007,24 @@ items:
   nameWithType: TicketLogAction.Message_ForwardMessage
   fullName: SuperOffice.Data.TicketLogAction.Message_ForwardMessage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10016: Message_ForwardMessage action'
-  example: []
+  summary: "\n10016: Message_ForwardMessage action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_ForwardMessage = 10016
+    content: public const TicketLogAction Message_ForwardMessage
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_ForwardMessage = 10016
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_ForwardMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_AddMassMessage
   commentId: F:SuperOffice.Data.TicketLogAction.Message_AddMassMessage
   id: Message_AddMassMessage
@@ -2143,26 +2036,24 @@ items:
   nameWithType: TicketLogAction.Message_AddMassMessage
   fullName: SuperOffice.Data.TicketLogAction.Message_AddMassMessage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10017: Message_AddMassMessage action'
-  example: []
+  summary: "\n10017: Message_AddMassMessage action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_AddMassMessage = 10017
+    content: public const TicketLogAction Message_AddMassMessage
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_AddMassMessage = 10017
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_AddMassMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_NewMessageFromSpecialForm
   commentId: F:SuperOffice.Data.TicketLogAction.Message_NewMessageFromSpecialForm
   id: Message_NewMessageFromSpecialForm
@@ -2174,26 +2065,24 @@ items:
   nameWithType: TicketLogAction.Message_NewMessageFromSpecialForm
   fullName: SuperOffice.Data.TicketLogAction.Message_NewMessageFromSpecialForm
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10018: Message_NewMessageFromSpecialForm action'
-  example: []
+  summary: "\n10018: Message_NewMessageFromSpecialForm action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_NewMessageFromSpecialForm = 10018
+    content: public const TicketLogAction Message_NewMessageFromSpecialForm
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_NewMessageFromSpecialForm = 10018
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_NewMessageFromSpecialForm As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_TicketNotifyFAQ
   commentId: F:SuperOffice.Data.TicketLogAction.Message_TicketNotifyFAQ
   id: Message_TicketNotifyFAQ
@@ -2205,26 +2094,24 @@ items:
   nameWithType: TicketLogAction.Message_TicketNotifyFAQ
   fullName: SuperOffice.Data.TicketLogAction.Message_TicketNotifyFAQ
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10019: Message_TicketNotifyFAQ action'
-  example: []
+  summary: "\n10019: Message_TicketNotifyFAQ action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_TicketNotifyFAQ = 10019
+    content: public const TicketLogAction Message_TicketNotifyFAQ
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_TicketNotifyFAQ = 10019
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_TicketNotifyFAQ As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_NewTicketFromCustomer
   commentId: F:SuperOffice.Data.TicketLogAction.Message_NewTicketFromCustomer
   id: Message_NewTicketFromCustomer
@@ -2236,26 +2123,24 @@ items:
   nameWithType: TicketLogAction.Message_NewTicketFromCustomer
   fullName: SuperOffice.Data.TicketLogAction.Message_NewTicketFromCustomer
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10020: Message_NewTicketFromCustomer action'
-  example: []
+  summary: "\n10020: Message_NewTicketFromCustomer action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_NewTicketFromCustomer = 10020
+    content: public const TicketLogAction Message_NewTicketFromCustomer
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_NewTicketFromCustomer = 10020
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_NewTicketFromCustomer As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_AddMessageFromCustomer
   commentId: F:SuperOffice.Data.TicketLogAction.Message_AddMessageFromCustomer
   id: Message_AddMessageFromCustomer
@@ -2267,26 +2152,24 @@ items:
   nameWithType: TicketLogAction.Message_AddMessageFromCustomer
   fullName: SuperOffice.Data.TicketLogAction.Message_AddMessageFromCustomer
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10021: Message_AddMessageFromCustomer action'
-  example: []
+  summary: "\n10021: Message_AddMessageFromCustomer action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_AddMessageFromCustomer = 10021
+    content: public const TicketLogAction Message_AddMessageFromCustomer
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_AddMessageFromCustomer = 10021
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_AddMessageFromCustomer As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_BounceMessage
   commentId: F:SuperOffice.Data.TicketLogAction.Message_BounceMessage
   id: Message_BounceMessage
@@ -2298,26 +2181,24 @@ items:
   nameWithType: TicketLogAction.Message_BounceMessage
   fullName: SuperOffice.Data.TicketLogAction.Message_BounceMessage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10022: Message_BounceMessage action'
-  example: []
+  summary: "\n10022: Message_BounceMessage action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_BounceMessage = 10022
+    content: public const TicketLogAction Message_BounceMessage
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_BounceMessage = 10022
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_BounceMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_OutboxMessage
   commentId: F:SuperOffice.Data.TicketLogAction.Message_OutboxMessage
   id: Message_OutboxMessage
@@ -2329,26 +2210,24 @@ items:
   nameWithType: TicketLogAction.Message_OutboxMessage
   fullName: SuperOffice.Data.TicketLogAction.Message_OutboxMessage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10023: Message_OutboxMessage action'
-  example: []
+  summary: "\n10023: Message_OutboxMessage action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_OutboxMessage = 10023
+    content: public const TicketLogAction Message_OutboxMessage
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_OutboxMessage = 10023
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_OutboxMessage As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_EditMessageFromSoap
   commentId: F:SuperOffice.Data.TicketLogAction.Message_EditMessageFromSoap
   id: Message_EditMessageFromSoap
@@ -2360,26 +2239,24 @@ items:
   nameWithType: TicketLogAction.Message_EditMessageFromSoap
   fullName: SuperOffice.Data.TicketLogAction.Message_EditMessageFromSoap
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10024: Message_EditMessageFromSoap action'
-  example: []
+  summary: "\n10024: Message_EditMessageFromSoap action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_EditMessageFromSoap = 10024
+    content: public const TicketLogAction Message_EditMessageFromSoap
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_EditMessageFromSoap = 10024
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_EditMessageFromSoap As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.TicketLogAction.Message_InlineImagesConverted
   commentId: F:SuperOffice.Data.TicketLogAction.Message_InlineImagesConverted
   id: Message_InlineImagesConverted
@@ -2391,300 +2268,115 @@ items:
   nameWithType: TicketLogAction.Message_InlineImagesConverted
   fullName: SuperOffice.Data.TicketLogAction.Message_InlineImagesConverted
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '10025: Message_InlineImagesConverted action'
-  example: []
+  summary: "\n10025: Message_InlineImagesConverted action\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Message_InlineImagesConverted = 10025
+    content: public const TicketLogAction Message_InlineImagesConverted
     return:
       type: SuperOffice.Data.TicketLogAction
-    content.vb: >-
-      <EnumMember>
-
-      Message_InlineImagesConverted = 10025
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Message_InlineImagesConverted As TicketLogAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.TicketLogAction.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<TicketLogAction, To>(TicketLogAction)
-  nameWithType: EnumUtil.MapEnums<TicketLogAction, To>(TicketLogAction)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketLogAction, To>(SuperOffice.Data.TicketLogAction)
-  nameWithType.vb: EnumUtil.MapEnums(Of TicketLogAction, To)(TicketLogAction)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TicketLogAction, To)(SuperOffice.Data.TicketLogAction)
-  name.vb: MapEnums(Of TicketLogAction, To)(TicketLogAction)
+  name: MapEnums<TicketLogAction, To>()
+  nameWithType: EnumUtil.MapEnums<TicketLogAction, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketLogAction, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TicketLogAction, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.TicketLogAction, To)()
+  name.vb: MapEnums(Of TicketLogAction, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.TicketLogAction)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TicketLogAction, To>
+    nameWithType: EnumUtil.MapEnums<TicketLogAction, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.TicketLogAction, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.TicketLogAction
-    name: TicketLogAction
-    isExternal: true
-    href: SuperOffice.Data.TicketLogAction.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.TicketLogAction
-    name: TicketLogAction
-    isExternal: true
-    href: SuperOffice.Data.TicketLogAction.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.TicketLogAction)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TicketLogAction, To)
+    nameWithType: EnumUtil.MapEnums(Of TicketLogAction, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.TicketLogAction, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TicketLogAction
-    name: TicketLogAction
-    isExternal: true
-    href: SuperOffice.Data.TicketLogAction.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.TicketLogAction
-    name: TicketLogAction
-    isExternal: true
-    href: SuperOffice.Data.TicketLogAction.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.TicketLogAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<TicketLogAction, To>(TicketLogAction)
-  nameWithType: Converters.MapEnums<TicketLogAction, To>(TicketLogAction)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketLogAction, To>(SuperOffice.Data.TicketLogAction)
-  nameWithType.vb: Converters.MapEnums(Of TicketLogAction, To)(TicketLogAction)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketLogAction, To)(SuperOffice.Data.TicketLogAction)
-  name.vb: MapEnums(Of TicketLogAction, To)(TicketLogAction)
+  name: MapEnums<TicketLogAction, To>()
+  nameWithType: Converters.MapEnums<TicketLogAction, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketLogAction, To>()
+  nameWithType.vb: Converters.MapEnums(Of TicketLogAction, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketLogAction, To)()
+  name.vb: MapEnums(Of TicketLogAction, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.TicketLogAction)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TicketLogAction, To>
+    nameWithType: Converters.MapEnums<TicketLogAction, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.TicketLogAction, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.TicketLogAction
-    name: TicketLogAction
-    isExternal: true
-    href: SuperOffice.Data.TicketLogAction.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.TicketLogAction
-    name: TicketLogAction
-    isExternal: true
-    href: SuperOffice.Data.TicketLogAction.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.TicketLogAction)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TicketLogAction, To)
+    nameWithType: Converters.MapEnums(Of TicketLogAction, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.TicketLogAction, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TicketLogAction
-    name: TicketLogAction
-    isExternal: true
-    href: SuperOffice.Data.TicketLogAction.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.TicketLogAction
-    name: TicketLogAction
-    isExternal: true
-    href: SuperOffice.Data.TicketLogAction.html
-  - name: )
-- uid: SuperOffice.Data.TicketLogAction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketLogAction)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<TicketLogAction>(TicketLogAction, TicketLogAction)
-  nameWithType: ObjectExtensions.AssignByReflection<TicketLogAction>(TicketLogAction, TicketLogAction)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.TicketLogAction>(SuperOffice.Data.TicketLogAction, SuperOffice.Data.TicketLogAction)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TicketLogAction)(TicketLogAction, TicketLogAction)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.TicketLogAction)(SuperOffice.Data.TicketLogAction, SuperOffice.Data.TicketLogAction)
-  name.vb: AssignByReflection(Of TicketLogAction)(TicketLogAction, TicketLogAction)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketLogAction,SuperOffice.Data.TicketLogAction)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.TicketLogAction
-    name: TicketLogAction
-    isExternal: true
-    href: SuperOffice.Data.TicketLogAction.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.TicketLogAction
-    name: TicketLogAction
-    isExternal: true
-    href: SuperOffice.Data.TicketLogAction.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.TicketLogAction
-    name: TicketLogAction
-    isExternal: true
-    href: SuperOffice.Data.TicketLogAction.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.TicketLogAction,SuperOffice.Data.TicketLogAction)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TicketLogAction
-    name: TicketLogAction
-    isExternal: true
-    href: SuperOffice.Data.TicketLogAction.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.TicketLogAction
-    name: TicketLogAction
-    isExternal: true
-    href: SuperOffice.Data.TicketLogAction.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.TicketLogAction
-    name: TicketLogAction
-    isExternal: true
-    href: SuperOffice.Data.TicketLogAction.html
-  - name: )
-- uid: SuperOffice.Data.TicketLogAction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<TicketLogAction>(TicketLogAction)
-  nameWithType: ObjectExtensions.GraphCopy<TicketLogAction>(TicketLogAction)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.TicketLogAction>(SuperOffice.Data.TicketLogAction)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of TicketLogAction)(TicketLogAction)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.TicketLogAction)(SuperOffice.Data.TicketLogAction)
-  name.vb: GraphCopy(Of TicketLogAction)(TicketLogAction)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.TicketLogAction)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.TicketLogAction
-    name: TicketLogAction
-    isExternal: true
-    href: SuperOffice.Data.TicketLogAction.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.TicketLogAction
-    name: TicketLogAction
-    isExternal: true
-    href: SuperOffice.Data.TicketLogAction.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.TicketLogAction)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.TicketLogAction
-    name: TicketLogAction
-    isExternal: true
-    href: SuperOffice.Data.TicketLogAction.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.TicketLogAction
-    name: TicketLogAction
-    isExternal: true
-    href: SuperOffice.Data.TicketLogAction.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -2693,45 +2385,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -2740,222 +2430,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.TicketLogAction
   commentId: T:SuperOffice.Data.TicketLogAction
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TicketLogAction.html
   name: TicketLogAction
   nameWithType: TicketLogAction
   fullName: SuperOffice.Data.TicketLogAction

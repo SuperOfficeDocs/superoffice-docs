@@ -18,9 +18,9 @@ items:
   - SuperOffice.CRM.Services.TaskMenu.TableName
   - SuperOffice.CRM.Services.TaskMenu.TaskMenuId
   - SuperOffice.CRM.Services.TaskMenu.TaskType
+  - SuperOffice.CRM.Services.TaskMenu.Tooltip
   - SuperOffice.CRM.Services.TaskMenu.ToString
   - SuperOffice.CRM.Services.TaskMenu.ToString(System.String)
-  - SuperOffice.CRM.Services.TaskMenu.Tooltip
   - SuperOffice.CRM.Services.TaskMenu.UrlOrSoprotocol
   langs:
   - csharp
@@ -29,41 +29,20 @@ items:
   nameWithType: TaskMenu
   fullName: SuperOffice.CRM.Services.TaskMenu
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Configurable Menu Items are items that will be merged into menus in given area and entity
-
-    <p></p>
-
-    Carrier object for TaskMenu.
-
-    Services for the TaskMenu Carrier is available from the <xref href="SuperOffice.CRM.Services.IListAgent?text=List+Agent" data-throw-if-not-resolved="false"></xref>.
+  summary: "\nConfigurable Menu Items are items that will be merged into menus in given area and entity\n<p></p>\nCarrier object for TaskMenu.\nServices for the TaskMenu Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IListAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example:
-  - >-
-    Get TaskMenu 123 using the agent:
-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       var agent = new ListAgent();
-       var taskMenu = agent.GetTaskMenu( 123 );
-    }</code></pre>
+  - "\nGet TaskMenu 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ListAgent();\n    var taskMenu = agent.GetTaskMenu( 123 );\n }</code></pre>\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class TaskMenu : Carrier
+    content: 'public class TaskMenu : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class TaskMenu Inherits Carrier
+      Public Class TaskMenu
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ListAgent
     commentId: T:SuperOffice.CRM.Services.ListAgent
@@ -71,14 +50,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IListAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.TaskMenu.#ctor
   commentId: M:SuperOffice.CRM.Services.TaskMenu.#ctor
   id: '#ctor'
@@ -90,18 +67,21 @@ items:
   nameWithType: TaskMenu.TaskMenu()
   fullName: SuperOffice.CRM.Services.TaskMenu.TaskMenu()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public TaskMenu()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.TaskMenu.#ctor*
-  nameWithType.vb: TaskMenu.New()
-  fullName.vb: SuperOffice.CRM.Services.TaskMenu.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.TaskMenu.ToString
   commentId: M:SuperOffice.CRM.Services.TaskMenu.ToString
   id: ToString
@@ -113,18 +93,26 @@ items:
   nameWithType: TaskMenu.ToString()
   fullName: SuperOffice.CRM.Services.TaskMenu.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.TaskMenu.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.TaskMenu.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.TaskMenu.ToString(System.String)
   id: ToString(System.String)
@@ -132,18 +120,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: TaskMenu.ToString(string)
-  fullName: SuperOffice.CRM.Services.TaskMenu.ToString(string)
+  name: ToString(String)
+  nameWithType: TaskMenu.ToString(String)
+  fullName: SuperOffice.CRM.Services.TaskMenu.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -155,9 +142,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.TaskMenu.ToString*
-  nameWithType.vb: TaskMenu.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.TaskMenu.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.TaskMenu.TaskMenuId
   commentId: P:SuperOffice.CRM.Services.TaskMenu.TaskMenuId
   id: TaskMenuId
@@ -169,28 +157,28 @@ items:
   nameWithType: TaskMenu.TaskMenuId
   fullName: SuperOffice.CRM.Services.TaskMenu.TaskMenuId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int TaskMenuId { get; set; }
+    content: public virtual int TaskMenuId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property TaskMenuId As Integer
+    content.vb: Public Overridable Property TaskMenuId As Integer
   overload: SuperOffice.CRM.Services.TaskMenu.TaskMenuId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TaskMenu.Name
   commentId: P:SuperOffice.CRM.Services.TaskMenu.Name
   id: Name
@@ -202,28 +190,28 @@ items:
   nameWithType: TaskMenu.Name
   fullName: SuperOffice.CRM.Services.TaskMenu.Name
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The list item
-  example: []
+  summary: "\nThe list item \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Name { get; set; }
+    content: public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Name As String
+    content.vb: Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.TaskMenu.Name*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TaskMenu.Tooltip
   commentId: P:SuperOffice.CRM.Services.TaskMenu.Tooltip
   id: Tooltip
@@ -235,28 +223,28 @@ items:
   nameWithType: TaskMenu.Tooltip
   fullName: SuperOffice.CRM.Services.TaskMenu.Tooltip
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Tooltip or other description
-  example: []
+  summary: "\nTooltip or other description \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Tooltip { get; set; }
+    content: public virtual string Tooltip { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Tooltip As String
+    content.vb: Public Overridable Property Tooltip As String
   overload: SuperOffice.CRM.Services.TaskMenu.Tooltip*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TaskMenu.TableName
   commentId: P:SuperOffice.CRM.Services.TaskMenu.TableName
   id: TableName
@@ -268,28 +256,28 @@ items:
   nameWithType: TaskMenu.TableName
   fullName: SuperOffice.CRM.Services.TaskMenu.TableName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The name of entity that this task item can be used at
-  example: []
+  summary: "\nThe name of entity that this task item can be used at \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string TableName { get; set; }
+    content: public virtual string TableName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property TableName As String
+    content.vb: Public Overridable Property TableName As String
   overload: SuperOffice.CRM.Services.TaskMenu.TableName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TaskMenu.Area
   commentId: P:SuperOffice.CRM.Services.TaskMenu.Area
   id: Area
@@ -301,28 +289,28 @@ items:
   nameWithType: TaskMenu.Area
   fullName: SuperOffice.CRM.Services.TaskMenu.Area
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Can be Task or other that can identify which menu recipe to merge the item into
-  example: []
+  summary: "\nCan be Task or other that can identify which menu recipe to merge the item into \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Area { get; set; }
+    content: public virtual string Area { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Area As String
+    content.vb: Public Overridable Property Area As String
   overload: SuperOffice.CRM.Services.TaskMenu.Area*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TaskMenu.UrlOrSoprotocol
   commentId: P:SuperOffice.CRM.Services.TaskMenu.UrlOrSoprotocol
   id: UrlOrSoprotocol
@@ -334,28 +322,28 @@ items:
   nameWithType: TaskMenu.UrlOrSoprotocol
   fullName: SuperOffice.CRM.Services.TaskMenu.UrlOrSoprotocol
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The url or soprotocol
-  example: []
+  summary: "\nThe url or soprotocol \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string UrlOrSoprotocol { get; set; }
+    content: public virtual string UrlOrSoprotocol { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property UrlOrSoprotocol As String
+    content.vb: Public Overridable Property UrlOrSoprotocol As String
   overload: SuperOffice.CRM.Services.TaskMenu.UrlOrSoprotocol*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TaskMenu.TaskType
   commentId: P:SuperOffice.CRM.Services.TaskMenu.TaskType
   id: TaskType
@@ -367,28 +355,28 @@ items:
   nameWithType: TaskMenu.TaskType
   fullName: SuperOffice.CRM.Services.TaskMenu.TaskType
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Type of task item Url, SoProtocol or CRMScript.
-  example: []
+  summary: "\nType of task item Url, SoProtocol or CRMScript. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual TaskListItemType TaskType { get; set; }
+    content: public virtual TaskListItemType TaskType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.TaskListItemType
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property TaskType As TaskListItemType
+    content.vb: Public Overridable Property TaskType As TaskListItemType
   overload: SuperOffice.CRM.Services.TaskMenu.TaskType*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TaskMenu.CrmScriptId
   commentId: P:SuperOffice.CRM.Services.TaskMenu.CrmScriptId
   id: CrmScriptId
@@ -400,28 +388,28 @@ items:
   nameWithType: TaskMenu.CrmScriptId
   fullName: SuperOffice.CRM.Services.TaskMenu.CrmScriptId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The CRMScript or Macro which will be run task item is selected.
-  example: []
+  summary: "\nThe CRMScript or Macro which will be run task item is selected. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int CrmScriptId { get; set; }
+    content: public virtual int CrmScriptId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CrmScriptId As Integer
+    content.vb: Public Overridable Property CrmScriptId As Integer
   overload: SuperOffice.CRM.Services.TaskMenu.CrmScriptId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TaskMenu.ShowInClient
   commentId: P:SuperOffice.CRM.Services.TaskMenu.ShowInClient
   id: ShowInClient
@@ -433,28 +421,28 @@ items:
   nameWithType: TaskMenu.ShowInClient
   fullName: SuperOffice.CRM.Services.TaskMenu.ShowInClient
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Show task list item in which clients (web, mobile)
-  example: []
+  summary: "\nShow task list item in which clients (web, mobile) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual ShowTaskItemInClient ShowInClient { get; set; }
+    content: public virtual ShowTaskItemInClient ShowInClient { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.ShowTaskItemInClient
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ShowInClient As ShowTaskItemInClient
+    content.vb: Public Overridable Property ShowInClient As ShowTaskItemInClient
   overload: SuperOffice.CRM.Services.TaskMenu.ShowInClient*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TaskMenu.ArchiveBehaviour
   commentId: P:SuperOffice.CRM.Services.TaskMenu.ArchiveBehaviour
   id: ArchiveBehaviour
@@ -466,28 +454,28 @@ items:
   nameWithType: TaskMenu.ArchiveBehaviour
   fullName: SuperOffice.CRM.Services.TaskMenu.ArchiveBehaviour
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: None, rightclick on, multiselect
-  example: []
+  summary: "\nNone, rightclick on, multiselect \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual ArchiveBehaviour ArchiveBehaviour { get; set; }
+    content: public virtual ArchiveBehaviour ArchiveBehaviour { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.ArchiveBehaviour
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ArchiveBehaviour As ArchiveBehaviour
+    content.vb: Public Overridable Property ArchiveBehaviour As ArchiveBehaviour
   overload: SuperOffice.CRM.Services.TaskMenu.ArchiveBehaviour*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TaskMenu.Rank
   commentId: P:SuperOffice.CRM.Services.TaskMenu.Rank
   id: Rank
@@ -499,28 +487,28 @@ items:
   nameWithType: TaskMenu.Rank
   fullName: SuperOffice.CRM.Services.TaskMenu.Rank
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Rank order
-  example: []
+  summary: "\nRank order \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual short Rank { get; set; }
+    content: public virtual short Rank { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Rank As Short
+    content.vb: Public Overridable Property Rank As Short
   overload: SuperOffice.CRM.Services.TaskMenu.Rank*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TaskMenu.Encoding
   commentId: P:SuperOffice.CRM.Services.TaskMenu.Encoding
   id: Encoding
@@ -532,28 +520,28 @@ items:
   nameWithType: TaskMenu.Encoding
   fullName: SuperOffice.CRM.Services.TaskMenu.Encoding
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Encoding for url
-  example: []
+  summary: "\nEncoding for url \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual UrlEncoding Encoding { get; set; }
+    content: public virtual UrlEncoding Encoding { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.UrlEncoding
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Encoding As UrlEncoding
+    content.vb: Public Overridable Property Encoding As UrlEncoding
   overload: SuperOffice.CRM.Services.TaskMenu.Encoding*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TaskMenu.ProgId
   commentId: P:SuperOffice.CRM.Services.TaskMenu.ProgId
   id: ProgId
@@ -565,28 +553,28 @@ items:
   nameWithType: TaskMenu.ProgId
   fullName: SuperOffice.CRM.Services.TaskMenu.ProgId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: String key that can be used to uniquely retrieve the task menu; particularly useful for partners and others who do not wish to store database ID's
-  example: []
+  summary: "\nString key that can be used to uniquely retrieve the task menu; particularly useful for partners and others who do not wish to store database ID&apos;s \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string ProgId { get; set; }
+    content: public virtual string ProgId { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ProgId As String
+    content.vb: Public Overridable Property ProgId As String
   overload: SuperOffice.CRM.Services.TaskMenu.ProgId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.TaskMenu.Deleted
   commentId: P:SuperOffice.CRM.Services.TaskMenu.Deleted
   id: Deleted
@@ -598,33 +586,38 @@ items:
   nameWithType: TaskMenu.Deleted
   fullName: SuperOffice.CRM.Services.TaskMenu.Deleted
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: True if deleted
-  example: []
+  summary: "\nTrue if deleted \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool Deleted { get; set; }
+    content: public virtual bool Deleted { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Deleted As Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
   overload: SuperOffice.CRM.Services.TaskMenu.Deleted*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.ListAgent
   commentId: T:SuperOffice.CRM.Services.ListAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.ListAgent.html
   name: ListAgent
   nameWithType: ListAgent
   fullName: SuperOffice.CRM.Services.ListAgent
@@ -632,79 +625,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IListAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IListAgent.html
   name: IListAgent
   nameWithType: IListAgent
   fullName: SuperOffice.CRM.Services.IListAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.TaskMenu.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.TaskMenu.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.TaskMenu.html#SuperOffice_CRM_Services_TaskMenu__ctor
   name: TaskMenu
   nameWithType: TaskMenu.TaskMenu
   fullName: SuperOffice.CRM.Services.TaskMenu.TaskMenu
-  nameWithType.vb: TaskMenu.New
-  fullName.vb: SuperOffice.CRM.Services.TaskMenu.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.TaskMenu.ToString*
   commentId: Overload:SuperOffice.CRM.Services.TaskMenu.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.TaskMenu.html#SuperOffice_CRM_Services_TaskMenu_ToString
   name: ToString
   nameWithType: TaskMenu.ToString
   fullName: SuperOffice.CRM.Services.TaskMenu.ToString
@@ -712,17 +644,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.TaskMenu.TaskMenuId*
   commentId: Overload:SuperOffice.CRM.Services.TaskMenu.TaskMenuId
   isExternal: true
-  href: SuperOffice.CRM.Services.TaskMenu.html#SuperOffice_CRM_Services_TaskMenu_TaskMenuId
   name: TaskMenuId
   nameWithType: TaskMenu.TaskMenuId
   fullName: SuperOffice.CRM.Services.TaskMenu.TaskMenuId
@@ -730,52 +663,42 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.TaskMenu.Name*
   commentId: Overload:SuperOffice.CRM.Services.TaskMenu.Name
   isExternal: true
-  href: SuperOffice.CRM.Services.TaskMenu.html#SuperOffice_CRM_Services_TaskMenu_Name
   name: Name
   nameWithType: TaskMenu.Name
   fullName: SuperOffice.CRM.Services.TaskMenu.Name
 - uid: SuperOffice.CRM.Services.TaskMenu.Tooltip*
   commentId: Overload:SuperOffice.CRM.Services.TaskMenu.Tooltip
   isExternal: true
-  href: SuperOffice.CRM.Services.TaskMenu.html#SuperOffice_CRM_Services_TaskMenu_Tooltip
   name: Tooltip
   nameWithType: TaskMenu.Tooltip
   fullName: SuperOffice.CRM.Services.TaskMenu.Tooltip
 - uid: SuperOffice.CRM.Services.TaskMenu.TableName*
   commentId: Overload:SuperOffice.CRM.Services.TaskMenu.TableName
   isExternal: true
-  href: SuperOffice.CRM.Services.TaskMenu.html#SuperOffice_CRM_Services_TaskMenu_TableName
   name: TableName
   nameWithType: TaskMenu.TableName
   fullName: SuperOffice.CRM.Services.TaskMenu.TableName
 - uid: SuperOffice.CRM.Services.TaskMenu.Area*
   commentId: Overload:SuperOffice.CRM.Services.TaskMenu.Area
   isExternal: true
-  href: SuperOffice.CRM.Services.TaskMenu.html#SuperOffice_CRM_Services_TaskMenu_Area
   name: Area
   nameWithType: TaskMenu.Area
   fullName: SuperOffice.CRM.Services.TaskMenu.Area
 - uid: SuperOffice.CRM.Services.TaskMenu.UrlOrSoprotocol*
   commentId: Overload:SuperOffice.CRM.Services.TaskMenu.UrlOrSoprotocol
   isExternal: true
-  href: SuperOffice.CRM.Services.TaskMenu.html#SuperOffice_CRM_Services_TaskMenu_UrlOrSoprotocol
   name: UrlOrSoprotocol
   nameWithType: TaskMenu.UrlOrSoprotocol
   fullName: SuperOffice.CRM.Services.TaskMenu.UrlOrSoprotocol
 - uid: SuperOffice.CRM.Services.TaskMenu.TaskType*
   commentId: Overload:SuperOffice.CRM.Services.TaskMenu.TaskType
   isExternal: true
-  href: SuperOffice.CRM.Services.TaskMenu.html#SuperOffice_CRM_Services_TaskMenu_TaskType
   name: TaskType
   nameWithType: TaskMenu.TaskType
   fullName: SuperOffice.CRM.Services.TaskMenu.TaskType
@@ -788,14 +711,12 @@ references:
 - uid: SuperOffice.CRM.Services.TaskMenu.CrmScriptId*
   commentId: Overload:SuperOffice.CRM.Services.TaskMenu.CrmScriptId
   isExternal: true
-  href: SuperOffice.CRM.Services.TaskMenu.html#SuperOffice_CRM_Services_TaskMenu_CrmScriptId
   name: CrmScriptId
   nameWithType: TaskMenu.CrmScriptId
   fullName: SuperOffice.CRM.Services.TaskMenu.CrmScriptId
 - uid: SuperOffice.CRM.Services.TaskMenu.ShowInClient*
   commentId: Overload:SuperOffice.CRM.Services.TaskMenu.ShowInClient
   isExternal: true
-  href: SuperOffice.CRM.Services.TaskMenu.html#SuperOffice_CRM_Services_TaskMenu_ShowInClient
   name: ShowInClient
   nameWithType: TaskMenu.ShowInClient
   fullName: SuperOffice.CRM.Services.TaskMenu.ShowInClient
@@ -808,7 +729,6 @@ references:
 - uid: SuperOffice.CRM.Services.TaskMenu.ArchiveBehaviour*
   commentId: Overload:SuperOffice.CRM.Services.TaskMenu.ArchiveBehaviour
   isExternal: true
-  href: SuperOffice.CRM.Services.TaskMenu.html#SuperOffice_CRM_Services_TaskMenu_ArchiveBehaviour
   name: ArchiveBehaviour
   nameWithType: TaskMenu.ArchiveBehaviour
   fullName: SuperOffice.CRM.Services.TaskMenu.ArchiveBehaviour
@@ -821,7 +741,6 @@ references:
 - uid: SuperOffice.CRM.Services.TaskMenu.Rank*
   commentId: Overload:SuperOffice.CRM.Services.TaskMenu.Rank
   isExternal: true
-  href: SuperOffice.CRM.Services.TaskMenu.html#SuperOffice_CRM_Services_TaskMenu_Rank
   name: Rank
   nameWithType: TaskMenu.Rank
   fullName: SuperOffice.CRM.Services.TaskMenu.Rank
@@ -829,17 +748,12 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Services.TaskMenu.Encoding*
   commentId: Overload:SuperOffice.CRM.Services.TaskMenu.Encoding
   isExternal: true
-  href: SuperOffice.CRM.Services.TaskMenu.html#SuperOffice_CRM_Services_TaskMenu_Encoding
   name: Encoding
   nameWithType: TaskMenu.Encoding
   fullName: SuperOffice.CRM.Services.TaskMenu.Encoding
@@ -851,14 +765,12 @@ references:
 - uid: SuperOffice.CRM.Services.TaskMenu.ProgId*
   commentId: Overload:SuperOffice.CRM.Services.TaskMenu.ProgId
   isExternal: true
-  href: SuperOffice.CRM.Services.TaskMenu.html#SuperOffice_CRM_Services_TaskMenu_ProgId
   name: ProgId
   nameWithType: TaskMenu.ProgId
   fullName: SuperOffice.CRM.Services.TaskMenu.ProgId
 - uid: SuperOffice.CRM.Services.TaskMenu.Deleted*
   commentId: Overload:SuperOffice.CRM.Services.TaskMenu.Deleted
   isExternal: true
-  href: SuperOffice.CRM.Services.TaskMenu.html#SuperOffice_CRM_Services_TaskMenu_Deleted
   name: Deleted
   nameWithType: TaskMenu.Deleted
   fullName: SuperOffice.CRM.Services.TaskMenu.Deleted
@@ -866,10 +778,6 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

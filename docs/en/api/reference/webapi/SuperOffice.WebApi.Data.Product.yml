@@ -47,28 +47,24 @@ items:
   nameWithType: Product
   fullName: SuperOffice.WebApi.Data.Product
   type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Carrier object for Product.
+  summary: "\nCarrier object for Product.\nInformation about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector    \n"
+  remarks: >
+    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent" data-throw-if-not-resolved="false"></xref>:
 
-    Information about a Product from the ERP system. This may be fetched from SuperOffice Product table through the SO Connector
-  remarks: >-
-    Use <xref href="SuperOffice.CRM.Services.ArchiveAgent?text=Archive+agent" data-throw-if-not-resolved="false"></xref>:
-                All Product: <pre><code class="lang-csharp">"Product"</code></pre>
+    All Product: <pre><code>&quot;Product&quot;</code></pre>
   example:
-  - >-
-    Get Product 123 using the WebApi client:
-
-    <pre><code class="lang-csharp">var configuration = new WebApiConfiguration(url);
-
-    var agent = new QuoteAgent(configuration);
-
-    var product = agent.GetProduct( 123 );</code></pre>
+  - "\nGet Product 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new QuoteAgent(configuration);\nvar product = agent.GetProduct( 123 );</code></pre>\n"
   syntax:
     content: 'public class Product : Carrier'
-    content.vb: Public Class Product Inherits Carrier
+    content.vb: >-
+      Public Class Product
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.WebApi.Agents.QuoteAgent
     commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
@@ -82,13 +78,12 @@ items:
   inheritedMembers:
   - SuperOffice.WebApi.Data.Carrier.TableRight
   - SuperOffice.WebApi.Data.Carrier.FieldProperties
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.WebApi.Data.Product.#ctor
   commentId: M:SuperOffice.WebApi.Data.Product.#ctor
   id: '#ctor'
@@ -100,18 +95,21 @@ items:
   nameWithType: Product.Product()
   fullName: SuperOffice.WebApi.Data.Product.Product()
   type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Default constructor - defaults any enum props to 0.
-  example: []
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
   syntax:
     content: public Product()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.WebApi.Data.Product.#ctor*
-  nameWithType.vb: Product.New()
-  fullName.vb: SuperOffice.WebApi.Data.Product.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.Product.ProductId
   commentId: P:SuperOffice.WebApi.Data.Product.ProductId
   id: ProductId
@@ -123,11 +121,13 @@ items:
   nameWithType: Product.ProductId
   fullName: SuperOffice.WebApi.Data.Product.ProductId
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key\n"
   syntax:
     content: public virtual int ProductId { get; set; }
     parameters: []
@@ -135,6 +135,14 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property ProductId As Integer
   overload: SuperOffice.WebApi.Data.Product.ProductId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.ERPProductKey
   commentId: P:SuperOffice.WebApi.Data.Product.ERPProductKey
   id: ERPProductKey
@@ -146,11 +154,13 @@ items:
   nameWithType: Product.ERPProductKey
   fullName: SuperOffice.WebApi.Data.Product.ERPProductKey
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Reference/foreign key to the product in the given pricelist in the product supplier system, if it exists there.
-  example: []
+  summary: "\nReference/foreign key to the product in the given pricelist in the product supplier system, if it exists there.\n"
   syntax:
     content: public virtual string ERPProductKey { get; set; }
     parameters: []
@@ -158,6 +168,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ERPProductKey As String
   overload: SuperOffice.WebApi.Data.Product.ERPProductKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.ERPPriceListKey
   commentId: P:SuperOffice.WebApi.Data.Product.ERPPriceListKey
   id: ERPPriceListKey
@@ -169,11 +187,13 @@ items:
   nameWithType: Product.ERPPriceListKey
   fullName: SuperOffice.WebApi.Data.Product.ERPPriceListKey
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Foreign key to the price list that this product is a part of, or the primary key of the pricelist if this is a built-in pricelist.
-  example: []
+  summary: "\nForeign key to the price list that this product is a part of, or the primary key of the pricelist if this is a built-in pricelist.\n"
   syntax:
     content: public virtual string ERPPriceListKey { get; set; }
     parameters: []
@@ -181,6 +201,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ERPPriceListKey As String
   overload: SuperOffice.WebApi.Data.Product.ERPPriceListKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.Name
   commentId: P:SuperOffice.WebApi.Data.Product.Name
   id: Name
@@ -192,11 +220,13 @@ items:
   nameWithType: Product.Name
   fullName: SuperOffice.WebApi.Data.Product.Name
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The name to use in the user interface.
-  example: []
+  summary: "\nThe name to use in the user interface.\n"
   syntax:
     content: public virtual string Name { get; set; }
     parameters: []
@@ -204,6 +234,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Name As String
   overload: SuperOffice.WebApi.Data.Product.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.Description
   commentId: P:SuperOffice.WebApi.Data.Product.Description
   id: Description
@@ -215,11 +253,13 @@ items:
   nameWithType: Product.Description
   fullName: SuperOffice.WebApi.Data.Product.Description
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The description to use, with potentially several lines. Will be used as tool-tip to use in the list user interface too.
-  example: []
+  summary: "\nThe description to use, with potentially several lines. Will be used as tool-tip to use in the list user interface too.\n"
   syntax:
     content: public virtual string Description { get; set; }
     parameters: []
@@ -227,6 +267,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Description As String
   overload: SuperOffice.WebApi.Data.Product.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.Code
   commentId: P:SuperOffice.WebApi.Data.Product.Code
   id: Code
@@ -238,11 +286,13 @@ items:
   nameWithType: Product.Code
   fullName: SuperOffice.WebApi.Data.Product.Code
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The product code / article number in the product supplier system.
-  example: []
+  summary: "\nThe product code / article number in the product supplier system.\n"
   syntax:
     content: public virtual string Code { get; set; }
     parameters: []
@@ -250,6 +300,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Code As String
   overload: SuperOffice.WebApi.Data.Product.Code*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.PriceUnit
   commentId: P:SuperOffice.WebApi.Data.Product.PriceUnit
   id: PriceUnit
@@ -261,11 +319,13 @@ items:
   nameWithType: Product.PriceUnit
   fullName: SuperOffice.WebApi.Data.Product.PriceUnit
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); read-only for lines that originate in defined products
-  example: []
+  summary: "\nWhat is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); read-only for lines that originate in defined products\n"
   syntax:
     content: public virtual string PriceUnit { get; set; }
     parameters: []
@@ -273,6 +333,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property PriceUnit As String
   overload: SuperOffice.WebApi.Data.Product.PriceUnit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.QuantityUnit
   commentId: P:SuperOffice.WebApi.Data.Product.QuantityUnit
   id: QuantityUnit
@@ -284,11 +352,13 @@ items:
   nameWithType: Product.QuantityUnit
   fullName: SuperOffice.WebApi.Data.Product.QuantityUnit
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: What is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); Connector handles conversion relative to PriceUnit if they are different
-  example: []
+  summary: "\nWhat is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); Connector handles conversion relative to PriceUnit if they are different\n"
   syntax:
     content: public virtual string QuantityUnit { get; set; }
     parameters: []
@@ -296,6 +366,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property QuantityUnit As String
   overload: SuperOffice.WebApi.Data.Product.QuantityUnit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.IsSubscription
   commentId: P:SuperOffice.WebApi.Data.Product.IsSubscription
   id: IsSubscription
@@ -307,11 +385,13 @@ items:
   nameWithType: Product.IsSubscription
   fullName: SuperOffice.WebApi.Data.Product.IsSubscription
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Is this a subscription product, sold in repeating intervals/amounts?
-  example: []
+  summary: "\nIs this a subscription product, sold in repeating intervals/amounts?\n"
   syntax:
     content: public virtual bool IsSubscription { get; set; }
     parameters: []
@@ -319,6 +399,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property IsSubscription As Boolean
   overload: SuperOffice.WebApi.Data.Product.IsSubscription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.SubscriptionUnit
   commentId: P:SuperOffice.WebApi.Data.Product.SubscriptionUnit
   id: SubscriptionUnit
@@ -330,11 +418,13 @@ items:
   nameWithType: Product.SubscriptionUnit
   fullName: SuperOffice.WebApi.Data.Product.SubscriptionUnit
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual subscription unit.
-  example: []
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual subscription unit.\n"
   syntax:
     content: public virtual string SubscriptionUnit { get; set; }
     parameters: []
@@ -342,6 +432,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property SubscriptionUnit As String
   overload: SuperOffice.WebApi.Data.Product.SubscriptionUnit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.DefaultSubscriptionQuantity
   commentId: P:SuperOffice.WebApi.Data.Product.DefaultSubscriptionQuantity
   id: DefaultSubscriptionQuantity
@@ -353,11 +451,13 @@ items:
   nameWithType: Product.DefaultSubscriptionQuantity
   fullName: SuperOffice.WebApi.Data.Product.DefaultSubscriptionQuantity
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The default number of SubscriptionUnits to suggest when creating quote lines from this product
-  example: []
+  summary: "\nThe default number of SubscriptionUnits to suggest when creating quote lines from this product\n"
   syntax:
     content: public virtual double DefaultSubscriptionQuantity { get; set; }
     parameters: []
@@ -365,6 +465,14 @@ items:
       type: System.Double
     content.vb: Public Overridable Property DefaultSubscriptionQuantity As Double
   overload: SuperOffice.WebApi.Data.Product.DefaultSubscriptionQuantity*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.ItemNumber
   commentId: P:SuperOffice.WebApi.Data.Product.ItemNumber
   id: ItemNumber
@@ -376,11 +484,13 @@ items:
   nameWithType: Product.ItemNumber
   fullName: SuperOffice.WebApi.Data.Product.ItemNumber
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: 'Line item number, NOR: «Postnummer». Specific numbers from some hierarchy, for instance “1.4.3.2P”. Typically used to sort the items in the quote by some standard way.'
-  example: []
+  summary: "\nLine item number, NOR: «Postnummer». Specific numbers from some hierarchy, for instance “1.4.3.2P”. Typically used to sort the items in the quote by some standard way.\n"
   syntax:
     content: public virtual string ItemNumber { get; set; }
     parameters: []
@@ -388,6 +498,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ItemNumber As String
   overload: SuperOffice.WebApi.Data.Product.ItemNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.Url
   commentId: P:SuperOffice.WebApi.Data.Product.Url
   id: Url
@@ -399,11 +517,13 @@ items:
   nameWithType: Product.Url
   fullName: SuperOffice.WebApi.Data.Product.Url
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: URL to product information web page.
-  example: []
+  summary: "\nURL to product information web page.\n"
   syntax:
     content: public virtual string Url { get; set; }
     parameters: []
@@ -411,6 +531,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Url As String
   overload: SuperOffice.WebApi.Data.Product.Url*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.ProductCategoryKey
   commentId: P:SuperOffice.WebApi.Data.Product.ProductCategoryKey
   id: ProductCategoryKey
@@ -422,11 +550,13 @@ items:
   nameWithType: Product.ProductCategoryKey
   fullName: SuperOffice.WebApi.Data.Product.ProductCategoryKey
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category.
-  example: []
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product category.\n"
   syntax:
     content: public virtual string ProductCategoryKey { get; set; }
     parameters: []
@@ -434,6 +564,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ProductCategoryKey As String
   overload: SuperOffice.WebApi.Data.Product.ProductCategoryKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.ProductFamilyKey
   commentId: P:SuperOffice.WebApi.Data.Product.ProductFamilyKey
   id: ProductFamilyKey
@@ -445,11 +583,13 @@ items:
   nameWithType: Product.ProductFamilyKey
   fullName: SuperOffice.WebApi.Data.Product.ProductFamilyKey
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Either a List id to an id from a connector provided list, or, if the connection doesn't support lists, a text with the actual product family.
-  example: []
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn&apos;t support lists, a text with the actual product family.\n"
   syntax:
     content: public virtual string ProductFamilyKey { get; set; }
     parameters: []
@@ -457,6 +597,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ProductFamilyKey As String
   overload: SuperOffice.WebApi.Data.Product.ProductFamilyKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.ProductTypeKey
   commentId: P:SuperOffice.WebApi.Data.Product.ProductTypeKey
   id: ProductTypeKey
@@ -468,11 +616,13 @@ items:
   nameWithType: Product.ProductTypeKey
   fullName: SuperOffice.WebApi.Data.Product.ProductTypeKey
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type.
-  example: []
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual product type.\n"
   syntax:
     content: public virtual string ProductTypeKey { get; set; }
     parameters: []
@@ -480,6 +630,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ProductTypeKey As String
   overload: SuperOffice.WebApi.Data.Product.ProductTypeKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.VAT
   commentId: P:SuperOffice.WebApi.Data.Product.VAT
   id: VAT
@@ -491,11 +649,13 @@ items:
   nameWithType: Product.VAT
   fullName: SuperOffice.WebApi.Data.Product.VAT
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Tax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI.
-  example: []
+  summary: "\nTax/VAT if available from ERP system. THIS IS A PERCENTAGE. In the Superoffice product register, this field is available in the product admin GUI.\n"
   syntax:
     content: public virtual double VAT { get; set; }
     parameters: []
@@ -503,6 +663,14 @@ items:
       type: System.Double
     content.vb: Public Overridable Property VAT As Double
   overload: SuperOffice.WebApi.Data.Product.VAT*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.VATInfo
   commentId: P:SuperOffice.WebApi.Data.Product.VATInfo
   id: VATInfo
@@ -514,11 +682,13 @@ items:
   nameWithType: Product.VATInfo
   fullName: SuperOffice.WebApi.Data.Product.VATInfo
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: A field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates.
-  example: []
+  summary: "\nA field for putting VATInfo you need to show in the final quoteDocument, like the VAT type that is used. Not used in any business logic in SuperOffice; available to document templates.\n"
   syntax:
     content: public virtual string VATInfo { get; set; }
     parameters: []
@@ -526,6 +696,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property VATInfo As String
   overload: SuperOffice.WebApi.Data.Product.VATInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.UnitCost
   commentId: P:SuperOffice.WebApi.Data.Product.UnitCost
   id: UnitCost
@@ -537,11 +715,13 @@ items:
   nameWithType: Product.UnitCost
   fullName: SuperOffice.WebApi.Data.Product.UnitCost
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The cost price. Might not be given, use Decimal.MinValue to signal this.
-  example: []
+  summary: "\nThe cost price. Might not be given, use Decimal.MinValue to signal this.\n"
   syntax:
     content: public virtual double UnitCost { get; set; }
     parameters: []
@@ -549,6 +729,14 @@ items:
       type: System.Double
     content.vb: Public Overridable Property UnitCost As Double
   overload: SuperOffice.WebApi.Data.Product.UnitCost*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.UnitMinimumPrice
   commentId: P:SuperOffice.WebApi.Data.Product.UnitMinimumPrice
   id: UnitMinimumPrice
@@ -560,11 +748,13 @@ items:
   nameWithType: Product.UnitMinimumPrice
   fullName: SuperOffice.WebApi.Data.Product.UnitMinimumPrice
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this.
-  example: []
+  summary: "\nThe minimum price this salesman can offer to his customer. This might be cost price if there is no policy. Might not be given, use Decimal.MinValue to signal this.\n"
   syntax:
     content: public virtual double UnitMinimumPrice { get; set; }
     parameters: []
@@ -572,6 +762,14 @@ items:
       type: System.Double
     content.vb: Public Overridable Property UnitMinimumPrice As Double
   overload: SuperOffice.WebApi.Data.Product.UnitMinimumPrice*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.UnitListPrice
   commentId: P:SuperOffice.WebApi.Data.Product.UnitListPrice
   id: UnitListPrice
@@ -583,11 +781,13 @@ items:
   nameWithType: Product.UnitListPrice
   fullName: SuperOffice.WebApi.Data.Product.UnitListPrice
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: (Basic Price, normal price, standard price.) This is the basic price from which the discount is computed from. The ListPrice will stay the same even when a larger amount is ordered.
-  example: []
+  summary: "\n(Basic Price, normal price, standard price.) This is the basic price from which the discount is computed from. The ListPrice will stay the same even when a larger amount is ordered.\n"
   syntax:
     content: public virtual double UnitListPrice { get; set; }
     parameters: []
@@ -595,6 +795,14 @@ items:
       type: System.Double
     content.vb: Public Overridable Property UnitListPrice As Double
   overload: SuperOffice.WebApi.Data.Product.UnitListPrice*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.InAssortment
   commentId: P:SuperOffice.WebApi.Data.Product.InAssortment
   id: InAssortment
@@ -606,11 +814,13 @@ items:
   nameWithType: Product.InAssortment
   fullName: SuperOffice.WebApi.Data.Product.InAssortment
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: True for products that should currently be offered, false when the product is discontinued and should not ordinarily be offered. When false the product no longer appears in search results.
-  example: []
+  summary: "\nTrue for products that should currently be offered, false when the product is discontinued and should not ordinarily be offered. When false the product no longer appears in search results.\n"
   syntax:
     content: public virtual bool InAssortment { get; set; }
     parameters: []
@@ -618,6 +828,14 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property InAssortment As Boolean
   overload: SuperOffice.WebApi.Data.Product.InAssortment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.Supplier
   commentId: P:SuperOffice.WebApi.Data.Product.Supplier
   id: Supplier
@@ -629,11 +847,13 @@ items:
   nameWithType: Product.Supplier
   fullName: SuperOffice.WebApi.Data.Product.Supplier
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: In SuperOffice, an id from the contact table, when saved as an ERP cache, the name of the supplier
-  example: []
+  summary: "\nIn SuperOffice, an id from the contact table, when saved as an ERP cache, the name of the supplier\n"
   syntax:
     content: public virtual string Supplier { get; set; }
     parameters: []
@@ -641,6 +861,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Supplier As String
   overload: SuperOffice.WebApi.Data.Product.Supplier*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.SupplierCode
   commentId: P:SuperOffice.WebApi.Data.Product.SupplierCode
   id: SupplierCode
@@ -652,11 +880,13 @@ items:
   nameWithType: Product.SupplierCode
   fullName: SuperOffice.WebApi.Data.Product.SupplierCode
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Suppliers part code/number or other key-like field
-  example: []
+  summary: "\nSuppliers part code/number or other key-like field\n"
   syntax:
     content: public virtual string SupplierCode { get; set; }
     parameters: []
@@ -664,6 +894,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property SupplierCode As String
   overload: SuperOffice.WebApi.Data.Product.SupplierCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.Rights
   commentId: P:SuperOffice.WebApi.Data.Product.Rights
   id: Rights
@@ -675,11 +913,13 @@ items:
   nameWithType: Product.Rights
   fullName: SuperOffice.WebApi.Data.Product.Rights
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: 'Field1=right&amp;Field2=right, etc. of any fields that have non-standard field access rights. Rights can be one of: N (=None or Hidden), R (=Read-only), W (=Writeable), M (=Mandatory). The fields will mostly be from the Quoteline table, but some added fields that are conceptually part of the quoteline, like Image will also be possibly to set rights on. Will be used by SuperOffice to control the user interface when showing the record.'
-  example: []
+  summary: "\nField1=right&amp;Field2=right, etc. of any fields that have non-standard field access rights. Rights can be one of: N (=None or Hidden), R (=Read-only), W (=Writeable), M (=Mandatory). The fields will mostly be from the Quoteline table, but some added fields that are conceptually part of the quoteline, like Image will also be possibly to set rights on. Will be used by SuperOffice to control the user interface when showing the record.\n"
   syntax:
     content: public virtual string Rights { get; set; }
     parameters: []
@@ -687,6 +927,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Rights As String
   overload: SuperOffice.WebApi.Data.Product.Rights*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.Rule
   commentId: P:SuperOffice.WebApi.Data.Product.Rule
   id: Rule
@@ -698,11 +946,13 @@ items:
   nameWithType: Product.Rule
   fullName: SuperOffice.WebApi.Data.Product.Rule
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: The names of one or more calculation rules that are in effect for this line, comma-separated case-insensitive. Will NOT be used by SuperOffice.
-  example: []
+  summary: "\nThe names of one or more calculation rules that are in effect for this line, comma-separated case-insensitive. Will NOT be used by SuperOffice.\n"
   syntax:
     content: public virtual string Rule { get; set; }
     parameters: []
@@ -710,6 +960,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property Rule As String
   overload: SuperOffice.WebApi.Data.Product.Rule*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.ExtraInfo
   commentId: P:SuperOffice.WebApi.Data.Product.ExtraInfo
   id: ExtraInfo
@@ -721,11 +979,13 @@ items:
   nameWithType: Product.ExtraInfo
   fullName: SuperOffice.WebApi.Data.Product.ExtraInfo
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Extra information, supplied by QuoteConnector, used by a future dynamic GUI extension
-  example: []
+  summary: "\nExtra information, supplied by QuoteConnector, used by a future dynamic GUI extension\n"
   syntax:
     content: public virtual ProductExtraDataField[] ExtraInfo { get; set; }
     parameters: []
@@ -733,6 +993,14 @@ items:
       type: SuperOffice.WebApi.Data.ProductExtraDataField[]
     content.vb: Public Overridable Property ExtraInfo As ProductExtraDataField()
   overload: SuperOffice.WebApi.Data.Product.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.RawExtraInfo
   commentId: P:SuperOffice.WebApi.Data.Product.RawExtraInfo
   id: RawExtraInfo
@@ -744,11 +1012,13 @@ items:
   nameWithType: Product.RawExtraInfo
   fullName: SuperOffice.WebApi.Data.Product.RawExtraInfo
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Read-only extra information in plain text, supplied by QuoteConnector, used by a future dynamic GUI extension
-  example: []
+  summary: "\nRead-only extra information in plain text, supplied by QuoteConnector, used by a future dynamic GUI extension\n"
   syntax:
     content: public virtual string RawExtraInfo { get; set; }
     parameters: []
@@ -756,6 +1026,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property RawExtraInfo As String
   overload: SuperOffice.WebApi.Data.Product.RawExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.ExtraField1
   commentId: P:SuperOffice.WebApi.Data.Product.ExtraField1
   id: ExtraField1
@@ -767,11 +1045,13 @@ items:
   nameWithType: Product.ExtraField1
   fullName: SuperOffice.WebApi.Data.Product.ExtraField1
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: This a simple field for adding information that the Connector can provide, and that the qoute document need to display.
-  example: []
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
   syntax:
     content: public virtual string ExtraField1 { get; set; }
     parameters: []
@@ -779,6 +1059,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ExtraField1 As String
   overload: SuperOffice.WebApi.Data.Product.ExtraField1*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.ExtraField2
   commentId: P:SuperOffice.WebApi.Data.Product.ExtraField2
   id: ExtraField2
@@ -790,11 +1078,13 @@ items:
   nameWithType: Product.ExtraField2
   fullName: SuperOffice.WebApi.Data.Product.ExtraField2
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: This a simple field for adding information that the Connector can provide, and that the qoute document need to display.
-  example: []
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
   syntax:
     content: public virtual string ExtraField2 { get; set; }
     parameters: []
@@ -802,6 +1092,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ExtraField2 As String
   overload: SuperOffice.WebApi.Data.Product.ExtraField2*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.ExtraField3
   commentId: P:SuperOffice.WebApi.Data.Product.ExtraField3
   id: ExtraField3
@@ -813,11 +1111,13 @@ items:
   nameWithType: Product.ExtraField3
   fullName: SuperOffice.WebApi.Data.Product.ExtraField3
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: This a simple field for adding information that the Connector can provide, and that the qoute document need to display.
-  example: []
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
   syntax:
     content: public virtual string ExtraField3 { get; set; }
     parameters: []
@@ -825,6 +1125,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ExtraField3 As String
   overload: SuperOffice.WebApi.Data.Product.ExtraField3*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.ExtraField4
   commentId: P:SuperOffice.WebApi.Data.Product.ExtraField4
   id: ExtraField4
@@ -836,11 +1144,13 @@ items:
   nameWithType: Product.ExtraField4
   fullName: SuperOffice.WebApi.Data.Product.ExtraField4
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: This a simple field for adding information that the Connector can provide, and that the qoute document need to display.
-  example: []
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
   syntax:
     content: public virtual string ExtraField4 { get; set; }
     parameters: []
@@ -848,6 +1158,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ExtraField4 As String
   overload: SuperOffice.WebApi.Data.Product.ExtraField4*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.ExtraField5
   commentId: P:SuperOffice.WebApi.Data.Product.ExtraField5
   id: ExtraField5
@@ -859,11 +1177,13 @@ items:
   nameWithType: Product.ExtraField5
   fullName: SuperOffice.WebApi.Data.Product.ExtraField5
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: This a simple field for adding information that the Connector can provide, and that the qoute document need to display.
-  example: []
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
   syntax:
     content: public virtual string ExtraField5 { get; set; }
     parameters: []
@@ -871,6 +1191,14 @@ items:
       type: System.String
     content.vb: Public Overridable Property ExtraField5 As String
   overload: SuperOffice.WebApi.Data.Product.ExtraField5*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.WebApi.Data.Product.InStock
   commentId: P:SuperOffice.WebApi.Data.Product.InStock
   id: InStock
@@ -882,11 +1210,13 @@ items:
   nameWithType: Product.InStock
   fullName: SuperOffice.WebApi.Data.Product.InStock
   type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: Negative numbers will be interpreted as how many is ordered. Might not be available.
-  example: []
+  summary: "\nNegative numbers will be interpreted as how many is ordered. Might not be available.\n"
   syntax:
     content: public virtual double InStock { get; set; }
     parameters: []
@@ -894,80 +1224,32 @@ items:
       type: System.Double
     content.vb: Public Overridable Property InStock As Double
   overload: SuperOffice.WebApi.Data.Product.InStock*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.WebApi.Agents.QuoteAgent
-  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.QuoteAgent.html
-  name: QuoteAgent
-  nameWithType: QuoteAgent
-  fullName: SuperOffice.WebApi.Agents.QuoteAgent
-- uid: SuperOffice.WebApi.Agents.ArchiveAgent
-  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
-  isExternal: true
-  href: SuperOffice.WebApi.Agents.ArchiveAgent.html
-  name: ArchiveAgent
-  nameWithType: ArchiveAgent
-  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
-- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
-  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
-  isExternal: true
-- uid: SuperOffice.CRM.Services.ArchiveAgent
-  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
-  isExternal: true
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.WebApi.Data.Carrier
   commentId: T:SuperOffice.WebApi.Data.Carrier
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
   name: Carrier
   nameWithType: Carrier
   fullName: SuperOffice.WebApi.Data.Carrier
@@ -975,7 +1257,6 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
   name: TableRight
   nameWithType: Carrier.TableRight
   fullName: SuperOffice.WebApi.Data.Carrier.TableRight
@@ -983,250 +1264,39 @@ references:
   commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
   parent: SuperOffice.WebApi.Data.Carrier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
   name: FieldProperties
   nameWithType: Carrier.FieldProperties
   fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: SuperOffice.WebApi.Agents.ArchiveAgent
+  commentId: T:SuperOffice.WebApi.Agents.ArchiveAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.WebApi.Agents.ArchiveAgent
+- uid: ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
+  commentId: M:ArchiveAgent.GetArchiveListByColumns2(string,string,string,string,string,int,int)
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.WebApi.Data.Product.#ctor*
   commentId: Overload:SuperOffice.WebApi.Data.Product.#ctor
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product__ctor
   name: Product
   nameWithType: Product.Product
   fullName: SuperOffice.WebApi.Data.Product.Product
-  nameWithType.vb: Product.New
-  fullName.vb: SuperOffice.WebApi.Data.Product.New
-  name.vb: New
 - uid: SuperOffice.WebApi.Data.Product.ProductId*
   commentId: Overload:SuperOffice.WebApi.Data.Product.ProductId
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_ProductId
   name: ProductId
   nameWithType: Product.ProductId
   fullName: SuperOffice.WebApi.Data.Product.ProductId
@@ -1234,17 +1304,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.WebApi.Data.Product.ERPProductKey*
   commentId: Overload:SuperOffice.WebApi.Data.Product.ERPProductKey
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_ERPProductKey
   name: ERPProductKey
   nameWithType: Product.ERPProductKey
   fullName: SuperOffice.WebApi.Data.Product.ERPProductKey
@@ -1252,59 +1317,48 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.WebApi.Data.Product.ERPPriceListKey*
   commentId: Overload:SuperOffice.WebApi.Data.Product.ERPPriceListKey
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_ERPPriceListKey
   name: ERPPriceListKey
   nameWithType: Product.ERPPriceListKey
   fullName: SuperOffice.WebApi.Data.Product.ERPPriceListKey
 - uid: SuperOffice.WebApi.Data.Product.Name*
   commentId: Overload:SuperOffice.WebApi.Data.Product.Name
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_Name
   name: Name
   nameWithType: Product.Name
   fullName: SuperOffice.WebApi.Data.Product.Name
 - uid: SuperOffice.WebApi.Data.Product.Description*
   commentId: Overload:SuperOffice.WebApi.Data.Product.Description
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_Description
   name: Description
   nameWithType: Product.Description
   fullName: SuperOffice.WebApi.Data.Product.Description
 - uid: SuperOffice.WebApi.Data.Product.Code*
   commentId: Overload:SuperOffice.WebApi.Data.Product.Code
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_Code
   name: Code
   nameWithType: Product.Code
   fullName: SuperOffice.WebApi.Data.Product.Code
 - uid: SuperOffice.WebApi.Data.Product.PriceUnit*
   commentId: Overload:SuperOffice.WebApi.Data.Product.PriceUnit
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_PriceUnit
   name: PriceUnit
   nameWithType: Product.PriceUnit
   fullName: SuperOffice.WebApi.Data.Product.PriceUnit
 - uid: SuperOffice.WebApi.Data.Product.QuantityUnit*
   commentId: Overload:SuperOffice.WebApi.Data.Product.QuantityUnit
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_QuantityUnit
   name: QuantityUnit
   nameWithType: Product.QuantityUnit
   fullName: SuperOffice.WebApi.Data.Product.QuantityUnit
 - uid: SuperOffice.WebApi.Data.Product.IsSubscription*
   commentId: Overload:SuperOffice.WebApi.Data.Product.IsSubscription
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_IsSubscription
   name: IsSubscription
   nameWithType: Product.IsSubscription
   fullName: SuperOffice.WebApi.Data.Product.IsSubscription
@@ -1312,24 +1366,18 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.WebApi.Data.Product.SubscriptionUnit*
   commentId: Overload:SuperOffice.WebApi.Data.Product.SubscriptionUnit
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_SubscriptionUnit
   name: SubscriptionUnit
   nameWithType: Product.SubscriptionUnit
   fullName: SuperOffice.WebApi.Data.Product.SubscriptionUnit
 - uid: SuperOffice.WebApi.Data.Product.DefaultSubscriptionQuantity*
   commentId: Overload:SuperOffice.WebApi.Data.Product.DefaultSubscriptionQuantity
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_DefaultSubscriptionQuantity
   name: DefaultSubscriptionQuantity
   nameWithType: Product.DefaultSubscriptionQuantity
   fullName: SuperOffice.WebApi.Data.Product.DefaultSubscriptionQuantity
@@ -1337,128 +1385,107 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.double
-  name: double
-  nameWithType: double
-  fullName: double
-  nameWithType.vb: Double
-  fullName.vb: Double
-  name.vb: Double
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
 - uid: SuperOffice.WebApi.Data.Product.ItemNumber*
   commentId: Overload:SuperOffice.WebApi.Data.Product.ItemNumber
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_ItemNumber
   name: ItemNumber
   nameWithType: Product.ItemNumber
   fullName: SuperOffice.WebApi.Data.Product.ItemNumber
 - uid: SuperOffice.WebApi.Data.Product.Url*
   commentId: Overload:SuperOffice.WebApi.Data.Product.Url
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_Url
   name: Url
   nameWithType: Product.Url
   fullName: SuperOffice.WebApi.Data.Product.Url
 - uid: SuperOffice.WebApi.Data.Product.ProductCategoryKey*
   commentId: Overload:SuperOffice.WebApi.Data.Product.ProductCategoryKey
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_ProductCategoryKey
   name: ProductCategoryKey
   nameWithType: Product.ProductCategoryKey
   fullName: SuperOffice.WebApi.Data.Product.ProductCategoryKey
 - uid: SuperOffice.WebApi.Data.Product.ProductFamilyKey*
   commentId: Overload:SuperOffice.WebApi.Data.Product.ProductFamilyKey
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_ProductFamilyKey
   name: ProductFamilyKey
   nameWithType: Product.ProductFamilyKey
   fullName: SuperOffice.WebApi.Data.Product.ProductFamilyKey
 - uid: SuperOffice.WebApi.Data.Product.ProductTypeKey*
   commentId: Overload:SuperOffice.WebApi.Data.Product.ProductTypeKey
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_ProductTypeKey
   name: ProductTypeKey
   nameWithType: Product.ProductTypeKey
   fullName: SuperOffice.WebApi.Data.Product.ProductTypeKey
 - uid: SuperOffice.WebApi.Data.Product.VAT*
   commentId: Overload:SuperOffice.WebApi.Data.Product.VAT
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_VAT
   name: VAT
   nameWithType: Product.VAT
   fullName: SuperOffice.WebApi.Data.Product.VAT
 - uid: SuperOffice.WebApi.Data.Product.VATInfo*
   commentId: Overload:SuperOffice.WebApi.Data.Product.VATInfo
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_VATInfo
   name: VATInfo
   nameWithType: Product.VATInfo
   fullName: SuperOffice.WebApi.Data.Product.VATInfo
 - uid: SuperOffice.WebApi.Data.Product.UnitCost*
   commentId: Overload:SuperOffice.WebApi.Data.Product.UnitCost
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_UnitCost
   name: UnitCost
   nameWithType: Product.UnitCost
   fullName: SuperOffice.WebApi.Data.Product.UnitCost
 - uid: SuperOffice.WebApi.Data.Product.UnitMinimumPrice*
   commentId: Overload:SuperOffice.WebApi.Data.Product.UnitMinimumPrice
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_UnitMinimumPrice
   name: UnitMinimumPrice
   nameWithType: Product.UnitMinimumPrice
   fullName: SuperOffice.WebApi.Data.Product.UnitMinimumPrice
 - uid: SuperOffice.WebApi.Data.Product.UnitListPrice*
   commentId: Overload:SuperOffice.WebApi.Data.Product.UnitListPrice
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_UnitListPrice
   name: UnitListPrice
   nameWithType: Product.UnitListPrice
   fullName: SuperOffice.WebApi.Data.Product.UnitListPrice
 - uid: SuperOffice.WebApi.Data.Product.InAssortment*
   commentId: Overload:SuperOffice.WebApi.Data.Product.InAssortment
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_InAssortment
   name: InAssortment
   nameWithType: Product.InAssortment
   fullName: SuperOffice.WebApi.Data.Product.InAssortment
 - uid: SuperOffice.WebApi.Data.Product.Supplier*
   commentId: Overload:SuperOffice.WebApi.Data.Product.Supplier
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_Supplier
   name: Supplier
   nameWithType: Product.Supplier
   fullName: SuperOffice.WebApi.Data.Product.Supplier
 - uid: SuperOffice.WebApi.Data.Product.SupplierCode*
   commentId: Overload:SuperOffice.WebApi.Data.Product.SupplierCode
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_SupplierCode
   name: SupplierCode
   nameWithType: Product.SupplierCode
   fullName: SuperOffice.WebApi.Data.Product.SupplierCode
 - uid: SuperOffice.WebApi.Data.Product.Rights*
   commentId: Overload:SuperOffice.WebApi.Data.Product.Rights
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_Rights
   name: Rights
   nameWithType: Product.Rights
   fullName: SuperOffice.WebApi.Data.Product.Rights
 - uid: SuperOffice.WebApi.Data.Product.Rule*
   commentId: Overload:SuperOffice.WebApi.Data.Product.Rule
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_Rule
   name: Rule
   nameWithType: Product.Rule
   fullName: SuperOffice.WebApi.Data.Product.Rule
 - uid: SuperOffice.WebApi.Data.Product.ExtraInfo*
   commentId: Overload:SuperOffice.WebApi.Data.Product.ExtraInfo
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_ExtraInfo
   name: ExtraInfo
   nameWithType: Product.ExtraInfo
   fullName: SuperOffice.WebApi.Data.Product.ExtraInfo
 - uid: SuperOffice.WebApi.Data.ProductExtraDataField[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.ProductExtraDataField.html
   name: ProductExtraDataField[]
   nameWithType: ProductExtraDataField[]
   fullName: SuperOffice.WebApi.Data.ProductExtraDataField[]
@@ -1468,63 +1495,60 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.ProductExtraDataField
     name: ProductExtraDataField
+    nameWithType: ProductExtraDataField
+    fullName: SuperOffice.WebApi.Data.ProductExtraDataField
     isExternal: true
-    href: SuperOffice.WebApi.Data.ProductExtraDataField.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.ProductExtraDataField
     name: ProductExtraDataField
+    nameWithType: ProductExtraDataField
+    fullName: SuperOffice.WebApi.Data.ProductExtraDataField
     isExternal: true
-    href: SuperOffice.WebApi.Data.ProductExtraDataField.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Data.Product.RawExtraInfo*
   commentId: Overload:SuperOffice.WebApi.Data.Product.RawExtraInfo
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_RawExtraInfo
   name: RawExtraInfo
   nameWithType: Product.RawExtraInfo
   fullName: SuperOffice.WebApi.Data.Product.RawExtraInfo
 - uid: SuperOffice.WebApi.Data.Product.ExtraField1*
   commentId: Overload:SuperOffice.WebApi.Data.Product.ExtraField1
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_ExtraField1
   name: ExtraField1
   nameWithType: Product.ExtraField1
   fullName: SuperOffice.WebApi.Data.Product.ExtraField1
 - uid: SuperOffice.WebApi.Data.Product.ExtraField2*
   commentId: Overload:SuperOffice.WebApi.Data.Product.ExtraField2
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_ExtraField2
   name: ExtraField2
   nameWithType: Product.ExtraField2
   fullName: SuperOffice.WebApi.Data.Product.ExtraField2
 - uid: SuperOffice.WebApi.Data.Product.ExtraField3*
   commentId: Overload:SuperOffice.WebApi.Data.Product.ExtraField3
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_ExtraField3
   name: ExtraField3
   nameWithType: Product.ExtraField3
   fullName: SuperOffice.WebApi.Data.Product.ExtraField3
 - uid: SuperOffice.WebApi.Data.Product.ExtraField4*
   commentId: Overload:SuperOffice.WebApi.Data.Product.ExtraField4
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_ExtraField4
   name: ExtraField4
   nameWithType: Product.ExtraField4
   fullName: SuperOffice.WebApi.Data.Product.ExtraField4
 - uid: SuperOffice.WebApi.Data.Product.ExtraField5*
   commentId: Overload:SuperOffice.WebApi.Data.Product.ExtraField5
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_ExtraField5
   name: ExtraField5
   nameWithType: Product.ExtraField5
   fullName: SuperOffice.WebApi.Data.Product.ExtraField5
 - uid: SuperOffice.WebApi.Data.Product.InStock*
   commentId: Overload:SuperOffice.WebApi.Data.Product.InStock
   isExternal: true
-  href: SuperOffice.WebApi.Data.Product.html#SuperOffice_WebApi_Data_Product_InStock
   name: InStock
   nameWithType: Product.InStock
   fullName: SuperOffice.WebApi.Data.Product.InStock

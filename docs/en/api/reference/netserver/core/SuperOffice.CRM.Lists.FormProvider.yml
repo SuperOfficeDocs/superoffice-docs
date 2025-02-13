@@ -16,25 +16,24 @@ items:
   nameWithType: FormProvider
   fullName: SuperOffice.CRM.Lists.FormProvider
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: >-
-    Get all forms with folder hierarchy. 
-
-    Set ExtraInfo "onlyActive=true" if you only want to get active forms and "onlyNewTicket=true" if only forms that create tickets.
-
-    Set extrainfo "onlyForms=true" if you do not want form templates.
-  example: []
+  summary: "\nGet all forms with folder hierarchy. \nSet ExtraInfo &quot;onlyActive=true&quot; if you only want to get active forms and &quot;onlyNewTicket=true&quot; if only forms that create tickets.\nSet extrainfo &quot;onlyForms=true&quot; if you do not want form templates.\n"
   syntax:
     content: >-
       [MDOProviderPlugin("Form")]
 
-      public class FormProvider : LiteralsOnlyBase, ISoListProvider, ISoList
+      public class FormProvider : LiteralsOnlyBase, ISoListProvider, ISoList, IPlugin
     content.vb: >-
       <MDOProviderPlugin("Form")>
 
-      Public Class FormProvider Inherits LiteralsOnlyBase Implements ISoListProvider, ISoList
+      Public Class FormProvider
+          Inherits LiteralsOnlyBase
+          Implements ISoListProvider, ISoList, IPlugin
   inheritance:
   - System.Object
   - SuperOffice.CRM.Lists.LiteralsOnlyBase
@@ -55,24 +54,23 @@ items:
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryItems
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.RootItems
   - SuperOffice.CRM.Lists.LiteralsOnlyBase.HeadingItems
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Lists.FormProvider.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Lists.FormProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Lists.FormProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.FormProvider)
   - SuperOffice.CRM.Lists.FormProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Lists.FormProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
   - type: SuperOffice.CRM.Lists.MDOProviderPluginAttribute
     ctor: SuperOffice.CRM.Lists.MDOProviderPluginAttribute.#ctor(System.String)
     arguments:
     - type: System.String
       value: Form
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Lists.FormProvider.ProviderName
   commentId: F:SuperOffice.CRM.Lists.FormProvider.ProviderName
   id: ProviderName
@@ -84,6 +82,9 @@ items:
   nameWithType: FormProvider.ProviderName
   fullName: SuperOffice.CRM.Lists.FormProvider.ProviderName
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
@@ -92,6 +93,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const ProviderName As String = "Form"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Lists.FormProvider.HasActions(System.String)
   commentId: M:SuperOffice.CRM.Lists.FormProvider.HasActions(System.String)
   id: HasActions(System.String)
@@ -99,10 +106,13 @@ items:
   langs:
   - csharp
   - vb
-  name: HasActions(string)
-  nameWithType: FormProvider.HasActions(string)
-  fullName: SuperOffice.CRM.Lists.FormProvider.HasActions(string)
+  name: HasActions(String)
+  nameWithType: FormProvider.HasActions(String)
+  fullName: SuperOffice.CRM.Lists.FormProvider.HasActions(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
@@ -115,9 +125,12 @@ items:
       type: System.Boolean
     content.vb: Public Shared Function HasActions(formConfig As String) As Boolean
   overload: SuperOffice.CRM.Lists.FormProvider.HasActions*
-  nameWithType.vb: FormProvider.HasActions(String)
-  fullName.vb: SuperOffice.CRM.Lists.FormProvider.HasActions(String)
-  name.vb: HasActions(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Lists.FormProvider.AddItems
   commentId: M:SuperOffice.CRM.Lists.FormProvider.AddItems
   id: AddItems
@@ -129,46 +142,23 @@ items:
   nameWithType: FormProvider.AddItems()
   fullName: SuperOffice.CRM.Lists.FormProvider.AddItems()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
-  summary: >-
-    Subclass contract: use the <xref href="SuperOffice.CRM.Lists.LiteralsOnlyBase.RawRootItems" data-throw-if-not-resolved="false"></xref> and <xref href="SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHeadingItems" data-throw-if-not-resolved="false"></xref> properties to add items to
-
-    your literals-only list. The base class will then perform any search or flattening required.
-  remarks: >-
-    Lists that only contain literals can be either flat or grouped. If you create a grouped list and the caller
-
-    specifies a forceFlatList attribute, the base class will do the flattening for you.
-  example:
-  - >-
-    This example shows a typical implementation of a literal list, in this case the date interval list from the Filter dialog:
-
-    <pre><code class="lang-csharp">[MDOProviderPlugin( "FilterFutureDate" )]
-
-    public class FilterFutureDateList : LiteralsOnlyBase
-
-    {
-    	protected override void AddItems()
-    	{
-    		RawRootItems.Add( new SoListItem( 1, "[SR_DATE_RANGE_3MONTHS]", string.Empty, string.Empty ) );
-    		RawRootItems.Add( new SoListItem( 2, "[SR_DATE_RANGE_4MONTHS]", string.Empty, string.Empty ) );
-    		RawRootItems.Add( new SoListItem( 3, "[SR_DATE_RANGE_6MONTHS]", string.Empty, string.Empty ) );
-    		RawRootItems.Add( new SoListItem( 4, "[SR_DATE_RANGE_1YEAR]", string.Empty, string.Empty ) );
-    		RawRootItems.Add( new SoListItem( 5, "[SR_DATE_RANGE_2YEAR]", string.Empty, string.Empty ) );
-    	}
-    }</code></pre>
-
-    Note that using a search in this case yields unexpected results. The search is performed on the raw items, which
-
-    contains resource tags - and that is not what you actually want to search against. So resources + search do not
-
-    go together.
   syntax:
     content: protected override void AddItems()
-    content.vb: Protected Overrides Sub AddItems()
+    content.vb: Protected Overrides Sub AddItems
   overridden: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddItems
   overload: SuperOffice.CRM.Lists.FormProvider.AddItems*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 - uid: SuperOffice.CRM.Lists.FormProvider.#ctor
   commentId: M:SuperOffice.CRM.Lists.FormProvider.#ctor
   id: '#ctor'
@@ -180,70 +170,38 @@ items:
   nameWithType: FormProvider.FormProvider()
   fullName: SuperOffice.CRM.Lists.FormProvider.FormProvider()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
   syntax:
     content: public FormProvider()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Lists.FormProvider.#ctor*
-  nameWithType.vb: FormProvider.New()
-  fullName.vb: SuperOffice.CRM.Lists.FormProvider.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Lists
   commentId: N:SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Lists
   nameWithType: SuperOffice.CRM.Lists
   fullName: SuperOffice.CRM.Lists
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Lists
-    name: Lists
-    isExternal: true
-    href: SuperOffice.CRM.Lists.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Lists
-    name: Lists
-    isExternal: true
-    href: SuperOffice.CRM.Lists.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase
   commentId: T:SuperOffice.CRM.Lists.LiteralsOnlyBase
   parent: SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html
   name: LiteralsOnlyBase
   nameWithType: LiteralsOnlyBase
   fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase
@@ -251,7 +209,6 @@ references:
   commentId: T:SuperOffice.CRM.Lists.ISoListProvider
   parent: SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.CRM.Lists.ISoListProvider.html
   name: ISoListProvider
   nameWithType: ISoListProvider
   fullName: SuperOffice.CRM.Lists.ISoListProvider
@@ -259,7 +216,6 @@ references:
   commentId: T:SuperOffice.CRM.Lists.ISoList
   parent: SuperOffice.CRM.Lists
   isExternal: true
-  href: SuperOffice.CRM.Lists.ISoList.html
   name: ISoList
   nameWithType: ISoList
   fullName: SuperOffice.CRM.Lists.ISoList
@@ -267,163 +223,208 @@ references:
   commentId: M:SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum``1(``0,System.String,System.Boolean)
   parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
   definition: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum``1(``0,System.String,System.Boolean)
-  href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_AddRawRootEnum__1___0_System_String_System_Boolean_
-  name: AddRawRootEnum<TEnum>(TEnum, string, bool)
-  nameWithType: LiteralsOnlyBase.AddRawRootEnum<TEnum>(TEnum, string, bool)
-  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum<TEnum>(TEnum, string, bool)
+  name: AddRawRootEnum<TEnum>(TEnum, String, Boolean)
+  nameWithType: LiteralsOnlyBase.AddRawRootEnum<TEnum>(TEnum, String, Boolean)
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum<TEnum>(TEnum, System.String, System.Boolean)
   nameWithType.vb: LiteralsOnlyBase.AddRawRootEnum(Of TEnum)(TEnum, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum(Of TEnum)(TEnum, String, Boolean)
+  fullName.vb: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum(Of TEnum)(TEnum, System.String, System.Boolean)
   name.vb: AddRawRootEnum(Of TEnum)(TEnum, String, Boolean)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum``1(``0,System.String,System.Boolean)
-    name: AddRawRootEnum
+    name: AddRawRootEnum<TEnum>
+    nameWithType: LiteralsOnlyBase.AddRawRootEnum<TEnum>
+    fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum<TEnum>
     isExternal: true
-    href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_AddRawRootEnum__1___0_System_String_System_Boolean_
-  - name: <
-  - name: TEnum
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TEnum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum``1(``0,System.String,System.Boolean)
-    name: AddRawRootEnum
-    isExternal: true
-    href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_AddRawRootEnum__1___0_System_String_System_Boolean_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TEnum
-  - name: )
-  - name: (
-  - name: TEnum
-  - name: ','
-  - name: " "
+    nameWithType: TEnum
+    fullName: TEnum
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum``1(``0,System.String,System.Boolean)
+    name: AddRawRootEnum(Of TEnum)
+    nameWithType: LiteralsOnlyBase.AddRawRootEnum(Of TEnum)
+    fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum(Of TEnum)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEnum
+    nameWithType: TEnum
+    fullName: TEnum
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
   parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_Construct_System_String_System_String_System_Int32___System_Boolean_System_String_System_Boolean_
-  name: Construct(string, string, int[], bool, string, bool)
-  nameWithType: LiteralsOnlyBase.Construct(string, string, int[], bool, string, bool)
-  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct(string, string, int[], bool, string, bool)
-  nameWithType.vb: LiteralsOnlyBase.Construct(String, String, Integer(), Boolean, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct(String, String, Integer(), Boolean, String, Boolean)
-  name.vb: Construct(String, String, Integer(), Boolean, String, Boolean)
+  name: Construct(String, String, Int32[], Boolean, String, Boolean)
+  nameWithType: LiteralsOnlyBase.Construct(String, String, Int32[], Boolean, String, Boolean)
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct(System.String, System.String, System.Int32[], System.Boolean, System.String, System.Boolean)
+  nameWithType.vb: LiteralsOnlyBase.Construct(String, String, Int32(), Boolean, String, Boolean)
+  fullName.vb: SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct(System.String, System.String, System.Int32(), System.Boolean, System.String, System.Boolean)
+  name.vb: Construct(String, String, Int32(), Boolean, String, Boolean)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
     name: Construct
+    nameWithType: LiteralsOnlyBase.Construct
+    fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct
     isExternal: true
-    href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_Construct_System_String_System_String_System_Int32___System_Boolean_System_String_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
     name: Construct
+    nameWithType: LiteralsOnlyBase.Construct
+    fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.Construct
     isExternal: true
-    href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_Construct_System_String_System_String_System_Int32___System_Boolean_System_String_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.ListName
   commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.ListName
   parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_ListName
   name: ListName
   nameWithType: LiteralsOnlyBase.ListName
   fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.ListName
@@ -431,7 +432,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.ExtraInfo
   parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_ExtraInfo
   name: ExtraInfo
   nameWithType: LiteralsOnlyBase.ExtraInfo
   fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.ExtraInfo
@@ -439,7 +439,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.SearchValue
   parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_SearchValue
   name: SearchValue
   nameWithType: LiteralsOnlyBase.SearchValue
   fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.SearchValue
@@ -447,7 +446,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.ForceFlatList
   parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_ForceFlatList
   name: ForceFlatList
   nameWithType: LiteralsOnlyBase.ForceFlatList
   fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.ForceFlatList
@@ -455,7 +453,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.RawRootItems
   parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_RawRootItems
   name: RawRootItems
   nameWithType: LiteralsOnlyBase.RawRootItems
   fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.RawRootItems
@@ -463,7 +460,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHeadingItems
   parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_RawHeadingItems
   name: RawHeadingItems
   nameWithType: LiteralsOnlyBase.RawHeadingItems
   fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHeadingItems
@@ -471,7 +467,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHistoryItems
   parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_RawHistoryItems
   name: RawHistoryItems
   nameWithType: LiteralsOnlyBase.RawHistoryItems
   fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.RawHistoryItems
@@ -479,7 +474,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryInfo
   parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_HistoryInfo
   name: HistoryInfo
   nameWithType: LiteralsOnlyBase.HistoryInfo
   fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryInfo
@@ -487,7 +481,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryItems
   parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_HistoryItems
   name: HistoryItems
   nameWithType: LiteralsOnlyBase.HistoryItems
   fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.HistoryItems
@@ -495,7 +488,6 @@ references:
   commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.RootItems
   parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_RootItems
   name: RootItems
   nameWithType: LiteralsOnlyBase.RootItems
   fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.RootItems
@@ -503,510 +495,235 @@ references:
   commentId: P:SuperOffice.CRM.Lists.LiteralsOnlyBase.HeadingItems
   parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_HeadingItems
   name: HeadingItems
   nameWithType: LiteralsOnlyBase.HeadingItems
   fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.HeadingItems
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Lists.FormProvider.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<FormProvider, To>(FormProvider)
-  nameWithType: EnumUtil.MapEnums<FormProvider, To>(FormProvider)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.FormProvider, To>(SuperOffice.CRM.Lists.FormProvider)
-  nameWithType.vb: EnumUtil.MapEnums(Of FormProvider, To)(FormProvider)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.FormProvider, To)(SuperOffice.CRM.Lists.FormProvider)
-  name.vb: MapEnums(Of FormProvider, To)(FormProvider)
+  name: MapEnums<FormProvider, To>()
+  nameWithType: EnumUtil.MapEnums<FormProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.FormProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of FormProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.FormProvider, To)()
+  name.vb: MapEnums(Of FormProvider, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Lists.FormProvider)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<FormProvider, To>
+    nameWithType: EnumUtil.MapEnums<FormProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.FormProvider, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Lists.FormProvider
-    name: FormProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.FormProvider.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Lists.FormProvider
-    name: FormProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.FormProvider.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Lists.FormProvider)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of FormProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of FormProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.FormProvider, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.FormProvider
-    name: FormProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.FormProvider.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Lists.FormProvider
-    name: FormProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.FormProvider.html
-  - name: )
-- uid: SuperOffice.CRM.Lists.FormProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<FormProvider, To>(FormProvider)
-  nameWithType: Converters.MapEnums<FormProvider, To>(FormProvider)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.FormProvider, To>(SuperOffice.CRM.Lists.FormProvider)
-  nameWithType.vb: Converters.MapEnums(Of FormProvider, To)(FormProvider)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.FormProvider, To)(SuperOffice.CRM.Lists.FormProvider)
-  name.vb: MapEnums(Of FormProvider, To)(FormProvider)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Lists.FormProvider)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Lists.FormProvider
-    name: FormProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.FormProvider.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Lists.FormProvider
-    name: FormProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.FormProvider.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Lists.FormProvider)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.FormProvider
-    name: FormProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.FormProvider.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Lists.FormProvider
-    name: FormProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.FormProvider.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.FormProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.FormProvider)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<FormProvider>(FormProvider, FormProvider)
-  nameWithType: ObjectExtensions.AssignByReflection<FormProvider>(FormProvider, FormProvider)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.FormProvider>(SuperOffice.CRM.Lists.FormProvider, SuperOffice.CRM.Lists.FormProvider)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FormProvider)(FormProvider, FormProvider)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.FormProvider)(SuperOffice.CRM.Lists.FormProvider, SuperOffice.CRM.Lists.FormProvider)
-  name.vb: AssignByReflection(Of FormProvider)(FormProvider, FormProvider)
+  name: AssignByReflection<FormProvider>(FormProvider)
+  nameWithType: ObjectExtensions.AssignByReflection<FormProvider>(FormProvider)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.FormProvider>(SuperOffice.CRM.Lists.FormProvider)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FormProvider)(FormProvider)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.FormProvider)(SuperOffice.CRM.Lists.FormProvider)
+  name.vb: AssignByReflection(Of FormProvider)(FormProvider)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.FormProvider,SuperOffice.CRM.Lists.FormProvider)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<FormProvider>
+    nameWithType: ObjectExtensions.AssignByReflection<FormProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.FormProvider>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Lists.FormProvider
-    name: FormProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.FormProvider.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Lists.FormProvider
     name: FormProvider
+    nameWithType: FormProvider
+    fullName: SuperOffice.CRM.Lists.FormProvider
     isExternal: true
-    href: SuperOffice.CRM.Lists.FormProvider.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.FormProvider
-    name: FormProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.FormProvider.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.FormProvider,SuperOffice.CRM.Lists.FormProvider)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of FormProvider)
+    nameWithType: ObjectExtensions.AssignByReflection(Of FormProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.FormProvider)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Lists.FormProvider
     name: FormProvider
+    nameWithType: FormProvider
+    fullName: SuperOffice.CRM.Lists.FormProvider
     isExternal: true
-    href: SuperOffice.CRM.Lists.FormProvider.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Lists.FormProvider
-    name: FormProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.FormProvider.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.FormProvider
-    name: FormProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.FormProvider.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.FormProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<FormProvider>(FormProvider)
-  nameWithType: ObjectExtensions.GraphCopy<FormProvider>(FormProvider)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.FormProvider>(SuperOffice.CRM.Lists.FormProvider)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of FormProvider)(FormProvider)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.FormProvider)(SuperOffice.CRM.Lists.FormProvider)
-  name.vb: GraphCopy(Of FormProvider)(FormProvider)
+  name: GraphCopy<FormProvider>()
+  nameWithType: ObjectExtensions.GraphCopy<FormProvider>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.FormProvider>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of FormProvider)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.FormProvider)()
+  name.vb: GraphCopy(Of FormProvider)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Lists.FormProvider)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<FormProvider>
+    nameWithType: ObjectExtensions.GraphCopy<FormProvider>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.FormProvider>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Lists.FormProvider
-    name: FormProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.FormProvider.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Lists.FormProvider
-    name: FormProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.FormProvider.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Lists.FormProvider)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of FormProvider)
+    nameWithType: ObjectExtensions.GraphCopy(Of FormProvider)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.FormProvider)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Lists.FormProvider
-    name: FormProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.FormProvider.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.FormProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<FormProvider, To>()
+  nameWithType: Converters.MapEnums<FormProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.FormProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of FormProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.FormProvider, To)()
+  name.vb: MapEnums(Of FormProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<FormProvider, To>
+    nameWithType: Converters.MapEnums<FormProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.FormProvider, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.Lists.FormProvider
-    name: FormProvider
-    isExternal: true
-    href: SuperOffice.CRM.Lists.FormProvider.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of FormProvider, To)
+    nameWithType: Converters.MapEnums(Of FormProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.FormProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum``1(``0,System.String,System.Boolean)
   commentId: M:SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum``1(``0,System.String,System.Boolean)
   isExternal: true
-  href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_AddRawRootEnum__1___0_System_String_System_Boolean_
-  name: AddRawRootEnum<TEnum>(TEnum, string, bool)
-  nameWithType: LiteralsOnlyBase.AddRawRootEnum<TEnum>(TEnum, string, bool)
-  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum<TEnum>(TEnum, string, bool)
+  name: AddRawRootEnum<TEnum>(TEnum, String, Boolean)
+  nameWithType: LiteralsOnlyBase.AddRawRootEnum<TEnum>(TEnum, String, Boolean)
+  fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum<TEnum>(TEnum, System.String, System.Boolean)
   nameWithType.vb: LiteralsOnlyBase.AddRawRootEnum(Of TEnum)(TEnum, String, Boolean)
-  fullName.vb: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum(Of TEnum)(TEnum, String, Boolean)
+  fullName.vb: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum(Of TEnum)(TEnum, System.String, System.Boolean)
   name.vb: AddRawRootEnum(Of TEnum)(TEnum, String, Boolean)
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum``1(``0,System.String,System.Boolean)
-    name: AddRawRootEnum
+    name: AddRawRootEnum<TEnum>
+    nameWithType: LiteralsOnlyBase.AddRawRootEnum<TEnum>
+    fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum<TEnum>
     isExternal: true
-    href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_AddRawRootEnum__1___0_System_String_System_Boolean_
-  - name: <
-  - name: TEnum
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: TEnum
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Boolean
-    name: bool
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum``1(``0,System.String,System.Boolean)
-    name: AddRawRootEnum
-    isExternal: true
-    href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_AddRawRootEnum__1___0_System_String_System_Boolean_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TEnum
-  - name: )
-  - name: (
-  - name: TEnum
-  - name: ','
-  - name: " "
+    nameWithType: TEnum
+    fullName: TEnum
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum``1(``0,System.String,System.Boolean)
+    name: AddRawRootEnum(Of TEnum)
+    nameWithType: LiteralsOnlyBase.AddRawRootEnum(Of TEnum)
+    fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddRawRootEnum(Of TEnum)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TEnum
+    nameWithType: TEnum
+    fullName: TEnum
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1015,93 +732,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1110,46 +777,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1158,107 +835,102 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Lists.FormProvider.HasActions*
   commentId: Overload:SuperOffice.CRM.Lists.FormProvider.HasActions
   isExternal: true
-  href: SuperOffice.CRM.Lists.FormProvider.html#SuperOffice_CRM_Lists_FormProvider_HasActions_System_String_
   name: HasActions
   nameWithType: FormProvider.HasActions
   fullName: SuperOffice.CRM.Lists.FormProvider.HasActions
@@ -1266,49 +938,49 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddItems
   commentId: M:SuperOffice.CRM.Lists.LiteralsOnlyBase.AddItems
   parent: SuperOffice.CRM.Lists.LiteralsOnlyBase
   isExternal: true
-  href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_AddItems
   name: AddItems()
   nameWithType: LiteralsOnlyBase.AddItems()
   fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddItems()
   spec.csharp:
   - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddItems
     name: AddItems
+    nameWithType: LiteralsOnlyBase.AddItems
+    fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddItems
     isExternal: true
-    href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_AddItems
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddItems
     name: AddItems
+    nameWithType: LiteralsOnlyBase.AddItems
+    fullName: SuperOffice.CRM.Lists.LiteralsOnlyBase.AddItems
     isExternal: true
-    href: SuperOffice.CRM.Lists.LiteralsOnlyBase.html#SuperOffice_CRM_Lists_LiteralsOnlyBase_AddItems
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Lists.FormProvider.AddItems*
   commentId: Overload:SuperOffice.CRM.Lists.FormProvider.AddItems
   isExternal: true
-  href: SuperOffice.CRM.Lists.FormProvider.html#SuperOffice_CRM_Lists_FormProvider_AddItems
   name: AddItems
   nameWithType: FormProvider.AddItems
   fullName: SuperOffice.CRM.Lists.FormProvider.AddItems
 - uid: SuperOffice.CRM.Lists.FormProvider.#ctor*
   commentId: Overload:SuperOffice.CRM.Lists.FormProvider.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Lists.FormProvider.html#SuperOffice_CRM_Lists_FormProvider__ctor
   name: FormProvider
   nameWithType: FormProvider.FormProvider
   fullName: SuperOffice.CRM.Lists.FormProvider.FormProvider
-  nameWithType.vb: FormProvider.New
-  fullName.vb: SuperOffice.CRM.Lists.FormProvider.New
-  name.vb: New

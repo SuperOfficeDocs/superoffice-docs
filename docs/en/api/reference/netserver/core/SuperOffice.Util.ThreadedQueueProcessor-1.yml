@@ -20,33 +20,32 @@ items:
   nameWithType: ThreadedQueueProcessor<T>
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: >-
-    Class which takes a worker and a queue, and automatically runs the worker
-
-    in the background, but only queues on work-item at the time.
-  example: []
+  summary: "\nClass which takes a worker and a queue, and automatically runs the worker\nin the background, but only queues on work-item at the time.\n"
   syntax:
-    content: public class ThreadedQueueProcessor<T>
+    content: 'public class ThreadedQueueProcessor<T> : Object'
     typeParameters:
     - id: T
-      description: ''
-    content.vb: Public Class ThreadedQueueProcessor(Of T)
+    content.vb: >-
+      Public Class ThreadedQueueProcessor(Of T)
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Util.ThreadedQueueProcessor`1.EnumUtil.MapEnums``2
   - SuperOffice.Util.ThreadedQueueProcessor`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   nameWithType.vb: ThreadedQueueProcessor(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
   fullName.vb: SuperOffice.Util.ThreadedQueueProcessor(Of T)
   name.vb: ThreadedQueueProcessor(Of T)
 - uid: SuperOffice.Util.ThreadedQueueProcessor`1.#ctor(System.Action{`0},System.String,System.Int32)
@@ -56,15 +55,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ThreadedQueueProcessor(Action<T>, string, int)
-  nameWithType: ThreadedQueueProcessor<T>.ThreadedQueueProcessor(Action<T>, string, int)
-  fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.ThreadedQueueProcessor(System.Action<T>, string, int)
+  name: ThreadedQueueProcessor(Action<T>, String, Int32)
+  nameWithType: ThreadedQueueProcessor<T>.ThreadedQueueProcessor(Action<T>, String, Int32)
+  fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.ThreadedQueueProcessor(System.Action<T>, System.String, System.Int32)
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Start a background thread to process items kept on a queue. Thread terminates when queue is empty.
-  example: []
+  summary: "\nStart a background thread to process items kept on a queue. Thread terminates when queue is empty.\n"
   syntax:
     content: public ThreadedQueueProcessor(Action<T> OnWork, string workerThreadName = "ThreadedQueueProcessor-thread", int keepAliveSeconds = 0)
     parameters:
@@ -79,9 +80,13 @@ items:
       description: Keep the thread alive X seconds to see if more work arrives before terminating.
     content.vb: Public Sub New(OnWork As Action(Of T), workerThreadName As String = "ThreadedQueueProcessor-thread", keepAliveSeconds As Integer = 0)
   overload: SuperOffice.Util.ThreadedQueueProcessor`1.#ctor*
-  nameWithType.vb: ThreadedQueueProcessor(Of T).New(Action(Of T), String, Integer)
-  fullName.vb: SuperOffice.Util.ThreadedQueueProcessor(Of T).New(System.Action(Of T), String, Integer)
-  name.vb: New(Action(Of T), String, Integer)
+  nameWithType.vb: ThreadedQueueProcessor(Of T).ThreadedQueueProcessor(Action(Of T), String, Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.ThreadedQueueProcessor(Of T).ThreadedQueueProcessor(System.Action(Of T), System.String, System.Int32)
+  name.vb: ThreadedQueueProcessor(Action(Of T), String, Int32)
 - uid: SuperOffice.Util.ThreadedQueueProcessor`1.AddWork(`0)
   commentId: M:SuperOffice.Util.ThreadedQueueProcessor`1.AddWork(`0)
   id: AddWork(`0)
@@ -93,6 +98,9 @@ items:
   nameWithType: ThreadedQueueProcessor<T>.AddWork(T)
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.AddWork(T)
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
@@ -104,6 +112,10 @@ items:
     content.vb: Public Sub AddWork(item As T)
   overload: SuperOffice.Util.ThreadedQueueProcessor`1.AddWork*
   nameWithType.vb: ThreadedQueueProcessor(Of T).AddWork(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
   fullName.vb: SuperOffice.Util.ThreadedQueueProcessor(Of T).AddWork(T)
 - uid: SuperOffice.Util.ThreadedQueueProcessor`1.AwaitDisposedWorked
   commentId: M:SuperOffice.Util.ThreadedQueueProcessor`1.AwaitDisposedWorked
@@ -116,16 +128,22 @@ items:
   nameWithType: ThreadedQueueProcessor<T>.AwaitDisposedWorked()
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.AwaitDisposedWorked()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Method used in testing to verify correctness.
-  example: []
+  summary: "\nMethod used in testing to verify correctness.\n"
   syntax:
     content: public void AwaitDisposedWorked()
-    content.vb: Public Sub AwaitDisposedWorked()
+    content.vb: Public Sub AwaitDisposedWorked
   overload: SuperOffice.Util.ThreadedQueueProcessor`1.AwaitDisposedWorked*
   nameWithType.vb: ThreadedQueueProcessor(Of T).AwaitDisposedWorked()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
   fullName.vb: SuperOffice.Util.ThreadedQueueProcessor(Of T).AwaitDisposedWorked()
 - uid: SuperOffice.Util.ThreadedQueueProcessor`1.AwaitEmptyQueue
   commentId: M:SuperOffice.Util.ThreadedQueueProcessor`1.AwaitEmptyQueue
@@ -138,16 +156,22 @@ items:
   nameWithType: ThreadedQueueProcessor<T>.AwaitEmptyQueue()
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.AwaitEmptyQueue()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Method used in testing to verify correctness.
-  example: []
+  summary: "\nMethod used in testing to verify correctness.\n"
   syntax:
     content: public void AwaitEmptyQueue()
-    content.vb: Public Sub AwaitEmptyQueue()
+    content.vb: Public Sub AwaitEmptyQueue
   overload: SuperOffice.Util.ThreadedQueueProcessor`1.AwaitEmptyQueue*
   nameWithType.vb: ThreadedQueueProcessor(Of T).AwaitEmptyQueue()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
   fullName.vb: SuperOffice.Util.ThreadedQueueProcessor(Of T).AwaitEmptyQueue()
 - uid: SuperOffice.Util.ThreadedQueueProcessor`1.ToString
   commentId: M:SuperOffice.Util.ThreadedQueueProcessor`1.ToString
@@ -160,18 +184,25 @@ items:
   nameWithType: ThreadedQueueProcessor<T>.ToString()
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.ToString()
   type: Method
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  example: []
   syntax:
     content: public override string ToString()
     return:
       type: System.String
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.Util.ThreadedQueueProcessor`1.ToString*
   nameWithType.vb: ThreadedQueueProcessor(Of T).ToString()
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
   fullName.vb: SuperOffice.Util.ThreadedQueueProcessor(Of T).ToString()
 - uid: SuperOffice.Util.ThreadedQueueProcessor`1.ThreadsCreated
   commentId: P:SuperOffice.Util.ThreadedQueueProcessor`1.ThreadsCreated
@@ -184,11 +215,13 @@ items:
   nameWithType: ThreadedQueueProcessor<T>.ThreadsCreated
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.ThreadsCreated
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Total number of threads created to process work. For diagnostics.
-  example: []
+  summary: "\nTotal number of threads created to process work. For diagnostics.\n"
   syntax:
     content: public int ThreadsCreated { get; }
     parameters: []
@@ -197,6 +230,12 @@ items:
     content.vb: Public ReadOnly Property ThreadsCreated As Integer
   overload: SuperOffice.Util.ThreadedQueueProcessor`1.ThreadsCreated*
   nameWithType.vb: ThreadedQueueProcessor(Of T).ThreadsCreated
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
   fullName.vb: SuperOffice.Util.ThreadedQueueProcessor(Of T).ThreadsCreated
 - uid: SuperOffice.Util.ThreadedQueueProcessor`1.ItemsQueued
   commentId: P:SuperOffice.Util.ThreadedQueueProcessor`1.ItemsQueued
@@ -209,11 +248,13 @@ items:
   nameWithType: ThreadedQueueProcessor<T>.ItemsQueued
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.ItemsQueued
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Total number of items processed by queue. For diagnostics and testing.
-  example: []
+  summary: "\nTotal number of items processed by queue. For diagnostics and testing.\n"
   syntax:
     content: public int ItemsQueued { get; }
     parameters: []
@@ -222,6 +263,12 @@ items:
     content.vb: Public ReadOnly Property ItemsQueued As Integer
   overload: SuperOffice.Util.ThreadedQueueProcessor`1.ItemsQueued*
   nameWithType.vb: ThreadedQueueProcessor(Of T).ItemsQueued
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
   fullName.vb: SuperOffice.Util.ThreadedQueueProcessor(Of T).ItemsQueued
 - uid: SuperOffice.Util.ThreadedQueueProcessor`1.QueueLength
   commentId: P:SuperOffice.Util.ThreadedQueueProcessor`1.QueueLength
@@ -234,11 +281,13 @@ items:
   nameWithType: ThreadedQueueProcessor<T>.QueueLength
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.QueueLength
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
-  summary: Number of items in queue. For diagnostics and testing.
-  example: []
+  summary: "\nNumber of items in queue. For diagnostics and testing.\n"
   syntax:
     content: public int QueueLength { get; }
     parameters: []
@@ -247,390 +296,104 @@ items:
     content.vb: Public ReadOnly Property QueueLength As Integer
   overload: SuperOffice.Util.ThreadedQueueProcessor`1.QueueLength*
   nameWithType.vb: ThreadedQueueProcessor(Of T).QueueLength
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
   fullName.vb: SuperOffice.Util.ThreadedQueueProcessor(Of T).QueueLength
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Util.ThreadedQueueProcessor`1.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ThreadedQueueProcessor<T>, To>(ThreadedQueueProcessor<T>)
-  nameWithType: EnumUtil.MapEnums<ThreadedQueueProcessor<T>, To>(ThreadedQueueProcessor<T>)
-  fullName: EnumUtil.MapEnums<SuperOffice.Util.ThreadedQueueProcessor<T>, To>(SuperOffice.Util.ThreadedQueueProcessor<T>)
-  nameWithType.vb: EnumUtil.MapEnums(Of ThreadedQueueProcessor(Of T), To)(ThreadedQueueProcessor(Of T))
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.ThreadedQueueProcessor(Of T), To)(SuperOffice.Util.ThreadedQueueProcessor(Of T))
-  name.vb: MapEnums(Of ThreadedQueueProcessor(Of T), To)(ThreadedQueueProcessor(Of T))
+  name: MapEnums<ThreadedQueueProcessor<T>, To>()
+  nameWithType: EnumUtil.MapEnums<ThreadedQueueProcessor<T>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.ThreadedQueueProcessor<T>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ThreadedQueueProcessor(Of T), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.ThreadedQueueProcessor(Of T), To)()
+  name.vb: MapEnums(Of ThreadedQueueProcessor(Of T), To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.ThreadedQueueProcessor{`0})
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ThreadedQueueProcessor<T>, To>
+    nameWithType: EnumUtil.MapEnums<ThreadedQueueProcessor<T>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.ThreadedQueueProcessor<T>, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Util.ThreadedQueueProcessor`1
-    name: ThreadedQueueProcessor
-    isExternal: true
-    href: SuperOffice.Util.ThreadedQueueProcessor-1.html
-  - name: <
-  - name: T
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Util.ThreadedQueueProcessor`1
-    name: ThreadedQueueProcessor
-    isExternal: true
-    href: SuperOffice.Util.ThreadedQueueProcessor-1.html
-  - name: <
-  - name: T
-  - name: '>'
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.ThreadedQueueProcessor{`0})
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ThreadedQueueProcessor(Of T), To)
+    nameWithType: EnumUtil.MapEnums(Of ThreadedQueueProcessor(Of T), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.ThreadedQueueProcessor(Of T), To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Util.ThreadedQueueProcessor`1
-    name: ThreadedQueueProcessor
-    isExternal: true
-    href: SuperOffice.Util.ThreadedQueueProcessor-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Util.ThreadedQueueProcessor`1
-    name: ThreadedQueueProcessor
-    isExternal: true
-    href: SuperOffice.Util.ThreadedQueueProcessor-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ThreadedQueueProcessor`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ThreadedQueueProcessor<T>, To>(ThreadedQueueProcessor<T>)
-  nameWithType: Converters.MapEnums<ThreadedQueueProcessor<T>, To>(ThreadedQueueProcessor<T>)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.ThreadedQueueProcessor<T>, To>(SuperOffice.Util.ThreadedQueueProcessor<T>)
-  nameWithType.vb: Converters.MapEnums(Of ThreadedQueueProcessor(Of T), To)(ThreadedQueueProcessor(Of T))
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.ThreadedQueueProcessor(Of T), To)(SuperOffice.Util.ThreadedQueueProcessor(Of T))
-  name.vb: MapEnums(Of ThreadedQueueProcessor(Of T), To)(ThreadedQueueProcessor(Of T))
+  name: MapEnums<ThreadedQueueProcessor<T>, To>()
+  nameWithType: Converters.MapEnums<ThreadedQueueProcessor<T>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.ThreadedQueueProcessor<T>, To>()
+  nameWithType.vb: Converters.MapEnums(Of ThreadedQueueProcessor(Of T), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.ThreadedQueueProcessor(Of T), To)()
+  name.vb: MapEnums(Of ThreadedQueueProcessor(Of T), To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.ThreadedQueueProcessor{`0})
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ThreadedQueueProcessor<T>, To>
+    nameWithType: Converters.MapEnums<ThreadedQueueProcessor<T>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.ThreadedQueueProcessor<T>, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Util.ThreadedQueueProcessor`1
-    name: ThreadedQueueProcessor
-    isExternal: true
-    href: SuperOffice.Util.ThreadedQueueProcessor-1.html
-  - name: <
-  - name: T
-  - name: '>'
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Util.ThreadedQueueProcessor`1
-    name: ThreadedQueueProcessor
-    isExternal: true
-    href: SuperOffice.Util.ThreadedQueueProcessor-1.html
-  - name: <
-  - name: T
-  - name: '>'
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.ThreadedQueueProcessor{`0})
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ThreadedQueueProcessor(Of T), To)
+    nameWithType: Converters.MapEnums(Of ThreadedQueueProcessor(Of T), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.ThreadedQueueProcessor(Of T), To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Util.ThreadedQueueProcessor`1
-    name: ThreadedQueueProcessor
-    isExternal: true
-    href: SuperOffice.Util.ThreadedQueueProcessor-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Util.ThreadedQueueProcessor`1
-    name: ThreadedQueueProcessor
-    isExternal: true
-    href: SuperOffice.Util.ThreadedQueueProcessor-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -639,45 +402,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -686,94 +447,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Util.ThreadedQueueProcessor`1.#ctor*
   commentId: Overload:SuperOffice.Util.ThreadedQueueProcessor`1.#ctor
   isExternal: true
-  href: SuperOffice.Util.ThreadedQueueProcessor-1.html#SuperOffice_Util_ThreadedQueueProcessor_1__ctor_System_Action__0__System_String_System_Int32_
   name: ThreadedQueueProcessor
   nameWithType: ThreadedQueueProcessor<T>.ThreadedQueueProcessor
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.ThreadedQueueProcessor
-  nameWithType.vb: ThreadedQueueProcessor(Of T).New
-  fullName.vb: SuperOffice.Util.ThreadedQueueProcessor(Of T).New
-  name.vb: New
+  nameWithType.vb: ThreadedQueueProcessor(Of T).ThreadedQueueProcessor
+  fullName.vb: SuperOffice.Util.ThreadedQueueProcessor(Of T).ThreadedQueueProcessor
 - uid: System.Action{{T}}
-  commentId: T:System.Action{`0}
-  parent: System
+  commentId: '!:System.Action{`0}'
   definition: System.Action`1
-  href: https://learn.microsoft.com/dotnet/api/system.action-1
   name: Action<T>
   nameWithType: Action<T>
   fullName: System.Action<T>
@@ -783,75 +508,88 @@ references:
   spec.csharp:
   - uid: System.Action`1
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
   - name: <
+    nameWithType: <
+    fullName: <
   - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Action`1
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.Action`1
-  commentId: T:System.Action`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.action-1
-  name: Action<T>
-  nameWithType: Action<T>
-  fullName: System.Action<T>
-  nameWithType.vb: Action(Of T)
-  fullName.vb: System.Action(Of T)
-  name.vb: Action(Of T)
+  name: Action<>
+  nameWithType: Action<>
+  fullName: System.Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: System.Action(Of )
+  name.vb: Action(Of )
   spec.csharp:
   - uid: System.Action`1
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Action`1
     name: Action
+    nameWithType: Action
+    fullName: System.Action
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.action-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ThreadedQueueProcessor`1.AddWork*
   commentId: Overload:SuperOffice.Util.ThreadedQueueProcessor`1.AddWork
   isExternal: true
-  href: SuperOffice.Util.ThreadedQueueProcessor-1.html#SuperOffice_Util_ThreadedQueueProcessor_1_AddWork__0_
   name: AddWork
   nameWithType: ThreadedQueueProcessor<T>.AddWork
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.AddWork
@@ -870,7 +608,6 @@ references:
 - uid: SuperOffice.Util.ThreadedQueueProcessor`1.AwaitDisposedWorked*
   commentId: Overload:SuperOffice.Util.ThreadedQueueProcessor`1.AwaitDisposedWorked
   isExternal: true
-  href: SuperOffice.Util.ThreadedQueueProcessor-1.html#SuperOffice_Util_ThreadedQueueProcessor_1_AwaitDisposedWorked
   name: AwaitDisposedWorked
   nameWithType: ThreadedQueueProcessor<T>.AwaitDisposedWorked
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.AwaitDisposedWorked
@@ -879,40 +616,14 @@ references:
 - uid: SuperOffice.Util.ThreadedQueueProcessor`1.AwaitEmptyQueue*
   commentId: Overload:SuperOffice.Util.ThreadedQueueProcessor`1.AwaitEmptyQueue
   isExternal: true
-  href: SuperOffice.Util.ThreadedQueueProcessor-1.html#SuperOffice_Util_ThreadedQueueProcessor_1_AwaitEmptyQueue
   name: AwaitEmptyQueue
   nameWithType: ThreadedQueueProcessor<T>.AwaitEmptyQueue
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.AwaitEmptyQueue
   nameWithType.vb: ThreadedQueueProcessor(Of T).AwaitEmptyQueue
   fullName.vb: SuperOffice.Util.ThreadedQueueProcessor(Of T).AwaitEmptyQueue
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: SuperOffice.Util.ThreadedQueueProcessor`1.ToString*
   commentId: Overload:SuperOffice.Util.ThreadedQueueProcessor`1.ToString
   isExternal: true
-  href: SuperOffice.Util.ThreadedQueueProcessor-1.html#SuperOffice_Util_ThreadedQueueProcessor_1_ToString
   name: ToString
   nameWithType: ThreadedQueueProcessor<T>.ToString
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.ToString
@@ -921,7 +632,6 @@ references:
 - uid: SuperOffice.Util.ThreadedQueueProcessor`1.ThreadsCreated*
   commentId: Overload:SuperOffice.Util.ThreadedQueueProcessor`1.ThreadsCreated
   isExternal: true
-  href: SuperOffice.Util.ThreadedQueueProcessor-1.html#SuperOffice_Util_ThreadedQueueProcessor_1_ThreadsCreated
   name: ThreadsCreated
   nameWithType: ThreadedQueueProcessor<T>.ThreadsCreated
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.ThreadsCreated
@@ -930,7 +640,6 @@ references:
 - uid: SuperOffice.Util.ThreadedQueueProcessor`1.ItemsQueued*
   commentId: Overload:SuperOffice.Util.ThreadedQueueProcessor`1.ItemsQueued
   isExternal: true
-  href: SuperOffice.Util.ThreadedQueueProcessor-1.html#SuperOffice_Util_ThreadedQueueProcessor_1_ItemsQueued
   name: ItemsQueued
   nameWithType: ThreadedQueueProcessor<T>.ItemsQueued
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.ItemsQueued
@@ -939,7 +648,6 @@ references:
 - uid: SuperOffice.Util.ThreadedQueueProcessor`1.QueueLength*
   commentId: Overload:SuperOffice.Util.ThreadedQueueProcessor`1.QueueLength
   isExternal: true
-  href: SuperOffice.Util.ThreadedQueueProcessor-1.html#SuperOffice_Util_ThreadedQueueProcessor_1_QueueLength
   name: QueueLength
   nameWithType: ThreadedQueueProcessor<T>.QueueLength
   fullName: SuperOffice.Util.ThreadedQueueProcessor<T>.QueueLength

@@ -14,23 +14,19 @@ items:
   nameWithType: IAggregationTwoPassPlugin
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin
   type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists.Aggregation
-  summary: >-
-    Interface implemented by aggregation plugins that need a second pass, typically
-
-    "Percentage of total"
-  remarks: >-
-    As opposed to normal aggregators, where detail lines get a snapshot of the aggregated
-
-    value when they are born, two-aggregators need to implement a real cloning method - 
-
-    otherwise they will not survive in the detail rows, where they need to do the pass-2 calculations.
-  example: []
+  summary: "\nInterface implemented by aggregation plugins that need a second pass, typically\n&quot;Percentage of total&quot;\n"
+  remarks: "\nAs opposed to normal aggregators, where detail lines get a snapshot of the aggregated\nvalue when they are born, two-aggregators need to implement a real cloning method - \notherwise they will not survive in the detail rows, where they need to do the pass-2 calculations.\n"
   syntax:
-    content: 'public interface IAggregationTwoPassPlugin : IAggregationPlugin'
-    content.vb: Public Interface IAggregationTwoPassPlugin Inherits IAggregationPlugin
+    content: 'public interface IAggregationTwoPassPlugin : IAggregationPlugin, IPlugin'
+    content.vb: >-
+      Public Interface IAggregationTwoPassPlugin
+          Inherits IAggregationPlugin, IPlugin
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.SetModifiers(System.String[])
   - SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
@@ -39,6 +35,12 @@ items:
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.EnumUtil.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.SetOutsideValue(SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin)
   commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.SetOutsideValue(SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin)
   id: SetOutsideValue(SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin)
@@ -50,24 +52,14 @@ items:
   nameWithType: IAggregationTwoPassPlugin.SetOutsideValue(IAggregationTwoPassPlugin)
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.SetOutsideValue(SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists.Aggregation
-  summary: >-
-    Called on the detail level, with a reference to
-
-    the <b>same</b> column, but the instance of the aggregator
-
-    that is in the nearest parent level.
-  remarks: >-
-    To implement a percentage of total, the normal AddItem should store
-
-    its individual items. The detail level will then be able to access
-
-    the sum of items, by calling (private) methods on its parent-level
-
-    instance, and compute its own percentage item afterwards.
-  example: []
+  summary: "\nCalled on the detail level, with a reference to\nthe <strong>same</strong> column, but the instance of the aggregator\nthat is in the nearest parent level.\n"
+  remarks: "\nTo implement a percentage of total, the normal AddItem should store\nits individual items. The detail level will then be able to access\nthe sum of items, by calling (private) methods on its parent-level\ninstance, and compute its own percentage item afterwards.\n"
   syntax:
     content: void SetOutsideValue(IAggregationTwoPassPlugin parentInstance)
     parameters:
@@ -86,136 +78,121 @@ items:
   nameWithType: IAggregationTwoPassPlugin.Clone()
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.Clone()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists.Aggregation
-  summary: Create a clone suitable for the detail level
-  example: []
+  summary: "\nCreate a clone suitable for the detail level\n"
   syntax:
     content: IAggregationTwoPassPlugin Clone()
     return:
       type: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin
-      description: ''
-    content.vb: Function Clone() As IAggregationTwoPassPlugin
+    content.vb: Function Clone As IAggregationTwoPassPlugin
   overload: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.Clone*
 references:
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation
   commentId: N:SuperOffice.CRM.ArchiveLists.Aggregation
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists.Aggregation
   nameWithType: SuperOffice.CRM.ArchiveLists.Aggregation
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists.Aggregation
-    name: Aggregation
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Aggregation.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists.Aggregation
-    name: Aggregation
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Aggregation.html
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.SetModifiers(System.String[])
   commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.SetModifiers(System.String[])
   parent: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.html#SuperOffice_CRM_ArchiveLists_Aggregation_IAggregationPlugin_SetModifiers_System_String___
-  name: SetModifiers(string[])
-  nameWithType: IAggregationPlugin.SetModifiers(string[])
-  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.SetModifiers(string[])
+  name: SetModifiers(String[])
+  nameWithType: IAggregationPlugin.SetModifiers(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.SetModifiers(System.String[])
   nameWithType.vb: IAggregationPlugin.SetModifiers(String())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.SetModifiers(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.SetModifiers(System.String())
   name.vb: SetModifiers(String())
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.SetModifiers(System.String[])
     name: SetModifiers
+    nameWithType: IAggregationPlugin.SetModifiers
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.SetModifiers
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.html#SuperOffice_CRM_ArchiveLists_Aggregation_IAggregationPlugin_SetModifiers_System_String___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.SetModifiers(System.String[])
     name: SetModifiers
+    nameWithType: IAggregationPlugin.SetModifiers
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.SetModifiers
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.html#SuperOffice_CRM_ArchiveLists_Aggregation_IAggregationPlugin_SetModifiers_System_String___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
   commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
   parent: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.html#SuperOffice_CRM_ArchiveLists_Aggregation_IAggregationPlugin_AddItem_SuperOffice_CRM_ArchiveLists_ArchiveColumnData_
   name: AddItem(ArchiveColumnData)
   nameWithType: IAggregationPlugin.AddItem(ArchiveColumnData)
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
     name: AddItem
+    nameWithType: IAggregationPlugin.AddItem
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.html#SuperOffice_CRM_ArchiveLists_Aggregation_IAggregationPlugin_AddItem_SuperOffice_CRM_ArchiveLists_ArchiveColumnData_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
     name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
     name: AddItem
+    nameWithType: IAggregationPlugin.AddItem
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.html#SuperOffice_CRM_ArchiveLists_Aggregation_IAggregationPlugin_AddItem_SuperOffice_CRM_ArchiveLists_ArchiveColumnData_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
     name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
   commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
   parent: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.html#SuperOffice_CRM_ArchiveLists_Aggregation_IAggregationPlugin_AddItem_SuperOffice_CRM_ArchiveLists_ArchiveColumnData___
   name: AddItem(ArchiveColumnData[])
   nameWithType: IAggregationPlugin.AddItem(ArchiveColumnData[])
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
@@ -225,167 +202,152 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
     name: AddItem
+    nameWithType: IAggregationPlugin.AddItem
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.html#SuperOffice_CRM_ArchiveLists_Aggregation_IAggregationPlugin_AddItem_SuperOffice_CRM_ArchiveLists_ArchiveColumnData___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
     name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
     isExternal: true
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
     name: AddItem
+    nameWithType: IAggregationPlugin.AddItem
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.html#SuperOffice_CRM_ArchiveLists_Aggregation_IAggregationPlugin_AddItem_SuperOffice_CRM_ArchiveLists_ArchiveColumnData___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
     name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
     isExternal: true
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
   commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
   parent: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.html#SuperOffice_CRM_ArchiveLists_Aggregation_IAggregationPlugin_GetAggregatedValue
   name: GetAggregatedValue()
   nameWithType: IAggregationPlugin.GetAggregatedValue()
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue()
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
     name: GetAggregatedValue
+    nameWithType: IAggregationPlugin.GetAggregatedValue
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.html#SuperOffice_CRM_ArchiveLists_Aggregation_IAggregationPlugin_GetAggregatedValue
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
     name: GetAggregatedValue
+    nameWithType: IAggregationPlugin.GetAggregatedValue
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.html#SuperOffice_CRM_ArchiveLists_Aggregation_IAggregationPlugin_GetAggregatedValue
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<IAggregationTwoPassPlugin, To>(IAggregationTwoPassPlugin)
-  nameWithType: EnumUtil.MapEnums<IAggregationTwoPassPlugin, To>(IAggregationTwoPassPlugin)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin, To>(SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin)
-  nameWithType.vb: EnumUtil.MapEnums(Of IAggregationTwoPassPlugin, To)(IAggregationTwoPassPlugin)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin, To)(SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin)
-  name.vb: MapEnums(Of IAggregationTwoPassPlugin, To)(IAggregationTwoPassPlugin)
+  name: MapEnums<IAggregationTwoPassPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<IAggregationTwoPassPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IAggregationTwoPassPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin, To)()
+  name.vb: MapEnums(Of IAggregationTwoPassPlugin, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IAggregationTwoPassPlugin, To>
+    nameWithType: EnumUtil.MapEnums<IAggregationTwoPassPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin
-    name: IAggregationTwoPassPlugin
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin
-    name: IAggregationTwoPassPlugin
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IAggregationTwoPassPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of IAggregationTwoPassPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin
-    name: IAggregationTwoPassPlugin
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin
-    name: IAggregationTwoPassPlugin
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<IAggregationTwoPassPlugin, To>(IAggregationTwoPassPlugin)
-  nameWithType: Converters.MapEnums<IAggregationTwoPassPlugin, To>(IAggregationTwoPassPlugin)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin, To>(SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin)
-  nameWithType.vb: Converters.MapEnums(Of IAggregationTwoPassPlugin, To)(IAggregationTwoPassPlugin)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin, To)(SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin)
-  name.vb: MapEnums(Of IAggregationTwoPassPlugin, To)(IAggregationTwoPassPlugin)
+  name: MapEnums<IAggregationTwoPassPlugin, To>()
+  nameWithType: Converters.MapEnums<IAggregationTwoPassPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of IAggregationTwoPassPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin, To)()
+  name.vb: MapEnums(Of IAggregationTwoPassPlugin, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IAggregationTwoPassPlugin, To>
+    nameWithType: Converters.MapEnums<IAggregationTwoPassPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin
-    name: IAggregationTwoPassPlugin
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin
-    name: IAggregationTwoPassPlugin
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IAggregationTwoPassPlugin, To)
+    nameWithType: Converters.MapEnums(Of IAggregationTwoPassPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin
-    name: IAggregationTwoPassPlugin
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin
-    name: IAggregationTwoPassPlugin
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
   parent: SuperOffice.CRM.ArchiveLists.Aggregation
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.html
   name: IAggregationPlugin
   nameWithType: IAggregationPlugin
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -394,45 +356,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -441,83 +401,50 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.SetOutsideValue*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.SetOutsideValue
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.html#SuperOffice_CRM_ArchiveLists_Aggregation_IAggregationTwoPassPlugin_SetOutsideValue_SuperOffice_CRM_ArchiveLists_Aggregation_IAggregationTwoPassPlugin_
   name: SetOutsideValue
   nameWithType: IAggregationTwoPassPlugin.SetOutsideValue
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.SetOutsideValue
@@ -525,14 +452,12 @@ references:
   commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin
   parent: SuperOffice.CRM.ArchiveLists.Aggregation
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.html
   name: IAggregationTwoPassPlugin
   nameWithType: IAggregationTwoPassPlugin
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin
 - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.Clone*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.Clone
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.html#SuperOffice_CRM_ArchiveLists_Aggregation_IAggregationTwoPassPlugin_Clone
   name: Clone
   nameWithType: IAggregationTwoPassPlugin.Clone
   fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationTwoPassPlugin.Clone

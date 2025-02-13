@@ -42,7 +42,6 @@ references:
   commentId: T:SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo
   parent: SuperOffice.CRM.BulkUpdate
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo.html
   name: ActivityLinkJobInfo
   nameWithType: ActivityLinkJobInfo
   fullName: SuperOffice.CRM.BulkUpdate.ActivityLinkJobInfo
@@ -50,489 +49,128 @@ references:
   commentId: T:SuperOffice.CRM.BulkUpdate.RowResultItem
   parent: SuperOffice.CRM.BulkUpdate
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.RowResultItem.html
   name: RowResultItem
   nameWithType: RowResultItem
   fullName: SuperOffice.CRM.BulkUpdate.RowResultItem
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   name: BulkUpdateSystem
   nameWithType: BulkUpdateSystem
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   name: BulkUpdateSystem.FieldTypes
   nameWithType: BulkUpdateSystem.FieldTypes
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes
-    name: FieldTypes
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes
-    name: FieldTypes
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldTypes.html
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   name: BulkUpdateSystem.OperationTypes
   nameWithType: BulkUpdateSystem.OperationTypes
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes
-    name: OperationTypes
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes
-    name: OperationTypes
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.OperationTypes.html
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   name: BulkUpdateSystem.SearchOption
   nameWithType: BulkUpdateSystem.SearchOption
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption
-    name: SearchOption
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption
-    name: SearchOption
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SearchOption.html
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorageItem
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorageItem
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   name: BulkUpdateSystem.FieldValueStorageItem
   nameWithType: BulkUpdateSystem.FieldValueStorageItem
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorageItem
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorageItem
-    name: FieldValueStorageItem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorageItem.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorageItem
-    name: FieldValueStorageItem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorageItem.html
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.RowResultStorageItem
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.RowResultStorageItem
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   name: BulkUpdateSystem.RowResultStorageItem
   nameWithType: BulkUpdateSystem.RowResultStorageItem
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.RowResultStorageItem
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.RowResultStorageItem
-    name: RowResultStorageItem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.RowResultStorageItem.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.RowResultStorageItem
-    name: RowResultStorageItem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.RowResultStorageItem.html
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
   parent: SuperOffice.CRM.BulkUpdate
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   name: BulkUpdateSystem.JobResultStorageItem
   nameWithType: BulkUpdateSystem.JobResultStorageItem
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
-    name: JobResultStorageItem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem
-    name: JobResultStorageItem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.JobResultStorageItem.html
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   name: BulkUpdateSystem.BackgroundJob
   nameWithType: BulkUpdateSystem.BackgroundJob
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
-    name: BackgroundJob
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob
-    name: BackgroundJob
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.BackgroundJob.html
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorage
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorage
   parent: SuperOffice.CRM.BulkUpdate
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   name: BulkUpdateSystem.FieldValueStorage
   nameWithType: BulkUpdateSystem.FieldValueStorage
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorage
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorage
-    name: FieldValueStorage
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorage.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorage
-    name: FieldValueStorage
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.FieldValueStorage.html
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ValueTypes
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ValueTypes
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   name: BulkUpdateSystem.ValueTypes
   nameWithType: BulkUpdateSystem.ValueTypes
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ValueTypes
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ValueTypes
-    name: ValueTypes
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ValueTypes.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ValueTypes
-    name: ValueTypes
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ValueTypes.html
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   name: BulkUpdateSystem.ContactFieldValueKeys
   nameWithType: BulkUpdateSystem.ContactFieldValueKeys
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
-    name: ContactFieldValueKeys
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys
-    name: ContactFieldValueKeys
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ContactFieldValueKeys.html
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   name: BulkUpdateSystem.PersonFieldValueKeys
   nameWithType: BulkUpdateSystem.PersonFieldValueKeys
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys
-    name: PersonFieldValueKeys
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys
-    name: PersonFieldValueKeys
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.PersonFieldValueKeys.html
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ProjectFieldValueKeys
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ProjectFieldValueKeys
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   name: BulkUpdateSystem.ProjectFieldValueKeys
   nameWithType: BulkUpdateSystem.ProjectFieldValueKeys
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ProjectFieldValueKeys
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ProjectFieldValueKeys
-    name: ProjectFieldValueKeys
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ProjectFieldValueKeys.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ProjectFieldValueKeys
-    name: ProjectFieldValueKeys
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.ProjectFieldValueKeys.html
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   name: BulkUpdateSystem.SaleFieldValueKeys
   nameWithType: BulkUpdateSystem.SaleFieldValueKeys
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
-    name: SaleFieldValueKeys
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys
-    name: SaleFieldValueKeys
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SaleFieldValueKeys.html
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   name: BulkUpdateSystem.AppointmentFieldValueKeys
   nameWithType: BulkUpdateSystem.AppointmentFieldValueKeys
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
-    name: AppointmentFieldValueKeys
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys
-    name: AppointmentFieldValueKeys
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.AppointmentFieldValueKeys.html
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DocumentFieldValueKeys
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DocumentFieldValueKeys
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   name: BulkUpdateSystem.DocumentFieldValueKeys
   nameWithType: BulkUpdateSystem.DocumentFieldValueKeys
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DocumentFieldValueKeys
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DocumentFieldValueKeys
-    name: DocumentFieldValueKeys
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DocumentFieldValueKeys.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DocumentFieldValueKeys
-    name: DocumentFieldValueKeys
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.DocumentFieldValueKeys.html
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SelectionFieldValueKeys
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SelectionFieldValueKeys
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   name: BulkUpdateSystem.SelectionFieldValueKeys
   nameWithType: BulkUpdateSystem.SelectionFieldValueKeys
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SelectionFieldValueKeys
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SelectionFieldValueKeys
-    name: SelectionFieldValueKeys
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SelectionFieldValueKeys.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SelectionFieldValueKeys
-    name: SelectionFieldValueKeys
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.SelectionFieldValueKeys.html
 - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
   commentId: T:SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
   name: BulkUpdateSystem.TicketFieldValueKeys
   nameWithType: BulkUpdateSystem.TicketFieldValueKeys
   fullName: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
-    name: TicketFieldValueKeys
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem
-    name: BulkUpdateSystem
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys
-    name: TicketFieldValueKeys
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.BulkUpdateSystem.TicketFieldValueKeys.html
 - uid: SuperOffice.CRM.BulkUpdate.OperationInfo
   commentId: T:SuperOffice.CRM.BulkUpdate.OperationInfo
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.OperationInfo.html
   name: OperationInfo
   nameWithType: OperationInfo
   fullName: SuperOffice.CRM.BulkUpdate.OperationInfo
 - uid: SuperOffice.CRM.BulkUpdate.ControlInfo
   commentId: T:SuperOffice.CRM.BulkUpdate.ControlInfo
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.ControlInfo.html
   name: ControlInfo
   nameWithType: ControlInfo
   fullName: SuperOffice.CRM.BulkUpdate.ControlInfo
@@ -540,7 +178,6 @@ references:
   commentId: T:SuperOffice.CRM.BulkUpdate.FieldValueInfo
   parent: SuperOffice.CRM.BulkUpdate
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
   name: FieldValueInfo
   nameWithType: FieldValueInfo
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo
@@ -548,64 +185,12 @@ references:
   commentId: T:SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType
   parent: SuperOffice.CRM.BulkUpdate
   isExternal: true
-  href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
   name: FieldValueInfo.EKeyType
   nameWithType: FieldValueInfo.EKeyType
   fullName: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType
-  spec.csharp:
-  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
-    name: FieldValueInfo
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType
-    name: EKeyType
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType.html
-  spec.vb:
-  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo
-    name: FieldValueInfo
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType
-    name: EKeyType
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.FieldValueInfo.EKeyType.html
 - uid: SuperOffice.CRM.BulkUpdate
   commentId: N:SuperOffice.CRM.BulkUpdate
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.BulkUpdate
   nameWithType: SuperOffice.CRM.BulkUpdate
   fullName: SuperOffice.CRM.BulkUpdate
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate
-    name: BulkUpdate
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.BulkUpdate
-    name: BulkUpdate
-    isExternal: true
-    href: SuperOffice.CRM.BulkUpdate.html

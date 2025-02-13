@@ -21,22 +21,26 @@ items:
   nameWithType: UserPreferenceStrings.HugoAI
   fullName: SuperOffice.CRM.UserPreferenceStrings.HugoAI
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
   syntax:
-    content: public static class UserPreferenceStrings.HugoAI
-    content.vb: Public Module UserPreferenceStrings.HugoAI
+    content: 'public static class HugoAI : Object'
+    content.vb: >-
+      Public Module HugoAI
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.UserPreferenceStrings.HugoAI.Section
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.HugoAI.Section
   id: Section
@@ -48,6 +52,9 @@ items:
   nameWithType: UserPreferenceStrings.HugoAI.Section
   fullName: SuperOffice.CRM.UserPreferenceStrings.HugoAI.Section
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
@@ -56,6 +63,12 @@ items:
     return:
       type: System.String
     content.vb: Public Const Section As String = "HugoAI"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.HugoAI.CSLanguageDetection
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.HugoAI.CSLanguageDetection
   id: CSLanguageDetection
@@ -67,16 +80,24 @@ items:
   nameWithType: UserPreferenceStrings.HugoAI.CSLanguageDetection
   fullName: SuperOffice.CRM.UserPreferenceStrings.HugoAI.CSLanguageDetection
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: (BOOLEAN) HugoAI Language detection is enabled
-  example: []
+  summary: "\n(BOOLEAN) HugoAI Language detection is enabled\n"
   syntax:
     content: public const string CSLanguageDetection = "CSLanguageDetection"
     return:
       type: System.String
     content.vb: Public Const CSLanguageDetection As String = "CSLanguageDetection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.HugoAI.CSTranslate
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.HugoAI.CSTranslate
   id: CSTranslate
@@ -88,16 +109,24 @@ items:
   nameWithType: UserPreferenceStrings.HugoAI.CSTranslate
   fullName: SuperOffice.CRM.UserPreferenceStrings.HugoAI.CSTranslate
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: (BOOLEAN) HugoAI translation function is enabled
-  example: []
+  summary: "\n(BOOLEAN) HugoAI translation function is enabled\n"
   syntax:
     content: public const string CSTranslate = "CSTranslate"
     return:
       type: System.String
     content.vb: Public Const CSTranslate As String = "CSTranslate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.HugoAI.CSSentiment
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.HugoAI.CSSentiment
   id: CSSentiment
@@ -109,16 +138,24 @@ items:
   nameWithType: UserPreferenceStrings.HugoAI.CSSentiment
   fullName: SuperOffice.CRM.UserPreferenceStrings.HugoAI.CSSentiment
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: (BOOLEAN) HugoAI sentiment analysis is enabled
-  example: []
+  summary: "\n(BOOLEAN) HugoAI sentiment analysis is enabled\n"
   syntax:
     content: public const string CSSentiment = "CSSentiment"
     return:
       type: System.String
     content.vb: Public Const CSSentiment As String = "CSSentiment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.HugoAI.CSCategorize
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.HugoAI.CSCategorize
   id: CSCategorize
@@ -130,16 +167,24 @@ items:
   nameWithType: UserPreferenceStrings.HugoAI.CSCategorize
   fullName: SuperOffice.CRM.UserPreferenceStrings.HugoAI.CSCategorize
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: (BOOLEAN) HugoAI request Categorization is enabled
-  example: []
+  summary: "\n(BOOLEAN) HugoAI request Categorization is enabled\n"
   syntax:
     content: public const string CSCategorize = "CSCategorize"
     return:
       type: System.String
     content.vb: Public Const CSCategorize As String = "CSCategorize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.HugoAI.BusinessCardScan
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.HugoAI.BusinessCardScan
   id: BusinessCardScan
@@ -151,16 +196,24 @@ items:
   nameWithType: UserPreferenceStrings.HugoAI.BusinessCardScan
   fullName: SuperOffice.CRM.UserPreferenceStrings.HugoAI.BusinessCardScan
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: (BOOLEAN) HugoAI Business card scan is enabled in Mobile
-  example: []
+  summary: "\n(BOOLEAN) HugoAI Business card scan is enabled in Mobile\n"
   syntax:
     content: public const string BusinessCardScan = "BusinessCardScan"
     return:
       type: System.String
     content.vb: Public Const BusinessCardScan As String = "BusinessCardScan"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.HugoAI.IncludeMailbox
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.HugoAI.IncludeMailbox
   id: IncludeMailbox
@@ -172,16 +225,24 @@ items:
   nameWithType: UserPreferenceStrings.HugoAI.IncludeMailbox
   fullName: SuperOffice.CRM.UserPreferenceStrings.HugoAI.IncludeMailbox
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: (BOOLEAN) If we include the Mailbox information in training and categorization
-  example: []
+  summary: "\n(BOOLEAN) If we include the Mailbox information in training and categorization\n"
   syntax:
     content: public const string IncludeMailbox = "IncludeMailbox"
     return:
       type: System.String
     content.vb: Public Const IncludeMailbox As String = "IncludeMailbox"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.HugoAI.IncludeSenderEmail
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.HugoAI.IncludeSenderEmail
   id: IncludeSenderEmail
@@ -193,16 +254,24 @@ items:
   nameWithType: UserPreferenceStrings.HugoAI.IncludeSenderEmail
   fullName: SuperOffice.CRM.UserPreferenceStrings.HugoAI.IncludeSenderEmail
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: (BOOLEAN) If we include the SenderEmail information in training and categorization
-  example: []
+  summary: "\n(BOOLEAN) If we include the SenderEmail information in training and categorization\n"
   syntax:
     content: public const string IncludeSenderEmail = "SenderEmail"
     return:
       type: System.String
     content.vb: Public Const IncludeSenderEmail As String = "SenderEmail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.UserPreferenceStrings.HugoAI.IncludeAttachments
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.HugoAI.IncludeAttachments
   id: IncludeAttachments
@@ -214,278 +283,41 @@ items:
   nameWithType: UserPreferenceStrings.HugoAI.IncludeAttachments
   fullName: SuperOffice.CRM.UserPreferenceStrings.HugoAI.IncludeAttachments
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM
-  summary: (BOOLEAN) If we include the attachment names in training and categorization
-  example: []
+  summary: "\n(BOOLEAN) If we include the attachment names in training and categorization\n"
   syntax:
     content: public const string IncludeAttachments = "IncludeAttachments"
     return:
       type: System.String
     content.vb: Public Const IncludeAttachments As String = "IncludeAttachments"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM
   nameWithType: SuperOffice.CRM
   fullName: SuperOffice.CRM
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -493,10 +325,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

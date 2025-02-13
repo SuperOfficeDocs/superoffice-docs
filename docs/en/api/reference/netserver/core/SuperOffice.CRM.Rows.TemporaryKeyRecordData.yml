@@ -25,41 +25,33 @@ items:
   nameWithType: TemporaryKeyRecordData
   fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
-
-    to a row from the TemporaryKey table.
-  remarks: >-
-    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.TemporaryKeyRow" data-throw-if-not-resolved="false"></xref> object when
-
-    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
-
-    since they carry the corresponding <xref href="SuperOffice.CRM.Data.TemporaryKeyTableInfo" data-throw-if-not-resolved="false"></xref> object, which
-
-    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
-  example: []
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the TemporaryKey table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.TemporaryKeyRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.TemporaryKeyTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class TemporaryKeyRecordData
-    content.vb: Public Class TemporaryKeyRecordData
+    content: 'public class TemporaryKeyRecordData : Object'
+    content.vb: >-
+      Public Class TemporaryKeyRecordData
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.TemporaryKeyRecordData.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Rows.TemporaryKeyRecordData.SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.TemporaryKeyRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.TemporaryKeyRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
   - SuperOffice.CRM.Rows.TemporaryKeyRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.TemporaryKeyRecordData.SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.TemporaryKeyRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.TemporaryKeyId
   commentId: F:SuperOffice.CRM.Rows.TemporaryKeyRecordData.TemporaryKeyId
   id: TemporaryKeyId
@@ -71,16 +63,22 @@ items:
   nameWithType: TemporaryKeyRecordData.TemporaryKeyId
   fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData.TemporaryKeyId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
     content: public int TemporaryKeyId
     return:
       type: System.Int32
     content.vb: Public TemporaryKeyId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.Domain
   commentId: F:SuperOffice.CRM.Rows.TemporaryKeyRecordData.Domain
   id: Domain
@@ -92,16 +90,22 @@ items:
   nameWithType: TemporaryKeyRecordData.Domain
   fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData.Domain
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The domain this is a key for
-  example: []
+  summary: "\nThe domain this is a key for \n"
   syntax:
     content: public TemporaryKeyDomain Domain
     return:
       type: SuperOffice.Data.TemporaryKeyDomain
     content.vb: Public Domain As TemporaryKeyDomain
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.TargetId
   commentId: F:SuperOffice.CRM.Rows.TemporaryKeyRecordData.TargetId
   id: TargetId
@@ -113,16 +117,22 @@ items:
   nameWithType: TemporaryKeyRecordData.TargetId
   fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData.TargetId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The primary key in the table this is a key for
-  example: []
+  summary: "\nThe primary key in the table this is a key for \n"
   syntax:
     content: public int TargetId
     return:
       type: System.Int32
     content.vb: Public TargetId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.PersonId
   commentId: F:SuperOffice.CRM.Rows.TemporaryKeyRecordData.PersonId
   id: PersonId
@@ -134,16 +144,22 @@ items:
   nameWithType: TemporaryKeyRecordData.PersonId
   fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData.PersonId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The person this is a key for
-  example: []
+  summary: "\nThe person this is a key for \n"
   syntax:
     content: public int PersonId
     return:
       type: System.Int32
     content.vb: Public PersonId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.Authkey
   commentId: F:SuperOffice.CRM.Rows.TemporaryKeyRecordData.Authkey
   id: Authkey
@@ -155,16 +171,22 @@ items:
   nameWithType: TemporaryKeyRecordData.Authkey
   fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData.Authkey
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The actual key
-  example: []
+  summary: "\nThe actual key \n"
   syntax:
     content: public string Authkey
     return:
       type: System.String
     content.vb: Public Authkey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.Expires
   commentId: F:SuperOffice.CRM.Rows.TemporaryKeyRecordData.Expires
   id: Expires
@@ -176,16 +198,22 @@ items:
   nameWithType: TemporaryKeyRecordData.Expires
   fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData.Expires
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: When this key expires (server localtime)
-  example: []
+  summary: "\nWhen this key expires (server localtime) \n"
   syntax:
     content: public DateTime Expires
     return:
       type: System.DateTime
-    content.vb: Public Expires As Date
+    content.vb: Public Expires As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.Registered
   commentId: F:SuperOffice.CRM.Rows.TemporaryKeyRecordData.Registered
   id: Registered
@@ -197,16 +225,22 @@ items:
   nameWithType: TemporaryKeyRecordData.Registered
   fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Registered when in UTC.
-  example: []
+  summary: "\nRegistered when in UTC.  \n"
   syntax:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As Date
+    content.vb: Public Registered As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Rows.TemporaryKeyRecordData.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -218,16 +252,22 @@ items:
   nameWithType: TemporaryKeyRecordData.RegisteredAssociateId
   fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Registered by whom
-  example: []
+  summary: "\nRegistered by whom \n"
   syntax:
     content: public int RegisteredAssociateId
     return:
       type: System.Int32
     content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.Updated
   commentId: F:SuperOffice.CRM.Rows.TemporaryKeyRecordData.Updated
   id: Updated
@@ -239,16 +279,22 @@ items:
   nameWithType: TemporaryKeyRecordData.Updated
   fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last updated when in UTC.
-  example: []
+  summary: "\nLast updated when in UTC.  \n"
   syntax:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As Date
+    content.vb: Public Updated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Rows.TemporaryKeyRecordData.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -260,16 +306,22 @@ items:
   nameWithType: TemporaryKeyRecordData.UpdatedAssociateId
   fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last updated by whom
-  example: []
+  summary: "\nLast updated by whom \n"
   syntax:
     content: public int UpdatedAssociateId
     return:
       type: System.Int32
     content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.UpdatedCount
   commentId: F:SuperOffice.CRM.Rows.TemporaryKeyRecordData.UpdatedCount
   id: UpdatedCount
@@ -281,16 +333,22 @@ items:
   nameWithType: TemporaryKeyRecordData.UpdatedCount
   fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Number of updates made to this record
-  example: []
+  summary: "\nNumber of updates made to this record \n"
   syntax:
     content: public short UpdatedCount
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.Payload
   commentId: F:SuperOffice.CRM.Rows.TemporaryKeyRecordData.Payload
   id: Payload
@@ -302,16 +360,22 @@ items:
   nameWithType: TemporaryKeyRecordData.Payload
   fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData.Payload
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Optional field that may contain arbitrary data used when the key is verified, dependent on the domain
-  example: []
+  summary: "\nOptional field that may contain arbitrary data used when the key is verified, dependent on the domain \n"
   syntax:
     content: public string Payload
     return:
       type: System.String
     content.vb: Public Payload As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.TemporaryKeyRecordData.#ctor
   id: '#ctor'
@@ -323,590 +387,220 @@ items:
   nameWithType: TemporaryKeyRecordData.TemporaryKeyRecordData()
   fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData.TemporaryKeyRecordData()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public TemporaryKeyRecordData()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Rows.TemporaryKeyRecordData.#ctor*
-  nameWithType.vb: TemporaryKeyRecordData.New()
-  fullName.vb: SuperOffice.CRM.Rows.TemporaryKeyRecordData.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.Rows.TemporaryKeyRow
-  commentId: T:SuperOffice.CRM.Rows.TemporaryKeyRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.TemporaryKeyRow.html
-  name: TemporaryKeyRow
-  nameWithType: TemporaryKeyRow
-  fullName: SuperOffice.CRM.Rows.TemporaryKeyRow
-- uid: SuperOffice.CRM.Data.TemporaryKeyTableInfo
-  commentId: T:SuperOffice.CRM.Data.TemporaryKeyTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.TemporaryKeyTableInfo.html
-  name: TemporaryKeyTableInfo
-  nameWithType: TemporaryKeyTableInfo
-  fullName: SuperOffice.CRM.Data.TemporaryKeyTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<TemporaryKeyRecordData, To>(TemporaryKeyRecordData)
-  nameWithType: EnumUtil.MapEnums<TemporaryKeyRecordData, To>(TemporaryKeyRecordData)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TemporaryKeyRecordData, To>(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-  nameWithType.vb: EnumUtil.MapEnums(Of TemporaryKeyRecordData, To)(TemporaryKeyRecordData)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TemporaryKeyRecordData, To)(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-  name.vb: MapEnums(Of TemporaryKeyRecordData, To)(TemporaryKeyRecordData)
+  name: MapEnums<TemporaryKeyRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<TemporaryKeyRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TemporaryKeyRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TemporaryKeyRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TemporaryKeyRecordData, To)()
+  name.vb: MapEnums(Of TemporaryKeyRecordData, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TemporaryKeyRecordData, To>
+    nameWithType: EnumUtil.MapEnums<TemporaryKeyRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TemporaryKeyRecordData, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
-    name: TemporaryKeyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
-    name: TemporaryKeyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TemporaryKeyRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of TemporaryKeyRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TemporaryKeyRecordData, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
-    name: TemporaryKeyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
-    name: TemporaryKeyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-  parent: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-  href: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.html#SuperOffice_CRM_Rows_TemporaryKeyRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_TemporaryKeyRecordData_
-  name: ToInsert(TemporaryKeyRecordData)
-  nameWithType: TemporaryKeyRecordDataExtensions.ToInsert(TemporaryKeyRecordData)
-  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.html#SuperOffice_CRM_Rows_TemporaryKeyRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_TemporaryKeyRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
-    name: TemporaryKeyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.html#SuperOffice_CRM_Rows_TemporaryKeyRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_TemporaryKeyRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
-    name: TemporaryKeyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<TemporaryKeyRecordData, To>(TemporaryKeyRecordData)
-  nameWithType: Converters.MapEnums<TemporaryKeyRecordData, To>(TemporaryKeyRecordData)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TemporaryKeyRecordData, To>(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-  nameWithType.vb: Converters.MapEnums(Of TemporaryKeyRecordData, To)(TemporaryKeyRecordData)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TemporaryKeyRecordData, To)(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-  name.vb: MapEnums(Of TemporaryKeyRecordData, To)(TemporaryKeyRecordData)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
-    name: TemporaryKeyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
-    name: TemporaryKeyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
-    name: TemporaryKeyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
-    name: TemporaryKeyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<TemporaryKeyRecordData>(TemporaryKeyRecordData, TemporaryKeyRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<TemporaryKeyRecordData>(TemporaryKeyRecordData, TemporaryKeyRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TemporaryKeyRecordData>(SuperOffice.CRM.Rows.TemporaryKeyRecordData, SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TemporaryKeyRecordData)(TemporaryKeyRecordData, TemporaryKeyRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TemporaryKeyRecordData)(SuperOffice.CRM.Rows.TemporaryKeyRecordData, SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-  name.vb: AssignByReflection(Of TemporaryKeyRecordData)(TemporaryKeyRecordData, TemporaryKeyRecordData)
+  name: AssignByReflection<TemporaryKeyRecordData>(TemporaryKeyRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<TemporaryKeyRecordData>(TemporaryKeyRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TemporaryKeyRecordData>(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TemporaryKeyRecordData)(TemporaryKeyRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TemporaryKeyRecordData)(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
+  name.vb: AssignByReflection(Of TemporaryKeyRecordData)(TemporaryKeyRecordData)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TemporaryKeyRecordData,SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TemporaryKeyRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<TemporaryKeyRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TemporaryKeyRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
-    name: TemporaryKeyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
     name: TemporaryKeyRecordData
+    nameWithType: TemporaryKeyRecordData
+    fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
-    name: TemporaryKeyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TemporaryKeyRecordData,SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TemporaryKeyRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TemporaryKeyRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TemporaryKeyRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
     name: TemporaryKeyRecordData
+    nameWithType: TemporaryKeyRecordData
+    fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
-    name: TemporaryKeyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
-    name: TemporaryKeyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<TemporaryKeyRecordData>(TemporaryKeyRecordData)
-  nameWithType: ObjectExtensions.GraphCopy<TemporaryKeyRecordData>(TemporaryKeyRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TemporaryKeyRecordData>(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of TemporaryKeyRecordData)(TemporaryKeyRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TemporaryKeyRecordData)(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-  name.vb: GraphCopy(Of TemporaryKeyRecordData)(TemporaryKeyRecordData)
+  name: GraphCopy<TemporaryKeyRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<TemporaryKeyRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TemporaryKeyRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TemporaryKeyRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TemporaryKeyRecordData)()
+  name.vb: GraphCopy(Of TemporaryKeyRecordData)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TemporaryKeyRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<TemporaryKeyRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TemporaryKeyRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
-    name: TemporaryKeyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
-    name: TemporaryKeyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TemporaryKeyRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of TemporaryKeyRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TemporaryKeyRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
-    name: TemporaryKeyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
-    name: TemporaryKeyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Data
-  commentId: N:SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Data
-  nameWithType: SuperOffice.CRM.Data
-  fullName: SuperOffice.CRM.Data
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
+  parent: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
+  name: ToInsert()
+  nameWithType: TemporaryKeyRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert()
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: TemporaryKeyRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: TemporaryKeyRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TemporaryKeyRecordData, To>()
+  nameWithType: Converters.MapEnums<TemporaryKeyRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TemporaryKeyRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of TemporaryKeyRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TemporaryKeyRecordData, To)()
+  name.vb: MapEnums(Of TemporaryKeyRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TemporaryKeyRecordData, To>
+    nameWithType: Converters.MapEnums<TemporaryKeyRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TemporaryKeyRecordData, To>
     isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TemporaryKeyRecordData, To)
+    nameWithType: Converters.MapEnums(Of TemporaryKeyRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TemporaryKeyRecordData, To)
     isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -915,130 +609,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-  commentId: M:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-  isExternal: true
-  href: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.html#SuperOffice_CRM_Rows_TemporaryKeyRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_TemporaryKeyRecordData_
-  name: ToInsert(TemporaryKeyRecordData)
-  nameWithType: TemporaryKeyRecordDataExtensions.ToInsert(TemporaryKeyRecordData)
-  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.html#SuperOffice_CRM_Rows_TemporaryKeyRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_TemporaryKeyRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
-    name: TemporaryKeyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.html#SuperOffice_CRM_Rows_TemporaryKeyRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_TemporaryKeyRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
-    name: TemporaryKeyRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions
-  commentId: T:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.html
-  name: TemporaryKeyRecordDataExtensions
-  nameWithType: TemporaryKeyRecordDataExtensions
-  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1047,46 +654,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1095,178 +712,181 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
+  commentId: M:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: ToInsert(TemporaryKeyRecordData)
+  nameWithType: TemporaryKeyRecordDataExtensions.ToInsert(TemporaryKeyRecordData)
+  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
+    name: ToInsert
+    nameWithType: TemporaryKeyRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
+    name: TemporaryKeyRecordData
+    nameWithType: TemporaryKeyRecordData
+    fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TemporaryKeyRecordData)
+    name: ToInsert
+    nameWithType: TemporaryKeyRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData
+    name: TemporaryKeyRecordData
+    nameWithType: TemporaryKeyRecordData
+    fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TemporaryKeyRecordDataExtensions
+  nameWithType: TemporaryKeyRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.TemporaryKeyDomain
   commentId: T:SuperOffice.Data.TemporaryKeyDomain
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TemporaryKeyDomain.html
   name: TemporaryKeyDomain
   nameWithType: TemporaryKeyDomain
   fullName: SuperOffice.Data.TemporaryKeyDomain
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Rows.TemporaryKeyRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.TemporaryKeyRecordData.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Rows.TemporaryKeyRecordData.html#SuperOffice_CRM_Rows_TemporaryKeyRecordData__ctor
   name: TemporaryKeyRecordData
   nameWithType: TemporaryKeyRecordData.TemporaryKeyRecordData
   fullName: SuperOffice.CRM.Rows.TemporaryKeyRecordData.TemporaryKeyRecordData
-  nameWithType.vb: TemporaryKeyRecordData.New
-  fullName.vb: SuperOffice.CRM.Rows.TemporaryKeyRecordData.New
-  name.vb: New

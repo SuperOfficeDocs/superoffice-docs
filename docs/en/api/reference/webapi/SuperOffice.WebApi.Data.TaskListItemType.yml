@@ -9,24 +9,64 @@ items:
   - SuperOffice.WebApi.Data.TaskListItemType.None
   - SuperOffice.WebApi.Data.TaskListItemType.SoProtocol
   - SuperOffice.WebApi.Data.TaskListItemType.Url
+  - SuperOffice.WebApi.Data.TaskListItemType.value__
   langs:
   - csharp
   - vb
   name: TaskListItemType
   nameWithType: TaskListItemType
   fullName: SuperOffice.WebApi.Data.TaskListItemType
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Task List Item Type
-
-    This Enum is used by:  TaskMenu.taskType
-  example: []
+  summary: "\nTask List Item Type\nThis Enum is used by:  TaskMenu.taskType\n"
   syntax:
-    content: 'public enum TaskListItemType : short'
-    content.vb: Public Enum TaskListItemType As Short
+    content: 'public sealed class TaskListItemType : Enum'
+    content.vb: >-
+      Public NotInheritable Class TaskListItemType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.TaskListItemType.value__
+  commentId: F:SuperOffice.WebApi.Data.TaskListItemType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.TaskListItemType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TaskListItemType.value__
+  fullName: SuperOffice.WebApi.Data.TaskListItemType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.TaskListItemType.None
   commentId: F:SuperOffice.WebApi.Data.TaskListItemType.None
   id: None
@@ -38,26 +78,24 @@ items:
   nameWithType: TaskListItemType.None
   fullName: SuperOffice.WebApi.Data.TaskListItemType.None
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: None'
-  example: []
+  summary: "\n0: None\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const TaskListItemType None
     return:
       type: SuperOffice.WebApi.Data.TaskListItemType
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As TaskListItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TaskListItemType.Url
   commentId: F:SuperOffice.WebApi.Data.TaskListItemType.Url
   id: Url
@@ -69,26 +107,24 @@ items:
   nameWithType: TaskListItemType.Url
   fullName: SuperOffice.WebApi.Data.TaskListItemType.Url
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: Url'
-  example: []
+  summary: "\n1: Url\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Url = 1
+    content: public const TaskListItemType Url
     return:
       type: SuperOffice.WebApi.Data.TaskListItemType
-    content.vb: >-
-      <EnumMember>
-
-      Url = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Url As TaskListItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TaskListItemType.CrmScript
   commentId: F:SuperOffice.WebApi.Data.TaskListItemType.CrmScript
   id: CrmScript
@@ -100,26 +136,24 @@ items:
   nameWithType: TaskListItemType.CrmScript
   fullName: SuperOffice.WebApi.Data.TaskListItemType.CrmScript
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: Crm Script'
-  example: []
+  summary: "\n2: Crm Script\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      CrmScript = 2
+    content: public const TaskListItemType CrmScript
     return:
       type: SuperOffice.WebApi.Data.TaskListItemType
-    content.vb: >-
-      <EnumMember>
-
-      CrmScript = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const CrmScript As TaskListItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.TaskListItemType.SoProtocol
   commentId: F:SuperOffice.WebApi.Data.TaskListItemType.SoProtocol
   id: SoProtocol
@@ -131,69 +165,55 @@ items:
   nameWithType: TaskListItemType.SoProtocol
   fullName: SuperOffice.WebApi.Data.TaskListItemType.SoProtocol
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: SoProtocol'
-  example: []
+  summary: "\n3: SoProtocol\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SoProtocol = 3
+    content: public const TaskListItemType SoProtocol
     return:
       type: SuperOffice.WebApi.Data.TaskListItemType
-    content.vb: >-
-      <EnumMember>
-
-      SoProtocol = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SoProtocol As TaskListItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.TaskListItemType
   commentId: T:SuperOffice.WebApi.Data.TaskListItemType
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.TaskListItemType.html
   name: TaskListItemType
   nameWithType: TaskListItemType
   fullName: SuperOffice.WebApi.Data.TaskListItemType

@@ -21,27 +21,30 @@ items:
   nameWithType: SqlCommandInfo
   fullName: SuperOffice.Diagnostics.SqlCommandInfo
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
-    content: public class SqlCommandInfo
-    content.vb: Public Class SqlCommandInfo
+    content: 'public class SqlCommandInfo : Object'
+    content.vb: >-
+      Public Class SqlCommandInfo
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.Diagnostics.SqlCommandInfo.EnumUtil.MapEnums``2
-  - SuperOffice.Diagnostics.SqlCommandInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Diagnostics.SqlCommandInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.SqlCommandInfo)
   - SuperOffice.Diagnostics.SqlCommandInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Diagnostics.SqlCommandInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.#ctor
   commentId: M:SuperOffice.Diagnostics.SqlCommandInfo.#ctor
   id: '#ctor'
@@ -53,16 +56,20 @@ items:
   nameWithType: SqlCommandInfo.SqlCommandInfo()
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.SqlCommandInfo()
   type: Constructor
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
   syntax:
     content: public SqlCommandInfo()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.Diagnostics.SqlCommandInfo.#ctor*
-  nameWithType.vb: SqlCommandInfo.New()
-  fullName.vb: SuperOffice.Diagnostics.SqlCommandInfo.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.CommandText
   commentId: P:SuperOffice.Diagnostics.SqlCommandInfo.CommandText
   id: CommandText
@@ -74,6 +81,9 @@ items:
   nameWithType: SqlCommandInfo.CommandText
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.CommandText
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
@@ -84,6 +94,12 @@ items:
       type: System.String
     content.vb: Public Property CommandText As String
   overload: SuperOffice.Diagnostics.SqlCommandInfo.CommandText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.Comment
   commentId: P:SuperOffice.Diagnostics.SqlCommandInfo.Comment
   id: Comment
@@ -95,6 +111,9 @@ items:
   nameWithType: SqlCommandInfo.Comment
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.Comment
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
@@ -105,6 +124,12 @@ items:
       type: System.String
     content.vb: Public Property Comment As String
   overload: SuperOffice.Diagnostics.SqlCommandInfo.Comment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.Origin
   commentId: P:SuperOffice.Diagnostics.SqlCommandInfo.Origin
   id: Origin
@@ -116,6 +141,9 @@ items:
   nameWithType: SqlCommandInfo.Origin
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.Origin
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
@@ -126,6 +154,12 @@ items:
       type: System.String
     content.vb: Public Property Origin As String
   overload: SuperOffice.Diagnostics.SqlCommandInfo.Origin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.SqlType
   commentId: P:SuperOffice.Diagnostics.SqlCommandInfo.SqlType
   id: SqlType
@@ -137,6 +171,9 @@ items:
   nameWithType: SqlCommandInfo.SqlType
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.SqlType
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
@@ -147,6 +184,12 @@ items:
       type: System.String
     content.vb: Public Property SqlType As String
   overload: SuperOffice.Diagnostics.SqlCommandInfo.SqlType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.ExecutionTime
   commentId: P:SuperOffice.Diagnostics.SqlCommandInfo.ExecutionTime
   id: ExecutionTime
@@ -158,6 +201,9 @@ items:
   nameWithType: SqlCommandInfo.ExecutionTime
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.ExecutionTime
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
@@ -168,6 +214,12 @@ items:
       type: System.TimeSpan
     content.vb: Public Property ExecutionTime As TimeSpan
   overload: SuperOffice.Diagnostics.SqlCommandInfo.ExecutionTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.RowsAffected
   commentId: P:SuperOffice.Diagnostics.SqlCommandInfo.RowsAffected
   id: RowsAffected
@@ -179,6 +231,9 @@ items:
   nameWithType: SqlCommandInfo.RowsAffected
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.RowsAffected
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
@@ -189,6 +244,12 @@ items:
       type: System.Int32
     content.vb: Public Property RowsAffected As Integer
   overload: SuperOffice.Diagnostics.SqlCommandInfo.RowsAffected*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.Parameters
   commentId: P:SuperOffice.Diagnostics.SqlCommandInfo.Parameters
   id: Parameters
@@ -200,6 +261,9 @@ items:
   nameWithType: SqlCommandInfo.Parameters
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.Parameters
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
@@ -210,6 +274,12 @@ items:
       type: SuperOffice.Diagnostics.SqlCommandParameterInfo[]
     content.vb: Public Property Parameters As SqlCommandParameterInfo()
   overload: SuperOffice.Diagnostics.SqlCommandInfo.Parameters*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.ExecptionMessage
   commentId: P:SuperOffice.Diagnostics.SqlCommandInfo.ExecptionMessage
   id: ExecptionMessage
@@ -221,6 +291,9 @@ items:
   nameWithType: SqlCommandInfo.ExecptionMessage
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.ExecptionMessage
   type: Property
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
@@ -231,487 +304,181 @@ items:
       type: System.String
     content.vb: Public Property ExecptionMessage As String
   overload: SuperOffice.Diagnostics.SqlCommandInfo.ExecptionMessage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.Diagnostics
   commentId: N:SuperOffice.Diagnostics
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Diagnostics
   nameWithType: SuperOffice.Diagnostics
   fullName: SuperOffice.Diagnostics
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Diagnostics
-    name: Diagnostics
-    isExternal: true
-    href: SuperOffice.Diagnostics.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Diagnostics
-    name: Diagnostics
-    isExternal: true
-    href: SuperOffice.Diagnostics.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<SqlCommandInfo, To>(SqlCommandInfo)
-  nameWithType: EnumUtil.MapEnums<SqlCommandInfo, To>(SqlCommandInfo)
-  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SqlCommandInfo, To>(SuperOffice.Diagnostics.SqlCommandInfo)
-  nameWithType.vb: EnumUtil.MapEnums(Of SqlCommandInfo, To)(SqlCommandInfo)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SqlCommandInfo, To)(SuperOffice.Diagnostics.SqlCommandInfo)
-  name.vb: MapEnums(Of SqlCommandInfo, To)(SqlCommandInfo)
+  name: MapEnums<SqlCommandInfo, To>()
+  nameWithType: EnumUtil.MapEnums<SqlCommandInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SqlCommandInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SqlCommandInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SqlCommandInfo, To)()
+  name.vb: MapEnums(Of SqlCommandInfo, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Diagnostics.SqlCommandInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SqlCommandInfo, To>
+    nameWithType: EnumUtil.MapEnums<SqlCommandInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SqlCommandInfo, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Diagnostics.SqlCommandInfo
-    name: SqlCommandInfo
-    isExternal: true
-    href: SuperOffice.Diagnostics.SqlCommandInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Diagnostics.SqlCommandInfo
-    name: SqlCommandInfo
-    isExternal: true
-    href: SuperOffice.Diagnostics.SqlCommandInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Diagnostics.SqlCommandInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SqlCommandInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of SqlCommandInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SqlCommandInfo, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Diagnostics.SqlCommandInfo
-    name: SqlCommandInfo
-    isExternal: true
-    href: SuperOffice.Diagnostics.SqlCommandInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Diagnostics.SqlCommandInfo
-    name: SqlCommandInfo
-    isExternal: true
-    href: SuperOffice.Diagnostics.SqlCommandInfo.html
-  - name: )
-- uid: SuperOffice.Diagnostics.SqlCommandInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<SqlCommandInfo, To>(SqlCommandInfo)
-  nameWithType: Converters.MapEnums<SqlCommandInfo, To>(SqlCommandInfo)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SqlCommandInfo, To>(SuperOffice.Diagnostics.SqlCommandInfo)
-  nameWithType.vb: Converters.MapEnums(Of SqlCommandInfo, To)(SqlCommandInfo)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SqlCommandInfo, To)(SuperOffice.Diagnostics.SqlCommandInfo)
-  name.vb: MapEnums(Of SqlCommandInfo, To)(SqlCommandInfo)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Diagnostics.SqlCommandInfo)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Diagnostics.SqlCommandInfo
-    name: SqlCommandInfo
-    isExternal: true
-    href: SuperOffice.Diagnostics.SqlCommandInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Diagnostics.SqlCommandInfo
-    name: SqlCommandInfo
-    isExternal: true
-    href: SuperOffice.Diagnostics.SqlCommandInfo.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Diagnostics.SqlCommandInfo)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Diagnostics.SqlCommandInfo
-    name: SqlCommandInfo
-    isExternal: true
-    href: SuperOffice.Diagnostics.SqlCommandInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Diagnostics.SqlCommandInfo
-    name: SqlCommandInfo
-    isExternal: true
-    href: SuperOffice.Diagnostics.SqlCommandInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.SqlCommandInfo)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<SqlCommandInfo>(SqlCommandInfo, SqlCommandInfo)
-  nameWithType: ObjectExtensions.AssignByReflection<SqlCommandInfo>(SqlCommandInfo, SqlCommandInfo)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Diagnostics.SqlCommandInfo>(SuperOffice.Diagnostics.SqlCommandInfo, SuperOffice.Diagnostics.SqlCommandInfo)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SqlCommandInfo)(SqlCommandInfo, SqlCommandInfo)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Diagnostics.SqlCommandInfo)(SuperOffice.Diagnostics.SqlCommandInfo, SuperOffice.Diagnostics.SqlCommandInfo)
-  name.vb: AssignByReflection(Of SqlCommandInfo)(SqlCommandInfo, SqlCommandInfo)
+  name: AssignByReflection<SqlCommandInfo>(SqlCommandInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<SqlCommandInfo>(SqlCommandInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Diagnostics.SqlCommandInfo>(SuperOffice.Diagnostics.SqlCommandInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SqlCommandInfo)(SqlCommandInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Diagnostics.SqlCommandInfo)(SuperOffice.Diagnostics.SqlCommandInfo)
+  name.vb: AssignByReflection(Of SqlCommandInfo)(SqlCommandInfo)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.SqlCommandInfo,SuperOffice.Diagnostics.SqlCommandInfo)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SqlCommandInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<SqlCommandInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Diagnostics.SqlCommandInfo>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Diagnostics.SqlCommandInfo
-    name: SqlCommandInfo
-    isExternal: true
-    href: SuperOffice.Diagnostics.SqlCommandInfo.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Diagnostics.SqlCommandInfo
     name: SqlCommandInfo
+    nameWithType: SqlCommandInfo
+    fullName: SuperOffice.Diagnostics.SqlCommandInfo
     isExternal: true
-    href: SuperOffice.Diagnostics.SqlCommandInfo.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Diagnostics.SqlCommandInfo
-    name: SqlCommandInfo
-    isExternal: true
-    href: SuperOffice.Diagnostics.SqlCommandInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.SqlCommandInfo,SuperOffice.Diagnostics.SqlCommandInfo)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SqlCommandInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SqlCommandInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Diagnostics.SqlCommandInfo)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Diagnostics.SqlCommandInfo
     name: SqlCommandInfo
+    nameWithType: SqlCommandInfo
+    fullName: SuperOffice.Diagnostics.SqlCommandInfo
     isExternal: true
-    href: SuperOffice.Diagnostics.SqlCommandInfo.html
   - name: )
-  - name: (
-  - uid: SuperOffice.Diagnostics.SqlCommandInfo
-    name: SqlCommandInfo
-    isExternal: true
-    href: SuperOffice.Diagnostics.SqlCommandInfo.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Diagnostics.SqlCommandInfo
-    name: SqlCommandInfo
-    isExternal: true
-    href: SuperOffice.Diagnostics.SqlCommandInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<SqlCommandInfo>(SqlCommandInfo)
-  nameWithType: ObjectExtensions.GraphCopy<SqlCommandInfo>(SqlCommandInfo)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Diagnostics.SqlCommandInfo>(SuperOffice.Diagnostics.SqlCommandInfo)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of SqlCommandInfo)(SqlCommandInfo)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Diagnostics.SqlCommandInfo)(SuperOffice.Diagnostics.SqlCommandInfo)
-  name.vb: GraphCopy(Of SqlCommandInfo)(SqlCommandInfo)
+  name: GraphCopy<SqlCommandInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<SqlCommandInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Diagnostics.SqlCommandInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SqlCommandInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Diagnostics.SqlCommandInfo)()
+  name.vb: GraphCopy(Of SqlCommandInfo)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Diagnostics.SqlCommandInfo)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SqlCommandInfo>
+    nameWithType: ObjectExtensions.GraphCopy<SqlCommandInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Diagnostics.SqlCommandInfo>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Diagnostics.SqlCommandInfo
-    name: SqlCommandInfo
-    isExternal: true
-    href: SuperOffice.Diagnostics.SqlCommandInfo.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Diagnostics.SqlCommandInfo
-    name: SqlCommandInfo
-    isExternal: true
-    href: SuperOffice.Diagnostics.SqlCommandInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Diagnostics.SqlCommandInfo)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SqlCommandInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of SqlCommandInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Diagnostics.SqlCommandInfo)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Diagnostics.SqlCommandInfo
-    name: SqlCommandInfo
-    isExternal: true
-    href: SuperOffice.Diagnostics.SqlCommandInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.SqlCommandInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SqlCommandInfo, To>()
+  nameWithType: Converters.MapEnums<SqlCommandInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SqlCommandInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of SqlCommandInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SqlCommandInfo, To)()
+  name.vb: MapEnums(Of SqlCommandInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SqlCommandInfo, To>
+    nameWithType: Converters.MapEnums<SqlCommandInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SqlCommandInfo, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.Diagnostics.SqlCommandInfo
-    name: SqlCommandInfo
-    isExternal: true
-    href: SuperOffice.Diagnostics.SqlCommandInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SqlCommandInfo, To)
+    nameWithType: Converters.MapEnums(Of SqlCommandInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SqlCommandInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -720,93 +487,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -815,46 +532,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -863,106 +590,101 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.#ctor*
   commentId: Overload:SuperOffice.Diagnostics.SqlCommandInfo.#ctor
   isExternal: true
-  href: SuperOffice.Diagnostics.SqlCommandInfo.html#SuperOffice_Diagnostics_SqlCommandInfo__ctor
   name: SqlCommandInfo
   nameWithType: SqlCommandInfo.SqlCommandInfo
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.SqlCommandInfo
-  nameWithType.vb: SqlCommandInfo.New
-  fullName.vb: SuperOffice.Diagnostics.SqlCommandInfo.New
-  name.vb: New
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.CommandText*
   commentId: Overload:SuperOffice.Diagnostics.SqlCommandInfo.CommandText
   isExternal: true
-  href: SuperOffice.Diagnostics.SqlCommandInfo.html#SuperOffice_Diagnostics_SqlCommandInfo_CommandText
   name: CommandText
   nameWithType: SqlCommandInfo.CommandText
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.CommandText
@@ -970,53 +692,41 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.Comment*
   commentId: Overload:SuperOffice.Diagnostics.SqlCommandInfo.Comment
   isExternal: true
-  href: SuperOffice.Diagnostics.SqlCommandInfo.html#SuperOffice_Diagnostics_SqlCommandInfo_Comment
   name: Comment
   nameWithType: SqlCommandInfo.Comment
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.Comment
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.Origin*
   commentId: Overload:SuperOffice.Diagnostics.SqlCommandInfo.Origin
   isExternal: true
-  href: SuperOffice.Diagnostics.SqlCommandInfo.html#SuperOffice_Diagnostics_SqlCommandInfo_Origin
   name: Origin
   nameWithType: SqlCommandInfo.Origin
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.Origin
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.SqlType*
   commentId: Overload:SuperOffice.Diagnostics.SqlCommandInfo.SqlType
   isExternal: true
-  href: SuperOffice.Diagnostics.SqlCommandInfo.html#SuperOffice_Diagnostics_SqlCommandInfo_SqlType
   name: SqlType
   nameWithType: SqlCommandInfo.SqlType
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.SqlType
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.ExecutionTime*
   commentId: Overload:SuperOffice.Diagnostics.SqlCommandInfo.ExecutionTime
   isExternal: true
-  href: SuperOffice.Diagnostics.SqlCommandInfo.html#SuperOffice_Diagnostics_SqlCommandInfo_ExecutionTime
   name: ExecutionTime
   nameWithType: SqlCommandInfo.ExecutionTime
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.ExecutionTime
 - uid: System.TimeSpan
-  commentId: T:System.TimeSpan
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.timespan
   name: TimeSpan
   nameWithType: TimeSpan
   fullName: System.TimeSpan
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.RowsAffected*
   commentId: Overload:SuperOffice.Diagnostics.SqlCommandInfo.RowsAffected
   isExternal: true
-  href: SuperOffice.Diagnostics.SqlCommandInfo.html#SuperOffice_Diagnostics_SqlCommandInfo_RowsAffected
   name: RowsAffected
   nameWithType: SqlCommandInfo.RowsAffected
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.RowsAffected
@@ -1024,23 +734,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.Parameters*
   commentId: Overload:SuperOffice.Diagnostics.SqlCommandInfo.Parameters
   isExternal: true
-  href: SuperOffice.Diagnostics.SqlCommandInfo.html#SuperOffice_Diagnostics_SqlCommandInfo_Parameters
   name: Parameters
   nameWithType: SqlCommandInfo.Parameters
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.Parameters
 - uid: SuperOffice.Diagnostics.SqlCommandParameterInfo[]
   isExternal: true
-  href: SuperOffice.Diagnostics.SqlCommandParameterInfo.html
   name: SqlCommandParameterInfo[]
   nameWithType: SqlCommandParameterInfo[]
   fullName: SuperOffice.Diagnostics.SqlCommandParameterInfo[]
@@ -1050,21 +754,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.Diagnostics.SqlCommandParameterInfo
     name: SqlCommandParameterInfo
+    nameWithType: SqlCommandParameterInfo
+    fullName: SuperOffice.Diagnostics.SqlCommandParameterInfo
     isExternal: true
-    href: SuperOffice.Diagnostics.SqlCommandParameterInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.Diagnostics.SqlCommandParameterInfo
     name: SqlCommandParameterInfo
+    nameWithType: SqlCommandParameterInfo
+    fullName: SuperOffice.Diagnostics.SqlCommandParameterInfo
     isExternal: true
-    href: SuperOffice.Diagnostics.SqlCommandParameterInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.Diagnostics.SqlCommandInfo.ExecptionMessage*
   commentId: Overload:SuperOffice.Diagnostics.SqlCommandInfo.ExecptionMessage
   isExternal: true
-  href: SuperOffice.Diagnostics.SqlCommandInfo.html#SuperOffice_Diagnostics_SqlCommandInfo_ExecptionMessage
   name: ExecptionMessage
   nameWithType: SqlCommandInfo.ExecptionMessage
   fullName: SuperOffice.Diagnostics.SqlCommandInfo.ExecptionMessage

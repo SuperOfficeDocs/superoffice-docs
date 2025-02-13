@@ -52,41 +52,33 @@ items:
   nameWithType: QuoteVersionRecordData
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
-
-    to a row from the QuoteVersion table.
-  remarks: >-
-    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.QuoteVersionRow" data-throw-if-not-resolved="false"></xref> object when
-
-    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
-
-    since they carry the corresponding <xref href="SuperOffice.CRM.Data.QuoteVersionTableInfo" data-throw-if-not-resolved="false"></xref> object, which
-
-    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
-  example: []
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the QuoteVersion table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.QuoteVersionRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.QuoteVersionTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class QuoteVersionRecordData
-    content.vb: Public Class QuoteVersionRecordData
+    content: 'public class QuoteVersionRecordData : Object'
+    content.vb: >-
+      Public Class QuoteVersionRecordData
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.QuoteVersionRecordData.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Rows.QuoteVersionRecordData.SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.QuoteVersionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.QuoteVersionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.QuoteVersionRecordData)
   - SuperOffice.CRM.Rows.QuoteVersionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.QuoteVersionRecordData.SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.QuoteVersionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.QuoteVersionId
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.QuoteVersionId
   id: QuoteVersionId
@@ -98,16 +90,22 @@ items:
   nameWithType: QuoteVersionRecordData.QuoteVersionId
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.QuoteVersionId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
     content: public int QuoteVersionId
     return:
       type: System.Int32
     content.vb: Public QuoteVersionId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.ERPQuoteVersionKey
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.ERPQuoteVersionKey
   id: ERPQuoteVersionKey
@@ -119,16 +117,22 @@ items:
   nameWithType: QuoteVersionRecordData.ERPQuoteVersionKey
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.ERPQuoteVersionKey
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Key in the ERP system that uniquely identifies this Version within the ERP system (if available, the field may be empty).
-  example: []
+  summary: "\nKey in the ERP system that uniquely identifies this Version within the ERP system (if available, the field may be empty). \n"
   syntax:
     content: public string ERPQuoteVersionKey
     return:
       type: System.String
     content.vb: Public ERPQuoteVersionKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.QuoteId
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.QuoteId
   id: QuoteId
@@ -140,16 +144,22 @@ items:
   nameWithType: QuoteVersionRecordData.QuoteId
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.QuoteId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Foreign key to CRM quote (the conceptual parent). Owning Quote of this Quote Version.
-  example: []
+  summary: "\nForeign key to CRM quote (the conceptual parent). Owning Quote of this Quote Version. \n"
   syntax:
     content: public int QuoteId
     return:
       type: System.Int32
     content.vb: Public QuoteId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.Description
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.Description
   id: Description
@@ -161,16 +171,22 @@ items:
   nameWithType: QuoteVersionRecordData.Description
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.Description
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Description of Version. Potentially longer text description, typically used in a tooltip. Max 2K.
-  example: []
+  summary: "\nDescription of Version. Potentially longer text description, typically used in a tooltip. Max 2K. \n"
   syntax:
     content: public string Description
     return:
       type: System.String
     content.vb: Public Description As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.Number
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.Number
   id: Number
@@ -182,16 +198,22 @@ items:
   nameWithType: QuoteVersionRecordData.Number
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.Number
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: A quote number that the user (or ERP connector) can fill out.
-  example: []
+  summary: "\nA quote number that the user (or ERP connector) can fill out. \n"
   syntax:
     content: public string Number
     return:
       type: System.String
     content.vb: Public Number As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.State
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.State
   id: State
@@ -203,16 +225,22 @@ items:
   nameWithType: QuoteVersionRecordData.State
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.State
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Current state of this quote version.
-  example: []
+  summary: "\nCurrent state of this quote version. \n"
   syntax:
     content: public QuoteVersionState State
     return:
       type: SuperOffice.Data.QuoteVersionState
     content.vb: Public State As QuoteVersionState
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.ArchivedState
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.ArchivedState
   id: ArchivedState
@@ -224,16 +252,22 @@ items:
   nameWithType: QuoteVersionRecordData.ArchivedState
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.ArchivedState
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: State that this quote version had, right before it was changed to Archived; in this way we can show what happened before the archiving.
-  example: []
+  summary: "\nState that this quote version had, right before it was changed to Archived; in this way we can show what happened before the archiving. \n"
   syntax:
     content: public QuoteVersionState ArchivedState
     return:
       type: SuperOffice.Data.QuoteVersionState
     content.vb: Public ArchivedState As QuoteVersionState
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.Status
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.Status
   id: Status
@@ -245,16 +279,22 @@ items:
   nameWithType: QuoteVersionRecordData.Status
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.Status
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: If there was a problem with for instance calculation, this field is set to warning or error.
-  example: []
+  summary: "\nIf there was a problem with for instance calculation, this field is set to warning or error. \n"
   syntax:
     content: public QuoteStatus Status
     return:
       type: SuperOffice.Data.QuoteStatus
     content.vb: Public Status As QuoteStatus
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.Reason
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.Reason
   id: Reason
@@ -266,16 +306,22 @@ items:
   nameWithType: QuoteVersionRecordData.Reason
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.Reason
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: If there was a problem, this field contains a localized explanation of the problem and possible steps to fix it that the user can be shown.
-  example: []
+  summary: "\nIf there was a problem, this field contains a localized explanation of the problem and possible steps to fix it that the user can be shown. \n"
   syntax:
     content: public string Reason
     return:
       type: System.String
     content.vb: Public Reason As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.LikelyQuoteAlternativeId
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.LikelyQuoteAlternativeId
   id: LikelyQuoteAlternativeId
@@ -287,16 +333,22 @@ items:
   nameWithType: QuoteVersionRecordData.LikelyQuoteAlternativeId
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.LikelyQuoteAlternativeId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The alternative that is considered most likely to be accepted. Used to calculate probable income.
-  example: []
+  summary: "\nThe alternative that is considered most likely to be accepted. Used to calculate probable income. \n"
   syntax:
     content: public int LikelyQuoteAlternativeId
     return:
       type: System.Int32
     content.vb: Public LikelyQuoteAlternativeId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.SentDate
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.SentDate
   id: SentDate
@@ -308,16 +360,22 @@ items:
   nameWithType: QuoteVersionRecordData.SentDate
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.SentDate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The date the version was sent to the customer.
-  example: []
+  summary: "\nThe date the version was sent to the customer. \n"
   syntax:
     content: public DateTime SentDate
     return:
       type: System.DateTime
-    content.vb: Public SentDate As Date
+    content.vb: Public SentDate As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.FollowupId
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.FollowupId
   id: FollowupId
@@ -329,16 +387,22 @@ items:
   nameWithType: QuoteVersionRecordData.FollowupId
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.FollowupId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Link to a follow-up activity, created when this quote version was sent to the customer.
-  example: []
+  summary: "\nLink to a follow-up activity, created when this quote version was sent to the customer. \n"
   syntax:
     content: public int FollowupId
     return:
       type: System.Int32
     content.vb: Public FollowupId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.ExpirationDate
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.ExpirationDate
   id: ExpirationDate
@@ -350,16 +414,22 @@ items:
   nameWithType: QuoteVersionRecordData.ExpirationDate
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.ExpirationDate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last date the quote Version is valid, expiration is at midnight end of this day.
-  example: []
+  summary: "\nLast date the quote Version is valid, expiration is at midnight end of this day. \n"
   syntax:
     content: public DateTime ExpirationDate
     return:
       type: System.DateTime
-    content.vb: Public ExpirationDate As Date
+    content.vb: Public ExpirationDate As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.DeliveryCountryId
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.DeliveryCountryId
   id: DeliveryCountryId
@@ -371,16 +441,22 @@ items:
   nameWithType: QuoteVersionRecordData.DeliveryCountryId
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.DeliveryCountryId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Country of delivery address, typically copied from the contact record
-  example: []
+  summary: "\nCountry of delivery address, typically copied from the contact record \n"
   syntax:
     content: public int DeliveryCountryId
     return:
       type: System.Int32
     content.vb: Public DeliveryCountryId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.HasOwnDeliveryAddress
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.HasOwnDeliveryAddress
   id: HasOwnDeliveryAddress
@@ -392,16 +468,22 @@ items:
   nameWithType: QuoteVersionRecordData.HasOwnDeliveryAddress
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.HasOwnDeliveryAddress
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The delivery address is not the same as the contact's Street address
-  example: []
+  summary: "\nThe delivery address is not the same as the contact&apos;s Street address \n"
   syntax:
     content: public short HasOwnDeliveryAddress
     return:
       type: System.Int16
     content.vb: Public HasOwnDeliveryAddress As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.InvoiceCountryId
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.InvoiceCountryId
   id: InvoiceCountryId
@@ -413,16 +495,22 @@ items:
   nameWithType: QuoteVersionRecordData.InvoiceCountryId
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.InvoiceCountryId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Country of invoice address, typically copied from contact record
-  example: []
+  summary: "\nCountry of invoice address, typically copied from contact record \n"
   syntax:
     content: public int InvoiceCountryId
     return:
       type: System.Int32
     content.vb: Public InvoiceCountryId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.HasOwnInvoiceAddress
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.HasOwnInvoiceAddress
   id: HasOwnInvoiceAddress
@@ -434,16 +522,22 @@ items:
   nameWithType: QuoteVersionRecordData.HasOwnInvoiceAddress
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.HasOwnInvoiceAddress
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The quote has an address for Invoicing. This will typically be copied from the company's addresses.
-  example: []
+  summary: "\nThe quote has an address for Invoicing. This will typically be copied from the company&apos;s addresses.  \n"
   syntax:
     content: public short HasOwnInvoiceAddress
     return:
       type: System.Int16
     content.vb: Public HasOwnInvoiceAddress As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.ERPPaymentTermsKey
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.ERPPaymentTermsKey
   id: ERPPaymentTermsKey
@@ -455,16 +549,22 @@ items:
   nameWithType: QuoteVersionRecordData.ERPPaymentTermsKey
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.ERPPaymentTermsKey
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: 'Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text. For instance: ‘Standard 30 days’.'
-  example: []
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text. For instance: ‘Standard 30 days’. \n"
   syntax:
     content: public string ERPPaymentTermsKey
     return:
       type: System.String
     content.vb: Public ERPPaymentTermsKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.ERPPaymentTypeKey
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.ERPPaymentTypeKey
   id: ERPPaymentTypeKey
@@ -476,16 +576,22 @@ items:
   nameWithType: QuoteVersionRecordData.ERPPaymentTypeKey
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.ERPPaymentTypeKey
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: "Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text. For instance: 'Invoice'."
-  example: []
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text. For instance: &apos;Invoice&apos;. \n"
   syntax:
     content: public string ERPPaymentTypeKey
     return:
       type: System.String
     content.vb: Public ERPPaymentTypeKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.ERPDeliveryTermsKey
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.ERPDeliveryTermsKey
   id: ERPDeliveryTermsKey
@@ -497,16 +603,22 @@ items:
   nameWithType: QuoteVersionRecordData.ERPDeliveryTermsKey
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.ERPDeliveryTermsKey
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: 'Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text. For instance: ‘FOB’ (‘Free on board’).'
-  example: []
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text. For instance: ‘FOB’ (‘Free on board’). \n"
   syntax:
     content: public string ERPDeliveryTermsKey
     return:
       type: System.String
     content.vb: Public ERPDeliveryTermsKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.ERPDeliveryTypeKey
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.ERPDeliveryTypeKey
   id: ERPDeliveryTypeKey
@@ -518,16 +630,22 @@ items:
   nameWithType: QuoteVersionRecordData.ERPDeliveryTypeKey
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.ERPDeliveryTypeKey
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: 'Either a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text. For instance: ‘Air’.'
-  example: []
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text. For instance: ‘Air’. \n"
   syntax:
     content: public string ERPDeliveryTypeKey
     return:
       type: System.String
     content.vb: Public ERPDeliveryTypeKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.Rank
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.Rank
   id: Rank
@@ -539,16 +657,22 @@ items:
   nameWithType: QuoteVersionRecordData.Rank
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.Rank
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Rank/Version number, starts at 1
-  example: []
+  summary: "\nRank/Version number, starts at 1 \n"
   syntax:
     content: public int Rank
     return:
       type: System.Int32
     content.vb: Public Rank As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.ApprovedBy
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.ApprovedBy
   id: ApprovedBy
@@ -560,16 +684,22 @@ items:
   nameWithType: QuoteVersionRecordData.ApprovedBy
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.ApprovedBy
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Id of associate who approved (or rejected approval) for this version
-  example: []
+  summary: "\nId of associate who approved (or rejected approval) for this version \n"
   syntax:
     content: public int ApprovedBy
     return:
       type: System.Int32
     content.vb: Public ApprovedBy As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.ApprovedText
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.ApprovedText
   id: ApprovedText
@@ -581,16 +711,22 @@ items:
   nameWithType: QuoteVersionRecordData.ApprovedText
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.ApprovedText
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Text with comments on why approval was granted (or rejected)
-  example: []
+  summary: "\nText with comments on why approval was granted (or rejected) \n"
   syntax:
     content: public string ApprovedText
     return:
       type: System.String
     content.vb: Public ApprovedText As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.ApprovedRegisteredBy
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.ApprovedRegisteredBy
   id: ApprovedRegisteredBy
@@ -602,16 +738,22 @@ items:
   nameWithType: QuoteVersionRecordData.ApprovedRegisteredBy
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.ApprovedRegisteredBy
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Id of associate who actually entered the approval; might be different from ApprovedBy (f.x. due to telephone consultation/approval)
-  example: []
+  summary: "\nId of associate who actually entered the approval; might be different from ApprovedBy (f.x. due to telephone consultation/approval) \n"
   syntax:
     content: public int ApprovedRegisteredBy
     return:
       type: System.Int32
     content.vb: Public ApprovedRegisteredBy As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.ApprovedRegisteredDate
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.ApprovedRegisteredDate
   id: ApprovedRegisteredDate
@@ -623,16 +765,22 @@ items:
   nameWithType: QuoteVersionRecordData.ApprovedRegisteredDate
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.ApprovedRegisteredDate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: When was approval granted or rejected
-  example: []
+  summary: "\nWhen was approval granted or rejected \n"
   syntax:
     content: public DateTime ApprovedRegisteredDate
     return:
       type: System.DateTime
-    content.vb: Public ApprovedRegisteredDate As Date
+    content.vb: Public ApprovedRegisteredDate As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.ExtraField1
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.ExtraField1
   id: ExtraField1
@@ -644,16 +792,22 @@ items:
   nameWithType: QuoteVersionRecordData.ExtraField1
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.ExtraField1
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Optional information added by Quote Connector; usable in the quote document merge process
-  example: []
+  summary: "\nOptional information added by Quote Connector; usable in the quote document merge process \n"
   syntax:
     content: public string ExtraField1
     return:
       type: System.String
     content.vb: Public ExtraField1 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.ExtraField2
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.ExtraField2
   id: ExtraField2
@@ -665,16 +819,22 @@ items:
   nameWithType: QuoteVersionRecordData.ExtraField2
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.ExtraField2
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Optional information added by Quote Connector; usable in the quote document merge process
-  example: []
+  summary: "\nOptional information added by Quote Connector; usable in the quote document merge process \n"
   syntax:
     content: public string ExtraField2
     return:
       type: System.String
     content.vb: Public ExtraField2 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.ExtraField3
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.ExtraField3
   id: ExtraField3
@@ -686,16 +846,22 @@ items:
   nameWithType: QuoteVersionRecordData.ExtraField3
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.ExtraField3
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Optional information added by Quote Connector; usable in the quote document merge process
-  example: []
+  summary: "\nOptional information added by Quote Connector; usable in the quote document merge process \n"
   syntax:
     content: public string ExtraField3
     return:
       type: System.String
     content.vb: Public ExtraField3 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.ExtraField4
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.ExtraField4
   id: ExtraField4
@@ -707,16 +873,22 @@ items:
   nameWithType: QuoteVersionRecordData.ExtraField4
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.ExtraField4
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Optional information added by Quote Connector; usable in the quote document merge process
-  example: []
+  summary: "\nOptional information added by Quote Connector; usable in the quote document merge process \n"
   syntax:
     content: public string ExtraField4
     return:
       type: System.String
     content.vb: Public ExtraField4 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.ExtraField5
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.ExtraField5
   id: ExtraField5
@@ -728,16 +900,22 @@ items:
   nameWithType: QuoteVersionRecordData.ExtraField5
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.ExtraField5
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Optional information added by Quote Connector; usable in the quote document merge process
-  example: []
+  summary: "\nOptional information added by Quote Connector; usable in the quote document merge process \n"
   syntax:
     content: public string ExtraField5
     return:
       type: System.String
     content.vb: Public ExtraField5 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.LastRecalculated
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.LastRecalculated
   id: LastRecalculated
@@ -749,16 +927,22 @@ items:
   nameWithType: QuoteVersionRecordData.LastRecalculated
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.LastRecalculated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: When this version was last subjected to a total recalculation. This field must be set by the connector, since the connector may choose to ignore a RecalculateVersion call based on policies and possibly the current value of this field. SuperOffice will set this field to 1.1.1760 whenever any change occurs to the quote, to indicate that a recalculation is needed.
-  example: []
+  summary: "\nWhen this version was last subjected to a total recalculation. This field must be set by the connector, since the connector may choose to ignore a RecalculateVersion call based on policies and possibly the current value of this field. SuperOffice will set this field to 1.1.1760 whenever any change occurs to the quote, to indicate that a recalculation is needed. \n"
   syntax:
     content: public DateTime LastRecalculated
     return:
       type: System.DateTime
-    content.vb: Public LastRecalculated As Date
+    content.vb: Public LastRecalculated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.Registered
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.Registered
   id: Registered
@@ -770,16 +954,22 @@ items:
   nameWithType: QuoteVersionRecordData.Registered
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Registered when in UTC.
-  example: []
+  summary: "\nRegistered when in UTC.  \n"
   syntax:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As Date
+    content.vb: Public Registered As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -791,16 +981,22 @@ items:
   nameWithType: QuoteVersionRecordData.RegisteredAssociateId
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Registered by whom
-  example: []
+  summary: "\nRegistered by whom \n"
   syntax:
     content: public int RegisteredAssociateId
     return:
       type: System.Int32
     content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.Updated
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.Updated
   id: Updated
@@ -812,16 +1008,22 @@ items:
   nameWithType: QuoteVersionRecordData.Updated
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last updated when in UTC.
-  example: []
+  summary: "\nLast updated when in UTC.  \n"
   syntax:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As Date
+    content.vb: Public Updated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -833,16 +1035,22 @@ items:
   nameWithType: QuoteVersionRecordData.UpdatedAssociateId
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last updated by whom
-  example: []
+  summary: "\nLast updated by whom \n"
   syntax:
     content: public int UpdatedAssociateId
     return:
       type: System.Int32
     content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.UpdatedCount
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.UpdatedCount
   id: UpdatedCount
@@ -854,16 +1062,22 @@ items:
   nameWithType: QuoteVersionRecordData.UpdatedCount
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Number of updates made to this record
-  example: []
+  summary: "\nNumber of updates made to this record \n"
   syntax:
     content: public short UpdatedCount
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.RequestAssociateId
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.RequestAssociateId
   id: RequestAssociateId
@@ -875,16 +1089,22 @@ items:
   nameWithType: QuoteVersionRecordData.RequestAssociateId
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.RequestAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: User to whom the request proposal should be delivered
-  example: []
+  summary: "\nUser to whom the request proposal should be delivered \n"
   syntax:
     content: public int RequestAssociateId
     return:
       type: System.Int32
     content.vb: Public RequestAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.RequestComment
   commentId: F:SuperOffice.CRM.Rows.QuoteVersionRecordData.RequestComment
   id: RequestComment
@@ -896,16 +1116,22 @@ items:
   nameWithType: QuoteVersionRecordData.RequestComment
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.RequestComment
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Comment for why quote should be approved
-  example: []
+  summary: "\nComment for why quote should be approved \n"
   syntax:
     content: public string RequestComment
     return:
       type: System.String
     content.vb: Public RequestComment As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.QuoteVersionRecordData.#ctor
   id: '#ctor'
@@ -917,590 +1143,220 @@ items:
   nameWithType: QuoteVersionRecordData.QuoteVersionRecordData()
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.QuoteVersionRecordData()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public QuoteVersionRecordData()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Rows.QuoteVersionRecordData.#ctor*
-  nameWithType.vb: QuoteVersionRecordData.New()
-  fullName.vb: SuperOffice.CRM.Rows.QuoteVersionRecordData.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.Rows.QuoteVersionRow
-  commentId: T:SuperOffice.CRM.Rows.QuoteVersionRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.QuoteVersionRow.html
-  name: QuoteVersionRow
-  nameWithType: QuoteVersionRow
-  fullName: SuperOffice.CRM.Rows.QuoteVersionRow
-- uid: SuperOffice.CRM.Data.QuoteVersionTableInfo
-  commentId: T:SuperOffice.CRM.Data.QuoteVersionTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.QuoteVersionTableInfo.html
-  name: QuoteVersionTableInfo
-  nameWithType: QuoteVersionTableInfo
-  fullName: SuperOffice.CRM.Data.QuoteVersionTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<QuoteVersionRecordData, To>(QuoteVersionRecordData)
-  nameWithType: EnumUtil.MapEnums<QuoteVersionRecordData, To>(QuoteVersionRecordData)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.QuoteVersionRecordData, To>(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-  nameWithType.vb: EnumUtil.MapEnums(Of QuoteVersionRecordData, To)(QuoteVersionRecordData)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.QuoteVersionRecordData, To)(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-  name.vb: MapEnums(Of QuoteVersionRecordData, To)(QuoteVersionRecordData)
+  name: MapEnums<QuoteVersionRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<QuoteVersionRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.QuoteVersionRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of QuoteVersionRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.QuoteVersionRecordData, To)()
+  name.vb: MapEnums(Of QuoteVersionRecordData, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<QuoteVersionRecordData, To>
+    nameWithType: EnumUtil.MapEnums<QuoteVersionRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.QuoteVersionRecordData, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
-    name: QuoteVersionRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
-    name: QuoteVersionRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of QuoteVersionRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of QuoteVersionRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.QuoteVersionRecordData, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
-    name: QuoteVersionRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
-    name: QuoteVersionRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-  parent: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-  href: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.html#SuperOffice_CRM_Rows_QuoteVersionRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_QuoteVersionRecordData_
-  name: ToInsert(QuoteVersionRecordData)
-  nameWithType: QuoteVersionRecordDataExtensions.ToInsert(QuoteVersionRecordData)
-  fullName: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.html#SuperOffice_CRM_Rows_QuoteVersionRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_QuoteVersionRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
-    name: QuoteVersionRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.html#SuperOffice_CRM_Rows_QuoteVersionRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_QuoteVersionRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
-    name: QuoteVersionRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<QuoteVersionRecordData, To>(QuoteVersionRecordData)
-  nameWithType: Converters.MapEnums<QuoteVersionRecordData, To>(QuoteVersionRecordData)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.QuoteVersionRecordData, To>(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-  nameWithType.vb: Converters.MapEnums(Of QuoteVersionRecordData, To)(QuoteVersionRecordData)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.QuoteVersionRecordData, To)(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-  name.vb: MapEnums(Of QuoteVersionRecordData, To)(QuoteVersionRecordData)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
-    name: QuoteVersionRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
-    name: QuoteVersionRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
-    name: QuoteVersionRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
-    name: QuoteVersionRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.QuoteVersionRecordData)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<QuoteVersionRecordData>(QuoteVersionRecordData, QuoteVersionRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<QuoteVersionRecordData>(QuoteVersionRecordData, QuoteVersionRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.QuoteVersionRecordData>(SuperOffice.CRM.Rows.QuoteVersionRecordData, SuperOffice.CRM.Rows.QuoteVersionRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of QuoteVersionRecordData)(QuoteVersionRecordData, QuoteVersionRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.QuoteVersionRecordData)(SuperOffice.CRM.Rows.QuoteVersionRecordData, SuperOffice.CRM.Rows.QuoteVersionRecordData)
-  name.vb: AssignByReflection(Of QuoteVersionRecordData)(QuoteVersionRecordData, QuoteVersionRecordData)
+  name: AssignByReflection<QuoteVersionRecordData>(QuoteVersionRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<QuoteVersionRecordData>(QuoteVersionRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.QuoteVersionRecordData>(SuperOffice.CRM.Rows.QuoteVersionRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of QuoteVersionRecordData)(QuoteVersionRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.QuoteVersionRecordData)(SuperOffice.CRM.Rows.QuoteVersionRecordData)
+  name.vb: AssignByReflection(Of QuoteVersionRecordData)(QuoteVersionRecordData)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.QuoteVersionRecordData,SuperOffice.CRM.Rows.QuoteVersionRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<QuoteVersionRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<QuoteVersionRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.QuoteVersionRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
-    name: QuoteVersionRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
     name: QuoteVersionRecordData
+    nameWithType: QuoteVersionRecordData
+    fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
-    name: QuoteVersionRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.QuoteVersionRecordData,SuperOffice.CRM.Rows.QuoteVersionRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of QuoteVersionRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of QuoteVersionRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.QuoteVersionRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
     name: QuoteVersionRecordData
+    nameWithType: QuoteVersionRecordData
+    fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
-    name: QuoteVersionRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
-    name: QuoteVersionRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<QuoteVersionRecordData>(QuoteVersionRecordData)
-  nameWithType: ObjectExtensions.GraphCopy<QuoteVersionRecordData>(QuoteVersionRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.QuoteVersionRecordData>(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of QuoteVersionRecordData)(QuoteVersionRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.QuoteVersionRecordData)(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-  name.vb: GraphCopy(Of QuoteVersionRecordData)(QuoteVersionRecordData)
+  name: GraphCopy<QuoteVersionRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<QuoteVersionRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.QuoteVersionRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of QuoteVersionRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.QuoteVersionRecordData)()
+  name.vb: GraphCopy(Of QuoteVersionRecordData)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<QuoteVersionRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<QuoteVersionRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.QuoteVersionRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
-    name: QuoteVersionRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
-    name: QuoteVersionRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of QuoteVersionRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of QuoteVersionRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.QuoteVersionRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
-    name: QuoteVersionRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
-    name: QuoteVersionRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Data
-  commentId: N:SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Data
-  nameWithType: SuperOffice.CRM.Data
-  fullName: SuperOffice.CRM.Data
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteVersionRecordData)
+  parent: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteVersionRecordData)
+  name: ToInsert()
+  nameWithType: QuoteVersionRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert()
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: QuoteVersionRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: QuoteVersionRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<QuoteVersionRecordData, To>()
+  nameWithType: Converters.MapEnums<QuoteVersionRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.QuoteVersionRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of QuoteVersionRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.QuoteVersionRecordData, To)()
+  name.vb: MapEnums(Of QuoteVersionRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<QuoteVersionRecordData, To>
+    nameWithType: Converters.MapEnums<QuoteVersionRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.QuoteVersionRecordData, To>
     isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of QuoteVersionRecordData, To)
+    nameWithType: Converters.MapEnums(Of QuoteVersionRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.QuoteVersionRecordData, To)
     isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1509,130 +1365,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-  commentId: M:SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-  isExternal: true
-  href: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.html#SuperOffice_CRM_Rows_QuoteVersionRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_QuoteVersionRecordData_
-  name: ToInsert(QuoteVersionRecordData)
-  nameWithType: QuoteVersionRecordDataExtensions.ToInsert(QuoteVersionRecordData)
-  fullName: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.html#SuperOffice_CRM_Rows_QuoteVersionRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_QuoteVersionRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
-    name: QuoteVersionRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteVersionRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.html#SuperOffice_CRM_Rows_QuoteVersionRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_QuoteVersionRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
-    name: QuoteVersionRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions
-  commentId: T:SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.html
-  name: QuoteVersionRecordDataExtensions
-  nameWithType: QuoteVersionRecordDataExtensions
-  fullName: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1641,46 +1410,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1689,186 +1468,188 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteVersionRecordData)
+  commentId: M:SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteVersionRecordData)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: ToInsert(QuoteVersionRecordData)
+  nameWithType: QuoteVersionRecordDataExtensions.ToInsert(QuoteVersionRecordData)
+  fullName: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteVersionRecordData)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteVersionRecordData)
+    name: ToInsert
+    nameWithType: QuoteVersionRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
+    name: QuoteVersionRecordData
+    nameWithType: QuoteVersionRecordData
+    fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.QuoteVersionRecordData)
+    name: ToInsert
+    nameWithType: QuoteVersionRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData
+    name: QuoteVersionRecordData
+    nameWithType: QuoteVersionRecordData
+    fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: QuoteVersionRecordDataExtensions
+  nameWithType: QuoteVersionRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.QuoteVersionRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Data.QuoteVersionState
   commentId: T:SuperOffice.Data.QuoteVersionState
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.QuoteVersionState.html
   name: QuoteVersionState
   nameWithType: QuoteVersionState
   fullName: SuperOffice.Data.QuoteVersionState
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.QuoteStatus
   commentId: T:SuperOffice.Data.QuoteStatus
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.QuoteStatus.html
   name: QuoteStatus
   nameWithType: QuoteStatus
   fullName: SuperOffice.Data.QuoteStatus
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Rows.QuoteVersionRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.QuoteVersionRecordData.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Rows.QuoteVersionRecordData.html#SuperOffice_CRM_Rows_QuoteVersionRecordData__ctor
   name: QuoteVersionRecordData
   nameWithType: QuoteVersionRecordData.QuoteVersionRecordData
   fullName: SuperOffice.CRM.Rows.QuoteVersionRecordData.QuoteVersionRecordData
-  nameWithType.vb: QuoteVersionRecordData.New
-  fullName.vb: SuperOffice.CRM.Rows.QuoteVersionRecordData.New
-  name.vb: New

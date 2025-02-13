@@ -6,8 +6,8 @@ items:
   parent: SuperOffice.CRM.Rows
   children:
   - SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.#ctor
-  - SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.DocTmplId
   - SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.DoctmplheadinglinkId
+  - SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.DocTmplId
   - SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.HeadingId
   - SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.Registered
   - SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.RegisteredAssociateId
@@ -21,41 +21,33 @@ items:
   nameWithType: DocTmplHeadingLinkRecordData
   fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
-
-    to a row from the DocTmplHeadingLink table.
-  remarks: >-
-    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.DocTmplHeadingLinkRow" data-throw-if-not-resolved="false"></xref> object when
-
-    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
-
-    since they carry the corresponding <xref href="SuperOffice.CRM.Data.DocTmplHeadingLinkTableInfo" data-throw-if-not-resolved="false"></xref> object, which
-
-    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
-  example: []
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the DocTmplHeadingLink table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.DocTmplHeadingLinkRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.DocTmplHeadingLinkTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class DocTmplHeadingLinkRecordData
-    content.vb: Public Class DocTmplHeadingLinkRecordData
+    content: 'public class DocTmplHeadingLinkRecordData : Object'
+    content.vb: >-
+      Public Class DocTmplHeadingLinkRecordData
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
   - SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.DoctmplheadinglinkId
   commentId: F:SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.DoctmplheadinglinkId
   id: DoctmplheadinglinkId
@@ -67,16 +59,22 @@ items:
   nameWithType: DocTmplHeadingLinkRecordData.DoctmplheadinglinkId
   fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.DoctmplheadinglinkId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
     content: public int DoctmplheadinglinkId
     return:
       type: System.Int32
     content.vb: Public DoctmplheadinglinkId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.DocTmplId
   commentId: F:SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.DocTmplId
   id: DocTmplId
@@ -88,16 +86,22 @@ items:
   nameWithType: DocTmplHeadingLinkRecordData.DocTmplId
   fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.DocTmplId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Link to DocTmpl list table
-  example: []
+  summary: "\nLink to DocTmpl list table \n"
   syntax:
     content: public int DocTmplId
     return:
       type: System.Int32
     content.vb: Public DocTmplId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.HeadingId
   commentId: F:SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.HeadingId
   id: HeadingId
@@ -109,16 +113,22 @@ items:
   nameWithType: DocTmplHeadingLinkRecordData.HeadingId
   fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.HeadingId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Link to Heading table
-  example: []
+  summary: "\nLink to Heading table \n"
   syntax:
     content: public int HeadingId
     return:
       type: System.Int32
     content.vb: Public HeadingId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.Registered
   commentId: F:SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.Registered
   id: Registered
@@ -130,16 +140,22 @@ items:
   nameWithType: DocTmplHeadingLinkRecordData.Registered
   fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Registered when in UTC.
-  example: []
+  summary: "\nRegistered when in UTC.  \n"
   syntax:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As Date
+    content.vb: Public Registered As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -151,16 +167,22 @@ items:
   nameWithType: DocTmplHeadingLinkRecordData.RegisteredAssociateId
   fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Registered by whom
-  example: []
+  summary: "\nRegistered by whom \n"
   syntax:
     content: public int RegisteredAssociateId
     return:
       type: System.Int32
     content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.Updated
   commentId: F:SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.Updated
   id: Updated
@@ -172,16 +194,22 @@ items:
   nameWithType: DocTmplHeadingLinkRecordData.Updated
   fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last updated when in UTC.
-  example: []
+  summary: "\nLast updated when in UTC.  \n"
   syntax:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As Date
+    content.vb: Public Updated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -193,16 +221,22 @@ items:
   nameWithType: DocTmplHeadingLinkRecordData.UpdatedAssociateId
   fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last updated by whom
-  example: []
+  summary: "\nLast updated by whom \n"
   syntax:
     content: public int UpdatedAssociateId
     return:
       type: System.Int32
     content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.UpdatedCount
   commentId: F:SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.UpdatedCount
   id: UpdatedCount
@@ -214,16 +248,22 @@ items:
   nameWithType: DocTmplHeadingLinkRecordData.UpdatedCount
   fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Number of updates made to this record
-  example: []
+  summary: "\nNumber of updates made to this record \n"
   syntax:
     content: public short UpdatedCount
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.#ctor
   id: '#ctor'
@@ -235,590 +275,220 @@ items:
   nameWithType: DocTmplHeadingLinkRecordData.DocTmplHeadingLinkRecordData()
   fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.DocTmplHeadingLinkRecordData()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public DocTmplHeadingLinkRecordData()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.#ctor*
-  nameWithType.vb: DocTmplHeadingLinkRecordData.New()
-  fullName.vb: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRow
-  commentId: T:SuperOffice.CRM.Rows.DocTmplHeadingLinkRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRow.html
-  name: DocTmplHeadingLinkRow
-  nameWithType: DocTmplHeadingLinkRow
-  fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRow
-- uid: SuperOffice.CRM.Data.DocTmplHeadingLinkTableInfo
-  commentId: T:SuperOffice.CRM.Data.DocTmplHeadingLinkTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.DocTmplHeadingLinkTableInfo.html
-  name: DocTmplHeadingLinkTableInfo
-  nameWithType: DocTmplHeadingLinkTableInfo
-  fullName: SuperOffice.CRM.Data.DocTmplHeadingLinkTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<DocTmplHeadingLinkRecordData, To>(DocTmplHeadingLinkRecordData)
-  nameWithType: EnumUtil.MapEnums<DocTmplHeadingLinkRecordData, To>(DocTmplHeadingLinkRecordData)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData, To>(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-  nameWithType.vb: EnumUtil.MapEnums(Of DocTmplHeadingLinkRecordData, To)(DocTmplHeadingLinkRecordData)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData, To)(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-  name.vb: MapEnums(Of DocTmplHeadingLinkRecordData, To)(DocTmplHeadingLinkRecordData)
+  name: MapEnums<DocTmplHeadingLinkRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<DocTmplHeadingLinkRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DocTmplHeadingLinkRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData, To)()
+  name.vb: MapEnums(Of DocTmplHeadingLinkRecordData, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DocTmplHeadingLinkRecordData, To>
+    nameWithType: EnumUtil.MapEnums<DocTmplHeadingLinkRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
-    name: DocTmplHeadingLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
-    name: DocTmplHeadingLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DocTmplHeadingLinkRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of DocTmplHeadingLinkRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
-    name: DocTmplHeadingLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
-    name: DocTmplHeadingLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-  parent: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-  href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.html#SuperOffice_CRM_Rows_DocTmplHeadingLinkRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_DocTmplHeadingLinkRecordData_
-  name: ToInsert(DocTmplHeadingLinkRecordData)
-  nameWithType: DocTmplHeadingLinkRecordDataExtensions.ToInsert(DocTmplHeadingLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.html#SuperOffice_CRM_Rows_DocTmplHeadingLinkRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_DocTmplHeadingLinkRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
-    name: DocTmplHeadingLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.html#SuperOffice_CRM_Rows_DocTmplHeadingLinkRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_DocTmplHeadingLinkRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
-    name: DocTmplHeadingLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<DocTmplHeadingLinkRecordData, To>(DocTmplHeadingLinkRecordData)
-  nameWithType: Converters.MapEnums<DocTmplHeadingLinkRecordData, To>(DocTmplHeadingLinkRecordData)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData, To>(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-  nameWithType.vb: Converters.MapEnums(Of DocTmplHeadingLinkRecordData, To)(DocTmplHeadingLinkRecordData)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData, To)(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-  name.vb: MapEnums(Of DocTmplHeadingLinkRecordData, To)(DocTmplHeadingLinkRecordData)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
-    name: DocTmplHeadingLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
-    name: DocTmplHeadingLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
-    name: DocTmplHeadingLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
-    name: DocTmplHeadingLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<DocTmplHeadingLinkRecordData>(DocTmplHeadingLinkRecordData, DocTmplHeadingLinkRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<DocTmplHeadingLinkRecordData>(DocTmplHeadingLinkRecordData, DocTmplHeadingLinkRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData>(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData, SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DocTmplHeadingLinkRecordData)(DocTmplHeadingLinkRecordData, DocTmplHeadingLinkRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData, SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-  name.vb: AssignByReflection(Of DocTmplHeadingLinkRecordData)(DocTmplHeadingLinkRecordData, DocTmplHeadingLinkRecordData)
+  name: AssignByReflection<DocTmplHeadingLinkRecordData>(DocTmplHeadingLinkRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<DocTmplHeadingLinkRecordData>(DocTmplHeadingLinkRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData>(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DocTmplHeadingLinkRecordData)(DocTmplHeadingLinkRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
+  name.vb: AssignByReflection(Of DocTmplHeadingLinkRecordData)(DocTmplHeadingLinkRecordData)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData,SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<DocTmplHeadingLinkRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<DocTmplHeadingLinkRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
-    name: DocTmplHeadingLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
     name: DocTmplHeadingLinkRecordData
+    nameWithType: DocTmplHeadingLinkRecordData
+    fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
-    name: DocTmplHeadingLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData,SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of DocTmplHeadingLinkRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of DocTmplHeadingLinkRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
     name: DocTmplHeadingLinkRecordData
+    nameWithType: DocTmplHeadingLinkRecordData
+    fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
-    name: DocTmplHeadingLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
-    name: DocTmplHeadingLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<DocTmplHeadingLinkRecordData>(DocTmplHeadingLinkRecordData)
-  nameWithType: ObjectExtensions.GraphCopy<DocTmplHeadingLinkRecordData>(DocTmplHeadingLinkRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData>(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of DocTmplHeadingLinkRecordData)(DocTmplHeadingLinkRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-  name.vb: GraphCopy(Of DocTmplHeadingLinkRecordData)(DocTmplHeadingLinkRecordData)
+  name: GraphCopy<DocTmplHeadingLinkRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<DocTmplHeadingLinkRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of DocTmplHeadingLinkRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)()
+  name.vb: GraphCopy(Of DocTmplHeadingLinkRecordData)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<DocTmplHeadingLinkRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<DocTmplHeadingLinkRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
-    name: DocTmplHeadingLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
-    name: DocTmplHeadingLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of DocTmplHeadingLinkRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of DocTmplHeadingLinkRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
-    name: DocTmplHeadingLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
-    name: DocTmplHeadingLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Data
-  commentId: N:SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Data
-  nameWithType: SuperOffice.CRM.Data
-  fullName: SuperOffice.CRM.Data
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
+  parent: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
+  name: ToInsert()
+  nameWithType: DocTmplHeadingLinkRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert()
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: DocTmplHeadingLinkRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: DocTmplHeadingLinkRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DocTmplHeadingLinkRecordData, To>()
+  nameWithType: Converters.MapEnums<DocTmplHeadingLinkRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of DocTmplHeadingLinkRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData, To)()
+  name.vb: MapEnums(Of DocTmplHeadingLinkRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DocTmplHeadingLinkRecordData, To>
+    nameWithType: Converters.MapEnums<DocTmplHeadingLinkRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData, To>
     isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DocTmplHeadingLinkRecordData, To)
+    nameWithType: Converters.MapEnums(Of DocTmplHeadingLinkRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData, To)
     isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -827,130 +497,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-  commentId: M:SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-  isExternal: true
-  href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.html#SuperOffice_CRM_Rows_DocTmplHeadingLinkRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_DocTmplHeadingLinkRecordData_
-  name: ToInsert(DocTmplHeadingLinkRecordData)
-  nameWithType: DocTmplHeadingLinkRecordDataExtensions.ToInsert(DocTmplHeadingLinkRecordData)
-  fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.html#SuperOffice_CRM_Rows_DocTmplHeadingLinkRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_DocTmplHeadingLinkRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
-    name: DocTmplHeadingLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.html#SuperOffice_CRM_Rows_DocTmplHeadingLinkRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_DocTmplHeadingLinkRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
-    name: DocTmplHeadingLinkRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions
-  commentId: T:SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.html
-  name: DocTmplHeadingLinkRecordDataExtensions
-  nameWithType: DocTmplHeadingLinkRecordDataExtensions
-  fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -959,46 +542,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1007,132 +600,161 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
+  commentId: M:SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: ToInsert(DocTmplHeadingLinkRecordData)
+  nameWithType: DocTmplHeadingLinkRecordDataExtensions.ToInsert(DocTmplHeadingLinkRecordData)
+  fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
+    name: ToInsert
+    nameWithType: DocTmplHeadingLinkRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
+    name: DocTmplHeadingLinkRecordData
+    nameWithType: DocTmplHeadingLinkRecordData
+    fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData)
+    name: ToInsert
+    nameWithType: DocTmplHeadingLinkRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
+    name: DocTmplHeadingLinkRecordData
+    nameWithType: DocTmplHeadingLinkRecordData
+    fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: DocTmplHeadingLinkRecordDataExtensions
+  nameWithType: DocTmplHeadingLinkRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.html#SuperOffice_CRM_Rows_DocTmplHeadingLinkRecordData__ctor
   name: DocTmplHeadingLinkRecordData
   nameWithType: DocTmplHeadingLinkRecordData.DocTmplHeadingLinkRecordData
   fullName: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.DocTmplHeadingLinkRecordData
-  nameWithType.vb: DocTmplHeadingLinkRecordData.New
-  fullName.vb: SuperOffice.CRM.Rows.DocTmplHeadingLinkRecordData.New
-  name.vb: New

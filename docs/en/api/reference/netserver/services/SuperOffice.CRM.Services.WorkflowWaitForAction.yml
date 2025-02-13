@@ -21,41 +21,20 @@ items:
   nameWithType: WorkflowWaitForAction
   fullName: SuperOffice.CRM.Services.WorkflowWaitForAction
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Workflow action info carrier
-
-    <p></p>
-
-    Carrier object for WorkflowWaitForAction.
-
-    Services for the WorkflowWaitForAction Carrier is available from the <xref href="SuperOffice.CRM.Services.IWorkflowAgent?text=Workflow+Agent" data-throw-if-not-resolved="false"></xref>.
+  summary: "\nWorkflow action info carrier\n<p></p>\nCarrier object for WorkflowWaitForAction.\nServices for the WorkflowWaitForAction Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IWorkflowAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example:
-  - >-
-    Get WorkflowWaitForAction 123 using the agent:
-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       var agent = new WorkflowAgent();
-       var workflowWaitForAction = agent.GetWorkflowWaitForAction( 123 );
-    }</code></pre>
+  - "\nGet WorkflowWaitForAction 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new WorkflowAgent();\n    var workflowWaitForAction = agent.GetWorkflowWaitForAction( 123 );\n }</code></pre>\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class WorkflowWaitForAction : Carrier
+    content: 'public class WorkflowWaitForAction : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class WorkflowWaitForAction Inherits Carrier
+      Public Class WorkflowWaitForAction
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.WorkflowAgent
     commentId: T:SuperOffice.CRM.Services.WorkflowAgent
@@ -63,14 +42,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.WorkflowWaitForAction.#ctor
   commentId: M:SuperOffice.CRM.Services.WorkflowWaitForAction.#ctor
   id: '#ctor'
@@ -82,18 +59,21 @@ items:
   nameWithType: WorkflowWaitForAction.WorkflowWaitForAction()
   fullName: SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowWaitForAction()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public WorkflowWaitForAction()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.WorkflowWaitForAction.#ctor*
-  nameWithType.vb: WorkflowWaitForAction.New()
-  fullName.vb: SuperOffice.CRM.Services.WorkflowWaitForAction.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.WorkflowWaitForAction.ToString
   commentId: M:SuperOffice.CRM.Services.WorkflowWaitForAction.ToString
   id: ToString
@@ -105,18 +85,26 @@ items:
   nameWithType: WorkflowWaitForAction.ToString()
   fullName: SuperOffice.CRM.Services.WorkflowWaitForAction.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.WorkflowWaitForAction.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.WorkflowWaitForAction.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.WorkflowWaitForAction.ToString(System.String)
   id: ToString(System.String)
@@ -124,18 +112,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: WorkflowWaitForAction.ToString(string)
-  fullName: SuperOffice.CRM.Services.WorkflowWaitForAction.ToString(string)
+  name: ToString(String)
+  nameWithType: WorkflowWaitForAction.ToString(String)
+  fullName: SuperOffice.CRM.Services.WorkflowWaitForAction.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -147,9 +134,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.WorkflowWaitForAction.ToString*
-  nameWithType.vb: WorkflowWaitForAction.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.WorkflowWaitForAction.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowWaitForActionId
   commentId: P:SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowWaitForActionId
   id: WorkflowWaitForActionId
@@ -161,28 +149,28 @@ items:
   nameWithType: WorkflowWaitForAction.WorkflowWaitForActionId
   fullName: SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowWaitForActionId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int WorkflowWaitForActionId { get; set; }
+    content: public virtual int WorkflowWaitForActionId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property WorkflowWaitForActionId As Integer
+    content.vb: Public Overridable Property WorkflowWaitForActionId As Integer
   overload: SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowWaitForActionId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowStepId
   commentId: P:SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowStepId
   id: WorkflowStepId
@@ -194,28 +182,28 @@ items:
   nameWithType: WorkflowWaitForAction.WorkflowStepId
   fullName: SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowStepId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The workflow step this instance belongs to
-  example: []
+  summary: "\nThe workflow step this instance belongs to \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int WorkflowStepId { get; set; }
+    content: public virtual int WorkflowStepId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property WorkflowStepId As Integer
+    content.vb: Public Overridable Property WorkflowStepId As Integer
   overload: SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowStepId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowId
   commentId: P:SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowId
   id: WorkflowId
@@ -227,28 +215,28 @@ items:
   nameWithType: WorkflowWaitForAction.WorkflowId
   fullName: SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Workflow id
-  example: []
+  summary: "\nWorkflow id \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int WorkflowId { get; set; }
+    content: public virtual int WorkflowId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property WorkflowId As Integer
+    content.vb: Public Overridable Property WorkflowId As Integer
   overload: SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowWaitForAction.Rank
   commentId: P:SuperOffice.CRM.Services.WorkflowWaitForAction.Rank
   id: Rank
@@ -260,28 +248,28 @@ items:
   nameWithType: WorkflowWaitForAction.Rank
   fullName: SuperOffice.CRM.Services.WorkflowWaitForAction.Rank
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The rank of this action
-  example: []
+  summary: "\nThe rank of this action \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int Rank { get; set; }
+    content: public virtual int Rank { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Rank As Integer
+    content.vb: Public Overridable Property Rank As Integer
   overload: SuperOffice.CRM.Services.WorkflowWaitForAction.Rank*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowWaitForAction.ActionType
   commentId: P:SuperOffice.CRM.Services.WorkflowWaitForAction.ActionType
   id: ActionType
@@ -293,28 +281,28 @@ items:
   nameWithType: WorkflowWaitForAction.ActionType
   fullName: SuperOffice.CRM.Services.WorkflowWaitForAction.ActionType
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The type of action
-  example: []
+  summary: "\nThe type of action \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual WorkflowWaitForActionType ActionType { get; set; }
+    content: public virtual WorkflowWaitForActionType ActionType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.WorkflowWaitForActionType
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ActionType As WorkflowWaitForActionType
+    content.vb: Public Overridable Property ActionType As WorkflowWaitForActionType
   overload: SuperOffice.CRM.Services.WorkflowWaitForAction.ActionType*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowWaitForAction.RestrictionGroups
   commentId: P:SuperOffice.CRM.Services.WorkflowWaitForAction.RestrictionGroups
   id: RestrictionGroups
@@ -326,33 +314,38 @@ items:
   nameWithType: WorkflowWaitForAction.RestrictionGroups
   fullName: SuperOffice.CRM.Services.WorkflowWaitForAction.RestrictionGroups
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The restrictions (can be multiple groups) that make up the Workflow action criteria
-  example: []
+  summary: "\nThe restrictions (can be multiple groups) that make up the Workflow action criteria \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual ArchiveRestrictionGroup[] RestrictionGroups { get; set; }
+    content: public virtual ArchiveRestrictionGroup[] RestrictionGroups { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property RestrictionGroups As ArchiveRestrictionGroup()
+    content.vb: Public Overridable Property RestrictionGroups As ArchiveRestrictionGroup()
   overload: SuperOffice.CRM.Services.WorkflowWaitForAction.RestrictionGroups*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.WorkflowAgent
   commentId: T:SuperOffice.CRM.Services.WorkflowAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowAgent.html
   name: WorkflowAgent
   nameWithType: WorkflowAgent
   fullName: SuperOffice.CRM.Services.WorkflowAgent
@@ -360,79 +353,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html
   name: IWorkflowAgent
   nameWithType: IWorkflowAgent
   fullName: SuperOffice.CRM.Services.IWorkflowAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.WorkflowWaitForAction.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowWaitForAction.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowWaitForAction.html#SuperOffice_CRM_Services_WorkflowWaitForAction__ctor
   name: WorkflowWaitForAction
   nameWithType: WorkflowWaitForAction.WorkflowWaitForAction
   fullName: SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowWaitForAction
-  nameWithType.vb: WorkflowWaitForAction.New
-  fullName.vb: SuperOffice.CRM.Services.WorkflowWaitForAction.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.WorkflowWaitForAction.ToString*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowWaitForAction.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowWaitForAction.html#SuperOffice_CRM_Services_WorkflowWaitForAction_ToString
   name: ToString
   nameWithType: WorkflowWaitForAction.ToString
   fullName: SuperOffice.CRM.Services.WorkflowWaitForAction.ToString
@@ -440,17 +372,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowWaitForActionId*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowWaitForActionId
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowWaitForAction.html#SuperOffice_CRM_Services_WorkflowWaitForAction_WorkflowWaitForActionId
   name: WorkflowWaitForActionId
   nameWithType: WorkflowWaitForAction.WorkflowWaitForActionId
   fullName: SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowWaitForActionId
@@ -458,38 +391,30 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowStepId*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowStepId
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowWaitForAction.html#SuperOffice_CRM_Services_WorkflowWaitForAction_WorkflowStepId
   name: WorkflowStepId
   nameWithType: WorkflowWaitForAction.WorkflowStepId
   fullName: SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowStepId
 - uid: SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowId*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowId
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowWaitForAction.html#SuperOffice_CRM_Services_WorkflowWaitForAction_WorkflowId
   name: WorkflowId
   nameWithType: WorkflowWaitForAction.WorkflowId
   fullName: SuperOffice.CRM.Services.WorkflowWaitForAction.WorkflowId
 - uid: SuperOffice.CRM.Services.WorkflowWaitForAction.Rank*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowWaitForAction.Rank
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowWaitForAction.html#SuperOffice_CRM_Services_WorkflowWaitForAction_Rank
   name: Rank
   nameWithType: WorkflowWaitForAction.Rank
   fullName: SuperOffice.CRM.Services.WorkflowWaitForAction.Rank
 - uid: SuperOffice.CRM.Services.WorkflowWaitForAction.ActionType*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowWaitForAction.ActionType
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowWaitForAction.html#SuperOffice_CRM_Services_WorkflowWaitForAction_ActionType
   name: ActionType
   nameWithType: WorkflowWaitForAction.ActionType
   fullName: SuperOffice.CRM.Services.WorkflowWaitForAction.ActionType
@@ -501,7 +426,6 @@ references:
 - uid: SuperOffice.CRM.Services.WorkflowWaitForAction.RestrictionGroups*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowWaitForAction.RestrictionGroups
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowWaitForAction.html#SuperOffice_CRM_Services_WorkflowWaitForAction_RestrictionGroups
   name: RestrictionGroups
   nameWithType: WorkflowWaitForAction.RestrictionGroups
   fullName: SuperOffice.CRM.Services.WorkflowWaitForAction.RestrictionGroups
@@ -516,12 +440,18 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
     name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
     isExternal: true
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
     name: ArchiveRestrictionGroup
+    nameWithType: ArchiveRestrictionGroup
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionGroup
     isExternal: true
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

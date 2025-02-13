@@ -35,9 +35,7 @@ items:
     content: 'public sealed class TicketLogger : ThreadStaticQueuedThreadBase<TicketLoggerProcessor, BatchSave>, IQueryProcessorPlugin'
     content.vb: >-
       Public NotInheritable Class TicketLogger
-
           Inherits ThreadStaticQueuedThreadBase(Of TicketLoggerProcessor, BatchSave)
-
           Implements IQueryProcessorPlugin
   inheritance:
   - System.Object

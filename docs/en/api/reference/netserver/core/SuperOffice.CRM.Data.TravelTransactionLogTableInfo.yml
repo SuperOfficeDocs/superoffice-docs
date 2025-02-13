@@ -35,21 +35,14 @@ items:
   nameWithType: TravelTransactionLogTableInfo
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "Table 'traveltransactionlog': Log of all updates made to the database, that need to be replicated."
-  remarks: >-
-    An instance of this class represents one instance of this table in an SQL statement. In most
-
-    cases each table appears only once in a SELECT, but in cases where you need to self-join, or
-
-    there are multiple occurrences for other reasons (typically additional restrictions in the joins),
-
-    then you will need multiple instances. <br />
-
-    Instances of this class are created by calling TablesInfo.GetTravelTransactionLogInfo().
-  example: []
+  summary: "\nTable &apos;traveltransactionlog&apos;: Log of all updates made to the database, that need to be replicated.\n"
+  remarks: "\nAn instance of this class represents one instance of this table in an SQL statement. In most\ncases each table appears only once in a SELECT, but in cases where you need to self-join, or\nthere are multiple occurrences for other reasons (typically additional restrictions in the joins),\nthen you will need multiple instances. <br />\nInstances of this class are created by calling <see cref=\"!:TablesInfo.GetTravelTransactionLogInfo()\"></see>.\n"
   syntax:
     content: >-
       [DatabaseTable("traveltransactionlog")]
@@ -58,7 +51,9 @@ items:
     content.vb: >-
       <DatabaseTable("traveltransactionlog")>
 
-      Public Class TravelTransactionLogTableInfo Inherits TableInfo Implements ICloneable
+      Public Class TravelTransactionLogTableInfo
+          Inherits TableInfo
+          Implements ICloneable
   inheritance:
   - System.Object
   - SuperOffice.Data.SQL.TableInfo
@@ -79,12 +74,6 @@ items:
   - SuperOffice.Data.SQL.TableInfo.All
   - SuperOffice.Data.SQL.TableInfo.Item(System.String)
   - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Data.TravelTransactionLogTableInfo.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.TravelTransactionLogTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
@@ -94,6 +83,12 @@ items:
     arguments:
     - type: System.String
       value: traveltransactionlog
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.DictionaryTableName
   commentId: F:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.DictionaryTableName
   id: DictionaryTableName
@@ -105,16 +100,24 @@ items:
   nameWithType: TravelTransactionLogTableInfo.DictionaryTableName
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.DictionaryTableName
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Conceptual name of table TravelTransactionLog in the database dictionary: traveltransactionlog'
-  example: []
+  summary: "\nConceptual name of table TravelTransactionLog in the database dictionary: traveltransactionlog\n"
   syntax:
     content: public const string DictionaryTableName = "traveltransactionlog"
     return:
       type: System.String
     content.vb: Public Const DictionaryTableName As String = "traveltransactionlog"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxTablenumber(System.Int16)
   commentId: M:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxTablenumber(System.Int16)
   id: IdxTablenumber(System.Int16)
@@ -122,18 +125,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxTablenumber(short)
-  nameWithType: TravelTransactionLogTableInfo.IdxTablenumber(short)
-  fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxTablenumber(short)
+  name: IdxTablenumber(Int16)
+  nameWithType: TravelTransactionLogTableInfo.IdxTablenumber(Int16)
+  fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxTablenumber(System.Int16)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index Tablenumber, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">Tablenumber</td><td class="description">Table that was updated</td></tr></tbody></table>
-  example: []
+  summary: "\nShortcut method for looking up using the database index Tablenumber, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Tablenumber</td><td>Table that was updated</td></tr></tbody></table>\n"
   syntax:
     content: public Restriction IdxTablenumber(short tablenumber)
     parameters:
@@ -143,9 +145,10 @@ items:
       type: SuperOffice.Data.SQL.Restriction
     content.vb: Public Function IdxTablenumber(tablenumber As Short) As Restriction
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxTablenumber*
-  nameWithType.vb: TravelTransactionLogTableInfo.IdxTablenumber(Short)
-  fullName.vb: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxTablenumber(Short)
-  name.vb: IdxTablenumber(Short)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxType(SuperOffice.Data.TrlogTransType)
   commentId: M:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxType(SuperOffice.Data.TrlogTransType)
   id: IdxType(SuperOffice.Data.TrlogTransType)
@@ -157,14 +160,13 @@ items:
   nameWithType: TravelTransactionLogTableInfo.IdxType(TrlogTransType)
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxType(SuperOffice.Data.TrlogTransType)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index Type, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">Type</td><td class="description">Type of event</td></tr></tbody></table>
-  example: []
+  summary: "\nShortcut method for looking up using the database index Type, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Type</td><td>Type of event</td></tr></tbody></table>\n"
   syntax:
     content: public Restriction IdxType(TrlogTransType type)
     parameters:
@@ -174,6 +176,10 @@ items:
       type: SuperOffice.Data.SQL.Restriction
     content.vb: Public Function IdxType(type As TrlogTransType) As Restriction
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxTypeTablenumber(SuperOffice.Data.TrlogTransType,System.Int16)
   commentId: M:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxTypeTablenumber(SuperOffice.Data.TrlogTransType,System.Int16)
   id: IdxTypeTablenumber(SuperOffice.Data.TrlogTransType,System.Int16)
@@ -181,18 +187,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IdxTypeTablenumber(TrlogTransType, short)
-  nameWithType: TravelTransactionLogTableInfo.IdxTypeTablenumber(TrlogTransType, short)
-  fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxTypeTablenumber(SuperOffice.Data.TrlogTransType, short)
+  name: IdxTypeTablenumber(TrlogTransType, Int16)
+  nameWithType: TravelTransactionLogTableInfo.IdxTypeTablenumber(TrlogTransType, Int16)
+  fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxTypeTablenumber(SuperOffice.Data.TrlogTransType, System.Int16)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Shortcut method for looking up using the database index TypeTablenumber, which spans the following fields:
-
-    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">Type</td><td class="description">Type of event</td></tr><tr><td class="term">Tablenumber</td><td class="description">Table that was updated</td></tr></tbody></table>
-  example: []
+  summary: "\nShortcut method for looking up using the database index TypeTablenumber, which spans the following fields:\n<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Type</td><td>Type of event</td></tr><tr><td>Tablenumber</td><td>Table that was updated</td></tr></tbody></table>\n"
   syntax:
     content: public Restriction IdxTypeTablenumber(TrlogTransType type, short tablenumber)
     parameters:
@@ -204,9 +209,10 @@ items:
       type: SuperOffice.Data.SQL.Restriction
     content.vb: Public Function IdxTypeTablenumber(type As TrlogTransType, tablenumber As Short) As Restriction
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxTypeTablenumber*
-  nameWithType.vb: TravelTransactionLogTableInfo.IdxTypeTablenumber(TrlogTransType, Short)
-  fullName.vb: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxTypeTablenumber(SuperOffice.Data.TrlogTransType, Short)
-  name.vb: IdxTypeTablenumber(TrlogTransType, Short)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.DictionaryTableNumber
   commentId: P:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.DictionaryTableNumber
   id: DictionaryTableNumber
@@ -218,14 +224,13 @@ items:
   nameWithType: TravelTransactionLogTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.DictionaryTableNumber
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Table number for table TravelTransactionLog in the database dictionary; potentially changes between databases, but
-
-    always the same over the lifetime of any single database
-  example: []
+  summary: "\nTable number for table TravelTransactionLog in the database dictionary; potentially changes between databases, but\nalways the same over the lifetime of any single database\n"
   syntax:
     content: public int DictionaryTableNumber { get; }
     parameters: []
@@ -233,6 +238,12 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.DictionaryTableNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.RuntimeDefinition
   commentId: P:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.RuntimeDefinition
   id: RuntimeDefinition
@@ -244,32 +255,28 @@ items:
   nameWithType: TravelTransactionLogTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.RuntimeDefinition
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Definition of the table as described in the deployed runtime dictionary
-  example: []
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
-    content: >-
-      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
-
-      public static SoTable RuntimeDefinition { get; }
+    content: public static SoTable RuntimeDefinition { get; }
     parameters: []
     return:
       type: SuperOffice.Data.Dictionary.SoTable
-    content.vb: >-
-      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
-
-      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+    content.vb: Public Shared ReadOnly Property RuntimeDefinition As SoTable
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.RuntimeDefinition*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: Use instance property Definition or static member DictionaryTableNumber
-    - type: System.Boolean
-      value: true
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Definition
   commentId: P:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Definition
   id: Definition
@@ -281,11 +288,13 @@ items:
   nameWithType: TravelTransactionLogTableInfo.Definition
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Definition
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Definition of the table as described in the deployed runtime dictionary
-  example: []
+  summary: "\nDefinition of the table as described in the deployed runtime dictionary\n"
   syntax:
     content: public override SoTable Definition { get; }
     parameters: []
@@ -294,6 +303,14 @@ items:
     content.vb: Public Overrides ReadOnly Property Definition As SoTable
   overridden: SuperOffice.Data.SQL.TableInfo.Definition
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Definition*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.TraveltransactionlogId
   commentId: P:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.TraveltransactionlogId
   id: TraveltransactionlogId
@@ -305,14 +322,13 @@ items:
   nameWithType: TravelTransactionLogTableInfo.TraveltransactionlogId
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.TraveltransactionlogId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'traveltransactionlog_id' in table 'traveltransactionlog': Dictionary type PK, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Primary key
-  example: []
+  summary: "\nField &apos;traveltransactionlog_id&apos; in table &apos;traveltransactionlog&apos;: Dictionary type PK, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nPrimary key\n"
   syntax:
     content: public Int32FieldInfo TraveltransactionlogId { get; }
     parameters: []
@@ -320,6 +336,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property TraveltransactionlogId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.TraveltransactionlogId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Ttime
   commentId: P:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Ttime
   id: Ttime
@@ -331,14 +353,13 @@ items:
   nameWithType: TravelTransactionLogTableInfo.Ttime
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Ttime
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'ttime' in table 'traveltransactionlog': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Time/datestamp of event
-  example: []
+  summary: "\nField &apos;ttime&apos; in table &apos;traveltransactionlog&apos;: Dictionary type DateTime, .NET type: <xref href=\"System.DateTime\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTime/datestamp of event\n"
   syntax:
     content: public DateTimeFieldInfo Ttime { get; }
     parameters: []
@@ -346,6 +367,12 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property Ttime As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Ttime*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.PrevRecordId
   commentId: P:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.PrevRecordId
   id: PrevRecordId
@@ -357,14 +384,13 @@ items:
   nameWithType: TravelTransactionLogTableInfo.PrevRecordId
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.PrevRecordId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'prev_record_id' in table 'traveltransactionlog': Dictionary type Id, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Additional information
-  example: []
+  summary: "\nField &apos;prev_record_id&apos; in table &apos;traveltransactionlog&apos;: Dictionary type Id, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nAdditional information\n"
   syntax:
     content: public Int32FieldInfo PrevRecordId { get; }
     parameters: []
@@ -372,6 +398,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property PrevRecordId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.PrevRecordId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Type
   commentId: P:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Type
   id: Type
@@ -383,14 +415,13 @@ items:
   nameWithType: TravelTransactionLogTableInfo.Type
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Type
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'type' in table 'traveltransactionlog': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.TrlogTransType" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Type of event
-  example: []
+  summary: "\nField &apos;type&apos; in table &apos;traveltransactionlog&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.TrlogTransType\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nType of event\n"
   syntax:
     content: public TrlogTransTypeFieldInfo Type { get; }
     parameters: []
@@ -398,6 +429,12 @@ items:
       type: SuperOffice.Data.SQL.TrlogTransTypeFieldInfo
     content.vb: Public ReadOnly Property Type As TrlogTransTypeFieldInfo
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Type*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.AssociateId
   commentId: P:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.AssociateId
   id: AssociateId
@@ -409,14 +446,13 @@ items:
   nameWithType: TravelTransactionLogTableInfo.AssociateId
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.AssociateId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'associate_id' in table 'traveltransactionlog': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Who did it
-  example: []
+  summary: "\nField &apos;associate_id&apos; in table &apos;traveltransactionlog&apos;: Dictionary type FK, target: Associate, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nWho did it\n"
   syntax:
     content: public Int32FieldInfo AssociateId { get; }
     parameters: []
@@ -424,6 +460,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property AssociateId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.AssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Tablenumber
   commentId: P:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Tablenumber
   id: Tablenumber
@@ -435,14 +477,13 @@ items:
   nameWithType: TravelTransactionLogTableInfo.Tablenumber
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Tablenumber
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'tablenumber' in table 'traveltransactionlog': Dictionary type TableNumber, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Table that was updated
-  example: []
+  summary: "\nField &apos;tablenumber&apos; in table &apos;traveltransactionlog&apos;: Dictionary type TableNumber, .NET type: <xref href=\"System.Int16\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nTable that was updated\n"
   syntax:
     content: public UInt16FieldInfo Tablenumber { get; }
     parameters: []
@@ -450,6 +491,12 @@ items:
       type: SuperOffice.Data.SQL.UInt16FieldInfo
     content.vb: Public ReadOnly Property Tablenumber As UInt16FieldInfo
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Tablenumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.RecordId
   commentId: P:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.RecordId
   id: RecordId
@@ -461,14 +508,13 @@ items:
   nameWithType: TravelTransactionLogTableInfo.RecordId
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.RecordId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'record_id' in table 'traveltransactionlog': Dictionary type RecordId, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Record that was updated
-  example: []
+  summary: "\nField &apos;record_id&apos; in table &apos;traveltransactionlog&apos;: Dictionary type RecordId, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nRecord that was updated\n"
   syntax:
     content: public Int32FieldInfo RecordId { get; }
     parameters: []
@@ -476,6 +522,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property RecordId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.RecordId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Flags
   commentId: P:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Flags
   id: Flags
@@ -487,14 +539,13 @@ items:
   nameWithType: TravelTransactionLogTableInfo.Flags
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Flags
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'flags' in table 'traveltransactionlog': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.TtlFlags" data-throw-if-not-resolved="false"></xref><p></p>
-
-    Extra information about the operation, as a bit-masked field
-  example: []
+  summary: "\nField &apos;flags&apos; in table &apos;traveltransactionlog&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.TtlFlags\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nExtra information about the operation, as a bit-masked field\n"
   syntax:
     content: public TtlFlagsFieldInfo Flags { get; }
     parameters: []
@@ -502,6 +553,12 @@ items:
       type: SuperOffice.Data.SQL.TtlFlagsFieldInfo
     content.vb: Public ReadOnly Property Flags As TtlFlagsFieldInfo
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.ApplicationId
   commentId: P:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.ApplicationId
   id: ApplicationId
@@ -513,14 +570,13 @@ items:
   nameWithType: TravelTransactionLogTableInfo.ApplicationId
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.ApplicationId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: >-
-    Field 'application_id' in table 'traveltransactionlog': Dictionary type Int, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
-
-    ID of the application/client/owner of the context in which this record was written. This is primarily an Online feature, but the value int.MaxValue denotes the Win client
-  example: []
+  summary: "\nField &apos;application_id&apos; in table &apos;traveltransactionlog&apos;: Dictionary type Int, .NET type: <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nID of the application/client/owner of the context in which this record was written. This is primarily an Online feature, but the value int.MaxValue denotes the Win client\n"
   syntax:
     content: public Int32FieldInfo ApplicationId { get; }
     parameters: []
@@ -528,6 +584,12 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property ApplicationId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.ApplicationId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.AssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.AssociateId_InnerJoin_Associate
   id: AssociateId_InnerJoin_Associate
@@ -539,11 +601,13 @@ items:
   nameWithType: TravelTransactionLogTableInfo.AssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.AssociateId_InnerJoin_Associate
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated join from the foreign key AssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated join from the foreign key AssociateId in this table, to its target table <xref href=\"SuperOffice.CRM.Data.AssociateTableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedInnerJoin<AssociateTableInfo> AssociateId_InnerJoin_Associate { get; }
     parameters: []
@@ -551,6 +615,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
     content.vb: Public ReadOnly Property AssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.AssociateId_InnerJoin_Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelGeneratedTransaction_TranlogfirstId
   commentId: P:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelGeneratedTransaction_TranlogfirstId
   id: LeftOuterJoin_TravelGeneratedTransaction_TranlogfirstId
@@ -562,11 +632,13 @@ items:
   nameWithType: TravelTransactionLogTableInfo.LeftOuterJoin_TravelGeneratedTransaction_TranlogfirstId
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelGeneratedTransaction_TranlogfirstId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key TraveltransactionlogId on this table, to TravelGeneratedTransaction.<xref href="SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo.TranlogfirstId" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key TraveltransactionlogId on this table, to TravelGeneratedTransaction.<xref href=\"SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo.TranlogfirstId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<TravelGeneratedTransactionTableInfo> LeftOuterJoin_TravelGeneratedTransaction_TranlogfirstId { get; }
     parameters: []
@@ -574,6 +646,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_TravelGeneratedTransaction_TranlogfirstId As TargetedLeftOuterJoin(Of TravelGeneratedTransactionTableInfo)
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelGeneratedTransaction_TranlogfirstId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelGeneratedTransaction_TranloglastId
   commentId: P:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelGeneratedTransaction_TranloglastId
   id: LeftOuterJoin_TravelGeneratedTransaction_TranloglastId
@@ -585,11 +663,13 @@ items:
   nameWithType: TravelTransactionLogTableInfo.LeftOuterJoin_TravelGeneratedTransaction_TranloglastId
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelGeneratedTransaction_TranloglastId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key TraveltransactionlogId on this table, to TravelGeneratedTransaction.<xref href="SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo.TranloglastId" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key TraveltransactionlogId on this table, to TravelGeneratedTransaction.<xref href=\"SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo.TranloglastId\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<TravelGeneratedTransactionTableInfo> LeftOuterJoin_TravelGeneratedTransaction_TranloglastId { get; }
     parameters: []
@@ -597,6 +677,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_TravelGeneratedTransaction_TranloglastId As TargetedLeftOuterJoin(Of TravelGeneratedTransactionTableInfo)
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelGeneratedTransaction_TranloglastId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_Traveller_LastRecordnumber
   commentId: P:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_Traveller_LastRecordnumber
   id: LeftOuterJoin_Traveller_LastRecordnumber
@@ -608,11 +694,13 @@ items:
   nameWithType: TravelTransactionLogTableInfo.LeftOuterJoin_Traveller_LastRecordnumber
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_Traveller_LastRecordnumber
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key TraveltransactionlogId on this table, to Traveller.<xref href="SuperOffice.CRM.Data.TravellerTableInfo.LastRecordnumber" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key TraveltransactionlogId on this table, to Traveller.<xref href=\"SuperOffice.CRM.Data.TravellerTableInfo.LastRecordnumber\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<TravellerTableInfo> LeftOuterJoin_Traveller_LastRecordnumber { get; }
     parameters: []
@@ -620,6 +708,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TravellerTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Traveller_LastRecordnumber As TargetedLeftOuterJoin(Of TravellerTableInfo)
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_Traveller_LastRecordnumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_Traveller_LastPlaybacknumber
   commentId: P:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_Traveller_LastPlaybacknumber
   id: LeftOuterJoin_Traveller_LastPlaybacknumber
@@ -631,11 +725,13 @@ items:
   nameWithType: TravelTransactionLogTableInfo.LeftOuterJoin_Traveller_LastPlaybacknumber
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_Traveller_LastPlaybacknumber
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key TraveltransactionlogId on this table, to Traveller.<xref href="SuperOffice.CRM.Data.TravellerTableInfo.LastPlaybacknumber" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key TraveltransactionlogId on this table, to Traveller.<xref href=\"SuperOffice.CRM.Data.TravellerTableInfo.LastPlaybacknumber\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<TravellerTableInfo> LeftOuterJoin_Traveller_LastPlaybacknumber { get; }
     parameters: []
@@ -643,6 +739,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TravellerTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_Traveller_LastPlaybacknumber As TargetedLeftOuterJoin(Of TravellerTableInfo)
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_Traveller_LastPlaybacknumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelCurrent_LastRecordnumber
   commentId: P:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelCurrent_LastRecordnumber
   id: LeftOuterJoin_TravelCurrent_LastRecordnumber
@@ -654,11 +756,13 @@ items:
   nameWithType: TravelTransactionLogTableInfo.LeftOuterJoin_TravelCurrent_LastRecordnumber
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelCurrent_LastRecordnumber
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key TraveltransactionlogId on this table, to TravelCurrent.<xref href="SuperOffice.CRM.Data.TravelCurrentTableInfo.LastRecordnumber" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key TraveltransactionlogId on this table, to TravelCurrent.<xref href=\"SuperOffice.CRM.Data.TravelCurrentTableInfo.LastRecordnumber\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<TravelCurrentTableInfo> LeftOuterJoin_TravelCurrent_LastRecordnumber { get; }
     parameters: []
@@ -666,6 +770,12 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TravelCurrentTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_TravelCurrent_LastRecordnumber As TargetedLeftOuterJoin(Of TravelCurrentTableInfo)
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelCurrent_LastRecordnumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelCurrent_FirstRecordnumber
   commentId: P:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelCurrent_FirstRecordnumber
   id: LeftOuterJoin_TravelCurrent_FirstRecordnumber
@@ -677,11 +787,13 @@ items:
   nameWithType: TravelTransactionLogTableInfo.LeftOuterJoin_TravelCurrent_FirstRecordnumber
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelCurrent_FirstRecordnumber
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Generated left outer join from the primary key TraveltransactionlogId on this table, to TravelCurrent.<xref href="SuperOffice.CRM.Data.TravelCurrentTableInfo.FirstRecordnumber" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nGenerated left outer join from the primary key TraveltransactionlogId on this table, to TravelCurrent.<xref href=\"SuperOffice.CRM.Data.TravelCurrentTableInfo.FirstRecordnumber\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: public TargetedLeftOuterJoin<TravelCurrentTableInfo> LeftOuterJoin_TravelCurrent_FirstRecordnumber { get; }
     parameters: []
@@ -689,68 +801,35 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TravelCurrentTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_TravelCurrent_FirstRecordnumber As TargetedLeftOuterJoin(Of TravelCurrentTableInfo)
   overload: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelCurrent_FirstRecordnumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.SQL.TableInfo
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: System.ICloneable
-  commentId: T:System.ICloneable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.icloneable
   name: ICloneable
   nameWithType: ICloneable
   fullName: System.ICloneable
@@ -758,185 +837,241 @@ references:
   commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   name: ToString()
   nameWithType: TableInfo.ToString()
   fullName: SuperOffice.Data.SQL.TableInfo.ToString()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.ToString
     name: ToString
+    nameWithType: TableInfo.ToString
+    fullName: SuperOffice.Data.SQL.TableInfo.ToString
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
-  name: RegisterFields(params FieldInfo[])
-  nameWithType: TableInfo.RegisterFields(params FieldInfo[])
-  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(params SuperOffice.Data.SQL.FieldInfo[])
-  nameWithType.vb: TableInfo.RegisterFields(ParamArray FieldInfo())
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(ParamArray SuperOffice.Data.SQL.FieldInfo())
-  name.vb: RegisterFields(ParamArray FieldInfo())
+  name: RegisterFields(FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(FieldInfo())
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-  - name: params
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
     name: RegisterFields
+    nameWithType: TableInfo.RegisterFields
+    fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
   - name: (
-  - name: ParamArray
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   name: FieldInfoFromSoField(SoField)
   nameWithType: TableInfo.FieldInfoFromSoField(SoField)
   fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
     name: FieldInfoFromSoField
+    nameWithType: TableInfo.FieldInfoFromSoField
+    fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.Clone
   commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   name: Clone()
   nameWithType: TableInfo.Clone()
   fullName: SuperOffice.Data.SQL.TableInfo.Clone()
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Clone
     name: Clone
+    nameWithType: TableInfo.Clone
+    fullName: SuperOffice.Data.SQL.TableInfo.Clone
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   name: IsSameTable(TableInfo)
   nameWithType: TableInfo.IsSameTable(TableInfo)
   fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
     name: IsSameTable
+    nameWithType: TableInfo.IsSameTable
+    fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
-  name: FindField(string)
-  nameWithType: TableInfo.FindField(string)
-  fullName: SuperOffice.Data.SQL.TableInfo.FindField(string)
-  nameWithType.vb: TableInfo.FindField(String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.FindField(String)
-  name.vb: FindField(String)
+  name: FindField(String)
+  nameWithType: TableInfo.FindField(String)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
     name: FindField
+    nameWithType: TableInfo.FindField
+    fullName: SuperOffice.Data.SQL.TableInfo.FindField
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.ProtAll
   commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
   name: ProtAll
   nameWithType: TableInfo.ProtAll
   fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
@@ -944,7 +1079,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_HashCheckFields
   name: HashCheckFields
   nameWithType: TableInfo.HashCheckFields
   fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
@@ -952,7 +1086,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_TableName
   name: TableName
   nameWithType: TableInfo.TableName
   fullName: SuperOffice.Data.SQL.TableInfo.TableName
@@ -960,7 +1093,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_DbName
   name: DbName
   nameWithType: TableInfo.DbName
   fullName: SuperOffice.Data.SQL.TableInfo.DbName
@@ -968,7 +1100,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
   name: IsDictionaryTable
   nameWithType: TableInfo.IsDictionaryTable
   fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
@@ -976,7 +1107,6 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.All
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_All
   name: All
   nameWithType: TableInfo.All
   fullName: SuperOffice.Data.SQL.TableInfo.All
@@ -984,389 +1114,136 @@ references:
   commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: this[string]
-  nameWithType: TableInfo.this[string]
-  fullName: SuperOffice.Data.SQL.TableInfo.this[string]
-  nameWithType.vb: TableInfo.this[](String)
-  fullName.vb: SuperOffice.Data.SQL.TableInfo.this[](String)
-  name.vb: this[](String)
+  name: Item[String]
+  nameWithType: TableInfo.Item[String]
+  fullName: SuperOffice.Data.SQL.TableInfo.Item[System.String]
+  nameWithType.vb: TableInfo.Item(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  name.vb: Item(String)
   spec.csharp:
-  - name: this
-  - name: '['
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ']'
-  spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
-    name: this[]
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Item_System_String_
-  - name: (
+  - name: '['
+    nameWithType: '['
+    fullName: '['
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: Item
+    nameWithType: TableInfo.Item
+    fullName: SuperOffice.Data.SQL.TableInfo.Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_PrimaryKeyField
   name: PrimaryKeyField
   nameWithType: TableInfo.PrimaryKeyField
   fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<TravelTransactionLogTableInfo, To>(TravelTransactionLogTableInfo)
-  nameWithType: EnumUtil.MapEnums<TravelTransactionLogTableInfo, To>(TravelTransactionLogTableInfo)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.TravelTransactionLogTableInfo, To>(SuperOffice.CRM.Data.TravelTransactionLogTableInfo)
-  nameWithType.vb: EnumUtil.MapEnums(Of TravelTransactionLogTableInfo, To)(TravelTransactionLogTableInfo)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.TravelTransactionLogTableInfo, To)(SuperOffice.CRM.Data.TravelTransactionLogTableInfo)
-  name.vb: MapEnums(Of TravelTransactionLogTableInfo, To)(TravelTransactionLogTableInfo)
+  name: MapEnums<TravelTransactionLogTableInfo, To>()
+  nameWithType: EnumUtil.MapEnums<TravelTransactionLogTableInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.TravelTransactionLogTableInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TravelTransactionLogTableInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.TravelTransactionLogTableInfo, To)()
+  name.vb: MapEnums(Of TravelTransactionLogTableInfo, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.TravelTransactionLogTableInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TravelTransactionLogTableInfo, To>
+    nameWithType: EnumUtil.MapEnums<TravelTransactionLogTableInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.TravelTransactionLogTableInfo, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo
-    name: TravelTransactionLogTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo
-    name: TravelTransactionLogTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.TravelTransactionLogTableInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TravelTransactionLogTableInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of TravelTransactionLogTableInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.TravelTransactionLogTableInfo, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo
-    name: TravelTransactionLogTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo
-    name: TravelTransactionLogTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<TravelTransactionLogTableInfo, To>(TravelTransactionLogTableInfo)
-  nameWithType: Converters.MapEnums<TravelTransactionLogTableInfo, To>(TravelTransactionLogTableInfo)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.TravelTransactionLogTableInfo, To>(SuperOffice.CRM.Data.TravelTransactionLogTableInfo)
-  nameWithType.vb: Converters.MapEnums(Of TravelTransactionLogTableInfo, To)(TravelTransactionLogTableInfo)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.TravelTransactionLogTableInfo, To)(SuperOffice.CRM.Data.TravelTransactionLogTableInfo)
-  name.vb: MapEnums(Of TravelTransactionLogTableInfo, To)(TravelTransactionLogTableInfo)
+  name: MapEnums<TravelTransactionLogTableInfo, To>()
+  nameWithType: Converters.MapEnums<TravelTransactionLogTableInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.TravelTransactionLogTableInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of TravelTransactionLogTableInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.TravelTransactionLogTableInfo, To)()
+  name.vb: MapEnums(Of TravelTransactionLogTableInfo, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.TravelTransactionLogTableInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TravelTransactionLogTableInfo, To>
+    nameWithType: Converters.MapEnums<TravelTransactionLogTableInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.TravelTransactionLogTableInfo, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo
-    name: TravelTransactionLogTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo
-    name: TravelTransactionLogTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.TravelTransactionLogTableInfo)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TravelTransactionLogTableInfo, To)
+    nameWithType: Converters.MapEnums(Of TravelTransactionLogTableInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.TravelTransactionLogTableInfo, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo
-    name: TravelTransactionLogTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo
-    name: TravelTransactionLogTableInfo
-    isExternal: true
-    href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1375,45 +1252,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -1422,94 +1297,57 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxTablenumber*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxTablenumber
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_IdxTablenumber_System_Int16_
   name: IdxTablenumber
   nameWithType: TravelTransactionLogTableInfo.IdxTablenumber
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxTablenumber
@@ -1517,25 +1355,19 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.SQL.Restriction
   commentId: T:SuperOffice.Data.SQL.Restriction
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Restriction.html
   name: Restriction
   nameWithType: Restriction
   fullName: SuperOffice.Data.SQL.Restriction
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxType*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxType
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_IdxType_SuperOffice_Data_TrlogTransType_
   name: IdxType
   nameWithType: TravelTransactionLogTableInfo.IdxType
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxType
@@ -1543,48 +1375,24 @@ references:
   commentId: T:SuperOffice.Data.TrlogTransType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.TrlogTransType.html
   name: TrlogTransType
   nameWithType: TrlogTransType
   fullName: SuperOffice.Data.TrlogTransType
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxTypeTablenumber*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxTypeTablenumber
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_IdxTypeTablenumber_SuperOffice_Data_TrlogTransType_System_Int16_
   name: IdxTypeTablenumber
   nameWithType: TravelTransactionLogTableInfo.IdxTypeTablenumber
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.IdxTypeTablenumber
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.DictionaryTableNumber*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.DictionaryTableNumber
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_DictionaryTableNumber
   name: DictionaryTableNumber
   nameWithType: TravelTransactionLogTableInfo.DictionaryTableNumber
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.DictionaryTableNumber
@@ -1592,17 +1400,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.RuntimeDefinition*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.RuntimeDefinition
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_RuntimeDefinition
   name: RuntimeDefinition
   nameWithType: TravelTransactionLogTableInfo.RuntimeDefinition
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.RuntimeDefinition
@@ -1610,66 +1413,31 @@ references:
   commentId: T:SuperOffice.Data.Dictionary.SoTable
   parent: SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.Data.Dictionary.SoTable.html
   name: SoTable
   nameWithType: SoTable
   fullName: SuperOffice.Data.Dictionary.SoTable
 - uid: SuperOffice.Data.Dictionary
   commentId: N:SuperOffice.Data.Dictionary
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.Dictionary
   nameWithType: SuperOffice.Data.Dictionary
   fullName: SuperOffice.Data.Dictionary
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Dictionary
-    name: Dictionary
-    isExternal: true
-    href: SuperOffice.Data.Dictionary.html
 - uid: SuperOffice.Data.SQL.TableInfo.Definition
   commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
   parent: SuperOffice.Data.SQL.TableInfo
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Definition
   name: Definition
   nameWithType: TableInfo.Definition
   fullName: SuperOffice.Data.SQL.TableInfo.Definition
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Definition*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Definition
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_Definition
   name: Definition
   nameWithType: TravelTransactionLogTableInfo.Definition
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Definition
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.TraveltransactionlogId*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.TraveltransactionlogId
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_TraveltransactionlogId
   name: TraveltransactionlogId
   nameWithType: TravelTransactionLogTableInfo.TraveltransactionlogId
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.TraveltransactionlogId
@@ -1677,25 +1445,12 @@ references:
   commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Int32FieldInfo.html
   name: Int32FieldInfo
   nameWithType: Int32FieldInfo
   fullName: SuperOffice.Data.SQL.Int32FieldInfo
-- uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Ttime*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Ttime
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_Ttime
   name: Ttime
   nameWithType: TravelTransactionLogTableInfo.Ttime
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Ttime
@@ -1703,21 +1458,18 @@ references:
   commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.DateTimeFieldInfo.html
   name: DateTimeFieldInfo
   nameWithType: DateTimeFieldInfo
   fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.PrevRecordId*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.PrevRecordId
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_PrevRecordId
   name: PrevRecordId
   nameWithType: TravelTransactionLogTableInfo.PrevRecordId
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.PrevRecordId
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Type*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Type
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_Type
   name: Type
   nameWithType: TravelTransactionLogTableInfo.Type
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Type
@@ -1725,21 +1477,18 @@ references:
   commentId: T:SuperOffice.Data.SQL.TrlogTransTypeFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.TrlogTransTypeFieldInfo.html
   name: TrlogTransTypeFieldInfo
   nameWithType: TrlogTransTypeFieldInfo
   fullName: SuperOffice.Data.SQL.TrlogTransTypeFieldInfo
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.AssociateId*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.AssociateId
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_AssociateId
   name: AssociateId
   nameWithType: TravelTransactionLogTableInfo.AssociateId
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.AssociateId
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Tablenumber*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Tablenumber
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_Tablenumber
   name: Tablenumber
   nameWithType: TravelTransactionLogTableInfo.Tablenumber
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Tablenumber
@@ -1747,29 +1496,18 @@ references:
   commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.UInt16FieldInfo.html
   name: UInt16FieldInfo
   nameWithType: UInt16FieldInfo
   fullName: SuperOffice.Data.SQL.UInt16FieldInfo
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.RecordId*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.RecordId
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_RecordId
   name: RecordId
   nameWithType: TravelTransactionLogTableInfo.RecordId
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.RecordId
-- uid: SuperOffice.Data.TtlFlags
-  commentId: T:SuperOffice.Data.TtlFlags
-  parent: SuperOffice.Data
-  isExternal: true
-  href: SuperOffice.Data.TtlFlags.html
-  name: TtlFlags
-  nameWithType: TtlFlags
-  fullName: SuperOffice.Data.TtlFlags
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Flags*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Flags
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_Flags
   name: Flags
   nameWithType: TravelTransactionLogTableInfo.Flags
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.Flags
@@ -1777,29 +1515,18 @@ references:
   commentId: T:SuperOffice.Data.SQL.TtlFlagsFieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.TtlFlagsFieldInfo.html
   name: TtlFlagsFieldInfo
   nameWithType: TtlFlagsFieldInfo
   fullName: SuperOffice.Data.SQL.TtlFlagsFieldInfo
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.ApplicationId*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.ApplicationId
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_ApplicationId
   name: ApplicationId
   nameWithType: TravelTransactionLogTableInfo.ApplicationId
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.ApplicationId
-- uid: SuperOffice.CRM.Data.AssociateTableInfo
-  commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.AssociateTableInfo.html
-  name: AssociateTableInfo
-  nameWithType: AssociateTableInfo
-  fullName: SuperOffice.CRM.Data.AssociateTableInfo
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.AssociateId_InnerJoin_Associate*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.AssociateId_InnerJoin_Associate
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_AssociateId_InnerJoin_Associate
   name: AssociateId_InnerJoin_Associate
   nameWithType: TravelTransactionLogTableInfo.AssociateId_InnerJoin_Associate
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.AssociateId_InnerJoin_Associate
@@ -1807,7 +1534,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<AssociateTableInfo>
   nameWithType: TargetedInnerJoin<AssociateTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
@@ -1817,31 +1543,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.AssociateTableInfo
     name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.AssociateTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.AssociateTableInfo
     name: AssociateTableInfo
+    nameWithType: AssociateTableInfo
+    fullName: SuperOffice.CRM.Data.AssociateTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.AssociateTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
   isExternal: true
-  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   name: TargetedInnerJoin<TargetTableInfo>
   nameWithType: TargetedInnerJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
@@ -1851,32 +1586,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
     name: TargetedInnerJoin
+    nameWithType: TargetedInnerJoin
+    fullName: SuperOffice.Data.SQL.TargetedInnerJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: )
-- uid: SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo.TranlogfirstId
-  commentId: P:SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo.TranlogfirstId
-  isExternal: true
-  href: SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo.html#SuperOffice_CRM_Data_TravelGeneratedTransactionTableInfo_TranlogfirstId
-  name: TranlogfirstId
-  nameWithType: TravelGeneratedTransactionTableInfo.TranlogfirstId
-  fullName: SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo.TranlogfirstId
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelGeneratedTransaction_TranlogfirstId*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelGeneratedTransaction_TranlogfirstId
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_LeftOuterJoin_TravelGeneratedTransaction_TranlogfirstId
   name: LeftOuterJoin_TravelGeneratedTransaction_TranlogfirstId
   nameWithType: TravelTransactionLogTableInfo.LeftOuterJoin_TravelGeneratedTransaction_TranlogfirstId
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelGeneratedTransaction_TranlogfirstId
@@ -1884,7 +1623,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TravelGeneratedTransactionTableInfo>
   nameWithType: TargetedLeftOuterJoin<TravelGeneratedTransactionTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo>
@@ -1894,31 +1632,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo
     name: TravelGeneratedTransactionTableInfo
+    nameWithType: TravelGeneratedTransactionTableInfo
+    fullName: SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo
     name: TravelGeneratedTransactionTableInfo
+    nameWithType: TravelGeneratedTransactionTableInfo
+    fullName: SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
   isExternal: true
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TargetTableInfo>
   nameWithType: TargetedLeftOuterJoin<TargetTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<TargetTableInfo>
@@ -1928,46 +1675,42 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TargetTableInfo
+    nameWithType: TargetTableInfo
+    fullName: TargetTableInfo
   - name: )
-- uid: SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo.TranloglastId
-  commentId: P:SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo.TranloglastId
-  isExternal: true
-  href: SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo.html#SuperOffice_CRM_Data_TravelGeneratedTransactionTableInfo_TranloglastId
-  name: TranloglastId
-  nameWithType: TravelGeneratedTransactionTableInfo.TranloglastId
-  fullName: SuperOffice.CRM.Data.TravelGeneratedTransactionTableInfo.TranloglastId
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelGeneratedTransaction_TranloglastId*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelGeneratedTransaction_TranloglastId
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_LeftOuterJoin_TravelGeneratedTransaction_TranloglastId
   name: LeftOuterJoin_TravelGeneratedTransaction_TranloglastId
   nameWithType: TravelTransactionLogTableInfo.LeftOuterJoin_TravelGeneratedTransaction_TranloglastId
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelGeneratedTransaction_TranloglastId
-- uid: SuperOffice.CRM.Data.TravellerTableInfo.LastRecordnumber
-  commentId: P:SuperOffice.CRM.Data.TravellerTableInfo.LastRecordnumber
-  isExternal: true
-  href: SuperOffice.CRM.Data.TravellerTableInfo.html#SuperOffice_CRM_Data_TravellerTableInfo_LastRecordnumber
-  name: LastRecordnumber
-  nameWithType: TravellerTableInfo.LastRecordnumber
-  fullName: SuperOffice.CRM.Data.TravellerTableInfo.LastRecordnumber
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_Traveller_LastRecordnumber*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_Traveller_LastRecordnumber
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_LeftOuterJoin_Traveller_LastRecordnumber
   name: LeftOuterJoin_Traveller_LastRecordnumber
   nameWithType: TravelTransactionLogTableInfo.LeftOuterJoin_Traveller_LastRecordnumber
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_Traveller_LastRecordnumber
@@ -1975,7 +1718,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TravellerTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TravellerTableInfo>
   nameWithType: TargetedLeftOuterJoin<TravellerTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TravellerTableInfo>
@@ -1985,52 +1727,46 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.TravellerTableInfo
     name: TravellerTableInfo
+    nameWithType: TravellerTableInfo
+    fullName: SuperOffice.CRM.Data.TravellerTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.TravellerTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.TravellerTableInfo
     name: TravellerTableInfo
+    nameWithType: TravellerTableInfo
+    fullName: SuperOffice.CRM.Data.TravellerTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.TravellerTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Data.TravellerTableInfo.LastPlaybacknumber
-  commentId: P:SuperOffice.CRM.Data.TravellerTableInfo.LastPlaybacknumber
-  isExternal: true
-  href: SuperOffice.CRM.Data.TravellerTableInfo.html#SuperOffice_CRM_Data_TravellerTableInfo_LastPlaybacknumber
-  name: LastPlaybacknumber
-  nameWithType: TravellerTableInfo.LastPlaybacknumber
-  fullName: SuperOffice.CRM.Data.TravellerTableInfo.LastPlaybacknumber
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_Traveller_LastPlaybacknumber*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_Traveller_LastPlaybacknumber
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_LeftOuterJoin_Traveller_LastPlaybacknumber
   name: LeftOuterJoin_Traveller_LastPlaybacknumber
   nameWithType: TravelTransactionLogTableInfo.LeftOuterJoin_Traveller_LastPlaybacknumber
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_Traveller_LastPlaybacknumber
-- uid: SuperOffice.CRM.Data.TravelCurrentTableInfo.LastRecordnumber
-  commentId: P:SuperOffice.CRM.Data.TravelCurrentTableInfo.LastRecordnumber
-  isExternal: true
-  href: SuperOffice.CRM.Data.TravelCurrentTableInfo.html#SuperOffice_CRM_Data_TravelCurrentTableInfo_LastRecordnumber
-  name: LastRecordnumber
-  nameWithType: TravelCurrentTableInfo.LastRecordnumber
-  fullName: SuperOffice.CRM.Data.TravelCurrentTableInfo.LastRecordnumber
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelCurrent_LastRecordnumber*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelCurrent_LastRecordnumber
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_LeftOuterJoin_TravelCurrent_LastRecordnumber
   name: LeftOuterJoin_TravelCurrent_LastRecordnumber
   nameWithType: TravelTransactionLogTableInfo.LeftOuterJoin_TravelCurrent_LastRecordnumber
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelCurrent_LastRecordnumber
@@ -2038,7 +1774,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TravelCurrentTableInfo}
   parent: SuperOffice.Data.SQL
   definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
-  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   name: TargetedLeftOuterJoin<TravelCurrentTableInfo>
   nameWithType: TargetedLeftOuterJoin<TravelCurrentTableInfo>
   fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.TravelCurrentTableInfo>
@@ -2048,38 +1783,40 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Data.TravelCurrentTableInfo
     name: TravelCurrentTableInfo
+    nameWithType: TravelCurrentTableInfo
+    fullName: SuperOffice.CRM.Data.TravelCurrentTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.TravelCurrentTableInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
     name: TargetedLeftOuterJoin
+    nameWithType: TargetedLeftOuterJoin
+    fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin
     isExternal: true
-    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Data.TravelCurrentTableInfo
     name: TravelCurrentTableInfo
+    nameWithType: TravelCurrentTableInfo
+    fullName: SuperOffice.CRM.Data.TravelCurrentTableInfo
     isExternal: true
-    href: SuperOffice.CRM.Data.TravelCurrentTableInfo.html
   - name: )
-- uid: SuperOffice.CRM.Data.TravelCurrentTableInfo.FirstRecordnumber
-  commentId: P:SuperOffice.CRM.Data.TravelCurrentTableInfo.FirstRecordnumber
-  isExternal: true
-  href: SuperOffice.CRM.Data.TravelCurrentTableInfo.html#SuperOffice_CRM_Data_TravelCurrentTableInfo_FirstRecordnumber
-  name: FirstRecordnumber
-  nameWithType: TravelCurrentTableInfo.FirstRecordnumber
-  fullName: SuperOffice.CRM.Data.TravelCurrentTableInfo.FirstRecordnumber
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelCurrent_FirstRecordnumber*
   commentId: Overload:SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelCurrent_FirstRecordnumber
   isExternal: true
-  href: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.html#SuperOffice_CRM_Data_TravelTransactionLogTableInfo_LeftOuterJoin_TravelCurrent_FirstRecordnumber
   name: LeftOuterJoin_TravelCurrent_FirstRecordnumber
   nameWithType: TravelTransactionLogTableInfo.LeftOuterJoin_TravelCurrent_FirstRecordnumber
   fullName: SuperOffice.CRM.Data.TravelTransactionLogTableInfo.LeftOuterJoin_TravelCurrent_FirstRecordnumber

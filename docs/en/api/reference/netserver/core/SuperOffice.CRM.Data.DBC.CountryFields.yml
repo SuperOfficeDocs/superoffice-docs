@@ -42,24 +42,27 @@ items:
   nameWithType: DBC.CountryFields
   fullName: SuperOffice.CRM.Data.DBC.CountryFields
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Fields for Country, Country information
-  example: []
+  summary: "\nFields for Country, Country information\n"
   syntax:
-    content: public static class DBC.CountryFields
-    content.vb: Public Module DBC.CountryFields
+    content: 'public static class CountryFields : Object'
+    content.vb: >-
+      Public Module CountryFields
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.CountryId
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.CountryId
   id: CountryId
@@ -71,16 +74,24 @@ items:
   nameWithType: DBC.CountryFields.CountryId
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.CountryId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.CountryId: Primary key'
-  example: []
+  summary: "\nCountry.CountryId: Primary key\n"
   syntax:
     content: public const string CountryId = "country_id"
     return:
       type: System.String
     content.vb: Public Const CountryId As String = "country_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.Name
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.Name
   id: Name
@@ -92,16 +103,24 @@ items:
   nameWithType: DBC.CountryFields.Name
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.Name
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.Name: Name of country in installed language'
-  example: []
+  summary: "\nCountry.Name: Name of country in installed language\n"
   syntax:
     content: public const string Name = "name"
     return:
       type: System.String
     content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.Rank
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.Rank
   id: Rank
@@ -113,16 +132,24 @@ items:
   nameWithType: DBC.CountryFields.Rank
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.Rank
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.Rank: Rank order'
-  example: []
+  summary: "\nCountry.Rank: Rank order \n"
   syntax:
     content: public const string Rank = "rank"
     return:
       type: System.String
     content.vb: Public Const Rank As String = "rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.Tooltip
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.Tooltip
   id: Tooltip
@@ -134,16 +161,24 @@ items:
   nameWithType: DBC.CountryFields.Tooltip
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.Tooltip
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.Tooltip: Tooltip or other description'
-  example: []
+  summary: "\nCountry.Tooltip: Tooltip or other description\n"
   syntax:
     content: public const string Tooltip = "tooltip"
     return:
       type: System.String
     content.vb: Public Const Tooltip As String = "tooltip"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.Deleted
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.Deleted
   id: Deleted
@@ -155,16 +190,24 @@ items:
   nameWithType: DBC.CountryFields.Deleted
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.Deleted
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "Country.Deleted: 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists"
-  example: []
+  summary: "\nCountry.Deleted: 0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists\n"
   syntax:
     content: public const string Deleted = "deleted"
     return:
       type: System.String
     content.vb: Public Const Deleted As String = "deleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.EnglishName
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.EnglishName
   id: EnglishName
@@ -176,16 +219,24 @@ items:
   nameWithType: DBC.CountryFields.EnglishName
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.EnglishName
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.EnglishName: Name of country in english'
-  example: []
+  summary: "\nCountry.EnglishName: Name of country in english\n"
   syntax:
     content: public const string EnglishName = "english_name"
     return:
       type: System.String
     content.vb: Public Const EnglishName As String = "english_name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.ZipPrefix
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.ZipPrefix
   id: ZipPrefix
@@ -197,16 +248,24 @@ items:
   nameWithType: DBC.CountryFields.ZipPrefix
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.ZipPrefix
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.ZipPrefix: N- DK- etc.'
-  example: []
+  summary: "\nCountry.ZipPrefix: N- DK- etc.\n"
   syntax:
     content: public const string ZipPrefix = "zip_prefix"
     return:
       type: System.String
     content.vb: Public Const ZipPrefix As String = "zip_prefix"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.FlagresId
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.FlagresId
   id: FlagresId
@@ -218,16 +277,24 @@ items:
   nameWithType: DBC.CountryFields.FlagresId
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.FlagresId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.FlagresId: Resource ID of flag graphic'
-  example: []
+  summary: "\nCountry.FlagresId: Resource ID of flag graphic\n"
   syntax:
     content: public const string FlagresId = "flagres_id"
     return:
       type: System.String
     content.vb: Public Const FlagresId As String = "flagres_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.AddressLayout
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.AddressLayout
   id: AddressLayout
@@ -239,16 +306,24 @@ items:
   nameWithType: DBC.CountryFields.AddressLayout
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.AddressLayout
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.AddressLayout: Points to address format used in the GUI'
-  example: []
+  summary: "\nCountry.AddressLayout: Points to address format used in the GUI\n"
   syntax:
     content: public const string AddressLayout = "addressLayout"
     return:
       type: System.String
     content.vb: Public Const AddressLayout As String = "addressLayout"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.AddressLayoutDomestic
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.AddressLayoutDomestic
   id: AddressLayoutDomestic
@@ -260,16 +335,24 @@ items:
   nameWithType: DBC.CountryFields.AddressLayoutDomestic
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.AddressLayoutDomestic
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.AddressLayoutDomestic: Points to address format used for labels to own country'
-  example: []
+  summary: "\nCountry.AddressLayoutDomestic: Points to address format used for labels to own country\n"
   syntax:
     content: public const string AddressLayoutDomestic = "addressLayoutDomestic"
     return:
       type: System.String
     content.vb: Public Const AddressLayoutDomestic As String = "addressLayoutDomestic"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.AddressLayoutForeign
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.AddressLayoutForeign
   id: AddressLayoutForeign
@@ -281,16 +364,24 @@ items:
   nameWithType: DBC.CountryFields.AddressLayoutForeign
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.AddressLayoutForeign
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.AddressLayoutForeign: Points to address format used for labels to other countries than own country'
-  example: []
+  summary: "\nCountry.AddressLayoutForeign: Points to address format used for labels to other countries than own country\n"
   syntax:
     content: public const string AddressLayoutForeign = "addressLayoutForeign"
     return:
       type: System.String
     content.vb: Public Const AddressLayoutForeign As String = "addressLayoutForeign"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.CurrencyId
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.CurrencyId
   id: CurrencyId
@@ -302,16 +393,24 @@ items:
   nameWithType: DBC.CountryFields.CurrencyId
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.CurrencyId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.CurrencyId: Default currency for this country'
-  example: []
+  summary: "\nCountry.CurrencyId: Default currency for this country\n"
   syntax:
     content: public const string CurrencyId = "currency_id"
     return:
       type: System.String
     content.vb: Public Const CurrencyId As String = "currency_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.OrgNrText
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.OrgNrText
   id: OrgNrText
@@ -323,16 +422,24 @@ items:
   nameWithType: DBC.CountryFields.OrgNrText
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.OrgNrText
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.OrgNrText: Lead text for organisation field'
-  example: []
+  summary: "\nCountry.OrgNrText: Lead text for organisation field\n"
   syntax:
     content: public const string OrgNrText = "orgNrText"
     return:
       type: System.String
     content.vb: Public Const OrgNrText As String = "orgNrText"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.DomainName
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.DomainName
   id: DomainName
@@ -344,16 +451,24 @@ items:
   nameWithType: DBC.CountryFields.DomainName
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.DomainName
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.DomainName: Default Web domain identifier (.no, .uk, etc; but without the dot)'
-  example: []
+  summary: "\nCountry.DomainName: Default Web domain identifier (.no, .uk, etc; but without the dot)\n"
   syntax:
     content: public const string DomainName = "domainName"
     return:
       type: System.String
     content.vb: Public Const DomainName As String = "domainName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.Registered
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.Registered
   id: Registered
@@ -365,16 +480,24 @@ items:
   nameWithType: DBC.CountryFields.Registered
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.Registered: Registered when'
-  example: []
+  summary: "\nCountry.Registered: Registered when\n"
   syntax:
     content: public const string Registered = "registered"
     return:
       type: System.String
     content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -386,16 +509,24 @@ items:
   nameWithType: DBC.CountryFields.RegisteredAssociateId
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.RegisteredAssociateId: Registered by whom'
-  example: []
+  summary: "\nCountry.RegisteredAssociateId: Registered by whom\n"
   syntax:
     content: public const string RegisteredAssociateId = "registered_associate_id"
     return:
       type: System.String
     content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.Updated
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.Updated
   id: Updated
@@ -407,16 +538,24 @@ items:
   nameWithType: DBC.CountryFields.Updated
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.Updated: Last updated when'
-  example: []
+  summary: "\nCountry.Updated: Last updated when\n"
   syntax:
     content: public const string Updated = "updated"
     return:
       type: System.String
     content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -428,16 +567,24 @@ items:
   nameWithType: DBC.CountryFields.UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.UpdatedAssociateId: Last updated by whom'
-  example: []
+  summary: "\nCountry.UpdatedAssociateId: Last updated by whom\n"
   syntax:
     content: public const string UpdatedAssociateId = "updated_associate_id"
     return:
       type: System.String
     content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.UpdatedCount
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.UpdatedCount
   id: UpdatedCount
@@ -449,16 +596,24 @@ items:
   nameWithType: DBC.CountryFields.UpdatedCount
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.UpdatedCount: Number of updates made to this record'
-  example: []
+  summary: "\nCountry.UpdatedCount: Number of updates made to this record\n"
   syntax:
     content: public const string UpdatedCount = "updatedCount"
     return:
       type: System.String
     content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.DefaultLcid
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.DefaultLcid
   id: DefaultLcid
@@ -470,16 +625,24 @@ items:
   nameWithType: DBC.CountryFields.DefaultLcid
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.DefaultLcid
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.DefaultLcid: LCID code in .NET, this should be the defaultLcid of the language that has the isDefault flag set in the LanguageInforCountry link table'
-  example: []
+  summary: "\nCountry.DefaultLcid: LCID code in .NET, this should be the defaultLcid of the language that has the isDefault flag set in the LanguageInforCountry link table\n"
   syntax:
     content: public const string DefaultLcid = "defaultLcid"
     return:
       type: System.String
     content.vb: Public Const DefaultLcid As String = "defaultLcid"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.DialInPrefix
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.DialInPrefix
   id: DialInPrefix
@@ -491,16 +654,24 @@ items:
   nameWithType: DBC.CountryFields.DialInPrefix
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.DialInPrefix
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.DialInPrefix: Prefix for dialing into the country from outside (country code)'
-  example: []
+  summary: "\nCountry.DialInPrefix: Prefix for dialing into the country from outside (country code)\n"
   syntax:
     content: public const string DialInPrefix = "dialInPrefix"
     return:
       type: System.String
     content.vb: Public Const DialInPrefix As String = "dialInPrefix"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.DialOutPrefix
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.DialOutPrefix
   id: DialOutPrefix
@@ -512,16 +683,24 @@ items:
   nameWithType: DBC.CountryFields.DialOutPrefix
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.DialOutPrefix
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.DialOutPrefix: Prefix for dialling out of the country, voice call'
-  example: []
+  summary: "\nCountry.DialOutPrefix: Prefix for dialling out of the country, voice call\n"
   syntax:
     content: public const string DialOutPrefix = "dialOutPrefix"
     return:
       type: System.String
     content.vb: Public Const DialOutPrefix As String = "dialOutPrefix"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.InterAreaPrefix
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.InterAreaPrefix
   id: InterAreaPrefix
@@ -533,16 +712,24 @@ items:
   nameWithType: DBC.CountryFields.InterAreaPrefix
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.InterAreaPrefix
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.InterAreaPrefix: Prefix for inter-area dialling in the country'
-  example: []
+  summary: "\nCountry.InterAreaPrefix: Prefix for inter-area dialling in the country\n"
   syntax:
     content: public const string InterAreaPrefix = "interAreaPrefix"
     return:
       type: System.String
     content.vb: Public Const InterAreaPrefix As String = "interAreaPrefix"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.CustomPhoneDesc
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.CustomPhoneDesc
   id: CustomPhoneDesc
@@ -554,16 +741,24 @@ items:
   nameWithType: DBC.CountryFields.CustomPhoneDesc
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.CustomPhoneDesc
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.CustomPhoneDesc: Custom phone description, if any (comes from ISO/ITU documents)'
-  example: []
+  summary: "\nCountry.CustomPhoneDesc: Custom phone description, if any (comes from ISO/ITU documents)\n"
   syntax:
     content: public const string CustomPhoneDesc = "customPhoneDesc"
     return:
       type: System.String
     content.vb: Public Const CustomPhoneDesc As String = "customPhoneDesc"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.PhonePartOfNA
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.PhonePartOfNA
   id: PhonePartOfNA
@@ -575,16 +770,24 @@ items:
   nameWithType: DBC.CountryFields.PhonePartOfNA
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.PhonePartOfNA
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.PhonePartOfNA: Is the phone system part of the North American system'
-  example: []
+  summary: "\nCountry.PhonePartOfNA: Is the phone system part of the North American system\n"
   syntax:
     content: public const string PhonePartOfNA = "phonePartOfNA"
     return:
       type: System.String
     content.vb: Public Const PhonePartOfNA As String = "phonePartOfNA"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.IsBuiltIn
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.IsBuiltIn
   id: IsBuiltIn
@@ -596,16 +799,24 @@ items:
   nameWithType: DBC.CountryFields.IsBuiltIn
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.IsBuiltIn
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.IsBuiltIn: Is this record populated by SuperOffice priming data?'
-  example: []
+  summary: "\nCountry.IsBuiltIn: Is this record populated by SuperOffice priming data?\n"
   syntax:
     content: public const string IsBuiltIn = "isBuiltIn"
     return:
       type: System.String
     content.vb: Public Const IsBuiltIn As String = "isBuiltIn"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.IsoNumber
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.IsoNumber
   id: IsoNumber
@@ -617,16 +828,24 @@ items:
   nameWithType: DBC.CountryFields.IsoNumber
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.IsoNumber
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.IsoNumber: The primary key used by ISO to identify countries when they have a revolution and change their name from Upper Volta to Burkina Faso :-)'
-  example: []
+  summary: "\nCountry.IsoNumber: The primary key used by ISO to identify countries when they have a revolution and change their name from Upper Volta to Burkina Faso :-)\n"
   syntax:
     content: public const string IsoNumber = "isoNumber"
     return:
       type: System.String
     content.vb: Public Const IsoNumber As String = "isoNumber"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.Abbrev3
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.Abbrev3
   id: Abbrev3
@@ -638,16 +857,24 @@ items:
   nameWithType: DBC.CountryFields.Abbrev3
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.Abbrev3
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.Abbrev3: ISO 3-letter abbreviation'
-  example: []
+  summary: "\nCountry.Abbrev3: ISO 3-letter abbreviation\n"
   syntax:
     content: public const string Abbrev3 = "abbrev3"
     return:
       type: System.String
     content.vb: Public Const Abbrev3 As String = "abbrev3"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.Abbrev2
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.Abbrev2
   id: Abbrev2
@@ -659,16 +886,24 @@ items:
   nameWithType: DBC.CountryFields.Abbrev2
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.Abbrev2
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.Abbrev2: ISO 2-letter abbreviation'
-  example: []
+  summary: "\nCountry.Abbrev2: ISO 2-letter abbreviation\n"
   syntax:
     content: public const string Abbrev2 = "abbrev2"
     return:
       type: System.String
     content.vb: Public Const Abbrev2 As String = "abbrev2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.Data.DBC.CountryFields.TzLocationId
   commentId: F:SuperOffice.CRM.Data.DBC.CountryFields.TzLocationId
   id: TzLocationId
@@ -680,288 +915,41 @@ items:
   nameWithType: DBC.CountryFields.TzLocationId
   fullName: SuperOffice.CRM.Data.DBC.CountryFields.TzLocationId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Country.TzLocationId: Default timezone location for this country'
-  example: []
+  summary: "\nCountry.TzLocationId: Default timezone location for this country\n"
   syntax:
     content: public const string TzLocationId = "tzLocationId"
     return:
       type: System.String
     content.vb: Public Const TzLocationId As String = "tzLocationId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data
   nameWithType: SuperOffice.CRM.Data
   fullName: SuperOffice.CRM.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -969,10 +957,6 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String

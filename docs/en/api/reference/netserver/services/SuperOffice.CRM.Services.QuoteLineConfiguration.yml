@@ -14,9 +14,9 @@ items:
   - SuperOffice.CRM.Services.QuoteLineConfiguration.QuoteLineConfigurationId
   - SuperOffice.CRM.Services.QuoteLineConfiguration.Rank
   - SuperOffice.CRM.Services.QuoteLineConfiguration.RestrictEdit
+  - SuperOffice.CRM.Services.QuoteLineConfiguration.Tooltip
   - SuperOffice.CRM.Services.QuoteLineConfiguration.ToString
   - SuperOffice.CRM.Services.QuoteLineConfiguration.ToString(System.String)
-  - SuperOffice.CRM.Services.QuoteLineConfiguration.Tooltip
   langs:
   - csharp
   - vb
@@ -24,27 +24,18 @@ items:
   nameWithType: QuoteLineConfiguration
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    QuoteLineConfiguration contains information about which configuration fields that is visible in the GUI. Read only and mandatory fields are also specified.
-
-    <p></p>
-
-    Carrier object for QuoteLineConfiguration.
-
-    Services for the QuoteLineConfiguration Carrier is available from the <xref href="SuperOffice.CRM.Services.IQuoteAgent?text=Quote+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nQuoteLineConfiguration contains information about which configuration fields that is visible in the GUI. Read only and mandatory fields are also specified.\n<p></p>\nCarrier object for QuoteLineConfiguration.\nServices for the QuoteLineConfiguration Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IQuoteAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class QuoteLineConfiguration : Carrier
+    content: 'public class QuoteLineConfiguration : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class QuoteLineConfiguration Inherits Carrier
+      Public Class QuoteLineConfiguration
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.QuoteAgent
     commentId: T:SuperOffice.CRM.Services.QuoteAgent
@@ -52,14 +43,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.#ctor
   commentId: M:SuperOffice.CRM.Services.QuoteLineConfiguration.#ctor
   id: '#ctor'
@@ -71,18 +60,21 @@ items:
   nameWithType: QuoteLineConfiguration.QuoteLineConfiguration()
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.QuoteLineConfiguration()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public QuoteLineConfiguration()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.QuoteLineConfiguration.#ctor*
-  nameWithType.vb: QuoteLineConfiguration.New()
-  fullName.vb: SuperOffice.CRM.Services.QuoteLineConfiguration.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.ToString
   commentId: M:SuperOffice.CRM.Services.QuoteLineConfiguration.ToString
   id: ToString
@@ -94,18 +86,26 @@ items:
   nameWithType: QuoteLineConfiguration.ToString()
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.QuoteLineConfiguration.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.QuoteLineConfiguration.ToString(System.String)
   id: ToString(System.String)
@@ -113,18 +113,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: QuoteLineConfiguration.ToString(string)
-  fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.ToString(string)
+  name: ToString(String)
+  nameWithType: QuoteLineConfiguration.ToString(String)
+  fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -136,9 +135,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.QuoteLineConfiguration.ToString*
-  nameWithType.vb: QuoteLineConfiguration.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.QuoteLineConfiguration.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.QuoteLineConfigurationId
   commentId: P:SuperOffice.CRM.Services.QuoteLineConfiguration.QuoteLineConfigurationId
   id: QuoteLineConfigurationId
@@ -150,28 +150,28 @@ items:
   nameWithType: QuoteLineConfiguration.QuoteLineConfigurationId
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.QuoteLineConfigurationId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int QuoteLineConfigurationId { get; set; }
+    content: public virtual int QuoteLineConfigurationId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property QuoteLineConfigurationId As Integer
+    content.vb: Public Overridable Property QuoteLineConfigurationId As Integer
   overload: SuperOffice.CRM.Services.QuoteLineConfiguration.QuoteLineConfigurationId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.FieldName
   commentId: P:SuperOffice.CRM.Services.QuoteLineConfiguration.FieldName
   id: FieldName
@@ -183,28 +183,28 @@ items:
   nameWithType: QuoteLineConfiguration.FieldName
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.FieldName
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The name of the field being configured, from data dictionary
-  example: []
+  summary: "\nThe name of the field being configured, from data dictionary \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string FieldName { get; set; }
+    content: public virtual string FieldName { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property FieldName As String
+    content.vb: Public Overridable Property FieldName As String
   overload: SuperOffice.CRM.Services.QuoteLineConfiguration.FieldName*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.Label
   commentId: P:SuperOffice.CRM.Services.QuoteLineConfiguration.Label
   id: Label
@@ -216,28 +216,28 @@ items:
   nameWithType: QuoteLineConfiguration.Label
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.Label
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Label resource string.
-  example: []
+  summary: "\nLabel resource string. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Label { get; set; }
+    content: public virtual string Label { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Label As String
+    content.vb: Public Overridable Property Label As String
   overload: SuperOffice.CRM.Services.QuoteLineConfiguration.Label*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.Tooltip
   commentId: P:SuperOffice.CRM.Services.QuoteLineConfiguration.Tooltip
   id: Tooltip
@@ -249,28 +249,28 @@ items:
   nameWithType: QuoteLineConfiguration.Tooltip
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.Tooltip
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Tooltip resource string.
-  example: []
+  summary: "\nTooltip resource string. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Tooltip { get; set; }
+    content: public virtual string Tooltip { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Tooltip As String
+    content.vb: Public Overridable Property Tooltip As String
   overload: SuperOffice.CRM.Services.QuoteLineConfiguration.Tooltip*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.Editable
   commentId: P:SuperOffice.CRM.Services.QuoteLineConfiguration.Editable
   id: Editable
@@ -282,28 +282,28 @@ items:
   nameWithType: QuoteLineConfiguration.Editable
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.Editable
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Is this a read only field?
-  example: []
+  summary: "\nIs this a read only field? \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool Editable { get; set; }
+    content: public virtual bool Editable { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Editable As Boolean
+    content.vb: Public Overridable Property Editable As Boolean
   overload: SuperOffice.CRM.Services.QuoteLineConfiguration.Editable*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.InUse
   commentId: P:SuperOffice.CRM.Services.QuoteLineConfiguration.InUse
   id: InUse
@@ -315,28 +315,28 @@ items:
   nameWithType: QuoteLineConfiguration.InUse
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.InUse
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Should this field be displayed in the GUI?
-  example: []
+  summary: "\nShould this field be displayed in the GUI? \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool InUse { get; set; }
+    content: public virtual bool InUse { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property InUse As Boolean
+    content.vb: Public Overridable Property InUse As Boolean
   overload: SuperOffice.CRM.Services.QuoteLineConfiguration.InUse*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.Mandatory
   commentId: P:SuperOffice.CRM.Services.QuoteLineConfiguration.Mandatory
   id: Mandatory
@@ -348,28 +348,28 @@ items:
   nameWithType: QuoteLineConfiguration.Mandatory
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.Mandatory
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Is this a mandatory field?
-  example: []
+  summary: "\nIs this a mandatory field? \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool Mandatory { get; set; }
+    content: public virtual bool Mandatory { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Mandatory As Boolean
+    content.vb: Public Overridable Property Mandatory As Boolean
   overload: SuperOffice.CRM.Services.QuoteLineConfiguration.Mandatory*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.Rank
   commentId: P:SuperOffice.CRM.Services.QuoteLineConfiguration.Rank
   id: Rank
@@ -381,28 +381,28 @@ items:
   nameWithType: QuoteLineConfiguration.Rank
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.Rank
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Rank of the field
-  example: []
+  summary: "\nRank of the field \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int Rank { get; set; }
+    content: public virtual int Rank { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Rank As Integer
+    content.vb: Public Overridable Property Rank As Integer
   overload: SuperOffice.CRM.Services.QuoteLineConfiguration.Rank*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.RestrictEdit
   commentId: P:SuperOffice.CRM.Services.QuoteLineConfiguration.RestrictEdit
   id: RestrictEdit
@@ -414,33 +414,38 @@ items:
   nameWithType: QuoteLineConfiguration.RestrictEdit
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.RestrictEdit
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: "If true, then this field cannot be set readwrite or mandatory: It's bound to be readonly"
-  example: []
+  summary: "\nIf true, then this field cannot be set readwrite or mandatory: It&apos;s bound to be readonly \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool RestrictEdit { get; set; }
+    content: public virtual bool RestrictEdit { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property RestrictEdit As Boolean
+    content.vb: Public Overridable Property RestrictEdit As Boolean
   overload: SuperOffice.CRM.Services.QuoteLineConfiguration.RestrictEdit*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.QuoteAgent
   commentId: T:SuperOffice.CRM.Services.QuoteAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteAgent.html
   name: QuoteAgent
   nameWithType: QuoteAgent
   fullName: SuperOffice.CRM.Services.QuoteAgent
@@ -448,79 +453,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IQuoteAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IQuoteAgent.html
   name: IQuoteAgent
   nameWithType: IQuoteAgent
   fullName: SuperOffice.CRM.Services.IQuoteAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.QuoteLineConfiguration.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteLineConfiguration.html#SuperOffice_CRM_Services_QuoteLineConfiguration__ctor
   name: QuoteLineConfiguration
   nameWithType: QuoteLineConfiguration.QuoteLineConfiguration
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.QuoteLineConfiguration
-  nameWithType.vb: QuoteLineConfiguration.New
-  fullName.vb: SuperOffice.CRM.Services.QuoteLineConfiguration.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.ToString*
   commentId: Overload:SuperOffice.CRM.Services.QuoteLineConfiguration.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteLineConfiguration.html#SuperOffice_CRM_Services_QuoteLineConfiguration_ToString
   name: ToString
   nameWithType: QuoteLineConfiguration.ToString
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.ToString
@@ -528,17 +472,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.QuoteLineConfigurationId*
   commentId: Overload:SuperOffice.CRM.Services.QuoteLineConfiguration.QuoteLineConfigurationId
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteLineConfiguration.html#SuperOffice_CRM_Services_QuoteLineConfiguration_QuoteLineConfigurationId
   name: QuoteLineConfigurationId
   nameWithType: QuoteLineConfiguration.QuoteLineConfigurationId
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.QuoteLineConfigurationId
@@ -546,38 +491,30 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.FieldName*
   commentId: Overload:SuperOffice.CRM.Services.QuoteLineConfiguration.FieldName
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteLineConfiguration.html#SuperOffice_CRM_Services_QuoteLineConfiguration_FieldName
   name: FieldName
   nameWithType: QuoteLineConfiguration.FieldName
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.FieldName
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.Label*
   commentId: Overload:SuperOffice.CRM.Services.QuoteLineConfiguration.Label
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteLineConfiguration.html#SuperOffice_CRM_Services_QuoteLineConfiguration_Label
   name: Label
   nameWithType: QuoteLineConfiguration.Label
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.Label
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.Tooltip*
   commentId: Overload:SuperOffice.CRM.Services.QuoteLineConfiguration.Tooltip
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteLineConfiguration.html#SuperOffice_CRM_Services_QuoteLineConfiguration_Tooltip
   name: Tooltip
   nameWithType: QuoteLineConfiguration.Tooltip
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.Tooltip
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.Editable*
   commentId: Overload:SuperOffice.CRM.Services.QuoteLineConfiguration.Editable
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteLineConfiguration.html#SuperOffice_CRM_Services_QuoteLineConfiguration_Editable
   name: Editable
   nameWithType: QuoteLineConfiguration.Editable
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.Editable
@@ -585,38 +522,30 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.InUse*
   commentId: Overload:SuperOffice.CRM.Services.QuoteLineConfiguration.InUse
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteLineConfiguration.html#SuperOffice_CRM_Services_QuoteLineConfiguration_InUse
   name: InUse
   nameWithType: QuoteLineConfiguration.InUse
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.InUse
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.Mandatory*
   commentId: Overload:SuperOffice.CRM.Services.QuoteLineConfiguration.Mandatory
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteLineConfiguration.html#SuperOffice_CRM_Services_QuoteLineConfiguration_Mandatory
   name: Mandatory
   nameWithType: QuoteLineConfiguration.Mandatory
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.Mandatory
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.Rank*
   commentId: Overload:SuperOffice.CRM.Services.QuoteLineConfiguration.Rank
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteLineConfiguration.html#SuperOffice_CRM_Services_QuoteLineConfiguration_Rank
   name: Rank
   nameWithType: QuoteLineConfiguration.Rank
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.Rank
 - uid: SuperOffice.CRM.Services.QuoteLineConfiguration.RestrictEdit*
   commentId: Overload:SuperOffice.CRM.Services.QuoteLineConfiguration.RestrictEdit
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteLineConfiguration.html#SuperOffice_CRM_Services_QuoteLineConfiguration_RestrictEdit
   name: RestrictEdit
   nameWithType: QuoteLineConfiguration.RestrictEdit
   fullName: SuperOffice.CRM.Services.QuoteLineConfiguration.RestrictEdit

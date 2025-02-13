@@ -20,99 +20,25 @@ references:
 - uid: SuperOffice.CRM.AI.CategoryGuessing
   commentId: T:SuperOffice.CRM.AI.CategoryGuessing
   isExternal: true
-  href: SuperOffice.CRM.AI.CategoryGuessing.html
   name: CategoryGuessing
   nameWithType: CategoryGuessing
   fullName: SuperOffice.CRM.AI.CategoryGuessing
 - uid: SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem
   commentId: T:SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem
   isExternal: true
-  href: SuperOffice.CRM.AI.CategoryGuessing.html
   name: CategoryGuessing.CategorizationTrainingItem
   nameWithType: CategoryGuessing.CategorizationTrainingItem
   fullName: SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem
-  spec.csharp:
-  - uid: SuperOffice.CRM.AI.CategoryGuessing
-    name: CategoryGuessing
-    isExternal: true
-    href: SuperOffice.CRM.AI.CategoryGuessing.html
-  - name: .
-  - uid: SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem
-    name: CategorizationTrainingItem
-    isExternal: true
-    href: SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem.html
-  spec.vb:
-  - uid: SuperOffice.CRM.AI.CategoryGuessing
-    name: CategoryGuessing
-    isExternal: true
-    href: SuperOffice.CRM.AI.CategoryGuessing.html
-  - name: .
-  - uid: SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem
-    name: CategorizationTrainingItem
-    isExternal: true
-    href: SuperOffice.CRM.AI.CategoryGuessing.CategorizationTrainingItem.html
 - uid: SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem
   commentId: T:SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem
   parent: SuperOffice.CRM.AI
   isExternal: true
-  href: SuperOffice.CRM.AI.CategoryGuessing.html
   name: CategoryGuessing.CategorizationRequestItem
   nameWithType: CategoryGuessing.CategorizationRequestItem
   fullName: SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem
-  spec.csharp:
-  - uid: SuperOffice.CRM.AI.CategoryGuessing
-    name: CategoryGuessing
-    isExternal: true
-    href: SuperOffice.CRM.AI.CategoryGuessing.html
-  - name: .
-  - uid: SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem
-    name: CategorizationRequestItem
-    isExternal: true
-    href: SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem.html
-  spec.vb:
-  - uid: SuperOffice.CRM.AI.CategoryGuessing
-    name: CategoryGuessing
-    isExternal: true
-    href: SuperOffice.CRM.AI.CategoryGuessing.html
-  - name: .
-  - uid: SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem
-    name: CategorizationRequestItem
-    isExternal: true
-    href: SuperOffice.CRM.AI.CategoryGuessing.CategorizationRequestItem.html
 - uid: SuperOffice.CRM.AI
   commentId: N:SuperOffice.CRM.AI
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.AI
   nameWithType: SuperOffice.CRM.AI
   fullName: SuperOffice.CRM.AI
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.AI
-    name: AI
-    isExternal: true
-    href: SuperOffice.CRM.AI.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.AI
-    name: AI
-    isExternal: true
-    href: SuperOffice.CRM.AI.html

@@ -11,44 +11,67 @@ items:
   - SuperOffice.Data.NotificationPlatform.Google
   - SuperOffice.Data.NotificationPlatform.GoogleDeveloper
   - SuperOffice.Data.NotificationPlatform.Microsoft
+  - SuperOffice.Data.NotificationPlatform.value__
   langs:
   - csharp
   - vb
   name: NotificationPlatform
   nameWithType: NotificationPlatform
   fullName: SuperOffice.Data.NotificationPlatform
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: >-
-    Value for field 'DevicePlatform' in table 'PushNotificationService'
-
-    This Enum is used by:  PushNotificationService.DevicePlatform
-  example: []
+  summary: "\nValue for field &apos;DevicePlatform&apos; in table &apos;PushNotificationService&apos;\nThis Enum is used by:  PushNotificationService.DevicePlatform\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum NotificationPlatform : short
+    content: 'public sealed class NotificationPlatform : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class NotificationPlatform
+          Inherits
 
-      Public Enum NotificationPlatform As Short
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.NotificationPlatform.EnumUtil.MapEnums``2
   - SuperOffice.Data.NotificationPlatform.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.NotificationPlatform.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.NotificationPlatform)
-  - SuperOffice.Data.NotificationPlatform.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.NotificationPlatform.value__
+  commentId: F:SuperOffice.Data.NotificationPlatform.value__
+  id: value__
+  parent: SuperOffice.Data.NotificationPlatform
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: NotificationPlatform.value__
+  fullName: SuperOffice.Data.NotificationPlatform.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.NotificationPlatform.Apple
   commentId: F:SuperOffice.Data.NotificationPlatform.Apple
   id: Apple
@@ -60,26 +83,24 @@ items:
   nameWithType: NotificationPlatform.Apple
   fullName: SuperOffice.Data.NotificationPlatform.Apple
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: Device is by Apple'
-  example: []
+  summary: "\n0: Device is by Apple\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Apple = 0
+    content: public const NotificationPlatform Apple
     return:
       type: SuperOffice.Data.NotificationPlatform
-    content.vb: >-
-      <EnumMember>
-
-      Apple = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Apple As NotificationPlatform
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.NotificationPlatform.Google
   commentId: F:SuperOffice.Data.NotificationPlatform.Google
   id: Google
@@ -91,26 +112,24 @@ items:
   nameWithType: NotificationPlatform.Google
   fullName: SuperOffice.Data.NotificationPlatform.Google
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Device is by Google'
-  example: []
+  summary: "\n1: Device is by Google\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Google = 1
+    content: public const NotificationPlatform Google
     return:
       type: SuperOffice.Data.NotificationPlatform
-    content.vb: >-
-      <EnumMember>
-
-      Google = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Google As NotificationPlatform
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.NotificationPlatform.Microsoft
   commentId: F:SuperOffice.Data.NotificationPlatform.Microsoft
   id: Microsoft
@@ -122,26 +141,24 @@ items:
   nameWithType: NotificationPlatform.Microsoft
   fullName: SuperOffice.Data.NotificationPlatform.Microsoft
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: Device is by Microsoft'
-  example: []
+  summary: "\n2: Device is by Microsoft\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Microsoft = 2
+    content: public const NotificationPlatform Microsoft
     return:
       type: SuperOffice.Data.NotificationPlatform
-    content.vb: >-
-      <EnumMember>
-
-      Microsoft = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Microsoft As NotificationPlatform
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.NotificationPlatform.AppleDeveloper
   commentId: F:SuperOffice.Data.NotificationPlatform.AppleDeveloper
   id: AppleDeveloper
@@ -153,26 +170,24 @@ items:
   nameWithType: NotificationPlatform.AppleDeveloper
   fullName: SuperOffice.Data.NotificationPlatform.AppleDeveloper
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '3: Device is by Apple, used for development and debugging'
-  example: []
+  summary: "\n3: Device is by Apple, used for development and debugging\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AppleDeveloper = 3
+    content: public const NotificationPlatform AppleDeveloper
     return:
       type: SuperOffice.Data.NotificationPlatform
-    content.vb: >-
-      <EnumMember>
-
-      AppleDeveloper = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AppleDeveloper As NotificationPlatform
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.NotificationPlatform.AppleAdHoc
   commentId: F:SuperOffice.Data.NotificationPlatform.AppleAdHoc
   id: AppleAdHoc
@@ -184,26 +199,24 @@ items:
   nameWithType: NotificationPlatform.AppleAdHoc
   fullName: SuperOffice.Data.NotificationPlatform.AppleAdHoc
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '4: Device is by Apple, used for testing'
-  example: []
+  summary: "\n4: Device is by Apple, used for testing\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AppleAdHoc = 4
+    content: public const NotificationPlatform AppleAdHoc
     return:
       type: SuperOffice.Data.NotificationPlatform
-    content.vb: >-
-      <EnumMember>
-
-      AppleAdHoc = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AppleAdHoc As NotificationPlatform
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.NotificationPlatform.GoogleDeveloper
   commentId: F:SuperOffice.Data.NotificationPlatform.GoogleDeveloper
   id: GoogleDeveloper
@@ -215,300 +228,115 @@ items:
   nameWithType: NotificationPlatform.GoogleDeveloper
   fullName: SuperOffice.Data.NotificationPlatform.GoogleDeveloper
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '5: Device is by Google, used for testing, development and debugging'
-  example: []
+  summary: "\n5: Device is by Google, used for testing, development and debugging\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      GoogleDeveloper = 5
+    content: public const NotificationPlatform GoogleDeveloper
     return:
       type: SuperOffice.Data.NotificationPlatform
-    content.vb: >-
-      <EnumMember>
-
-      GoogleDeveloper = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const GoogleDeveloper As NotificationPlatform
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.NotificationPlatform.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<NotificationPlatform, To>(NotificationPlatform)
-  nameWithType: EnumUtil.MapEnums<NotificationPlatform, To>(NotificationPlatform)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.NotificationPlatform, To>(SuperOffice.Data.NotificationPlatform)
-  nameWithType.vb: EnumUtil.MapEnums(Of NotificationPlatform, To)(NotificationPlatform)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.NotificationPlatform, To)(SuperOffice.Data.NotificationPlatform)
-  name.vb: MapEnums(Of NotificationPlatform, To)(NotificationPlatform)
+  name: MapEnums<NotificationPlatform, To>()
+  nameWithType: EnumUtil.MapEnums<NotificationPlatform, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.NotificationPlatform, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of NotificationPlatform, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.NotificationPlatform, To)()
+  name.vb: MapEnums(Of NotificationPlatform, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.NotificationPlatform)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<NotificationPlatform, To>
+    nameWithType: EnumUtil.MapEnums<NotificationPlatform, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.NotificationPlatform, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.NotificationPlatform
-    name: NotificationPlatform
-    isExternal: true
-    href: SuperOffice.Data.NotificationPlatform.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.NotificationPlatform
-    name: NotificationPlatform
-    isExternal: true
-    href: SuperOffice.Data.NotificationPlatform.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.NotificationPlatform)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of NotificationPlatform, To)
+    nameWithType: EnumUtil.MapEnums(Of NotificationPlatform, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.NotificationPlatform, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.NotificationPlatform
-    name: NotificationPlatform
-    isExternal: true
-    href: SuperOffice.Data.NotificationPlatform.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.NotificationPlatform
-    name: NotificationPlatform
-    isExternal: true
-    href: SuperOffice.Data.NotificationPlatform.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.NotificationPlatform.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<NotificationPlatform, To>(NotificationPlatform)
-  nameWithType: Converters.MapEnums<NotificationPlatform, To>(NotificationPlatform)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.NotificationPlatform, To>(SuperOffice.Data.NotificationPlatform)
-  nameWithType.vb: Converters.MapEnums(Of NotificationPlatform, To)(NotificationPlatform)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.NotificationPlatform, To)(SuperOffice.Data.NotificationPlatform)
-  name.vb: MapEnums(Of NotificationPlatform, To)(NotificationPlatform)
+  name: MapEnums<NotificationPlatform, To>()
+  nameWithType: Converters.MapEnums<NotificationPlatform, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.NotificationPlatform, To>()
+  nameWithType.vb: Converters.MapEnums(Of NotificationPlatform, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.NotificationPlatform, To)()
+  name.vb: MapEnums(Of NotificationPlatform, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.NotificationPlatform)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<NotificationPlatform, To>
+    nameWithType: Converters.MapEnums<NotificationPlatform, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.NotificationPlatform, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.NotificationPlatform
-    name: NotificationPlatform
-    isExternal: true
-    href: SuperOffice.Data.NotificationPlatform.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.NotificationPlatform
-    name: NotificationPlatform
-    isExternal: true
-    href: SuperOffice.Data.NotificationPlatform.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.NotificationPlatform)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of NotificationPlatform, To)
+    nameWithType: Converters.MapEnums(Of NotificationPlatform, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.NotificationPlatform, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.NotificationPlatform
-    name: NotificationPlatform
-    isExternal: true
-    href: SuperOffice.Data.NotificationPlatform.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.NotificationPlatform
-    name: NotificationPlatform
-    isExternal: true
-    href: SuperOffice.Data.NotificationPlatform.html
-  - name: )
-- uid: SuperOffice.Data.NotificationPlatform.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.NotificationPlatform)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<NotificationPlatform>(NotificationPlatform, NotificationPlatform)
-  nameWithType: ObjectExtensions.AssignByReflection<NotificationPlatform>(NotificationPlatform, NotificationPlatform)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.NotificationPlatform>(SuperOffice.Data.NotificationPlatform, SuperOffice.Data.NotificationPlatform)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of NotificationPlatform)(NotificationPlatform, NotificationPlatform)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.NotificationPlatform)(SuperOffice.Data.NotificationPlatform, SuperOffice.Data.NotificationPlatform)
-  name.vb: AssignByReflection(Of NotificationPlatform)(NotificationPlatform, NotificationPlatform)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.NotificationPlatform,SuperOffice.Data.NotificationPlatform)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.NotificationPlatform
-    name: NotificationPlatform
-    isExternal: true
-    href: SuperOffice.Data.NotificationPlatform.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.NotificationPlatform
-    name: NotificationPlatform
-    isExternal: true
-    href: SuperOffice.Data.NotificationPlatform.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.NotificationPlatform
-    name: NotificationPlatform
-    isExternal: true
-    href: SuperOffice.Data.NotificationPlatform.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.NotificationPlatform,SuperOffice.Data.NotificationPlatform)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.NotificationPlatform
-    name: NotificationPlatform
-    isExternal: true
-    href: SuperOffice.Data.NotificationPlatform.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.NotificationPlatform
-    name: NotificationPlatform
-    isExternal: true
-    href: SuperOffice.Data.NotificationPlatform.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.NotificationPlatform
-    name: NotificationPlatform
-    isExternal: true
-    href: SuperOffice.Data.NotificationPlatform.html
-  - name: )
-- uid: SuperOffice.Data.NotificationPlatform.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<NotificationPlatform>(NotificationPlatform)
-  nameWithType: ObjectExtensions.GraphCopy<NotificationPlatform>(NotificationPlatform)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.NotificationPlatform>(SuperOffice.Data.NotificationPlatform)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of NotificationPlatform)(NotificationPlatform)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.NotificationPlatform)(SuperOffice.Data.NotificationPlatform)
-  name.vb: GraphCopy(Of NotificationPlatform)(NotificationPlatform)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.NotificationPlatform)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.NotificationPlatform
-    name: NotificationPlatform
-    isExternal: true
-    href: SuperOffice.Data.NotificationPlatform.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.NotificationPlatform
-    name: NotificationPlatform
-    isExternal: true
-    href: SuperOffice.Data.NotificationPlatform.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.NotificationPlatform)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.NotificationPlatform
-    name: NotificationPlatform
-    isExternal: true
-    href: SuperOffice.Data.NotificationPlatform.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.NotificationPlatform
-    name: NotificationPlatform
-    isExternal: true
-    href: SuperOffice.Data.NotificationPlatform.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -517,45 +345,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -564,222 +390,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.NotificationPlatform
   commentId: T:SuperOffice.Data.NotificationPlatform
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.NotificationPlatform.html
   name: NotificationPlatform
   nameWithType: NotificationPlatform
   fullName: SuperOffice.Data.NotificationPlatform

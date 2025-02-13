@@ -19,42 +19,67 @@ items:
   - SuperOffice.Data.ShipmentLinkAction.RemovePersonInterest
   - SuperOffice.Data.ShipmentLinkAction.SetContactInterest
   - SuperOffice.Data.ShipmentLinkAction.SetPersonInterest
+  - SuperOffice.Data.ShipmentLinkAction.value__
   langs:
   - csharp
   - vb
   name: ShipmentLinkAction
   nameWithType: ShipmentLinkAction
   fullName: SuperOffice.Data.ShipmentLinkAction
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: >-
-    Bitmask defining what action should be taken
-
-    This Enum is used by:  s_link.action_flags
-
-    This Enum consists of flag values that can be combined.
-  example: []
+  summary: "\nBitmask defining what action should be taken\nThis Enum is used by:  s_link.action_flags\nThis Enum consists of flag values that can be combined.\n"
   syntax:
-    content: >-
-      [Flags]
-
-      public enum ShipmentLinkAction : short
+    content: 'public sealed class ShipmentLinkAction : Enum'
     content.vb: >-
-      <Flags>
+      Public NotInheritable Class ShipmentLinkAction
+          Inherits
 
-      Public Enum ShipmentLinkAction As Short
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.ShipmentLinkAction.EnumUtil.MapEnums``2
   - SuperOffice.Data.ShipmentLinkAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.ShipmentLinkAction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ShipmentLinkAction)
-  - SuperOffice.Data.ShipmentLinkAction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.FlagsAttribute
-    ctor: System.FlagsAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.ShipmentLinkAction.value__
+  commentId: F:SuperOffice.Data.ShipmentLinkAction.value__
+  id: value__
+  parent: SuperOffice.Data.ShipmentLinkAction
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ShipmentLinkAction.value__
+  fullName: SuperOffice.Data.ShipmentLinkAction.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.ShipmentLinkAction.None
   commentId: F:SuperOffice.Data.ShipmentLinkAction.None
   id: None
@@ -66,15 +91,24 @@ items:
   nameWithType: ShipmentLinkAction.None
   fullName: SuperOffice.Data.ShipmentLinkAction.None
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0: No action'
-  example: []
+  summary: "\n0: No action\n"
   syntax:
-    content: None = 0
+    content: public const ShipmentLinkAction None
     return:
       type: SuperOffice.Data.ShipmentLinkAction
+    content.vb: Public Const None As ShipmentLinkAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ShipmentLinkAction.SetPersonInterest
   commentId: F:SuperOffice.Data.ShipmentLinkAction.SetPersonInterest
   id: SetPersonInterest
@@ -86,15 +120,24 @@ items:
   nameWithType: ShipmentLinkAction.SetPersonInterest
   fullName: SuperOffice.Data.ShipmentLinkAction.SetPersonInterest
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1: Set an interest on the recipient-who-is-a-person'
-  example: []
+  summary: "\n1: Set an interest on the recipient-who-is-a-person\n"
   syntax:
-    content: SetPersonInterest = 1
+    content: public const ShipmentLinkAction SetPersonInterest
     return:
       type: SuperOffice.Data.ShipmentLinkAction
+    content.vb: Public Const SetPersonInterest As ShipmentLinkAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ShipmentLinkAction.RemovePersonInterest
   commentId: F:SuperOffice.Data.ShipmentLinkAction.RemovePersonInterest
   id: RemovePersonInterest
@@ -106,15 +149,24 @@ items:
   nameWithType: ShipmentLinkAction.RemovePersonInterest
   fullName: SuperOffice.Data.ShipmentLinkAction.RemovePersonInterest
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: Remove an interest from the recipient-who-is-a-person'
-  example: []
+  summary: "\n2: Remove an interest from the recipient-who-is-a-person\n"
   syntax:
-    content: RemovePersonInterest = 2
+    content: public const ShipmentLinkAction RemovePersonInterest
     return:
       type: SuperOffice.Data.ShipmentLinkAction
+    content.vb: Public Const RemovePersonInterest As ShipmentLinkAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ShipmentLinkAction.SetContactInterest
   commentId: F:SuperOffice.Data.ShipmentLinkAction.SetContactInterest
   id: SetContactInterest
@@ -126,15 +178,24 @@ items:
   nameWithType: ShipmentLinkAction.SetContactInterest
   fullName: SuperOffice.Data.ShipmentLinkAction.SetContactInterest
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '4: Set an interest on the recipient-who-is-a-contact'
-  example: []
+  summary: "\n4: Set an interest on the recipient-who-is-a-contact\n"
   syntax:
-    content: SetContactInterest = 4
+    content: public const ShipmentLinkAction SetContactInterest
     return:
       type: SuperOffice.Data.ShipmentLinkAction
+    content.vb: Public Const SetContactInterest As ShipmentLinkAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ShipmentLinkAction.RemoveContactInterest
   commentId: F:SuperOffice.Data.ShipmentLinkAction.RemoveContactInterest
   id: RemoveContactInterest
@@ -146,15 +207,24 @@ items:
   nameWithType: ShipmentLinkAction.RemoveContactInterest
   fullName: SuperOffice.Data.ShipmentLinkAction.RemoveContactInterest
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '8: Remove an interest from the recipient-who-is-a-contact'
-  example: []
+  summary: "\n8: Remove an interest from the recipient-who-is-a-contact\n"
   syntax:
-    content: RemoveContactInterest = 8
+    content: public const ShipmentLinkAction RemoveContactInterest
     return:
       type: SuperOffice.Data.ShipmentLinkAction
+    content.vb: Public Const RemoveContactInterest As ShipmentLinkAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ShipmentLinkAction.AddToSmSelection
   commentId: F:SuperOffice.Data.ShipmentLinkAction.AddToSmSelection
   id: AddToSmSelection
@@ -166,15 +236,24 @@ items:
   nameWithType: ShipmentLinkAction.AddToSmSelection
   fullName: SuperOffice.Data.ShipmentLinkAction.AddToSmSelection
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '16: Add person id of recipient to a static S&amp;M selection'
-  example: []
+  summary: "\n16: Add person id of recipient to a static S&amp;M selection\n"
   syntax:
-    content: AddToSmSelection = 16
+    content: public const ShipmentLinkAction AddToSmSelection
     return:
       type: SuperOffice.Data.ShipmentLinkAction
+    content.vb: Public Const AddToSmSelection As ShipmentLinkAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ShipmentLinkAction.RemoveFromSmSelection
   commentId: F:SuperOffice.Data.ShipmentLinkAction.RemoveFromSmSelection
   id: RemoveFromSmSelection
@@ -186,15 +265,24 @@ items:
   nameWithType: ShipmentLinkAction.RemoveFromSmSelection
   fullName: SuperOffice.Data.ShipmentLinkAction.RemoveFromSmSelection
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '32: Remove person id of recipient from a static S&amp;M selection'
-  example: []
+  summary: "\n32: Remove person id of recipient from a static S&amp;M selection\n"
   syntax:
-    content: RemoveFromSmSelection = 32
+    content: public const ShipmentLinkAction RemoveFromSmSelection
     return:
       type: SuperOffice.Data.ShipmentLinkAction
+    content.vb: Public Const RemoveFromSmSelection As ShipmentLinkAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ShipmentLinkAction.AddToSmProject
   commentId: F:SuperOffice.Data.ShipmentLinkAction.AddToSmProject
   id: AddToSmProject
@@ -206,15 +294,24 @@ items:
   nameWithType: ShipmentLinkAction.AddToSmProject
   fullName: SuperOffice.Data.ShipmentLinkAction.AddToSmProject
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '64: Add person id of recipient as a member of an S&amp;M project'
-  example: []
+  summary: "\n64: Add person id of recipient as a member of an S&amp;M project\n"
   syntax:
-    content: AddToSmProject = 64
+    content: public const ShipmentLinkAction AddToSmProject
     return:
       type: SuperOffice.Data.ShipmentLinkAction
+    content.vb: Public Const AddToSmProject As ShipmentLinkAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ShipmentLinkAction.RemoveFromSmProject
   commentId: F:SuperOffice.Data.ShipmentLinkAction.RemoveFromSmProject
   id: RemoveFromSmProject
@@ -226,15 +323,24 @@ items:
   nameWithType: ShipmentLinkAction.RemoveFromSmProject
   fullName: SuperOffice.Data.ShipmentLinkAction.RemoveFromSmProject
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '128: Remove person id of recipient as a member of an S&amp;M project'
-  example: []
+  summary: "\n128: Remove person id of recipient as a member of an S&amp;M project\n"
   syntax:
-    content: RemoveFromSmProject = 128
+    content: public const ShipmentLinkAction RemoveFromSmProject
     return:
       type: SuperOffice.Data.ShipmentLinkAction
+    content.vb: Public Const RemoveFromSmProject As ShipmentLinkAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ShipmentLinkAction.AddTask
   commentId: F:SuperOffice.Data.ShipmentLinkAction.AddTask
   id: AddTask
@@ -246,15 +352,24 @@ items:
   nameWithType: ShipmentLinkAction.AddTask
   fullName: SuperOffice.Data.ShipmentLinkAction.AddTask
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '256: Add a task in an S&amp;M diary'
-  example: []
+  summary: "\n256: Add a task in an S&amp;M diary\n"
   syntax:
-    content: AddTask = 256
+    content: public const ShipmentLinkAction AddTask
     return:
       type: SuperOffice.Data.ShipmentLinkAction
+    content.vb: Public Const AddTask As ShipmentLinkAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ShipmentLinkAction.AddRequest
   commentId: F:SuperOffice.Data.ShipmentLinkAction.AddRequest
   id: AddRequest
@@ -266,15 +381,24 @@ items:
   nameWithType: ShipmentLinkAction.AddRequest
   fullName: SuperOffice.Data.ShipmentLinkAction.AddRequest
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '512: Add a request (ticket) in CS'
-  example: []
+  summary: "\n512: Add a request (ticket) in CS\n"
   syntax:
-    content: AddRequest = 512
+    content: public const ShipmentLinkAction AddRequest
     return:
       type: SuperOffice.Data.ShipmentLinkAction
+    content.vb: Public Const AddRequest As ShipmentLinkAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ShipmentLinkAction.AddToCsSelection
   commentId: F:SuperOffice.Data.ShipmentLinkAction.AddToCsSelection
   id: AddToCsSelection
@@ -286,15 +410,24 @@ items:
   nameWithType: ShipmentLinkAction.AddToCsSelection
   fullName: SuperOffice.Data.ShipmentLinkAction.AddToCsSelection
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1024: Add person to a Customer Support selection'
-  example: []
+  summary: "\n1024: Add person to a Customer Support selection\n"
   syntax:
-    content: AddToCsSelection = 1024
+    content: public const ShipmentLinkAction AddToCsSelection
     return:
       type: SuperOffice.Data.ShipmentLinkAction
+    content.vb: Public Const AddToCsSelection As ShipmentLinkAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ShipmentLinkAction.RemoveFromCsSelection
   commentId: F:SuperOffice.Data.ShipmentLinkAction.RemoveFromCsSelection
   id: RemoveFromCsSelection
@@ -306,15 +439,24 @@ items:
   nameWithType: ShipmentLinkAction.RemoveFromCsSelection
   fullName: SuperOffice.Data.ShipmentLinkAction.RemoveFromCsSelection
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2048: Remove person from a Customer Service selection'
-  example: []
+  summary: "\n2048: Remove person from a Customer Service selection\n"
   syntax:
-    content: RemoveFromCsSelection = 2048
+    content: public const ShipmentLinkAction RemoveFromCsSelection
     return:
       type: SuperOffice.Data.ShipmentLinkAction
+    content.vb: Public Const RemoveFromCsSelection As ShipmentLinkAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.ShipmentLinkAction.ExecuteScript
   commentId: F:SuperOffice.Data.ShipmentLinkAction.ExecuteScript
   id: ExecuteScript
@@ -326,289 +468,115 @@ items:
   nameWithType: ShipmentLinkAction.ExecuteScript
   fullName: SuperOffice.Data.ShipmentLinkAction.ExecuteScript
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '4096: Execute an ejScript'
-  example: []
+  summary: "\n4096: Execute an ejScript\n"
   syntax:
-    content: ExecuteScript = 4096
+    content: public const ShipmentLinkAction ExecuteScript
     return:
       type: SuperOffice.Data.ShipmentLinkAction
+    content.vb: Public Const ExecuteScript As ShipmentLinkAction
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.ShipmentLinkAction.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ShipmentLinkAction, To>(ShipmentLinkAction)
-  nameWithType: EnumUtil.MapEnums<ShipmentLinkAction, To>(ShipmentLinkAction)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.ShipmentLinkAction, To>(SuperOffice.Data.ShipmentLinkAction)
-  nameWithType.vb: EnumUtil.MapEnums(Of ShipmentLinkAction, To)(ShipmentLinkAction)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ShipmentLinkAction, To)(SuperOffice.Data.ShipmentLinkAction)
-  name.vb: MapEnums(Of ShipmentLinkAction, To)(ShipmentLinkAction)
+  name: MapEnums<ShipmentLinkAction, To>()
+  nameWithType: EnumUtil.MapEnums<ShipmentLinkAction, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.ShipmentLinkAction, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ShipmentLinkAction, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.ShipmentLinkAction, To)()
+  name.vb: MapEnums(Of ShipmentLinkAction, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ShipmentLinkAction)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ShipmentLinkAction, To>
+    nameWithType: EnumUtil.MapEnums<ShipmentLinkAction, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.ShipmentLinkAction, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.ShipmentLinkAction
-    name: ShipmentLinkAction
-    isExternal: true
-    href: SuperOffice.Data.ShipmentLinkAction.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.ShipmentLinkAction
-    name: ShipmentLinkAction
-    isExternal: true
-    href: SuperOffice.Data.ShipmentLinkAction.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.ShipmentLinkAction)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ShipmentLinkAction, To)
+    nameWithType: EnumUtil.MapEnums(Of ShipmentLinkAction, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.ShipmentLinkAction, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ShipmentLinkAction
-    name: ShipmentLinkAction
-    isExternal: true
-    href: SuperOffice.Data.ShipmentLinkAction.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.ShipmentLinkAction
-    name: ShipmentLinkAction
-    isExternal: true
-    href: SuperOffice.Data.ShipmentLinkAction.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.ShipmentLinkAction.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ShipmentLinkAction, To>(ShipmentLinkAction)
-  nameWithType: Converters.MapEnums<ShipmentLinkAction, To>(ShipmentLinkAction)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ShipmentLinkAction, To>(SuperOffice.Data.ShipmentLinkAction)
-  nameWithType.vb: Converters.MapEnums(Of ShipmentLinkAction, To)(ShipmentLinkAction)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ShipmentLinkAction, To)(SuperOffice.Data.ShipmentLinkAction)
-  name.vb: MapEnums(Of ShipmentLinkAction, To)(ShipmentLinkAction)
+  name: MapEnums<ShipmentLinkAction, To>()
+  nameWithType: Converters.MapEnums<ShipmentLinkAction, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ShipmentLinkAction, To>()
+  nameWithType.vb: Converters.MapEnums(Of ShipmentLinkAction, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ShipmentLinkAction, To)()
+  name.vb: MapEnums(Of ShipmentLinkAction, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ShipmentLinkAction)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ShipmentLinkAction, To>
+    nameWithType: Converters.MapEnums<ShipmentLinkAction, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.ShipmentLinkAction, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.ShipmentLinkAction
-    name: ShipmentLinkAction
-    isExternal: true
-    href: SuperOffice.Data.ShipmentLinkAction.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.ShipmentLinkAction
-    name: ShipmentLinkAction
-    isExternal: true
-    href: SuperOffice.Data.ShipmentLinkAction.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.ShipmentLinkAction)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ShipmentLinkAction, To)
+    nameWithType: Converters.MapEnums(Of ShipmentLinkAction, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.ShipmentLinkAction, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ShipmentLinkAction
-    name: ShipmentLinkAction
-    isExternal: true
-    href: SuperOffice.Data.ShipmentLinkAction.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.ShipmentLinkAction
-    name: ShipmentLinkAction
-    isExternal: true
-    href: SuperOffice.Data.ShipmentLinkAction.html
-  - name: )
-- uid: SuperOffice.Data.ShipmentLinkAction.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ShipmentLinkAction)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ShipmentLinkAction>(ShipmentLinkAction, ShipmentLinkAction)
-  nameWithType: ObjectExtensions.AssignByReflection<ShipmentLinkAction>(ShipmentLinkAction, ShipmentLinkAction)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ShipmentLinkAction>(SuperOffice.Data.ShipmentLinkAction, SuperOffice.Data.ShipmentLinkAction)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ShipmentLinkAction)(ShipmentLinkAction, ShipmentLinkAction)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ShipmentLinkAction)(SuperOffice.Data.ShipmentLinkAction, SuperOffice.Data.ShipmentLinkAction)
-  name.vb: AssignByReflection(Of ShipmentLinkAction)(ShipmentLinkAction, ShipmentLinkAction)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ShipmentLinkAction,SuperOffice.Data.ShipmentLinkAction)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.ShipmentLinkAction
-    name: ShipmentLinkAction
-    isExternal: true
-    href: SuperOffice.Data.ShipmentLinkAction.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.ShipmentLinkAction
-    name: ShipmentLinkAction
-    isExternal: true
-    href: SuperOffice.Data.ShipmentLinkAction.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.ShipmentLinkAction
-    name: ShipmentLinkAction
-    isExternal: true
-    href: SuperOffice.Data.ShipmentLinkAction.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ShipmentLinkAction,SuperOffice.Data.ShipmentLinkAction)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ShipmentLinkAction
-    name: ShipmentLinkAction
-    isExternal: true
-    href: SuperOffice.Data.ShipmentLinkAction.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.ShipmentLinkAction
-    name: ShipmentLinkAction
-    isExternal: true
-    href: SuperOffice.Data.ShipmentLinkAction.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.ShipmentLinkAction
-    name: ShipmentLinkAction
-    isExternal: true
-    href: SuperOffice.Data.ShipmentLinkAction.html
-  - name: )
-- uid: SuperOffice.Data.ShipmentLinkAction.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ShipmentLinkAction>(ShipmentLinkAction)
-  nameWithType: ObjectExtensions.GraphCopy<ShipmentLinkAction>(ShipmentLinkAction)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ShipmentLinkAction>(SuperOffice.Data.ShipmentLinkAction)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ShipmentLinkAction)(ShipmentLinkAction)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ShipmentLinkAction)(SuperOffice.Data.ShipmentLinkAction)
-  name.vb: GraphCopy(Of ShipmentLinkAction)(ShipmentLinkAction)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ShipmentLinkAction)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.ShipmentLinkAction
-    name: ShipmentLinkAction
-    isExternal: true
-    href: SuperOffice.Data.ShipmentLinkAction.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.ShipmentLinkAction
-    name: ShipmentLinkAction
-    isExternal: true
-    href: SuperOffice.Data.ShipmentLinkAction.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ShipmentLinkAction)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.ShipmentLinkAction
-    name: ShipmentLinkAction
-    isExternal: true
-    href: SuperOffice.Data.ShipmentLinkAction.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.ShipmentLinkAction
-    name: ShipmentLinkAction
-    isExternal: true
-    href: SuperOffice.Data.ShipmentLinkAction.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -617,45 +585,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -664,222 +630,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.Data.ShipmentLinkAction
   commentId: T:SuperOffice.Data.ShipmentLinkAction
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.ShipmentLinkAction.html
   name: ShipmentLinkAction
   nameWithType: ShipmentLinkAction
   fullName: SuperOffice.Data.ShipmentLinkAction

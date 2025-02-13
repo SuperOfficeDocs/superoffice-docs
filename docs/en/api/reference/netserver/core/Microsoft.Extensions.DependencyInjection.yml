@@ -29,7 +29,6 @@ references:
   commentId: T:Microsoft.Extensions.DependencyInjection.INetServerCoreOptions
   parent: Microsoft.Extensions.DependencyInjection
   isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.INetServerCoreOptions.html
   name: INetServerCoreOptions
   nameWithType: INetServerCoreOptions
   fullName: Microsoft.Extensions.DependencyInjection.INetServerCoreOptions
@@ -37,7 +36,6 @@ references:
   commentId: T:Microsoft.Extensions.DependencyInjection.NetServerCoreOptions
   parent: Microsoft.Extensions.DependencyInjection
   isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.NetServerCoreOptions.html
   name: NetServerCoreOptions
   nameWithType: NetServerCoreOptions
   fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptions
@@ -45,42 +43,36 @@ references:
   commentId: T:Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
   parent: Microsoft.Extensions.DependencyInjection
   isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder.html
   name: NetServerCoreOptionsBuilder
   nameWithType: NetServerCoreOptionsBuilder
   fullName: Microsoft.Extensions.DependencyInjection.NetServerCoreOptionsBuilder
 - uid: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions
   commentId: T:Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions
   isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions.html
   name: NetServerServiceCollectionExtensions
   nameWithType: NetServerServiceCollectionExtensions
   fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceCollectionExtensions
 - uid: Microsoft.Extensions.DependencyInjection.NetServerOptions
   commentId: T:Microsoft.Extensions.DependencyInjection.NetServerOptions
   isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.NetServerOptions.html
   name: NetServerOptions
   nameWithType: NetServerOptions
   fullName: Microsoft.Extensions.DependencyInjection.NetServerOptions
 - uid: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions
   commentId: T:Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions
   isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions.html
   name: NetServerServiceProviderExtensions
   nameWithType: NetServerServiceProviderExtensions
   fullName: Microsoft.Extensions.DependencyInjection.NetServerServiceProviderExtensions
 - uid: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
   commentId: T:Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
   isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.html
   name: ServiceCollectionExtensions
   nameWithType: ServiceCollectionExtensions
   fullName: Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions
 - uid: Microsoft.Extensions.DependencyInjection.NetServerLocalOptions
   commentId: T:Microsoft.Extensions.DependencyInjection.NetServerLocalOptions
   isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.NetServerLocalOptions.html
   name: NetServerLocalOptions
   nameWithType: NetServerLocalOptions
   fullName: Microsoft.Extensions.DependencyInjection.NetServerLocalOptions
@@ -88,58 +80,24 @@ references:
   commentId: T:Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
   parent: Microsoft.Extensions.DependencyInjection
   isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder.html
   name: NetServerLocalOptionsBuilder
   nameWithType: NetServerLocalOptionsBuilder
   fullName: Microsoft.Extensions.DependencyInjection.NetServerLocalOptionsBuilder
 - uid: Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions
   commentId: T:Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions
   isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions.html
   name: SoDatabaseServiceCollectionExtensions
   nameWithType: SoDatabaseServiceCollectionExtensions
   fullName: Microsoft.Extensions.DependencyInjection.SoDatabaseServiceCollectionExtensions
 - uid: Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions
   commentId: T:Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions
   isExternal: true
-  href: Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions.html
   name: BatchProcessingServiceCollectionExtensions
   nameWithType: BatchProcessingServiceCollectionExtensions
   fullName: Microsoft.Extensions.DependencyInjection.BatchProcessingServiceCollectionExtensions
 - uid: Microsoft.Extensions.DependencyInjection
   commentId: N:Microsoft.Extensions.DependencyInjection
   isExternal: true
-  href: Microsoft.html
   name: Microsoft.Extensions.DependencyInjection
   nameWithType: Microsoft.Extensions.DependencyInjection
   fullName: Microsoft.Extensions.DependencyInjection
-  spec.csharp:
-  - uid: Microsoft
-    name: Microsoft
-    isExternal: true
-    href: Microsoft.html
-  - name: .
-  - uid: Microsoft.Extensions
-    name: Extensions
-    isExternal: true
-    href: Microsoft.Extensions.html
-  - name: .
-  - uid: Microsoft.Extensions.DependencyInjection
-    name: DependencyInjection
-    isExternal: true
-    href: Microsoft.Extensions.DependencyInjection.html
-  spec.vb:
-  - uid: Microsoft
-    name: Microsoft
-    isExternal: true
-    href: Microsoft.html
-  - name: .
-  - uid: Microsoft.Extensions
-    name: Extensions
-    isExternal: true
-    href: Microsoft.Extensions.html
-  - name: .
-  - uid: Microsoft.Extensions.DependencyInjection
-    name: DependencyInjection
-    isExternal: true
-    href: Microsoft.Extensions.DependencyInjection.html

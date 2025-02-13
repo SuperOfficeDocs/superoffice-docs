@@ -12,24 +12,64 @@ items:
   - SuperOffice.WebApi.Data.PreferenceLevel.PC
   - SuperOffice.WebApi.Data.PreferenceLevel.SystemWide
   - SuperOffice.WebApi.Data.PreferenceLevel.Undefined
+  - SuperOffice.WebApi.Data.PreferenceLevel.value__
   langs:
   - csharp
   - vb
   name: PreferenceLevel
   nameWithType: PreferenceLevel
   fullName: SuperOffice.WebApi.Data.PreferenceLevel
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Value for field 'deflevel' in table 'userpreference'.
-
-    This Enum is used by:  UserPreference.deflevel; UserPreference.maxlevel; PrefDesc.maxLevel; PrefDesc.sysMaxLevel
-  example: []
+  summary: "\nValue for field &apos;deflevel&apos; in table &apos;userpreference&apos;.\nThis Enum is used by:  UserPreference.deflevel; UserPreference.maxlevel; PrefDesc.maxLevel; PrefDesc.sysMaxLevel\n"
   syntax:
-    content: 'public enum PreferenceLevel : short'
-    content.vb: Public Enum PreferenceLevel As Short
+    content: 'public sealed class PreferenceLevel : Enum'
+    content.vb: >-
+      Public NotInheritable Class PreferenceLevel
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.PreferenceLevel.value__
+  commentId: F:SuperOffice.WebApi.Data.PreferenceLevel.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.PreferenceLevel
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: PreferenceLevel.value__
+  fullName: SuperOffice.WebApi.Data.PreferenceLevel.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.PreferenceLevel.Undefined
   commentId: F:SuperOffice.WebApi.Data.PreferenceLevel.Undefined
   id: Undefined
@@ -41,26 +81,24 @@ items:
   nameWithType: PreferenceLevel.Undefined
   fullName: SuperOffice.WebApi.Data.PreferenceLevel.Undefined
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: Undefined value (error)'
-  example: []
+  summary: "\n0: Undefined value (error)\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Undefined = 0
+    content: public const PreferenceLevel Undefined
     return:
       type: SuperOffice.WebApi.Data.PreferenceLevel
-    content.vb: >-
-      <EnumMember>
-
-      Undefined = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Undefined As PreferenceLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.PreferenceLevel.HardDefault
   commentId: F:SuperOffice.WebApi.Data.PreferenceLevel.HardDefault
   id: HardDefault
@@ -72,26 +110,24 @@ items:
   nameWithType: PreferenceLevel.HardDefault
   fullName: SuperOffice.WebApi.Data.PreferenceLevel.HardDefault
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: Default value used if no other value has been specified'
-  example: []
+  summary: "\n1: Default value used if no other value has been specified\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      HardDefault = 1
+    content: public const PreferenceLevel HardDefault
     return:
       type: SuperOffice.WebApi.Data.PreferenceLevel
-    content.vb: >-
-      <EnumMember>
-
-      HardDefault = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const HardDefault As PreferenceLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.PreferenceLevel.SystemWide
   commentId: F:SuperOffice.WebApi.Data.PreferenceLevel.SystemWide
   id: SystemWide
@@ -103,26 +139,24 @@ items:
   nameWithType: PreferenceLevel.SystemWide
   fullName: SuperOffice.WebApi.Data.PreferenceLevel.SystemWide
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: Value valid for all databases under this licence'
-  example: []
+  summary: "\n2: Value valid for all databases under this licence\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SystemWide = 2
+    content: public const PreferenceLevel SystemWide
     return:
       type: SuperOffice.WebApi.Data.PreferenceLevel
-    content.vb: >-
-      <EnumMember>
-
-      SystemWide = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SystemWide As PreferenceLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.PreferenceLevel.Database
   commentId: F:SuperOffice.WebApi.Data.PreferenceLevel.Database
   id: Database
@@ -134,26 +168,24 @@ items:
   nameWithType: PreferenceLevel.Database
   fullName: SuperOffice.WebApi.Data.PreferenceLevel.Database
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: Value valid for this database'
-  example: []
+  summary: "\n3: Value valid for this database\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Database = 3
+    content: public const PreferenceLevel Database
     return:
       type: SuperOffice.WebApi.Data.PreferenceLevel
-    content.vb: >-
-      <EnumMember>
-
-      Database = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Database As PreferenceLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.PreferenceLevel.Group
   commentId: F:SuperOffice.WebApi.Data.PreferenceLevel.Group
   id: Group
@@ -165,26 +197,24 @@ items:
   nameWithType: PreferenceLevel.Group
   fullName: SuperOffice.WebApi.Data.PreferenceLevel.Group
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: Value valid for this group'
-  example: []
+  summary: "\n4: Value valid for this group\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Group = 4
+    content: public const PreferenceLevel Group
     return:
       type: SuperOffice.WebApi.Data.PreferenceLevel
-    content.vb: >-
-      <EnumMember>
-
-      Group = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Group As PreferenceLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.PreferenceLevel.Individual
   commentId: F:SuperOffice.WebApi.Data.PreferenceLevel.Individual
   id: Individual
@@ -196,26 +226,24 @@ items:
   nameWithType: PreferenceLevel.Individual
   fullName: SuperOffice.WebApi.Data.PreferenceLevel.Individual
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '5: Value valid for this user'
-  example: []
+  summary: "\n5: Value valid for this user\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Individual = 5
+    content: public const PreferenceLevel Individual
     return:
       type: SuperOffice.WebApi.Data.PreferenceLevel
-    content.vb: >-
-      <EnumMember>
-
-      Individual = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Individual As PreferenceLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.PreferenceLevel.PC
   commentId: F:SuperOffice.WebApi.Data.PreferenceLevel.PC
   id: PC
@@ -227,69 +255,55 @@ items:
   nameWithType: PreferenceLevel.PC
   fullName: SuperOffice.WebApi.Data.PreferenceLevel.PC
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '6: Value valid for this computer (note: stored in the Registry, not in the database)'
-  example: []
+  summary: "\n6: Value valid for this computer (note: stored in the Registry, not in the database)\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PC = 6
+    content: public const PreferenceLevel PC
     return:
       type: SuperOffice.WebApi.Data.PreferenceLevel
-    content.vb: >-
-      <EnumMember>
-
-      PC = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PC As PreferenceLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.PreferenceLevel
   commentId: T:SuperOffice.WebApi.Data.PreferenceLevel
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceLevel.html
   name: PreferenceLevel
   nameWithType: PreferenceLevel
   fullName: SuperOffice.WebApi.Data.PreferenceLevel

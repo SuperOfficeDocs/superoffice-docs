@@ -24,27 +24,18 @@ items:
   nameWithType: ChatMessage
   fullName: SuperOffice.CRM.Services.ChatMessage
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    A message in a chat session
-
-    <p></p>
-
-    Carrier object for ChatMessage.
-
-    Services for the ChatMessage Carrier is available from the <xref href="SuperOffice.CRM.Services.IChatAgent?text=Chat+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nA message in a chat session\n<p></p>\nCarrier object for ChatMessage.\nServices for the ChatMessage Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IChatAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class ChatMessage
+    content: 'public class ChatMessage : Object'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
       Public Class ChatMessage
+          Inherits Object
   seealso:
   - linkId: SuperOffice.CRM.Services.ChatAgent
     commentId: T:SuperOffice.CRM.Services.ChatAgent
@@ -52,21 +43,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IChatAgent
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.ChatMessage.#ctor
   commentId: M:SuperOffice.CRM.Services.ChatMessage.#ctor
   id: '#ctor'
@@ -78,18 +60,21 @@ items:
   nameWithType: ChatMessage.ChatMessage()
   fullName: SuperOffice.CRM.Services.ChatMessage.ChatMessage()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public ChatMessage()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.ChatMessage.#ctor*
-  nameWithType.vb: ChatMessage.New()
-  fullName.vb: SuperOffice.CRM.Services.ChatMessage.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ChatMessage.ToString
   commentId: M:SuperOffice.CRM.Services.ChatMessage.ToString
   id: ToString
@@ -101,19 +86,26 @@ items:
   nameWithType: ChatMessage.ToString()
   fullName: SuperOffice.CRM.Services.ChatMessage.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.ChatMessage.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.ChatMessage.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ChatMessage.ToString(System.String)
   id: ToString(System.String)
@@ -121,18 +113,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: ChatMessage.ToString(string)
-  fullName: SuperOffice.CRM.Services.ChatMessage.ToString(string)
+  name: ToString(String)
+  nameWithType: ChatMessage.ToString(String)
+  fullName: SuperOffice.CRM.Services.ChatMessage.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -144,9 +135,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ChatMessage.ToString*
-  nameWithType.vb: ChatMessage.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.ChatMessage.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ChatMessage.ChatMessageId
   commentId: P:SuperOffice.CRM.Services.ChatMessage.ChatMessageId
   id: ChatMessageId
@@ -158,28 +150,28 @@ items:
   nameWithType: ChatMessage.ChatMessageId
   fullName: SuperOffice.CRM.Services.ChatMessage.ChatMessageId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The primary key (auto-incremented)
-  example: []
+  summary: "\nThe primary key (auto-incremented) \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ChatMessageId { get; set; }
+    content: public virtual int ChatMessageId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ChatMessageId As Integer
+    content.vb: Public Overridable Property ChatMessageId As Integer
   overload: SuperOffice.CRM.Services.ChatMessage.ChatMessageId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ChatMessage.ChatSessionId
   commentId: P:SuperOffice.CRM.Services.ChatMessage.ChatSessionId
   id: ChatSessionId
@@ -191,28 +183,28 @@ items:
   nameWithType: ChatMessage.ChatSessionId
   fullName: SuperOffice.CRM.Services.ChatMessage.ChatSessionId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The reference to the associated chat session.
-  example: []
+  summary: "\nThe reference to the associated chat session. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ChatSessionId { get; set; }
+    content: public virtual int ChatSessionId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ChatSessionId As Integer
+    content.vb: Public Overridable Property ChatSessionId As Integer
   overload: SuperOffice.CRM.Services.ChatMessage.ChatSessionId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ChatMessage.Type
   commentId: P:SuperOffice.CRM.Services.ChatMessage.Type
   id: Type
@@ -224,28 +216,28 @@ items:
   nameWithType: ChatMessage.Type
   fullName: SuperOffice.CRM.Services.ChatMessage.Type
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The type of the message.
-  example: []
+  summary: "\nThe type of the message. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual ChatMessageType Type { get; set; }
+    content: public virtual ChatMessageType Type { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.ChatMessageType
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Type As ChatMessageType
+    content.vb: Public Overridable Property Type As ChatMessageType
   overload: SuperOffice.CRM.Services.ChatMessage.Type*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ChatMessage.Message
   commentId: P:SuperOffice.CRM.Services.ChatMessage.Message
   id: Message
@@ -257,28 +249,28 @@ items:
   nameWithType: ChatMessage.Message
   fullName: SuperOffice.CRM.Services.ChatMessage.Message
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The message.
-  example: []
+  summary: "\nThe message. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Message { get; set; }
+    content: public virtual string Message { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Message As String
+    content.vb: Public Overridable Property Message As String
   overload: SuperOffice.CRM.Services.ChatMessage.Message*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ChatMessage.Author
   commentId: P:SuperOffice.CRM.Services.ChatMessage.Author
   id: Author
@@ -290,28 +282,28 @@ items:
   nameWithType: ChatMessage.Author
   fullName: SuperOffice.CRM.Services.ChatMessage.Author
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The author of the message.
-  example: []
+  summary: "\nThe author of the message. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Author { get; set; }
+    content: public virtual string Author { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Author As String
+    content.vb: Public Overridable Property Author As String
   overload: SuperOffice.CRM.Services.ChatMessage.Author*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ChatMessage.ReadByCustomer
   commentId: P:SuperOffice.CRM.Services.ChatMessage.ReadByCustomer
   id: ReadByCustomer
@@ -323,28 +315,28 @@ items:
   nameWithType: ChatMessage.ReadByCustomer
   fullName: SuperOffice.CRM.Services.ChatMessage.ReadByCustomer
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Whether the message has been read by the customer or not.
-  example: []
+  summary: "\nWhether the message has been read by the customer or not. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual short ReadByCustomer { get; set; }
+    content: public virtual short ReadByCustomer { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ReadByCustomer As Short
+    content.vb: Public Overridable Property ReadByCustomer As Short
   overload: SuperOffice.CRM.Services.ChatMessage.ReadByCustomer*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ChatMessage.SpecialType
   commentId: P:SuperOffice.CRM.Services.ChatMessage.SpecialType
   id: SpecialType
@@ -356,28 +348,28 @@ items:
   nameWithType: ChatMessage.SpecialType
   fullName: SuperOffice.CRM.Services.ChatMessage.SpecialType
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Enum indicating if it is a special message, such as an URL redirection, etc.
-  example: []
+  summary: "\nEnum indicating if it is a special message, such as an URL redirection, etc. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual ChatMessageSpecialType SpecialType { get; set; }
+    content: public virtual ChatMessageSpecialType SpecialType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.ChatMessageSpecialType
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SpecialType As ChatMessageSpecialType
+    content.vb: Public Overridable Property SpecialType As ChatMessageSpecialType
   overload: SuperOffice.CRM.Services.ChatMessage.SpecialType*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ChatMessage.SpecialParam
   commentId: P:SuperOffice.CRM.Services.ChatMessage.SpecialParam
   id: SpecialParam
@@ -389,28 +381,28 @@ items:
   nameWithType: ChatMessage.SpecialParam
   fullName: SuperOffice.CRM.Services.ChatMessage.SpecialParam
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Special parameter for the special_type.
-  example: []
+  summary: "\nSpecial parameter for the special_type. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string SpecialParam { get; set; }
+    content: public virtual string SpecialParam { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SpecialParam As String
+    content.vb: Public Overridable Property SpecialParam As String
   overload: SuperOffice.CRM.Services.ChatMessage.SpecialParam*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ChatMessage.WhenPosted
   commentId: P:SuperOffice.CRM.Services.ChatMessage.WhenPosted
   id: WhenPosted
@@ -422,33 +414,38 @@ items:
   nameWithType: ChatMessage.WhenPosted
   fullName: SuperOffice.CRM.Services.ChatMessage.WhenPosted
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: When the message was posted (UTC timestamp).
-  example: []
+  summary: "\nWhen the message was posted (UTC timestamp). \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime WhenPosted { get; set; }
+    content: public virtual DateTime WhenPosted { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property WhenPosted As Date
+    content.vb: Public Overridable Property WhenPosted As DateTime
   overload: SuperOffice.CRM.Services.ChatMessage.WhenPosted*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.ChatAgent
   commentId: T:SuperOffice.CRM.Services.ChatAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.ChatAgent.html
   name: ChatAgent
   nameWithType: ChatAgent
   fullName: SuperOffice.CRM.Services.ChatAgent
@@ -456,298 +453,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IChatAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IChatAgent.html
   name: IChatAgent
   nameWithType: IChatAgent
   fullName: SuperOffice.CRM.Services.IChatAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ChatMessage.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ChatMessage.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.ChatMessage.html#SuperOffice_CRM_Services_ChatMessage__ctor
   name: ChatMessage
   nameWithType: ChatMessage.ChatMessage
   fullName: SuperOffice.CRM.Services.ChatMessage.ChatMessage
-  nameWithType.vb: ChatMessage.New
-  fullName.vb: SuperOffice.CRM.Services.ChatMessage.New
-  name.vb: New
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Services.ChatMessage.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ChatMessage.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.ChatMessage.html#SuperOffice_CRM_Services_ChatMessage_ToString
   name: ToString
   nameWithType: ChatMessage.ToString
   fullName: SuperOffice.CRM.Services.ChatMessage.ToString
@@ -755,17 +472,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ChatMessage.ChatMessageId*
   commentId: Overload:SuperOffice.CRM.Services.ChatMessage.ChatMessageId
   isExternal: true
-  href: SuperOffice.CRM.Services.ChatMessage.html#SuperOffice_CRM_Services_ChatMessage_ChatMessageId
   name: ChatMessageId
   nameWithType: ChatMessage.ChatMessageId
   fullName: SuperOffice.CRM.Services.ChatMessage.ChatMessageId
@@ -773,24 +491,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.ChatMessage.ChatSessionId*
   commentId: Overload:SuperOffice.CRM.Services.ChatMessage.ChatSessionId
   isExternal: true
-  href: SuperOffice.CRM.Services.ChatMessage.html#SuperOffice_CRM_Services_ChatMessage_ChatSessionId
   name: ChatSessionId
   nameWithType: ChatMessage.ChatSessionId
   fullName: SuperOffice.CRM.Services.ChatMessage.ChatSessionId
 - uid: SuperOffice.CRM.Services.ChatMessage.Type*
   commentId: Overload:SuperOffice.CRM.Services.ChatMessage.Type
   isExternal: true
-  href: SuperOffice.CRM.Services.ChatMessage.html#SuperOffice_CRM_Services_ChatMessage_Type
   name: Type
   nameWithType: ChatMessage.Type
   fullName: SuperOffice.CRM.Services.ChatMessage.Type
@@ -803,21 +515,18 @@ references:
 - uid: SuperOffice.CRM.Services.ChatMessage.Message*
   commentId: Overload:SuperOffice.CRM.Services.ChatMessage.Message
   isExternal: true
-  href: SuperOffice.CRM.Services.ChatMessage.html#SuperOffice_CRM_Services_ChatMessage_Message
   name: Message
   nameWithType: ChatMessage.Message
   fullName: SuperOffice.CRM.Services.ChatMessage.Message
 - uid: SuperOffice.CRM.Services.ChatMessage.Author*
   commentId: Overload:SuperOffice.CRM.Services.ChatMessage.Author
   isExternal: true
-  href: SuperOffice.CRM.Services.ChatMessage.html#SuperOffice_CRM_Services_ChatMessage_Author
   name: Author
   nameWithType: ChatMessage.Author
   fullName: SuperOffice.CRM.Services.ChatMessage.Author
 - uid: SuperOffice.CRM.Services.ChatMessage.ReadByCustomer*
   commentId: Overload:SuperOffice.CRM.Services.ChatMessage.ReadByCustomer
   isExternal: true
-  href: SuperOffice.CRM.Services.ChatMessage.html#SuperOffice_CRM_Services_ChatMessage_ReadByCustomer
   name: ReadByCustomer
   nameWithType: ChatMessage.ReadByCustomer
   fullName: SuperOffice.CRM.Services.ChatMessage.ReadByCustomer
@@ -825,17 +534,12 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Services.ChatMessage.SpecialType*
   commentId: Overload:SuperOffice.CRM.Services.ChatMessage.SpecialType
   isExternal: true
-  href: SuperOffice.CRM.Services.ChatMessage.html#SuperOffice_CRM_Services_ChatMessage_SpecialType
   name: SpecialType
   nameWithType: ChatMessage.SpecialType
   fullName: SuperOffice.CRM.Services.ChatMessage.SpecialType
@@ -848,25 +552,17 @@ references:
 - uid: SuperOffice.CRM.Services.ChatMessage.SpecialParam*
   commentId: Overload:SuperOffice.CRM.Services.ChatMessage.SpecialParam
   isExternal: true
-  href: SuperOffice.CRM.Services.ChatMessage.html#SuperOffice_CRM_Services_ChatMessage_SpecialParam
   name: SpecialParam
   nameWithType: ChatMessage.SpecialParam
   fullName: SuperOffice.CRM.Services.ChatMessage.SpecialParam
 - uid: SuperOffice.CRM.Services.ChatMessage.WhenPosted*
   commentId: Overload:SuperOffice.CRM.Services.ChatMessage.WhenPosted
   isExternal: true
-  href: SuperOffice.CRM.Services.ChatMessage.html#SuperOffice_CRM_Services_ChatMessage_WhenPosted
   name: WhenPosted
   nameWithType: ChatMessage.WhenPosted
   fullName: SuperOffice.CRM.Services.ChatMessage.WhenPosted
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date

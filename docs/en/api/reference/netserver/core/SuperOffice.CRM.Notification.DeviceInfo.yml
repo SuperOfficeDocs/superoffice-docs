@@ -10,8 +10,8 @@ items:
   - SuperOffice.CRM.Notification.DeviceInfo.DeviceName
   - SuperOffice.CRM.Notification.DeviceInfo.Language
   - SuperOffice.CRM.Notification.DeviceInfo.OSVersion
-  - SuperOffice.CRM.Notification.DeviceInfo.PNSHandle
   - SuperOffice.CRM.Notification.DeviceInfo.Platform
+  - SuperOffice.CRM.Notification.DeviceInfo.PNSHandle
   - SuperOffice.CRM.Notification.DeviceInfo.PocketVersion
   - SuperOffice.CRM.Notification.DeviceInfo.TimeZoneId
   langs:
@@ -21,27 +21,30 @@ items:
   nameWithType: DeviceInfo
   fullName: SuperOffice.CRM.Notification.DeviceInfo
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Notification
   syntax:
-    content: public class DeviceInfo
-    content.vb: Public Class DeviceInfo
+    content: 'public class DeviceInfo : Object'
+    content.vb: >-
+      Public Class DeviceInfo
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Notification.DeviceInfo.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Notification.DeviceInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Notification.DeviceInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Notification.DeviceInfo)
   - SuperOffice.CRM.Notification.DeviceInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Notification.DeviceInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Notification.DeviceInfo.#ctor
   commentId: M:SuperOffice.CRM.Notification.DeviceInfo.#ctor
   id: '#ctor'
@@ -53,18 +56,21 @@ items:
   nameWithType: DeviceInfo.DeviceInfo()
   fullName: SuperOffice.CRM.Notification.DeviceInfo.DeviceInfo()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Notification
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public DeviceInfo()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Notification.DeviceInfo.#ctor*
-  nameWithType.vb: DeviceInfo.New()
-  fullName.vb: SuperOffice.CRM.Notification.DeviceInfo.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Notification.DeviceInfo.DeviceName
   commentId: P:SuperOffice.CRM.Notification.DeviceInfo.DeviceName
   id: DeviceName
@@ -76,11 +82,13 @@ items:
   nameWithType: DeviceInfo.DeviceName
   fullName: SuperOffice.CRM.Notification.DeviceInfo.DeviceName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Notification
-  summary: "A friendly display name for the device. Ex: 'Bobbys iPhone 5S'"
-  example: []
+  summary: "\nA friendly display name for the device. Ex: &apos;Bobbys iPhone 5S&apos;\n"
   syntax:
     content: public string DeviceName { get; set; }
     parameters: []
@@ -88,6 +96,12 @@ items:
       type: System.String
     content.vb: Public Property DeviceName As String
   overload: SuperOffice.CRM.Notification.DeviceInfo.DeviceName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Notification.DeviceInfo.DeviceIdentifier
   commentId: P:SuperOffice.CRM.Notification.DeviceInfo.DeviceIdentifier
   id: DeviceIdentifier
@@ -99,11 +113,13 @@ items:
   nameWithType: DeviceInfo.DeviceIdentifier
   fullName: SuperOffice.CRM.Notification.DeviceInfo.DeviceIdentifier
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Notification
-  summary: A unique identifier of this device. This value should always be the same for the same device
-  example: []
+  summary: "\nA unique identifier of this device. This value should always be the same for the same device\n"
   syntax:
     content: public string DeviceIdentifier { get; set; }
     parameters: []
@@ -111,6 +127,12 @@ items:
       type: System.String
     content.vb: Public Property DeviceIdentifier As String
   overload: SuperOffice.CRM.Notification.DeviceInfo.DeviceIdentifier*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Notification.DeviceInfo.PocketVersion
   commentId: P:SuperOffice.CRM.Notification.DeviceInfo.PocketVersion
   id: PocketVersion
@@ -122,11 +144,13 @@ items:
   nameWithType: DeviceInfo.PocketVersion
   fullName: SuperOffice.CRM.Notification.DeviceInfo.PocketVersion
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Notification
-  summary: "What version of Pocket CRM this device is running. Ex: '8.0.37'"
-  example: []
+  summary: "\nWhat version of Pocket CRM this device is running. Ex: &apos;8.0.37&apos;\n"
   syntax:
     content: public string PocketVersion { get; set; }
     parameters: []
@@ -134,6 +158,12 @@ items:
       type: System.String
     content.vb: Public Property PocketVersion As String
   overload: SuperOffice.CRM.Notification.DeviceInfo.PocketVersion*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Notification.DeviceInfo.Language
   commentId: P:SuperOffice.CRM.Notification.DeviceInfo.Language
   id: Language
@@ -145,11 +175,13 @@ items:
   nameWithType: DeviceInfo.Language
   fullName: SuperOffice.CRM.Notification.DeviceInfo.Language
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Notification
-  summary: The language which this device will receive notifications translated in
-  example: []
+  summary: "\nThe language which this device will receive notifications translated in\n"
   syntax:
     content: public string Language { get; set; }
     parameters: []
@@ -157,6 +189,12 @@ items:
       type: System.String
     content.vb: Public Property Language As String
   overload: SuperOffice.CRM.Notification.DeviceInfo.Language*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Notification.DeviceInfo.PNSHandle
   commentId: P:SuperOffice.CRM.Notification.DeviceInfo.PNSHandle
   id: PNSHandle
@@ -168,11 +206,13 @@ items:
   nameWithType: DeviceInfo.PNSHandle
   fullName: SuperOffice.CRM.Notification.DeviceInfo.PNSHandle
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Notification
-  summary: The identifier associated with the device that will be used when talking with vendors push services
-  example: []
+  summary: "\nThe identifier associated with the device that will be used when talking with vendors push services\n"
   syntax:
     content: public string PNSHandle { get; set; }
     parameters: []
@@ -180,6 +220,12 @@ items:
       type: System.String
     content.vb: Public Property PNSHandle As String
   overload: SuperOffice.CRM.Notification.DeviceInfo.PNSHandle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Notification.DeviceInfo.Platform
   commentId: P:SuperOffice.CRM.Notification.DeviceInfo.Platform
   id: Platform
@@ -191,11 +237,13 @@ items:
   nameWithType: DeviceInfo.Platform
   fullName: SuperOffice.CRM.Notification.DeviceInfo.Platform
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Notification
-  summary: What platform does this device belong to
-  example: []
+  summary: "\nWhat platform does this device belong to\n"
   syntax:
     content: public NotificationPlatform Platform { get; set; }
     parameters: []
@@ -203,6 +251,12 @@ items:
       type: SuperOffice.Data.NotificationPlatform
     content.vb: Public Property Platform As NotificationPlatform
   overload: SuperOffice.CRM.Notification.DeviceInfo.Platform*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Notification.DeviceInfo.OSVersion
   commentId: P:SuperOffice.CRM.Notification.DeviceInfo.OSVersion
   id: OSVersion
@@ -214,11 +268,13 @@ items:
   nameWithType: DeviceInfo.OSVersion
   fullName: SuperOffice.CRM.Notification.DeviceInfo.OSVersion
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Notification
-  summary: "The operating system version. Ex: 'iOS v10.2'"
-  example: []
+  summary: "\nThe operating system version. Ex: &apos;iOS v10.2&apos;\n"
   syntax:
     content: public string OSVersion { get; set; }
     parameters: []
@@ -226,6 +282,12 @@ items:
       type: System.String
     content.vb: Public Property OSVersion As String
   overload: SuperOffice.CRM.Notification.DeviceInfo.OSVersion*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Notification.DeviceInfo.TimeZoneId
   commentId: P:SuperOffice.CRM.Notification.DeviceInfo.TimeZoneId
   id: TimeZoneId
@@ -237,11 +299,13 @@ items:
   nameWithType: DeviceInfo.TimeZoneId
   fullName: SuperOffice.CRM.Notification.DeviceInfo.TimeZoneId
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Notification
-  summary: The timezone to show for dates in messages
-  example: []
+  summary: "\nThe timezone to show for dates in messages \n"
   syntax:
     content: public int TimeZoneId { get; set; }
     parameters: []
@@ -249,497 +313,181 @@ items:
       type: System.Int32
     content.vb: Public Property TimeZoneId As Integer
   overload: SuperOffice.CRM.Notification.DeviceInfo.TimeZoneId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Notification
   commentId: N:SuperOffice.CRM.Notification
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Notification
   nameWithType: SuperOffice.CRM.Notification
   fullName: SuperOffice.CRM.Notification
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Notification
-    name: Notification
-    isExternal: true
-    href: SuperOffice.CRM.Notification.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Notification
-    name: Notification
-    isExternal: true
-    href: SuperOffice.CRM.Notification.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Notification.DeviceInfo.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<DeviceInfo, To>(DeviceInfo)
-  nameWithType: EnumUtil.MapEnums<DeviceInfo, To>(DeviceInfo)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Notification.DeviceInfo, To>(SuperOffice.CRM.Notification.DeviceInfo)
-  nameWithType.vb: EnumUtil.MapEnums(Of DeviceInfo, To)(DeviceInfo)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Notification.DeviceInfo, To)(SuperOffice.CRM.Notification.DeviceInfo)
-  name.vb: MapEnums(Of DeviceInfo, To)(DeviceInfo)
+  name: MapEnums<DeviceInfo, To>()
+  nameWithType: EnumUtil.MapEnums<DeviceInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Notification.DeviceInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DeviceInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Notification.DeviceInfo, To)()
+  name.vb: MapEnums(Of DeviceInfo, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Notification.DeviceInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DeviceInfo, To>
+    nameWithType: EnumUtil.MapEnums<DeviceInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Notification.DeviceInfo, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Notification.DeviceInfo
-    name: DeviceInfo
-    isExternal: true
-    href: SuperOffice.CRM.Notification.DeviceInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Notification.DeviceInfo
-    name: DeviceInfo
-    isExternal: true
-    href: SuperOffice.CRM.Notification.DeviceInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Notification.DeviceInfo)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DeviceInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of DeviceInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Notification.DeviceInfo, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Notification.DeviceInfo
-    name: DeviceInfo
-    isExternal: true
-    href: SuperOffice.CRM.Notification.DeviceInfo.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Notification.DeviceInfo
-    name: DeviceInfo
-    isExternal: true
-    href: SuperOffice.CRM.Notification.DeviceInfo.html
-  - name: )
-- uid: SuperOffice.CRM.Notification.DeviceInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<DeviceInfo, To>(DeviceInfo)
-  nameWithType: Converters.MapEnums<DeviceInfo, To>(DeviceInfo)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Notification.DeviceInfo, To>(SuperOffice.CRM.Notification.DeviceInfo)
-  nameWithType.vb: Converters.MapEnums(Of DeviceInfo, To)(DeviceInfo)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Notification.DeviceInfo, To)(SuperOffice.CRM.Notification.DeviceInfo)
-  name.vb: MapEnums(Of DeviceInfo, To)(DeviceInfo)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Notification.DeviceInfo)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Notification.DeviceInfo
-    name: DeviceInfo
-    isExternal: true
-    href: SuperOffice.CRM.Notification.DeviceInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Notification.DeviceInfo
-    name: DeviceInfo
-    isExternal: true
-    href: SuperOffice.CRM.Notification.DeviceInfo.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Notification.DeviceInfo)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Notification.DeviceInfo
-    name: DeviceInfo
-    isExternal: true
-    href: SuperOffice.CRM.Notification.DeviceInfo.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Notification.DeviceInfo
-    name: DeviceInfo
-    isExternal: true
-    href: SuperOffice.CRM.Notification.DeviceInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Notification.DeviceInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Notification.DeviceInfo)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<DeviceInfo>(DeviceInfo, DeviceInfo)
-  nameWithType: ObjectExtensions.AssignByReflection<DeviceInfo>(DeviceInfo, DeviceInfo)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Notification.DeviceInfo>(SuperOffice.CRM.Notification.DeviceInfo, SuperOffice.CRM.Notification.DeviceInfo)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DeviceInfo)(DeviceInfo, DeviceInfo)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Notification.DeviceInfo)(SuperOffice.CRM.Notification.DeviceInfo, SuperOffice.CRM.Notification.DeviceInfo)
-  name.vb: AssignByReflection(Of DeviceInfo)(DeviceInfo, DeviceInfo)
+  name: AssignByReflection<DeviceInfo>(DeviceInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<DeviceInfo>(DeviceInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Notification.DeviceInfo>(SuperOffice.CRM.Notification.DeviceInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DeviceInfo)(DeviceInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Notification.DeviceInfo)(SuperOffice.CRM.Notification.DeviceInfo)
+  name.vb: AssignByReflection(Of DeviceInfo)(DeviceInfo)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Notification.DeviceInfo,SuperOffice.CRM.Notification.DeviceInfo)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<DeviceInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<DeviceInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Notification.DeviceInfo>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Notification.DeviceInfo
-    name: DeviceInfo
-    isExternal: true
-    href: SuperOffice.CRM.Notification.DeviceInfo.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Notification.DeviceInfo
     name: DeviceInfo
+    nameWithType: DeviceInfo
+    fullName: SuperOffice.CRM.Notification.DeviceInfo
     isExternal: true
-    href: SuperOffice.CRM.Notification.DeviceInfo.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Notification.DeviceInfo
-    name: DeviceInfo
-    isExternal: true
-    href: SuperOffice.CRM.Notification.DeviceInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Notification.DeviceInfo,SuperOffice.CRM.Notification.DeviceInfo)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of DeviceInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of DeviceInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Notification.DeviceInfo)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Notification.DeviceInfo
     name: DeviceInfo
+    nameWithType: DeviceInfo
+    fullName: SuperOffice.CRM.Notification.DeviceInfo
     isExternal: true
-    href: SuperOffice.CRM.Notification.DeviceInfo.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Notification.DeviceInfo
-    name: DeviceInfo
-    isExternal: true
-    href: SuperOffice.CRM.Notification.DeviceInfo.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Notification.DeviceInfo
-    name: DeviceInfo
-    isExternal: true
-    href: SuperOffice.CRM.Notification.DeviceInfo.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Notification.DeviceInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<DeviceInfo>(DeviceInfo)
-  nameWithType: ObjectExtensions.GraphCopy<DeviceInfo>(DeviceInfo)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Notification.DeviceInfo>(SuperOffice.CRM.Notification.DeviceInfo)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of DeviceInfo)(DeviceInfo)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Notification.DeviceInfo)(SuperOffice.CRM.Notification.DeviceInfo)
-  name.vb: GraphCopy(Of DeviceInfo)(DeviceInfo)
+  name: GraphCopy<DeviceInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<DeviceInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Notification.DeviceInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of DeviceInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Notification.DeviceInfo)()
+  name.vb: GraphCopy(Of DeviceInfo)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Notification.DeviceInfo)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<DeviceInfo>
+    nameWithType: ObjectExtensions.GraphCopy<DeviceInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Notification.DeviceInfo>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Notification.DeviceInfo
-    name: DeviceInfo
-    isExternal: true
-    href: SuperOffice.CRM.Notification.DeviceInfo.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Notification.DeviceInfo
-    name: DeviceInfo
-    isExternal: true
-    href: SuperOffice.CRM.Notification.DeviceInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Notification.DeviceInfo)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of DeviceInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of DeviceInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Notification.DeviceInfo)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Notification.DeviceInfo
-    name: DeviceInfo
-    isExternal: true
-    href: SuperOffice.CRM.Notification.DeviceInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Notification.DeviceInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DeviceInfo, To>()
+  nameWithType: Converters.MapEnums<DeviceInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Notification.DeviceInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of DeviceInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Notification.DeviceInfo, To)()
+  name.vb: MapEnums(Of DeviceInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DeviceInfo, To>
+    nameWithType: Converters.MapEnums<DeviceInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Notification.DeviceInfo, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.Notification.DeviceInfo
-    name: DeviceInfo
-    isExternal: true
-    href: SuperOffice.CRM.Notification.DeviceInfo.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DeviceInfo, To)
+    nameWithType: Converters.MapEnums(Of DeviceInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Notification.DeviceInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -748,93 +496,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -843,46 +541,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -891,106 +599,101 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.CRM.Notification.DeviceInfo.#ctor*
   commentId: Overload:SuperOffice.CRM.Notification.DeviceInfo.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Notification.DeviceInfo.html#SuperOffice_CRM_Notification_DeviceInfo__ctor
   name: DeviceInfo
   nameWithType: DeviceInfo.DeviceInfo
   fullName: SuperOffice.CRM.Notification.DeviceInfo.DeviceInfo
-  nameWithType.vb: DeviceInfo.New
-  fullName.vb: SuperOffice.CRM.Notification.DeviceInfo.New
-  name.vb: New
 - uid: SuperOffice.CRM.Notification.DeviceInfo.DeviceName*
   commentId: Overload:SuperOffice.CRM.Notification.DeviceInfo.DeviceName
   isExternal: true
-  href: SuperOffice.CRM.Notification.DeviceInfo.html#SuperOffice_CRM_Notification_DeviceInfo_DeviceName
   name: DeviceName
   nameWithType: DeviceInfo.DeviceName
   fullName: SuperOffice.CRM.Notification.DeviceInfo.DeviceName
@@ -998,45 +701,36 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Notification.DeviceInfo.DeviceIdentifier*
   commentId: Overload:SuperOffice.CRM.Notification.DeviceInfo.DeviceIdentifier
   isExternal: true
-  href: SuperOffice.CRM.Notification.DeviceInfo.html#SuperOffice_CRM_Notification_DeviceInfo_DeviceIdentifier
   name: DeviceIdentifier
   nameWithType: DeviceInfo.DeviceIdentifier
   fullName: SuperOffice.CRM.Notification.DeviceInfo.DeviceIdentifier
 - uid: SuperOffice.CRM.Notification.DeviceInfo.PocketVersion*
   commentId: Overload:SuperOffice.CRM.Notification.DeviceInfo.PocketVersion
   isExternal: true
-  href: SuperOffice.CRM.Notification.DeviceInfo.html#SuperOffice_CRM_Notification_DeviceInfo_PocketVersion
   name: PocketVersion
   nameWithType: DeviceInfo.PocketVersion
   fullName: SuperOffice.CRM.Notification.DeviceInfo.PocketVersion
 - uid: SuperOffice.CRM.Notification.DeviceInfo.Language*
   commentId: Overload:SuperOffice.CRM.Notification.DeviceInfo.Language
   isExternal: true
-  href: SuperOffice.CRM.Notification.DeviceInfo.html#SuperOffice_CRM_Notification_DeviceInfo_Language
   name: Language
   nameWithType: DeviceInfo.Language
   fullName: SuperOffice.CRM.Notification.DeviceInfo.Language
 - uid: SuperOffice.CRM.Notification.DeviceInfo.PNSHandle*
   commentId: Overload:SuperOffice.CRM.Notification.DeviceInfo.PNSHandle
   isExternal: true
-  href: SuperOffice.CRM.Notification.DeviceInfo.html#SuperOffice_CRM_Notification_DeviceInfo_PNSHandle
   name: PNSHandle
   nameWithType: DeviceInfo.PNSHandle
   fullName: SuperOffice.CRM.Notification.DeviceInfo.PNSHandle
 - uid: SuperOffice.CRM.Notification.DeviceInfo.Platform*
   commentId: Overload:SuperOffice.CRM.Notification.DeviceInfo.Platform
   isExternal: true
-  href: SuperOffice.CRM.Notification.DeviceInfo.html#SuperOffice_CRM_Notification_DeviceInfo_Platform
   name: Platform
   nameWithType: DeviceInfo.Platform
   fullName: SuperOffice.CRM.Notification.DeviceInfo.Platform
@@ -1044,48 +738,24 @@ references:
   commentId: T:SuperOffice.Data.NotificationPlatform
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.NotificationPlatform.html
   name: NotificationPlatform
   nameWithType: NotificationPlatform
   fullName: SuperOffice.Data.NotificationPlatform
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Notification.DeviceInfo.OSVersion*
   commentId: Overload:SuperOffice.CRM.Notification.DeviceInfo.OSVersion
   isExternal: true
-  href: SuperOffice.CRM.Notification.DeviceInfo.html#SuperOffice_CRM_Notification_DeviceInfo_OSVersion
   name: OSVersion
   nameWithType: DeviceInfo.OSVersion
   fullName: SuperOffice.CRM.Notification.DeviceInfo.OSVersion
 - uid: SuperOffice.CRM.Notification.DeviceInfo.TimeZoneId*
   commentId: Overload:SuperOffice.CRM.Notification.DeviceInfo.TimeZoneId
   isExternal: true
-  href: SuperOffice.CRM.Notification.DeviceInfo.html#SuperOffice_CRM_Notification_DeviceInfo_TimeZoneId
   name: TimeZoneId
   nameWithType: DeviceInfo.TimeZoneId
   fullName: SuperOffice.CRM.Notification.DeviceInfo.TimeZoneId
@@ -1093,10 +763,6 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -19,24 +19,64 @@ items:
   - SuperOffice.WebApi.Data.WorkflowTriggerType.SaleLost
   - SuperOffice.WebApi.Data.WorkflowTriggerType.SaleSold
   - SuperOffice.WebApi.Data.WorkflowTriggerType.StartedChat
+  - SuperOffice.WebApi.Data.WorkflowTriggerType.value__
   langs:
   - csharp
   - vb
   name: WorkflowTriggerType
   nameWithType: WorkflowTriggerType
   fullName: SuperOffice.WebApi.Data.WorkflowTriggerType
-  type: Enum
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: >-
-    Workflow Trigger Type
-
-    This Enum is used by:  workflow_trigger.trigger_type
-  example: []
+  summary: "\nWorkflow Trigger Type\nThis Enum is used by:  workflow_trigger.trigger_type\n"
   syntax:
-    content: 'public enum WorkflowTriggerType : short'
-    content.vb: Public Enum WorkflowTriggerType As Short
+    content: 'public sealed class WorkflowTriggerType : Enum'
+    content.vb: >-
+      Public NotInheritable Class WorkflowTriggerType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.WorkflowTriggerType.value__
+  commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.WorkflowTriggerType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: WorkflowTriggerType.value__
+  fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.WebApi.Data.WorkflowTriggerType.None
   commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.None
   id: None
@@ -48,26 +88,24 @@ items:
   nameWithType: WorkflowTriggerType.None
   fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.None
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '0: None'
-  example: []
+  summary: "\n0: None\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const WorkflowTriggerType None
     return:
       type: SuperOffice.WebApi.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowTriggerType.PersonCreated
   commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.PersonCreated
   id: PersonCreated
@@ -79,26 +117,24 @@ items:
   nameWithType: WorkflowTriggerType.PersonCreated
   fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.PersonCreated
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '1: PersonCreated'
-  example: []
+  summary: "\n1: PersonCreated\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PersonCreated = 1
+    content: public const WorkflowTriggerType PersonCreated
     return:
       type: SuperOffice.WebApi.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      PersonCreated = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PersonCreated As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowTriggerType.PersonUpdated
   commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.PersonUpdated
   id: PersonUpdated
@@ -110,26 +146,24 @@ items:
   nameWithType: WorkflowTriggerType.PersonUpdated
   fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.PersonUpdated
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2: PersonUpdated'
-  example: []
+  summary: "\n2: PersonUpdated\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      PersonUpdated = 2
+    content: public const WorkflowTriggerType PersonUpdated
     return:
       type: SuperOffice.WebApi.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      PersonUpdated = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const PersonUpdated As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowTriggerType.AddedToProject
   commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.AddedToProject
   id: AddedToProject
@@ -141,26 +175,24 @@ items:
   nameWithType: WorkflowTriggerType.AddedToProject
   fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.AddedToProject
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '3: AddedToProject'
-  example: []
+  summary: "\n3: AddedToProject\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AddedToProject = 3
+    content: public const WorkflowTriggerType AddedToProject
     return:
       type: SuperOffice.WebApi.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      AddedToProject = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AddedToProject As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowTriggerType.CreatedRequest
   commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.CreatedRequest
   id: CreatedRequest
@@ -172,26 +204,24 @@ items:
   nameWithType: WorkflowTriggerType.CreatedRequest
   fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.CreatedRequest
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '4: CreatedRequest'
-  example: []
+  summary: "\n4: CreatedRequest\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      CreatedRequest = 4
+    content: public const WorkflowTriggerType CreatedRequest
     return:
       type: SuperOffice.WebApi.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      CreatedRequest = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const CreatedRequest As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowTriggerType.LinkClicked
   commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.LinkClicked
   id: LinkClicked
@@ -203,26 +233,24 @@ items:
   nameWithType: WorkflowTriggerType.LinkClicked
   fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.LinkClicked
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '5: LinkClicked'
-  example: []
+  summary: "\n5: LinkClicked\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      LinkClicked = 5
+    content: public const WorkflowTriggerType LinkClicked
     return:
       type: SuperOffice.WebApi.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      LinkClicked = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const LinkClicked As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowTriggerType.AddedToSelection
   commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.AddedToSelection
   id: AddedToSelection
@@ -234,26 +262,24 @@ items:
   nameWithType: WorkflowTriggerType.AddedToSelection
   fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.AddedToSelection
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '6: AddedToSelection'
-  example: []
+  summary: "\n6: AddedToSelection\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AddedToSelection = 6
+    content: public const WorkflowTriggerType AddedToSelection
     return:
       type: SuperOffice.WebApi.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      AddedToSelection = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AddedToSelection As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowTriggerType.FormSubmitted
   commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.FormSubmitted
   id: FormSubmitted
@@ -265,26 +291,24 @@ items:
   nameWithType: WorkflowTriggerType.FormSubmitted
   fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.FormSubmitted
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '7: FormSubmitted'
-  example: []
+  summary: "\n7: FormSubmitted\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      FormSubmitted = 7
+    content: public const WorkflowTriggerType FormSubmitted
     return:
       type: SuperOffice.WebApi.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      FormSubmitted = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const FormSubmitted As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowTriggerType.AddedMessage
   commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.AddedMessage
   id: AddedMessage
@@ -296,26 +320,24 @@ items:
   nameWithType: WorkflowTriggerType.AddedMessage
   fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.AddedMessage
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '8: AddedMessage'
-  example: []
+  summary: "\n8: AddedMessage\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      AddedMessage = 8
+    content: public const WorkflowTriggerType AddedMessage
     return:
       type: SuperOffice.WebApi.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      AddedMessage = 8
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const AddedMessage As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowTriggerType.StartedChat
   commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.StartedChat
   id: StartedChat
@@ -327,26 +349,24 @@ items:
   nameWithType: WorkflowTriggerType.StartedChat
   fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.StartedChat
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '9: StartedChat'
-  example: []
+  summary: "\n9: StartedChat\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      StartedChat = 9
+    content: public const WorkflowTriggerType StartedChat
     return:
       type: SuperOffice.WebApi.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      StartedChat = 9
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const StartedChat As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowTriggerType.OrderPlaced
   commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.OrderPlaced
   id: OrderPlaced
@@ -358,26 +378,24 @@ items:
   nameWithType: WorkflowTriggerType.OrderPlaced
   fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.OrderPlaced
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '10: OrderPlaced'
-  example: []
+  summary: "\n10: OrderPlaced\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OrderPlaced = 10
+    content: public const WorkflowTriggerType OrderPlaced
     return:
       type: SuperOffice.WebApi.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      OrderPlaced = 10
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OrderPlaced As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowTriggerType.SaleCreated
   commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.SaleCreated
   id: SaleCreated
@@ -389,26 +407,24 @@ items:
   nameWithType: WorkflowTriggerType.SaleCreated
   fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.SaleCreated
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '11: SaleCreated'
-  example: []
+  summary: "\n11: SaleCreated\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SaleCreated = 11
+    content: public const WorkflowTriggerType SaleCreated
     return:
       type: SuperOffice.WebApi.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      SaleCreated = 11
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SaleCreated As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowTriggerType.SaleSold
   commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.SaleSold
   id: SaleSold
@@ -420,26 +436,24 @@ items:
   nameWithType: WorkflowTriggerType.SaleSold
   fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.SaleSold
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '12: SaleSold'
-  example: []
+  summary: "\n12: SaleSold\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SaleSold = 12
+    content: public const WorkflowTriggerType SaleSold
     return:
       type: SuperOffice.WebApi.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      SaleSold = 12
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SaleSold As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.WebApi.Data.WorkflowTriggerType.SaleLost
   commentId: F:SuperOffice.WebApi.Data.WorkflowTriggerType.SaleLost
   id: SaleLost
@@ -451,69 +465,55 @@ items:
   nameWithType: WorkflowTriggerType.SaleLost
   fullName: SuperOffice.WebApi.Data.WorkflowTriggerType.SaleLost
   type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '13: SaleLost'
-  example: []
+  summary: "\n13: SaleLost\n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      SaleLost = 13
+    content: public const WorkflowTriggerType SaleLost
     return:
       type: SuperOffice.WebApi.Data.WorkflowTriggerType
-    content.vb: >-
-      <EnumMember>
-
-      SaleLost = 13
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const SaleLost As WorkflowTriggerType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.WebApi.Data.WorkflowTriggerType
   commentId: T:SuperOffice.WebApi.Data.WorkflowTriggerType
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.WorkflowTriggerType.html
   name: WorkflowTriggerType
   nameWithType: WorkflowTriggerType
   fullName: SuperOffice.WebApi.Data.WorkflowTriggerType

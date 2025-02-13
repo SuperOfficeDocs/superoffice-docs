@@ -18,17 +18,27 @@ items:
   nameWithType: IDuplicateRule
   fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
   type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util.Duplicates
-  summary: Common interface for all rules to be used in the duplicate detector system
-  example: []
+  summary: "\nCommon interface for all rules to be used in the duplicate detector system\n"
   syntax:
-    content: public interface IDuplicateRule
-    content.vb: Public Interface IDuplicateRule
+    content: 'public interface IDuplicateRule : IPlugin'
+    content.vb: >-
+      Public Interface IDuplicateRule
+          Inherits IPlugin
   extensionMethods:
   - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.GetDuplicates(System.String[])
   commentId: M:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.GetDuplicates(System.String[])
   id: GetDuplicates(System.String[])
@@ -36,15 +46,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetDuplicates(params string[])
-  nameWithType: IDuplicateRule.GetDuplicates(params string[])
-  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.GetDuplicates(params string[])
+  name: GetDuplicates(String[])
+  nameWithType: IDuplicateRule.GetDuplicates(String[])
+  fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.GetDuplicates(System.String[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util.Duplicates
-  summary: Get duplicates based on the specified value
-  example: []
+  summary: "\nGet duplicates based on the specified value\n"
   syntax:
     content: DuplicateEntry[] GetDuplicates(params string[] searchValue)
     parameters:
@@ -56,9 +68,9 @@ items:
       description: List of detected duplicates
     content.vb: Function GetDuplicates(ParamArray searchValue As String()) As DuplicateEntry()
   overload: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.GetDuplicates*
-  nameWithType.vb: IDuplicateRule.GetDuplicates(ParamArray String())
-  fullName.vb: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.GetDuplicates(ParamArray String())
-  name.vb: GetDuplicates(ParamArray String())
+  nameWithType.vb: IDuplicateRule.GetDuplicates(String())
+  fullName.vb: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.GetDuplicates(System.String())
+  name.vb: GetDuplicates(String())
 - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.CreateNewEntity(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
   commentId: M:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.CreateNewEntity(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
   id: CreateNewEntity(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
@@ -70,11 +82,13 @@ items:
   nameWithType: IDuplicateRule.CreateNewEntity(DuplicateEntry)
   fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.CreateNewEntity(SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util.Duplicates
-  summary: Create a new entity in the SuperOffice database based on the duplicate
-  example: []
+  summary: "\nCreate a new entity in the SuperOffice database based on the duplicate\n"
   syntax:
     content: int CreateNewEntity(DuplicateEntry entry)
     parameters:
@@ -97,11 +111,13 @@ items:
   nameWithType: IDuplicateRule.IsActive
   fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.IsActive
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util.Duplicates
-  summary: Indicates if this is an active rule that should be asked for duplicates
-  example: []
+  summary: "\nIndicates if this is an active rule that should be asked for duplicates\n"
   syntax:
     content: bool IsActive { get; set; }
     parameters: []
@@ -109,6 +125,9 @@ items:
       type: System.Boolean
     content.vb: Property IsActive As Boolean
   overload: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.IsActive*
+  modifiers.csharp:
+  - get
+  - set
 - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.Name
   commentId: P:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.Name
   id: Name
@@ -120,6 +139,9 @@ items:
   nameWithType: IDuplicateRule.Name
   fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.Name
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util.Duplicates
@@ -130,6 +152,10 @@ items:
       type: System.String
     content.vb: ReadOnly Property Name As String
   overload: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.Name*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayName
   commentId: P:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayName
   id: DisplayName
@@ -141,6 +167,9 @@ items:
   nameWithType: IDuplicateRule.DisplayName
   fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayName
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util.Duplicates
@@ -151,6 +180,10 @@ items:
       type: System.String
     content.vb: ReadOnly Property DisplayName As String
   overload: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayTooltip
   commentId: P:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayTooltip
   id: DisplayTooltip
@@ -162,6 +195,9 @@ items:
   nameWithType: IDuplicateRule.DisplayTooltip
   fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayTooltip
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data.Util.Duplicates
@@ -172,174 +208,88 @@ items:
       type: System.String
     content.vb: ReadOnly Property DisplayTooltip As String
   overload: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayTooltip*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 references:
 - uid: SuperOffice.CRM.Data.Util.Duplicates
   commentId: N:SuperOffice.CRM.Data.Util.Duplicates
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Data.Util.Duplicates
   nameWithType: SuperOffice.CRM.Data.Util.Duplicates
   fullName: SuperOffice.CRM.Data.Util.Duplicates
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.Util.Duplicates
-    name: Duplicates
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.Duplicates.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.html
-  - name: .
-  - uid: SuperOffice.CRM.Data.Util.Duplicates
-    name: Duplicates
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.Duplicates.html
 - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<IDuplicateRule, To>(IDuplicateRule)
-  nameWithType: EnumUtil.MapEnums<IDuplicateRule, To>(IDuplicateRule)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule, To>(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule)
-  nameWithType.vb: EnumUtil.MapEnums(Of IDuplicateRule, To)(IDuplicateRule)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule, To)(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule)
-  name.vb: MapEnums(Of IDuplicateRule, To)(IDuplicateRule)
+  name: MapEnums<IDuplicateRule, To>()
+  nameWithType: EnumUtil.MapEnums<IDuplicateRule, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IDuplicateRule, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule, To)()
+  name.vb: MapEnums(Of IDuplicateRule, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IDuplicateRule, To>
+    nameWithType: EnumUtil.MapEnums<IDuplicateRule, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
-    name: IDuplicateRule
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
-    name: IDuplicateRule
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IDuplicateRule, To)
+    nameWithType: EnumUtil.MapEnums(Of IDuplicateRule, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
-    name: IDuplicateRule
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
-    name: IDuplicateRule
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<IDuplicateRule, To>(IDuplicateRule)
-  nameWithType: Converters.MapEnums<IDuplicateRule, To>(IDuplicateRule)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule, To>(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule)
-  nameWithType.vb: Converters.MapEnums(Of IDuplicateRule, To)(IDuplicateRule)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule, To)(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule)
-  name.vb: MapEnums(Of IDuplicateRule, To)(IDuplicateRule)
+  name: MapEnums<IDuplicateRule, To>()
+  nameWithType: Converters.MapEnums<IDuplicateRule, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule, To>()
+  nameWithType.vb: Converters.MapEnums(Of IDuplicateRule, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule, To)()
+  name.vb: MapEnums(Of IDuplicateRule, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IDuplicateRule, To>
+    nameWithType: Converters.MapEnums<IDuplicateRule, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
-    name: IDuplicateRule
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
-    name: IDuplicateRule
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IDuplicateRule, To)
+    nameWithType: Converters.MapEnums(Of IDuplicateRule, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
-    name: IDuplicateRule
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule
-    name: IDuplicateRule
-    isExternal: true
-    href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -348,45 +298,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -395,112 +343,81 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.GetDuplicates*
   commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.GetDuplicates
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateRule_GetDuplicates_System_String___
   name: GetDuplicates
   nameWithType: IDuplicateRule.GetDuplicates
   fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.GetDuplicates
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry[]
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry.html
   name: DuplicateEntry[]
   nameWithType: DuplicateEntry[]
   fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry[]
@@ -510,21 +427,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
     name: DuplicateEntry
+    nameWithType: DuplicateEntry
+    fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
     isExternal: true
-    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
     name: DuplicateEntry
+    nameWithType: DuplicateEntry
+    fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
     isExternal: true
-    href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.CreateNewEntity*
   commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.CreateNewEntity
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateRule_CreateNewEntity_SuperOffice_CRM_Data_Util_Duplicates_DuplicateEntry_
   name: CreateNewEntity
   nameWithType: IDuplicateRule.CreateNewEntity
   fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.CreateNewEntity
@@ -532,7 +452,6 @@ references:
   commentId: T:SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
   parent: SuperOffice.CRM.Data.Util.Duplicates
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry.html
   name: DuplicateEntry
   nameWithType: DuplicateEntry
   fullName: SuperOffice.CRM.Data.Util.Duplicates.DuplicateEntry
@@ -540,24 +459,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.IsActive*
   commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.IsActive
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateRule_IsActive
   name: IsActive
   nameWithType: IDuplicateRule.IsActive
   fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.IsActive
@@ -565,17 +478,12 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.Name*
   commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.Name
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateRule_Name
   name: Name
   nameWithType: IDuplicateRule.Name
   fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.Name
@@ -583,24 +491,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayName*
   commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayName
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateRule_DisplayName
   name: DisplayName
   nameWithType: IDuplicateRule.DisplayName
   fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayName
 - uid: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayTooltip*
   commentId: Overload:SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayTooltip
   isExternal: true
-  href: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.html#SuperOffice_CRM_Data_Util_Duplicates_IDuplicateRule_DisplayTooltip
   name: DisplayTooltip
   nameWithType: IDuplicateRule.DisplayTooltip
   fullName: SuperOffice.CRM.Data.Util.Duplicates.IDuplicateRule.DisplayTooltip

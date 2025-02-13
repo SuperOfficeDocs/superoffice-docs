@@ -23,41 +23,67 @@ items:
   - SuperOffice.Data.StatusScreenPanelType.UserReponseTimePerWeek
   - SuperOffice.Data.StatusScreenPanelType.UserResponseTimePerDay
   - SuperOffice.Data.StatusScreenPanelType.UserResponseTimePerMonth
+  - SuperOffice.Data.StatusScreenPanelType.value__
   langs:
   - csharp
   - vb
   name: StatusScreenPanelType
   nameWithType: StatusScreenPanelType
   fullName: SuperOffice.Data.StatusScreenPanelType
-  type: Enum
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public enum StatusScreenPanelType
+    content: 'public sealed class StatusScreenPanelType : Enum'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
+      Public NotInheritable Class StatusScreenPanelType
+          Inherits
 
-      Public Enum StatusScreenPanelType
+           Enum
+  inheritance:
+  - System.Object
   extensionMethods:
   - SuperOffice.Data.StatusScreenPanelType.EnumUtil.MapEnums``2
   - SuperOffice.Data.StatusScreenPanelType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.Data.StatusScreenPanelType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.StatusScreenPanelType)
-  - SuperOffice.Data.StatusScreenPanelType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  - System.Enum.EnumUtil.GetDescription
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.StatusScreenPanelType.value__
+  commentId: F:SuperOffice.Data.StatusScreenPanelType.value__
+  id: value__
+  parent: SuperOffice.Data.StatusScreenPanelType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: StatusScreenPanelType.value__
+  fullName: SuperOffice.Data.StatusScreenPanelType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.StatusScreenPanelType.None
   commentId: F:SuperOffice.Data.StatusScreenPanelType.None
   id: None
@@ -69,26 +95,24 @@ items:
   nameWithType: StatusScreenPanelType.None
   fullName: SuperOffice.Data.StatusScreenPanelType.None
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '0:'
-  example: []
+  summary: "\n0: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      None = 0
+    content: public const StatusScreenPanelType None
     return:
       type: SuperOffice.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      None = 0
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const None As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerCategory
   commentId: F:SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerCategory
   id: OpenRequestsPerCategory
@@ -100,26 +124,24 @@ items:
   nameWithType: StatusScreenPanelType.OpenRequestsPerCategory
   fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerCategory
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '1:'
-  example: []
+  summary: "\n1: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OpenRequestsPerCategory = 1
+    content: public const StatusScreenPanelType OpenRequestsPerCategory
     return:
       type: SuperOffice.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      OpenRequestsPerCategory = 1
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OpenRequestsPerCategory As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerTopCategory
   commentId: F:SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerTopCategory
   id: OpenRequestsPerTopCategory
@@ -131,26 +153,24 @@ items:
   nameWithType: StatusScreenPanelType.OpenRequestsPerTopCategory
   fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerTopCategory
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2:'
-  example: []
+  summary: "\n2: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OpenRequestsPerTopCategory = 2
+    content: public const StatusScreenPanelType OpenRequestsPerTopCategory
     return:
       type: SuperOffice.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      OpenRequestsPerTopCategory = 2
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OpenRequestsPerTopCategory As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerUser
   commentId: F:SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerUser
   id: OpenRequestsPerUser
@@ -162,26 +182,24 @@ items:
   nameWithType: StatusScreenPanelType.OpenRequestsPerUser
   fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerUser
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '3:'
-  example: []
+  summary: "\n3: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OpenRequestsPerUser = 3
+    content: public const StatusScreenPanelType OpenRequestsPerUser
     return:
       type: SuperOffice.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      OpenRequestsPerUser = 3
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OpenRequestsPerUser As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerUserGroup
   commentId: F:SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerUserGroup
   id: OpenRequestsPerUserGroup
@@ -193,26 +211,24 @@ items:
   nameWithType: StatusScreenPanelType.OpenRequestsPerUserGroup
   fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerUserGroup
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '4:'
-  example: []
+  summary: "\n4: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OpenRequestsPerUserGroup = 4
+    content: public const StatusScreenPanelType OpenRequestsPerUserGroup
     return:
       type: SuperOffice.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      OpenRequestsPerUserGroup = 4
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OpenRequestsPerUserGroup As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerPriority
   commentId: F:SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerPriority
   id: OpenRequestsPerPriority
@@ -224,26 +240,24 @@ items:
   nameWithType: StatusScreenPanelType.OpenRequestsPerPriority
   fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerPriority
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '5:'
-  example: []
+  summary: "\n5: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OpenRequestsPerPriority = 5
+    content: public const StatusScreenPanelType OpenRequestsPerPriority
     return:
       type: SuperOffice.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      OpenRequestsPerPriority = 5
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OpenRequestsPerPriority As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerStatus
   commentId: F:SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerStatus
   id: OpenRequestsPerStatus
@@ -255,26 +269,24 @@ items:
   nameWithType: StatusScreenPanelType.OpenRequestsPerStatus
   fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerStatus
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '6:'
-  example: []
+  summary: "\n6: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OpenRequestsPerStatus = 6
+    content: public const StatusScreenPanelType OpenRequestsPerStatus
     return:
       type: SuperOffice.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      OpenRequestsPerStatus = 6
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OpenRequestsPerStatus As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerOrigin
   commentId: F:SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerOrigin
   id: OpenRequestsPerOrigin
@@ -286,26 +298,24 @@ items:
   nameWithType: StatusScreenPanelType.OpenRequestsPerOrigin
   fullName: SuperOffice.Data.StatusScreenPanelType.OpenRequestsPerOrigin
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '7:'
-  example: []
+  summary: "\n7: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OpenRequestsPerOrigin = 7
+    content: public const StatusScreenPanelType OpenRequestsPerOrigin
     return:
       type: SuperOffice.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      OpenRequestsPerOrigin = 7
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OpenRequestsPerOrigin As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerDay
   commentId: F:SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerDay
   id: NumberOfCreatedRequestsPerDay
@@ -317,26 +327,24 @@ items:
   nameWithType: StatusScreenPanelType.NumberOfCreatedRequestsPerDay
   fullName: SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerDay
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '11:'
-  example: []
+  summary: "\n11: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      NumberOfCreatedRequestsPerDay = 11
+    content: public const StatusScreenPanelType NumberOfCreatedRequestsPerDay
     return:
       type: SuperOffice.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      NumberOfCreatedRequestsPerDay = 11
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const NumberOfCreatedRequestsPerDay As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerWeek
   commentId: F:SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerWeek
   id: NumberOfCreatedRequestsPerWeek
@@ -348,26 +356,24 @@ items:
   nameWithType: StatusScreenPanelType.NumberOfCreatedRequestsPerWeek
   fullName: SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerWeek
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '12:'
-  example: []
+  summary: "\n12: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      NumberOfCreatedRequestsPerWeek = 12
+    content: public const StatusScreenPanelType NumberOfCreatedRequestsPerWeek
     return:
       type: SuperOffice.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      NumberOfCreatedRequestsPerWeek = 12
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const NumberOfCreatedRequestsPerWeek As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerMonth
   commentId: F:SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerMonth
   id: NumberOfCreatedRequestsPerMonth
@@ -379,26 +385,24 @@ items:
   nameWithType: StatusScreenPanelType.NumberOfCreatedRequestsPerMonth
   fullName: SuperOffice.Data.StatusScreenPanelType.NumberOfCreatedRequestsPerMonth
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '13:'
-  example: []
+  summary: "\n13: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      NumberOfCreatedRequestsPerMonth = 13
+    content: public const StatusScreenPanelType NumberOfCreatedRequestsPerMonth
     return:
       type: SuperOffice.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      NumberOfCreatedRequestsPerMonth = 13
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const NumberOfCreatedRequestsPerMonth As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.StatusScreenPanelType.UserResponseTimePerDay
   commentId: F:SuperOffice.Data.StatusScreenPanelType.UserResponseTimePerDay
   id: UserResponseTimePerDay
@@ -410,26 +414,24 @@ items:
   nameWithType: StatusScreenPanelType.UserResponseTimePerDay
   fullName: SuperOffice.Data.StatusScreenPanelType.UserResponseTimePerDay
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '21:'
-  example: []
+  summary: "\n21: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UserResponseTimePerDay = 21
+    content: public const StatusScreenPanelType UserResponseTimePerDay
     return:
       type: SuperOffice.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      UserResponseTimePerDay = 21
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UserResponseTimePerDay As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.StatusScreenPanelType.UserReponseTimePerWeek
   commentId: F:SuperOffice.Data.StatusScreenPanelType.UserReponseTimePerWeek
   id: UserReponseTimePerWeek
@@ -441,26 +443,24 @@ items:
   nameWithType: StatusScreenPanelType.UserReponseTimePerWeek
   fullName: SuperOffice.Data.StatusScreenPanelType.UserReponseTimePerWeek
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '22:'
-  example: []
+  summary: "\n22: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UserReponseTimePerWeek = 22
+    content: public const StatusScreenPanelType UserReponseTimePerWeek
     return:
       type: SuperOffice.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      UserReponseTimePerWeek = 22
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UserReponseTimePerWeek As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.StatusScreenPanelType.UserResponseTimePerMonth
   commentId: F:SuperOffice.Data.StatusScreenPanelType.UserResponseTimePerMonth
   id: UserResponseTimePerMonth
@@ -472,26 +472,24 @@ items:
   nameWithType: StatusScreenPanelType.UserResponseTimePerMonth
   fullName: SuperOffice.Data.StatusScreenPanelType.UserResponseTimePerMonth
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '23:'
-  example: []
+  summary: "\n23: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UserResponseTimePerMonth = 23
+    content: public const StatusScreenPanelType UserResponseTimePerMonth
     return:
       type: SuperOffice.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      UserResponseTimePerMonth = 23
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UserResponseTimePerMonth As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.StatusScreenPanelType.OwnOpenRequests
   commentId: F:SuperOffice.Data.StatusScreenPanelType.OwnOpenRequests
   id: OwnOpenRequests
@@ -503,26 +501,24 @@ items:
   nameWithType: StatusScreenPanelType.OwnOpenRequests
   fullName: SuperOffice.Data.StatusScreenPanelType.OwnOpenRequests
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '101:'
-  example: []
+  summary: "\n101: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      OwnOpenRequests = 101
+    content: public const StatusScreenPanelType OwnOpenRequests
     return:
       type: SuperOffice.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      OwnOpenRequests = 101
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const OwnOpenRequests As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.StatusScreenPanelType.UnassignedRequests
   commentId: F:SuperOffice.Data.StatusScreenPanelType.UnassignedRequests
   id: UnassignedRequests
@@ -534,26 +530,24 @@ items:
   nameWithType: StatusScreenPanelType.UnassignedRequests
   fullName: SuperOffice.Data.StatusScreenPanelType.UnassignedRequests
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '102:'
-  example: []
+  summary: "\n102: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      UnassignedRequests = 102
+    content: public const StatusScreenPanelType UnassignedRequests
     return:
       type: SuperOffice.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      UnassignedRequests = 102
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const UnassignedRequests As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.StatusScreenPanelType.Hotlist
   commentId: F:SuperOffice.Data.StatusScreenPanelType.Hotlist
   id: Hotlist
@@ -565,26 +559,24 @@ items:
   nameWithType: StatusScreenPanelType.Hotlist
   fullName: SuperOffice.Data.StatusScreenPanelType.Hotlist
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '103:'
-  example: []
+  summary: "\n103: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      Hotlist = 103
+    content: public const StatusScreenPanelType Hotlist
     return:
       type: SuperOffice.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      Hotlist = 103
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const Hotlist As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.Data.StatusScreenPanelType.StatusScreen
   commentId: F:SuperOffice.Data.StatusScreenPanelType.StatusScreen
   id: StatusScreen
@@ -596,300 +588,115 @@ items:
   nameWithType: StatusScreenPanelType.StatusScreen
   fullName: SuperOffice.Data.StatusScreenPanelType.StatusScreen
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '111:'
-  example: []
+  summary: "\n111: \n"
   syntax:
-    content: >-
-      [EnumMember]
-
-      StatusScreen = 111
+    content: public const StatusScreenPanelType StatusScreen
     return:
       type: SuperOffice.Data.StatusScreenPanelType
-    content.vb: >-
-      <EnumMember>
-
-      StatusScreen = 111
-  attributes:
-  - type: System.Runtime.Serialization.EnumMemberAttribute
-    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
-    arguments: []
+    content.vb: Public Const StatusScreen As StatusScreenPanelType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.StatusScreenPanelType.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<StatusScreenPanelType, To>(StatusScreenPanelType)
-  nameWithType: EnumUtil.MapEnums<StatusScreenPanelType, To>(StatusScreenPanelType)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.StatusScreenPanelType, To>(SuperOffice.Data.StatusScreenPanelType)
-  nameWithType.vb: EnumUtil.MapEnums(Of StatusScreenPanelType, To)(StatusScreenPanelType)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.StatusScreenPanelType, To)(SuperOffice.Data.StatusScreenPanelType)
-  name.vb: MapEnums(Of StatusScreenPanelType, To)(StatusScreenPanelType)
+  name: MapEnums<StatusScreenPanelType, To>()
+  nameWithType: EnumUtil.MapEnums<StatusScreenPanelType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.StatusScreenPanelType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of StatusScreenPanelType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.StatusScreenPanelType, To)()
+  name.vb: MapEnums(Of StatusScreenPanelType, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.StatusScreenPanelType)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<StatusScreenPanelType, To>
+    nameWithType: EnumUtil.MapEnums<StatusScreenPanelType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.StatusScreenPanelType, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.StatusScreenPanelType
-    name: StatusScreenPanelType
-    isExternal: true
-    href: SuperOffice.Data.StatusScreenPanelType.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.StatusScreenPanelType
-    name: StatusScreenPanelType
-    isExternal: true
-    href: SuperOffice.Data.StatusScreenPanelType.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.StatusScreenPanelType)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of StatusScreenPanelType, To)
+    nameWithType: EnumUtil.MapEnums(Of StatusScreenPanelType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.StatusScreenPanelType, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.StatusScreenPanelType
-    name: StatusScreenPanelType
-    isExternal: true
-    href: SuperOffice.Data.StatusScreenPanelType.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.StatusScreenPanelType
-    name: StatusScreenPanelType
-    isExternal: true
-    href: SuperOffice.Data.StatusScreenPanelType.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.StatusScreenPanelType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   parent: SuperOffice.ErpSync.ConnectorWS.Converters
   definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<StatusScreenPanelType, To>(StatusScreenPanelType)
-  nameWithType: Converters.MapEnums<StatusScreenPanelType, To>(StatusScreenPanelType)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.StatusScreenPanelType, To>(SuperOffice.Data.StatusScreenPanelType)
-  nameWithType.vb: Converters.MapEnums(Of StatusScreenPanelType, To)(StatusScreenPanelType)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.StatusScreenPanelType, To)(SuperOffice.Data.StatusScreenPanelType)
-  name.vb: MapEnums(Of StatusScreenPanelType, To)(StatusScreenPanelType)
+  name: MapEnums<StatusScreenPanelType, To>()
+  nameWithType: Converters.MapEnums<StatusScreenPanelType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.StatusScreenPanelType, To>()
+  nameWithType.vb: Converters.MapEnums(Of StatusScreenPanelType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.StatusScreenPanelType, To)()
+  name.vb: MapEnums(Of StatusScreenPanelType, To)()
   spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.StatusScreenPanelType)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<StatusScreenPanelType, To>
+    nameWithType: Converters.MapEnums<StatusScreenPanelType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.StatusScreenPanelType, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.StatusScreenPanelType
-    name: StatusScreenPanelType
-    isExternal: true
-    href: SuperOffice.Data.StatusScreenPanelType.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.StatusScreenPanelType
-    name: StatusScreenPanelType
-    isExternal: true
-    href: SuperOffice.Data.StatusScreenPanelType.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.StatusScreenPanelType)
-    name: MapEnums
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of StatusScreenPanelType, To)
+    nameWithType: Converters.MapEnums(Of StatusScreenPanelType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.StatusScreenPanelType, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.StatusScreenPanelType
-    name: StatusScreenPanelType
-    isExternal: true
-    href: SuperOffice.Data.StatusScreenPanelType.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.StatusScreenPanelType
-    name: StatusScreenPanelType
-    isExternal: true
-    href: SuperOffice.Data.StatusScreenPanelType.html
-  - name: )
-- uid: SuperOffice.Data.StatusScreenPanelType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.StatusScreenPanelType)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<StatusScreenPanelType>(StatusScreenPanelType, StatusScreenPanelType)
-  nameWithType: ObjectExtensions.AssignByReflection<StatusScreenPanelType>(StatusScreenPanelType, StatusScreenPanelType)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.StatusScreenPanelType>(SuperOffice.Data.StatusScreenPanelType, SuperOffice.Data.StatusScreenPanelType)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of StatusScreenPanelType)(StatusScreenPanelType, StatusScreenPanelType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.StatusScreenPanelType)(SuperOffice.Data.StatusScreenPanelType, SuperOffice.Data.StatusScreenPanelType)
-  name.vb: AssignByReflection(Of StatusScreenPanelType)(StatusScreenPanelType, StatusScreenPanelType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.StatusScreenPanelType,SuperOffice.Data.StatusScreenPanelType)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.StatusScreenPanelType
-    name: StatusScreenPanelType
-    isExternal: true
-    href: SuperOffice.Data.StatusScreenPanelType.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.StatusScreenPanelType
-    name: StatusScreenPanelType
-    isExternal: true
-    href: SuperOffice.Data.StatusScreenPanelType.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.StatusScreenPanelType
-    name: StatusScreenPanelType
-    isExternal: true
-    href: SuperOffice.Data.StatusScreenPanelType.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.StatusScreenPanelType,SuperOffice.Data.StatusScreenPanelType)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.StatusScreenPanelType
-    name: StatusScreenPanelType
-    isExternal: true
-    href: SuperOffice.Data.StatusScreenPanelType.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.StatusScreenPanelType
-    name: StatusScreenPanelType
-    isExternal: true
-    href: SuperOffice.Data.StatusScreenPanelType.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.StatusScreenPanelType
-    name: StatusScreenPanelType
-    isExternal: true
-    href: SuperOffice.Data.StatusScreenPanelType.html
-  - name: )
-- uid: SuperOffice.Data.StatusScreenPanelType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<StatusScreenPanelType>(StatusScreenPanelType)
-  nameWithType: ObjectExtensions.GraphCopy<StatusScreenPanelType>(StatusScreenPanelType)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.StatusScreenPanelType>(SuperOffice.Data.StatusScreenPanelType)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of StatusScreenPanelType)(StatusScreenPanelType)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.StatusScreenPanelType)(SuperOffice.Data.StatusScreenPanelType)
-  name.vb: GraphCopy(Of StatusScreenPanelType)(StatusScreenPanelType)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.StatusScreenPanelType)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.StatusScreenPanelType
-    name: StatusScreenPanelType
-    isExternal: true
-    href: SuperOffice.Data.StatusScreenPanelType.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.StatusScreenPanelType
-    name: StatusScreenPanelType
-    isExternal: true
-    href: SuperOffice.Data.StatusScreenPanelType.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.StatusScreenPanelType)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.StatusScreenPanelType
-    name: StatusScreenPanelType
-    isExternal: true
-    href: SuperOffice.Data.StatusScreenPanelType.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.StatusScreenPanelType
-    name: StatusScreenPanelType
-    isExternal: true
-    href: SuperOffice.Data.StatusScreenPanelType.html
-  - name: )
-- uid: System.Enum.EnumUtil.GetDescription
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  parent: EnumUtil
-  definition: EnumUtil.GetDescription(System.Enum)
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -898,45 +705,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: Converters.MapEnums<From, To>(From)
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
@@ -945,222 +750,58 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.ErpSync.ConnectorWS.Converters
   commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
   parent: SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: EnumUtil.GetDescription(System.Enum)
-  commentId: M:EnumUtil.GetDescription(System.Enum)
-  isExternal: true
-  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  name: GetDescription(Enum)
-  nameWithType: EnumUtil.GetDescription(Enum)
-  fullName: EnumUtil.GetDescription(System.Enum)
-  spec.csharp:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
-  spec.vb:
-  - uid: EnumUtil.GetDescription(System.Enum)
-    name: GetDescription
-    isExternal: true
-    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
-  - name: (
-  - uid: System.Enum
-    name: Enum
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.enum
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.ErpSync.ConnectorWS
   nameWithType: SuperOffice.ErpSync.ConnectorWS
   fullName: SuperOffice.ErpSync.ConnectorWS
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.StatusScreenPanelType
   commentId: T:SuperOffice.Data.StatusScreenPanelType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.StatusScreenPanelType.html
   name: StatusScreenPanelType
   nameWithType: StatusScreenPanelType
   fullName: SuperOffice.Data.StatusScreenPanelType

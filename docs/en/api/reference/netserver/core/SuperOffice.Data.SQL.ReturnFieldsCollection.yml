@@ -24,9 +24,9 @@ items:
   - SuperOffice.Data.SQL.ReturnFieldsCollection.GetNumberOfItems
   - SuperOffice.Data.SQL.ReturnFieldsCollection.GetReturnFieldList
   - SuperOffice.Data.SQL.ReturnFieldsCollection.Item(System.Int32)
+  - SuperOffice.Data.SQL.ReturnFieldsCollection.op_Implicit(SuperOffice.Data.SQL.FieldInfo[])~SuperOffice.Data.SQL.ReturnFieldsCollection
   - SuperOffice.Data.SQL.ReturnFieldsCollection.Remove(SuperOffice.Data.SQL.Argument[])
   - SuperOffice.Data.SQL.ReturnFieldsCollection.ToString
-  - SuperOffice.Data.SQL.ReturnFieldsCollection.op_Implicit(SuperOffice.Data.SQL.FieldInfo[])~SuperOffice.Data.SQL.ReturnFieldsCollection
   langs:
   - csharp
   - vb
@@ -34,34 +34,35 @@ items:
   nameWithType: ReturnFieldsCollection
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: >-
-    The ReturnFieldsCollection is a Collection that is used to contain the different fields
-
-    we are interested in when we are dealing with a select-command.
-  example: []
+  summary: "\nThe ReturnFieldsCollection is a Collection that is used to contain the different fields\nwe are interested in when we are dealing with a select-command. \n"
   syntax:
-    content: 'public class ReturnFieldsCollection : IEnumerable<Argument>, IEnumerable'
-    content.vb: Public Class ReturnFieldsCollection Implements IEnumerable(Of Argument), IEnumerable
+    content: 'public class ReturnFieldsCollection : Object, IEnumerable, IEnumerable<Argument>'
+    content.vb: >-
+      Public Class ReturnFieldsCollection
+          Inherits Object
+          Implements IEnumerable, IEnumerable(Of Argument)
   inheritance:
   - System.Object
   implements:
-  - System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument}
   - System.Collections.IEnumerable
-  inheritedMembers:
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  - System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument}
   extensionMethods:
   - SuperOffice.Data.SQL.ReturnFieldsCollection.EnumUtil.MapEnums``2
-  - SuperOffice.Data.SQL.ReturnFieldsCollection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Data.SQL.ReturnFieldsCollection.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.ReturnFieldsCollection)
   - SuperOffice.Data.SQL.ReturnFieldsCollection.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.SQL.ReturnFieldsCollection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.GetIndexOfField(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsCollection.GetIndexOfField(SuperOffice.Data.SQL.Argument)
   id: GetIndexOfField(SuperOffice.Data.SQL.Argument)
@@ -73,32 +74,25 @@ items:
   nameWithType: ReturnFieldsCollection.GetIndexOfField(Argument)
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.GetIndexOfField(SuperOffice.Data.SQL.Argument)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
   syntax:
-    content: >-
-      [Obsolete("This is no longer used, as it is now exposed through the dialect.", true)]
-
-      public int GetIndexOfField(Argument field)
+    content: public int GetIndexOfField(Argument field)
     parameters:
     - id: field
       type: SuperOffice.Data.SQL.Argument
     return:
       type: System.Int32
-    content.vb: >-
-      <Obsolete("This is no longer used, as it is now exposed through the dialect.", True)>
-
-      Public Function GetIndexOfField(field As Argument) As Integer
+    content.vb: Public Function GetIndexOfField(field As Argument) As Integer
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.GetIndexOfField*
-  attributes:
-  - type: System.ObsoleteAttribute
-    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
-    arguments:
-    - type: System.String
-      value: This is no longer used, as it is now exposed through the dialect.
-    - type: System.Boolean
-      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.GetReturnFieldList
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsCollection.GetReturnFieldList
   id: GetReturnFieldList
@@ -110,6 +104,9 @@ items:
   nameWithType: ReturnFieldsCollection.GetReturnFieldList()
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.GetReturnFieldList()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
@@ -117,8 +114,12 @@ items:
     content: public List<Argument> GetReturnFieldList()
     return:
       type: System.Collections.Generic.List{SuperOffice.Data.SQL.Argument}
-    content.vb: Public Function GetReturnFieldList() As List(Of Argument)
+    content.vb: Public Function GetReturnFieldList As List(Of Argument)
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.GetReturnFieldList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.#ctor
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsCollection.#ctor
   id: '#ctor'
@@ -130,18 +131,21 @@ items:
   nameWithType: ReturnFieldsCollection.ReturnFieldsCollection()
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.ReturnFieldsCollection()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Initializes a new instance of the <xref href="SuperOffice.Data.SQL.ReturnFieldsCollection" data-throw-if-not-resolved="false"></xref> class.
-  example: []
+  summary: "\nInitializes a new instance of the <xref href=\"SuperOffice.Data.SQL.ReturnFieldsCollection\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
   syntax:
     content: public ReturnFieldsCollection()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.#ctor*
-  nameWithType.vb: ReturnFieldsCollection.New()
-  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsCollection.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.Clear
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsCollection.Clear
   id: Clear
@@ -153,15 +157,21 @@ items:
   nameWithType: ReturnFieldsCollection.Clear()
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.Clear()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Clear the return fields collection, removing all fields
-  example: []
+  summary: "\nClear the return fields collection, removing all fields\n"
   syntax:
     content: public void Clear()
-    content.vb: Public Sub Clear()
+    content.vb: Public Sub Clear
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.Clear*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.Add(SuperOffice.Data.SQL.Argument[])
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsCollection.Add(SuperOffice.Data.SQL.Argument[])
   id: Add(SuperOffice.Data.SQL.Argument[])
@@ -169,15 +179,17 @@ items:
   langs:
   - csharp
   - vb
-  name: Add(params Argument[])
-  nameWithType: ReturnFieldsCollection.Add(params Argument[])
-  fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.Add(params SuperOffice.Data.SQL.Argument[])
+  name: Add(Argument[])
+  nameWithType: ReturnFieldsCollection.Add(Argument[])
+  fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.Add(SuperOffice.Data.SQL.Argument[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Adds values to the collection based on the in-parameter.
-  example: []
+  summary: "\nAdds values to the collection based on the in-parameter.\n"
   syntax:
     content: public void Add(params Argument[] arguments)
     parameters:
@@ -186,9 +198,13 @@ items:
       description: Argument collection to add
     content.vb: Public Sub Add(ParamArray arguments As Argument())
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.Add*
-  nameWithType.vb: ReturnFieldsCollection.Add(ParamArray Argument())
-  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsCollection.Add(ParamArray SuperOffice.Data.SQL.Argument())
-  name.vb: Add(ParamArray Argument())
+  nameWithType.vb: ReturnFieldsCollection.Add(Argument())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsCollection.Add(SuperOffice.Data.SQL.Argument())
+  name.vb: Add(Argument())
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.Remove(SuperOffice.Data.SQL.Argument[])
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsCollection.Remove(SuperOffice.Data.SQL.Argument[])
   id: Remove(SuperOffice.Data.SQL.Argument[])
@@ -196,26 +212,31 @@ items:
   langs:
   - csharp
   - vb
-  name: Remove(params Argument[])
-  nameWithType: ReturnFieldsCollection.Remove(params Argument[])
-  fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.Remove(params SuperOffice.Data.SQL.Argument[])
+  name: Remove(Argument[])
+  nameWithType: ReturnFieldsCollection.Remove(Argument[])
+  fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.Remove(SuperOffice.Data.SQL.Argument[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Remove one or more fields / arguments from the returnfieldscollection
-  example: []
+  summary: "\nRemove one or more fields / arguments from the returnfieldscollection\n"
   syntax:
     content: public void Remove(params Argument[] arguments)
     parameters:
     - id: arguments
       type: SuperOffice.Data.SQL.Argument[]
-      description: ''
     content.vb: Public Sub Remove(ParamArray arguments As Argument())
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.Remove*
-  nameWithType.vb: ReturnFieldsCollection.Remove(ParamArray Argument())
-  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsCollection.Remove(ParamArray SuperOffice.Data.SQL.Argument())
-  name.vb: Remove(ParamArray Argument())
+  nameWithType.vb: ReturnFieldsCollection.Remove(Argument())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsCollection.Remove(SuperOffice.Data.SQL.Argument())
+  name.vb: Remove(Argument())
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.Add(SuperOffice.Data.SQL.Argument)
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsCollection.Add(SuperOffice.Data.SQL.Argument)
   id: Add(SuperOffice.Data.SQL.Argument)
@@ -227,12 +248,14 @@ items:
   nameWithType: ReturnFieldsCollection.Add(Argument)
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.Add(SuperOffice.Data.SQL.Argument)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Adds values to the collection based on the in-parameter.
+  summary: "\nAdds values to the collection based on the in-parameter.\n"
   remarks: Does not add duplicates. A field added twice will only appear once in the result set.
-  example: []
   syntax:
     content: public void Add(Argument arg)
     parameters:
@@ -241,6 +264,10 @@ items:
       description: FieldInfo or function
     content.vb: Public Sub Add(arg As Argument)
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.Add(SuperOffice.Data.SQL.TableInfo[])
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsCollection.Add(SuperOffice.Data.SQL.TableInfo[])
   id: Add(SuperOffice.Data.SQL.TableInfo[])
@@ -248,15 +275,17 @@ items:
   langs:
   - csharp
   - vb
-  name: Add(params TableInfo[])
-  nameWithType: ReturnFieldsCollection.Add(params TableInfo[])
-  fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.Add(params SuperOffice.Data.SQL.TableInfo[])
+  name: Add(TableInfo[])
+  nameWithType: ReturnFieldsCollection.Add(TableInfo[])
+  fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.Add(SuperOffice.Data.SQL.TableInfo[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Add all the fields from the given table(s) to the query
-  example: []
+  summary: "\nAdd all the fields from the given table(s) to the query\n"
   syntax:
     content: public void Add(params TableInfo[] tableInfos)
     parameters:
@@ -265,9 +294,13 @@ items:
       description: Array of zero or more tableInfo objects; All fields from each will be added to the query return fields
     content.vb: Public Sub Add(ParamArray tableInfos As TableInfo())
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.Add*
-  nameWithType.vb: ReturnFieldsCollection.Add(ParamArray TableInfo())
-  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsCollection.Add(ParamArray SuperOffice.Data.SQL.TableInfo())
-  name.vb: Add(ParamArray TableInfo())
+  nameWithType.vb: ReturnFieldsCollection.Add(TableInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsCollection.Add(SuperOffice.Data.SQL.TableInfo())
+  name.vb: Add(TableInfo())
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.AddRange(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument})
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsCollection.AddRange(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument})
   id: AddRange(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument})
@@ -279,11 +312,13 @@ items:
   nameWithType: ReturnFieldsCollection.AddRange(IEnumerable<Argument>)
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.AddRange(System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Argument>)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Add a range of Arguments to the the collection
-  example: []
+  summary: "\nAdd a range of Arguments to the the collection\n"
   syntax:
     content: public void AddRange(IEnumerable<Argument> arguments)
     parameters:
@@ -293,6 +328,10 @@ items:
     content.vb: Public Sub AddRange(arguments As IEnumerable(Of Argument))
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.AddRange*
   nameWithType.vb: ReturnFieldsCollection.AddRange(IEnumerable(Of Argument))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
   fullName.vb: SuperOffice.Data.SQL.ReturnFieldsCollection.AddRange(System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.Argument))
   name.vb: AddRange(IEnumerable(Of Argument))
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.AddRange(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo})
@@ -306,11 +345,13 @@ items:
   nameWithType: ReturnFieldsCollection.AddRange(IEnumerable<FieldInfo>)
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.AddRange(System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.FieldInfo>)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Add a range of FieldInfos to the the colelction
-  example: []
+  summary: "\nAdd a range of FieldInfos to the the colelction\n"
   syntax:
     content: public void AddRange(IEnumerable<FieldInfo> arguments)
     parameters:
@@ -320,6 +361,10 @@ items:
     content.vb: Public Sub AddRange(arguments As IEnumerable(Of FieldInfo))
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.AddRange*
   nameWithType.vb: ReturnFieldsCollection.AddRange(IEnumerable(Of FieldInfo))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
   fullName.vb: SuperOffice.Data.SQL.ReturnFieldsCollection.AddRange(System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.FieldInfo))
   name.vb: AddRange(IEnumerable(Of FieldInfo))
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.GetEnumerator
@@ -333,20 +378,23 @@ items:
   nameWithType: ReturnFieldsCollection.GetEnumerator()
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.GetEnumerator()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Returns an enumerator to the collection.
-  example: []
+  summary: "\nReturns an enumerator to the collection.\n"
   syntax:
     content: public IEnumerator GetEnumerator()
     return:
       type: System.Collections.IEnumerator
-      description: ''
-    content.vb: Public Function GetEnumerator() As IEnumerator
+    content.vb: Public Function GetEnumerator As IEnumerator
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.GetEnumerator*
-  implements:
-  - System.Collections.IEnumerable.GetEnumerator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.GetNumberOfItems
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsCollection.GetNumberOfItems
   id: GetNumberOfItems
@@ -358,18 +406,23 @@ items:
   nameWithType: ReturnFieldsCollection.GetNumberOfItems()
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.GetNumberOfItems()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Returns number of items in the collection.
-  example: []
+  summary: "\nReturns number of items in the collection.\n"
   syntax:
     content: public int GetNumberOfItems()
     return:
       type: System.Int32
-      description: ''
-    content.vb: Public Function GetNumberOfItems() As Integer
+    content.vb: Public Function GetNumberOfItems As Integer
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.GetNumberOfItems*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.AggregationExist
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsCollection.AggregationExist
   id: AggregationExist
@@ -381,23 +434,24 @@ items:
   nameWithType: ReturnFieldsCollection.AggregationExist()
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.AggregationExist()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: >-
-    AggregationExist will check the ReturnFields-collection to see if it contains any Aggregation-Arguments.
-
-    Will return true if aggregation exists unless the aggregation is of type Distinct. The rules of 
-
-    aggregation does not apply for Distinct.
-  example: []
+  summary: "\nAggregationExist will check the ReturnFields-collection to see if it contains any Aggregation-Arguments.\nWill return true if aggregation exists unless the aggregation is of type Distinct. The rules of \naggregation does not apply for Distinct.\n"
   syntax:
     content: public bool AggregationExist()
     return:
       type: System.Boolean
       description: Returns true if the collection contains a Aggregation-argument, else false.
-    content.vb: Public Function AggregationExist() As Boolean
+    content.vb: Public Function AggregationExist As Boolean
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.AggregationExist*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.CheckCollectionForTopOperator
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsCollection.CheckCollectionForTopOperator
   id: CheckCollectionForTopOperator
@@ -409,18 +463,21 @@ items:
   nameWithType: ReturnFieldsCollection.CheckCollectionForTopOperator()
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.CheckCollectionForTopOperator()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: >-
-    CheckCollectionForTopOperator runs through the returnfieldcollection and makes
-
-    sure that any existing TOP-object will be inserted into position 0 in the list.
-  example: []
+  summary: "\nCheckCollectionForTopOperator runs through the returnfieldcollection and makes\nsure that any existing TOP-object will be inserted into position 0 in the list.\n"
   syntax:
     content: protected void CheckCollectionForTopOperator()
-    content.vb: Protected Sub CheckCollectionForTopOperator()
+    content.vb: Protected Sub CheckCollectionForTopOperator
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.CheckCollectionForTopOperator*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.FindFirstTableFromTable(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsCollection.FindFirstTableFromTable(SuperOffice.Data.SQL.TableInfo)
   id: FindFirstTableFromTable(SuperOffice.Data.SQL.TableInfo)
@@ -432,14 +489,13 @@ items:
   nameWithType: ReturnFieldsCollection.FindFirstTableFromTable(TableInfo)
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.FindFirstTableFromTable(SuperOffice.Data.SQL.TableInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: >-
-    Returns first table instance that belongs to the given table. 
-
-    Returns NULL if the table does not appear in the collection.
-  example: []
+  summary: "\nReturns first table instance that belongs to the given table. \nReturns NULL if the table does not appear in the collection.\n"
   syntax:
     content: public TableInfo FindFirstTableFromTable(TableInfo table)
     parameters:
@@ -451,6 +507,10 @@ items:
       description: NULL on no match
     content.vb: Public Function FindFirstTableFromTable(table As TableInfo) As TableInfo
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.FindFirstTableFromTable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.FindFirstFieldFromTable(SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsCollection.FindFirstFieldFromTable(SuperOffice.Data.SQL.TableInfo)
   id: FindFirstFieldFromTable(SuperOffice.Data.SQL.TableInfo)
@@ -462,14 +522,13 @@ items:
   nameWithType: ReturnFieldsCollection.FindFirstFieldFromTable(TableInfo)
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.FindFirstFieldFromTable(SuperOffice.Data.SQL.TableInfo)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: >-
-    Returns first field that belongs to the given table. 
-
-    Returns NULL if the table does not appear in the collection.
-  example: []
+  summary: "\nReturns first field that belongs to the given table. \nReturns NULL if the table does not appear in the collection.\n"
   syntax:
     content: public FieldInfo FindFirstFieldFromTable(TableInfo table)
     parameters:
@@ -481,6 +540,10 @@ items:
       description: NULL on no match
     content.vb: Public Function FindFirstFieldFromTable(table As TableInfo) As FieldInfo
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.FindFirstFieldFromTable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.GetArgumentDataType(System.Int32)
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsCollection.GetArgumentDataType(System.Int32)
   id: GetArgumentDataType(System.Int32)
@@ -488,18 +551,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetArgumentDataType(int)
-  nameWithType: ReturnFieldsCollection.GetArgumentDataType(int)
-  fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.GetArgumentDataType(int)
+  name: GetArgumentDataType(Int32)
+  nameWithType: ReturnFieldsCollection.GetArgumentDataType(Int32)
+  fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.GetArgumentDataType(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: >-
-    GetArgumentDataType will return the FieldDataType of the Argument the in-parameter index 
-
-    points to.
-  example: []
+  summary: "\nGetArgumentDataType will return the FieldDataType of the Argument the in-parameter index \npoints to.\n"
   syntax:
     content: public FieldDataType GetArgumentDataType(int index)
     parameters:
@@ -508,14 +570,13 @@ items:
       description: The index of the Argument we want the FieldDataType on.
     return:
       type: SuperOffice.Data.FieldDataType
-      description: >-
-        The FieldDataType of the Argument corresponding to the index. 
-                    If no object is found on the index, FieldDataType.dbUnknown will be returned.
+      description: "The FieldDataType of the Argument corresponding to the index. \nIf no object is found on the index, FieldDataType.dbUnknown will be returned."
     content.vb: Public Function GetArgumentDataType(index As Integer) As FieldDataType
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.GetArgumentDataType*
-  nameWithType.vb: ReturnFieldsCollection.GetArgumentDataType(Integer)
-  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsCollection.GetArgumentDataType(Integer)
-  name.vb: GetArgumentDataType(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.op_Implicit(SuperOffice.Data.SQL.FieldInfo[])~SuperOffice.Data.SQL.ReturnFieldsCollection
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsCollection.op_Implicit(SuperOffice.Data.SQL.FieldInfo[])~SuperOffice.Data.SQL.ReturnFieldsCollection
   id: op_Implicit(SuperOffice.Data.SQL.FieldInfo[])~SuperOffice.Data.SQL.ReturnFieldsCollection
@@ -523,18 +584,17 @@ items:
   langs:
   - csharp
   - vb
-  name: implicit operator ReturnFieldsCollection(FieldInfo[])
-  nameWithType: ReturnFieldsCollection.implicit operator ReturnFieldsCollection(FieldInfo[])
-  fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.implicit operator SuperOffice.Data.SQL.ReturnFieldsCollection(SuperOffice.Data.SQL.FieldInfo[])
+  name: Implicit(FieldInfo[] to ReturnFieldsCollection)
+  nameWithType: ReturnFieldsCollection.Implicit(FieldInfo[] to ReturnFieldsCollection)
+  fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.Implicit(SuperOffice.Data.SQL.FieldInfo[] to SuperOffice.Data.SQL.ReturnFieldsCollection)
   type: Operator
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: >-
-    Returns a <xref href="SuperOffice.Data.SQL.ReturnFieldsCollection" data-throw-if-not-resolved="false"></xref> class, holding all the fields found in the
-
-    <xref href="SuperOffice.Data.SQL.FieldInfo?text=fields" data-throw-if-not-resolved="false"></xref> argument.
-  example: []
+  summary: "\nReturns a <xref href=\"SuperOffice.Data.SQL.ReturnFieldsCollection\" data-throw-if-not-resolved=\"false\"></xref> class, holding all the fields found in the\n<xref href=\"SuperOffice.Data.SQL.FieldInfo\" data-throw-if-not-resolved=\"false\"></xref> argument.\n"
   syntax:
     content: public static implicit operator ReturnFieldsCollection(FieldInfo[] fields)
     parameters:
@@ -545,12 +605,19 @@ items:
       type: SuperOffice.Data.SQL.ReturnFieldsCollection
       description: >-
         a <xref href="SuperOffice.Data.SQL.ReturnFieldsCollection" data-throw-if-not-resolved="false"></xref> class, holding all the fields found in the
-                    <xref href="SuperOffice.Data.SQL.FieldInfo?text=fields" data-throw-if-not-resolved="false"></xref> argument.
+
+        <xref href="SuperOffice.Data.SQL.FieldInfo" data-throw-if-not-resolved="false"></xref> argument.
     content.vb: Public Shared Widening Operator CType(fields As FieldInfo()) As ReturnFieldsCollection
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.op_Implicit*
-  nameWithType.vb: ReturnFieldsCollection.CType(FieldInfo())
-  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsCollection.CType(SuperOffice.Data.SQL.FieldInfo())
-  name.vb: CType(FieldInfo())
+  nameWithType.vb: ReturnFieldsCollection.Widening(FieldInfo() to ReturnFieldsCollection)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsCollection.Widening(SuperOffice.Data.SQL.FieldInfo() to SuperOffice.Data.SQL.ReturnFieldsCollection)
+  name.vb: Widening(FieldInfo() to ReturnFieldsCollection)
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.FromFieldInfoArray(SuperOffice.Data.SQL.FieldInfo[])
   commentId: M:SuperOffice.Data.SQL.ReturnFieldsCollection.FromFieldInfoArray(SuperOffice.Data.SQL.FieldInfo[])
   id: FromFieldInfoArray(SuperOffice.Data.SQL.FieldInfo[])
@@ -562,14 +629,13 @@ items:
   nameWithType: ReturnFieldsCollection.FromFieldInfoArray(FieldInfo[])
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.FromFieldInfoArray(SuperOffice.Data.SQL.FieldInfo[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: >-
-    Returns a <xref href="SuperOffice.Data.SQL.ReturnFieldsCollection" data-throw-if-not-resolved="false"></xref> class, holding all the fields found in the
-
-    <xref href="SuperOffice.Data.SQL.FieldInfo?text=fields" data-throw-if-not-resolved="false"></xref> argument.
-  example: []
+  summary: "\nReturns a <xref href=\"SuperOffice.Data.SQL.ReturnFieldsCollection\" data-throw-if-not-resolved=\"false\"></xref> class, holding all the fields found in the\n<xref href=\"SuperOffice.Data.SQL.FieldInfo\" data-throw-if-not-resolved=\"false\"></xref> argument.\n"
   syntax:
     content: public static ReturnFieldsCollection FromFieldInfoArray(FieldInfo[] fields)
     parameters:
@@ -580,10 +646,17 @@ items:
       type: SuperOffice.Data.SQL.ReturnFieldsCollection
       description: >-
         a <xref href="SuperOffice.Data.SQL.ReturnFieldsCollection" data-throw-if-not-resolved="false"></xref> class, holding all the fields found in the
-                    <xref href="SuperOffice.Data.SQL.FieldInfo?text=fields" data-throw-if-not-resolved="false"></xref> argument.
+
+        <xref href="SuperOffice.Data.SQL.FieldInfo" data-throw-if-not-resolved="false"></xref> argument.
     content.vb: Public Shared Function FromFieldInfoArray(fields As FieldInfo()) As ReturnFieldsCollection
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.FromFieldInfoArray*
   nameWithType.vb: ReturnFieldsCollection.FromFieldInfoArray(FieldInfo())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
   fullName.vb: SuperOffice.Data.SQL.ReturnFieldsCollection.FromFieldInfoArray(SuperOffice.Data.SQL.FieldInfo())
   name.vb: FromFieldInfoArray(FieldInfo())
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.ToString
@@ -597,19 +670,26 @@ items:
   nameWithType: ReturnFieldsCollection.ToString()
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.ToString()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: String output.
-  example: []
+  summary: "\nString output.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: field, field, ...
-    content.vb: Public Overrides Function ToString() As String
-  overridden: System.Object.ToString
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.Item(System.Int32)
   commentId: P:SuperOffice.Data.SQL.ReturnFieldsCollection.Item(System.Int32)
   id: Item(System.Int32)
@@ -617,28 +697,35 @@ items:
   langs:
   - csharp
   - vb
-  name: this[int]
-  nameWithType: ReturnFieldsCollection.this[int]
-  fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.this[int]
+  name: Item[Int32]
+  nameWithType: ReturnFieldsCollection.Item[Int32]
+  fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.Item[System.Int32]
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
-  summary: Returns the Argument on a specific index.
-  example: []
+  summary: "\nReturns the Argument on a specific index.\n"
   syntax:
     content: public Argument this[int index] { get; }
     parameters:
     - id: index
       type: System.Int32
-      description: ''
     return:
       type: SuperOffice.Data.SQL.Argument
-    content.vb: Public ReadOnly Default Property this[](index As Integer) As Argument
+    content.vb: Public ReadOnly Property Item(index As Integer) As Argument
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.Item*
-  nameWithType.vb: ReturnFieldsCollection.this[](Integer)
-  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsCollection.this[](Integer)
-  name.vb: this[](Integer)
+  nameWithType.vb: ReturnFieldsCollection.Item(Int32)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsCollection.Item(System.Int32)
+  name.vb: Item(Int32)
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.Count
   commentId: P:SuperOffice.Data.SQL.ReturnFieldsCollection.Count
   id: Count
@@ -650,6 +737,9 @@ items:
   nameWithType: ReturnFieldsCollection.Count
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.Count
   type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Data.SQL
@@ -660,60 +750,34 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property Count As Integer
   overload: SuperOffice.Data.SQL.ReturnFieldsCollection.Count*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: SuperOffice.Data.SQL
   commentId: N:SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.SQL
   nameWithType: SuperOffice.Data.SQL
   fullName: SuperOffice.Data.SQL
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.SQL
-    name: SQL
-    isExternal: true
-    href: SuperOffice.Data.SQL.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Collections.IEnumerable
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.Argument}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<Argument>
   nameWithType: IEnumerable<Argument>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.Argument>
@@ -723,545 +787,230 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
-- uid: System.Collections.IEnumerable
-  commentId: T:System.Collections.IEnumerable
-  parent: System.Collections
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
-  name: IEnumerable
-  nameWithType: IEnumerable
-  fullName: System.Collections.IEnumerable
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ReturnFieldsCollection, To>(ReturnFieldsCollection)
-  nameWithType: EnumUtil.MapEnums<ReturnFieldsCollection, To>(ReturnFieldsCollection)
-  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.ReturnFieldsCollection, To>(SuperOffice.Data.SQL.ReturnFieldsCollection)
-  nameWithType.vb: EnumUtil.MapEnums(Of ReturnFieldsCollection, To)(ReturnFieldsCollection)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.ReturnFieldsCollection, To)(SuperOffice.Data.SQL.ReturnFieldsCollection)
-  name.vb: MapEnums(Of ReturnFieldsCollection, To)(ReturnFieldsCollection)
+  name: MapEnums<ReturnFieldsCollection, To>()
+  nameWithType: EnumUtil.MapEnums<ReturnFieldsCollection, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.ReturnFieldsCollection, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ReturnFieldsCollection, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.ReturnFieldsCollection, To)()
+  name.vb: MapEnums(Of ReturnFieldsCollection, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SQL.ReturnFieldsCollection)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ReturnFieldsCollection, To>
+    nameWithType: EnumUtil.MapEnums<ReturnFieldsCollection, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.SQL.ReturnFieldsCollection, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.SQL.ReturnFieldsCollection
-    name: ReturnFieldsCollection
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.SQL.ReturnFieldsCollection
-    name: ReturnFieldsCollection
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.SQL.ReturnFieldsCollection)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ReturnFieldsCollection, To)
+    nameWithType: EnumUtil.MapEnums(Of ReturnFieldsCollection, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.SQL.ReturnFieldsCollection, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SQL.ReturnFieldsCollection
-    name: ReturnFieldsCollection
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.SQL.ReturnFieldsCollection
-    name: ReturnFieldsCollection
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
-  - name: )
-- uid: SuperOffice.Data.SQL.ReturnFieldsCollection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ReturnFieldsCollection, To>(ReturnFieldsCollection)
-  nameWithType: Converters.MapEnums<ReturnFieldsCollection, To>(ReturnFieldsCollection)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.ReturnFieldsCollection, To>(SuperOffice.Data.SQL.ReturnFieldsCollection)
-  nameWithType.vb: Converters.MapEnums(Of ReturnFieldsCollection, To)(ReturnFieldsCollection)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.ReturnFieldsCollection, To)(SuperOffice.Data.SQL.ReturnFieldsCollection)
-  name.vb: MapEnums(Of ReturnFieldsCollection, To)(ReturnFieldsCollection)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SQL.ReturnFieldsCollection)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.Data.SQL.ReturnFieldsCollection
-    name: ReturnFieldsCollection
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.Data.SQL.ReturnFieldsCollection
-    name: ReturnFieldsCollection
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.SQL.ReturnFieldsCollection)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SQL.ReturnFieldsCollection
-    name: ReturnFieldsCollection
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.Data.SQL.ReturnFieldsCollection
-    name: ReturnFieldsCollection
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.ReturnFieldsCollection)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ReturnFieldsCollection>(ReturnFieldsCollection, ReturnFieldsCollection)
-  nameWithType: ObjectExtensions.AssignByReflection<ReturnFieldsCollection>(ReturnFieldsCollection, ReturnFieldsCollection)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SQL.ReturnFieldsCollection>(SuperOffice.Data.SQL.ReturnFieldsCollection, SuperOffice.Data.SQL.ReturnFieldsCollection)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ReturnFieldsCollection)(ReturnFieldsCollection, ReturnFieldsCollection)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SQL.ReturnFieldsCollection)(SuperOffice.Data.SQL.ReturnFieldsCollection, SuperOffice.Data.SQL.ReturnFieldsCollection)
-  name.vb: AssignByReflection(Of ReturnFieldsCollection)(ReturnFieldsCollection, ReturnFieldsCollection)
+  name: AssignByReflection<ReturnFieldsCollection>(ReturnFieldsCollection)
+  nameWithType: ObjectExtensions.AssignByReflection<ReturnFieldsCollection>(ReturnFieldsCollection)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SQL.ReturnFieldsCollection>(SuperOffice.Data.SQL.ReturnFieldsCollection)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ReturnFieldsCollection)(ReturnFieldsCollection)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SQL.ReturnFieldsCollection)(SuperOffice.Data.SQL.ReturnFieldsCollection)
+  name.vb: AssignByReflection(Of ReturnFieldsCollection)(ReturnFieldsCollection)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.ReturnFieldsCollection,SuperOffice.Data.SQL.ReturnFieldsCollection)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ReturnFieldsCollection>
+    nameWithType: ObjectExtensions.AssignByReflection<ReturnFieldsCollection>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.SQL.ReturnFieldsCollection>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.Data.SQL.ReturnFieldsCollection
-    name: ReturnFieldsCollection
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.ReturnFieldsCollection
     name: ReturnFieldsCollection
+    nameWithType: ReturnFieldsCollection
+    fullName: SuperOffice.Data.SQL.ReturnFieldsCollection
     isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.SQL.ReturnFieldsCollection
-    name: ReturnFieldsCollection
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.SQL.ReturnFieldsCollection,SuperOffice.Data.SQL.ReturnFieldsCollection)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ReturnFieldsCollection)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ReturnFieldsCollection)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.SQL.ReturnFieldsCollection)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.ReturnFieldsCollection
     name: ReturnFieldsCollection
+    nameWithType: ReturnFieldsCollection
+    fullName: SuperOffice.Data.SQL.ReturnFieldsCollection
     isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
   - name: )
-  - name: (
-  - uid: SuperOffice.Data.SQL.ReturnFieldsCollection
-    name: ReturnFieldsCollection
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.Data.SQL.ReturnFieldsCollection
-    name: ReturnFieldsCollection
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ReturnFieldsCollection>(ReturnFieldsCollection)
-  nameWithType: ObjectExtensions.GraphCopy<ReturnFieldsCollection>(ReturnFieldsCollection)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SQL.ReturnFieldsCollection>(SuperOffice.Data.SQL.ReturnFieldsCollection)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ReturnFieldsCollection)(ReturnFieldsCollection)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SQL.ReturnFieldsCollection)(SuperOffice.Data.SQL.ReturnFieldsCollection)
-  name.vb: GraphCopy(Of ReturnFieldsCollection)(ReturnFieldsCollection)
+  name: GraphCopy<ReturnFieldsCollection>()
+  nameWithType: ObjectExtensions.GraphCopy<ReturnFieldsCollection>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SQL.ReturnFieldsCollection>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ReturnFieldsCollection)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SQL.ReturnFieldsCollection)()
+  name.vb: GraphCopy(Of ReturnFieldsCollection)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.SQL.ReturnFieldsCollection)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ReturnFieldsCollection>
+    nameWithType: ObjectExtensions.GraphCopy<ReturnFieldsCollection>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.SQL.ReturnFieldsCollection>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.Data.SQL.ReturnFieldsCollection
-    name: ReturnFieldsCollection
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.Data.SQL.ReturnFieldsCollection
-    name: ReturnFieldsCollection
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.SQL.ReturnFieldsCollection)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ReturnFieldsCollection)
+    nameWithType: ObjectExtensions.GraphCopy(Of ReturnFieldsCollection)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.SQL.ReturnFieldsCollection)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.Data.SQL.ReturnFieldsCollection
-    name: ReturnFieldsCollection
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SQL.ReturnFieldsCollection.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ReturnFieldsCollection, To>()
+  nameWithType: Converters.MapEnums<ReturnFieldsCollection, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.ReturnFieldsCollection, To>()
+  nameWithType.vb: Converters.MapEnums(Of ReturnFieldsCollection, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.ReturnFieldsCollection, To)()
+  name.vb: MapEnums(Of ReturnFieldsCollection, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ReturnFieldsCollection, To>
+    nameWithType: Converters.MapEnums<ReturnFieldsCollection, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.SQL.ReturnFieldsCollection, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.Data.SQL.ReturnFieldsCollection
-    name: ReturnFieldsCollection
-    isExternal: true
-    href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ReturnFieldsCollection, To)
+    nameWithType: Converters.MapEnums(Of ReturnFieldsCollection, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.SQL.ReturnFieldsCollection, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Collections.Generic.IEnumerable`1
-  commentId: T:System.Collections.Generic.IEnumerable`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  name: IEnumerable<T>
-  nameWithType: IEnumerable<T>
-  fullName: System.Collections.Generic.IEnumerable<T>
-  nameWithType.vb: IEnumerable(Of T)
-  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
-  name.vb: IEnumerable(Of T)
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: System.Collections.Generic.IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IEnumerable(Of )
+  name.vb: IEnumerable(Of )
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: System.Collections
-  commentId: N:System.Collections
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections
-  nameWithType: System.Collections
-  fullName: System.Collections
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1270,93 +1019,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1365,46 +1064,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1413,96 +1122,95 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.GetIndexOfField*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsCollection.GetIndexOfField
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsCollection.html#SuperOffice_Data_SQL_ReturnFieldsCollection_GetIndexOfField_SuperOffice_Data_SQL_Argument_
   name: GetIndexOfField
   nameWithType: ReturnFieldsCollection.GetIndexOfField
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.GetIndexOfField
@@ -1510,7 +1218,6 @@ references:
   commentId: T:SuperOffice.Data.SQL.Argument
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html
   name: Argument
   nameWithType: Argument
   fullName: SuperOffice.Data.SQL.Argument
@@ -1518,25 +1225,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.GetReturnFieldList*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsCollection.GetReturnFieldList
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsCollection.html#SuperOffice_Data_SQL_ReturnFieldsCollection_GetReturnFieldList
   name: GetReturnFieldList
   nameWithType: ReturnFieldsCollection.GetReturnFieldList
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.GetReturnFieldList
 - uid: System.Collections.Generic.List{SuperOffice.Data.SQL.Argument}
-  commentId: T:System.Collections.Generic.List{SuperOffice.Data.SQL.Argument}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.Data.SQL.Argument}'
   definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<Argument>
   nameWithType: List<Argument>
   fullName: System.Collections.Generic.List<SuperOffice.Data.SQL.Argument>
@@ -1546,90 +1246,95 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: SuperOffice.Data.SQL.ReturnFieldsCollection
-  commentId: T:SuperOffice.Data.SQL.ReturnFieldsCollection
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsCollection.html
-  name: ReturnFieldsCollection
-  nameWithType: ReturnFieldsCollection
-  fullName: SuperOffice.Data.SQL.ReturnFieldsCollection
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.#ctor*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsCollection.#ctor
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsCollection.html#SuperOffice_Data_SQL_ReturnFieldsCollection__ctor
   name: ReturnFieldsCollection
   nameWithType: ReturnFieldsCollection.ReturnFieldsCollection
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.ReturnFieldsCollection
-  nameWithType.vb: ReturnFieldsCollection.New
-  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsCollection.New
-  name.vb: New
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.Clear*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsCollection.Clear
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsCollection.html#SuperOffice_Data_SQL_ReturnFieldsCollection_Clear
   name: Clear
   nameWithType: ReturnFieldsCollection.Clear
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.Clear
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.Add*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsCollection.Add
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsCollection.html#SuperOffice_Data_SQL_ReturnFieldsCollection_Add_SuperOffice_Data_SQL_Argument___
   name: Add
   nameWithType: ReturnFieldsCollection.Add
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.Add
 - uid: SuperOffice.Data.SQL.Argument[]
   isExternal: true
-  href: SuperOffice.Data.SQL.Argument.html
   name: Argument[]
   nameWithType: Argument[]
   fullName: SuperOffice.Data.SQL.Argument[]
@@ -1639,27 +1344,29 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.Data.SQL.Argument
     name: Argument
+    nameWithType: Argument
+    fullName: SuperOffice.Data.SQL.Argument
     isExternal: true
-    href: SuperOffice.Data.SQL.Argument.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.Remove*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsCollection.Remove
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsCollection.html#SuperOffice_Data_SQL_ReturnFieldsCollection_Remove_SuperOffice_Data_SQL_Argument___
   name: Remove
   nameWithType: ReturnFieldsCollection.Remove
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.Remove
 - uid: SuperOffice.Data.SQL.TableInfo[]
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo[]
   nameWithType: TableInfo[]
   fullName: SuperOffice.Data.SQL.TableInfo[]
@@ -1669,29 +1376,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.Data.SQL.TableInfo
     name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.TableInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.AddRange*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsCollection.AddRange
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsCollection.html#SuperOffice_Data_SQL_ReturnFieldsCollection_AddRange_System_Collections_Generic_IEnumerable_SuperOffice_Data_SQL_Argument__
   name: AddRange
   nameWithType: ReturnFieldsCollection.AddRange
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.AddRange
 - uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}
-  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.FieldInfo}'
   definition: System.Collections.Generic.IEnumerable`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   name: IEnumerable<FieldInfo>
   nameWithType: IEnumerable<FieldInfo>
   fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.FieldInfo>
@@ -1701,75 +1409,57 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.IEnumerable`1
     name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.GetEnumerator*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsCollection.GetEnumerator
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsCollection.html#SuperOffice_Data_SQL_ReturnFieldsCollection_GetEnumerator
   name: GetEnumerator
   nameWithType: ReturnFieldsCollection.GetEnumerator
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.GetEnumerator
-- uid: System.Collections.IEnumerable.GetEnumerator
-  commentId: M:System.Collections.IEnumerable.GetEnumerator
-  parent: System.Collections.IEnumerable
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
-  name: GetEnumerator()
-  nameWithType: IEnumerable.GetEnumerator()
-  fullName: System.Collections.IEnumerable.GetEnumerator()
-  spec.csharp:
-  - uid: System.Collections.IEnumerable.GetEnumerator
-    name: GetEnumerator
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Collections.IEnumerable.GetEnumerator
-    name: GetEnumerator
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
-  - name: (
-  - name: )
 - uid: System.Collections.IEnumerator
-  commentId: T:System.Collections.IEnumerator
-  parent: System.Collections
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerator
   name: IEnumerator
   nameWithType: IEnumerator
   fullName: System.Collections.IEnumerator
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.GetNumberOfItems*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsCollection.GetNumberOfItems
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsCollection.html#SuperOffice_Data_SQL_ReturnFieldsCollection_GetNumberOfItems
   name: GetNumberOfItems
   nameWithType: ReturnFieldsCollection.GetNumberOfItems
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.GetNumberOfItems
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.AggregationExist*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsCollection.AggregationExist
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsCollection.html#SuperOffice_Data_SQL_ReturnFieldsCollection_AggregationExist
   name: AggregationExist
   nameWithType: ReturnFieldsCollection.AggregationExist
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.AggregationExist
@@ -1777,24 +1467,18 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.CheckCollectionForTopOperator*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsCollection.CheckCollectionForTopOperator
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsCollection.html#SuperOffice_Data_SQL_ReturnFieldsCollection_CheckCollectionForTopOperator
   name: CheckCollectionForTopOperator
   nameWithType: ReturnFieldsCollection.CheckCollectionForTopOperator
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.CheckCollectionForTopOperator
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.FindFirstTableFromTable*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsCollection.FindFirstTableFromTable
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsCollection.html#SuperOffice_Data_SQL_ReturnFieldsCollection_FindFirstTableFromTable_SuperOffice_Data_SQL_TableInfo_
   name: FindFirstTableFromTable
   nameWithType: ReturnFieldsCollection.FindFirstTableFromTable
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.FindFirstTableFromTable
@@ -1802,14 +1486,12 @@ references:
   commentId: T:SuperOffice.Data.SQL.TableInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.TableInfo.html
   name: TableInfo
   nameWithType: TableInfo
   fullName: SuperOffice.Data.SQL.TableInfo
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.FindFirstFieldFromTable*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsCollection.FindFirstFieldFromTable
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsCollection.html#SuperOffice_Data_SQL_ReturnFieldsCollection_FindFirstFieldFromTable_SuperOffice_Data_SQL_TableInfo_
   name: FindFirstFieldFromTable
   nameWithType: ReturnFieldsCollection.FindFirstFieldFromTable
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.FindFirstFieldFromTable
@@ -1817,14 +1499,12 @@ references:
   commentId: T:SuperOffice.Data.SQL.FieldInfo
   parent: SuperOffice.Data.SQL
   isExternal: true
-  href: SuperOffice.Data.SQL.FieldInfo.html
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: SuperOffice.Data.SQL.FieldInfo
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.GetArgumentDataType*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsCollection.GetArgumentDataType
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsCollection.html#SuperOffice_Data_SQL_ReturnFieldsCollection_GetArgumentDataType_System_Int32_
   name: GetArgumentDataType
   nameWithType: ReturnFieldsCollection.GetArgumentDataType
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.GetArgumentDataType
@@ -1832,52 +1512,26 @@ references:
   commentId: T:SuperOffice.Data.FieldDataType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.FieldDataType.html
   name: FieldDataType
   nameWithType: FieldDataType
   fullName: SuperOffice.Data.FieldDataType
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.op_Implicit*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsCollection.op_Implicit
-  name: implicit operator
-  nameWithType: ReturnFieldsCollection.implicit operator
-  fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.implicit operator
-  nameWithType.vb: ReturnFieldsCollection.CType
-  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsCollection.CType
-  name.vb: CType
-  spec.csharp:
-  - name: implicit
-  - name: " "
-  - name: operator
+  isExternal: true
+  name: Implicit
+  nameWithType: ReturnFieldsCollection.Implicit
+  fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.Implicit
+  nameWithType.vb: ReturnFieldsCollection.Widening
+  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsCollection.Widening
+  name.vb: Widening
 - uid: SuperOffice.Data.SQL.FieldInfo[]
   isExternal: true
-  href: SuperOffice.Data.SQL.FieldInfo.html
   name: FieldInfo[]
   nameWithType: FieldInfo[]
   fullName: SuperOffice.Data.SQL.FieldInfo[]
@@ -1887,52 +1541,37 @@ references:
   spec.csharp:
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.SQL.ReturnFieldsCollection
+  commentId: T:SuperOffice.Data.SQL.ReturnFieldsCollection
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: ReturnFieldsCollection
+  nameWithType: ReturnFieldsCollection
+  fullName: SuperOffice.Data.SQL.ReturnFieldsCollection
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.FromFieldInfoArray*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsCollection.FromFieldInfoArray
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsCollection.html#SuperOffice_Data_SQL_ReturnFieldsCollection_FromFieldInfoArray_SuperOffice_Data_SQL_FieldInfo___
   name: FromFieldInfoArray
   nameWithType: ReturnFieldsCollection.FromFieldInfoArray
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.FromFieldInfoArray
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.ToString*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsCollection.ToString
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsCollection.html#SuperOffice_Data_SQL_ReturnFieldsCollection_ToString
   name: ToString
   nameWithType: ReturnFieldsCollection.ToString
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.ToString
@@ -1940,27 +1579,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.Item*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsCollection.Item
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsCollection.html#SuperOffice_Data_SQL_ReturnFieldsCollection_Item_System_Int32_
-  name: this
-  nameWithType: ReturnFieldsCollection.this
-  fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.this
-  nameWithType.vb: ReturnFieldsCollection.this[]
-  fullName.vb: SuperOffice.Data.SQL.ReturnFieldsCollection.this[]
-  name.vb: this[]
+  name: Item
+  nameWithType: ReturnFieldsCollection.Item
+  fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.Item
 - uid: SuperOffice.Data.SQL.ReturnFieldsCollection.Count*
   commentId: Overload:SuperOffice.Data.SQL.ReturnFieldsCollection.Count
   isExternal: true
-  href: SuperOffice.Data.SQL.ReturnFieldsCollection.html#SuperOffice_Data_SQL_ReturnFieldsCollection_Count
   name: Count
   nameWithType: ReturnFieldsCollection.Count
   fullName: SuperOffice.Data.SQL.ReturnFieldsCollection.Count

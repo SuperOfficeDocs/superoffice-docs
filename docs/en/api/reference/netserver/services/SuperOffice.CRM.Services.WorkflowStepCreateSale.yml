@@ -28,27 +28,18 @@ items:
   nameWithType: WorkflowStepCreateSale
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Step in workflow.
-
-    <p></p>
-
-    Carrier object for WorkflowStepCreateSale.
-
-    Services for the WorkflowStepCreateSale Carrier is available from the <xref href="SuperOffice.CRM.Services.IWorkflowAgent?text=Workflow+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nStep in workflow.\n<p></p>\nCarrier object for WorkflowStepCreateSale.\nServices for the WorkflowStepCreateSale Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IWorkflowAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class WorkflowStepCreateSale : WorkflowStepBase
+    content: 'public class WorkflowStepCreateSale : WorkflowStepBase'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class WorkflowStepCreateSale Inherits WorkflowStepBase
+      Public Class WorkflowStepCreateSale
+          Inherits WorkflowStepBase
   seealso:
   - linkId: SuperOffice.CRM.Services.WorkflowAgent
     commentId: T:SuperOffice.CRM.Services.WorkflowAgent
@@ -62,20 +53,12 @@ items:
   - SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
   - SuperOffice.CRM.Services.WorkflowStepBase.StepType
   - SuperOffice.CRM.Services.WorkflowStepBase.Rank
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.#ctor
   commentId: M:SuperOffice.CRM.Services.WorkflowStepCreateSale.#ctor
   id: '#ctor'
@@ -87,18 +70,21 @@ items:
   nameWithType: WorkflowStepCreateSale.WorkflowStepCreateSale()
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.WorkflowStepCreateSale()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public WorkflowStepCreateSale()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.#ctor*
-  nameWithType.vb: WorkflowStepCreateSale.New()
-  fullName.vb: SuperOffice.CRM.Services.WorkflowStepCreateSale.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString
   commentId: M:SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString
   id: ToString
@@ -110,19 +96,27 @@ items:
   nameWithType: WorkflowStepCreateSale.ToString()
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overridden: SuperOffice.CRM.Services.WorkflowStepBase.ToString
   overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString(System.String)
   id: ToString(System.String)
@@ -130,18 +124,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: WorkflowStepCreateSale.ToString(string)
-  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString(string)
+  name: ToString(String)
+  nameWithType: WorkflowStepCreateSale.ToString(String)
+  fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public override string ToString(string prefix)
     parameters:
@@ -154,9 +147,12 @@ items:
     content.vb: Public Overrides Function ToString(prefix As String) As String
   overridden: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
   overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString*
-  nameWithType.vb: WorkflowStepCreateSale.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Title
   commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.Title
   id: Title
@@ -168,28 +164,28 @@ items:
   nameWithType: WorkflowStepCreateSale.Title
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Title
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Sale title
-  example: []
+  summary: "\nSale title \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Title { get; set; }
+    content: public virtual string Title { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Title As String
+    content.vb: Public Overridable Property Title As String
   overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.Title*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleType
   commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleType
   id: SaleType
@@ -201,28 +197,28 @@ items:
   nameWithType: WorkflowStepCreateSale.SaleType
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleType
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Sale type
-  example: []
+  summary: "\nSale type \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int SaleType { get; set; }
+    content: public virtual int SaleType { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SaleType As Integer
+    content.vb: Public Overridable Property SaleType As Integer
   overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleType*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Stage
   commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.Stage
   id: Stage
@@ -234,28 +230,28 @@ items:
   nameWithType: WorkflowStepCreateSale.Stage
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Stage
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Sale stage
-  example: []
+  summary: "\nSale stage \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int Stage { get; set; }
+    content: public virtual int Stage { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Stage As Integer
+    content.vb: Public Overridable Property Stage As Integer
   overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.Stage*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Amount
   commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.Amount
   id: Amount
@@ -267,28 +263,28 @@ items:
   nameWithType: WorkflowStepCreateSale.Amount
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Amount
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Sale amount
-  example: []
+  summary: "\nSale amount \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual double Amount { get; set; }
+    content: public virtual double Amount { get; set; }
     parameters: []
     return:
       type: System.Double
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Amount As Double
+    content.vb: Public Overridable Property Amount As Double
   overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.Amount*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Currency
   commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.Currency
   id: Currency
@@ -300,28 +296,28 @@ items:
   nameWithType: WorkflowStepCreateSale.Currency
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Currency
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Sale currency
-  example: []
+  summary: "\nSale currency \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int Currency { get; set; }
+    content: public virtual int Currency { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Currency As Integer
+    content.vb: Public Overridable Property Currency As Integer
   overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.Currency*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Description
   commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.Description
   id: Description
@@ -333,28 +329,28 @@ items:
   nameWithType: WorkflowStepCreateSale.Description
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Description
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Sale description
-  example: []
+  summary: "\nSale description \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Description { get; set; }
+    content: public virtual string Description { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Description As String
+    content.vb: Public Overridable Property Description As String
   overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.Description*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Project
   commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.Project
   id: Project
@@ -366,28 +362,28 @@ items:
   nameWithType: WorkflowStepCreateSale.Project
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Project
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Related project
-  example: []
+  summary: "\nRelated project \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int Project { get; set; }
+    content: public virtual int Project { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Project As Integer
+    content.vb: Public Overridable Property Project As Integer
   overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.Project*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionType
   commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionType
   id: ActionType
@@ -399,28 +395,28 @@ items:
   nameWithType: WorkflowStepCreateSale.ActionType
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionType
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Workflow action type
-  example: []
+  summary: "\nWorkflow action type \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual WorkflowActionType ActionType { get; set; }
+    content: public virtual WorkflowActionType ActionType { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.WorkflowActionType
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ActionType As WorkflowActionType
+    content.vb: Public Overridable Property ActionType As WorkflowActionType
   overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionType*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionTime
   commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionTime
   id: ActionTime
@@ -432,28 +428,28 @@ items:
   nameWithType: WorkflowStepCreateSale.ActionTime
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionTime
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Workflow action time to wait
-  example: []
+  summary: "\nWorkflow action time to wait \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ActionTime { get; set; }
+    content: public virtual int ActionTime { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ActionTime As Integer
+    content.vb: Public Overridable Property ActionTime As Integer
   overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionTime*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionTimeUnit
   commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionTimeUnit
   id: ActionTimeUnit
@@ -465,28 +461,28 @@ items:
   nameWithType: WorkflowStepCreateSale.ActionTimeUnit
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionTimeUnit
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Worflow action time unit
-  example: []
+  summary: "\nWorflow action time unit \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual WorkflowTimeWaitIntervalType ActionTimeUnit { get; set; }
+    content: public virtual WorkflowTimeWaitIntervalType ActionTimeUnit { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.WorkflowTimeWaitIntervalType
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ActionTimeUnit As WorkflowTimeWaitIntervalType
+    content.vb: Public Overridable Property ActionTimeUnit As WorkflowTimeWaitIntervalType
   overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionTimeUnit*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Date
   commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.Date
   id: Date
@@ -498,28 +494,28 @@ items:
   nameWithType: WorkflowStepCreateSale.Date
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Date
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Sale date
-  example: []
+  summary: "\nSale date \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DateTime Date { get; set; }
+    content: public virtual DateTime Date { get; set; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property [Date] As Date
+    content.vb: Public Overridable Property Date As DateTime
   overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.Date*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Owner
   commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.Owner
   id: Owner
@@ -531,28 +527,28 @@ items:
   nameWithType: WorkflowStepCreateSale.Owner
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Owner
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Sale owner
-  example: []
+  summary: "\nSale owner \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int Owner { get; set; }
+    content: public virtual int Owner { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Owner As Integer
+    content.vb: Public Overridable Property Owner As Integer
   overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.Owner*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Source
   commentId: P:SuperOffice.CRM.Services.WorkflowStepCreateSale.Source
   id: Source
@@ -564,97 +560,39 @@ items:
   nameWithType: WorkflowStepCreateSale.Source
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Source
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Source
-  example: []
+  summary: "\nSource \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int Source { get; set; }
+    content: public virtual int Source { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Source As Integer
+    content.vb: Public Overridable Property Source As Integer
   overload: SuperOffice.CRM.Services.WorkflowStepCreateSale.Source*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
-- uid: SuperOffice.CRM.Services.WorkflowAgent
-  commentId: T:SuperOffice.CRM.Services.WorkflowAgent
-  isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowAgent.html
-  name: WorkflowAgent
-  nameWithType: WorkflowAgent
-  fullName: SuperOffice.CRM.Services.WorkflowAgent
-- uid: SuperOffice.CRM.Services.IWorkflowAgent
-  commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.IWorkflowAgent.html
-  name: IWorkflowAgent
-  nameWithType: IWorkflowAgent
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
 - uid: SuperOffice.CRM.Services.WorkflowStepBase
   commentId: T:SuperOffice.CRM.Services.WorkflowStepBase
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepBase.html
   name: WorkflowStepBase
   nameWithType: WorkflowStepBase
   fullName: SuperOffice.CRM.Services.WorkflowStepBase
@@ -662,7 +600,6 @@ references:
   commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
   parent: SuperOffice.CRM.Services.WorkflowStepBase
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepBase.html#SuperOffice_CRM_Services_WorkflowStepBase_WorkflowStepId
   name: WorkflowStepId
   nameWithType: WorkflowStepBase.WorkflowStepId
   fullName: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowStepId
@@ -670,7 +607,6 @@ references:
   commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
   parent: SuperOffice.CRM.Services.WorkflowStepBase
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepBase.html#SuperOffice_CRM_Services_WorkflowStepBase_WorkflowId
   name: WorkflowId
   nameWithType: WorkflowStepBase.WorkflowId
   fullName: SuperOffice.CRM.Services.WorkflowStepBase.WorkflowId
@@ -678,7 +614,6 @@ references:
   commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.StepType
   parent: SuperOffice.CRM.Services.WorkflowStepBase
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepBase.html#SuperOffice_CRM_Services_WorkflowStepBase_StepType
   name: StepType
   nameWithType: WorkflowStepBase.StepType
   fullName: SuperOffice.CRM.Services.WorkflowStepBase.StepType
@@ -686,248 +621,62 @@ references:
   commentId: P:SuperOffice.CRM.Services.WorkflowStepBase.Rank
   parent: SuperOffice.CRM.Services.WorkflowStepBase
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepBase.html#SuperOffice_CRM_Services_WorkflowStepBase_Rank
   name: Rank
   nameWithType: WorkflowStepBase.Rank
   fullName: SuperOffice.CRM.Services.WorkflowStepBase.Rank
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
+- uid: SuperOffice.CRM.Services.WorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.WorkflowAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
+  name: WorkflowAgent
+  nameWithType: WorkflowAgent
+  fullName: SuperOffice.CRM.Services.WorkflowAgent
+- uid: SuperOffice.CRM.Services.IWorkflowAgent
+  commentId: T:SuperOffice.CRM.Services.IWorkflowAgent
+  parent: SuperOffice.CRM.Services
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
+  name: IWorkflowAgent
+  nameWithType: IWorkflowAgent
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepCreateSale.html#SuperOffice_CRM_Services_WorkflowStepCreateSale__ctor
   name: WorkflowStepCreateSale
   nameWithType: WorkflowStepCreateSale.WorkflowStepCreateSale
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.WorkflowStepCreateSale
-  nameWithType.vb: WorkflowStepCreateSale.New
-  fullName.vb: SuperOffice.CRM.Services.WorkflowStepCreateSale.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
   commentId: M:SuperOffice.CRM.Services.WorkflowStepBase.ToString
   parent: SuperOffice.CRM.Services.WorkflowStepBase
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepBase.html#SuperOffice_CRM_Services_WorkflowStepBase_ToString
   name: ToString()
   nameWithType: WorkflowStepBase.ToString()
   fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
     name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
     isExternal: true
-    href: SuperOffice.CRM.Services.WorkflowStepBase.html#SuperOffice_CRM_Services_WorkflowStepBase_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString
     name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
     isExternal: true
-    href: SuperOffice.CRM.Services.WorkflowStepBase.html#SuperOffice_CRM_Services_WorkflowStepBase_ToString
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepCreateSale.html#SuperOffice_CRM_Services_WorkflowStepCreateSale_ToString
   name: ToString
   nameWithType: WorkflowStepCreateSale.ToString
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.ToString
@@ -935,57 +684,65 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
   parent: SuperOffice.CRM.Services.WorkflowStepBase
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepBase.html#SuperOffice_CRM_Services_WorkflowStepBase_ToString_System_String_
-  name: ToString(string)
-  nameWithType: WorkflowStepBase.ToString(string)
-  fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString(string)
-  nameWithType.vb: WorkflowStepBase.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.WorkflowStepBase.ToString(String)
-  name.vb: ToString(String)
+  name: ToString(String)
+  nameWithType: WorkflowStepBase.ToString(String)
+  fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
     name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
     isExternal: true
-    href: SuperOffice.CRM.Services.WorkflowStepBase.html#SuperOffice_CRM_Services_WorkflowStepBase_ToString_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.WorkflowStepBase.ToString(System.String)
     name: ToString
+    nameWithType: WorkflowStepBase.ToString
+    fullName: SuperOffice.CRM.Services.WorkflowStepBase.ToString
     isExternal: true
-    href: SuperOffice.CRM.Services.WorkflowStepBase.html#SuperOffice_CRM_Services_WorkflowStepBase_ToString_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Title*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.Title
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepCreateSale.html#SuperOffice_CRM_Services_WorkflowStepCreateSale_Title
   name: Title
   nameWithType: WorkflowStepCreateSale.Title
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Title
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleType*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleType
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepCreateSale.html#SuperOffice_CRM_Services_WorkflowStepCreateSale_SaleType
   name: SaleType
   nameWithType: WorkflowStepCreateSale.SaleType
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.SaleType
@@ -993,24 +750,18 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Stage*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.Stage
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepCreateSale.html#SuperOffice_CRM_Services_WorkflowStepCreateSale_Stage
   name: Stage
   nameWithType: WorkflowStepCreateSale.Stage
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Stage
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Amount*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.Amount
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepCreateSale.html#SuperOffice_CRM_Services_WorkflowStepCreateSale_Amount
   name: Amount
   nameWithType: WorkflowStepCreateSale.Amount
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Amount
@@ -1018,38 +769,30 @@ references:
   commentId: T:System.Double
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.double
-  name: double
-  nameWithType: double
-  fullName: double
-  nameWithType.vb: Double
-  fullName.vb: Double
-  name.vb: Double
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Currency*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.Currency
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepCreateSale.html#SuperOffice_CRM_Services_WorkflowStepCreateSale_Currency
   name: Currency
   nameWithType: WorkflowStepCreateSale.Currency
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Currency
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Description*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.Description
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepCreateSale.html#SuperOffice_CRM_Services_WorkflowStepCreateSale_Description
   name: Description
   nameWithType: WorkflowStepCreateSale.Description
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Description
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Project*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.Project
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepCreateSale.html#SuperOffice_CRM_Services_WorkflowStepCreateSale_Project
   name: Project
   nameWithType: WorkflowStepCreateSale.Project
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Project
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionType*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionType
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepCreateSale.html#SuperOffice_CRM_Services_WorkflowStepCreateSale_ActionType
   name: ActionType
   nameWithType: WorkflowStepCreateSale.ActionType
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionType
@@ -1061,14 +804,12 @@ references:
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionTime*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionTime
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepCreateSale.html#SuperOffice_CRM_Services_WorkflowStepCreateSale_ActionTime
   name: ActionTime
   nameWithType: WorkflowStepCreateSale.ActionTime
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionTime
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionTimeUnit*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionTimeUnit
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepCreateSale.html#SuperOffice_CRM_Services_WorkflowStepCreateSale_ActionTimeUnit
   name: ActionTimeUnit
   nameWithType: WorkflowStepCreateSale.ActionTimeUnit
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.ActionTimeUnit
@@ -1080,32 +821,23 @@ references:
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Date*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.Date
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepCreateSale.html#SuperOffice_CRM_Services_WorkflowStepCreateSale_Date
   name: Date
   nameWithType: WorkflowStepCreateSale.Date
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Date
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Owner*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.Owner
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepCreateSale.html#SuperOffice_CRM_Services_WorkflowStepCreateSale_Owner
   name: Owner
   nameWithType: WorkflowStepCreateSale.Owner
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Owner
 - uid: SuperOffice.CRM.Services.WorkflowStepCreateSale.Source*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowStepCreateSale.Source
   isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowStepCreateSale.html#SuperOffice_CRM_Services_WorkflowStepCreateSale_Source
   name: Source
   nameWithType: WorkflowStepCreateSale.Source
   fullName: SuperOffice.CRM.Services.WorkflowStepCreateSale.Source

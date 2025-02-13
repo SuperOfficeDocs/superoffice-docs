@@ -51,16 +51,24 @@ items:
   nameWithType: IPreferenceAgent
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent
   type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Preferences, user interface tab configuration
-  example: []
+  summary: "\nPreferences, user interface tab configuration\n"
   syntax:
     content: 'public interface IPreferenceAgent : IDisposable'
-    content.vb: Public Interface IPreferenceAgent Inherits IDisposable
-  inheritedMembers:
-  - System.IDisposable.Dispose
+    content.vb: >-
+      Public Interface IPreferenceAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceAsync(SuperOffice.WebApi.RequestOptions)
   id: CreateDefaultPreferenceAsync(SuperOffice.WebApi.RequestOptions)
@@ -72,20 +80,19 @@ items:
   nameWithType: IPreferenceAgent.CreateDefaultPreferenceAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: >-
-    Set default values into a new Preference.
-
-    NetServer calculates default values on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nSet default values into a new Preference.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: Task<Preference> CreateDefaultPreferenceAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Preference}
       description: A blank Preference
@@ -102,20 +109,19 @@ items:
   nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: >-
-    Set default values into a new PreferenceDescription.
-
-    NetServer calculates default values on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nSet default values into a new PreferenceDescription.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: Task<PreferenceDescription> CreateDefaultPreferenceDescriptionAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescription}
       description: A blank PreferenceDescription
@@ -132,11 +138,13 @@ items:
   nameWithType: IPreferenceAgent.SavePreferenceDescriptionAsync(PreferenceDescription, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionAsync(SuperOffice.WebApi.Data.PreferenceDescription, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Updates the existing PreferenceDescription or creates a new PreferenceDescription if the id parameter is 0.
-  example: []
+  summary: "\nUpdates the existing PreferenceDescription or creates a new PreferenceDescription if the id parameter is 0. \n"
   syntax:
     content: Task<PreferenceDescription> SavePreferenceDescriptionAsync(PreferenceDescription preferenceDescription, RequestOptions requestOptions = null)
     parameters:
@@ -145,7 +153,7 @@ items:
       description: The PreferenceDescription that is saved.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescription}
       description: New or updated PreferenceDescription
@@ -158,15 +166,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeletePreferenceDescriptionAsync(int, RequestOptions)
-  nameWithType: IPreferenceAgent.DeletePreferenceDescriptionAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: DeletePreferenceDescriptionAsync(Int32, RequestOptions)
+  nameWithType: IPreferenceAgent.DeletePreferenceDescriptionAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Deletes the PreferenceDescription
-  example: []
+  summary: "\nDeletes the PreferenceDescription\n"
   syntax:
     content: Task DeletePreferenceDescriptionAsync(int preferenceDescriptionId, RequestOptions requestOptions = null)
     parameters:
@@ -175,14 +185,11 @@ items:
       description: The identity of the PreferenceDescription
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
     content.vb: Function DeletePreferenceDescriptionAsync(preferenceDescriptionId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionAsync*
-  nameWithType.vb: IPreferenceAgent.DeletePreferenceDescriptionAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: DeletePreferenceDescriptionAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync(SuperOffice.WebApi.RequestOptions)
   id: CreateDefaultPreferenceDescriptionLineAsync(SuperOffice.WebApi.RequestOptions)
@@ -194,20 +201,19 @@ items:
   nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: >-
-    Set default values into a new PreferenceDescriptionLine.
-
-    NetServer calculates default values on the entity, which is required when creating/storing a new instance
-  example: []
+  summary: "\nSet default values into a new PreferenceDescriptionLine.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
   syntax:
     content: Task<PreferenceDescriptionLine> CreateDefaultPreferenceDescriptionLineAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescriptionLine}
       description: A blank PreferenceDescriptionLine
@@ -224,11 +230,13 @@ items:
   nameWithType: IPreferenceAgent.SavePreferenceDescriptionLineAsync(PreferenceDescriptionLine, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLineAsync(SuperOffice.WebApi.Data.PreferenceDescriptionLine, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Updates the existing PreferenceDescriptionLine or creates a new PreferenceDescriptionLine if the id parameter is 0.
-  example: []
+  summary: "\nUpdates the existing PreferenceDescriptionLine or creates a new PreferenceDescriptionLine if the id parameter is 0. \n"
   syntax:
     content: Task<PreferenceDescriptionLine> SavePreferenceDescriptionLineAsync(PreferenceDescriptionLine preferenceDescriptionLine, RequestOptions requestOptions = null)
     parameters:
@@ -237,7 +245,7 @@ items:
       description: The PreferenceDescriptionLine that is saved.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescriptionLine}
       description: New or updated PreferenceDescriptionLine
@@ -250,15 +258,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeletePreferenceDescriptionLineAsync(int, RequestOptions)
-  nameWithType: IPreferenceAgent.DeletePreferenceDescriptionLineAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLineAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: DeletePreferenceDescriptionLineAsync(Int32, RequestOptions)
+  nameWithType: IPreferenceAgent.DeletePreferenceDescriptionLineAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLineAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Deletes the PreferenceDescriptionLine
-  example: []
+  summary: "\nDeletes the PreferenceDescriptionLine\n"
   syntax:
     content: Task DeletePreferenceDescriptionLineAsync(int preferenceDescriptionLineId, RequestOptions requestOptions = null)
     parameters:
@@ -267,14 +277,11 @@ items:
       description: The identity of the PreferenceDescriptionLine
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
     content.vb: Function DeletePreferenceDescriptionLineAsync(preferenceDescriptionLineId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLineAsync*
-  nameWithType.vb: IPreferenceAgent.DeletePreferenceDescriptionLineAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLineAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: DeletePreferenceDescriptionLineAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceAsync(SuperOffice.WebApi.Data.Preference,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceAsync(SuperOffice.WebApi.Data.Preference,SuperOffice.WebApi.RequestOptions)
   id: SavePreferenceAsync(SuperOffice.WebApi.Data.Preference,SuperOffice.WebApi.RequestOptions)
@@ -286,11 +293,13 @@ items:
   nameWithType: IPreferenceAgent.SavePreferenceAsync(Preference, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceAsync(SuperOffice.WebApi.Data.Preference, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Save this preference
-  example: []
+  summary: "\nSave this preference\n"
   syntax:
     content: Task SavePreferenceAsync(Preference preference, RequestOptions requestOptions = null)
     parameters:
@@ -299,7 +308,7 @@ items:
       description: Preference to be saved. All fields must be filled in, and the preference will be saved on the Associate level only. Setting for other levels is an administrative task and not available through this service.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
@@ -316,11 +325,13 @@ items:
   nameWithType: IPreferenceAgent.SaveTabOrderAsync(TabOrder, RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrderAsync(SuperOffice.WebApi.Data.TabOrder, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Saves the tab order. The order is saved pr. user.
-  example: []
+  summary: "\nSaves the tab order. The order is saved pr. user.\n"
   syntax:
     content: Task SaveTabOrderAsync(TabOrder tabOrder, RequestOptions requestOptions = null)
     parameters:
@@ -329,7 +340,7 @@ items:
       description: Name of the tab control
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
@@ -342,15 +353,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetTabOrderAsync(string, RequestOptions)
-  nameWithType: IPreferenceAgent.GetTabOrderAsync(string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrderAsync(string, SuperOffice.WebApi.RequestOptions)
+  name: GetTabOrderAsync(String, RequestOptions)
+  nameWithType: IPreferenceAgent.GetTabOrderAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrderAsync(System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Gets the tab order.
-  example: []
+  summary: "\nGets the tab order.\n"
   syntax:
     content: Task<TabOrder> GetTabOrderAsync(string tabName, RequestOptions requestOptions = null)
     parameters:
@@ -359,15 +372,12 @@ items:
       description: Name of the tab control
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TabOrder}
       description: Tab order. Array of strings. Each string represent a named tab.
     content.vb: Function GetTabOrderAsync(tabName As String, requestOptions As RequestOptions = Nothing) As Task(Of TabOrder)
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrderAsync*
-  nameWithType.vb: IPreferenceAgent.GetTabOrderAsync(String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrderAsync(String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetTabOrderAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetPreferenceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -375,15 +385,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPreferenceAsync(int, RequestOptions)
-  nameWithType: IPreferenceAgent.GetPreferenceAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: GetPreferenceAsync(Int32, RequestOptions)
+  nameWithType: IPreferenceAgent.GetPreferenceAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get a preference by id
-  example: []
+  summary: "\nGet a preference by id\n"
   syntax:
     content: Task<Preference> GetPreferenceAsync(int id, RequestOptions requestOptions = null)
     parameters:
@@ -392,15 +404,12 @@ items:
       description: The id of the preference to load
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Preference}
       description: The preference loaded
     content.vb: Function GetPreferenceAsync(id As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Preference)
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceAsync*
-  nameWithType.vb: IPreferenceAgent.GetPreferenceAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetPreferenceAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntityAsync(SuperOffice.WebApi.Data.Preference,System.Boolean,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntityAsync(SuperOffice.WebApi.Data.Preference,System.Boolean,SuperOffice.WebApi.RequestOptions)
   id: SavePreferenceEntityAsync(SuperOffice.WebApi.Data.Preference,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -408,15 +417,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SavePreferenceEntityAsync(Preference, bool, RequestOptions)
-  nameWithType: IPreferenceAgent.SavePreferenceEntityAsync(Preference, bool, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntityAsync(SuperOffice.WebApi.Data.Preference, bool, SuperOffice.WebApi.RequestOptions)
+  name: SavePreferenceEntityAsync(Preference, Boolean, RequestOptions)
+  nameWithType: IPreferenceAgent.SavePreferenceEntityAsync(Preference, Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntityAsync(SuperOffice.WebApi.Data.Preference, System.Boolean, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Saves a complete preference object, on any level and any target. Preference administrator rights are required to use this
-  example: []
+  summary: "\nSaves a complete preference object, on any level and any target. Preference administrator rights are required to use this\n"
   syntax:
     content: Task<Preference> SavePreferenceEntityAsync(Preference preference, bool removeLowerLevels, RequestOptions requestOptions = null)
     parameters:
@@ -428,15 +439,12 @@ items:
       description: If this is true, all user preferences on lower levels will be deleted
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Preference}
       description: Returns the saved preference
     content.vb: Function SavePreferenceEntityAsync(preference As Preference, removeLowerLevels As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of Preference)
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntityAsync*
-  nameWithType.vb: IPreferenceAgent.SavePreferenceEntityAsync(Preference, Boolean, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntityAsync(SuperOffice.WebApi.Data.Preference, Boolean, SuperOffice.WebApi.RequestOptions)
-  name.vb: SavePreferenceEntityAsync(Preference, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: DeletePreferenceAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -444,15 +452,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeletePreferenceAsync(int, RequestOptions)
-  nameWithType: IPreferenceAgent.DeletePreferenceAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: DeletePreferenceAsync(Int32, RequestOptions)
+  nameWithType: IPreferenceAgent.DeletePreferenceAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Delete a preference by id
-  example: []
+  summary: "\nDelete a preference by id\n"
   syntax:
     content: Task DeletePreferenceAsync(int id, RequestOptions requestOptions = null)
     parameters:
@@ -461,15 +471,12 @@ items:
       description: The id of the preference to delete
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
     content.vb: Function DeletePreferenceAsync(id As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceAsync*
-  nameWithType.vb: IPreferenceAgent.DeletePreferenceAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: DeletePreferenceAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferencesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferencesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: DeletePreferencesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -477,15 +484,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeletePreferencesAsync(int[], RequestOptions)
-  nameWithType: IPreferenceAgent.DeletePreferencesAsync(int[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferencesAsync(int[], SuperOffice.WebApi.RequestOptions)
+  name: DeletePreferencesAsync(Int32[], RequestOptions)
+  nameWithType: IPreferenceAgent.DeletePreferencesAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferencesAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Delete some preferences by id
-  example: []
+  summary: "\nDelete some preferences by id\n"
   syntax:
     content: Task DeletePreferencesAsync(int[] ids, RequestOptions requestOptions = null)
     parameters:
@@ -494,15 +503,15 @@ items:
       description: The ids of the preference to delete
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
     content.vb: Function DeletePreferencesAsync(ids As Integer(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferencesAsync*
-  nameWithType.vb: IPreferenceAgent.DeletePreferencesAsync(Integer(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferencesAsync(Integer(), SuperOffice.WebApi.RequestOptions)
-  name.vb: DeletePreferencesAsync(Integer(), RequestOptions)
+  nameWithType.vb: IPreferenceAgent.DeletePreferencesAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferencesAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: DeletePreferencesAsync(Int32(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceLevel,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceLevel,SuperOffice.WebApi.RequestOptions)
   id: GetPreferenceByNameAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceLevel,SuperOffice.WebApi.RequestOptions)
@@ -510,38 +519,37 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPreferenceByNameAsync(string, string, PreferenceLevel, RequestOptions)
-  nameWithType: IPreferenceAgent.GetPreferenceByNameAsync(string, string, PreferenceLevel, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAsync(string, string, SuperOffice.WebApi.Data.PreferenceLevel, SuperOffice.WebApi.RequestOptions)
+  name: GetPreferenceByNameAsync(String, String, PreferenceLevel, RequestOptions)
+  nameWithType: IPreferenceAgent.GetPreferenceByNameAsync(String, String, PreferenceLevel, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAsync(System.String, System.String, SuperOffice.WebApi.Data.PreferenceLevel, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get a preference by name
-  example: []
+  summary: "\nGet a preference by name\n"
   syntax:
     content: Task<Preference> GetPreferenceByNameAsync(string prefSection, string prefKey, PreferenceLevel prefLevel, RequestOptions requestOptions = null)
     parameters:
     - id: prefSection
       type: System.String
-      description: The preference section name. e.g. 'Functions'. See SuperOffice.CRM.UserPreferenceStrings for constants.
+      description: 'The preference section name. e.g. &apos;Functions&apos;. See SuperOffice.CRM.UserPreferenceStrings for constants. '
     - id: prefKey
       type: System.String
-      description: The preference key name. e.g. 'ShowTipsAtStart'. See SuperOffice.CRM.UserPreferenceStrings for constants.
+      description: The preference key name. e.g. &apos;ShowTipsAtStart&apos;. See SuperOffice.CRM.UserPreferenceStrings for constants.
     - id: prefLevel
       type: SuperOffice.WebApi.Data.PreferenceLevel
       description: The preference level to read. Undefined (0) means to return the preference defined closest to the user.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Preference}
       description: The preference. Note that id = 0 and value = null if preference not found in the database at the requested pref-level.
     content.vb: Function GetPreferenceByNameAsync(prefSection As String, prefKey As String, prefLevel As PreferenceLevel, requestOptions As RequestOptions = Nothing) As Task(Of Preference)
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAsync*
-  nameWithType.vb: IPreferenceAgent.GetPreferenceByNameAsync(String, String, PreferenceLevel, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAsync(String, String, SuperOffice.WebApi.Data.PreferenceLevel, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetPreferenceByNameAsync(String, String, PreferenceLevel, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAndIdAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceLevel,System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAndIdAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceLevel,System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetPreferenceByNameAndIdAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceLevel,System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -549,24 +557,26 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPreferenceByNameAndIdAsync(string, string, PreferenceLevel, int, RequestOptions)
-  nameWithType: IPreferenceAgent.GetPreferenceByNameAndIdAsync(string, string, PreferenceLevel, int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAndIdAsync(string, string, SuperOffice.WebApi.Data.PreferenceLevel, int, SuperOffice.WebApi.RequestOptions)
+  name: GetPreferenceByNameAndIdAsync(String, String, PreferenceLevel, Int32, RequestOptions)
+  nameWithType: IPreferenceAgent.GetPreferenceByNameAndIdAsync(String, String, PreferenceLevel, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAndIdAsync(System.String, System.String, SuperOffice.WebApi.Data.PreferenceLevel, System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get a preference by name and owner id.
-  example: []
+  summary: "\nGet a preference by name and owner id.\n"
   syntax:
     content: Task<Preference> GetPreferenceByNameAndIdAsync(string prefSection, string prefKey, PreferenceLevel prefLevel, int ownerId, RequestOptions requestOptions = null)
     parameters:
     - id: prefSection
       type: System.String
-      description: The preference section name. e.g. 'Functions'. See SuperOffice.CRM.UserPreferenceStrings for constants.
+      description: 'The preference section name. e.g. &apos;Functions&apos;. See SuperOffice.CRM.UserPreferenceStrings for constants. '
     - id: prefKey
       type: System.String
-      description: The preference key name. e.g. 'ShowTipsAtStart'. See SuperOffice.CRM.UserPreferenceStrings for constants.
+      description: The preference key name. e.g. &apos;ShowTipsAtStart&apos;. See SuperOffice.CRM.UserPreferenceStrings for constants.
     - id: prefLevel
       type: SuperOffice.WebApi.Data.PreferenceLevel
       description: The preference level to read. Undefined (0) means to return the preference defined closest to the user.
@@ -575,15 +585,12 @@ items:
       description: The preference owner id, individual or group.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Preference}
       description: The preference. Note that id = 0 and value = null if preference not found in the database at the requested pref-level.
     content.vb: Function GetPreferenceByNameAndIdAsync(prefSection As String, prefKey As String, prefLevel As PreferenceLevel, ownerId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Preference)
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAndIdAsync*
-  nameWithType.vb: IPreferenceAgent.GetPreferenceByNameAndIdAsync(String, String, PreferenceLevel, Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAndIdAsync(String, String, SuperOffice.WebApi.Data.PreferenceLevel, Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetPreferenceByNameAndIdAsync(String, String, PreferenceLevel, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetNetServicesStatusUrlAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetNetServicesStatusUrlAsync(SuperOffice.WebApi.RequestOptions)
   id: GetNetServicesStatusUrlAsync(SuperOffice.WebApi.RequestOptions)
@@ -595,17 +602,19 @@ items:
   nameWithType: IPreferenceAgent.GetNetServicesStatusUrlAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetNetServicesStatusUrlAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Returns URL to status service. e.g. 'https://help.superoffice.com/sodispatcher/v1/status' Returns NULL if status does not need to be checked yet.
-  example: []
+  summary: "\nReturns URL to status service. e.g. &apos;https://help.superoffice.com/sodispatcher/v1/status&apos; Returns NULL if status does not need to be checked yet.\n"
   syntax:
     content: Task<string> GetNetServicesStatusUrlAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: NULL or URL of the status service that returns an XML or JSON block.
@@ -618,15 +627,17 @@ items:
   langs:
   - csharp
   - vb
-  name: UpdateNetServicesStatusAsync(string, RequestOptions)
-  nameWithType: IPreferenceAgent.UpdateNetServicesStatusAsync(string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.UpdateNetServicesStatusAsync(string, SuperOffice.WebApi.RequestOptions)
+  name: UpdateNetServicesStatusAsync(String, RequestOptions)
+  nameWithType: IPreferenceAgent.UpdateNetServicesStatusAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.UpdateNetServicesStatusAsync(System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Update the NetServices preferences with values contained in the content from the Status URL
-  example: []
+  summary: "\nUpdate the NetServices preferences with values contained in the content from the Status URL\n"
   syntax:
     content: Task UpdateNetServicesStatusAsync(string xml_or_json, RequestOptions requestOptions = null)
     parameters:
@@ -635,15 +646,12 @@ items:
       description: The text that was returned by getting the Status URL
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
     content.vb: Function UpdateNetServicesStatusAsync(xml_or_json As String, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.UpdateNetServicesStatusAsync*
-  nameWithType.vb: IPreferenceAgent.UpdateNetServicesStatusAsync(String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.UpdateNetServicesStatusAsync(String, SuperOffice.WebApi.RequestOptions)
-  name.vb: UpdateNetServicesStatusAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfPathsAsync(System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfPathsAsync(System.String,SuperOffice.WebApi.RequestOptions)
   id: GetXsrfPathsAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -651,15 +659,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetXsrfPathsAsync(string, RequestOptions)
-  nameWithType: IPreferenceAgent.GetXsrfPathsAsync(string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfPathsAsync(string, SuperOffice.WebApi.RequestOptions)
+  name: GetXsrfPathsAsync(String, RequestOptions)
+  nameWithType: IPreferenceAgent.GetXsrfPathsAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfPathsAsync(System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Returns paths that XSRF cookies should be set on
-  example: []
+  summary: "\nReturns paths that XSRF cookies should be set on\n"
   syntax:
     content: Task<string[]> GetXsrfPathsAsync(string hostname, RequestOptions requestOptions = null)
     parameters:
@@ -668,15 +678,12 @@ items:
       description: The hostname that we are storing paths for.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{System.String[]}
-      description: "Paths that XSRF cookies should be set for: ['/cs', '/crm']"
+      description: 'Paths that XSRF cookies should be set for: [&apos;/cs&apos;, &apos;/crm&apos;]'
     content.vb: Function GetXsrfPathsAsync(hostname As String, requestOptions As RequestOptions = Nothing) As Task(Of String())
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfPathsAsync*
-  nameWithType.vb: IPreferenceAgent.GetXsrfPathsAsync(String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfPathsAsync(String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetXsrfPathsAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
   id: SetXsrfPathsAsync(System.String,System.String[],SuperOffice.WebApi.RequestOptions)
@@ -684,15 +691,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SetXsrfPathsAsync(string, string[], RequestOptions)
-  nameWithType: IPreferenceAgent.SetXsrfPathsAsync(string, string[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync(string, string[], SuperOffice.WebApi.RequestOptions)
+  name: SetXsrfPathsAsync(String, String[], RequestOptions)
+  nameWithType: IPreferenceAgent.SetXsrfPathsAsync(String, String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync(System.String, System.String[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Update the paths that need XSRF cookies
-  example: []
+  summary: "\nUpdate the paths that need XSRF cookies\n"
   syntax:
     content: Task SetXsrfPathsAsync(string hostname, string[] paths, RequestOptions requestOptions = null)
     parameters:
@@ -701,17 +710,17 @@ items:
       description: The hostname that we are storing paths for.
     - id: paths
       type: System.String[]
-      description: "Paths that XSRF cookies should be set for: ['/cs', '/crm']"
+      description: 'Paths that XSRF cookies should be set for: [&apos;/cs&apos;, &apos;/crm&apos;]'
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
     content.vb: Function SetXsrfPathsAsync(hostname As String, paths As String(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync*
   nameWithType.vb: IPreferenceAgent.SetXsrfPathsAsync(String, String(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync(String, String(), SuperOffice.WebApi.RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync(System.String, System.String(), SuperOffice.WebApi.RequestOptions)
   name.vb: SetXsrfPathsAsync(String, String(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -720,15 +729,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPreferenceDescriptionAsync(int, RequestOptions)
-  nameWithType: IPreferenceAgent.GetPreferenceDescriptionAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: GetPreferenceDescriptionAsync(Int32, RequestOptions)
+  nameWithType: IPreferenceAgent.GetPreferenceDescriptionAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Gets a specific PreferenceDescription object.
-  example: []
+  summary: "\nGets a specific PreferenceDescription object.                        \n"
   syntax:
     content: Task<PreferenceDescription> GetPreferenceDescriptionAsync(int preferenceDescriptionId, RequestOptions requestOptions = null)
     parameters:
@@ -737,15 +748,12 @@ items:
       description: The identifier of the PreferenceDescription object
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescription}
       description: PreferenceDescription
     content.vb: Function GetPreferenceDescriptionAsync(preferenceDescriptionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescription)
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync*
-  nameWithType.vb: IPreferenceAgent.GetPreferenceDescriptionAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetPreferenceDescriptionAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   id: GetFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
@@ -753,15 +761,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetFromSectionAndKeyAsync(string, string, RequestOptions)
-  nameWithType: IPreferenceAgent.GetFromSectionAndKeyAsync(string, string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetFromSectionAndKeyAsync(string, string, SuperOffice.WebApi.RequestOptions)
+  name: GetFromSectionAndKeyAsync(String, String, RequestOptions)
+  nameWithType: IPreferenceAgent.GetFromSectionAndKeyAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetFromSectionAndKeyAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Gets a PreferenceDescription based on the section and key
-  example: []
+  summary: "\nGets a PreferenceDescription based on the section and key\n"
   syntax:
     content: Task<PreferenceDescription> GetFromSectionAndKeyAsync(string section, string key, RequestOptions requestOptions = null)
     parameters:
@@ -773,15 +783,12 @@ items:
       description: The PreferenceDescription-key
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescription}
       description: A PreferenceDescription or null
     content.vb: Function GetFromSectionAndKeyAsync(section As String, key As String, requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescription)
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.GetFromSectionAndKeyAsync*
-  nameWithType.vb: IPreferenceAgent.GetFromSectionAndKeyAsync(String, String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.GetFromSectionAndKeyAsync(String, String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetFromSectionAndKeyAsync(String, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllAsync(SuperOffice.WebApi.RequestOptions)
   id: GetAllAsync(SuperOffice.WebApi.RequestOptions)
@@ -793,17 +800,19 @@ items:
   nameWithType: IPreferenceAgent.GetAllAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Gets a list of all PreferenceDescriptions in the system.
-  example: []
+  summary: "\nGets a list of all PreferenceDescriptions in the system.\n"
   syntax:
     content: Task<PreferenceDescription[]> GetAllAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescription[]}
       description: All PreferenceDescriptions in the system
@@ -816,15 +825,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAllFromSectionAsync(string, RequestOptions)
-  nameWithType: IPreferenceAgent.GetAllFromSectionAsync(string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllFromSectionAsync(string, SuperOffice.WebApi.RequestOptions)
+  name: GetAllFromSectionAsync(String, RequestOptions)
+  nameWithType: IPreferenceAgent.GetAllFromSectionAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllFromSectionAsync(System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Gets all PreferenceDescription-items in the specified section
-  example: []
+  summary: "\nGets all PreferenceDescription-items in the specified section\n"
   syntax:
     content: Task<PreferenceDescription[]> GetAllFromSectionAsync(string section, RequestOptions requestOptions = null)
     parameters:
@@ -833,15 +844,12 @@ items:
       description: The PreferenceDescription-section
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescription[]}
       description: All PreferenceDescriptions found.
     content.vb: Function GetAllFromSectionAsync(section As String, requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescription())
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllFromSectionAsync*
-  nameWithType.vb: IPreferenceAgent.GetAllFromSectionAsync(String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllFromSectionAsync(String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetAllFromSectionAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceDescription,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.SaveFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceDescription,SuperOffice.WebApi.RequestOptions)
   id: SaveFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.Data.PreferenceDescription,SuperOffice.WebApi.RequestOptions)
@@ -849,15 +857,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SaveFromSectionAndKeyAsync(string, string, PreferenceDescription, RequestOptions)
-  nameWithType: IPreferenceAgent.SaveFromSectionAndKeyAsync(string, string, PreferenceDescription, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveFromSectionAndKeyAsync(string, string, SuperOffice.WebApi.Data.PreferenceDescription, SuperOffice.WebApi.RequestOptions)
+  name: SaveFromSectionAndKeyAsync(String, String, PreferenceDescription, RequestOptions)
+  nameWithType: IPreferenceAgent.SaveFromSectionAndKeyAsync(String, String, PreferenceDescription, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveFromSectionAndKeyAsync(System.String, System.String, SuperOffice.WebApi.Data.PreferenceDescription, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Update a PreferenceDescription based on the section and key
-  example: []
+  summary: "\nUpdate a PreferenceDescription based on the section and key\n"
   syntax:
     content: Task<PreferenceDescription> SaveFromSectionAndKeyAsync(string section, string key, PreferenceDescription preferenceDescription, RequestOptions requestOptions = null)
     parameters:
@@ -872,15 +882,12 @@ items:
       description: The PreferenceDescription to save.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescription}
       description: Saved PreferenceDescription
     content.vb: Function SaveFromSectionAndKeyAsync(section As String, key As String, preferenceDescription As PreferenceDescription, requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescription)
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveFromSectionAndKeyAsync*
-  nameWithType.vb: IPreferenceAgent.SaveFromSectionAndKeyAsync(String, String, PreferenceDescription, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveFromSectionAndKeyAsync(String, String, SuperOffice.WebApi.Data.PreferenceDescription, SuperOffice.WebApi.RequestOptions)
-  name.vb: SaveFromSectionAndKeyAsync(String, String, PreferenceDescription, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeleteFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.DeleteFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
   id: DeleteFromSectionAndKeyAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
@@ -888,15 +895,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteFromSectionAndKeyAsync(string, string, RequestOptions)
-  nameWithType: IPreferenceAgent.DeleteFromSectionAndKeyAsync(string, string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeleteFromSectionAndKeyAsync(string, string, SuperOffice.WebApi.RequestOptions)
+  name: DeleteFromSectionAndKeyAsync(String, String, RequestOptions)
+  nameWithType: IPreferenceAgent.DeleteFromSectionAndKeyAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeleteFromSectionAndKeyAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Gets a PreferenceDescription based on the section and key
-  example: []
+  summary: "\nGets a PreferenceDescription based on the section and key\n"
   syntax:
     content: Task DeleteFromSectionAndKeyAsync(string section, string key, RequestOptions requestOptions = null)
     parameters:
@@ -908,15 +917,12 @@ items:
       description: The PreferenceDescription-key
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
       description: This method has no return value
     content.vb: Function DeleteFromSectionAndKeyAsync(section As String, key As String, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.DeleteFromSectionAndKeyAsync*
-  nameWithType.vb: IPreferenceAgent.DeleteFromSectionAndKeyAsync(String, String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.DeleteFromSectionAndKeyAsync(String, String, SuperOffice.WebApi.RequestOptions)
-  name.vb: DeleteFromSectionAndKeyAsync(String, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetPreferenceDescriptionLineAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -924,15 +930,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPreferenceDescriptionLineAsync(int, RequestOptions)
-  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: GetPreferenceDescriptionLineAsync(Int32, RequestOptions)
+  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Gets a specific PreferenceDescriptionLine object.
-  example: []
+  summary: "\nGets a specific PreferenceDescriptionLine object.                        \n"
   syntax:
     content: Task<PreferenceDescriptionLine> GetPreferenceDescriptionLineAsync(int preferenceDescriptionLineId, RequestOptions requestOptions = null)
     parameters:
@@ -941,15 +949,12 @@ items:
       description: The identifier of the PreferenceDescriptionLine object
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescriptionLine}
       description: PreferenceDescriptionLine
     content.vb: Function GetPreferenceDescriptionLineAsync(preferenceDescriptionLineId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescriptionLine)
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineAsync*
-  nameWithType.vb: IPreferenceAgent.GetPreferenceDescriptionLineAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetPreferenceDescriptionLineAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   id: GetPreferenceDescriptionLineFromIdAndValueAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -957,15 +962,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPreferenceDescriptionLineFromIdAndValueAsync(int, string, RequestOptions)
-  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(int, string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(int, string, SuperOffice.WebApi.RequestOptions)
+  name: GetPreferenceDescriptionLineFromIdAndValueAsync(Int32, String, RequestOptions)
+  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get a preference description line from a prefDesc_id and a prefValue
-  example: []
+  summary: "\nGet a preference description line from a prefDesc_id and a prefValue\n"
   syntax:
     content: Task<PreferenceDescriptionLine> GetPreferenceDescriptionLineFromIdAndValueAsync(int prefDescId, string prefValue, RequestOptions requestOptions = null)
     parameters:
@@ -977,15 +984,12 @@ items:
       description: The value of the description line to return
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescriptionLine}
       description: The preference description line matching the id and the value
     content.vb: Function GetPreferenceDescriptionLineFromIdAndValueAsync(prefDescId As Integer, prefValue As String, requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescriptionLine)
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync*
-  nameWithType.vb: IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(Integer, String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync(Integer, String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetPreferenceDescriptionLineFromIdAndValueAsync(Integer, String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetPreferenceDescriptionLinesByPrefDescIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -993,15 +997,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetPreferenceDescriptionLinesByPrefDescIdAsync(int, RequestOptions)
-  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: GetPreferenceDescriptionLinesByPrefDescIdAsync(Int32, RequestOptions)
+  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get all preference description lines from a prefDesc_id
-  example: []
+  summary: "\nGet all preference description lines from a prefDesc_id\n"
   syntax:
     content: Task<PreferenceDescriptionLine[]> GetPreferenceDescriptionLinesByPrefDescIdAsync(int prefDescId, RequestOptions requestOptions = null)
     parameters:
@@ -1010,15 +1016,12 @@ items:
       description: The id of the preference description this line is connected to
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescriptionLine[]}
       description: The preference description lines matching the id
     content.vb: Function GetPreferenceDescriptionLinesByPrefDescIdAsync(prefDescId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescriptionLine())
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync*
-  nameWithType.vb: IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetPreferenceDescriptionLinesByPrefDescIdAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLinesAsync(SuperOffice.WebApi.Data.PreferenceDescriptionLine[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLinesAsync(SuperOffice.WebApi.Data.PreferenceDescriptionLine[],SuperOffice.WebApi.RequestOptions)
   id: SavePreferenceDescriptionLinesAsync(SuperOffice.WebApi.Data.PreferenceDescriptionLine[],SuperOffice.WebApi.RequestOptions)
@@ -1030,11 +1033,13 @@ items:
   nameWithType: IPreferenceAgent.SavePreferenceDescriptionLinesAsync(PreferenceDescriptionLine[], RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLinesAsync(SuperOffice.WebApi.Data.PreferenceDescriptionLine[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Saves the PreferenceDescriptionLine array in the SuperOffice database
-  example: []
+  summary: "\nSaves the PreferenceDescriptionLine array in the SuperOffice database\n"
   syntax:
     content: Task<PreferenceDescriptionLine[]> SavePreferenceDescriptionLinesAsync(PreferenceDescriptionLine[] preferenceDescriptionLines, RequestOptions requestOptions = null)
     parameters:
@@ -1043,10 +1048,10 @@ items:
       description: The PreferenceDescriptionLine array to save.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescriptionLine[]}
-      description: The updated PrefDesc lines (If the PreferenceDescriptionLine array was new, it returns with id's set.
+      description: The updated PrefDesc lines (If the PreferenceDescriptionLine array was new, it returns with id&apos;s set.
     content.vb: Function SavePreferenceDescriptionLinesAsync(preferenceDescriptionLines As PreferenceDescriptionLine(), requestOptions As RequestOptions = Nothing) As Task(Of PreferenceDescriptionLine())
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLinesAsync*
   nameWithType.vb: IPreferenceAgent.SavePreferenceDescriptionLinesAsync(PreferenceDescriptionLine(), RequestOptions)
@@ -1059,15 +1064,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeletePreferenceDescriptionLinesAsync(int[], RequestOptions)
-  nameWithType: IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(int[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(int[], SuperOffice.WebApi.RequestOptions)
+  name: DeletePreferenceDescriptionLinesAsync(Int32[], RequestOptions)
+  nameWithType: IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Delete the PrefDescLines in the SuperOffice database
-  example: []
+  summary: "\nDelete the PrefDescLines in the SuperOffice database\n"
   syntax:
     content: Task DeletePreferenceDescriptionLinesAsync(int[] prefDescLineIds, RequestOptions requestOptions = null)
     parameters:
@@ -1076,15 +1083,15 @@ items:
       description: Primary keys of the PrefDescLines to delete
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
       description: Nothing
     content.vb: Function DeletePreferenceDescriptionLinesAsync(prefDescLineIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync*
-  nameWithType.vb: IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(Integer(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(Integer(), SuperOffice.WebApi.RequestOptions)
-  name.vb: DeletePreferenceDescriptionLinesAsync(Integer(), RequestOptions)
+  nameWithType.vb: IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: DeletePreferenceDescriptionLinesAsync(Int32(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: DeletePrefDescLinesByPrefDescIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -1092,15 +1099,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeletePrefDescLinesByPrefDescIdAsync(int, RequestOptions)
-  nameWithType: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(int, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(int, SuperOffice.WebApi.RequestOptions)
+  name: DeletePrefDescLinesByPrefDescIdAsync(Int32, RequestOptions)
+  nameWithType: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Delete the PrefDescLines associated with Preference Description Id in the SuperOffice database
-  example: []
+  summary: "\nDelete the PrefDescLines associated with Preference Description Id in the SuperOffice database\n"
   syntax:
     content: Task DeletePrefDescLinesByPrefDescIdAsync(int prefDescId, RequestOptions requestOptions = null)
     parameters:
@@ -1109,15 +1118,12 @@ items:
       description: Primary key of the Preference Description that contains PrefDescLines to delete
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
       description: Nothing
     content.vb: Function DeletePrefDescLinesByPrefDescIdAsync(prefDescId As Integer, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync*
-  nameWithType.vb: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(Integer, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync(Integer, SuperOffice.WebApi.RequestOptions)
-  name.vb: DeletePrefDescLinesByPrefDescIdAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: DeletePrefDescLinesByPrefDescIdsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -1125,15 +1131,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeletePrefDescLinesByPrefDescIdsAsync(int[], RequestOptions)
-  nameWithType: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(int[], RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(int[], SuperOffice.WebApi.RequestOptions)
+  name: DeletePrefDescLinesByPrefDescIdsAsync(Int32[], RequestOptions)
+  nameWithType: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Delete the PrefDescLines associated with Preference Description Ids in the SuperOffice database
-  example: []
+  summary: "\nDelete the PrefDescLines associated with Preference Description Ids in the SuperOffice database\n"
   syntax:
     content: Task DeletePrefDescLinesByPrefDescIdsAsync(int[] prefDescIds, RequestOptions requestOptions = null)
     parameters:
@@ -1142,15 +1150,15 @@ items:
       description: Primary keys of the Preference Descriptions that contains PrefDescLines to delete
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
       description: Nothing
     content.vb: Function DeletePrefDescLinesByPrefDescIdsAsync(prefDescIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync*
-  nameWithType.vb: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(Integer(), RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(Integer(), SuperOffice.WebApi.RequestOptions)
-  name.vb: DeletePrefDescLinesByPrefDescIdsAsync(Integer(), RequestOptions)
+  nameWithType.vb: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(Int32(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: DeletePrefDescLinesByPrefDescIdsAsync(Int32(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesAsync(SuperOffice.WebApi.Data.PreferenceSpec[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesAsync(SuperOffice.WebApi.Data.PreferenceSpec[],SuperOffice.WebApi.RequestOptions)
   id: GetPreferencesAsync(SuperOffice.WebApi.Data.PreferenceSpec[],SuperOffice.WebApi.RequestOptions)
@@ -1162,23 +1170,25 @@ items:
   nameWithType: IPreferenceAgent.GetPreferencesAsync(PreferenceSpec[], RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesAsync(SuperOffice.WebApi.Data.PreferenceSpec[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get one or more preferences based on a set of specifications.&lt;br/&gt;The prefDisplayvalue and prefDisplaytooltip are blank (faster processing relative to GetPreferencesWithDisplayValues)
-  example: []
+  summary: "\nGet one or more preferences based on a set of specifications.&lt;br/>The prefDisplayvalue and prefDisplaytooltip are blank (faster processing relative to GetPreferencesWithDisplayValues)\n"
   syntax:
     content: Task<Preference[]> GetPreferencesAsync(PreferenceSpec[] specifications, RequestOptions requestOptions = null)
     parameters:
     - id: specifications
       type: SuperOffice.WebApi.Data.PreferenceSpec[]
-      description: Array of preference specifications. The key value may be * (asterisk), which means 'all keys within section'. Note that the semantics of this are more strictly 'all keys actually set at any accessible level for this associate'; you will NOT get entries for preferences that might exist, but have no set value anywhere. You can also have askerisk as the section name. In that case the specification array must contain exactly one entry and the key must also be asterisk. This will return all known preferences in all sections for your associate. It might be a lot, tests have shown that a heavily used database can accumulate up to 500 preferences on a single associate. If the Sentry table/field right preferences have been used, the number could be a lot greater!
+      description: Array of preference specifications. The key value may be * (asterisk), which means &apos;all keys within section&apos;. Note that the semantics of this are more strictly &apos;all keys actually set at any accessible level for this associate&apos;; you will NOT get entries for preferences that might exist, but have no set value anywhere. You can also have askerisk as the section name. In that case the specification array must contain exactly one entry and the key must also be asterisk. This will return all known preferences in all sections for your associate. It might be a lot, tests have shown that a heavily used database can accumulate up to 500 preferences on a single associate. If the Sentry table/field right preferences have been used, the number could be a lot greater!
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Preference[]}
-      description: "Array of preference values for your given specification(s). More strictly: 'all keys actually set at any accessible level for this associate'; you will NOT get entries for preferences that might exist, but have no set value anywhere."
+      description: 'Array of preference values for your given specification(s). More strictly: &apos;all keys actually set at any accessible level for this associate&apos;; you will NOT get entries for preferences that might exist, but have no set value anywhere.'
     content.vb: Function GetPreferencesAsync(specifications As PreferenceSpec(), requestOptions As RequestOptions = Nothing) As Task(Of Preference())
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesAsync*
   nameWithType.vb: IPreferenceAgent.GetPreferencesAsync(PreferenceSpec(), RequestOptions)
@@ -1195,11 +1205,13 @@ items:
   nameWithType: IPreferenceAgent.SavePreferencesAsync(Preference[], RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferencesAsync(SuperOffice.WebApi.Data.Preference[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Save this set of preferences. Note this method DOES NOT look at level/targetId - it only saves on behalf of the CURRENT USER.
-  example: []
+  summary: "\nSave this set of preferences. Note this method DOES NOT look at level/targetId - it only saves on behalf of the CURRENT USER.\n"
   syntax:
     content: Task SavePreferencesAsync(Preference[] preferences, RequestOptions requestOptions = null)
     parameters:
@@ -1208,10 +1220,9 @@ items:
       description: Preferences to be saved. Note that all fields must be filled in, and the preference will be saved on the Associate level only! Setting for other levels is an administrative task and not available through this service.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
-      description: ''
     content.vb: Function SavePreferencesAsync(preferences As Preference(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferencesAsync*
   nameWithType.vb: IPreferenceAgent.SavePreferencesAsync(Preference(), RequestOptions)
@@ -1228,23 +1239,25 @@ items:
   nameWithType: IPreferenceAgent.GetPreferencesWithDisplayValuesAsync(PreferenceSpec[], RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync(SuperOffice.WebApi.Data.PreferenceSpec[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Get one or more preferences based on a set of specifications&lt;br/&gt;The PrefDisplayValue and PrefDisplaytooltip are populated, at some additional processing cost.
-  example: []
+  summary: "\nGet one or more preferences based on a set of specifications&lt;br/>The PrefDisplayValue and PrefDisplaytooltip are populated, at some additional processing cost.\n"
   syntax:
     content: Task<Preference[]> GetPreferencesWithDisplayValuesAsync(PreferenceSpec[] specifications, RequestOptions requestOptions = null)
     parameters:
     - id: specifications
       type: SuperOffice.WebApi.Data.PreferenceSpec[]
-      description: Array of preference specifications. The key value may be * (asterisk), which means 'all keys within section'. Note that the semantics of this are more strictly 'all keys actually set at any accessible level for this associate'; you will NOT get entries for preferences that might exist, but have no set value anywhere. You can also have askerisk as the section name. In that case the specification array must contain exactly one entry and the key must also be asterisk. This will return all known preferences in all sections for your associate. It might be a lot, tests have shown that a heavily used database can accumulate up to 500 preferences on a single associate. If the Sentry table/field right preferences have been used, the number could be a lot greater!
+      description: Array of preference specifications. The key value may be * (asterisk), which means &apos;all keys within section&apos;. Note that the semantics of this are more strictly &apos;all keys actually set at any accessible level for this associate&apos;; you will NOT get entries for preferences that might exist, but have no set value anywhere. You can also have askerisk as the section name. In that case the specification array must contain exactly one entry and the key must also be asterisk. This will return all known preferences in all sections for your associate. It might be a lot, tests have shown that a heavily used database can accumulate up to 500 preferences on a single associate. If the Sentry table/field right preferences have been used, the number could be a lot greater!
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Preference[]}
-      description: "Array of preference values for your given specification(s). More strictly: 'all keys actually set at any accessible level for this associate'; you will NOT get entries for preferences that might exist, but have no set value anywhere.&lt;br/&gt;The PrefDisplayValue and PrefDisplaytooltip are populated, at some additional processing cost."
+      description: 'Array of preference values for your given specification(s). More strictly: &apos;all keys actually set at any accessible level for this associate&apos;; you will NOT get entries for preferences that might exist, but have no set value anywhere.&lt;br/>The PrefDisplayValue and PrefDisplaytooltip are populated, at some additional processing cost.'
     content.vb: Function GetPreferencesWithDisplayValuesAsync(specifications As PreferenceSpec(), requestOptions As RequestOptions = Nothing) As Task(Of Preference())
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync*
   nameWithType.vb: IPreferenceAgent.GetPreferencesWithDisplayValuesAsync(PreferenceSpec(), RequestOptions)
@@ -1261,20 +1274,21 @@ items:
   nameWithType: IPreferenceAgent.GetTabOrdersAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrdersAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: Task<TabOrder[]> GetTabOrdersAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TabOrder[]}
-      description: ''
     content.vb: Function GetTabOrdersAsync(requestOptions As RequestOptions = Nothing) As Task(Of TabOrder())
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrdersAsync*
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrdersAsync(SuperOffice.WebApi.Data.TabOrder[],SuperOffice.WebApi.RequestOptions)
@@ -1288,23 +1302,23 @@ items:
   nameWithType: IPreferenceAgent.SaveTabOrdersAsync(TabOrder[], RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrdersAsync(SuperOffice.WebApi.Data.TabOrder[], SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: ''
-  example: []
+  summary: "\n\n"
   syntax:
     content: Task SaveTabOrdersAsync(TabOrder[] tabOrders, RequestOptions requestOptions = null)
     parameters:
     - id: tabOrders
       type: SuperOffice.WebApi.Data.TabOrder[]
-      description: ''
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
-      description: ''
     content.vb: Function SaveTabOrdersAsync(tabOrders As TabOrder(), requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrdersAsync*
   nameWithType.vb: IPreferenceAgent.SaveTabOrdersAsync(TabOrder(), RequestOptions)
@@ -1317,15 +1331,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SavePreferenceEntitiesAsync(Preference[], bool, RequestOptions)
-  nameWithType: IPreferenceAgent.SavePreferenceEntitiesAsync(Preference[], bool, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntitiesAsync(SuperOffice.WebApi.Data.Preference[], bool, SuperOffice.WebApi.RequestOptions)
+  name: SavePreferenceEntitiesAsync(Preference[], Boolean, RequestOptions)
+  nameWithType: IPreferenceAgent.SavePreferenceEntitiesAsync(Preference[], Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntitiesAsync(SuperOffice.WebApi.Data.Preference[], System.Boolean, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Save this set of preferences.
-  example: []
+  summary: "\nSave this set of preferences.\n"
   syntax:
     content: Task SavePreferenceEntitiesAsync(Preference[] preferences, bool removeLowerLevels, RequestOptions requestOptions = null)
     parameters:
@@ -1337,94 +1353,24 @@ items:
       description: If this is true, all user preferences on lower levels will be deleted
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task
-      description: ''
     content.vb: Function SavePreferenceEntitiesAsync(preferences As Preference(), removeLowerLevels As Boolean, requestOptions As RequestOptions = Nothing) As Task
   overload: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntitiesAsync*
   nameWithType.vb: IPreferenceAgent.SavePreferenceEntitiesAsync(Preference(), Boolean, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntitiesAsync(SuperOffice.WebApi.Data.Preference(), Boolean, SuperOffice.WebApi.RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntitiesAsync(SuperOffice.WebApi.Data.Preference(), System.Boolean, SuperOffice.WebApi.RequestOptions)
   name.vb: SavePreferenceEntitiesAsync(Preference(), Boolean, RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Agents
-    name: Agents
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Agents
-    name: Agents
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.html
-- uid: System.IDisposable.Dispose
-  commentId: M:System.IDisposable.Dispose
-  parent: System.IDisposable
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  name: Dispose()
-  nameWithType: IDisposable.Dispose()
-  fullName: System.IDisposable.Dispose()
-  spec.csharp:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
-- uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_CreateDefaultPreferenceAsync_SuperOffice_WebApi_RequestOptions_
   name: CreateDefaultPreferenceAsync
   nameWithType: IPreferenceAgent.CreateDefaultPreferenceAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceAsync
@@ -1432,15 +1378,12 @@ references:
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Preference}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Preference}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Preference}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<Preference>
   nameWithType: Task<Preference>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Preference>
@@ -1450,131 +1393,90 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.Preference
     name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.WebApi.Data.Preference
     isExternal: true
-    href: SuperOffice.WebApi.Data.Preference.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.Preference
     name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.WebApi.Data.Preference
     isExternal: true
-    href: SuperOffice.WebApi.Data.Preference.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
 - uid: System.Threading.Tasks.Task`1
-  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TResult>
-  nameWithType: Task<TResult>
-  fullName: System.Threading.Tasks.Task<TResult>
-  nameWithType.vb: Task(Of TResult)
-  fullName.vb: System.Threading.Tasks.Task(Of TResult)
-  name.vb: Task(Of TResult)
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - name: TResult
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TResult
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Threading.Tasks
-  commentId: N:System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Threading.Tasks
-  nameWithType: System.Threading.Tasks
-  fullName: System.Threading.Tasks
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_CreateDefaultPreferenceDescriptionAsync_SuperOffice_WebApi_RequestOptions_
   name: CreateDefaultPreferenceDescriptionAsync
   nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescription}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescription}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescription}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<PreferenceDescription>
   nameWithType: Task<PreferenceDescription>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.PreferenceDescription>
@@ -1584,31 +1486,40 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.PreferenceDescription
     name: PreferenceDescription
+    nameWithType: PreferenceDescription
+    fullName: SuperOffice.WebApi.Data.PreferenceDescription
     isExternal: true
-    href: SuperOffice.WebApi.Data.PreferenceDescription.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.PreferenceDescription
     name: PreferenceDescription
+    nameWithType: PreferenceDescription
+    fullName: SuperOffice.WebApi.Data.PreferenceDescription
     isExternal: true
-    href: SuperOffice.WebApi.Data.PreferenceDescription.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_SavePreferenceDescriptionAsync_SuperOffice_WebApi_Data_PreferenceDescription_SuperOffice_WebApi_RequestOptions_
   name: SavePreferenceDescriptionAsync
   nameWithType: IPreferenceAgent.SavePreferenceDescriptionAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionAsync
@@ -1616,51 +1527,18 @@ references:
   commentId: T:SuperOffice.WebApi.Data.PreferenceDescription
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescription.html
   name: PreferenceDescription
   nameWithType: PreferenceDescription
   fullName: SuperOffice.WebApi.Data.PreferenceDescription
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_DeletePreferenceDescriptionAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: DeletePreferenceDescriptionAsync
   nameWithType: IPreferenceAgent.DeletePreferenceDescriptionAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionAsync
@@ -1668,33 +1546,29 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_CreateDefaultPreferenceDescriptionLineAsync_SuperOffice_WebApi_RequestOptions_
   name: CreateDefaultPreferenceDescriptionLineAsync
   nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.CreateDefaultPreferenceDescriptionLineAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescriptionLine}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescriptionLine}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescriptionLine}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<PreferenceDescriptionLine>
   nameWithType: Task<PreferenceDescriptionLine>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.PreferenceDescriptionLine>
@@ -1704,31 +1578,40 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine
     name: PreferenceDescriptionLine
+    nameWithType: PreferenceDescriptionLine
+    fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine
     isExternal: true
-    href: SuperOffice.WebApi.Data.PreferenceDescriptionLine.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine
     name: PreferenceDescriptionLine
+    nameWithType: PreferenceDescriptionLine
+    fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine
     isExternal: true
-    href: SuperOffice.WebApi.Data.PreferenceDescriptionLine.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLineAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLineAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_SavePreferenceDescriptionLineAsync_SuperOffice_WebApi_Data_PreferenceDescriptionLine_SuperOffice_WebApi_RequestOptions_
   name: SavePreferenceDescriptionLineAsync
   nameWithType: IPreferenceAgent.SavePreferenceDescriptionLineAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLineAsync
@@ -1736,21 +1619,18 @@ references:
   commentId: T:SuperOffice.WebApi.Data.PreferenceDescriptionLine
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescriptionLine.html
   name: PreferenceDescriptionLine
   nameWithType: PreferenceDescriptionLine
   fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLineAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLineAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_DeletePreferenceDescriptionLineAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: DeletePreferenceDescriptionLineAsync
   nameWithType: IPreferenceAgent.DeletePreferenceDescriptionLineAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLineAsync
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_SavePreferenceAsync_SuperOffice_WebApi_Data_Preference_SuperOffice_WebApi_RequestOptions_
   name: SavePreferenceAsync
   nameWithType: IPreferenceAgent.SavePreferenceAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceAsync
@@ -1758,14 +1638,12 @@ references:
   commentId: T:SuperOffice.WebApi.Data.Preference
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.Preference.html
   name: Preference
   nameWithType: Preference
   fullName: SuperOffice.WebApi.Data.Preference
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrderAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrderAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_SaveTabOrderAsync_SuperOffice_WebApi_Data_TabOrder_SuperOffice_WebApi_RequestOptions_
   name: SaveTabOrderAsync
   nameWithType: IPreferenceAgent.SaveTabOrderAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrderAsync
@@ -1773,14 +1651,12 @@ references:
   commentId: T:SuperOffice.WebApi.Data.TabOrder
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.TabOrder.html
   name: TabOrder
   nameWithType: TabOrder
   fullName: SuperOffice.WebApi.Data.TabOrder
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrderAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrderAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_GetTabOrderAsync_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetTabOrderAsync
   nameWithType: IPreferenceAgent.GetTabOrderAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrderAsync
@@ -1788,18 +1664,12 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TabOrder}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TabOrder}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TabOrder}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<TabOrder>
   nameWithType: Task<TabOrder>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TabOrder>
@@ -1809,38 +1679,46 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.TabOrder
     name: TabOrder
+    nameWithType: TabOrder
+    fullName: SuperOffice.WebApi.Data.TabOrder
     isExternal: true
-    href: SuperOffice.WebApi.Data.TabOrder.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.TabOrder
     name: TabOrder
+    nameWithType: TabOrder
+    fullName: SuperOffice.WebApi.Data.TabOrder
     isExternal: true
-    href: SuperOffice.WebApi.Data.TabOrder.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_GetPreferenceAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetPreferenceAsync
   nameWithType: IPreferenceAgent.GetPreferenceAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceAsync
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntityAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_SavePreferenceEntityAsync_SuperOffice_WebApi_Data_Preference_System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: SavePreferenceEntityAsync
   nameWithType: IPreferenceAgent.SavePreferenceEntityAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntityAsync
@@ -1848,54 +1726,50 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_DeletePreferenceAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: DeletePreferenceAsync
   nameWithType: IPreferenceAgent.DeletePreferenceAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceAsync
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferencesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferencesAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_DeletePreferencesAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
   name: DeletePreferencesAsync
   nameWithType: IPreferenceAgent.DeletePreferencesAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferencesAsync
 - uid: System.Int32[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
   spec.csharp:
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_GetPreferenceByNameAsync_System_String_System_String_SuperOffice_WebApi_Data_PreferenceLevel_SuperOffice_WebApi_RequestOptions_
   name: GetPreferenceByNameAsync
   nameWithType: IPreferenceAgent.GetPreferenceByNameAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAsync
@@ -1903,168 +1777,178 @@ references:
   commentId: T:SuperOffice.WebApi.Data.PreferenceLevel
   parent: SuperOffice.WebApi.Data
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceLevel.html
   name: PreferenceLevel
   nameWithType: PreferenceLevel
   fullName: SuperOffice.WebApi.Data.PreferenceLevel
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAndIdAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAndIdAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_GetPreferenceByNameAndIdAsync_System_String_System_String_SuperOffice_WebApi_Data_PreferenceLevel_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetPreferenceByNameAndIdAsync
   nameWithType: IPreferenceAgent.GetPreferenceByNameAndIdAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceByNameAndIdAsync
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetNetServicesStatusUrlAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.GetNetServicesStatusUrlAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_GetNetServicesStatusUrlAsync_SuperOffice_WebApi_RequestOptions_
   name: GetNetServicesStatusUrlAsync
   nameWithType: IPreferenceAgent.GetNetServicesStatusUrlAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetNetServicesStatusUrlAsync
 - uid: System.Threading.Tasks.Task{System.String}
-  commentId: T:System.Threading.Tasks.Task{System.String}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<string>
-  nameWithType: Task<string>
-  fullName: System.Threading.Tasks.Task<string>
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
   nameWithType.vb: Task(Of String)
-  fullName.vb: System.Threading.Tasks.Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
   name.vb: Task(Of String)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.UpdateNetServicesStatusAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.UpdateNetServicesStatusAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_UpdateNetServicesStatusAsync_System_String_SuperOffice_WebApi_RequestOptions_
   name: UpdateNetServicesStatusAsync
   nameWithType: IPreferenceAgent.UpdateNetServicesStatusAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.UpdateNetServicesStatusAsync
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfPathsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfPathsAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_GetXsrfPathsAsync_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetXsrfPathsAsync
   nameWithType: IPreferenceAgent.GetXsrfPathsAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetXsrfPathsAsync
 - uid: System.Threading.Tasks.Task{System.String[]}
-  commentId: T:System.Threading.Tasks.Task{System.String[]}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{System.String[]}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<string[]>
-  nameWithType: Task<string[]>
-  fullName: System.Threading.Tasks.Task<string[]>
+  name: Task<String[]>
+  nameWithType: Task<String[]>
+  fullName: System.Threading.Tasks.Task<System.String[]>
   nameWithType.vb: Task(Of String())
-  fullName.vb: System.Threading.Tasks.Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of System.String())
   name.vb: Task(Of String())
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_SetXsrfPathsAsync_System_String_System_String___SuperOffice_WebApi_RequestOptions_
   name: SetXsrfPathsAsync
   nameWithType: IPreferenceAgent.SetXsrfPathsAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SetXsrfPathsAsync
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_GetPreferenceDescriptionAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetPreferenceDescriptionAsync
   nameWithType: IPreferenceAgent.GetPreferenceDescriptionAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionAsync
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetFromSectionAndKeyAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.GetFromSectionAndKeyAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_GetFromSectionAndKeyAsync_System_String_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetFromSectionAndKeyAsync
   nameWithType: IPreferenceAgent.GetFromSectionAndKeyAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetFromSectionAndKeyAsync
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_GetAllAsync_SuperOffice_WebApi_RequestOptions_
   name: GetAllAsync
   nameWithType: IPreferenceAgent.GetAllAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescription[]}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescription[]}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescription[]}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<PreferenceDescription[]>
   nameWithType: Task<PreferenceDescription[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.PreferenceDescription[]>
@@ -2074,78 +1958,82 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.PreferenceDescription
     name: PreferenceDescription
+    nameWithType: PreferenceDescription
+    fullName: SuperOffice.WebApi.Data.PreferenceDescription
     isExternal: true
-    href: SuperOffice.WebApi.Data.PreferenceDescription.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.PreferenceDescription
     name: PreferenceDescription
+    nameWithType: PreferenceDescription
+    fullName: SuperOffice.WebApi.Data.PreferenceDescription
     isExternal: true
-    href: SuperOffice.WebApi.Data.PreferenceDescription.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllFromSectionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllFromSectionAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_GetAllFromSectionAsync_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetAllFromSectionAsync
   nameWithType: IPreferenceAgent.GetAllFromSectionAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetAllFromSectionAsync
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveFromSectionAndKeyAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.SaveFromSectionAndKeyAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_SaveFromSectionAndKeyAsync_System_String_System_String_SuperOffice_WebApi_Data_PreferenceDescription_SuperOffice_WebApi_RequestOptions_
   name: SaveFromSectionAndKeyAsync
   nameWithType: IPreferenceAgent.SaveFromSectionAndKeyAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveFromSectionAndKeyAsync
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeleteFromSectionAndKeyAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.DeleteFromSectionAndKeyAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_DeleteFromSectionAndKeyAsync_System_String_System_String_SuperOffice_WebApi_RequestOptions_
   name: DeleteFromSectionAndKeyAsync
   nameWithType: IPreferenceAgent.DeleteFromSectionAndKeyAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeleteFromSectionAndKeyAsync
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_GetPreferenceDescriptionLineAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetPreferenceDescriptionLineAsync
   nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineAsync
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_GetPreferenceDescriptionLineFromIdAndValueAsync_System_Int32_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetPreferenceDescriptionLineFromIdAndValueAsync
   nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValueAsync
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_GetPreferenceDescriptionLinesByPrefDescIdAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: GetPreferenceDescriptionLinesByPrefDescIdAsync
   nameWithType: IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferenceDescriptionLinesByPrefDescIdAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescriptionLine[]}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescriptionLine[]}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PreferenceDescriptionLine[]}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<PreferenceDescriptionLine[]>
   nameWithType: Task<PreferenceDescriptionLine[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.PreferenceDescriptionLine[]>
@@ -2155,41 +2043,51 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine
     name: PreferenceDescriptionLine
+    nameWithType: PreferenceDescriptionLine
+    fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine
     isExternal: true
-    href: SuperOffice.WebApi.Data.PreferenceDescriptionLine.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine
     name: PreferenceDescriptionLine
+    nameWithType: PreferenceDescriptionLine
+    fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine
     isExternal: true
-    href: SuperOffice.WebApi.Data.PreferenceDescriptionLine.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLinesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLinesAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_SavePreferenceDescriptionLinesAsync_SuperOffice_WebApi_Data_PreferenceDescriptionLine___SuperOffice_WebApi_RequestOptions_
   name: SavePreferenceDescriptionLinesAsync
   nameWithType: IPreferenceAgent.SavePreferenceDescriptionLinesAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceDescriptionLinesAsync
 - uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceDescriptionLine.html
   name: PreferenceDescriptionLine[]
   nameWithType: PreferenceDescriptionLine[]
   fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine[]
@@ -2199,48 +2097,47 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine
     name: PreferenceDescriptionLine
+    nameWithType: PreferenceDescriptionLine
+    fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine
     isExternal: true
-    href: SuperOffice.WebApi.Data.PreferenceDescriptionLine.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.PreferenceDescriptionLine
     name: PreferenceDescriptionLine
+    nameWithType: PreferenceDescriptionLine
+    fullName: SuperOffice.WebApi.Data.PreferenceDescriptionLine
     isExternal: true
-    href: SuperOffice.WebApi.Data.PreferenceDescriptionLine.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_DeletePreferenceDescriptionLinesAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
   name: DeletePreferenceDescriptionLinesAsync
   nameWithType: IPreferenceAgent.DeletePreferenceDescriptionLinesAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePreferenceDescriptionLinesAsync
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_DeletePrefDescLinesByPrefDescIdAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
   name: DeletePrefDescLinesByPrefDescIdAsync
   nameWithType: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdAsync
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_DeletePrefDescLinesByPrefDescIdsAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
   name: DeletePrefDescLinesByPrefDescIdsAsync
   nameWithType: IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.DeletePrefDescLinesByPrefDescIdsAsync
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_GetPreferencesAsync_SuperOffice_WebApi_Data_PreferenceSpec___SuperOffice_WebApi_RequestOptions_
   name: GetPreferencesAsync
   nameWithType: IPreferenceAgent.GetPreferencesAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesAsync
 - uid: SuperOffice.WebApi.Data.PreferenceSpec[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.PreferenceSpec.html
   name: PreferenceSpec[]
   nameWithType: PreferenceSpec[]
   fullName: SuperOffice.WebApi.Data.PreferenceSpec[]
@@ -2250,22 +2147,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.PreferenceSpec
     name: PreferenceSpec
+    nameWithType: PreferenceSpec
+    fullName: SuperOffice.WebApi.Data.PreferenceSpec
     isExternal: true
-    href: SuperOffice.WebApi.Data.PreferenceSpec.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.PreferenceSpec
     name: PreferenceSpec
+    nameWithType: PreferenceSpec
+    fullName: SuperOffice.WebApi.Data.PreferenceSpec
     isExternal: true
-    href: SuperOffice.WebApi.Data.PreferenceSpec.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Preference[]}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Preference[]}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Preference[]}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<Preference[]>
   nameWithType: Task<Preference[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Preference[]>
@@ -2275,41 +2174,51 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.Preference
     name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.WebApi.Data.Preference
     isExternal: true
-    href: SuperOffice.WebApi.Data.Preference.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.Preference
     name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.WebApi.Data.Preference
     isExternal: true
-    href: SuperOffice.WebApi.Data.Preference.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferencesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferencesAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_SavePreferencesAsync_SuperOffice_WebApi_Data_Preference___SuperOffice_WebApi_RequestOptions_
   name: SavePreferencesAsync
   nameWithType: IPreferenceAgent.SavePreferencesAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferencesAsync
 - uid: SuperOffice.WebApi.Data.Preference[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.Preference.html
   name: Preference[]
   nameWithType: Preference[]
   fullName: SuperOffice.WebApi.Data.Preference[]
@@ -2319,36 +2228,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.Preference
     name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.WebApi.Data.Preference
     isExternal: true
-    href: SuperOffice.WebApi.Data.Preference.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.Preference
     name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.WebApi.Data.Preference
     isExternal: true
-    href: SuperOffice.WebApi.Data.Preference.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_GetPreferencesWithDisplayValuesAsync_SuperOffice_WebApi_Data_PreferenceSpec___SuperOffice_WebApi_RequestOptions_
   name: GetPreferencesWithDisplayValuesAsync
   nameWithType: IPreferenceAgent.GetPreferencesWithDisplayValuesAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetPreferencesWithDisplayValuesAsync
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrdersAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrdersAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_GetTabOrdersAsync_SuperOffice_WebApi_RequestOptions_
   name: GetTabOrdersAsync
   nameWithType: IPreferenceAgent.GetTabOrdersAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.GetTabOrdersAsync
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TabOrder[]}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TabOrder[]}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TabOrder[]}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<TabOrder[]>
   nameWithType: Task<TabOrder[]>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TabOrder[]>
@@ -2358,41 +2267,51 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.TabOrder
     name: TabOrder
+    nameWithType: TabOrder
+    fullName: SuperOffice.WebApi.Data.TabOrder
     isExternal: true
-    href: SuperOffice.WebApi.Data.TabOrder.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.TabOrder
     name: TabOrder
+    nameWithType: TabOrder
+    fullName: SuperOffice.WebApi.Data.TabOrder
     isExternal: true
-    href: SuperOffice.WebApi.Data.TabOrder.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrdersAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrdersAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_SaveTabOrdersAsync_SuperOffice_WebApi_Data_TabOrder___SuperOffice_WebApi_RequestOptions_
   name: SaveTabOrdersAsync
   nameWithType: IPreferenceAgent.SaveTabOrdersAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SaveTabOrdersAsync
 - uid: SuperOffice.WebApi.Data.TabOrder[]
   isExternal: true
-  href: SuperOffice.WebApi.Data.TabOrder.html
   name: TabOrder[]
   nameWithType: TabOrder[]
   fullName: SuperOffice.WebApi.Data.TabOrder[]
@@ -2402,21 +2321,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.WebApi.Data.TabOrder
     name: TabOrder
+    nameWithType: TabOrder
+    fullName: SuperOffice.WebApi.Data.TabOrder
     isExternal: true
-    href: SuperOffice.WebApi.Data.TabOrder.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.WebApi.Data.TabOrder
     name: TabOrder
+    nameWithType: TabOrder
+    fullName: SuperOffice.WebApi.Data.TabOrder
     isExternal: true
-    href: SuperOffice.WebApi.Data.TabOrder.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntitiesAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntitiesAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IPreferenceAgent.html#SuperOffice_WebApi_Agents_IPreferenceAgent_SavePreferenceEntitiesAsync_SuperOffice_WebApi_Data_Preference___System_Boolean_SuperOffice_WebApi_RequestOptions_
   name: SavePreferenceEntitiesAsync
   nameWithType: IPreferenceAgent.SavePreferenceEntitiesAsync
   fullName: SuperOffice.WebApi.Agents.IPreferenceAgent.SavePreferenceEntitiesAsync

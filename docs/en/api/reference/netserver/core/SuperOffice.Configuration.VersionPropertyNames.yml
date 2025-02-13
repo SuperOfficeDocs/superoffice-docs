@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.VersionPropertyNames
+  commentId: T:SuperOffice.Configuration.VersionPropertyNames
+  id: VersionPropertyNames
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.VersionPropertyNames.AppiAllSqlCalls
+  - SuperOffice.Configuration.VersionPropertyNames.AppiSqlQueryText
+  - SuperOffice.Configuration.VersionPropertyNames.DecorateSql
+  - SuperOffice.Configuration.VersionPropertyNames.DecorateSqlWithCallstack
+  langs:
+  - csharp
+  - vb
+  name: VersionPropertyNames
+  nameWithType: VersionPropertyNames
+  fullName: SuperOffice.Configuration.VersionPropertyNames
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nString constants for VersionProperties. Please add new constants here, this is the <strong>only</strong> place we have for their documentation\n"
+  syntax:
+    content: 'public static class VersionPropertyNames : Object'
+    content.vb: >-
+      Public Module VersionPropertyNames
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.VersionPropertyNames.DecorateSql
+  commentId: F:SuperOffice.Configuration.VersionPropertyNames.DecorateSql
+  id: DecorateSql
+  parent: SuperOffice.Configuration.VersionPropertyNames
+  langs:
+  - csharp
+  - vb
+  name: DecorateSql
+  nameWithType: VersionPropertyNames.DecorateSql
+  fullName: SuperOffice.Configuration.VersionPropertyNames.DecorateSql
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nTurn on decoration of SQL queries with Origin, User and whatever else we may know. Negatively\nimpacts reuse of query plans, since cached query plans are keyed by the sql text including comments.\n"
+  syntax:
+    content: public const string DecorateSql = "DecorateSql"
+    return:
+      type: System.String
+    content.vb: Public Const DecorateSql As String = "DecorateSql"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Configuration.VersionPropertyNames.DecorateSqlWithCallstack
+  commentId: F:SuperOffice.Configuration.VersionPropertyNames.DecorateSqlWithCallstack
+  id: DecorateSqlWithCallstack
+  parent: SuperOffice.Configuration.VersionPropertyNames
+  langs:
+  - csharp
+  - vb
+  name: DecorateSqlWithCallstack
+  nameWithType: VersionPropertyNames.DecorateSqlWithCallstack
+  fullName: SuperOffice.Configuration.VersionPropertyNames.DecorateSqlWithCallstack
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nDecorate any sql that contains the value text with a full call stack. <strong>This can seriously impact performance!</strong>. The value needs to be at least 10 characters long to be taken into account, this to avoid really bad accidents\n"
+  syntax:
+    content: public const string DecorateSqlWithCallstack = "DecorateSqlWithCallstack"
+    return:
+      type: System.String
+    content.vb: Public Const DecorateSqlWithCallstack As String = "DecorateSqlWithCallstack"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Configuration.VersionPropertyNames.AppiAllSqlCalls
+  commentId: F:SuperOffice.Configuration.VersionPropertyNames.AppiAllSqlCalls
+  id: AppiAllSqlCalls
+  parent: SuperOffice.Configuration.VersionPropertyNames
+  langs:
+  - csharp
+  - vb
+  name: AppiAllSqlCalls
+  nameWithType: VersionPropertyNames.AppiAllSqlCalls
+  fullName: SuperOffice.Configuration.VersionPropertyNames.AppiAllSqlCalls
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAll SQL calls will be logged to Application Insights as an SQL Dependence telemetry item. Enable this to override any other filtering criterias. CAUTION! This will produce a lot of SQL Dependency telemetry items.\n"
+  syntax:
+    content: public const string AppiAllSqlCalls = "AppiAllSqlCalls"
+    return:
+      type: System.String
+    content.vb: Public Const AppiAllSqlCalls As String = "AppiAllSqlCalls"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Configuration.VersionPropertyNames.AppiSqlQueryText
+  commentId: F:SuperOffice.Configuration.VersionPropertyNames.AppiSqlQueryText
+  id: AppiSqlQueryText
+  parent: SuperOffice.Configuration.VersionPropertyNames
+  langs:
+  - csharp
+  - vb
+  name: AppiSqlQueryText
+  nameWithType: VersionPropertyNames.AppiSqlQueryText
+  fullName: SuperOffice.Configuration.VersionPropertyNames.AppiSqlQueryText
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: "\nSQL calls being logged to Application Insights will have the SQL Query text (parameterized, no parameter values) set on the Command Text property of the SQL Dependency telemetry item. CAUTION! This will add a lot of bytes to each SQL Dependency telemetry item.\n"
+  syntax:
+    content: public const string AppiSqlQueryText = "AppiSqlQueryText"
+    return:
+      type: System.String
+    content.vb: Public Const AppiSqlQueryText As String = "AppiSqlQueryText"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

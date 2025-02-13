@@ -27,29 +27,27 @@ items:
   nameWithType: Constants.ColumnAlgorithms
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
   type: Class
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Integer values (negative ones!) used instead of EFieldId to indicate
-
-    that an archive column has a complex ancestry, instead of just being 
-
-    mapped directly to a field.
-  example: []
+  summary: "\nInteger values (negative ones!) used instead of EFieldId to indicate\nthat an archive column has a complex ancestry, instead of just being \nmapped directly to a field.\n"
   syntax:
-    content: public static class Constants.ColumnAlgorithms
-    content.vb: Public Module Constants.ColumnAlgorithms
+    content: 'public static class ColumnAlgorithms : Object'
+    content.vb: >-
+      Public Module ColumnAlgorithms
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
 - uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.PersonFullName
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.PersonFullName
   id: PersonFullName
@@ -61,19 +59,24 @@ items:
   nameWithType: Constants.ColumnAlgorithms.PersonFullName
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.PersonFullName
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Full name of person, composed of first, optionally middle, last; formatted according
-
-    to the full preference set
-  example: []
+  summary: "\nFull name of person, composed of first, optionally middle, last; formatted according\nto the full preference set\n"
   syntax:
     content: public const int PersonFullName = -1
     return:
       type: System.Int32
     content.vb: Public Const PersonFullName As Integer = -1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.ContactNameDepartment
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.ContactNameDepartment
   id: ContactNameDepartment
@@ -85,16 +88,24 @@ items:
   nameWithType: Constants.ColumnAlgorithms.ContactNameDepartment
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.ContactNameDepartment
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Name + optional comma + Department of contact
-  example: []
+  summary: "\nName + optional comma + Department of contact\n"
   syntax:
     content: public const int ContactNameDepartment = -2
     return:
       type: System.Int32
     content.vb: Public Const ContactNameDepartment As Integer = -2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.BirthDate
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.BirthDate
   id: BirthDate
@@ -106,16 +117,24 @@ items:
   nameWithType: Constants.ColumnAlgorithms.BirthDate
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.BirthDate
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Birth date, composed of the day, month and year fields on person
-  example: []
+  summary: "\nBirth date, composed of the day, month and year fields on person\n"
   syntax:
     content: public const int BirthDate = -3
     return:
       type: System.Int32
     content.vb: Public Const BirthDate As Integer = -3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.PersonFullNameWithContact
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.PersonFullNameWithContact
   id: PersonFullNameWithContact
@@ -127,19 +146,24 @@ items:
   nameWithType: Constants.ColumnAlgorithms.PersonFullNameWithContact
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.PersonFullNameWithContact
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Full name of person, composed of first, optionally middle, last; formatted according
-
-    to the full preference set
-  example: []
+  summary: "\nFull name of person, composed of first, optionally middle, last; formatted according\nto the full preference set\n"
   syntax:
     content: public const int PersonFullNameWithContact = -4
     return:
       type: System.Int32
     content.vb: Public Const PersonFullNameWithContact As Integer = -4
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.Address
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.Address
   id: Address
@@ -151,16 +175,24 @@ items:
   nameWithType: Constants.ColumnAlgorithms.Address
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.Address
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Formatted address - single line, parent will tell us whether it's person or contact; primary key is from table address
-  example: []
+  summary: "\nFormatted address - single line, parent will tell us whether it&apos;s person or contact; primary key is from table address\n"
   syntax:
     content: public const int Address = -5
     return:
       type: System.Int32
     content.vb: Public Const Address As Integer = -5
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.MultiLineAddress
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.MultiLineAddress
   id: MultiLineAddress
@@ -172,16 +204,24 @@ items:
   nameWithType: Constants.ColumnAlgorithms.MultiLineAddress
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.MultiLineAddress
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Formatted address - single line, parent will tell us whether it's person or contact; primary key is from table address
-  example: []
+  summary: "\nFormatted address - single line, parent will tell us whether it&apos;s person or contact; primary key is from table address\n"
   syntax:
     content: public const int MultiLineAddress = -6
     return:
       type: System.Int32
     content.vb: Public Const MultiLineAddress As Integer = -6
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.DynamicLicenseColumn
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.DynamicLicenseColumn
   id: DynamicLicenseColumn
@@ -193,16 +233,24 @@ items:
   nameWithType: Constants.ColumnAlgorithms.DynamicLicenseColumn
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.DynamicLicenseColumn
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: License column, very dynamic (actually a pivoting of a multi-aliased join...); anyway, just get the row from the provider again
-  example: []
+  summary: "\nLicense column, very dynamic (actually a pivoting of a multi-aliased join...); anyway, just get the row from the provider again\n"
   syntax:
     content: public const int DynamicLicenseColumn = -7
     return:
       type: System.Int32
     content.vb: Public Const DynamicLicenseColumn As Integer = -7
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.SaleType
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.SaleType
   id: SaleType
@@ -214,16 +262,24 @@ items:
   nameWithType: Constants.ColumnAlgorithms.SaleType
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.SaleType
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Mix of sale probability %, probability_idx and status
-  example: []
+  summary: "\nMix of sale probability %, probability_idx and status\n"
   syntax:
     content: public const int SaleType = -8
     return:
       type: System.Int32
     content.vb: Public Const SaleType As Integer = -8
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.SaleStage
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.SaleStage
   id: SaleStage
@@ -235,16 +291,24 @@ items:
   nameWithType: Constants.ColumnAlgorithms.SaleStage
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.SaleStage
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Mix of sale stage id and status
-  example: []
+  summary: "\nMix of sale stage id and status\n"
   syntax:
     content: public const int SaleStage = -9
     return:
       type: System.Int32
     content.vb: Public Const SaleStage As Integer = -9
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.ProbPercent
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.ProbPercent
   id: ProbPercent
@@ -256,16 +320,24 @@ items:
   nameWithType: Constants.ColumnAlgorithms.ProbPercent
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.ProbPercent
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Mix of sale stage id and status
-  example: []
+  summary: "\nMix of sale stage id and status\n"
   syntax:
     content: public const int ProbPercent = -10
     return:
       type: System.Int32
     content.vb: Public Const ProbPercent As Integer = -10
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.AmountInBaseCurrency
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.AmountInBaseCurrency
   id: AmountInBaseCurrency
@@ -277,16 +349,24 @@ items:
   nameWithType: Constants.ColumnAlgorithms.AmountInBaseCurrency
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.AmountInBaseCurrency
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Sale amount represented in base currency
-  example: []
+  summary: "\nSale amount represented in base currency\n"
   syntax:
     content: public const int AmountInBaseCurrency = -11
     return:
       type: System.Int32
     content.vb: Public Const AmountInBaseCurrency As Integer = -11
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.AmountInOwnCurrency
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.AmountInOwnCurrency
   id: AmountInOwnCurrency
@@ -298,16 +378,24 @@ items:
   nameWithType: Constants.ColumnAlgorithms.AmountInOwnCurrency
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.AmountInOwnCurrency
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Sale amount represented in owne currency
-  example: []
+  summary: "\nSale amount represented in owne currency\n"
   syntax:
     content: public const int AmountInOwnCurrency = -12
     return:
       type: System.Int32
     content.vb: Public Const AmountInOwnCurrency As Integer = -12
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmount
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmount
   id: WeightedAmount
@@ -319,16 +407,24 @@ items:
   nameWithType: Constants.ColumnAlgorithms.WeightedAmount
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmount
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Sale amount weighted by probability
-  example: []
+  summary: "\nSale amount weighted by probability\n"
   syntax:
     content: public const int WeightedAmount = -13
     return:
       type: System.Int32
     content.vb: Public Const WeightedAmount As Integer = -13
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmountInBaseCurrency
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmountInBaseCurrency
   id: WeightedAmountInBaseCurrency
@@ -340,16 +436,24 @@ items:
   nameWithType: Constants.ColumnAlgorithms.WeightedAmountInBaseCurrency
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmountInBaseCurrency
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Sale amount in base currency, weighted by probability
-  example: []
+  summary: "\nSale amount in base currency, weighted by probability\n"
   syntax:
     content: public const int WeightedAmountInBaseCurrency = -14
     return:
       type: System.Int32
     content.vb: Public Const WeightedAmountInBaseCurrency As Integer = -14
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmountInOwnCurrency
   commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmountInOwnCurrency
   id: WeightedAmountInOwnCurrency
@@ -361,288 +465,41 @@ items:
   nameWithType: Constants.ColumnAlgorithms.WeightedAmountInOwnCurrency
   fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmountInOwnCurrency
   type: Field
+  source:
+    path: SoCore
+    isExternal: true
   assemblies:
   - SoCore
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Sale amount in own currency, weighted by probability
-  example: []
+  summary: "\nSale amount in own currency, weighted by probability\n"
   syntax:
     content: public const int WeightedAmountInOwnCurrency = -15
     return:
       type: System.Int32
     content.vb: Public Const WeightedAmountInOwnCurrency As Integer = -15
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
@@ -650,10 +507,6 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

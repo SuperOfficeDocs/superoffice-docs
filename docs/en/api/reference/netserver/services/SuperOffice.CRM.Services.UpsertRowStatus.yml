@@ -18,27 +18,18 @@ items:
   nameWithType: UpsertRowStatus
   fullName: SuperOffice.CRM.Services.UpsertRowStatus
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Information about a row of the results of a mass-update operation
-
-    <p></p>
-
-    Carrier object for UpsertRowStatus.
-
-    Services for the UpsertRowStatus Carrier is available from the <xref href="SuperOffice.CRM.Services.IDatabaseTableAgent?text=DatabaseTable+Agent" data-throw-if-not-resolved="false"></xref>.
-  example: []
+  summary: "\nInformation about a row of the results of a mass-update operation\n<p></p>\nCarrier object for UpsertRowStatus.\nServices for the UpsertRowStatus Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IDatabaseTableAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class UpsertRowStatus : Carrier
+    content: 'public class UpsertRowStatus : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class UpsertRowStatus Inherits Carrier
+      Public Class UpsertRowStatus
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.DatabaseTableAgent
     commentId: T:SuperOffice.CRM.Services.DatabaseTableAgent
@@ -46,14 +37,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IDatabaseTableAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.UpsertRowStatus.#ctor
   commentId: M:SuperOffice.CRM.Services.UpsertRowStatus.#ctor
   id: '#ctor'
@@ -65,18 +54,21 @@ items:
   nameWithType: UpsertRowStatus.UpsertRowStatus()
   fullName: SuperOffice.CRM.Services.UpsertRowStatus.UpsertRowStatus()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public UpsertRowStatus()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.UpsertRowStatus.#ctor*
-  nameWithType.vb: UpsertRowStatus.New()
-  fullName.vb: SuperOffice.CRM.Services.UpsertRowStatus.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.UpsertRowStatus.ToString
   commentId: M:SuperOffice.CRM.Services.UpsertRowStatus.ToString
   id: ToString
@@ -88,18 +80,26 @@ items:
   nameWithType: UpsertRowStatus.ToString()
   fullName: SuperOffice.CRM.Services.UpsertRowStatus.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.UpsertRowStatus.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.UpsertRowStatus.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.UpsertRowStatus.ToString(System.String)
   id: ToString(System.String)
@@ -107,18 +107,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: UpsertRowStatus.ToString(string)
-  fullName: SuperOffice.CRM.Services.UpsertRowStatus.ToString(string)
+  name: ToString(String)
+  nameWithType: UpsertRowStatus.ToString(String)
+  fullName: SuperOffice.CRM.Services.UpsertRowStatus.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -130,9 +129,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.UpsertRowStatus.ToString*
-  nameWithType.vb: UpsertRowStatus.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.UpsertRowStatus.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.UpsertRowStatus.PrimaryKey
   commentId: P:SuperOffice.CRM.Services.UpsertRowStatus.PrimaryKey
   id: PrimaryKey
@@ -144,28 +144,28 @@ items:
   nameWithType: UpsertRowStatus.PrimaryKey
   fullName: SuperOffice.CRM.Services.UpsertRowStatus.PrimaryKey
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The primary key of the target table, that matches the keys specified in the data row
-  example: []
+  summary: "\nThe primary key of the target table, that matches the keys specified in the data row \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int PrimaryKey { get; set; }
+    content: public virtual int PrimaryKey { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PrimaryKey As Integer
+    content.vb: Public Overridable Property PrimaryKey As Integer
   overload: SuperOffice.CRM.Services.UpsertRowStatus.PrimaryKey*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.UpsertRowStatus.Action
   commentId: P:SuperOffice.CRM.Services.UpsertRowStatus.Action
   id: Action
@@ -177,28 +177,28 @@ items:
   nameWithType: UpsertRowStatus.Action
   fullName: SuperOffice.CRM.Services.UpsertRowStatus.Action
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Actiona taken for row
-  example: []
+  summary: "\nActiona taken for row \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual UpsertRowActionStatus Action { get; set; }
+    content: public virtual UpsertRowActionStatus Action { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.UpsertRowActionStatus
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Action As UpsertRowActionStatus
+    content.vb: Public Overridable Property Action As UpsertRowActionStatus
   overload: SuperOffice.CRM.Services.UpsertRowStatus.Action*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.UpsertRowStatus.RowKeys
   commentId: P:SuperOffice.CRM.Services.UpsertRowStatus.RowKeys
   id: RowKeys
@@ -210,33 +210,38 @@ items:
   nameWithType: UpsertRowStatus.RowKeys
   fullName: SuperOffice.CRM.Services.UpsertRowStatus.RowKeys
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: The key values given in the incoming 'data' parameter to the Upsert call, in the order they were speicifed in the 'keys' array
-  example: []
+  summary: "\nThe key values given in the incoming &apos;data&apos; parameter to the Upsert call, in the order they were speicifed in the &apos;keys&apos; array \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string[] RowKeys { get; set; }
+    content: public virtual string[] RowKeys { get; set; }
     parameters: []
     return:
       type: System.String[]
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property RowKeys As String()
+    content.vb: Public Overridable Property RowKeys As String()
   overload: SuperOffice.CRM.Services.UpsertRowStatus.RowKeys*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.DatabaseTableAgent
   commentId: T:SuperOffice.CRM.Services.DatabaseTableAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.DatabaseTableAgent.html
   name: DatabaseTableAgent
   nameWithType: DatabaseTableAgent
   fullName: SuperOffice.CRM.Services.DatabaseTableAgent
@@ -244,79 +249,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IDatabaseTableAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IDatabaseTableAgent.html
   name: IDatabaseTableAgent
   nameWithType: IDatabaseTableAgent
   fullName: SuperOffice.CRM.Services.IDatabaseTableAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.UpsertRowStatus.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.UpsertRowStatus.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.UpsertRowStatus.html#SuperOffice_CRM_Services_UpsertRowStatus__ctor
   name: UpsertRowStatus
   nameWithType: UpsertRowStatus.UpsertRowStatus
   fullName: SuperOffice.CRM.Services.UpsertRowStatus.UpsertRowStatus
-  nameWithType.vb: UpsertRowStatus.New
-  fullName.vb: SuperOffice.CRM.Services.UpsertRowStatus.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.UpsertRowStatus.ToString*
   commentId: Overload:SuperOffice.CRM.Services.UpsertRowStatus.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.UpsertRowStatus.html#SuperOffice_CRM_Services_UpsertRowStatus_ToString
   name: ToString
   nameWithType: UpsertRowStatus.ToString
   fullName: SuperOffice.CRM.Services.UpsertRowStatus.ToString
@@ -324,17 +268,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.UpsertRowStatus.PrimaryKey*
   commentId: Overload:SuperOffice.CRM.Services.UpsertRowStatus.PrimaryKey
   isExternal: true
-  href: SuperOffice.CRM.Services.UpsertRowStatus.html#SuperOffice_CRM_Services_UpsertRowStatus_PrimaryKey
   name: PrimaryKey
   nameWithType: UpsertRowStatus.PrimaryKey
   fullName: SuperOffice.CRM.Services.UpsertRowStatus.PrimaryKey
@@ -342,17 +287,12 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.UpsertRowStatus.Action*
   commentId: Overload:SuperOffice.CRM.Services.UpsertRowStatus.Action
   isExternal: true
-  href: SuperOffice.CRM.Services.UpsertRowStatus.html#SuperOffice_CRM_Services_UpsertRowStatus_Action
   name: Action
   nameWithType: UpsertRowStatus.Action
   fullName: SuperOffice.CRM.Services.UpsertRowStatus.Action
@@ -365,30 +305,32 @@ references:
 - uid: SuperOffice.CRM.Services.UpsertRowStatus.RowKeys*
   commentId: Overload:SuperOffice.CRM.Services.UpsertRowStatus.RowKeys
   isExternal: true
-  href: SuperOffice.CRM.Services.UpsertRowStatus.html#SuperOffice_CRM_Services_UpsertRowStatus_RowKeys
   name: RowKeys
   nameWithType: UpsertRowStatus.RowKeys
   fullName: SuperOffice.CRM.Services.UpsertRowStatus.RowKeys
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()

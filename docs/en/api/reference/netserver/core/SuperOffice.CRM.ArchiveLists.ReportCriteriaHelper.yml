@@ -29,41 +29,42 @@ items:
   nameWithType: ReportCriteriaHelper
   fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: A helper class for reports, favorite reports, temporary favorite reports and criteria.
-  example: []
+  summary: "\nA helper class for reports, favorite reports, temporary favorite reports and criteria.\n"
   syntax:
     content: >-
       [SoInject("Database")]
 
-      public class ReportCriteriaHelper
+      public class ReportCriteriaHelper : Object
     content.vb: >-
       <SoInject("Database")>
 
       Public Class ReportCriteriaHelper
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
   - SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
   - type: SuperOffice.Factory.SoInjectAttribute
     ctor: SuperOffice.Factory.SoInjectAttribute.#ctor(System.String)
     arguments:
     - type: System.String
       value: Database
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.SaintStatusDelimiter
   commentId: F:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.SaintStatusDelimiter
   id: SaintStatusDelimiter
@@ -75,6 +76,9 @@ items:
   nameWithType: ReportCriteriaHelper.SaintStatusDelimiter
   fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.SaintStatusDelimiter
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -83,6 +87,12 @@ items:
     return:
       type: System.Char
     content.vb: Public Const SaintStatusDelimiter As Char = "_"c
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.#ctor
   id: '#ctor'
@@ -94,21 +104,21 @@ items:
   nameWithType: ReportCriteriaHelper.ReportCriteriaHelper()
   fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.ReportCriteriaHelper()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Creates rows for foreignapp and foreign device if they are not present. 
-
-    This constructor also sets up the table info objects for the tables involved
-  example: []
+  summary: "\nCreates rows for foreignapp and foreign device if they are not present. \nThis constructor also sets up the table info objects for the tables involved\n"
   syntax:
     content: public ReportCriteriaHelper()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.#ctor*
-  nameWithType.vb: ReportCriteriaHelper.New()
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetReporterSaintKeyName(System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetReporterSaintKeyName(System.String)
   id: GetReporterSaintKeyName(System.String)
@@ -116,10 +126,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetReporterSaintKeyName(string)
-  nameWithType: ReportCriteriaHelper.GetReporterSaintKeyName(string)
-  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetReporterSaintKeyName(string)
+  name: GetReporterSaintKeyName(String)
+  nameWithType: ReportCriteriaHelper.GetReporterSaintKeyName(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetReporterSaintKeyName(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -132,9 +145,10 @@ items:
       type: System.String
     content.vb: Public Function GetReporterSaintKeyName(name As String) As String
   overload: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetReporterSaintKeyName*
-  nameWithType.vb: ReportCriteriaHelper.GetReporterSaintKeyName(String)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetReporterSaintKeyName(String)
-  name.vb: GetReporterSaintKeyName(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetRealSaintKeyName(System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetRealSaintKeyName(System.String)
   id: GetRealSaintKeyName(System.String)
@@ -142,10 +156,13 @@ items:
   langs:
   - csharp
   - vb
-  name: GetRealSaintKeyName(string)
-  nameWithType: ReportCriteriaHelper.GetRealSaintKeyName(string)
-  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetRealSaintKeyName(string)
+  name: GetRealSaintKeyName(String)
+  nameWithType: ReportCriteriaHelper.GetRealSaintKeyName(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetRealSaintKeyName(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -158,9 +175,10 @@ items:
       type: System.String
     content.vb: Public Function GetRealSaintKeyName(reporterName As String) As String
   overload: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetRealSaintKeyName*
-  nameWithType.vb: ReportCriteriaHelper.GetRealSaintKeyName(String)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetRealSaintKeyName(String)
-  name.vb: GetRealSaintKeyName(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsTemporaryFavorite(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsTemporaryFavorite(System.Int32)
   id: IsTemporaryFavorite(System.Int32)
@@ -168,15 +186,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IsTemporaryFavorite(int)
-  nameWithType: ReportCriteriaHelper.IsTemporaryFavorite(int)
-  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsTemporaryFavorite(int)
+  name: IsTemporaryFavorite(Int32)
+  nameWithType: ReportCriteriaHelper.IsTemporaryFavorite(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsTemporaryFavorite(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Determines if a report is a temporary favorite or not
-  example: []
+  summary: "\nDetermines if a report is a temporary favorite or not\n"
   syntax:
     content: public bool IsTemporaryFavorite(int reportId)
     parameters:
@@ -185,12 +205,12 @@ items:
       description: The report id for the report in question
     return:
       type: System.Boolean
-      description: ''
     content.vb: Public Function IsTemporaryFavorite(reportId As Integer) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsTemporaryFavorite*
-  nameWithType.vb: ReportCriteriaHelper.IsTemporaryFavorite(Integer)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsTemporaryFavorite(Integer)
-  name.vb: IsTemporaryFavorite(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateTemporarySelectionReport(System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   commentId: M:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateTemporarySelectionReport(System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   id: CreateTemporarySelectionReport(System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
@@ -198,10 +218,13 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateTemporarySelectionReport(int, ArchiveRestrictionInfo[])
-  nameWithType: ReportCriteriaHelper.CreateTemporarySelectionReport(int, ArchiveRestrictionInfo[])
-  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateTemporarySelectionReport(int, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  name: CreateTemporarySelectionReport(Int32, ArchiveRestrictionInfo[])
+  nameWithType: ReportCriteriaHelper.CreateTemporarySelectionReport(Int32, ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateTemporarySelectionReport(System.Int32, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -216,9 +239,13 @@ items:
       type: SuperOffice.CRM.Rows.SORPublishRow
     content.vb: Public Function CreateTemporarySelectionReport(originalId As Integer, additionalRestrictions As ArchiveRestrictionInfo()) As SORPublishRow
   overload: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateTemporarySelectionReport*
-  nameWithType.vb: ReportCriteriaHelper.CreateTemporarySelectionReport(Integer, ArchiveRestrictionInfo())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateTemporarySelectionReport(Integer, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
-  name.vb: CreateTemporarySelectionReport(Integer, ArchiveRestrictionInfo())
+  nameWithType.vb: ReportCriteriaHelper.CreateTemporarySelectionReport(Int32, ArchiveRestrictionInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateTemporarySelectionReport(System.Int32, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: CreateTemporarySelectionReport(Int32, ArchiveRestrictionInfo())
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.DeleteTemporarySelectionReport(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.DeleteTemporarySelectionReport(System.Int32)
   id: DeleteTemporarySelectionReport(System.Int32)
@@ -226,15 +253,17 @@ items:
   langs:
   - csharp
   - vb
-  name: DeleteTemporarySelectionReport(int)
-  nameWithType: ReportCriteriaHelper.DeleteTemporarySelectionReport(int)
-  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.DeleteTemporarySelectionReport(int)
+  name: DeleteTemporarySelectionReport(Int32)
+  nameWithType: ReportCriteriaHelper.DeleteTemporarySelectionReport(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.DeleteTemporarySelectionReport(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Remove the temporary report from sorpublish, sortemplate and criteria. Remember to clean up after we are done using it.
-  example: []
+  summary: "\nRemove the temporary report from sorpublish, sortemplate and criteria. Remember to clean up after we are done using it.\n"
   syntax:
     content: public void DeleteTemporarySelectionReport(int tempPublishId)
     parameters:
@@ -243,9 +272,10 @@ items:
       description: The report returned by <xref href="SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateTemporarySelectionReport(System.Int32%2cSuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo%5b%5d)" data-throw-if-not-resolved="false"></xref>
     content.vb: Public Sub DeleteTemporarySelectionReport(tempPublishId As Integer)
   overload: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.DeleteTemporarySelectionReport*
-  nameWithType.vb: ReportCriteriaHelper.DeleteTemporarySelectionReport(Integer)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.DeleteTemporarySelectionReport(Integer)
-  name.vb: DeleteTemporarySelectionReport(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateFavorite(System.Int32,System.String,System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateFavorite(System.Int32,System.String,System.String)
   id: CreateFavorite(System.Int32,System.String,System.String)
@@ -253,18 +283,17 @@ items:
   langs:
   - csharp
   - vb
-  name: CreateFavorite(int, string, string)
-  nameWithType: ReportCriteriaHelper.CreateFavorite(int, string, string)
-  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateFavorite(int, string, string)
+  name: CreateFavorite(Int32, String, String)
+  nameWithType: ReportCriteriaHelper.CreateFavorite(Int32, String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateFavorite(System.Int32, System.String, System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Creates a favorite report from a an existing report. You are able to change the name and description
-
-    of the report.
-  example: []
+  summary: "\nCreates a favorite report from a an existing report. You are able to change the name and description\nof the report.\n"
   syntax:
     content: public SORPublishRow CreateFavorite(int reportId, string name, string description)
     parameters:
@@ -279,12 +308,13 @@ items:
       description: The new description for the favorite report. If the string is null or empty, the original description is used.
     return:
       type: SuperOffice.CRM.Rows.SORPublishRow
-      description: A <xref href="SuperOffice.CRM.Rows.SORPublishRow" data-throw-if-not-resolved="false"></xref> object that is the new favorite report
+      description: 'A <xref href="SuperOffice.CRM.Rows.SORPublishRow" data-throw-if-not-resolved="false"></xref> object that is the new favorite report '
     content.vb: Public Function CreateFavorite(reportId As Integer, name As String, description As String) As SORPublishRow
   overload: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateFavorite*
-  nameWithType.vb: ReportCriteriaHelper.CreateFavorite(Integer, String, String)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateFavorite(Integer, String, String)
-  name.vb: CreateFavorite(Integer, String, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetId(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetId(System.Int32)
   id: GetId(System.Int32)
@@ -292,15 +322,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetId(int)
-  nameWithType: ReportCriteriaHelper.GetId(int)
-  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetId(int)
+  name: GetId(Int32)
+  nameWithType: ReportCriteriaHelper.GetId(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetId(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: This get method will try to find a temporary favorite report and return it's id
-  example: []
+  summary: "\nThis get method will try to find a temporary favorite report and return it&apos;s id\n"
   syntax:
     content: public int GetId(int originalId)
     parameters:
@@ -312,9 +344,10 @@ items:
       description: If found, the temporary report id is returned. If not, the original report id is returned
     content.vb: Public Function GetId(originalId As Integer) As Integer
   overload: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetId*
-  nameWithType.vb: ReportCriteriaHelper.GetId(Integer)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetId(Integer)
-  name.vb: GetId(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetEditableId(System.Int32)
   commentId: M:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetEditableId(System.Int32)
   id: GetEditableId(System.Int32)
@@ -322,15 +355,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetEditableId(int)
-  nameWithType: ReportCriteriaHelper.GetEditableId(int)
-  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetEditableId(int)
+  name: GetEditableId(Int32)
+  nameWithType: ReportCriteriaHelper.GetEditableId(Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetEditableId(System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Gets the id of a temporary favorite report if one exists. If one does not exist, a new temporary favorite is created
-  example: []
+  summary: "\nGets the id of a temporary favorite report if one exists. If one does not exist, a new temporary favorite is created\n"
   syntax:
     content: public int GetEditableId(int originalId)
     parameters:
@@ -342,9 +377,10 @@ items:
       description: The id of the new or existant temporary favorite
     content.vb: Public Function GetEditableId(originalId As Integer) As Integer
   overload: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetEditableId*
-  nameWithType.vb: ReportCriteriaHelper.GetEditableId(Integer)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetEditableId(Integer)
-  name.vb: GetEditableId(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetAvailableCriteria(System.Int32,System.Boolean)
   commentId: M:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetAvailableCriteria(System.Int32,System.Boolean)
   id: GetAvailableCriteria(System.Int32,System.Boolean)
@@ -352,15 +388,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetAvailableCriteria(int, bool)
-  nameWithType: ReportCriteriaHelper.GetAvailableCriteria(int, bool)
-  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetAvailableCriteria(int, bool)
+  name: GetAvailableCriteria(Int32, Boolean)
+  nameWithType: ReportCriteriaHelper.GetAvailableCriteria(Int32, Boolean)
+  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetAvailableCriteria(System.Int32, System.Boolean)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Gets the criteria for a given report id
-  example: []
+  summary: "\nGets the criteria for a given report id\n"
   syntax:
     content: public List<CriteriaInfo> GetAvailableCriteria(int reportId, bool GetInUseOnly)
     parameters:
@@ -374,9 +412,10 @@ items:
       description: A list of criteria
     content.vb: Public Function GetAvailableCriteria(reportId As Integer, GetInUseOnly As Boolean) As List(Of CriteriaInfo)
   overload: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetAvailableCriteria*
-  nameWithType.vb: ReportCriteriaHelper.GetAvailableCriteria(Integer, Boolean)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetAvailableCriteria(Integer, Boolean)
-  name.vb: GetAvailableCriteria(Integer, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintStatus(System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintStatus(System.String)
   id: IsSaintStatus(System.String)
@@ -384,10 +423,13 @@ items:
   langs:
   - csharp
   - vb
-  name: IsSaintStatus(string)
-  nameWithType: ReportCriteriaHelper.IsSaintStatus(string)
-  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintStatus(string)
+  name: IsSaintStatus(String)
+  nameWithType: ReportCriteriaHelper.IsSaintStatus(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintStatus(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -400,9 +442,10 @@ items:
       type: System.Boolean
     content.vb: Public Function IsSaintStatus(fieldName As String) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintStatus*
-  nameWithType.vb: ReportCriteriaHelper.IsSaintStatus(String)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintStatus(String)
-  name.vb: IsSaintStatus(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintStatus(System.String,SuperOffice.Data.SaintTarget@)
   commentId: M:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintStatus(System.String,SuperOffice.Data.SaintTarget@)
   id: IsSaintStatus(System.String,SuperOffice.Data.SaintTarget@)
@@ -410,32 +453,35 @@ items:
   langs:
   - csharp
   - vb
-  name: IsSaintStatus(string, out SaintTarget)
-  nameWithType: ReportCriteriaHelper.IsSaintStatus(string, out SaintTarget)
-  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintStatus(string, out SuperOffice.Data.SaintTarget)
+  name: IsSaintStatus(String, out SaintTarget)
+  nameWithType: ReportCriteriaHelper.IsSaintStatus(String, out SaintTarget)
+  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintStatus(System.String, out SuperOffice.Data.SaintTarget)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: This method checks to see if a field is actually a saint status monitor. It also
-  example: []
+  summary: "\nThis method checks to see if a field is actually a saint status monitor. It also \n"
   syntax:
     content: public bool IsSaintStatus(string fieldName, out SaintTarget target)
     parameters:
     - id: fieldName
       type: System.String
-      description: ''
     - id: target
       type: SuperOffice.Data.SaintTarget
-      description: ''
     return:
       type: System.Boolean
-      description: ''
-    content.vb: Public Function IsSaintStatus(fieldName As String, target As SaintTarget) As Boolean
+    content.vb: Public Function IsSaintStatus(fieldName As String, ByRef target As SaintTarget) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintStatus*
-  nameWithType.vb: ReportCriteriaHelper.IsSaintStatus(String, SaintTarget)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintStatus(String, SuperOffice.Data.SaintTarget)
-  name.vb: IsSaintStatus(String, SaintTarget)
+  nameWithType.vb: ReportCriteriaHelper.IsSaintStatus(String, ByRef SaintTarget)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintStatus(System.String, ByRef SuperOffice.Data.SaintTarget)
+  name.vb: IsSaintStatus(String, ByRef SaintTarget)
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsUdefField(System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsUdefField(System.String)
   id: IsUdefField(System.String)
@@ -443,10 +489,13 @@ items:
   langs:
   - csharp
   - vb
-  name: IsUdefField(string)
-  nameWithType: ReportCriteriaHelper.IsUdefField(string)
-  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsUdefField(string)
+  name: IsUdefField(String)
+  nameWithType: ReportCriteriaHelper.IsUdefField(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsUdefField(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -459,9 +508,10 @@ items:
       type: System.Boolean
     content.vb: Public Function IsUdefField(name As String) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsUdefField*
-  nameWithType.vb: ReportCriteriaHelper.IsUdefField(String)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsUdefField(String)
-  name.vb: IsUdefField(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsUdefField(System.String,System.Int32@)
   commentId: M:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsUdefField(System.String,System.Int32@)
   id: IsUdefField(System.String,System.Int32@)
@@ -469,15 +519,17 @@ items:
   langs:
   - csharp
   - vb
-  name: IsUdefField(string, out int)
-  nameWithType: ReportCriteriaHelper.IsUdefField(string, out int)
-  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsUdefField(string, out int)
+  name: IsUdefField(String, out Int32)
+  nameWithType: ReportCriteriaHelper.IsUdefField(String, out Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsUdefField(System.String, out System.Int32)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: Determine if a report field is a user-defined field; and if so, its definition ID
-  example: []
+  summary: "\nDetermine if a report field is a user-defined field; and if so, its definition ID\n"
   syntax:
     content: public bool IsUdefField(string name, out int id)
     parameters:
@@ -490,11 +542,15 @@ items:
     return:
       type: System.Boolean
       description: true if this is a user-defined field
-    content.vb: Public Function IsUdefField(name As String, id As Integer) As Boolean
+    content.vb: Public Function IsUdefField(name As String, ByRef id As Integer) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsUdefField*
-  nameWithType.vb: ReportCriteriaHelper.IsUdefField(String, Integer)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsUdefField(String, Integer)
-  name.vb: IsUdefField(String, Integer)
+  nameWithType.vb: ReportCriteriaHelper.IsUdefField(String, ByRef Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsUdefField(System.String, ByRef System.Int32)
+  name.vb: IsUdefField(String, ByRef Int32)
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintCounter(System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintCounter(System.String)
   id: IsSaintCounter(System.String)
@@ -502,10 +558,13 @@ items:
   langs:
   - csharp
   - vb
-  name: IsSaintCounter(string)
-  nameWithType: ReportCriteriaHelper.IsSaintCounter(string)
-  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintCounter(string)
+  name: IsSaintCounter(String)
+  nameWithType: ReportCriteriaHelper.IsSaintCounter(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintCounter(System.String)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -518,9 +577,10 @@ items:
       type: System.Boolean
     content.vb: Public Function IsSaintCounter(name As String) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintCounter*
-  nameWithType.vb: ReportCriteriaHelper.IsSaintCounter(String)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintCounter(String)
-  name.vb: IsSaintCounter(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintCounter(System.String,SuperOffice.Data.SaintCounterType@)
   commentId: M:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintCounter(System.String,SuperOffice.Data.SaintCounterType@)
   id: IsSaintCounter(System.String,SuperOffice.Data.SaintCounterType@)
@@ -528,10 +588,13 @@ items:
   langs:
   - csharp
   - vb
-  name: IsSaintCounter(string, out SaintCounterType)
-  nameWithType: ReportCriteriaHelper.IsSaintCounter(string, out SaintCounterType)
-  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintCounter(string, out SuperOffice.Data.SaintCounterType)
+  name: IsSaintCounter(String, out SaintCounterType)
+  nameWithType: ReportCriteriaHelper.IsSaintCounter(String, out SaintCounterType)
+  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintCounter(System.String, out SuperOffice.Data.SaintCounterType)
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
@@ -544,502 +607,184 @@ items:
       type: SuperOffice.Data.SaintCounterType
     return:
       type: System.Boolean
-    content.vb: Public Function IsSaintCounter(name As String, type As SaintCounterType) As Boolean
+    content.vb: Public Function IsSaintCounter(name As String, ByRef type As SaintCounterType) As Boolean
   overload: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintCounter*
-  nameWithType.vb: ReportCriteriaHelper.IsSaintCounter(String, SaintCounterType)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintCounter(String, SuperOffice.Data.SaintCounterType)
-  name.vb: IsSaintCounter(String, SaintCounterType)
+  nameWithType.vb: ReportCriteriaHelper.IsSaintCounter(String, ByRef SaintCounterType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintCounter(System.String, ByRef SuperOffice.Data.SaintCounterType)
+  name.vb: IsSaintCounter(String, ByRef SaintCounterType)
 references:
 - uid: SuperOffice.CRM.ArchiveLists
   commentId: N:SuperOffice.CRM.ArchiveLists
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.ArchiveLists
   nameWithType: SuperOffice.CRM.ArchiveLists
   fullName: SuperOffice.CRM.ArchiveLists
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.ArchiveLists
-    name: ArchiveLists
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ReportCriteriaHelper, To>(ReportCriteriaHelper)
-  nameWithType: EnumUtil.MapEnums<ReportCriteriaHelper, To>(ReportCriteriaHelper)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper, To>(SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
-  nameWithType.vb: EnumUtil.MapEnums(Of ReportCriteriaHelper, To)(ReportCriteriaHelper)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper, To)(SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
-  name.vb: MapEnums(Of ReportCriteriaHelper, To)(ReportCriteriaHelper)
+  name: MapEnums<ReportCriteriaHelper, To>()
+  nameWithType: EnumUtil.MapEnums<ReportCriteriaHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ReportCriteriaHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper, To)()
+  name.vb: MapEnums(Of ReportCriteriaHelper, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ReportCriteriaHelper, To>
+    nameWithType: EnumUtil.MapEnums<ReportCriteriaHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
-    name: ReportCriteriaHelper
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
-    name: ReportCriteriaHelper
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ReportCriteriaHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of ReportCriteriaHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
-    name: ReportCriteriaHelper
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
-    name: ReportCriteriaHelper
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html
-  - name: )
-- uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ReportCriteriaHelper, To>(ReportCriteriaHelper)
-  nameWithType: Converters.MapEnums<ReportCriteriaHelper, To>(ReportCriteriaHelper)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper, To>(SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
-  nameWithType.vb: Converters.MapEnums(Of ReportCriteriaHelper, To)(ReportCriteriaHelper)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper, To)(SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
-  name.vb: MapEnums(Of ReportCriteriaHelper, To)(ReportCriteriaHelper)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
-    name: ReportCriteriaHelper
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
-    name: ReportCriteriaHelper
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
-    name: ReportCriteriaHelper
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
-    name: ReportCriteriaHelper
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ReportCriteriaHelper>(ReportCriteriaHelper, ReportCriteriaHelper)
-  nameWithType: ObjectExtensions.AssignByReflection<ReportCriteriaHelper>(ReportCriteriaHelper, ReportCriteriaHelper)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper>(SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper, SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ReportCriteriaHelper)(ReportCriteriaHelper, ReportCriteriaHelper)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)(SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper, SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
-  name.vb: AssignByReflection(Of ReportCriteriaHelper)(ReportCriteriaHelper, ReportCriteriaHelper)
+  name: AssignByReflection<ReportCriteriaHelper>(ReportCriteriaHelper)
+  nameWithType: ObjectExtensions.AssignByReflection<ReportCriteriaHelper>(ReportCriteriaHelper)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper>(SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ReportCriteriaHelper)(ReportCriteriaHelper)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)(SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
+  name.vb: AssignByReflection(Of ReportCriteriaHelper)(ReportCriteriaHelper)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper,SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ReportCriteriaHelper>
+    nameWithType: ObjectExtensions.AssignByReflection<ReportCriteriaHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
-    name: ReportCriteriaHelper
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
     name: ReportCriteriaHelper
+    nameWithType: ReportCriteriaHelper
+    fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
-    name: ReportCriteriaHelper
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper,SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ReportCriteriaHelper)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ReportCriteriaHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
     name: ReportCriteriaHelper
+    nameWithType: ReportCriteriaHelper
+    fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
-    name: ReportCriteriaHelper
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
-    name: ReportCriteriaHelper
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ReportCriteriaHelper>(ReportCriteriaHelper)
-  nameWithType: ObjectExtensions.GraphCopy<ReportCriteriaHelper>(ReportCriteriaHelper)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper>(SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ReportCriteriaHelper)(ReportCriteriaHelper)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)(SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
-  name.vb: GraphCopy(Of ReportCriteriaHelper)(ReportCriteriaHelper)
+  name: GraphCopy<ReportCriteriaHelper>()
+  nameWithType: ObjectExtensions.GraphCopy<ReportCriteriaHelper>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ReportCriteriaHelper)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)()
+  name.vb: GraphCopy(Of ReportCriteriaHelper)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ReportCriteriaHelper>
+    nameWithType: ObjectExtensions.GraphCopy<ReportCriteriaHelper>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
-    name: ReportCriteriaHelper
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
-    name: ReportCriteriaHelper
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ReportCriteriaHelper)
+    nameWithType: ObjectExtensions.GraphCopy(Of ReportCriteriaHelper)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
-    name: ReportCriteriaHelper
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ReportCriteriaHelper, To>()
+  nameWithType: Converters.MapEnums<ReportCriteriaHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of ReportCriteriaHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper, To)()
+  name.vb: MapEnums(Of ReportCriteriaHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ReportCriteriaHelper, To>
+    nameWithType: Converters.MapEnums<ReportCriteriaHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper
-    name: ReportCriteriaHelper
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ReportCriteriaHelper, To)
+    nameWithType: Converters.MapEnums(Of ReportCriteriaHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1048,93 +793,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1143,46 +838,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1191,117 +896,108 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.Char
   commentId: T:System.Char
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.char
-  name: char
-  nameWithType: char
-  fullName: char
-  nameWithType.vb: Char
-  fullName.vb: Char
-  name.vb: Char
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.#ctor*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.#ctor
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html#SuperOffice_CRM_ArchiveLists_ReportCriteriaHelper__ctor
   name: ReportCriteriaHelper
   nameWithType: ReportCriteriaHelper.ReportCriteriaHelper
   fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.ReportCriteriaHelper
-  nameWithType.vb: ReportCriteriaHelper.New
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.New
-  name.vb: New
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetReporterSaintKeyName*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetReporterSaintKeyName
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html#SuperOffice_CRM_ArchiveLists_ReportCriteriaHelper_GetReporterSaintKeyName_System_String_
   name: GetReporterSaintKeyName
   nameWithType: ReportCriteriaHelper.GetReporterSaintKeyName
   fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetReporterSaintKeyName
@@ -1309,24 +1005,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetRealSaintKeyName*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetRealSaintKeyName
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html#SuperOffice_CRM_ArchiveLists_ReportCriteriaHelper_GetRealSaintKeyName_System_String_
   name: GetRealSaintKeyName
   nameWithType: ReportCriteriaHelper.GetRealSaintKeyName
   fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetRealSaintKeyName
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsTemporaryFavorite*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsTemporaryFavorite
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html#SuperOffice_CRM_ArchiveLists_ReportCriteriaHelper_IsTemporaryFavorite_System_Int32_
   name: IsTemporaryFavorite
   nameWithType: ReportCriteriaHelper.IsTemporaryFavorite
   fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsTemporaryFavorite
@@ -1334,34 +1024,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateTemporarySelectionReport*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateTemporarySelectionReport
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html#SuperOffice_CRM_ArchiveLists_ReportCriteriaHelper_CreateTemporarySelectionReport_System_Int32_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
   name: CreateTemporarySelectionReport
   nameWithType: ReportCriteriaHelper.CreateTemporarySelectionReport
   fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateTemporarySelectionReport
 - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.html
   name: ArchiveRestrictionInfo[]
   nameWithType: ArchiveRestrictionInfo[]
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
@@ -1371,148 +1051,67 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Rows.SORPublishRow
   commentId: T:SuperOffice.CRM.Rows.SORPublishRow
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.SORPublishRow.html
   name: SORPublishRow
   nameWithType: SORPublishRow
   fullName: SuperOffice.CRM.Rows.SORPublishRow
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-- uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateTemporarySelectionReport(System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-  commentId: M:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateTemporarySelectionReport(System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html#SuperOffice_CRM_ArchiveLists_ReportCriteriaHelper_CreateTemporarySelectionReport_System_Int32_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
-  name: CreateTemporarySelectionReport(int, ArchiveRestrictionInfo[])
-  nameWithType: ReportCriteriaHelper.CreateTemporarySelectionReport(int, ArchiveRestrictionInfo[])
-  fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateTemporarySelectionReport(int, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-  nameWithType.vb: ReportCriteriaHelper.CreateTemporarySelectionReport(Integer, ArchiveRestrictionInfo())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateTemporarySelectionReport(Integer, SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
-  name.vb: CreateTemporarySelectionReport(Integer, ArchiveRestrictionInfo())
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateTemporarySelectionReport(System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-    name: CreateTemporarySelectionReport
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html#SuperOffice_CRM_ArchiveLists_ReportCriteriaHelper_CreateTemporarySelectionReport_System_Int32_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-    name: ArchiveRestrictionInfo
-    isExternal: true
-  - name: '['
-  - name: ']'
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateTemporarySelectionReport(System.Int32,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
-    name: CreateTemporarySelectionReport
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html#SuperOffice_CRM_ArchiveLists_ReportCriteriaHelper_CreateTemporarySelectionReport_System_Int32_SuperOffice_CRM_ArchiveLists_ArchiveRestrictionInfo___
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
-    name: ArchiveRestrictionInfo
-    isExternal: true
-  - name: (
-  - name: )
-  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.DeleteTemporarySelectionReport*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.DeleteTemporarySelectionReport
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html#SuperOffice_CRM_ArchiveLists_ReportCriteriaHelper_DeleteTemporarySelectionReport_System_Int32_
   name: DeleteTemporarySelectionReport
   nameWithType: ReportCriteriaHelper.DeleteTemporarySelectionReport
   fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.DeleteTemporarySelectionReport
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateFavorite*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateFavorite
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html#SuperOffice_CRM_ArchiveLists_ReportCriteriaHelper_CreateFavorite_System_Int32_System_String_System_String_
   name: CreateFavorite
   nameWithType: ReportCriteriaHelper.CreateFavorite
   fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.CreateFavorite
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetId*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetId
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html#SuperOffice_CRM_ArchiveLists_ReportCriteriaHelper_GetId_System_Int32_
   name: GetId
   nameWithType: ReportCriteriaHelper.GetId
   fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetId
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetEditableId*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetEditableId
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html#SuperOffice_CRM_ArchiveLists_ReportCriteriaHelper_GetEditableId_System_Int32_
   name: GetEditableId
   nameWithType: ReportCriteriaHelper.GetEditableId
   fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetEditableId
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetAvailableCriteria*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetAvailableCriteria
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html#SuperOffice_CRM_ArchiveLists_ReportCriteriaHelper_GetAvailableCriteria_System_Int32_System_Boolean_
   name: GetAvailableCriteria
   nameWithType: ReportCriteriaHelper.GetAvailableCriteria
   fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.GetAvailableCriteria
 - uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.CriteriaInfo}
-  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.CriteriaInfo}
-  parent: System.Collections.Generic
+  commentId: '!:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.CriteriaInfo}'
   definition: System.Collections.Generic.List`1
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   name: List<CriteriaInfo>
   nameWithType: List<CriteriaInfo>
   fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.CriteriaInfo>
@@ -1522,96 +1121,78 @@ references:
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo
     name: CriteriaInfo
+    nameWithType: CriteriaInfo
+    fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.CriteriaInfo.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo
     name: CriteriaInfo
+    nameWithType: CriteriaInfo
+    fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo
     isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.CriteriaInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
   spec.csharp:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
   - name: <
-  - name: T
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Collections.Generic.List`1
     name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintStatus*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintStatus
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html#SuperOffice_CRM_ArchiveLists_ReportCriteriaHelper_IsSaintStatus_System_String_
   name: IsSaintStatus
   nameWithType: ReportCriteriaHelper.IsSaintStatus
   fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintStatus
@@ -1619,48 +1200,24 @@ references:
   commentId: T:SuperOffice.Data.SaintTarget
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SaintTarget.html
   name: SaintTarget
   nameWithType: SaintTarget
   fullName: SuperOffice.Data.SaintTarget
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsUdefField*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsUdefField
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html#SuperOffice_CRM_ArchiveLists_ReportCriteriaHelper_IsUdefField_System_String_
   name: IsUdefField
   nameWithType: ReportCriteriaHelper.IsUdefField
   fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsUdefField
 - uid: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintCounter*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintCounter
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.html#SuperOffice_CRM_ArchiveLists_ReportCriteriaHelper_IsSaintCounter_System_String_
   name: IsSaintCounter
   nameWithType: ReportCriteriaHelper.IsSaintCounter
   fullName: SuperOffice.CRM.ArchiveLists.ReportCriteriaHelper.IsSaintCounter
@@ -1668,7 +1225,6 @@ references:
   commentId: T:SuperOffice.Data.SaintCounterType
   parent: SuperOffice.Data
   isExternal: true
-  href: SuperOffice.Data.SaintCounterType.html
   name: SaintCounterType
   nameWithType: SaintCounterType
   fullName: SuperOffice.Data.SaintCounterType

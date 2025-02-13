@@ -19,14 +19,12 @@ references:
 - uid: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher
   commentId: T:SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher
   isExternal: true
-  href: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher.html
   name: SoLocalTimeConverterDataFetcher
   nameWithType: SoLocalTimeConverterDataFetcher
   fullName: SuperOffice.CRM.TimeZone.SoLocalTimeConverterDataFetcher
 - uid: SuperOffice.CRM.TimeZone.TimeZoneManager
   commentId: T:SuperOffice.CRM.TimeZone.TimeZoneManager
   isExternal: true
-  href: SuperOffice.CRM.TimeZone.TimeZoneManager.html
   name: TimeZoneManager
   nameWithType: TimeZoneManager
   fullName: SuperOffice.CRM.TimeZone.TimeZoneManager

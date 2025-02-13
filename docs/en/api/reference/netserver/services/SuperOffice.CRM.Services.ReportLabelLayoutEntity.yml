@@ -17,9 +17,9 @@ items:
   - SuperOffice.CRM.Services.ReportLabelLayoutEntity.PaperWidth
   - SuperOffice.CRM.Services.ReportLabelLayoutEntity.ReportLabelLayoutId
   - SuperOffice.CRM.Services.ReportLabelLayoutEntity.RightMargin
+  - SuperOffice.CRM.Services.ReportLabelLayoutEntity.TopMargin
   - SuperOffice.CRM.Services.ReportLabelLayoutEntity.ToString
   - SuperOffice.CRM.Services.ReportLabelLayoutEntity.ToString(System.String)
-  - SuperOffice.CRM.Services.ReportLabelLayoutEntity.TopMargin
   langs:
   - csharp
   - vb
@@ -27,37 +27,20 @@ items:
   nameWithType: ReportLabelLayoutEntity
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Carrier object for ReportLabelLayoutEntity.
-
-    Services for the ReportLabelLayoutEntity Carrier is available from the <xref href="SuperOffice.CRM.Services.IReportAgent?text=Report+Agent" data-throw-if-not-resolved="false"></xref>.
+  summary: "\nCarrier object for ReportLabelLayoutEntity.\nServices for the ReportLabelLayoutEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IReportAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example:
-  - >-
-    Get ReportLabelLayoutEntity 123 using the agent:
-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       var agent = new ReportAgent();
-       var reportLabelLayoutEntity = agent.GetReportLabelLayoutEntity( 123 );
-    }</code></pre>
+  - "\nGet ReportLabelLayoutEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ReportAgent();\n    var reportLabelLayoutEntity = agent.GetReportLabelLayoutEntity( 123 );\n }</code></pre>\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class ReportLabelLayoutEntity : Carrier
+    content: 'public class ReportLabelLayoutEntity : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class ReportLabelLayoutEntity Inherits Carrier
+      Public Class ReportLabelLayoutEntity
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.ReportAgent
     commentId: T:SuperOffice.CRM.Services.ReportAgent
@@ -65,14 +48,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IReportAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.ReportLabelLayoutEntity.#ctor
   id: '#ctor'
@@ -84,18 +65,21 @@ items:
   nameWithType: ReportLabelLayoutEntity.ReportLabelLayoutEntity()
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.ReportLabelLayoutEntity()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public ReportLabelLayoutEntity()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.ReportLabelLayoutEntity.#ctor*
-  nameWithType.vb: ReportLabelLayoutEntity.New()
-  fullName.vb: SuperOffice.CRM.Services.ReportLabelLayoutEntity.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.ToString
   commentId: M:SuperOffice.CRM.Services.ReportLabelLayoutEntity.ToString
   id: ToString
@@ -107,18 +91,26 @@ items:
   nameWithType: ReportLabelLayoutEntity.ToString()
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.ReportLabelLayoutEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.ReportLabelLayoutEntity.ToString(System.String)
   id: ToString(System.String)
@@ -126,18 +118,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: ReportLabelLayoutEntity.ToString(string)
-  fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.ToString(string)
+  name: ToString(String)
+  nameWithType: ReportLabelLayoutEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -149,9 +140,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.ReportLabelLayoutEntity.ToString*
-  nameWithType.vb: ReportLabelLayoutEntity.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.ReportLabelLayoutEntity.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.ReportLabelLayoutId
   commentId: P:SuperOffice.CRM.Services.ReportLabelLayoutEntity.ReportLabelLayoutId
   id: ReportLabelLayoutId
@@ -163,28 +155,28 @@ items:
   nameWithType: ReportLabelLayoutEntity.ReportLabelLayoutId
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.ReportLabelLayoutId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int ReportLabelLayoutId { get; set; }
+    content: public virtual int ReportLabelLayoutId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ReportLabelLayoutId As Integer
+    content.vb: Public Overridable Property ReportLabelLayoutId As Integer
   overload: SuperOffice.CRM.Services.ReportLabelLayoutEntity.ReportLabelLayoutId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.Name
   commentId: P:SuperOffice.CRM.Services.ReportLabelLayoutEntity.Name
   id: Name
@@ -196,28 +188,28 @@ items:
   nameWithType: ReportLabelLayoutEntity.Name
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.Name
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Name of the label layout
-  example: []
+  summary: "\nName of the label layout \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Name { get; set; }
+    content: public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Name As String
+    content.vb: Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.ReportLabelLayoutEntity.Name*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.Description
   commentId: P:SuperOffice.CRM.Services.ReportLabelLayoutEntity.Description
   id: Description
@@ -229,28 +221,28 @@ items:
   nameWithType: ReportLabelLayoutEntity.Description
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.Description
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Description
-  example: []
+  summary: "\nDescription \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Description { get; set; }
+    content: public virtual string Description { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Description As String
+    content.vb: Public Overridable Property Description As String
   overload: SuperOffice.CRM.Services.ReportLabelLayoutEntity.Description*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.Orientation
   commentId: P:SuperOffice.CRM.Services.ReportLabelLayoutEntity.Orientation
   id: Orientation
@@ -262,28 +254,28 @@ items:
   nameWithType: ReportLabelLayoutEntity.Orientation
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.Orientation
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: 'Paper orientation: 1=portrait, 2=landscape'
-  example: []
+  summary: "\nPaper orientation: 1=portrait, 2=landscape \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual ReportPaperOrientation Orientation { get; set; }
+    content: public virtual ReportPaperOrientation Orientation { get; set; }
     parameters: []
     return:
       type: SuperOffice.Data.ReportPaperOrientation
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Orientation As ReportPaperOrientation
+    content.vb: Public Overridable Property Orientation As ReportPaperOrientation
   overload: SuperOffice.CRM.Services.ReportLabelLayoutEntity.Orientation*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.PaperWidth
   commentId: P:SuperOffice.CRM.Services.ReportLabelLayoutEntity.PaperWidth
   id: PaperWidth
@@ -295,28 +287,28 @@ items:
   nameWithType: ReportLabelLayoutEntity.PaperWidth
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.PaperWidth
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Paper width in twips
-  example: []
+  summary: "\nPaper width in twips \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual uint PaperWidth { get; set; }
+    content: public virtual uint PaperWidth { get; set; }
     parameters: []
     return:
       type: System.UInt32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PaperWidth As UInteger
+    content.vb: Public Overridable Property PaperWidth As UInteger
   overload: SuperOffice.CRM.Services.ReportLabelLayoutEntity.PaperWidth*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.PaperHeight
   commentId: P:SuperOffice.CRM.Services.ReportLabelLayoutEntity.PaperHeight
   id: PaperHeight
@@ -328,28 +320,28 @@ items:
   nameWithType: ReportLabelLayoutEntity.PaperHeight
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.PaperHeight
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Paper height in twips
-  example: []
+  summary: "\nPaper height in twips \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual uint PaperHeight { get; set; }
+    content: public virtual uint PaperHeight { get; set; }
     parameters: []
     return:
       type: System.UInt32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property PaperHeight As UInteger
+    content.vb: Public Overridable Property PaperHeight As UInteger
   overload: SuperOffice.CRM.Services.ReportLabelLayoutEntity.PaperHeight*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.LeftMargin
   commentId: P:SuperOffice.CRM.Services.ReportLabelLayoutEntity.LeftMargin
   id: LeftMargin
@@ -361,28 +353,28 @@ items:
   nameWithType: ReportLabelLayoutEntity.LeftMargin
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.LeftMargin
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Left margin in twips
-  example: []
+  summary: "\nLeft margin in twips \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual uint LeftMargin { get; set; }
+    content: public virtual uint LeftMargin { get; set; }
     parameters: []
     return:
       type: System.UInt32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property LeftMargin As UInteger
+    content.vb: Public Overridable Property LeftMargin As UInteger
   overload: SuperOffice.CRM.Services.ReportLabelLayoutEntity.LeftMargin*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.RightMargin
   commentId: P:SuperOffice.CRM.Services.ReportLabelLayoutEntity.RightMargin
   id: RightMargin
@@ -394,28 +386,28 @@ items:
   nameWithType: ReportLabelLayoutEntity.RightMargin
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.RightMargin
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Right margin in twips
-  example: []
+  summary: "\nRight margin in twips \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual uint RightMargin { get; set; }
+    content: public virtual uint RightMargin { get; set; }
     parameters: []
     return:
       type: System.UInt32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property RightMargin As UInteger
+    content.vb: Public Overridable Property RightMargin As UInteger
   overload: SuperOffice.CRM.Services.ReportLabelLayoutEntity.RightMargin*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.TopMargin
   commentId: P:SuperOffice.CRM.Services.ReportLabelLayoutEntity.TopMargin
   id: TopMargin
@@ -427,28 +419,28 @@ items:
   nameWithType: ReportLabelLayoutEntity.TopMargin
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.TopMargin
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Top margin in twips
-  example: []
+  summary: "\nTop margin in twips \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual uint TopMargin { get; set; }
+    content: public virtual uint TopMargin { get; set; }
     parameters: []
     return:
       type: System.UInt32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property TopMargin As UInteger
+    content.vb: Public Overridable Property TopMargin As UInteger
   overload: SuperOffice.CRM.Services.ReportLabelLayoutEntity.TopMargin*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.BottomMargin
   commentId: P:SuperOffice.CRM.Services.ReportLabelLayoutEntity.BottomMargin
   id: BottomMargin
@@ -460,28 +452,28 @@ items:
   nameWithType: ReportLabelLayoutEntity.BottomMargin
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.BottomMargin
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Bottom margin in twips
-  example: []
+  summary: "\nBottom margin in twips \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual uint BottomMargin { get; set; }
+    content: public virtual uint BottomMargin { get; set; }
     parameters: []
     return:
       type: System.UInt32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property BottomMargin As UInteger
+    content.vb: Public Overridable Property BottomMargin As UInteger
   overload: SuperOffice.CRM.Services.ReportLabelLayoutEntity.BottomMargin*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.CountColumns
   commentId: P:SuperOffice.CRM.Services.ReportLabelLayoutEntity.CountColumns
   id: CountColumns
@@ -493,28 +485,28 @@ items:
   nameWithType: ReportLabelLayoutEntity.CountColumns
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.CountColumns
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Number og columns
-  example: []
+  summary: "\nNumber og columns \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual short CountColumns { get; set; }
+    content: public virtual short CountColumns { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CountColumns As Short
+    content.vb: Public Overridable Property CountColumns As Short
   overload: SuperOffice.CRM.Services.ReportLabelLayoutEntity.CountColumns*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.CountRows
   commentId: P:SuperOffice.CRM.Services.ReportLabelLayoutEntity.CountRows
   id: CountRows
@@ -526,33 +518,38 @@ items:
   nameWithType: ReportLabelLayoutEntity.CountRows
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.CountRows
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Number of rows
-  example: []
+  summary: "\nNumber of rows \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual short CountRows { get; set; }
+    content: public virtual short CountRows { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property CountRows As Short
+    content.vb: Public Overridable Property CountRows As Short
   overload: SuperOffice.CRM.Services.ReportLabelLayoutEntity.CountRows*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.ReportAgent
   commentId: T:SuperOffice.CRM.Services.ReportAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.ReportAgent.html
   name: ReportAgent
   nameWithType: ReportAgent
   fullName: SuperOffice.CRM.Services.ReportAgent
@@ -560,79 +557,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IReportAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IReportAgent.html
   name: IReportAgent
   nameWithType: IReportAgent
   fullName: SuperOffice.CRM.Services.IReportAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.ReportLabelLayoutEntity.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.ReportLabelLayoutEntity.html#SuperOffice_CRM_Services_ReportLabelLayoutEntity__ctor
   name: ReportLabelLayoutEntity
   nameWithType: ReportLabelLayoutEntity.ReportLabelLayoutEntity
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.ReportLabelLayoutEntity
-  nameWithType.vb: ReportLabelLayoutEntity.New
-  fullName.vb: SuperOffice.CRM.Services.ReportLabelLayoutEntity.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.ToString*
   commentId: Overload:SuperOffice.CRM.Services.ReportLabelLayoutEntity.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.ReportLabelLayoutEntity.html#SuperOffice_CRM_Services_ReportLabelLayoutEntity_ToString
   name: ToString
   nameWithType: ReportLabelLayoutEntity.ToString
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.ToString
@@ -640,17 +576,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.ReportLabelLayoutId*
   commentId: Overload:SuperOffice.CRM.Services.ReportLabelLayoutEntity.ReportLabelLayoutId
   isExternal: true
-  href: SuperOffice.CRM.Services.ReportLabelLayoutEntity.html#SuperOffice_CRM_Services_ReportLabelLayoutEntity_ReportLabelLayoutId
   name: ReportLabelLayoutId
   nameWithType: ReportLabelLayoutEntity.ReportLabelLayoutId
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.ReportLabelLayoutId
@@ -658,31 +595,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.Name*
   commentId: Overload:SuperOffice.CRM.Services.ReportLabelLayoutEntity.Name
   isExternal: true
-  href: SuperOffice.CRM.Services.ReportLabelLayoutEntity.html#SuperOffice_CRM_Services_ReportLabelLayoutEntity_Name
   name: Name
   nameWithType: ReportLabelLayoutEntity.Name
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.Name
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.Description*
   commentId: Overload:SuperOffice.CRM.Services.ReportLabelLayoutEntity.Description
   isExternal: true
-  href: SuperOffice.CRM.Services.ReportLabelLayoutEntity.html#SuperOffice_CRM_Services_ReportLabelLayoutEntity_Description
   name: Description
   nameWithType: ReportLabelLayoutEntity.Description
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.Description
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.Orientation*
   commentId: Overload:SuperOffice.CRM.Services.ReportLabelLayoutEntity.Orientation
   isExternal: true
-  href: SuperOffice.CRM.Services.ReportLabelLayoutEntity.html#SuperOffice_CRM_Services_ReportLabelLayoutEntity_Orientation
   name: Orientation
   nameWithType: ReportLabelLayoutEntity.Orientation
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.Orientation
@@ -695,7 +625,6 @@ references:
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.PaperWidth*
   commentId: Overload:SuperOffice.CRM.Services.ReportLabelLayoutEntity.PaperWidth
   isExternal: true
-  href: SuperOffice.CRM.Services.ReportLabelLayoutEntity.html#SuperOffice_CRM_Services_ReportLabelLayoutEntity_PaperWidth
   name: PaperWidth
   nameWithType: ReportLabelLayoutEntity.PaperWidth
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.PaperWidth
@@ -703,52 +632,42 @@ references:
   commentId: T:System.UInt32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.uint32
-  name: uint
-  nameWithType: uint
-  fullName: uint
-  nameWithType.vb: UInteger
-  fullName.vb: UInteger
-  name.vb: UInteger
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.PaperHeight*
   commentId: Overload:SuperOffice.CRM.Services.ReportLabelLayoutEntity.PaperHeight
   isExternal: true
-  href: SuperOffice.CRM.Services.ReportLabelLayoutEntity.html#SuperOffice_CRM_Services_ReportLabelLayoutEntity_PaperHeight
   name: PaperHeight
   nameWithType: ReportLabelLayoutEntity.PaperHeight
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.PaperHeight
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.LeftMargin*
   commentId: Overload:SuperOffice.CRM.Services.ReportLabelLayoutEntity.LeftMargin
   isExternal: true
-  href: SuperOffice.CRM.Services.ReportLabelLayoutEntity.html#SuperOffice_CRM_Services_ReportLabelLayoutEntity_LeftMargin
   name: LeftMargin
   nameWithType: ReportLabelLayoutEntity.LeftMargin
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.LeftMargin
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.RightMargin*
   commentId: Overload:SuperOffice.CRM.Services.ReportLabelLayoutEntity.RightMargin
   isExternal: true
-  href: SuperOffice.CRM.Services.ReportLabelLayoutEntity.html#SuperOffice_CRM_Services_ReportLabelLayoutEntity_RightMargin
   name: RightMargin
   nameWithType: ReportLabelLayoutEntity.RightMargin
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.RightMargin
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.TopMargin*
   commentId: Overload:SuperOffice.CRM.Services.ReportLabelLayoutEntity.TopMargin
   isExternal: true
-  href: SuperOffice.CRM.Services.ReportLabelLayoutEntity.html#SuperOffice_CRM_Services_ReportLabelLayoutEntity_TopMargin
   name: TopMargin
   nameWithType: ReportLabelLayoutEntity.TopMargin
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.TopMargin
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.BottomMargin*
   commentId: Overload:SuperOffice.CRM.Services.ReportLabelLayoutEntity.BottomMargin
   isExternal: true
-  href: SuperOffice.CRM.Services.ReportLabelLayoutEntity.html#SuperOffice_CRM_Services_ReportLabelLayoutEntity_BottomMargin
   name: BottomMargin
   nameWithType: ReportLabelLayoutEntity.BottomMargin
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.BottomMargin
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.CountColumns*
   commentId: Overload:SuperOffice.CRM.Services.ReportLabelLayoutEntity.CountColumns
   isExternal: true
-  href: SuperOffice.CRM.Services.ReportLabelLayoutEntity.html#SuperOffice_CRM_Services_ReportLabelLayoutEntity_CountColumns
   name: CountColumns
   nameWithType: ReportLabelLayoutEntity.CountColumns
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.CountColumns
@@ -756,17 +675,12 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Services.ReportLabelLayoutEntity.CountRows*
   commentId: Overload:SuperOffice.CRM.Services.ReportLabelLayoutEntity.CountRows
   isExternal: true
-  href: SuperOffice.CRM.Services.ReportLabelLayoutEntity.html#SuperOffice_CRM_Services_ReportLabelLayoutEntity_CountRows
   name: CountRows
   nameWithType: ReportLabelLayoutEntity.CountRows
   fullName: SuperOffice.CRM.Services.ReportLabelLayoutEntity.CountRows

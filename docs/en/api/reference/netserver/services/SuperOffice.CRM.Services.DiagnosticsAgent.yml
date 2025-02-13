@@ -35,31 +35,21 @@ items:
   nameWithType: DiagnosticsAgent
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Facade for the Diagnostics Agent
-
-    Diagnostics, usage data collection, caches and flushing
+  summary: "\nFacade for the Diagnostics Agent\nDiagnostics, usage data collection, caches and flushing\n"
   example:
-  - >-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       using (DiagnosticsAgent agent = new DiagnosticsAgent())
-       {
-          // call methods on agent here...
-       }
-    }</code></pre>
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (DiagnosticsAgent agent = new DiagnosticsAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
   syntax:
     content: 'public class DiagnosticsAgent : AgentBase<IDiagnosticsAgent>, IDisposable, IDiagnosticsAgent, IAgent'
-    content.vb: Public Class DiagnosticsAgent Inherits AgentBase(Of IDiagnosticsAgent) Implements IDisposable, IDiagnosticsAgent, IAgent
+    content.vb: >-
+      Public Class DiagnosticsAgent
+          Inherits AgentBase(Of IDiagnosticsAgent)
+          Implements IDisposable, IDiagnosticsAgent, IAgent
   inheritance:
   - System.Object
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDiagnosticsAgent}
@@ -70,13 +60,12 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDiagnosticsAgent}.Dispose
   - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDiagnosticsAgent}.InnerAgent
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.FlushCaches
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.FlushCaches
   id: FlushCaches
@@ -88,17 +77,23 @@ items:
   nameWithType: DiagnosticsAgent.FlushCaches()
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.FlushCaches()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Flushes all NetServer caches
-  example: []
+  summary: "\nFlushes all NetServer caches\n"
   syntax:
     content: public void FlushCaches()
-    content.vb: Public Sub FlushCaches()
+    content.vb: Public Sub FlushCaches
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.FlushCaches*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCaches
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheNames
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheNames
   id: GetCacheNames
@@ -110,20 +105,26 @@ items:
   nameWithType: DiagnosticsAgent.GetCacheNames()
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheNames()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get the name of the caches that can be flushed
-  example: []
+  summary: "\nGet the name of the caches that can be flushed\n"
   syntax:
     content: public string[] GetCacheNames()
     return:
       type: System.String[]
       description: Name of the caches that can be flusehd
-    content.vb: Public Function GetCacheNames() As String()
+    content.vb: Public Function GetCacheNames As String()
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheNames*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNames
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesByName(System.String[])
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesByName(System.String[])
   id: FlushCachesByName(System.String[])
@@ -131,15 +132,17 @@ items:
   langs:
   - csharp
   - vb
-  name: FlushCachesByName(string[])
-  nameWithType: DiagnosticsAgent.FlushCachesByName(string[])
-  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesByName(string[])
+  name: FlushCachesByName(String[])
+  nameWithType: DiagnosticsAgent.FlushCachesByName(String[])
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesByName(System.String[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Flushes all NetServer caches named
-  example: []
+  summary: "\nFlushes all NetServer caches named\n"
   syntax:
     content: public void FlushCachesByName(string[] cacheNames)
     parameters:
@@ -151,7 +154,11 @@ items:
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName(System.String[])
   nameWithType.vb: DiagnosticsAgent.FlushCachesByName(String())
-  fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesByName(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesByName(System.String())
   name.vb: FlushCachesByName(String())
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheState(System.String[])
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheState(System.String[])
@@ -160,15 +167,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetCacheState(string[])
-  nameWithType: DiagnosticsAgent.GetCacheState(string[])
-  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheState(string[])
+  name: GetCacheState(String[])
+  nameWithType: DiagnosticsAgent.GetCacheState(String[])
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheState(System.String[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get the current generation value of the named caches. State is opaque.
-  example: []
+  summary: "\nGet the current generation value of the named caches. State is opaque.\n"
   syntax:
     content: public string GetCacheState(string[] cacheNames)
     parameters:
@@ -183,7 +192,11 @@ items:
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(System.String[])
   nameWithType.vb: DiagnosticsAgent.GetCacheState(String())
-  fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheState(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheState(System.String())
   name.vb: GetCacheState(String())
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.GetEntityCountsForCurrentUser
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.GetEntityCountsForCurrentUser
@@ -196,20 +209,26 @@ items:
   nameWithType: DiagnosticsAgent.GetEntityCountsForCurrentUser()
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.GetEntityCountsForCurrentUser()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get an array of entities and number of entities created for the current associate
-  example: []
+  summary: "\nGet an array of entities and number of entities created for the current associate\n"
   syntax:
     content: public EntityCounts[] GetEntityCountsForCurrentUser()
     return:
       type: SuperOffice.CRM.Services.EntityCounts[]
       description: Array of EntityCounts[] for the current associate
-    content.vb: Public Function GetEntityCountsForCurrentUser() As EntityCounts()
+    content.vb: Public Function GetEntityCountsForCurrentUser As EntityCounts()
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.GetEntityCountsForCurrentUser*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.GetEntityCountsForAllUsers
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.GetEntityCountsForAllUsers
   id: GetEntityCountsForAllUsers
@@ -221,20 +240,26 @@ items:
   nameWithType: DiagnosticsAgent.GetEntityCountsForAllUsers()
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.GetEntityCountsForAllUsers()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get an array of entities and number of entities created for all associates.
-  example: []
+  summary: "\nGet an array of entities and number of entities created for all associates.\n"
   syntax:
     content: public EntityCounts[] GetEntityCountsForAllUsers()
     return:
       type: SuperOffice.CRM.Services.EntityCounts[]
       description: Array of EntityCounts[] for all the users
-    content.vb: Public Function GetEntityCountsForAllUsers() As EntityCounts()
+    content.vb: Public Function GetEntityCountsForAllUsers As EntityCounts()
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.GetEntityCountsForAllUsers*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.LogViewState(System.String)
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.LogViewState(System.String)
   id: LogViewState(System.String)
@@ -242,15 +267,17 @@ items:
   langs:
   - csharp
   - vb
-  name: LogViewState(string)
-  nameWithType: DiagnosticsAgent.LogViewState(string)
-  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.LogViewState(string)
+  name: LogViewState(String)
+  nameWithType: DiagnosticsAgent.LogViewState(String)
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.LogViewState(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Log a change in view state. The granularity of the logging depends on the current configuration. This call returns asynchronously, leaving the server to finish processing later on.
-  example: []
+  summary: "\nLog a change in view state. The granularity of the logging depends on the current configuration. This call returns asynchronously, leaving the server to finish processing later on.\n"
   syntax:
     content: public void LogViewState(string viewState)
     parameters:
@@ -261,9 +288,10 @@ items:
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.LogViewState*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState(System.String)
-  nameWithType.vb: DiagnosticsAgent.LogViewState(String)
-  fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.LogViewState(String)
-  name.vb: LogViewState(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.ChangeLogSettings(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.ChangeLogSettings(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
   id: ChangeLogSettings(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
@@ -271,15 +299,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ChangeLogSettings(bool, bool, bool, bool, bool, bool, bool, bool)
-  nameWithType: DiagnosticsAgent.ChangeLogSettings(bool, bool, bool, bool, bool, bool, bool, bool)
-  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.ChangeLogSettings(bool, bool, bool, bool, bool, bool, bool, bool)
+  name: ChangeLogSettings(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)
+  nameWithType: DiagnosticsAgent.ChangeLogSettings(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.ChangeLogSettings(System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Change NetServer log settings.
-  example: []
+  summary: "\nChange NetServer log settings.\n"
   syntax:
     content: public void ChangeLogSettings(bool logWarning, bool logInformation, bool logSuccessAudit, bool logFailureAudit, bool logToEventLog, bool logToSuperOffice, bool logToFile, bool logToTrace)
     parameters:
@@ -311,9 +341,10 @@ items:
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.ChangeLogSettings*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettings(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-  nameWithType.vb: DiagnosticsAgent.ChangeLogSettings(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.ChangeLogSettings(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)
-  name.vb: ChangeLogSettings(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.CollectDataAdditions
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.CollectDataAdditions
   id: CollectDataAdditions
@@ -325,17 +356,23 @@ items:
   nameWithType: DiagnosticsAgent.CollectDataAdditions()
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.CollectDataAdditions()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: 'Collect and transmit usage statistics: Database Additions. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.'
-  example: []
+  summary: "\nCollect and transmit usage statistics: Database Additions. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.\n"
   syntax:
     content: public void CollectDataAdditions()
-    content.vb: Public Sub CollectDataAdditions()
+    content.vb: Public Sub CollectDataAdditions
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.CollectDataAdditions*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.CollectWinUsage
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.CollectWinUsage
   id: CollectWinUsage
@@ -347,17 +384,23 @@ items:
   nameWithType: DiagnosticsAgent.CollectWinUsage()
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.CollectWinUsage()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: 'Collect and transmit usage statistics: Windows CRM Client Usage. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.'
-  example: []
+  summary: "\nCollect and transmit usage statistics: Windows CRM Client Usage. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.\n"
   syntax:
     content: public void CollectWinUsage()
-    content.vb: Public Sub CollectWinUsage()
+    content.vb: Public Sub CollectWinUsage
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.CollectWinUsage*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.CollectWebUsage
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.CollectWebUsage
   id: CollectWebUsage
@@ -369,17 +412,23 @@ items:
   nameWithType: DiagnosticsAgent.CollectWebUsage()
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.CollectWebUsage()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: 'Collect and transmit usage statistics: Web-based clients Usage. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.'
-  example: []
+  summary: "\nCollect and transmit usage statistics: Web-based clients Usage. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.\n"
   syntax:
     content: public void CollectWebUsage()
-    content.vb: Public Sub CollectWebUsage()
+    content.vb: Public Sub CollectWebUsage
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.CollectWebUsage*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.CollectTableSizes
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.CollectTableSizes
   id: CollectTableSizes
@@ -391,17 +440,23 @@ items:
   nameWithType: DiagnosticsAgent.CollectTableSizes()
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.CollectTableSizes()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: 'Collect and transmit usage statistics: Table Sizes. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.'
-  example: []
+  summary: "\nCollect and transmit usage statistics: Table Sizes. If opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.\n"
   syntax:
     content: public void CollectTableSizes()
-    content.vb: Public Sub CollectTableSizes()
+    content.vb: Public Sub CollectTableSizes
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.CollectTableSizes*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.ResyncUsers
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.ResyncUsers
   id: ResyncUsers
@@ -413,17 +468,23 @@ items:
   nameWithType: DiagnosticsAgent.ResyncUsers()
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.ResyncUsers()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Resynchronize user information with SuperOffice Community, if opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.
-  example: []
+  summary: "\nResynchronize user information with SuperOffice Community, if opted-out then this call does nothing. The call returns immediately (starting a background thread), and updates CS scheduler table to set the next run time.\n"
   syntax:
     content: public void ResyncUsers()
-    content.vb: Public Sub ResyncUsers()
+    content.vb: Public Sub ResyncUsers
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.ResyncUsers*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.SendSystemMessage(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType)
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.SendSystemMessage(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType)
   id: SendSystemMessage(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType)
@@ -431,15 +492,17 @@ items:
   langs:
   - csharp
   - vb
-  name: SendSystemMessage(string, int, string, DateTime, SystemMessageType)
-  nameWithType: DiagnosticsAgent.SendSystemMessage(string, int, string, DateTime, SystemMessageType)
-  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.SendSystemMessage(string, int, string, System.DateTime, SuperOffice.Data.SystemMessageType)
+  name: SendSystemMessage(String, Int32, String, DateTime, SystemMessageType)
+  nameWithType: DiagnosticsAgent.SendSystemMessage(String, Int32, String, DateTime, SystemMessageType)
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.SendSystemMessage(System.String, System.Int32, System.String, System.DateTime, SuperOffice.Data.SystemMessageType)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Adds a system message for a specific associate.
-  example: []
+  summary: "\nAdds a system message for a specific associate.\n"
   syntax:
     content: public void SendSystemMessage(string systemMessageId, int associateId, string markdownMessage, DateTime expire, SystemMessageType type)
     parameters:
@@ -458,13 +521,14 @@ items:
     - id: type
       type: SuperOffice.Data.SystemMessageType
       description: 'Type of message, example: info, warning, error'
-    content.vb: Public Sub SendSystemMessage(systemMessageId As String, associateId As Integer, markdownMessage As String, expire As Date, type As SystemMessageType)
+    content.vb: Public Sub SendSystemMessage(systemMessageId As String, associateId As Integer, markdownMessage As String, expire As DateTime, type As SystemMessageType)
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.SendSystemMessage*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType)
-  nameWithType.vb: DiagnosticsAgent.SendSystemMessage(String, Integer, String, Date, SystemMessageType)
-  fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.SendSystemMessage(String, Integer, String, Date, SuperOffice.Data.SystemMessageType)
-  name.vb: SendSystemMessage(String, Integer, String, Date, SystemMessageType)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.RemoveSystemMessage(System.Int32,System.String)
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.RemoveSystemMessage(System.Int32,System.String)
   id: RemoveSystemMessage(System.Int32,System.String)
@@ -472,15 +536,17 @@ items:
   langs:
   - csharp
   - vb
-  name: RemoveSystemMessage(int, string)
-  nameWithType: DiagnosticsAgent.RemoveSystemMessage(int, string)
-  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.RemoveSystemMessage(int, string)
+  name: RemoveSystemMessage(Int32, String)
+  nameWithType: DiagnosticsAgent.RemoveSystemMessage(Int32, String)
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.RemoveSystemMessage(System.Int32, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Removes a system message for current associate
-  example: []
+  summary: "\nRemoves a system message for current associate\n"
   syntax:
     content: public void RemoveSystemMessage(int onlineappId, string systemMessageId)
     parameters:
@@ -494,9 +560,10 @@ items:
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.RemoveSystemMessage*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage(System.Int32,System.String)
-  nameWithType.vb: DiagnosticsAgent.RemoveSystemMessage(Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.RemoveSystemMessage(Integer, String)
-  name.vb: RemoveSystemMessage(Integer, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.RemoveSystemMessageForAssociate(System.Int32,System.String,System.Int32)
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.RemoveSystemMessageForAssociate(System.Int32,System.String,System.Int32)
   id: RemoveSystemMessageForAssociate(System.Int32,System.String,System.Int32)
@@ -504,15 +571,17 @@ items:
   langs:
   - csharp
   - vb
-  name: RemoveSystemMessageForAssociate(int, string, int)
-  nameWithType: DiagnosticsAgent.RemoveSystemMessageForAssociate(int, string, int)
-  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.RemoveSystemMessageForAssociate(int, string, int)
+  name: RemoveSystemMessageForAssociate(Int32, String, Int32)
+  nameWithType: DiagnosticsAgent.RemoveSystemMessageForAssociate(Int32, String, Int32)
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.RemoveSystemMessageForAssociate(System.Int32, System.String, System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Removes a system message for specific associate.
-  example: []
+  summary: "\nRemoves a system message for specific associate.\n"
   syntax:
     content: public void RemoveSystemMessageForAssociate(int onlineappId, string systemMessageId, int associateId)
     parameters:
@@ -529,9 +598,10 @@ items:
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.RemoveSystemMessageForAssociate*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate(System.Int32,System.String,System.Int32)
-  nameWithType.vb: DiagnosticsAgent.RemoveSystemMessageForAssociate(Integer, String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.RemoveSystemMessageForAssociate(Integer, String, Integer)
-  name.vb: RemoveSystemMessageForAssociate(Integer, String, Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.GetSystemMessages(System.Int32)
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.GetSystemMessages(System.Int32)
   id: GetSystemMessages(System.Int32)
@@ -539,15 +609,17 @@ items:
   langs:
   - csharp
   - vb
-  name: GetSystemMessages(int)
-  nameWithType: DiagnosticsAgent.GetSystemMessages(int)
-  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.GetSystemMessages(int)
+  name: GetSystemMessages(Int32)
+  nameWithType: DiagnosticsAgent.GetSystemMessages(Int32)
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.GetSystemMessages(System.Int32)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Retrieves a list of system messages for a specific associate.
-  example: []
+  summary: "\nRetrieves a list of system messages for a specific associate.\n"
   syntax:
     content: public SystemMessage[] GetSystemMessages(int associateId)
     parameters:
@@ -561,9 +633,10 @@ items:
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.GetSystemMessages*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages(System.Int32)
-  nameWithType.vb: DiagnosticsAgent.GetSystemMessages(Integer)
-  fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.GetSystemMessages(Integer)
-  name.vb: GetSystemMessages(Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.RemoveExpiredSystemMessages
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.RemoveExpiredSystemMessages
   id: RemoveExpiredSystemMessages
@@ -575,17 +648,23 @@ items:
   nameWithType: DiagnosticsAgent.RemoveExpiredSystemMessages()
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.RemoveExpiredSystemMessages()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Deletes expired system messages.
-  example: []
+  summary: "\nDeletes expired system messages.\n"
   syntax:
     content: public void RemoveExpiredSystemMessages()
-    content.vb: Public Sub RemoveExpiredSystemMessages()
+    content.vb: Public Sub RemoveExpiredSystemMessages
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.RemoveExpiredSystemMessages*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterUpgrade
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterUpgrade
   id: PerformTasksAfterUpgrade
@@ -597,20 +676,26 @@ items:
   nameWithType: DiagnosticsAgent.PerformTasksAfterUpgrade()
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterUpgrade()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: After upgrading to a new fileset, there may be tasks that need to be done. Examples - import new TypicalSearches, if present. Tasks performed here need to be idempotent and independent of the actual upgrade jump (what was the previous version). They should complete in a reasonable time, not more than a few minutes maximum.
-  example: []
+  summary: "\nAfter upgrading to a new fileset, there may be tasks that need to be done. Examples - import new TypicalSearches, if present. Tasks performed here need to be idempotent and independent of the actual upgrade jump (what was the previous version). They should complete in a reasonable time, not more than a few minutes maximum.\n"
   syntax:
     content: public string PerformTasksAfterUpgrade()
     return:
       type: System.String
       description: Message that can be shown to the user, summarizing what has been done, if anything.
-    content.vb: Public Function PerformTasksAfterUpgrade() As String
+    content.vb: Public Function PerformTasksAfterUpgrade As String
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterUpgrade*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
   id: AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
@@ -622,11 +707,13 @@ items:
   nameWithType: DiagnosticsAgent.AddWebAppUsage(WebAppUsage[])
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Adds WebApp usage to existing log
-  example: []
+  summary: "\nAdds WebApp usage to existing log\n"
   syntax:
     content: public void AddWebAppUsage(WebAppUsage[] webAppUsages)
     parameters:
@@ -638,6 +725,10 @@ items:
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
   nameWithType.vb: DiagnosticsAgent.AddWebAppUsage(WebAppUsage())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
   fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage())
   name.vb: AddWebAppUsage(WebAppUsage())
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.WebAppUsageExistsInPeriod(System.Int32,System.String,System.DateTime)
@@ -647,15 +738,17 @@ items:
   langs:
   - csharp
   - vb
-  name: WebAppUsageExistsInPeriod(int, string, DateTime)
-  nameWithType: DiagnosticsAgent.WebAppUsageExistsInPeriod(int, string, DateTime)
-  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.WebAppUsageExistsInPeriod(int, string, System.DateTime)
+  name: WebAppUsageExistsInPeriod(Int32, String, DateTime)
+  nameWithType: DiagnosticsAgent.WebAppUsageExistsInPeriod(Int32, String, DateTime)
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.WebAppUsageExistsInPeriod(System.Int32, System.String, System.DateTime)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns true if viewState has been clicked at least once since FromDate, if asscoiateId &lt; 0 or FromDate is DateTime.MinValue no restriction given for those parameters
-  example: []
+  summary: "\nReturns true if viewState has been clicked at least once since FromDate, if asscoiateId &lt; 0 or FromDate is DateTime.MinValue no restriction given for those parameters\n"
   syntax:
     content: public bool WebAppUsageExistsInPeriod(int associateId, string viewState, DateTime fromDate)
     parameters:
@@ -671,13 +764,14 @@ items:
     return:
       type: System.Boolean
       description: Returns true if viewState has been clicked at least once since FromDate
-    content.vb: Public Function WebAppUsageExistsInPeriod(associateId As Integer, viewState As String, fromDate As Date) As Boolean
+    content.vb: Public Function WebAppUsageExistsInPeriod(associateId As Integer, viewState As String, fromDate As DateTime) As Boolean
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.WebAppUsageExistsInPeriod*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod(System.Int32,System.String,System.DateTime)
-  nameWithType.vb: DiagnosticsAgent.WebAppUsageExistsInPeriod(Integer, String, Date)
-  fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.WebAppUsageExistsInPeriod(Integer, String, Date)
-  name.vb: WebAppUsageExistsInPeriod(Integer, String, Date)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
   id: GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
@@ -685,37 +779,37 @@ items:
   langs:
   - csharp
   - vb
-  name: GetWebAppUsagesForPeriod(DateTime, DateTime, string)
-  nameWithType: DiagnosticsAgent.GetWebAppUsagesForPeriod(DateTime, DateTime, string)
-  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime, System.DateTime, string)
+  name: GetWebAppUsagesForPeriod(DateTime, DateTime, String)
+  nameWithType: DiagnosticsAgent.GetWebAppUsagesForPeriod(DateTime, DateTime, String)
+  fullName: SuperOffice.CRM.Services.DiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime, System.DateTime, System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Get all WebAppUsages for a given period, that match an optional search term
-  example: []
+  summary: "\nGet all WebAppUsages for a given period, that match an optional search term\n"
   syntax:
     content: public WebAppUsage[] GetWebAppUsagesForPeriod(DateTime fromDate, DateTime toDate, string searchTerm)
     parameters:
     - id: fromDate
       type: System.DateTime
-      description: ''
     - id: toDate
       type: System.DateTime
-      description: ''
     - id: searchTerm
       type: System.String
-      description: ViewState search term. '%' is the wildcard character, for example 'Pocket%' will match all viewstates starting with 'Pocket'. If empty, all viewstates will be matched
+      description: ViewState search term. &apos;%&apos; is the wildcard character, for example &apos;Pocket%&apos; will match all viewstates starting with &apos;Pocket&apos;. If empty, all viewstates will be matched
     return:
       type: SuperOffice.CRM.Services.WebAppUsage[]
-      description: ''
-    content.vb: Public Function GetWebAppUsagesForPeriod(fromDate As Date, toDate As Date, searchTerm As String) As WebAppUsage()
+    content.vb: Public Function GetWebAppUsagesForPeriod(fromDate As DateTime, toDate As DateTime, searchTerm As String) As WebAppUsage()
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.GetWebAppUsagesForPeriod*
   implements:
   - SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
-  nameWithType.vb: DiagnosticsAgent.GetWebAppUsagesForPeriod(Date, Date, String)
-  fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.GetWebAppUsagesForPeriod(Date, Date, String)
-  name.vb: GetWebAppUsagesForPeriod(Date, Date, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.#ctor
   commentId: M:SuperOffice.CRM.Services.DiagnosticsAgent.#ctor
   id: '#ctor'
@@ -727,70 +821,31 @@ items:
   nameWithType: DiagnosticsAgent.DiagnosticsAgent()
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.DiagnosticsAgent()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   syntax:
     content: public DiagnosticsAgent()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.DiagnosticsAgent.#ctor*
-  nameWithType.vb: DiagnosticsAgent.New()
-  fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Services
   nameWithType: SuperOffice.CRM.Services
   fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDiagnosticsAgent}
   commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDiagnosticsAgent}
   parent: SuperOffice.CRM.Services
   definition: SuperOffice.CRM.Services.AgentBase`1
-  href: SuperOffice.CRM.Services.AgentBase-1.html
   name: AgentBase<IDiagnosticsAgent>
   nameWithType: AgentBase<IDiagnosticsAgent>
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDiagnosticsAgent>
@@ -800,32 +855,39 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent
     name: IDiagnosticsAgent
+    nameWithType: IDiagnosticsAgent
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent
     name: IDiagnosticsAgent
+    nameWithType: IDiagnosticsAgent
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
@@ -833,7 +895,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.IDiagnosticsAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html
   name: IDiagnosticsAgent
   nameWithType: IDiagnosticsAgent
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent
@@ -841,7 +902,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.IAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IAgent.html
   name: IAgent
   nameWithType: IAgent
   fullName: SuperOffice.CRM.Services.IAgent
@@ -849,266 +909,47 @@ references:
   commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDiagnosticsAgent}.Dispose
   parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDiagnosticsAgent}
   definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   name: Dispose()
   nameWithType: AgentBase<IDiagnosticsAgent>.Dispose()
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDiagnosticsAgent>.Dispose()
   nameWithType.vb: AgentBase(Of IDiagnosticsAgent).Dispose()
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDiagnosticsAgent).Dispose()
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDiagnosticsAgent}.Dispose
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase<IDiagnosticsAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDiagnosticsAgent>.Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDiagnosticsAgent}.Dispose
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase(Of IDiagnosticsAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDiagnosticsAgent).Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDiagnosticsAgent}.InnerAgent
   commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDiagnosticsAgent}.InnerAgent
   parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IDiagnosticsAgent}
   definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_InnerAgent
   name: InnerAgent
   nameWithType: AgentBase<IDiagnosticsAgent>.InnerAgent
   fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IDiagnosticsAgent>.InnerAgent
   nameWithType.vb: AgentBase(Of IDiagnosticsAgent).InnerAgent
   fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IDiagnosticsAgent).InnerAgent
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.AgentBase`1
   commentId: T:SuperOffice.CRM.Services.AgentBase`1
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html
   name: AgentBase<TAgent>
   nameWithType: AgentBase<TAgent>
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
@@ -1118,25 +959,36 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
   - name: <
+    nameWithType: <
+    fullName: <
   - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1
     name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
   commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   name: Dispose()
   nameWithType: AgentBase<TAgent>.Dispose()
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
@@ -1145,21 +997,30 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
     name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
     isExternal: true
-    href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
   commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.AgentBase-1.html#SuperOffice_CRM_Services_AgentBase_1_InnerAgent
   name: InnerAgent
   nameWithType: AgentBase<TAgent>.InnerAgent
   fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
@@ -1168,7 +1029,6 @@ references:
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.FlushCaches*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.FlushCaches
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_FlushCaches
   name: FlushCaches
   nameWithType: DiagnosticsAgent.FlushCaches
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.FlushCaches
@@ -1176,28 +1036,36 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCaches
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_FlushCaches
   name: FlushCaches()
   nameWithType: IDiagnosticsAgent.FlushCaches()
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCaches()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCaches
     name: FlushCaches
+    nameWithType: IDiagnosticsAgent.FlushCaches
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCaches
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_FlushCaches
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCaches
     name: FlushCaches
+    nameWithType: IDiagnosticsAgent.FlushCaches
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCaches
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_FlushCaches
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheNames*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheNames
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_GetCacheNames
   name: GetCacheNames
   nameWithType: DiagnosticsAgent.GetCacheNames
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheNames
@@ -1205,51 +1073,62 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNames
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetCacheNames
   name: GetCacheNames()
   nameWithType: IDiagnosticsAgent.GetCacheNames()
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNames()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNames
     name: GetCacheNames
+    nameWithType: IDiagnosticsAgent.GetCacheNames
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNames
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetCacheNames
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNames
     name: GetCacheNames
+    nameWithType: IDiagnosticsAgent.GetCacheNames
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheNames
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetCacheNames
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String[]
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
   nameWithType.vb: String()
-  fullName.vb: String()
+  fullName.vb: System.String()
   name.vb: String()
   spec.csharp:
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesByName*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesByName
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_FlushCachesByName_System_String___
   name: FlushCachesByName
   nameWithType: DiagnosticsAgent.FlushCachesByName
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.FlushCachesByName
@@ -1257,43 +1136,55 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName(System.String[])
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_FlushCachesByName_System_String___
-  name: FlushCachesByName(string[])
-  nameWithType: IDiagnosticsAgent.FlushCachesByName(string[])
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName(string[])
+  name: FlushCachesByName(String[])
+  nameWithType: IDiagnosticsAgent.FlushCachesByName(String[])
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName(System.String[])
   nameWithType.vb: IDiagnosticsAgent.FlushCachesByName(String())
-  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName(String())
+  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName(System.String())
   name.vb: FlushCachesByName(String())
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName(System.String[])
     name: FlushCachesByName
+    nameWithType: IDiagnosticsAgent.FlushCachesByName
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_FlushCachesByName_System_String___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName(System.String[])
     name: FlushCachesByName
+    nameWithType: IDiagnosticsAgent.FlushCachesByName
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.FlushCachesByName
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_FlushCachesByName_System_String___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheState*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheState
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_GetCacheState_System_String___
   name: GetCacheState
   nameWithType: DiagnosticsAgent.GetCacheState
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.GetCacheState
@@ -1301,54 +1192,68 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(System.String[])
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetCacheState_System_String___
-  name: GetCacheState(string[])
-  nameWithType: IDiagnosticsAgent.GetCacheState(string[])
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(string[])
+  name: GetCacheState(String[])
+  nameWithType: IDiagnosticsAgent.GetCacheState(String[])
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(System.String[])
   nameWithType.vb: IDiagnosticsAgent.GetCacheState(String())
-  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(String())
+  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(System.String())
   name.vb: GetCacheState(String())
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(System.String[])
     name: GetCacheState
+    nameWithType: IDiagnosticsAgent.GetCacheState
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetCacheState_System_String___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState(System.String[])
     name: GetCacheState
+    nameWithType: IDiagnosticsAgent.GetCacheState
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetCacheState
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetCacheState_System_String___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.GetEntityCountsForCurrentUser*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.GetEntityCountsForCurrentUser
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_GetEntityCountsForCurrentUser
   name: GetEntityCountsForCurrentUser
   nameWithType: DiagnosticsAgent.GetEntityCountsForCurrentUser
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.GetEntityCountsForCurrentUser
@@ -1356,27 +1261,35 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetEntityCountsForCurrentUser
   name: GetEntityCountsForCurrentUser()
   nameWithType: IDiagnosticsAgent.GetEntityCountsForCurrentUser()
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser
     name: GetEntityCountsForCurrentUser
+    nameWithType: IDiagnosticsAgent.GetEntityCountsForCurrentUser
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetEntityCountsForCurrentUser
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser
     name: GetEntityCountsForCurrentUser
+    nameWithType: IDiagnosticsAgent.GetEntityCountsForCurrentUser
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForCurrentUser
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetEntityCountsForCurrentUser
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.EntityCounts[]
   isExternal: true
-  href: SuperOffice.CRM.Services.EntityCounts.html
   name: EntityCounts[]
   nameWithType: EntityCounts[]
   fullName: SuperOffice.CRM.Services.EntityCounts[]
@@ -1386,21 +1299,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.EntityCounts
     name: EntityCounts
+    nameWithType: EntityCounts
+    fullName: SuperOffice.CRM.Services.EntityCounts
     isExternal: true
-    href: SuperOffice.CRM.Services.EntityCounts.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.EntityCounts
     name: EntityCounts
+    nameWithType: EntityCounts
+    fullName: SuperOffice.CRM.Services.EntityCounts
     isExternal: true
-    href: SuperOffice.CRM.Services.EntityCounts.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.GetEntityCountsForAllUsers*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.GetEntityCountsForAllUsers
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_GetEntityCountsForAllUsers
   name: GetEntityCountsForAllUsers
   nameWithType: DiagnosticsAgent.GetEntityCountsForAllUsers
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.GetEntityCountsForAllUsers
@@ -1408,28 +1324,36 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetEntityCountsForAllUsers
   name: GetEntityCountsForAllUsers()
   nameWithType: IDiagnosticsAgent.GetEntityCountsForAllUsers()
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers
     name: GetEntityCountsForAllUsers
+    nameWithType: IDiagnosticsAgent.GetEntityCountsForAllUsers
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetEntityCountsForAllUsers
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers
     name: GetEntityCountsForAllUsers
+    nameWithType: IDiagnosticsAgent.GetEntityCountsForAllUsers
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetEntityCountsForAllUsers
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetEntityCountsForAllUsers
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.LogViewState*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.LogViewState
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_LogViewState_System_String_
   name: LogViewState
   nameWithType: DiagnosticsAgent.LogViewState
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.LogViewState
@@ -1437,39 +1361,46 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState(System.String)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_LogViewState_System_String_
-  name: LogViewState(string)
-  nameWithType: IDiagnosticsAgent.LogViewState(string)
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState(string)
-  nameWithType.vb: IDiagnosticsAgent.LogViewState(String)
-  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState(String)
-  name.vb: LogViewState(String)
+  name: LogViewState(String)
+  nameWithType: IDiagnosticsAgent.LogViewState(String)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState(System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState(System.String)
     name: LogViewState
+    nameWithType: IDiagnosticsAgent.LogViewState
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_LogViewState_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState(System.String)
     name: LogViewState
+    nameWithType: IDiagnosticsAgent.LogViewState
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.LogViewState
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_LogViewState_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.ChangeLogSettings*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.ChangeLogSettings
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_ChangeLogSettings_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
   name: ChangeLogSettings
   nameWithType: DiagnosticsAgent.ChangeLogSettings
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.ChangeLogSettings
@@ -1477,134 +1408,165 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettings(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_ChangeLogSettings_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
-  name: ChangeLogSettings(bool, bool, bool, bool, bool, bool, bool, bool)
-  nameWithType: IDiagnosticsAgent.ChangeLogSettings(bool, bool, bool, bool, bool, bool, bool, bool)
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettings(bool, bool, bool, bool, bool, bool, bool, bool)
-  nameWithType.vb: IDiagnosticsAgent.ChangeLogSettings(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)
-  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettings(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)
-  name.vb: ChangeLogSettings(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)
+  name: ChangeLogSettings(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)
+  nameWithType: IDiagnosticsAgent.ChangeLogSettings(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettings(System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettings(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
     name: ChangeLogSettings
+    nameWithType: IDiagnosticsAgent.ChangeLogSettings
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettings
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_ChangeLogSettings_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
-    name: bool
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettings(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
     name: ChangeLogSettings
+    nameWithType: IDiagnosticsAgent.ChangeLogSettings
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.ChangeLogSettings
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_ChangeLogSettings_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Boolean
     name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.CollectDataAdditions*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.CollectDataAdditions
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_CollectDataAdditions
   name: CollectDataAdditions
   nameWithType: DiagnosticsAgent.CollectDataAdditions
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.CollectDataAdditions
@@ -1612,28 +1574,36 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_CollectDataAdditions
   name: CollectDataAdditions()
   nameWithType: IDiagnosticsAgent.CollectDataAdditions()
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions
     name: CollectDataAdditions
+    nameWithType: IDiagnosticsAgent.CollectDataAdditions
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_CollectDataAdditions
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions
     name: CollectDataAdditions
+    nameWithType: IDiagnosticsAgent.CollectDataAdditions
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectDataAdditions
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_CollectDataAdditions
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.CollectWinUsage*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.CollectWinUsage
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_CollectWinUsage
   name: CollectWinUsage
   nameWithType: DiagnosticsAgent.CollectWinUsage
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.CollectWinUsage
@@ -1641,28 +1611,36 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_CollectWinUsage
   name: CollectWinUsage()
   nameWithType: IDiagnosticsAgent.CollectWinUsage()
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage
     name: CollectWinUsage
+    nameWithType: IDiagnosticsAgent.CollectWinUsage
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_CollectWinUsage
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage
     name: CollectWinUsage
+    nameWithType: IDiagnosticsAgent.CollectWinUsage
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWinUsage
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_CollectWinUsage
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.CollectWebUsage*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.CollectWebUsage
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_CollectWebUsage
   name: CollectWebUsage
   nameWithType: DiagnosticsAgent.CollectWebUsage
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.CollectWebUsage
@@ -1670,28 +1648,36 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_CollectWebUsage
   name: CollectWebUsage()
   nameWithType: IDiagnosticsAgent.CollectWebUsage()
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage
     name: CollectWebUsage
+    nameWithType: IDiagnosticsAgent.CollectWebUsage
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_CollectWebUsage
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage
     name: CollectWebUsage
+    nameWithType: IDiagnosticsAgent.CollectWebUsage
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectWebUsage
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_CollectWebUsage
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.CollectTableSizes*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.CollectTableSizes
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_CollectTableSizes
   name: CollectTableSizes
   nameWithType: DiagnosticsAgent.CollectTableSizes
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.CollectTableSizes
@@ -1699,28 +1685,36 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_CollectTableSizes
   name: CollectTableSizes()
   nameWithType: IDiagnosticsAgent.CollectTableSizes()
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes
     name: CollectTableSizes
+    nameWithType: IDiagnosticsAgent.CollectTableSizes
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_CollectTableSizes
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes
     name: CollectTableSizes
+    nameWithType: IDiagnosticsAgent.CollectTableSizes
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.CollectTableSizes
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_CollectTableSizes
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.ResyncUsers*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.ResyncUsers
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_ResyncUsers
   name: ResyncUsers
   nameWithType: DiagnosticsAgent.ResyncUsers
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.ResyncUsers
@@ -1728,28 +1722,36 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_ResyncUsers
   name: ResyncUsers()
   nameWithType: IDiagnosticsAgent.ResyncUsers()
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers
     name: ResyncUsers
+    nameWithType: IDiagnosticsAgent.ResyncUsers
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_ResyncUsers
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers
     name: ResyncUsers
+    nameWithType: IDiagnosticsAgent.ResyncUsers
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.ResyncUsers
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_ResyncUsers
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.SendSystemMessage*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.SendSystemMessage
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_SendSystemMessage_System_String_System_Int32_System_String_System_DateTime_SuperOffice_Data_SystemMessageType_
   name: SendSystemMessage
   nameWithType: DiagnosticsAgent.SendSystemMessage
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.SendSystemMessage
@@ -1757,103 +1759,119 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_SendSystemMessage_System_String_System_Int32_System_String_System_DateTime_SuperOffice_Data_SystemMessageType_
-  name: SendSystemMessage(string, int, string, DateTime, SystemMessageType)
-  nameWithType: IDiagnosticsAgent.SendSystemMessage(string, int, string, DateTime, SystemMessageType)
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage(string, int, string, System.DateTime, SuperOffice.Data.SystemMessageType)
-  nameWithType.vb: IDiagnosticsAgent.SendSystemMessage(String, Integer, String, Date, SystemMessageType)
-  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage(String, Integer, String, Date, SuperOffice.Data.SystemMessageType)
-  name.vb: SendSystemMessage(String, Integer, String, Date, SystemMessageType)
+  name: SendSystemMessage(String, Int32, String, DateTime, SystemMessageType)
+  nameWithType: IDiagnosticsAgent.SendSystemMessage(String, Int32, String, DateTime, SystemMessageType)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage(System.String, System.Int32, System.String, System.DateTime, SuperOffice.Data.SystemMessageType)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType)
     name: SendSystemMessage
+    nameWithType: IDiagnosticsAgent.SendSystemMessage
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_SendSystemMessage_System_String_System_Int32_System_String_System_DateTime_SuperOffice_Data_SystemMessageType_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.DateTime
     name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.datetime
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.SystemMessageType
     name: SystemMessageType
+    nameWithType: SystemMessageType
+    fullName: SuperOffice.Data.SystemMessageType
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage(System.String,System.Int32,System.String,System.DateTime,SuperOffice.Data.SystemMessageType)
     name: SendSystemMessage
+    nameWithType: IDiagnosticsAgent.SendSystemMessage
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.SendSystemMessage
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_SendSystemMessage_System_String_System_Int32_System_String_System_DateTime_SuperOffice_Data_SystemMessageType_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.DateTime
-    name: Date
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.datetime
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.SystemMessageType
     name: SystemMessageType
+    nameWithType: SystemMessageType
+    fullName: SuperOffice.Data.SystemMessageType
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: SuperOffice.Data.SystemMessageType
   isExternal: true
   name: SystemMessageType
@@ -1862,7 +1880,6 @@ references:
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.RemoveSystemMessage*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.RemoveSystemMessage
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_RemoveSystemMessage_System_Int32_System_String_
   name: RemoveSystemMessage
   nameWithType: DiagnosticsAgent.RemoveSystemMessage
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.RemoveSystemMessage
@@ -1870,51 +1887,62 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage(System.Int32,System.String)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_RemoveSystemMessage_System_Int32_System_String_
-  name: RemoveSystemMessage(int, string)
-  nameWithType: IDiagnosticsAgent.RemoveSystemMessage(int, string)
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage(int, string)
-  nameWithType.vb: IDiagnosticsAgent.RemoveSystemMessage(Integer, String)
-  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage(Integer, String)
-  name.vb: RemoveSystemMessage(Integer, String)
+  name: RemoveSystemMessage(Int32, String)
+  nameWithType: IDiagnosticsAgent.RemoveSystemMessage(Int32, String)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage(System.Int32, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage(System.Int32,System.String)
     name: RemoveSystemMessage
+    nameWithType: IDiagnosticsAgent.RemoveSystemMessage
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_RemoveSystemMessage_System_Int32_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage(System.Int32,System.String)
     name: RemoveSystemMessage
+    nameWithType: IDiagnosticsAgent.RemoveSystemMessage
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessage
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_RemoveSystemMessage_System_Int32_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.RemoveSystemMessageForAssociate*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.RemoveSystemMessageForAssociate
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_RemoveSystemMessageForAssociate_System_Int32_System_String_System_Int32_
   name: RemoveSystemMessageForAssociate
   nameWithType: DiagnosticsAgent.RemoveSystemMessageForAssociate
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.RemoveSystemMessageForAssociate
@@ -1922,63 +1950,78 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate(System.Int32,System.String,System.Int32)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_RemoveSystemMessageForAssociate_System_Int32_System_String_System_Int32_
-  name: RemoveSystemMessageForAssociate(int, string, int)
-  nameWithType: IDiagnosticsAgent.RemoveSystemMessageForAssociate(int, string, int)
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate(int, string, int)
-  nameWithType.vb: IDiagnosticsAgent.RemoveSystemMessageForAssociate(Integer, String, Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate(Integer, String, Integer)
-  name.vb: RemoveSystemMessageForAssociate(Integer, String, Integer)
+  name: RemoveSystemMessageForAssociate(Int32, String, Int32)
+  nameWithType: IDiagnosticsAgent.RemoveSystemMessageForAssociate(Int32, String, Int32)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate(System.Int32, System.String, System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate(System.Int32,System.String,System.Int32)
     name: RemoveSystemMessageForAssociate
+    nameWithType: IDiagnosticsAgent.RemoveSystemMessageForAssociate
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_RemoveSystemMessageForAssociate_System_Int32_System_String_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate(System.Int32,System.String,System.Int32)
     name: RemoveSystemMessageForAssociate
+    nameWithType: IDiagnosticsAgent.RemoveSystemMessageForAssociate
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveSystemMessageForAssociate
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_RemoveSystemMessageForAssociate_System_Int32_System_String_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.GetSystemMessages*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.GetSystemMessages
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_GetSystemMessages_System_Int32_
   name: GetSystemMessages
   nameWithType: DiagnosticsAgent.GetSystemMessages
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.GetSystemMessages
@@ -1986,38 +2029,45 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages(System.Int32)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetSystemMessages_System_Int32_
-  name: GetSystemMessages(int)
-  nameWithType: IDiagnosticsAgent.GetSystemMessages(int)
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages(int)
-  nameWithType.vb: IDiagnosticsAgent.GetSystemMessages(Integer)
-  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages(Integer)
-  name.vb: GetSystemMessages(Integer)
+  name: GetSystemMessages(Int32)
+  nameWithType: IDiagnosticsAgent.GetSystemMessages(Int32)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages(System.Int32)
     name: GetSystemMessages
+    nameWithType: IDiagnosticsAgent.GetSystemMessages
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetSystemMessages_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages(System.Int32)
     name: GetSystemMessages
+    nameWithType: IDiagnosticsAgent.GetSystemMessages
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetSystemMessages
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetSystemMessages_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.SystemMessage[]
   isExternal: true
-  href: SuperOffice.CRM.Services.SystemMessage.html
   name: SystemMessage[]
   nameWithType: SystemMessage[]
   fullName: SuperOffice.CRM.Services.SystemMessage[]
@@ -2027,21 +2077,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.SystemMessage
     name: SystemMessage
+    nameWithType: SystemMessage
+    fullName: SuperOffice.CRM.Services.SystemMessage
     isExternal: true
-    href: SuperOffice.CRM.Services.SystemMessage.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.SystemMessage
     name: SystemMessage
+    nameWithType: SystemMessage
+    fullName: SuperOffice.CRM.Services.SystemMessage
     isExternal: true
-    href: SuperOffice.CRM.Services.SystemMessage.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.RemoveExpiredSystemMessages*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.RemoveExpiredSystemMessages
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_RemoveExpiredSystemMessages
   name: RemoveExpiredSystemMessages
   nameWithType: DiagnosticsAgent.RemoveExpiredSystemMessages
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.RemoveExpiredSystemMessages
@@ -2049,28 +2102,36 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_RemoveExpiredSystemMessages
   name: RemoveExpiredSystemMessages()
   nameWithType: IDiagnosticsAgent.RemoveExpiredSystemMessages()
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages
     name: RemoveExpiredSystemMessages
+    nameWithType: IDiagnosticsAgent.RemoveExpiredSystemMessages
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_RemoveExpiredSystemMessages
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages
     name: RemoveExpiredSystemMessages
+    nameWithType: IDiagnosticsAgent.RemoveExpiredSystemMessages
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.RemoveExpiredSystemMessages
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_RemoveExpiredSystemMessages
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterUpgrade*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterUpgrade
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_PerformTasksAfterUpgrade
   name: PerformTasksAfterUpgrade
   nameWithType: DiagnosticsAgent.PerformTasksAfterUpgrade
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.PerformTasksAfterUpgrade
@@ -2078,28 +2139,36 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_PerformTasksAfterUpgrade
   name: PerformTasksAfterUpgrade()
   nameWithType: IDiagnosticsAgent.PerformTasksAfterUpgrade()
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade()
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
     name: PerformTasksAfterUpgrade
+    nameWithType: IDiagnosticsAgent.PerformTasksAfterUpgrade
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_PerformTasksAfterUpgrade
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
     name: PerformTasksAfterUpgrade
+    nameWithType: IDiagnosticsAgent.PerformTasksAfterUpgrade
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.PerformTasksAfterUpgrade
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_PerformTasksAfterUpgrade
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.AddWebAppUsage*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.AddWebAppUsage
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_AddWebAppUsage_SuperOffice_CRM_Services_WebAppUsage___
   name: AddWebAppUsage
   nameWithType: DiagnosticsAgent.AddWebAppUsage
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.AddWebAppUsage
@@ -2107,7 +2176,6 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_AddWebAppUsage_SuperOffice_CRM_Services_WebAppUsage___
   name: AddWebAppUsage(WebAppUsage[])
   nameWithType: IDiagnosticsAgent.AddWebAppUsage(WebAppUsage[])
   fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
@@ -2117,32 +2185,45 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
     name: AddWebAppUsage
+    nameWithType: IDiagnosticsAgent.AddWebAppUsage
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_AddWebAppUsage_SuperOffice_CRM_Services_WebAppUsage___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.WebAppUsage
     name: WebAppUsage
+    nameWithType: WebAppUsage
+    fullName: SuperOffice.CRM.Services.WebAppUsage
     isExternal: true
-    href: SuperOffice.CRM.Services.WebAppUsage.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage(SuperOffice.CRM.Services.WebAppUsage[])
     name: AddWebAppUsage
+    nameWithType: IDiagnosticsAgent.AddWebAppUsage
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.AddWebAppUsage
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_AddWebAppUsage_SuperOffice_CRM_Services_WebAppUsage___
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Services.WebAppUsage
     name: WebAppUsage
+    nameWithType: WebAppUsage
+    fullName: SuperOffice.CRM.Services.WebAppUsage
     isExternal: true
-    href: SuperOffice.CRM.Services.WebAppUsage.html
-  - name: (
+  - name: ()
+    nameWithType: ()
+    fullName: ()
   - name: )
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.WebAppUsage[]
   isExternal: true
-  href: SuperOffice.CRM.Services.WebAppUsage.html
   name: WebAppUsage[]
   nameWithType: WebAppUsage[]
   fullName: SuperOffice.CRM.Services.WebAppUsage[]
@@ -2152,21 +2233,24 @@ references:
   spec.csharp:
   - uid: SuperOffice.CRM.Services.WebAppUsage
     name: WebAppUsage
+    nameWithType: WebAppUsage
+    fullName: SuperOffice.CRM.Services.WebAppUsage
     isExternal: true
-    href: SuperOffice.CRM.Services.WebAppUsage.html
-  - name: '['
-  - name: ']'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
   spec.vb:
   - uid: SuperOffice.CRM.Services.WebAppUsage
     name: WebAppUsage
+    nameWithType: WebAppUsage
+    fullName: SuperOffice.CRM.Services.WebAppUsage
     isExternal: true
-    href: SuperOffice.CRM.Services.WebAppUsage.html
-  - name: (
-  - name: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.WebAppUsageExistsInPeriod*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.WebAppUsageExistsInPeriod
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_WebAppUsageExistsInPeriod_System_Int32_System_String_System_DateTime_
   name: WebAppUsageExistsInPeriod
   nameWithType: DiagnosticsAgent.WebAppUsageExistsInPeriod
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.WebAppUsageExistsInPeriod
@@ -2174,63 +2258,78 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod(System.Int32,System.String,System.DateTime)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_WebAppUsageExistsInPeriod_System_Int32_System_String_System_DateTime_
-  name: WebAppUsageExistsInPeriod(int, string, DateTime)
-  nameWithType: IDiagnosticsAgent.WebAppUsageExistsInPeriod(int, string, DateTime)
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod(int, string, System.DateTime)
-  nameWithType.vb: IDiagnosticsAgent.WebAppUsageExistsInPeriod(Integer, String, Date)
-  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod(Integer, String, Date)
-  name.vb: WebAppUsageExistsInPeriod(Integer, String, Date)
+  name: WebAppUsageExistsInPeriod(Int32, String, DateTime)
+  nameWithType: IDiagnosticsAgent.WebAppUsageExistsInPeriod(Int32, String, DateTime)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod(System.Int32, System.String, System.DateTime)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod(System.Int32,System.String,System.DateTime)
     name: WebAppUsageExistsInPeriod
+    nameWithType: IDiagnosticsAgent.WebAppUsageExistsInPeriod
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_WebAppUsageExistsInPeriod_System_Int32_System_String_System_DateTime_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.DateTime
     name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.datetime
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod(System.Int32,System.String,System.DateTime)
     name: WebAppUsageExistsInPeriod
+    nameWithType: IDiagnosticsAgent.WebAppUsageExistsInPeriod
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.WebAppUsageExistsInPeriod
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_WebAppUsageExistsInPeriod_System_Int32_System_String_System_DateTime_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.DateTime
-    name: Date
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.datetime
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.GetWebAppUsagesForPeriod*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.GetWebAppUsagesForPeriod
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent_GetWebAppUsagesForPeriod_System_DateTime_System_DateTime_System_String_
   name: GetWebAppUsagesForPeriod
   nameWithType: DiagnosticsAgent.GetWebAppUsagesForPeriod
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.GetWebAppUsagesForPeriod
@@ -2238,66 +2337,78 @@ references:
   commentId: M:SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
   parent: SuperOffice.CRM.Services.IDiagnosticsAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetWebAppUsagesForPeriod_System_DateTime_System_DateTime_System_String_
-  name: GetWebAppUsagesForPeriod(DateTime, DateTime, string)
-  nameWithType: IDiagnosticsAgent.GetWebAppUsagesForPeriod(DateTime, DateTime, string)
-  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime, System.DateTime, string)
-  nameWithType.vb: IDiagnosticsAgent.GetWebAppUsagesForPeriod(Date, Date, String)
-  fullName.vb: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod(Date, Date, String)
-  name.vb: GetWebAppUsagesForPeriod(Date, Date, String)
+  name: GetWebAppUsagesForPeriod(DateTime, DateTime, String)
+  nameWithType: IDiagnosticsAgent.GetWebAppUsagesForPeriod(DateTime, DateTime, String)
+  fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime, System.DateTime, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
     name: GetWebAppUsagesForPeriod
+    nameWithType: IDiagnosticsAgent.GetWebAppUsagesForPeriod
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetWebAppUsagesForPeriod_System_DateTime_System_DateTime_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.DateTime
     name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.datetime
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.DateTime
     name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.datetime
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod(System.DateTime,System.DateTime,System.String)
     name: GetWebAppUsagesForPeriod
+    nameWithType: IDiagnosticsAgent.GetWebAppUsagesForPeriod
+    fullName: SuperOffice.CRM.Services.IDiagnosticsAgent.GetWebAppUsagesForPeriod
     isExternal: true
-    href: SuperOffice.CRM.Services.IDiagnosticsAgent.html#SuperOffice_CRM_Services_IDiagnosticsAgent_GetWebAppUsagesForPeriod_System_DateTime_System_DateTime_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.DateTime
-    name: Date
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.datetime
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.DateTime
-    name: Date
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.datetime
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Services.DiagnosticsAgent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.DiagnosticsAgent.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.DiagnosticsAgent.html#SuperOffice_CRM_Services_DiagnosticsAgent__ctor
   name: DiagnosticsAgent
   nameWithType: DiagnosticsAgent.DiagnosticsAgent
   fullName: SuperOffice.CRM.Services.DiagnosticsAgent.DiagnosticsAgent
-  nameWithType.vb: DiagnosticsAgent.New
-  fullName.vb: SuperOffice.CRM.Services.DiagnosticsAgent.New
-  name.vb: New

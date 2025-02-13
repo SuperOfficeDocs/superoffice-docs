@@ -21,28 +21,24 @@ references:
 - uid: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicAppointmentExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicAppointmentExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicAppointmentExtender.html
   name: DynamicAppointmentExtender
   nameWithType: DynamicAppointmentExtender
   fullName: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicAppointmentExtender
 - uid: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicDocumentExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicDocumentExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicDocumentExtender.html
   name: DynamicDocumentExtender
   nameWithType: DynamicDocumentExtender
   fullName: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicDocumentExtender
 - uid: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicProjectExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicProjectExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicProjectExtender.html
   name: DynamicProjectExtender
   nameWithType: DynamicProjectExtender
   fullName: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicProjectExtender
 - uid: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender
   isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.html
   name: DynamicSaleExtender
   nameWithType: DynamicSaleExtender
   fullName: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender

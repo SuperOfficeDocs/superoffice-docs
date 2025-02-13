@@ -14,11 +14,13 @@ items:
   nameWithType: UDefFieldCache
   fullName: SuperOffice.CRM.Rows.UDefFieldCache
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Udef field cache for published fields
-  example: []
+  summary: "\nUdef field cache for published fields\n"
   syntax:
     content: >-
       [CacheV2("Database", 0)]
@@ -27,7 +29,9 @@ items:
     content.vb: >-
       <CacheV2("Database", 0)>
 
-      Public Class UDefFieldCache Inherits UDefFieldCacheBase Implements IFlushableV2, IDisposable
+      Public Class UDefFieldCache
+          Inherits UDefFieldCacheBase
+          Implements IFlushableV2, IDisposable
   inheritance:
   - System.Object
   - SuperOffice.Data.Cache.CacheBaseV2
@@ -66,18 +70,11 @@ items:
   - SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
   - SuperOffice.Data.Cache.CacheBaseV2.Load
   - SuperOffice.Data.Cache.CacheBaseV2.Disposed
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.UDefFieldCache.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Rows.UDefFieldCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.UDefFieldCache.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.UDefFieldCache)
   - SuperOffice.CRM.Rows.UDefFieldCache.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.UDefFieldCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   attributes:
   - type: SuperOffice.Data.Cache.CacheV2Attribute
     ctor: SuperOffice.Data.Cache.CacheV2Attribute.#ctor(System.String,System.Int32)
@@ -86,6 +83,12 @@ items:
       value: Database
     - type: System.Int32
       value: 0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Rows.UDefFieldCache.GetCurrent
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCache.GetCurrent
   id: GetCurrent
@@ -97,6 +100,9 @@ items:
   nameWithType: UDefFieldCache.GetCurrent()
   fullName: SuperOffice.CRM.Rows.UDefFieldCache.GetCurrent()
   type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
@@ -104,8 +110,14 @@ items:
     content: public static UDefFieldCache GetCurrent()
     return:
       type: SuperOffice.CRM.Rows.UDefFieldCache
-    content.vb: Public Shared Function GetCurrent() As UDefFieldCache
+    content.vb: Public Shared Function GetCurrent As UDefFieldCache
   overload: SuperOffice.CRM.Rows.UDefFieldCache.GetCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.Rows.UDefFieldCache.#ctor
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCache.#ctor
   id: '#ctor'
@@ -117,70 +129,38 @@ items:
   nameWithType: UDefFieldCache.UDefFieldCache()
   fullName: SuperOffice.CRM.Rows.UDefFieldCache.UDefFieldCache()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public UDefFieldCache()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Rows.UDefFieldCache.#ctor*
-  nameWithType.vb: UDefFieldCache.New()
-  fullName.vb: SuperOffice.CRM.Rows.UDefFieldCache.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.Data.Cache.CacheBaseV2
   commentId: T:SuperOffice.Data.Cache.CacheBaseV2
   parent: SuperOffice.Data.Cache
   isExternal: true
-  href: SuperOffice.Data.Cache.CacheBaseV2.html
   name: CacheBaseV2
   nameWithType: CacheBaseV2
   fullName: SuperOffice.Data.Cache.CacheBaseV2
@@ -188,7 +168,6 @@ references:
   commentId: T:SuperOffice.CRM.Rows.UDefFieldCacheBase
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html
   name: UDefFieldCacheBase
   nameWithType: UDefFieldCacheBase
   fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase
@@ -196,15 +175,11 @@ references:
   commentId: T:SuperOffice.Data.Cache.IFlushableV2
   parent: SuperOffice.Data.Cache
   isExternal: true
-  href: SuperOffice.Data.Cache.IFlushableV2.html
   name: IFlushableV2
   nameWithType: IFlushableV2
   fullName: SuperOffice.Data.Cache.IFlushableV2
 - uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
@@ -212,729 +187,980 @@ references:
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromId(System.Int32)
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromId_System_Int32_
-  name: GetFromId(int)
-  nameWithType: UDefFieldCacheBase.GetFromId(int)
-  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromId(int)
-  nameWithType.vb: UDefFieldCacheBase.GetFromId(Integer)
-  fullName.vb: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromId(Integer)
-  name.vb: GetFromId(Integer)
+  name: GetFromId(Int32)
+  nameWithType: UDefFieldCacheBase.GetFromId(Int32)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromId(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromId(System.Int32)
     name: GetFromId
+    nameWithType: UDefFieldCacheBase.GetFromId
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromId
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromId_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromId(System.Int32)
     name: GetFromId
+    nameWithType: UDefFieldCacheBase.GetFromId
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromId
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromId_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(SuperOffice.Data.SQL.FieldInfo)
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromField_SuperOffice_Data_SQL_FieldInfo_
   name: GetFromField(FieldInfo)
   nameWithType: UDefFieldCacheBase.GetFromField(FieldInfo)
   fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(SuperOffice.Data.SQL.FieldInfo)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(SuperOffice.Data.SQL.FieldInfo)
     name: GetFromField
+    nameWithType: UDefFieldCacheBase.GetFromField
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromField_SuperOffice_Data_SQL_FieldInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(SuperOffice.Data.SQL.FieldInfo)
     name: GetFromField
+    nameWithType: UDefFieldCacheBase.GetFromField
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromField_SuperOffice_Data_SQL_FieldInfo_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.SQL.FieldInfo
     name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
     isExternal: true
-    href: SuperOffice.Data.SQL.FieldInfo.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(SuperOffice.Data.Dictionary.SoField)
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(SuperOffice.Data.Dictionary.SoField)
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromField_SuperOffice_Data_Dictionary_SoField_
   name: GetFromField(SoField)
   nameWithType: UDefFieldCacheBase.GetFromField(SoField)
   fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(SuperOffice.Data.Dictionary.SoField)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(SuperOffice.Data.Dictionary.SoField)
     name: GetFromField
+    nameWithType: UDefFieldCacheBase.GetFromField
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromField_SuperOffice_Data_Dictionary_SoField_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(SuperOffice.Data.Dictionary.SoField)
     name: GetFromField
+    nameWithType: UDefFieldCacheBase.GetFromField
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromField_SuperOffice_Data_Dictionary_SoField_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.Dictionary.SoField
     name: SoField
+    nameWithType: SoField
+    fullName: SuperOffice.Data.Dictionary.SoField
     isExternal: true
-    href: SuperOffice.Data.Dictionary.SoField.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(System.Int32)
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(System.Int32)
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromField_System_Int32_
-  name: GetFromField(int)
-  nameWithType: UDefFieldCacheBase.GetFromField(int)
-  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(int)
-  nameWithType.vb: UDefFieldCacheBase.GetFromField(Integer)
-  fullName.vb: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(Integer)
-  name.vb: GetFromField(Integer)
+  name: GetFromField(Int32)
+  nameWithType: UDefFieldCacheBase.GetFromField(Int32)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(System.Int32)
     name: GetFromField
+    nameWithType: UDefFieldCacheBase.GetFromField
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromField_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField(System.Int32)
     name: GetFromField
+    nameWithType: UDefFieldCacheBase.GetFromField
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromField
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromField_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity(System.Int32,SuperOffice.Data.UDefType)
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity(System.Int32,SuperOffice.Data.UDefType)
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromUdefIdentity_System_Int32_SuperOffice_Data_UDefType_
-  name: GetFromUdefIdentity(int, UDefType)
-  nameWithType: UDefFieldCacheBase.GetFromUdefIdentity(int, UDefType)
-  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity(int, SuperOffice.Data.UDefType)
-  nameWithType.vb: UDefFieldCacheBase.GetFromUdefIdentity(Integer, UDefType)
-  fullName.vb: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity(Integer, SuperOffice.Data.UDefType)
-  name.vb: GetFromUdefIdentity(Integer, UDefType)
+  name: GetFromUdefIdentity(Int32, UDefType)
+  nameWithType: UDefFieldCacheBase.GetFromUdefIdentity(Int32, UDefType)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity(System.Int32, SuperOffice.Data.UDefType)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity(System.Int32,SuperOffice.Data.UDefType)
     name: GetFromUdefIdentity
+    nameWithType: UDefFieldCacheBase.GetFromUdefIdentity
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromUdefIdentity_System_Int32_SuperOffice_Data_UDefType_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.UDefType
     name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity(System.Int32,SuperOffice.Data.UDefType)
     name: GetFromUdefIdentity
+    nameWithType: UDefFieldCacheBase.GetFromUdefIdentity
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUdefIdentity
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromUdefIdentity_System_Int32_SuperOffice_Data_UDefType_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.UDefType
     name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId(System.String,SuperOffice.Data.UDefType)
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId(System.String,SuperOffice.Data.UDefType)
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromProgId_System_String_SuperOffice_Data_UDefType_
-  name: GetFromProgId(string, UDefType)
-  nameWithType: UDefFieldCacheBase.GetFromProgId(string, UDefType)
-  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId(string, SuperOffice.Data.UDefType)
-  nameWithType.vb: UDefFieldCacheBase.GetFromProgId(String, UDefType)
-  fullName.vb: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId(String, SuperOffice.Data.UDefType)
-  name.vb: GetFromProgId(String, UDefType)
+  name: GetFromProgId(String, UDefType)
+  nameWithType: UDefFieldCacheBase.GetFromProgId(String, UDefType)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId(System.String, SuperOffice.Data.UDefType)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId(System.String,SuperOffice.Data.UDefType)
     name: GetFromProgId
+    nameWithType: UDefFieldCacheBase.GetFromProgId
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromProgId_System_String_SuperOffice_Data_UDefType_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.UDefType
     name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId(System.String,SuperOffice.Data.UDefType)
     name: GetFromProgId
+    nameWithType: UDefFieldCacheBase.GetFromProgId
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromProgId
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromProgId_System_String_SuperOffice_Data_UDefType_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.UDefType
     name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUDListDefinitionId(System.Int32)
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUDListDefinitionId(System.Int32)
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromUDListDefinitionId_System_Int32_
-  name: GetFromUDListDefinitionId(int)
-  nameWithType: UDefFieldCacheBase.GetFromUDListDefinitionId(int)
-  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUDListDefinitionId(int)
-  nameWithType.vb: UDefFieldCacheBase.GetFromUDListDefinitionId(Integer)
-  fullName.vb: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUDListDefinitionId(Integer)
-  name.vb: GetFromUDListDefinitionId(Integer)
+  name: GetFromUDListDefinitionId(Int32)
+  nameWithType: UDefFieldCacheBase.GetFromUDListDefinitionId(Int32)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUDListDefinitionId(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUDListDefinitionId(System.Int32)
     name: GetFromUDListDefinitionId
+    nameWithType: UDefFieldCacheBase.GetFromUDListDefinitionId
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUDListDefinitionId
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromUDListDefinitionId_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUDListDefinitionId(System.Int32)
     name: GetFromUDListDefinitionId
+    nameWithType: UDefFieldCacheBase.GetFromUDListDefinitionId
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromUDListDefinitionId
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromUDListDefinitionId_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromType(SuperOffice.Data.UDefType)
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromType(SuperOffice.Data.UDefType)
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromType_SuperOffice_Data_UDefType_
   name: GetFromType(UDefType)
   nameWithType: UDefFieldCacheBase.GetFromType(UDefType)
   fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromType(SuperOffice.Data.UDefType)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromType(SuperOffice.Data.UDefType)
     name: GetFromType
+    nameWithType: UDefFieldCacheBase.GetFromType
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromType
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromType_SuperOffice_Data_UDefType_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.UDefType
     name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromType(SuperOffice.Data.UDefType)
     name: GetFromType
+    nameWithType: UDefFieldCacheBase.GetFromType
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromType
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromType_SuperOffice_Data_UDefType_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.UDefType
     name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabel(SuperOffice.Data.UDefType,System.String)
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabel(SuperOffice.Data.UDefType,System.String)
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFirstFromLabel_SuperOffice_Data_UDefType_System_String_
-  name: GetFirstFromLabel(UDefType, string)
-  nameWithType: UDefFieldCacheBase.GetFirstFromLabel(UDefType, string)
-  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabel(SuperOffice.Data.UDefType, string)
-  nameWithType.vb: UDefFieldCacheBase.GetFirstFromLabel(UDefType, String)
-  fullName.vb: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabel(SuperOffice.Data.UDefType, String)
-  name.vb: GetFirstFromLabel(UDefType, String)
+  name: GetFirstFromLabel(UDefType, String)
+  nameWithType: UDefFieldCacheBase.GetFirstFromLabel(UDefType, String)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabel(SuperOffice.Data.UDefType, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabel(SuperOffice.Data.UDefType,System.String)
     name: GetFirstFromLabel
+    nameWithType: UDefFieldCacheBase.GetFirstFromLabel
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabel
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFirstFromLabel_SuperOffice_Data_UDefType_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.UDefType
     name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabel(SuperOffice.Data.UDefType,System.String)
     name: GetFirstFromLabel
+    nameWithType: UDefFieldCacheBase.GetFirstFromLabel
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabel
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFirstFromLabel_SuperOffice_Data_UDefType_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.UDefType
     name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabelWithCulture(SuperOffice.Data.UDefType,System.String,System.String)
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabelWithCulture(SuperOffice.Data.UDefType,System.String,System.String)
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFirstFromLabelWithCulture_SuperOffice_Data_UDefType_System_String_System_String_
-  name: GetFirstFromLabelWithCulture(UDefType, string, string)
-  nameWithType: UDefFieldCacheBase.GetFirstFromLabelWithCulture(UDefType, string, string)
-  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabelWithCulture(SuperOffice.Data.UDefType, string, string)
-  nameWithType.vb: UDefFieldCacheBase.GetFirstFromLabelWithCulture(UDefType, String, String)
-  fullName.vb: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabelWithCulture(SuperOffice.Data.UDefType, String, String)
-  name.vb: GetFirstFromLabelWithCulture(UDefType, String, String)
+  name: GetFirstFromLabelWithCulture(UDefType, String, String)
+  nameWithType: UDefFieldCacheBase.GetFirstFromLabelWithCulture(UDefType, String, String)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabelWithCulture(SuperOffice.Data.UDefType, System.String, System.String)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabelWithCulture(SuperOffice.Data.UDefType,System.String,System.String)
     name: GetFirstFromLabelWithCulture
+    nameWithType: UDefFieldCacheBase.GetFirstFromLabelWithCulture
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabelWithCulture
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFirstFromLabelWithCulture_SuperOffice_Data_UDefType_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.UDefType
     name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabelWithCulture(SuperOffice.Data.UDefType,System.String,System.String)
     name: GetFirstFromLabelWithCulture
+    nameWithType: UDefFieldCacheBase.GetFirstFromLabelWithCulture
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFirstFromLabelWithCulture
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFirstFromLabelWithCulture_SuperOffice_Data_UDefType_System_String_System_String_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.UDefType
     name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromFieldLabel(System.String,SuperOffice.Data.UDefType)
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromFieldLabel(System.String,SuperOffice.Data.UDefType)
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromFieldLabel_System_String_SuperOffice_Data_UDefType_
-  name: GetFromFieldLabel(string, UDefType)
-  nameWithType: UDefFieldCacheBase.GetFromFieldLabel(string, UDefType)
-  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromFieldLabel(string, SuperOffice.Data.UDefType)
-  nameWithType.vb: UDefFieldCacheBase.GetFromFieldLabel(String, UDefType)
-  fullName.vb: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromFieldLabel(String, SuperOffice.Data.UDefType)
-  name.vb: GetFromFieldLabel(String, UDefType)
+  name: GetFromFieldLabel(String, UDefType)
+  nameWithType: UDefFieldCacheBase.GetFromFieldLabel(String, UDefType)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromFieldLabel(System.String, SuperOffice.Data.UDefType)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromFieldLabel(System.String,SuperOffice.Data.UDefType)
     name: GetFromFieldLabel
+    nameWithType: UDefFieldCacheBase.GetFromFieldLabel
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromFieldLabel
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromFieldLabel_System_String_SuperOffice_Data_UDefType_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.UDefType
     name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromFieldLabel(System.String,SuperOffice.Data.UDefType)
     name: GetFromFieldLabel
+    nameWithType: UDefFieldCacheBase.GetFromFieldLabel
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetFromFieldLabel
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetFromFieldLabel_System_String_SuperOffice_Data_UDefType_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.UDefType
     name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType,System.Int32)
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType,System.Int32)
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetPageOneFieldsFromType_SuperOffice_Data_UDefType_System_Int32_
-  name: GetPageOneFieldsFromType(UDefType, int)
-  nameWithType: UDefFieldCacheBase.GetPageOneFieldsFromType(UDefType, int)
-  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType, int)
-  nameWithType.vb: UDefFieldCacheBase.GetPageOneFieldsFromType(UDefType, Integer)
-  fullName.vb: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType, Integer)
-  name.vb: GetPageOneFieldsFromType(UDefType, Integer)
+  name: GetPageOneFieldsFromType(UDefType, Int32)
+  nameWithType: UDefFieldCacheBase.GetPageOneFieldsFromType(UDefType, Int32)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType, System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType,System.Int32)
     name: GetPageOneFieldsFromType
+    nameWithType: UDefFieldCacheBase.GetPageOneFieldsFromType
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetPageOneFieldsFromType_SuperOffice_Data_UDefType_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.UDefType
     name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType,System.Int32)
     name: GetPageOneFieldsFromType
+    nameWithType: UDefFieldCacheBase.GetPageOneFieldsFromType
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetPageOneFieldsFromType_SuperOffice_Data_UDefType_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.UDefType
     name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
     isExternal: true
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType)
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType)
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetPageOneFieldsFromType_SuperOffice_Data_UDefType_
   name: GetPageOneFieldsFromType(UDefType)
   nameWithType: UDefFieldCacheBase.GetPageOneFieldsFromType(UDefType)
   fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType)
     name: GetPageOneFieldsFromType
+    nameWithType: UDefFieldCacheBase.GetPageOneFieldsFromType
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetPageOneFieldsFromType_SuperOffice_Data_UDefType_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.UDefType
     name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType(SuperOffice.Data.UDefType)
     name: GetPageOneFieldsFromType
+    nameWithType: UDefFieldCacheBase.GetPageOneFieldsFromType
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetPageOneFieldsFromType
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetPageOneFieldsFromType_SuperOffice_Data_UDefType_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.UDefType
     name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetAllPageOneFieldsFromType(SuperOffice.Data.UDefType)
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetAllPageOneFieldsFromType(SuperOffice.Data.UDefType)
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetAllPageOneFieldsFromType_SuperOffice_Data_UDefType_
   name: GetAllPageOneFieldsFromType(UDefType)
   nameWithType: UDefFieldCacheBase.GetAllPageOneFieldsFromType(UDefType)
   fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetAllPageOneFieldsFromType(SuperOffice.Data.UDefType)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetAllPageOneFieldsFromType(SuperOffice.Data.UDefType)
     name: GetAllPageOneFieldsFromType
+    nameWithType: UDefFieldCacheBase.GetAllPageOneFieldsFromType
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetAllPageOneFieldsFromType
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetAllPageOneFieldsFromType_SuperOffice_Data_UDefType_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.UDefType
     name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetAllPageOneFieldsFromType(SuperOffice.Data.UDefType)
     name: GetAllPageOneFieldsFromType
+    nameWithType: UDefFieldCacheBase.GetAllPageOneFieldsFromType
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetAllPageOneFieldsFromType
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetAllPageOneFieldsFromType_SuperOffice_Data_UDefType_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.UDefType
     name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetDefaultValue_SuperOffice_CRM_Rows_UDefFieldRow_
   name: GetDefaultValue(UDefFieldRow)
   nameWithType: UDefFieldCacheBase.GetDefaultValue(UDefFieldRow)
   fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
     name: GetDefaultValue
+    nameWithType: UDefFieldCacheBase.GetDefaultValue
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetDefaultValue_SuperOffice_CRM_Rows_UDefFieldRow_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.UDefFieldRow
     name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldRow.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue(SuperOffice.CRM.Rows.UDefFieldRow)
     name: GetDefaultValue
+    nameWithType: UDefFieldCacheBase.GetDefaultValue
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetDefaultValue
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetDefaultValue_SuperOffice_CRM_Rows_UDefFieldRow_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.UDefFieldRow
     name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldRow.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetListName_SuperOffice_CRM_Rows_UDefFieldRow_
   name: GetListName(UDefFieldRow)
   nameWithType: UDefFieldCacheBase.GetListName(UDefFieldRow)
   fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
     name: GetListName
+    nameWithType: UDefFieldCacheBase.GetListName
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetListName_SuperOffice_CRM_Rows_UDefFieldRow_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.UDefFieldRow
     name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldRow.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName(SuperOffice.CRM.Rows.UDefFieldRow)
     name: GetListName
+    nameWithType: UDefFieldCacheBase.GetListName
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetListName
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetListName_SuperOffice_CRM_Rows_UDefFieldRow_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.UDefFieldRow
     name: UDefFieldRow
+    nameWithType: UDefFieldRow
+    fullName: SuperOffice.CRM.Rows.UDefFieldRow
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldRow.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.LoadOnDemand
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.LoadOnDemand
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_LoadOnDemand
   name: LoadOnDemand()
   nameWithType: UDefFieldCacheBase.LoadOnDemand()
   fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.LoadOnDemand()
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.LoadOnDemand
     name: LoadOnDemand
+    nameWithType: UDefFieldCacheBase.LoadOnDemand
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.LoadOnDemand
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_LoadOnDemand
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.LoadOnDemand
     name: LoadOnDemand
+    nameWithType: UDefFieldCacheBase.LoadOnDemand
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.LoadOnDemand
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_LoadOnDemand
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnLoad
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.OnLoad
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_OnLoad
   name: OnLoad()
   nameWithType: UDefFieldCacheBase.OnLoad()
   fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnLoad()
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnLoad
     name: OnLoad
+    nameWithType: UDefFieldCacheBase.OnLoad
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnLoad
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_OnLoad
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnLoad
     name: OnLoad
+    nameWithType: UDefFieldCacheBase.OnLoad
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.OnLoad
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_OnLoad
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetVersions
   name: GetVersions()
   nameWithType: UDefFieldCacheBase.GetVersions()
   fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions()
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions
     name: GetVersions
+    nameWithType: UDefFieldCacheBase.GetVersions
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetVersions
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions
     name: GetVersions
+    nameWithType: UDefFieldCacheBase.GetVersions
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetVersions
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetVersions
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO(SuperOffice.Data.UDefType)
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO(SuperOffice.Data.UDefType)
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_IsPageOneMDO_SuperOffice_Data_UDefType_
   name: IsPageOneMDO(UDefType)
   nameWithType: UDefFieldCacheBase.IsPageOneMDO(UDefType)
   fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO(SuperOffice.Data.UDefType)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO(SuperOffice.Data.UDefType)
     name: IsPageOneMDO
+    nameWithType: UDefFieldCacheBase.IsPageOneMDO
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_IsPageOneMDO_SuperOffice_Data_UDefType_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.UDefType
     name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO(SuperOffice.Data.UDefType)
     name: IsPageOneMDO
+    nameWithType: UDefFieldCacheBase.IsPageOneMDO
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.IsPageOneMDO
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_IsPageOneMDO_SuperOffice_Data_UDefType_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.Data.UDefType
     name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.Data.UDefType
     isExternal: true
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_CheckRevision
   name: CheckRevision()
   nameWithType: UDefFieldCacheBase.CheckRevision()
   fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision()
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision
     name: CheckRevision
+    nameWithType: UDefFieldCacheBase.CheckRevision
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_CheckRevision
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision
     name: CheckRevision
+    nameWithType: UDefFieldCacheBase.CheckRevision
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.CheckRevision
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_CheckRevision
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetLineNo(System.Int32)
   commentId: M:SuperOffice.CRM.Rows.UDefFieldCacheBase.GetLineNo(System.Int32)
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetLineNo_System_Int32_
-  name: GetLineNo(int)
-  nameWithType: UDefFieldCacheBase.GetLineNo(int)
-  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetLineNo(int)
-  nameWithType.vb: UDefFieldCacheBase.GetLineNo(Integer)
-  fullName.vb: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetLineNo(Integer)
-  name.vb: GetLineNo(Integer)
+  name: GetLineNo(Int32)
+  nameWithType: UDefFieldCacheBase.GetLineNo(Int32)
+  fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetLineNo(System.Int32)
   spec.csharp:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetLineNo(System.Int32)
     name: GetLineNo
+    nameWithType: UDefFieldCacheBase.GetLineNo
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetLineNo
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetLineNo_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetLineNo(System.Int32)
     name: GetLineNo
+    nameWithType: UDefFieldCacheBase.GetLineNo
+    fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.GetLineNo
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_GetLineNo_System_Int32_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCacheBase.TableNames
   commentId: P:SuperOffice.CRM.Rows.UDefFieldCacheBase.TableNames
   parent: SuperOffice.CRM.Rows.UDefFieldCacheBase
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCacheBase.html#SuperOffice_CRM_Rows_UDefFieldCacheBase_TableNames
   name: TableNames
   nameWithType: UDefFieldCacheBase.TableNames
   fullName: SuperOffice.CRM.Rows.UDefFieldCacheBase.TableNames
@@ -942,130 +1168,172 @@ references:
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_IsCacheInvalidated_System_String_System_Int32_SuperOffice_Data_SQL_PrivateSave_
-  name: IsCacheInvalidated(string, int, PrivateSave)
-  nameWithType: CacheBaseV2.IsCacheInvalidated(string, int, PrivateSave)
-  fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(string, int, SuperOffice.Data.SQL.PrivateSave)
-  nameWithType.vb: CacheBaseV2.IsCacheInvalidated(String, Integer, PrivateSave)
-  fullName.vb: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(String, Integer, SuperOffice.Data.SQL.PrivateSave)
-  name.vb: IsCacheInvalidated(String, Integer, PrivateSave)
+  name: IsCacheInvalidated(String, Int32, PrivateSave)
+  nameWithType: CacheBaseV2.IsCacheInvalidated(String, Int32, PrivateSave)
+  fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String, System.Int32, SuperOffice.Data.SQL.PrivateSave)
   spec.csharp:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
     name: IsCacheInvalidated
+    nameWithType: CacheBaseV2.IsCacheInvalidated
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_IsCacheInvalidated_System_String_System_Int32_SuperOffice_Data_SQL_PrivateSave_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
-    name: string
+    name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: int
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.SQL.PrivateSave
     name: PrivateSave
+    nameWithType: PrivateSave
+    fullName: SuperOffice.Data.SQL.PrivateSave
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSave.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated(System.String,System.Int32,SuperOffice.Data.SQL.PrivateSave)
     name: IsCacheInvalidated
+    nameWithType: CacheBaseV2.IsCacheInvalidated
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.IsCacheInvalidated
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_IsCacheInvalidated_System_String_System_Int32_SuperOffice_Data_SQL_PrivateSave_
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: System.String
     name: String
+    nameWithType: String
+    fullName: System.String
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: System.Int32
-    name: Integer
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - uid: SuperOffice.Data.SQL.PrivateSave
     name: PrivateSave
+    nameWithType: PrivateSave
+    fullName: SuperOffice.Data.SQL.PrivateSave
     isExternal: true
-    href: SuperOffice.Data.SQL.PrivateSave.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Dispose
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Dispose
   name: Dispose()
   nameWithType: CacheBaseV2.Dispose()
   fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose()
   spec.csharp:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
     name: Dispose
+    nameWithType: CacheBaseV2.Dispose
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.Dispose
     name: Dispose
+    nameWithType: CacheBaseV2.Dispose
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Dispose
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Dispose
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Flush
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Flush
   name: Flush()
   nameWithType: CacheBaseV2.Flush()
   fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush()
   spec.csharp:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
     name: Flush
+    nameWithType: CacheBaseV2.Flush
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Flush
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.Flush
     name: Flush
+    nameWithType: CacheBaseV2.Flush
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Flush
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Flush
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_BeginDisableAutoUpdate
   name: BeginDisableAutoUpdate()
   nameWithType: CacheBaseV2.BeginDisableAutoUpdate()
   fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate()
   spec.csharp:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     name: BeginDisableAutoUpdate
+    nameWithType: CacheBaseV2.BeginDisableAutoUpdate
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_BeginDisableAutoUpdate
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     name: BeginDisableAutoUpdate
+    nameWithType: CacheBaseV2.BeginDisableAutoUpdate
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.BeginDisableAutoUpdate
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_BeginDisableAutoUpdate
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_GetCurrent__1
   name: GetCurrent<T>()
   nameWithType: CacheBaseV2.GetCurrent<T>()
   fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent<T>()
@@ -1074,535 +1342,227 @@ references:
   name.vb: GetCurrent(Of T)()
   spec.csharp:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
-    name: GetCurrent
+    name: GetCurrent<T>
+    nameWithType: CacheBaseV2.GetCurrent<T>
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent<T>
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_GetCurrent__1
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent``1
-    name: GetCurrent
+    name: GetCurrent(Of T)
+    nameWithType: CacheBaseV2.GetCurrent(Of T)
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.GetCurrent(Of T)
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_GetCurrent__1
   - name: (
-  - name: Of
-  - name: " "
-  - name: T
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Cache.CacheBaseV2.Load
   commentId: M:SuperOffice.Data.Cache.CacheBaseV2.Load
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Load
   name: Load()
   nameWithType: CacheBaseV2.Load()
   fullName: SuperOffice.Data.Cache.CacheBaseV2.Load()
   spec.csharp:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.Load
     name: Load
+    nameWithType: CacheBaseV2.Load
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Load
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Load
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Data.Cache.CacheBaseV2.Load
     name: Load
+    nameWithType: CacheBaseV2.Load
+    fullName: SuperOffice.Data.Cache.CacheBaseV2.Load
     isExternal: true
-    href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Load
   - name: (
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Data.Cache.CacheBaseV2.Disposed
   commentId: P:SuperOffice.Data.Cache.CacheBaseV2.Disposed
   parent: SuperOffice.Data.Cache.CacheBaseV2
   isExternal: true
-  href: SuperOffice.Data.Cache.CacheBaseV2.html#SuperOffice_Data_Cache_CacheBaseV2_Disposed
   name: Disposed
   nameWithType: CacheBaseV2.Disposed
   fullName: SuperOffice.Data.Cache.CacheBaseV2.Disposed
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCache.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<UDefFieldCache, To>(UDefFieldCache)
-  nameWithType: EnumUtil.MapEnums<UDefFieldCache, To>(UDefFieldCache)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.UDefFieldCache, To>(SuperOffice.CRM.Rows.UDefFieldCache)
-  nameWithType.vb: EnumUtil.MapEnums(Of UDefFieldCache, To)(UDefFieldCache)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.UDefFieldCache, To)(SuperOffice.CRM.Rows.UDefFieldCache)
-  name.vb: MapEnums(Of UDefFieldCache, To)(UDefFieldCache)
+  name: MapEnums<UDefFieldCache, To>()
+  nameWithType: EnumUtil.MapEnums<UDefFieldCache, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.UDefFieldCache, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of UDefFieldCache, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.UDefFieldCache, To)()
+  name.vb: MapEnums(Of UDefFieldCache, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.UDefFieldCache)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<UDefFieldCache, To>
+    nameWithType: EnumUtil.MapEnums<UDefFieldCache, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.UDefFieldCache, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.UDefFieldCache
-    name: UDefFieldCache
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCache.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.UDefFieldCache
-    name: UDefFieldCache
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCache.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.UDefFieldCache)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of UDefFieldCache, To)
+    nameWithType: EnumUtil.MapEnums(Of UDefFieldCache, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.UDefFieldCache, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.UDefFieldCache
-    name: UDefFieldCache
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCache.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.UDefFieldCache
-    name: UDefFieldCache
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCache.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.UDefFieldCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<UDefFieldCache, To>(UDefFieldCache)
-  nameWithType: Converters.MapEnums<UDefFieldCache, To>(UDefFieldCache)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.UDefFieldCache, To>(SuperOffice.CRM.Rows.UDefFieldCache)
-  nameWithType.vb: Converters.MapEnums(Of UDefFieldCache, To)(UDefFieldCache)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.UDefFieldCache, To)(SuperOffice.CRM.Rows.UDefFieldCache)
-  name.vb: MapEnums(Of UDefFieldCache, To)(UDefFieldCache)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.UDefFieldCache)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.UDefFieldCache
-    name: UDefFieldCache
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCache.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Rows.UDefFieldCache
-    name: UDefFieldCache
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCache.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.UDefFieldCache)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.UDefFieldCache
-    name: UDefFieldCache
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCache.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.UDefFieldCache
-    name: UDefFieldCache
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCache.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCache.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.UDefFieldCache)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<UDefFieldCache>(UDefFieldCache, UDefFieldCache)
-  nameWithType: ObjectExtensions.AssignByReflection<UDefFieldCache>(UDefFieldCache, UDefFieldCache)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.UDefFieldCache>(SuperOffice.CRM.Rows.UDefFieldCache, SuperOffice.CRM.Rows.UDefFieldCache)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of UDefFieldCache)(UDefFieldCache, UDefFieldCache)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.UDefFieldCache)(SuperOffice.CRM.Rows.UDefFieldCache, SuperOffice.CRM.Rows.UDefFieldCache)
-  name.vb: AssignByReflection(Of UDefFieldCache)(UDefFieldCache, UDefFieldCache)
+  name: AssignByReflection<UDefFieldCache>(UDefFieldCache)
+  nameWithType: ObjectExtensions.AssignByReflection<UDefFieldCache>(UDefFieldCache)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.UDefFieldCache>(SuperOffice.CRM.Rows.UDefFieldCache)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of UDefFieldCache)(UDefFieldCache)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.UDefFieldCache)(SuperOffice.CRM.Rows.UDefFieldCache)
+  name.vb: AssignByReflection(Of UDefFieldCache)(UDefFieldCache)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.UDefFieldCache,SuperOffice.CRM.Rows.UDefFieldCache)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<UDefFieldCache>
+    nameWithType: ObjectExtensions.AssignByReflection<UDefFieldCache>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.UDefFieldCache>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.UDefFieldCache
-    name: UDefFieldCache
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCache.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.UDefFieldCache
     name: UDefFieldCache
+    nameWithType: UDefFieldCache
+    fullName: SuperOffice.CRM.Rows.UDefFieldCache
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCache.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.UDefFieldCache
-    name: UDefFieldCache
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCache.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.UDefFieldCache,SuperOffice.CRM.Rows.UDefFieldCache)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of UDefFieldCache)
+    nameWithType: ObjectExtensions.AssignByReflection(Of UDefFieldCache)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.UDefFieldCache)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.UDefFieldCache
     name: UDefFieldCache
+    nameWithType: UDefFieldCache
+    fullName: SuperOffice.CRM.Rows.UDefFieldCache
     isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCache.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.UDefFieldCache
-    name: UDefFieldCache
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCache.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.UDefFieldCache
-    name: UDefFieldCache
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCache.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.UDefFieldCache.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<UDefFieldCache>(UDefFieldCache)
-  nameWithType: ObjectExtensions.GraphCopy<UDefFieldCache>(UDefFieldCache)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.UDefFieldCache>(SuperOffice.CRM.Rows.UDefFieldCache)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of UDefFieldCache)(UDefFieldCache)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.UDefFieldCache)(SuperOffice.CRM.Rows.UDefFieldCache)
-  name.vb: GraphCopy(Of UDefFieldCache)(UDefFieldCache)
+  name: GraphCopy<UDefFieldCache>()
+  nameWithType: ObjectExtensions.GraphCopy<UDefFieldCache>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.UDefFieldCache>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of UDefFieldCache)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.UDefFieldCache)()
+  name.vb: GraphCopy(Of UDefFieldCache)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.UDefFieldCache)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<UDefFieldCache>
+    nameWithType: ObjectExtensions.GraphCopy<UDefFieldCache>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.UDefFieldCache>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.UDefFieldCache
-    name: UDefFieldCache
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCache.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.UDefFieldCache
-    name: UDefFieldCache
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCache.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.UDefFieldCache)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of UDefFieldCache)
+    nameWithType: ObjectExtensions.GraphCopy(Of UDefFieldCache)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.UDefFieldCache)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.UDefFieldCache
-    name: UDefFieldCache
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCache.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.UDefFieldCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<UDefFieldCache, To>()
+  nameWithType: Converters.MapEnums<UDefFieldCache, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.UDefFieldCache, To>()
+  nameWithType.vb: Converters.MapEnums(Of UDefFieldCache, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.UDefFieldCache, To)()
+  name.vb: MapEnums(Of UDefFieldCache, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<UDefFieldCache, To>
+    nameWithType: Converters.MapEnums<UDefFieldCache, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.UDefFieldCache, To>
+    isExternal: true
   - name: (
-  - uid: SuperOffice.CRM.Rows.UDefFieldCache
-    name: UDefFieldCache
-    isExternal: true
-    href: SuperOffice.CRM.Rows.UDefFieldCache.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of UDefFieldCache, To)
+    nameWithType: Converters.MapEnums(Of UDefFieldCache, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.UDefFieldCache, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: SuperOffice.Data.Cache
   commentId: N:SuperOffice.Data.Cache
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Data.Cache
   nameWithType: SuperOffice.Data.Cache
   fullName: SuperOffice.Data.Cache
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Cache
-    name: Cache
-    isExternal: true
-    href: SuperOffice.Data.Cache.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.Data.html
-  - name: .
-  - uid: SuperOffice.Data.Cache
-    name: Cache
-    isExternal: true
-    href: SuperOffice.Data.Cache.html
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1611,93 +1571,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1706,46 +1616,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1754,96 +1674,95 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
-    isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: SuperOffice.CRM.Rows.UDefFieldCache.GetCurrent*
   commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCache.GetCurrent
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCache.html#SuperOffice_CRM_Rows_UDefFieldCache_GetCurrent
   name: GetCurrent
   nameWithType: UDefFieldCache.GetCurrent
   fullName: SuperOffice.CRM.Rows.UDefFieldCache.GetCurrent
@@ -1851,17 +1770,12 @@ references:
   commentId: T:SuperOffice.CRM.Rows.UDefFieldCache
   parent: SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCache.html
   name: UDefFieldCache
   nameWithType: UDefFieldCache
   fullName: SuperOffice.CRM.Rows.UDefFieldCache
 - uid: SuperOffice.CRM.Rows.UDefFieldCache.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.UDefFieldCache.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Rows.UDefFieldCache.html#SuperOffice_CRM_Rows_UDefFieldCache__ctor
   name: UDefFieldCache
   nameWithType: UDefFieldCache.UDefFieldCache
   fullName: SuperOffice.CRM.Rows.UDefFieldCache.UDefFieldCache
-  nameWithType.vb: UDefFieldCache.New
-  fullName.vb: SuperOffice.CRM.Rows.UDefFieldCache.New
-  name.vb: New

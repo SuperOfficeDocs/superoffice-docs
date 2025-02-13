@@ -14,16 +14,24 @@ items:
   nameWithType: IApiAgent
   fullName: SuperOffice.WebApi.Agents.IApiAgent
   type: Interface
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: 'Interface for API agents: API info, tenant status, Client library version'
-  example: []
+  summary: "\nInterface for API agents: API info, tenant status, Client library version\n"
   syntax:
     content: 'public interface IApiAgent : IDisposable'
-    content.vb: Public Interface IApiAgent Inherits IDisposable
-  inheritedMembers:
-  - System.IDisposable.Dispose
+    content.vb: >-
+      Public Interface IApiAgent
+          Inherits IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
 - uid: SuperOffice.WebApi.Agents.IApiAgent.GetApiVersionAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IApiAgent.GetApiVersionAsync(SuperOffice.WebApi.RequestOptions)
   id: GetApiVersionAsync(SuperOffice.WebApi.RequestOptions)
@@ -35,20 +43,22 @@ items:
   nameWithType: IApiAgent.GetApiVersionAsync(RequestOptions)
   fullName: SuperOffice.WebApi.Agents.IApiAgent.GetApiVersionAsync(SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: Gets version info from base URL.
-  example: []
+  summary: "\nGets version info from base URL.\n"
   syntax:
     content: Task<StringDictionary> GetApiVersionAsync(RequestOptions requestOptions = null)
     parameters:
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
-      description: 'Dictionary containing meta-data: "NetServerVersion", "Services", "Version"'
+      description: 'Dictionary containing meta-data: &quot;NetServerVersion&quot;, &quot;Services&quot;, &quot;Version&quot;'
     content.vb: Function GetApiVersionAsync(requestOptions As RequestOptions = Nothing) As Task(Of StringDictionary)
   overload: SuperOffice.WebApi.Agents.IApiAgent.GetApiVersionAsync*
 - uid: SuperOffice.WebApi.Agents.IApiAgent.GetTenantStatusAsync(System.String,System.String,SuperOffice.WebApi.RequestOptions)
@@ -58,117 +68,44 @@ items:
   langs:
   - csharp
   - vb
-  name: GetTenantStatusAsync(string, string, RequestOptions)
-  nameWithType: IApiAgent.GetTenantStatusAsync(string, string, RequestOptions)
-  fullName: SuperOffice.WebApi.Agents.IApiAgent.GetTenantStatusAsync(string, string, SuperOffice.WebApi.RequestOptions)
+  name: GetTenantStatusAsync(String, String, RequestOptions)
+  nameWithType: IApiAgent.GetTenantStatusAsync(String, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IApiAgent.GetTenantStatusAsync(System.String, System.String, SuperOffice.WebApi.RequestOptions)
   type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Agents
-  summary: >-
-    Returns the tenant status for a given customer, in a given environment. 
-
-    Does not need base URL to be set.
-  example: []
+  summary: "\nReturns the tenant status for a given customer, in a given environment. \nDoes not need base URL to be set.\n"
   syntax:
     content: Task<TenantStatus> GetTenantStatusAsync(string tenantCustId, string subdomain, RequestOptions requestOptions = null)
     parameters:
     - id: tenantCustId
       type: System.String
-      description: 'The Online customer id: "Cust1234"'
+      description: 'The Online customer id: &quot;Cust1234&quot; '
     - id: subdomain
       type: System.String
-      description: "\"sod\", \"qastage\" or \"online\". Default \"online\" (production). See <xref href=\"SuperOffice.WebApi.SubDomain\" data-throw-if-not-resolved=\"false\"></xref>"
+      description: '&quot;sod&quot;, &quot;qastage&quot; or &quot;online&quot;. Default &quot;online&quot; (production). See <xref href="SuperOffice.WebApi.SubDomain" data-throw-if-not-resolved="false"></xref>'
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
-      description: Override language/culture codes on this request.
+      description: 'Override language/culture codes on this request. '
     return:
       type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TenantStatus}
       description: Tenant status
     content.vb: Function GetTenantStatusAsync(tenantCustId As String, subdomain As String, requestOptions As RequestOptions = Nothing) As Task(Of TenantStatus)
   overload: SuperOffice.WebApi.Agents.IApiAgent.GetTenantStatusAsync*
-  nameWithType.vb: IApiAgent.GetTenantStatusAsync(String, String, RequestOptions)
-  fullName.vb: SuperOffice.WebApi.Agents.IApiAgent.GetTenantStatusAsync(String, String, SuperOffice.WebApi.RequestOptions)
-  name.vb: GetTenantStatusAsync(String, String, RequestOptions)
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi.Agents
   nameWithType: SuperOffice.WebApi.Agents
   fullName: SuperOffice.WebApi.Agents
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Agents
-    name: Agents
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  - name: .
-  - uid: SuperOffice.WebApi.Agents
-    name: Agents
-    isExternal: true
-    href: SuperOffice.WebApi.Agents.html
-- uid: System.IDisposable.Dispose
-  commentId: M:System.IDisposable.Dispose
-  parent: System.IDisposable
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  name: Dispose()
-  nameWithType: IDisposable.Dispose()
-  fullName: System.IDisposable.Dispose()
-  spec.csharp:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.IDisposable.Dispose
-    name: Dispose
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.idisposable.dispose
-  - name: (
-  - name: )
-- uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.WebApi.Agents.IApiAgent.GetApiVersionAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IApiAgent.GetApiVersionAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IApiAgent.html#SuperOffice_WebApi_Agents_IApiAgent_GetApiVersionAsync_SuperOffice_WebApi_RequestOptions_
   name: GetApiVersionAsync
   nameWithType: IApiAgent.GetApiVersionAsync
   fullName: SuperOffice.WebApi.Agents.IApiAgent.GetApiVersionAsync
@@ -176,15 +113,12 @@ references:
   commentId: T:SuperOffice.WebApi.RequestOptions
   parent: SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.WebApi.RequestOptions.html
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: SuperOffice.WebApi.RequestOptions
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<StringDictionary>
   nameWithType: Task<StringDictionary>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.StringDictionary>
@@ -194,130 +128,84 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.StringDictionary
     name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.WebApi.Data.StringDictionary
     isExternal: true
-    href: SuperOffice.WebApi.Data.StringDictionary.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.StringDictionary
     name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.WebApi.Data.StringDictionary
     isExternal: true
-    href: SuperOffice.WebApi.Data.StringDictionary.html
   - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi
   commentId: N:SuperOffice.WebApi
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.WebApi
   nameWithType: SuperOffice.WebApi
   fullName: SuperOffice.WebApi
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.WebApi
-    name: WebApi
-    isExternal: true
-    href: SuperOffice.WebApi.html
 - uid: System.Threading.Tasks.Task`1
-  commentId: T:System.Threading.Tasks.Task`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TResult>
-  nameWithType: Task<TResult>
-  fullName: System.Threading.Tasks.Task<TResult>
-  nameWithType.vb: Task(Of TResult)
-  fullName.vb: System.Threading.Tasks.Task(Of TResult)
-  name.vb: Task(Of TResult)
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - name: TResult
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TResult
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
-- uid: System.Threading.Tasks
-  commentId: N:System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Threading.Tasks
-  nameWithType: System.Threading.Tasks
-  fullName: System.Threading.Tasks
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-- uid: SuperOffice.WebApi.SubDomain
-  commentId: T:SuperOffice.WebApi.SubDomain
-  isExternal: true
-  href: SuperOffice.WebApi.SubDomain.html
-  name: SubDomain
-  nameWithType: SubDomain
-  fullName: SuperOffice.WebApi.SubDomain
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.WebApi.Agents.IApiAgent.GetTenantStatusAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IApiAgent.GetTenantStatusAsync
   isExternal: true
-  href: SuperOffice.WebApi.Agents.IApiAgent.html#SuperOffice_WebApi_Agents_IApiAgent_GetTenantStatusAsync_System_String_System_String_SuperOffice_WebApi_RequestOptions_
   name: GetTenantStatusAsync
   nameWithType: IApiAgent.GetTenantStatusAsync
   fullName: SuperOffice.WebApi.Agents.IApiAgent.GetTenantStatusAsync
@@ -325,18 +213,12 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TenantStatus}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TenantStatus}
-  parent: System.Threading.Tasks
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TenantStatus}'
   definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   name: Task<TenantStatus>
   nameWithType: Task<TenantStatus>
   fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TenantStatus>
@@ -346,24 +228,40 @@ references:
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
+    nameWithType: <
+    fullName: <
   - uid: SuperOffice.WebApi.Data.TenantStatus
     name: TenantStatus
+    nameWithType: TenantStatus
+    fullName: SuperOffice.WebApi.Data.TenantStatus
     isExternal: true
-    href: SuperOffice.WebApi.Data.TenantStatus.html
   - name: '>'
+    nameWithType: '>'
+    fullName: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
     name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
   - uid: SuperOffice.WebApi.Data.TenantStatus
     name: TenantStatus
+    nameWithType: TenantStatus
+    fullName: SuperOffice.WebApi.Data.TenantStatus
     isExternal: true
-    href: SuperOffice.WebApi.Data.TenantStatus.html
   - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

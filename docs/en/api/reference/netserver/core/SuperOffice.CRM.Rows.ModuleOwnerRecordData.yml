@@ -36,41 +36,33 @@ items:
   nameWithType: ModuleOwnerRecordData
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData
   type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: >-
-    POCO (Plain Old CLR Object) class that can be used to hold data corresponding
-
-    to a row from the ModuleOwner table.
-  remarks: >-
-    Please use this class instead of a full <xref href="SuperOffice.CRM.Rows.ModuleOwnerRow" data-throw-if-not-resolved="false"></xref> object when
-
-    you do not need to <b>create or update</b> a value in the database. Row objects have a large overhead
-
-    since they carry the corresponding <xref href="SuperOffice.CRM.Data.ModuleOwnerTableInfo" data-throw-if-not-resolved="false"></xref> object, which
-
-    in turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.
-  example: []
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the ModuleOwner table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.ModuleOwnerRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.ModuleOwnerTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
   syntax:
-    content: public class ModuleOwnerRecordData
-    content.vb: Public Class ModuleOwnerRecordData
+    content: 'public class ModuleOwnerRecordData : Object'
+    content.vb: >-
+      Public Class ModuleOwnerRecordData
+          Inherits Object
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   extensionMethods:
   - SuperOffice.CRM.Rows.ModuleOwnerRecordData.EnumUtil.MapEnums``2
-  - SuperOffice.CRM.Rows.ModuleOwnerRecordData.SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert
-  - SuperOffice.CRM.Rows.ModuleOwnerRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.CRM.Rows.ModuleOwnerRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
   - SuperOffice.CRM.Rows.ModuleOwnerRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.ModuleOwnerRecordData.SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.ModuleOwnerRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.ModuleOwnerId
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.ModuleOwnerId
   id: ModuleOwnerId
@@ -82,16 +74,22 @@ items:
   nameWithType: ModuleOwnerRecordData.ModuleOwnerId
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.ModuleOwnerId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
     content: public int ModuleOwnerId
     return:
       type: System.Int32
     content.vb: Public ModuleOwnerId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.OwnerName
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.OwnerName
   id: OwnerName
@@ -103,16 +101,22 @@ items:
   nameWithType: ModuleOwnerRecordData.OwnerName
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.OwnerName
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The name of the module owner, not visible in GUI but used in the code. OwnerName SUPEROFFICE is reserved and may NEVER be used by partners. This must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please.
-  example: []
+  summary: "\nThe name of the module owner, not visible in GUI but used in the code. OwnerName SUPEROFFICE is reserved and may NEVER be used by partners. This must be in UPPER CASE and only contain A-Z and 0-9. NO EXTENDED CHARACTERS please. \n"
   syntax:
     content: public string OwnerName
     return:
       type: System.String
     content.vb: Public OwnerName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.OwnerDescription
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.OwnerDescription
   id: OwnerDescription
@@ -124,16 +128,22 @@ items:
   nameWithType: ModuleOwnerRecordData.OwnerDescription
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.OwnerDescription
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Human-readable description of owner, shown in GUI, default language. Additional languages can be added to LocaleText, resource type 26
-  example: []
+  summary: "\nHuman-readable description of owner, shown in GUI, default language. Additional languages can be added to LocaleText, resource type 26 \n"
   syntax:
     content: public string OwnerDescription
     return:
       type: System.String
     content.vb: Public OwnerDescription As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.LicenseUrl
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.LicenseUrl
   id: LicenseUrl
@@ -145,16 +155,22 @@ items:
   nameWithType: ModuleOwnerRecordData.LicenseUrl
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.LicenseUrl
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The url that will provide keycodes for all modules owned by this owner
-  example: []
+  summary: "\nThe url that will provide keycodes for all modules owned by this owner \n"
   syntax:
     content: public string LicenseUrl
     return:
       type: System.String
     content.vb: Public LicenseUrl As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.LicenseVersion
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.LicenseVersion
   id: LicenseVersion
@@ -166,16 +182,22 @@ items:
   nameWithType: ModuleOwnerRecordData.LicenseVersion
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.LicenseVersion
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The url that will provide keycodes for all modules owned by this owner
-  example: []
+  summary: "\nThe url that will provide keycodes for all modules owned by this owner \n"
   syntax:
     content: public string LicenseVersion
     return:
       type: System.String
     content.vb: Public LicenseVersion As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.SignedPublicKey
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.SignedPublicKey
   id: SignedPublicKey
@@ -187,16 +209,22 @@ items:
   nameWithType: ModuleOwnerRecordData.SignedPublicKey
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.SignedPublicKey
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: The public key used to verify licenses owned by this owner
-  example: []
+  summary: "\nThe public key used to verify licenses owned by this owner \n"
   syntax:
     content: public Stream SignedPublicKey
     return:
       type: System.IO.Stream
     content.vb: Public SignedPublicKey As Stream
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.Signature
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.Signature
   id: Signature
@@ -208,16 +236,22 @@ items:
   nameWithType: ModuleOwnerRecordData.Signature
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.Signature
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Signature of all non-zero-amount moduleLicense rows referring to this owner
-  example: []
+  summary: "\nSignature of all non-zero-amount moduleLicense rows referring to this owner \n"
   syntax:
     content: public string Signature
     return:
       type: System.String
     content.vb: Public Signature As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.DeploymentType
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.DeploymentType
   id: DeploymentType
@@ -229,16 +263,22 @@ items:
   nameWithType: ModuleOwnerRecordData.DeploymentType
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.DeploymentType
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Type of deployment
-  example: []
+  summary: "\nType of deployment \n"
   syntax:
     content: public int DeploymentType
     return:
       type: System.Int32
     content.vb: Public DeploymentType As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.ProductType
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.ProductType
   id: ProductType
@@ -250,16 +290,22 @@ items:
   nameWithType: ModuleOwnerRecordData.ProductType
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.ProductType
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Type of product
-  example: []
+  summary: "\nType of product \n"
   syntax:
     content: public string ProductType
     return:
       type: System.String
     content.vb: Public ProductType As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.ProductTypeDescription
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.ProductTypeDescription
   id: ProductTypeDescription
@@ -271,16 +317,22 @@ items:
   nameWithType: ModuleOwnerRecordData.ProductTypeDescription
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.ProductTypeDescription
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Description of type of product
-  example: []
+  summary: "\nDescription of type of product \n"
   syntax:
     content: public string ProductTypeDescription
     return:
       type: System.String
     content.vb: Public ProductTypeDescription As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.ExtraFlags
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.ExtraFlags
   id: ExtraFlags
@@ -292,16 +344,22 @@ items:
   nameWithType: ModuleOwnerRecordData.ExtraFlags
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.ExtraFlags
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Unspecified extra flags of license, part of checksum
-  example: []
+  summary: "\nUnspecified extra flags of license, part of checksum \n"
   syntax:
     content: public uint ExtraFlags
     return:
       type: System.UInt32
     content.vb: Public ExtraFlags As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.ExtraInfo
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.ExtraInfo
   id: ExtraInfo
@@ -313,16 +371,22 @@ items:
   nameWithType: ModuleOwnerRecordData.ExtraInfo
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.ExtraInfo
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: 'Free field, can be used by the module owner (example: host domain, for eJournal)'
-  example: []
+  summary: "\nFree field, can be used by the module owner (example: host domain, for eJournal) \n"
   syntax:
     content: public string ExtraInfo
     return:
       type: System.String
     content.vb: Public ExtraInfo As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.Expiration
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.Expiration
   id: Expiration
@@ -334,16 +398,22 @@ items:
   nameWithType: ModuleOwnerRecordData.Expiration
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.Expiration
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Expiration date, 0 = forever
-  example: []
+  summary: "\nExpiration date, 0 = forever \n"
   syntax:
     content: public DateTime Expiration
     return:
       type: System.DateTime
-    content.vb: Public Expiration As Date
+    content.vb: Public Expiration As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.GraceTo
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.GraceTo
   id: GraceTo
@@ -355,16 +425,22 @@ items:
   nameWithType: ModuleOwnerRecordData.GraceTo
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.GraceTo
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Real expiration date, when the given module actually stops working. Modules that normally update data should switch to read-only mode. Modules that only read anyway, should disable themselves in some other way
-  example: []
+  summary: "\nReal expiration date, when the given module actually stops working. Modules that normally update data should switch to read-only mode. Modules that only read anyway, should disable themselves in some other way \n"
   syntax:
     content: public DateTime GraceTo
     return:
       type: System.DateTime
-    content.vb: Public GraceTo As Date
+    content.vb: Public GraceTo As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.MaintenanceTo
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.MaintenanceTo
   id: MaintenanceTo
@@ -376,16 +452,22 @@ items:
   nameWithType: ModuleOwnerRecordData.MaintenanceTo
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.MaintenanceTo
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Expiration date for maintenance. After this date, upgrades should refuse to install.
-  example: []
+  summary: "\nExpiration date for maintenance. After this date, upgrades should refuse to install. \n"
   syntax:
     content: public DateTime MaintenanceTo
     return:
       type: System.DateTime
-    content.vb: Public MaintenanceTo As Date
+    content.vb: Public MaintenanceTo As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.NextCheckDate
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.NextCheckDate
   id: NextCheckDate
@@ -397,16 +479,22 @@ items:
   nameWithType: ModuleOwnerRecordData.NextCheckDate
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.NextCheckDate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: When should the system next check with the license issuer
-  example: []
+  summary: "\nWhen should the system next check with the license issuer \n"
   syntax:
     content: public DateTime NextCheckDate
     return:
       type: System.DateTime
-    content.vb: Public NextCheckDate As Date
+    content.vb: Public NextCheckDate As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.AdminWarningDate
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.AdminWarningDate
   id: AdminWarningDate
@@ -418,16 +506,22 @@ items:
   nameWithType: ModuleOwnerRecordData.AdminWarningDate
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.AdminWarningDate
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: When should nagging begin (for instance, during login to SoAdmin)
-  example: []
+  summary: "\nWhen should nagging begin (for instance, during login to SoAdmin) \n"
   syntax:
     content: public DateTime AdminWarningDate
     return:
       type: System.DateTime
-    content.vb: Public AdminWarningDate As Date
+    content.vb: Public AdminWarningDate As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.EncryptedCheck
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.EncryptedCheck
   id: EncryptedCheck
@@ -439,16 +533,22 @@ items:
   nameWithType: ModuleOwnerRecordData.EncryptedCheck
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.EncryptedCheck
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Encrypted checksum that stops tampering and copying between databases
-  example: []
+  summary: "\nEncrypted checksum that stops tampering and copying between databases \n"
   syntax:
     content: public string EncryptedCheck
     return:
       type: System.String
     content.vb: Public EncryptedCheck As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.Registered
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.Registered
   id: Registered
@@ -460,16 +560,22 @@ items:
   nameWithType: ModuleOwnerRecordData.Registered
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.Registered
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Registered when in UTC.
-  example: []
+  summary: "\nRegistered when in UTC.  \n"
   syntax:
     content: public DateTime Registered
     return:
       type: System.DateTime
-    content.vb: Public Registered As Date
+    content.vb: Public Registered As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.RegisteredAssociateId
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.RegisteredAssociateId
   id: RegisteredAssociateId
@@ -481,16 +587,22 @@ items:
   nameWithType: ModuleOwnerRecordData.RegisteredAssociateId
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.RegisteredAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Registered by whom
-  example: []
+  summary: "\nRegistered by whom \n"
   syntax:
     content: public int RegisteredAssociateId
     return:
       type: System.Int32
     content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.Updated
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.Updated
   id: Updated
@@ -502,16 +614,22 @@ items:
   nameWithType: ModuleOwnerRecordData.Updated
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.Updated
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last updated when in UTC.
-  example: []
+  summary: "\nLast updated when in UTC.  \n"
   syntax:
     content: public DateTime Updated
     return:
       type: System.DateTime
-    content.vb: Public Updated As Date
+    content.vb: Public Updated As DateTime
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.UpdatedAssociateId
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.UpdatedAssociateId
   id: UpdatedAssociateId
@@ -523,16 +641,22 @@ items:
   nameWithType: ModuleOwnerRecordData.UpdatedAssociateId
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.UpdatedAssociateId
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Last updated by whom
-  example: []
+  summary: "\nLast updated by whom \n"
   syntax:
     content: public int UpdatedAssociateId
     return:
       type: System.Int32
     content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.UpdatedCount
   commentId: F:SuperOffice.CRM.Rows.ModuleOwnerRecordData.UpdatedCount
   id: UpdatedCount
@@ -544,16 +668,22 @@ items:
   nameWithType: ModuleOwnerRecordData.UpdatedCount
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.UpdatedCount
   type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
-  summary: Number of updates made to this record
-  example: []
+  summary: "\nNumber of updates made to this record \n"
   syntax:
     content: public short UpdatedCount
     return:
       type: System.Int16
     content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.ModuleOwnerRecordData.#ctor
   id: '#ctor'
@@ -565,590 +695,220 @@ items:
   nameWithType: ModuleOwnerRecordData.ModuleOwnerRecordData()
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.ModuleOwnerRecordData()
   type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   syntax:
     content: public ModuleOwnerRecordData()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Rows.ModuleOwnerRecordData.#ctor*
-  nameWithType.vb: ModuleOwnerRecordData.New()
-  fullName.vb: SuperOffice.CRM.Rows.ModuleOwnerRecordData.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
-- uid: SuperOffice.CRM.Rows.ModuleOwnerRow
-  commentId: T:SuperOffice.CRM.Rows.ModuleOwnerRow
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.ModuleOwnerRow.html
-  name: ModuleOwnerRow
-  nameWithType: ModuleOwnerRow
-  fullName: SuperOffice.CRM.Rows.ModuleOwnerRow
-- uid: SuperOffice.CRM.Data.ModuleOwnerTableInfo
-  commentId: T:SuperOffice.CRM.Data.ModuleOwnerTableInfo
-  parent: SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.CRM.Data.ModuleOwnerTableInfo.html
-  name: ModuleOwnerTableInfo
-  nameWithType: ModuleOwnerTableInfo
-  fullName: SuperOffice.CRM.Data.ModuleOwnerTableInfo
 - uid: SuperOffice.CRM.Rows
   commentId: N:SuperOffice.CRM.Rows
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.CRM.Rows
   nameWithType: SuperOffice.CRM.Rows
   fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  name: Equals(object)
-  nameWithType: object.Equals(object)
-  fullName: object.Equals(object)
-  nameWithType.vb: Object.Equals(Object)
-  fullName.vb: Object.Equals(Object)
-  name.vb: Equals(Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  name: Equals(object, object)
-  nameWithType: object.Equals(object, object)
-  fullName: object.Equals(object, object)
-  nameWithType.vb: Object.Equals(Object, Object)
-  fullName.vb: Object.Equals(Object, Object)
-  name.vb: Equals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  name: ReferenceEquals(object, object)
-  nameWithType: object.ReferenceEquals(object, object)
-  fullName: object.ReferenceEquals(object, object)
-  nameWithType.vb: Object.ReferenceEquals(Object, Object)
-  fullName.vb: Object.ReferenceEquals(Object, Object)
-  name.vb: ReferenceEquals(Object, Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
-  - name: (
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: ','
-  - name: " "
-  - uid: System.Object
-    name: Object
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object
-  - name: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  name: GetHashCode()
-  nameWithType: object.GetHashCode()
-  fullName: object.GetHashCode()
-  nameWithType.vb: Object.GetHashCode()
-  fullName.vb: Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
-  - name: (
-  - name: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  name: GetType()
-  nameWithType: object.GetType()
-  fullName: object.GetType()
-  nameWithType.vb: Object.GetType()
-  fullName.vb: Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
-  - name: (
-  - name: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  name: MemberwiseClone()
-  nameWithType: object.MemberwiseClone()
-  fullName: object.MemberwiseClone()
-  nameWithType.vb: Object.MemberwiseClone()
-  fullName.vb: Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
-  - name: (
-  - name: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.EnumUtil.MapEnums``2
   commentId: M:EnumUtil.MapEnums``2(``0)
   parent: EnumUtil
   definition: EnumUtil.MapEnums``2(``0)
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  name: MapEnums<ModuleOwnerRecordData, To>(ModuleOwnerRecordData)
-  nameWithType: EnumUtil.MapEnums<ModuleOwnerRecordData, To>(ModuleOwnerRecordData)
-  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ModuleOwnerRecordData, To>(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-  nameWithType.vb: EnumUtil.MapEnums(Of ModuleOwnerRecordData, To)(ModuleOwnerRecordData)
-  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ModuleOwnerRecordData, To)(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-  name.vb: MapEnums(Of ModuleOwnerRecordData, To)(ModuleOwnerRecordData)
+  name: MapEnums<ModuleOwnerRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<ModuleOwnerRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ModuleOwnerRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ModuleOwnerRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ModuleOwnerRecordData, To)()
+  name.vb: MapEnums(Of ModuleOwnerRecordData, To)()
   spec.csharp:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ModuleOwnerRecordData, To>
+    nameWithType: EnumUtil.MapEnums<ModuleOwnerRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.ModuleOwnerRecordData, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
-    name: ModuleOwnerRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
-    name: ModuleOwnerRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-    name: MapEnums
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ModuleOwnerRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of ModuleOwnerRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.ModuleOwnerRecordData, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
-    name: ModuleOwnerRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
-    name: ModuleOwnerRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert
-  commentId: M:SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-  parent: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions
-  definition: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-  href: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.html#SuperOffice_CRM_Rows_ModuleOwnerRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_ModuleOwnerRecordData_
-  name: ToInsert(ModuleOwnerRecordData)
-  nameWithType: ModuleOwnerRecordDataExtensions.ToInsert(ModuleOwnerRecordData)
-  fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.html#SuperOffice_CRM_Rows_ModuleOwnerRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_ModuleOwnerRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
-    name: ModuleOwnerRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.html#SuperOffice_CRM_Rows_ModuleOwnerRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_ModuleOwnerRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
-    name: ModuleOwnerRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  parent: SuperOffice.ErpSync.ConnectorWS.Converters
-  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<ModuleOwnerRecordData, To>(ModuleOwnerRecordData)
-  nameWithType: Converters.MapEnums<ModuleOwnerRecordData, To>(ModuleOwnerRecordData)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ModuleOwnerRecordData, To>(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-  nameWithType.vb: Converters.MapEnums(Of ModuleOwnerRecordData, To)(ModuleOwnerRecordData)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ModuleOwnerRecordData, To)(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-  name.vb: MapEnums(Of ModuleOwnerRecordData, To)(ModuleOwnerRecordData)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
-    name: ModuleOwnerRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
-    name: ModuleOwnerRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
-    name: ModuleOwnerRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
-    name: ModuleOwnerRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ModuleOwnerRecordData>(ModuleOwnerRecordData, ModuleOwnerRecordData)
-  nameWithType: ObjectExtensions.AssignByReflection<ModuleOwnerRecordData>(ModuleOwnerRecordData, ModuleOwnerRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ModuleOwnerRecordData>(SuperOffice.CRM.Rows.ModuleOwnerRecordData, SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ModuleOwnerRecordData)(ModuleOwnerRecordData, ModuleOwnerRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ModuleOwnerRecordData)(SuperOffice.CRM.Rows.ModuleOwnerRecordData, SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-  name.vb: AssignByReflection(Of ModuleOwnerRecordData)(ModuleOwnerRecordData, ModuleOwnerRecordData)
+  name: AssignByReflection<ModuleOwnerRecordData>(ModuleOwnerRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<ModuleOwnerRecordData>(ModuleOwnerRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ModuleOwnerRecordData>(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ModuleOwnerRecordData)(ModuleOwnerRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ModuleOwnerRecordData)(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
+  name.vb: AssignByReflection(Of ModuleOwnerRecordData)(ModuleOwnerRecordData)
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ModuleOwnerRecordData,SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ModuleOwnerRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<ModuleOwnerRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.ModuleOwnerRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
-    name: ModuleOwnerRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
     name: ModuleOwnerRecordData
+    nameWithType: ModuleOwnerRecordData
+    fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
-    name: ModuleOwnerRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.ModuleOwnerRecordData,SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-    name: AssignByReflection
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ModuleOwnerRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ModuleOwnerRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.ModuleOwnerRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
     name: ModuleOwnerRecordData
+    nameWithType: ModuleOwnerRecordData
+    fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData
     isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
-    name: ModuleOwnerRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
-    name: ModuleOwnerRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   parent: SuperOffice.Util.ObjectExtensions
   definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ModuleOwnerRecordData>(ModuleOwnerRecordData)
-  nameWithType: ObjectExtensions.GraphCopy<ModuleOwnerRecordData>(ModuleOwnerRecordData)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ModuleOwnerRecordData>(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ModuleOwnerRecordData)(ModuleOwnerRecordData)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ModuleOwnerRecordData)(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-  name.vb: GraphCopy(Of ModuleOwnerRecordData)(ModuleOwnerRecordData)
+  name: GraphCopy<ModuleOwnerRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<ModuleOwnerRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ModuleOwnerRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ModuleOwnerRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ModuleOwnerRecordData)()
+  name.vb: GraphCopy(Of ModuleOwnerRecordData)()
   spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ModuleOwnerRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<ModuleOwnerRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.ModuleOwnerRecordData>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
-    name: ModuleOwnerRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
-  - name: '>'
   - name: (
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
-    name: ModuleOwnerRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-    name: GraphCopy
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ModuleOwnerRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of ModuleOwnerRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.ModuleOwnerRecordData)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
-    name: ModuleOwnerRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
+    nameWithType: (
+    fullName: (
   - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
-    name: ModuleOwnerRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Data
-  commentId: N:SuperOffice.CRM.Data
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Data
-  nameWithType: SuperOffice.CRM.Data
-  fullName: SuperOffice.CRM.Data
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
+  parent: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
+  name: ToInsert()
+  nameWithType: ModuleOwnerRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert()
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ModuleOwnerRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
-    isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: ModuleOwnerRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ModuleOwnerRecordData, To>()
+  nameWithType: Converters.MapEnums<ModuleOwnerRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ModuleOwnerRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of ModuleOwnerRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ModuleOwnerRecordData, To)()
+  name.vb: MapEnums(Of ModuleOwnerRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ModuleOwnerRecordData, To>
+    nameWithType: Converters.MapEnums<ModuleOwnerRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.ModuleOwnerRecordData, To>
     isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Data
-    name: Data
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ModuleOwnerRecordData, To)
+    nameWithType: Converters.MapEnums(Of ModuleOwnerRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.ModuleOwnerRecordData, To)
     isExternal: true
-    href: SuperOffice.CRM.Data.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: EnumUtil.MapEnums``2(``0)
   commentId: M:EnumUtil.MapEnums``2(``0)
   isExternal: true
-  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   name: MapEnums<From, To>(From)
   nameWithType: EnumUtil.MapEnums<From, To>(From)
   fullName: EnumUtil.MapEnums<From, To>(From)
@@ -1157,130 +917,43 @@ references:
   name.vb: MapEnums(Of From, To)(From)
   spec.csharp:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: From
+    nameWithType: From
+    fullName: From
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: EnumUtil.MapEnums``2(``0)
-    name: MapEnums
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
     isExternal: true
-    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: From
-  - name: ','
-  - name: " "
-  - name: To
+    nameWithType: From
+    fullName: From
   - name: )
-  - name: (
-  - name: From
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: EnumUtil
   commentId: T:EnumUtil
   isExternal: true
-  href: EnumUtil.html
   name: EnumUtil
   nameWithType: EnumUtil
   fullName: EnumUtil
-- uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-  commentId: M:SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-  isExternal: true
-  href: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.html#SuperOffice_CRM_Rows_ModuleOwnerRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_ModuleOwnerRecordData_
-  name: ToInsert(ModuleOwnerRecordData)
-  nameWithType: ModuleOwnerRecordDataExtensions.ToInsert(ModuleOwnerRecordData)
-  fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.html#SuperOffice_CRM_Rows_ModuleOwnerRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_ModuleOwnerRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
-    name: ModuleOwnerRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
-    name: ToInsert
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.html#SuperOffice_CRM_Rows_ModuleOwnerRecordDataExtensions_ToInsert_SuperOffice_CRM_Rows_ModuleOwnerRecordData_
-  - name: (
-  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
-    name: ModuleOwnerRecordData
-    isExternal: true
-    href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html
-  - name: )
-- uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions
-  commentId: T:SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions
-  parent: SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.html
-  name: ModuleOwnerRecordDataExtensions
-  nameWithType: ModuleOwnerRecordDataExtensions
-  fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  name: MapEnums<From, To>(From)
-  nameWithType: Converters.MapEnums<From, To>(From)
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
-  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
-  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
-  name.vb: MapEnums(Of From, To)(From)
-  spec.csharp:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: <
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: '>'
-  - name: (
-  - name: From
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
-    name: MapEnums
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: From
-  - name: ','
-  - name: " "
-  - name: To
-  - name: )
-  - name: (
-  - name: From
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS.Converters
-  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
-  parent: SuperOffice.ErpSync.ConnectorWS
-  isExternal: true
-  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
-  name: Converters
-  nameWithType: Converters
-  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   name: AssignByReflection<T>(T, T)
   nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
   fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
@@ -1289,46 +962,56 @@ references:
   name.vb: AssignByReflection(Of T)(T, T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
-  - name: ','
-  - name: " "
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.Util.ObjectExtensions
   commentId: T:SuperOffice.Util.ObjectExtensions
   parent: SuperOffice.Util
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
   name: ObjectExtensions
   nameWithType: ObjectExtensions
   fullName: SuperOffice.Util.ObjectExtensions
 - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
   isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   name: GraphCopy<T>(T)
   nameWithType: ObjectExtensions.GraphCopy<T>(T)
   fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
@@ -1337,189 +1020,180 @@ references:
   name.vb: GraphCopy(Of T)(T)
   spec.csharp:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
   - name: (
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
   - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
     isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
   - name: (
-  - name: Of
-  - name: " "
+    nameWithType: (
+    fullName: (
   - name: T
+    nameWithType: T
+    fullName: T
   - name: )
-  - name: (
-  - name: T
-  - name: )
-- uid: SuperOffice.ErpSync.ConnectorWS
-  commentId: N:SuperOffice.ErpSync.ConnectorWS
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
+  commentId: M:SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.ErpSync.ConnectorWS
-  nameWithType: SuperOffice.ErpSync.ConnectorWS
-  fullName: SuperOffice.ErpSync.ConnectorWS
+  name: ToInsert(ModuleOwnerRecordData)
+  nameWithType: ModuleOwnerRecordDataExtensions.ToInsert(ModuleOwnerRecordData)
+  fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
+    name: ToInsert
+    nameWithType: ModuleOwnerRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
+    name: ModuleOwnerRecordData
+    nameWithType: ModuleOwnerRecordData
+    fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
-    isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: )
+    nameWithType: )
+    fullName: )
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.ModuleOwnerRecordData)
+    name: ToInsert
+    nameWithType: ModuleOwnerRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions.ToInsert
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.ErpSync
-    name: ErpSync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData
+    name: ModuleOwnerRecordData
+    nameWithType: ModuleOwnerRecordData
+    fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData
     isExternal: true
-    href: SuperOffice.ErpSync.html
-  - name: .
-  - uid: SuperOffice.ErpSync.ConnectorWS
-    name: ConnectorWS
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ModuleOwnerRecordDataExtensions
+  nameWithType: ModuleOwnerRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
     isExternal: true
-    href: SuperOffice.ErpSync.ConnectorWS.html
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
-  href: SuperOffice.html
   name: SuperOffice.Util
   nameWithType: SuperOffice.Util
   fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: System.IO.Stream
-  commentId: T:System.IO.Stream
-  parent: System.IO
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.io.stream
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
-- uid: System.IO
-  commentId: N:System.IO
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.IO
-  nameWithType: System.IO
-  fullName: System.IO
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.IO
-    name: IO
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.IO
-    name: IO
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.io
 - uid: System.UInt32
   commentId: T:System.UInt32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.uint32
-  name: uint
-  nameWithType: uint
-  fullName: uint
-  nameWithType.vb: UInteger
-  fullName.vb: UInteger
-  name.vb: UInteger
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
 - uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-  nameWithType.vb: Date
-  fullName.vb: Date
-  name.vb: Date
 - uid: System.Int16
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Rows.ModuleOwnerRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.ModuleOwnerRecordData.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Rows.ModuleOwnerRecordData.html#SuperOffice_CRM_Rows_ModuleOwnerRecordData__ctor
   name: ModuleOwnerRecordData
   nameWithType: ModuleOwnerRecordData.ModuleOwnerRecordData
   fullName: SuperOffice.CRM.Rows.ModuleOwnerRecordData.ModuleOwnerRecordData
-  nameWithType.vb: ModuleOwnerRecordData.New
-  fullName.vb: SuperOffice.CRM.Rows.ModuleOwnerRecordData.New
-  name.vb: New

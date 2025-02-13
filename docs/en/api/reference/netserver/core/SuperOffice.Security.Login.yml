@@ -18,7 +18,6 @@ references:
 - uid: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
   commentId: T:SuperOffice.Security.Login.VideoMeetingPostLoginPlugin
   isExternal: true
-  href: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin.html
   name: VideoMeetingPostLoginPlugin
   nameWithType: VideoMeetingPostLoginPlugin
   fullName: SuperOffice.Security.Login.VideoMeetingPostLoginPlugin

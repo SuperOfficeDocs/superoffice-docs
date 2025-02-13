@@ -16,9 +16,9 @@ items:
   - SuperOffice.CRM.Services.SuggestedDocumentEntity.Rank
   - SuperOffice.CRM.Services.SuggestedDocumentEntity.SaleTypeStageLink
   - SuperOffice.CRM.Services.SuggestedDocumentEntity.SuggestedDocumentId
+  - SuperOffice.CRM.Services.SuggestedDocumentEntity.Tooltip
   - SuperOffice.CRM.Services.SuggestedDocumentEntity.ToString
   - SuperOffice.CRM.Services.SuggestedDocumentEntity.ToString(System.String)
-  - SuperOffice.CRM.Services.SuggestedDocumentEntity.Tooltip
   langs:
   - csharp
   - vb
@@ -26,37 +26,20 @@ items:
   nameWithType: SuggestedDocumentEntity
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity
   type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Carrier object for SuggestedDocumentEntity.
-
-    Services for the SuggestedDocumentEntity Carrier is available from the <xref href="SuperOffice.CRM.Services.IDocumentAgent?text=Document+Agent" data-throw-if-not-resolved="false"></xref>.
+  summary: "\nCarrier object for SuggestedDocumentEntity.\nServices for the SuggestedDocumentEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IDocumentAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example:
-  - >-
-    Get SuggestedDocumentEntity 123 using the agent:
-
-    <pre><code class="lang-csharp">using SuperOffice;
-
-    using SuperOffice.CRM.Services;
-
-
-    using (SoSession mySession = SoSession.Authenticate("user", "pass"))
-
-    {
-       var agent = new DocumentAgent();
-       var suggestedDocumentEntity = agent.GetSuggestedDocumentEntity( 123 );
-    }</code></pre>
+  - "\nGet SuggestedDocumentEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new DocumentAgent();\n    var suggestedDocumentEntity = agent.GetSuggestedDocumentEntity( 123 );\n }</code></pre>\n"
   syntax:
-    content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")]
-
-      public class SuggestedDocumentEntity : Carrier
+    content: 'public class SuggestedDocumentEntity : Carrier'
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/10.3.0.0")>
-
-      Public Class SuggestedDocumentEntity Inherits Carrier
+      Public Class SuggestedDocumentEntity
+          Inherits Carrier
   seealso:
   - linkId: SuperOffice.CRM.Services.DocumentAgent
     commentId: T:SuperOffice.CRM.Services.DocumentAgent
@@ -64,14 +47,12 @@ items:
     commentId: T:SuperOffice.CRM.Services.IDocumentAgent
   inheritance:
   - System.Object
-  attributes:
-  - type: System.Runtime.Serialization.DataContractAttribute
-    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
-    arguments: []
-    namedArguments:
-    - name: Namespace
-      type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/10.3.0.0
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.SuggestedDocumentEntity.#ctor
   id: '#ctor'
@@ -83,18 +64,21 @@ items:
   nameWithType: SuggestedDocumentEntity.SuggestedDocumentEntity()
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.SuggestedDocumentEntity()
   type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Default constructor
-  example: []
+  summary: "\nDefault constructor\n"
   syntax:
     content: public SuggestedDocumentEntity()
-    content.vb: Public Sub New()
+    content.vb: Public Sub New
   overload: SuperOffice.CRM.Services.SuggestedDocumentEntity.#ctor*
-  nameWithType.vb: SuggestedDocumentEntity.New()
-  fullName.vb: SuperOffice.CRM.Services.SuggestedDocumentEntity.New()
-  name.vb: New()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.ToString
   commentId: M:SuperOffice.CRM.Services.SuggestedDocumentEntity.ToString
   id: ToString
@@ -106,18 +90,26 @@ items:
   nameWithType: SuggestedDocumentEntity.ToString()
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.ToString()
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Returns the carrier contents as a formatted string.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string.\n"
   syntax:
     content: public override string ToString()
     return:
       type: System.String
       description: The carrier contents.
-    content.vb: Public Overrides Function ToString() As String
+    content.vb: Public Overrides Function ToString As String
   overload: SuperOffice.CRM.Services.SuggestedDocumentEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.ToString(System.String)
   commentId: M:SuperOffice.CRM.Services.SuggestedDocumentEntity.ToString(System.String)
   id: ToString(System.String)
@@ -125,18 +117,17 @@ items:
   langs:
   - csharp
   - vb
-  name: ToString(string)
-  nameWithType: SuggestedDocumentEntity.ToString(string)
-  fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.ToString(string)
+  name: ToString(String)
+  nameWithType: SuggestedDocumentEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.ToString(System.String)
   type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Returns the carrier contents as a formatted string, useful for debugging.
-
-    Each line in the output is prefixed with the input value.
-  example: []
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
   syntax:
     content: public string ToString(string prefix)
     parameters:
@@ -148,9 +139,10 @@ items:
       description: The carrier contents.
     content.vb: Public Function ToString(prefix As String) As String
   overload: SuperOffice.CRM.Services.SuggestedDocumentEntity.ToString*
-  nameWithType.vb: SuggestedDocumentEntity.ToString(String)
-  fullName.vb: SuperOffice.CRM.Services.SuggestedDocumentEntity.ToString(String)
-  name.vb: ToString(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.SuggestedDocumentId
   commentId: P:SuperOffice.CRM.Services.SuggestedDocumentEntity.SuggestedDocumentId
   id: SuggestedDocumentId
@@ -162,28 +154,28 @@ items:
   nameWithType: SuggestedDocumentEntity.SuggestedDocumentId
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.SuggestedDocumentId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Primary key
-  example: []
+  summary: "\nPrimary key \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int SuggestedDocumentId { get; set; }
+    content: public virtual int SuggestedDocumentId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SuggestedDocumentId As Integer
+    content.vb: Public Overridable Property SuggestedDocumentId As Integer
   overload: SuperOffice.CRM.Services.SuggestedDocumentEntity.SuggestedDocumentId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.Name
   commentId: P:SuperOffice.CRM.Services.SuggestedDocumentEntity.Name
   id: Name
@@ -195,28 +187,28 @@ items:
   nameWithType: SuggestedDocumentEntity.Name
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.Name
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Item name, visible in Guide
-  example: []
+  summary: "\nItem name, visible in Guide \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Name { get; set; }
+    content: public virtual string Name { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Name As String
+    content.vb: Public Overridable Property Name As String
   overload: SuperOffice.CRM.Services.SuggestedDocumentEntity.Name*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.Tooltip
   commentId: P:SuperOffice.CRM.Services.SuggestedDocumentEntity.Tooltip
   id: Tooltip
@@ -228,28 +220,28 @@ items:
   nameWithType: SuggestedDocumentEntity.Tooltip
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.Tooltip
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Tooltip / description
-  example: []
+  summary: "\nTooltip / description \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Tooltip { get; set; }
+    content: public virtual string Tooltip { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Tooltip As String
+    content.vb: Public Overridable Property Tooltip As String
   overload: SuperOffice.CRM.Services.SuggestedDocumentEntity.Tooltip*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.Rank
   commentId: P:SuperOffice.CRM.Services.SuggestedDocumentEntity.Rank
   id: Rank
@@ -261,28 +253,28 @@ items:
   nameWithType: SuggestedDocumentEntity.Rank
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.Rank
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Rank, controls rank of non-instantiated items in Guide
-  example: []
+  summary: "\nRank, controls rank of non-instantiated items in Guide \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual short Rank { get; set; }
+    content: public virtual short Rank { get; set; }
     parameters: []
     return:
       type: System.Int16
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Rank As Short
+    content.vb: Public Overridable Property Rank As Short
   overload: SuperOffice.CRM.Services.SuggestedDocumentEntity.Rank*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.DoctmplId
   commentId: P:SuperOffice.CRM.Services.SuggestedDocumentEntity.DoctmplId
   id: DoctmplId
@@ -294,28 +286,28 @@ items:
   nameWithType: SuggestedDocumentEntity.DoctmplId
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.DoctmplId
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Type of the suggested document
-  example: []
+  summary: "\nType of the suggested document \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual int DoctmplId { get; set; }
+    content: public virtual int DoctmplId { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property DoctmplId As Integer
+    content.vb: Public Overridable Property DoctmplId As Integer
   overload: SuperOffice.CRM.Services.SuggestedDocumentEntity.DoctmplId*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.Header
   commentId: P:SuperOffice.CRM.Services.SuggestedDocumentEntity.Header
   id: Header
@@ -327,28 +319,28 @@ items:
   nameWithType: SuggestedDocumentEntity.Header
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.Header
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Suggested 'header'
-  example: []
+  summary: "\nSuggested &apos;header&apos; \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string Header { get; set; }
+    content: public virtual string Header { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Header As String
+    content.vb: Public Overridable Property Header As String
   overload: SuperOffice.CRM.Services.SuggestedDocumentEntity.Header*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.OurRef
   commentId: P:SuperOffice.CRM.Services.SuggestedDocumentEntity.OurRef
   id: OurRef
@@ -360,28 +352,28 @@ items:
   nameWithType: SuggestedDocumentEntity.OurRef
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.OurRef
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Suggested 'our reference'
-  example: []
+  summary: "\nSuggested &apos;our reference&apos; \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual string OurRef { get; set; }
+    content: public virtual string OurRef { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property OurRef As String
+    content.vb: Public Overridable Property OurRef As String
   overload: SuperOffice.CRM.Services.SuggestedDocumentEntity.OurRef*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.Deleted
   commentId: P:SuperOffice.CRM.Services.SuggestedDocumentEntity.Deleted
   id: Deleted
@@ -393,28 +385,28 @@ items:
   nameWithType: SuggestedDocumentEntity.Deleted
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.Deleted
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: 0 -&gt; record is active 1 -&gt; record is 'deleted' and should not be shown in lists
-  example: []
+  summary: "\n0 -> record is active 1 -> record is &apos;deleted&apos; and should not be shown in lists \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual bool Deleted { get; set; }
+    content: public virtual bool Deleted { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property Deleted As Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
   overload: SuperOffice.CRM.Services.SuggestedDocumentEntity.Deleted*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.DocTmpl
   commentId: P:SuperOffice.CRM.Services.SuggestedDocumentEntity.DocTmpl
   id: DocTmpl
@@ -426,28 +418,28 @@ items:
   nameWithType: SuggestedDocumentEntity.DocTmpl
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.DocTmpl
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Document template
-  example: []
+  summary: "\nDocument template \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual DocumentTemplate DocTmpl { get; set; }
+    content: public virtual DocumentTemplate DocTmpl { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.DocumentTemplate
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property DocTmpl As DocumentTemplate
+    content.vb: Public Overridable Property DocTmpl As DocumentTemplate
   overload: SuperOffice.CRM.Services.SuggestedDocumentEntity.DocTmpl*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.ProjectTypeStatusLink
   commentId: P:SuperOffice.CRM.Services.SuggestedDocumentEntity.ProjectTypeStatusLink
   id: ProjectTypeStatusLink
@@ -459,28 +451,28 @@ items:
   nameWithType: SuggestedDocumentEntity.ProjectTypeStatusLink
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.ProjectTypeStatusLink
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Project type and project status link info
-  example: []
+  summary: "\nProject type and project status link info \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual ProjectTypeStatusLink ProjectTypeStatusLink { get; set; }
+    content: public virtual ProjectTypeStatusLink ProjectTypeStatusLink { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.ProjectTypeStatusLink
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property ProjectTypeStatusLink As ProjectTypeStatusLink
+    content.vb: Public Overridable Property ProjectTypeStatusLink As ProjectTypeStatusLink
   overload: SuperOffice.CRM.Services.SuggestedDocumentEntity.ProjectTypeStatusLink*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.SaleTypeStageLink
   commentId: P:SuperOffice.CRM.Services.SuggestedDocumentEntity.SaleTypeStageLink
   id: SaleTypeStageLink
@@ -492,33 +484,38 @@ items:
   nameWithType: SuggestedDocumentEntity.SaleTypeStageLink
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.SaleTypeStageLink
   type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Sale type and stage link info.
-  example: []
+  summary: "\nSale type and stage link info. \n"
   syntax:
-    content: >-
-      [DataMember]
-
-      public virtual SaleTypeStageLink SaleTypeStageLink { get; set; }
+    content: public virtual SaleTypeStageLink SaleTypeStageLink { get; set; }
     parameters: []
     return:
       type: SuperOffice.CRM.Services.SaleTypeStageLink
-    content.vb: >-
-      <DataMember>
-
-      Public Overridable Property SaleTypeStageLink As SaleTypeStageLink
+    content.vb: Public Overridable Property SaleTypeStageLink As SaleTypeStageLink
   overload: SuperOffice.CRM.Services.SuggestedDocumentEntity.SaleTypeStageLink*
-  attributes:
-  - type: System.Runtime.Serialization.DataMemberAttribute
-    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
-    arguments: []
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
 - uid: SuperOffice.CRM.Services.DocumentAgent
   commentId: T:SuperOffice.CRM.Services.DocumentAgent
   isExternal: true
-  href: SuperOffice.CRM.Services.DocumentAgent.html
   name: DocumentAgent
   nameWithType: DocumentAgent
   fullName: SuperOffice.CRM.Services.DocumentAgent
@@ -526,79 +523,18 @@ references:
   commentId: T:SuperOffice.CRM.Services.IDocumentAgent
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.IDocumentAgent.html
   name: IDocumentAgent
   nameWithType: IDocumentAgent
   fullName: SuperOffice.CRM.Services.IDocumentAgent
-- uid: SuperOffice.CRM.Services
-  commentId: N:SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Services
-  nameWithType: SuperOffice.CRM.Services
-  fullName: SuperOffice.CRM.Services
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Services
-    name: Services
-    isExternal: true
-    href: SuperOffice.CRM.Services.html
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object
-  name: object
-  nameWithType: object
-  fullName: object
-  nameWithType.vb: Object
-  fullName.vb: Object
-  name.vb: Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.SuggestedDocumentEntity.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.SuggestedDocumentEntity.html#SuperOffice_CRM_Services_SuggestedDocumentEntity__ctor
   name: SuggestedDocumentEntity
   nameWithType: SuggestedDocumentEntity.SuggestedDocumentEntity
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.SuggestedDocumentEntity
-  nameWithType.vb: SuggestedDocumentEntity.New
-  fullName.vb: SuperOffice.CRM.Services.SuggestedDocumentEntity.New
-  name.vb: New
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.ToString*
   commentId: Overload:SuperOffice.CRM.Services.SuggestedDocumentEntity.ToString
   isExternal: true
-  href: SuperOffice.CRM.Services.SuggestedDocumentEntity.html#SuperOffice_CRM_Services_SuggestedDocumentEntity_ToString
   name: ToString
   nameWithType: SuggestedDocumentEntity.ToString
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.ToString
@@ -606,17 +542,18 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.SuggestedDocumentId*
   commentId: Overload:SuperOffice.CRM.Services.SuggestedDocumentEntity.SuggestedDocumentId
   isExternal: true
-  href: SuperOffice.CRM.Services.SuggestedDocumentEntity.html#SuperOffice_CRM_Services_SuggestedDocumentEntity_SuggestedDocumentId
   name: SuggestedDocumentId
   nameWithType: SuggestedDocumentEntity.SuggestedDocumentId
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.SuggestedDocumentId
@@ -624,31 +561,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.Name*
   commentId: Overload:SuperOffice.CRM.Services.SuggestedDocumentEntity.Name
   isExternal: true
-  href: SuperOffice.CRM.Services.SuggestedDocumentEntity.html#SuperOffice_CRM_Services_SuggestedDocumentEntity_Name
   name: Name
   nameWithType: SuggestedDocumentEntity.Name
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.Name
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.Tooltip*
   commentId: Overload:SuperOffice.CRM.Services.SuggestedDocumentEntity.Tooltip
   isExternal: true
-  href: SuperOffice.CRM.Services.SuggestedDocumentEntity.html#SuperOffice_CRM_Services_SuggestedDocumentEntity_Tooltip
   name: Tooltip
   nameWithType: SuggestedDocumentEntity.Tooltip
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.Tooltip
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.Rank*
   commentId: Overload:SuperOffice.CRM.Services.SuggestedDocumentEntity.Rank
   isExternal: true
-  href: SuperOffice.CRM.Services.SuggestedDocumentEntity.html#SuperOffice_CRM_Services_SuggestedDocumentEntity_Rank
   name: Rank
   nameWithType: SuggestedDocumentEntity.Rank
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.Rank
@@ -656,38 +586,30 @@ references:
   commentId: T:System.Int16
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int16
-  name: short
-  nameWithType: short
-  fullName: short
-  nameWithType.vb: Short
-  fullName.vb: Short
-  name.vb: Short
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.DoctmplId*
   commentId: Overload:SuperOffice.CRM.Services.SuggestedDocumentEntity.DoctmplId
   isExternal: true
-  href: SuperOffice.CRM.Services.SuggestedDocumentEntity.html#SuperOffice_CRM_Services_SuggestedDocumentEntity_DoctmplId
   name: DoctmplId
   nameWithType: SuggestedDocumentEntity.DoctmplId
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.DoctmplId
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.Header*
   commentId: Overload:SuperOffice.CRM.Services.SuggestedDocumentEntity.Header
   isExternal: true
-  href: SuperOffice.CRM.Services.SuggestedDocumentEntity.html#SuperOffice_CRM_Services_SuggestedDocumentEntity_Header
   name: Header
   nameWithType: SuggestedDocumentEntity.Header
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.Header
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.OurRef*
   commentId: Overload:SuperOffice.CRM.Services.SuggestedDocumentEntity.OurRef
   isExternal: true
-  href: SuperOffice.CRM.Services.SuggestedDocumentEntity.html#SuperOffice_CRM_Services_SuggestedDocumentEntity_OurRef
   name: OurRef
   nameWithType: SuggestedDocumentEntity.OurRef
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.OurRef
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.Deleted*
   commentId: Overload:SuperOffice.CRM.Services.SuggestedDocumentEntity.Deleted
   isExternal: true
-  href: SuperOffice.CRM.Services.SuggestedDocumentEntity.html#SuperOffice_CRM_Services_SuggestedDocumentEntity_Deleted
   name: Deleted
   nameWithType: SuggestedDocumentEntity.Deleted
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.Deleted
@@ -695,17 +617,12 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.DocTmpl*
   commentId: Overload:SuperOffice.CRM.Services.SuggestedDocumentEntity.DocTmpl
   isExternal: true
-  href: SuperOffice.CRM.Services.SuggestedDocumentEntity.html#SuperOffice_CRM_Services_SuggestedDocumentEntity_DocTmpl
   name: DocTmpl
   nameWithType: SuggestedDocumentEntity.DocTmpl
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.DocTmpl
@@ -713,14 +630,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.DocumentTemplate
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.DocumentTemplate.html
   name: DocumentTemplate
   nameWithType: DocumentTemplate
   fullName: SuperOffice.CRM.Services.DocumentTemplate
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.ProjectTypeStatusLink*
   commentId: Overload:SuperOffice.CRM.Services.SuggestedDocumentEntity.ProjectTypeStatusLink
   isExternal: true
-  href: SuperOffice.CRM.Services.SuggestedDocumentEntity.html#SuperOffice_CRM_Services_SuggestedDocumentEntity_ProjectTypeStatusLink
   name: ProjectTypeStatusLink
   nameWithType: SuggestedDocumentEntity.ProjectTypeStatusLink
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.ProjectTypeStatusLink
@@ -728,14 +643,12 @@ references:
   commentId: T:SuperOffice.CRM.Services.ProjectTypeStatusLink
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.ProjectTypeStatusLink.html
   name: ProjectTypeStatusLink
   nameWithType: ProjectTypeStatusLink
   fullName: SuperOffice.CRM.Services.ProjectTypeStatusLink
 - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity.SaleTypeStageLink*
   commentId: Overload:SuperOffice.CRM.Services.SuggestedDocumentEntity.SaleTypeStageLink
   isExternal: true
-  href: SuperOffice.CRM.Services.SuggestedDocumentEntity.html#SuperOffice_CRM_Services_SuggestedDocumentEntity_SaleTypeStageLink
   name: SaleTypeStageLink
   nameWithType: SuggestedDocumentEntity.SaleTypeStageLink
   fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity.SaleTypeStageLink
@@ -743,7 +656,6 @@ references:
   commentId: T:SuperOffice.CRM.Services.SaleTypeStageLink
   parent: SuperOffice.CRM.Services
   isExternal: true
-  href: SuperOffice.CRM.Services.SaleTypeStageLink.html
   name: SaleTypeStageLink
   nameWithType: SaleTypeStageLink
   fullName: SuperOffice.CRM.Services.SaleTypeStageLink
