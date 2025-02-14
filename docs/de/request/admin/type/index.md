@@ -53,7 +53,7 @@ Das Finanzteam nutzt Anfragen zur Verwaltung eingehender Rechnungsansprüche und
 * [Anfragetyp erstellen][1]
 * [Anfragetyp löschen][2]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: create.md
 [2]: delete.md
 [3]: ../priority/index.md

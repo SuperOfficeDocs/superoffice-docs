@@ -147,7 +147,7 @@ Agenda für Interessephase:
 **Vorlage**: E-Mail
 **Standardbetreff**: Terminbestätigung (Interessephase)
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: ../../document/templates/variables/for-sales.md
 [4]: ../../document/templates/learn/index.md
 [2]: sale-stage.md

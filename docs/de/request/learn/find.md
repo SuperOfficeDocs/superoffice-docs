@@ -110,7 +110,7 @@ Falls die Vorschau nicht sichtbar ist, klicken Sie auf **Vorschau anzeigen** am 
 * [Navigator-Suche verwenden][19]
 * [Selektion erstellen][13]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: tags.md
 [6]: accept.md
 [9]: ../admin/next-in-queue.md
@@ -122,6 +122,6 @@ Falls die Vorschau nicht sichtbar ist, klicken Sie auf **Vorschau anzeigen** am 
 [18]: ../../dashboard/learn/index.md
 [19]: ../../learn/getting-started/main-screen/navigator.md#navigator
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img2]: ../../../media/loc/en/request/find-request-criteria.png
 [img3]: ../../../media/loc/en/request/find-request-dropdown.png

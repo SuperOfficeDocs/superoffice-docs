@@ -35,7 +35,7 @@ Nutzen Sie die Bildschirme **Workflow** und **Listen** in Einstellungen und Verw
 
 Diese Werkzeuge ermöglichen es Administratoren, Verkaufsprozesse individuell anzupassen und so Effizienz und Konsistenz im gesamten Team sicherzustellen.
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: create-sales-guide.md
 [2]: edit-sales-guide.md
 [3]: sale-stage.md

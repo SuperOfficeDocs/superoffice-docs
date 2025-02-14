@@ -60,7 +60,7 @@ Falls mehr als zwei Prioritäten extern verfügbar sind, kann der Kunde die gew�
 * [Prioritäten löschen][2]
 * [Eskalationsstufen erstellen][3]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: create.md
 [2]: delete.md
 [3]: escalation-levels.md

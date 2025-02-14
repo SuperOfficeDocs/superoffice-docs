@@ -119,7 +119,7 @@ Nun können Sie die Stufe auf **Verkauft** ändern. Nachdem alle erforderlichen 
 
 * [Verkaufsleitfaden in Einstellungen und Verwaltung einrichten][4]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: ../../diary/learn/invitation/add-attendee.md
 [3]: ../../document/learn/edit.md
 [4]: ../admin/create-sales-guide.md

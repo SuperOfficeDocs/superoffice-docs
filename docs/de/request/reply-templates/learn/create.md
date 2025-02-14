@@ -117,8 +117,8 @@ Der Korrelationsgrad zwischen Anfrage und FAQ-Einträgen kann unter <i class="ph
 * [Antwortvorlagen bearbeiten][6]
 * [Antwortvorlagen kopieren][7]
 
-<!-- Referenzierte Links -->
-[1]: ../../learn/category/index.md
+<!-- Referenced links -->
+[1]: ../../admin/category/index.md
 [2]: manage-folders.md
 [4]: ../../learn/reply.md
 [5]: new-language.md

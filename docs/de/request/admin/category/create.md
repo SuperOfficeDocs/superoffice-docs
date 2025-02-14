@@ -80,7 +80,7 @@ language: de
 
 * [Wie man "Nächste Anfrage in der Warteschlange" einrichtet][3]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: ../../../admin/preferences/learn/index.md
 [3]: ../next-in-queue.md
 

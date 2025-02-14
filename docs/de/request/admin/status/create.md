@@ -47,5 +47,5 @@ language: de
 
 * [So richten Sie "Nächste Anfrage in der Warteschlange abrufen" ein][1]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: ../next-in-queue.md

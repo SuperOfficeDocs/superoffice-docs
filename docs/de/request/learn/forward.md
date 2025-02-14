@@ -61,13 +61,13 @@ Sie können eine komplexe oder problematische Anfrage per E-Mail an eine externe
 * [Antwort an Kunde senden][3]
 * [Mitteilung bearbeiten][4]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: index.md#open
 [2]: create.md#message
 [3]: reply.md
 [4]: edit-message.md
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/forward-multiple-requests.png
 [img2]: ../../../media/loc/en/request/forward-add-recipient.png
 [img3]: ../../../media/loc/en/request/forward-a-request.png

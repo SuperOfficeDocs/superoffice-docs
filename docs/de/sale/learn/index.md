@@ -108,7 +108,7 @@ Weitere Details zur Einrichtung von Verkaufschancen finden Sie im [Leitfaden zur
 * [Mit Verkaufszielen arbeiten][7]
 * [Informationen über einen Verkauf drucken][11]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: ../../quote/learn/create.md
 [3]: ../../learn/section-tabs/index.md
 [13]: ../../learn/section-tabs/sales-tab.md
@@ -129,7 +129,7 @@ Weitere Details zur Einrichtung von Verkaufschancen finden Sie im [Leitfaden zur
 [12]: ../../custom-objects/learn/more-tab.md
 [17]: ../../quote/learn/quote-tab.md
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/sales-screen.png
 [img2]: ../../../media/loc/en/sale/getstarted-sidepanel-saleselection.png
 [img3]: ../../../media/loc/en/sale/user-diary-sales.png

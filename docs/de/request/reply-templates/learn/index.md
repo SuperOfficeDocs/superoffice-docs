@@ -51,7 +51,7 @@ In der Übersicht der Antwortvorlagen können Sie mit der Schaltfläche **Suchen
 * [Antwortvorlagen in Ordnern organisieren][1]
 * [Antwortvorlagen zu Nachrichten hinzufügen][11]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [3]: create.md
 [4]: new-language.md
 [6]: edit.md

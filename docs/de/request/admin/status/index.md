@@ -35,7 +35,7 @@ Sie könnten beispielsweise den neuen Status "Warten auf Antwort" als Variante z
 * [Anfragestatus löschen][2]
 * [Nächste Anfrage in der Warteschlange abrufen einrichten][3]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: create.md
 [2]: delete.md
 [3]: ../next-in-queue.md

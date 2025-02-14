@@ -58,7 +58,7 @@ Wenn eine Nachricht zwei verschiedene Anliegen enthält, die getrennt bearbeitet
 * [Anfrage aufteilen][2]
 * [Anfragen zusammenführen][3]
 
-<!-- Referenzierte Links -->
-[1]: ../index.md#open
+<!-- Referenced links -->
+[1]: index.md#open
 [2]: split-request.md
 [3]: merge.md

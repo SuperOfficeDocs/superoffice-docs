@@ -44,7 +44,7 @@ Die Bearbeitung einer Antwortvorlage kann auf zwei Arten erfolgen:
 * [Neue Sprachversion der Antwortvorlage erstellen][3]
 * [Antwortvorlagen kopieren][4]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: ../../learn/reply.md
 [2]: create.md
 [3]: new-language.md

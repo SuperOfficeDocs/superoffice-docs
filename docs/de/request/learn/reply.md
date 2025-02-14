@@ -108,7 +108,7 @@ Der erfasste Zeitaufwand wird in jeder Mitteilung angezeigt, und die Bearbeitung
 * [Neue Sprachversion der Antwortvorlage erstellen][5]
 * [E-Mail-Signatur bearbeiten][7]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: index.md#open
 [2]: create.md#fields
 [3]: close.md
@@ -118,6 +118,6 @@ Der erfasste Zeitaufwand wird in jeder Mitteilung angezeigt, und die Bearbeitung
 [8]: ../reply-templates/learn/index.md
 [10]: forward.md
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img3]: ../../../media/loc/en/request/message-to-external.png
 [img4]: ../../../media/loc/en/request/reply-to-a-customer.png

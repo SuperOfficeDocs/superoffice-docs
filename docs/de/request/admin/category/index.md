@@ -44,7 +44,7 @@ Die Kategorien sind in einer Baumstruktur organisiert.
 * [So richten Sie "Nächste Anfrage in der Warteschlange abrufen" ein][5]
 * [Prioritäten][4]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: create.md
 [2]: delete.md
 [3]: ../../../admin/lists/learn/index.md

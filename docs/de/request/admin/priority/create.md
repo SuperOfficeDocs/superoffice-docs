@@ -85,5 +85,5 @@ Standardmäßig enthält das System die Prioritäten **Hoch**, **Mittel** und **
 | Priorität geändert | Falls aktiviert, wird die Eskalationskette gemäß der Auswahl in der rechten Liste gesteuert, wenn die Priorität der Anfrage geändert wird. |
 | Neue Anfrage | Falls aktiviert, wird die Eskalationskette gemäß der Auswahl in der rechten Liste gesteuert, wenn eine neue Anfrage mit dieser Priorität im System eingeht. |
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: escalation-levels.md

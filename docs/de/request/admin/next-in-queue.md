@@ -99,5 +99,5 @@ Wenn eine Anfrage aus der Warteschlange abgerufen wurde, sollte ihr Status autom
 
 Erstellen Sie eine neue Anfrage, setzen Sie den **Eigentümer** auf **Nicht zugeordnet**, wählen Sie eine Kategorie, in der Sie Mitglied sind, und setzen Sie den **Status** auf **In Warteschlange**. Klicken Sie dann auf **Anfragen** > **Nächste Anfrage in der Warteschlange anzeigen**.
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [2]: category/index.md

@@ -44,9 +44,9 @@ Als Bearbeiter können Sie die Anfrage nicht immer alleine beantworten. Es kann 
 * [Weiterleiten einer Anfrage an externe Parteien][4]
 
 <!-- Referenced links -->
-[1]: ../index.md#open
-[2]: ../../../learn/basics/fav.md
-[3]: ../category/index.md
+[1]: index.md#open
+[2]: ../../learn/basics/fav.md
+[3]: ../admin/category/index.md
 [4]: forward.md
 
 <!-- Referenced images -->

@@ -109,7 +109,7 @@ Werte für *Wettbewerber* und *Gutschrift* werden in Einstellungen und Verwaltun
 * [Verkauf aktualisieren][1]
 * [Mit Verkaufsleitfäden arbeiten][2]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: update.md
 [2]: sales-guides.md
 [4]: ../../quote/learn/create.md
@@ -117,5 +117,5 @@ Werte für *Wettbewerber* und *Gutschrift* werden in Einstellungen und Verwaltun
 [11]: ../../learn/basics/notes.md
 [12]: ../../custom-objects/learn/more-tab.md
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/create-sale.png

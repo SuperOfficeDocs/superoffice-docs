@@ -97,7 +97,7 @@ Jedes Unternehmen hat eigene Abläufe zur Bearbeitung von Anfragen und nutzt Sup
 * [7 Tipps für einen erstklassigen Kundenservice mit SuperOffice Service][20] - Blog
 * [Warum der Massenabgleich Ihr Lieblingsfeature sein sollte][21] – Blog
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: accept.md
 [2]: reply.md
 [3]: close.md
@@ -118,6 +118,6 @@ Jedes Unternehmen hat eigene Abläufe zur Bearbeitung von Anfragen und nutzt Sup
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 [21]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png
 [img3]: ../../../media/loc/en/request/service-dashboard.png

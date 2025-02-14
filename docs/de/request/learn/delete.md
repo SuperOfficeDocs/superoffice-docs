@@ -37,7 +37,7 @@ Im Allgemeinen wird nicht empfohlen, eine Anfrage zu löschen. Möglicherweise m
 * [Antwort an Kunden senden][5]
 * [Nachricht bearbeiten][6]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: index.md
 [2]: create.md
 [3]: ../../learn/basics/deleting-elements.md

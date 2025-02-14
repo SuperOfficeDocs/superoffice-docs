@@ -49,13 +49,13 @@ Falls Sie vor der Annahme mehr Informationen benötigen oder die Funktion [Näch
 * [Nachrichten an externe Parteien weiterleiten][4]
 * [Anfrage schließen][5]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: index.md#open
 [2]: reply.md
 [3]: transfer.md
 [4]: forward.md
 [5]: close.md
-[6]: admin/next-in-queue.md
+[6]: ../admin/next-in-queue.md
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img2]: ../../../media/loc/en/request/requests-accept.png

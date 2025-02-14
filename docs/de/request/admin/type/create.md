@@ -47,12 +47,12 @@ language: de
 
 1. Klicken Sie auf **Speichern**. Der Anfragetyp wird erstellt.
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [3]: ../priority/index.md
 [4]: ../status/index.md
 [5]: ../../reply-templates/learn/index.md
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img1]: ../../../../media/loc/en/request/add-request-type.png
 [img2]: ../../../../media/loc/en/request/request-type-settings.png
 [img3]: ../../../../media/loc/en/request/add-request-type-status-priority.png

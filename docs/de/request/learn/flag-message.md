@@ -37,8 +37,8 @@ Um das Auffinden und Sortieren mehrerer Nachrichten in einer Anfrage zu erleicht
 * [Antwort an Kunde][3]
 * [Nachricht bearbeiten][4]
 
-<!-- Referenzierte Links -->
-[1]: ../index.md#open
+<!-- Referenced links -->
+[1]: index.md#open
 [2]: create.md
 [3]: reply.md
 [4]: edit-message.md

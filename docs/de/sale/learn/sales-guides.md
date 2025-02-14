@@ -177,7 +177,7 @@ Oder:
 * [Neuen Verkaufsleitfaden erstellen][4]
 * [Verkaufsleitfaden bearbeiten oder deaktivieren][5]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: index.md
 [2]: create.md
 [3]: tutorial.md
@@ -186,7 +186,7 @@ Oder:
 [6]: ../../diary/learn/create-follow-up.md
 [7]: ../../document/learn/edit.md
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/sales-guide-tab.png
 [img2]: ../../../media/loc/en/sale/guide-stages.png
 [img3]: ../../../media/loc/en/sale/goto-next-stage.png

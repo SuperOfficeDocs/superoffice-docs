@@ -152,7 +152,7 @@ Die automatische Speicherung wird standardmäßig aktiviert, wenn Sie Anfragen a
 * [Antwortvorlagen-Variablen][18]
 * [Antwortvorlage erstellen][19]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [2]: reply.md#reply-templ
 [3]: reply.md#time-spent
 [4]: tags.md
@@ -162,5 +162,5 @@ Die automatische Speicherung wird standardmäßig aktiviert, wenn Sie Anfragen a
 [18]: ../reply-templates/learn/template-variables.md
 [19]: ../reply-templates/learn/index.md
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/create-request.png

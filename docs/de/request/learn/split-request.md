@@ -59,10 +59,10 @@ Wenn eine Anfrage mehrere Anliegen enthält – beispielsweise eine technische F
 * [Nachricht aufteilen][1]
 * [Anfragen zusammenführen][7]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: split-message.md
-[2]: ../index.md#open
-[3]: ../priority/escalation-levels.md
+[2]: index.md#open
+[3]: ../admin/priority/escalation-levels.md
 [4]: reply.md
 [5]: transfer.md
 [6]: forward.md
