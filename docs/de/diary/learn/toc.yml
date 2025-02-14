@@ -25,6 +25,7 @@ items:
   href: send-as-email.md
 - name: Wiederholung
   href: recurrence/toc.yml
+  topicHref: recurrence/index.md
 - name: Einladungen
   href: invitation/toc.yml
   topicHref: invitation/index.md
