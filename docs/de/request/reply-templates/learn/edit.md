@@ -1,42 +1,51 @@
 ---
 uid: help-de-reply-template-edit
-title: Antwortvorlagen bearbeiten
-description: Antwortvorlagen bearbeiten
+title: Antwortvorlagen bearbeiten oder löschen
+description: Antwortvorlagen bearbeiten oder löschen
+keywords: Antwortvorlage bearbeiten, Antwortvorlage löschen, Antwortvorlage, Anfrage, Antwort, Vorlage
 author: Bergfrid Dias
-date: 03.16.2023
-keywords: Anfrage, Antwort, Vorlage
+date: 02.11.2025
+version: 10.5.2
 topic: howto
+license: serviceessentials
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: de
 ---
 
-# Antwortvorlagen bearbeiten
+# Antwortvorlagen bearbeiten oder löschen
 
-Die Bearbeitung von Antwortvorlagen kann sich folgendermaßen gestalten:
+Die Bearbeitung einer Antwortvorlage kann auf zwei Arten erfolgen:
 
-* Bei [Anfrage beantworten und Vorlage verwenden][1] können Sie den Inhalt der Mitteilung bearbeiten, bevor Sie sie an den Kunden senden.
-* Wenn Sie die Vorlage selbst erstellen oder bearbeiten, können Sie ihre Eigenschaften einschließlich der Änderung des Textes der Antwortvorlage bearbeiten. Diese Art der Bearbeitung wird nachstehend näher erläutert.
+* Wenn Sie [eine Anfrage beantworten und eine Vorlage verwenden][1], können Sie den Inhalt der Mitteilung bearbeiten, bevor Sie sie an den Kunden senden.
+* Wenn Sie die Vorlage selbst erstellen oder bearbeiten, können Sie ihre Eigenschaften ändern, einschließlich des Textes der Antwortvorlage. Diese Art der Bearbeitung wird unten beschrieben.
 
-## Schritte
+## Antwortvorlage bearbeiten
 
-1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **Antwortvorlagen** aus.
-1. Wechseln Sie zu dem Ordner, in dem die Antwortvorlage gespeichert ist.
-1. Klicken Sie auf die Antwortvorlage. Sie gelangen zur Ansicht **Antwortvorlagen anzeigen**.
-1. Klicken Sie auf die Schaltfläche **Antwortvorlage bearbeiten**. Sie gelangen zur Ansicht **Eigenschaften der Antwortvorlage**.
-1. Nehmen Sie an den [Eigenschaften][2] die erforderlichen Änderungen vor.
-1. Klicken Sie auf **OK**. Die Änderungen werden gespeichert.
+1. Gehen Sie zum <i class="ph ph-list" aria-label="Hauptmenü"></i> in der oberen Leiste und wählen Sie **Wissensdatenbank** > **Antwortvorlagen**.
 
-## Was möchten Sie jetzt tun?
+1. Navigieren Sie zum Ordner, der die Antwortvorlage enthält, und klicken Sie darauf. Dies öffnet die Ansicht **Antwortvorlagen anzeigen**.
+
+1. Klicken Sie auf die Schaltfläche **Antwortvorlage bearbeiten**. Dies öffnet die Ansicht **Eigenschaften der Antwortvorlage**.
+
+1. Nehmen Sie die erforderlichen Änderungen an den [Eigenschaften][2] vor.
+
+1. Klicken Sie auf **OK**, um die Änderungen zu speichern.
+
+## <a id="delete"></a>Antwortvorlage löschen
+
+1. Folgen Sie den Schritten 1–3 unter **Antwortvorlage bearbeiten**, um die Ansicht **Eigenschaften der Antwortvorlage** zu öffnen.
+2. Klicken Sie unten in der Ansicht auf die Schaltfläche **Löschen**.
+3. Bestätigen Sie die Löschung, wenn Sie dazu aufgefordert werden. Die Antwortvorlage wird sofort gelöscht.
+
+## Verwandte Inhalte
 
 * [Neue Sprachversion der Antwortvorlage erstellen][3]
 * [Antwortvorlagen kopieren][4]
 
-<!-- Referenced links -->
-[1]: ../../learn/howto/reply.md
+<!-- Referenzierte Links -->
+[1]: ../../learn/reply.md
 [2]: create.md
 [3]: new-language.md
-[4]: copy.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png
+[4]: create.md#copy

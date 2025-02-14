@@ -2,10 +2,12 @@
 uid: help-de-template-variables-service
 title: Vorlagenvariablen
 description: Vorlagenvariablen
+keywords: Anfrage
 author: SuperOffice RnD
 date: 06.29.2022
-keywords: Anfrage
 topic: reference
+audience: person
+audience_tooltip: SuperOffice Service
 language: de
 ---
 
@@ -236,7 +238,3 @@ Datum formatieren:
 Uhrzeit formatieren:
 
 \[\[SEC-TO-TIME:"seconds","h:m:s"\]\]
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
