@@ -108,6 +108,6 @@ Wenn der Verkauf den Status **Gewonnen** oder **Verloren** hat, können Sie das 
 [5]: ../../search-options/learn/find-screen.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/de/sale/stalled-sale.png
-[img2]: ../../../media/loc/de/sale/won-sale.png
-[img3]: ../../../media/loc/de/sale/lost-sale.png
+[img1]: ../../../media/loc/en/sale/stalled-sale.png
+[img2]: ../../../media/loc/en/sale/won-sale.png
+[img3]: ../../../media/loc/en/sale/lost-sale.png

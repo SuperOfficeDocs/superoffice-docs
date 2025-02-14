@@ -58,4 +58,4 @@ Falls Sie vor der Annahme mehr Informationen benötigen oder die Funktion [Näch
 [6]: admin/next-in-queue.md
 
 <!-- Referenzierte Bilder -->
-[img2]: ../../../media/loc/de/request/requests-accept.png
+[img2]: ../../../media/loc/en/request/requests-accept.png

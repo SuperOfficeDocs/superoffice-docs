@@ -147,4 +147,4 @@ Falls ein Verkaufstyp gelöscht wurde, kann er aus der Liste **Verkauf - Typ, St
 [7]: ../../search-options/learn/search-criteria.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/de/sale/edit-sale-type.png
+[img1]: ../../../media/loc/en/sale/edit-sale-type.png

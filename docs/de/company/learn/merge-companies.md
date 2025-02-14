@@ -55,4 +55,4 @@ Halten Sie Ihre Kundendatenbank sauber und effizient, indem Sie doppelte Firmen 
 [2]: ../../contact/learn/merge-contacts.md
 
 <!-- Referenced images -->
-[img4]: ../../../media/loc/de/company/merge-companies.png
+[img4]: ../../../media/loc/en/company/merge-companies.png

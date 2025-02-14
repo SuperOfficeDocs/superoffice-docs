@@ -171,5 +171,5 @@ Falls erforderlich, können Sie das Projekt manuell zum nächsten Status verschi
 [8]: ../../document/learn/edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/de/project/project-guide-tab.png
-[img2]: ../../../media/loc/de/project/guide-statuses.png
+[img1]: ../../../media/loc/en/project/project-guide-tab.png
+[img2]: ../../../media/loc/en/project/guide-statuses.png

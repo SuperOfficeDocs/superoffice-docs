@@ -53,4 +53,4 @@ Die Registerkarte **Bild** ermöglicht das Hochladen und Verwalten von Bildern f
     * Oder laden Sie ein neues Bild hoch bzw. wählen Sie ein anderes Bild aus, dann klicken Sie auf **OK** und **Speichern**, um die Änderungen zu übernehmen.
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/de/project/project-image.png
+[img1]: ../../../media/loc/en/project/project-image.png

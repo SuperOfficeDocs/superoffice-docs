@@ -27,4 +27,4 @@ language: de
 ![Der Bildschirm Firma im Bearbeitungsmodus, der Firmendaten anzeigt -screenshot][img1]
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/de/company/edit-company.png
+[img1]: ../../../media/loc/en/company/edit-company.png

@@ -97,4 +97,4 @@ Falls der Projektname mit einem bestehenden Eintrag Ã¼bereinstimmt oder diesem Ã
 [13]: ../../ui/screen-designer/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/de/project/create-project.png
+[img1]: ../../../media/loc/en/project/create-project.png

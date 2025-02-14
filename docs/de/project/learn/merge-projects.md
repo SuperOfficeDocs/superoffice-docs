@@ -56,4 +56,4 @@ Wenn Sie zwei nahezu identische Projekte haben, können Sie diese zusammenführe
 [3]: edit.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/de/project/merge-projects.png
+[img2]: ../../../media/loc/en/project/merge-projects.png

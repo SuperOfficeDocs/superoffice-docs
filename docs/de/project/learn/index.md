@@ -83,4 +83,4 @@ Der untere Bereich der Projektansicht besteht aus mehreren Bereichsregisterkarte
 [20]: https://www.superoffice.com/blog/guest-blog-use-your-crm-to-manage-projects-for-all-industries/
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/de/project/projects.png
+[img1]: ../../../media/loc/en/project/projects.png

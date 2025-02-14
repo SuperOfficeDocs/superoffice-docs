@@ -46,4 +46,4 @@ Sie können die Projektinformationen direkt über die Registerkarten in der Proj
 [6]: ../../learn/basics/links.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/de/project/edit-project.png
+[img1]: ../../../media/loc/en/project/edit-project.png

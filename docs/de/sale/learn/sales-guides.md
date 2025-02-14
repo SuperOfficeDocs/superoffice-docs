@@ -187,6 +187,6 @@ Oder:
 [7]: ../../document/learn/edit.md
 
 <!-- Referenzierte Bilder -->
-[img1]: ../../../media/loc/de/sale/sales-guide-tab.png
-[img2]: ../../../media/loc/de/sale/guide-stages.png
-[img3]: ../../../media/loc/de/sale/goto-next-stage.png
+[img1]: ../../../media/loc/en/sale/sales-guide-tab.png
+[img2]: ../../../media/loc/en/sale/guide-stages.png
+[img3]: ../../../media/loc/en/sale/goto-next-stage.png

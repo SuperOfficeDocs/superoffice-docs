@@ -42,4 +42,4 @@ Sie können eine bestehende Firma kopieren, um eine neue zu erstellen. Wenn beis
 [2]: edit.md
 
 <!-- Referenced images -->
-[img3]: ../../../media/loc/de/company/copy-company.png
+[img3]: ../../../media/loc/en/company/copy-company.png

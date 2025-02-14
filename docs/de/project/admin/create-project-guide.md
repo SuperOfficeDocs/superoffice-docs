@@ -163,4 +163,4 @@ Recherche:
 [5]: edit-project-guide.md
 
 <!-- Referenced images -->
-[img2]: ../../../media/loc/de/project/create-project-guide.png
+[img2]: ../../../media/loc/en/project/create-project-guide.png
