@@ -2,10 +2,13 @@
 uid: help-de-reply-template-language
 title: Neue Sprachversion der Antwortvorlage erstellen
 description: Neue Sprachversion der Antwortvorlage erstellen
-author: SuperOffice RnD
-date: 03.16.2023
-keywords: Anfrage
+keywords: Anfrage, Antwortvorlage übersetzen, Neue Sprachversion, Antwortvorlage, Vorlage
+author: Bergfrid Dias
+date: 02.11.2025
+version: 10.5.2
 topic: howto
+license: serviceessentials
+functional_right: knowledge-base
 audience: person
 audience_tooltip: SuperOffice Service
 language: de
@@ -17,7 +20,7 @@ Manchmal bietet es sich an, eine Antwortvorlage in verschiedenen Sprachen zur Ve
 
 ## Sprachen zur Antwortvorlage hinzufügen
 
-1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **Antwortvorlagen** aus.
+1. Gehen Sie zum <i class="ph ph-list" aria-label="Hauptmenü"></i> in der oberen Leiste und wählen Sie **Wissensdatenbank** > **Antwortvorlagen** aus.
 
 2. Wechseln Sie zu dem Ordner, in dem die Antwortvorlage gespeichert ist.
 
@@ -36,9 +39,17 @@ Manchmal bietet es sich an, eine Antwortvorlage in verschiedenen Sprachen zur Ve
 > [!TIP]
 > Klicken Sie auf **Ausgewählten Sprachbereich löschen**, um den aktiven Sprachbereich (die ausgewählte Registerkarte Sprache) zu löschen.
 
+## Fehlerbehebung
+
+### Warum ist die Schaltfläche "Neuer Sprachbereic" nicht in der Fußzeile sichtbar?
+
+Wenn die Schaltfläche **Neuer Sprachbereic** nicht sichtbar ist, bedeutet dies, dass keine Kundensprachen im System definiert sind. Um dies zu beheben, muss ein Administrator [Kundensprachen hinzufügen][3] im Einstellungen und Verwaltung im Abschnitt **Systemoptionen** > **Kundensprachen**.
+
+### Warum ist eine bestimmte Sprache nicht in der Liste verfügbar?
+
+Wenn eine bestimmte Sprache im Dropdown-Menü **Sprache** fehlt, wurde sie nicht in die Liste der Kundensprachen aufgenommen. Bitten Sie Ihren Administrator, die fehlende Sprache in Einstellungen und Verwaltung hinzuzufügen.
+
 <!-- Referenced links -->
 [1]: create.md
 [2]: ../../../admin/options/learn/custlang/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu.png
+[3]: ../../../admin/options/learn/custlang/update.md

@@ -24,7 +24,7 @@ Wir werden jetzt ein Makro basierend auf dem Beispiel oben erstellen.
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
 
-1. Wählen Sie das ![Symbol][img2] **CRMScript** und die Registerkarte für **Makros und Skript** aus. Führen Sie einen der folgenden Schritte aus:
+1. Wählen Sie <i class="ph ph-code-block" aria-hidden="true"></i> **CRMScript** und die Registerkarte für **Makros und Skript** aus. Führen Sie einen der folgenden Schritte aus:
     * So erstellen Sie ein neues Makro: Klicken Sie auf **Neues Makro**.
     * So bearbeiten Sie ein vorhandenes Makro: Klicken Sie auf den Namen des Makros.
 
@@ -53,4 +53,3 @@ Wir werden jetzt ein Makro basierend auf dem Beispiel oben erstellen.
 [1]: trigger.md
 
 <!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-crmscript-active.png

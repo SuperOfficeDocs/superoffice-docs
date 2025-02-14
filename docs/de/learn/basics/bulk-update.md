@@ -2,9 +2,10 @@
 uid: help-de-bulk-update
 title: Massenabgleich
 description: Massenabgleich
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: Massenabgleich
+author: SuperOffice RnD
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 language: de
 ---
@@ -15,7 +16,7 @@ Mit dem Massenabgleich können Sie Werte in mehreren Datensätzen desselben Typs
 
 1. Öffnen Sie die Selektion, Bereichsregisterkarte (Archiv) oder Suchergebnisse (Ansicht **Suchen**) mit den abzugleichenden Datensätzen.
 
-2. Selektionen: Klicken Sie auf die Schaltfläche **Aufgabe** und wählen Sie **Massenabgleich**.
+2. Selektionen: Klicken Sie auf die Schaltfläche **Aufgabe** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) und wählen Sie **Massenabgleich**.
     oder
     Wählen Sie die abzugleichenden Datensätze aus, klicken Sie mit der rechten Maustaste darauf und wählen Sie **Massenabgleich...**.
     Das Dialogfeld **Massenabgleich** wird geöffnet. Unten in diesem Dialogfeld werden der Datensatztyp und die Anzahl der abzugleichenden Datensätze angezeigt. Beispiel: Anzahl der Personen in Warteschlange für Massenabgleich: 7.
@@ -38,7 +39,7 @@ Mit dem Massenabgleich können Sie Werte in mehreren Datensätzen desselben Typs
 
 5. Um weitere abzugleichende Felder hinzuzufügen, klicken Sie auf **Hinzufügen** und gehen erneut wie in Schritt 3 und 4 erläutert vor.
 
-6. Achten Sie darauf, die Felder auszuwählen (![Symbol][img1]), die Sie abgleichen wollen, und die Auswahl der Felder, die Sie NICHT abgleichen wollen, aufzuheben (![Symbol][img2]).
+6. Achten Sie darauf, die Felder auszuwählen (<i class="ph ph-check" aria-hidden="true"></i>), die Sie abgleichen wollen, und die Auswahl der Felder, die Sie NICHT abgleichen wollen, aufzuheben.
 
 7. Klicken Sie auf **Abgleichen**. Das Dialogfeld **Bestätigen** mit einer Zusammenfassung des Abgleichs wird geöffnet.
 
@@ -48,7 +49,7 @@ Mit dem Massenabgleich können Sie Werte in mehreren Datensätzen desselben Typs
 8. Klicken Sie auf **Ja**, um die Änderungen auf die ausgewählten Datensätze anzuwenden.
 
     > [!NOTE]
-    > Sie können den Abgleich stoppen, sobald Sie ihn gestartet haben. Alle Entitäten, die noch nicht abgeglichen wurden, werden nicht abgeglichen.
+    > Sobald ein Abgleich durchgeführt wurde, kann er nicht rückgängig gemacht werden. Sie können die Aktualisierung jedoch stoppen, solange sie noch läuft. Alle Datensätze, die noch nicht aktualisiert wurden, bleiben unverändert.
 
 9. Klicken Sie auf **Protokoll**, um das Änderungsprotokoll anzuzeigen. Falls Datensätze nicht abgeglichen wurden, ist der Grund in der Spalte **Gründe hierfür** aufgeführt.
 
@@ -89,9 +90,3 @@ Sie haben festgestellt, dass das Feld **Position** für Personen selten verwende
 ## Projekt abgleichen
 
 Sie möchten alle "alten" Projekte, die nicht als abgeschlossen gekennzeichnet sind, aufräumen. Erstellen Sie eine Selektion mit allen alten Projekten, beispielsweise allen Projekten, die vor mehr als 2 Jahren erstellt und im letzten Jahr nicht abgeglichen wurden. Stellen Sie mit **Massenabgleich** den Status **Abgeschlossen** bei diesen Projekten auf **Ja** ein.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-selected.png
-[img2]: ../../../media/icons/btn-unselected.png

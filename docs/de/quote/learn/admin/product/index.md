@@ -29,7 +29,7 @@ Wählen Sie in der Liste **Preislisten** die gewünschte Preisliste aus. Die Pro
 
 ## Preisliste exportieren
 
-Sie können eine geöffnete Preisliste exportieren, in dem Sie auf ![Symbol][img1] **Exportieren** am unteren Ende der Registerkarte **SuperOffice-Produkte** klicken. Wenn Sie nur bestimmte Produkte exportieren möchten, können Sie diese in der Preisliste auswählen. Wenn Sie keine Produkte auswählen, werden alle Produkte in der Preisliste exportiert.
+Sie können eine geöffnete Preisliste exportieren, in dem Sie auf <i class="ph ph-download-simple" aria-hidden="true"></i> **Exportieren** am unteren Ende der Registerkarte **SuperOffice-Produkte** klicken. Wenn Sie nur bestimmte Produkte exportieren möchten, können Sie diese in der Preisliste auswählen. Wenn Sie keine Produkte auswählen, werden alle Produkte in der Preisliste exportiert.
 
 ### Export nicht eingeblendet?
 
@@ -50,6 +50,3 @@ Entweder verfügen Sie nicht über die benötigten [Zugangsrechte][4] für die E
 [4]: ../../../../admin/user-management/learn/role/index.md
 [5]: ../../../../admin/preferences/learn/index.md
 [6]: ../../../../admin/learn/adjusting-views.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/export.png

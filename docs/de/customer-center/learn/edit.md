@@ -15,7 +15,7 @@ Sie können die Standardseiten in Ihrem Kundenzentrum aktualisieren, indem Sie d
 
 [!include[Requirement](../../learn/includes/req-cep.md)]
 
-1. Wählen Sie ![Symbol][img1] **Systemeinstellungen** > **Kundenzentrum-Quelldateien** aus.
+1. Wählen Sie <i class="ph ph-list" aria-label="Main menu"></i> **Systemeinstellungen** > **Kundenzentrum-Quelldateien** aus.
 
 2. Klicken Sie auf eine Webseite in der Liste.
 
@@ -29,8 +29,3 @@ Sie können die Standardseiten in Ihrem Kundenzentrum aktualisieren, indem Sie d
 5. Klicken Sie auf **Übernehmen**, um Ihre Änderungen zu speichern, ohne das Fenster zu schließen, oder klicken Sie zum Speichern und Beenden auf **OK**.
 
 Wenn Sie später den ursprünglichen Inhalt einer Seite wiederherstellen möchten, öffnen Sie die Seite und klicken Sie auf **Standard wiederherstellen**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu-small.png

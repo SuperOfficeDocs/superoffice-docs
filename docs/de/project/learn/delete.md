@@ -1,24 +1,34 @@
 ---
 uid: help-de-project-delete
-title: Projekt löschen
-description: Wie man ein Projekt in SuperOffice löscht
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: Projekt
+title: Ein Projekt und zugehörige Daten löschen
+description: Wie man ein Projekt und zugehörige Daten in SuperOffice löscht
+keywords: Projekt löschen, Projektmanagement, Projekt
+author: Bergfrid Dias
+date: 02.11.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
-# Ein vollständiges Projekt einschließlich der damit verknüpften Daten löschen
+# Ein Projekt und zugehörige Daten löschen
 
-1. [!include[Go to project](includes/goto-project.md)]
-2. Klicken Sie auf das ![Symbol][img1] der Schaltfläche **Aufgabe**.
-3. Wählen Sie **Löschen 'Projektnamen'**.
-4. Bestätigen Sie den Löschvorgang des Projekts mit **Ja**.
+1. Öffnen Sie die Ansicht **Projekt** für das Projekt, das Sie löschen möchten.
 
-[!include[Deleting items](../../learn/includes/tip-deletion.md)]
+1. Klicken Sie auf die Schaltfläche **Aufgabe** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in der oberen rechten Ecke der Projektkarte.
+    Wählen Sie **Löschen** aus dem Menü.
+
+    > [!NOTE]
+    > Wenn die Option **Löschen** ausgegraut ist, bedeutet dies, dass Sie nicht über die erforderlichen Benutzerrechte verfügen, um dieses Projekt zu löschen. Sie können keine Projekte löschen, die Ihnen nicht gehören, es sei denn, Sie haben die entsprechenden Berechtigungen.
+
+1. Überprüfen Sie im Dialogfeld **Projekt löschen** die Projektdetails, um sicherzustellen, dass Sie das richtige Projekt löschen.
+
+1. Klicken Sie auf **Ja**, um die Löschung zu bestätigen.
+
+## Verwandte Inhalte
+
+* [Projekte zusammenführen][1]
 
 <!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[1]: merge-projects.md

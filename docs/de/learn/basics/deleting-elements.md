@@ -4,8 +4,8 @@ title: Elemente löschen
 description: Zusammenführen, Löschen und Wiederherstellen von Elementen.
 keywords: Löschen, Wiederherstellen, Papierkorb
 author: SuperOffice
-date: 08.27.2024
-version: 10.3.8
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -60,7 +60,7 @@ Gelöschte Firmen und Personen bleiben standardmäßig 14 Tage lang im Papierkor
 
 Sie haben auch die Möglichkeit, die gelöschten Firmen und Personen anderer Benutzer wiederherzustellen. Aktivieren Sie hierzu einfach EIN für die Option Gelöschte Firmen für alle Benutzer anzeigen.
 
-1. Wählen Sie ![Symbol][img1] **Persönliche Einstellungen** > **Papierkorb** aus.
+1. Wählen Sie <i class="ph ph-user-circle" aria-hidden="true"></i> **Persönliche Einstellungen** > **Papierkorb** aus.
 
 2. Wählen Sie im Dialogfeld die Registerkarte **Firma** oder **Person** aus. Von Ihnen gelöschte Firmen und Personen werden angezeigt.
 
@@ -84,7 +84,7 @@ Sie haben auch die Möglichkeit, die gelöschten Firmen und Personen anderer Ben
 | Abbrechen | Bricht das Löschen aller ausgewählten Elemente ab. Das Dialogfeld wird geschlossen, ohne dass ein Element gelöscht wird. |
 
 * So blenden Sie das Dialogfeld aus: Aktivieren Sie unten im Löschdialogfeld das Kontrollkästchen **Diesen Dialog nicht mehr anzeigen**.
-* So blenden Sie das Dialogfeld ein: Gehen Sie zu ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** und stellen Sie die Option **Dialogfeld Bestätigung anzeigen** auf **Nein**.
+* So blenden Sie das Dialogfeld ein: Gehen Sie zu <i class="ph ph-user-circle" aria-hidden="true"></i> **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** und stellen Sie die Option **Dialogfeld Bestätigung anzeigen** auf **Nein**.
 
 > [!NOTE]
 > Wenn Sie eine Firma, eine Selektion oder ein Projekt löschen, werden Sie immer um Bestätigung gebeten. Daher steht die Option **Diesen Dialog nicht mehr anzeigen** hier nicht zur Verfügung.
@@ -107,6 +107,5 @@ Sie haben auch die Möglichkeit, die gelöschten Firmen und Personen anderer Ben
 [8]: ../../search-options/selection/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
 [img2]: ../../../media/loc/en/learn/recycle-bin.png
 [img3]: ../../../media/loc/en/learn/recycle-bin-personal-settings.png

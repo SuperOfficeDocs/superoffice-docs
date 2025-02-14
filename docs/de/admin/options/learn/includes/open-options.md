@@ -1,5 +1,2 @@
 <!-- markdownlint-disable-file MD041 -->
-Gehen Sie zu Einstellungen und Verwaltung und wählen Sie das ![Symbol][img1] **Optionen** aus.
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-options-active.png
+Gehen Sie zu Einstellungen und Verwaltung und wählen Sie <i class="ph ph-sliders-horizontal" aria-hidden="true"></i> **Optionen** aus.

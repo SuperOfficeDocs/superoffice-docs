@@ -13,15 +13,15 @@ language: de
 
 [!include[Legacy](../includes/legacy-profiles.md)]
 
-Persönliche Profile gelten für einen einzigen Benutzer. Zum Konfigurieren von persönlichen Profilen klicken Sie auf das ![Symbol][img1] (das Werkzeugsymbol), das in verschiedenen Ansichten verfügbar ist, wie zum Beispiel in der Anfrageliste in der Ansicht Person, im Bereich der Anfrageeigenschaften in der Ansicht Anfrage und in der Anzeige mit den Suchergebnissen. Die Funktionsweise wird nachfolgend an einem konkreten Beispiel erläutert. Im Beispiel unten soll ein Feld zur Ansicht Anfrage hinzugefügt werden.
+Persönliche Profile gelten für einen einzigen Benutzer. Zum Konfigurieren von persönlichen Profilen klicken Sie auf das Werkzeugsymbol, das in verschiedenen Ansichten verfügbar ist, wie zum Beispiel in der Anfrageliste in der Ansicht Person, im Bereich der Anfrageeigenschaften in der Ansicht Anfrage und in der Anzeige mit den Suchergebnissen. Die Funktionsweise wird nachfolgend an einem konkreten Beispiel erläutert. Im Beispiel unten soll ein Feld zur Ansicht Anfrage hinzugefügt werden.
 
 1. Öffnen Sie die Ansicht Anfrage und wählen Sie die Registerkarte Details aus.
 
-2. Klicken Sie auf das ![Symbol][img1] neben den Eigenschaften der Anfrage. Die Ansicht **Elementprofil bearbeiten** wird angezeigt.
+2. Klicken Sie auf <i class="ph ph-wrench" aria-label="Wrench"></i> neben den Eigenschaften der Anfrage. Die Ansicht **Elementprofil bearbeiten** wird angezeigt.
 
 3. Neben dem Feld **Neues Feld** befinden sich zwei leere Felder.
     * Geben Sie Feld ganz links den Feldnamen ein.
-    * Klicken Sie auf ![Symbol][img2] und wählen Sie das Feld in der Datenbank aus, aus dem Daten abgerufen werden sollen.
+    * Klicken Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i> und wählen Sie das Feld in der Datenbank aus, aus dem Daten abgerufen werden sollen.
 
 4. Klicken Sie neben den beiden soeben ausgefüllten Feldern auf **Hinzufügen**. Das neue Feld wird unterhalb des Vorschaufensters oben in der Ansicht hinzugefügt.
 
@@ -37,7 +37,3 @@ Persönliche Profile gelten für einen einzigen Benutzer. Zum Konfigurieren von 
 <!-- Referenced links -->
 [3]: common.md
 [4]: global.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/settingstools.png
-[img2]: ../../../../../../common/icons/dropdown-arrow.png

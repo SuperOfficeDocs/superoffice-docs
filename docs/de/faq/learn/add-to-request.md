@@ -26,7 +26,7 @@ Wenn Sie auf eine Anfrage eines Kunden antworten, können Sie Zeit sparen, indem
 1. An der Cursorposition wird ein **Link** eingefügt. Der Kunde kann diesen Link anklicken, um den entsprechenden FAQ-Eintrag im Kundenzentrum anzuzeigen.
 
 <!-- Referenced links -->
-[1]: ../../request/learn/howto/reply.md
+[1]: ../../request/learn/reply.md
 
 <!-- Referenced images -->
 [img1]: ../../../../common/icons/copy-paste-icon.png

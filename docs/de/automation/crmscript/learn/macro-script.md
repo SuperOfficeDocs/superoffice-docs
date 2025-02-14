@@ -11,9 +11,9 @@ audience_tooltip: Settings and maintenance
 language: de
 ---
 
-# Makros und Skripts
+# Makros und Skripts <i class="ph ph-code-block" aria-hidden="true"></i>
 
-Auf der Registerkarte **Makros und Skripte** auf ![Symbol][img2] **CRMScript** finden Sie eine Liste der Skripte und Makros im System, die in Ordnern gruppiert sind. Klicken Sie auf ein Skript oder Makro in der Liste, damit sie es [anzeigen, bearbeiten oder ausführen][1] können.
+Auf der Registerkarte **Makros und Skripte** auf **CRMScript** finden Sie eine Liste der Skripte und Makros im System, die in Ordnern gruppiert sind. Klicken Sie auf ein Skript oder Makro in der Liste, damit sie es [anzeigen, bearbeiten oder ausführen][1] können.
 
 ## Über Makros
 
@@ -25,7 +25,7 @@ Makros haben in SuperOffice mehrere Funktionen. Sie können Makros mit bestimmte
 
 Beispiele für die Verwendung von Makros:
 
-* Als Aufgabe/Funktion in einem Menüpunkt (z. B. im ![Symbol][img1] **Aufgabe** in der Anzeige Anfrage)
+* Als Aufgabe/Funktion in einem Menüpunkt (z. B. in der **Aufgabe** in der Anzeige Anfrage)
 * Wenn eine Anfrage über die Warnstufen für die Priorität eskaliert wird
 * Als geplante Aufgabe
 * Wenn sie durch einen E-Mail-Filter aktiviert werden
@@ -51,5 +51,3 @@ Ein Skript ist ein kleines Programm, mit dem bestimmte Aufgaben durchgeführt we
 [4]: create-folder.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/task.png
-[img2]: ../../../../../common/icons/nav-admin-crmscript-active.png

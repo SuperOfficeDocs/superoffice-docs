@@ -20,14 +20,11 @@ Sie können Kacheln aus einem Dashboard entfernen, sofern Sie Schreibzugriff daf
 
 1. Wechseln Sie zum gewünschten Dashboard.
 
-2. Klicken Sie auf die Schaltfläche **Aufgabe** und wählen Sie **Kacheln hinzufügen/Layout bearbeiten** aus.
+2. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **Kacheln hinzufügen/Layout bearbeiten** aus.
 
-3. Klicken Sie im Dashboard auf der zu entfernenden Kachel auf das ![Symbol][img1] **Kachel entfernen**.
+3. Klicken Sie im Dashboard auf das Symbol **Kachel entfernen** (<i class="ph ph-x-circle" aria-hidden="true"></i>) auf der Kachel, die Sie entfernen möchten.
 
 4. Klicken Sie zur Bestätigung auf **OK**.
 
 <!-- Referenced links -->
 [1]: add-tile.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/delete-circle-red.png

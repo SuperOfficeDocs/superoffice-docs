@@ -4,8 +4,8 @@ title: Bereichsregisterkarte Personen
 description: Erfahren Sie, wie Sie Kontaktinformationen verwalten und mit diesen interagieren können, die mit Firmen in SuperOffice CRM verknüpft sind. Verfolgen Sie effizient Personaldaten und pflegen Sie Kommunikationsaufzeichnungen für nahtlose Kundenbeziehungen.
 keywords: Registerkarte Personen, Bereichsregisterkarte, zweiten Vornamen zulassen, Zweitname
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -24,10 +24,10 @@ Die **Bereichsregisterkarte Personen** enthält die folgenden Spalten, um wichti
 
 | Spalte | Beschreibung |
 |---|---|
-| Info | Zeigt ein Büroklammer-Symbol (![icon][img3]) an, wenn die **Notiz**-Registerkarte in der Personenkarte eine Notiz enthält. Bewegen Sie den Mauszeiger über das Symbol, um es anzuzeigen. |
-| Interessen | Zeigt ein Stecknadel-Symbol (![icon][img2]) an, wenn die Person Interessen hat. Bewegen Sie den Mauszeiger über das Symbol, um die Interessen anzuzeigen. |
+| Info | Zeigt ein Büroklammer-Symbol (<i class="ph ph-paperclip" aria-hidden="true"></i>) an, wenn die **Notiz**-Registerkarte in der Personenkarte eine Notiz enthält. Bewegen Sie den Mauszeiger über das Symbol, um es anzuzeigen. |
+| Interessen | Zeigt einen Punkt an, wenn die Person Interessen hat. Bewegen Sie den Mauszeiger über das Symbol, um die Interessen anzuzeigen. |
 | Hr./Fr | Gibt an, wie die Person angesprochen werden soll. |
-| Vorname / Zweitname / Nachname | Der vollständige Name der Person. Die Verwendung des Zweitnamens kann in **Einstellungen und Wartung** konfiguriert werden. |
+| Vorname / Zweitname / Nachname | Der vollständige Name der Person. Die Verwendung des Zweitnamens kann in **Einstellungen und Verwaltung** konfiguriert werden. |
 | Titel | Zeigt den beruflichen Titel oder die Rolle der Person innerhalb der Firma an. |
 | Mobiltelefon | Die Mobiltelefonnummer der Person. |
 | E-Mail | Die E-Mail-Adresse der Person. Klicken Sie auf die E-Mail-Adresse, um [eine neue Mitteilung][7] in Ihrem bevorzugten E-Mail-Programm zu öffnen. |
@@ -103,5 +103,3 @@ Wenn diese Voreinstellung aktiviert ist, wird der erste Teil des Nachnamens als 
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/company/contacts-detail.png
-[img2]: ../../../media/icons/pin.png
-[img3]: ../../../media/icons/binders.png

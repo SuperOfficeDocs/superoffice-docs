@@ -26,7 +26,7 @@ Nach dem Senden der Kampagne sammelt SuperOffice Marketing Daten über den Statu
 
 2. Klicken Sie auf die Ansicht **Kampagne anzeigen** auf die Registerkarte **Empfänger**.
 
-    Die Liste zeigt die ersten 100 Empfänger. Klicken Sie auf ![Symbol][img1], um die nächsten 100 anzuzeigen.
+    Die Liste zeigt die ersten 100 Empfänger. Klicken Sie auf <i class="ph ph-arrow-right" aria-label="Arrow right"></i>, um die nächsten 100 anzuzeigen.
 
 3. Führen Sie die Option [Liste filtern](#filters) aus, indem Sie das Kontrollkästchen unten in der Liste anwählen.
 
@@ -69,7 +69,7 @@ Beim Status **Für den Versand bereit** brauchen Sie nichts zu tun. SuperOffice 
 Über die Menüschaltfläche **Actionen** können Sie Empfänger und Klicker zu einer Selektion oder einem Projekt hinzufügen.
 
 > [!NOTE]
-> Es werden ausschließlich Personen zur Selektion oder zum Projekt hinzugefügt, die in der Datenbank von SuperOffice erfasst sind. Ein Personensymbol ![Symbol][img3] in der Spalte **Typ** gibt an, dass eine Person in der Datenbank von SuperOffice erfasst ist. Empfänger, die aus externen Listen importiert worden sind, werden in der Regel nicht erfasst.
+> Es werden ausschließlich Personen zur Selektion oder zum Projekt hinzugefügt, die in der Datenbank von SuperOffice erfasst sind. Ein Personensymbol (<i class="ph ph-user-circle" aria-hidden="true"></i>) in der Spalte **Typ** gibt an, dass eine Person in der Datenbank von SuperOffice erfasst ist. Empfänger, die aus externen Listen importiert worden sind, werden in der Regel nicht erfasst.
 
 ### Klicker einer neuen oder vorhandenen Selektion bzw. einem Projekt hinzufügen
 
@@ -101,6 +101,4 @@ Beim Status **Für den Versand bereit** brauchen Sie nichts zu tun. SuperOffice 
 [5]: manage-email-subscriptions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../../common/icons/nav-contact.png
 [img4]: ../../../../media/loc/en/marketing/recipients-tab-status.png

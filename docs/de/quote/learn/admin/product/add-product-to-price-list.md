@@ -60,7 +60,7 @@ In der Liste rechts können Sie Produktinformationen hinzufügen. Dies kann Folg
 
 * Listen: Hier können Sie Alternativen aus der Liste auswählen, beispielsweise Einheiten, Produkttyp und Produktgruppe. In der Ansicht **Listen** [Objekte zu einer Liste hinzufügen][4] können Sie diesen Listen weitere Alternativen hinzufügen.
 
-* Liste mit Suchoptionen ![Symbol][img1]: Hier können Sie aus Listen oder kürzlich erstellten Datensätzen auswählen, Text zur Suche eingeben oder die Suchschaltfläche ![Symbol][img1] anklicken, um eine erweiterte Suche zu starten.
+* Liste mit Suchoptionen: Hier können Sie aus Listen oder kürzlich erstellten Datensätzen auswählen, Text zur Suche eingeben oder die Suchschaltfläche (<i class="ph ph-magnifying-glass" aria-hidden="true"></i>) anklicken, um eine erweiterte Suche zu starten.
 
 <!-- markdownlint-disable-next-line MD013 -->
 ### Wie man einen Namen und die Reihenfolge ändert und die Bearbeitung von Feldern möglich und/oder obligatorisch macht
@@ -83,5 +83,4 @@ Gehen Sie zur Registerkarte **Einstellungen** und klicken Sie auf **Produkt konf
 [5]: ../../../../admin/import/learn/import-products-from-excel.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../common/icons/search-icon-black.png
 [img2]: ../../../../../media/loc/en/quote/add-products-to-price-list.png

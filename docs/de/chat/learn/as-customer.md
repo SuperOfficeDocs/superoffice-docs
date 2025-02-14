@@ -27,7 +27,7 @@ language: de
 
 5. Der Kunde chattet mit dem Mitarbeiter.
 
-6. Wenn das Gespräch abgeschlossen ist, kann der Kunde den Chat beenden, indem er einfach das Chat-Fenster schließt. Alternativ kann der Agent den Chat beenden, indem er das ![Symbol][img1] &gt; **Chat beenden** auswählt.
+6. Wenn das Gespräch abgeschlossen ist, kann der Kunde den Chat beenden, indem er einfach das Chat-Fenster schließt. Alternativ kann der Agent den Chat beenden, indem er <i class="ph ph-list" aria-label="Aufgabe"></i> > **Chat beenden** auswählt.
 
     * Wenn das Post-Chat-Formular für diesen Chat-Kanal aktiv ist, hat der Kunde die Möglichkeit, zum Chat zurückzukehren.
     * Wenn die **Funktion Transkript** aktivieren für diesen Chat-Kanal aktiv ist, kann der Kunde wählen, ob er ein Protokoll Ihrer Konversation per E-Mail erhalten möchte. Die E-Mail verwendet eine Antwortvorlage in SuperOffice Service.
@@ -37,8 +37,3 @@ language: de
 Wenn keine Mitarbeiter verfügbar sind (in der Regel außerhalb der Geschäftszeiten), wird eine kurze Nachricht im Chat-Fenster angezeigt. Beispiel: "Wir haben leider geschlossen. Unsere Geschäftszeiten sind ..."
 
 Wenn die Anfrageübermittlung für diesen Chatkanal aktiv ist, können die Kunden ihren Namen, ihre E-Mail-Adresse und eine Frage eingeben. Die Anfrage-ID wird im Chat-Fenster angezeigt.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

@@ -37,7 +37,7 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie Ihre eigenen Benutzerdefin
 
 1. [Optional können Sie die Position des Feldes anpassen][3]. Dies erfordert eine Lizenz für Development Tools!
 
-1. Fahren Sie fort, Felder hinzuzufügen. Klicken Sie auf **Veröffentlichen**, wenn Sie fertig sind, um das Feld für SuperOffice-Benutzer verfügbar zu machen. Nicht veröffentlichte Felder ![Symbol][img1] und Felder mit nicht veröffentlichten Änderungen ![Symbol][img2] werden in Fettschrift in der Liste **Felder** angezeigt.
+1. Fahren Sie fort, Felder hinzuzufügen. Klicken Sie auf **Veröffentlichen**, wenn Sie fertig sind, um das Feld für SuperOffice-Benutzer verfügbar zu machen. Nicht veröffentlichte Felder und Felder mit nicht veröffentlichten Änderungen werden in Fettschrift in der Liste **Felder** angezeigt.
 
 ## <a id="properties"></a>Feld-Eigenschaften
 
@@ -88,6 +88,4 @@ Vier von jedem Feldtyp (Kurzer Text, Langer Text, Nummer, Dezimalzahl) sind such
 [12]: ../../document/templates/learn/template-variables.md
 
 <!-- Referenced links -->
-[img1]: ../../../media/icons/admin/fields-unpublish-new.png
-[img2]: ../../../media/icons/admin/fields-unpublish-changed.png
 [img3]: ../../../media/loc/en/custom-objects/add-udef-multi-languages.png

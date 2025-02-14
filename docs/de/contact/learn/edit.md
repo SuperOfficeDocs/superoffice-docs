@@ -1,32 +1,41 @@
 ---
 uid: help-de-contact-update
 title: Personendaten bearbeiten
-description: Personendaten bearbeiten
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Firma
+description: So bearbeiten Sie die Informationen einer Person.
+keywords: Person bearbeiten, Personendaten, Person
+author: Bergfrid Dias
+date: 02.11.2025
+version: 10.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
-# Personen-Info bearbeiten
+# Personendaten bearbeiten
 
-1. [!include[Go to company](../../learn/includes/goto-company.md)]
+1. [!include[Zum Unternehmen wechseln](../../learn/includes/goto-company.md)]
 
 1. Wählen Sie die Bereichsregisterkarte **Personen**.
 
-1. Doppelklicken Sie auf die gewünschte Person.
+1. Doppelklicken Sie auf die Person, die Sie bearbeiten möchten.
 
-1. Klicken Sie in der Personenkarte in der Ansicht Person auf **Bearbeiten**.
+1. Klicken Sie auf <i class="ph ph-pencil-simple" aria-label="Bearbeiten"></i> oben rechts in der Personenkarte.
 
-1. [Nehmen Sie die erforderlichen Änderungen vor][1].
+1. Nehmen Sie die erforderlichen Änderungen vor.
 
-1. Klicken Sie abschließend auf **Speichern**, um das Dialogfeld zu schließen und Ihre Änderungen zu speichern.
+1. Klicken Sie auf **Speichern**, um Ihre Änderungen zu sichern, oder auf **Abbrechen**, um diese zu verwerfen. Beide Aktionen beenden den Bearbeitungsmodus.
 
-> [!NOTE]
-> Klicken Sie auf **Abbrechen**, um den Bearbeitungsmodus zu beenden, ohne die Änderungen zu speichern.
+   Wenn die **Speichern**-Schaltfläche ausgegraut ist, stellen Sie sicher, dass alle Pflichtfelder ausgefüllt sind. Pflichtfelder müssen vor dem Speichern ausgefüllt werden.
+
+![Das Personenfenster im Bearbeitungsmodus, das Personendetails anzeigt. -screenshot][img1]
+
+## Verwandte Inhalte
+
+* [Massenaktualisierung von Personendaten][8]
 
 <!-- Referenced links -->
-[1]: create.md
+[8]: ../../search-options/selection/learn/howto/bulk-update.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/contact/edit-person.png

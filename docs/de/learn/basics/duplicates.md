@@ -2,9 +2,10 @@
 uid: help-de-duplicates
 title: Duplikate
 description: Duplikate
-author: SuperOffice RnD
-date: 06.29.2022
 keywords: Duplikat
+author: SuperOffice RnD
+date: 02.11.2025
+version: 10.5.2
 topic: concept
 language: de
 ---
@@ -19,14 +20,9 @@ Sie können die Arbeit mit dem aktuellen Datensatz fortsetzen oder zu einem der 
 
 Um die Einstellungen für die Duplikatkontrolle zu ändern, klicken Sie auf die Schaltfläche **Einstellungen** im Dialogfeld **Duplikate**.
 
-Sie können auch über das Hauptmenü ![Symbol][img1] auf diese Einstellungen zugreifen.
+Sie können auch über das Hauptmenü (<i class="ph ph-list" aria-hidden="true"></i>) auf diese Einstellungen zugreifen.
 
 ## Duplikatkontrolle deaktivieren
 
 1. Gehen Sie zu Einstellungen und Verwaltung.
 1. Wählen Sie **Einstellungen** > **Funktionen** aus.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu-small.png

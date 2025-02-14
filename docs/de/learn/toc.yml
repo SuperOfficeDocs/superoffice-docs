@@ -89,30 +89,12 @@ items:
       topicHref: ../quote/learn/admin/index.md
 
     - name: Workflow
-      topicHref: ../sale/learn/screen/sales-guide-admin.md
+      topicHref: ../sale/admin/create-sales-guide.md
       items:
       - name: Verkaufsleitfaden
-        topicHref: ../sale/learn/screen/sales-guide-admin.md
-        items:
-        - name: Überblick
-          href: ../sale/learn/screen/sales-guide-admin.md
-        - name: Neuen Verkaufsleitfaden erstellen
-          href: ../sale/learn/sales-guide/create.md
-        - name: Verkaufsleitfaden bearbeiten
-          href: ../sale/learn/sales-guide/edit.md
-        - name: Verkaufsleitfaden deaktivieren
-          href: ../sale/learn/sales-guide/deactivate.md
+        topicHref: ../sale/admin/create-sales-guide.md
       - name: Projektleitfaden
-        topicHref: ../project/learn/screen/project-guide-admin.md
-        items:
-        - name: Überblick
-          href: ../project/learn/screen/project-guide-admin.md
-        - name: Neuen Projektleitfaden erstellen
-          href: ../project/learn/project-guide/create.md
-        - name: Projektleitfaden bearbeiten
-          href: ../project/learn/project-guide/edit.md
-        - name: Projektleitfaden deaktivieren
-          href: ../project/learn/project-guide/deactivate.md
+        topicHref: ../project/admin/create-project-guide.md
 
     - name: Benutzerdefinierte Objekte
       href: ../custom-objects/learn/toc.yml
@@ -141,55 +123,11 @@ items:
       topicHref: ../automation/crmscript/learn/index.md
 
     - name: Anfragen
-      topicHref: ../request/learn/admin/index.md
-      items:
-      - name: Überblick
-        href: ../request/learn/admin/index.md
-      - name: Anfragetypen
-        topicHref: ../request/learn/type/index.md
-        items:
-        - name: Überblick
-          href: ../request/learn/type/index.md
-        - name: Anfragetyp erstellen
-          href: ../request/learn/type/create.md
-        - name: Anfragetyp löschen
-          href: ../request/learn/type/delete.md
-      - name: Kategorien
-        topicHref: ../request/learn/category/index.md
-        items:
-        - name: Überblick
-          href: ../request/learn/category/index.md
-        - name: Anfragekategorie erstellen
-          href: ../request/learn/category/create.md
-        - name: Anfragekategorie löschen
-          href: ../request/learn/category/delete.md
-      - name: Prioritäten
-        topicHref: ../request/learn/priority/index.md
-        items:
-        - name: Überblick
-          href: ../request/learn/priority/index.md
-        - name: Priorität erstellen
-          href: ../request/learn/priority/create.md
-        - name: Prioritäten löschen
-          href: ../request/learn/priority/delete.md
-        - name: Eskalationsstufen erstellen
-          href: ../request/learn/priority/escalation-levels.md
-      - name: Anfragestatus
-        topicHref: ../request/learn/status/index.md
-        items:
-        - name: Überblick
-          href: ../request/learn/status/index.md
-        - name: Anfragestatus erstellen
-          href: ../request/learn/status/create.md
-        - name: Anfragestatus löschen
-          href: ../request/learn/status/delete.md
-        - name: Nächste Anfrage in der Warteschlange anzeigen
-          href: ../request/learn/next-in-queue.md
-      - name: E-Mail
-        href: ../email/service/learn/toc.yml
-        topicHref: ../email/service/learn/index.md
-      - name: Systemvorlagen
-        href: ../request/learn/screen/system-templates.md
+      topicHref: ../request/admin/index.md
+
+    - name: E-Mail
+      href: ../email/service/learn/toc.yml
+      topicHref: ../email/service/learn/index.md
 
     - name: Kundenzentrum
       href: ../customer-center/learn/toc.yml

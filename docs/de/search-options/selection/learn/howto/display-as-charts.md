@@ -33,7 +33,7 @@ Auf der Registerkarte **Diagramme** können Sie die Daten in der aktiven Selekti
 
 * ![Symbol][img1]: Öffnet eine Vorschau eines Diagramms. In dieser Ansicht sind die Quelldaten im Tabellenformat zu sehen.
 
-* ![Symbol][img2]: Aktualisiert das Diagramm mit aktualisierten Daten.
+* <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i>: Aktualisiert das Diagramm mit aktualisierten Daten.
 
 > [!NOTE]
 > Gehen Sie im Navigator zum **Dashboard**, um Diagramme ALLER SuperOffice-Daten anzuzeigen.
@@ -52,5 +52,4 @@ Einige Diagramme sagen Ihnen möglicherweise, dass Keine Daten verfügbar sind. 
 
 <!-- Referenced images -->
 [img1]: ../../../../../../common/icons/maximize-dark.png
-[img2]: ../../../../../../common/icons/refresh-icon.png
 [img3]: ../../../../../media/loc/en/search-options/visualize-selections.gif

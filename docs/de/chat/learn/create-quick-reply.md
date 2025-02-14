@@ -15,8 +15,8 @@ Eine Schnellantwort ist ein vordefinierter Text, den Sie in einem Chat mit einem
 
 **Schritte:**
 
-1. Klicken Sie in einem laufenden Chat auf das ![Symbol][img1] im unteren Teil des Chat-Fensters.
-2. Klicken Sie auf das ![Symbol][img2] **Bearbeiten**.
+1. Klicken Sie in einem laufenden Chat auf <i class="ph ph-chat-teardrop-text" aria-label="Chat bubble"></i> im unteren Teil des Chat-Fensters.
+2. Klicken Sie auf <i class="ph ph-pencil-simple" aria-label="Edit"></i>.
 3. Klicken Sie im Fenster **Schnellantworten** auf **Hinzufügen**. Der Liste wird eine neue Antwort hinzugefügt.
 4. Klicken Sie auf das Feld **Neuer Name** und geben Sie einen Namen für die Schnellantwort ein. Dieser ist für den Kunden nicht sichtbar.
 5. Klicken Sie auf das Feld **Neuer Inhalt** und geben Sie den Antworttext ein, der an Kunden gesendet werden soll.
@@ -24,7 +24,3 @@ Eine Schnellantwort ist ein vordefinierter Text, den Sie in einem Chat mit einem
 
 <!-- Referenced links -->
 [1]: send-faq-or-reply-template.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/chat-h32.png
-[img2]: ../../../../common/icons/edit-black.png

@@ -17,7 +17,7 @@ Sie können eine Ordnerstruktur für FAQs erstellen, um diesen einen logische Au
 
 ## Ordner erstellen
 
-1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
+1. Gehen Sie zum <i class="ph ph-list" aria-label="Main menu"></i> in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
 
 1. Klicken Sie auf die Schaltfläche **Neuer Ordner**. Sie gelangen zur Ansicht **Eigenschaften des FAQ-Ordners**.
 
@@ -55,6 +55,3 @@ Bevor Sie einen FAQ-Ordner löschen, müssen Sie alle darin enthaltenen Einträg
 [1]: delete.md
 [2]: edit.md
 [3]: create.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

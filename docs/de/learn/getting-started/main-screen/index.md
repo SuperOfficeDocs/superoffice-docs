@@ -1,109 +1,84 @@
 ---
 uid: help-de-ui-main-screen
-title: Hauptansicht
-description: Hauptansicht
+title: Hauptbildschirm
+description: Hauptbildschirm
 author: Bergfrid Dias
-date: 03.02.2023
-keywords: CRM
+date: 02.11.2025
+version: 10.5.2
+keywords: Benutzeroberfläche, Hauptbildschirm, Hauptansicht, Navigator, obere Leiste, Hauptkarte, Seitenleiste, Bereichsregisterkarte, Aufgabenmenü
 topic: reference
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # Layoutelemente auf dem Hauptbildschirm
 
-Die Benutzeroberfläche besteht aus fünf Hauptelementen:
+Der Hauptbildschirm von SuperOffice CRM ist in fünf Hauptelemente unterteilt, die Ihnen helfen, effizient zu navigieren, Daten zu verwalten und anzuzeigen.
 
-* **Der Navigator**
-    Die vertikale Reihe von Schaltflächen am linken Rand der Anzeige wird als [Navigator][1] bezeichnet. Diese Schaltflächen erleichtern Ihnen die Navigation in SuperOffice CRM.
+## Hauptelemente
 
-* **Die obere Leiste**
-    Ganz oben in der Ansicht ist die obere Leiste. Die [Schaltflächen auf der Menüleiste][2] bieten Ihnen schnellen und einfachen Zugang zur Erstellung neuer Datensätze und Aktivitäten sowie zur Verwaltung persönlicher Einstellungen und verschiedener Systemoptionen.
+### Navigator
 
-* **Die Hauptkarte**
-    Oben in der Ansicht befindet sich rechts neben dem Navigator die Hauptkarte. Hier finden Sie alle wichtigen Details zu Firmen, Personen, Projekten, Verkäufen, Selektionen usw. Die Hauptkarte wird gemäß der Ansicht benannt, in der sich Sie gerade befinden, wie Hauptkarte Firmenkarte, Kalenderkarte oder Projektkarte.
+Die vertikale Schaltflächenleiste am linken Rand des Bildschirms wird als [Navigator][1] bezeichnet. Mit diesen Schaltflächen können Sie schnell zwischen verschiedenen Bereichen wie Persone, Firmen und Projekte wechseln.
 
-* **Die Seitenleiste**
-    Auf der rechten Seite der Ansicht befindet sich die [Seitenleiste][3]. Die Seitenleiste ist ein flexibles Anzeigefenster, das auf unterschiedliche Weise konfiguriert werden kann.
+### Obere Leiste
 
-* **Bereichsregisterkarten**
-    Die Bereichsregisterkarten werden unter der Hauptkarte angezeigt. Sie enthalten beispielsweise Listen mit Personen, Projektmitgliedern und Aktivitäten, die mit dem entsprechenden Datensatz in der Hauptkarte verknüpft sind.
+Ganz oben im Bildschirm bietet die [obere Leiste][2] schnellen Zugriff auf das Erstellen neuer Datensätze, die Verwaltung persönlicher Einstellungen und die Systemoptionen.
 
-  * [In der Anzeige Firma][10]
-  * [In der Ansicht Person][11]
-  * [In der Ansicht Projekt][15]
-  * [In der Ansicht Verkauf][17]
-  * [Selektionsmitglieder hinzufügen][19]
-  * [Aktivitäten][13]
+### Hauptkarte
 
-## <a id="global-buttons"></a>Allgemeine Schaltflächen
+Die Hauptkarte befindet sich oben auf dem Bildschirm und zeigt die wichtigsten Details zum ausgewählten Datensatz, z. B. eine Firma, eine Person oder ein Projekt. Der Name der Karte ändert sich je nach Ansicht, z. B. "Firmenkarte" oder "Projektkarte".
 
-Die allgemeinen Schaltflächen werden an verschiedenen Stellen der Benutzerschaltfläche angezeigt. Einige sind in der Hauptansicht zu sehen, während sich andere in den verschiedenen Dialogfeldern befinden.
+### Seitenleiste
 
-| Schaltflächen | Funktion |
-|---|---|
-| ![Symbol][img4] | Wird verwendet, um das Suchfenster zu öffnen. |
-| ![Symbol][img3] | Wird verwendet, um eine zu wählende Telefonnummer zu schließen. |
-| ![Symbol][img2] | Pfeile öffnen und schließen Listen. |
-| ![Symbol][img1] | Wird verwendet, um ein Menü mit den für das Dialogfeld oder die Ansicht relevanten Aufgaben zu öffnen. |
+Auf der rechten Seite des Bildschirms bietet die [Seitenleiste][3] eine flexible Anzeige für zusätzliche Informationen, z. B. Selektionsmitglieder, Kalenderansichten oder verwandte Datensätze. Sie können die Anzeige anpassen und ihre Größe verändern.
 
-### Globale Schaltflächen in Anfragen
+### Bereichsregisterkarten
 
-| Schaltflächen | Beschreibung |
+Unter der Hauptkarte organisieren [Bereichsregisterkarten][4] verwandte Listen, z. B. Aktivitäten, Personen oder Projektmitglieder. Die verfügbaren Registerkarten variieren je nach Ansicht.
+
+## <a id="global-buttons"></a>Globale Schaltflächen
+
+Diese allgemeinen Schaltflächen sind in SuperOffice an verschiedenen Stellen verfügbar und erfüllen wichtige Funktionen:
+
+| Symbol | Funktion |
 |:-:|---|
-| ![Symbol][img8] | Wird verwendet, um Informationen wie E-Mail-Adressen oder neue Personen bzw. Firmen hinzuzufügen. |
-| ![Symbol][img1] | Wird verwendet, um ein Menü mit den für das Dialogfeld oder die Ansicht relevanten Aufgaben zu öffnen. |
-| ![Symbol][img10] | Wird verwendet, um Listenfelder zu öffnen und zu schließen. |
-| ![Symbol][img9] | Wird verwendet, um den aktuellen Datensatz (Anfrage, Person oder Ähnliches) als [Favorit][6] hinzuzufügen. |
-| ![Symbol][img5] | Wird verwendet, um eine Suche zu starten. |
-| ![Symbol][img6] | Wird verwendet, um Erscheinungsbild und Verhalten eines Bildschirmelements wie einer Liste von Suchergebnissen, einer Eigenschaftenansicht oder einer Anfragenkopfzeile zu konfigurieren. |
-| ![Symbol][img7] | Wird verwendet, um ein Datum aus dem Kalender auszuwählen. |
+| <i class="ph ph-magnifying-glass" aria-label="Suche"></i> | Öffnet das Suchfenster zur Suche nach Datensätzen. |
+| <i class="ph ph-phone" aria-label="Telefon"></i> | Wählt eine Telefonnummer zum Anrufen aus. |
+| <i class="ph ph-caret-down" aria-label="Chevron"></i> | Erweitert oder reduziert Listen. |
+| <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabenmenü"></i> | Öffnet ein Menü mit Aktionen für das aktuelle Dialogfeld oder die aktuelle Ansicht. |
 
-## Größe von Bildschirmelementen ändern
+## Bildschirmelemente anpassen
 
-Sie können die Größe der Hauptkarte, der Seitenleiste und der Bereichsregisterkarten ändern. Wenn Sie beispielsweise viele Aktivitäten eingegeben haben, können Sie die Bereichsregisterkarten in den Ansichten Firma, Person, Verkauf und Projekt vergrößern, sodass mehr Aktivitäten gleichzeitig angezeigt werden. Unterschiedliche Ansichten können verschiedene Einstellungen haben und SuperOffice CRM speichert die Einstellung für eine Ansicht für das nächste Mal.
+### Größe von Fenstern und Registerkarten ändern
+
+Sie können die Größe der Hauptkarte, der Seitenleiste und der Bereichsregisterkarten anpassen, um die Ansicht an Ihren Arbeitsstil anzupassen. Wenn Sie beispielsweise viele Aktivitäten verwalten, können Sie die Bereichsregisterkarten vergrößern, um mehr Details zu sehen.
 
 **Schritte:**
 
-1. Platzieren Sie den Mauszeiger zwischen den Bildschirmelementen, deren Größe Sie ändern möchten.
-2. Klicken Sie auf ![Symbol][img11] oder ![Symbol][img12] und ziehen Sie die Elemente auf die gewünschte Größe.
-3. Wenn die Elemente die gewünschte Größe haben, lassen Sie die Maustaste los.
+1. Bewegen Sie den Mauszeiger zwischen zwei Elementen.
+2. Klicken und ziehen Sie die Elemente, um die Größe anzupassen (<i class="ph ph-arrows-horizontal" aria-hidden="true"></i> <i class="ph ph-arrows-vertical" aria-hidden="true"></i>).
+3. Lassen Sie die Maustaste los, wenn das Layout passend ist.
 
 > [!NOTE]
-> Wenn Sie die Bildschirmelemente zu sehr verkleinern, werden Informationen in der Ansicht ausgeblendet. Da in diesen Elementen keine Bildlaufleiste vorhanden ist, müssen Sie die Ansicht vergrößern, um erneut alle Informationen sehen zu können.
+> Wenn ein Element zu klein gemacht wird, können Inhalte ausgeblendet werden. Vergrößern Sie das Element, um alle Informationen wieder anzuzeigen.
 
-## Position von Bildschirmelementen ändern
+### Reihenfolge der Registerkarten ändern
 
-Sie können die Positionierung von Registerkarten und Bereichsregisterkarten entsprechend Ihren Anforderungen ändern. Wenn Sie beispielsweise möchten, dass die Bereichsregisterkarte **Verkäufe** links im Kalender anstatt der Option **Aktivitäten** angezeigt wird.
+Sie können die Reihenfolge von Registerkarten oder Bereichsregisterkarten anpassen. Beispielsweise können Sie die Bereichsregisterkarte **Verkäufe** im Kalender nach links verschieben.
 
-1. Klicken Sie auf die Karte/Registerkarte, die Sie verschieben möchten, und ziehen Sie sie bei gedrückter Maustaste an die gewünschte Stelle.
-2. Lassen Sie die Karte/Registerkarte los. SuperOffice CRM speichert Ihre Einstellung und zeigt die Ansicht beim nächsten Öffnen entsprechend an.
+**Schritte:**
 
-## Schriftart und -größe
+1. Klicken und ziehen Sie die Registerkarte an die gewünschte Position.
+2. Lassen Sie die Registerkarte los. SuperOffice CRM speichert Ihre Anordnung für das nächste Mal.
 
-Wenn Sie die Anzeige im Browser vergrößern bzw. verkleinern, wird die Schrift ebenfalls größer bzw. kleiner.
+## Schriftgröße anpassen
+
+Um die Schriftgröße zu ändern, nutzen Sie die Zoom-Funktion Ihres Browsers (**Strg + "+"** oder **Strg + "-"**), um die Darstellung zu vergrößern oder zu verkleinern.
 
 <!-- Referenced links -->
 [1]: navigator.md
 [2]: buttons-in-menu-bar.md
 [3]: side-panel.md
-[6]: ../../basics/fav.md
-[10]: ../../../company/learn/screen/index.md
-[11]: ../../../contact/learn/screen/index.md
-[13]: ../../section-tabs/activities-tab.md
-[15]: ../../../project/learn/screen/index.md
-[17]: ../../../sale/learn/screen/index.md
-[19]: ../../../search-options/selection/learn/screen/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img8]: ../../../../media/icons/btn-add.png
-[img2]: ../../../../../common/icons/dropdown-icon.png
-[img3]: ../../../../../common/icons/phone.png
-[img4]: ../../../../../common/icons/search-icon-black.png
-[img5]: ../../../../../common/icons/search-icon-black.png
-[img6]: ../../../../../common/icons/settingstools.png
-[img7]: ../../../../../common/icons/pref-diary.png
-[img9]: ../../../../../common/icons/favourite-no.png
-[img10]: ../../../../../common/icons/dropdown-arrow.png
-[img11]: ../../../../../common/icons/dragger-vert-h32.png
-[img12]: ../../../../../common/icons/dragger-hori-h32.png
+[4]: ../../section-tabs/index.md

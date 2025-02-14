@@ -2,10 +2,12 @@
 uid: help-de-request
 title: Anfragen
 description: Einführung zu Anfragen in SuperOffice
+keywords: Anfragenmanagement, Anfrage, Ticket, Service
 author: Bergfrid Dias
-date: 03.14.2023
-keywords: Anfrage, Ticket, Service
+date: 02.11.2025
+version: 10.5.2
 topic: concept
+license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: de
@@ -13,128 +15,109 @@ language: de
 
 # Anfragen und SuperOffice Service
 
-Unser Ticket-System ermöglicht Ihnen eine effiziente Bearbeitung eingehender Anfragen und hilft Ihnen, jeden Tag einen hervorragenden Kundenservice zu leisten. Diese Auswahl an Anleitungen enthält Richtlinien, die Ihnen helfen, alle eingehenden Fragen und Anfragen mit SuperOffice Service zu verfolgen, zu beantworten und zu analysieren. Dabei ist es unwichtig, ob sie per Telefon, E-Mail, Chat, Web-Formular oder über andere Kanäle eingehen.
+Unser Ticketing-System ermöglicht Ihnen eine effiziente Bearbeitung eingehender Anfragen und hilft Ihnen, täglich exzellenten Kundenservice zu leisten. Diese Auswahl an Anleitungen bietet Ihnen Richtlinien, um alle eingehenden Fragen und Anfragen mit SuperOffice Service zu verwalten, zu beantworten und zu analysieren – unabhängig davon, ob sie per Telefon, E-Mail, Chat, Webformular oder über andere Kanäle eingehen.
 
-**Anfragen** sind eine der Hauptfunktion von SuperOffice. Hier verwalten Sie Anfragen und Fragen im System. Sie können auch interne und externe Anfragen erstellen, auf eingehende Anfragen reagieren und eine Übersicht über die Statusangaben aller Anfragen im System erhalten. Klicken Sie auf das ![Symbol][img2] **Anfragen**, um die Anzeige Anfragen zu öffnen, oder klicken Sie auf den **Anfragen**-Text, um die Navigatoroptionen mit Suche, Verlauf und Favoriten zu öffnen.
+**Anfragen** sind eine der Hauptfunktionen von SuperOffice. Hier verwalten Sie Anfragen und Anliegen im System. Sie können sowohl interne als auch externe Anfragen erstellen, eingehende Anfragen beantworten und sich einen Überblick über den Status aller Anfragen im System verschaffen. Klicken Sie auf das Symbol **Anfragen** (<i class="ph ph-ticket" aria-hidden="true"></i>), um die Anfragen-Ansicht zu öffnen, oder auf den **Anfragen**-Text, um die Navigator-Optionen wie Suche, Verlauf und Favoriten aufzurufen.
 
-Jede Frage und Abfrage kann als Anfrage definiert werden. Diese Fragen umfassen Support-Anfragen, Fragen über das Produkt und Dienstleistungen oder Fragen zu Rechnungen. Sie möchten immer jede eingehende Anfrage möglichst schnell und effizient bearbeiten und einen professionellen Kundenservice leisten.
+Jede Kundenanfrage kann als Anfrage definiert werden. Diese reichen von Supportanfragen über Produkt- und Serviceanfragen bis hin zu Rechnungsanfragen. Ihr Ziel ist es, jede eingehende Anfrage so schnell, effizient und professionell wie möglich zu bearbeiten.
 
-![Anfrage mit Nicht zugeordneter Anfrage mit Vorschau -screenshot][img1]
+![Ansicht mit einer Liste nicht zugeordneter Anfragen und Vorschau -screenshot][img1]
 
-<!--Brand new to request management in SuperOffice? Start off with this short product tour to get an introduction to what you can expect (video length - 2:52): -->
+Ganz neu im Anfragenmanagement in SuperOffice? Sehen Sie sich diese kurze Produkttour an, um eine Einführung in die Funktionen zu erhalten:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-<!-- &gt; [!Video https://www.youtube.com/embed/2mRyStK5xPs] -->
+> [!Video https://www.youtube.com/embed/2mRyStK5xPs]
 
-## <a id="open"></a>Wo kann ich auf Anfragen zugreifen?
+(Videolänge: 2:52)
 
-* Archive in allen Hauptkarten, wie Firma, Verkauf, Projekt
-* [Benutzerdefinierte Listen][11]
-* [Suche][12]
-* [Favoriten][8]
-* [Gekennzeichnete Nachrichten][5]
+## <a id="open"></a>Wo finde ich Anfragen?
 
-Wenn Sie in der [Anzeige Suchergebnisse][13] auf eine Zeile doppelklicken, gelangen Sie zur Ansicht Anfrage.
+* In den Bereichregisterkarten der Firma-, Person-, Verkauf- und Projekt-Ansichten.
+* Über [vordefinierte Listen][10].
+* Durch die [Suchfunktion][12].
+* In den [Favoriten][18].
+* Über [gekennzeichnete Nachrichten][5].
 
-### <a id="customers"></a>Personen
+Wenn Sie in den Suchergebnissen auf eine Anfrage doppelklicken, öffnet sich die Anfragen-Ansicht.
 
-Anfragen können mit [Personen][2] verknüpft werden, die zu einer [Firma][3] gehören. Dies bedeutet, dass Anfragen nicht direkt, sondern nur indirekt über Personen mit Firmen verknüpft werden können. Wenn neue E-Mails importiert und als Anfragen gespeichert werden, wird die Anfrage über die E-Mail-Adresse automatisch mit der richtigen Person verknüpft. Wenn Sie eine Anfrage ansehen , können Sie ganz einfach feststellen, von welcher Person diese Anfrage stammt, und wenn Sie auf den Namen der Person klicken, können Sie sich über die weiteren für diese Person erfassten Anfragen informieren. Dadurch erhalten Sie einen schnellen Überblick über vorherige Kommunikationen mit dieser Person.
+### <a id="customers"></a>Personen und Firmen
 
-### Was möchten Sie als Nächstes tun?
-
-* Bearbeiten von Anfragen lernen – Schritt für Schritt
-* [Anfragen empfangen][6]
-* [Anfragen erstellen][4]
-* [Anfragen suchen][10]
-* [7 Tipps für einen erstklassigen Kundenservice mit SuperOffice Service][20] - Blog
+Anfragen können mit [Personen][14] verknüpft werden, die zu einer [Firma][13] gehören. Dies bedeutet, dass Anfragen nicht direkt, sondern nur indirekt über Personen mit Firmen verknüpft werden können. Wenn neue E-Mails importiert und als Anfragen gespeichert werden, wird die Anfrage über die E-Mail-Adresse automatisch mit der richtigen Person verknüpft. Wenn Sie eine Anfrage ansehen , können Sie ganz einfach feststellen, von welcher Person diese Anfrage stammt, und wenn Sie auf den Namen der Person klicken, können Sie sich über die weiteren für diese Person erfassten Anfragen informieren. Dadurch erhalten Sie einen schnellen Überblick über vorherige Kommunikationen mit dieser Person.
 
 ## <a id="request-mgt"></a>Anfragenmanagement
 
-Eingehende Anfragen können über viele Kanäle eingehen. Es gibt mehrere Möglichkeit, diese Anfragen zu erfassen und zu beantworten. Die Vorgehensweise bei der Bearbeitung von Anfragen unterscheidet sich von Anfrage zu Anfrage.
+Eingehende Anfragen erreichen Sie über verschiedene Kanäle, und es gibt mehrere Möglichkeiten, sie zu registrieren und zu beantworten. Die Bearbeitung einer Anfrage kann je nach Art unterschiedlich verlaufen.
 
-Bei einem Kontaktservicesystem geht es darum, Ihren Personen die gesuchten Antworten zu geben und ihre Personen Informationen zu speichern. Jedes Mal, wenn Sie einer Person antworten, erhält dieser eine E-Mail von Ihnen. Deshalb ist es wichtig, dass Sie [Ihre E-Mail-Signatur erstellen][15].
+Ein Kundenservicesystem dient dazu, Ihren Kunden die gesuchten Antworten bereitzustellen und ihre Kontaktdaten zu speichern. Jede Antwort wird dem Kunden per E-Mail gesendet, weshalb es wichtig ist, [Ihre E-Mail-Signatur einzurichten][15].
 
 ### Typische Aufgaben
 
 * [Anfragen übernehmen][1]
-* [Einen anderen Bearbeiter um Hilfe bitten][16]
-* [Einer Person antworten][19]
-* [Nachricht bearbeiten][9]
-* [Anfragen aufteilen][21]
-* [Nachrichten oder mehrere Anfragen an externe Parteien weiterleiten][18]
-* [Anfragen zur Favoritenliste hinzufügen][8]
-* [Schließen von Anfragen][22]
+* [Einen anderen Bearbeiter um Hilfe bitten][7]
+* [Kundenanfragen beantworten][2]
+* [Nachrichten bearbeiten][9]
+* [Anfragen aufteilen][11]
+* [Nachrichten oder mehrere Anfragen an externe Parteien weiterleiten][8]
+* [Anfragen zur Favoritenliste hinzufügen][18]
+* [Anfragen schließen][3]
 
-Verschiedene Firmen verwenden andere Verfahren für die Bearbeitung von Anfragen und können SuperOffice Service anders einsetzen. Nachfolgend haben wir zwei Szenarien aus dem echten Leben aufgeführt, die einige verfügbare Optionen aufzeigen. Diese Szenarien zeigen Ihnen, wie Sie effizient antworten können, wenn eine Person eine Anfrage per E-Mail übermittelt hat und eine Person mit einem Problem oder einer Frage anruft.
+Jedes Unternehmen hat eigene Abläufe zur Bearbeitung von Anfragen und nutzt SuperOffice Service auf unterschiedliche Weise. Nachfolgend zeigen zwei reale Szenarien, wie Anfragen effizient bearbeitet werden können.
 
-![Dashboard für Anfragen mit Listen eigener unbearbeiteter Anfragen und einer Warteschlange für nicht zugeordnete Anfragen. Hier können Sie eine zu bearbeitende Anfrage auswählen -screenshot][img3]
-*Dashboard für Anfragen mit Listen eigener unbearbeiteter Anfragen und einer Warteschlange für nicht zugeordnete Anfragen. Hier können Sie eine zu bearbeitende Anfrage auswählen.*
+![Dashboard für Anfragen mit Listen eigener offener Anfragen und einer Warteschlange für nicht zugeordnete Anfragen -screenshot][img3]
 
-### Szenario 1: Die Person übermittelt die Anfrage per E-Mail
+### Szenario 1: Kunde sendet Anfrage per E-Mail
 
-<!-- markdownlint-disable-next-line MD034 -->
-1. Die Person schreibt eine E-Mail an support@company.com oder füllt ein Formular in einem Benutzersupportportal aus.
-1. Die Person erhält eine [automatische Eingangsbestätigung][23].
-1. Die Anfrage der Person wird in SuperOffice CRM automatisch als Anfrage erfasst.
-1. Die Anfrage wird an einen Bearbeiter in SuperOffice CRM übermittelt. Siehe [Anfragen zuweisen][6] und [Anfragen suchen][10].
-1. Der Bearbeiter liest sich die Anfrage durch.
-1. Er kann die Anfrage nicht eigenständig abwickeln und geht wie folgt vor:
-    * [Er fragt einen Kollegen][16].
-    * [Er sucht Hilfe von außen][18].
-1. Der Bearbeiter muss eine [Antwort an die Person senden][19].
-1. Der Bearbeiter muss die [Anfrage schließen][21] und geht zur Bearbeitung einer anderen Anfrage über.
+1. Der Kunde schreibt eine E-Mail an `support@company.com` oder füllt ein Formular im Support-Portal aus.
+1. Der Kunde erhält eine [automatische Eingangsbestätigung][23].
+1. Die Anfrage wird automatisch in SuperOffice CRM registriert.
+1. Die Anfrage wird einem Bearbeiter zugewiesen. Siehe [Anfragen zuweisen][6] und [Anfragen suchen][10].
+1. Der Bearbeiter liest die Anfrage.
+1. Falls er die Anfrage nicht selbst lösen kann, wählt er eine der folgenden Optionen:
+    * [Er bittet einen Kollegen um Unterstützung][7].
+    * [Er holt Hilfe von außen ein][8].
+1. Der Bearbeiter [sendet die Antwort an den Kunden][2].
+1. Die Anfrage wird [geschlossen][3] und der Bearbeiter bearbeitet die nächste Anfrage.
 
-### Szenario 2: Die Person ruft den Bearbeiter an
+### Szenario 2: Kunde ruft an
 
-1. Die Person hat ein Problem mit einem Produkt und ruft den Kundensupport an.
-1. Der antwortende Bearbeiter muss die [Anfrage erfassen][14].
-1. Er kann die Anfrage nicht eigenständig abwickeln und geht wie folgt vor:
-    * [Er fragt einen Kollegen][16].
-    * [Er sucht Hilfe von außen][18].
-1. Der Bearbeiter muss eine [Antwort an die Person senden][19].
-1. Der Bearbeiter muss die [Anfrage schließen][21] und geht zur Bearbeitung einer anderen Anfrage über.
+1. Der Kunde hat ein Problem und ruft den Support an.
+1. Der Bearbeiter registriert die Anfrage in SuperOffice. Siehe [Anfrage erstellen][4].
+1. Falls er die Anfrage nicht selbst lösen kann, wählt er eine der folgenden Optionen:
+    * [Er bittet einen Kollegen um Unterstützung][7].
+    * [Er holt Hilfe von außen ein][8].
+1. Der Bearbeiter [sendet die Antwort an den Kunden][2].
+1. Die Anfrage wird [geschlossen][3] und der Bearbeiter bearbeitet die nächste Anfrage.
 
-## Verwandte Themen
+## Verwandte Inhalte
 
-* [Warum ein Massenabgleich Ihre Lieblingsfunktion sein sollte][17] - Blog
-* [E-Mail-Signatur][15]
-* [Anfrage erstellen][14]
-* [Suchen][10]
-* [Mündliche Zusage][1]
-* [Übergeben][16]
-* [Weiterleiten][18]
-* [Zuweisen][6]
-* [Antworten][19]
-* [Anfrage aufteilen][21]
-* [Nachricht bearbeiten][9]
-* [Favoriten][8]
-* [Anfrage schließen][22]
+* [Anfrage erstellen][4]
+* [Anfrage übernehmen][1]
+* [Antwort an Kunden senden][2]
+* [Automatische Zuweisung von Anfragen][6]
+* [7 Tipps für einen erstklassigen Kundenservice mit SuperOffice Service][20] - Blog
+* [Warum der Massenabgleich Ihr Lieblingsfeature sein sollte][21] – Blog
 
 <!-- Referenced links -->
-[1]: howto/accept.md
-[2]: ../../contact/learn/index.md
-[3]: ../../company/learn/index.md
-[4]: howto/create.md
-[5]: howto/flag-message.md
-[6]: howto/assign.md
-[8]: ../../learn/basics/fav.md
-[9]: howto/edit-message.md
+[1]: accept.md
+[2]: reply.md
+[3]: close.md
+[4]: create.md
+[5]: flag-message.md
+[6]: assign.md
+[7]: transfer.md
+[8]: forward.md
+[9]: edit-message.md
 [10]: find.md
-[11]: find.md#list
+[11]: split-request.md
 [12]: ../../search-options/learn/index.md
-[13]: find.md#result
-[14]: howto/create.md
+[13]: ../../company/learn/index.md
+[14]: ../../contact/learn/index.md
 [15]: ../../learn/getting-started/edit-email-signature.md
-[16]: howto/transfer.md
-[17]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
-[18]: howto/forward.md
-[19]: howto/reply.md
-[20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
-[21]: howto/split-request.md
-[22]: howto/close.md
+[18]: ../../learn/basics/fav.md
 [23]: ../reply-templates/learn/index.md
+[20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
+[21]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png
-[img2]: ../../../../common/icons/nav-cs.png
 [img3]: ../../../media/loc/en/request/service-dashboard.png

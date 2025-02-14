@@ -17,7 +17,7 @@ Sie können eine eingehende E-Mail (einschließlich sämtlicher Anhänge) als Do
 
 1. Wechseln Sie zum Posteingang oder zum relevanten Ordner.
 2. Wählen Sie die gewünschte E-Mail aus.
-3. Klicken Sie auf ![Symbol][img1] **Archivieren**.
+3. Klicken Sie auf <i class="ph ph-archive" aria-hidden="true"></i> **Archivieren**.
 4. Klicken Sie auf **E-Mail archivieren**. Das Dialogfeld [**Dokument** wird geöffnet][1].
 
 ## <a id="out"></a>Ausgehende E-Mails archivieren
@@ -41,6 +41,3 @@ Um eine Nachricht zu senden und als Dokument in SuperOffice CRM zu archivieren, 
 <!-- Referenced links -->
 [1]: ../../../document/learn/create.md#fields
 [3]: compose.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/archive-icon.png

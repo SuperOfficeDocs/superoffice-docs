@@ -23,7 +23,7 @@ Nachdem Sie das [Chat-Widget konfiguriert][1] haben zeigt Ihnen dieser Schritt, 
 ## Schritte
 
 1. [!include[Go to](../../../learn/includes/goto-sm.md)]
-1. Wählen Sie im Navigator das ![Symbol][img2] **Chat** aus.
+1. Wählen Sie im Navigator <i class="ph ph-chat-teardrop-text" aria-hidden="true"></i> **Chat** aus.
 1. Wählen Sie einen Chatkanal in der Liste aus und klicken Sie auf **Anzeigen**. Das JavaScript für den ausgewählten Chat-Kanal wird angezeigt.
 1. Wählen Sie das Skript aus und kopieren Sie es.
 1. Melden Sie sich auf der Editor-Seite Ihrer Website an.
@@ -50,4 +50,3 @@ Das Chat-Widget ist jetzt verfügbar und live. Besucher Ihrer Website können an
 [3]: ../../../customer-center/learn/enable-chat.md
 
 <!-- Referenced images -->
-[img2]: ../../../../../common/icons/nav-admin-chat-active.png

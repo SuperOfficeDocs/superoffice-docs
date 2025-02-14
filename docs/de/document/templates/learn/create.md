@@ -48,7 +48,7 @@ Um Felder in Ihre Vorlage einzufügen, können Sie eine der folgenden Methoden v
 
 1. Geben Sie in **Feldeigenschaften** Ihren [Feldnamen][3] (ohne «») ein:
 
-    ![Feldeigenschaften -screenshot][img2]
+    ![Feldeigenschaften im Microsoft Word-screenshot][img2]
 
 1. Klicken Sie auf **OK** und die Variable wird in Ihr Dokument eingefügt:
 
@@ -106,6 +106,6 @@ Um den Preis pro Einheit nach Rabatten anzuzeigen, können Sie ein Merge field w
 [9]: https://docs.aspose.com/words/net/fields-overview/
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/document/6762-11545.jpg
-[img2]: ../../../../media/loc/en/document/6763-11543.jpg
+[img1]: ../../../../media/loc/en/document/word-insert-quick-parts.png
+[img2]: ../../../../media/loc/en/document/word-field-dialog.png
 [img3]: ../../../../media/loc/en/document/6764-11541.jpg

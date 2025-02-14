@@ -84,10 +84,10 @@ Wenn Sie die gewünschte Kachel nicht unter dem vordefinierten Kachelset im Supe
 
 | Symbol/Schaltfläche | Beschreibung |
 |---|---|
-| ![Symbol][img1] | Das Dashboard wird von einem Administrator angeheftet und wahrscheinlich an mehrere Benutzer verteilt. |
-| ![Symbol][img2] | Klicken Sie auf den Stern in der Ecke oben rechts, um ein Dashboard als Favoriten festzulegen. |
-| ![Symbol][img3] | Klicken Sie auf die Schaltfläche **Aktualisieren**, um die Daten in allen Kacheln zu aktualisieren. |
-| **Aufgabe** | Klicken Sie darauf, um auf verschiedene Funktionen zuzugreifen. |
+| <i class="ph ph-push-pin" aria-label="Pin"></i> | Das Dashboard wird von einem Administrator angeheftet und wahrscheinlich an mehrere Benutzer verteilt. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Klicken Sie auf den Stern in der Ecke oben rechts, um ein Dashboard als Favoriten festzulegen. |
+| <i class="ph ph-arrow-clockwise" aria-label="Refresh"></i> | Klicken Sie auf die Schaltfläche **Aktualisieren**, um die Daten in allen Kacheln zu aktualisieren. |
+| <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> | Klicken Sie darauf, um auf verschiedene Funktionen zuzugreifen. |
 
 **Funktionen auf der Schaltfläche Aufgabe:**
 
@@ -106,7 +106,4 @@ Wenn Sie die gewünschte Kachel nicht unter dem vordefinierten Kachelset im Supe
 [6]: working-with-tiles.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/pinned.png
-[img2]: ../../../../common/icons/favourite-yes.png
-[img3]: ../../../media/icons/dashboard/dashboard-refresh.png
 [img4]: ../../../media/loc/en/dashboard/dashboard-overview.png

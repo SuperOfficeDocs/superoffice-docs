@@ -24,7 +24,7 @@ Die Registerkarte **Vorschau** enthält folgende Felder:
 | Anhänge | Zeigt alle Anhänge der Nachricht an. |
 
 > [!NOTE]
-> Gehen Sie zum ![Symbol][img1] **Persönliche Einstellungen** > **E-Mail-Optionen**. Öffnen Sie die Registerkarte **Allgemein**. Wenn Sie die Option **Inline-Bilder anzeigen** aktivieren, werden Inline-Bilder als Vorschau angezeigt.
+> Gehen Sie zum <i class="ph ph-user-circle" aria-hidden="true"></i> **Persönliche Einstellungen** > **E-Mail-Optionen**. Öffnen Sie die Registerkarte **Allgemein**. Wenn Sie die Option **Inline-Bilder anzeigen** aktivieren, werden Inline-Bilder als Vorschau angezeigt.
 
 ## Verwandte Themen
 
@@ -40,6 +40,3 @@ Die Registerkarte **Vorschau** enthält folgende Felder:
 [3]: invitations.md
 [4]: create-task.md
 [5]: create-request.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/personal-settings-small.png

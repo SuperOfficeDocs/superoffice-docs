@@ -30,7 +30,7 @@ Sie entscheiden, wo dieser Abmeldelink angezeigt und formuliert wird und was das
 
 2. Geben Sie den Text ein auf den der Empfänger klicken soll und wählen ihn aus, z. B. "Klicken Sie hier, um das Abonnement zu beenden" oder "Klicken Sie hier, um Ihre Abonnements zu verwalten".
 
-3. Klicken Sie in der Werkzeugleiste auf die Schaltfläche **Link einfügen/bearbeiten** ![Symbol][img3].
+3. Klicken Sie in der Werkzeugleiste auf die Schaltfläche **Link einfügen/bearbeiten** (<i class="ph ph-link" aria-hidden="true"></i>).
 
 4. Klicken Sie auf **Besondere Links** und wählen eine der folgenden Optionen aus:
     * **Abonnements verwalten**: Zum Einfügen eines Links auf einer Webseite, auf der die Empfänger auswählen können, welche Kampagnentypen sie erhalten wollen. Der Link ist standardmäßig 21 Tage gültig.
@@ -52,5 +52,4 @@ Auf der Grundlage des Feedbacks von den Empfängern werden die Abonnementeinstel
 [1]: ../../recipients/learn/manage-email-subscriptions.md
 
 <!-- Referenced images -->
-[img3]: ../../../../media/icons/marketing-and-forms/link.png
 [img4]: ../../../../media/loc/en/marketing/insert-edit-link-unsubscribe-mailing.png

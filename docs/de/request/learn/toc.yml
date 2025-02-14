@@ -5,7 +5,40 @@ items:
   href: screen/index.md
 - name: Anfragen mit AI behandeln
   href: handle-request-ai.md
-- name: Mit Anfragen arbeiten
-  href: howto/toc.yml
-  topicHref: find.md
-  
+- name: Anfrage suchen
+  href: find.md
+- name: Anfrage erstellen
+  href: create.md
+- name: Nachricht bearbeiten
+  href: edit-message.md
+- name: Automatische Zuordnung
+  href: assign.md
+- name: Anfrage übernehmen
+  href: accept.md
+- name: Einen anderen Bearbeiter um Hilfe bitten
+  href: transfer.md
+- name: Weiterleiten an externen Kontakt
+  href: forward.md
+- name: Antwort an Kunde
+  href: reply.md
+- name: Hinzufügen von FAQ-Einträgen zu Nachrichten
+  href: ../../faq/learn/add-to-request.md
+- name: Tags
+  href: tags.md
+- name: Nachrichten nachverfolgen
+  href: flag-message.md
+- name: Anfrage aufteilen
+  href: split-request.md
+- name: Anfragen zusammenführen
+  href: merge.md
+- name: Nachricht aufteilen
+  href: split-message.md
+- name: Anfrage abschließen
+  href: close.md
+- name: Anfrage löschen
+  href: delete.md
+- name: Anfrageprotokoll
+  href: screen/ticket-log.md
+- name: Für Admins
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md

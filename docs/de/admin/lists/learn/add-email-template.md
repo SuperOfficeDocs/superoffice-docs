@@ -48,9 +48,9 @@ Vorlagen werden in der Liste **E-Mail-Vorlage** als Objekte angezeigt. Sie könn
 
 Geben Sie die folgenden Informationen in die Registerkarte **Details** ein:
 
-1. (optional) Bearbeiten Sie den Namen der Vorlage im Feld **Name**. Klicken Sie auf ![Symbol][img1], um die Funktion [Vorlagenname in anderen Sprachen hinzufügen][1] auszuführen.
+1. (optional) Bearbeiten Sie den Namen der Vorlage im Feld **Name**. Klicken Sie auf <i class="ph ph-translate" aria-label="Translate"></i>, um die Funktion [Vorlagenname in anderen Sprachen hinzufügen][1] auszuführen.
 
-2. Geben Sie den Titel der E-Mail im Feld **Betreff** ein. Sie können auch den [Betreff in anderen Sprachen hinzufügen][1], indem Sie auf ![Symbol][img1] klicken.
+2. Geben Sie den Titel der E-Mail im Feld **Betreff** ein. Sie können auch den [Betreff in anderen Sprachen hinzufügen][1], indem Sie auf <i class="ph ph-translate" aria-label="Translate"></i> klicken.
 
 3. Wählen Sie **Signatur für neue E-Mail verwenden**, um Ihre Signatur in neuen E-Mails hinzuzufügen. Wenn Sie nicht über eine persönliche Signatur verfügen, wird die Systemsignatur verwendet.
 
@@ -58,9 +58,9 @@ Geben Sie die folgenden Informationen in die Registerkarte **Details** ein:
 
 5. Geben Sie optional in das Feld Beschreibung eine **Beschreibung** für die Vorlage ein.
 
-6. Legen Sie im Feld **Richtung** fest, ob die Vorlage ein- oder ausgehend ist, indem Sie auf den Pfeil (![Symbol][img2]) klicken und im Listenfeld eine Option auswählen. Wählen Sie **Ausgehend**, wenn die Vorlage in **E-Mail** verfügbar sein soll.
+6. Legen Sie im Feld **Richtung** fest, ob die Vorlage ein- oder ausgehend ist, indem Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i> klicken und im Listenfeld eine Option auswählen. Wählen Sie **Ausgehend**, wenn die Vorlage in **E-Mail** verfügbar sein soll.
 
-7. Klicken Sie im Feld **Zweck** auf den Pfeil (![Symbol][img2]) und wählen Sie eine der vordefinierten Optionen vom Listenfeld aus. Diese Objekte gehören zur Statuskontrollfunktion (für die eine [Sales Intelligence][5]-Lizenz erforderlich ist).
+7. Klicken Sie im Feld **Zweck** auf <i class="ph ph-caret-down" aria-label="Chevron"></i> und wählen Sie eine der vordefinierten Optionen vom Listenfeld aus. Diese Objekte gehören zur Statuskontrollfunktion (für die eine [Sales Intelligence][5]-Lizenz erforderlich ist).
 
     > [!TIP]
     > Zusätzlich zu den vordefinierten Optionen können Sie neue Optionen erstellen, indem Sie sie zur Liste **Folgeaufgabe - Zweck** in Einstellungen und Verwaltung hinzufügen.
@@ -83,15 +83,13 @@ Hier können Sie übersetzte Versionen der Dokumentvorlage hinzufügen.
 5. Gehen Sie wie in den Schritten oben erläutert vor, um weitere Sprachen hinzuzufügen.
 
 > [!TIP]
-> Klicken Sie auf ![Symbol][img1] neben dem entsprechenden Feld, um für den Vorlagennamen und E-Mail-Betreff die Funktion [Übersetzungen hinzufügen][1] auszuführen.
+> Klicken Sie auf <i class="ph ph-translate" aria-label="Translate"></i> neben dem entsprechenden Feld, um für den Vorlagennamen und E-Mail-Betreff die Funktion [Übersetzungen hinzufügen][1] auszuführen.
 
 <!-- Referenced links -->
 [1]: ../../../globalization-and-localization/learn/translate-fields.md
 [2]: ../../../document/templates/learn/template-variables.md
-[3]: sale-type.md
+[3]: ../../../sale/admin/sale-type.md
 [4]: privacy-source-add.md
 [5]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/az.png
-[img2]: ../../../../media/icons/arrow-down.png

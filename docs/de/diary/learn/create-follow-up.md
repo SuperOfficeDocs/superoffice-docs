@@ -1,12 +1,15 @@
 ---
 uid: help-de-follow-up-create
-title: "Folgeaufgaben hinzufügen"
-description: "Folgeaufgaben hinzufügen oder kopieren"
+title: Folgeaufgaben hinzufügen
+description: Folgeaufgaben hinzufügen oder kopieren
+keywords: Folgeaufgabe hinzufügen, Kalender, Folgeaufgabe, Zu erledigen, Anruf, Telefon, Besprechung, Termin
 author: Bergfrid Dias
-date: 05.21.2024
-version: 10.3.6
-keywords: Kalender, Folgeaufgabe, Anruf, Telefon, Besprechung
+date: 02.11.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -18,7 +21,7 @@ Durch das Erstellen von Folgeaufgaben und das Planen aller Besprechungen und Akt
 
 Sie haben viele Möglichkeiten, eine Folgeaufgaben zu erstellen. Diese Methode funktioniert von überall in SuperOffice CRM und für alle Arten von Folgeaufgaben.
 
-1. Klicken Sie auf **Neu** auf der oberen Leiste und wählen Sie **Besprechung/Termin**, **Folgeaufgab/Anruf** oder **Zu erledigen/Aufgabe** aus.
+1. Klicken Sie auf **Neu** auf der oberen Leiste und wählen Sie **Besprechung**, **Folgeaufgabe** oder **Zu erledigen** aus.
 
 2. [Geben Sie die erforderlichen Informationen in das Feld ein.](#fields)
 
@@ -28,7 +31,7 @@ Sie haben viele Möglichkeiten, eine Folgeaufgaben zu erstellen. Diese Methode f
 
 **Andere Möglichkeiten:**
 
-| Ausgangspunkt | Besprechung (Termin) | Folgeaufgabe (Anruf) | Zu erledigen (Aufgabe) |
+| Ausgangspunkt | Besprechung | Folgeaufgabe (Anruf) | Zu erledigen |
 |---|---|---|---|
 | Bereichsregisterkarte Aktivitäten | x | x | x |
 | Schaltfläche Aufgabe in der Personenkarte | x | x | |
@@ -37,7 +40,7 @@ Sie haben viele Möglichkeiten, eine Folgeaufgaben zu erstellen. Diese Methode f
 ### <a id="fields"></a>Wie Informationen eingegeben werden
 
 > [!NOTE]
-> Viele Felder haben eine Liste von vordefinierten Werten, aus denen Sie wählen können. Klicken Sie auf den Pfeil ![Symbol][img4], um die Liste zu erweitern. Wählen Sie dann einen Wert für dieses Feld. Alternativ können Sie im Feld mit der Eingabe beginnen, um nach einem bestimmten Wert zu suchen, wie zum Beispiel einem Firmennamen.
+> Viele Felder haben eine Liste von vordefinierten Werten, aus denen Sie wählen können. Klicken Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i>, um die Liste zu erweitern. Wählen Sie dann einen Wert für dieses Feld. Alternativ können Sie im Feld mit der Eingabe beginnen, um nach einem bestimmten Wert zu suchen, wie zum Beispiel einem Firmennamen.
 
 Wenn Ihre SuperOffice [Zeitzonen][9] aktiviert hat, können Sie auswählen, in welcher Zeitzone die Folgeaufgabe erstellt werden soll. Die Zeitzonen werden nach Ländern angezeigt, und Sie können sowohl nach Land als auch direkt nach Stadt im Zeitzonenfeld suchen.
 
@@ -77,7 +80,7 @@ Wenn Sie **Ganztägig** aktivieren, wird die Zeit der Folgeaufgabe auf den als [
 
 ## Folgeaufgaben erstellen mit der Schaltfläche Aufgabe
 
-1. Klicken Sie auf das ![Symbol][img3] der Schaltfläche **Aufgabe** in der Personenkarte.
+1. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> in der Personenkarte.
 
     * Um eine Besprechung zu erstellen, wählen Sie **Besprechung anfordern**.
 
@@ -92,13 +95,13 @@ Wenn Sie **Ganztägig** aktivieren, wird die Zeit der Folgeaufgabe auf den als [
 * **Um die Standarddauer zu verwenden:** Doppelklicken Sie auf einen Zeitraum im Kalender. Oder, klicken Sie mit der rechten Maustaste auf eine Uhrzeit im Kalender und wählen Sie **Neu**.
 
 > [!NOTE]
-> Wenn Sie die Besprechung von der Registerkarte **Ansicht** erstellen, können Sie wählen, ob Teilnehmern automatisch mit den Mitgliedern der Ansicht befüllt werden soll. Wenn Sie diese Option einstellen möchten, gehen Sie zum ![Symbol][img1] **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** und stellen Sie die Einstellung **Teilnehmer aus Gruppenansicht** auf **Ja**. Klicken Sie auf **Speichern**.
+> Wenn Sie die Besprechung von der Registerkarte **Übersicht** erstellen, können Sie wählen, ob Teilnehmern automatisch mit den Mitgliedern der Ansicht befüllt werden soll. Wenn Sie diese Option einstellen möchten, gehen Sie zum <i class="ph ph-user-circle" aria-hidden="true"></i> **Persönliche Einstellungen** > **Einstellungen** > **Funktionen** und stellen Sie die Einstellung **Teilnehmer aus Gruppenansicht** auf **Ja**. Klicken Sie auf **Speichern**.
 
 ### <a id="associate"></a>Besprechung für einen Mitarbeiter erstellen
 
 Sie können den Kalender anderer Benutzer oder einer verfügbaren Ressource öffnen, ihre Verfügbarkeit zu überprüfen oder Folgeaufgaben für sie zu erstellen.
 
-1. Klicken Sie in der Ansicht Kalender auf die Registerkarte Anzeigen.
+1. Klicken Sie in der Ansicht Kalender auf die Registerkarte **Übersicht**.
 
 2. Klicken Sie der Liste der Kalendereigentümer und wahlen Sie den Kalender der betreffenden Person aus.
 
@@ -120,9 +123,9 @@ Sie können auch eine neue Folgeaufgabe erstellen, indem Sie eine vorhandene Fol
 
 3. Halten Sie die **STRG**-Taste gedrückt, während Sie die Folgeaufgabe an eine andere Zeit ziehen und ablegen.
 
-## Zugehörige Inhalte
+## Verwandte Inhalte
 
-* [Termin][1]
+* [Folgeaufgabe][1]
 * [Aktivitäten][7]
 * [Videokonferenz vom SuperOffice-Kalender erstellen][2]
 
@@ -137,8 +140,5 @@ Sie können auch eine neue Folgeaufgabe erstellen, indem Sie eine vorhandene Fol
 [9]: ../../globalization-and-localization/learn/time-zones.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/personal-settings-small.png
-[img3]: ../../../media/icons/btn-menu.png
-[img4]: ../../../../common/icons/dropdown-icon.png
 [img7]: ../../../media/loc/en/diary/follow-up-dialog.png
 [img8]: ../../../media/loc/en/diary/follow-up-attendees.png

@@ -13,7 +13,7 @@ language: de
 
 # SMS-Konfiguration in Globale Einstellungen
 
-Gehen Sie im Navigator zum ![Symbol][img1] **Einstellungen** und wählen Sie die Registerkarte **Globale Einstellungen** aus. Der Bereich **SMS-Konfiguration** enthält Optionen zum Konfigurieren von SMS-Lösungen in SuperOffice.
+Gehen Sie im Navigator zum <i class="ph ph-gear" aria-hidden="true"></i> **Einstellungen** und wählen Sie die Registerkarte **Globale Einstellungen** aus. Der Bereich **SMS-Konfiguration** enthält Optionen zum Konfigurieren von SMS-Lösungen in SuperOffice.
 
 ## Allgemeine Felder
 
@@ -38,8 +38,3 @@ Zum Testen der Einstellungen geben Sie eine Mobiltelefonnummer und etwas Text ei
 * **SMS-Endpunkt**: Dieses Feld sollte Code enthalten, mit dem SuperOffice Service eine eingehende SMS erkennt.
 * **Benutzername**: Geben Sie hier den Benutzernamen ein, der Ihnen von PsWinCom zugeteilt wurde.
 * **Kennwort**: Geben Sie hier das Kennwort ein, das Ihnen von PsWinCom zugeteilt wurde.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-preferences-active.png

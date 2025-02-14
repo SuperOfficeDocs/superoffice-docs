@@ -24,7 +24,7 @@ Sie können eine Firma aus SuperOffice mit einem Kunden/Lieferanten im ERP-Syste
 1. Firma: Klicken Sie auf **Kunde** oder **Lieferant**, je nachdem, mit welchem ERP-Akteur Sie die Firma verbinden möchten. Sie können nur einen Akteur pro Firma auswählen.
     *Oder* Projekt: Klicken Sie auf **Projekt**.
     *Oder* Person: Klicken Sie auf **Person**.
-1. Geben Sie in das Dialogfeld **Mit ERP verbinden** den Text ein, nach dem Sie im Suchfeld suchen möchten, und klicken Sie auf **Suchen**. Sie können auch auf die Suchen-Schaltfläche ![Symbol][img1] klicken, um eine erweiterte Suche zu starten (siehe [Dialogfeld Suchen verwenden][1]).
+1. Geben Sie in das Dialogfeld **Mit ERP verbinden** den Text ein, nach dem Sie im Suchfeld suchen möchten, und klicken Sie auf **Suchen**. Sie können auch auf <i class="ph ph-magnifying-glass" aria-label="Suchen"></i> klicken, um eine erweiterte Suche zu starten (siehe [Dialogfeld Suchen verwenden][1]).
 
     > [!TIP]
     > Wenn Sie mit einem leeren Suchfeld suchen, werden alle Datensätze im ERP-System angezeigt.
@@ -48,4 +48,3 @@ Sie können eine Firma aus SuperOffice mit einem Kunden/Lieferanten im ERP-Syste
 [3]: erp-sync-disconnect.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/search-icon-black.png

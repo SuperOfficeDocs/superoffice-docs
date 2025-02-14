@@ -9,7 +9,7 @@ topic: concept
 language: de
 ---
 
-# Datenschutz
+# Datenschutz <i class="ph ph-shield" aria-label="Shield icon"></i>
 
 Die Funktion **Datenschutz** in SuperOffice hilft Ihnen, die Daten Ihrer Kunden zu schützen und die Datenschutz-Grundverordnung (DSGVO) der EU einzuhalten.
 
@@ -17,7 +17,7 @@ Die Funktion **Datenschutz** in SuperOffice hilft Ihnen, die Daten Ihrer Kunden 
 
 Dies sind zwei verschiedene Zwecke, um die Zustimmung einer Person einzuholen. In SuperOffice werden diese Zwecke als **Verkauf und Service** und **E-Marketing** bezeichnet. Für Ihr Unternehmen sind möglicherweise auch andere Zwecke relevant.
 
-Auf der Registerkarte **Zustimmung** in der Ansicht **Datenschutz** (![Symbol][img1]) können Sie [Zwecke erstellen und bearbeiten][2].
+Auf der Registerkarte **Zustimmung** in der Ansicht **Datenschutz** können Sie [Zwecke erstellen und bearbeiten][2].
 
 Für jeden Zweck müssen eine Rechtsgrundlage und ein Zustimmungsnachweis dokumentiert werden (beim Import oder in SuperOffice CRM für einzelne oder mehrere Benutzer).
 
@@ -68,4 +68,3 @@ Wenn Sie diese Option *nicht* wählen, werden nur Personen, bei denen **E-Market
 [4]: ../../../admin/lists/learn/privacy-source-add.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-privacy-active.png

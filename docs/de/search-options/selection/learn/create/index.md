@@ -30,7 +30,7 @@ Statische und dynamische Selektionen werden auf ähnliche Weise erstellt:
 Schritt 1 unterscheidet sich bei kombinierten Selektionen, da Sie mit zwei vorhandenen Selektionen beginnen, anstatt nach Daten zu suchen.
 
 > [!TIP]
-> Klicken Sie auf ![Symbol][img4] rechts neben den Spaltenkopfzeilen. Hier können Sie Datensätze gruppieren und filtern sowie Spalten hinzufügen/entfernen. Diese Einstellungen können für die aktive Selektion gespeichert werden, indem Sie **Spalten nur für die aktuelle Selektion speichern** auswählen. Siehe auch [Abschnittsregisterkarten][4] für zusätzliche Funktionen.
+> Klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> rechts neben den Spaltenkopfzeilen. Hier können Sie Datensätze gruppieren und filtern sowie Spalten hinzufügen/entfernen. Diese Einstellungen können für die aktive Selektion gespeichert werden, indem Sie **Spalten nur für die aktuelle Selektion speichern** auswählen. Siehe auch [Abschnittsregisterkarten][4] für zusätzliche Funktionen.
 
 ## Was möchten Sie tun?
 
@@ -46,6 +46,3 @@ Schritt 1 unterscheidet sich bei kombinierten Selektionen, da Sie mit zwei vorha
 [4]: ../../../../learn/section-tabs/index.md
 [5]: ../index.md
 [6]: ../update/index.md
-
-<!-- Referenced images -->
-[img4]: ../../../../../../common/icons/cog-wheel.png

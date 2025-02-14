@@ -1,11 +1,11 @@
 ---
 uid: help-de-ui-side-panel
-title: Seitenleiste für eine effizientere Arbeit verwenden
-description: "Über die Seitenleiste erhalten Sie Zugriff auf Informationen, die in anderen Teilen von SuperOffice CRM gespeichert sind, ohne die Ansicht zu verlassen, auf dem Sie sich befinden."
+title: Die Seitenleiste
+description: Über die Seitenleiste erhalten Sie Zugriff auf Informationen, die in anderen Teilen von SuperOffice CRM gespeichert sind, ohne die Ansicht zu verlassen, in der Sie sich befinden.
 keywords: Seitenleiste
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 02.11.2025
+version: 10.5.2
 topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -14,139 +14,128 @@ language: de
 
 # Die Seitenleiste
 
-Die Seitenleiste ist ein multifunktioneller Bildschirm, der sich ganz rechts auf jeder Ansicht in SuperOffice befindet (mit Ausnahme des Posteingangs).
+Die **Seitenleiste** ist ein multifunktionales Werkzeug, das sich auf der rechten Seite jeder Ansicht in SuperOffice CRM befindet (außer dem Posteingang). Sie bietet schnellen Zugriff auf relevante Informationen und ergänzt die Hauptansicht.
 
-Verwenden Sie die Seitenleiste, um Informationen von anderen Teilen Ihrer CRM-Lösung anzuzeigen und zu verwenden. Zum Beispiel, um sich durch Listen mit Personen zu arbeiten, die Sie anrufen möchten, zu aktualisierende Verkäufe oder nachzuverfolgende Verkaufsvorschläge. Sie können aus verschiedenen Anzeigen wählen, indem Sie auf den Pfeil ![Symbol][img3] neben der Seitenleiste Namen klicken.
+Verwenden Sie sie, um Aufgaben zu verwalten, Überblick zu behalten oder Aktivitäten, Verkäufe und Personen nachzuverfolgen. Der Inhalt der Seitenleiste passt sich der aktiven Ansicht an und merkt sich die zuletzt verwendete Ansicht.
 
 ![Die Seitenleiste befindet sich auf der rechten Seite von SuperOffice CRM -screenshot][img10]
 
 > [!TIP]
-> Sie können die Seitenleiste minimieren, indem Sie auf das ![Symbol][img4] zum Minimieren in der oberen rechten Ecke klicken, um mehr Platz für die Hauptkarten und Archive zu erhalten.
+> Minimieren Sie die Seitenleiste, um mehr Platz zu schaffen, indem Sie auf <i class="ph ph-sidebar-simple" aria-label="Sidebar icon"></i> in der oberen rechten Ecke klicken.
 
-Die Seitenleiste ist hilfreich, um ergänzende Informationen zur aktivierten Ansicht anzuzeigen. Sie können beispielsweise gleichzeitig mit dem Tageskalender in der Ansicht Kalender den Monatskalender anzeigen, um einen besseren Überblick zu erhalten, oder die Mitglieder einer Selektion einblenden, die mit einem Projekt in der Ansicht Projekt verknüpft sind. Sie können auch benutzerdefinierte Anzeigen aus Einstellungen und Verwaltung zur Seitenleiste hinzufügen.
+## Ändern der Ansicht in der Seitenleiste
 
-Standardmäßig zeigt die Seitenleiste eine Vorschau des ausgewählten Datensatzes. Nachdem Sie in einer Registerkarte einer Ansicht eine Anzeige ausgewählt haben, wird diese Anzeige von SuperOffice CRM beim nächsten Aktivieren derselben Registerkarte automatisch eingeblendet.
+Standardmäßig zeigt die Seitenleiste eine Vorschau des ausgewählten Datensatzes. Sie können zwischen verschiedenen Ansichten wechseln, um die für Ihre Aufgabe relevantesten Informationen anzuzeigen.
 
-## Firma
+Zum Beispiel können Sie den Monatskalender anzeigen, während der Tageskalender in der Ansicht Kalender geöffnet ist, oder Mitglieder einer Selektion anzeigen, die mit einem Projekt in der Projektansicht verknüpft sind.
 
-Zeigt eine Zusammenfassung der Informationen über die derzeit in der Ansicht Firma angezeigte Firma an.
+1. Klicken Sie auf <i class="ph ph-caret-down" aria-label="Caret down icon"></i> neben dem Namen der Seitenleiste.
 
-> [!TIP]
-> Um weitere Firmen anzeigen, ohne in die Ansicht Firmen gehen zu müssen, können Sie auf den Pfeil neben dem Firmennamen klicken, um die [Verlaufsliste][1] aufzurufen
-
-## Person
-
-Zeigt Informationen über die in der Ansicht **Firma** oder Selektion ausgewählte Person an.
-
-> [!TIP]
-> Klicken Sie auf den Namen der Person, um die [Personenkarte][2] aufzurufen, in der Sie detaillierte Informationen über die Person anzeigen und bearbeiten können.
-
-### Warum ist die Seitenleiste leer?
-
-In einer [dynamischen Selektion][7] können Sie festlegen, dass Firmen ohne Angabe einer bestimmten Person angezeigt werden. Wenn Die Option **Mit Hauptperson** nicht für die dynamische Selektion ausgewählt wurde, wird keine Information in der Ansicht Person für die Seitenleiste angezeigt, auch wenn Sie eine Person ausgewählt haben.
-
-## Tag
-
-Zeigt einen Kalendertag an. Funktioniert wie die Registerkarte **Tag** in [der Ansicht Kalender][4].
+1. Wählen Sie die gewünschte Ansicht aus der Liste.
 
 > [!NOTE]
-> Auf der Seitenleiste können Sie nur Ihren eigenen Kalender anzeigen. Gehen Sie zur Anzeige [Kalender][4], um die Tagebücher anderer Personen anzuzeigen.
+> Die verfügbaren Ansichten hängen von der aktiven Ansicht ab.
 
-## Nächster Tag
+## Standardansichten
 
-Zeigt den Tageszeitplan für den nächsten Tag an. Dieser funktioniert nach dem gleichen Prinzip wie die Anzeige **Tag**.
-
-## Woche
-
-Zeigt einen Wochenzeitplan an, der eine Übersicht über Folgeaufgaben der aktuellen Woche gibt.
-
-## Monat
-
-Zeigt einen Monatszeitplan an, der eine Übersicht über Folgeaufgaben der nächsten Monate enthält. Sie können die Seitenleiste so erweitern, dass sie mehrere Monate anzeigt.
-
-Wenn Sie den Mauszeiger über einem dieser Tage platzieren, wird eine QuickInfo mit einer Liste der relevanten Folgeaufgaben angezeigt.
-
-| Symbol | Beschreibung |
-|---|---|
-| ![Symbol][img7] | Die "Leiste" unter dem Datum zeigt den Umfang der Aktivitäten an diesem Tag an, wodurch die Terminierung von Gesprächen leichter wird. |
-| ![Symbol][img8] | Heute. |
-| ![Symbol][img9] | Das ausgewählte Datum im Kalender. |
-
-Mit den Pfeilsymbolen ![Symbol][img1] ![Symbol][img2] unten auf der Seitenleiste können Sie von Monat zu Monat wechseln.
-
-## Meine Favoriten
-
-Zeigt alle Ihre [Favoriten][8] an.
-
-* Wenn Sie nur Favoriten für die aktuelle Ansicht sehen möchten, aktivieren Sie das Kontrollkästchen unten auf der Seitenleiste. Beispiel: Wenn die Ansicht Verkauf geöffnet ist, müssen Sie auf **Nur Verkäufe** klicken, damit nur Verkäufe angezeigt werden.
-* Wenn Sie Favoriten entfernen möchten, wählen Sie einen oder mehrere Favoriten in der Liste aus und klicken auf **Entfernen**.
-* Klicken Sie auf **Aktualisieren**, um die Favoritenliste zu aktualisieren.
-* Klicken Sie mit der rechten Maustaste auf einen Favoriten, um das Kontextmenü zu öffnen.
-
-## Vorschau
-
-Zeigt eine Vorschau einer ausgewählten Aktivität oder Person, eines Projekts, Projektmitglieds oder Selektionsmitglieds auf der Seitenleiste an. Je nach ausgewähltem Element kann das Fenster Verknüpfungen zu Personen und Aktivitäten enthalten. Wenn Sie auf eine dieser Verknüpfungen klicken, wird die [Personenkarte][2], das [Dialogfeld Dokument][5] oder das [Dialogfeld Folgeaufgaben][6] angezeigt, wo Sie die Informationen zur Person oder Aktivität anzeigen und bearbeiten können.
-
-[Was kann man tun, wenn in der Seitenleiste von SuperOffice CRM "Dokument geschlossen" angezeigt wird, wenn der Dokument-Viewer verwendet wird?][11] - FAQ
-
-## Projekt
-
-Zeigt eine Zusammenfassung der Informationen über das derzeit in der Ansicht Projekt angezeigte Projekt an.
+Hier sind die gängigsten Ansichten der Seitenleiste, abgestimmt auf die aktive Ansicht.
 
 > [!TIP]
-> Um weitere Projekte anzeigen, ohne in die Ansicht Projekte gehen zu müssen, können Sie auf den Pfeil (![Symbol][img3]) neben dem Produktnamen klicken, um die [Verlaufsliste][1] aufzurufen.
+> Um schnell andere Datensätze anzuzeigen, ohne die Ansicht zu wechseln, klicken Sie auf den Pfeil (<i class="ph ph-caret-down" aria-hidden="true"></i>) neben dem Namen des Datensatzes in der Seitenleiste. Dies öffnet die [Verlaufsliste][1], in der Sie einen anderen Datensatz auswählen können.
 
-## Projektmitglieder
+### Vorschau (Standard)
 
-Zeigt eine Liste von Projektmitgliedern im derzeit in der Ansicht Projekt angezeigten Projekt an.
+Zeigt eine schnelle Vorschau der ausgewählten Datensätze, wie Persone oder Aktivitäten, mit Links zu zugehörigen Daten. Ein Klick auf einen Link öffnet die entsprechende Dialogbox, wie die [Dialogfeld Folgeaufgaben][6] oder [Dialogfeld Dokument][5].
 
-> [!TIP]
-> Wenn Sie auf den Namen des Projektmitglieds doppelklicken, wird die [Personenkarte][2] geöffnet, in der Sie detaillierte Informationen zum Projektmitglied anzeigen und bearbeiten können.
+### Kalenderansichten
 
-## Verkauf
+Behalten Sie Ihren Zeitplan im Blick mit diesen Ansichten:
 
-Zeigt eine Zusammenfassung der Informationen über den derzeit in der Ansicht Verkauf angezeigten Verkauf an.
+* **Tag:** Tagesordnung für heute. Ähnlich der Registerkarte **Tag** in der [Kalenderansicht][4].
+* **Nächster Tag:** Tagesordnung für morgen.
+* **Woche:** Wochenübersicht über Folgeaufgaben.
+* **Monat:** Monatskalender mit Tooltips für Aktivitäten und einer "Balkenanzeige" für die Tagesauslastung. Erweitern Sie die Seitenleiste, um mehrere Monate anzuzeigen.
 
-> [!TIP]
-> Um weitere Projekte anzeigen, ohne in die Ansicht Projekte gehen zu müssen, können Sie auf den Pfeil (![Symbol][img3]) neben dem Namen des Verkaufs klicken, um die [Verlaufsliste][1] aufzurufen.
+Navigieren Sie zwischen Daten, Wochen oder Monaten mit den **Vorherige**- und **Nächste**-Tasten (<i class="ph ph-caret-left" aria-hidden="true"></i><i class="ph ph-caret-right" aria-hidden="true"></i>) unten in der Seitenleiste.
 
-[Wie man die Seitenleiste effizient für den Verkauf nutzt][10]
+Wenn Sie sich in der **Kalender**-Ansicht befinden, aktualisiert sich die Kalenderansicht automatisch, wenn Sie in der Seitenleiste zu einer anderen Woche oder einem anderen Monat navigieren. Ebenso aktualisiert das Auswählen eines Datums, einer Woche oder eines Monats in der Kalenderansicht die Seitenleiste entsprechend.
 
-## Selektion
+> [!NOTE]
+> Nur Ihr eigener Kalender kann in der Seitenleiste angezeigt werden. Verwenden Sie die **Kalender**-Ansicht, um die Kalender anderer Personen anzuzeigen.
 
-Zeigt eine Zusammenfassung der Informationen über die derzeit in der Ansicht Selektion angezeigte Selektion an.
+### Firma
 
-> [!TIP]
-> Um weitere Selektionen anzeigen, ohne auf Selektionen in der Ansicht Selektion gehen zu müssen, können Sie auf den Pfeil (![Symbol][img3]) neben dem Selektionsnamen klicken, um die [Verlaufsliste][1] zu öffnen.
+Zusammenfassung von Informationen zur aktuellen Firma in der Ansicht **Firma**.
 
-## Selektionsmitglieder
+### Person
 
-Zeigt eine Liste von Mitgliedern der aktuellen Selektion in der Ansicht Selektion an.
+Zeigt Details zur ausgewählten Person in der Ansicht **Firma** oder **Selektion**.
 
-> [!TIP]
-> Wenn Sie sich in der Ansicht Kalender befinden und ein Datum in einer anderen Woche des Kalenders auswählen, wird die entsprechende Woche angezeigt.
+Klicken Sie auf den Namen der Person, um ihre [Personenkarte][2] zu öffnen.
 
-## Benutzerdefinierte Anzeigen
+### Meine Favoriten
 
-Sie können in Einstellungen und Verwaltung auch Ihre eigenen Anzeigen für die Seitenleiste definieren.
+Zeigt alle Ihre [Favoriten][8].
+
+* Aktivieren Sie das Kontrollkästchen im Footer, um nach Ansicht zu filtern (z. B. **Nur Verkäufe** in der Verkaufsansicht).
+* Entfernen Sie Elemente, indem Sie sie auswählen und auf **Entfernen** klicken.
+* Klicken Sie auf <i class="ph ph-arrow-clockwise" aria-label="Aktualisieren"></i>, um die Liste zu aktualisieren.
+* Rechtsklicken Sie auf einen Favoriten, um das Kontextmenü zu öffnen.
+
+### Projekt
+
+Bietet eine schnelle Übersicht über das aktuelle Projekt in der Ansicht **Projekt**.
+
+### Projektmitglieder
+
+Listet Mitglieder des aktuellen Projekts in der Ansicht **Projekt**.
+
+Doppelklicken Sie auf den Namen eines Projektmitglieds, um ihre [Personenkarte][2] zu öffnen.
+
+### Verkauf
+
+Zeigt eine Zusammenfassung der Informationen zum aktuellen Verkauf in der Ansicht **Verkauf**.
+
+### Selektion
+
+Zusammenfassung der aktuellen Selektion in der Ansicht **Selektion**.
+
+### Selektionsmitglieder
+
+Listet Mitglieder der aktuellen Selektion in der Ansicht **Selektion**.
+
+## Benutzerdefinierte Ansichten
+
+Administratoren können benutzerdefinierte Ansichten für die Seitenleiste in **Einstellungen und Verwaltung** definieren, um das Panel an die Bedürfnisse Ihres Teams anzupassen.
+
+## FAQ und Tipps
+
+* Heften Sie häufig verwendete Seitenleisten für schnellen Zugriff oben in der Liste an, indem Sie auf das **Sternsymbol** klicken.
+
+    ![Beispiel der Seitenleiste mit angehefteten Favoriten -screenshot][img1]
+
+* Warum ist die Seitenleiste leer?
+
+  Wenn keine Person angegeben ist (z. B. in einer dynamischen Selektion ohne **Mit Hauptperson**), werden im Seitenleisten-Panel für Personen keine Informationen angezeigt.
+
+* Warum steht "Dokument geschlossen" in der Seitenleiste?
+
+  Dies ist normales Verhalten zur Optimierung der Systemressourcen bei Verwendung des InfoBridge-Dokument-Viewers. Um das Dokument erneut anzuzeigen, gehen Sie zurück zur Dokumentregisterkarte und wählen Sie es erneut aus. Erfahren Sie mehr in [diesem Supportartikel][11].
+
+* Wie kann ich die Seitenleiste effizient für den Verkauf nutzen?
+
+  Verwenden Sie sie, um Chancen zu verfolgen, überfällige Aufgaben zu überwachen und Verkaufsvorschläge nahtlos zu verfolgen, ohne die Hauptansicht zu verlassen. Detaillierte Schritte finden Sie unter [Seitenleiste für den Verkauf nutzen][10].
 
 <!-- Referenced links -->
 [1]: ../../basics/history.md
 [2]: ../../../contact/learn/create.md
-[4]: ../../../diary/learn/screen/index.md
+[4]: ../../../diary/learn/index.md
 [5]: ../../../document/learn/create.md#fields
 [6]: ../../../diary/learn/create-follow-up.md
-[7]: ../../../search-options/selection/learn/dynamic-selections.md
 [8]: ../../basics/fav.md
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
-[10]: ../../../sale/learn/use-side-panel.md
+[10]: ../../../sale/learn/index.md#side-panel
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-left.png
-[img2]: ../../../../media/icons/arrow-right.png
-[img3]: ../../../../../common/icons/dropdown-icon.png
-[img4]: ../../../../../common/icons/right-collapse.png
-[img7]: ../../../../media/icons/mini-card-level.png
-[img8]: ../../../../media/icons/mini-card-today.png
-[img9]: ../../../../media/icons/mini-card-selected.png
+[img1]: ../../../../media/loc/en/learn/pin-side-panel-favs.png
 [img10]: ../../../../media/loc/en/learn/getstarted-sidepanel-companypreview.png

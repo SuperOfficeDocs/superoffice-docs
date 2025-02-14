@@ -18,7 +18,7 @@ Eine Person, die Zugriff auf ein Kundenzentrum haben soll, benötigt für die An
 
 1. Öffnen Sie die Ansicht Person.
 
-1. Klicken Sie auf das ![Symbol][img1] **Aufgabe** und wählen Sie **Kundenzentrum-Benutzer verwalten** aus.
+1. Klicken Sie auf **Aufgabe** und wählen Sie **Kundenzentrum-Benutzer verwalten** aus.
 
 1. Klicken Sie auf **Passwort senden**.
 
@@ -30,8 +30,3 @@ Eine Person, die Zugriff auf ein Kundenzentrum haben soll, benötigt für die An
 
 > [!TIP]
 > Der Inhalt der Nachricht stammt aus einer installierten Systemvorlage. Diese finden Sie unter **Wissensdatenbank** > **Antwortvorlagen**.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/task.png

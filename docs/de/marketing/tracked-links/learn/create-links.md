@@ -24,7 +24,7 @@ Sie können neue Links auch während der Bearbeitung des Inhalts erstellen.
 
 2. Optional: Wählen Sie einen Ordner aus oder [erstellen Sie einen neuen Ordner][2].
 
-3. Klicken Sie auf das ![Symbol][img1] der Schaltfläche **Hinzufügen**.
+3. Klicken Sie auf der Schaltfläche **Hinzufügen**.
 
 4. Geben Sie einen aussagekräftigen **Namen** für den Link ein.
 
@@ -37,6 +37,3 @@ Ein kleiner Punkt auf den Registerkarten für Verknüpfungsaktionen gibt an, wel
 <!-- Referenced links -->
 [1]: define-link-actions.md
 [2]: ../../learn/create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-add.png

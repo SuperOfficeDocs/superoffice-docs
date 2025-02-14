@@ -1,0 +1,45 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Anfragetypen
+  topicHref: type/index.md
+  items:
+  - name: Überblick
+    href: type/index.md
+  - name: Anfragetyp erstellen
+    href: type/create.md
+  - name: Anfragetyp löschen
+    href: type/delete.md
+- name: Kategorien
+  topicHref: category/index.md
+  items:
+  - name: Überblick
+    href: category/index.md
+  - name: Anfragekategorie erstellen
+    href: category/create.md
+  - name: Anfragekategorie löschen
+    href: category/delete.md
+- name: Prioritäten
+  topicHref: priority/index.md
+  items:
+  - name: Überblick
+    href: priority/index.md
+  - name: Priorität erstellen
+    href: priority/create.md
+  - name: Prioritäten löschen
+    href: priority/delete.md
+  - name: Eskalationsstufen erstellen
+    href: priority/escalation-levels.md
+- name: Anfragestatus
+  topicHref: status/index.md
+  items:
+  - name: Überblick
+    href: status/index.md
+  - name: Anfragestatus erstellen
+    href: status/create.md
+  - name: Anfragestatus löschen
+    href: status/delete.md
+- name: Nächste Anfrage in der Warteschlange anzeigen
+  href: next-in-queue.md
+- name: Systemvorlagen
+  href: system-templates.md

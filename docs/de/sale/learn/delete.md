@@ -1,26 +1,5 @@
 ---
-uid: help-de-sale-delete
-title: Verkauf löschen
-description: Verkauf löschen
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: Verkauf
-topic: howto
-language: de
+uid: help-de-sale-delete-redirect
+date: 02.11.2025
+redirect_url: https://docs.superoffice.com/de/sale/learn/update.html#delete
 ---
-
-# Verkauf löschen
-
-Wenn ein Verkauf nicht länger in der Datenbank gespeichert werden soll, können Sie diesen löschen.
-
-1. Rufen Sie den gewünschten Verkauf auf.
-2. Klicken Sie auf die Schaltfläche **Aufgabe** (![Symbol][img1]).
-3. Wählen Sie **Löschen 'Verkaufsnamen'**.
-4. Bestätigen Sie den Löschvorgang des Verkaufs mit **Ja**.
-
-[!include[Deleting items](../../learn/includes/tip-deletion.md)]
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png

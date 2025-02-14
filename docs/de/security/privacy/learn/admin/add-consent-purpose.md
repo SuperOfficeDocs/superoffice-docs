@@ -18,7 +18,7 @@ Sehen Sie sich dieses Video an und lernen Sie, wie Sie Zwecke für die Verarbeit
 
 ## Schritte
 
-1. Gehen Sie zu Einstellungen und Verwaltung und klicken Sie auf die Schaltfläche **Datenschutz** im Navigator (![Symbol][img2]).
+1. Gehen Sie zu Einstellungen und Verwaltung und klicken Sie auf die Schaltfläche **Datenschutz** im Navigator (<i class="ph ph-shield" aria-hidden="true"></i>).
 
 2. Klicken Sie unter der Liste der Zwecke auf **Hinzufügen**.
 
@@ -45,7 +45,7 @@ Sehen Sie sich dieses Video an und lernen Sie, wie Sie Zwecke für die Verarbeit
         * Bestätigung, dass die Daten sicher gespeichert und nicht mit Dritten geteilt werden
         * Informationen über die Änderung und den Widerruf der Einwilligung zu jeder Zeit
 
-4. Klicken Sie auf ![Symbol][img1] neben einem Feld, um neue [Übersetzungen][1] der Feldtexte hinzuzufügen oder vorhandene zu bearbeiten.
+4. Klicken Sie auf <i class="ph ph-translate" aria-label="Translate"></i> neben einem Feld, um neue [Übersetzungen][1] der Feldtexte hinzuzufügen oder vorhandene zu bearbeiten.
 
 5. Klicken Sie, sobald Sie fertig sind, auf **Speichern**.
 
@@ -60,5 +60,3 @@ Sehen Sie sich dieses Video an und lernen Sie, wie Sie Zwecke für die Verarbeit
 [3]: ../index.md#source
 
 <!-- Referenced images -->
-[img1]: ../../../../../../common/icons/az.png
-[img2]: ../../../../../../common/icons/nav-admin-privacy-active.png

@@ -26,7 +26,7 @@ Automatisierung spart Zeit, die sonst für die Bearbeitung von Antworten aufgewe
 Sie können die gesammelten Informationen auf verschiedene Arten nutzen:
 
 * Generieren Sie eine Selektion basierend auf denen, die auf einen bestimmten Link geklickt haben, und senden Sie eine gezielte Antwort an diese Gruppe mit einer maßgeschneiderten Mitteilung.
-* Planen Sie Folgeaktivitäten für Ihre Teammitglieder, um persönlich mit den Respondenten zu interagieren.
+* Planen Sie Folgeaufgabeen für Ihre Teammitglieder, um persönlich mit den Respondenten zu interagieren.
 * Erstellen Sie Anfragen für Ihr Kundendienst-Team, um diese zu aufgreifen und zu untersuchen.
 
 ![Definieren Sie Ihre Linkaktionen -screenshot][img3]
@@ -86,7 +86,7 @@ Aktiviere diese Funktion, indem du **Folgeaufgabe** auswählst.
 > [!TIP]
 > Als Beschreibung geben Sie an, zu welcher Kampagne es gehört, welchen Link der Empfänger geklickt hat und möglicherweise, wie die Aufgabe bzw. die Besprechung weiterverfolgt werden soll.
 >
-> Bei der Einstellung von **Erstellt von** oder **Standardempfänger** können Sie auf die Schaltfläche **Aktiven Benutzer auswählen** ![Symbol][img1] klicken, um sich selbst auszuwählen.
+> Bei der Einstellung von **Erstellt von** oder **Standardempfänger** können Sie auf die Schaltfläche **Aktiven Benutzer auswählen** (<i class="ph ph-user-circle" aria-hidden="true"></i>) klicken, um sich selbst auszuwählen.
 
 ## <a id="request"></a>Anfrage
 
@@ -104,12 +104,11 @@ In dem Skript verfügbare Variablen sind custId, linkId, shipmentId, linkUrl, li
 
 <!-- Referenced links -->
 [1]: ../../forms/learn/tutorial-sign-up.md
-[3]: ../../../request/learn/howto/create.md
+[3]: ../../../request/learn/create.md
 [4]: ../../../diary/learn/create-follow-up.md
 [5]: ../../../custom-objects/learn/extra-field.md
 [6]: ../../../automation/crmscript/learn/create-script.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-contact.png
 [img3]: ../../../../media/loc/en/marketing/link-properties-follow-up.png
 [img4]: ../../../../media/icons/marketing-and-forms/side-panel-content-text.png

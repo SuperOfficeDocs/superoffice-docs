@@ -4,8 +4,8 @@ title: Bereichsregisterkarte Anfragen
 description: Erfahren Sie, wie Sie Serviceanfragen in SuperOffice CRM anzeigen, hinzufügen und verwalten können, um Kundeninteraktionen effizient über Firmen und Personen hinweg zu verfolgen.
 keywords: requests tab, section tab, request archive, ticket archive
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -65,7 +65,7 @@ Um eine Anfrage direkt aus der Bereichsregisterkarte **Anfragen** zu bearbeiten:
 
 1. Suchen Sie die Anfrage, die Sie bearbeiten möchten, und doppelklicken Sie darauf.
 
-1. Klicken Sie im sich öffnenden Fenster auf **Bearbeiten**, um die Anfrage zu aktualisieren.
+1. Klicken Sie im sich öffnenden Fenster auf **Bearbeiten** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>), um die Anfrage zu aktualisieren.
 
 ## Zusätzliche Tipps
 
@@ -79,8 +79,8 @@ Um eine Anfrage direkt aus der Bereichsregisterkarte **Anfragen** zu bearbeiten:
 
 <!-- Referenced links -->
 [1]: ../../request/learn/index.md
-[2]: ../../request/learn/howto/create.md
-[3]: ../../request/learn/howto/reply.md
+[2]: ../../request/learn/create.md
+[3]: ../../request/learn/reply.md
 [5]: configure-columns.md#calculate
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs

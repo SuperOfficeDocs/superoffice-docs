@@ -2,10 +2,13 @@
 uid: help-de-project-member-email
 title: E-Mail an Projektmitglieder senden
 description: Wie man E-Mail-Nachrichten an Beteiligte oder Projektmitglieder in SuperOffice senden
+keywords: E-Mail senden, Projektteilnehmer, Projektmitglieder, Projekt, Teilnehmer, Interessent, E-Mail, Mitglied, Beteiligte
 author: SuperOffice RnD
-date: 07.04.2022
-keywords: Projekt, Mitglied, Beteiligter, E-Mail
+date: 02.11.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 

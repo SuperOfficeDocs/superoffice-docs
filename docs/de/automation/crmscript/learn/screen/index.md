@@ -23,10 +23,10 @@ Diese Ansicht enthält die folgenden Optionen:
 
 | Option | Beschreibung |
 |---|---|
- Neues Skript | Wird verwendet, damit Sie ein [neues Skript erstellen][2] können. |
- Neues Makro | Wird verwendet, damit Sie ein [neues Makro erstellen][3] können. |
- Neuer Ordner | Wird verwendet, damit Sie einen [neuen Ordner erstellen][4] können. |
- Suche | Wird verwendet, um nach Makros und Skripten im ausgewählten Ordner und in Unterordnern zu suchen. |
+| Neues Skript | Wird verwendet, damit Sie ein [neues Skript erstellen][2] können. |
+| Neues Makro | Wird verwendet, damit Sie ein [neues Makro erstellen][3] können. |
+| Neuer Ordner | Wird verwendet, damit Sie einen [neuen Ordner erstellen][4] können. |
+| Suche | Wird verwendet, um nach Makros und Skripten im ausgewählten Ordner und in Unterordnern zu suchen. |
 
 ## Skript-Anzeige
 
@@ -36,11 +36,11 @@ Wenn Sie auf der Registerkarte **Makros und Skripts** auf ein Skript oder Makro 
 
 | Symbol | Option | Beschreibung |
 |---|---|---|
-| ![Symbol][img1] | Makros und Skripts | Wird verwendet, um zur Liste der Skripte und Makros zurückzukehren. |
-| ![Symbol][img3] | Skript bearbeiten | Wird verwendet, um das [Skript oder Makro][1] zu bearbeiten. |
-| ![Symbol][img5] | Skript ausführen | Wird verwendet, um das Skript oder Makro im Standardmodus auszuführen. |
-| ![Symbol][img6] | Skript debuggen | Wird verwendet, um die Ansicht **Debugger** zu öffnen und das ausgewählte Skript oder Makro im Debugmodus auszuführen. Das Skript stoppt in der ersten Zeile. Sie können eine [Sitzung debuggen][2] über die Registerkarte **Sitzungen debuggen** öffnen. |
-| ![Symbol][img4] | Skriptablauf verfolgen | Wird verwendet, um mit der [Ablaufverfolgung des Skripts oder Makros][3] zu starten. |
+| | Makros und Skripts | Wird verwendet, um zur Liste der Skripte und Makros zurückzukehren. |
+| <i class="ph ph-pencil-simple" aria-label="Edit"></i> | Skript bearbeiten | Wird verwendet, um das [Skript oder Makro][1] zu bearbeiten. |
+| <i class="ph ph-play" aria-label="Play"></i> | Skript ausführen | Wird verwendet, um das Skript oder Makro im Standardmodus auszuführen. |
+| <i class="ph ph-bug" aria-label="Bug"></i> | Skript debuggen | Wird verwendet, um die Ansicht **Debugger** zu öffnen und das ausgewählte Skript oder Makro im Debugmodus auszuführen. Das Skript stoppt in der ersten Zeile. Sie können eine [Sitzung debuggen][2] über die Registerkarte **Sitzungen debuggen** öffnen. |
+| | Skriptablauf verfolgen | Wird verwendet, um mit der [Ablaufverfolgung des Skripts oder Makros][3] zu starten. |
 
 <!-- Referenced links -->
 [1]: ../create-script.md
@@ -49,8 +49,3 @@ Wenn Sie auf der Registerkarte **Makros und Skripts** auf ein Skript oder Makro 
 [4]: ../create-folder.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-left.png
-[img3]: ../../../../../media/icons/edit.png
-[img4]: ../../../../../media/icons/btn-script-trace.png
-[img5]: ../../../../../media/icons/run-script.png
-[img6]: ../../../../../../common/icons/bug.png

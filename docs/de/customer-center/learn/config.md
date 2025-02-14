@@ -1,7 +1,7 @@
 ---
 uid: help-de-customer-center-config
 title: Kundenzentrum-Konfiguration
-description: "In dieser Anleitung lernen Sie, wie Sie Ihr Kundenzentrum konfigurieren."
+description: In dieser Anleitung lernen Sie, wie Sie Ihr Kundenzentrum konfigurieren.
 author: SuperOffice RnD
 date: 03.16.2023
 keywords: Service, Kundenzentrum, CEP
@@ -9,7 +9,7 @@ topic: howto
 language: de
 ---
 
-# Kundenzentrum konfigurieren
+# Kundenzentrum konfigurieren <i class="ph ph-question" aria-label="Question mark"></i>
 
 [!include[Requirement](../../learn/includes/req-cep.md)]
 
@@ -26,7 +26,7 @@ Wenn Ihr Kundenzentrum mehrsprachig ist, können Sie Optionen (wie Begrüßungst
 
 1. [!include[Go to](../../learn/includes/goto-sm.md)]
 
-1. Wählen Sie ![Symbol][img1] **Kundenzentrum** > **Konfigurieren** aus. Auf der Ansicht **Kundenzentrum** gibt es 2 Registerkarten: **Design** und **Optionen**. Oben auf dieser Seite finden Sie einen Link zu einer Vorschau der Kundenzentrum-Seite.
+1. Wählen Sie **Kundenzentrum** > **Konfigurieren** aus. Auf der Ansicht **Kundenzentrum** gibt es 2 Registerkarten: **Design** und **Optionen**. Oben auf dieser Seite finden Sie einen Link zu einer Vorschau der Kundenzentrum-Seite.
 
 1. Auf der Registerkarte **Design** können Sie verschiedene Einstellungen für Erscheinungsbild und Funktionsweise des Kundenzentrums bearbeiten: Logo, bevorzugte Breite, Farben und Schriften. Die Vorschau wird automatisch aktualisiert.
 
@@ -66,6 +66,5 @@ Wenn Ihr Kundenzentrum mehrsprachig ist, können Sie Optionen (wie Begrüßungst
 [1]: edit.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-admin-custcenter-active.png
 [img2]: ../../../media/loc/en/customer-center/customer-centre-chat-with-agents.jpg
 [img3]: ../../../media/loc/en/customer-center/config-cust-centre.png

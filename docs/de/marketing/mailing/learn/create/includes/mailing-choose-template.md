@@ -12,7 +12,7 @@ Nachdem Sie das gewünscht Design festgelegt haben, können Sie mit wenigen Klic
 
 1. Gehen Sie zum Auswählen einer Vorlage wie folgt vor:
     * Wählen Sie eine der verfügbaren Registerkarten (**Online-Vorlagenbibliothek**, **Neuere Vorlagen** oder **Alle Vorlagen** usw.), um sich alle verfügbaren Kampagnen oder Vorlagen anzeigen zu lassen, die Sie als Grundlage für Ihre neue Kampagne verwenden möchten.
-    * Geben Sie einen Suchbegriff in **Vorlagen durchsuchen** ein und drücken Sie die **EINGABE**-Taste oder klicken auf das Suche-Symbol ![Symbol][img1].
+    * Geben Sie einen Suchbegriff in **Vorlagen durchsuchen** ein und drücken Sie die **EINGABE**-Taste oder klicken auf <i class="ph ph-magnifying-glass" aria-label="Search icon"></i>.
 
 2. Klicken Sie in der nachstehenden Liste auf eine Vorlage, um diese auszuwählen.
 
@@ -25,5 +25,4 @@ Nachdem Sie das gewünscht Design festgelegt haben, können Sie mit wenigen Klic
 [1]: ../../../../learn/message-templates.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../../../common/icons/nav-search.png
 [img2]: ../../../../../../media/loc/en/marketing/work-with-templates.png

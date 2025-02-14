@@ -58,7 +58,7 @@ Aktivieren Sie diese Option, wenn die Benutzer dieses Feld bearbeiten müssen un
 
 ### Bestellung
 
-Klicken Sie auf die ![Symbol][img1] ![Symbol][img2] Pfeile, um die Position des Feldes auszuwählen. Diese Reihenfolge wird auch im Dialogfeld **Produkt hinzufügen/bearbeiten** verwendet.
+Klicken Sie auf <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i>, um die Position des Feldes auszuwählen. Diese Reihenfolge wird auch im Dialogfeld **Produkt hinzufügen/bearbeiten** verwendet.
 
 ## Zugehörige Inhalte
 
@@ -70,6 +70,4 @@ Klicken Sie auf die ![Symbol][img1] ![Symbol][img2] Pfeile, um die Position des 
 [2]: add-price-list.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../media/icons/arrow-down.png
-[img2]: ../../../../../media/icons/arrow-up.png
 [img3]: ../../../../../media/loc/en/quote/configure-products.png

@@ -17,7 +17,7 @@ audience_tooltip: SuperOffice CRM
 Das Verbinden Ihrer E-Mails, Dokumente und Ihres Kalenders mit SuperOffice hilft Ihnen, effizienter zu arbeiten und erleichtert die Zusammenarbeit mit Ihren Kollegen. Es ermöglicht Ihnen:
 
 * Teilen Sie alle Kommunikationen, die Sie mit Ihren Kunden und Kontakten haben, einschließlich E-Mails und Dateien, intern.
-* Verknüpfen Sie alle Ihre Nachverfolgungen in SuperOffice mit dem richtigen Person.
+* Verknüpfen Sie alle Ihre Folgeaufgaben in SuperOffice mit dem richtigen Person.
 * Bearbeiten Sie eingehende und ausgehende Einladungen.
 * Lassen Sie Ihre iCal-Ereignisse in Ihrem SuperOffice-Kalender anzeigen.
 
@@ -25,9 +25,9 @@ Das Verbinden Ihrer E-Mails, Dokumente und Ihres Kalenders mit SuperOffice hilft
 
 | | Anwendung | Beschreibung | Optionen |
 |-|---|---|---|
-| ![icon][img4] | **E-Mail** | Archivieren Sie eingehende und ausgehende E-Mails.| [WebTools][4] (nur Windows)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice für Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
-| ![icon][img5] | **Dokumente** | Archivieren Sie Dateien aus der Kommunikation mit Kunden und Kontakten. | SuperOffice-Dokumentenbibliothek ([WebTools][4] (Windows) / [WebTools für Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
-| ![icon][img6] | **Kalender** | Einladungen senden und empfangen. | [SuperOffice Inbox][6]<br/> [Synchronizer für SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools für Mac][5]|
+| <i class="ph ph-at" aria-hidden="true"></i> | **E-Mail** | Archivieren Sie eingehende und ausgehende E-Mails.| [WebTools][4] (nur Windows)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice für Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
+| <i class="ph ph-files" aria-hidden="true"></i> | **Dokumente** | Archivieren Sie Dateien aus der Kommunikation mit Kunden und Kontakten. | SuperOffice-Dokumentenbibliothek ([WebTools][4] (Windows) / [WebTools für Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
+| <i class="ph ph-calendar" aria-hidden="true"></i> | **Kalender** | Einladungen senden und empfangen. | [SuperOffice Inbox][6]<br/> [Synchronizer für SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools für Mac][5]|
 
 ## Welche Lösung verwendet Ihr Unternehmen?
 
@@ -75,6 +75,3 @@ Die benötigten Integrationen hängen von Ihrem Betriebssystem, Ihrem E-Mail-Cli
 [img1]: ../../../../media/loc/en/learn/diary-notification.png
 [img2]: ../../../../media/loc/en/learn/inbox-invitation.png
 [img3]: ../../../../media/loc/en/learn/outlook-archive-mail-superoffice-for-outlook.png
-[img4]: ../../../../../common/icons/email.png
-[img5]: ../../../../../common/icons/document.png
-[img6]: ../../../../../common/icons/nav-diary.png

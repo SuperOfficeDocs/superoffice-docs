@@ -2,11 +2,12 @@
 uid: help-de-document-update
 title: Dokumente bearbeiten
 description: Dokumente bearbeiten
-keywords: Dokument
+keywords: Dokument bearbeiten, Dokumenteigenschaften, Dokument
 author: Bergfrid Dias
-date: 10.08.2024
-version: 10.3.10
+date: 02.11.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
@@ -123,7 +124,7 @@ Die Dialogbox sieht in Chrome, Edge, Firefox und Safari etwas anders aus.
 
 Beim Anzeigen eines bestimmten Dokuments:
 
-1. Klicken Sie auf die Schaltfläche **Aufgabe** im **Dokument**-Dialog.
+1. Klicken Sie auf die Schaltfläche **Aufgabe** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) im **Dokument**-Dialog.
 2. Wählen Sie **Löschen**.
 3. Bestätigen oder abbrechen Sie die Löschung im Bestätigungsdialog.
 

@@ -30,7 +30,7 @@ language: de
 
 6. Klicken Sie auf **Speichern**. Das Objekt wird zur Liste **Objekte** hinzugefügt. Wiederholen Sie diesen Vorgang, wenn Sie weitere Objekte hinzufügen möchten.
 
-Die Objekte werden in der Reihenfolge angezeigt, in der Sie sie eingegeben haben. Wenn Sie die Reihenfolge ändern möchten, wählen Sie das gewünschte Objekt aus und verschieben Sie es mit den Pfeiltasten unter der Liste ( ![Symbol][img3] ![Symbol][img4] ) nach oben oder unten.
+Die Objekte werden in der Reihenfolge angezeigt, in der Sie sie eingegeben haben. Wenn Sie die Reihenfolge ändern möchten, wählen Sie das gewünschte Objekt aus und verschieben Sie es mit den Pfeiltasten unter der Liste (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>) nach oben oder unten.
 
 Nachdem dem Hinzufügen von Objekten können Sie für jedes einzelne Objekt Details festlegen. Sie können die [Benutzergruppen, für die das Objekt sichtbar ist][2], festlegen und unter welchen [Überschriften][3] es angezeigt wird.
 
@@ -38,7 +38,3 @@ Nachdem dem Hinzufügen von Objekten können Sie für jedes einzelne Objekt Deta
 [1]: specialized-lists.md
 [2]: organize/user-group-filtering.md
 [3]: organize/headings.md
-
-<!-- Referenced images -->
-[img3]: ../../../../media/icons/arrow-up.png
-[img4]: ../../../../media/icons/arrow-down.png

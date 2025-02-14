@@ -20,7 +20,7 @@ language: de
     > [!NOTE]
     > [!include[Mandatory](includes/note-mandatory-field.md)]
 
-2. Klicken Sie auf das ![Symbol][img1] Pfeil neben dem Feld **Typ** und wählen Sie den gewünschten Typ der Folgeaufgabe vom Listenfeld aus.
+2. Klicken Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i> neben dem Feld **Typ** und wählen Sie den gewünschten Typ der Folgeaufgabe vom Listenfeld aus.
 
 3. Legen Sie im Feld **Richtung** fest, ob die Folgeaufgabe ein- oder ausgehend ist, indem Sie auf den Pfeil klicken und vom Listenfeld eine Option auswählen.
 
@@ -43,4 +43,3 @@ language: de
 [2]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-down.png

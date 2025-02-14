@@ -2,10 +2,10 @@
 uid: help-de-project-member-add
 title: Projektmitglied hinzufügen
 description: Wie man ein Projektmitglied in SuperOffice hinzufügt
-keywords: Projekt, Mitglied
+keywords: Projektteilnehmer hinzufügen, Teilnehmer, Projektteilnehmer, Projektmitglied, Funktionen zuweisen, Projekt Mitglied
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -32,11 +32,11 @@ Beim Hinzufügen von Mitgliedern zu einem Projekt können Sie Funktionen individ
 
       ![Dialog Projektmitglieder hinzufügen/bearbeiten, Verlauf -screenshot][img5]
 
-    * **Benutzergruppe**: Klicken Sie auf ![Symbol][img2], um Mitarbeiter nach Gruppe zu durchsuchen.
+    * **Benutzergruppe**: Klicken Sie auf <i class="ph ph-users" aria-label="Associate icon"></i>, um Mitarbeiter nach Gruppe zu durchsuchen.
 
       ![Dialog Projektmitglieder hinzufügen/bearbeiten, Gruppe -screenshot][img6]
 
-    * **Firma**: Klicken Sie auf ![Symbol][img3], um Persone innerhalb einer Firma zu durchsuchen oder eine Firma als Mitglied hinzuzufügen.
+    * **Firma**: Klicken Sie auf <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i>, um Persone innerhalb einer Firma zu durchsuchen oder eine Firma als Mitglied hinzuzufügen.
 
       ![Dialog Projektmitglieder hinzufügen/bearbeiten, Firma -screenshot][img7]
 
@@ -79,7 +79,7 @@ Sie können Projektmitglieder und Beteiligte aus den Personenlisten der verschie
 
 * **Kommentare hinzufügen**
 
-    Wenn ein Kommentar hinzugefügt wurde, erscheint ein ![Symbol][img1] Büroklammer-Symbol neben der Spalte **Information zum Projektmitglied** auf der Bereichsregisterkarte **Projektmitglieder**. Bewegen Sie den Mauszeiger über die Büroklammer, um den Kommentar-Tooltip anzuzeigen.
+    Wenn ein Kommentar hinzugefügt wurde, erscheint ein Büroklammer-Symbol (<i class="ph ph-paperclip" aria-hidden="true"></i>) neben der Spalte **Information zum Projektmitglied** auf der Bereichsregisterkarte **Projektmitglieder**. Bewegen Sie den Mauszeiger über die Büroklammer, um den Kommentar-Tooltip anzuzeigen.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
@@ -87,9 +87,6 @@ Sie können Projektmitglieder und Beteiligte aus den Personenlisten der verschie
 [5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../../common/icons/associate-group.png
-[img3]: ../../../../../common/icons/singlecolour/contact.png
 [img5]: ../../../../media/loc/en/project/add-project-member-from-history.png
 [img6]: ../../../../media/loc/en/project/add-project-member-from-group.png
 [img7]: ../../../../media/loc/en/project/add-project-member-from-company.png

@@ -2,7 +2,7 @@
 uid: help-de-video-meetings
 title: Mit Videokonferenzen arbeiten
 description: Lernen Sie hier, wie Sie eine Videokonferenz in SuperOffice erstellen und daran teilnehmen können.
-keywords: Kalender, Folgeaufgabe, Besprechung, Videokonferenz, Einladung
+keywords: Kalender, Folgeaufgabe, Besprechung, Videokonferenz, Einladung, Videokonferenzanbieter
 author: SuperOffice RnD
 date: 12.10.2024
 version: 10.2.11
@@ -10,7 +10,7 @@ topic: howto
 language: de
 ---
 
-# Mit Videokonferenzen arbeiten
+# Mit Videokonferenzen arbeiten <i class="ph ph-video-camera" aria-hidden="true"></i>
 
 Mit SuperOffice-Videokonferenzen können Sie Videokonferenzen direkt von Ihrem Kalender planen und an solchen teilnehmen. Sehen wir uns an, wie Sie eine Videokonferenz einrichten können.
 
@@ -27,21 +27,23 @@ Mit SuperOffice-Videokonferenzen können Sie Videokonferenzen direkt von Ihrem K
 
 ## Videokonferenz erstellen
 
-Sie können ganz einfach eine Videokonferenz einrichten, wenn Sie eine Folgeaufgabe erstellen. Sehen Sie sich dieses Video an, um zu lernen, wie man eine Videokonferenz erstellt, oder befolgen Sie die folgenden Schritte (Videolänge – 1:09):
+Sie können ganz einfach eine Videokonferenz einrichten, wenn Sie eine Folgeaufgabe erstellen. Sehen Sie sich dieses Video an, um zu lernen, wie man eine Videokonferenz erstellt, oder befolgen Sie die folgenden Schritte:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/WuTqnDPx17Q]
 
+(Videolänge – 1:09)
+
 ### Schritte
 
-1. Erstellen Sie einen neuen Termin und wählen Sie den Namen der Firma und der Person aus, mit der Sie sprechen wollen.
+1. Erstellen Sie einen neuen Besprechung und wählen Sie den Namen der Firma und der Person aus, mit der Sie sprechen wollen.
 
-2. Um die URL für Videokonferenzen zu erstellen, müssen Sie auf das Symbol Videokonferenz ![Symbol][img1] klicken. Das Symbol wechselt zu ![Symbol][img2] und es wird ein Videokonferenzlink hinzugefügt. SuperOffice CRM erstellt und fügt die Videokonferenz-URL für den von Ihnen verwendeten Videoanbieter hinzu.
+2. Um die URL für Videokonferenzen zu erstellen, müssen Sie auf <i class="ph ph-video-camera" aria-label="Camera icon"></i> klicken. Das Symbol wechselt Farbe und es wird ein Videokonferenzlink hinzugefügt. SuperOffice CRM erstellt und fügt die Videokonferenz-URL für den von Ihnen verwendeten Videoanbieter hinzu.
 
     ![Klicken Sie auf das Symbol Videokonferenz, um die URL für die Videokonferenz zu erstellen -screenshot][img5]
 
     > [!NOTE]
-    > Wenn Sie zum ersten Mal das Videosymbol ![Symbol][img1] auswählen, müssen Sie sich einloggen, um sich als Benutzer in dem von Ihrem Administrator definierten Videokonferenzservice zu authentifizieren.
+    > Wenn Sie zum ersten Mal das Videosymbol auswählen, müssen Sie sich einloggen, um sich als Benutzer in dem von Ihrem Administrator definierten Videokonferenzservice zu authentifizieren.
     >
     > Wenn das Symbol nicht angezeigt wird, wurde die Videokonferenzfunktion noch nicht konfiguriert. Wenden Sie sich an Ihren SuperOffice-Administrator, der die Verbindung zwischen Funktion und Videoanbieter einrichten kann.
 
@@ -51,10 +53,10 @@ Sie können ganz einfach eine Videokonferenz einrichten, wenn Sie eine Folgeaufg
 
     Wenn Sie alle gewünschten Teilnehmer an der Besprechung hinzugefügt haben, klicken Sie auf **Speichern**.
 
-    Wenn Sie E-Mail-Einladungen für die Teilnehmer der Folgeaufgabe aktiviert haben, wird beim Speichern des Termins eine E-Mail mit einem Link zur Teilnahme an der Videokonferenz gesendet. Im Kalender werden Folgeaufgaben mit Videokonferenzen mit dem ![Symbol][img3] angezeigt.
+    Wenn Sie E-Mail-Einladungen für die Teilnehmer der Folgeaufgabe aktiviert haben, wird beim Speichern des Termins eine E-Mail mit einem Link zur Teilnahme an der Videokonferenz gesendet. Im Kalender werden Folgeaufgaben mit Videokonferenzen mit <i class="ph ph-video-camera" aria-label="Camera icon"></i> angezeigt.
 
 > [!TIP]
-> Klicken Sie auf das ![Symbol][img4], um den Link für die Videokonferenz zu kopieren. Sie können dann den Link in die Agenda / die Beschreibung des Termins einfügen oder per Direktnachricht an andere senden. Verwenden Sie die Vorlagenvariable {burl}, um den Videokonferenzen-Link zu Einladungsvorlagen hinzuzufügen.
+> Klicken Sie auf <i class="ph ph-copy" aria-label="Copy"></i>, um den Link für die Videokonferenz zu kopieren. Sie können dann den Link in die Agenda / die Beschreibung des Termins einfügen oder per Direktnachricht an andere senden. Verwenden Sie die Vorlagenvariable {burl}, um den Videokonferenzen-Link zu Einladungsvorlagen hinzuzufügen.
 
 ## An Videokonferenzen teilnehmen
 
@@ -65,10 +67,12 @@ Sie können auf verschiedene Weisen an einer Videokonferenz in SuperOffice teiln
 * Klicken Sie auf eine Browserbenachrichtigung (nur verfügbar, wenn die Option **Alarm** aktiviert wurde).
 * Klicken Sie mit der rechten Maustaste auf eine Videokonferenz im Kalender und wählen Sie **An Konferenz teilnehmen**.
 
-Sehen Sie sich dieses Video an oder führen Sie die folgenden Schritte aus (Videolänge - 1:11):
+Sehen Sie sich dieses Video an oder führen Sie die folgenden Schritte aus:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/uee_XO1kwTc]
+
+(Videolänge - 1:11)
 
 ### Schritte
 
@@ -94,8 +98,4 @@ Um über die Anzeige Vorschau an der Videokonferenz teilzunehmen, müssen Sie nu
 [2]: invitation/add-attendee.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/videocall-off.png
-[img2]: ../../../../common/icons/videocall.png
-[img3]: ../../../../common/icons/diary-videocall.png
-[img4]: ../../../../common/icons/diary-copy.png
 [img5]: ../../../media/loc/en/diary/follow-up-video-meeting.png

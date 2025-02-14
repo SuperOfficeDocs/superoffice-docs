@@ -32,14 +32,14 @@ Wenn Sie in der Ansicht Listen ein Objekt in einer Liste angeben, können Sie zu
 
 5. Wählen Sie in der Liste **Sichtbar für Benutzergruppen** eine Benutzergruppe aus. Hier werden alle Benutzergruppen des Unternehmens angezeigt. Klicken Sie auf das Kontrollkästchen neben der gewünschten Benutzergruppe, um festzulegen, dass das Objekt für diese Gruppe sichtbar sein soll.
 
-    Das Kontrollkästchen wird mit einem Häkchen (![Symbol][img2]) markiert.
+    Das Kontrollkästchen wird mit einem Häkchen (<i class="ph ph-check" aria-hidden="true"></i>) markiert.
 
 6. Wiederholen Sie die Schritte 4 und 5 für jedes Objekt, das für bestimmte Benutzergruppen sichtbar sein soll.
 
 > [!NOTE]
 > Wenn Sie ein Objekt zur Liste **Objekte** hinzufügen, ist es automatisch für all diejenigen Benutzergruppen sichtbar, die unter **Sichtbar für Benutzergruppen** aufgeführt sind. Sie können gegebenenfalls die Häkchen für diejenigen Benutzergruppen entfernen, für die die Objekte nicht sichtbar sein sollen.
 
-Sie können mehrere Benutzergruppen für ein Objekt auswählen. Klicken Sie auf **Alles markieren** (![Symbol][img1]), um alle Gruppen auszuwählen, oder auf **Alle Mark. aufheben** (![Symbol][img3]), um alle Selektionen zu entfernen.
+Sie können mehrere Benutzergruppen für ein Objekt auswählen. Klicken Sie auf **Alles markieren** (<i class="ph ph-check-circle" aria-hidden="true"></i>), um alle Gruppen auszuwählen, oder auf **Alle Mark. aufheben** (<i class="ph ph-minus-circle" aria-hidden="true"></i>), um alle Selektionen zu entfernen.
 
 ## Objekte für eine Benutzergruppe festlegen
 
@@ -69,8 +69,3 @@ Sie können auch verfügbare Objekte für eine Benutzergruppe angeben:
 <!-- Referenced links -->
 [1]: headings.md
 [2]: ../../../user-management/learn/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/select-all.png
-[img2]: ../../../../../media/icons/btn-selected.png
-[img3]: ../../../../../media/icons/unselect-all.png

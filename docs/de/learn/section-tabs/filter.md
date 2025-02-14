@@ -4,8 +4,8 @@ title: Bereichsregisterkarten filtern
 description: Wie man Filter in den Bereichsregisterkarten verwendet.
 keywords: Bereichsregisterkarte, Filtern
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -24,18 +24,19 @@ Filter sind persönlich. Die von Ihnen verwendeten Filter sind nur für Sie sich
 
 Mehrere Filter können gleichzeitig aktiv sein. Wenn auf einer Bereichsregisterkarte nicht die erwarteten Datensätze angezeigt werden, prüfen Sie Ihre Filtereinstellungen.
 
-Lernen Sie in diesem kurzen Video, wie Sie durch die Konfiguration von Spalten Ansichten anpassen können oder lesen Sie die folgenden Anweisungen (Videolänge - 2:10):
+Lernen Sie in diesem kurzen Video, wie Sie durch die Konfiguration von Spalten Ansichten anpassen können oder lesen Sie die folgenden :
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/HYYI4ZCl4S4]
+
+(Videolänge - 2:10)
 
 ## Optionen
 
 | Option | Beschreibung |
 |---|---|
-| ![Symbol][img2] (das Filtersymbol) | Sie können die Bereichsregisterkarten Aktivitäten und Verkäufe nach Datum, Benutzer und Gruppen filtern. |
+| <i class="ph ph-funnel" aria-label="Filter icon"></i> | Sie können die Bereichsregisterkarten Aktivitäten und Verkäufe nach Datum, Benutzer und Gruppen filtern. Klicken Sie auf das Fülltrichter-Symbol in einer Spaltenüberschrift, um nach dieser Spalte zu filtern. |
 | Filter für Aktivitäten (Kontrollkästchen) | Sie können Aktivitäten nach Typ filtern (vordefinierte Filter). Klicken Sie auf den Pfeil und wählen Sie tun möchten. |
-| ![Symbol][img3] (Spaltenfilter) | Klicken Sie auf das Fülltrichter-Symbol in einer Spaltenüberschrift, um nach dieser Spalte zu filtern. |
 
 > [!NOTE]
 > Der Spaltenfilter ist nicht in allen Bereichsregisterkarten verfügbar. Nicht alle Spalten können gefiltert werden.
@@ -46,7 +47,7 @@ Lernen Sie in diesem kurzen Video, wie Sie durch die Konfiguration von Spalten A
 
 2. Klicken Sie auf die Bereichsregisterkarte **Aktivitäten** oder **Verkäufe**.
 
-3. Klicken Sie auf das Filtersymbol ![Symbol][img2].
+3. Klicken Sie auf <i class="ph ph-funnel" aria-label="Filter icon"></i>.
 
 4. Geben Sie im Feld **Von** an, ab welchem Datum Aktivitäten oder Verkäufe angezeigt werden sollen.
 
@@ -67,13 +68,13 @@ Lernen Sie in diesem kurzen Video, wie Sie durch die Konfiguration von Spalten A
 7. Klicken Sie auf **OK**. Auf den Registerkarten werden alle Aktivitäten oder Verkäufe angezeigt, die den von Ihnen festgelegten Kriterien entsprechen.
 
 > [!TIP]
-> Zeigen Sie mit dem Mauszeiger auf die Schaltfläche ![Filter][img2], um die aktiven Filtereinstellungen einzublenden.
+> Zeigen Sie mit dem Mauszeiger auf die Filter-Schaltfläche, um die aktiven Filtereinstellungen einzublenden.
 >
 > Klicken Sie auf **Anzahl anzeigen** unten rechts auf der Bereichsregisterkarte, um die Anzahl der angezeigten Datensätze einzublenden. Die Anzahl hängt von den aktiven Filtern ab.
 
 ## Spaltenfilter aktivieren
 
-1. Klicken Sie auf das ![Symbol][img1] rechts neben den Spaltenüberschriften und wählen Sie **Filter aktivieren** aus.
+1. Klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> rechts neben den Spaltenüberschriften und wählen Sie **Filter aktivieren** aus.
 
     ![Klicken Sie auf die Schaltfläche Einstellungen in dem von Ihnen ausgewählten Archiv. -screenshot][img11]
 
@@ -97,13 +98,9 @@ Jetzt befindet sich hinter allen Spalten in Ihrem Archiv ein Trichtersymbol.
 
     Wenn Sie zum Beispiel nach einem Dokument suchen, das von einem Ihrer Kollegen erstellt wurde, müssen Sie seinen Namen und die Art des gesuchten Dokuments auswählen.
 
-    ![Klicken Sie auf Filter, um das Dokument festzulegen und das gefilterte Archiv anzuzeigen -screenshot][img13]
-
 1. Klicken Sie auf **Filter**. Der Inhalt der Bereichsregisterkarte wird aktualisiert und die Datensätze, die dem Filter entsprechen, werden angezeigt. Gefilterte Spalten werden in Fettschrift angezeigt.
 
 1. Gehen Sie erneut wie im ersten Schritt erläutert vor, wenn Sie anhand einer zweiten Spalte filtern möchten.
-
-    ![Siehe das Archiv mit weniger Entitäten.-screenshot][img14]
 
 ## Filter entfernen
 
@@ -113,9 +110,20 @@ Jetzt befindet sich hinter allen Spalten in Ihrem Archiv ein Trichtersymbol.
 
 ## Spaltenfilter zurücksetzen
 
-Klicken Sie auf ![Symbol][img2] und **Zurücksetzen**, um den Filter zurückzusetzen.
+Klicken Sie auf <i class="ph ph-funnel" aria-label="Filter icon"></i> und **Zurücksetzen**, um den Filter zurückzusetzen.
 
-## Verwandte Themen
+## Fehlerbehebung
+
+* **Ich sehe das Trichtersymbol nicht:**
+    Stellen Sie sicher, dass Spaltenfilter aktiviert sind. Klicken Sie auf das <i class="ph ph-gear" aria-label="Zahnrad"></i>-Symbol neben den Spaltenüberschriften und wählen Sie **Filter aktivieren**.
+
+* **Die erwarteten Einträge werden nicht angezeigt:**
+    Überprüfen Sie Ihre aktiven Filter, indem Sie den Mauszeiger über das Trichtersymbol bewegen, oder überprüfen Sie die Filtereinstellungen für jede Spalte. Setzen Sie die Filter bei Bedarf zurück, indem Sie auf **Zurücksetzen** klicken.
+
+* **Ich sehe die benötigte Spalte nicht:**
+    Klicken Sie auf das <i class="ph ph-gear" aria-label="Zahnrad"></i>-Symbol neben den Spaltenüberschriften und überprüfen Sie **Ausgewählte Spalten**. Fügen Sie die fehlende Spalte hinzu, indem Sie sie aus der Liste auswählen.
+
+## Verwandte Inhalte
 
 * [Listen gruppieren][1]
 * [Liste der Selektionsmitglieder filtern][2]
@@ -125,11 +133,5 @@ Klicken Sie auf ![Symbol][img2] und **Zurücksetzen**, um den Filter zurückzuse
 [2]: ../../search-options/selection/learn/screen/index.md#filter
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
-[img2]: ../../../../common/icons/filter-icon.png
-[img3]: ../../../media/icons/filter-column.png
-
 [img11]: ../../../media/loc/en/learn/archives-enable-filter.png
 [img12]: ../../../media/loc/en/learn/getstarted-archives-filteron.png
-[img13]: ../../../media/loc/en/learn/getstarted-archives-filter-ownersetting.png
-[img14]: ../../../media/loc/en/learn/getstarted-archives-filter-owner.png

@@ -2,10 +2,13 @@
 uid: help-de-project-member-invite
 title: Projektmitglieder zu einer Besprechung einladen
 description: Wie man ein Projektmitglied zu einer Besprechung in SuperOffice einlädt
+keywords: Besprechung anfordern, Meeting anfordern, Projektteilnehmer einladen, Projektteilnehmer, Teilnehmer, Folgeaufgabe, Projekt, Mitglied, Einladen
 author: SuperOffice RnD
-date: 07.04.2022
-keywords: Projekt, Mitglied, Einladen, Folgeaufgabe
+date: 02.11.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 

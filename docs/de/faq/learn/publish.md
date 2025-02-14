@@ -16,7 +16,7 @@ language: de
 Wenn ein Bearbeiter die Funktion [Vorschlag für einen FAQ-Eintrag erstellen][1] ausführt, wird der Eintrag nicht veröffentlicht und ist im SuperOffice Kundenzentrum nicht verfügbar. Um den Eintrag verfügbar zu machen, muss es von einer Person mit FAQ-Administrationsrechten veröffentlicht werden.
 
 1. Wenn Sie sich anmelden, werden nicht veröffentlichte FAQ-Einträge im Dashboard auf der Kachel **Status** unter **Unveröffentlichte FAQ-Einträge** angezeigt.
-1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
+1. Gehen Sie zum <i class="ph ph-list" aria-label="Main menu"></i> in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
 1. Klicken Sie auf den gewünschten Eintrag.
 1. Klicken Sie in der Ansicht **FAQ-Eintrag** auf **Eintrag bearbeiten**.
 1. Wählen Sie in der Anzeige **Eigenschaften des FAQ-Eintrags** die Registerkarten **Frage** und **Antwort** aus und lesen Sie die Frage und die Antwort durch.
@@ -39,6 +39,3 @@ Wenn ein Bearbeiter die Funktion [Vorschlag für einen FAQ-Eintrag erstellen][1]
 [2]: ../../request/learn/index.md
 [3]: workflow.md
 [4]: ../../admin/options/learn/custlang/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

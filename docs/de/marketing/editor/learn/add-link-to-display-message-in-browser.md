@@ -22,13 +22,8 @@ Wenn der Empfänger Probleme mit der Anzeige der Mitteilung in seinem E-Mail-Pro
 
 2. Geben Sie den Text ein oder wählen Sie einen Text, worauf der Empfänger klicken soll, z. B. "Klicken Sie hier, um diese Nachricht in einem Browser anzuzeigen".
 
-3. Klicken Sie in der Werkzeugleiste auf die Schaltfläche **Link einfügen/bearbeiten** ![Symbol][img1].
+3. Klicken Sie in der Werkzeugleiste auf die Schaltfläche **Link einfügen/bearbeiten** (<i class="ph ph-link" aria-hidden="true"></i>).
 
 4. Klicken Sie auf **Besondere Links** und wählen **Link für die Anzeige der Nachricht im Internet**.
 
 5. Klicken Sie auf **Speichern**. Der Link wird in die Nachricht eingefügt.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/link.png

@@ -17,7 +17,7 @@ In einer neuen Installation enthält der Workflow zwei Standardstufen: **Unverö
 
 ## Neue Stufe erstellen
 
-1. Gehen Sie zum ![Symbol][img4] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
+1. Gehen Sie zum <i class="ph ph-list" aria-label="Main menu"></i> in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
 1. Klicken Sie auf die Schaltfläche **Workflow**. Sie gelangen zur Ansicht **Workflow anzeigen**.
 1. Klicken Sie auf die Schaltfläche **Neue Stufe**. Sie gelangen zur Ansicht **Neue Stufe**.
 1. Geben Sie einen aussagekräftigen Namen für die Stufe in das Feld **Name** ein.
@@ -28,7 +28,7 @@ In einer neuen Installation enthält der Workflow zwei Standardstufen: **Unverö
     * **Kann verschieben**: Dem Benutzer ist es gestattet, die Workflowstufe für Einträge zu ändern (Einträge zu veröffentlichen oder die Veröffentlichung abzubrechen).
     * **Kann bearbeiten**: Dem Benutzer ist es gestattet, FAQ-Einträge zu bearbeiten.
     * **Uneingeschränkter Zugriff**: Der Benutzer verfügt bezüglich des Workflows über alle Rechte.
-1. Klicken Sie auf ![Symbol][img3] **Hinzufügen**, um den Benutzer der Liste unter **Benutzerzugriff** hinzuzufügen.
+1. Klicken Sie auf **+**, um den Benutzer der Liste unter **Benutzerzugriff** hinzuzufügen.
 1. Wiederholen Sie die Schritte 7-9, um weitere Benutzer hinzuzufügen.
 1. Klicken Sie auf **OK**. Die Stufe wird erstellt und ist nun bei der Veröffentlichung von FAQ-Einträgen verfügbar.
 
@@ -36,19 +36,19 @@ In einer neuen Installation enthält der Workflow zwei Standardstufen: **Unverö
 
 Sie können sowohl den Namen einer Stufe ändern als auch die Einstellung, welche Benutzer Zugriff darauf haben sollen.
 
-1. Gehen Sie zum ![Symbol][img4] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
+1. Gehen Sie zum <i class="ph ph-list" aria-label="Main menu"></i> in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
 1. Klicken Sie auf die Schaltfläche **Workflow**.
 1. Klicken Sie auf den Namen der Stufe. Sie gelangen zur Ansicht **Stufe bearbeiten**.
 1. Bearbeiten Sie den Namen nach Bedarf.
 1. Ändern Sie die Einstellung, welche Benutzer Zugriff auf die Stufe haben sollen:
     * Um Benutzer hinzuzufügen, befolgen Sie die oben aufgeführten Schritte.
-    * Um Benutzer zu entfernen, wählen Sie die betreffenden Benutzer aus, klicken Sie auf das ![Symbol][img1] der Schaltfläche **Aktionen** und wählen Sie **Zugriff für ausgewählte Benutzer entfernen** aus.
+    * Um Benutzer zu entfernen, wählen Sie die betreffenden Benutzer aus, klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **Zugriff für ausgewählte Benutzer entfernen** aus.
 1. Klicken Sie auf **OK**. Die Änderungen werden gespeichert.
 
 ## Stufe löschen
 
-1. Gehen Sie zum ![Symbol][img4] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
-1. Klicken Sie auf das ![Symbol][img2] der Schaltfläche **Workflow**.
+1. Gehen Sie zum <i class="ph ph-list" aria-label="Main menu"></i> in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
+1. Klicken Sie auf der Schaltfläche **Workflow** (<i class="ph ph-gear" aria-hidden="true"></i>).
 1. Klicken Sie auf den Namen der Stufe. Sie gelangen zur Ansicht **Stufe bearbeiten**.
 1. Klicken Sie auf **Löschen**. Wenn diese Stufe keinem FAQ-Eintrag zugeordnet ist, wird sie sofort gelöscht.
 
@@ -72,7 +72,3 @@ Sie können sowohl den Namen einer Stufe ändern als auch die Einstellung, welch
 [2]: publish.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../../common/icons/gearblack.png
-[img3]: ../../../media/icons/btn-add.png
-[img4]: ../../../media/icons/main-menu.png

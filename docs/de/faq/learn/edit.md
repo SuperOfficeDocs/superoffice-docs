@@ -13,7 +13,7 @@ language: de
 
 # FAQ-Einträge bearbeiten
 
-1. Gehen Sie zum ![Symbol][img1] **Hauptmenü** in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
+1. Gehen Sie zum <i class="ph ph-list" aria-label="Main menu"></i> in der oberen Leiste und wählen Sie **Wissensdatenbank** > **FAQ** aus.
 1. Wechseln Sie zu dem Ordner, in dem sich der FAQ-Eintrag befindet.
 1. Klicken Sie auf den gewünschten FAQ-Eintrag.
 1. Klicken Sie in der Ansicht **FAQ-Eintrag** auf **Eintrag bearbeiten**.
@@ -25,6 +25,3 @@ language: de
 
 <!-- Referenced links -->
 [1]: create.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu.png

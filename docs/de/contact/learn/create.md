@@ -1,106 +1,190 @@
 ---
 uid: help-de-contact-create
-title: Person erstellen
-description: Wie man eine Person in SuperOffice erstellt.
-author: SuperOffice RnD
-date: 11.29.2024
-keywords: person, Person
+title: Neue Person erstellen
+description: So erstellen Sie eine neue Person in SuperOffice.
+keywords: Person erstellen, Interessen hinzufügen, Registerkarte Interessen, Kontaktbild, bevorzugte Sprache, Rechtsgrundlage, Person, Kontaktperson
+author: Bergfrid Dias
+date: 02.11.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # Neue Person erstellen
 
-Es gibt viele Möglichkeiten, wie Sie Personen zu SuperOffice CRM hinzufügen können:
+Sie können eine Person in SuperOffice CRM auf verschiedene Weise hinzufügen:
 
-* Fügen Sie eine Person von der oberen Leiste **oder** der Anzeige Firma hinzu - siehe Schritte unten.
+* Über die obere Leiste oder die Ansicht Firma (siehe unten).
 * [Scannen Sie eine Branchenkarte][1] mit der SuperOffice Mobile CRM-App.
-* [Massenimport][2] einer größeren Anzahl von Personen (erfordert Administratorrechte).
-
-![Sie können in zwei Schritten eine Person von der Firmenkarte hinzufügen -screenshot][img1]
+* [Massenimport von Personen][2] (erfordert Administratorrechte).
 
 ## Schritte
 
-1. Öffnen Sie die Ansicht Person.
+1. **Öffnen Sie die Ansicht Person:**
 
-    * Klicken Sie auf **Neu** auf der oberen Leiste und wählen Sie **Person**.
-    * Oder gehen Sie zur Anzeige Firma, wählen Sie die Registerkarte **Personen** aus und klicken Sie auf die Schaltfläche **Hinzufügen** unter der Bereichsregisterkarte.
+    * Klicken Sie auf **Neu** in der **oberen Leiste** und wählen Sie **Person**.
+    * Oder, wechseln Sie zur entsprechenden Firma in der **Ansicht Firma**, wählen Sie die Bereichsregisterkarte **Personen** und klicken Sie auf **Hinzufügen**.
 
-2. Im oberen Bereich der Registerkarte geben Sie folgende Informationen ein:
+2. **Geben Sie die wichtigsten daten ein:**
 
-    * Vor- und/oder Nachname der Person. Obligatorisch: Sie müssen entweder einen Vor- oder einen Nachnamen eingeben.
-    * Anrede (***Hr./Fr.***)
-    * Firma. Wählen Sie eine Firma aus der Liste aus oder geben Sie zum Suchen die ersten Buchstaben des Firmennamens ein. Wenn die Person nicht mit einer Firma verbunden werden soll, wählen Sie **(Keine Selektion)**.
-    * Personenbild. Sie können ein Foto hinzufügen, indem Sie die Bilddatei vom Windows Explorer ziehen und auf dem Bildfeld weiter oben links auf der Registerkarte ablegen.
+    * **Vorname** und/oder **Nachname** (Pflichtfeld: mindestens eines muss ausgefüllt sein).
+    * Optional: Wählen Sie eine Anrede (***Hr./Fr.***).
+    * **Firma**:
+      * Beginnen Sie zu tippen, um eine Firma zu suchen, oder wählen Sie **(Keine Selektion)**, wenn die Person keiner Firma zugeordnet ist.
+    * Optional: **Personenbild** hinzufügen, indem Sie eine Bilddatei per Drag & Drop in das Bildfeld ziehen oder über das Kontextmenü hochladen.
 
-    Sie können auch ein Bild hinzufügen, indem Sie mit der rechten Maustaste auf das Bildfeld weiter oben links auf der Registerkarte klicken. Klicken Sie auf den Link, suchen Sie das gewünschte Bild und klicken Sie auf **Öffnen**, um das Bild hinzuzufügen.
+    ![Leere Personenkarte mit hervorgehobenen Pflichtfeldern Vorname und Nachname sowie optionalen Feldern wie Titel und Firma -screenshot][img1]
 
-3. Geben Sie Informationen auf der Registerkarte **Person** ein.
+3. Füllen Sie die Felder in der Registerkarte **Person** aus.
 
-    <details><summary>Welche Informationen werden in die Felder eingetragen?</summary>
+    * Geben Sie das **Land** an. Dies aktualisiert das Adressformat für dieses Land automatisch.
+    * Erfassen Sie weitere relevante Felder, wie **Mobiltelefon** und **E-Mail**.
 
-    [!include[Steps to populate company fields](includes/contact-fields.md)]
+4. Fügen Sie in der Registerkarte **Details** weitere Informationen hinzu (optional):
 
-    </details>
+    * Erfassen Sie **Position**, **Geburtsdatum** und **Bevorzugte Sprache**.
+    * Geben Sie Kommunikationsdetails an: **Website**, **Chat** und **Internet-Telefon** (z. B. Skype oder Microsoft Teams).
+    * Falls erforderlich, legen Sie die Servicepriorität fest und wählen Sie einen Service-Verantwortlichen aus (erfordert eine SuperOffice Service- oder Kundenportal-Lizenz).
 
-4. Wechseln Sie zur Registerkarte **Details**. Hier können Sie weitere Informationen zur Person eingeben.
+    ![Details-Registerkarte mit zusätzlichen Feldern -screenshot][img2]
 
-    <details><summary>Welche Informationen werden in die Felder eingetragen?</summary>
+5. Wechseln Sie zur Registerkarte **Interessen**, um Interessen und Abonnements festzulegen:
 
-    [!include[Steps to populate company details](includes/contact-details.md)]
+    * Aktivieren Sie die passenden Interessen (in **Einstellungen und Verwaltung** definiert).
+    * Konfigurieren Sie **E-Marketing/Abonnements** zur Einwilligung für E-Mail-Kampagnen.
 
-    </details>
+6. **Datenschutzpräferenzen prüfen:**
 
-5. Gehen Sie zur [Registerkarte Mehr][12], um Informationen einzugeben. Diese Registerkarte zeigt benutzerdefinierte Felder, die für den ausgewählten Person spezifisch sind.
+    * Klicken Sie unten in der Personenkarte auf **Rechtsgrundlage**, um die [DSGVO-Einwilligung zu überprüfen oder zu aktualisieren][7]. Schließen Sie den Dialog nach der Bearbeitung.
 
-6. Wechseln Sie zur Registerkarte **Interessen**. Hier können Sie Interessen und E-Marketing-/Abonnementoptionen für die Person festlegen.
+7. **Als Ausgeschiedene Mitarbeiter markieren (optional):**
 
-7. Wechseln Sie zur Registerkarte **Notiz**. Hier können Sie beliebige Informationen eingeben.
+    * Aktivieren Sie **Ausgeschiedene Mitarbeiter**, wenn die Person die Firma verlassen hat. Ehemalige Mitarbeiteren erscheinen nicht in der Personenliste oder in Projekten.
 
-8. Wechseln Sie zur Registerkarte **www**. Für weitere Details siehe unten.
+8. Klicken Sie auf **Speichern**, um die Personendaten zu speichern.
 
-9. Klicken Sie unten in der Personenkarte auf **Rechtsgrundlage**.
+Die Person wird in der Datenbank gespeichert und auf der Personenkarte angezeigt. Falls eine Firma verknüpft ist, erscheint die Person in der Registerkarte **Personen** in der Ansicht Firma.
 
-    Im Dialogfeld **Datenschutz** müssen Sie gegebenenfalls die Informationen zur [Einwilligung überprüfen und bearbeiten][7]. Klicken Sie, sobald Sie fertig sind, auf **Schließen**.
+## <a id="fields"></a>Wichtige Felder erklärt
 
-10. Aktivieren Sie **Ausgeschiedene Mitarbeiter** (unten auf der Personenkarte), wenn diese Person die Firma verlassen hat. Personen, die als ausgeschiedene Mitarbeiter markiert sind, erscheinen nicht auf der Liste der Personen oder Projektmitglieder.
+Die folgenden Felder sind in der Personenkarte verfügbar. Einige Felder werden automatisch ausgefüllt, andere erfordern manuelle Eingaben.
 
-11. Nachdem Sie die erforderliche Information eingegeben haben, klicken Sie auf die Schaltfläche **Speichern**.
+> [!NOTE]
+> Felder und Layout können je nach [Bildschirmdesigner][9] und benutzerdefinierten Anpassungen variieren.
 
-    Die Informationen über die Person werden nun in der Datenbank gespeichert und auf der Personenkarte angezeigt. Wenn Sie die Person mit einer Firma verknüpft haben, wird die Person auf der Registerkarte **Personen** in der Ansicht Firma angezeigt.
+<!-- markdownlint-disable-file MD051 -->
+### [Registerkarte Person](#tab/contacts)
 
-12. Wechseln Sie zur Bereichsregisterkarte **Beziehungen**. Hier können Sie [Beziehungen hinzufügen][8], die zwischen dieser und einer anderen Person oder Firma bestehen.
+**Grundlegende Details:**
 
-## <a id="interests-tab"></a>Die Registerkarte Interessen (Ansicht Person)
+* **Vorname** / **Nachname**: Mindestens eines dieser Felder muss ausgefüllt sein (Pflichtfeld).
+* **Anrede**: Optional. Wählen Sie **Hr./Fr.** entsprechend der Präferenz der Person.
+* **Titel**: Geben Sie die Position oder Berufsbezeichnung der Person ein (auf der Visitenkarte).
 
-Auf der Registerkarte **Interessen** stehen folgende Optionen zur Verfügung:
+**Kontaktinformationen:**
 
-* **Interessen:** Hier können Sie die Interessen einer Person auswählen. Interessen werden verwendet, um Selektionen für Kampagnen und ähnliches zu erstellen. [!include[SM](../../learn/includes/are-defined-sm.md)]
+* **E-Mail**: Erfassen Sie mehrere E-Mail-Adressen mit Beschreibungen, z. B. *Geschäftlich* oder *Privat*.
+* **Mobiltelefon** / **Direktwahl**: Erfassen Sie mehrere Telefonnummern mit Bezeichnungen, z. B. *Mobil* oder *Büro*.
+  * Drücken Sie **TAB** oder klicken Sie außerhalb des Eingabefelds, um die Einträge zu speichern.
 
-    > [!TIP]
-    > Interessen können für die Definition von Selektionen nützlich sein. Wenn Sie beispielsweise *Referenzkunde* als eine der Interessen festgelegt haben, können Sie eine Auswahl erstellen, die all Ihre Referenzkunden enthält. Das ermöglicht die Durchführung einer Werbekampagne, die auf diese Kundengruppe abzielt.
+**Adresse:**
 
-* **E-Marketing/Abonnements:** Wenn die Person dem Empfang von E-Marketing (Kampagnen) zugestimmt, also ihre Einwilligung gegeben hat, können Sie auf **E-Marketing** klicken. Wenn Sie die Option **E-Marketing** für eine Person aktivieren, legen Sie auch die Rechtsgrundlage für den Zweck **E-Marketing** fest. Sie ändert sich in **Berechtigte Interessen**.
+* **Wohnadresse**: Geben Sie die Adressdetails der Person ein.
+  * Das Adressformat wird automatisch basierend auf dem Wert im **Land**-Feld aktualisiert.
+* **Land**: Gibt das Land der Person an. Standardmäßig wird das mit der Firma verknüpfte Land übernommen.
+* **Als Postadresse verwenden**: Aktivieren Sie dieses Feld, wenn Direktwerbung an die Adresse der Person anstatt an die Firmenadresse gesendet werden sollen.
 
-    Sie können auch angeben, welchen Typ von E-Marketing die Person empfangen sollte (auch als Abonnementtypen bezeichnet). Diese Einstellungen wurden über ein Kundenportal möglicherweise von den Kunden selbst vorgenommen.
+**Geerbte Felder:**
 
-## Die Registerkarte www (Ansicht Person)
+* **Verantwortlich**: Weist automatisch Ihren Namen zu. Klicken Sie auf den Pfeil, um eine andere Person aus Ihrer Organisation auszuwählen.
+* **Kategorie**: Wählen Sie eine vordefinierte Kategorie aus. Falls die Person mit einer Firma verknüpft ist, wird standardmäßig die Kategorie der Firma übernommen.
+* **Branche**: Wählen Sie die relevante Branche aus. Falls die Person mit einer Firma verknüpft ist, wird standardmäßig die Branche der Firma übernommen.
 
-[!include[About the www tab](../../learn/includes/www-tab.md)]
+**Systemfelder:**
 
-## Die Registerkarte ERP (Ansicht Person)
+* **Nummer**: Wird automatisch als nächste verfügbare Personennummer generiert, falls in **Einstellungen und Verwaltung** konfiguriert. Falls erforderlich, können Sie diese Nummer manuell bearbeiten.
 
-[!include[About the ERP tab](../../learn/includes/erp-tab.md)]
+[!include[3 udef](../../learn/includes/more-udef.md)]
 
-## Die Registerkarte Notiz (Ansicht Person)
+### [Registerkarte Details](#tab/details)
 
-[!include[About the Note tab](../../learn/includes/about-note-tab.md)]
+**Persönliche Informationen:**
 
-[!include[Tip](../../learn/includes/tip-open-website.md)]
+* **Position:** Wählen Sie eine Position aus einer vordefinierten Liste.
+* **Geburtsdatum:** Erfassen Sie das Geburtsdatum der Person.
 
-## Verwandte Themen
+### Kommunikationsdetails
 
-* [Datensatz als Favoriten hinzufügen][4]
+* **Website:** Geben Sie eine URL für die Website der Person oder ihre Profile auf LinkedIn, Facebook oder anderen Plattformen ein. Fügen Sie einen Titel für mehr Klarheit hinzu.
+* **Chat:** Erfassen Sie Chat-Adressen für Anwendungen wie Microsoft Teams oder Google Chat. Wählen Sie einen Dienstanbieter aus der Liste aus.
+* **Internet-Telefon:** Geben Sie eine VOIP-Adresse ein, zum Beispiel für Skype oder einen anderen internetbasierten Telefondienst.
+* **Direktfax:** Erfassen Sie die Faxnummer der Person.
+
+### Service-spezifische Felder *(erfordert eine SuperOffice Service- oder CEP-Lizenz)*
+
+* **Bevorzugte Sprache:** Wählen Sie die bevorzugte Sprache der Person für alle Antwortvorlagen aus.
+* **Service-Priorität:** Legen Sie die Standardpriorität für neue Serviceanfragen fest (z. B. Niedrig, Mittel, Hoch oder individuell angepasst). Falls nicht festgelegt, wird die Priorität der verknüpften Firma verwendet.
+* **Service-Verantwortlicher:** Wählen Sie eine Service-Verantwortliche Person zur Betreuung dieser Person.
+
+### Private Felder
+
+* **Privat:** Erfassen Sie persönliche Telefonnummern oder andere Kontaktdaten, die nicht mit der Firma verknüpft sind.
+
+### [Registerkarte Mehr](#tab/more)
+
+Hier können Sie [benutzerdefinierte Felder][12] eingeben, die für Ihr CRM-Setup spezifisch sind.
+
+### [Registerkarte Interessen](#tab/interests)
+
+**Interessen und Abonnements:**
+
+* **Interessen:** Wählen Sie die Interessen der Person aus, indem Sie die entsprechenden Kästchen aktivieren. Interessen werden zur Erstellung gezielter Selektionen genutzt, beispielsweise für Mailings oder Kampagnen.
+
+  * Die Interessen sind in **Einstellungen und Verwaltung** vordefiniert.
+  * Sobald eine oder mehrere Interessen ausgewählt sind, erscheint ein Punkt neben dem Namen der Registerkarte **Interessen**.
+
+* **E-Marketing/Abonnements:** Verwalten Sie die Einwilligung zum Erhalt von E-Mail-Kampagnen.
+
+  * Falls die Person zugestimmt hat, aktivieren Sie die Option **E-Marketing**, um die rechtliche Einwilligung für den Versand von Mailings zu bestätigen. Die Rechtsgrundlage wird automatisch auf **Berechtigtes Interesse** gesetzt.
+  * Legen Sie fest, welche Arten von E-Marketing die Person erhalten soll (Abonnementtypen).
+  * Diese Abonnementeinstellungen können auch direkt von der Person über ein Kundenportal geändert werden.
+
+### [Registerkarte Notiz](#tab/note)
+
+[Beliebige Freitextnotizen erfassen][5].
+
+***
+
+## <a id="interests-tab"></a>Interessen hinzufügen
+
+Interessen sind hilfreich, um gezielte Selektionen zu erstellen, beispielsweise für Marketingkampagnen. Wenn Sie *Referenzkunde* als Interesse definieren, können Sie schnell eine Selektion aller Referenzkunden erstellen.
+
+1. Wechseln Sie zur Registerkarte **Interessen**.
+
+1. Wählen Sie im Bearbeitungsmodus die relevanten Interessen aus, indem Sie die Kästchen aktivieren. Die verfügbaren Optionen sind in **Einstellungen und Verwaltung** definiert.
+
+1. Sobald Sie eine oder mehrere Interessen ausgewählt haben, erscheint ein Punkt neben dem Namen der Registerkarte.
+
+1. Klicken Sie auf **Speichern**, um Ihre Änderungen zu sichern.
+
+## Tipps
+
+* Sie können mehrere Telefonnummern, E-Mails und andere Einträge mit Beschreibungen (z. B. Zentrale) hinzufügen.
+
+    Wenn Sie auf die E-Mail-Adresse der Person in der **Registerkarte Person** klicken, können Sie in der Liste die gewünschte Adresse auswählen. Eine neue E-Mail wird geöffnet, mit der gewählten Adresse im **An**-Feld.
+
+* Verwenden Sie das Telefonsymbol, um die Person direkt anzurufen, falls Ihr System entsprechend konfiguriert ist.
+
+* Falls die Person mit einer Firma verknüpft ist, werden Felder wie **Kategorie**, **Branche** und **Unser Kontakt** aus den Firmendaten übernommen und können nicht bearbeitet werden.
+
+* Wechseln Sie zur [Bereichsregisterkarte Beziehungen][8], um diese Person mit anderen Firmen oder Personen zu verknüpfen.
+
+## Verwandte Inhalte
+
+* [Person als Favorit speichern][4]
+* [Branchenkarte scannen][1]
 
 <!-- Referenced links -->
 [1]: ../../../en/mobile/superoffice-mobile/company-contact/scan-business-card.md
@@ -108,7 +192,10 @@ Auf der Registerkarte **Interessen** stehen folgende Optionen zur Verfügung:
 [4]: ../../learn/basics/fav.md
 [7]: ../../security/privacy/learn/edit-legal-base.md
 [8]: ../../learn/basics/relations.md
+[5]: ../../learn/basics/notes.md
+[9]: ../../ui/screen-designer/learn/index.md
 [12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/contact/add-contact-from-company-card.png
+[img1]: ../../../media/loc/en/contact/new-contact.png
+[img2]: ../../../media/loc/en/contact/contact-details.png

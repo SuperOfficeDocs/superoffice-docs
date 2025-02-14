@@ -18,10 +18,12 @@ Wenn Sie neue Vorlagen erstellen oder eine Standardvorlage ändern und unter ein
 
 Vorlagen werden in der Liste **Dokument - Vorlage** als Objekte angezeigt. Sie können also eine Vorlage mit SuperOffice CRM verknüpfen, indem Sie sie als Objekt in diese Liste eingeben.
 
-Sehen Sie sich dieses Video an oder befolgen Sie die folgenden Schritte mit Leitfaden, um zu lernen, wie Sie eine Dokumentvorlage hinzufügen können (Videolänge - 2:30):
+Sehen Sie sich dieses Video an oder befolgen Sie die folgenden Schritte mit Leitfaden, um zu lernen, wie Sie eine Dokumentvorlage hinzufügen können:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/FnhcmjP-TgE]
+
+(Videolänge - 2:30)
 
 ## Schritte
 
@@ -73,13 +75,13 @@ Sehen Sie sich dieses Video an oder befolgen Sie die folgenden Schritte mit Leit
 
 Geben Sie die folgenden Informationen in die Registerkarte **Details** ein:
 
-1. Legen Sie im Feld **Richtung** fest, ob die Vorlage eingehend oder ausgehend ist, indem Sie auf den Pfeil ![Symbol][img1]  klicken und im Listenfeld eine Option auswählen.
+1. Legen Sie im Feld **Richtung** fest, ob die Vorlage eingehend oder ausgehend ist, indem Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i> klicken und im Listenfeld eine Option auswählen.
 
 2. Wählen Sie im Feld **Dokumenttyp** entweder **Dokument** oder **Fax** als Vorlagentyp aus.
 
 3. Im Feld **Dokument gespeichert unter** können Sie einen von der Standardoption abweichenden Speicherort angeben.
 
-4. Klicken Sie im Feld **Zweck** auf das ![Symbol][img1] und wählen Sie eine der vordefinierten Optionen aus der Liste aus. Diese Objekte gehören zur Statuskontrollfunktion (für die eine [Sales Intelligence][4]-Lizenz erforderlich ist).
+4. Klicken Sie im Feld **Zweck** auf <i class="ph ph-caret-down" aria-label="Chevron"></i> und wählen Sie eine der vordefinierten Optionen aus der Liste aus. Diese Objekte gehören zur Statuskontrollfunktion (für die eine [Sales Intelligence][4]-Lizenz erforderlich ist).
 
     > [!TIP]
     > Zusätzlich zu den vordefinierten Optionen können Sie neue Optionen erstellen, indem Sie sie zur Liste **Folgeaufgabe - Zweck** in Einstellungen und Verwaltung hinzufügen.
@@ -127,7 +129,6 @@ Hier können Sie übersetzte Versionen der Dokumentvorlage hinzufügen.
 [4]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-down.png
 [img2]: ../../../../media/loc/en/document/edit-list-item.png
 [img3]: ../../../../media/loc/en/document/lists-add.png
 [img4]: ../../../../media/loc/en/document/imagedmnmi.png

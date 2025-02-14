@@ -1,7 +1,7 @@
 ---
 uid: help-de-preferences
 title: Voreinstellungen
-description: "Administratoren können Einstellungen für verschiedene Funktionen im System für bestimmte Benutzer, Benutzergruppen oder für das gesamte SuperOffice CRM festlegen (Globale Einstellungen)."
+description: Administratoren können Einstellungen für verschiedene Funktionen im System für bestimmte Benutzer, Benutzergruppen oder für das gesamte SuperOffice CRM festlegen (Globale Einstellungen).
 author: Bergfrid Dias
 date: 03.21.2023
 keywords: Einstellungen, Einstellungen
@@ -11,11 +11,11 @@ audience_tooltip: Settings and maintenance
 language: de
 ---
 
-# Voreinstellungen
+# Voreinstellungen <i class="ph ph-gear" aria-label="Gear icon"></i>
 
 In der Ansicht Einstellungen können Sie Einstellungen für das gesamte System (global), eine Datenbank, eine Benutzergruppe oder einen einzelnen Benutzer festlegen. Einstellungen, die nur auf globaler (System) Ebene vorgenommen werden können, befinden sich in der Registerkarte **[Globale Einstellungen][1]**.
 
-Im Menü [Individuelle Einstellungen][4] in der oberen Leiste in **Persönliche Einstellungen** > **Einstellungen** können Benutzer die Optionen für die einzelnen Einstellungen bearbeitet werden. Die für den Benutzer verfügbaren Einstellungen hängen von den Einstellungen in Einstellungen und Verwaltung ab.
+Im Menü [Individuelle Einstellungen][4] in der oberen Leiste in **Persönliche Einstellungen** (<i class="ph ph-user-circle" aria-hidden="true"></i>) > **Einstellungen** können Benutzer die Optionen für die einzelnen Einstellungen bearbeitet werden. Die für den Benutzer verfügbaren Einstellungen hängen von den Einstellungen in Einstellungen und Verwaltung ab.
 
 Zudem können Sie Videokonferenzen auf der Registerkarte [Videokonferenzen][8] und die Dokumentbibliothek auf der Registerkarte [Dokumentbibliothek][9] konfigurieren.
 
@@ -58,7 +58,7 @@ Manche [Einstellungen][1] können nur global vorgenommen werden:
 
 ### Globale Einstellungen ändern
 
-Gehen Sie zum Bearbeiten dieser Einstellungen auf das ![Symbol][img1] **Einstellungen** und wählen die Registerkarte **Globale Einstellungen** aus.
+Gehen Sie zum Bearbeiten dieser Einstellungen auf **Einstellungen** und wählen die Registerkarte **Globale Einstellungen** aus.
 
 * Die verschiedenen Einstellungen sind in Bereiche unterteilt.
 * Zeigen Sie mit dem Mauszeiger auf eine Einstellung, um zusätzliche Informationen anzuzeigen.
@@ -123,4 +123,3 @@ Sie können die Zeilen in den Spalten sortieren, indem Sie auf die einzelnen Spa
 [9]: ../../../document/library/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-preferences-active.png

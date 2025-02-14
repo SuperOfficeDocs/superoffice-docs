@@ -1,19 +1,16 @@
 items:
 - name: Überblick
   href: index.md
-- name: Mit Firma arbeiten
-  topicHref: create.md
-  items:
-  - name: Neue Firma erstellen
-    href: create.md
-  - name: Firma bearbeiten
-    href: edit.md
-  - name: Firma kopieren
-    href: copy.md
-  - name: Firmen zusammenführen
-    href: merge-companies.md
-  - name: Firma löschen
-    href: delete.md
+- name: Neue Firma erstellen
+  href: create.md
+- name: Firmendaten bearbeiten
+  href: edit.md
+- name: Firma kopieren
+  href: copy.md
+- name: Firmen zusammenführen
+  href: merge-companies.md
+- name: Firma löschen
+  href: delete.md
 - name: Länderspezifische Adressformate
   href: address-formats.md
 - name: ERP-Verbindung

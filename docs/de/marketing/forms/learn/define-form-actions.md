@@ -71,7 +71,7 @@ Hier können Sie Aktionen auswählen, die bei der automatischen oder manuellen V
 [2]: publish.md
 [6]: process-submissions.md
 [7]: ../../mailing/learn/create/tutorial-form-mailing.yml
-[8]: ../../../request/learn/howto/create.md
+[8]: ../../../request/learn/create.md
 [9]: ../../../../en/automation/crmscript/howto/marketing/forms.md
 
 <!-- Referenced images -->

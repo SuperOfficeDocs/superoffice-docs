@@ -1,34 +1,29 @@
 items:
 - name: Überblick
   href: index.md
-- name: Status eines Verkaufs (Stufen)
-  href: stages.md
+- name: Verkauf erstellen
+  href: create.md
+- name: Verkauf bearbeiten oder löschen
+  href: update.md
+- name: Verkaufsleitfaden
+  href: sales-guides.md
+- name: Tutorial
+  href: tutorial.md
 - name: Beteiligte
   href: stakeholders/index.md
-- name: Verkaufsleitfaden
-  href: sales-guide/index.md
-- name: Bereichsregisterkarte Verkaufsleitfaden
-  href: sales-guide/sales-guide-tab.md
-- name: Mit Verkauf arbeiten
-  topicHref: create.md
   items:
-  - name: Verkauf erstellen
-    href: create.md
-  - name: Verkauf löschen
-    href: delete.md
   - name: Beteiligte hinzufügen
     href: stakeholders/create.md
   - name: Beteiligte bearbeiten oder entfernen
     href: stakeholders/edit.md
-  - name: Die Seitenleiste verwenden
-    href: use-side-panel.md
-  - name: Mit Verkaufsleitfaden arbeiten
-    href: sales-guide/working-with-sales-guide.md
-  - name: Prognose
-    href: forecasting.md
-- name: Angebot
-  href: ../../quote/learn/toc.yml
-  topicHref: ../../quote/learn/index.md
+- name: Prognose
+  href: forecasting.md
 - name: Vertriebsziele
   href: sales-targets/toc.yml
   topicHref: sales-targets/index.md
+- name: Angebot
+  href: ../../quote/learn/toc.yml
+  topicHref: ../../quote/learn/index.md
+- name: Für Admins
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md

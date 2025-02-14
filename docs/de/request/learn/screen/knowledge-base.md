@@ -26,7 +26,7 @@ Die **Wissensdatenbank** ist vom **Hauptmenü** in der oberen Leiste zugreifbar 
 <!-- Referenced links -->
 [1]: ../external-document.md
 [2]: ../../../faq/learn/index.md
-[3]: ../../../../en/request/reply-templates/index.md
+[3]: ../../reply-templates/learn/index.md
 [4]: ../../../email/service/learn/kb-aliases/index.md
 
 <!-- Referenced images -->

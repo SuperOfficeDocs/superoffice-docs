@@ -1,15 +1,19 @@
 ---
 uid: help-de-recurrence
-title: Wiederkehrende Folgeaufgaben
-description: Wiederkehrende Folgeaufgaben
+title: Regelmäßige Folgeaufgabe
+description: Regelmäßige Folgeaufgabe
+keywords: Häufigkeit, Regelmäßige Folgeaufgabe, Wiederkehrende Folgeaufgabe, Wiederkehrendes Meeting, Wiederkehrender Termin, Wiederholen, Erneuern, Meetingfrequenz, Folgeaufgabenmuster, Meetingserie, Kalender, Folgeaufgabe, Wiederholung, regelmäßig, planen
 author: Bergfrid Dias
-date: 10.09.2023
-keywords: Kalender, Folgeaufgabe, Wiederholen, Wiederkehren, Häufigkeit, regelmäßig, planen
+date: 02.11.2025
+version: 10.5.2
 topic: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
-# Regelmäßige Folgeaufgaben
+# Regelmäßige Folgeaufgaben <i class="ph ph-arrows-clockwise" aria-hidden="true"></i>
 
 Es kann vorkommen, dass Sie eine Reihe von Terminen in regelmäßigen Abständen erstellen möchten, zum Beispiel ein wöchentlich stattfindendes Statusmeeting. Statt diese Besprechungen eine nach der anderen zu erstellen, können Sie die Funktion für regelmäßige Folgeaufgaben verwenden.
 
@@ -54,7 +58,7 @@ Wenn Sie **Jährlich** auswählen, können Sie festlegen, an welchem Tag und in 
 | Tag &lt;number&gt; im &lt;month&gt;| Die Folgeaufgabe immer am gleichen Datum stattfinden. | Tag 13 im April. |
 | &lt;ordinal number&gt; &lt;weekday&gt; im &lt;month&gt;| Die Folgeaufgabe immer am gleichen Wochentag stattfinden. | Am vierten Donnerstag im August. |
 
-## Zugehörige Inhalte
+## Verwandte Inhalte
 
 * [Wiederholende Folgeaufgabe erstellen][4]
 * [Regelmäßige Folgeaufgabe bearbeiten][1]

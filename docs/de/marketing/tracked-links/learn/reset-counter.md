@@ -20,10 +20,7 @@ Manchmal ist es erforderlich, die Anzahl der Klicks auf null zurückzusetzen. Di
 
 2. Klicken Sie auf **Alle Links**, wenn Ihr Link nicht in der Liste angezeigt wird. Gehen Sie zuerst zum Ordner mit dem Link, wenn Sie Ordner für Links verwenden.
 
-3. Klicken Sie auf die Menüschaltfläche ![Symbol][img1] neben dem Link und wählen Sie **Zurücksetzen** aus. Der Zählerwert in der Zeile **Klicks** wird auf 0 geändert. Außerdem werden die Daten zu den Kunden gelöscht, die auf diesen Link geklickt haben.
+3. Klicken Sie auf <i class="ph ph-list" aria-label="Aufgabe"></i> neben dem Link und wählen Sie **Zurücksetzen** aus. Der Zählerwert in der Zeile **Klicks** wird auf 0 geändert. Außerdem werden die Daten zu den Kunden gelöscht, die auf diesen Link geklickt haben.
 
 <!-- Referenced links -->
 [6]: ../../mailing/learn/create/send-test-email.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png

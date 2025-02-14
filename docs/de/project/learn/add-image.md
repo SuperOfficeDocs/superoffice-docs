@@ -1,44 +1,56 @@
 ---
 uid: help-de-project-image-add
-title: Projektbild hinzufügen
-description: Wie man ein Projektbild hinzufügt
-keywords: Projekt
-author: SuperOffice RnD
-date: 10.08.2024
-version: 10.3.10
+title: Ein Projektbild hinzufügen oder ändern
+description: Wie man ein Projektbild hinzufügt oder ändert
+keywords: Projektbild hinzufügen, Foto hinzufügen, Projektbild, Bilddatei, Projekt
+author: Bergfrid Dias
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
 ---
 
-# Projektbild hinzufügen
+# Ein Projektbild hinzufügen oder ändern
 
-Auf der Registerkarte **Bild** können Sie ein Bild für das Projekt hinzufügen. Projektbilder werden primär für die Anzeige des Projekts in SuperOffice Audience (separate Lizenz erforderlich) verwendet, können jedoch auch in andere Typen von Projektanzeigen einbezogen werden.
+Die Registerkarte **Bild** ermöglicht das Hochladen und Verwalten von Bildern für ein Projekt.
 
-1. Öffnen Sie die Ansicht Projekt. Führen Sie einen der folgenden Schritte aus:
+![Projektkarte mit Projektbild -screenshot][img1]
 
-    * Klicken Sie auf die Schaltfläche **Projekt** im Navigator.
-    * Verwenden Sie die [Verlaufsliste][1] oder die Navigatorsuche.
-    * Doppelklicken Sie auf ein Projekt in einem Suchergebnis oder in der Ansicht Firma auf der Bereichsregisterkarte **Projekte**.
+## Schritte zum Hinzufügen eines Projektbilds
 
-2. Wählen Sie die Registerkarte **Bild** aus.
+1. Öffnen Sie die Ansicht **Projekt** und wechseln Sie zur Registerkarte **Bild**.
 
-3. Klicken Sie auf **Bearbeiten**.
+1. Klicken Sie auf <i class="ph ph-pencil-simple" aria-label="Bearbeiten"></i>, um den Bearbeitungsmodus zu aktivieren.
 
-4. Klicken Sie auf die Schaltfläche **Hinzufügen**.
+1. Klicken Sie auf **Foto hinzufügen**.
 
-5. Gehen Sie im Dialogfeld **Bild auswählen** folgendermaßen vor:
-    * Wenn das gewünschte Bild unter **Bilder** angezeigt wird, können Sie darauf klicken, um es unter **Vorschau** anzuzeigen.
-    * Um ein neues Bild hinzuzufügen, müssen Sie auf **Hinzufügen** klicken, das gewünschte Bild auswählen und eine Beschreibung hinzufügen, die das Bild besser beschreibt als nur der Dateiname. Klicken Sie anschließend auf **OK/Speichern**. Klicken Sie auf das Bild, um es unter **Vorschau** anzuzeigen.
-    * Um ein Bild aus der Datenbank zu entfernen, markieren Sie es, und klicken Sie anschließend auf **Löschen**.
+1. Laden Sie eine Bilddatei hoch oder ziehen Sie sie per Drag-and-Drop in das Upload-Feld:
 
-6. Klicken Sie auf **OK**, um das Bild hinzuzufügen. Das Bild wird auf der Registerkarte **Bild** und die Beschreibung im Feld **Bild** angezeigt.
+    * Ziehen Sie die Bilddatei in den Upload-Bereich.
+    * Oder klicken Sie auf **Datei hochladen**, um eine Datei von Ihrem Computer auszuwählen.
 
-7. Klicken Sie auf **Speichern**, um die Änderungen zu speichern, oder auf **Abbrechen**, um den Bearbeitungsmodus zu verlassen, ohne die Änderungen zu speichern.
+    Nach dem Hochladen wird die Bildvorschau auf der rechten Seite angezeigt.
 
-    > [!NOTE]
-    > Um ein aktives Projektbild zu entfernen, klicken Sie links von der Beschreibung auf **Löschen**.
+1. Wählen Sie ein Bild aus:
 
-<!-- Referenced links -->
-[1]: ../../learn/basics/history.md
+    * Klicken Sie auf ein hochgeladenes Bild in der Liste, um es in der Vorschau anzuzeigen.
+
+1. Klicken Sie auf **OK**, um das ausgewählte Bild für das Projekt festzulegen.
+
+1. Klicken Sie auf **Speichern**, um die Änderungen zu übernehmen, oder auf **Abbrechen**, um sie zu verwerfen.
+
+## Schritte zum Ändern oder Zurücksetzen des Projektbilds
+
+1. Öffnen Sie die Registerkarte **Bild** und klicken Sie auf <i class="ph ph-pencil-simple" aria-label="Bearbeiten"></i>.
+
+1. Um das aktuelle Bild zu entfernen, klicken Sie auf **Löschen**.
+
+1. Nach dem Löschen haben Sie folgende Optionen:
+
+    * Klicken Sie auf **OK** und **Speichern**, um das Standardbild wiederherzustellen.
+    * Oder laden Sie ein neues Bild hoch bzw. wählen Sie ein anderes Bild aus, dann klicken Sie auf **OK** und **Speichern**, um die Änderungen zu übernehmen.
+
+<!-- Referenced images -->
+[img1]: ../../../media/loc/en/project/project-image.png

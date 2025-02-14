@@ -4,8 +4,8 @@ title: Bereichsregisterkarte Aktivitäten
 description: Erfahren Sie, wie Sie die Bereichsregisterkarte Aktivitäten in SuperOffice CRM verwenden können, um Aktivitäten, Folgeaufgaben und Dokumente für Firmen, Personen, Projekte und Verkäufe anzuzeigen, zu verwalten und nachzuverfolgen – alles in einem organisierten Bereich.
 keywords: Bereichsregisterkarte Aktivitäten, Bereichsregisterkarte
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -28,7 +28,7 @@ Die Bereichsregisterkarte **Aktivitäten** ist verfügbar für:
 |---|---|
 | [Firma][9] | Zeigt alle Aktivitäten an, die mit der Firma verbunden sind. |
 | [Person][10] | Zeigt alle Aktivitäten an, die die Person betreffen, einschließlich Aktivitäten, die die Firma der Person betreffen. |
-| [Kalender][11] | Eine To-do-Liste, die unvollständige Aktivitäten anzeigt, einschließlich solcher, die noch nicht geplant sind. |
+| [Kalender][11] | Eine Aufgabenliste, die unvollständige Aktivitäten anzeigt, einschließlich solcher, die noch nicht geplant sind. |
 | [Verkauf][12] | Zeigt alle Aktivitäten an, die mit dem Verkauf verknüpft sind, und bietet eine Übersicht über den Fortschritt und die Interaktionen. |
 | [Projekt][13] | Zeigt alle Aktivitäten an, die mit dem Projekt verknüpft sind. |
 
@@ -38,7 +38,7 @@ Die Bereichsregisterkarte **Aktivitäten** enthält die folgenden Spalten, um wi
 
 | Spalte | Beschreibung |
 |---|---|
-| Abgeschlossen | Kontrollkästchen, das anzeigt, ob die Aktivität abgeschlossen ist. Ein markiertes Kästchen (![icon][img3]) bedeutet abgeschlossen, während ein leeres Kästchen bedeutet, dass es noch läuft. |
+| Abgeschlossen | Kontrollkästchen, das anzeigt, ob die Aktivität abgeschlossen ist. Ein markiertes Kästchen (<i class="ph ph-check" aria-hidden="true"></i>) bedeutet abgeschlossen, während ein leeres Kästchen bedeutet, dass es noch läuft. |
 | Aktivitätssymbol | Zeigt den [Aktivitätstyp][1] an (z. B. Meeting, Anruf, Dokument). Entspricht dem Text in der Spalte **Typ**. |
 | Datum | Zeigt an, wann ein Dokument erstellt wurde oder wann eine Folgeaufgabe geplant ist. |
 | Typ | Der Aktivitätstyp, wie z. B. ein Meeting, eine To-do-Aufgabe oder eine E-Mail. |
@@ -104,10 +104,9 @@ Um abgeschlossene Aktivitäten in der Liste anzuzeigen, stellen Sie sicher, dass
 [8]: filter.md
 [9]: ../../company/learn/index.md#section-tabs
 [10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md#section-tabs
+[11]: ../../diary/learn/index.md#section-tabs
 [12]: ../../sale/learn/index.md#section-tabs
 [13]: ../../project/learn/index.md#section-tabs
 
 <!-- Referenced images -->
 [img2]: ../../../media/loc/en/diary/activities-detail.png
-[img3]: ../../../media/icons/check.png

@@ -12,11 +12,6 @@ envir: onsite
 
 # SMTP (nur VOR ORT)
 
-Gehen Sie im Navigator zum ![Symbol][img1] **Einstellungen** und wählen Sie die Registerkarte **Globale Einstellungen** aus. Der Bereich **SMTP** enthält folgende Optionen:
+Gehen Sie im Navigator zum <i class="ph ph-gear" aria-hidden="true"></i> **Einstellungen** und wählen Sie die Registerkarte **Globale Einstellungen** aus. Der Bereich **SMTP** enthält folgende Optionen:
 
 [!include[List of fields for mailings](../../../../marketing/learn/includes/mailing-smtp-fields.md)]
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../../../common/icons/nav-admin-preferences-active.png

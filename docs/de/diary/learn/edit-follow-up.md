@@ -1,12 +1,15 @@
 ---
 uid: help-de-follow-up-edit
-title: Folgeaufgaben bearbeiten
-description: Folgeaufgaben öffnen, bearbeiten, aus dem Kalender löschen; Endzeitpunkt für eine Folgeaufgabe im Kalender ändern; Einladung bearbeiten oder löschen
+title: Folgeaufgabe bearbeiten
+description: So öffnen, bearbeiten oder löschen Sie eine Folgeaufgabe. Ändern Sie die Endzeit einer Folgeaufgabe im Kalender. Einladung bearbeiten oder löschen. Wiederkehrende Folgeaufgabe bearbeiten.
+keywords: Folgeaufgabe bearbeiten, Folgeaufgabe aktualisieren, Meeting verlängern, Meeting verkürzen, nur diese Instanz ändern, Folgeaufgabe löschen, Meeting absagen, Kalender, Folgeaufgabe, Termin, Meeting, Aufgabe, To-do, Anruf, Einladung
 author: Bergfrid Dias
-date: 12.12.2023
-version: 10.2.11
-keywords: Kalender, Folgeaufgabe, Einladung, Termin, Aufgabe, Anruf, Wiederholen, Wiederkehren, Instanz
+date: 02.11.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -14,72 +17,72 @@ language: de
 
 [!include[Note](includes/note-edit-followup.md)]
 
-Wenn Sie die Zeit, Datum oder Ort einer Folgeaufgabe bearbeiten - oder eine erstellte und gesendete Einladung löschen - werden die Eingeladenen mit einer Mitteilung darüber verständigt.
+Wenn Sie die Zeit, das Datum oder den Ort einer Folgeaufgabe ändern – oder eine Einladung löschen, die Sie erstellt und gesendet haben – erhalten die eingeladenen Teilnehmer eine Benachrichtigung darüber.
 
 ## Schritte
 
-1. Öffnen Sie die gewünschte Folgeaufgabe, indem Sie darauf doppelklicken:
+1. Öffnen Sie eine vorhandene Folgeaufgabe, indem Sie darauf doppelklicken:
 
-    * Auf die Bereichsregisterkarte **Aktivitäten** in der Ansicht Firma, Person, Verkauf, Projekt, Kalender.
-    * Auf den verschiedenen Registerkarten der Ansicht Kalender.
+    * In der Bereichsregisterkarte **Aktivitäten** in der Ansicht Firma, Person, Kalender, Projekt oder Verkauf.
+    * Oder, auf den verschiedenen Registerkarten in der Kalenderansicht.
 
-2. [Nehmen Sie im Dialogfeld die gewünschten Änderungen vor.][3]
+2. [Nehmen Sie die gewünschten Änderungen im Dialogfeld vor.][3]
 
     [!include[Recurrence](includes/note-repetition.md)]
 
 3. Klicken Sie auf **Speichern**.
 
 > [!NOTE]
-> Erledigte Folgeaufgaben können Sie nur bearbeiten, wenn Sie den Status **Erledigt** deaktivieren.
+> Sie können erledigte Folgeaufgaben erst bearbeiten, wenn Sie den Status **Abgeschlossen** deaktiviert haben.
 
 ## <a id="change-end"></a>Endzeitpunkt für eine Folgeaufgabe im Kalender ändern
 
-Sie können die Endzeitpunkt einer Folgeaufgabe in der Ansicht Kalender ändern, ohne die Aufgabe vorher zu öffnen:
+In der Kalenderansicht können Sie die Endzeit einer Folgeaufgabe ändern, ohne sie zu öffnen:
 
-1. Klicken Sie auf der Registerkarte **Tag**, **Woche** oder **Übersicht** auf die Folgeaufgabe.
+1. Klicken Sie auf die Folgeaufgabe in der **Tag**-, **Woche**- oder **Übersicht**-Registerkarte.
 
-2. Zeigen Sie mit dem Mauszeiger auf die untere Linie der Folgeaufgabe. Der Zeiger wird nun als Doppelpfeil angezeigt.
+1. Bewegen Sie den Mauszeiger über den unteren Rand der Folgeaufgabe. Der Zeiger ändert sich in einen Doppelpfeil.
 
-3. Klicken Sie auf die Linie und halten Sie die Maustaste gedrückt, während Sie die blaue Linie nach oben oder unten ziehen, um die Zeit für die Folgeaufgabe zu erhöhen oder reduzieren. Sie können die Endzeit für die Folgeaufgabe oben im blauen Bereich sehen.
+1. Klicken und halten Sie die Maustaste, dann ziehen Sie den unteren Rand nach oben oder unten, um die Dauer der Folgeaufgabe anzupassen. Die aktualisierte Endzeit wird während des Ziehens angezeigt.
 
-4. Lassen Sie die Maustaste los. Die Zeit für die Folgeaufgabe ist nun ändert.
+1. Lassen Sie die Maustaste los, um die Änderung zu übernehmen.
 
 > [!NOTE]
-> Sie können auch das Zeitfenster ändern, indem Sie die Folgeaufgabe öffnen und die Felder **Start**, **Ende**, **Fällig** oder **Dauer** ändern.
+> Sie können die Zeit auch ändern, indem Sie die Folgeaufgabe öffnen und die Felder **Start**, **Ende**, **Fällig** oder **Dauer** anpassen.
 
 ## <a id="repeat"></a>Regelmäßige Folgeaufgabe bearbeiten
 
-Änderungen werden auf dieselbe Weise ausgeführt wie Folgeaufgaben bearbeiten. Wenn Sie die Änderungen vornehmen, wird das Dialogfeld **Regelmäßige Folgeaufgaben**.
+Änderungen funktionieren genauso wie bei regulären Folgeaufgaben, aber wenn Sie eine Änderung vornehmen, wird das Dialogfeld **Regelmäßige Folgeaufgabe** angezeigt.
 
-![Repeating follow-up dialog -screenshot][img1]
+![Dialogfeld Regelmäßige Folgeaufgabe -screenshot][img1]
 
-* Wenn Sie **Nur diese Instanz ändern** wählen, wirkt sich die Änderung nur auf diese Instanz der Folgeaufgabe aus.
+* Wenn Sie **Nur diese Instanz ändern** wählen, wirkt sich die Änderung nur auf diese einzelne Folgeaufgabe aus.
 
-* Wenn Sie **Alle zukünftigen Instanzen einschließlich dieser ändern** wählen, gelten die Änderungen auch für alle Wiederholungen dieser Folgeaufgabe.
+* Wenn Sie **Alle zukünftigen Instanzen einschließlich dieser ändern** wählen, gilt die Änderung für diese und alle zukünftigen Wiederholungen der Folgeaufgabe.
 
-Sie können nur das Startdatum für die Folgeaufgabe ändern, wenn Sie die Wiederholungsdetails anzeigen. Um die Uhrzeit zu ändern, klicken Sie auf **OK** oder **Abbrechen**, um zu den Details der Nachverfolgung zurückzukehren.
+Sie können nur das Startdatum der Folgeaufgabe ändern, wenn Sie die Wiederholungsdetails anzeigen. Um die Uhrzeit zu ändern, klicken Sie auf **OK** oder **Abbrechen**, um zu den Folgeaufgabendetails zurückzukehren.
 
-Wenn Sie sich entscheiden, die Regel mitten in einer Serie von Besprechungen zu ändern, wird eine neue Regel erstellt, und die alte Regel wird an dem Punkt gestoppt, an dem die Änderung erfolgt.
+Wenn Sie die Regel mitten in einer Serie ändern, wird eine neue Regel erstellt, und die alte Regel wird an dem Punkt gestoppt, an dem die Änderung vorgenommen wurde.
 
-Wenn Sie die Startzeit für ein einzelnes Besprechung ändern, bleibt die Regel unberührt. Der Besprechungen wird als Ausnahme von der Regel behandelt. Die Ausnahme kann wieder in Übereinstimmung mit den anderen Besprechungen gebracht werden.
+Wenn Sie die Startzeit für eine einzelne Instanz ändern, bleibt die Regel unberührt. Die Folgeaufgabe wird als Ausnahme behandelt. Sie können die Ausnahme aufheben, indem Sie sie wieder an die ursprüngliche Serie angleichen.
 
 [!include[Caution](includes/caution-do-not-change-recurring-date.md)]
 
 ## <a id="delete"></a>Folgeaufgabe aus dem Kalender löschen
 
 * Wenn Sie eine Folgeaufgabe löschen, zu der Sie eingeladen sind, wird die Folgeaufgabe nur aus Ihrem Kalender entfernt.
-* Wenn Sie eine Einladung, deren Eigentümer Sie sind, von Ihrem Kalender löschen, verschwindet diese Folgeaufgabe auch aus den Kalendern der Eingeladenen.
+* Wenn Sie eine Einladung löschen, deren Eigentümer Sie sind, wird diese Folgeaufgabe auch aus den Kalendern der eingeladenen Teilnehmer entfernt.
 
 1. Wählen Sie die gewünschte Folgeaufgabe aus.
-2. Klicken Sie mit der rechten Maustaste, und wählen Sie **Löschen**.
-3. Bestätigen oder brechen Sie den Löschvorgang im Dialogfeld Bestätigung ab.
+1. Klicken Sie mit der rechten Maustaste und wählen Sie **Löschen**.
+1. Wählen Sie **Ja**, um die Löschung zu bestätigen, oder **Nein**, um die Folgeaufgabe beizubehalten.
 
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 
-## Verwandte Themen
+## Verwandte Inhalte
 
 * [Status Abgeschlossen für eine Aktivität ändern][2]
-* [Regelmäßige Folgeaufgaben stoppen][5]
+* [Regelmäßige Folgeaufgabe stoppen][5]
 * [Link zu Dokument, Verkauf, Projekt oder Webseite hinzufügen][6]
 
 <!-- Referenced links -->

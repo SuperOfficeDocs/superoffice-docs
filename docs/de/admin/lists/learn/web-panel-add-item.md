@@ -77,7 +77,7 @@ language: de
 
 ### Menü
 
-* **Werkzeuge**: Die URL-Adresse wird angezeigt, wenn der Benutzer im Navigator auf die Schaltfläche **Tools** ![Symbol][img1] oder in SuperOffice CRM auf **Andere Anwendungen** klickt.
+* **Werkzeuge**: Die URL-Adresse wird angezeigt, wenn der Benutzer im Navigator auf die Schaltfläche **Tools** (<i class="ph ph-wrench" aria-hidden="true"></i>) oder in SuperOffice CRM auf **Andere Anwendungen** klickt.
 
 * **Menü Ansicht**: Die URL-Adresse wird angezeigt, wenn der Benutzer die Option **Andere Anwendungen** in SuperOffice CRM wählt.
 
@@ -96,4 +96,3 @@ language: de
 [3]: ../../../globalization-and-localization/learn/translate-fields.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-tools.png

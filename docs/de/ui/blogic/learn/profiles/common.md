@@ -24,10 +24,10 @@ Gemeinsame Profile werden mit einer [Rolle][2] verknüpft und gelten für alle B
 
 Die folgenden Schritte zeigen zum Beispiel, wie Sie ein Feld in der Ansicht **Anfragen suchen** hinzufügen.
 
-1. Wählen Sie das ![Symbol][img1] **Systemeinstellungen** > **Profil** aus. Die Ansicht **Profile anzeigen** wird geöffnet.
+1. Wählen Sie **Systemeinstellungen** > **Profil** aus. Die Ansicht **Profile anzeigen** wird geöffnet.
 2. Wählen Sie **System**. Daraufhin wird eine hierarchische Liste aller Profile im System angezeigt.
 3. Klicken Sie auf **Suchen**.
-4. Zeigen Sie auf **Anfragen suchen** und klicken Sie auf ![Symbol][img2] (**Neues gemeinsames Profil**) rechts neben dem Namen. Die Ansicht **Elementprofil bearbeiten** wird angezeigt.
+4. Zeigen Sie auf **Anfragen suchen** und klicken Sie auf <i class="ph ph-list" aria-label="Main menu"></i> (**Neues gemeinsames Profil**) rechts neben dem Namen. Die Ansicht **Elementprofil bearbeiten** wird angezeigt.
 5. Geben Sie im Feld **Name** den Namen für das Profil ein.
 6. Klicken Sie auf die Schaltfläche **Kriterien hinzufügen**.
 7. Gehen Sie im Dialogfeld wie folgt vor:
@@ -38,7 +38,7 @@ Die folgenden Schritte zeigen zum Beispiel, wie Sie ein Feld in der Ansicht **An
 
 ## Informationen in einem gemeinsamen Profil bearbeiten
 
-1. Wählen Sie das ![Symbol][img1] **Systemeinstellungen** > **Profil** aus. Die Ansicht **Profile anzeigen** wird geöffnet.
+1. Wählen Sie **Systemeinstellungen** > **Profil** aus. Die Ansicht **Profile anzeigen** wird geöffnet.
 2. Wählen Sie **System**. Daraufhin wird eine hierarchische Liste aller Profile im System angezeigt.
 3. Öffnen Sie die Hierarchieebenen, bis Sie das gewünschte Profil gefunden haben.
 4. Klicken Sie auf den Profilnamen. Die Ansicht **Elementprofil bearbeiten** wird angezeigt.
@@ -47,7 +47,7 @@ Die folgenden Schritte zeigen zum Beispiel, wie Sie ein Feld in der Ansicht **An
 
 ## Gemeinsames Profil löschen
 
-1. Wählen Sie das ![Symbol][img1] **Systemeinstellungen** > **Profil** aus. Die Ansicht **Profile anzeigen** wird geöffnet.
+1. Wählen Sie **Systemeinstellungen** > **Profil** aus. Die Ansicht **Profile anzeigen** wird geöffnet.
 2. Wählen Sie **System**. Daraufhin wird eine hierarchische Liste aller Profile im System angezeigt.
 3. Öffnen Sie die Hierarchieebenen, bis Sie das gewünschte Profil gefunden haben.
 4. Klicken Sie auf den Profilnamen. Die Ansicht **Elementprofil bearbeiten** wird angezeigt.
@@ -64,7 +64,3 @@ Die folgenden Schritte zeigen zum Beispiel, wie Sie ein Feld in der Ansicht **An
 [3]: ../../../../admin/user-management/learn/role/create-role.md
 [4]: personal.md
 [5]: global.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/btn-add.png
-[img2]: ../../../../../media/icons/main-menu-small.png

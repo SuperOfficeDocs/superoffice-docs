@@ -29,7 +29,7 @@ Im oberen Teil der Registrierkarte **Nummernzuweisung** befindet sich eine Tabel
 
 | Spalte | Beschreibung |
 |---|---|
-| \[Icon\] | Zeigt an, wo der Zähler verwendet wird (zum Beispiel ![Symbol][img1] für die Ansicht Firma). |
+| \[Icon\] | Zeigt an, wo der Zähler verwendet wird (zum Beispiel <i class="ph ph-buildings" aria-label="Company icon"></i> für die Ansicht Firma). |
 | Zähler | Zeigt den Namen des Zählers an (zum Beispiel **Firmennummer** für das Feld **Nummer** in der Ansicht Firma). |
 | Weiter | Zeigt den nächsten Wert für den Zähler an. |
 | Zuweisen | Gibt an, ob die automatische Zählerfunktion verwendet wird, damit das System die Werte für Sie einträgt. |
@@ -66,6 +66,3 @@ Die nachfolgende Tabelle gibt an, wie sich die verschiedenen Kombinationen der a
 <!-- Referenced links -->
 [2]: configure.md
 [3]: document-template-defaults.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../media/icons/admin/contact.png

@@ -1,41 +1,54 @@
 ---
 uid: help-de-contact
-title: Kontaktperson
-description: Eine Personenkarte speichert wertvolle Informationen über Ihre gesamte Kommunikation und Interaktion mit einer Person sowie deren DSGVO-Einwilligungsdokumentation.
+title: Person
+description: Die Person-Ansicht bietet eine sofortige Übersicht über alle Kommunikations- und Interaktionsdaten einer Person. Hier können Sie Kontaktdaten verwalten, Aktivitäten nachverfolgen und DSGVO-bezogene Dokumentation abrufen.
+keywords: Ansicht Person, Person-Ansicht, Person, Kontaktperson
 author: Bergfrid Dias
-date: 12.14.2022
-keywords: person, Person
+date: 02.11.2025
+version: 10.5.2
 topic: concept
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
-# Kontaktperson
+# Person
 
-Eine Personenkarte speichert wertvolle Informationen über Ihre gesamte Kommunikation und Interaktion mit einer Person sowie deren DSGVO-Einwilligungsdokumentation. Alles, was Sie über eine Person suchen möchten, ist auf einer einzigen Anzeige verfügbar.
+Die **Person-Ansicht** bietet eine sofortige Übersicht über alle Kommunikations- und Interaktionsdaten einer Person. Hier können Sie Kontaktdaten verwalten, Aktivitäten nachverfolgen und DSGVO-bezogene Dokumentation abrufen – alles auf einer einzigen Anzeige.
 
-![Personenansicht -screenshot][img3]
+![Die Ansicht Person mit wichtigen Informationen über eine Person, Bereichsregisterkarten und Navigationsschaltflächen -screenshot][img3]
 
-[!include[Intro](includes/contacts-screen-intro.md)]
+Personen, die einer Firma zugeordnet sind, können auch in der Bereichsregisterkarte **Personen** der [Ansicht Firma][8] eingesehen werden. Alle einer Person hinzugefügten Aktivitäten sind automatisch auch mit der Firma verknüpft.
 
-In der Ansicht **Person** wird jeder Datensatz in der Datenbank wie eine Karteikarte angezeigt, die alle Informationen zu dieser Person enthält.
+Sie können zwischen Personen mit den Schaltflächen **Zurück** und **Weiter** (<i class="ph ph-caret-circle-left" aria-hidden="true"></i><i class="ph ph-caret-circle-right" aria-hidden="true"></i>) unten rechts in den Karten wechseln.
 
-Um zwischen den Personen zu wechseln, klicken Sie unten rechts auf den Karten auf die Schaltflächen Zurück/Weiter - ![Symbol][img2] ![Symbol][img1].
+Verwenden Sie die **Suche**, um bestimmte Personen zu finden oder Datensätze zu filtern. In der Ansicht Person können Sie außerdem Dokumente erstellen, E-Mails senden und Folgeaufgaben generieren.
 
-Anhand von selbst festgelegten Kriterien können Sie nach bestimmten Personen [suchen][1]. Außerdem können Sie Dokumente verfassen, Folgeaufgaben erstellen und neue Personen hinzufügen.
+## Registerkarten auf der Personenkarte
 
-## <a id="section-tabs"></a>Die Bereichsregisterkarten der Ansicht Person
+| Registerkarte | Beschreibung |
+|---|---|
+| [Person][2] | Hauptregisterkarte zur Eingabe der wichtigsten Kontaktdaten, einschließlich Titel, Telefon, E-Mail und Adresse. |
+| Details | Zeigt erweiterte Informationen zur Person, wie Geburtstag und bevorzugte Sprache. |
+| [Mehr][19] | Benutzerdefinierte Felder zur Eingabe zusätzlicher personenspezifischer Informationen. |
+| [Interessen][2] | Definieren Sie Interessen der Person für Selektionen oder Kampagnen. Ein Punkt erscheint, wenn Interessen ausgewählt sind. |
+| [Notiz][20] | Freitextbereich für Notizen zur Person. Notizen werden mit einem Punkt markiert, wenn sie gefüllt sind. |
+| [www][21] | Verknüpfung zu einer URL für den Zugriff auf externe Daten oder Webseiten zur Person. |
+| [ERP][22] | Verbindet die Person mit dem ERP-System zur Integration oder Synchronisation. |
 
-Der untere Rand der Ansicht **Person** enthält fünf Standard-[Bereichsregisterkarten][16] mit Informationen, die mit der aktuellen Person verknüpft sind:
+## <a id="section-tabs"></a>Bereichsregisterkarten in der Ansicht Person
+
+Unterhalb der Personenkarte bieten die [Bereichsregisterkarten][16] schnellen Zugriff auf mit der aktuellen Person verknüpfte Informationen:
 
 | Bereichsregisterkarte | Beschreibung |
 |---|---|
-| [Aktivitäten][11] | Enthält alle mit der aktiven Person verknüpften Aktivitäten. |
-| [Verkäufe][12] | Enthält Informationen über alle mit der Person verbundenen Verkäufe an. |
+| [Aktivitäten][11] | Enthält alle mit der Person verknüpften Aktivitäten. |
+| [Verkäufe][12] | Zeigt Informationen zu allen mit der Person verbundenen Verkäufen. |
 | [Anfragen][13] | Zeigt SuperOffice Service-Anfragen für die Person an. |
-| [Projekte][14] | Zeigt alle Projekte an, bei denen die aktive Person ein Projektmitglied ist. |
-| [Beziehungen][15] | Zeigt alle vorhandenen Verbindungen zwischen der aktuellen Person und anderen Personen oder Firmen an. |
+| [Projekte][14] | Zeigt alle Projekte an, bei denen die Person Mitglied ist. |
+| [Beziehungen][15] | Zeigt vorhandene Verbindungen zwischen der aktuellen Person und anderen Personen oder Firmen. |
 
-## Was möchten Sie tun?
+## Verwandte Inhalte
 
 * [Neue Person erstellen][2]
 * [Datenschutzeinstellungen für eine Person bearbeiten][3]
@@ -43,21 +56,15 @@ Der untere Rand der Ansicht **Person** enthält fünf Standard-[Bereichsregister
 * [Personen zusammenführen][5]
 * [Personen löschen][6]
 * [E-Mail an eine Person senden][7]
-* [Massenabgleich der Personeninformation][8]
-* [Massenlöschung von Personen und Firmen aus der Selektion][9]
-* [Verwendung des Papierkorbs zum Wiederherstellen von Firmen und Personen][10]
 
 <!-- Referenced links -->
-[1]: screen/index.md
 [2]: create.md
 [3]: ../../security/privacy/learn/edit-legal-base.md
 [4]: move.md
 [5]: merge-contacts.md
 [6]: delete.md
 [7]: send-email.md
-[8]: ../../search-options/selection/learn/howto/bulk-update.md
-[9]: ../../search-options/selection/learn/howto/mass-delete.md
-[10]: ../../learn/basics/deleting-elements.md#restore
+[8]: ../../company/learn/index.md
 
 [11]: ../../learn/section-tabs/activities-tab.md
 [12]: ../../learn/section-tabs/sales-tab.md
@@ -65,8 +72,10 @@ Der untere Rand der Ansicht **Person** enthält fünf Standard-[Bereichsregister
 [14]: ../../learn/section-tabs/projects-tab.md
 [15]: ../../learn/section-tabs/relations-tab.md
 [16]: ../../learn/section-tabs/index.md
+[19]: ../../custom-objects/learn/more-tab.md
+[20]: ../../learn/basics/notes.md
+[21]: ../../admin/lists/learn/web-panel.md
+[22]: ../../admin/erp/learn/screen/erp-tab.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/loc/en/contact/edit-person.png
+[img3]: ../../../media/loc/en/contact/contact-screen.png

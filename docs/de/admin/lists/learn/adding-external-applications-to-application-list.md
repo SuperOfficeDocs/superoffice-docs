@@ -28,7 +28,7 @@ language: de
 1. Wählen Sie unter **Hinzufügen als** aus, in welcher Form die Anwendung hinzugefügt werden soll:
 
     * **Schaltfläche**: Das Anwendungssymbol wird im Navigator angezeigt. Benutzer können die Anwendung dann durch Klicken auf das Symbol im Navigator direkt öffnen.
-    * **Menüpunkt**: Der Benutzer kann auf die Anwendung zugreifen, indem er im Navigator auf die Schaltfläche **Tools** (![Symbol][img2]) klickt und/oder im Hauptmenü (![Symbol][img1]) die Option **Andere Anwendungen** auswählt.
+    * **Menüpunkt**: Der Benutzer kann auf die Anwendung zugreifen, indem er im Navigator auf die Schaltfläche **Tools** (<i class="ph ph-wrench" aria-hidden="true"></i>) klickt und/oder im Hauptmenü (<i class="ph ph-list" aria-hidden="true"></i>) die Option **Andere Anwendungen** auswählt.
     * **Ereignis**: Die Anwendung wird ausgeführt, wenn SuperOffice CRM aufgerufen bzw. geschlossen wird oder bei einer lokalen Aktualisierung (Travel). Siehe Schritt 8. Sie können zum Beispiel ein Synchronisationsprogramm für einen PDA ausführen, wenn SuperOffice CRM geschlossen wird.
     * **Aufgabe**: Wählen Sie eine Option aus diesem Listenfeld aus, um die Anwendung von der Registerkarte **Aufgabe** in der Ansicht Selektion oder über die Schaltflächen **Aufgabe** verfügbar zu machen.
 
@@ -69,7 +69,7 @@ language: de
 
 1. Wählen Sie im Listenfeld **Anzeigen** die gewünschte Option. Das Listenfeld wird nur angezeigt, wenn Sie **Menüpunkt** unter **Hinzufügen als** ausgewählt haben.
 
-    * **Werkzeuge**: Der Benutzer kann auf die Anwendung zugreifen, indem er im Navigator auf die Schaltfläche **Tools** ( ![Symbol][img2] ) klickt oder im Hauptmenü (![Symbol][img1]) von SuperOffice CRM die Option **Andere Anwendungen** auswählt.
+    * **Werkzeuge**: Der Benutzer kann auf die Anwendung zugreifen, indem er im Navigator auf die Schaltfläche **Tools** klickt oder im Hauptmenü von SuperOffice CRM die Option **Andere Anwendungen** auswählt.
     * **Menü 'Ansicht'**: Der Benutzer kann über die Option **Andere Anwendungen** im Menü **Ansicht** von SuperOffice CRM auf die Anwendung zugreifen.
 
 1. Wählen Sie im Listenfeld **Ausführen, wenn** aus, wenn die Anwendung ausgeführt werden soll. Das Listenfeld wird nur angezeigt, wenn Sie **Ereignis** unter **Hinzufügen als** ausgewählt haben.
@@ -93,9 +93,3 @@ language: de
 
 > [!NOTE]
 > Benutzer müssen sich erneut bei SuperOffice CRM anmelden, um die Anwendung anzuzeigen.
-
-<!-- Referenced links -->
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../../common/icons/nav-tools.png

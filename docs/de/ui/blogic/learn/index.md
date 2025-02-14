@@ -15,7 +15,7 @@ language: de
 
 Um Ihr SuperOffice effizienter zu nutzen und das System noch smarter zu machen, sind über die Entwicklungstools der Expander-Dienste erweiterte Optionen verfügbar.
 
-Wenn Sie Zugriff auf die Entwicklungstools haben, sehen Sie im Navigator das ![Symbol][img1] **Systemdesign**. Sie können zusätzliche Tabellen und Felder erstellen, benutzerdefinierte Workflows über CRM Script erstellen und die verschiedenen Hauptkarten und Dialoge bearbeiten, um sie an Ihre spezifischen Branchenbedürfnisse anzupassen. Diese Tools helfen Ihnen, SuperOffice so anzupassen, dass Ihr Anfragesystem noch leistungsfähiger und relevanter für Ihre Firma wird.
+Wenn Sie Zugriff auf die Entwicklungstools haben, sehen Sie im Navigator das <i class="ph ph-selection-all" aria-hidden="true"></i> **Systemdesign**. Sie können zusätzliche Tabellen und Felder erstellen, benutzerdefinierte Workflows über CRM Script erstellen und die verschiedenen Hauptkarten und Dialoge bearbeiten, um sie an Ihre spezifischen Branchenbedürfnisse anzupassen. Diese Tools helfen Ihnen, SuperOffice so anzupassen, dass Ihr Anfragesystem noch leistungsfähiger und relevanter für Ihre Firma wird.
 
 [!include[Restricted access](../../../learn/includes/note-insufficient-rights.md)]
 
@@ -63,4 +63,3 @@ Durch [Zusatztabellen und Felder zu SuperOffice hinzufügen][1] können Sie eine
 [14]: ../../../automation/crmscript/learn/screen/data-exchange.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-systemdesign-active.png

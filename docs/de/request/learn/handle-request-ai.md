@@ -2,9 +2,9 @@
 uid: help-de-request-ai
 title: Effizientes Bearbeiten von Anfragen mithilfe von KI
 description: Die Einführung von Künstlicher Intelligenz (KI) in SuperOffice 10 bietet Bearbeitern von Anfragen/Supportmitarbeitern ein neues Set intelligenter Tools für einen effizienteren Arbeitstag.
+keywords: Anfrage, KI, effizient
 author: Kirsti Aakerholt
 date: 04.19.2023
-keywords: Anfrage, KI, effizient
 topic: concept
 audience: person
 audience_tooltip: SuperOffice Service
@@ -30,9 +30,9 @@ Wenn Sie eine Mitteilung in einer Sprache erhalten, die Sie nicht lesen können,
 
 Ist die Person glücklich oder wütend?
 
-* Negatives ![Symbol][img2]
-* Neutrales ![Symbol][img3]
-* Positives ![Symbol][img4]
+* Negatives <i class="ph ph-smiley-sad" aria-hidden="true"></i>
+* Neutrales <i class="ph ph-smiley-meh" aria-hidden="true"></i>
+* Positives <i class="ph ph-smiley" aria-hidden="true"></i>
 
 Wenn diese Funktion aktiv ist, werden eingehende E-Mail-Anfragen analysiert, um die Stimmung der Person festzustellen. Ein Emoticon unter der Nachricht zeigt die erkannte Stimmung (zufrieden, unzufrieden oder neutral) an.
 
@@ -50,8 +50,3 @@ Lassen Sie das System Anfragen für Sie kategorisieren und sparen Sie damit Zeit
 [1]: ../../ai/learn/index.md
 [2]: ../../ai/learn/text-analysis.md
 [3]: ../../ai/learn/categorization.md
-
-<!-- Referenced images -->
-[img2]: ../../../../common/icons/sentiment-negative.png
-[img3]: ../../../../common/icons/sentiment-neutral.png
-[img4]: ../../../../common/icons/sentiment-positive.png

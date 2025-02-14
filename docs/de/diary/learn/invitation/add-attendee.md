@@ -1,12 +1,15 @@
 ---
 uid: help-de-invitation-add-attendee
 title: Teilnehmer zu Folgeaufgaben hinzufügen
-description: "Personen können auf unterschiedliche Weise zu einem Termin eingeladen werden. Diese Anleitung zeigt, wie Sie Teilnehmer zu einem Termin hinzufügen."
+description: Personen können auf unterschiedliche Weise zu einem Termin eingeladen werden. Diese Anleitung zeigt, wie Sie Teilnehmer zu einem Termin hinzufügen.
+keywords: Teilnehmer einladen, Person einladen, Kollege einladen, Teilnehmer hinzufügen, Ressource hinzufügen, Kalender, Folgeaufgabe, Einladung, Teilnehmer, Besprechung
 author: Bergfrid Dias
-date: 05.21.2024
-version: 10.3.6
-keywords: Kalender, Folgeaufgabe, Einladung, Teilnehmer
+date: 02.11.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -30,9 +33,9 @@ Wenn Sie eine Folgeaufgabe eintragen, die weitere Personen betrifft, können Sie
 1. Klicken Sie auf das Feld **Teilnehmer hinzufügen**. Wählen Sie dann eine oder mehrere Personen aus der Liste.
 
     * Beginnen Sie mit dem Schreiben, um nach einer Person in ganz SuperOffice zu suchen.
-    * Wählen Sie eine Person aus der Verlaufsliste ![Symbol][img4] oder Ihren Favoriten ![Symbol][img5].
-    * Klicken Sie ![Symbol][img6], um nach einem Kollegen zu suchen, oder ![Symbol][img7], um Personen auszuwählen, die mit einem Unternehmen verknüpft sind.
-    * Sie können auch Verkaufsinteressenten ![Symbol][img8] und Projektmitglieder ![Symbol][img9] auswählen.
+    * Wählen Sie eine Person aus der Verlaufsliste (<i class="ph ph-clock" aria-hidden="true"></i>) oder Ihren Favoriten (<i class="ph ph-star" aria-hidden="true"></i>).
+    * Klicken Sie <i class="ph ph-users" aria-label="Group icon"></i>, um nach einem Kollegen zu suchen, oder <i class="ph ph-buildings" aria-label="Company icon"></i>, um Personen auszuwählen, die mit einem Unternehmen verknüpft sind.
+    * Sie können auch Verkaufsinteressenten (<i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>) und Projektmitglieder (<i class="ph ph-clipboard-text" aria-hidden="true"></i>) auswählen.
 
     ![Folgeaufgabedialog, Teilnehmer auswählen -screenshot][img17]
 
@@ -51,7 +54,7 @@ Wenn Sie eine Folgeaufgabe eintragen, die weitere Personen betrifft, können Sie
 
 ### <a id="availability"></a>Terminassistent
 
-Der Terminassistent ist Teil den neue **Folgeaufgabe**-Dialog. Der detaillierte Kalender zeigt die Verfügbarkeit jedes internen Teilnehmers (Mitarbeiter). Die oberste Reihe zeigt die akkumulierte Verfügbarkeit. Die Verfügbarkeit von externen Teilnehmern und E-Mail-Teilnehmern ist unbekannt.
+Der Terminassistent ist Teil den **Folgeaufgabe**-Dialog. Der detaillierte Kalender zeigt die Verfügbarkeit jedes internen Teilnehmers (Mitarbeiter). Die oberste Reihe zeigt die akkumulierte Verfügbarkeit. Die Verfügbarkeit von externen Teilnehmern und E-Mail-Teilnehmern ist unbekannt.
 
 ![Folgeaufgabedialog, Terminassistent -screenshot][img18]
 
@@ -102,7 +105,7 @@ Falls für die ausgewählte Person keine gültige E-Mail-Adresse in SuperOffice 
 
 Verwendung der SuperOffice-E-Mail: Wenn Sie die erforderlichen Informationen nicht in der Ansicht **Einloggen** eingegeben haben, die angezeigt wird, wenn Sie in SuperOffice CRM zum ersten Mal auf die Schaltfläche **Posteingang** anklicken, wird die Schaltfläche **E-Mail-Einladung** deaktiviert.
 
-## Zugehörige Inhalte
+## Verwandte Inhalte
 
 * [Erstellen von Terminen][3]
 * [An Videokonferenz teilnehmen][4]
@@ -114,12 +117,6 @@ Verwendung der SuperOffice-E-Mail: Wenn Sie die erforderlichen Informationen nic
 [5]: accept-decline.md
 
 <!-- Referenced images -->
-[img4]: ../../../../../common/icons/history-icon.png
-[img5]: ../../../../../common/icons/favourite-icon.png
-[img6]: ../../../../../common/icons/personblack.png
-[img7]: ../../../../../common/icons/singlecolour/contact.png
-[img8]: ../../../../../common/icons/sale.png
-[img9]: ../../../../../common/icons/singlecolour/project.png
 [img13]: ../../../../media/loc/en/diary/preview-invitation.png
 [img14]: ../../../../media/loc/en/diary/invite.png
 [img15]: ../../../../media/loc/en/diary/large-follow-up-dialog.png

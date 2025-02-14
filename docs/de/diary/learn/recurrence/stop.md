@@ -1,36 +1,47 @@
 ---
 uid: help-de-recurrence-stop
-title: Regelmäßige Folgeaufgabe stoppen
-description: Regelmäßige Folgeaufgabe stoppen
-author: SuperOffice RnD
-date: 05.21.2024
-version: 10.3.6
-keywords: Kalender, Folgeaufgabe, Wiederholen, Wiederkehren
+title: Wiederkehrende Folgeaufgabe stoppen
+description: So stoppen Sie eine wiederkehrende Folgeaufgabe.
+keywords: Wiederholung stoppen, zukünftige Instanzen, wiederkehrende Folgeaufgabe, Wiederholen, Wiederkehren, Frequenz, Planung, Muster, Kalender, Folgeaufgabe, regelmäßig
+author: Bergfrid Dias
+date: 02.11.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
-# Regelmäßige Folgeaufgabe stoppen
-
-Wenn Sie eine regelmäßige Folgeaufgabe stoppen, werden alle Instanzen der Folgeaufgabe *nach* der von Ihnen bearbeiteten Folgeaufgabe gelöscht. Ist die Folgeaufgabe die erste einer Serie regelmäßiger Folgeaufgaben, werden die regelmäßigen Muster gelöscht und sie wird zu einer "normalen" Folgeaufgabe.
+# Wiederkehrende Folgeaufgabe stoppen
 
 ## Wiederholung stoppen (diese Instanz behalten)
 
-1. Öffnen Sie die Nachverfolgung aus dem Tagebuch oder im Tab **Aktivitäten**.
-1. Klicken Sie auf das Wiederholungssymbol ![Symbol][img1].
-1. Klicken Sie auf **Wiederholung stoppen**.
-1. Klicken Sie auf **Speichern** im Dialogfeld **Nachverfolgung**, um alle Änderungen zu speichern.
+Wenn Sie eine wiederkehrende Folgeaufgabe stoppen, werden alle Instanzen der Folgeaufgabe *nach* der von Ihnen bearbeiteten gelöscht. Wenn die Folgeaufgabe die erste in einer Serie ist, wird das Wiederholungsmuster entfernt, und die Folgeaufgabe wird zu einer "normalen" Aufgabe.
 
-## Lösche diese und alle zukünftigen Instanzen
+1. Öffnen Sie die Folgeaufgabe aus dem Kalender oder der Bereichsregisterkarte **Aktivitäten**.
 
-Sie können auch eine wiederkehrende Nachverfolgung auswählen und sie im Tagebuch löschen.
+1. Führen Sie einen der folgenden Schritte aus:
 
-1. Wählen Sie die erforderliche Nachverfolgung aus.
+    * Klicken Sie auf die **Aufgabe**-Schaltfläche (<i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabenmenü"></i>) und wählen Sie **Wiederholung stoppen**.
+    * Klicken Sie auf den Frequenzlink neben <i class="ph ph-arrows-clockwise" aria-label="Wiederholen"></i> und dann im Dialogfeld auf **Wiederholung stoppen**.
+
+1. Bestätigen Sie die Aktion im Bestätigungsdialog mit **Ja**.
+
+1. Klicken Sie im **Folgeaufgabe**-Dialog auf **Speichern**, um Ihre Änderungen zu übernehmen.
+
+## Diese und alle zukünftigen Instanzen löschen
+
+Sie können eine wiederkehrende Folgeaufgabe auch direkt im Kalender auswählen und löschen.
+
+1. Wählen Sie die gewünschte Folgeaufgabe aus.
 2. Klicken Sie mit der rechten Maustaste und wählen Sie **Löschen**.
-3. Wählen Sie **Lösche alle zukünftigen Instanzen, einschließlich dieser** aus.
+3. Wählen Sie **Lösche alle zukünftigen Instanzen, einschließlich dieser**.
 4. Klicken Sie auf **Ja**, um zu bestätigen.
 
-## Was möchten Sie jetzt tun?
+![Dialogfeld Wiederkehrende Folgeaufgabe löschen -screenshot][img1]
+
+## Verwandte Inhalte
 
 * [Regelmäßige Folgeaufgabe erstellen][1]
 * [Regelmäßige Folgeaufgabe bearbeiten][2]
@@ -40,4 +51,4 @@ Sie können auch eine wiederkehrende Nachverfolgung auswählen und sie im Tagebu
 [2]: ../edit-follow-up.md#repeat
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/refresh-icon.png
+[img1]: ../../../../media/loc/en/diary/delete-repeating-fo.png

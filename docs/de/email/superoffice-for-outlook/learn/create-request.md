@@ -38,6 +38,6 @@ Sie können eine [Anfrage][1] in SuperOffice direkt aus Outlook erstellen. Wenn 
 > Sie können auch direkt aus der E-Mail eine Folgeaufgabe oder einen Verkauf erstellen.
 
 <!-- Referenced links -->
-[1]: ../../../request/learn/howto/create.md
+[1]: ../../../request/learn/create.md
 
 <!-- Referenced images -->

@@ -15,7 +15,7 @@ Hier können Sie die Eigenschaften einer Ansicht bearbeiten. Sie können ein Skr
 
 ## Eigenschaften
 
-* **Ordner:** Wenn Sie die Ansichten in einer Ordnerstruktur angeordnet haben, klicken Sie auf das ![Symbol][img1] und wählen einen Ordner aus.
+* **Ordner:** Wenn Sie die Ansichten in einer Ordnerstruktur angeordnet haben, klicken Sie auf <i class="ph ph-caret-down" aria-label="Chevron"></i> und wählen einen Ordner aus.
 * **Name**: Ein aussagekräftiger Name für den Bildschirm.
 * **ID-String**: Eine Zeichenfolge mit einer eindeutigen Bezeichnung der Anzeige, damit diese in URL-Adressen verwendet werden kann.
 * **Authentifizierungsschlüssel**: Sie können auch eine kundenspezifische Ansicht ausführen, ohne als Benutzer angemeldet zu sein. Dazu müssen Sie einen Authentifizierungsschlüssel eingeben.
@@ -30,7 +30,4 @@ Hier können Sie die Eigenschaften einer Ansicht bearbeiten. Sie können ein Skr
 * **Verborgene Variablen**: Die hier definierten Variablen werden beim Senden der Ansicht gespeichert, sodass die nächste Ansicht auf sie zugreifen kann.
 
 <!-- Referenced links -->
-[1]: ../../../request/learn/howto/create.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/dropdown-arrow.png
+[1]: ../../../request/learn/create.md

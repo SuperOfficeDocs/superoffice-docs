@@ -1,6 +1,6 @@
 <!-- markdownlint-disable-file MD041 -->
 > [!TIP]
-> Wenn Sie eine vorhandene Dokumentenkampagne anzeigen und drucken möchten, schließen Sie den Schritt **Setup**, indem Sie auf **Abbrechen** oder **Speichern + schließen** klicken. Wählen Sie die Registerkarte **Kampagnen**, suchen Sie das Dokument, klicken Sie auf ![Symbol][img1] und wählen Sie **Ansicht** an. Klicken Sie auf die Schaltfläche unter **Erstelltes Dokument herunterladen**. Das Dokument wird in Ihrem Browser heruntergeladen. Öffnen und drucken Sie das Dokument.
+> Wenn Sie eine vorhandene Dokumentenkampagne anzeigen und drucken möchten, schließen Sie den Schritt **Setup**, indem Sie auf **Abbrechen** oder **Speichern + schließen** klicken. Wählen Sie die Registerkarte **Kampagnen**, suchen Sie das Dokument, klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie **Ansicht** an. Klicken Sie auf die Schaltfläche unter **Erstelltes Dokument herunterladen**. Das Dokument wird in Ihrem Browser heruntergeladen. Öffnen und drucken Sie das Dokument.
 
 Mit dem Workflow für Dokumentenkampagnen können Sie ein PDF-Dokument drucken und an Ihre Kunden versenden. Der erste Schritt zum Erstellen einer Dokumentenkampagne wird als **Einstellungen** bezeichnet. Hier können Sie den Namen der Kampagne, die Überschrift und den Verteiler im Dokument sowie Archivierungsoptionen für die Kampagne einstellen.
 
@@ -45,6 +45,3 @@ Sie können eine Dokumentenkampagne mit einem bestimmten Verkauf verknüpfen. Di
 <!-- Referenced links -->
 [1]: ../../../../../document/templates/variables/index.md
 [19]: ../../../../learn/create-folder.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../../media/icons/btn-menu.png

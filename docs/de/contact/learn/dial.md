@@ -14,17 +14,17 @@ language: de
 Wenn Ihre IP-Telefonlösung richtig konfiguriert ist, können Sie eine Person direkt aus SuperOffice CRM anrufen auf eine der folgenden Weisen:
 
 * Klicken Sie auf eine Telefonnummer in der Ansicht Firma
-* Klicken Sie auf ![Symbol][img1] in einem Dialogfeld.
+* Klicken Sie auf <i class="ph ph-phone" aria-label="Phone icon"></i> in einem Dialogfeld.
 * Klicken Sie mit der rechten Maustaste auf eine Person in einer Bereichsregisterkarte und wählen Sie **Anruf *Name***.
 * Personen anrufen.
 
-## Anruf über die Dialogfelder Termin, Aufgabe, Anruf und Dokument
+## Anruf über die Dialogfelder Folgeaufgabe und Dokument
 
-Zu diesem Zweck verwenden Sie die Telefon-Schaltfläche, die z. B. in den Dialogfeldern **Termin**, **Aufgabe**, **Anruf** und **Dokument** angezeigt wird:
+Zu diesem Zweck verwenden Sie die Telefon-Schaltfläche, die z. B. in den Dialogfeldern **Folgeaufgabe** und **Dokument** angezeigt wird:
 
-1. Öffnen Sie einen Termin, eine Aufgabe, einen Anruf oder ein Dokument.
+1. Öffnen Sie eine Folgeaufgabe oder ein Dokument.
 2. Wählen Sie im betreffenden Dialogfeld die gewünschte Person im Feld **Person** aus.
-3. Klicken Sie auf die Schaltfläche neben dem Feld Person ![Symbol][img1]. Eine Liste von Nummern, die mit der ausgewählten Person verknüpft sind, wird angezeigt.
+3. Klicken Sie auf die Anruf-Schaltfläche neben dem Feld Person. Eine Liste von Nummern, die mit der ausgewählten Person verknüpft sind, wird angezeigt.
 4. Wählen Sie die Telefonnummer, die Sie anrufen möchten. Die Person wird daraufhin angerufen.
 
 <!-- markdownlint-disable-next-line MD013 -->
@@ -49,14 +49,11 @@ Wenn ein IP-Telefon, Skype oder FaceTime installiert ist, können Sie aus SuperO
 
 ### Verfügbare Parameter
 
-**IP-Telefon**: Tel:%p (Standardwert)
-**Skype**: callto:%p
-**FaceTime**: FaceTime:%p
+* **IP-telefon**: `tel:%p` (standardverdi)
+* **Skype**: `callto:%p`
+* **FaceTime**: `facetime:%p`
 
 [Vorlagenvariablen][2] können ebenfalls in den Telefonparametern verwendet werden.
 
 <!-- Referenced links -->
 [2]: ../../document/templates/learn/template-variables.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/phone.png

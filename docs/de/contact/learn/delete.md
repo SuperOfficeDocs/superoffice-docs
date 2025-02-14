@@ -1,62 +1,60 @@
 ---
 uid: help-de-contact-delete
 title: Person löschen
-description: Person löschen
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: person, Person
+description: So löschen Sie eine Person in SuperOffice CRM.
+keywords: Person löschen, Person entfernen, ehemalige Mitarbeiter, Ausgeschiedener Mitarbeiter, Personenverwaltung, doppelte Einträge, Duplikat
+author: Bergfrid Dias
+date: 02.11.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
-# Personen löschen
+# Person löschen
 
-Aus welchem Grund werden Personen in SuperOffice gelöscht? Ein Kontakt wurde zum Beispiel versehentlich hinzugefügt oder ist ein Duplikat, oder eine Person wurde nur mit einem Vornamen hinzugefügt.
-
-Es gibt drei Möglichkeiten, eine Person aus SuperOffice CRM zu löschen:
-
-* [Eine Person löschen][1]
-* [Massenlöschung von Personen][3]
-
-> [!TIP]
-> Anstatt eine Person zu löschen, können Sie auf der Personenkarte **Ausgeschiedener Mitarbeiter** aktivieren (siehe [Neue Person erstellen][6]. Dann verschwindet der Name dieser Person nicht von den Aktivitäten, mit denen sie verknüpft ist.
+Manchmal ist es erforderlich, Personen in SuperOffice CRM zu löschen – beispielsweise doppelte Einträge, unvollständige Datensätze oder versehentlich hinzugefügte Personen.
 
 [!include[Deleting items](../../learn/includes/tip-deletion.md)]
 
-## Um eine Person von der Ansicht Person zu löschen
+> [!TIP]
+> Anstatt eine Person zu löschen, können Sie sie als **Ausgeschiedener Mitarbeiter** markieren. Dadurch verbleibt der Name mit den zugehörigen Aktivitäten verknüpft.
 
-[!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
+## Eine Person aus der Ansicht Person löschen
 
-1. Klicken Sie auf das ![Symbol][img1] der Schaltfläche **Aufgabe** und wählen Sie **Löschen** an.
+1. [!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
 
-1. Klicken Sie im Dialogfeld **Person löschen** auf **Ja**, um zu bestätigen, dass Sie die Person wirklich löschen möchten.
+1. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe-Schaltfläche"></i> oben rechts in der Personenkarte.
 
-## Um eine Person von der Ansicht Firma zu löschen
+1. Wählen Sie **Löschen**.
+
+1. Im Dialogfeld **Person löschen** klicken Sie auf **Ja**, um zu bestätigen.
+
+## Eine Person aus der Ansicht Firma löschen
 
 1. [!include[Go to company](../../learn/includes/goto-company.md)]
 
-1. Wählen Sie die Bereichsregisterkarte **Personen**.
+1. Wählen Sie die [Bereichsregisterkarte Personen][4] aus.
 
-1. Wählen Sie die betreffende Person aus.
+1. Wählen Sie eine oder mehrere Personen aus, die Sie löschen möchten.
 
-    > [!NOTE]
-    > Sie können mehrere Personen gleichzeitig wählen und löschen.
+1. Klicken Sie auf **Löschen** in der Fußzeile der Bereichsregisterkarte **Personen**. Alternativ können Sie mit der rechten Maustaste klicken und **Löschen** wählen.
 
-1. Klicken Sie auf die Schaltfläche **Löschen** in der Fußzeile der Bereichsregisterkarte **Personen**. Sie können auch mit der rechten Maustaste auf die Person klicken und **Löschen** wählen.
+1. Im Dialogfeld **Person löschen** klicken Sie auf **Ja**, um zu bestätigen.
 
-1. Klicken Sie im Dialogfeld **Person löschen** auf **Ja**, um zu bestätigen, dass Sie die Person wirklich löschen möchten.
+[!include[Note about restore](../../learn/includes/note-restore.md)]
 
-## Verwandte Themen
+## Verwandte Inhalte
 
 * [Personen zusammenführen][2]
+* [Massenlöschung von Personen][3]
+* [Massenlöschung von Personen und Firmen aus der Selektion][9]
 * [Gelöschte Firmen und Personen wiederherstellen][5]
 
 <!-- Referenced links -->
-[1]: delete.md
 [2]: merge-contacts.md
 [3]: ../../learn/basics/bulk-update.md
 [5]: ../../learn/basics/deleting-elements.md#restore
-[6]: create.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
+[4]: ../../learn/section-tabs/contacts-tab.md
+[9]: ../../search-options/selection/learn/howto/mass-delete.md

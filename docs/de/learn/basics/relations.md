@@ -4,8 +4,8 @@ title: Firmen- und Personenbeziehungen in SuperOffice CRM
 description: Erfahren Sie, wie Sie Beziehungen zwischen Firmen und Personen in SuperOffice CRM anzeigen, hinzufügen und verwalten können, um komplexe geschäftliche Verknüpfungen und benutzerdefinierte Verbindungen einfacher nachzuverfolgen.
 keywords: Beziehung hinzufügen, Beziehung löschen, Beziehung, Verbindung, Person, Firma
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10.3.11
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM

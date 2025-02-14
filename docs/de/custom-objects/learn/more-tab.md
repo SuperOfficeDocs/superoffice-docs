@@ -14,7 +14,7 @@ language: de
 
 # Die Registerkarte Mehr
 
-Die **Registerkarte Mehr** in SuperOffice CRM ermöglicht es Benutzern, benutzerdefinierte Felder für verschiedene Entitäten anzuzeigen und zu verwalten, einschließlich Firmen, Personen, Verkäufe, Projekte, Nachverfolgungen und Dokumente. Diese Anpassungsfunktion hilft Ihnen dabei, spezifische Informationen zu erfassen, die für die Bedürfnisse Ihrer Organisation einzigartig sind, und erhöht die Flexibilität Ihres CRM.
+Die **Registerkarte Mehr** in SuperOffice CRM ermöglicht es Benutzern, benutzerdefinierte Felder für verschiedene Entitäten anzuzeigen und zu verwalten, einschließlich Firmen, Personen, Verkäufe, Projekte, Folgeaufgaben und Dokumente. Diese Anpassungsfunktion hilft Ihnen dabei, spezifische Informationen zu erfassen, die für die Bedürfnisse Ihrer Organisation einzigartig sind, und erhöht die Flexibilität Ihres CRM.
 
 Benutzerdefinierte Felder in der **Registerkarte Mehr** erleichtern es Ihrer Organisation, zusätzliche Details wie Hardware im Besitz von Personen, Mitarbeiterfluktuation oder benutzerdefinierte Daten, die in SuperOffice CRM standardmäßig nicht verfügbar sind, zu verfolgen.
 
@@ -48,7 +48,7 @@ Um Daten in der Mehr-Registerkarte anzuzeigen:
 
 ## Informationen in der Mehr-Registerkarte bearbeiten
 
-Klicken Sie auf **Bearbeiten**, um die Informationen in der **Mehr-Registerkarte** zu bearbeiten.
+Klicken Sie auf <i class="ph ph-pencil-simple" aria-label="Edit"></i>, um die Informationen in der **Mehr-Registerkarte** zu bearbeiten.
 
 ## Zusätzliche Tipps
 

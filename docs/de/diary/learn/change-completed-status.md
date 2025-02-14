@@ -14,15 +14,15 @@ language: de
 
 Wenn eine Aktivität abgeschlossen ist, können Sie diese als erledigt markieren.
 
-**Abgeschlossen** ist eine Umschaltfunktion, die Sie mit dem gleichen Menü- oder Tastaturbefehl aktivieren und deaktivieren können. Ein Häkchen bedeutet, dass die Aktivität **erledigt** ist.
+**Abgeschlossen** ist eine Umschaltfunktion, die Sie mit dem gleichen Menü- oder Tastaturbefehl aktivieren und deaktivieren können. Ein Häkchen bedeutet, dass die Aktivität **abgeschlossen** ist.
 
 ## Schritte
 
 1. Führen Sie eine der folgenden Aktionen aus:
 
-    * Klicken Sie mit der rechten Maustaste auf die Aktivität, und wählen Sie **Erledigt**.
+    * Klicken Sie mit der rechten Maustaste auf die Aktivität, und wählen Sie *Abgeschlossen**.
     * Klicken Sie auf das Kontrollkästchen in der Spalte ![Symbol][img2] auf der Bereichsregisterkarte **Aktivitäten**, die **Abgeschlossen** wurde.
-    * Öffnen Sie die Aktivität und wählen Sie **Erledigt**.
+    * Öffnen Sie die Aktivität und wählen Sie *Abgeschlossen**.
 
 1. Aktivieren/Deaktivieren Sie das Kontrollkästchen im Fußbereich des Dialogs.
 

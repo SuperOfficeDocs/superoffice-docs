@@ -118,7 +118,7 @@ Innerhalb der Gruppe (zwischen TableStart und TableEnd) können Sie spezifische 
 
 Um die Reihenfolge der Angebotszeilen zu ändern, verwenden Sie das **OrderBy**-Tag mit einem Zeilen-Niveau-Suffix. Zum Beispiel sortiert `OrderBy:name` Produkte alphabetisch nach Name und `OrderBy:vatInfo` sortiert Produkte nach MwSt-Status. Nur eine Ebene der Sortierung wird unterstützt.
 
-### <a id ="culture" />Formatierung von numerischen und Datumsdaten
+### <a id ="culture"></a>Formatierung von numerischen und Datumsdaten
 
 Numerische und Datumsfelder können formatiert werden, um den ausgewählten Sprach-/Kultureinstellungen zu entsprechen (beeinflusst die Anzeigeordnung und Trennzeichen):
 

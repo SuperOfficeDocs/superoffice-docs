@@ -18,7 +18,7 @@ Sie definieren, welche URL-Adressen den Benutzern in der Ansicht **Listen** in E
 > [!NOTE]
 > Dateien oder Anwendungen, die lokal ausgeführt werden müssen (zum Beispiel Dateien mit der Erweiterung exe), sind nicht über SuperOffice CRM for Web zugreifbar.
 
-Die Objekte werden in der Reihenfolge angezeigt, in der Sie sie eingegeben haben. Wenn Sie die Reihenfolge ändern möchten, wählen Sie das gewünschte Objekt aus und verschieben Sie es mit den Pfeiltasten links von der Liste ( ![Symbol][img1] ![Symbol][img2] ) nach oben oder unten.
+Die Objekte werden in der Reihenfolge angezeigt, in der Sie sie eingegeben haben. Wenn Sie die Reihenfolge ändern möchten, wählen Sie das gewünschte Objekt aus und verschieben Sie es mit den Pfeiltasten links von der Liste (<i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>) nach oben oder unten.
 
 Nachdem dem Hinzufügen von Objekten können Sie für jedes einzelne Objekt Details festlegen. Sie können Folgendes festlegen:
 
@@ -33,7 +33,3 @@ Nachdem dem Hinzufügen von Objekten können Sie für jedes einzelne Objekt Deta
 [1]: organize/headings.md
 [2]: organize/user-group-filtering.md
 [3]: adding-external-applications-to-application-list.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/arrow-up.png
-[img2]: ../../../../media/icons/arrow-down.png

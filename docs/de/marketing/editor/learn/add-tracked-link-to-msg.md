@@ -28,7 +28,7 @@ Durch das Einrichten von Links, die Leser zu verschiedenen Inhalten auf Ihrer We
 
     * So fügen Sie einen bestehenden überwachten Link hinzu:
 
-      * Text: Klicken Sie auf ![Symbol][img1] in der Werkzeugleiste, wählen Sie **Spezielle Links** > **Überwachte Links** und einen Link aus.
+      * Text: Klicken Sie auf <i class="ph ph-link" aria-label="Insert/edit link"></i> > **Überwachte Links** und einen Link aus.
       * Bild: In der Seitenleiste (unter **Aktion**) wählen Sie **Besondere Links** > **Überwachte Links** und einen Link aus.
 
     * Klicken Sie unten in der Ansicht auf [Neuen überwachten Link erstellen][5], damit Sie einen **neuen überwachten Link erstellen** können. Das Dialogfeld **Linkeigenschaften** wird geöffnet.
@@ -37,7 +37,7 @@ Durch das Einrichten von Links, die Leser zu verschiedenen Inhalten auf Ihrer We
 
 ## Tipps
 
-Sie können reguläre (nicht überwachte) Links hinzufügen. Für Textlinks klicken Sie auf ![Symbol][img1] in der Werkzeugleiste. Für Bildlinks verwenden Sie das Feld **Bild-URL** in der Seitenleiste.
+Sie können reguläre (nicht überwachte) Links hinzufügen. Für Textlinks klicken Sie auf <i class="ph ph-link" aria-label="Insert/edit link"></i> Feld **Bild-URL** in der Seitenleiste.
 
 Wenn Sie später feststellen, diese Links ebenfalls überwachen, wählen Sie die Option **Alle Links überwachen** unter **überwachen** im Schritt 1: Einstellungen. Diese Links werden jedoch nur für die entsprechende Kampagne überwacht und sind nicht für andere Kampagnen verfügbar oder in Flows.
 
@@ -57,5 +57,4 @@ Wenn Sie später feststellen, diese Links ebenfalls überwachen, wählen Sie die
 [6]: ../../tracked-links/learn/define-link-actions.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/link.png
 [img2]: ../../../../media/loc/en/marketing/tracked-links-in-editor.png

@@ -4,8 +4,8 @@ title: Verknüpfungen
 description: Verknüpfungen
 keywords: Link hinzufügen, Registerkarte Verknüpfungen, Verknüpfung, Link
 author: Bergfrid Dias
-date: 12.17.2024
-version: 10
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -33,7 +33,7 @@ Ein Punkt erscheint neben der Registerkarte **Verknüpfungen**, wenn sie einen o
 
 2. Wählen Sie die Registerkarte **Verknüpfungen**.
 
-3. Klicken Sie auf **Bearbeiten** und dann auf **Hinzufügen**.
+3. Klicken Sie auf **Bearbeiten** (<i class="ph ph-pencil-simple" aria-hidden="true"></i>) und dann auf **Hinzufügen**.
 
 4. Im Dialogfeld **Link hinzufügen**:
 
@@ -50,7 +50,7 @@ Ein Punkt erscheint neben der Registerkarte **Verknüpfungen**, wenn sie einen o
 ## Verknüpfung entfernen
 
 1. Gehen Sie zur Registerkarte **Verknüpfungen**.
-2. Klicken Sie auf **Bearbeiten**.
+2. Klicken Sie auf <i class="ph ph-pencil-simple" aria-label="Bearbeiten"></i>.
 3. Klicken Sie auf die **Löschen-Schaltfläche** (rotes X) neben der Verknüpfung, den Sie entfernen möchten.
 4. Klicken Sie auf **Speichern**.
 

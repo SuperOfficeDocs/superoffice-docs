@@ -4,10 +4,10 @@ title: Bereichsregisterkarten
 description: Bereichsregisterkarten
 keywords: Bereichsregisterkarte, Archiv
 author: Bergfrid Dias
-date: 04.09.2024
-version: 10.3.4
+date: 02.11.2025
+version: 10.5.2
 topic: concept
-audience: user
+audience: person
 audience_tooltip: SuperOffice CRM
 language: de
 ---
@@ -34,7 +34,7 @@ Auf den Bereichsregisterkarten können Sie die Listen nach den verschiedenen Spa
 Um die Ladezeit zu reduzieren, wird nur eine festgelegte Anzahl von Datensätzen angezeigt, wenn eine Bereichsregisterkarte geöffnet wird. Um alle Datensätze anzuzeigen, müssen Sie unten auf der Bereichsregisterkarte auf **Alle anzeigen** klicken.
 
 1. Wechseln Sie zu der Bereichsregisterkarte, die Sie bearbeiten möchten.
-2. Klicken Sie auf das ![Symbol][img1] rechts neben den Spaltenüberschriften.
+2. Klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> rechts neben den Spaltenüberschriften.
 3. Klicken Sie im Dialogfeld auf die Liste **Seitenformat** und wählen Sie einen Wert aus.
 4. Klicken Sie auf **OK**.
 
@@ -47,14 +47,13 @@ Um die Ladezeit zu reduzieren, wird nur eine festgelegte Anzahl von Datensätzen
 * [Filter in Bereichsregisterkarten verwenden][4]
 * [Spalten konfigurieren][6]
 * [Bereichsregisterkarten exportieren][7]
-* [Bereichsregisterkarten in der Ansicht Firma][9]
-* [Bereichsregisterkarten in der Ansicht Person][10]
-* [Bereichsregisterkarten in der Ansicht Kalender][11]
-* [Bereichsregisterkarten in der Ansicht Verkauf][12]
-* [Bereichsregisterkarten in der Ansicht Projekt][13]
-* [Bereichsregisterkarten in der Ansicht Selektion][14]
-* [Arbeiten mit dynamischen und statischen Selektionen][15]
-* [Bereichsregisterkarten mit extra-field relations][16]
+* [Die Bereichsregisterkarte Aktivitäten][11]
+* [Die Bereichsregisterkarte Personen][12]
+* [Die Bereichsregisterkarte Projekte][13]
+* [Die Bereichsregisterkarte Relationen][14]
+* [Die Bereichsregisterkarte Anfragen][15]
+* [Die Bereichsregisterkarte Verkäufe][16]
+* [Bereichsregisterkarten basierend auf Extra-Feld-Relationen][20]
 
 <!-- Referenced links -->
 [1]: ../getting-started/preferences.md
@@ -62,14 +61,12 @@ Um die Ladezeit zu reduzieren, wird nur eine festgelegte Anzahl von Datensätzen
 [4]: filter.md
 [6]: configure-columns.md
 [7]: export-archives.md
-[9]: ../../company/learn/index.md#section-tabs
-[10]: ../../contact/learn/index.md#section-tabs
-[11]: ../../diary/learn/screen/index.md
-[12]: ../../sale/learn/index.md#section-tabs
-[13]: ../../project/learn/index.md#section-tabs
-[14]: ../../search-options/selection/learn/screen/index.md
-[15]: ../../search-options/selection/learn/index.md
-[16]: ../../custom-objects/learn/extra-field.md#relation
+[11]: activities-tab.md
+[12]: contacts-tab.md
+[13]: projects-tab.md
+[14]: relations-tab.md
+[15]: requests-tab.md
+[16]: sales-tab.md
+[20]: ../../custom-objects/learn/extra-field.md#relation
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png

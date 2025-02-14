@@ -1,11 +1,11 @@
 ---
 uid: help-de-sections-tabs-group
 title: Listen gruppieren
-description: "Sie können eine Liste nach einem oder mehreren Datentypen gruppieren, um einen besseren Überblick über die Datensätze in einer Bereichsregisterkarte (Archiv) zu erhalten."
+description: Sie können eine Liste nach einem oder mehreren Datentypen gruppieren, um einen besseren Überblick über die Datensätze in einer Bereichsregisterkarte (Archiv) zu erhalten.
 keywords: Bereichsregisterkarte, Archiv
 author: Bergfrid Dias
-date: 09.17.2024
-version: 10.3.9
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -20,14 +20,16 @@ Sie können die Informationen in einem Archiv nach allen Feldern/Spalten im Arch
 
 Das Gruppieren ist persönlich. Die Spalten zum Gruppieren Ihrer Informationen sind nur für Sie sichtbar. Sie können so viele Gruppen hinzufügen und entfernen, wie Sie möchten.
 
-Lernen Sie in diesem kurzen Video, wie Sie durch die Konfiguration von Spalten Ansichten anpassen können oder lesen Sie die folgenden Anweisungen (Videolänge - 1:43):
+Lernen Sie in diesem kurzen Video, wie Sie durch die Konfiguration von Spalten Ansichten anpassen können oder lesen Sie die folgenden Anweisungen:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/a3AC64pheok]
 
+(Videolänge - 1:43)
+
 ## Gruppierung aktivieren
 
-1. Klicken Sie auf das ![Symbol][img1] Einstellungen rechts neben der Spaltenüberschrift und wählen Sie **Gruppierung aktivieren** aus.
+1. Klicken Sie auf <i class="ph ph-gear" aria-label="Gear"></i> rechts neben der Spaltenüberschrift und wählen Sie **Gruppierung aktivieren** aus.
 
     ![Gruppierung aktivieren -screenshot][img5]
 
@@ -55,13 +57,9 @@ Jetzt wird die Spaltenüberschrift über einer neuen Zeile angezeigt.
 
 1. Um eine ausgewählte Gruppierungsspalte zu entfernen, müssen Sie auf das X hinter der Spalte klicken. Die Liste der Datensätze im Archiv wird sofort aktualisiert.
 
-    ![Drücken Sie das X, um eine Gruppierungsspalte zu entfernen -screenshot][img8]
-
 <!-- Referenced links -->
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/cog-wheel.png
 [img5]: ../../../media/loc/en/learn/archive-enable-grouping.png
 [img6]: ../../../media/loc/en/learn/getstarted-archives-groupingon.png
 [img7]: ../../../media/loc/en/learn/getstarted-archives-selectgroup.png
-[img8]: ../../../media/loc/en/learn/getstarted-archives-deletegroup.png

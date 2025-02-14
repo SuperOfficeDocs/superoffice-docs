@@ -1,11 +1,13 @@
 ---
 uid: help-de-request-find
 title: Anfrage suchen
-description: "In dieser Anleitung lernen Sie, wie Sie Anfragen in SuperOffice finden"
+description: In dieser Anleitung lernen Sie, wie Sie Anfragen in SuperOffice finden
+keywords: Anfrage suchen, Anfrage finden, letzte Anfragen, eigene offene Anfragen, nicht zugeordnete Anfragen, nur eigene Kategorien anzeigen, Suche, Anfragen suchen
 author: Bergfrid Dias
-date: 03.14.2023
-keywords: Anfrage, Suchen, Suchen
+date: 02.11.2025
+version: 10.5.2
 topic: howto
+license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: de
@@ -13,105 +15,113 @@ language: de
 
 # Anfrage suchen
 
-Als Kundenbetreuer erhalten Sie viele eingehende Anrufe und E-Mails zu ausstehenden oder alten Kundenanfragen. Deshalb ist es wichtig zu wissen, wie Sie eine einzelne Anfrage oder Gruppen von Anfragen möglichst schnell finden können.
+Als Kundenbetreuer erhalten Sie viele eingehende Anrufe und E-Mails zu ausstehenden oder älteren Kundenanfragen. Deshalb ist es wichtig zu wissen, wie Sie eine einzelne Anfrage oder Gruppen von Anfragen möglichst schnell finden können.
 
-Führen Sie einen der folgenden Schritte aus:
+Führen Sie eine der folgenden Aktionen aus:
 
-* Verwenden Sie Listen, d. h. vordefinierte Suchoptionen.
-* Verwenden Sie die Suchen-Ansicht für Anfragen in Anfrage suchen.
-* Verwenden Sie die [Volltextsuche][3] in der oberen rechten Ecke.
-* Verwenden Sie [Dashboards][9].
-* Verwenden Sie [Selektionen][10] für Anfragen.
-* Verwenden Sie die [Navigator][12]-Suche nach Anfragen.
-* Verwenden Sie [Suchen][11] in der oberen Leiste, wählen Sie eine der typischen Suchanfragen aus oder fügen Sie gewünschte Kriterien hinzu.
+* Verwenden Sie Listen, die vordefinierte Suchanfragen darstellen.
+* Verwenden Sie die Suchansicht für Anfragen unter **Anfrage suchen**.
+* Nutzen Sie die [Volltextsuche][12] in der oberen rechten Ecke.
+* Verwenden Sie [Dashboards][18].
+* Nutzen Sie [Selektionen][10] für Anfragen.
+* Verwenden Sie die [Navigator][19]-Suche für Anfragen.
+* Verwenden Sie [Suchen][11] in der oberen Leiste und fügen Sie gewünschte Kriterien hinzu.
 
 ## <a id="list"></a>Listen verwenden
 
-Der einfachste Weg, nach Anfragen zu suchen, ist die Verwendung des Suchfeldes, das im Menü für die erste Registerkarte **Anfrage suchen** in der Anzeige Anfragen verfügbar ist.
+Die einfachste Methode, nach Anfragen zu suchen, ist die Nutzung des Suchfelds im Menü der ersten Registerkarte **Anfrage suchen** im Bereich **Anfragen**.
 
 ![Nach Anfragen suchen -screenshot][img3]
 
-* **Zuletzt eingegangene Anfragen**: Zeigt die Anfragen an, die zuletzt im System erfasst wurden. Sie können in Benutzer-Voreinstellungen festlegen, dass diese Liste nur Anfragen aus Kategorien enthält, in denen Sie Mitglied sind.
+* **Letzte Anfragen:** Zeigt die zuletzt im System erfassten Anfragen an. Falls in den Benutzereinstellungen festgelegt, werden nur Anfragen aus Kategorien angezeigt, in denen Sie Mitglied sind.
 
-* **Eigene unbearbeitete Anfragen**: Zeigt Ihre Anfragen an, die den Status **Offen**aufweisen. Diese Liste enthält die Anfragen, für die Sie zuständig sind, deshalb ist dies auch die Ansicht, mit der Sie am häufigsten arbeiten werden.
+* **Eigene unbearbeitete Anfragen:** Zeigt alle Anfragen an, die Ihnen zugewiesen sind und den Status **Offen** haben.
 
-* **Nicht zugeordnete Anfragen**: Listet Anfragen auf, die noch niemandem zugeordnet sind. Wenn Sie die [Verantwortung für eine der Anfragen übernehmen][6], müssen Sie dazu auf **Anfrage akzeptieren** klicken. Andernfalls kann es sein, dass andere Personen gleichzeitig auf die Anfrage reagieren.
+* **Nicht zugeordnete Anfragen:** Listet alle Anfragen auf, die noch keinem Benutzer zugewiesen sind. Um eine Anfrage zu übernehmen, klicken Sie auf **Anfrage akzeptieren**, um zu vermeiden, dass mehrere Benutzer gleichzeitig auf dieselbe Anfrage antworten.
 
-* **Meine Favoriten**: Zeigt die Anfragen an, die Sie als Favoriten gespeichert haben.
+* **Meine Favoriten:** Zeigt die Anfragen, die Sie als Favoriten gespeichert haben.
 
-* **Nächster in der Warteschlange**: Klicken Sie auf die Option [Warteschlangensystem ist eingerichtet][5] für Ihre Firma, um die nächste nicht zugeordnete Anfrage in der Warteschlange für die Kategorie anzuzeigen, der Sie angehören.
+* **Nächster in der Warteschlange:** Falls das [Warteschlangensystem eingerichtet][9] ist, können Sie auf diese Option klicken, um die nächste nicht zugeordnete Anfrage aus Ihrer Kategorie zu erhalten.
 
-* **Anfrageselektionen**: Ihre eigene Anfrageselektion wird im Menü angezeigt.
+* **Anfrageselektionen:** Ihre eigenen gespeicherten Selektionen für Anfragen werden hier angezeigt.
 
 ### Nur eigene Kategorien anzeigen
 
-1. Wählen Sie das ![Symbol][img2] **Persönliche Einstellungen** > **Einstellungen** aus.
-1. Wählen Sie die **Anfrage**-Gruppe aus.
-1. Setzen Sie die Option **Nur eigene Kategorien anzeigen** auf Ja..
+1. Wählen Sie <i class="ph ph-user-circle" aria-hidden="true"></i> **Persönliche Einstellungen** > **Einstellungen**.
+1. Wählen Sie die Gruppe **Anfrage**.
+1. Setzen Sie **Nur eigene Kategorien anzeigen** auf **Ja**.
 1. Klicken Sie auf **Speichern**.
 
-### Suchkriterien anpassen
+## Suchkriterien verwenden
 
-In der Praxis handelt es sich bei all diesen Listen um vordefinierte Suchen und Sie können die Suchkriterien auf Wunsch anpassen:
+Sie können benutzerdefinierte Suchkriterien festlegen, um gezielt nach Anfragen zu suchen.
 
-1. Klicken Sie in der Kopfzeile der Anzeige Anfragen auf die Registerkarte **Anfrage suchen**.
-1. [Kriterien anpassen][4].
-1. Klicken Sie in der unteren rechten Ecke auf **Suchen**, um die Suche mit den neuen Suchkriterien zu starten. Wenn Sie eine Anfrage aus der Liste auswählen, wird der Inhalt dieser Anfrage in der Ansicht Vorschau rechts angezeigt. Wenn Sie eine Anfrage aus der Liste auswählen, wird der Inhalt dieser Anfrage im [Vorschaubereich](#preview) angezeigt.
-1. Wenn Sie diese Suche beibehalten möchten, können Sie dieses Suchergebnis als [Selektion][13] speichern und jederzeit zur Liste zurückkehren.
+### Zugriff auf Suchkriterien
 
-> [!TIP]
-> Wählen Sie **Auf Standard zurücksetzen** aus, um die Standardeinstellungen wiederherzustellen.
->
-> Wählen Sie **Alle löschen** aus, um alle Kriterien zu löschen..
+Die Registerkarte **Anfrage suchen** bietet zwei interaktive Elemente:
+
+* **Registerkartentext:** Durch Klicken auf den Text öffnet sich die Suchkriterien-Ansicht.
+
+* **Dropdown-Pfeil:** Klicken Sie auf das Chevron-Symbol (<i class="ph ph-caret-down" aria-label="Dropdown-Symbol"></i>), um eine Liste vordefinierter Suchen anzuzeigen (z. B. *Letzte Anfragen* oder *Eigene offene Anfragen*).
+  Falls die Suchkriterien-Ansicht nicht sichtbar ist, stellen Sie sicher, dass Sie auf den Text und nicht auf das Chevron-Symbol klicken.
+
+### Kriterien anpassen
+
+1. Klicken Sie auf den Text **Anfrage suchen** in der Kopfzeile der **Anfragen**-Ansicht. Die **Kriterien**-Registerkarte öffnet sich.
+
+1. Passen Sie die [Suchkriterien][14] an:
+
+    * Nutzen Sie die Dropdown-Menüs, um Kriterien wie Eigentümer, internen Status oder Kategorie auszuwählen.
+    * Fügen Sie weitere Kriterien über **Kriterium hinzufügen** hinzu oder entfernen Sie bestehende mit <i class="ph ph-x" aria-label="Kriterium entfernen"></i>.
+    * Nutzen Sie **UND** oder **ODER**, um Ihre Suche zu verfeinern.
+
+    ![Nach Anfragen suchen -screenshot][img2]
+
+1. Klicken Sie auf **Suchen**, um die Suche auszuführen.
+
+    > [!TIP]
+    > Speichern Sie häufig genutzte Suchkriterien als [Selektion][13] für den schnellen Zugriff.
+
+1. Um die Suche auf Standardeinstellungen zurückzusetzen, klicken Sie auf **Auf Standard zurücksetzen**. Zum Löschen aller Kriterien wählen Sie **Alle löschen**.
 
 ### <a id="result"></a>Suchergebnis
 
-Das Ergebnis enthält eine Liste von Anfragen, die den oben angegebenen Kriterien entsprechen. Hier können Sie:
+Die Suchergebnisse werden als Liste von Anfragen in der **Ergebnisse**-Registerkarte angezeigt. Sie können:
 
-* Die Anfragen sortieren, indem Sie auf die entsprechende Spaltenüberschrift klicken.
-* Eine Reihe wählen, um den Inhalt dieser Anfrage im Bereich Vorschau anzuzeigen.
-* Eine Anfrage öffnen, indem Sie auf die entsprechende Reihe doppelklicken.
-* Klicken Sie in der unteren linken Ecke auf die Schaltfläche **Vorschau ein-/ausblenden**.
-* Über das ![Symbol][img1] der Schaltfläche **Aufgabe** in der unteren linken Ecke können Sie auf verschiedene Aufgaben zugreifen, die für ausgewählte Anfragen ausgeführt werden sollen.
+* Nach Spaltenüberschriften sortieren.
+* Eine Anfrage auswählen, um deren Details in der Vorschau auf der rechten Seite anzuzeigen.
+* Eine Anfrage doppelklicken, um sie zu öffnen.
+* Mit der **Vorschau ein-/ausblenden**-Schaltfläche die Vorschau umschalten.
+* Über den <i class="ph ph-list" aria-hidden="true"></i> **Aufgaben**-Button Massenaktionen oder Exportoptionen nutzen (z. B. mehrere Anfragen favorisieren oder löschen).
 
 > [!TIP]
-> Der Status **Offen** gibt zusammen mit der Spalte **Gelesen** einen Überblick darüber, ob die Anfrage zur Kategorie **Vom Eigentümer gelesen**, **Neue Informationen** oder **Nicht gelesen von Eigentümer** gehört.
-
-In der Fußzeile der Liste können Sie auf das ![Symbol][img1] der Schaltfläche **Aufgabe** klicken, um auf folgende Optionen zuzugreifen:
-
-* **In Excel exportieren**: Klicken Sie hier, um die Liste unter **Ergebnis** in eine Excel-Datei zu exportieren.
-
-* **Massenabgleich**: Wenn Sie eine oder mehrere Anfragen in der Liste wählen, können Sie auf diese Option klicken, um einen Vorgang auf allen gewählten Anfragen gleichzeitig auszuführen. Sie können zum Beispiel auswählen, [dass dieselbe Nachricht mehreren Anfragen hinzugefügt werden soll][8], [dass mehrere Anfragen weitergeleitet werden][7] oder dass mehrere Anfragen auf einmal gelöscht werden sollen.
+> Der Status **Offen** in Kombination mit der Spalte **Gelesen** zeigt an, ob die Anfrage **Vom Eigentümer gelesen**, **Neue Informationen** enthält oder **Nicht gelesen vom Eigentümer** wurde.
 
 ### <a id="preview"></a>Vorschau
 
-In diesem Abschnitt der Ansicht wird der Inhalt der unter **Suchergebnis** ausgewählten Anfrage angezeigt. Sie haben die gleichen Optionen wie bei der [Bearbeitung von Anfragen][6].
+Im Vorschaubereich werden die Inhalte der unter **Suchergebnis** ausgewählten Anfrage angezeigt. Sie haben dieselben Optionen wie bei der [Bearbeitung von Anfragen][6].
 
-Wenn der Vorschaubereich nicht sichtbar ist, klicken Sie unten in der Anzeige auf **Vorschau anzeigen**.
+Falls die Vorschau nicht sichtbar ist, klicken Sie auf **Vorschau anzeigen** am unteren Rand des Bildschirms.
 
-## Verwandte Themen
+## Verwandte Inhalte
 
 * [Tags in Anfragen verwenden][1]
 * [Die Ansicht Suchen][11]
-* [Navigator-Suche verwenden][12]
+* [Navigator-Suche verwenden][19]
 * [Selektion erstellen][13]
-* [Nächster in der Warteschlange][5]
 
 <!-- Referenced links -->
 [1]: tags.md
-[3]: ../../search-options/learn/freetext-search.md
-[4]: ../../search-options/learn/search-criteria.md
-[5]: next-in-queue.md
-[6]: howto/accept.md
-[7]: howto/forward.md
-[8]: howto/reply.md
-[9]: ../../dashboard/learn/index.md
+[6]: accept.md
+[9]: ../admin/next-in-queue.md
 [10]: ../../search-options/selection/learn/index.md
 [11]: ../../search-options/learn/find-screen.md
-[12]: ../../learn/getting-started/main-screen/navigator.md#navigator
+[12]: ../../search-options/learn/freetext-search.md
 [13]: ../../search-options/selection/learn/create/tutorial.yml
+[14]: ../../search-options/learn/search-criteria.md
+[18]: ../../dashboard/learn/index.md
+[19]: ../../learn/getting-started/main-screen/navigator.md#navigator
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/icons/personal-settings-small.png
-[img3]: ../../../media/loc/en/request/find-requests.png
+[img2]: ../../../media/loc/en/request/find-request-criteria.png
+[img3]: ../../../media/loc/en/request/find-request-dropdown.png

@@ -19,7 +19,7 @@ Die verschiedenen Tools, Makros und Skripte, Auslöser und geplante Aufgaben, ha
 
 ## Zugriff auf CRMScript
 
-Um auf die Funktionen in CRMScript zuzugreifen, öffnen Sie SuperOffice Einstellungen und Verwaltung und klicken Sie im Navigator auf das ![Symbol][img1] **CRMScript** .
+Um auf die Funktionen in CRMScript zuzugreifen, öffnen Sie SuperOffice Einstellungen und Verwaltung und klicken Sie im Navigator auf <i class="ph ph-code-block" aria-hidden="true"></i> **CRMScript**.
 
 Auslöser sind Skripts, die bei bestimmten Ereignissen im System ausgeführt werden, beispielsweise wenn ein neuer Verkauf erstellt oder eine Anfrage geschlossen wird. Auslöser können im Hintergrund auf das Geschehen reagieren oder den Vorgang blockieren und dem Benutzer eine Erklärung anzeigen.
 
@@ -44,6 +44,3 @@ Auslöser sind Skripts, die bei bestimmten Ereignissen im System ausgeführt wer
 [5]: tracing.md
 [6]: ../../../../en/automation/crmscript/overview/index.md
 [7]: ../../../../en/automation/crmscript/reference/index.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/nav-admin-crmscript-active.png

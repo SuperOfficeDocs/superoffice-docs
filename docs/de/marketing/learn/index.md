@@ -1,7 +1,7 @@
 ---
 uid: help-de-marketing
 title: SuperOffice Marketing
-description: "Zu den Funktionen für das Marketing gehören Kampagnen und Web-Formulare, die den Benutzern helfen, Informationen zu sammeln und besser mit Interessenten und Kunden zu kommunizieren. In Kombination können Sie Ihnen helfen, mehr Leads zu erstellen, mehr an vorhandene Kunden zu verkaufen und die Kundenbindung zu stärken."
+description: Zu den Funktionen für das Marketing gehören Kampagnen und Web-Formulare, die den Benutzern helfen, Informationen zu sammeln und besser mit Interessenten und Kunden zu kommunizieren. In Kombination können Sie Ihnen helfen, mehr Leads zu erstellen, mehr an vorhandene Kunden zu verkaufen und die Kundenbindung zu stärken.
 keywords: Marketing
 author: SuperOffice RnD
 date: 05.31.2024
@@ -12,11 +12,11 @@ audience: person
 audience_tooltip: SuperOffice Marketing
 ---
 
-# SuperOffice Marketing
+# SuperOffice Marketing <i class="ph ph-target" aria-hidden="true"></i>
 
 SuperOffice Marketing ist für die Abwicklung der Kommunikation nach außen und mithilfe von Formularen zuständig. Verwenden Sie Kampagnen, um Kunden z. B. über Upgrades oder Neuigkeiten zu Produkten zu informieren. Verwenden Sie Formulare für die Registrierung für Produkte/Newsletter, die Einwilligungsverwaltung, die Aktualisierung von Daten und einfache "Kontaktieren"-Formulare.
 
-Um SuperOffice Marketing zu öffnen, müssen Sie auf **Marketing** ![Symbol][img2] im Navigator klicken.
+Um SuperOffice Marketing zu öffnen, müssen Sie auf **Marketing** (<i class="ph ph-target" aria-hidden="true"></i>) im Navigator klicken.
 
 Mit SuperOffice Marketing können Sie Folgendes erstellen:
 
@@ -104,8 +104,8 @@ SuperOffice Marketing ist als Online-Anwendung (Cloud-basiert) und als Vor-Ort-A
 |---|---|---|
 | Kampagnen | Enthält alle Kampagnen und erstellt neue. | [Neue Kampagne erstellen][5] |
 | Vorlagen für Nachrichten | Enthält die Standardvorlagen für SuperOffice Marketing als auch die von Ihnen erstellten Vorlagen, dazu eine Vielzahl von Vorlagen aus der Online-Vorlagenbibliothek. | [Mit den Nachrichtenvorlagen arbeiten][13] |
-| Überwachte Links | Enthält alle überwachten Links, die in Ihren Kampagnen verwendet werden. Klicken Sie auf die Schaltfläche ![Symbol][img1] **Hinzufügen**, um einen neuen Link zu erstellen. | [Überwachte Links erstellen][14] |
-| Bilder | Enthält alle in SuperOffice Marketing verfügbaren Bilder. Klicken Sie auf die Schaltfläche ![Symbol][img1] **Hinzufügen**, um neue Bilder hinzuzufügen. | [Bilder hinzufügen][15] |
+| Überwachte Links | Enthält alle überwachten Links, die in Ihren Kampagnen verwendet werden. Klicken Sie auf die Schaltfläche **Hinzufügen**, um einen neuen Link zu erstellen. | [Überwachte Links erstellen][14] |
+| Bilder | Enthält alle in SuperOffice Marketing verfügbaren Bilder. Klicken Sie auf die Schaltfläche **Hinzufügen**, um neue Bilder hinzuzufügen. | [Bilder hinzufügen][15] |
 | Gesperrte E-Mail-Adressen | Bearbeiten von nicht zustellbaren E-Mails und Spam-Beschwerden. | [Gesperrte E-Mail-Adressen][12], [Spam][16] |
 | Formulare | Enthält alle Formulare und erstellt neue. | [Ein neues Formular erstellen][1] |
 | Formularvorlagen | Enthält alle Formularvorlagen. | [Mit den Formularvorlagen arbeiten][18] |
@@ -137,7 +137,3 @@ SuperOffice Marketing ist als Online-Anwendung (Cloud-basiert) und als Vor-Ort-A
 [18]: ../forms/learn/form-templates.md
 [19]: ../forms/learn/view-statistics.md
 [20]: ../flows/learn/create.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/btn-add.png
-[img2]: ../../../../common/icons/nav-marketing.png

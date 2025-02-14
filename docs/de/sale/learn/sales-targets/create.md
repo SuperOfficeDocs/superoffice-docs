@@ -1,7 +1,7 @@
 ---
 uid: help-de-sales-targets-create
 title: Verkaufsziele festlegen
-description: "Legen Sie Vertriebsziele fest, um den Überblick über Ihre Budgets zu behalten. Dies wird Ihnen helfen, die richtigen Erwartungen zu setzen, Ihr Wachstum zu planen, die Motivation zu steigern und Zeit zu sparen."
+description: Legen Sie Vertriebsziele fest, um den Überblick über Ihre Budgets zu behalten. Dies wird Ihnen helfen, die richtigen Erwartungen zu setzen, Ihr Wachstum zu planen, die Motivation zu steigern und Zeit zu sparen.
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: Verkauf
@@ -67,7 +67,7 @@ Vor der Nutzung der Vertriebsziele-Funktion müssen Sie in Einstellungen und Ver
 > [!TIP]
 > Der Standardzieltyp ist **Alle Verkäufe - Betrag**. Mit der Sales Targets Unlimited-Lizenz können Sie zusätzliche Zieltypen erstellen.
 
-1. Klicken Sie auf ![Symbol][img1] **Hauptmenü** und wählen Sie **Ziele** aus. Wenn noch keine Vertriebsziele erstellt wurden, ist die Liste leer.
+1. Klicken Sie auf **Hauptmenü** (<i class="ph ph-list" aria-hidden="true"></i>) und wählen Sie **Ziele** aus. Wenn noch keine Vertriebsziele erstellt wurden, ist die Liste leer.
 
 2. Wählen Sie auf der Anzeige **Verkaufsziele** das Jahr auswählen, für das Sie ein Verkaufsziel von der List **Jahr auswählen** erstellen, möchten. Sie können auch Ziele für frühere Jahre definieren, um Budgetstatistiken für die Vergangenheit zu erstellen.
 
@@ -82,16 +82,16 @@ Vor der Nutzung der Vertriebsziele-Funktion müssen Sie in Einstellungen und Ver
 
 6. Ändern Sie gegebenenfalls die Währung für die Firma oder Gruppe. Die Standardwährung ist die Basiswährung für Ihre Firma. Sie können keine Währung für einzelne Benutzer konfigurieren.
 
-7. Geben Sie die Zahlen manuell ein. Dabei gelangen Sie mit der **TAB-Taste** zum nächsten Feld. Sie können auch [Zahlen aus Excel kopieren und einfügen](#import) oder auf die Menüschaltfläche ![Symbol][img2] am Ende einer Zeile klicken und **Zahlen anpassen** auswählen. Optionen:
+7. Geben Sie die Zahlen manuell ein. Dabei gelangen Sie mit der **TAB-Taste** zum nächsten Feld. Sie können auch [Zahlen aus Excel kopieren und einfügen](#import) oder auf <i class="ph ph-list" aria-label="die Menüschaltfläche"></i> am Ende einer Zeile klicken und **Zahlen anpassen** auswählen. Optionen:
 
     * **Anfänglichen Betrag festlegen**: Geben Sie den Betrag für das ganze Jahr ein. Der Betrag wird zu gleichen Teilen auf die Monate bzw. Quartale der aktuellen Zeile verteilt.
     * **Kopieren aus**: Damit kopieren Sie die Werte einer anderen Gruppe oder eines anderen Benutzers.
     * **Aus letztem Jahr kopieren**: Damit können Sie Werte aus dem letzten Jahr kopieren und um einen bestimmten Prozentsatz erhöhen. Diese Option ist deaktiviert, wenn für das letzte Jahr keine Werte angegeben sind.
         Klicken Sie, sobald Sie fertig sind, auf **Speichern**. Die Summen für alle Benutzer werden in die Zeile **Alle** oben in der Benutzerliste eingefügt.
 
-8. Optional: Wenn eine Zeile abgeschlossen ist, können Sie sie sperren ![Symbol][img3] ![Symbol][img4], damit sie nicht mehr bearbeitet werden kann. Zum Beispiel, nachdem ein Budget genehmigt wurde und nicht bearbeitet werden soll. Gesperrte Zeilen können nicht entfernt, geleert oder anderweitig bearbeitet werden.
+8. Optional: Wenn eine Zeile abgeschlossen ist, können Sie sie sperren (<i class="ph ph-lock-simple" aria-hidden="true"></i>), damit sie nicht mehr bearbeitet werden kann. Zum Beispiel, nachdem ein Budget genehmigt wurde und nicht bearbeitet werden soll. Gesperrte Zeilen können nicht entfernt, geleert oder anderweitig bearbeitet werden.
 
-9. Wenn für eine bestimmte Gruppe oder einen bestimmten Benutzer kein Vertriebsziel festgelegt werden soll, klicken Sie auf die Menüschaltfläche ![Symbol][img2] und wählen **Löschen**, um die Werte zu löschen.
+9. Wenn für eine bestimmte Gruppe oder einen bestimmten Benutzer kein Vertriebsziel festgelegt werden soll, klicken Sie auf <i class="ph ph-list" aria-label="die Menüschaltfläche"></i> und wählen **Löschen**, um die Werte zu löschen.
 
 10. Klicken Sie auf **Speichern**.
 
@@ -100,7 +100,7 @@ Vor der Nutzung der Vertriebsziele-Funktion müssen Sie in Einstellungen und Ver
 12. Fügen Sie wie in Schritt 2 erläutert Vertriebsziele für ein weiteres Jahr hinzu oder klicken Sie auf **Speichern und schließen**, um diese Ansicht zu schließen.
 
 > [!NOTE]
-> Um das Ziel für eine Firma oder Gruppe zu entfernen, klicken Sie auf die Menüschaltfläche ![Symbol][img2] und wählen **Firmenziel entfernen** oder **Gruppenziel entfernen** aus.
+> Um das Ziel für eine Firma oder Gruppe zu entfernen, klicken Sie auf <i class="ph ph-list" aria-label="die Menüschaltfläche"></i> und wählen **Firmenziel entfernen** oder **Gruppenziel entfernen** aus.
 
 ## Sperr-/Entriegelungsfunktion
 
@@ -127,7 +127,7 @@ Sie können Zieldaten aus einer Excel-Datei kopieren und in SuperOffice in die T
 
 Führen Sie dazu die folgenden Schritte aus:
 
-1. Klicken Sie auf die Schaltfläche **Aufgabe**, wenn Sie das Vertriebsziel für das ausgewählte Jahr in eine Excel-Datei exportieren wollen.
+1. Klicken Sie auf die Schaltfläche **Aufgabe** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>), wenn Sie das Vertriebsziel für das ausgewählte Jahr in eine Excel-Datei exportieren wollen.
 
 2. Bearbeiten Sie die Zieldaten (Beträge) in der Tabelle.
 
@@ -137,7 +137,7 @@ Führen Sie dazu die folgenden Schritte aus:
 
 ## Revisionsverlauf
 
-Zum Anzeigen des Revisionsverlaufs für ein Vertriebsziel (Zeile) klicken Sie auf die Menüschaltfläche ![Symbol][img2] und wählen **Revisionsverlauf** aus. In der daraufhin angezeigten Ansicht sind alle Änderungen zu sehen, die bislang am aktuellen Verkaufsziel vorgenommen wurden. einschließlich geänderter Werte, Sperren/Entsperren, wann und von wem eine Änderung vorgenommen wurde. Mit den Schaltflächen zum Erweitern/Ausblenden oben können Sie Details ein-/ausblenden.
+Zum Anzeigen des Revisionsverlaufs für ein Vertriebsziel (Zeile) klicken Sie auf <i class="ph ph-list" aria-label="die Menüschaltfläche"></i> und wählen **Revisionsverlauf** aus. In der daraufhin angezeigten Ansicht sind alle Änderungen zu sehen, die bislang am aktuellen Verkaufsziel vorgenommen wurden. einschließlich geänderter Werte, Sperren/Entsperren, wann und von wem eine Änderung vorgenommen wurde. Mit den Schaltflächen zum Erweitern/Ausblenden oben können Sie Details ein-/ausblenden.
 
 ## Verwandte Themen
 
@@ -149,9 +149,5 @@ Zum Anzeigen des Revisionsverlaufs für ein Vertriebsziel (Zeile) klicken Sie au
 [2]: ../../../dashboard/learn/show-sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/main-menu-small.png
-[img2]: ../../../../../common/icons/context-menu.png
-[img3]: ../../../../../common/icons/lock-on.png
-[img4]: ../../../../../common/icons/lock-off.png
 [img5]: ../../../../media/loc/en/sale/user-targets-salestargets.png
 [img6]: ../../../../media/loc/en/sale/user-targets-salestargets-adjustnumbers.png

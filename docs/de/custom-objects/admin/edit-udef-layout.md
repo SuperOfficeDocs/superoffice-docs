@@ -34,7 +34,7 @@ Wenn Sie [neue Felder hinzufügen][2], werden diese standardmäßig untereinande
 
 * Ziehen Sie das Feld mit gedrückter Maustaste. Die Felder werden automatisch an das Raster angepasst.
 * Klicken Sie auf ein Feld und verwenden Sie die Pfeiltasten auf der Tastatur.
-* Klicken Sie auf ein Feld und verwenden Sie die Pfeiltasten unten rechts ( ![icon][img2] ![icon][img1] ![icon][img4] ![icon][img3] ).
+* Klicken Sie auf ein Feld und verwenden Sie die Pfeiltasten unten rechts (<i class="ph ph-arrow-circle-left" aria-hidden="true"></i> <i class="ph ph-arrow-circle-right" aria-hidden="true"></i> <i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i>).
 * Doppelklicken Sie auf ein Feld und geben Sie Positionswerte **X** und **Y** im Dialogfeld **Felder** an.
 
 ## Position festlegen
@@ -53,7 +53,7 @@ Wenn Sie [neue Felder hinzufügen][2], werden diese standardmäßig untereinande
 
 ## Felder ausrichten (rechts/links)
 
-Wählen Sie die Felder aus, die Sie anpassen möchten, und klicken Sie unter dem Raster auf links ausrichten ![icon][img5] oder rechts ausrichten ![icon][img6].
+Wählen Sie die Felder aus, die Sie anpassen möchten, und klicken Sie unter dem Raster auf links ausrichten (<i class="ph ph-text-align-left" aria-hidden="true"></i>) oder rechts ausrichten (<i class="ph ph-text-align-right" aria-hidden="true"></i>).
 
 ## Breite eines Feldes ändern
 
@@ -71,7 +71,7 @@ Die TAB-Reihenfolge wird in der Liste **Name** links auf der Ansicht angezeigt. 
 
 1. Wählen Sie das erforderliche Feld unterhalb der Liste aus.
 
-1. Klicken Sie auf einen der Pfeile unterhalb der Liste, um das Feld nach oben ![icon][img3] oder nach unten ![icon][img4] zu verschieben.
+1. Klicken Sie auf <i class="ph ph-arrow-circle-up" aria-label="Arrow up"></i> oder <i class="ph ph-arrow-circle-down" aria-label="Arrow down"></i> unterhalb der Liste, um das Feld nach oben oder nach unten zu verschieben.
 
 1. Klicken Sie auf **Veröffentlichen**, um die Änderungen für SuperOffice CRM-Benutzer verfügbar zu machen.
 
@@ -97,11 +97,3 @@ Wenn Sie **(alle Benutzergruppen)** in der Liste **Benutzergruppe** auswählen, 
 <!-- Referenced links -->
 [1]: ../../ui/screen-designer/learn/index.md
 [2]: add-udef.md
-
-<!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-right.png
-[img2]: ../../../media/icons/arrow-left.png
-[img3]: ../../../media/icons/arrow-up.png
-[img4]: ../../../media/icons/arrow-down.png
-[img5]: ../../../media/icons/admin/align-left.png
-[img6]: ../../../media/icons/admin/align-right.png

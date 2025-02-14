@@ -42,7 +42,7 @@ Hier wird nicht auf jedes Feld und jede Option eingegangen, aber Sie finden umfa
 
 1. Wählen Sie das Feld **Person - Name** aus und klicken Sie auf das rote X, um dieses Feld zu entfernen.
 
-1. Klicken Sie auf die Schaltfläche **Hinzufügen** ![Symbol][img1] und fügen Sie die folgenden Felder hinzu:
+1. Klicken Sie auf <i class="ph ph-plus" aria-label="Add"></i> und fügen Sie die folgenden Felder hinzu:
 
     * Vor- und Nachname.
 
@@ -121,7 +121,6 @@ Hier wird nicht auf jedes Feld und jede Option eingegangen, aber Sie finden umfa
 [7]: tutorial-sign-up.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/marketing-and-forms/add-field.png
 [img2]: ../../../../media/icons/marketing-and-forms/move-field.png
 [img3]: ../../../../media/icons/marketing-and-forms/form-active.png
 [img5]: ../../../../media/loc/en/marketing/contact-me-form-properties.png

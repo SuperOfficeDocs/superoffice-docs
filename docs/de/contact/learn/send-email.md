@@ -1,61 +1,65 @@
 ---
 uid: help-de-contact-send-email
 title: E-Mail an eine Person senden
-description: "Das Senden von E-Mails über SuperOffice CRM macht es einfacher, all Ihre Kundenkommunikation an einem Ort zu teilen und zu speichern."
-author: SuperOffice RnD
-date: 02.10.2023
-keywords: person, Person
+description: Das Senden von E-Mails über SuperOffice CRM erleichtert das Teilen und Speichern aller Kundenkommunikation an einem zentralen Ort.
+keywords: E-Mail senden, new E-Mail, E-Mail, Mail, Empfänger, Mitteilung, Senden, Senden und archivieren
+author: Bergfrid Dias
+date: 02.11.2025
+version: 10.5.2
 topic: howto
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # E-Mail an eine Person senden
 
-Sie können eine E-Mail von der Ansicht Person oder von der Ansicht Firma vorbereiten. Die Schritte zum Senden der E-Mail sind die gleichen.
+Sie können E-Mails sowohl aus der **Ansicht Person** als auch aus der **Ansicht Firma** vorbereiten. Die Vorgehensweise bleibt nach der Auswahl der Empfänger gleich.
 
-## E-Mail von der Anzeige Person erstellen
+## E-Mail aus der Ansicht Person senden
 
-[!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
+1. [!include[Go to Contact screen](../../learn/includes/goto-contact.md)]
 
 1. Führen Sie einen der folgenden Schritte aus:
-    * Klicken Sie auf die E-Mail-Adresse in der Registerkarte **Person**. Wenn die Person über mehr als eine E-Mail-Adresse verfügt, müssen Sie eine auswählen.
-    * Klicken Sie auf **Neu** auf der oberen Leiste und wählen Sie **E-Mail** aus.
-    * Klicken Sie auf das ![Symbol][img1] der Schaltfläche **Aufgabe** und wählen Sie **E-Mail senden** aus.
+    * Klicken Sie auf die E-Mail-Adresse in der Registerkarte **Person**.
+    * Klicken Sie auf **Neu** in der oberen Leiste und wählen Sie **E-Mail**.
+    * Klicken Sie auf die **Aufgabe**-Schaltfläche (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) und wählen Sie **E-Mail senden**.
 
-    Eine Mitteilung an den festgelegten Empfänger wird dann in Ihrem Standard-E-Mail-Programm geöffnet.
+   Falls die Person mehrere E-Mail-Adressen hat, wählen Sie die gewünschte aus. Ihr Standard-E-Mail-Programm wird mit der ausgewählten Adresse im **An**-Feld geöffnet.
 
-1. E-Mail schreiben.
-1. Gehen Sie zu (#send) unten.
-
-## E-Mail von der Anzeige Firma erstellen
+## E-Mail aus der Ansicht Firma senden
 
 1. [!include[Go to company](../../learn/includes/goto-company.md)]
 
-1. Wählen Sie die Bereichsregisterkarte **Personen**.
+1. Wählen Sie in der **Bereichsregisterkarte Personen** eine oder mehrere Personen aus.
 
-1. Wählen Sie eine oder mehrere Personen aus.
+1. Klicken Sie mit der rechten Maustaste und wählen Sie **E-Mail senden**.
 
-1. Klicken Sie mit der rechten Maustaste, und wählen Sie **E-Mail senden** aus. Eine Mitteilung an den/die festgelegten Empfänger wird dann in Ihrem Standard-E-Mail-Programm geöffnet.
+   > [!NOTE]
+   > Im Feld **An** werden nur Personen mit einer E-Mail-Adresse angezeigt. Personen ohne E-Mail-Adresse werden ausgeschlossen.
 
-    > [!NOTE]
-    > Im Feld **An** werden nur Personen mit einer E-Mail-Adresse angezeigt. Personen ohne E-Mail-Adresse sind in diesem Feld nicht enthalten.
+## Abschließen und senden
 
-## Senden
+1. Schreiben Sie die E-Mail.
 
-![Suchen Sie die Person, klicken Sie sie mit der rechten Maustaste an und wählen Sie dann E-Mail senden aus dem Menü aus -screenshot][img2]
+2. Klicken Sie auf eine der folgenden Optionen:
 
-1. Senden Sie die E-Mail, indem Sie auf eine der folgenden Schaltflächen klicken:
-
-    * **Senden:** Die E-Mail wird gesendet und ist in der Bereichsregisterkarte **Aktivitäten** verfügbar.
+    * **Senden:** Die E-Mail wird gesendet und in der Bereichsregisterkarte **Aktivitäten** gespeichert.
     * **Senden und archivieren:** Die E-Mail wird gesendet und als Dokument gespeichert.
 
-1. Wenn Sie **Senden und archivieren** ausgewählt haben, öffnet sich die [Anzeige Dokument][1], wenn Sie die E-Mail senden. Fügen Sie bei Bedarf Informationen in diesem Dialogfeld hinzu.
+   Falls Sie **Senden und archivieren** wählen, öffnet sich das [Dialogfeld Dokument][1]. Ergänzen Sie gegebenenfalls Informationen und klicken Sie auf **Erstellen**, um das Dokument zu speichern.
 
-1. Klicken Sie in der Anzeige Dokument auf **Erstellen**.
+![Suchen Sie die Person, klicken Sie mit der rechten Maustaste und wählen Sie "E-Mail senden". -screenshot][img2]
+
+## Verwandte Inhalte
+
+* [E-Mails im SuperOffice-Posteingang archivieren][2]
+* [SuperOffice für Outlook][3]
 
 <!-- Referenced links -->
 [1]: ../../document/learn/create.md#fields
+[2]: ../../email/inbox/learn/archive.md
+[3]: ../../email/superoffice-for-outlook/learn/save-to-superoffice.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/loc/en/contact/email-send-email.png
+[img2]: ../../../media/loc/en/contact/send-email.png

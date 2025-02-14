@@ -1,7 +1,7 @@
 ---
 uid: help-de-sales-target-types
 title: Verkaufszieltyp mit Untertypen einrichten
-description: "Es kann stressig sein, den Überblick über Ihre Verkaufsziele zu behalten. Wenn Sie jedoch Parameter und Dimensionen Ihrer Verkaufsziele definieren, wird die Verwaltung Ihrer Ziele viel einfacher."
+description: Es kann stressig sein, den Überblick über Ihre Verkaufsziele zu behalten. Wenn Sie jedoch Parameter und Dimensionen Ihrer Verkaufsziele definieren, wird die Verwaltung Ihrer Ziele viel einfacher.
 author: SuperOffice RnD
 date: 02.16.2023
 keywords: Verkauf
@@ -30,7 +30,7 @@ Sie können einen Zieltyp sowohl für Benutzer als auch für Gruppen einrichten 
 
 ## Neuen Zieltyp hinzufügen
 
-1. Klicken Sie auf **Neuen Zieltyp hinzufügen**. Oder klicken Sie in der Registerkarte auf ![Symbol][img5] (**Ziel konfigurieren**), um einen vorhandenen Zieltyp zu bearbeiten.
+1. Klicken Sie auf **Neuen Zieltyp hinzufügen**. Oder klicken Sie in der Registerkarte auf <i class="ph ph-gear" aria-label="Gear"></i> (**Ziel konfigurieren**), um einen vorhandenen Zieltyp zu bearbeiten.
 
 2. Klicken Sie auf **Zieltyp**, um den gewünschten Zieltyp (die gewünschte Dimension) auszuwählen.
 
@@ -101,7 +101,6 @@ Um einen Zieltyp zu löschen, müssen Sie auf die Zieleinstellungen und dann auf
 [3]: create.md
 
 <!-- Referenced images -->
-[img5]: ../../../../../common/icons/cog-wheel.png
 [img1]: ../../../../media/loc/en/sale/user-targets-new-target-type.png
 [img2]: ../../../../media/loc/en/sale/user-targets-add-groups-users.png
 [img3]: ../../../../media/loc/en/sale/user-targets-filter-type.png

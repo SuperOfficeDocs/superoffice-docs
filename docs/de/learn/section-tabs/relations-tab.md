@@ -4,8 +4,8 @@ title: Bereichsregisterkarte Beziehungen
 description: Erfahren Sie, wie Sie Beziehungen zwischen Firmen und Personen in SuperOffice CRM anzeigen, hinzufügen und verwalten können, um sicherzustellen, dass wichtige Geschäftskontakte leicht zugänglich und gut dokumentiert sind.
 keywords: Registerkarte Beziehungen, Bereichsregisterkarte, Beziehung
 author: Bergfrid Skaara Dias
-date: 11.29.2024
-version: 10
+date: 02.11.2025
+version: 10.5.2
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM

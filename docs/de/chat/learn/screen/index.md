@@ -32,7 +32,7 @@ Die Registerkarte **Chats** weist drei Hauptbereiche auf:
 
 * Liste der aktiven/letzten Chat-Sitzungen (linke Seite)
 * Chat-Gespräch (Mitte)
-* Seitenleiste Person (rechte Seite) → enthält Kundeninformationen
+* Seitenleiste Person (rechte Seite), enthält Kundeninformationen
 
 ### Liste der aktiven/letzten Chat-Sitzungen
 
@@ -49,7 +49,7 @@ Die folgenden Symbole werden für die aktiven Chat-Sitzungen in der Liste verwen
 |---|---|
 | ![Symbol][img2] | Die letzte Nachricht im Gespräch vom Kunden und Mitarbeiter. |
 | ![Symbol][img3] | Anzahl der ungelesenen Nachrichten vom Kunden. |
-| ![Symbol][img4] | Ihnen oder von Ihnen übergebener Chat. Warten auf Annahme. |
+| <i class="ph ph-warning-circle" aria-label="Warning"></i> | Ihnen oder von Ihnen übergebener Chat. Warten auf Annahme. |
 
 ### Chat-Gespräch
 
@@ -83,5 +83,4 @@ Wenn der Kunde in SuperOffice gefunden wird, können Sie Personeninformationen, 
 [img1]: ../../../../media/loc/en/chat/chat-tabs.png
 [img5]: ../../../../media/loc/en/chat/chat-tab-chats.png
 [img2]: ../../../../../common/icons/chat-status-light-blue-h32.png
-[img4]: ../../../../../common/icons/exclamation-h32.png
 [img3]: ../../../../media/icons/chat-last-customer-unanswered.png

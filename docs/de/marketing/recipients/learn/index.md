@@ -61,7 +61,7 @@ Woran Sie denken sollten, wenn Sie Ihre Datenbank segmentieren möchten:
 
 ![Überprüfen Sie die Interessen einer Person in der Registerkarte Interessen auf der Personenkarte -screenshot][img1]
 
-## <a id ="selections" />Selektionen als Ziellisten
+## <a id ="selections"></a>Selektionen als Ziellisten
 
 Verwenden Sie Selektionen, um Ihre Ziellisten zu erstellen, damit Sie sicher sind, dass Sie die richtige Audience für den Erhalt Ihrer Kampagnen haben.
 

@@ -24,7 +24,7 @@ Im Dialogfeld **Produkt hinzufügen/bearbeiten** können Sie ein Produkt hinzuf�
 1. Geben Sie den Namen des Produkts oder den Produktcode in das Feld **Produktsuche** ein. Die Trefferliste wird automatisch aktualisiert. Sie können Produktnamen und Produktcodes komplett oder teilweise durchsuchen.
 
     > [!TIP]
-    > Wenn die erweiterte Suche unterstützt wird, können Sie auf die Schaltfläche Suchen ![Symbol][img1] im Suchfeld **Produktsuche** klicken und [mehrere Produkte gleichzeitig hinzufügen](#add-multiple).
+    > Wenn die erweiterte Suche unterstützt wird, können Sie auf <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> im Suchfeld **Produktsuche** klicken und [mehrere Produkte gleichzeitig hinzufügen](#add-multiple).
 
 1. Klicken Sie auf das Produkt, das Sie in die Liste aufnehmen möchten. Das Dialogfeld wird mit den Produktinformationen aktualisiert.
 
@@ -40,7 +40,7 @@ Im Dialogfeld **Produkt hinzufügen/bearbeiten** können Sie ein Produkt hinzuf�
 
 1. Klicken Sie unten auf der Registerkarte **Produkte** im Dialogfeld **Angebot bearbeiten** auf **Hinzufügen**.
 
-2. Geben Sie die ersten Zeichen eines Produktnamens in das Feld **Produktsuche** ein, um nach einem Produkt zu suchen. Klicken Sie auf das Suchsymbol ![Symbol][img1], um mithilfe verschiedener Kriterien wie zum Beispiel Produktreihe, Produktgruppen/-kategorien, Name, Artikelnummer usw. nach Produkten zu suchen. Die Suche schließt alle aktiven Preislisten mit der entsprechenden Währung ein.
+2. Geben Sie die ersten Zeichen eines Produktnamens in das Feld **Produktsuche** ein, um nach einem Produkt zu suchen. Klicken Sie auf <i class="ph ph-magnifying-glass" aria-label="Search icon"></i>, um mithilfe verschiedener Kriterien wie zum Beispiel Produktreihe, Produktgruppen/-kategorien, Name, Artikelnummer usw. nach Produkten zu suchen. Die Suche schließt alle aktiven Preislisten mit der entsprechenden Währung ein.
 
 3. Nachdem Sie die Produkte gefunden haben, die Sie dem Angebot hinzufügen möchten, wählen Sie sie mit (**STRG+Klicken**) aus und klicken Sie dann auf **OK**. Die Produkte werden in der Registerkarte **Produkte** angezeigt (oder in der Registerkarte der Alternative, die Sie erstellt haben).
 
@@ -101,6 +101,3 @@ Warnungen und Meldungen werden beispielsweise aus folgenden Gründen angezeigt:
 
 <!-- Referenced links -->
 [1]: approve.md
-
-<!-- Referenced images -->
-[img1]: ../../../../common/icons/nav-search.png

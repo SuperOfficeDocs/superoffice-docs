@@ -1,22 +1,13 @@
 items:
 - name: Überblick
   href: index.md
-- name: Mit Antwortvorlagen arbeiten
-  topicHref: create.md
-  items:
-  - name: Antwortvorlage erstellen
-    href: create.md
-  - name: Vorhandene Vorlage kopieren
-    href: copy.md
-  - name: Antwortvorlage übersetzen
-    href: new-language.md
-  - name: Antwortvorlage bearbeiten
-    href: edit.md
-  - name: Antwortvorlage löschen
-    href: delete.md
-  - name: Antwortvorlage suchen
-    href: find.md
-  - name: Ordner mit Antwortvorlagen verwalten
-    href: manage-folders.md
+- name: Antwortvorlage erstellen
+  href: create.md
+- name: Antwortvorlage übersetzen
+  href: new-language.md
+- name: Antwortvorlage bearbeiten oder löschen
+  href: edit.md
+- name: Ordner verwalten
+  href: manage-folders.md
 - name: Vorlagenvariablen antworten
   href: template-variables.md

@@ -2,10 +2,14 @@
 uid: help-de-follow-up-send
 title: Folgeaufgaben senden
 description: Folgeaufgaben senden
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Kalender, Folgeaufgabe
+keywords: Folgeaufgabe senden, Als E-Mail senden, Kalender, Folgeaufgabe, E-Mail
+author: Bergfrid Dias
+date: 02.11.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
