@@ -52,10 +52,10 @@ Diese Kennzeichnungen erleichtern es Ihnen, auf einen Blick zu erkennen, in wess
 * [Folgeaufgabe zuweisen][1]
 * [Gruppenansicht – mehrere Kalender gleichzeitig anzeigen][3]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: follow-up-assign.md
 [2]: create-follow-up.md#associate
 [3]: group-view.md
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img1]: ../../../media/loc/en/diary/change-diary-owner.png

@@ -26,7 +26,7 @@ Automatisierung spart Zeit, die sonst für die Bearbeitung von Antworten aufgewe
 Sie können die gesammelten Informationen auf verschiedene Arten nutzen:
 
 * Generieren Sie eine Selektion basierend auf denen, die auf einen bestimmten Link geklickt haben, und senden Sie eine gezielte Antwort an diese Gruppe mit einer maßgeschneiderten Mitteilung.
-* Planen Sie Folgeaktivitäten für Ihre Teammitglieder, um persönlich mit den Respondenten zu interagieren.
+* Planen Sie Folgeaufgabeen für Ihre Teammitglieder, um persönlich mit den Respondenten zu interagieren.
 * Erstellen Sie Anfragen für Ihr Kundendienst-Team, um diese zu aufgreifen und zu untersuchen.
 
 ![Definieren Sie Ihre Linkaktionen -screenshot][img3]

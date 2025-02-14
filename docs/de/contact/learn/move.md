@@ -48,10 +48,10 @@ Nutzen Sie diese Option, wenn eine Person die Abteilung oder Firma wechselt oder
 * [Person löschen][2]
 * [Gelöschte Firmen und Personen wiederherstellen][3]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: merge-contacts.md
 [2]: delete.md
 [3]: ../../learn/basics/deleting-elements.md#restore
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img1]: ../../../media/loc/en/contact/move-contact.png

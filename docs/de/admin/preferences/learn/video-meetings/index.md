@@ -29,7 +29,7 @@ Damit die Benutzer Videokonferenzen im Folgeaufgabedialog nutzen können, müsse
 * Sie benötigen ein Konto bei einem Videoanbieter, wie zum Beispiel Zoom Pro.
 * Um E-Mail-Einladungen zu Videokonferenzen (an/von externen Benutzer) senden und empfangen zu können, müssen Sie das E-Mail-Setup in SuperOffice CRM (Benutzerclient) konfigurieren oder den SuperOffice E-Mail-Link verwenden.
 
-Jeder Videoanbieter hat seine eigenen Anforderungen, um seine Dienste mit SuperOffice CRM zu verbinden. Zum Beispiel, Sie benötigen ein Microsoft 365-Abonnement für Unternehmen. Videomeetings mit Microsoft Teams unterstützen keine Persönlichen- oder Familienkonten.
+Jeder Videoanbieter hat seine eigenen Anforderungen, um seine Dienste mit SuperOffice CRM zu verbinden. Zum Beispiel, Sie benötigen ein Microsoft 365-Abonnement für Unternehmen. Videokonferenzen mit Microsoft Teams unterstützen keine Persönlichen- oder Familienkonten.
 
 ## Verwandte Themen
 

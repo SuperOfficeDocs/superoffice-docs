@@ -67,7 +67,7 @@ Entdecken Sie das volle Potenzial von SuperOffice CRM! Nutzen Sie unsere Anleitu
 * [Mehr über Aktivitäten erfahren (Folgeaufgaben, Dokumente und E-Mails)][13]
 * [Mobile CRM: Zugriff auf Ihr CRM von unterwegs][9]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: main-screen/navigator.md
 [2]: main-screen/index.md
 [6]: login.md
@@ -82,5 +82,5 @@ Entdecken Sie das volle Potenzial von SuperOffice CRM! Nutzen Sie unsere Anleitu
 [20]: ../../onsite/win-client/learn/index.md
 [21]: ../../../en/onsite/requirements/index.md
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img1]: ../../../media/loc/en/learn/contact-screen-with-week.png

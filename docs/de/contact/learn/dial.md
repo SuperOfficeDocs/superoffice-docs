@@ -18,11 +18,11 @@ Wenn Ihre IP-Telefonlösung richtig konfiguriert ist, können Sie eine Person di
 * Klicken Sie mit der rechten Maustaste auf eine Person in einer Bereichsregisterkarte und wählen Sie **Anruf *Name***.
 * Personen anrufen.
 
-## Anruf über die Dialogfelder Termin, Aufgabe, Anruf und Dokument
+## Anruf über die Dialogfelder Folgeaufgabe und Dokument
 
-Zu diesem Zweck verwenden Sie die Telefon-Schaltfläche, die z. B. in den Dialogfeldern **Termin**, **Aufgabe**, **Anruf** und **Dokument** angezeigt wird:
+Zu diesem Zweck verwenden Sie die Telefon-Schaltfläche, die z. B. in den Dialogfeldern **Folgeaufgabe** und **Dokument** angezeigt wird:
 
-1. Öffnen Sie einen Termin, eine Aufgabe, einen Anruf oder ein Dokument.
+1. Öffnen Sie eine Folgeaufgabe oder ein Dokument.
 2. Wählen Sie im betreffenden Dialogfeld die gewünschte Person im Feld **Person** aus.
 3. Klicken Sie auf die Anruf-Schaltfläche neben dem Feld Person. Eine Liste von Nummern, die mit der ausgewählten Person verknüpft sind, wird angezeigt.
 4. Wählen Sie die Telefonnummer, die Sie anrufen möchten. Die Person wird daraufhin angerufen.

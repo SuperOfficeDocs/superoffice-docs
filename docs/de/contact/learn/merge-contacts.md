@@ -54,9 +54,9 @@ Wenn dieselbe Person unter verschiedenen Namen oder Firmen in SuperOffice CRM er
 * [Firmen zusammenführen][1]
 * [Gelöschte Firmen und Personen wiederherstellen][2]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: ../../company/learn/merge-companies.md
 [2]: ../../learn/basics/deleting-elements.md#restore
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img4]: ../../../media/loc/en/contact/merge-contacts.png

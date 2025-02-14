@@ -52,7 +52,7 @@ Manchmal ist es erforderlich, Personen in SuperOffice CRM zu löschen – beispi
 * [Massenlöschung von Personen und Firmen aus der Selektion][9]
 * [Gelöschte Firmen und Personen wiederherstellen][5]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [2]: merge-contacts.md
 [3]: ../../learn/basics/bulk-update.md
 [5]: ../../learn/basics/deleting-elements.md#restore

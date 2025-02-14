@@ -52,7 +52,7 @@ audience_tooltip: SuperOffice Marketing
 | Einstellung | Beschreibung |
 |---|---|
 | Titel | Ein beschreibender Name des Verkaufs. Details finden sich in der Beschreibung. |
-| Verkaufstyp | Informationen zum Verkaufsprozess. Beeinflusst Standard-Verkaufsphase und geschätztes Verkaufsdatum. Einige Verkaufstypen sind mit einem [Verkaufsleitfaden][14] verknüpft. |
+| Verkaufstyp | Informationen zum Verkaufsprozess. Beeinflusst Standard-Verkaufsstufe und geschätztes Verkaufsdatum. Einige Verkaufstypen sind mit einem [Verkaufsleitfaden][14] verknüpft. |
 | Stufe | Die aktuelle Phase des Verkaufs (offen, verloren, verkauft). |
 | Betrag | Erwarteter Betrag für den Umsatz. |
 | Beschreibung | Eine detailliertere Beschreibung des Verkaufs. |

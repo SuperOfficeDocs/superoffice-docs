@@ -57,7 +57,7 @@ Unterhalb der Personenkarte bieten die [Bereichsregisterkarten][16] schnellen Zu
 * [Personen löschen][6]
 * [E-Mail an eine Person senden][7]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [2]: create.md
 [3]: ../../security/privacy/learn/edit-legal-base.md
 [4]: move.md
@@ -77,5 +77,5 @@ Unterhalb der Personenkarte bieten die [Bereichsregisterkarten][16] schnellen Zu
 [21]: ../../admin/lists/learn/web-panel.md
 [22]: ../../admin/erp/learn/screen/erp-tab.md
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img3]: ../../../media/loc/en/contact/contact-screen.png

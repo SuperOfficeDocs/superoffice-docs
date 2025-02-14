@@ -100,7 +100,7 @@ Erfolgskriterien legen die Parameter für die Bestimmung des Erfolgs eines Flow 
 
 * Person aktualisiert
 * Verkauf erstellt bei Person oder Firma
-* Termin erstellt
+* Folgeaufgabe erstellt
 * Anfrage erstellt
 * Teilnehmer zur Selection oder zum Projekt hinzugefügt
 * Formular eingereicht

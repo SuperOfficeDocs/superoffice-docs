@@ -119,9 +119,9 @@ Sie können nur von Ihnen erstellte Gruppenansichten löschen. Vordefinierte Gru
 * [Mehr über die Registerkarte Ansicht erfahren][2]
 * [Folgeaufgabe für Mitarbeiter erstellen][4]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [2]: index.md#tabs
 [4]: create-follow-up.md#associate
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img1]: ../../../media/loc/en/diary/new-group-view.png

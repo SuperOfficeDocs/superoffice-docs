@@ -56,10 +56,10 @@ Sie können E-Mails sowohl aus der **Ansicht Person** als auch aus der **Ansicht
 * [E-Mails im SuperOffice-Posteingang archivieren][2]
 * [SuperOffice für Outlook][3]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: ../../document/learn/create.md#fields
 [2]: ../../email/inbox/learn/archive.md
 [3]: ../../email/superoffice-for-outlook/learn/save-to-superoffice.md
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img2]: ../../../media/loc/en/contact/send-email.png

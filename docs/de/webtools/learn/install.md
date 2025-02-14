@@ -27,7 +27,7 @@ Sehen Sie sich dieses Video an oder folgen Sie der folgenden Anleitung, um zu le
 
 ### Schritte
 
-1. Gehen Sie zum ![Symbol][img1] Hauptmenü in der oberen Leiste.
+1. Gehen Sie zu <i class="ph ph-list" aria-label="Main menu"></i> in der oberen Leiste.
 1. Wählen Sie **Download** > **SuperOffice WebTools** aus. Es wird der Assistent für SuperOffice WebTools angezeigt.
 
     ![Download WebTools -screenshot][img2]
@@ -61,7 +61,6 @@ Wir arbeiten ständig daran, unsere Programme zu verbessern, einschließlich Web
 [1]: install-mac.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/main-menu-small.png
 [img2]: ../../../media/loc/en/webtools/download-webtools.png
 [img3]: ../../../media/loc/en/webtools/webtools-pc.png
 [img4]: ../../../media/loc/en/webtools/webtools-email-client.png

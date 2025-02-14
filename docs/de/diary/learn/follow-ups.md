@@ -108,7 +108,7 @@ Die [Registerkarte Mehr][12] enthält benutzerdefinierte Felder für die Folgeau
 * [Folgeaufgabe erstellen][2]
 * [Mehr über Aktivitäten erfahren][4]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [2]: create-follow-up.md
 [4]: ../../learn/basics/activity.md
 [5]: invitation/index.md

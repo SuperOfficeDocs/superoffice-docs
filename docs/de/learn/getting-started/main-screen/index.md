@@ -77,7 +77,7 @@ Sie können die Reihenfolge von Registerkarten oder Bereichsregisterkarten anpas
 
 Um die Schriftgröße zu ändern, nutzen Sie die Zoom-Funktion Ihres Browsers (**Strg + "+"** oder **Strg + "-"**), um die Darstellung zu vergrößern oder zu verkleinern.
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: navigator.md
 [2]: buttons-in-menu-bar.md
 [3]: side-panel.md

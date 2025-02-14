@@ -85,11 +85,11 @@ Wenn Sie die Startzeit für eine einzelne Instanz ändern, bleibt die Regel unbe
 * [Regelmäßige Folgeaufgabe stoppen][5]
 * [Link zu Dokument, Verkauf, Projekt oder Webseite hinzufügen][6]
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [2]: change-completed-status.md
 [3]: create-follow-up.md#fields
 [5]: recurrence/stop.md
 [6]: ../../learn/basics/links.md
 
-<!-- Referenzierte Bilder -->
+<!-- Referenced images -->
 [img1]: ../../../media/loc/en/diary/change-repeating-fo.png

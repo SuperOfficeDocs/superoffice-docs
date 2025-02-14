@@ -25,7 +25,7 @@ Im Allgemeinen ist es ganz einfach, Listen und Objekte hinzuzufügen, zu bearbei
 * [Datenschutz - Rechtsgrundlage][10]
 * [Datenschutz - Nachweis][11]
 * [Projekt - Status][12]
-* [Projekt - Typ, Status][13]
+* [Projekt - Typ, Stufen][13]
 * [Verkauf - Betragsklasse][14]
 * [Verkauf - Stufe][15]
 * [Verkauf - Beteiligtenrolle][16]

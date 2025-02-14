@@ -103,7 +103,7 @@ Gehen Sie zum Registerkarte **Flow**, um zu überprüfen, ob sich jemand im Zwei
 * Entfernen Sie die Teilnehmer aus dem Flow mit dem **Aufgabe**-Menü.
 * Warten Sie darauf, dass der Zweig "abfließt". Möglicherweise müssen Sie die Bedingung des Zweigs aktualisieren, um zu verhindern, dass neue Teilnehmer eintreten.
 
-<!-- Referenzierte Links -->
+<!-- Referenced links -->
 [1]: run-pause-end.md
 [2]: create.md
 [3]: create.md#add-step

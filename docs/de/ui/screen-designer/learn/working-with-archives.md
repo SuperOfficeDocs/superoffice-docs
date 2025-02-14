@@ -28,7 +28,7 @@ Wenn Sie ein neues Layout für eine Benutzergruppe erstellen, sollten Sie überl
 
 ## Bereichsregisterkarten hinzufügen
 
-Sie können auf jedem Bildschirm mit einem Bereichsregisterkartenbereich eine neue Registerkarte hinzufügen. Je nach gewähltem Bildschirm können Sie eine neue Registerkarte mit folgenden Inhalten hinzufügen: Dokument, Termin, Produkt, Projekt, Projektmitglied, Verkauf, Verkaufsbeteiligter, Anfrage, Person und Beziehung.
+Sie können auf jedem Bildschirm mit einem Bereichsregisterkartenbereich eine neue Registerkarte hinzufügen. Je nach gewähltem Bildschirm können Sie eine neue Registerkarte mit folgenden Inhalten hinzufügen: Dokument, Folgeaufgabe, Produkt, Projekt, Projektmitglied, Verkauf, Verkaufsbeteiligter, Anfrage, Person und Beziehung.
 
 ![Wählen Sie den Inhaltstyp, den Sie in der Bereichsregisterkarte anzeigen möchten -screenshot][img5]
 
