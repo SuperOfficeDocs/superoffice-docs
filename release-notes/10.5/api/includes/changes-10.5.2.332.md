@@ -3,7 +3,11 @@ uid: version_10.5.2.332_changes
 date: 10.02.2025
 ---
 
-Changes from v10.5.1.871 and v10.5.2.332
+<- [Back](../10.5.2-update.md)
+
+## Changes from v10.5.1.871 and v10.5.2.332
+
+---
 
 ## Web Services
 
@@ -3573,6 +3577,3 @@ The following represent changes to SuperOffice database schema.
 * Modified items
   * Field `Classic`
   * Field `Modern`
-
-
-
