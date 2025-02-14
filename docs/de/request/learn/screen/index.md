@@ -13,8 +13,6 @@ language: de
 
 # Anfrageansicht
 
-![Übersicht über die Ansicht Anfragen oder die Registerkarte Anfrage -screenshot][img3]
-
 ## Übersicht anfordern
 
 Der Ansicht Anfrage enthält folgende Abschnitte:
@@ -28,7 +26,7 @@ Der Ansicht Anfrage enthält folgende Abschnitte:
 
 ### Kopfzeile der Anfrage
 
-Die Kopfzeile der Anfrage enthält die Eigenschaften, die während des Vorgangs [Anfrage wurde erstellt][12] definiert wurden. Die Kopfzeile umfasst den Titel der Anfrage, die Person, die Bearbeitungsfrist und die Anfrage-ID (in der Registerkarte). Zusätzlich können Sie auf ![Symbol][img6] klicken und die Anfrage als Favoriten einstellen. Die Anfrage ist dann im Navigator über **Meine Favoriten** unter **Anfragen** und in der Kachel **Meine Favoriten** im [Dashboard][17] verfügbar.
+Die Kopfzeile der Anfrage enthält die Eigenschaften, die während des Vorgangs [Anfrage wurde erstellt][12] definiert wurden. Die Kopfzeile umfasst den Titel der Anfrage, die Person, die Bearbeitungsfrist und die Anfrage-ID (in der Registerkarte). Zusätzlich können Sie auf <i class="ph ph-star" aria-label="Star icon"></i> klicken und die Anfrage als Favoriten einstellen. Die Anfrage ist dann im Navigator über **Meine Favoriten** unter **Anfragen** und in der Kachel **Meine Favoriten** im [Dashboard][17] verfügbar.
 
 ### Mitteilungstypen
 
@@ -39,22 +37,22 @@ In der Regel gibt es drei Arten von Nachrichten:
 * Interne Kommentare über die Anfrage, wie Fragen an einen Kollegen
 
 > [!TIP]
-> Interne Nachrichten werden mit dem ![Symbol][img5] gekennzeichnet.
+> Interne Nachrichten werden mit dem Symbol <i class="ph ph-dots-three" aria-label="Three dots"></i> gekennzeichnet.
 
 ## Registerkarte Nachrichten
 
 Auf der Registerkarte **Nachrichten** werden die mit der Anfrage verknüpften Nachrichten angezeigt.
 
-Sie können die Anzahl der angezeigten Nachrichten in ![Symbol][img2] **Persönliche Einstellungen** ändern:
+Sie können die Anzahl der angezeigten Nachrichten in **Persönliche Einstellungen** ändern:
 
-1. Wählen Sie das ![Symbol][img2] **Persönliche Einstellungen** > **Einstellungen** aus.
+1. Wählen Sie <i class="ph ph-user-circle" aria-hidden="true"></i> **Persönliche Einstellungen** > **Einstellungen** aus.
 1. Wählen Sie die Gruppe für die **Anfrage**aus.
 1. Legen Sie im Feld **Anzahl der erweiterten Nachrichten** die Anzahl der Nachrichten fest.
 1. Klicken Sie auf **OK**.
 
 ### Mitteilungsaufgaben
 
-Klicken Sie auf das ![Symbol][img1] der Schaltfläche **Aufgabe** in einer Nachricht, um auf zusätzliche Optionen für die Nachricht zuzugreifen:
+Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> in einer Nachricht, um auf zusätzliche Optionen für die Nachricht zuzugreifen:
 
 * **Ändern**: Klicken Sie hier, um die Nachricht zu [bearbeiten][8] oder zu löschen.
 * **Antworten**: Klicken Sie hier, um der Person im Feld An zu antworten.
@@ -96,7 +94,7 @@ Die Seitenleiste Eigenschaften der Anfrage enthält folgende Optionen:
 
 ### Aufgabenoptionen
 
-![Symbol][img1] der Schaltfläche **Aufgabe**: Klicken Sie auf diese Schaltfläche, um auf folgende Optionen zuzugreifen:
+Der Schaltfläche **Aufgabe**: Klicken Sie auf diese Schaltfläche, um auf folgende Optionen zuzugreifen:
 
 * **Bearbeiten**: Klicken Sie hier, um die Eigenschaften dieser Anfrage zu bearbeiten. Sie können die Anfrage beispielsweise einem anderen Bearbeiter zuweisen, wenn Sie einen [Kollegen um Rat fragen][1] müssen.
 * **Annehmen**: Klicken Sie hier, damit Sie die [Anfrage übernehmen][5] können. Sie werden dann zum neuen Eigentümer der Anfrage.
@@ -120,27 +118,20 @@ Die Seitenleiste Eigenschaften der Anfrage enthält folgende Optionen:
 * [Anfrage schließen][16]
 
 <!-- Referenced links -->
-[1]: ../howto/transfer.md
-[2]: ../category/index.md
-[3]: ../priority/escalation-levels.md
+[1]: ../transfer.md
+[2]: ../../admin/category/index.md
+[3]: ../../admin/priority/escalation-levels.md
 [4]: ../tags.md
-[5]: ../howto/accept.md
-[6]: ../howto/split-request.md
-[7]: ../howto/merge.md
-[8]: ../howto/edit-message.md
-[9]: ../howto/forward.md
+[5]: ../accept.md
+[6]: ../split-request.md
+[7]: ../merge.md
+[8]: ../edit-message.md
+[9]: ../forward.md
 [10]: ../find.md
-[11]: ../howto/split-message.md
-[12]: ../howto/create.md
-[13]: ../howto/assign.md
-[14]: ../howto/reply.md
+[11]: ../split-message.md
+[12]: ../create.md
+[13]: ../assign.md
+[14]: ../reply.md
 [15]: ../../../learn/basics/fav.md
-[16]: ../howto/close.md
+[16]: ../close.md
 [17]: ../../../dashboard/learn/show-requests.md
-
-<!-- Referenced images -->
-[img1]: ../../../../media/icons/btn-menu.png
-[img2]: ../../../../media/icons/personal-settings-small.png
-[img3]: ../../../../media/loc/en/request/request-screen.png
-[img5]: ../../../../../common/icons/addcomment.png
-[img6]: ../../../../../common/icons/favourite-no.png

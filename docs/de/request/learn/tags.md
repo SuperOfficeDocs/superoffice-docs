@@ -1,11 +1,13 @@
 ---
 uid: help-de-request-tags
 title: Verwenden von Tags in Anfragen
-description: "In dieser Anleitung lernen Sie, wie Sie Anforderungs-Tags erstellen und bearbeiten."
+description: In dieser Anleitung lernen Sie, wie Sie Anforderungs-Tags erstellen und bearbeiten.
+keywords: Tags erstellen, neuer Tags, Tags suchen, Tags, Anfrage
 author: Bergfrid Dias
-date: 02.23.2023
-keywords: Anfrage
+date: 02.11.2025
+version: 10.5.2
 topic: howto
+license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: de
@@ -21,7 +23,7 @@ Jede Firma wird ihre eigenen spezifischen Kundenservice-Anfrage-Tags verwenden w
 
 * Sie können Tags erstellen, die sich auf die Abteilung beziehen, die eine bestimmte Art von Anfrage bearbeiten soll, zum Beispiel Finanzen, Marketing oder Vertrieb.
 
-Standardmäßig sind in Ihrer SuperOffice CRM-Lösung keine Tags vorhanden. Sie können beliebig viele [neue Tags hinzufügen][4] und überflüssig Tags jederzeit entfernen oder ändern.
+Standardmäßig sind in Ihrer SuperOffice CRM-Lösung keine Tags vorhanden. Sie können beliebig viele neue Tags hinzufügen und überflüssig Tags jederzeit entfernen oder ändern.
 
 ![Anfragen taggen -screenshot][img2]
 
@@ -30,7 +32,7 @@ Standardmäßig sind in Ihrer SuperOffice CRM-Lösung keine Tags vorhanden. Sie 
 Wenn Sie eine[Anfrage erstellen oder bearbeiten][1], können Sie ein oder mehrere Tags hinzufügen, welche die Anfrage beschreiben.
 
 1. Wählen Sie die relevanten Anfragen aus.
-1. Klicken Sie die Schaltfläche **Aufgabe** (![Symbol][img1]) im unteren Teil links in der Anfrageliste.
+1. Klicken Sie die Schaltfläche <i class="ph ph-list" aria-hidden="true"></i> **Aufgabe** im unteren Teil links in der Anfrageliste.
 1. Wählen Sie **Massenabgleich** aus.
 1. Aktivieren Sie in der Anzeige **Massenabgleich** das Kontrollkästchen **Tags** .
 1. Wählen Sie **Objekte hinzufügen** in der Liste **Aktion** aus, und wählen Sie die gewünschten Tags aus der Liste **Neuer Wert** aus.
@@ -38,20 +40,19 @@ Wenn Sie eine[Anfrage erstellen oder bearbeiten][1], können Sie ein oder mehrer
 
 ## Erstellen neuer Tags
 
-Wenn Sie über das nötige funktionelle Recht verfügen, können Sie auch neue Tags erstellen. Geben Sie in einem Tag-Feld in einer Anfrage oder im [Schnellsuchfeld][2] den Namen für ein zu erstellendes Tag ein. Wenn das Tag bereits vorhanden ist, wird es in der Liste angezeigt. Andernfalls klicken Sie auf die Nachricht unter dem Feld, um das Tag zu erstellen.
+Wenn Sie über das nötige funktionelle Recht verfügen, können Sie auch neue Tags erstellen. Geben Sie in einem Tag-Feld in einer Anfrage oder im Schnellsuchfeld den Namen für ein zu erstellendes Tag ein. Wenn das Tag bereits vorhanden ist, wird es in der Liste angezeigt. Andernfalls klicken Sie auf die Nachricht unter dem Feld, um das Tag zu erstellen.
 
 > [!NOTE]
-> Hinzufügen oder Löschen von Tags ist ein funktionelles Recht, das vom Administrator für ein effizienteres Tag-System festgelegt wurde, und um Duplikat-Tags für dieselbe Anfrage zu vermeiden. Administratoren können auch Tags in der Liste **Tag** in der Ansicht Listen in Einstellungen und Verwaltung hinzufügen.
+> Hinzufügen oder Löschen von Tags ist ein funktionelles Recht, das vom Administrator für ein effizienteres Tag-System festgelegt wurde, und um Duplikat-Tags für dieselbe Anfrage zu vermeiden. Administratoren können auch [Tags hinzufügen][4] in der Liste **Tag** in der Ansicht Listen in Einstellungen und Verwaltung.
 
 ## Nach Tags suchen
 
 Nach Tags können Sie in der [Volltextsuche][2] und mit Kriterien in der normalen Suchfunktion suchen.
 
 <!-- Referenced links -->
-[1]: howto/create.md
+[1]: create.md
 [2]: ../../search-options/learn/freetext-search.md
 [4]: ../../admin/lists/learn/adding-items.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/btn-menu.png
-[img2]: ../../../media/loc/en/request/requests-tag-request-small.png
+[img2]: ../../../media/loc/en/request/tags.png
