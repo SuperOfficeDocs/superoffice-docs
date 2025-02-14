@@ -2,16 +2,20 @@
 uid: help-de-sale-stakeholders
 title: Beteiligte
 description: Beteiligte
+keywords: Bereichsregisterkarte Beteiligte, Beteiligte anzeigen, Dieser Verkaufstyp hat Beteiligte, Beteiligter, Verkauf
 author: SuperOffice RnD
-date: 07.04.2022
-keywords: Verkauf, Beteiligter
+date: 02.11.2025
+version: 10.5.2
 topic: concept
+license: salespremium
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # Beteiligte
 
-![Symbol][img1]
+![Bereichsregisterkarte Beteiligte in der Verkaufsansicht -screenshot][img1]
 
 Ein Verkauf enthält eine Hauptperson, jedoch können auch Partner und Zulieferer am Verkauf beteiligt sein. Diese werden als Beteiligte bezeichnet und können in der Bereichsregisterkarte **Beteiligte** unten in der Ansicht Verkauf eingegeben werden. Zu den Beteiligten zählen sowohl Einzelpersonen als auch Firmen.
 
@@ -28,14 +32,14 @@ Es wird für jeden Beteiligten die Rolle im Verkauf angezeigt. Diese Rollen im V
 
 Darüber hinaus müssen Sie auch die Einstellung **Beteiligte aktivieren** in der Einstellungsgruppe **Verkauf** festlegen.
 
-## Was möchten Sie jetzt tun?
+## Verwandte Inhalte
 
 * [Beteiligte erstellen][1]
 * [Beteiligte über die Bereichsregisterkarten hinzufügen][2]
 * [Beteiligte bearbeiten oder entfernen][3]
 * [E-Mail-Nachrichten an Beteiligte senden][4]
-* [Objekte zur Liste Verkauf - Verkaufstyp (für Stufen) hinzufügen][5]
-* [Objekte in der Liste Verkauf - Beteiligtenrolle hinzufügen, bearbeiten und löschen][6]
+* [Verkaufstypen hinzufügen oder bearbeiten][5]
+* [Beteiligtenrolle hinzufügen, bearbeiten und löschen][6]
 * [Einstellungsoptionen hinzufügen][7]
 
 <!-- Referenced links -->
@@ -43,9 +47,9 @@ Darüber hinaus müssen Sie auch die Einstellung **Beteiligte aktivieren** in de
 [3]: edit.md
 [2]: ../../../project/learn/project-members/add.md#from-section-tab
 [4]: ../../../project/learn/project-members/send-email-to.md
-[5]: ../../../admin/lists/learn/sale-type.md
+[5]: ../../admin/sale-type.md
 [6]: ../../../admin/lists/learn/items.md
 [7]: ../../../admin/preferences/learn/update-preferences.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/sale/chap7-stakeholders.png
+[img1]: ../../../../media/loc/en/sale/stakeholders-section-tab.png

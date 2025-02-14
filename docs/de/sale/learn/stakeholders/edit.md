@@ -2,11 +2,12 @@
 uid: help-de-sale-stakeholder-edit
 title: Beteiligte bearbeiten
 description: Wie man Beteiligte in einem Verkauf in SuperOffice bearbeitet oder entfernt.
-keywords: Verkauf, Beteiligt, Interessent
+keywords: Beteiligten bearbeiten, Beteiligte hinzufügen/bearbeiten, Rolle zuweisen, Bereichsregisterkarte Beteiligte, Beteiligter, Verkaufsrolle, Verkauf
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
-topic: concept
+date: 02.11.2025
+version: 10.5.2
+topic: howto
+license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
@@ -39,7 +40,7 @@ Sie können die **Verkaufsrolle** und **Kommentar**-Felder für Beteiligte aktua
 
 1. Wählen Sie die Beteiligte aus, die Sie aus der Liste in der **Beteiligte**-Bereichsregisterkarte entfernen möchten.
 
-1. Klicken Sie auf **Entfernen**. Im angezeigten Bestätigungsdialog klicken Sie auf **Ja**, um zu bestätigen.
+1. Klicken Sie auf **Entfernen**. Im angezeigten Bestätigungsdialog klicken Sie auf **Ja**.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md

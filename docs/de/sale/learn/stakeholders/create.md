@@ -2,11 +2,12 @@
 uid: help-de-stakeholder-create
 title: Beteiligte hinzufügen
 description: Wie man einen Verkauf mit einem Beteiligten (Firma oder Person) in SuperOffice verknüpft.
-keywords: Verkauf, Beteiligt, Interessent
+keywords: Beteiligten hinzufügen, neuer Beteiligter, Beteiligten bearbeiten, Beteiligte hinzufügen/bearbeiten, Rolle zuweisen, Bereichsregisterkarte Beteiligte, Beteiligter, Verkauf
 author: Bergfrid Dias
-date: 11.19.2024
-version: 10.3.12
-topic: concept
+date: 02.11.2025
+version: 10.5.2
+topic: howto
+license: salespremium
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
@@ -32,11 +33,11 @@ Eine Firma/Person kann mehrfach als Interessent hinzugefügt werden, vorausgeset
 
       ![Dialog Beteiligte hinzufügen/bearbeiten, Verlauf -screenshot][img5]
 
-    * **Benutzergruppe**: Klicken Sie auf ![Icon][img2], um Mitarbeiter nach Gruppe zu durchsuchen.
+    * **Benutzergruppe**: Klicken Sie auf <i class="ph ph-users" aria-label="Associate icon"></i>, um Mitarbeiter nach Gruppe zu durchsuchen.
 
       ![Dialog Beteiligte hinzufügen/bearbeiten, Gruppe -screenshot][img6]
 
-    * **Firma**: Klicken Sie auf ![Icon][img3], um Personen nach Firma zu durchsuchen oder eine Firma als Interessent hinzuzufügen.
+    * **Firma**: Klicken Sie auf <i class="ph ph-arrow-circle-right" aria-label="Arrow right"></i>, um Personen nach Firma zu durchsuchen oder eine Firma als Interessent hinzuzufügen.
 
       ![Dialog Beteiligte hinzufügen/bearbeiten, Firma -screenshot][img7]
 
@@ -64,19 +65,16 @@ Eine Firma/Person kann mehrfach als Interessent hinzugefügt werden, vorausgeset
 
 * **Kommentare hinzufügen**
 
-    Wenn ein Kommentar hinzugefügt wird, erscheint ein ![Icon][img1] Büroklammer-Symbol neben der Spalte **Verkaufsrolle** in der **Beteiligte**-Bereichsregisterkarte. Bewegen Sie den Mauszeiger über die Büroklammer, um das Tooltip mit dem Kommentar anzuzeigen.
+    Wenn ein Kommentar hinzugefügt wird, erscheint ein Büroklammer-Symbol (<i class="ph ph-paperclip" aria-hidden="true"></i>) neben der Spalte **Verkaufsrolle** in der **Beteiligte**-Bereichsregisterkarte. Bewegen Sie den Mauszeiger über die Büroklammer, um das Tooltip mit dem Kommentar anzuzeigen.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/find-screen.md
 [2]: ../../../project/learn/project-members/add.md
 [3]: ../../../contact/learn/create.md
-[4]: ../../../admin/lists/learn/sale-type.md
+[4]: ../../admin/sale-type.md
 [5]: ../../../admin/lists/learn/editing-items.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/binders.png
-[img2]: ../../../../../common/icons/associate-group.png
-[img3]: ../../../../../common/icons/singlecolour/contact.png
 [img5]: ../../../../media/loc/en/sale/add-stakeholders-from-history.png
 [img6]: ../../../../media/loc/en/sale/add-stakeholders-from-group.png
 [img7]: ../../../../media/loc/en/sale/add-stakeholders-from-company.png

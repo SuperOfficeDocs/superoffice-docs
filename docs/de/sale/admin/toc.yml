@@ -1,0 +1,11 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Verkaufsstufe hinzufügen
+  href: sale-stage.md
+- name: Verkaufstyp hinzufügen
+  href: sale-type.md
+- name: Neuen Verkaufsleitfaden erstellen
+  href: create-sales-guide.md
+- name: Verkaufsleitfaden bearbeiten oder deaktivieren
+  href: edit-sales-guide.md
