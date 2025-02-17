@@ -11,7 +11,7 @@ metadata:
   so.topic: landing-page
   author: Help and Learn
   so.author: Christine H.
-  so.date: 11.11.2022
+  so.date: 02.17.2025
 
 # typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
@@ -46,7 +46,7 @@ landingContent:
           url: ../custom-objects/learn/udef.md
         - text: Ekstra felter
           url: ../custom-objects/admin/create-extra-field.md
-        - text: Ekstra borde
+        - text: Ekstra tabeller
           url: ../custom-objects/admin/create-extra-table.md
       
   # Card
