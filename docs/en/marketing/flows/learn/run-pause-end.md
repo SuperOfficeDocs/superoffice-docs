@@ -4,12 +4,13 @@ title: Run, pause, and end flow
 description: How to run, pause, resume, end, and delete a SuperOffice Marketing automation flow.
 keywords: flow, automation, run flow, running, pause flow, resume flow, end flow, delete flow, flow status
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 04.30.2024
-version: 10.3.5
+date: 02.17.2025
+version: 10.5.2
 topic: howto
-language: en
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: en
 ---
 
 # Run, pause, and end flow
@@ -71,7 +72,8 @@ If flow is started again after ending it, only new participants go through the f
 
 ## <a id="delete"></a>Delete flow
 
-1. Pause the flow.
+1. Pause the flow. The flow's status changes to **Paused**.
+1. End the flow. The status changes to **Not running**.
 1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Delete flow**.
 1. Confirm the action.
 
@@ -85,7 +87,7 @@ All required settings must be valid before the flow can run. For example, a flow
 
 ### Unable to delete flow
 
-You cannot delete a running flow. First, pause the flow. Then click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Delete flow**.
+You cannot delete a running flow. First, pause the flow. Then, end the flow so the status changes to **Not running**. After that, click <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Delete flow**.
 
 ## Related content
 

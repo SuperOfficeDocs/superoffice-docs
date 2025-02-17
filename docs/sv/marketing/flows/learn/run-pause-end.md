@@ -4,12 +4,13 @@ title: Kör, pausa och avsluta flöde
 description: Kör, pausa och avsluta flöde
 keywords: flöde, flödestatus, starta flöde, pausa flöde, körs
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.14.2024
-version: 10.3.7
+date: 02.17.2025
+version: 10.5.2
 topic: howto
-language: sv
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: sv
 ---
 
 # Kör, pausa och avsluta flöde
@@ -71,9 +72,10 @@ Om flödet startas igen efter att ha avslutats, går bara nya deltagare igenom f
 
 ## <a id="delete"></a>Ta bort flöde
 
-1. Pausa flödet.
-2. Välj **Uppgift** > **Ta bort flöde**.
-3. Bekräfta åtgärden.
+1. Pausa flödet. Flödets status ändras till **Pausad**.
+1. Avsluta flödet. Status ändras till **Inte igång**.
+1. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Uppgiftsmeny"></i> och välj **Ta bort flöde**.
+1. Bekräfta åtgärden.
 
 Detta alternativ finns både i **Visa flöde**-skärmen och i översikten över alla flöden.
 
@@ -85,7 +87,7 @@ Alla nödvändiga inställningar måste vara giltiga innan flödet kan köras. T
 
 ### Kan inte ta bort flöde
 
-Du kan inte ta bort ett körande flöde. Pausa först flödet och välj sedan **Uppgift** > **Ta bort flöde**.
+Du kan inte ta bort ett körande flöde. Pausa först flödet. Avsluta sedan flödet så att statusen ändras till **Inte igång**. Därefter klickar du på <i class="ph ph-dots-three-circle-vertical" aria-label="Uppgiftsmeny"></i> och väljer **Ta bort flöde**.
 
 ## Relaterat innehåll
 

@@ -4,12 +4,13 @@ title: Kjør, pause og avslutt flyt
 description: Hvordan kjøre, pause, gjenoppta, avslutte og slette en SuperOffice-markedsføringsautomatiseringsflyt.
 keywords: flyt, markedsføring, automatisering, kjøre flyt, kjørende, pause flyt, gjenoppta flyt, avslutte flyt, slette flyt, flytstatus
 author: Bergfrid Dias
-date: 05.24.2024
-version: 10.3.5
+date: 02.17.2025
+version: 10.5.2
 topic: howto
-language: no
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: no
 ---
 
 # Kjør, pause og avslutt flyt
@@ -71,8 +72,9 @@ Hvis flyten startes igjen etter å ha avsluttet den, går bare nye deltakere gje
 
 ## <a id="delete"></a>Slett flyt
 
-1. Sett flyten på pause.
-1. Velg **Oppgave** > **Slett flyt**.
+1. Sett flyten på pause. Flytens status endres til **Pauset**.
+1. Avslutt flyten. Status endres til **Stoppet**.
+1. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Oppgavemeny"></i> og velg **Slett flyt**.
 1. Bekreft handlingen.
 
 Denne muligheten er tilgjengelig både i **Vis flyt**-skjermen og i oversikten over alle flyter.
@@ -85,7 +87,7 @@ Alle påkrevde innstillinger må være gyldige før flyten kan kjøres. For ekse
 
 ### Kan ikke slette flyt
 
-Du kan ikke slette en kjørende flyt. Sett flyten på pause først, og velg deretter **Oppgave** > **Slett flyt**.
+Du kan ikke slette en kjørende flyt. Først må du sette flyten på pause. Deretter må du avslutte flyten, slik at statusen endres til **Stoppet**. Til slutt klikker du på <i class="ph ph-dots-three-circle-vertical" aria-label="Oppgavemeny"></i> og velger **Slett flyt**.
 
 ## Relatert innhold
 
