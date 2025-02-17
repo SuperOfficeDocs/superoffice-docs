@@ -4,12 +4,13 @@ title: Køre, pause og afslutte flow
 description: Sådan kører, pauser, genoptager, afslutter og sletter en SuperOffice Marketing automation-strøm.
 keywords: Marketing, flow
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.14.2024
-version: 10.3.5
+date: 02.17.2025
+version: 10.5.2
 topic: howto
-language: da
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: da
 ---
 
 # Køre, pause og afslutte flow
@@ -71,9 +72,10 @@ Hvis flowet startes igen efter afslutning, går kun nye deltagere gennem flowet,
 
 ## <a id="delete"></a>Slet flow
 
-1. Pause flowet.
-2. Vælg **Opgave** > **Slet flow**.
-3. Bekræft handlingen.
+1. Pause flowet. Flowets status ændres til **På pause**.
+1. Afslut flowet. Status ændres til **Stoppet**.
+1. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Opgavemenu"></i> og vælg **Slet flow**.
+1. Bekræft handlingen.
 
 Denne mulighed er tilgængelig både i **Vis flow**-skærmen og i oversigten over alle flows.
 
@@ -85,7 +87,7 @@ Alle nødvendige indstillinger skal være gyldige, før flowet kan køre. For ek
 
 ### Kan ikke slette flow
 
-Du kan ikke slette et flow som er i gang. Først, pause flowet og vælg derefter **Opgave** > **Slet flow**.
+Du kan ikke slette et flow, der er i gang. Først skal du pause flowet. Derefter skal du afslutte flowet, så status ændres til **Stoppet**. Til sidst skal du klikke på <i class="ph ph-dots-three-circle-vertical" aria-label="Opgavemenu"></i> og vælge **Slet flow**.
 
 ## Relateret indhold
 

@@ -4,12 +4,13 @@ title: Ausführen, pausieren und beenden des Flow
 description: Ausführen, pausieren und beenden des Flow
 keywords: Marketing, Flow, Ausführen, Pausieren, Beenden, Status
 author: Bergfrid Dias
-date: 05.31.2024
-version: 10.3.5
+date: 02.17.2025
+version: 10.5.2
 topic: howto
-language: de
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: de
 ---
 
 # Ausführen, pausieren und beenden des Flow
@@ -60,7 +61,7 @@ Um den Flow zu beenden:
 1. Öffnen Sie den Flow.
 1. Wählen Sie **Aufgabe** > **Flow beenden**.
 
-* Der Status des Flow ändert sich in **Wird nicht ausgeführ**.
+* Der Status des Flow ändert sich in **Wird nicht ausgeführt**.
 * Alle Trigger für diesen Flow werden deaktiviert, und die Einschreibung endet. Es werden keine neuen Teilnehmer mehr dem Flow hinzugefügt.
 * Aktive Teilnehmer erhalten den Status = *Abbruch*. Sie werden den Flow nicht abschließen.
 
@@ -71,8 +72,9 @@ Wenn der Flow nach dem Beenden erneut gestartet wird, gehen nur neue Teilnehmer 
 
 ## <a id="delete"></a>Flow löschen
 
-1. Pausieren Sie den Flow.
-1. Wählen Sie **Aufgabe** > **Flow löschen**.
+1. Pausieren Sie den Flow. Der Flow-Status ändert sich zu **Pausiert**.
+1. Beenden Sie den Flow. Der Status ändert sich zu **Wird nicht ausgeführt**.
+1. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabenmenü"></i> und wählen Sie **Flow löschen**.
 1. Bestätigen Sie die Aktion.
 
 Diese Option ist sowohl im Bildschirm **Flow anzeigen** als auch in der Übersicht aller Flows verfügbar.
@@ -85,7 +87,7 @@ Alle erforderlichen Einstellungen müssen gültig sein, bevor der Flow ausgefüh
 
 ### Flow kann nicht gelöscht werden
 
-Sie können keinen laufenden Flow löschen. Pausieren Sie zuerst den Flow, und wählen Sie dann **Aufgabe** > **Flow löschen**.
+Sie können keinen laufenden Flow löschen. Pausieren Sie zuerst den Flow, damit sich der Status zu **Pausiert** ändert. Beenden Sie dann den Flow, damit sich der Status zu **Wird nicht ausgeführt** ändert. Danach klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabenmenü"></i> und wählen **Flow löschen**.
 
 ## Verwandte Inhalte
 

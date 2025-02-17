@@ -4,12 +4,13 @@ title: Flow uitvoeren, pauzeren en beëindigen
 description: Hoe u een SuperOffice Marketing-automatiseringsflow start, pauzeert, hervat, beëindigt en verwijdert.
 keywords: Marketing, flow, flow uitvoeren, flow pauzeren, flow beëindigen, wordt uitgevoerd, gepauzeerd
 author: Bergfrid Dias, Trude Lien Smedbråten
-date: 06.17.2024
-version: 10.3.5
+date: 02.17.2025
+version: 10.5.2
 topic: howto
-language: nl
+license: marketingpremium
 audience: person
 audience_tooltip: SuperOffice Marketing
+language: nl
 ---
 
 # Flow uitvoeren, pauzeren en beëindigen
@@ -71,8 +72,9 @@ Als de flow opnieuw wordt gestart na beëindiging, zullen alleen nieuwe deelneme
 
 ## <a id="delete"></a>Flow verwijderen
 
-1. Pauzeer de flow.
-1. Selecteer **Taak** > **Flow verwijderen**.
+1. Pauzeer de flow. De status verandert naar **Gepauzeerd**.
+1. Beëindig de flow. De status verandert naar **Wordt niet uitgevoerd**.
+1. Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Taakmenu"></i> en selecteer **Flow verwijderen**.
 1. Bevestig de actie.
 
 Deze optie is beschikbaar zowel in het scherm **Flow bekijken** als in het overzicht van alle flows.
@@ -85,7 +87,7 @@ Alle vereiste instellingen moeten geldig zijn voordat de flow kan worden gestart
 
 ### Kan de flow niet verwijderen
 
-Je kunt geen actieve flow verwijderen. Pauzeer eerst de flow en selecteer vervolgens **Taak** > **Flow verwijderen**.
+Je kunt geen actieve flow verwijderen. Pauzeer eerst de flow. Beëindig vervolgens de flow, zodat de status verandert naar **Wordt niet uitgevoerd**. Daarna klik je op <i class="ph ph-dots-three-circle-vertical" aria-label="Taakmenu"></i> en selecteer je **Flow verwijderen**.
 
 ## Gerelateerde inhoud
 
