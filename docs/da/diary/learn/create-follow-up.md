@@ -21,7 +21,7 @@ Oprettelse af opfølgninger og planlægning af alle møder og aktiviteter i din 
 
 Der er mange måder at oprette en opfølging på. Denne metode fungerer fra ethvert sted i SuperOffice CRM og for alle typer af opfølgninger.
 
-1. Klik på **Ny** i toplinjen, og vælg **Møde**, **Opfølgningd** eller **Skal udføres/Opgave**.
+1. Klik på **Ny** i toplinjen, og vælg **Møde**, **Opfølgning** eller **Skal udføres/Opgave**.
 
 2. [Indtast de ønskede oplysninger i felterne.](#fields)
 
