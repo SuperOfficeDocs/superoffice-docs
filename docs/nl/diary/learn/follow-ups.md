@@ -1,65 +1,70 @@
 ---
 uid: help-nl-follow-ups
-title: Vervolgactiviteit
-description: Vervolgactiviteit - Vergadering, taak, gesprekken
+title: Vervolgactiviteiten
+description: Vervolgactiviteiten - vergadering, taak, gesprek
+keywords: agenda, vervolgactiviteit, afspraak, vergadering, telefoon, bellen, taak, gesprek
 author: Bergfrid Dias
-date: 09.03.2024
-version: 10.3.6
-keywords: agenda, vervolgactiviteit, afspraak, vergadering, telefoon, bellen, taak, gesprekken
+date: 02.21.2025
+version: 10.5.2
 topic: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
-# Vervolgactiviteit
+# Vervolgactiviteiten
 
-Een *vervolgactiviteit* is een verzamelnaam voor [vergaderingen](#meeting) en [taken](#todo). Een [telefoongesprek](#call) is een combinatie van beide. Vervolgactiviteiten zijn uw verwant aan het scherm Agenda. De werking van deze activiteiten is in hoofdlijnen hetzelfde.
+Een *vervolgactiviteit* is een verzamelnaam voor [vergaderingen](#meeting) en [taken](#todo). Een [telefoongesprek](#call) is een combinatie van beide. Vervolgactiviteiten zijn nauw verbonden met het scherm Agenda en werken grotendeels op dezelfde manier.
 
-Open en vervolgactiviteit door erop te dubbelklikken in het agenda of op het sectietabblad **Activiteiten**.
+U opent een bestaande vervolgactiviteit door erop te dubbelklikken in de agenda of op het sectietabblad **Activiteiten**.
 
 ## Algemene informatie
 
 | Pictogram | Eigenschap | Beschrijving |
 |:-:|---|---|
-| ![Pictogram][img9]| Eigenaar | Aan wie de vervolgactiviteit toebehoort. De oorspronkelijke maker of de medewerker aan wie de vervolgactiviteit is toegewezen/gedelegeerd. |
-| ![Pictogram][img3]| Titel | Een beschrijvend label. Extra details worden in de agenda vermeld. |
+| <i class="ph ph-user" aria-label="Eigenaar"></i> | Eigenaar | Aan wie de vervolgactiviteit toebehoort. De oorspronkelijke maker of de medewerker aan wie de vervolgactiviteit is toegewezen/gedelegeerd. |
+| <i class="ph ph-text-align-left" aria-label="Links uitlijnen"></i> | Titel | Een beschrijvend label. Extra details worden in de agenda vermeld. |
 | (een gekleurde stip) | Type | Een vooraf gedefinieerde lijst van activiteiten zoals Vergadering (extern) en Telefoongesprek. |
-| ![Pictogram][img7], ![Pictogram][img8] | Bedrijf / contact | Op wie de vervolgactiviteit betrekking heeft. |
-| ![Pictogram][img10]| Tijd en datum | Wanneer de vervolgactiviteit begint of moet worden afgerond. |
-| ![Pictogram][img4]| Herhaling | Of en hoe de vervolgactiviteit zich herhaalt. |
+| <i class="ph ph-buildings" aria-label="Bedrijf"></i>, <i class="ph ph-user-circle" aria-label="Persoon"></i> | Bedrijf / persoon | Op wie de vervolgactiviteit betrekking heeft. |
+| <i class="ph ph-clock" aria-label="Klok"></i> | Tijd en datum | Wanneer de vervolgactiviteit begint of moet worden afgerond. |
+| <i class="ph ph-arrows-clockwise" aria-label="Herhaling"></i> | Herhaling | Of en hoe de vervolgactiviteit zich herhaalt. |
 | (geen pictogram) | Beschikbaarheid | Vrij/bezet. Beïnvloedt conflicthantering. |
-| ![Pictogram][img2] | Alarm | Of en wanneer de persoon moet worden geïnformeerd. |
-| ![Pictogram][img5] | Verkoop | Een verkoop gekoppeld aan de vervolgactiviteit. |
-| ![Pictogram][img6] | Project | Een project gekoppeld aan de vervolgactiviteit. |
+| <i class="ph ph-bell" aria-label="Alarm"></i> | Alarm | Of en wanneer de persoon moet worden geïnformeerd. |
+| <i class="ph ph-currency-circle-dollar" aria-label="Verkoop"></i> | Verkoop | Een verkoop gekoppeld aan de vervolgactiviteit. |
+| <i class="ph ph-clipboard-text" aria-label="Project"></i> | Project | Een project gekoppeld aan de vervolgactiviteit. |
+| <i class="ph ph-users" aria-label="Deelnemers"></i> | Deelnemers | Deelnemers gekoppeld aan de vervolgactiviteit. |
+| <i class="ph ph-chair" aria-label="Hulpmiddel"></i> | Hulpmiddel | Vergaderruimtes, locaties of hulpmiddelen. |
+| <i class="ph ph-map-pin" aria-label="Locatie"></i> | Locatie | De locatie of het adres waar de vergadering plaatsvindt. |
 
-## Nieuwe maken
+## Nieuwe vervolgactiviteit maken
 
-Ongeacht waar u zich bevindt in SuperOffice CRM kunt u een nieuwe vervolgactiviteit maken door te klikken op **Nieuw** op de bovenste balk en **Vergadering/Afspraak**, **Taak**, of **Vervolgactiviteit/Gesprek** te selecteren.
+Waar u zich ook bevindt in SuperOffice CRM, u kunt een nieuwe vervolgactiviteit maken door op **Nieuw** te klikken in de bovenste balk en vervolgens te kiezen voor **Vergadering**, **Taak**, of **Vervolgactiviteit**.
 
 > [!NOTE]
-> Vervolgactiviteit die worden aangemaakt vanaf het scherm Agenda zijn standaard vergadering. U kunt echter het type wijzigen voordat u opslaat.
+> Vervolgactiviteiten die worden aangemaakt vanuit het scherm Agenda zijn standaard vergaderingen. U kunt echter het type wijzigen voordat u opslaat.
 
-## Vind uw vervolgactiviteit
+## Uw vervolgactiviteiten vinden
 
-Op het scherm Agenda verschijnen afspraken en telefoongesprekken op de tabbladen **Dag**, **Week**, **Maand** en **Weergave**, en in de zijpanelen **Dag**, **Maand**, **Volgende dag** en **Week**.
+In het scherm Agenda verschijnen afspraken en telefoongesprekken op de tabbladen **Dag**, **Week**, **Maand** en **Weergave**, evenals in de zijpanelen **Dag**, **Maand**, **Volgende dag** en **Week**.
 
-Het sectietabblad **Activiteiten** in het scherm Bedrijf, Persoon, Verkoop, Project, en Agenda toont alle vervolgactiviteiten, inclusief taken.
+Het sectietabblad **Activiteiten** (in de schermen Bedrijf, Persoon, Verkoop, Project en Agenda) toont alle vervolgactiviteiten, inclusief taken.
 
-## Soorten vervolgactiviteit
+## Soorten vervolgactiviteiten
 
 | Type | Starttijd | Eindtijd | Duur | Deadline | Weergegeven in | Beschrijving | Voorbeeld |
 |---|:-:|:-:|:-:|:-:|---|---|---|
-| Vergadering (afspraak) | &#10003; | &#10003; | Berekend | | Agenda | Activiteit met gedefinieerde start- en eindtijd | Externe vergadering met leverancier |
-| Taak | | | | &#10003; | Tabblad Activiteiten | Vervolgactiviteit zonder starttijd | Herinnering voor zaken die op een bepaalde tijd moeten zijn afgerond |
-| Vervolgactiviteit (Gesprek) | &#10003; | | &#10003; | | Tabblad Activiteiten | Telefoongesprek | Inkomend gesprek van klant |
+| Vergadering (afspraak) | &#10003; | &#10003; | Berekend | | Agenda | Activiteit met vaste begin- en eindtijd | Externe meeting met leverancier |
+| Taak | | | | &#10003; | Sectietabblad Activiteiten | Vervolgactiviteit zonder starttijd | Herinnering voor een taak met deadline |
+| Gesprek | &#10003; | | &#10003; | | Sectietabblad Activiteiten | Telefoongesprek | Inkomend gesprek van een klant |
 
 ## <a id="meeting"></a>Vergadering (afspraak)
 
-Vergadering zijn activiteiten met een ingestelde begin- en eindtijd, zoals vergaderingen. Dit wordt weergegeven in de kalender.
+Vergaderingen zijn vervolgactiviteiten met een vaste begin- en eindtijd en worden weergegeven in de agenda.
 
-Een vergadering kan een enkele gebeurtenis zijn of deel uitmaken van een terugkerende reeks. Vergaderingen met een hulpmiddel en/of extra deelnemers worden [uitnodigingen][5] (of groepsreserveringen) genoemd.
+Een vergadering kan een enkele gebeurtenis zijn of deel uitmaken van een herhalende reeks. Vergaderingen waarbij hulpmiddelen en/of extra deelnemers betrokken zijn, worden [uitnodigingen][5] genoemd.
 
-> [!NOTE]
-> Te laat uitgevoerde en voltooide vergaderingen worden weergegeven in het **Activiteiten**-tabblad, naast de kalender.
+Achterstallige en voltooide vergaderingen verschijnen in het sectietabblad **Activiteiten**, naast de kalender.
 
 ### Gangbare scenario's
 
@@ -71,32 +76,32 @@ Een vergadering kan een enkele gebeurtenis zijn of deel uitmaken van een terugke
 
 ## <a id="todo"></a>Taak
 
-Een *taak* is een vervolgactiviteit zonder starttijd. Meestal heeft het ook geen duur, maar het heeft altijd een **deadline**. Taken worden doorgaans gebruikt voor dingen die je moet onthouden om op een bepaald tijdstip te doen.
+Een *taak* is een vervolgactiviteit zonder starttijd. Meestal heeft het ook geen vaste duur, maar het heeft altijd een **deadline**. Taken worden doorgaans gebruikt voor herinneringen aan dingen die u op een bepaald moment moet afronden.
 
-Standaard vind je taken in de dagboek "to-do"-lijst, waar ze kunnen worden afgevinkt wanneer ze zijn voltooid. Als u een begin- en eindtijd opgeeft voor een taak, wordt de taak op de juiste dag en met de juiste tijd ingevoerd in de agenda.
+Standaard vindt u taken in de takenlijst van de agenda, waar ze kunnen worden afgevinkt zodra ze zijn voltooid. Als u een begin- en eindtijd specificeert, wordt de taak ingepland op de aangegeven datum en tijd.
 
 ## <a id="call"></a>Gesprek
 
-Een *gesprek* vertegenwoordigt een zeer specifieke handeling - het telefoongesprek - en is een hybride tussen een vergadering en een taak:
+Een *gesprek* vertegenwoordigt een telefoongesprek en is een hybride tussen een vergadering en een taak:
 
-* Wanneer u in eerste instantie een telefoongesprek plant, staat het op de "to-do"-lijst met een deadline, net als een taak.
-* Wanneer u het gesprek voert, wordt het vastgelegd in de tijd en lijkt het nu op een vergadering.
-  * Het begintijdstip wordt de huidige tijd en de datum van vandaag.
+* Wanneer u een gesprek inplant, verschijnt het in de takenlijst met een deadline, net als een taak.
+* Wanneer u het gesprek voert, krijgt het een vaste tijd en gedraagt het zich als een vergadering.
+  * De starttijd wordt de huidige tijd en datum.
   * De standaardduur is 15 minuten.
 
 ## Standaard duur
 
-De standaardduur van een vergadering is één uur en 15 minuten van een gesprek. U kunt standaardwaarden aanpassen.
+De standaardduur is 1 uur voor een vergadering en 15 minuten voor een gesprek. U kunt deze waarden aanpassen:
 
-1. Ga naar ![pictogram][img14] **Persoonlijke instellingen** en selecteer **Voorkeuren**.
+1. Ga naar <i class="ph ph-user-circle" aria-hidden="true"></i> **Persoonlijke instellingen** en selecteer **Voorkeuren**.
 1. Selecteer **Standaardwaarden**.
-1. Voer een waarde in voor één of beide van deze waarden en klik op **Opslaan**.
-    * **Duur van nieuwe afspraak**
+1. Voer een nieuwe waarde in voor een of beide instellingen en klik op **Opslaan**.
+    * **Duur van nieuwe vergadering**
     * **Duur van nieuw gesprek**
 
 ## <a id="more-tab"></a>Het tabblad Meer
 
-Het [tabblad Meer][12] bevat door gebruikers gedefinieerde velden voor de vervolgactiviteit.
+Het [tabblad Meer][12] toont gebruikers gedefinieerde velden voor de vervolgactiviteit.
 
 ## Gerelateerde inhoud
 
@@ -110,13 +115,3 @@ Het [tabblad Meer][12] bevat door gebruikers gedefinieerde velden voor de vervol
 [12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
-[img2]: ../../../../common/icons/diary-alarm.png
-[img3]: ../../../../common/icons/title.png
-[img4]: ../../../../common/icons/diary-recurring-transparent.png
-[img5]: ../../../../common/icons/sale.png
-[img6]: ../../../../common/icons/singlecolour/project.png
-[img7]: ../../../../common/icons/singlecolour/contact.png
-[img8]: ../../../../common/icons/person.png
-[img9]: ../../../../common/icons/associate-current.png
-[img10]: ../../../../common/icons/now.png
-[img14]: ../../../media/icons/personal-settings-small.png

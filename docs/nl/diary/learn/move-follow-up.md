@@ -2,11 +2,14 @@
 uid: help-nl-follow-up-move
 title: Vervolgactiviteiten verplaatsen
 description: Vervolgactiviteiten verplaatsen
-author: SuperOffice RnD
-date: 12.12.2023
-version: 10.2.11
-keywords: agenda, vervolgactiviteit
+keywords: verplaats vervolgactiviteit, verplaats vergadering, wijzig vergadertijd, vergadertijdstip, vergadering, agenda, vervolgactiviteit
+author: Bergfrid Dias
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 

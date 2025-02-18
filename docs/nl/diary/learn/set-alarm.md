@@ -2,15 +2,18 @@
 uid: help-nl-follow-up-alarms
 title: Een alarm instellen voor vervolgactiviteiten
 description: Een alarm instellen voor een vervolgactiviteit in SuperOffice.
-author: SuperOffice RnD
-date: 05.21.2024
-version: 10.3.6
-keywords: agenda, vervolgactiviteit, alarm, melding
+keywords: alarm instellen, geen alarm, vervolgactiviteit, vergadering, alarm, melding, herinnering, waarschuwing, agenda
+author: Bergfrid Dias
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
-# Een alarm instellen voor vervolgactiviteiten
+# Een alarm instellen voor vervolgactiviteiten <i class="ph ph-bell" aria-hidden="true"></i>
 
 SuperOffice CRM kan je herinneren voordat je vergadering begint. Op het ingestelde moment verschijnt een systeemmelding op je apparaat.
 

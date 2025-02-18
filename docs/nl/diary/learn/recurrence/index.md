@@ -2,14 +2,18 @@
 uid: help-nl-recurrence
 title: Terugkerende vervolgactiviteiten
 description: Terugkerende vervolgactiviteiten
+keywords: terugkerende vervolgactiviteit, terugkerende vergadering, terugkerende afspraak, herhaal, herhalen, vergaderfrequentie, vervolgpatroon, vergaderreeks, agenda, vervolgactiviteit, herhalen, terugkeren, plan, regelmatig, frequentie
 author: Bergfrid Dias
-date: 10.09.2023
-keywords: agenda, vervolgactiviteit, herhalen, terugkeren, frequentie, regelmatig
+date: 02.21.2025
+version: 10.5.2
 topic: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
-# Herhalende vervolgactiviteiten
+# Herhalende vervolgactiviteiten <i class="ph ph-arrows-clockwise" aria-hidden="true"></i>
 
 Het kan gebeuren dat u een reeks afspraken wilt maken die met regelmatige tussenpozen moeten plaatsvinden, bijvoorbeeld een wekelijkse statusvergadering. In plaats van deze vergadering één voor één vast te leggen kunt u hiervoor de functie voor herhalende vervolgactiviteiten gebruiken.
 

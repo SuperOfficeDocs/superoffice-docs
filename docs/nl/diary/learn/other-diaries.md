@@ -1,40 +1,61 @@
 ---
 uid: help-nl-diary-other
-title: Een andere agenda weergeven
-description: Bekijk andermans agenda.
+title: Een andere agenda bekijken
+description: U kunt wisselen naar de agenda van een andere gebruiker of bron om hun beschikbaarheid te controleren, vervolgactiviteiten in te plannen of taken te beheren.
+keywords: agenda-eigenaar, agenda wisselen, andere agenda bekijken, agenda bron bekijken, agenda, vervolgactiviteit, bron, eigenaar, lijst met agenda-eigenaars
 author: Bergfrid Dias
-date: 10.05.2023
-keywords: agenda, vervolgactiviteit, bron, eigenaar
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
-# Een andere agenda weergeven
+# Een andere agenda bekijken
 
-Als u op de naam van een gebruiker of bron klikt, wordt deze gebruiker of bron de eigenaar van de agenda en gaat u rechtstreeks naar het tabblad **Dag** voor deze gebruiker of bron. Wanneer u terug wilt gaan naar uw eigen agenda, kiest u uw naam in de lijst met agenda-eigenaars.
+U kunt wisselen naar de agenda van een andere gebruiker of bron om hun beschikbaarheid te controleren, vervolgactiviteiten in te plannen of taken te beheren.
 
-1. Klik op uw naam op een willekeurig tabblad in het scherm Agenda. Er wordt een keuzelijst weergegeven met andere bronnen, gebruikersgroepen en gebruikers die zijn aangesloten op het netwerk. Deze lijst wordt de *lijst met agenda-eigenaars* genoemd.
+## Welke agenda bekijk ik?
+
+De eigenaar van een agenda wordt weergegeven in de rechterbovenhoek van het scherm Agenda. U kunt ook herkennen of u uw eigen agenda, de agenda van een andere gebruiker of de agenda van een bron bekijkt op basis van de volgende visuele aanwijzingen:
+
+* **Uw eigen agenda:** Uw naam wordt weergegeven met een lichtgrijze rand en het pictogram <i class="ph ph-user" aria-label="Gebruiker"></i> in groen.
+
+* **Agenda van een andere gebruiker:** De naam van de gebruiker wordt weergegeven met een rode rand en het pictogram <i class="ph ph-user" aria-label="Gebruiker"></i> in blauw.
+
+* **Agenda van een bron:** De naam van de bron wordt weergegeven met een blauwe rand en het pictogram <i class="ph ph-chair" aria-label="Bron"></i>.
+
+Deze indicatoren maken het eenvoudig om te bevestigen wiens agenda u momenteel bekijkt of beheert.
+
+## Agenda-eigenaar wijzigen
+
+1. Klik op uw naam in de rechterbovenhoek van het scherm Agenda. Er wordt een lijst weergegeven met gebruikers, gebruikersgroepen en bronnen die aan het systeem zijn gekoppeld. Dit wordt de *lijst met agenda-eigenaars* genoemd.
 
     > [!TIP]
-    > U kunt met Snel zoeken naar gebruikers zoeken op naam of gebruikers-ID.
+    > Begin met typen om snel gebruikers te vinden op naam of gebruikers-ID.
 
-2. Selecteer rechtstreeks een bron of gebruiker of klik op een gebruikersgroep ![pictogram][img1]. Vervolgens kunt u een selectie maken uit een lijst met alle personen die zijn gekoppeld aan deze groep van gebruikers van SuperOffice CRM.
+1. Selecteer een bron of gebruiker rechtstreeks uit de lijst, of klik op een gebruikersgroep (<i class="ph ph-caret-right" aria-label="Chevron"></i>) om alle gebruikers in die groep te bekijken.
 
-3. De agenda voor de andere gebruiker of bron wordt geopend en hun naam (niet die van u) wordt weergegeven in de rechterbovenhoek van het scherm Agenda. De activiteitenlijst voor de andere gebruiker of bron wordt ook weergegeven.
+    ![Eigenaar wijzigen in de agenda -screenshot][img1]
 
-> [!NOTE]
-> Andere gebruikers worden rood onderstreept weergegeven met het ![pictogram][img2] pictogram. Bronnen worden blauw onderstreept weergegeven met het ![pictogram][img3] pictogram.
+1. De agenda wordt bijgewerkt om de kalender en activiteitenlijst van de geselecteerde gebruiker of bron weer te geven. Hun naam verschijnt in de rechterbovenhoek.
 
-Wanneer u zich bevindt in de agenda van een andere gebruiker of een bron, kunt u net als in uw eigen agenda schakelen tussen de verschillende tabbladen. U kunt [vervolgactiviteiten maken][2] in de andere agenda door op deze activiteiten te klikken met de muis en vervolgens de gepaste tijdsperiodes te selecteren, mits u daarvoor de toegangsrechten hebt.
+    U kunt alle standaardtabbladen gebruiken (**Dag**, **Week**, **Maand** of **Weergave**) en vervolgactiviteiten in hun agenda aanmaken door tijdsblokken te selecteren, mits u de juiste toegangsrechten hebt.
 
-## Wat wilt u nu doen?
+1. Om terug te keren naar uw eigen agenda, klikt u opnieuw op uw naam in de lijst met agenda-eigenaars.
+
+## Verwante inhoud
 
 * [Afspraak maken][2]
+* [Vervolgactiviteit toewijzen][1]
+* [Groepsweergave - meerdere agenda's bekijken][3]
 
 <!-- Referenced links -->
-[2]: create-follow-up.md
+[1]: follow-up-assign.md
+[2]: create-follow-up.md#associate
+[3]: group-view.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/menu-arrow.png
-[img2]: ../../../media/icons/diary-owner-person.png
-[img3]: ../../../media/icons/diary-owner-resource.png
+[img1]: ../../../media/loc/en/diary/change-diary-owner.png

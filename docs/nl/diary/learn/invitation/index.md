@@ -2,11 +2,14 @@
 uid: help-nl-invitation
 title: Vervolgactiviteiten met andere medewerkers maken
 description: Vervolgactiviteiten met andere medewerkers maken
-author: Bergfrid Dias
-date: 12.12.2023
-version: 10.2.11
 keywords: agenda, vervolgactiviteit, uitnodiging, weergegeven
-topic: howto
+author: Bergfrid Dias
+date: 02.21.2025
+version: 10.5.2
+topic: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -18,17 +21,17 @@ Als u tijd wilt reserveren voor een vergadering met een of meer medewerkers, geb
 
 U stelt vervolgactiviteiten met andere medewerkers in door de medewerkers als deelnemers te koppelen aan de vervolgactiviteit.
 
-Wanneer we de vergadering opslaan, wordt er een uitnodiging toegevoegd aan de persoon die we hebben uitgenodigd, en deze wordt getoond in de agenda van de persoon op de juiste datum en tijd. Dit gebeurt alleen als de uitgenodigde persoon ook een collega is. Je kunt ook personen uitnodigen die tot andere contacten behoren; zij zullen geen eigen agenda hebben waar de vergadering wordt getoond, maar deze zal in plaats daarvan worden weergegeven in het activiteitenarchief van hun contact.
+Wanneer we de vergadering opslaan, wordt er een uitnodiging toegevoegd aan de persoon die we hebben uitgenodigd, en deze wordt getoond in de agenda van de persoon op de juiste datum en tijd. Dit gebeurt alleen als de uitgenodigde persoon ook een collega is. Je kunt ook personen uitnodigen die tot andere bedrijven behoren; zij zullen geen eigen agenda hebben waar de vergadering wordt getoond, maar deze zal in plaats daarvan worden weergegeven in het sectietabblad **Activiteiten** van de persoonskaart.
 
 ## <a id="status"></a>Status
 
 De gebruikers die u hebt gekozen voor koppeling aan een vervolgactiviteit, ontvangen hierover een bericht op hun schermen. Als u het tabblad **Deelnemers** van de vervolgactiviteit opent, wordt een lijst met deelnemers en bronnen weergegeven die u aan de vervolgactiviteit hebt gekoppeld. De symbolen naast de namen geven aan wie de uitnodiging heeft geaccepteerd of geweigerd en welke bronnen zijn gereserveerd:
 
-| Pictogram | Beschrijving |
+| Symbolen | Beschrijving |
 |:-:|---|
-| ![pictogram][img1] | Uitnodiging wordt geaccepteerd. |
-| ![pictogram][img2] | Uitnodiging is afgewezen. |
-| ![pictogram][img3] | Uitnodiging is gelezen, maar nog niet beantwoord. |
+| <i class="ph ph-check" aria-label="Checkmark"></i> | Uitnodiging wordt geaccepteerd. |
+| <i class="ph ph-x" aria-label="Red X"></i> | Uitnodiging is afgewezen. |
+| <i class="ph ph-eye" aria-label="Eye"></i> | Uitnodiging is gelezen, maar nog niet beantwoord. |
 | geen symbool | De uitnodiging is nog niet gelezen. |
 
 ## Bronnen
@@ -45,7 +48,7 @@ Wanneer u een uitnodiging verzendt, kan de ontvanger deze accepteren of weigeren
 
 * Als de persoon de uitnodiging accepteert, wordt deze op de normale manier vastgelegd in SuperOffice CRM.
 
-## Wat wilt u doen?
+## Gerelateerde inhoud
 
 * [Deelnemers toevoegen aan vervolgactiviteiten][2]
 * [Groepsweergaven maken][1]
@@ -55,6 +58,3 @@ Wanneer u een uitnodiging verzendt, kan de ontvanger deze accepteren of weigeren
 [2]: add-attendee.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/check-black.png
-[img2]: ../../../../../common/icons/reject-appointment-icon.png
-[img3]: ../../../../../common/icons/assignment-seen.png
