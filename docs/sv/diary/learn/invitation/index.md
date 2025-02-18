@@ -2,11 +2,14 @@
 uid: help-sv-invitation
 title: Skapa händelser med dina medarbetare
 description: Skapa händelser med dina medarbetare
-author: Bergfrid Dias
-date: 12.12.2023
-version: 10.2.11
 keywords: kalender, händelse, inbjudan, möte
-topic: howto
+author: Bergfrid Dias
+date: 02.21.2025
+version: 10.5.2
+topic: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -18,7 +21,7 @@ Om du vill avsätta tid för ett möte med en eller flera medarbetare går du ti
 
 Händelser med medarbetare skapas genom att de kopplas till händelsen som deltagare.
 
-När vi sparar mötet läggs en inbjudan till den person vi bjudit in och visas i personens kalender på rätt datum och tid. Detta sker endast om den inbjudna personen också är en kollega. Du kan även bjuda in personer som tillhör andra kontakter; dessa kommer inte ha en egen kalender där mötet visas, men det kommer istället att visas i aktivitetsarkivet för deras kontakt.
+När vi sparar mötet läggs en inbjudan till den person vi bjudit in och visas i personens kalender på rätt datum och tid. Detta sker endast om den inbjudna personen också är en kollega. Du kan även bjuda in personer som tillhör andra företag; dessa kommer inte ha en egen kalender där mötet visas, men det kommer istället att visas i detaljkortet **Aktiviteter** på deras kontaktkort.
 
 ## <a id="status"></a>Status
 
@@ -26,9 +29,9 @@ Användarna du väljer att koppla till en händelse får ett meddelande om detta
 
 | Ikon | Beskrivning |
 |:-:|---|
-| ![ikon][img1] | Förfrågan har godtagits. |
-| ![ikon][img2] | Förfrågan har avböjts. |
-| ![ikon][img3] | Förfrågan har mottagits men inte besvarats. |
+| <i class="ph ph-check" aria-label="Checkmark"></i> | Förfrågan har godtagits. |
+| <i class="ph ph-x" aria-label="Red X"></i> | Förfrågan har avböjts. |
+| <i class="ph ph-eye" aria-label="Eye"></i> | Förfrågan har mottagits men inte besvarats. |
 | ingen symbol | Förfrågningen har inte tagits emot. |
 
 ## Resurser
@@ -37,7 +40,7 @@ När du kopplar resurser ändras statusen till *Accepterad* eftersom en resurs i
 
 Resurser kan dubbelbokas. Om en resurs inte är ledig på den aktuella tidpunkten står det **Konflikt** i kolumnen **Status**. Dessutom visas ett utropstecken i dialogrutan **Bokning**. Du måste ändra tidpunkt för händelsen. I fältet **Första lediga** visas den första lediga tidpunkten.
 
-## Hantera svar på förfrågningar
+## Hantera svar på inbjudningar
 
 När du skickar en förfrågan kan mottagaren välja att acceptera eller avböja den.
 
@@ -45,7 +48,7 @@ När du skickar en förfrågan kan mottagaren välja att acceptera eller avböja
 
 * Om kontakten godtar förfrågan registreras den som vanligt i SuperOffice CRM.
 
-## Vad vill du göra?
+## Relaterat innehåll
 
 * [Lägga till deltagare i händelser][2]
 * [Skapa gruppöversikter][1]
@@ -55,6 +58,3 @@ När du skickar en förfrågan kan mottagaren välja att acceptera eller avböja
 [2]: add-attendee.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/check-black.png
-[img2]: ../../../../../common/icons/reject-appointment-icon.png
-[img3]: ../../../../../common/icons/assignment-seen.png

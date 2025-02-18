@@ -1,66 +1,70 @@
 ---
 uid: help-sv-follow-ups
 title: Händelser
-description: Händelser - Möte, att göra, samtal
-author: Bergfrid Dias
-date: 05.21.2024
-version: 10.3.6
+description: Händelser – möte, att göra, samtal
 keywords: kalender, uppgift, händelse, bokning, möte, telefon, ringa upp, att göra
+author: Bergfrid Dias
+date: 02.21.2025
+version: 10.5.2
 topic: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
 # Händelser
 
-*Händelse* är ett samlingsbegrepp för [möte](#meeting) och [att göra](#todo). Ett [telefonsamtal](#call) är en hybrid av de båda. Händelser är nära kopplade till Kalender-fönstret och fungerar på i stort sett samma sätt.
+*Händelse* är ett samlingsbegrepp för [möten](#meeting) och [att göra](#todo). Ett [telefonsamtal](#call) är en hybrid av de båda. Dessa aktiviteter är nära kopplade till Kalender-fönstret och fungerar på i stort sett samma sätt.
 
 Öppna en befintlig händelse genom att dubbelklicka på den i kalendern eller i detaljkortet **Aktiviteter**.
 
-Händelser kan överlappa varandra. Överlappande händelser visas i Kalender-fönstret på ett sådant sätt att du ser en del av varje händelse.
-
 ## Allmän information
 
-| Ikoner | Egenskap | Beskrivning |
+| Ikon | Egenskap | Beskrivning |
 |:-:|---|---|
-| ![ikoner][img9]| Ägare | Vem uppföljningen tillhör. Den ursprungliga skaparen eller den medarbetare som uppföljningen tilldelades/delegerades till. |
-| ![ikoner][img3]| Titel | En beskrivande etikett. Ytterligare detaljer läggs till i dagordningen. |
+| <i class="ph ph-user" aria-label="Ägare"></i> | Ägare | Vem händelsen tillhör. Den ursprungliga skaparen eller den medarbetare som händelsen tilldelades/delegerades till. |
+| <i class="ph ph-text-align-left" aria-label="Vänsterjustering"></i> | Titel | En beskrivande etikett. Ytterligare detaljer läggs till i dagordningen. |
 | (en färgad prick) | Typ | En fördefinierad lista med aktiviteter som möte (externa) och telefonsamtal. |
-| ![ikoner][img7], ![ikoner][img8] | Företag / kontakt | På vem uppföljningen rör sig. |
-| ![ikoner][img10]| Tid och datum | När uppföljningen börjar eller ska vara klar. |
-| ![ikoner][img4]| Återkomst | Om och hur uppföljningen upprepas. |
+| <i class="ph ph-buildings" aria-label="Företag"></i>, <i class="ph ph-user-circle" aria-label="Kontakt"></i> | Företag / kontakt | På vem händelsen rör sig. |
+| <i class="ph ph-clock" aria-label="Klocka"></i> | Tid och datum | När händelsen börjar eller ska vara klar. |
+| <i class="ph ph-arrows-clockwise" aria-label="Upprepning"></i> | Upprepning | Om och hur händelsen upprepas. |
 | (ingen ikon) | Tillgänglighet | Ledig/upptagen. Påverkar konflikthantering. |
-| ![ikoner][img2] | Varning | Om och när personen ska meddelas. |
-| ![ikoner][img5] | Försäljning | En försäljning kopplad till uppföljningen. |
-| ![ikoner][img6] | Projekt | Ett projekt kopplat till uppföljningen. |
+| <i class="ph ph-bell" aria-label="Varning"></i> | Varning | Om och när personen ska meddelas. |
+| <i class="ph ph-currency-circle-dollar" aria-label="Försäljning"></i> | Försäljning | En försäljning kopplad till händelsen. |
+| <i class="ph ph-clipboard-text" aria-label="Projekt"></i> | Projekt | Ett projekt kopplat till händelsen. |
+| <i class="ph ph-users" aria-label="Deltagare"></i> | Deltagare | Deltagare kopplade till händelsen. |
+| <i class="ph ph-chair" aria-label="Resurs"></i> | Resurs | Mötesrum, platser eller resurser. |
+| <i class="ph ph-map-pin" aria-label="Plats"></i> | Plats | Platsen eller adressen där mötet äger rum. |
 
 ## Skapa ny
 
- Var du än arbetar i SuperOffice CRM kan du lägga in nya händelser genom att klicka på knappen **Nytt** i det övre fältet och välja **Möte/Bokning**, **Att göra/Uppgift**, eller **Händelse/Samtal**.
+Var du än är i SuperOffice CRM kan du skapa en händelse genom att klicka på **Ny** i det övre fältet och välja **Möte**, **Att göra**, eller **Händelse**.
 
 > [!NOTE]
-> Händelser som skapas från fönstret Kalender är som standard möte. Du kan dock ändra typen innan du sparar.
+> Händelser som skapas från fönstret Kalender är som standard möten. Du kan dock ändra typen innan du sparar.
 
-## Hitta dina uppföljningar
+## Hitta dina händelser
 
-I fönstret Kalender visas möte och telefonsamtal på flikarna **Dag**, **Vecka**, **Månad**, och **Visa**, samt i sidopanelerna **Dag**, **Månad**, **Nästa dag** och **Vecka**.
+I fönstret Kalender visas möten och telefonsamtal på flikarna **Dag**, **Vecka**, **Månad** och **Översikt**, samt i sidopanelerna **Dag**, **Månad**, **Nästa dag** och **Vecka**.
 
-Detaljkortet **Aktiviteter** i fönstret Företag, Kontakt, Försäljning, Projekt och Kalender visar alla uppföljningar, inklusive uppgifter.
+Detaljkortet **Aktiviteter** i fönstren Företag, Kontakt, Försäljning, Projekt och Kalender visar alla händelser, inklusive att-göra.
 
-## Uppföljningstyper
+## Händelsetyper
 
 | Typ | Starttid | Sluttid | Varaktighet | Deadline | Visas i | Beskrivning | Exempel |
 |---|:-:|:-:|:-:|:-:|---|---|---|
-| Möte (bokning) | &#10003; | &#10003; | Beräknad | | Kalender | Aktivitet med definierad start- och sluttid | Externt möte med leverantör |
-| Att göra (uppgift) | | | | &#10003; | Avsnitt Aktiviteter | Uppföljning utan starttid | Påminnelse för saker som ska vara klara vid en specifik tidpunkt |
-| Händelse (samtal) | &#10003; | | &#10003; | | Avsnitt Aktiviteter | Telefonsamtal | Inkommande samtal från kund |
+| Möte (bokning) | &#10003; | &#10003; | Beräknad | | Kalender | Händelse med definierad start- och sluttid | Externt möte med leverantör |
+| Att göra (uppgift) | | | | &#10003; | Detaljkortet Aktiviteter | Händelse utan starttid | Påminnelse om uppgifter som ska vara klara vid en viss tidpunkt |
+| Händelse (samtal) | &#10003; | | &#10003; | | Detaljkortet Aktiviteter | Telefonsamtal | Inkommande samtal från kund |
 
 ## <a id="meeting"></a>Möte (bokning)
 
 Ett möte är en händelse med en fastställd start- och sluttid. De visas i ägarens kalender.
 
-Ett möte kan vara en enstaka händelse eller en del av en återkommande serie. Möten som involverar en resurs och/eller extra deltagare kallas [inbjudningar][5].
+Ett möte kan vara en enskild händelse eller en del av en återkommande serie. Möten som involverar en resurs och/eller extra deltagare kallas [inbjudningar][5].
 
-Försenade och avslutade möten kommer att finnas i **Aktiviteter**-fliken samt i kalendern.
+Försenade och slutförda möten visas i **Aktiviteter**-fliken utöver i kalendern.
 
 ### Vanliga scenarier
 
@@ -72,28 +76,28 @@ Försenade och avslutade möten kommer att finnas i **Aktiviteter**-fliken samt 
 
 ## <a id="todo"></a>Att göra (uppgift)
 
-En *uppgift* är en händelse utan starttid. Den har vanligtvis inte heller någon varaktighet, men den har alltid en **deadline**. Uppgifter används vanligtvis för saker du måste komma ihåg att göra inom en viss tid.
+En *uppgift* är en händelse utan starttid. Den har vanligtvis ingen varaktighet, men den har alltid en **deadline**. Uppgifter används vanligtvis för saker du måste komma ihåg att göra inom en viss tid.
 
-Som standard hittar du uppgifter på dagbokens "att göra"-lista, där de kan bockas av när de är klara. Om du anger en start- och sluttid för uppgiften läggs den in på rätt datum och klockslag i kalendern.
+Som standard hittar du uppgifter i dagbokens att-göra-lista, där de kan bockas av när de är klara. Om du anger en start- och sluttid för uppgiften läggs den in på rätt datum och klockslag i kalendern.
 
 ## <a id="call"></a>Händelse (samtal)
 
-Ett *samtal* representerar en mycket specifik handling - telefonsamtalet - och är en hybrid mellan ett möte och en att göra:
+Ett *samtal* representerar en mycket specifik handling – telefonsamtalet – och är en hybrid mellan ett möte och en att göra-uppgift:
 
-* När du först planerar ett samtal, finns det i att göra-listan med en deadline, precis som en uppgift.
+* När du först planerar ett samtal, finns det i att-göra-listan med en deadline, precis som en uppgift.
 * När du genomför samtalet, fixeras det i tid och liknar nu en mötesbokning.
   * Starttiden blir nuvarande tidpunkt och dagens datum.
   * Standardvaraktigheten är 15 minuter.
 
 ## Standardlängd
 
-Standardlängden för ett möte är 1 timme och 15 minuter for et samtal, men du kan ändra längden efter behov.
+Standardlängden är 1 timme för ett möte och 15 minuter för ett samtal. För att ändra standardvärdet:
 
-1. Gå till ![ikon][img14] **Personliga inställningar** och välj **Inställningar**.
+1. Gå till <i class="ph ph-user-circle" aria-hidden="true"></i> **Personliga inställningar** och välj **Inställningar**.
 1. Välj **Standardvärden**.
-1. Ange ett värde för en eller båda av dessa värden och klicka **Spara**.
-    * **Längd för ny bokning**
-    * **Längd för nytt samtal**
+1. Ange ett värde för en eller båda av dessa inställningar och klicka på **Spara**:
+    * **Varaktighet för nytt möte**
+    * **Varaktighet för nytt samtal**
 
 ## <a id="more-tab"></a>Fliken Mer
 
@@ -111,13 +115,3 @@ På [fliken Mer][12] visas användardefinierade fält för händelsen.
 [12]: ../../custom-objects/learn/more-tab.md
 
 <!-- Referenced images -->
-[img2]: ../../../../common/icons/diary-alarm.png
-[img3]: ../../../../common/icons/title.png
-[img4]: ../../../../common/icons/diary-recurring-transparent.png
-[img5]: ../../../../common/icons/sale.png
-[img6]: ../../../../common/icons/singlecolour/project.png
-[img7]: ../../../../common/icons/singlecolour/contact.png
-[img8]: ../../../../common/icons/person.png
-[img9]: ../../../../common/icons/associate-current.png
-[img10]: ../../../../common/icons/now.png
-[img14]: ../../../media/icons/personal-settings-small.png

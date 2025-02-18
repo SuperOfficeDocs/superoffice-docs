@@ -1,10 +1,15 @@
 ---
 uid: help-sv-invitation-add-attendee
 title: Lägga till deltagare i händelser
-description: "Att bjuda in kontakter till en bokning görs på olika sätt. Den här guiden beskriver hur du lägger till deltagare i en bokning."
+description: Att bjuda in kontakter till en bokning görs på olika sätt. Den här guiden beskriver hur du lägger till deltagare i en bokning.
+keywords: bjud in kontakt, bjud in kollega, lägg till deltagare, lägg till resurs, möte, inbjudan, deltagare, dagbok, kalender, händelse, förfrågan
 author: Bergfrid Dias
-keywords: kalender, händelse, förfrågan, deltagare
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -28,9 +33,9 @@ När du skapar en händelse som omfattar flera kontakter kan du koppla personern
 1. Klicka på rutan **Lägg till deltagare**. Välj sedan en eller flera personer från listan.
 
     * Börja skriva för att söka efter en person i hela SuperOffice.
-    * Välj en person från historiklistan ![ikon][img4] eller dina favoriter ![ikon][img5].
-    * Klicka ![ikon][img6] för att söka efter en kollega eller ![ikon][img7] för att välja personer kopplade till ett företag.
-    * Du kan också välja säljintressenter ![ikon][img8] och projektmedlemmar ![ikon][img9].
+    * Välj en person från historiklistan (<i class="ph ph-clock" aria-hidden="true"></i>) eller dina favoriter (<i class="ph ph-star" aria-hidden="true"></i>).
+    * Klicka <i class="ph ph-users" aria-label="Group icon"></i> för att söka efter en kollega eller <i class="ph ph-buildings" aria-label="Company icon"></i> för att välja personer kopplade till ett företag.
+    * Du kan också välja säljintressenter (<i class="ph ph-currency-circle-dollar" aria-hidden="true"></i>) och projektmedlemmar (<i class="ph ph-clipboard-text" aria-hidden="true"></i>).
 
     ![Händelsesdialog, välj deltagare -screenshot][img17]
 
@@ -49,7 +54,7 @@ När du skapar en händelse som omfattar flera kontakter kan du koppla personern
 
 ### <a id="availability"></a>Schemarådgivare
 
-Schemarådgivaren är en del av den nya **Händelse**-dialogen. Den detaljerade kalendern visar tillgängligheten för varje intern deltagare (kollega). Den översta raden visar den ackumulerade tillgängligheten. Tillgängligheten för externa deltagare och e-postdeltagare är okänd.
+Schemarådgivaren är en del av **Händelse**-dialogen. Den detaljerade kalendern visar tillgängligheten för varje intern deltagare (kollega). Den översta raden visar den ackumulerade tillgängligheten. Tillgängligheten för externa deltagare och e-postdeltagare är okänd.
 
 ![Händelsesdialog, schemarådgivare -screenshot][img18]
 
@@ -87,7 +92,7 @@ När du klickar på **Spara och skicka**, visas en förhandsgranskning av e-post
 
 ### Hur anger jag att en extern kontakt har accepterat eller avböjt förfrågan?
 
-Externa deltagare meddelas via e-post (om du har valt detta alternativn). E-postförfrågningar som skickas till externa kontakter innehåller en iCal-fil (.ics) med information om förfrågan. När de svarar på din förfrågan uppdateras [statusen][1] automatiskt i SuperOffice.
+Externa deltagare meddelas via e-post (om du har valt detta alternativn). E-postinbjudningar som skickas till externa kontakter innehåller en iCal-fil (.ics) med information om förfrågan. När de svarar på din förfrågan uppdateras [statusen][1] automatiskt i SuperOffice.
 
 Om du manuellt vill tacka ja eller nej till en förfrågan för någon annans räkning väljer du namnet i listan och klickar en gång på knappen **Byt status** för att infoga en grön bock, som visar att förfrågan har godtagits, eller två gånger för att infoga ett rött kryss som visar att förfrågan har avböjts.
 
@@ -113,12 +118,6 @@ Använda inkorgen i SuperOffice: Om du inte har angett de obligatoriska uppgifte
 [5]: accept-decline.md
 
 <!-- Referenced images -->
-[img4]: ../../../../../common/icons/history-icon.png
-[img5]: ../../../../../common/icons/favourite-icon.png
-[img6]: ../../../../../common/icons/personblack.png
-[img7]: ../../../../../common/icons/singlecolour/contact.png
-[img8]: ../../../../../common/icons/sale.png
-[img9]: ../../../../../common/icons/singlecolour/project.png
 [img13]: ../../../../media/loc/en/diary/preview-invitation.png
 [img14]: ../../../../media/loc/en/diary/invite.png
 [img15]: ../../../../media/loc/en/diary/large-follow-up-dialog.png
