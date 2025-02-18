@@ -2,11 +2,14 @@
 uid: help-da-follow-up-move
 title: Flytning af opfølgninger
 description: Flytning af opfølgninger
-author: SuperOffice RnD
-date: 12.12.2023
-version: 10.2.11
-keywords: dagbog, opfølgning
+keywords: flyt opfølgning, flyt møde, ændr mødetid, mødetidspunkt, møde, dagbog, opfølgning
+author: Bergfrid Dias
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 

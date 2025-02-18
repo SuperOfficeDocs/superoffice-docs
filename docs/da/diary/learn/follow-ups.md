@@ -2,96 +2,102 @@
 uid: help-da-follow-ups
 title: Opfølgninger
 description: Opfølgninger - møde, skal udføres, samtale
+keywords: opfølgning, aftale, møde, telefon, ring til, opgave, deltager, dagbog
 author: Bergfrid Dias
-date: 05.21.2024
-version: 10.3.6
-keywords: dagbog, opfølgning, aftale, møde, telefon, ring til, opgave
+date: 02.21.2025
+version: 10.5.2
 topic: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
 # Opfølgninger
 
-*Opfølgning* er en samlet betegnelse for [møder](#meeting) og [opgaver](#todo). [Telefonopkald](#call) er en blanding av de to. Disse er tæt knyttet til dagbogsskærmen og fungerer alle på stort set samme måde.
+*Opfølgning* er en samlet betegnelse for [møder](#meeting) og [opgaver](#todo). Et [telefonopkald](#call) er en blanding af de to. Disse aktiviteter er tæt knyttet til dagbogsskærmen og fungerer stort set på samme måde.
 
-Åbn en opfølgning ved at dobbeltklikke på den i dagbogen eller i detaljekortet **Aktiviteter**.
+Åbn en eksisterende opfølgning ved at dobbeltklikke på den i Dagbogen eller i detaljekortet **Aktiviteter**.
 
 ## Generel information
 
 | Ikon | Egenskab | Beskrivelse |
 |:-:|---|---|
-| ![ikon][img9]| Ejer | Hvem opfølgningen tilhører. Den oprindelige skaber eller den tilknyttede person, som opfølgningen blev tildelt/delegeret til. |
-| ![ikon][img3]| Titel | En beskrivende etiket. Yderligere detaljer placeres i dagsorden. |
+| <i class="ph ph-user" aria-label="Ejer"></i> | Ejer | Hvem opfølgningen tilhører. Den oprindelige skaber eller den tilknyttede person, som opfølgningen blev tildelt/delegeret til. |
+| <i class="ph ph-text-align-left" aria-label="Venstrejustering"></i> | Titel | En beskrivende etiket. Yderligere detaljer placeres i dagsorden. |
 | (en farvet prik) | Type | En foruddefineret liste over aktiviteter som møde (eksternt) og telefonopkald. |
-| ![ikon][img7], ![ikon][img8] | Firma / kontakt | Hvem opfølgningen vedrører. |
-| ![ikon][img10]| Tid og dato | Hvornår opfølgningen begynder eller skal være færdig. |
-| ![ikon][img4]| Gentagelse | Hvis og hvordan opfølgningen gentager sig. |
+| <i class="ph ph-buildings" aria-label="Firma"></i>, <i class="ph ph-user-circle" aria-label="Person"></i> | Firma / person | Hvem opfølgningen vedrører. |
+| <i class="ph ph-clock" aria-label="Ur"></i> | Tid og dato | Hvornår opfølgningen begynder eller skal være færdig. |
+| <i class="ph ph-arrows-clockwise" aria-label="Gentagelse"></i> | Gentagelse | Hvis og hvordan opfølgningen gentager sig. |
 | (intet ikon) | Tilgængelighed | Ledig/optaget. Påvirker konflikthåndtering. |
-| ![ikon][img2] | Alarm | Hvis og hvornår personen skal underrettes. |
-| ![ikon][img5] | Salg | Et salg, der er knyttet til opfølgningen. |
-| ![ikon][img6] | Projekt | Et projekt knyttet til opfølgningen. |
+| <i class="ph ph-bell" aria-label="Alarm"></i> | Alarm | Hvis og hvornår personen skal underrettes. |
+| <i class="ph ph-currency-circle-dollar" aria-label="Salg"></i> | Salg | Et salg, der er knyttet til opfølgningen. |
+| <i class="ph ph-clipboard-text" aria-label="Projekt"></i> | Projekt | Et projekt knyttet til opfølgningen. |
+| <i class="ph ph-users" aria-label="Deltagere"></i> | Deltagere | Deltagere tilknyttet opfølgningen. |
+| <i class="ph ph-chair" aria-label="Ressource"></i> | Ressource | Mødelokaler, lokationer eller ressourcer. |
+| <i class="ph ph-map-pin" aria-label="Lokation"></i> | Lokation | Stedet eller adressen, hvor mødet finder sted. |
 
 ## Opret ny
 
-Uanset hvor du er i SuperOffice CRM, kan du oprette en ny opfølgning ved at klikke på knappen **+Ny** på Toplinjen og så vælge **Møde/Aftale**, **Skal udføres/Opgave**, eller **Opfølging/Samtale**.
+Uanset hvor du er i SuperOffice CRM, kan du oprette en opfølgning ved at klikke på **Ny** på toplinjen og derefter vælge **Møde**, **Skal udføres**, eller **Opfølgning**.
 
 > [!NOTE]
-> Opfølgninger oprettet fra skærmbilledet Dagbog er som standard møder. Du kan dog ændre typen, inden du gemmer.
+> Opfølgninger oprettet fra dagbogsskærmen er som standard møder. Du kan dog ændre typen, inden du gemmer.
 
 ## Find dine opfølgninger
 
-På skærmen Dagbog vises møder og telefonopkald på fanerne **Dag**, **Uge**, **Måned**, og **Vis**, og i sidepanelerne **Dag**, **Måned**, **Næste dag** og **Uge**.
+I dagbogen vises møder og telefonopkald på fanerne **Dag**, **Uge**, **Måned**, og **Oversigt**, samt i sidepanelerne **Dag**, **Måned**, **Næste dag** og **Uge**.
 
-Detaljekortet **Aktiviteter** i skærmbilledet Firma, Person, Salg, Projekt, Dagbog viser alle opfølgninger, herunder opgaver.
+Detaljekortet **Aktiviteter** (i Firma, Person, Salg, Projekt og Dagbog) viser alle opfølgninger, herunder opgaver.
 
 ## Typer af opfølgninger
 
 | Type | Starttidspunkt | Sluttidspunkt | Varighed | Deadline | Vises i | Beskrivelse | Eksempel |
 |---|:-:|:-:|:-:|:-:|---|---|---|
-| Aftale (møde) | &#10003; | &#10003; | Beregnet | | Kalender | Aktivitet med defineret start- og sluttidspunkt | Eksternt møde med leverandør |
-| Skal udføres (opgave) | | | | &#10003; | Aktiviteter-sektionen | Opfølgning uden starttidspunkt | Påmindelse om opgaver, der forfalder på et bestemt tidspunkt |
-| Opkald (opfølgning) | &#10003; | | &#10003; | | Aktiviteter-sektionen | Telefonopkald | Indgående opkald fra kunden |
+| Møde (aftale) | &#10003; | &#10003; | Beregnet | | Kalender | Aktivitet med defineret start- og sluttidspunkt | Eksternt møde med leverandør |
+| Skal udføres (opgave) | | | | &#10003; | Detaljekortet Aktiviteter | Opfølgning uden starttidspunkt | Påmindelse om opgaver, der forfalder på et bestemt tidspunkt |
+| Opfølgning (telefonopkald) | &#10003; | | &#10003; | | Detaljekortet Aktiviteter | Telefonopkald | Indgående opkald fra kunde |
 
 ## <a id="meeting"></a>Møde (aftale)
 
-Møder er opfølgninger med defineret start- og sluttid, for eksempel møder. De vises i ejerens kalender.
+Møder er aktiviteter med en defineret start- og sluttid. De vises i ejerens kalender.
 
-Et møde kan være en enkelt begivenhed eller en del af en tilbagevendende serie. Mødeer, der involverer en ressource og/eller yderligere deltagere, kaldes [invitationer][5] (eller gruppebestillinger).
+Et møde kan være en enkelt begivenhed eller en del af en tilbagevendende serie. Møder, der involverer en ressource og/eller flere deltagere, kaldes [invitationer][5].
 
-Forfaldne og fuldførte møder vil blive vist i **Aktiviteter**-fanen ud over i kalenderen.
+Forfaldne og fuldførte møder vil blive vist i Detaljekortet **Aktiviteter** ud over i kalenderen.
 
-### Vanlige scenarioer
+### Almindelige scenarier
 
-| Scenario | Ressurs | 2+ deltakere | Beskrivelse |
+| Scenario | Ressource | 2+ deltagere | Beskrivelse |
 |---|:-:|:-:|---|
-| Egen tid reservert | | | Du har satt av tid til å jobbe med noe alene |
-| Egen tid og ressurs reservert | &#10003; | | Som ovenfor, pluss behov for rom eller utstyr |
-| Møde med flere deltakere | &#10003; | &#10003; | Et møde, vanligvis også med en ressurs eller sted |
+| Egen tid reserveret | | | Du har afsat tid til at arbejde med noget alene |
+| Egen tid og ressource reserveret | &#10003; | | Som ovenfor, plus behov for lokale eller udstyr |
+| Møde med flere deltagere | &#10003; | &#10003; | Et møde, typisk også med en ressource eller lokation |
 
 ## <a id="todo"></a>Skal udføres (opgave)
 
-En *opgave* er en opfølgning uden starttid. Den har normalt heller ingen varighed, men den har altid en **frist**. Skal udføres bruges normalt til ting, du skal huske at gøre inden en bestemt tid.
+En *opgave* er en opfølgning uden starttidspunkt. Den har normalt heller ingen varighed, men den har altid en **frist**. Skal udføres bruges til opgaver, der skal huskes inden en bestemt tid.
 
-Som standard finder du skal udføres på dagbogens "to-do"-liste, hvor de kan markeres som færdige, når de er udført. Hvis du angiver et start- og sluttidspunkt for en opgave, indføres den i dagbogen på det korrekte tidspunkt.
+Som standard findes opgaver i dagbogens "to-do"-liste, hvor de kan markeres som færdige, når de er afsluttet. Hvis du angiver en start- og sluttid for en opgave, vil den blive placeret i dagbogen på det angivne tidspunkt.
 
-## <a id="call"></a>Opfølging (samtale)
+## <a id="call"></a>Opfølgning (telefonopkald)
 
-En *samtale* repræsenterer en meget specifik handling - telefonopkaldet - og er en hybrid mellem et møde og en to-do:
+Et *telefonopkald* er en specifik handling og fungerer som en hybrid mellem et møde og en opgave:
 
-* Når du først planlægger et opkald, befinder det sig på "to-do"-listen med en deadline, ligesom en opgave.
-* Når du foretager opkaldet, fastsættes det på et tidspunkt og ligner nu en aftale.
-  * Starttidspunktet bliver det nuværende tidspunkt og dagens dato.
+* Når du planlægger et opkald, befinder det sig i to-do-listen med en deadline, ligesom en opgave.
+* Når opkaldet foretages, får det en fastlagt starttid og ligner nu et møde.
+  * Starttidspunktet bliver det aktuelle tidspunkt og dags dato.
   * Standardvarigheden er 15 minutter.
 
 ## Standardvarighed
 
-Standardvarigheden er 1 timefor et møde og 15 minutter for en samtale. For at ændres standardværdier:
+Standardvarigheden er 1 time for et møde og 15 minutter for et opkald. For at ændre standardværdien:
 
-1. Gå til ![ikon][img14] **Personlige indstillinger** og vælg **Præferencer**.
-1. Vælg **Bibehold standardværdier**.
-1. Indtast en værdi for én eller begge af disse værdier og klik **Gem**.
-    * **Varighed for ny aftale**
-    * **Varighed for ny samtale**
+1. Gå til <i class="ph ph-user-circle"></i> **Personlige indstillinger** og vælg **Præferencer**.
+1. Vælg **Standardværdier**.
+1. Indtast en værdi for en eller begge af følgende værdier, og klik **Gem**.
+    * **Varighed for nyt møde**
+    * **Varighed for ny opfølgning**
 
 ## <a id="more-tab"></a>Fanen Mere
 
@@ -99,23 +105,11 @@ Standardvarigheden er 1 timefor et møde og 15 minutter for en samtale. For at �
 
 ## Relateret indhold
 
-* [Oprettelse af opfølginger][2]
-* [Få mere at vide om aktiviteter][4]
+* [Opret en opfølgning][2]
+* [Lær om aktiviteter][4]
 
 <!-- Referenced links -->
 [2]: create-follow-up.md
 [4]: ../../learn/basics/activity.md
 [5]: invitation/index.md
 [12]: ../../custom-objects/learn/more-tab.md
-
-<!-- Referenced images -->
-[img2]: ../../../../common/icons/diary-alarm.png
-[img3]: ../../../../common/icons/title.png
-[img4]: ../../../../common/icons/diary-recurring-transparent.png
-[img5]: ../../../../common/icons/sale.png
-[img6]: ../../../../common/icons/singlecolour/project.png
-[img7]: ../../../../common/icons/singlecolour/contact.png
-[img8]: ../../../../common/icons/person.png
-[img9]: ../../../../common/icons/associate-current.png
-[img10]: ../../../../common/icons/now.png
-[img14]: ../../../media/icons/personal-settings-small.png

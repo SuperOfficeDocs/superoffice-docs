@@ -1,40 +1,61 @@
 ---
 uid: help-da-diary-other
 title: Se en anden dagbog
-description: Se andres dagbog.
+description: Du kan skifte til en anden brugers eller en ressources dagbog for at tjekke tilgængelighed, planlægge opfølgninger eller administrere deres opgaver.
+keywords: dagbogsejer, skift dagbogsejer, se en anden dagbog, se en ressources dagbog, dagbog, opfølgning, ressource, ejer, dagbogsejerlisten
 author: Bergfrid Dias
-date: 10.05.2023
-keywords: dagbog, opfølgning, ressource, ejer
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
 # Se en anden dagbog
 
-Hvis du klikker på en brugers eller en ressources navn, bliver denne bruger eller ressource ejer af dagbogen, og du kommer direkte til fanen **Dag** den pågældende bruger eller ressource. Når du vil gå tilbage til din egen dagbog, vælger du dit navn på dagbogsejerlisten.
+Du kan skifte til en anden brugers eller en ressources dagbog for at tjekke tilgængelighed, planlægge opfølgninger eller administrere deres opgaver.
 
-1. Klik på dit navn på en vilkårlig fane på skærmen Dagbog. Der vises en liste med andre ressourcer, brugergrupper og brugere, der har forbindelse til netværket. Dette kaldes dagbogens *ejerliste*.
+## Hvilken dagbog ser jeg?
+
+Når du ser en dagbog, vises ejeren i øverste højre hjørne af kalenderen. Du kan også identificere, om du ser din egen dagbog, en anden brugers dagbog eller en ressources dagbog baseret på følgende visuelle markeringer:
+
+* **Din egen dagbog:** Viser dit navn med en lysegrå kant og symbolet <i class="ph ph-user" aria-label="Brugerikon"></i> i grønt.
+
+* **En anden brugers dagbog:** Viser brugerens navn med en rød kant og symbolet <i class="ph ph-user" aria-label="Brugerikon"></i> i blåt.
+
+* **En ressources dagbog:** Viser ressourcens navn med en blå kant og symbolet <i class="ph ph-chair" aria-label="Ressourceikon"></i>.
+
+Disse markeringer gør det nemt at bekræfte, hvis dagbog du administrerer eller ser.
+
+## Skift dagbogsejer
+
+1. Klik på dit navn i øverste højre hjørne af skærmbilledet Dagbog. En liste med brugere, brugergrupper og ressourcer i systemet vises. Denne liste kaldes *dagbogsejerlisten*.
 
     > [!TIP]
-    > Ved hjælp af FastSearcher kan du søge efter brugere efter navn eller bruger-id.
+    > Begynd at skrive for hurtigt at finde brugere efter navn eller bruger-ID.
 
-2. Vælg en ressource eller bruger direkte, eller klik på et ![brugergruppeikon][img1]. Du kan derefter vælge fra en liste over alle personer, der er knyttet til denne gruppe SuperOffice CRM-brugere.
+1. Vælg en ressource eller bruger direkte fra listen, eller klik på en brugergruppe (<i class="ph ph-caret-right" aria-label="Pil"></i>) for at se alle brugere i den gruppe.
 
-3. Dagbogen for den anden bruger eller ressource åbnes, og deres navn (ikke dit eget) vises øverst til højre på dagbogsskærmen. Listen over aktiviteter for den anden bruger eller ressource vises også.
+    ![Skift ejer i Dagbogens header -screenshot][img1]
 
-> [!NOTE]
-> Andre brugere vises med ikonet ![ikon][img2] og rød understregning. Ressourcer vises med ikonet ![ikon][img3] og blå understregning.
+1. Dagbogen opdateres for at vise den valgte brugers eller ressourcens kalender og aktivitetsliste. Deres navn vises i øverste højre hjørne.
 
-Når du åbner en anden brugers eller ressources dagbog, kan du skifte mellem de forskellige faner som i din egen dagbog, og du kan [oprette opfølgninger][2] i deres dagbøger ved at klikke og vælge tidsperioder med musen, forudsat at du har adgangsrettighederne.
+    Du kan bruge alle standardfaner (**Dag**, **Uge**, **Måned** eller **Oversigt**) og oprette opfølgninger i deres kalender ved at vælge tidsrum, forudsat at du har de nødvendige adgangsrettigheder.
 
-## Hvad vil du foretage dig nu?
+1. For at vende tilbage til din egen dagbog skal du klikke på dit navn i dagbogsejerlisten.
 
-* [Opret aftale][2]
+## Relateret indhold
+
+* [Opret møde][2]
+* [Tildel opfølgning][1]
+* [Gruppevisning – se flere dagbøger][3]
 
 <!-- Referenced links -->
-[2]: create-follow-up.md
+[1]: follow-up-assign.md
+[2]: create-follow-up.md#associate
+[3]: group-view.md
 
 <!-- Referenced images -->
-[img1]: ../../../../common/icons/menu-arrow.png
-[img2]: ../../../media/icons/diary-owner-person.png
-[img3]: ../../../media/icons/diary-owner-resource.png
+[img1]: ../../../media/loc/en/diary/change-diary-owner.png

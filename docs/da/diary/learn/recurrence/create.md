@@ -2,11 +2,14 @@
 uid: help-da-recurrence-set
 title: Planlæg gentagen opfølgning
 description: Planlæg gentagen opfølgning
+keywords: gentagen opfølgning, repeterende opfølgning, repeterende møde, repeterende aftale, tilbagevendende, repeter, mødefrekvens, opfølgningsmønster, mødeserie, dagbog, opfølgning, gentag
 author: Bergfrid Dias
-date: 05.21.2024
-version: 10.3.6
-keywords: dagbog, opfølgning, gentag
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
@@ -14,13 +17,11 @@ language: da
 
 At opsætte gentagelse betyder at planlægge *startdatoen* for opfølgningsmøder i en serie.
 
-[!include[Caution](../includes/caution-do-not-change-recurring-date.md)]
-
 ## Trin
 
 1. [Åbn eller opret en opfølgning][2].
 
-1. Klik på gentagelsesikonet ![ikon][img1] og vælg en af de foreslåede frekvenser. Hvis ingen af mønstrene passer for dig, vælg **Tilpasset**.
+1. Klik på <i class="ph ph-arrows-clockwise" aria-label="Repeat"></i> og vælg en af de foreslåede frekvenser. Hvis ingen af mønstrene passer for dig, vælg **Tilpasset**.
 
     ![Opfølgningsdialog, foreslået tilbagevendende -screenshot][img8]
 
@@ -40,6 +41,8 @@ At opsætte gentagelse betyder at planlægge *startdatoen* for opfølgningsmøde
 
 1. Klik **Gem** i **Opfølgnings**-dialogen for at gemme alle ændringer.
 
+[!include[Caution](../includes/caution-do-not-change-recurring-date.md)]
+
 ## Hvad ønsker du at få mere at vide om?
 
 * [Redigering af gentagne opfølgninger][1]
@@ -51,6 +54,5 @@ At opsætte gentagelse betyder at planlægge *startdatoen* for opfølgningsmøde
 [3]: stop.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/refresh-icon.png
 [img7]: ../../../../media/loc/en/diary/recurrence-selected-dates.png
 [img8]: ../../../../media/loc/en/diary/suggested-pattern.png

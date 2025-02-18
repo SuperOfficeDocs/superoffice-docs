@@ -1,107 +1,127 @@
 ---
 uid: help-da-diary-group-view
 title: Gruppevisning
-description: gruppevisning; Oprette dagbogsvisninger; Ny gruppeoversigt
+description: Gruppevisningen i Dagbogen giver dig mulighed for at se og administrere flere brugeres eller ressourcers kalendere i én samlet visning.
+keywords: tilføj gruppevisning, ny gruppevisning, rediger gruppevisning, fanen Oversigt, dagbog, opfølgning, gruppevisning
 author: Bergfrid Dias
-date: 10.03.2023
-keywords: dagbog, opfølgning, gruppevisning
+date: 02.21.2025
+version: 10.5.2
 topic: howto
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
 # Gruppevisning
 
-Du kan vælge brugere og ressourcer, som du vil se dagbogen for, og gemme oversigterne i listen **Vis** under et navn du selv vælger.
+**Gruppevisningen** i Dagbogen giver dig mulighed for at se og administrere flere brugeres eller ressourcers kalendere i én samlet kalenderoversigt. Gruppevisninger gør det nemt at planlægge, tjekke tilgængelighed og oprette opfølgninger direkte for kolleger eller ressourcer.
 
 ## Se flere dagbøger
 
-1. Klik på fanen **Oversigt** i skærmbilledet Dagbog.
+1. Gå til fanen **Oversigt** i skærmbilledet Dagbog.
 
-2. Klik på rullelisten **Vis** nederst på skærmbilledet Dagbog. Dette viser en liste over alle de grupper og ressourcer, der er konfigureret i organisationen.
+1. Vælg en gruppe fra listen (<i class="ph ph-caret-down" aria-label="Dropdown-ikon"></i>).
 
-3. Vælg den ønskede gruppe på listen. Fanen **Vis** indeholder nu dagbøgerne for alle brugere og ressourcer i den valgte brugergruppe.
+   * Foruddefinerede grupper er baseret på din organisations opsætning og inkluderer brugergrupper eller ressourcer, såsom afdelinger eller mødelokaler.
 
-## Opret en gruppevisning
+1. De valgte brugeres eller ressourcers dagbøger vises i fanen **Oversigt**, hvor du kan se deres skemaer eller planlægge opfølgninger.
 
-1. Klik på fanen **Oversigt** i skærmbilledet Dagbog.
+## Opret en ny gruppevisning
 
-1. Klik på knappen **Opgave** ![ikon][img5] nederst til højre, og vælg **Ny gruppevisning**.
+1. Gå til fanen **Oversigt** i skærmbilledet Dagbog.
 
-    > [!NOTE]
-    > Hvis du vil redigere en eksisterende visning, skal du klikke på **Rediger**. [Du kan kun ændre gruppevisninger, der er oprettet af dig.](#troubleshoot)  Hvis du vil kopiere en eksisterende visning, skal du klikke på **Kopier**.
+1. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Opgavemenu"></i> og vælg **Ny gruppevisning**.
 
-1. Indtast de ønskede oplysninger i dialogboksen **Ny gruppeoversigt** i felterne **Navn** og **Beskrivelse**.
+    Alternativt kan du vælge **Kopier** for at basere den nye visning på en eksisterende.
 
-1. Vælg, om du vil vise dagbøger for **Medarbejdere**, **Projekt** eller **Ressource**, i feltet **Vælg fra**. Indholdet i listen under feltet **Vælg fra** varierer, afhængigt hvad du har valgt.
+1. I dialogboksen **Ny gruppevisning** skal du indtaste et **Navn** og en valgfri **Beskrivelse** for gruppevisningen.
 
-1. Marker de ønskede brugere/ressourcer, og klik på højrepilen ![ikon][img2] for at føje dem til vinduet til højre. Du kan også tilføje brugere og ressourcer enkeltvist ved at dobbeltklikke på dem.
+    ![Dialogboksen Ny gruppevisning i skærmbilledet Dagbog -screenshot][img1]
 
-1. I vinduet til højre vises alle brugere og ressourcer, som du har føjet til gruppeoversigten. Hvis du vil fjerne en bruger eller en ressource fra denne liste, skal du markere den og klikke på **Slet**.
+1. Vælg, hvilke brugere og ressourcer der skal inkluderes i gruppevisningen. Du har flere muligheder:
 
-1. De brugere og ressourcer, du har valgt, vises i gruppeoversigten i den rækkefølge, de vises i vinduet til højre. Hvis du vil redigere rækkefølgen af dem, kan du markere en bruger eller ressource og klikke på pil op ![ikon][img3] eller pil ned ![ikon][img4] for at flytte den op eller ned.
+    * **Medarbejdere:** Vælg en bruger fra din organisation, og klik derefter på <i class="ph ph-caret-circle-right" aria-label="Pil højre"></i> for at tilføje dem til visningen. Du kan filtrere listen efter brugergruppe for nemmere at finde personer.
 
-1. Klik på **Gem**, når du er færdig med at vælge brugere og ressourcer, eller klik på **Afbryd** for at lukke dialogboksen uden at gemme. Du kommer nu tilbage til fanen **Oversigt** og kan blandt andet oprette aftaler for andre medarbejdere.
+    * **Projekt:** Vælg et projekt, vælg en projektdeltager, og klik derefter på <i class="ph ph-caret-circle-right" aria-label="Pil højre"></i> for at tilføje dem til visningen.
+
+    * **Ressource:** Vælg en ressource, såsom et mødelokale eller udstyr, og klik derefter på <i class="ph ph-caret-circle-right" aria-label="Pil højre"></i> for at tilføje den til visningen.
+
+    > [!TIP]
+    > Klik på **Vælg alle** for at markere alle personer på listen og tilføje dem til visningen med ét klik.
+
+1. Juster rækkefølgen af gruppens deltagere, hvis det er nødvendigt: Vælg en person eller ressource, og brug <i class="ph ph-caret-circle-up" aria-label="Flyt op"></i> og <i class="ph ph-caret-circle-down" aria-label="Flyt ned"></i> for at ændre deres placering. Denne rækkefølge bestemmer, hvordan de vises i fanen **Oversigt**.
+
+1. Klik på **Gem** for at oprette gruppevisningen, eller klik på **Afbryd** for at forlade uden at gemme ændringer.
 
 > [!TIP]
-> Hvis du vil slette den aktive gruppeoversigt, skal du klikke på knappen **Opgave** nederst til højre og vælge **Slet gruppeoversigt**.
+> Brug menuen **Opgave** til at administrere eksisterende gruppevisninger. Du kan **kopiere** foruddefinerede grupper samt **redigere** eller **slette** grupper, du har oprettet.
 
-## <a id="fields"></a>Felter
+## Hvilke dagbøger kan jeg inkludere?
 
-### Navn
+Når du opretter en gruppevisning, kan du inkludere en kombination af medarbejdere, ressourcer eller projektdeltagere:
 
-Her står navnet på den oversigt, du redigerer. Du kan ændre oversigtens navn.
+* **Medarbejdere:** Tilføj teammedlemmer eller kolleger for at følge med i deres skemaer.
+* **Projektdeltagere:** Inkluder medlemmer af et specifikt projekt for at fokusere på teamets tilgængelighed.
+* **Ressourcer:** Tilføj fælles ressourcer såsom mødelokaler eller udstyr. Ressourcelisten defineres i Indstillinger og vedligeholdelse.
 
-### Beskrivelse
+## Indstillinger i Opgave-menuen <i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>
 
-Her kan du tilføje en beskrivelse af oversigten.
+Menuen **Opgave** giver følgende muligheder for administration af gruppevisninger:
 
-### Vælg fra
+| Indstilling | Beskrivelse |
+|---|---|
+| Rediger | Rediger en gruppevisning, du har oprettet. Foruddefinerede gruppevisninger kan ikke redigeres. |
+| Ny gruppevisning | Opret en ny brugerdefineret gruppevisning. |
+| Kopier | Dupliker en eksisterende gruppevisning. |
+| Slet gruppevisning | Fjern en gruppevisning, du har oprettet. |
+| Inviter deltagere | Tilføj deltagere til en opfølgning direkte fra gruppevisningen. |
+| Hjælp | Åbn brugervejledningen (denne side). |
 
-* Vælg **Medarbejdere**, hvis du vil tilføje brugere fra din organisation til oversigten.
-* Vælg **Projekt**, hvis du vil tilføje projektdeltagere fra din organisation til oversigten.
-* Vælg **Ressource**, hvis du vil tilføje ressourcer, for eksempel møderum og projektorer, fra din organisation til oversigten.
+## Rediger en gruppevisning
 
-### Rullemenu
+Du kan redigere gruppevisninger, som du selv har oprettet. Foruddefinerede gruppevisninger kan ikke ændres. Følg disse trin for at opdatere en gruppevisning:
 
-Når du har valgt en indstilling **Vælg fra**, vises en liste nedenunder. Indholdet i denne liste varierer efter, hvad du har valgt i forrige trin:
+1. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Opgavemenu"></i> og vælg **Rediger**.
 
-* Hvis du valgte **Medarbejdere**, vises en oversigt over brugergrupperne i organisationen. Du kan også vælge **Alle**, hvis du vil vise alle brugere i organisationen.
+1. I dialogboksen **Rediger gruppevisning**:
 
-* Hvis du valgte **Projekt**, vises historiklisten over projekter.
+    * **Tilføj personer eller ressourcer:** Vælg dem fra listen og klik på <i class="ph ph-caret-circle-right" aria-label="Pil højre"></i>.
 
-* Hvis du valgte **Ressource**, vises en liste over ressourcer i din organisation. Denne liste defineres i Indstillinger og vedligeholdelse. Vælg **Alle**, hvis du vil have vist alle ressourcerne i organisationen.
+    * **Fjern personer eller ressourcer:** Vælg dem fra højre panel og klik på <i class="ph ph-caret-circle-left" aria-label="Pil venstre"></i>.
 
-### Vinduet til venstre
+    * **Ændr rækkefølge:** Vælg en post, og brug <i class="ph ph-caret-circle-up" aria-label="Flyt op"></i> og <i class="ph ph-caret-circle-down" aria-label="Flyt ned"></i>.
 
-Her kan du se listen over tilgængelige brugere og/eller ressourcer, som kan føjes til gruppeoversigten. Marker de ønskede brugere/ressourcer, og klik på højrepilen ![ikon][img2] for at føje dem til vinduet til højre.
+1. Klik på **Gem** for at anvende ændringerne, eller klik på **Afbryd** for at forlade uden at gemme.
 
-> [!NOTE]
-> Du kan også tilføje brugere og ressourcer enkeltvist ved at dobbeltklikke på dem.
+### <a id="troubleshoot"></a>Hvorfor er Rediger-indstillingen ikke tilgængelig?
 
-Klik på **Marker alle** ![ikon][img6], hvis du vil markere alle brugerne/ressourcerne på listen ovenfor. Klik på **Fravælg alle** ![ikon][img7], hvis du vil fjerne markeringen af alle brugere eller ressourcer.
+Du kan kun redigere gruppevisninger, som du selv har oprettet. Foruddefinerede gruppevisninger, såsom dem oprettet af administratorer eller defineret i Indstillinger og vedligeholdelse, kan ikke ændres. For at foretage ændringer:
 
-### Vinduet til højre
+1. Klik på **Opgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-label="Opgavemenu"></i>) og vælg **Kopier**.
 
-Her vises alle brugere og ressourcer, som du har føjet til gruppeoversigten. Hvis du vil fjerne en bruger eller en ressource fra denne liste, skal du markere den og klikke venstrepilen ![ikon][img1]. De brugere og ressourcer, du har valgt, vises i gruppeoversigten i den rækkefølge, de vises i vinduet til højre. Hvis du vil redigere rækkefølgen af dem, kan du markere en bruger eller ressource og klikke på pil op ![ikon][img3] eller pil ned ![ikon][img4] for at flytte den op eller ned.
+1. Gem den nye gruppevisning under et andet navn.
 
-## <a id="troubleshoot"></a>Hvorfor er knappen Rediger nedtonet?
+1. Rediger den kopierede gruppevisning efter behov.
 
-Du kan kun ændre gruppevisninger, der er oprettet af dig. I en foruddefineret gruppeoversigt, er knappen **Rediger** nedtonet, hvilket angiver, at du ikke kan ændre den herfra. Disse gruppeoversigter indeholder alle brugere, som er tildelt de bestemte grupper. [!include[SM](../../learn/includes/are-defined-sm.md)]
+## Slet en gruppevisning
 
-Hvis du vil redigere og gemme en forhåndsdefineret liste, skal du vælge **Kopier** og gemme oversigten med et nyt navn.
+Du kan kun slette gruppevisninger, du selv har oprettet. Foruddefinerede gruppevisninger kan ikke fjernes.
+
+1. Klik på **Opgave**-knappen (<i class="ph ph-dots-three-circle-vertical" aria-label="Opgavemenu"></i>) i fanen **Oversigt**.
+
+1. Vælg **Slet gruppevisning** fra menuen.
+
+1. Bekræft sletningen i dialogboksen ved at vælge **Ja**.
 
 ## Relateret indhold
 
-* [Oprettelse af aftaler for andre medarbejdere][4]
+* [Lær om fanen Oversigt][2]
+* [Opret opfølgning for en medarbejder][4]
 
 <!-- Referenced links -->
+[2]: index.md#tabs
 [4]: create-follow-up.md#associate
 
 <!-- Referenced images -->
-[img1]: ../../../media/icons/arrow-left.png
-[img2]: ../../../media/icons/arrow-right.png
-[img3]: ../../../media/icons/arrow-up.png
-[img4]: ../../../media/icons/arrow-down.png
-[img5]: ../../../media/icons/btn-menu.png
-[img6]: ../../../media/icons/select-all.png
-[img7]: ../../../media/icons/unselect-all.png
+[img1]: ../../../media/loc/en/diary/new-group-view.png

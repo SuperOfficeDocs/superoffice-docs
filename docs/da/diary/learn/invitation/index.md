@@ -2,11 +2,14 @@
 uid: help-da-invitation
 title: Oprettelse af opfølgninger med dine medarbejdere
 description: Oprettelse af opfølgninger med dine medarbejdere
-author: Bergfrid Dias
-date: 12.12.2023
-version: 10.2.11
 keywords: dagbog, opfølgning, invitation, møde
-topic: howto
+author: Bergfrid Dias
+date: 02.21.2025
+version: 10.5.2
+topic: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
@@ -14,21 +17,21 @@ language: da
 
 Invitationer bliver oprettet, når du indkalder til møder eller andre arrangementer mellem forskellige medlemmer af en virksomhed. Du inviterer adskillige kolleger eller ressourcer til at deltage. Når en invitation bliver accepteret, vil den blive vist i brugerens dagbog.
 
-Hvis du vil allokere tid til et møde med en eller flere medarbejdere, skal du bruge fanen **Vis** på skærmbilledet Dagbog. Her kan du åbne dine medarbejderes dagbøger for at se, hvornår dine kolleger er tilgængelige til et møde. Derudover kan du vælge at få vist ressourcer som mødelokaler for at se, hvornår de er ledige, og oprette en fælles reservation for alle fra din egen dagbog.
+Hvis du vil allokere tid til et møde med en eller flere medarbejdere, skal du bruge fanen **Oversigt** på skærmbilledet Dagbog. Her kan du åbne dine medarbejderes dagbøger for at se, hvornår dine kolleger er tilgængelige til et møde. Derudover kan du vælge at få vist ressourcer som mødelokaler for at se, hvornår de er ledige, og oprette en fælles reservation for alle fra din egen dagbog.
 
 Opfølgninger med medarbejdere oprettes ved at knytte dem som deltagere til opfølgningen.
 
-Når vi gemmer mødet, vil der blive tilføjet en invitation til den person, vi har inviteret, og den vil blive vist i vedkommendes dagbog på den passende dato og tidspunkt. Dette sker kun, hvis den inviterede person også er en kollega. Du kan også invitere personer, der hører til andre kontakter; disse vil ikke have en dagbog, hvor mødet vises, men det vil i stedet blive vist i aktivitetsarkivet for deres kontakt.
+Når vi gemmer mødet, vil der blive tilføjet en invitation til den person, vi har inviteret, og den vil blive vist i vedkommendes dagbog på den passende dato og tidspunkt. Dette sker kun, hvis den inviterede person også er en kollega. Du kan også invitere personer, der hører til andre firma; disse vil ikke have en dagbog, hvor mødet vises, men det vil i stedet blive vist i Detaljekortet **Aktiviteter** på deres personkort.
 
 ## <a id="status"></a>Status
 
 De brugere, du har valgt at knytte til en opfølgning, får en meddelelse om dette på skærmen. Hvis du åbner opfølgningen på fanen **Deltagere**, får du vist en oversigt over de deltagere og ressourcer, der er tilknyttet til opfølgningen. Her kan du også se, hvem der har accepteret eller afvist invitationen, og hvilke ressourcer der er reserveret, ved hjælp af symbolerne ved siden af navnene:
 
-| Ikon | Beskrivelse |
+| Symbol | Beskrivelse |
 |:-:|---|
-| ![ikon][img1] | Invitation accepteres. |
-| ![ikon][img2] | Invitation afvises |
-| ![ikon][img3] | Invitationen er set, men ikke besvaret. |
+| <i class="ph ph-check" aria-label="Checkmark"></i> | Invitation accepteres. |
+| <i class="ph ph-x" aria-label="Red X"></i> | Invitation afvises |
+| <i class="ph ph-eye" aria-label="Eye"></i> | Invitationen er set, men ikke besvaret. |
 | ikke markeret | Invitationen er ikke læst. |
 
 ## Ressourcer
@@ -45,7 +48,7 @@ Når du sender en invitation, kan modtageren af invitationen enten acceptere ell
 
 * Hvis personen accepterer invitationen, registreres den i SuperOffice CRM på normal vis.
 
-## Hvad ønsker du at foretage dig nu?
+## Relateret indhold
 
 * [Tilføjelse af deltagere i opfølgninger][2]
 * [Oprettelse af gruppeoversigter][1]
@@ -53,8 +56,3 @@ Når du sender en invitation, kan modtageren af invitationen enten acceptere ell
 <!-- Referenced links -->
 [1]: ../group-view.md
 [2]: add-attendee.md
-
-<!-- Referenced images -->
-[img1]: ../../../../../common/icons/check-black.png
-[img2]: ../../../../../common/icons/reject-appointment-icon.png
-[img3]: ../../../../../common/icons/assignment-seen.png
